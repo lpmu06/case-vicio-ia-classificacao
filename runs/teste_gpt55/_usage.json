@@ -1,0 +1,14 @@
+{
+ "uso": {
+  "in": 20837,
+  "out": 2560,
+  "cache_w": 0,
+  "cache_r": 57600,
+  "custo_usd": 0.0
+ },
+ "segundos": 20,
+ "erros": [],
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium"
+}

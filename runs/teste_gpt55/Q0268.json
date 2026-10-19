@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "ramo_n1_id": "5062",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5116",
+ "extras_ids": [
+  "5116",
+  "5120",
+  "4684"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão cobra alternativas sobre crimes diferentes: falsidade ideológica/uso de documento falso, abuso de autoridade e crimes contra a honra. Como não há um subtema único e a maioria das assertivas é de Direito Penal comum, o melhor enquadramento é no ramo Penal, com marcação de multi-tema.",
+ "id": "Q0268",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 380,
+  "out": 664,
+  "cache_w": 0,
+  "cache_r": 19200,
+  "custo_usd": null
+ }
+}

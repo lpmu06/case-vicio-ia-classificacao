@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "ramo_n1_id": "4365",
+ "subtema_n2_id": "4378",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a seletividade do sistema penal e a maior probabilidade de determinados grupos pobres serem criminalizados, núcleo da criminalização secundária. Embora dialogue com criminologia crítica, o foco direto é o processo de criminalização, não teorias da pena.",
+ "id": "Q0002",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 292,
+  "out": 644,
+  "cache_w": 0,
+  "cache_r": 19200,
+  "custo_usd": null
+ }
+}

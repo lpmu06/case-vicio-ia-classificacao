@@ -1,0 +1,14 @@
+{
+ "uso": {
+  "in": 2,
+  "out": 1192,
+  "cache_w": 77262,
+  "cache_r": 0,
+  "custo_usd": 0.322262
+ },
+ "segundos": 16,
+ "erros": [],
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium"
+}
