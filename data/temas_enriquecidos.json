@@ -3682,5 +3682,3207 @@
    "Convenção de Belém do Pará"
   ],
   "nao_confundir": "Não confundir com ameaça e perseguição (5130): se a questão descreve apenas promessa de mal grave ou stalking reiterado, sem exigir o dano emocional típico do art. 147-B CP, o tema é 5130. Também não confundir com lesão corporal (5077), que exige ofensa à integridade corporal ou saúde física/mental nos termos do art. 129 CP, nem com crimes contra a honra (5120), quando o núcleo é caluniar, difamar ou injuriar."
+ },
+ "5149": {
+  "descricao": "Abrange o conjunto dos crimes do Título I, Capítulo I, do Código Penal, cujo bem jurídico central é a vida humana intrauterina ou extrauterina. Em provas, costuma envolver a identificação do tipo penal adequado, distinção entre homicídio, feminicídio, infanticídio, aborto e participação em suicídio/automutilação, além de qualificadoras, causas de aumento, formas privilegiadas e hipóteses legais de exclusão de punição.",
+  "palavras_chave": [
+   "crimes contra a vida",
+   "vida humana",
+   "homicídio",
+   "feminicídio",
+   "infanticídio",
+   "aborto",
+   "suicídio",
+   "automutilação",
+   "qualificadoras",
+   "motivo torpe",
+   "motivo fútil",
+   "meio cruel",
+   "privilégio",
+   "estado puerperal",
+   "Tribunal do Júri"
+  ],
+  "dispositivos": [
+   "arts. 121 a 128 CP",
+   "art. 121 CP",
+   "art. 121-A CP",
+   "art. 122 CP",
+   "art. 123 CP",
+   "arts. 124 a 128 CP",
+   "art. 5º, XXXVIII, CF",
+   "Lei 8.072/1990, art. 1º"
+  ],
+  "nao_confundir": "Não confundir com 5077, que trata de lesões corporais: se o resultado morte decorre de dolo de matar, ainda que tentado, o tema é crimes contra a vida; se há apenas ofensa à integridade corporal ou morte culposa preterdolosa na lesão, tende a ser 5077. Também não confundir com 5138, que protege a vida e saúde em situações de perigo, sem resultado morte doloso, e com 5157 quando a morte é meio para crime patrimonial, como latrocínio."
+ },
+ "5154": {
+  "descricao": "Cobre os crimes de aborto previstos no Código Penal: aborto provocado pela gestante ou com seu consentimento, aborto provocado por terceiro com ou sem consentimento, além das hipóteses de aborto permitido. As provas exploram muito a diferença entre vida intrauterina e extrauterina, o consentimento da gestante, as causas de aumento por lesão grave ou morte e as hipóteses de aborto necessário, sentimental e anencefalia.",
+  "palavras_chave": [
+   "aborto",
+   "gestante",
+   "consentimento da gestante",
+   "autoaborto",
+   "aborto provocado por terceiro",
+   "sem consentimento",
+   "com consentimento",
+   "aborto necessário",
+   "aborto sentimental",
+   "gravidez resultante de estupro",
+   "anencefalia",
+   "vida intrauterina",
+   "produto da concepção",
+   "morte da gestante",
+   "lesão corporal grave"
+  ],
+  "dispositivos": [
+   "art. 124 CP",
+   "art. 125 CP",
+   "art. 126 CP",
+   "art. 127 CP",
+   "art. 128 CP",
+   "ADPF 54 STF",
+   "art. 5º, caput, CF"
+  ],
+  "nao_confundir": "Não confundir com 5150 e 5153: se a vítima já nasceu com vida, a discussão tende a ser homicídio ou infanticídio; se ainda há vida intrauterina, o tema é aborto. Também se distingue de 5102 quando a questão trata do estupro apenas como pressuposto do aborto legal, caso em que o foco penal é o art. 128, II, CP."
+ },
+ "5151": {
+  "descricao": "Trata do feminicídio como crime contra a vida praticado contra a mulher por razões da condição do sexo feminino, atualmente previsto como tipo penal autônomo no Código Penal. Em provas, aparecem as hipóteses de violência doméstica e familiar, menosprezo ou discriminação à condição de mulher, causas de aumento, qualificadoras compatíveis e natureza hedionda.",
+  "palavras_chave": [
+   "feminicídio",
+   "mulher",
+   "razões da condição do sexo feminino",
+   "violência doméstica e familiar",
+   "menosprezo à condição de mulher",
+   "discriminação contra a mulher",
+   "crime hediondo",
+   "medida protetiva",
+   "gestante",
+   "descendente",
+   "ascendente",
+   "pessoa com deficiência",
+   "violência de gênero",
+   "Lei Maria da Penha"
+  ],
+  "dispositivos": [
+   "art. 121-A CP",
+   "Lei 8.072/1990, art. 1º",
+   "Lei 11.340/2006",
+   "art. 5º, I, CF",
+   "art. 226, §8º, CF"
+  ],
+  "nao_confundir": "Não confundir com 5150: após a Lei 14.994/2024, feminicídio tem tratamento próprio no art. 121-A CP, embora continue sendo crime contra a vida; se a morte não envolve razões da condição do sexo feminino, o enquadramento é homicídio. Também não confundir com 5131, que trata de violência psicológica contra a mulher sem morte, e com 4704 quando o foco for a Lei Maria da Penha como legislação especial."
+ },
+ "5150": {
+  "descricao": "Abrange o homicídio simples, privilegiado, qualificado e culposo, bem como suas causas de aumento e diminuição. Nas provas, o tema aparece em questões sobre animus necandi, tentativa, compatibilidade entre privilégio e qualificadoras, homicídio funcional, emprego de meio cruel, recurso que dificulta defesa da vítima e distinção entre homicídio doloso, culposo e lesão corporal seguida de morte.",
+  "palavras_chave": [
+   "homicídio",
+   "matar alguém",
+   "animus necandi",
+   "homicídio simples",
+   "homicídio privilegiado",
+   "homicídio qualificado",
+   "homicídio culposo",
+   "motivo torpe",
+   "motivo fútil",
+   "meio cruel",
+   "recurso que dificultou a defesa",
+   "emboscada",
+   "traição",
+   "paga ou promessa de recompensa",
+   "tentativa de homicídio"
+  ],
+  "dispositivos": [
+   "art. 121 CP",
+   "art. 14, II, CP",
+   "art. 18 CP",
+   "art. 61 CP",
+   "art. 65 CP",
+   "Lei 8.072/1990, art. 1º",
+   "Súmula 610 STF"
+  ],
+  "nao_confundir": "Não confundir com 5151 quando a morte de mulher decorre de razões da condição do sexo feminino, hipótese de feminicídio. Também não confundir com 5077: na lesão corporal seguida de morte não há dolo de matar, mas dolo de lesionar e culpa no resultado morte; no homicídio, há dolo de matar ou culpa diretamente ligada à morte. Se a morte ocorre para subtração patrimonial, o tema material costuma ser 5157, latrocínio, e não homicídio."
+ },
+ "5152": {
+  "descricao": "Cobre o crime de induzimento, instigação ou auxílio a suicídio ou a automutilação. As provas cobram a diferença entre induzir, instigar e auxiliar, a necessidade de resultado lesão grave, gravíssima ou morte para certas formas, as majorantes envolvendo vítima vulnerável e o tratamento legal após a inclusão da automutilação no art. 122 do Código Penal.",
+  "palavras_chave": [
+   "induzimento ao suicídio",
+   "instigação ao suicídio",
+   "auxílio ao suicídio",
+   "automutilação",
+   "suicídio",
+   "lesão grave",
+   "lesão gravíssima",
+   "morte da vítima",
+   "vítima vulnerável",
+   "menor de idade",
+   "motivo egoístico",
+   "internet",
+   "rede social",
+   "grupo virtual",
+   "pacto suicida"
+  ],
+  "dispositivos": [
+   "art. 122 CP",
+   "art. 129, §§1º e 2º, CP",
+   "Lei 13.968/2019",
+   "art. 14 CP",
+   "art. 18 CP"
+  ],
+  "nao_confundir": "Não confundir com 5150: se o agente executa diretamente o ato de matar a vítima, há homicídio; no art. 122, o próprio ofendido pratica o ato contra si, com induzimento, instigação ou auxílio de terceiro. Também não confundir com 5138 quando houver mera exposição a perigo sem indução, instigação ou auxílio voltado ao suicídio ou à automutilação."
+ },
+ "5153": {
+  "descricao": "Trata do infanticídio, consistente em matar o próprio filho, durante o parto ou logo após, sob influência do estado puerperal. Em concursos, o foco é a condição especial da autora, o momento temporal do parto ou logo após, o conceito de estado puerperal, a distinção em relação ao homicídio e a comunicabilidade da elementar em concurso de pessoas.",
+  "palavras_chave": [
+   "infanticídio",
+   "estado puerperal",
+   "próprio filho",
+   "durante o parto",
+   "logo após o parto",
+   "mãe",
+   "nascente",
+   "neonato",
+   "recém-nascido",
+   "parturiente",
+   "puerpério",
+   "elementar do crime",
+   "concurso de pessoas",
+   "morte do filho",
+   "influência do parto"
+  ],
+  "dispositivos": [
+   "art. 123 CP",
+   "art. 29 CP",
+   "art. 30 CP",
+   "art. 121 CP",
+   "art. 26 CP"
+  ],
+  "nao_confundir": "Não confundir com 5150: se a mãe mata o filho sem influência do estado puerperal ou fora do contexto temporal do parto/logo após, o enquadramento tende a ser homicídio. Também não confundir com 5154: se a conduta recai sobre o feto antes do nascimento com vida, trata-se de aborto; infanticídio exige filho nascente ou recém-nascido com vida."
+ },
+ "5111": {
+  "descricao": "Abrange o Título VII da Parte Especial do Código Penal, que tutela a família em seus aspectos matrimoniais, de filiação, assistência familiar e exercício do poder familiar/tutela/curatela. Em provas, aparece em questões sobre bigamia, fraude no casamento, registro de nascimento inexistente, abandono material ou intelectual, entrega de filho a pessoa inidônea e subtração de incapaz.",
+  "palavras_chave": [
+   "crimes contra a família",
+   "bigamia",
+   "casamento",
+   "estado de filiação",
+   "registro de nascimento",
+   "abandono material",
+   "abandono intelectual",
+   "entrega de filho menor",
+   "pessoa inidônea",
+   "poder familiar",
+   "tutela",
+   "curatela",
+   "subtração de incapaz",
+   "sonegação de estado de filiação"
+  ],
+  "dispositivos": [
+   "arts. 235 a 249 CP",
+   "art. 235 CP",
+   "art. 236 CP",
+   "arts. 241 a 243 CP",
+   "arts. 244 a 247 CP",
+   "arts. 248 e 249 CP",
+   "Código Civil, arts. 1.521 a 1.564, como referência civil sobre casamento e filiação"
+  ],
+  "nao_confundir": "Não confundir com 5102 quando houver violência ou exploração sexual intrafamiliar: o critério é o bem jurídico predominante, pois crimes sexuais vão para dignidade sexual. Também não confundir com 5116 quando a questão focar falsidade documental em certidão ou registro público; se o núcleo típico for alterar ou fraudar estado de filiação, permanece em 5111/5113."
+ },
+ "5114": {
+  "descricao": "Cobre os crimes contra a assistência familiar, isto é, condutas que violam deveres materiais, educacionais ou morais de cuidado no âmbito familiar. Em concursos, o foco recai sobre abandono material, frustração de pagamento de pensão alimentícia, abandono intelectual e entrega de filho menor a pessoa inidônea.",
+  "palavras_chave": [
+   "abandono material",
+   "pensão alimentícia",
+   "subsistência do cônjuge",
+   "filho menor de 18 anos",
+   "ascendente inválido",
+   "sem justa causa",
+   "frustração de pagamento",
+   "abandono intelectual",
+   "instrução primária",
+   "entrega de filho menor",
+   "pessoa inidônea",
+   "abandono moral",
+   "menor em casa de jogo",
+   "dever de assistência"
+  ],
+  "dispositivos": [
+   "art. 244 CP",
+   "art. 245 CP",
+   "art. 246 CP",
+   "art. 247 CP",
+   "CF, art. 229",
+   "ECA, arts. 22 e 55",
+   "Código Civil, arts. 1.694 a 1.710"
+  ],
+  "nao_confundir": "Não confundir com 5157 quando houver inadimplemento patrimonial comum: no abandono material, o núcleo é violar dever familiar de assistência, especialmente alimentos e subsistência. Não confundir com 5138 ou 5077 se houver exposição concreta da saúde ou lesão física; nesses casos, a violência ou perigo à vida/saúde pode deslocar a classificação para crimes contra a pessoa, sem prejuízo de concurso de crimes em 5066."
+ },
+ "5112": {
+  "descricao": "Abrange os crimes contra o casamento, especialmente bigamia e fraudes relacionadas à celebração ou validade do matrimônio. As provas costumam cobrar impedimento matrimonial, erro essencial, ocultação de impedimento, simulação de autoridade celebrante e regras específicas de ação penal no art. 236 do CP.",
+  "palavras_chave": [
+   "bigamia",
+   "casamento anterior válido",
+   "novo casamento",
+   "impedimento matrimonial",
+   "erro essencial",
+   "ocultação de impedimento",
+   "contraente enganado",
+   "anulação do casamento",
+   "trânsito em julgado",
+   "simulação de autoridade",
+   "celebração de casamento",
+   "simulação de casamento",
+   "nubente",
+   "matrimônio"
+  ],
+  "dispositivos": [
+   "art. 235 CP",
+   "art. 236 CP",
+   "art. 237 CP",
+   "art. 238 CP",
+   "art. 239 CP",
+   "art. 240 CP, revogado",
+   "Código Civil, arts. 1.521, 1.548, 1.550, 1.556 e 1.557"
+  ],
+  "nao_confundir": "Não confundir com 5063 quando a questão tratar apenas da natureza ou condição de procedibilidade da ação penal, especialmente no art. 236 do CP; se o foco for o tipo penal matrimonial, classifique em 5112. Não confundir com 5116 se houver documento falso para casar: a falsidade documental pode ser meio ou crime autônomo, mas o tema 5112 é usado quando a pergunta recai sobre o casamento inválido, impedimento ou bigamia."
+ },
+ "5113": {
+  "descricao": "Cobre os crimes contra o estado de filiação, voltados à proteção da verdade e segurança jurídica da relação parental registrada ou reconhecida. Inclui registro de nascimento inexistente, parto suposto, registrar filho alheio como próprio, ocultação ou substituição de recém-nascido e sonegação do estado de filiação.",
+  "palavras_chave": [
+   "estado de filiação",
+   "registro de nascimento inexistente",
+   "parto suposto",
+   "registrar filho alheio como próprio",
+   "adoção à brasileira",
+   "recém-nascido",
+   "ocultar recém-nascido",
+   "substituir recém-nascido",
+   "suprimir direito inerente ao estado civil",
+   "alterar estado civil",
+   "sonegação de estado de filiação",
+   "asilo de expostos",
+   "creche",
+   "filiação verdadeira"
+  ],
+  "dispositivos": [
+   "art. 241 CP",
+   "art. 242 CP",
+   "art. 243 CP",
+   "ECA, arts. 39 a 52-D",
+   "Código Civil, arts. 1.596 a 1.606",
+   "Lei 6.015/1973, arts. 50 a 66"
+  ],
+  "nao_confundir": "Não confundir com 5116 quando o enunciado mencionar certidão ou registro falso: se a finalidade típica é criar, ocultar ou modificar filiação, o enquadramento é 5113. Também não confundir com legislação de adoção do ECA; se a questão pergunta pelo tipo penal do CP, especialmente 'adoção à brasileira', use 5113."
+ },
+ "5115": {
+  "descricao": "Abrange os crimes contra o poder familiar, tutela e curatela, envolvendo interferência indevida na guarda ou autoridade sobre incapazes. Em provas, aparecem os tipos de induzimento a fuga, entrega arbitrária, sonegação de incapaz e subtração de incapaz, com atenção à restituição do menor ou interdito e às relações entre pais, tutores e curadores.",
+  "palavras_chave": [
+   "poder familiar",
+   "pátrio poder",
+   "tutela",
+   "curatela",
+   "incapaz",
+   "menor de idade",
+   "interdito",
+   "induzimento a fuga",
+   "entrega arbitrária",
+   "sonegação de incapaz",
+   "subtração de incapaz",
+   "guarda",
+   "restituição do incapaz",
+   "pai ou mãe",
+   "tutor ou curador"
+  ],
+  "dispositivos": [
+   "art. 248 CP",
+   "art. 249 CP",
+   "Código Civil, arts. 1.630 a 1.638",
+   "Código Civil, arts. 1.728 a 1.783-A",
+   "ECA, arts. 33 a 35"
+  ],
+  "nao_confundir": "Não confundir com 5128 quando houver sequestro, cárcere privado ou tráfico de pessoas: em 5115, o núcleo é violar poder familiar, tutela, curatela ou guarda de incapaz. Se a questão enfatizar privação da liberdade de qualquer pessoa, violência ou finalidade de exploração, pode deslocar-se para 5128, sem prejuízo de concurso de crimes em 5066."
+ },
+ "5148": {
+  "descricao": "Abrange os crimes do Código Penal que protegem diretamente as instituições democráticas contra tentativas violentas de ruptura da ordem constitucional. Em provas, concentra-se nos tipos de abolição violenta do Estado Democrático de Direito e golpe de Estado, exigindo atenção ao emprego de violência ou grave ameaça e à finalidade de impedir/restringir poderes constitucionais ou depor governo legitimamente constituído.",
+  "palavras_chave": [
+   "abolição violenta do Estado Democrático de Direito",
+   "golpe de Estado",
+   "instituições democráticas",
+   "violência ou grave ameaça",
+   "impedir o exercício dos poderes constitucionais",
+   "restringir poderes constitucionais",
+   "depor governo legitimamente constituído",
+   "ruptura institucional",
+   "ordem constitucional",
+   "tentativa de golpe",
+   "Poderes da República",
+   "Lei 14.197/2021",
+   "revogação da Lei de Segurança Nacional",
+   "crimes políticos"
+  ],
+  "dispositivos": [
+   "arts. 359-L e 359-M CP",
+   "Título XII do Código Penal",
+   "Lei 14.197/2021",
+   "art. 5º, XLIV, CF"
+  ],
+  "nao_confundir": "Não confundir com 5155, que é mais amplo e pode abarcar a tutela geral do Estado Democrático de Direito e outros capítulos do Título XII; aqui o critério é a ofensa específica às instituições democráticas por meio de abolição violenta ou golpe de Estado. Também não confundir com 5087, pois crimes contra a Administração Pública tutelam a probidade e o funcionamento administrativo ordinário, nem com 5144, pois crimes contra a paz pública envolvem incitação, associação ou perturbação da tranquilidade coletiva sem necessariamente buscar ruptura institucional."
+ },
+ "5147": {
+  "descricao": "Abrange os crimes do Código Penal contra as finanças públicas, especialmente condutas de gestores e agentes públicos que violam regras de responsabilidade fiscal, orçamento, endividamento e despesa pública. Em provas, costuma cobrar a literalidade dos arts. 359-A a 359-H do CP, os elementos normativos ligados à Lei de Responsabilidade Fiscal e marcos temporais como último ano de mandato, dois últimos quadrimestres e 180 dias finais.",
+  "palavras_chave": [
+   "operação de crédito",
+   "autorização legislativa",
+   "Lei de Responsabilidade Fiscal",
+   "restos a pagar",
+   "despesa não empenhada",
+   "ordenador de despesa",
+   "últimos dois quadrimestres",
+   "último ano do mandato",
+   "disponibilidade de caixa",
+   "despesa total com pessoal",
+   "180 dias anteriores ao final do mandato",
+   "garantia e contragarantia",
+   "títulos da dívida pública",
+   "limites de endividamento",
+   "orçamento público"
+  ],
+  "dispositivos": [
+   "arts. 359-A a 359-H CP",
+   "art. 359-A CP",
+   "art. 359-B CP",
+   "art. 359-C CP",
+   "art. 359-D CP",
+   "art. 359-E CP",
+   "art. 359-F CP",
+   "art. 359-G CP",
+   "art. 359-H CP",
+   "Lei 10.028/2000",
+   "LC 101/2000 - Lei de Responsabilidade Fiscal",
+   "CF/1988, arts. 163 a 169",
+   "CF/1988, art. 167"
+  ],
+  "nao_confundir": "Não confundir com 5087, que trata dos crimes contra a Administração Pública em geral, como peculato, corrupção, concussão e prevaricação; se o núcleo da questão for desequilíbrio fiscal, endividamento, despesa pública ou restos a pagar, o tema é 5147. Também não confundir com 5116 quando houver falsificação de documento orçamentário ou contábil: se a ênfase estiver na falsidade documental, classifique em 5116; se estiver na ordenação/autorização irregular de despesa, crédito, garantia ou título público, classifique em 5147."
+ },
+ "5170": {
+  "descricao": "Tema guarda-chuva para questões introdutórias de Direito Penal que abordam noções gerais, função do Direito Penal, sistema penal, norma penal, relação com Constituição e estrutura básica da disciplina. Deve ser usado quando o enunciado tratar de fundamentos gerais sem se concentrar claramente em conceito/fontes, princípios, interpretação ou classificação dos crimes.",
+  "palavras_chave": [
+   "Direito Penal",
+   "noções introdutórias",
+   "sistema penal",
+   "controle social",
+   "jus puniendi",
+   "norma penal",
+   "infração penal",
+   "crime e contravenção",
+   "função do Direito Penal",
+   "bem jurídico",
+   "dogmática penal",
+   "política criminal",
+   "Direito Penal objetivo e subjetivo"
+  ],
+  "dispositivos": [
+   "CF/1988, art. 5º, XXXIX",
+   "CF/1988, art. 5º, XL",
+   "CP, art. 1º",
+   "CP, art. 2º",
+   "Decreto-Lei 2.848/1940 - Código Penal",
+   "Decreto-Lei 3.688/1941 - Lei de Contravenções Penais"
+  ],
+  "nao_confundir": "Não confundir com 5171, 5172, 5173 e 5174, que são recortes específicos deste tema: fontes/conceito, princípios, interpretação e classificações. Se a questão exigir aplicação de institutos da teoria do crime, como dolo, culpa, tipicidade ou ilicitude, classificar em 5218 ou 5228; se tratar de aplicação da lei penal no tempo ou no espaço, usar 5180."
+ },
+ "5174": {
+  "descricao": "Abrange as classificações doutrinárias dos crimes e das infrações penais, como crime comum, próprio, de mão própria, material, formal, de mera conduta, instantâneo, permanente, habitual, unissubjetivo e plurissubjetivo. Em provas, aparece em perguntas conceituais ou na identificação da natureza jurídica de determinado delito a partir de suas características típicas.",
+  "palavras_chave": [
+   "crime material",
+   "crime formal",
+   "crime de mera conduta",
+   "crime comum",
+   "crime próprio",
+   "crime de mão própria",
+   "crime instantâneo",
+   "crime permanente",
+   "crime habitual",
+   "crime unissubjetivo",
+   "crime plurissubjetivo",
+   "crime comissivo",
+   "crime omissivo",
+   "crime de dano",
+   "crime de perigo"
+  ],
+  "dispositivos": [
+   "CP, art. 13",
+   "CP, art. 14",
+   "CP, art. 18",
+   "CP, art. 29",
+   "Decreto-Lei 3.688/1941 - Lei de Contravenções Penais"
+  ],
+  "nao_confundir": "Não confundir com 5218, que trata dos elementos do fato típico, como conduta, resultado, nexo causal, dolo e culpa; aqui o foco é a classificação doutrinária do delito. Também não confundir com 5175, pois consumação, tentativa e fases do iter criminis só entram aqui se forem mencionadas como critério classificatório geral, não como análise do caminho do crime."
+ },
+ "5171": {
+  "descricao": "Cobre o conceito de Direito Penal, suas finalidades, características, divisões e fontes formais e materiais, inclusive legalidade como base da criação de crimes e penas. Inclui questões sobre lei penal como fonte imediata, papel dos costumes, analogia, jurisprudência, doutrina, tratados e a distinção entre Direito Penal objetivo e subjetivo.",
+  "palavras_chave": [
+   "conceito de Direito Penal",
+   "fontes do Direito Penal",
+   "fonte material",
+   "fonte formal",
+   "lei penal",
+   "costumes",
+   "analogia",
+   "doutrina",
+   "jurisprudência",
+   "tratados internacionais",
+   "Direito Penal objetivo",
+   "Direito Penal subjetivo",
+   "jus puniendi",
+   "reserva legal",
+   "norma penal incriminadora"
+  ],
+  "dispositivos": [
+   "CF/1988, art. 5º, XXXIX",
+   "CF/1988, art. 5º, XL",
+   "CP, art. 1º",
+   "CP, art. 2º",
+   "LINDB, art. 4º",
+   "Pacto de San José da Costa Rica, art. 9º"
+  ],
+  "nao_confundir": "Não confundir com 5172: legalidade pode aparecer nos dois, mas em 5171 o enfoque é fonte/criação da norma penal; em 5172, é garantia ou limite ao poder punitivo. Não confundir com 5173 quando a questão discute métodos de compreensão do texto legal, nem com 5180 quando o ponto central for vigência, retroatividade ou territorialidade da lei penal."
+ },
+ "5173": {
+  "descricao": "Trata da interpretação da norma penal, seus métodos, resultados e limites, inclusive interpretação literal, teleológica, sistemática, histórica, declarativa, extensiva e restritiva. Abrange também o uso da analogia em Direito Penal, especialmente a distinção entre analogia in bonam partem e vedação da analogia in malam partem.",
+  "palavras_chave": [
+   "interpretação da lei penal",
+   "interpretação literal",
+   "interpretação gramatical",
+   "interpretação teleológica",
+   "interpretação sistemática",
+   "interpretação histórica",
+   "interpretação declarativa",
+   "interpretação extensiva",
+   "interpretação restritiva",
+   "analogia in bonam partem",
+   "analogia in malam partem",
+   "norma penal em branco",
+   "interpretação progressiva",
+   "interpretação autêntica"
+  ],
+  "dispositivos": [
+   "CP, art. 1º",
+   "CP, art. 2º",
+   "CP, art. 3º",
+   "LINDB, art. 4º",
+   "CF/1988, art. 5º, XXXIX",
+   "Pacto de San José da Costa Rica, art. 9º"
+  ],
+  "nao_confundir": "Não confundir com 5171, pois fontes indicam de onde vem a norma penal, enquanto interpretação trata de como se extrai seu sentido. Não confundir com 5183, que cuida de conflito aparente de normas penais entre tipos ou leis; se a questão envolver especialidade, subsidiariedade, consunção ou alternatividade, o melhor enquadramento é 5183."
+ },
+ "5172": {
+  "descricao": "Abrange os princípios fundamentais do Direito Penal, especialmente legalidade, anterioridade, taxatividade, intervenção mínima, fragmentariedade, subsidiariedade, lesividade, culpabilidade, humanidade, individualização da pena, insignificância e proporcionalidade. Em concursos, aparece como limites constitucionais e dogmáticos ao poder punitivo estatal e como fundamento para afastar ou restringir a incidência penal.",
+  "palavras_chave": [
+   "princípio da legalidade",
+   "reserva legal",
+   "anterioridade",
+   "taxatividade",
+   "intervenção mínima",
+   "fragmentariedade",
+   "subsidiariedade",
+   "lesividade",
+   "alteridade",
+   "culpabilidade",
+   "humanidade das penas",
+   "individualização da pena",
+   "proporcionalidade",
+   "insignificância",
+   "adequação social"
+  ],
+  "dispositivos": [
+   "CF/1988, art. 1º, III",
+   "CF/1988, art. 5º, XXXIX",
+   "CF/1988, art. 5º, XL",
+   "CF/1988, art. 5º, XLV",
+   "CF/1988, art. 5º, XLVI",
+   "CF/1988, art. 5º, XLVII",
+   "CP, art. 1º",
+   "CP, art. 2º",
+   "Súmula 599 STJ",
+   "Súmula 589 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5171 quando a questão apenas perguntar qual é a fonte do Direito Penal ou a distinção entre fonte formal e material. Se o enunciado aplicar o princípio da insignificância a crime patrimonial específico, pode haver conexão com 5157, mas o critério de desempate é: tese principiológica geral fica em 5172; análise do tipo penal concreto fica no grupo do crime correspondente."
+ },
+ "5134": {
+  "descricao": "Tema guarda-chuva dos crimes do Código Penal que protegem a liberdade e regularidade das relações de trabalho, a propriedade intelectual/imaterial e o respeito a cultos religiosos, cerimônias funerárias e cadáveres. Em provas, costuma aparecer em questões comparativas entre os arts. 184 a 212 do CP ou em enunciados que misturam liberdade de trabalho, direito autoral e respeito aos mortos.",
+  "palavras_chave": [
+   "organização do trabalho",
+   "propriedade imaterial",
+   "direito autoral",
+   "propriedade intelectual",
+   "sentimento religioso",
+   "respeito aos mortos",
+   "liberdade de trabalho",
+   "aliciamento de trabalhadores",
+   "frustração de direito trabalhista",
+   "violação de direito autoral",
+   "culto religioso",
+   "sepultura",
+   "cadáver",
+   "vilipêndio",
+   "cerimônia funerária"
+  ],
+  "dispositivos": [
+   "arts. 184 a 212 CP",
+   "arts. 184 a 186 CP",
+   "arts. 197 a 207 CP",
+   "arts. 208 a 212 CP",
+   "Lei 9.279/1996",
+   "Lei 9.610/1998",
+   "Súmula 502 STJ",
+   "Súmula 574 STJ"
+  ],
+  "nao_confundir": "Usar este id apenas quando a questão tratar do bloco como um todo ou comparar crimes dos subtemas 5135, 5136 e 5137. Se o foco for especificamente liberdade de trabalho, usar 5135; se for direito autoral, propriedade industrial ou pirataria, usar 5136; se for culto religioso, sepultura ou cadáver, usar 5137. Não confundir com 5157 quando a tutela principal for patrimônio material, nem com 5120 quando houver apenas ofensa à honra de pessoa determinada."
+ },
+ "5135": {
+  "descricao": "Abrange os crimes contra a organização do trabalho previstos nos arts. 197 a 207 do CP, voltados à proteção da liberdade de trabalho, de contratação, de associação profissional e da regularidade das relações trabalhistas. Em provas, aparecem especialmente condutas como constrangimento ao trabalho, boicotagem violenta, sabotagem, frustração de direito trabalhista e aliciamento de trabalhadores.",
+  "palavras_chave": [
+   "liberdade de trabalho",
+   "atentado contra liberdade de trabalho",
+   "liberdade de contrato de trabalho",
+   "boicotagem violenta",
+   "liberdade de associação",
+   "greve com violência",
+   "paralisação de trabalho",
+   "sabotagem",
+   "invasão de estabelecimento",
+   "frustração de direito trabalhista",
+   "fraude trabalhista",
+   "nacionalização do trabalho",
+   "aliciamento de trabalhadores",
+   "emigração",
+   "trabalhadores de uma localidade para outra"
+  ],
+  "dispositivos": [
+   "art. 197 CP",
+   "art. 198 CP",
+   "art. 199 CP",
+   "art. 200 CP",
+   "art. 201 CP",
+   "art. 202 CP",
+   "art. 203 CP",
+   "art. 204 CP",
+   "art. 205 CP",
+   "art. 206 CP",
+   "art. 207 CP",
+   "art. 109, VI, CF"
+  ],
+  "nao_confundir": "Distinguir de 5128 quando a questão tratar de constrangimento ilegal, ameaça, cárcere privado, redução a condição análoga à de escravo ou tráfico de pessoas sem foco típico nos arts. 197 a 207 do CP. Distinguir de 5157 se a violência ou fraude visar principalmente subtração, extorsão ou dano patrimonial, e de 5066 se o enunciado tratar apenas de concurso de crimes decorrente da mesma conduta."
+ },
+ "5137": {
+  "descricao": "Cobre os crimes contra o sentimento religioso e contra o respeito aos mortos, previstos nos arts. 208 a 212 do CP. Nas provas, o núcleo costuma estar em escarnecer publicamente de alguém por motivo religioso, impedir ou perturbar culto ou cerimônia funerária, violar sepultura, ocultar ou destruir cadáver e vilipendiar cadáver ou cinzas.",
+  "palavras_chave": [
+   "sentimento religioso",
+   "culto religioso",
+   "escárnio público",
+   "motivo de crença",
+   "função religiosa",
+   "impedir culto",
+   "perturbar cerimônia religiosa",
+   "ato religioso",
+   "objeto de culto",
+   "cerimônia funerária",
+   "violação de sepultura",
+   "túmulo",
+   "cadáver",
+   "cinzas humanas",
+   "vilipêndio a cadáver"
+  ],
+  "dispositivos": [
+   "art. 208 CP",
+   "art. 209 CP",
+   "art. 210 CP",
+   "art. 211 CP",
+   "art. 212 CP",
+   "art. 5º, VI, CF",
+   "Lei 7.716/1989, art. 20"
+  ],
+  "nao_confundir": "Não confundir com 5120 quando a ofensa for dirigida à honra de pessoa determinada sem perturbação de culto ou escárnio religioso típico. Se a conduta consistir em discriminação ou preconceito religioso em sentido amplo, especialmente discurso discriminatório, pode pertencer a 4690; o critério é verificar se o enunciado cobra o tipo do CP arts. 208 a 212 ou a legislação de racismo. Dano ou furto de objetos em cemitério pode ir para 5157 se o foco for patrimônio, mas violação de sepultura, cadáver ou cerimônia funerária é 5137."
+ },
+ "5136": {
+  "descricao": "Abrange os crimes contra a propriedade imaterial, especialmente a violação de direito autoral do art. 184 do CP e, quando cobrada de forma correlata, os delitos de propriedade industrial da Lei 9.279/1996. Em concursos, o tema aparece com pirataria de CDs, DVDs, softwares ou obras digitais, reprodução e venda não autorizadas, contrafação de marca, patentes, desenhos industriais e ação penal nos crimes de direito autoral.",
+  "palavras_chave": [
+   "propriedade imaterial",
+   "propriedade intelectual",
+   "direito autoral",
+   "violação de direito autoral",
+   "pirataria",
+   "obra intelectual",
+   "reprodução não autorizada",
+   "fonograma",
+   "videofonograma",
+   "software",
+   "exposição à venda",
+   "intuito de lucro",
+   "contrafação",
+   "marca registrada",
+   "patente"
+  ],
+  "dispositivos": [
+   "art. 184 CP",
+   "art. 186 CP",
+   "Lei 9.610/1998",
+   "Lei 9.279/1996, arts. 183 a 195",
+   "Lei 9.609/1998, art. 12",
+   "CPP, arts. 524 a 530-I",
+   "Súmula 502 STJ",
+   "Súmula 574 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5116 quando a falsificação for documental ou a discussão central for fé pública; aqui o bem jurídico é o direito autoral ou industrial. Distinguir de 5157 quando houver subtração ou dano a coisa física, pois a propriedade imaterial tutela a obra, marca, patente ou criação intelectual. Se a questão perguntar somente sobre titularidade da ação penal ou queixa, pode ser 5063; se a ação penal for apenas detalhe do crime autoral, permanece em 5136."
+ },
+ "5156": {
+  "descricao": "Abrange o crime de sabotagem previsto no Título XII do Código Penal, voltado à proteção do funcionamento de serviços essenciais e estruturas sensíveis, especialmente meios de comunicação ao público, estabelecimentos, instalações ou serviços destinados à defesa nacional. Em provas, costuma aparecer pela identificação do dolo específico, dos verbos nucleares “destruir” e “inutilizar” e pela distinção em relação a dano comum, crimes contra a incolumidade pública e crimes contra as instituições democráticas.",
+  "palavras_chave": [
+   "sabotagem",
+   "destruir",
+   "inutilizar",
+   "meios de comunicação ao público",
+   "serviços essenciais",
+   "instalações estratégicas",
+   "estabelecimentos",
+   "defesa nacional",
+   "dolo específico",
+   "Estado Democrático de Direito",
+   "Lei 14.197/2021",
+   "Título XII do Código Penal",
+   "funcionamento de serviços essenciais",
+   "infraestrutura crítica"
+  ],
+  "dispositivos": [
+   "art. 359-R CP",
+   "Lei 14.197/2021",
+   "Título XII do Código Penal"
+  ],
+  "nao_confundir": "Não confundir com 5157, pois o dano patrimonial comum protege o patrimônio e não exige a finalidade político-institucional típica da sabotagem. Também não confundir com 5125, que trata de perigo comum, como incêndio e explosão, quando o foco da questão for risco coletivo e não a inutilização de estrutura essencial nos moldes do art. 359-R CP. Se o enunciado tratar de tentativa de abolir o Estado Democrático de Direito, golpe de Estado ou ataque direto ao funcionamento dos Poderes, o enquadramento tende a ser 5155 ou 5148, e não este tema específico de sabotagem."
+ },
+ "5157": {
+  "descricao": "Abrange o conjunto dos crimes contra o patrimônio previstos no Título II da Parte Especial do Código Penal, envolvendo subtração, violência ou grave ameaça para obtenção de vantagem, fraude patrimonial, apropriação, dano, usurpação e receptação. Em provas, aparece em questões panorâmicas ou comparativas entre furto, roubo, extorsão, estelionato, apropriação indébita, dano e receptação, inclusive consumação, qualificadoras, majorantes e ação penal.",
+  "palavras_chave": [
+   "crimes contra o patrimônio",
+   "bem jurídico patrimônio",
+   "subtração de coisa alheia móvel",
+   "grave ameaça",
+   "violência contra a pessoa",
+   "fraude patrimonial",
+   "vantagem ilícita",
+   "coisa alheia",
+   "posse e detenção",
+   "prejuízo patrimonial",
+   "qualificadoras patrimoniais",
+   "imunidades patrimoniais",
+   "escusas absolutórias"
+  ],
+  "dispositivos": [
+   "arts. 155 a 183 CP",
+   "art. 5º, XL, CF",
+   "Súmula 17 STJ",
+   "Súmula 96 STJ",
+   "Súmula 443 STJ",
+   "Súmula 511 STJ",
+   "Súmula 582 STJ",
+   "Súmula 610 STF"
+  ],
+  "nao_confundir": "Use este tema amplo quando a questão tratar genericamente do Título dos crimes patrimoniais ou comparar vários tipos dos ids 5159 a 5169 sem prevalência clara de um deles. Se o enunciado focar um delito específico, classificar no subtema correspondente, como furto (5159), roubo (5160), extorsão (5161), estelionato (5166), dano (5164), apropriação indébita (5165) ou receptação (5169). Não confundir com crimes contra a Administração Pública (5087) ou fé pública (5116) quando o prejuízo patrimonial for secundário e o bem jurídico principal for a probidade administrativa ou a autenticidade documental."
+ },
+ "5158": {
+  "descricao": "Cobre as disposições gerais dos crimes contra o patrimônio, especialmente imunidades penais absolutas e relativas, escusas absolutórias, representação e hipóteses de inaplicabilidade desses benefícios. Em provas, costuma envolver crimes patrimoniais praticados entre cônjuges, ascendentes, descendentes, irmãos, tios, sobrinhos, idosos, pessoas vulneráveis ou com emprego de violência/grave ameaça.",
+  "palavras_chave": [
+   "escusa absolutória",
+   "imunidade penal absoluta",
+   "imunidade penal relativa",
+   "isenção de pena",
+   "cônjuge",
+   "ascendente",
+   "descendente",
+   "irmão",
+   "tio e sobrinho",
+   "representação",
+   "crime patrimonial familiar",
+   "vítima idosa",
+   "violência ou grave ameaça",
+   "estranho que participa"
+  ],
+  "dispositivos": [
+   "arts. 181 a 183 CP",
+   "art. 182 CP",
+   "art. 183 CP",
+   "Lei 10.741/2003"
+  ],
+  "nao_confundir": "Não classificar aqui a definição típica do delito patrimonial em si, como furto (5159), roubo (5160), dano (5164) ou estelionato (5166); este tema é para regras comuns posteriores ao tipo penal. O critério de desempate é a pergunta central: se discute parentesco, representação, isenção de pena ou exceções às imunidades, fica em 5158; se discute subtração, fraude, violência, coisa ou consumação, vai ao tipo específico."
+ },
+ "5167": {
+  "descricao": "Trata do crime de abuso de incapazes, consistente em abusar da necessidade, paixão ou inexperiência de menor, alienado ou débil mental, induzindo-o à prática de ato capaz de produzir efeito jurídico em prejuízo próprio ou de terceiro. Nas provas, aparece ligado à exploração patrimonial de incapaz ou pessoa com discernimento reduzido, diferenciando-se do estelionato comum pela especial condição da vítima e pela indução a ato jurídico prejudicial.",
+  "palavras_chave": [
+   "abuso de incapazes",
+   "necessidade da vítima",
+   "paixão",
+   "inexperiência",
+   "menor",
+   "alienado",
+   "débil mental",
+   "ato jurídico",
+   "prejuízo próprio ou alheio",
+   "incapaz",
+   "exploração de vulnerável",
+   "induzir incapaz",
+   "vantagem patrimonial",
+   "discernimento reduzido"
+  ],
+  "dispositivos": [
+   "art. 173 CP",
+   "art. 171 CP",
+   "arts. 3º e 4º CC"
+  ],
+  "nao_confundir": "Não confundir com estelionato (5166): no abuso de incapazes, o núcleo é explorar a condição especial da vítima para levá-la a ato jurídico prejudicial; no estelionato, prevalece o artifício, ardil ou meio fraudulento contra vítima em geral. Também não confundir com crimes contra vulneráveis ou família (5111) quando o foco não for prejuízo patrimonial por ato jurídico."
+ },
+ "5165": {
+  "descricao": "Abrange a apropriação indébita, em que o agente recebe legitimamente a posse ou detenção de coisa alheia móvel e depois passa a agir como dono, invertendo o título da posse. Em provas, o ponto decisivo é distinguir posse lícita anterior de subtração clandestina ou violenta, além de causas de aumento, apropriação de coisa havida por erro, caso fortuito ou força da natureza e modalidades correlatas.",
+  "palavras_chave": [
+   "apropriação indébita",
+   "posse lícita anterior",
+   "inversão da posse",
+   "animus rem sibi habendi",
+   "coisa alheia móvel",
+   "detenção legítima",
+   "apropriar-se",
+   "desviar coisa",
+   "depósito",
+   "mandato",
+   "comissão",
+   "administração de bens",
+   "coisa havida por erro",
+   "apropriação de coisa achada"
+  ],
+  "dispositivos": [
+   "art. 168 CP",
+   "art. 168, §1º, CP",
+   "art. 169 CP",
+   "art. 170 CP",
+   "art. 155 CP"
+  ],
+  "nao_confundir": "Não confundir com furto (5159): no furto, o agente subtrai coisa da posse alheia; na apropriação indébita, a posse ou detenção inicial é lícita e a ilicitude surge depois. Também se distingue do estelionato (5166), pois neste a própria entrega da coisa é viciada por fraude antecedente; se a fraude é anterior e causa a entrega, tende a ser estelionato."
+ },
+ "5164": {
+  "descricao": "Cobre os crimes de dano, isto é, destruir, inutilizar ou deteriorar coisa alheia, bem como suas formas qualificadas e regras de ação penal. Em concursos, aparece em casos de depredação, dano qualificado contra patrimônio público ou concessionária, violência ou grave ameaça à pessoa, motivo egoístico, prejuízo considerável e dano em coisa tombada ou de valor cultural quando tratado pelo Código Penal.",
+  "palavras_chave": [
+   "dano",
+   "destruir coisa alheia",
+   "inutilizar",
+   "deteriorar",
+   "coisa alheia",
+   "dano qualificado",
+   "patrimônio público",
+   "violência à pessoa",
+   "grave ameaça",
+   "motivo egoístico",
+   "prejuízo considerável",
+   "ação penal no dano",
+   "depredação",
+   "pichação",
+   "coisa de valor artístico"
+  ],
+  "dispositivos": [
+   "art. 163 CP",
+   "art. 164 CP",
+   "art. 165 CP",
+   "art. 166 CP",
+   "art. 167 CP",
+   "art. 65 da Lei 9.605/1998"
+  ],
+  "nao_confundir": "Não confundir com furto (5159), roubo (5160) ou extorsão (5161), pois no dano o objetivo típico é destruir, inutilizar ou deteriorar a coisa, não subtraí-la nem obter vantagem mediante constrangimento. Se a deterioração do bem for apenas meio para subtração, como rompimento de obstáculo, a classificação principal normalmente será furto qualificado (5159). Quando o foco for bem ambiental ou patrimônio cultural em lei especial, pode haver interface com crimes ambientais, mas dentro desta árvore penal comum use 5164 se a pergunta for sobre arts. 163 a 167 do CP."
+ },
+ "5162": {
+  "descricao": "Trata especificamente do esbulho possessório como crime patrimonial, consistente em invadir, com violência à pessoa ou grave ameaça, ou mediante concurso de mais de duas pessoas, terreno ou edifício alheio para fim de esbulho possessório. Nas provas, o foco é a tutela penal da posse imobiliária e os requisitos típicos da invasão, diferenciando-a de mero ilícito civil possessório.",
+  "palavras_chave": [
+   "esbulho possessório",
+   "invasão de terreno",
+   "invasão de edifício",
+   "fim de esbulho",
+   "violência à pessoa",
+   "grave ameaça",
+   "concurso de mais de duas pessoas",
+   "posse imobiliária",
+   "imóvel alheio",
+   "turbação da posse",
+   "invasão coletiva",
+   "ação penal",
+   "proprietário",
+   "possuidor"
+  ],
+  "dispositivos": [
+   "art. 161, §1º, II, CP",
+   "art. 161, §2º, CP",
+   "art. 150 CP",
+   "arts. 560 a 566 CPC"
+  ],
+  "nao_confundir": "Não confundir com usurpação em sentido amplo (5163), que inclui alteração de limites, usurpação de águas e supressão de sinais divisórios; aqui o foco é a invasão de terreno ou edifício para esbulho. Também se distingue de violação de domicílio (5128), pois o bem jurídico aqui é a posse/propriedade imobiliária, e não primariamente a liberdade domiciliar ou a privacidade."
+ },
+ "5166": {
+  "descricao": "Abrange o estelionato e fraudes patrimoniais correlatas do Código Penal, em que o agente obtém vantagem ilícita em prejuízo alheio mediante artifício, ardil ou qualquer meio fraudulento. Em provas, são recorrentes a distinção entre fraude antecedente e posse lícita, estelionato por cheque, fraude eletrônica, fraude em seguro, fraude no pagamento por meio de cheque, ação penal e relação com falsidade documental.",
+  "palavras_chave": [
+   "estelionato",
+   "vantagem ilícita",
+   "prejuízo alheio",
+   "artifício",
+   "ardil",
+   "meio fraudulento",
+   "induzir ou manter em erro",
+   "fraude eletrônica",
+   "cheque sem fundos",
+   "disposição de coisa alheia como própria",
+   "fraude para recebimento de seguro",
+   "fraude no pagamento",
+   "torpeza bilateral",
+   "falsidade absorvida"
+  ],
+  "dispositivos": [
+   "art. 171 CP",
+   "art. 171, §2º, CP",
+   "art. 171, §2º-A, CP",
+   "art. 171, §4º, CP",
+   "art. 171, §5º, CP",
+   "arts. 172 a 178 CP",
+   "Súmula 17 STJ",
+   "Súmula 48 STJ",
+   "Súmula 244 STJ",
+   "Súmula 554 STF"
+  ],
+  "nao_confundir": "Não confundir com apropriação indébita (5165): se a fraude antecede e causa a entrega do bem, é estelionato; se a posse era lícita e só depois surge a intenção de apropriação, é apropriação indébita. Distingue-se do furto mediante fraude (5159) porque, no estelionato, a vítima entrega voluntariamente a coisa enganada; no furto mediante fraude, a fraude apenas reduz a vigilância para permitir a subtração."
+ },
+ "5161": {
+  "descricao": "Cobre a extorsão e, quando cobrada no mesmo contexto, a extorsão mediante sequestro, caracterizadas pelo constrangimento da vítima, mediante violência ou grave ameaça, para fazer, tolerar que se faça ou deixar de fazer algo, visando indevida vantagem econômica. Em provas, a principal distinção é em relação ao roubo: na extorsão, a colaboração da vítima é relevante ou indispensável para a obtenção da vantagem, e a consumação independe da efetiva obtenção da vantagem.",
+  "palavras_chave": [
+   "extorsão",
+   "constranger",
+   "violência",
+   "grave ameaça",
+   "vantagem econômica indevida",
+   "fazer tolerar ou deixar de fazer",
+   "colaboração da vítima",
+   "crime formal",
+   "extorsão mediante sequestro",
+   "sequestro relâmpago",
+   "restrição da liberdade",
+   "resgate",
+   "Súmula 96 STJ",
+   "ameaça para pagamento",
+   "vantagem futura"
+  ],
+  "dispositivos": [
+   "art. 158 CP",
+   "art. 158, §3º, CP",
+   "art. 159 CP",
+   "Súmula 96 STJ",
+   "art. 157 CP",
+   "Lei 8.072/1990, art. 1º"
+  ],
+  "nao_confundir": "Não confundir com roubo (5160): no roubo, a subtração é realizada pelo agente, ainda que com violência ou grave ameaça; na extorsão, a conduta da vítima tem papel relevante para a obtenção da vantagem. Também não confundir com constrangimento ilegal, tema de liberdade pessoal (5128), quando não houver finalidade patrimonial de vantagem econômica indevida."
+ },
+ "5168": {
+  "descricao": "Trata do crime de fraude à execução previsto no Código Penal, consistente em fraudar execução, alienando, desviando, destruindo ou danificando bens, ou simulando dívidas. Em provas, aparece associado à existência de demanda ou execução capaz de gerar constrição patrimonial, ao prejuízo do credor e à diferença entre ilícito processual civil e crime patrimonial contra credores.",
+  "palavras_chave": [
+   "fraude à execução",
+   "alienar bens",
+   "desviar bens",
+   "destruir bens",
+   "danificar bens",
+   "simular dívidas",
+   "execução judicial",
+   "credor",
+   "devedor executado",
+   "frustração da execução",
+   "insolvência",
+   "patrimônio do devedor",
+   "constrição judicial",
+   "prejuízo ao credor"
+  ],
+  "dispositivos": [
+   "art. 179 CP",
+   "arts. 792 e 828 CPC",
+   "art. 5º, LXVII, CF"
+  ],
+  "nao_confundir": "Não confundir com fraude processual, crime contra a Administração da Justiça (5083), pois na fraude à execução o núcleo é frustrar a satisfação patrimonial do credor; na fraude processual, altera-se lugar, coisa ou pessoa para induzir juiz ou perito a erro. Também não confundir com estelionato (5166), em que a fraude é dirigida à vítima para obtenção de vantagem, e não especificamente à frustração de execução."
+ },
+ "5159": {
+  "descricao": "Abrange o furto simples, majorado, privilegiado e qualificado, caracterizado pela subtração, para si ou para outrem, de coisa alheia móvel sem violência ou grave ameaça à pessoa. Em provas, os temas mais cobrados são consumação, tentativa, furto noturno, furto privilegiado, qualificadoras como rompimento de obstáculo, abuso de confiança, fraude, escalada, destreza, chave falsa, concurso de pessoas, furto de energia, furto qualificado-privilegiado e princípio da insignificância.",
+  "palavras_chave": [
+   "furto",
+   "subtrair coisa alheia móvel",
+   "animus furandi",
+   "furto noturno",
+   "furto privilegiado",
+   "rompimento de obstáculo",
+   "abuso de confiança",
+   "fraude no furto",
+   "escalada",
+   "destreza",
+   "chave falsa",
+   "concurso de pessoas",
+   "furto de energia",
+   "posse mansa e pacífica",
+   "princípio da insignificância"
+  ],
+  "dispositivos": [
+   "art. 155 CP",
+   "art. 155, §1º, CP",
+   "art. 155, §2º, CP",
+   "art. 155, §3º, CP",
+   "art. 155, §4º, CP",
+   "art. 155, §4º-A, CP",
+   "art. 155, §4º-B, CP",
+   "art. 155, §5º, CP",
+   "art. 155, §6º, CP",
+   "art. 155, §7º, CP",
+   "Súmula 511 STJ",
+   "Súmula 567 STJ"
+  ],
+  "nao_confundir": "Não confundir com roubo (5160), que exige violência ou grave ameaça à pessoa, nem com extorsão (5161), em que a vítima é constrangida a colaborar para a vantagem. Distinguir de estelionato (5166): no furto mediante fraude, a fraude facilita a subtração e não há entrega voluntária do bem pela vítima; no estelionato, a vítima entrega a coisa por estar enganada."
+ },
+ "5169": {
+  "descricao": "Cobre a receptação própria, imprópria, qualificada, culposa e formas especiais, envolvendo adquirir, receber, transportar, conduzir, ocultar ou influir para que terceiro adquira produto de crime. Em provas, são frequentes a autonomia da receptação em relação ao crime antecedente, o dolo direto ou eventual sobre a origem criminosa, a receptação qualificada em atividade comercial ou industrial e a receptação culposa por desproporção de preço ou condição do vendedor.",
+  "palavras_chave": [
+   "receptação",
+   "produto de crime",
+   "adquirir",
+   "receber",
+   "transportar",
+   "conduzir",
+   "ocultar",
+   "influir para terceiro adquirir",
+   "origem criminosa",
+   "dolo eventual",
+   "receptação qualificada",
+   "atividade comercial ou industrial",
+   "receptação culposa",
+   "desproporção de preço",
+   "crime antecedente"
+  ],
+  "dispositivos": [
+   "art. 180 CP",
+   "art. 180, §1º, CP",
+   "art. 180, §2º, CP",
+   "art. 180, §3º, CP",
+   "art. 180, §4º, CP",
+   "art. 180, §5º, CP",
+   "art. 180, §6º, CP",
+   "art. 180-A CP"
+  ],
+  "nao_confundir": "Não confundir com furto (5159), roubo (5160) ou apropriação indébita (5165), que são crimes antecedentes de obtenção inicial da coisa; a receptação incide sobre conduta posterior relativa a produto de crime. Também se distingue de favorecimento real (5084), pois na receptação há interesse patrimonial próprio ou de terceiro sobre o produto do crime, enquanto o favorecimento real busca tornar seguro o proveito do crime alheio sem aderir ao produto como coisa receptada."
+ },
+ "5160": {
+  "descricao": "Abrange o roubo próprio e impróprio, simples, majorado e qualificado pelo resultado, caracterizado pela subtração de coisa alheia móvel mediante violência ou grave ameaça à pessoa, ou, após a subtração, emprego de violência ou ameaça para assegurar impunidade ou detenção da coisa. Em concursos, são centrais a consumação, dispensabilidade da posse mansa e pacífica, emprego de arma, concurso de pessoas, restrição da liberdade da vítima, transporte de valores, subtração de veículo para outro Estado ou exterior e latrocínio.",
+  "palavras_chave": [
+   "roubo",
+   "subtração com violência",
+   "grave ameaça",
+   "roubo próprio",
+   "roubo impróprio",
+   "emprego de arma",
+   "arma de fogo",
+   "concurso de pessoas",
+   "restrição da liberdade da vítima",
+   "transporte de valores",
+   "latrocínio",
+   "posse mansa e pacífica",
+   "inversão da posse",
+   "violência imprópria",
+   "majorantes do roubo"
+  ],
+  "dispositivos": [
+   "art. 157 CP",
+   "art. 157, §1º, CP",
+   "art. 157, §2º, CP",
+   "art. 157, §2º-A, CP",
+   "art. 157, §2º-B, CP",
+   "art. 157, §3º, CP",
+   "Súmula 443 STJ",
+   "Súmula 582 STJ",
+   "Súmula 610 STF",
+   "Lei 8.072/1990, art. 1º"
+  ],
+  "nao_confundir": "Não confundir com furto (5159), que não envolve violência ou grave ameaça à pessoa, ainda que haja rompimento de obstáculo contra coisa. Diferenciar de extorsão (5161): no roubo, o agente subtrai o bem; na extorsão, a vantagem depende de comportamento relevante da vítima. Se a questão tratar de morte para subtração ou manutenção da coisa, normalmente será latrocínio dentro de roubo, e não homicídio isolado em crimes contra a vida (5149)."
+ },
+ "5163": {
+  "descricao": "Abrange os crimes de usurpação patrimonial ligados à propriedade ou posse imobiliária e a recursos naturais, como alteração de limites, usurpação de águas e supressão ou alteração de marcas divisórias. Em provas, aparece em situações de deslocamento de marco, invasão de faixa de terra, desvio de curso d’água, apropriação de águas alheias e conflitos possessórios penalmente relevantes.",
+  "palavras_chave": [
+   "usurpação",
+   "alteração de limites",
+   "marco divisório",
+   "tapume",
+   "sinal indicativo de linha divisória",
+   "usurpação de águas",
+   "desviar águas",
+   "represar águas",
+   "posse imobiliária",
+   "propriedade imóvel",
+   "limites de terreno",
+   "supressão de marco",
+   "recurso hídrico",
+   "conflito possessório"
+  ],
+  "dispositivos": [
+   "art. 161 CP",
+   "art. 161, caput, CP",
+   "art. 161, §1º, I, CP",
+   "art. 161, §2º, CP",
+   "art. 162 CP"
+  ],
+  "nao_confundir": "Não confundir com esbulho possessório (5162), que é uma modalidade específica envolvendo invasão de terreno ou edifício para fim de esbulho, com violência, grave ameaça ou concurso de mais de duas pessoas. Também não confundir com dano (5164): na usurpação, a alteração ou destruição de marcos e sinais serve à apropriação ou modificação de limites ou águas; no dano, o núcleo é apenas destruir, inutilizar ou deteriorar coisa alheia."
+ },
+ "5155": {
+  "descricao": "Abrange os crimes do Título XII do Código Penal, inseridos pela Lei 14.197/2021, voltados à proteção da soberania nacional, da ordem constitucional, do processo eleitoral democrático e do próprio Estado Democrático de Direito. Em provas, costuma envolver a identificação dos tipos penais, seus elementos subjetivos específicos, o uso de violência ou grave ameaça, a proteção da manifestação política lícita e a distinção em relação à antiga Lei de Segurança Nacional.",
+  "palavras_chave": [
+   "Estado Democrático de Direito",
+   "Lei 14.197/2021",
+   "antiga Lei de Segurança Nacional",
+   "soberania nacional",
+   "atentado à soberania",
+   "integridade nacional",
+   "espionagem",
+   "abolição violenta do Estado Democrático de Direito",
+   "golpe de Estado",
+   "processo eleitoral",
+   "violação de sistema eletrônico de votação",
+   "violência política",
+   "sabotagem",
+   "manifestação crítica aos Poderes",
+   "reivindicação de direitos constitucionais"
+  ],
+  "dispositivos": [
+   "CP, arts. 359-I a 359-T",
+   "CP, art. 359-I",
+   "CP, art. 359-J",
+   "CP, art. 359-K",
+   "CP, arts. 359-L e 359-M",
+   "CP, arts. 359-N e 359-P",
+   "CP, art. 359-R",
+   "CP, art. 359-T",
+   "Lei 14.197/2021",
+   "Lei 7.170/1983, revogada",
+   "CF/88, arts. 1º, 2º, 5º, IV e XVI, e 14"
+  ],
+  "nao_confundir": "Não confundir com 5148 quando a questão tratar especificamente dos crimes contra as instituições democráticas em sentido estrito, como abolição violenta do Estado Democrático de Direito e golpe de Estado; o critério é o foco nos arts. 359-L e 359-M do CP. Não confundir com 5156 quando o núcleo for sabotagem ou ataque ao funcionamento de serviços essenciais, especialmente art. 359-R do CP. Também não se deve deslocar para 5087 ou 5144 se a lesão a agente público, à paz pública ou à administração for apenas meio para atingir a ordem constitucional democrática."
+ },
+ "5175": {
+  "descricao": "Tema geral sobre o caminho do crime, desde a cogitação até eventual consumação e exaurimento, incluindo tentativa, desistência voluntária, arrependimento eficaz, arrependimento posterior e crime impossível. Em provas, aparece para identificar em que momento a conduta se encontra, se há punição por tentativa ou somente pelos atos já praticados, e quais institutos reduzem ou excluem a tipicidade/punibilidade da tentativa.",
+  "palavras_chave": [
+   "iter criminis",
+   "caminho do crime",
+   "cogitação",
+   "atos preparatórios",
+   "atos executórios",
+   "consumação",
+   "exaurimento",
+   "tentativa",
+   "desistência voluntária",
+   "arrependimento eficaz",
+   "arrependimento posterior",
+   "crime impossível",
+   "ineficácia absoluta do meio",
+   "impropriedade absoluta do objeto"
+  ],
+  "dispositivos": [
+   "art. 14, I e II, CP",
+   "art. 14, parágrafo único, CP",
+   "art. 15 CP",
+   "art. 16 CP",
+   "art. 17 CP",
+   "art. 31 CP",
+   "art. 4º da Lei de Contravenções Penais",
+   "Súmula 145 STF",
+   "Súmula 567 STJ",
+   "Súmula 582 STJ",
+   "Súmula 610 STF"
+  ],
+  "nao_confundir": "Não confundir com Teoria do Crime: Fato Típico (5218), que trata dos elementos gerais do fato típico, como conduta, resultado, nexo causal, dolo, culpa e tipicidade; aqui o foco é a progressão temporal da execução criminosa. Também se distingue dos crimes em espécie, como crimes contra a vida (5149) ou patrimônio (5157): se a questão cobra o tipo penal específico, classifique no crime correspondente; se cobra tentativa, consumação, desistência ou crime impossível, use Iter Criminis."
+ },
+ "5177": {
+  "descricao": "Abrange a distinção entre crime consumado e crime tentado, incluindo início de execução, não consumação por circunstâncias alheias à vontade do agente e fração de diminuição da tentativa. Em provas, exige reconhecer quando o tipo penal reuniu todos os seus elementos e quando a execução foi interrompida antes da consumação, bem como quais crimes admitem ou não tentativa.",
+  "palavras_chave": [
+   "crime consumado",
+   "crime tentado",
+   "tentativa",
+   "início da execução",
+   "circunstâncias alheias à vontade do agente",
+   "pena da tentativa",
+   "redução de um a dois terços",
+   "conatus",
+   "tentativa branca",
+   "tentativa cruenta",
+   "tentativa perfeita",
+   "tentativa imperfeita",
+   "crimes que não admitem tentativa",
+   "contravenção penal",
+   "consumação formal"
+  ],
+  "dispositivos": [
+   "art. 14, I, CP",
+   "art. 14, II, CP",
+   "art. 14, parágrafo único, CP",
+   "art. 4º da Lei de Contravenções Penais",
+   "Súmula 582 STJ",
+   "Súmula 610 STF",
+   "Súmula 567 STJ"
+  ],
+  "nao_confundir": "Não confundir com Fases do Iter Criminis (5176): se a questão pergunta sobre cogitação, preparação, execução, consumação e exaurimento em abstrato, é 5176; se pergunta se o crime foi consumado ou tentado e a consequência penal da tentativa, é 5177. Também não confundir com crimes em espécie, como roubo, furto ou homicídio (5157 e 5149): a identificação do momento consumativo desses crimes entra aqui quando a ênfase for tentativa/consumação."
+ },
+ "5179": {
+  "descricao": "Trata do crime impossível, hipótese em que não se pune a tentativa por absoluta ineficácia do meio ou absoluta impropriedade do objeto. Em provas, costuma aparecer em situações de flagrante preparado, arma ou meio absolutamente incapaz, objeto inexistente ou vítima já morta, exigindo diferenciar impossibilidade absoluta de mera dificuldade ou ineficácia relativa.",
+  "palavras_chave": [
+   "crime impossível",
+   "tentativa inidônea",
+   "quase-crime",
+   "ineficácia absoluta do meio",
+   "impropriedade absoluta do objeto",
+   "impossibilidade absoluta",
+   "impossibilidade relativa",
+   "flagrante preparado",
+   "crime de ensaio",
+   "Súmula 145 STF",
+   "objeto inexistente",
+   "meio absolutamente incapaz",
+   "sistema de vigilância",
+   "furto em estabelecimento monitorado"
+  ],
+  "dispositivos": [
+   "art. 17 CP",
+   "Súmula 145 STF",
+   "Súmula 567 STJ",
+   "art. 14, II, CP"
+  ],
+  "nao_confundir": "Não confundir com Crime Consumado e Tentado (5177): na tentativa punível há possibilidade real de consumação frustrada por circunstâncias alheias; no crime impossível, a consumação era absolutamente inviável desde o início. Não confundir com flagrante esperado ou ação policial meramente observadora, matéria de Processo Penal, pois o critério penal aqui é se houve preparação que tornou impossível a consumação, especialmente nos termos da Súmula 145 STF."
+ },
+ "5178": {
+  "descricao": "Abrange desistência voluntária, arrependimento eficaz e arrependimento posterior, institutos que pressupõem atuação voluntária do agente após iniciar a execução ou após consumar crime sem violência ou grave ameaça. Em provas, o ponto central é diferenciar quando o agente para de prosseguir, quando impede o resultado e quando repara o dano ou restitui a coisa, com os respectivos efeitos penais.",
+  "palavras_chave": [
+   "desistência voluntária",
+   "arrependimento eficaz",
+   "arrependimento posterior",
+   "ponte de ouro",
+   "voluntariedade",
+   "responde pelos atos já praticados",
+   "impede o resultado",
+   "reparação do dano",
+   "restituição da coisa",
+   "até o recebimento da denúncia ou queixa",
+   "crime sem violência ou grave ameaça",
+   "redução de pena",
+   "um a dois terços",
+   "tentativa abandonada",
+   "resultado não ocorre por vontade do agente"
+  ],
+  "dispositivos": [
+   "art. 15 CP",
+   "art. 16 CP",
+   "art. 14, II, CP",
+   "art. 312, §3º, CP"
+  ],
+  "nao_confundir": "Não confundir com Crime Consumado e Tentado (5177): na tentativa, a não consumação decorre de circunstâncias alheias à vontade do agente; na desistência voluntária e no arrependimento eficaz, decorre de conduta voluntária do próprio agente. Também não confundir com Punibilidade (5191) ou Teoria da Pena (5199): embora haja redução ou responsabilização apenas pelos atos já praticados, o núcleo da questão é o momento do iter criminis e a conduta posterior do agente."
+ },
+ "5176": {
+  "descricao": "Trata das etapas do iter criminis: cogitação, preparação, execução, consumação e exaurimento, com especial atenção à passagem dos atos preparatórios para atos executórios. Em provas, aparece para saber quais fases são puníveis, quando começa a tentativa e quando atos preparatórios são excepcionalmente criminalizados como crimes autônomos.",
+  "palavras_chave": [
+   "fases do iter criminis",
+   "cogitação",
+   "atos preparatórios",
+   "atos executórios",
+   "início da execução",
+   "consumação",
+   "exaurimento",
+   "fase interna",
+   "fase externa",
+   "preparação impunível",
+   "atos preparatórios puníveis",
+   "crime autônomo",
+   "art. 31 do CP",
+   "antecipação da tutela penal",
+   "teoria objetivo-formal"
+  ],
+  "dispositivos": [
+   "art. 14, I e II, CP",
+   "art. 31 CP",
+   "art. 288 CP",
+   "art. 291 CP",
+   "art. 253 CP",
+   "art. 34 da Lei 11.343/2006"
+  ],
+  "nao_confundir": "Não confundir com Crime Consumado e Tentado (5177), que se concentra na consumação ou na tentativa já configurada; em 5176, a preocupação é localizar a fase do caminho do crime e definir se o ato ainda é preparatório ou já executivo. Também se distingue de Concurso de Pessoas (5071): art. 31 CP pode aparecer em ambos, mas aqui é usado para discutir a impunibilidade de ajuste, instigação ou auxílio quando o crime não chega a ser tentado."
+ },
+ "5184": {
+  "descricao": "Abrange a medida de segurança como espécie de sanção penal de finalidade preventiva e curativa, aplicada principalmente ao inimputável por doença mental ou desenvolvimento mental incompleto/retardado, bem como ao semi-imputável quando cabível a substituição da pena. Nas provas, costuma envolver espécies, pressupostos, prazo mínimo, duração máxima conforme jurisprudência, perícia de cessação de periculosidade, desinternação ou liberação condicional e execução da medida.",
+  "palavras_chave": [
+   "medida de segurança",
+   "inimputável",
+   "semi-imputável",
+   "periculosidade",
+   "absolvição imprópria",
+   "internação",
+   "tratamento ambulatorial",
+   "hospital de custódia",
+   "cessação da periculosidade",
+   "exame pericial",
+   "desinternação condicional",
+   "liberação condicional",
+   "prazo mínimo",
+   "doença mental",
+   "substituição da pena"
+  ],
+  "dispositivos": [
+   "art. 26 CP",
+   "art. 26, parágrafo único, CP",
+   "arts. 96 a 99 CP",
+   "art. 97 CP",
+   "art. 98 CP",
+   "art. 99 CP",
+   "arts. 171 a 179 LEP",
+   "arts. 149 a 154 CPP",
+   "art. 386, parágrafo único, III, CPP",
+   "Lei 10.216/2001",
+   "Súmula 527 STJ",
+   "Súmula 422 STF"
+  ],
+  "nao_confundir": "Não confundir com 5211, que trata da culpabilidade e da inimputabilidade como elemento do crime; se o foco for a consequência jurídica aplicada ao inimputável ou semi-imputável, o tema é 5184. Não confundir com 5199, voltado à pena, dosimetria e regimes, pois medida de segurança não é pena em sentido estrito. Questões sobre prescrição da pretensão punitiva ou executória devem ir para 5185, salvo quando o núcleo for a duração, revisão ou execução da própria medida de segurança."
+ },
+ "5180": {
+  "descricao": "Abrange as regras gerais de incidência da lei penal quanto ao tempo e ao lugar, incluindo anterioridade, irretroatividade, retroatividade benéfica, leis temporárias e excepcionais, tempo e lugar do crime, territorialidade e extraterritorialidade. Também compreende os critérios usados para resolver aparente sobreposição de normas penais, quando um mesmo fato parece enquadrar-se em mais de um tipo penal.",
+  "palavras_chave": [
+   "lei penal no tempo",
+   "lei penal no espaço",
+   "anterioridade penal",
+   "retroatividade da lei penal benéfica",
+   "abolitio criminis",
+   "novatio legis in mellius",
+   "novatio legis incriminadora",
+   "lei temporária",
+   "lei excepcional",
+   "tempo do crime",
+   "lugar do crime",
+   "territorialidade",
+   "extraterritorialidade",
+   "conflito aparente de normas",
+   "teoria da ubiquidade"
+  ],
+  "dispositivos": [
+   "CF/1988, art. 5º, XXXIX",
+   "CF/1988, art. 5º, XL",
+   "CP, arts. 1º a 12",
+   "CP, art. 2º",
+   "CP, art. 3º",
+   "CP, art. 4º",
+   "CP, art. 5º",
+   "CP, art. 6º",
+   "CP, art. 7º",
+   "CP, art. 9º",
+   "Súmula 611 STF",
+   "Súmula 711 STF",
+   "Súmula 17 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5170, que trata dos conceitos, fontes, princípios e interpretação do Direito Penal em sentido mais introdutório; aqui o foco é a incidência temporal e espacial da norma penal. Também não confundir com 5185 e 5191: prescrição e causas extintivas da punibilidade podem envolver passagem do tempo ou abolitio criminis, mas o critério deste tema é a sucessão ou aplicação territorial da lei penal."
+ },
+ "5183": {
+  "descricao": "Trata das hipóteses em que um único fato parece subsumir-se a mais de uma norma penal, mas apenas uma delas deve prevalecer. Nas provas, costuma cobrar os princípios da especialidade, subsidiariedade, consunção e alternatividade, bem como situações de crime-meio absorvido pelo crime-fim, progressão criminosa e antefato ou pós-fato impunível.",
+  "palavras_chave": [
+   "conflito aparente de normas",
+   "princípio da especialidade",
+   "princípio da subsidiariedade",
+   "princípio da consunção",
+   "princípio da absorção",
+   "princípio da alternatividade",
+   "crime-meio",
+   "crime-fim",
+   "progressão criminosa",
+   "crime progressivo",
+   "antefato impunível",
+   "pós-fato impunível",
+   "norma especial",
+   "norma subsidiária",
+   "tipo misto alternativo"
+  ],
+  "dispositivos": [
+   "CP, art. 12",
+   "Súmula 17 STJ",
+   "CP, art. 70, caput, por distinção com concurso formal",
+   "CP, art. 69, por distinção com concurso material"
+  ],
+  "nao_confundir": "Não confundir com 5066: no concurso de crimes há pluralidade de crimes remanescentes e discussão sobre soma ou exasperação de penas; no conflito aparente, apenas uma norma incriminadora é aplicada ao fato. Também não confundir com os capítulos de crimes em espécie, como 5157 ou 5087, pois, se a questão pergunta apenas os elementos de furto, peculato, roubo etc., o tema é o tipo penal específico; se pergunta qual norma prevalece entre tipos aparentemente incidentes, é 5183."
+ },
+ "5182": {
+  "descricao": "Cobre a aplicação da lei penal brasileira segundo o local do crime, incluindo territorialidade, território nacional por extensão, lugar do crime e hipóteses de extraterritorialidade. Nas provas, aparecem questões sobre crimes praticados a bordo de navios e aeronaves, crimes no exterior contra bens ou interesses brasileiros, condições de aplicação da lei brasileira e eficácia de sentença penal estrangeira.",
+  "palavras_chave": [
+   "lei penal no espaço",
+   "territorialidade",
+   "territorialidade temperada",
+   "extraterritorialidade",
+   "extraterritorialidade incondicionada",
+   "extraterritorialidade condicionada",
+   "território nacional por extensão",
+   "navio brasileiro",
+   "aeronave brasileira",
+   "lugar do crime",
+   "teoria da ubiquidade",
+   "crime à distância",
+   "sentença penal estrangeira",
+   "pena cumprida no estrangeiro",
+   "princípio da bandeira"
+  ],
+  "dispositivos": [
+   "CP, art. 5º",
+   "CP, art. 6º",
+   "CP, art. 7º",
+   "CP, art. 8º",
+   "CP, art. 9º",
+   "CP, art. 10, por distinção",
+   "CF/1988, art. 5º, LI",
+   "CF/1988, art. 5º, LII"
+  ],
+  "nao_confundir": "Não confundir com 5181: se a dúvida é sobre qual lei incide em razão da data do fato ou da sucessão de leis, o tema é temporal; se é sobre o local de prática, território, navios, aeronaves ou crimes no exterior, é 5182. Também se distingue dos crimes em espécie, como 5148, 5155 ou 5087: ainda que o crime seja contra interesse nacional ou Administração Pública, a classificação aqui depende de a pergunta tratar da aplicação espacial da lei brasileira."
+ },
+ "5181": {
+  "descricao": "Abrange as regras de incidência da lei penal em razão do momento do crime e da sucessão de leis penais. Inclui irretroatividade da lei penal mais gravosa, retroatividade da lei penal mais benéfica, abolitio criminis, novatio legis incriminadora, novatio legis in pejus, novatio legis in mellius, leis temporárias e excepcionais, além do tempo do crime pela teoria da atividade.",
+  "palavras_chave": [
+   "lei penal no tempo",
+   "tempo do crime",
+   "teoria da atividade",
+   "irretroatividade",
+   "retroatividade benéfica",
+   "ultratividade",
+   "abolitio criminis",
+   "novatio legis incriminadora",
+   "novatio legis in mellius",
+   "novatio legis in pejus",
+   "lei penal mais benéfica",
+   "lei temporária",
+   "lei excepcional",
+   "crime permanente",
+   "crime continuado"
+  ],
+  "dispositivos": [
+   "CF/1988, art. 5º, XXXIX",
+   "CF/1988, art. 5º, XL",
+   "CP, art. 1º",
+   "CP, art. 2º",
+   "CP, art. 3º",
+   "CP, art. 4º",
+   "Súmula 611 STF",
+   "Súmula 711 STF"
+  ],
+  "nao_confundir": "Não confundir com 5191, especialmente 5194: se a questão enfatiza a abolitio criminis como causa extintiva da punibilidade, pode ser punibilidade; se enfatiza sucessão de leis, retroatividade, ultratividade ou lei mais benéfica, é 5181. Também não confundir com 5185, pois prescrição trata da perda da pretensão punitiva ou executória pelo decurso do prazo, e não da escolha da lei penal aplicável no tempo."
+ },
+ "5211": {
+  "descricao": "Abrange a culpabilidade como terceiro substrato do crime na teoria analítica: juízo de reprovação pessoal dirigido ao agente que praticou fato típico e ilícito. Em provas, costuma envolver seus elementos, suas causas legais e supralegais de exclusão, bem como a distinção entre exclusão da culpabilidade, exclusão da ilicitude e ausência de fato típico.",
+  "palavras_chave": [
+   "culpabilidade",
+   "juízo de reprovação",
+   "reprovabilidade",
+   "imputabilidade",
+   "potencial consciência da ilicitude",
+   "exigibilidade de conduta diversa",
+   "causas excludentes de culpabilidade",
+   "dirimentes",
+   "erro de proibição",
+   "coação moral irresistível",
+   "obediência hierárquica",
+   "inimputabilidade",
+   "teoria normativa pura",
+   "fato típico e ilícito"
+  ],
+  "dispositivos": [
+   "arts. 21 a 28 CP",
+   "art. 21 CP",
+   "art. 22 CP",
+   "art. 26 CP",
+   "art. 27 CP",
+   "art. 28 CP",
+   "art. 65, III, CP",
+   "art. 386, VI, CPP"
+  ],
+  "nao_confundir": "Não confundir com Teoria do Crime: Fato Típico (5218), que examina conduta, dolo/culpa, resultado, nexo causal e tipicidade; nem com Teoria do Crime: Ilicitude (5228), que trata de legítima defesa, estado de necessidade e demais justificantes. O critério de desempate é: se o enunciado pergunta se o agente podia ser pessoalmente censurado, o tema é culpabilidade; se pergunta se o fato era permitido ou se era típico, vá para 5228 ou 5218."
+ },
+ "5217": {
+  "descricao": "Trata das hipóteses não expressamente previstas em lei que afastam a culpabilidade, em geral pela inexigibilidade de conduta diversa. Em concursos, aparece em discussões doutrinárias e jurisprudenciais sobre situações extremas nas quais, embora o fato seja típico e ilícito, não se pode exigir comportamento conforme o Direito.",
+  "palavras_chave": [
+   "causa supralegal",
+   "exclusão supralegal da culpabilidade",
+   "inexigibilidade de conduta diversa",
+   "estado de necessidade exculpante",
+   "conflito de deveres",
+   "excesso exculpante",
+   "cláusula de consciência",
+   "objeção de consciência",
+   "desobediência civil",
+   "coculpabilidade",
+   "situação extrema",
+   "dirimente supralegal",
+   "não exigibilidade"
+  ],
+  "dispositivos": [
+   "art. 22 CP",
+   "art. 24 CP",
+   "art. 65, III, CP",
+   "art. 386, VI, CPP",
+   "art. 5º, VIII, CF"
+  ],
+  "nao_confundir": "Não confundir com Coação Moral Irresistível (5215) e Obediência Hierárquica (5216), que são causas legais expressas no art. 22 do CP. Também não confundir com excludentes de ilicitude de 5228: aqui o fato continua ilícito, mas o agente não é culpável por inexigibilidade de conduta diversa."
+ },
+ "5215": {
+  "descricao": "Cobre a coação moral irresistível, causa legal de exclusão da culpabilidade fundada na inexigibilidade de conduta diversa. Nas provas, o ponto central é distinguir ameaça irresistível, que isenta o coagido e responsabiliza o coator, de coação resistível, que apenas pode atenuar a pena.",
+  "palavras_chave": [
+   "coação moral irresistível",
+   "grave ameaça",
+   "ameaça irresistível",
+   "inexigibilidade de conduta diversa",
+   "coator",
+   "coagido",
+   "art. 22 do CP",
+   "responde só o autor da coação",
+   "coação resistível",
+   "atenuante",
+   "vis compulsiva",
+   "medo insuperável",
+   "ordem de terceiro",
+   "dirimente"
+  ],
+  "dispositivos": [
+   "art. 22 CP",
+   "art. 65, III, c, CP",
+   "art. 386, VI, CPP"
+  ],
+  "nao_confundir": "Não confundir com coação física irresistível, ligada à ausência de conduta voluntária e, portanto, ao Fato Típico (5218). Se há força física que elimina a vontade, discute-se conduta; se há ameaça que preserva ação voluntária, mas torna inexigível conduta diversa, o tema é 5215."
+ },
+ "5212": {
+  "descricao": "Abrange o conceito de culpabilidade e seus elementos na teoria normativa pura: imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa. Em provas, é comum a cobrança da posição da culpabilidade na estrutura do crime, de sua função como limite da pena e da identificação de qual elemento é afetado em cada causa excludente.",
+  "palavras_chave": [
+   "conceito de culpabilidade",
+   "elementos da culpabilidade",
+   "imputabilidade penal",
+   "potencial consciência da ilicitude",
+   "exigibilidade de conduta diversa",
+   "teoria normativa pura",
+   "teoria psicológica",
+   "teoria psicológico-normativa",
+   "juízo de censura",
+   "reprovabilidade pessoal",
+   "nulla poena sine culpa",
+   "princípio da culpabilidade",
+   "dirimentes",
+   "estrutura analítica do crime"
+  ],
+  "dispositivos": [
+   "arts. 21 a 28 CP",
+   "art. 21 CP",
+   "art. 22 CP",
+   "art. 26 CP",
+   "art. 27 CP",
+   "art. 28 CP",
+   "art. 59 CP",
+   "art. 5º, XLV, CF"
+  ],
+  "nao_confundir": "Não confundir com Introdução ao Estudo do Direito Penal (5170), que aborda princípios e conceitos gerais de modo mais amplo. Também não confundir com Teoria da Pena (5199): embora a culpabilidade influencie a dosimetria no art. 59 do CP, aqui o foco é a existência ou não de reprovação penal como elemento do crime."
+ },
+ "5214": {
+  "descricao": "Trata do erro de proibição, isto é, erro do agente sobre a ilicitude do fato, afetando a potencial consciência da ilicitude. Em provas, a cobrança típica envolve diferenciar erro inevitável, que isenta de pena, de erro evitável, que reduz a pena, além do erro de proibição direto e indireto.",
+  "palavras_chave": [
+   "erro de proibição",
+   "desconhecimento da ilicitude",
+   "potencial consciência da ilicitude",
+   "erro inevitável",
+   "erro escusável",
+   "erro invencível",
+   "erro evitável",
+   "erro inescusável",
+   "erro vencível",
+   "isenta de pena",
+   "redução de pena",
+   "erro de proibição direto",
+   "erro de proibição indireto",
+   "descriminante putativa",
+   "ignorância da lei"
+  ],
+  "dispositivos": [
+   "art. 21 CP",
+   "art. 20, §1º, CP",
+   "art. 65, II, CP",
+   "art. 386, VI, CPP"
+  ],
+  "nao_confundir": "Não confundir com Erro de Tipo (5224), que recai sobre elemento fático ou normativo do tipo penal e pode excluir dolo. O critério é: se o agente erra sobre o que está fazendo, é erro de tipo; se sabe o que faz, mas acredita que sua conduta é permitida ou não proibida, é erro de proibição."
+ },
+ "5213": {
+  "descricao": "Abrange a inimputabilidade penal e a semi-imputabilidade, relativas à capacidade do agente de entender o caráter ilícito do fato ou de determinar-se conforme esse entendimento. Em provas, envolve doença mental, desenvolvimento mental incompleto ou retardado, menoridade penal, embriaguez completa fortuita, emoção/paixão e teoria da actio libera in causa.",
+  "palavras_chave": [
+   "inimputabilidade",
+   "semi-imputabilidade",
+   "imputabilidade penal",
+   "doença mental",
+   "desenvolvimento mental incompleto",
+   "desenvolvimento mental retardado",
+   "menor de 18 anos",
+   "menoridade penal",
+   "critério biopsicológico",
+   "critério biológico",
+   "embriaguez completa fortuita",
+   "embriaguez voluntária",
+   "actio libera in causa",
+   "medida de segurança",
+   "redução de pena"
+  ],
+  "dispositivos": [
+   "art. 26 CP",
+   "art. 26, parágrafo único, CP",
+   "art. 27 CP",
+   "art. 28 CP",
+   "art. 97 CP",
+   "art. 228 CF",
+   "arts. 103 a 105 ECA",
+   "Súmula 74 STJ"
+  ],
+  "nao_confundir": "Não confundir com Medida de Segurança (5184), que trata das consequências sancionatórias aplicáveis ao inimputável ou semi-imputável. Em 5213, o foco é a capacidade de culpabilidade no momento do fato; em 5184, o foco é espécie, prazo, execução e cessação da periculosidade."
+ },
+ "5216": {
+  "descricao": "Cobre a obediência hierárquica como causa legal de exclusão da culpabilidade quando o subordinado cumpre ordem não manifestamente ilegal de superior hierárquico. Em provas, exige verificar a existência de relação hierárquica de direito público, a aparência de legalidade da ordem e a responsabilização do superior pela ordem ilícita.",
+  "palavras_chave": [
+   "obediência hierárquica",
+   "ordem de superior hierárquico",
+   "ordem não manifestamente ilegal",
+   "subordinado",
+   "superior hierárquico",
+   "hierarquia funcional",
+   "direito público",
+   "art. 22 do CP",
+   "cumprimento de ordem",
+   "ilegalidade manifesta",
+   "responsabilidade do superior",
+   "dirimente",
+   "inexigibilidade de conduta diversa",
+   "dever de obediência"
+  ],
+  "dispositivos": [
+   "art. 22 CP",
+   "art. 23, III, CP",
+   "art. 386, VI, CPP",
+   "art. 116, IV, Lei 8.112/1990"
+  ],
+  "nao_confundir": "Não confundir com Estrito Cumprimento do Dever Legal, ligado à Ilicitude (5228/5232): se a ordem ou dever é lícito, o fato pode ser justificado; se a ordem é ilícita, mas não manifestamente ilegal, exclui-se a culpabilidade do subordinado. Se a ordem for manifestamente ilegal, não há excludente para quem a cumpre."
+ },
+ "5191": {
+  "descricao": "Abrange as causas de extinção da punibilidade previstas no Código Penal e seus efeitos sobre a pretensão punitiva ou executória do Estado. Em provas, costuma aparecer em questões sobre art. 107 do CP, natureza jurídica da punibilidade, momento de incidência da causa extintiva e efeitos penais remanescentes.",
+  "palavras_chave": [
+   "extinção da punibilidade",
+   "art. 107 do CP",
+   "pretensão punitiva",
+   "pretensão executória",
+   "causas extintivas",
+   "morte do agente",
+   "anistia",
+   "graça",
+   "indulto",
+   "abolitio criminis",
+   "decadência",
+   "perempção",
+   "renúncia",
+   "perdão do ofendido",
+   "perdão judicial"
+  ],
+  "dispositivos": [
+   "art. 107 CP",
+   "arts. 2º, 100 a 106 e 120 CP",
+   "art. 5º, XL e XLV, CF",
+   "art. 61 CPP"
+  ],
+  "nao_confundir": "Não confundir com 5185, que trata especificamente de prescrição, embora ela também seja causa de extinção da punibilidade no art. 107, IV, do CP. Também não confundir com 5063: se a questão discute espécie, titularidade ou condições da ação penal, é Ação Penal; se discute perda do poder de punir por causa extintiva, é Punibilidade."
+ },
+ "5194": {
+  "descricao": "Trata da abolitio criminis, hipótese em que lei posterior deixa de considerar determinado fato como crime, extinguindo a punibilidade e fazendo cessar os efeitos penais da condenação. Em concursos, cobra-se sua relação com a retroatividade da lei penal benéfica, coisa julgada, competência do juízo da execução e distinção em relação à continuidade normativo-típica.",
+  "palavras_chave": [
+   "abolitio criminis",
+   "lei posterior benéfica",
+   "retroatividade da lei penal",
+   "fato deixa de ser crime",
+   "revogação do tipo penal",
+   "extinção da punibilidade",
+   "cessação dos efeitos penais",
+   "coisa julgada penal",
+   "continuidade normativo-típica",
+   "lex mitior",
+   "lei supressiva de incriminação",
+   "juízo da execução"
+  ],
+  "dispositivos": [
+   "art. 2º, caput, CP",
+   "art. 107, III, CP",
+   "art. 5º, XL, CF",
+   "Súmula 611 STF"
+  ],
+  "nao_confundir": "Não confundir com 5180, que trata genericamente da lei penal no tempo; aqui o foco é a extinção da punibilidade pela supressão da incriminação. Se a lei apenas desloca a conduta para outro tipo penal, há continuidade normativo-típica, e não abolitio criminis."
+ },
+ "5193": {
+  "descricao": "Abrange anistia, graça e indulto como causas de extinção da punibilidade, com atenção às diferenças entre clemência coletiva, individual e presidencial. As provas exploram competência constitucional, limites para crimes hediondos e equiparados, efeitos sobre a condenação e procedimento de concessão.",
+  "palavras_chave": [
+   "anistia",
+   "graça",
+   "indulto",
+   "clemência soberana",
+   "indulto coletivo",
+   "graça individual",
+   "comutação de pena",
+   "crimes hediondos",
+   "insuscetibilidade",
+   "decreto presidencial",
+   "Congresso Nacional",
+   "efeitos primários da condenação",
+   "execução penal",
+   "extinção da pena"
+  ],
+  "dispositivos": [
+   "art. 107, II, CP",
+   "art. 5º, XLIII, CF",
+   "art. 21, XVII, CF",
+   "art. 48, VIII, CF",
+   "art. 84, XII, CF",
+   "Lei 8.072/1990, art. 2º, I",
+   "LEP, arts. 187 a 193",
+   "Súmula 631 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5197: perdão judicial é ato jurisdicional previsto em lei para casos concretos, enquanto anistia, graça e indulto são atos de clemência estatal. Também não confundir com 5199 quando a questão tratar apenas de regime, espécie ou cumprimento de pena sem discutir extinção da punibilidade."
+ },
+ "5198": {
+  "descricao": "Trata da decadência do direito de queixa ou de representação, em regra pelo decurso do prazo de 6 meses sem exercício pelo ofendido ou representante legal. Em provas, o ponto central é identificar termo inicial, natureza do prazo, consequências e incidência em ação penal privada ou pública condicionada.",
+  "palavras_chave": [
+   "decadência",
+   "prazo decadencial",
+   "direito de queixa",
+   "direito de representação",
+   "seis meses",
+   "conhecimento da autoria",
+   "ofendido",
+   "representante legal",
+   "ação penal privada",
+   "ação penal pública condicionada",
+   "prazo fatal",
+   "extinção da punibilidade",
+   "queixa-crime",
+   "representação criminal"
+  ],
+  "dispositivos": [
+   "art. 103 CP",
+   "art. 107, IV, CP",
+   "art. 100 CP",
+   "art. 38 CPP",
+   "art. 29 CPP",
+   "art. 48 CPP",
+   "Súmula 594 STF"
+  ],
+  "nao_confundir": "Não confundir com 5185: decadência atinge o direito de queixa ou representação pelo não exercício no prazo legal; prescrição decorre do decurso do tempo sobre a pretensão punitiva ou executória estatal. Também se distingue de 5063, pois a discussão aqui não é a classificação da ação penal, mas a perda do direito de promovê-la ou autorizá-la."
+ },
+ "5192": {
+  "descricao": "Abrange a morte do agente como causa personalíssima de extinção da punibilidade, fundada no princípio da intranscendência da pena. Em provas, costuma-se cobrar a necessidade de prova por certidão de óbito, efeitos sobre corréus e subsistência de efeitos civis patrimoniais.",
+  "palavras_chave": [
+   "morte do agente",
+   "morte do acusado",
+   "morte do condenado",
+   "certidão de óbito",
+   "intranscendência da pena",
+   "personalidade da pena",
+   "extinção da punibilidade",
+   "efeitos civis",
+   "corréus",
+   "ação penal extinta",
+   "art. 107 I",
+   "falecimento do réu",
+   "pretensão punitiva"
+  ],
+  "dispositivos": [
+   "art. 107, I, CP",
+   "art. 5º, XLV, CF",
+   "art. 62 CPP"
+  ],
+  "nao_confundir": "Não confundir com 5199 quando a questão tratar de transmissão de obrigação de reparar o dano ou perdimento de bens, pois esses são efeitos patrimoniais. A morte extingue a punibilidade apenas em relação ao agente falecido, não beneficiando automaticamente coautores ou partícipes, tema que pode tangenciar 5071."
+ },
+ "5197": {
+  "descricao": "Trata do perdão judicial, hipótese em que o juiz deixa de aplicar a pena nos casos expressamente previstos em lei, declarando extinta a punibilidade. As questões cobram sua natureza jurídica, necessidade de previsão legal, exemplos legais e ausência de efeitos condenatórios.",
+  "palavras_chave": [
+   "perdão judicial",
+   "juiz deixa de aplicar a pena",
+   "previsão legal expressa",
+   "extinção da punibilidade",
+   "sentença declaratória",
+   "ausência de reincidência",
+   "homicídio culposo",
+   "lesão corporal culposa",
+   "consequências do crime atingem o agente",
+   "efeitos condenatórios",
+   "art. 120 CP",
+   "Súmula 18 STJ",
+   "clemência judicial"
+  ],
+  "dispositivos": [
+   "art. 107, IX, CP",
+   "art. 120 CP",
+   "art. 121, §5º, CP",
+   "art. 129, §8º, CP",
+   "art. 140, §1º, CP",
+   "art. 180, §5º, CP",
+   "art. 242, parágrafo único, CP",
+   "Súmula 18 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5193: graça e indulto são atos de clemência do Presidente da República, enquanto o perdão judicial é decisão do juiz nos casos autorizados em lei. Também não confundir com 5196: perdão do ofendido é ato da vítima em ação penal privada e depende, em regra, de aceitação do querelado."
+ },
+ "5195": {
+  "descricao": "Abrange a perempção, causa de extinção da punibilidade decorrente da inércia ou abandono do querelante na ação penal exclusivamente privada. Em provas, aparecem as hipóteses do art. 60 do CPP, seus prazos e a distinção em relação à decadência e ao perdão do ofendido.",
+  "palavras_chave": [
+   "perempção",
+   "abandono da ação penal privada",
+   "querelante inerte",
+   "ação penal exclusivamente privada",
+   "30 dias",
+   "falecimento do querelante",
+   "sucessores",
+   "não comparecimento injustificado",
+   "pedido de condenação",
+   "pessoa jurídica querelante",
+   "extinção da punibilidade",
+   "art. 60 CPP",
+   "inércia processual"
+  ],
+  "dispositivos": [
+   "art. 107, IV, CP",
+   "art. 60 CPP",
+   "art. 61 CPP",
+   "art. 29 CPP",
+   "art. 100 CP"
+  ],
+  "nao_confundir": "Não confundir com 5198: decadência ocorre antes do ajuizamento, pela perda do prazo para queixa ou representação; perempção ocorre depois de iniciada a ação penal privada, por abandono do querelante. Na ação penal privada subsidiária da pública, a inércia do querelante não gera perempção nos mesmos moldes, pois o Ministério Público pode retomar a ação, ponto ligado a 5063."
+ },
+ "5196": {
+  "descricao": "Trata da renúncia ao direito de queixa, do perdão do ofendido e da retratação como causas extintivas da punibilidade em hipóteses legalmente admitidas. Em provas, cobra-se o momento de cada instituto, necessidade de aceitação no perdão, comunicabilidade entre querelados e casos legais de retratação.",
+  "palavras_chave": [
+   "renúncia ao direito de queixa",
+   "perdão do ofendido",
+   "retratação",
+   "ação penal privada",
+   "ato unilateral",
+   "ato bilateral",
+   "aceitação do querelado",
+   "indivisibilidade",
+   "renúncia expressa",
+   "renúncia tácita",
+   "perdão expresso",
+   "perdão tácito",
+   "crimes contra a honra",
+   "calúnia",
+   "difamação"
+  ],
+  "dispositivos": [
+   "art. 107, V e VI, CP",
+   "arts. 104 a 106 CP",
+   "art. 143 CP",
+   "art. 342, §2º, CP",
+   "arts. 49 a 59 CPP",
+   "Lei 11.340/2006, art. 16"
+  ],
+  "nao_confundir": "Não confundir renúncia com perdão do ofendido: a renúncia ocorre antes do ajuizamento da queixa e independe de aceitação; o perdão ocorre depois de proposta a ação penal privada e depende de aceitação. Retratação só extingue a punibilidade quando a lei expressamente admitir, não se confundindo com mera confissão ou arrependimento posterior do tema 5175."
+ },
+ "5218": {
+  "descricao": "Abrange a teoria geral do fato típico como primeiro substrato analítico do crime: conduta, resultado, nexo causal, tipicidade, dolo, culpa, omissão e erro de tipo. Em provas, aparece em questões conceituais sobre quando uma conduta humana se amolda ao tipo penal e quando falta algum elemento típico, afastando o próprio crime em sentido analítico.",
+  "palavras_chave": [
+   "fato típico",
+   "conduta",
+   "resultado",
+   "nexo causal",
+   "tipicidade",
+   "dolo",
+   "culpa",
+   "erro de tipo",
+   "crime omissivo",
+   "crime comissivo",
+   "imputação objetiva",
+   "elementos do crime",
+   "exclusão da tipicidade"
+  ],
+  "dispositivos": [
+   "arts. 13 a 20 CP",
+   "art. 13 CP",
+   "art. 14 CP",
+   "art. 18 CP",
+   "art. 19 CP",
+   "art. 20 CP"
+  ],
+  "nao_confundir": "Não confundir com 5228, que trata da ilicitude e das excludentes como legítima defesa e estado de necessidade, nem com 5211, que trata da culpabilidade, imputabilidade e erro de proibição. Se a questão discute a existência da conduta típica, dolo, culpa, nexo ou tipicidade, fica em 5218; se parte de um fato típico para verificar justificação ou reprovação pessoal, vai para 5228 ou 5211."
+ },
+ "5219": {
+  "descricao": "Trata do conceito de crime sob os enfoques formal, material e analítico, bem como dos sujeitos ativo e passivo e dos objetos jurídico e material da infração penal. Também cobre distinções básicas entre crime, contravenção, ilícito penal e elementos estruturais do delito em abstrato.",
+  "palavras_chave": [
+   "conceito de crime",
+   "crime formal",
+   "crime material",
+   "crime analítico",
+   "infração penal",
+   "contravenção penal",
+   "sujeito ativo",
+   "sujeito passivo",
+   "objeto jurídico",
+   "objeto material",
+   "bem jurídico",
+   "crime comum",
+   "crime próprio",
+   "crime de mão própria"
+  ],
+  "dispositivos": [
+   "art. 1º CP",
+   "art. 1º da Lei de Introdução ao Código Penal, Decreto-Lei 3.914/1941",
+   "Lei de Contravenções Penais, Decreto-Lei 3.688/1941",
+   "art. 13 CP"
+  ],
+  "nao_confundir": "Não confundir com 5174, que aprofunda classificações de crimes, como crime material, formal, de mera conduta, instantâneo ou permanente. O critério é: se a questão pergunta o que é crime, quem são seus sujeitos ou qual é o bem/objeto atingido, é 5219; se pede taxonomias classificatórias amplas, tende a ser 5174."
+ },
+ "5221": {
+  "descricao": "Cobre a conduta como comportamento humano voluntário, comissivo ou omissivo, base do fato típico. Inclui teorias da conduta, ausência de conduta penalmente relevante, atos reflexos, estados de inconsciência e coação física irresistível.",
+  "palavras_chave": [
+   "conduta",
+   "ação",
+   "omissão",
+   "comportamento humano voluntário",
+   "teoria causalista",
+   "teoria finalista",
+   "teoria social da ação",
+   "vontade",
+   "ato reflexo",
+   "coação física irresistível",
+   "estado de inconsciência",
+   "sonambulismo",
+   "ausência de conduta",
+   "movimento corporal"
+  ],
+  "dispositivos": [
+   "art. 13 CP",
+   "art. 13, §2º, CP",
+   "art. 18 CP"
+  ],
+  "nao_confundir": "Não confundir com 5223, que aprofunda especificamente crimes omissivos próprios e impróprios. Também não confundir coação física irresistível, que exclui conduta e fica aqui, com coação moral irresistível, que exclui culpabilidade e pertence ao tema 5211."
+ },
+ "5222": {
+  "descricao": "Abrange os elementos subjetivos do tipo, especialmente dolo e culpa, com suas espécies e consequências. Em provas, envolve dolo direto, dolo eventual, culpa consciente, culpa inconsciente, imprudência, negligência, imperícia, crime preterdoloso e a regra de que a modalidade culposa depende de previsão legal.",
+  "palavras_chave": [
+   "dolo",
+   "culpa",
+   "dolo direto",
+   "dolo eventual",
+   "culpa consciente",
+   "culpa inconsciente",
+   "imprudência",
+   "negligência",
+   "imperícia",
+   "crime culposo",
+   "crime doloso",
+   "preterdolo",
+   "crime preterdoloso",
+   "resultado agravador",
+   "assunção do risco"
+  ],
+  "dispositivos": [
+   "art. 18 CP",
+   "art. 18, I, CP",
+   "art. 18, II, CP",
+   "art. 18, parágrafo único, CP",
+   "art. 19 CP",
+   "art. 20 CP"
+  ],
+  "nao_confundir": "Não confundir com 5224, pois o erro de tipo pode excluir o dolo e, conforme o caso, permitir punição por culpa. Também não confundir com 5211: erro de proibição recai sobre a ilicitude da conduta e afeta a culpabilidade, enquanto dolo e culpa pertencem ao fato típico."
+ },
+ "5223": {
+  "descricao": "Trata da distinção entre crimes comissivos e omissivos, incluindo omissão própria, omissão imprópria e crime comissivo por omissão. O foco prático é identificar quando o agente tinha dever jurídico de agir, especialmente nas posições de garantidor previstas no Código Penal.",
+  "palavras_chave": [
+   "crime omissivo",
+   "crime comissivo",
+   "omissão própria",
+   "omissão imprópria",
+   "comissivo por omissão",
+   "dever de agir",
+   "garantidor",
+   "posição de garante",
+   "relevância da omissão",
+   "não impedir o resultado",
+   "dever legal",
+   "assunção de responsabilidade",
+   "ingerência",
+   "omissão de socorro"
+  ],
+  "dispositivos": [
+   "art. 13, caput, CP",
+   "art. 13, §2º, CP",
+   "art. 13, §2º, a, CP",
+   "art. 13, §2º, b, CP",
+   "art. 13, §2º, c, CP",
+   "art. 135 CP",
+   "art. 269 CP"
+  ],
+  "nao_confundir": "Não confundir com 5221, que trata da conduta em sentido amplo, incluindo ação e ausência de conduta. Se a questão discute especificamente dever jurídico de agir, garantidor ou omissão penalmente relevante, o tema correto é 5223; se discute causalidade do resultado, pode migrar para 5226."
+ },
+ "5224": {
+  "descricao": "Abrange o erro de tipo, essencial ou acidental, vencível ou invencível, e seus efeitos sobre dolo e culpa. Inclui descriminantes putativas por erro sobre situação fática, erro sobre pessoa, erro na execução, resultado diverso do pretendido e erro determinado por terceiro.",
+  "palavras_chave": [
+   "erro de tipo",
+   "erro essencial",
+   "erro acidental",
+   "erro vencível",
+   "erro invencível",
+   "exclusão do dolo",
+   "culpa imprópria",
+   "descriminante putativa",
+   "erro sobre pessoa",
+   "aberratio ictus",
+   "aberratio criminis",
+   "erro na execução",
+   "resultado diverso do pretendido",
+   "erro provocado por terceiro"
+  ],
+  "dispositivos": [
+   "art. 20 CP",
+   "art. 20, §1º, CP",
+   "art. 20, §2º, CP",
+   "art. 20, §3º, CP",
+   "art. 73 CP",
+   "art. 74 CP",
+   "art. 21 CP"
+  ],
+  "nao_confundir": "Não confundir com 5211, especialmente com erro de proibição: no erro de tipo, o agente se engana sobre dado fático ou elementar do tipo; no erro de proibição, sabe o que faz, mas erra sobre a ilicitude. Também pode ser confundido com 5222, mas aqui o foco é o erro que exclui ou modifica dolo e culpa."
+ },
+ "5220": {
+  "descricao": "Cobre o conceito e os elementos do fato típico em sentido estrito: conduta, resultado, nexo causal e tipicidade, além dos reflexos da ausência de cada um deles. Em concursos, costuma aparecer em questões de estrutura analítica do crime e de identificação de qual elemento típico foi afastado no caso concreto.",
+  "palavras_chave": [
+   "elementos do fato típico",
+   "conduta típica",
+   "resultado típico",
+   "nexo causal",
+   "tipicidade formal",
+   "tipicidade material",
+   "ausência de fato típico",
+   "atipicidade",
+   "dolo e culpa",
+   "tipo penal",
+   "subsunção",
+   "estrutura do crime"
+  ],
+  "dispositivos": [
+   "art. 13 CP",
+   "art. 14 CP",
+   "art. 18 CP",
+   "art. 19 CP",
+   "art. 20 CP"
+  ],
+  "nao_confundir": "Não confundir com 5218, que é o tema-mãe da Teoria do Crime: Fato Típico; 5220 deve ser usado quando a questão trata genericamente dos elementos do fato típico. Se a questão aprofunda um elemento específico, como nexo causal, erro de tipo ou tipicidade, prefira 5226, 5224 ou 5227."
+ },
+ "5226": {
+  "descricao": "Trata do vínculo entre conduta e resultado, especialmente a teoria da equivalência dos antecedentes causais adotada pelo Código Penal e as causas supervenientes relativamente independentes. Também abrange imputação objetiva, criação ou incremento de risco proibido, realização do risco no resultado e concausas.",
+  "palavras_chave": [
+   "nexo causal",
+   "causalidade",
+   "relação de causalidade",
+   "teoria da equivalência dos antecedentes",
+   "conditio sine qua non",
+   "causa superveniente",
+   "causa independente",
+   "concausa",
+   "imputação objetiva",
+   "risco proibido",
+   "criação do risco",
+   "incremento do risco",
+   "realização do risco",
+   "regresso causal",
+   "causalidade na omissão"
+  ],
+  "dispositivos": [
+   "art. 13, caput, CP",
+   "art. 13, §1º, CP",
+   "art. 13, §2º, CP",
+   "art. 14, I, CP"
+  ],
+  "nao_confundir": "Não confundir com 5225, que trata do resultado em si; aqui o foco é o vínculo de atribuição entre conduta e resultado. Também não confundir com 5223: omissão imprópria exige dever de agir, mas a discussão sobre atribuição causal ou normativa do resultado ao omitente fica em 5226."
+ },
+ "5225": {
+  "descricao": "Abrange o resultado do crime, em sentido naturalístico e jurídico/normativo, e sua relevância para a estrutura do tipo penal. Em provas, aparece na distinção entre crimes materiais, formais e de mera conduta e na análise da consumação conforme a produção ou não de resultado externo.",
+  "palavras_chave": [
+   "resultado",
+   "resultado naturalístico",
+   "resultado jurídico",
+   "resultado normativo",
+   "modificação no mundo exterior",
+   "crime material",
+   "crime formal",
+   "crime de mera conduta",
+   "consumação",
+   "resultado lesivo",
+   "resultado de perigo",
+   "evento",
+   "dano",
+   "perigo"
+  ],
+  "dispositivos": [
+   "art. 13 CP",
+   "art. 14, I, CP",
+   "art. 14, II, CP",
+   "art. 18 CP"
+  ],
+  "nao_confundir": "Não confundir com 5226, pois resultado é o evento ou lesão/perigo, enquanto nexo causal é a ligação entre conduta e resultado. Também não confundir com 5175: se a questão discute fases do crime, tentativa e consumação, o foco tende a ser iter criminis; se discute a natureza e função do resultado no tipo, é 5225."
+ },
+ "5227": {
+  "descricao": "Trata da tipicidade como adequação da conduta ao tipo penal, tanto sob o aspecto formal quanto material. Inclui juízo de subsunção, elementos objetivos e subjetivos do tipo, atipicidade, princípio da insignificância, adequação social e teorias como tipicidade conglobante.",
+  "palavras_chave": [
+   "tipicidade",
+   "tipo penal",
+   "subsunção",
+   "adequação típica",
+   "tipicidade formal",
+   "tipicidade material",
+   "atipicidade",
+   "princípio da insignificância",
+   "bagatela",
+   "adequação social",
+   "tipicidade conglobante",
+   "elementares do tipo",
+   "elemento objetivo",
+   "elemento subjetivo especial",
+   "antinormatividade"
+  ],
+  "dispositivos": [
+   "art. 1º CP",
+   "art. 13 CP",
+   "art. 17 CP",
+   "art. 18 CP",
+   "art. 20 CP",
+   "Súmula 589 STJ",
+   "Súmula 599 STJ",
+   "Súmula 606 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5172, que trata dos princípios do Direito Penal em perspectiva introdutória; quando insignificância ou adequação social são usadas para excluir tipicidade material no caso concreto, o tema é 5227. Também não confundir com 5228: tipicidade verifica se o fato se enquadra no tipo penal; ilicitude verifica se há causa de justificação."
+ },
+ "5199": {
+  "descricao": "Tema guarda-chuva sobre a consequência jurídica do crime após a condenação: espécies de sanção penal, escolha e execução inicial das penas, dosimetria, substituições, sursis, livramento condicional, efeitos da condenação e reabilitação. Em provas, abrange principalmente regras da Parte Geral do CP sobre aplicação da pena, regime, multa, penas restritivas de direitos e institutos posteriores à condenação.",
+  "palavras_chave": [
+   "teoria da pena",
+   "sanção penal",
+   "finalidade da pena",
+   "aplicação da pena",
+   "dosimetria",
+   "pena-base",
+   "agravantes e atenuantes",
+   "causas de aumento e diminuição",
+   "regime inicial",
+   "substituição da pena",
+   "sursis",
+   "livramento condicional",
+   "efeitos da condenação",
+   "reabilitação"
+  ],
+  "dispositivos": [
+   "arts. 32 a 95 CP",
+   "art. 59 CP",
+   "art. 68 CP",
+   "arts. 33 a 42 CP",
+   "arts. 43 a 48 CP",
+   "arts. 49 a 52 CP",
+   "arts. 77 a 82 CP",
+   "arts. 83 a 90 CP",
+   "arts. 91 a 95 CP",
+   "Lei 7.210/1984"
+  ],
+  "nao_confundir": "Não confundir com 5191, que trata de causas de extinção da punibilidade, nem com 5185, que cuida especificamente de prescrição. Se a questão pergunta como se calcula, substitui, cumpre ou quais efeitos decorrem da pena imposta, é 5199 ou um de seus subtemas; se pergunta se o Estado ainda pode punir, tende a ser 5191/5185."
+ },
+ "5209": {
+  "descricao": "Cobre os efeitos penais e extrapenais decorrentes da condenação criminal, especialmente os efeitos automáticos e específicos previstos no Código Penal. Em provas, aparecem perda de cargo, função pública ou mandato, incapacidade para o poder familiar, inabilitação para dirigir, obrigação de reparar o dano, perda de bens, instrumentos e produto do crime, inclusive confisco alargado.",
+  "palavras_chave": [
+   "efeitos da condenação",
+   "efeitos penais",
+   "efeitos extrapenais",
+   "efeitos automáticos",
+   "efeitos específicos",
+   "perda do cargo público",
+   "perda da função pública",
+   "perda do mandato eletivo",
+   "reparação do dano",
+   "confisco",
+   "perda de bens",
+   "produto do crime",
+   "instrumento do crime",
+   "inabilitação para dirigir",
+   "poder familiar"
+  ],
+  "dispositivos": [
+   "arts. 91 e 92 CP",
+   "art. 91-A CP",
+   "art. 387, IV, CPP",
+   "art. 15, III, CF",
+   "art. 55, VI, CF",
+   "art. 1.638, parágrafo único, CC"
+  ],
+  "nao_confundir": "Não confundir com 5210, que trata da reabilitação após o cumprimento ou extinção da pena e pode suspender certos efeitos secundários. Também não confundir com 5202 a 5204: dosimetria calcula a pena; efeitos da condenação examina consequências jurídicas adicionais da sentença condenatória."
+ },
+ "5208": {
+  "descricao": "Abrange o livramento condicional, benefício concedido durante a execução da pena privativa de liberdade, antes do término integral da sanção, mediante requisitos objetivos e subjetivos. Em provas, são cobradas frações de cumprimento, reincidência, crime hediondo ou equiparado, bom comportamento, reparação do dano, condições, revogação e extinção da pena.",
+  "palavras_chave": [
+   "livramento condicional",
+   "liberdade antecipada",
+   "cumprimento de parte da pena",
+   "requisito objetivo",
+   "requisito subjetivo",
+   "bom comportamento",
+   "reparação do dano",
+   "reincidente em crime doloso",
+   "crime hediondo",
+   "condições do livramento",
+   "revogação obrigatória",
+   "revogação facultativa",
+   "extinção da pena",
+   "período de prova"
+  ],
+  "dispositivos": [
+   "arts. 83 a 90 CP",
+   "arts. 131 a 146 Lei 7.210/1984",
+   "Lei 8.072/1990",
+   "Súmula 441 STJ",
+   "Súmula 439 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5207, que é suspensão condicional da pena concedida na sentença antes do início do cumprimento da pena. O livramento condicional pressupõe execução de pena privativa de liberdade já iniciada; progressão de regime é matéria de execução penal, embora possa aparecer junto em enunciados."
+ },
+ "5206": {
+  "descricao": "Trata da pena de multa como sanção penal, seu cálculo pelo sistema de dias-multa, valor do dia-multa, pagamento, atualização, execução e conversão legislativa em dívida de valor. Em concursos, costuma envolver distinção entre multa cumulativa ou alternativa, fixação em duas etapas e impossibilidade de conversão da multa inadimplida em prisão.",
+  "palavras_chave": [
+   "pena de multa",
+   "dias-multa",
+   "valor do dia-multa",
+   "pagamento da multa",
+   "multa cumulativa",
+   "multa alternativa",
+   "dívida de valor",
+   "execução da multa",
+   "situação econômica do réu",
+   "mínimo e máximo da multa",
+   "atualização monetária",
+   "inadimplemento da multa",
+   "fundo penitenciário"
+  ],
+  "dispositivos": [
+   "arts. 49 a 52 CP",
+   "arts. 58 e 60 CP",
+   "art. 51 CP",
+   "art. 164 Lei 7.210/1984",
+   "Súmula 521 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5202 a 5204, que tratam da dosimetria da pena privativa de liberdade, embora a multa também seja dosada. Se o foco é regime, reclusão ou detenção, o tema é 5201; se o foco é dias-multa e execução da sanção pecuniária penal, é 5206."
+ },
+ "5201": {
+  "descricao": "Abrange as penas privativas de liberdade, suas espécies, regimes de cumprimento, critérios para fixação do regime inicial, detração e regras gerais de execução previstas no CP. Em provas, aparecem reclusão, detenção, prisão simples, regime fechado, semiaberto e aberto, tempo máximo de cumprimento, trabalho do preso, remição e distinções entre regime inicial e progressão.",
+  "palavras_chave": [
+   "pena privativa de liberdade",
+   "reclusão",
+   "detenção",
+   "prisão simples",
+   "regime fechado",
+   "regime semiaberto",
+   "regime aberto",
+   "regime inicial",
+   "cumprimento da pena",
+   "tempo máximo de cumprimento",
+   "detração",
+   "trabalho do preso",
+   "estabelecimento prisional",
+   "progressão de regime",
+   "regressão de regime"
+  ],
+  "dispositivos": [
+   "arts. 33 a 42 CP",
+   "art. 75 CP",
+   "art. 387, §2º, CPP",
+   "Lei 7.210/1984",
+   "Súmula 269 STJ",
+   "Súmula 440 STJ",
+   "Súmula 718 STF",
+   "Súmula 719 STF"
+  ],
+  "nao_confundir": "Não confundir com 5205, que trata da substituição por penas restritivas de direitos, nem com 5207, que suspende a execução da pena. Se a pergunta versa sobre espécie de prisão penal, regime inicial ou cumprimento de reclusão/detenção, é 5201; se versa sobre cálculo em fases, pode ser 5202 a 5204."
+ },
+ "5205": {
+  "descricao": "Cuida das penas restritivas de direitos e da substituição da pena privativa de liberdade por sanções alternativas. Em provas, o foco recai sobre requisitos do art. 44 do CP, duração, autonomia, conversão em privativa de liberdade, prestação pecuniária, perda de bens e valores, prestação de serviços, interdição temporária de direitos e limitação de fim de semana.",
+  "palavras_chave": [
+   "penas restritivas de direitos",
+   "sanções alternativas",
+   "substituição da pena",
+   "art. 44 do CP",
+   "prestação pecuniária",
+   "perda de bens e valores",
+   "prestação de serviços à comunidade",
+   "interdição temporária de direitos",
+   "limitação de fim de semana",
+   "conversão em pena privativa de liberdade",
+   "crime sem violência ou grave ameaça",
+   "reincidência",
+   "pena não superior a quatro anos",
+   "autonomia das penas restritivas"
+  ],
+  "dispositivos": [
+   "arts. 43 a 48 CP",
+   "art. 44 CP",
+   "art. 45 CP",
+   "art. 46 CP",
+   "art. 47 CP",
+   "art. 48 CP",
+   "art. 55 CP",
+   "arts. 147 a 155 Lei 7.210/1984",
+   "Súmula 588 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5207, pois no sursis a pena não é substituída, mas sua execução fica suspensa. Também não confundir com 5201: primeiro fixa-se a pena privativa e o regime; depois se verifica eventual substituição por restritivas de direitos."
+ },
+ "5202": {
+  "descricao": "Abrange a primeira fase da dosimetria, na qual o juiz fixa a pena-base a partir das circunstâncias judiciais do art. 59 do CP. Em provas, cobra-se a valoração de culpabilidade, antecedentes, conduta social, personalidade, motivos, circunstâncias e consequências do crime e comportamento da vítima, bem como fundamentação idônea e vedação de bis in idem.",
+  "palavras_chave": [
+   "primeira fase da dosimetria",
+   "pena-base",
+   "circunstâncias judiciais",
+   "art. 59 do CP",
+   "culpabilidade",
+   "antecedentes",
+   "conduta social",
+   "personalidade do agente",
+   "motivos do crime",
+   "circunstâncias do crime",
+   "consequências do crime",
+   "comportamento da vítima",
+   "fundamentação concreta",
+   "maus antecedentes",
+   "bis in idem"
+  ],
+  "dispositivos": [
+   "art. 59 CP",
+   "art. 68 CP",
+   "art. 93, IX, CF",
+   "Súmula 444 STJ",
+   "Súmula 636 STJ",
+   "Súmula 241 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5203, que trata de agravantes e atenuantes legais da segunda fase, nem com 5204, relativo a majorantes e minorantes da terceira fase. O critério é a etapa: pena-base e circunstâncias judiciais do art. 59 indicam 5202."
+ },
+ "5210": {
+  "descricao": "Trata da reabilitação criminal, instituto que busca assegurar sigilo dos registros da condenação e suspender determinados efeitos extrapenais após o cumprimento ou extinção da pena. Em provas, são cobrados prazo, competência, requisitos de domicílio, bom comportamento, ressarcimento do dano, alcance e revogação da reabilitação.",
+  "palavras_chave": [
+   "reabilitação criminal",
+   "sigilo da condenação",
+   "antecedentes criminais",
+   "cumprimento da pena",
+   "extinção da pena",
+   "prazo de dois anos",
+   "domicílio no país",
+   "bom comportamento",
+   "ressarcimento do dano",
+   "efeitos da condenação",
+   "revogação da reabilitação",
+   "certidão criminal",
+   "reintegração social"
+  ],
+  "dispositivos": [
+   "arts. 93 a 95 CP",
+   "arts. 743 a 750 CPP",
+   "art. 202 Lei 7.210/1984",
+   "art. 5º, X, CF"
+  ],
+  "nao_confundir": "Não confundir com 5209: efeitos da condenação analisa as consequências da sentença; reabilitação examina o que pode ser sigilado ou suspenso depois da pena. Também não é causa extintiva da punibilidade de 5191, pois pressupõe pena já cumprida ou extinta."
+ },
+ "5200": {
+  "descricao": "Cobre noções gerais de sanção penal: conceito, fundamentos, finalidades e modalidades de resposta estatal ao crime. Em provas, envolve teorias absoluta, relativa e mista da pena, prevenção geral e especial, retribuição, ressocialização, distinção entre pena e medida de segurança e classificação das penas no CP.",
+  "palavras_chave": [
+   "sanção penal",
+   "conceito de pena",
+   "finalidade da pena",
+   "teoria absoluta",
+   "teoria relativa",
+   "teoria mista",
+   "retribuição",
+   "prevenção geral",
+   "prevenção especial",
+   "ressocialização",
+   "modalidades de pena",
+   "pena privativa de liberdade",
+   "pena restritiva de direitos",
+   "pena de multa",
+   "medida de segurança"
+  ],
+  "dispositivos": [
+   "art. 5º, XLVI e XLVII, CF",
+   "art. 32 CP",
+   "art. 59 CP",
+   "arts. 96 a 99 CP",
+   "Lei 7.210/1984"
+  ],
+  "nao_confundir": "Não confundir com 5184, que trata especificamente de medida de segurança para inimputáveis ou semi-imputáveis. Se a questão é conceitual, sobre finalidades e espécies de sanção, é 5200; se pergunta requisitos concretos de uma modalidade, pode ser 5201, 5205 ou 5206."
+ },
+ "5203": {
+  "descricao": "Abrange a segunda fase da dosimetria, em que incidem agravantes e atenuantes legais sobre a pena-base. Em provas, destacam-se reincidência, confissão espontânea, menoridade relativa, senilidade, desconhecimento da lei, motivo fútil ou torpe, abuso de autoridade, concurso de agravantes e atenuantes e a impossibilidade de reduzir a pena abaixo do mínimo legal nessa fase.",
+  "palavras_chave": [
+   "segunda fase da dosimetria",
+   "agravantes",
+   "atenuantes",
+   "reincidência",
+   "confissão espontânea",
+   "menoridade relativa",
+   "maior de 70 anos",
+   "desconhecimento da lei",
+   "motivo fútil",
+   "motivo torpe",
+   "abuso de autoridade",
+   "agravantes genéricas",
+   "atenuantes genéricas",
+   "preponderância",
+   "pena abaixo do mínimo legal"
+  ],
+  "dispositivos": [
+   "arts. 61 a 67 CP",
+   "art. 68 CP",
+   "art. 65 CP",
+   "art. 66 CP",
+   "Súmula 231 STJ",
+   "Súmula 241 STJ",
+   "Súmula 545 STJ",
+   "Súmula 630 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5202, que fixa a pena-base por circunstâncias judiciais, nem com 5204, em que incidem causas de aumento e diminuição com frações legais. Menções a reincidência, confissão ou menoridade relativa normalmente indicam segunda fase, salvo quando a reincidência aparece como requisito de outro instituto."
+ },
+ "5207": {
+  "descricao": "Cuida da suspensão condicional da pena, instituto pelo qual a execução da pena privativa de liberdade fica suspensa mediante condições durante período de prova. Em provas, aparecem requisitos do sursis comum, especial e etário/humanitário, período de prova, condições legais e judiciais, revogação obrigatória ou facultativa e prorrogação.",
+  "palavras_chave": [
+   "suspensão condicional da pena",
+   "sursis",
+   "período de prova",
+   "pena privativa de liberdade não superior a dois anos",
+   "sursis especial",
+   "sursis etário",
+   "sursis humanitário",
+   "condições do sursis",
+   "revogação obrigatória",
+   "revogação facultativa",
+   "prorrogação do período de prova",
+   "prestação de serviços",
+   "limitação de fim de semana",
+   "sentença condenatória"
+  ],
+  "dispositivos": [
+   "arts. 77 a 82 CP",
+   "art. 78 CP",
+   "art. 79 CP",
+   "art. 80 CP",
+   "art. 81 CP",
+   "art. 82 CP",
+   "arts. 156 a 163 Lei 7.210/1984"
+  ],
+  "nao_confundir": "Não confundir com 5205, pois nas restritivas há substituição da pena, enquanto no sursis a pena privativa permanece, mas sua execução é suspensa. Também não confundir com 5208: livramento condicional ocorre após início do cumprimento da pena; sursis é concedido na condenação, antes da execução."
+ },
+ "5204": {
+  "descricao": "Abrange a terceira fase da dosimetria, na qual incidem causas de aumento e de diminuição da pena, também chamadas majorantes e minorantes. Em provas, são cobradas frações legais, limites de aumento ou redução, tentativa, arrependimento posterior, concurso de causas, causas gerais e especiais e possibilidade de a pena ficar abaixo do mínimo ou acima do máximo abstrato nessa etapa.",
+  "palavras_chave": [
+   "terceira fase da dosimetria",
+   "causas de aumento",
+   "causas de diminuição",
+   "majorantes",
+   "minorantes",
+   "fração de aumento",
+   "fração de redução",
+   "tentativa",
+   "arrependimento posterior",
+   "crime continuado",
+   "concurso formal",
+   "roubo majorado",
+   "tráfico privilegiado",
+   "concurso de majorantes",
+   "pena abaixo do mínimo"
+  ],
+  "dispositivos": [
+   "art. 68 CP",
+   "art. 14, II, CP",
+   "art. 16 CP",
+   "art. 28, §2º, CP",
+   "art. 29, §1º, CP",
+   "art. 70 CP",
+   "art. 71 CP",
+   "art. 157, §2º e §2º-A, CP",
+   "art. 33, §4º, Lei 11.343/2006"
+  ],
+  "nao_confundir": "Não confundir com 5202 e 5203: circunstâncias judiciais fixam a pena-base e agravantes/atenuantes ajustam a pena intermediária; majorantes e minorantes têm frações previstas em lei e atuam na terceira fase. Quando a causa de aumento decorre de concurso de crimes, pode dialogar com 5066, mas o cálculo na dosimetria permanece em 5204."
+ },
+ "5185": {
+  "descricao": "Abrange a prescrição penal como causa de extinção da punibilidade pelo decurso do tempo, incluindo seus fundamentos, espécies, prazos, marcos iniciais e causas que suspendem ou interrompem sua contagem. Em provas, costuma envolver a distinção entre prescrição da pretensão punitiva e executória, cálculo pelo máximo abstrato ou pela pena aplicada e regras especiais como reincidência, concurso de crimes e redução pela idade.",
+  "palavras_chave": [
+   "extinção da punibilidade",
+   "decurso do tempo",
+   "prescrição penal",
+   "pretensão punitiva",
+   "pretensão executória",
+   "pena em abstrato",
+   "pena em concreto",
+   "trânsito em julgado",
+   "marco inicial",
+   "causa interruptiva",
+   "causa suspensiva",
+   "reincidência",
+   "redução pela metade",
+   "imprescritibilidade"
+  ],
+  "dispositivos": [
+   "art. 5º, XLII, CF",
+   "art. 5º, XLIV, CF",
+   "art. 107, IV, CP",
+   "arts. 109 a 119 CP",
+   "Súmula 146 STF",
+   "Súmula 497 STF",
+   "Súmula 220 STJ",
+   "Súmula 438 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5191, que trata de todas as causas de extinção da punibilidade; aqui o foco é especificamente a extinção pelo tempo. Se a questão exigir a classificação da espécie de prescrição, direcione para 5188 ou 5189; se exigir apenas conceito, fundamentos ou regras gerais, fica em 5185/5186."
+ },
+ "5186": {
+  "descricao": "Cobre o conceito, a natureza jurídica, os fundamentos político-criminais e as regras gerais da prescrição penal. Inclui temas como prescrição como causa extintiva da punibilidade, crimes imprescritíveis, redução do prazo pela idade, aplicação isolada no concurso de crimes e critérios gerais de cálculo dos prazos do art. 109 do CP.",
+  "palavras_chave": [
+   "conceito de prescrição",
+   "natureza jurídica",
+   "fundamento da prescrição",
+   "segurança jurídica",
+   "esquecimento do fato",
+   "extinção da punibilidade",
+   "crimes imprescritíveis",
+   "racismo",
+   "ação de grupos armados",
+   "art. 109 do CP",
+   "art. 115 do CP",
+   "menor de 21 anos",
+   "maior de 70 anos",
+   "concurso de crimes"
+  ],
+  "dispositivos": [
+   "art. 5º, XLII, CF",
+   "art. 5º, XLIV, CF",
+   "art. 107, IV, CP",
+   "art. 109 CP",
+   "art. 115 CP",
+   "art. 118 CP",
+   "art. 119 CP",
+   "Súmula 497 STF"
+  ],
+  "nao_confundir": "Não confundir com 5187, que se concentra na contagem, nos marcos iniciais e nas causas suspensivas ou interruptivas. Também não confundir com 5188 e 5189: se a questão discute se a prescrição ocorre antes ou depois do trânsito em julgado e qual pena serve de base, o tema é uma dessas espécies."
+ },
+ "5187": {
+  "descricao": "Abrange a forma de contagem dos prazos prescricionais, os termos iniciais antes e depois do trânsito em julgado e as causas que suspendem ou interrompem a prescrição. Em provas, aparece em enunciados sobre recebimento da denúncia, pronúncia, sentença condenatória recorrível, acórdão condenatório, art. 366 do CPP, ANPP, embargos e recursos inadmissíveis.",
+  "palavras_chave": [
+   "termo inicial",
+   "contagem do prazo",
+   "recebimento da denúncia",
+   "recebimento da queixa",
+   "pronúncia",
+   "decisão confirmatória da pronúncia",
+   "sentença condenatória recorrível",
+   "acórdão condenatório recorrível",
+   "suspensão da prescrição",
+   "interrupção da prescrição",
+   "art. 366 CPP",
+   "ANPP",
+   "crime permanente",
+   "crime tentado",
+   "recomeço do prazo"
+  ],
+  "dispositivos": [
+   "art. 111 CP",
+   "art. 112 CP",
+   "art. 116 CP",
+   "art. 117 CP",
+   "art. 366 CPP",
+   "Súmula 191 STJ",
+   "Súmula 415 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5188 ou 5189, que tratam da espécie de prescrição; aqui o critério é a pergunta sobre quando o prazo começa, para, suspende, interrompe ou recomeça. Se a questão for sobre cálculo pela pena máxima abstrata ou pela pena aplicada, o melhor enquadramento costuma ser 5188 ou 5189."
+ },
+ "5190": {
+  "descricao": "Reúne hipóteses específicas ou menos centrais de prescrição, como prescrição da pena de multa, das penas restritivas de direitos, da medida de segurança e discussões jurisprudenciais como a prescrição virtual ou antecipada. Também pode abranger regras especiais de prescrição em situações peculiares, desde que o foco não seja a pretensão punitiva ou executória em sua forma clássica.",
+  "palavras_chave": [
+   "pena de multa",
+   "multa isolada",
+   "dívida de valor",
+   "pena restritiva de direitos",
+   "medida de segurança",
+   "prescrição virtual",
+   "prescrição antecipada",
+   "prescrição em perspectiva",
+   "inimputável",
+   "semi-imputável",
+   "execução da multa",
+   "prazo de dois anos",
+   "pena alternativa",
+   "pena cumulativa"
+  ],
+  "dispositivos": [
+   "art. 51 CP",
+   "art. 96 CP",
+   "art. 97 CP",
+   "art. 109, parágrafo único, CP",
+   "art. 114 CP",
+   "Lei 7.210/1984",
+   "Súmula 438 STJ",
+   "Súmula 527 STJ",
+   "ADI 3150 STF"
+  ],
+  "nao_confundir": "Não confundir com 5188 e 5189, que tratam das modalidades clássicas de prescrição da pretensão punitiva e executória. Se o núcleo da questão for multa, medida de segurança, prescrição virtual ou pena restritiva de direitos, tende a ser 5190; se for conceito de pena de multa em si, e não prescrição, pode haver aproximação com 5206."
+ },
+ "5189": {
+  "descricao": "Trata da prescrição da pretensão executória, isto é, da perda do poder estatal de executar a pena após a formação do título condenatório. Em provas, envolve cálculo pela pena aplicada, aumento de um terço em caso de reincidência, início da contagem após o trânsito para a acusação conforme o CP, interrupção pelo início ou continuação do cumprimento da pena e regras sobre fuga, revogação de livramento ou sursis.",
+  "palavras_chave": [
+   "pretensão executória",
+   "execução da pena",
+   "pena aplicada",
+   "trânsito em julgado para a acusação",
+   "condenação definitiva",
+   "reincidência",
+   "aumento de um terço",
+   "início do cumprimento da pena",
+   "continuação do cumprimento da pena",
+   "fuga do condenado",
+   "tempo restante da pena",
+   "revogação do livramento condicional",
+   "revogação do sursis",
+   "preso por outro motivo"
+  ],
+  "dispositivos": [
+   "art. 110, caput, CP",
+   "art. 112 CP",
+   "art. 113 CP",
+   "art. 116, parágrafo único, CP",
+   "art. 117, V e VI, CP",
+   "Súmula 220 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5188: na pretensão punitiva o Estado ainda busca formar definitivamente a condenação; na executória, o foco é executar a pena já imposta. Também não confundir com 5199, que trata da teoria da pena; se o problema é perda do direito de executar pelo tempo, o tema é 5189."
+ },
+ "5188": {
+  "descricao": "Abrange a prescrição da pretensão punitiva, isto é, a perda do poder estatal de investigar, processar, condenar ou tornar definitiva a condenação antes da pretensão executória. Inclui prescrição pela pena máxima em abstrato, prescrição retroativa e intercorrente ou superveniente, além da vedação da prescrição retroativa com termo anterior ao recebimento da denúncia ou queixa e da inadmissibilidade da prescrição virtual.",
+  "palavras_chave": [
+   "pretensão punitiva",
+   "pena máxima em abstrato",
+   "pena em concreto",
+   "prescrição retroativa",
+   "prescrição intercorrente",
+   "prescrição superveniente",
+   "antes do trânsito em julgado",
+   "trânsito em julgado para a acusação",
+   "recurso da acusação",
+   "recebimento da denúncia",
+   "recebimento da queixa",
+   "sentença condenatória",
+   "prescrição virtual",
+   "prescrição antecipada"
+  ],
+  "dispositivos": [
+   "art. 109 CP",
+   "art. 110, §1º, CP",
+   "art. 111 CP",
+   "art. 117 CP",
+   "Súmula 146 STF",
+   "Súmula 220 STJ",
+   "Súmula 438 STJ",
+   "Súmula 497 STF"
+  ],
+  "nao_confundir": "Não confundir com 5189: a pretensão punitiva se refere à perda do poder de punir antes da execução da pena, enquanto a executória pressupõe pena já imposta para ser cumprida. Se a questão enfatizar marcos de suspensão ou interrupção, pode ser 5187; se enfatizar a espécie e a base de cálculo da prescrição antes da execução, é 5188."
+ },
+ "5228": {
+  "descricao": "Abrange a ilicitude ou antijuridicidade como segundo substrato do crime, isto é, a contrariedade do fato típico ao ordenamento jurídico. Em provas, envolve a análise das causas justificantes legais e supralegais, seus requisitos, efeitos e o tratamento do excesso doloso ou culposo.",
+  "palavras_chave": [
+   "ilicitude",
+   "antijuridicidade",
+   "causas de justificação",
+   "excludentes de ilicitude",
+   "fato típico e ilícito",
+   "estado de necessidade",
+   "legítima defesa",
+   "estrito cumprimento do dever legal",
+   "exercício regular de direito",
+   "consentimento do ofendido",
+   "excesso doloso",
+   "excesso culposo",
+   "descriminantes",
+   "injusto penal"
+  ],
+  "dispositivos": [
+   "arts. 23 a 25 CP",
+   "art. 23, parágrafo único, CP",
+   "art. 20, § 1º, CP",
+   "art. 65, III, c, CP"
+  ],
+  "nao_confundir": "Não confundir com Teoria do Crime: Fato Típico (5218), que examina conduta, resultado, nexo, dolo/culpa, tipicidade e erro de tipo; aqui se parte de um fato típico e se pergunta se ele é justificado. Também não confundir com Teoria do Crime: Culpabilidade (5211), que trata da reprovabilidade pessoal, imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa."
+ },
+ "5233": {
+  "descricao": "Trata das causas de exclusão da ilicitude não expressamente previstas como justificantes gerais no Código Penal, especialmente o consentimento do ofendido. Em provas, o foco é saber quando o consentimento torna lícita a conduta: bem jurídico disponível, titular capaz, consentimento válido e anterior ou concomitante ao fato.",
+  "palavras_chave": [
+   "causas supralegais",
+   "consentimento do ofendido",
+   "bem jurídico disponível",
+   "titular do bem jurídico",
+   "capacidade para consentir",
+   "consentimento válido",
+   "consentimento anterior",
+   "consentimento concomitante",
+   "ofendido maior e capaz",
+   "lesão consentida",
+   "adequação social",
+   "risco permitido",
+   "autocolocação em risco",
+   "exclusão da antijuridicidade"
+  ],
+  "dispositivos": [
+   "art. 23 CP",
+   "arts. 13 a 15 do Código Civil, por pertinência à disponibilidade de direitos da personalidade",
+   "art. 129 CP",
+   "art. 150, § 4º, CP",
+   "art. 146, § 3º, I, CP"
+  ],
+  "nao_confundir": "Não confundir com Conceito e Elementos da Ilicitude (5229), que é a teoria geral da antijuridicidade, nem com as justificantes legais específicas: Estado de Necessidade (5230), Legítima Defesa (5231) e Estrito Cumprimento do Dever Legal (5232). Se a questão gira em torno de consentimento da vítima e disponibilidade do bem jurídico, o tema é 5233."
+ },
+ "5229": {
+  "descricao": "Cobre o conceito de ilicitude, suas espécies e fundamentos: ilicitude formal e material, relação entre tipicidade e antijuridicidade e o papel das causas de justificação. Em concursos, aparece em itens teóricos sobre a estrutura analítica do crime, teoria da ratio cognoscendi, caráter indiciário da tipicidade e efeitos da exclusão da ilicitude.",
+  "palavras_chave": [
+   "conceito de ilicitude",
+   "antijuridicidade",
+   "ilicitude formal",
+   "ilicitude material",
+   "injusto penal",
+   "tipicidade indiciária",
+   "ratio cognoscendi",
+   "ratio essendi",
+   "causas de justificação",
+   "excludentes legais",
+   "excesso punível",
+   "excesso doloso",
+   "excesso culposo",
+   "estrutura analítica do crime"
+  ],
+  "dispositivos": [
+   "art. 23 CP",
+   "art. 23, parágrafo único, CP",
+   "arts. 24 e 25 CP",
+   "art. 386, VI, CPP"
+  ],
+  "nao_confundir": "Não confundir com os subtemas de aplicação concreta das justificantes: Estado de Necessidade (5230), Legítima Defesa (5231), Estrito Cumprimento do Dever Legal (5232) e Causas Supralegais (5233). Se a pergunta é conceitual sobre o que é ilicitude ou como ela se relaciona com tipicidade e culpabilidade, classifique em 5229."
+ },
+ "5230": {
+  "descricao": "Abrange o estado de necessidade como causa legal de exclusão da ilicitude, caracterizado pela prática de fato para salvar direito próprio ou alheio diante de perigo atual não provocado voluntariamente. Em provas, exige identificar seus requisitos, a inevitabilidade do sacrifício, a razoabilidade entre bens em conflito, as modalidades agressiva e defensiva e o excesso.",
+  "palavras_chave": [
+   "estado de necessidade",
+   "perigo atual",
+   "salvar direito próprio ou alheio",
+   "perigo não provocado voluntariamente",
+   "inevitabilidade",
+   "inexigibilidade do sacrifício",
+   "bem jurídico em perigo",
+   "colisão de bens jurídicos",
+   "estado de necessidade agressivo",
+   "estado de necessidade defensivo",
+   "dever legal de enfrentar o perigo",
+   "razoabilidade do sacrifício",
+   "redução de pena",
+   "excesso no estado de necessidade"
+  ],
+  "dispositivos": [
+   "art. 23, I, CP",
+   "art. 24 CP",
+   "art. 24, § 1º, CP",
+   "art. 24, § 2º, CP",
+   "art. 65, III, c, CP",
+   "art. 386, VI, CPP"
+  ],
+  "nao_confundir": "Não confundir com Legítima Defesa (5231): no estado de necessidade há perigo atual e colisão de interesses, muitas vezes contra terceiro inocente; na legítima defesa há agressão humana injusta, atual ou iminente. Também não confundir com Culpabilidade (5211) quando a tese for inexigibilidade de conduta diversa sem exclusão da ilicitude."
+ },
+ "5232": {
+  "descricao": "Trata do estrito cumprimento do dever legal, causa de exclusão da ilicitude aplicável a quem pratica fato típico por imposição de um dever previsto em lei e dentro de seus limites. Em provas, aparece em situações de atuação policial, cumprimento de mandado, prisão em flagrante, uso moderado da força e distinção entre dever legal, abuso e excesso.",
+  "palavras_chave": [
+   "estrito cumprimento do dever legal",
+   "dever imposto por lei",
+   "cumprimento de mandado",
+   "prisão em flagrante",
+   "atuação policial",
+   "agente público",
+   "uso da força",
+   "limites legais",
+   "ordem legal",
+   "oficial de justiça",
+   "excesso punível",
+   "abuso de autoridade",
+   "dever funcional",
+   "legalidade da atuação estatal"
+  ],
+  "dispositivos": [
+   "art. 23, III, CP",
+   "art. 23, parágrafo único, CP",
+   "art. 301 CPP",
+   "art. 302 CPP",
+   "art. 284 CPP",
+   "art. 292 CPP",
+   "Lei 13.869/2019"
+  ],
+  "nao_confundir": "Não confundir com Legítima Defesa (5231), que depende de agressão injusta atual ou iminente; no estrito cumprimento, a justificativa é o dever legal de agir. Também não confundir com Obediência Hierárquica (5216), que é tema de culpabilidade e envolve ordem de superior, nem com crimes de Abuso de Autoridade da legislação especial quando o foco for o excesso ilícito."
+ },
+ "5231": {
+  "descricao": "Abrange a legítima defesa como causa legal de exclusão da ilicitude, consistente em repelir agressão injusta, atual ou iminente, a direito próprio ou de terceiro, usando moderadamente os meios necessários. Em provas, cobra requisitos, legítima defesa real, putativa, sucessiva, de terceiro, excesso intensivo ou extensivo, ofendículos e situações envolvendo agentes de segurança pública.",
+  "palavras_chave": [
+   "legítima defesa",
+   "agressão injusta",
+   "agressão atual ou iminente",
+   "direito próprio ou alheio",
+   "meios necessários",
+   "moderação",
+   "animus defendendi",
+   "legítima defesa de terceiro",
+   "legítima defesa putativa",
+   "legítima defesa sucessiva",
+   "excesso na legítima defesa",
+   "ofendículos",
+   "agente de segurança pública",
+   "vítima refém"
+  ],
+  "dispositivos": [
+   "art. 23, II, CP",
+   "art. 25 CP",
+   "art. 25, parágrafo único, CP",
+   "art. 23, parágrafo único, CP",
+   "art. 20, § 1º, CP",
+   "art. 386, VI, CPP"
+  ],
+  "nao_confundir": "Não confundir com Estado de Necessidade (5230): a legítima defesa pressupõe agressão humana injusta, enquanto o estado de necessidade pressupõe perigo atual e colisão de bens. Se a questão tratar de erro sobre a existência da agressão, pode envolver descriminante putativa e dialogar com Erro de Tipo em Fato Típico (5224) ou Erro de Proibição em Culpabilidade (5214), conforme a natureza do erro."
+ },
+ "5476": {
+  "descricao": "Abrange os instrumentos processuais autônomos usados para atacar atos judiciais ou administrativos no âmbito penal fora da cadeia recursal ordinária. Nas provas, envolve a distinção entre habeas corpus, mandado de segurança e revisão criminal, seus cabimentos, legitimidade, competência, efeitos e limites como sucedâneos recursais.",
+  "palavras_chave": [
+   "ação autônoma de impugnação",
+   "sucedâneo recursal",
+   "writ constitucional",
+   "ato judicial ilegal",
+   "decisão teratológica",
+   "direito líquido e certo",
+   "constrangimento ilegal",
+   "coisa julgada penal",
+   "trânsito em julgado",
+   "impugnação autônoma",
+   "ordem concedida",
+   "competência originária",
+   "ação constitucional"
+  ],
+  "dispositivos": [
+   "CF, art. 5º, LXVIII",
+   "CF, art. 5º, LXIX",
+   "CPP, arts. 621 a 631",
+   "CPP, arts. 647 a 667",
+   "Lei 12.016/2009",
+   "Súmula 267 STF",
+   "Súmula 268 STF",
+   "Súmula 691 STF",
+   "Súmula 693 STF"
+  ],
+  "nao_confundir": "Não confundir com recursos em espécie (5560) nem com parte geral dos recursos (5512): aqui há ação autônoma, com nova relação processual, e não simples prolongamento do mesmo processo. Também se distingue de nulidades (5509), prisões em espécie (5517) e teoria geral das prisões (5584), que podem ser fundamento do pedido, mas não o instrumento impugnativo em si."
+ },
+ "5477": {
+  "descricao": "Cobre o habeas corpus como remédio constitucional destinado a proteger a liberdade de locomoção contra violência, ameaça ou constrangimento ilegal. Em concursos, aparecem cabimento preventivo ou repressivo, legitimidade ampla, paciente, autoridade coatora, hipóteses do art. 648 do CPP, competência e restrições jurisprudenciais ao uso como substitutivo recursal.",
+  "palavras_chave": [
+   "habeas corpus",
+   "liberdade de locomoção",
+   "constrangimento ilegal",
+   "ameaça de prisão",
+   "salvo-conduto",
+   "HC preventivo",
+   "HC repressivo",
+   "paciente",
+   "impetrante",
+   "autoridade coatora",
+   "trancamento da ação penal",
+   "excesso de prazo",
+   "prisão ilegal",
+   "relaxamento da prisão",
+   "justa causa"
+  ],
+  "dispositivos": [
+   "CF, art. 5º, LXVIII",
+   "CPP, arts. 647 a 667",
+   "CPP, art. 648",
+   "CPP, art. 654",
+   "Súmula 691 STF",
+   "Súmula 693 STF",
+   "Súmula 694 STF",
+   "Súmula 695 STF",
+   "Súmula 52 STJ",
+   "Súmula 64 STJ"
+  ],
+  "nao_confundir": "Não confundir com mandado de segurança (5479): se o bem jurídico diretamente afetado é a liberdade de locomoção, o instrumento típico é o habeas corpus, não o MS. Também não confundir com prisões em espécie (5517) ou teoria geral das prisões (5584): esses temas tratam das modalidades e requisitos da prisão; o HC trata do meio de impugnação da ilegalidade."
+ },
+ "5479": {
+  "descricao": "Trata do mandado de segurança em matéria criminal, usado para proteger direito líquido e certo não amparado por habeas corpus ou habeas data, contra ato ilegal ou abusivo de autoridade. Nas provas, costuma envolver cabimento contra ato judicial excepcional, prazo decadencial, legitimidade, prova pré-constituída, impossibilidade de dilação probatória e vedação de uso quando houver recurso próprio eficaz.",
+  "palavras_chave": [
+   "mandado de segurança criminal",
+   "direito líquido e certo",
+   "prova pré-constituída",
+   "ato ilegal",
+   "abuso de poder",
+   "autoridade coatora",
+   "prazo decadencial de 120 dias",
+   "não cabe habeas corpus",
+   "ato judicial teratológico",
+   "recurso sem efeito suspensivo",
+   "acesso aos autos",
+   "habilitação de assistente",
+   "correição parcial",
+   "segurança concedida"
+  ],
+  "dispositivos": [
+   "CF, art. 5º, LXIX",
+   "Lei 12.016/2009",
+   "Lei 12.016/2009, art. 1º",
+   "Lei 12.016/2009, art. 5º",
+   "Lei 12.016/2009, art. 23",
+   "Súmula 267 STF",
+   "Súmula 268 STF",
+   "Súmula 269 STF",
+   "Súmula 271 STF",
+   "Súmula 625 STF",
+   "Súmula Vinculante 14 STF"
+  ],
+  "nao_confundir": "Não confundir com habeas corpus (5477): se houver ameaça ou restrição à liberdade de locomoção, prevalece o HC; o MS é residual para direito líquido e certo diverso. Não confundir com recursos em espécie (5560): se há recurso próprio com aptidão para corrigir o ato, em regra não cabe mandado de segurança contra decisão judicial."
+ },
+ "5478": {
+  "descricao": "Abrange a revisão criminal, ação autônoma de impugnação da condenação penal transitada em julgado em favor do condenado. As questões exploram cabimento, legitimidade, competência, ausência de prazo, fundamentos do art. 621 do CPP, vedação de revisão pro societate, possibilidade de absolvição, redução de pena, novo julgamento e indenização por erro judiciário.",
+  "palavras_chave": [
+   "revisão criminal",
+   "trânsito em julgado",
+   "condenação definitiva",
+   "erro judiciário",
+   "prova nova",
+   "prova falsa",
+   "sentença contrária à lei",
+   "sentença contrária à evidência dos autos",
+   "ação de natureza rescisória",
+   "pro reo",
+   "vedação à revisão pro societate",
+   "indenização",
+   "juízo rescindente",
+   "juízo rescisório",
+   "falecimento do condenado"
+  ],
+  "dispositivos": [
+   "CF, art. 5º, LXXV",
+   "CPP, arts. 621 a 631",
+   "CPP, art. 621",
+   "CPP, art. 622",
+   "CPP, art. 623",
+   "CPP, art. 624",
+   "CPP, art. 626",
+   "CPP, art. 630"
+  ],
+  "nao_confundir": "Não confundir com recursos em espécie (5560) ou parte geral dos recursos (5512): a revisão criminal pressupõe trânsito em julgado e instaura ação autônoma, não sendo recurso. Também se distingue da apelação ou do RESE quando a decisão ainda é recorrível; o critério decisivo é a existência de condenação definitiva e o manejo em favor do condenado."
+ },
+ "5466": {
+  "descricao": "Abrange a teoria e a disciplina processual da ação penal: titularidade, espécies, condições para o exercício, princípios, peças iniciais acusatórias e reflexos civis da infração penal. Em provas, costuma aparecer em questões sobre quem pode iniciar a persecução em juízo, quando depende de representação ou queixa, requisitos da denúncia/queixa e causas que impedem ou extinguem o exercício da ação.",
+  "palavras_chave": [
+   "ação penal",
+   "titularidade",
+   "Ministério Público",
+   "ofendido",
+   "representação",
+   "requisição do Ministro da Justiça",
+   "denúncia",
+   "queixa-crime",
+   "ação penal pública",
+   "ação penal privada",
+   "condições da ação",
+   "justa causa",
+   "decadência",
+   "renúncia",
+   "perempção"
+  ],
+  "dispositivos": [
+   "CF, art. 5º, LIX",
+   "CF, art. 129, I",
+   "CPP, arts. 24 a 62",
+   "CPP, art. 41",
+   "CPP, art. 395",
+   "CP, arts. 100 a 106",
+   "Súmula 714 STF",
+   "Súmula 542 STJ"
+  ],
+  "nao_confundir": "Não confundir com Inquérito Policial (5498), que trata da fase investigatória pré-processual, nem com Procedimento Ordinário/Sumário/Sumaríssimo (5530, 5538, 5539), que tratam do rito após o recebimento da acusação. Se o foco for legitimidade, espécie de ação, representação, denúncia ou queixa, classificar em 5466 ou em seus subtemas."
+ },
+ "5475": {
+  "descricao": "Trata da ação civil ex delicto, isto é, da possibilidade de reparação civil do dano causado pela infração penal e da relação entre sentença penal e responsabilidade civil. Inclui execução da sentença penal condenatória no cível, liquidação do dano, independência relativa entre instâncias penal e civil e hipóteses em que a decisão penal vincula ou não o juízo cível.",
+  "palavras_chave": [
+   "ação civil ex delicto",
+   "reparação do dano",
+   "indenização",
+   "sentença penal condenatória",
+   "título executivo judicial",
+   "liquidação no cível",
+   "efeitos civis da condenação",
+   "responsabilidade civil",
+   "independência das instâncias",
+   "absolvição criminal",
+   "existência do fato",
+   "autoria",
+   "confisco não é indenização",
+   "valor mínimo de reparação"
+  ],
+  "dispositivos": [
+   "CPP, arts. 63 a 68",
+   "CPP, art. 387, IV",
+   "CP, art. 91, I",
+   "CC, art. 935",
+   "CPC, art. 515, VI",
+   "CF, art. 5º, V e X"
+  ],
+  "nao_confundir": "Não confundir com Efeitos Decorrentes da Sentença Penal Condenatória (5577), que examina os efeitos na sentença penal; aqui o foco é a tutela reparatória no juízo cível. Também não se confunde com Medidas Assecuratórias (5496), que são incidentes cautelares para garantir futura reparação."
+ },
+ "5471": {
+  "descricao": "Cobre a ação penal pública condicionada, na qual o Ministério Público é o titular, mas só pode oferecer denúncia se houver condição de procedibilidade: representação do ofendido ou requisição do Ministro da Justiça. Em provas, aparecem prazo decadencial da representação, retratação, forma de manifestação da vontade, legitimidade para representar e crimes que dependem dessa condição.",
+  "palavras_chave": [
+   "ação penal pública condicionada",
+   "representação do ofendido",
+   "requisição do Ministro da Justiça",
+   "condição de procedibilidade",
+   "prazo decadencial",
+   "seis meses",
+   "retratação da representação",
+   "irretratabilidade após denúncia",
+   "ofendido menor",
+   "representante legal",
+   "morte do ofendido",
+   "crime contra a honra de funcionário público",
+   "Súmula 714 STF",
+   "violência doméstica"
+  ],
+  "dispositivos": [
+   "CPP, art. 24",
+   "CPP, art. 25",
+   "CPP, art. 38",
+   "CPP, art. 39",
+   "CPP, art. 46",
+   "CP, art. 100, §1º",
+   "CP, art. 102",
+   "CP, art. 103",
+   "CP, art. 104",
+   "Lei 11.340/2006, art. 16",
+   "Súmula 714 STF",
+   "Súmula 542 STJ"
+  ],
+  "nao_confundir": "Não confundir com Ação Penal Pública Incondicionada (5470): em ambas a denúncia é do MP, mas na condicionada exige-se representação ou requisição. Também não confundir com Ação Penal de Iniciativa Privada (5472), em que a peça inicial é queixa do ofendido, e não denúncia do Ministério Público."
+ },
+ "5470": {
+  "descricao": "Abrange a ação penal pública incondicionada, regra geral do processo penal, proposta pelo Ministério Público independentemente de manifestação da vítima. As questões cobram titularidade privativa do MP, obrigatoriedade, indisponibilidade, possibilidade de ação privada subsidiária se houver inércia e identificação de crimes processados independentemente de representação.",
+  "palavras_chave": [
+   "ação penal pública incondicionada",
+   "Ministério Público",
+   "denúncia",
+   "titularidade privativa",
+   "independe de representação",
+   "oficialidade",
+   "obrigatoriedade",
+   "indisponibilidade",
+   "ação penal pública é a regra",
+   "inércia do MP",
+   "ação privada subsidiária da pública",
+   "arquivamento",
+   "crime de ação pública",
+   "lesão corporal doméstica"
+  ],
+  "dispositivos": [
+   "CF, art. 129, I",
+   "CF, art. 5º, LIX",
+   "CPP, art. 24",
+   "CPP, art. 28",
+   "CPP, art. 42",
+   "CPP, art. 46",
+   "CP, art. 100, caput e §1º",
+   "Súmula 542 STJ"
+  ],
+  "nao_confundir": "Distinguir de Ação Penal Pública Condicionada (5471) pela inexistência de representação ou requisição como condição para denunciar. Não confundir com Denúncia (5473): 5470 trata da espécie de ação; 5473 trata da peça acusatória e seus requisitos formais."
+ },
+ "5472": {
+  "descricao": "Trata da ação penal de iniciativa privada, em que a titularidade para iniciar a ação é do ofendido ou de seu representante legal, mediante queixa-crime. Inclui ação privada exclusiva, personalíssima e subsidiária da pública, bem como decadência, renúncia, perdão, perempção, sucessão processual e princípios da oportunidade, disponibilidade e indivisibilidade.",
+  "palavras_chave": [
+   "ação penal privada",
+   "iniciativa privada",
+   "ofendido",
+   "querelante",
+   "querelado",
+   "queixa-crime",
+   "ação privada exclusiva",
+   "ação privada personalíssima",
+   "ação privada subsidiária da pública",
+   "decadência",
+   "renúncia",
+   "perdão do ofendido",
+   "perempção",
+   "indivisibilidade",
+   "procuração com poderes especiais"
+  ],
+  "dispositivos": [
+   "CF, art. 5º, LIX",
+   "CPP, arts. 29 a 31",
+   "CPP, arts. 33 a 38",
+   "CPP, arts. 44 a 60",
+   "CP, art. 100, §§2º a 4º",
+   "CP, arts. 103 a 106"
+  ],
+  "nao_confundir": "Não confundir com Queixa Crime (5474): 5472 é a espécie de ação penal; 5474 é a peça processual que a inaugura. Também se distingue da ação pública condicionada (5471), pois nesta o MP denuncia após representação, enquanto na privada o ofendido oferece queixa."
+ },
+ "5467": {
+  "descricao": "Abrange as condições e pressupostos para o regular exercício da ação penal, especialmente legitimidade, interesse de agir, justa causa e condições específicas de procedibilidade. Em provas, o tema aparece ligado à rejeição da denúncia ou queixa, ausência de representação, ilegitimidade de parte, falta de lastro probatório mínimo e distinção entre condição da ação e mérito.",
+  "palavras_chave": [
+   "condições da ação penal",
+   "legitimidade ad causam",
+   "interesse de agir",
+   "justa causa",
+   "lastro probatório mínimo",
+   "condição de procedibilidade",
+   "representação",
+   "requisição",
+   "rejeição da denúncia",
+   "rejeição da queixa",
+   "pressupostos processuais",
+   "punibilidade concreta",
+   "possibilidade jurídica",
+   "inépcia da inicial"
+  ],
+  "dispositivos": [
+   "CPP, art. 24",
+   "CPP, art. 29",
+   "CPP, art. 39",
+   "CPP, art. 41",
+   "CPP, art. 395, I, II e III",
+   "CP, art. 100",
+   "CP, art. 103",
+   "CF, art. 129, I"
+  ],
+  "nao_confundir": "Não confundir com Classificação da Ação Penal (5468), que organiza as espécies de ação; aqui o foco é saber se a ação pode ser validamente exercida. Também não confundir com Nulidades (5509), pois vícios de condição da ação normalmente aparecem como rejeição da inicial, extinção ou ausência de pressuposto para prosseguimento."
+ },
+ "5468": {
+  "descricao": "Cuida da classificação das ações penais conforme a titularidade e a necessidade de condição prévia: pública incondicionada, pública condicionada, privada exclusiva, privada personalíssima e privada subsidiária da pública. As provas costumam exigir a identificação da espécie adequada diante de um crime ou situação concreta e suas consequências quanto à peça inicial, titular e prazo.",
+  "palavras_chave": [
+   "classificação da ação penal",
+   "ação pública incondicionada",
+   "ação pública condicionada",
+   "ação penal privada",
+   "ação privada exclusiva",
+   "ação privada personalíssima",
+   "ação privada subsidiária",
+   "titularidade",
+   "denúncia",
+   "queixa",
+   "representação",
+   "requisição ministerial",
+   "regra da ação pública",
+   "legitimidade extraordinária"
+  ],
+  "dispositivos": [
+   "CF, art. 5º, LIX",
+   "CF, art. 129, I",
+   "CPP, arts. 24, 29 e 30",
+   "CPP, arts. 38 e 46",
+   "CP, art. 100, caput e §§1º a 4º",
+   "CP, art. 103"
+  ],
+  "nao_confundir": "Distinguir dos temas específicos 5470, 5471 e 5472: 5468 é usado quando a questão pede visão comparativa ou identificação da espécie. Se a pergunta aprofunda requisitos da representação, use 5471; se aprofunda queixa e institutos da ação privada, use 5472."
+ },
+ "5473": {
+  "descricao": "Abrange a denúncia, peça acusatória inicial da ação penal pública, oferecida pelo Ministério Público. Inclui requisitos formais, prazo para oferecimento, aditamento, rejeição, imputação do fato criminoso, qualificação do acusado, rol de testemunhas e relação com o recebimento da inicial.",
+  "palavras_chave": [
+   "denúncia",
+   "peça acusatória",
+   "Ministério Público",
+   "exposição do fato criminoso",
+   "qualificação do acusado",
+   "classificação do crime",
+   "rol de testemunhas",
+   "prazo para denunciar",
+   "acusado preso",
+   "acusado solto",
+   "recebimento da denúncia",
+   "rejeição da denúncia",
+   "inépcia",
+   "aditamento",
+   "justa causa"
+  ],
+  "dispositivos": [
+   "CPP, art. 24",
+   "CPP, art. 28",
+   "CPP, art. 41",
+   "CPP, art. 46",
+   "CPP, art. 384",
+   "CPP, art. 395",
+   "CPP, art. 396",
+   "CF, art. 129, I"
+  ],
+  "nao_confundir": "Não confundir com Queixa Crime (5474), que é a inicial da ação penal privada. Também não confundir com Procedimento Ordinário (5530): requisitos, prazos e rejeição da inicial ficam em 5473; atos posteriores do rito, como resposta à acusação, audiência e sentença, pertencem ao procedimento."
+ },
+ "5469": {
+  "descricao": "Trata dos princípios que regem a ação penal, variando conforme seja pública ou privada. Nas ações públicas, destacam-se oficialidade, obrigatoriedade, indisponibilidade e divisibilidade/indivisibilidade conforme a abordagem doutrinária; nas privadas, oportunidade ou conveniência, disponibilidade, indivisibilidade e intranscendência.",
+  "palavras_chave": [
+   "princípios da ação penal",
+   "oficialidade",
+   "obrigatoriedade",
+   "legalidade processual",
+   "indisponibilidade",
+   "oportunidade",
+   "conveniência",
+   "disponibilidade",
+   "indivisibilidade",
+   "divisibilidade",
+   "intranscendência",
+   "ne procedat judex ex officio",
+   "renúncia",
+   "perdão",
+   "perempção"
+  ],
+  "dispositivos": [
+   "CF, art. 129, I",
+   "CPP, art. 24",
+   "CPP, art. 42",
+   "CPP, art. 48",
+   "CPP, art. 49",
+   "CPP, art. 60",
+   "CP, arts. 100 a 106"
+  ],
+  "nao_confundir": "Não confundir com Características e Condições da Ação Penal (5467), que verifica requisitos para agir; 5469 trata de vetores normativos como obrigatoriedade, indisponibilidade e oportunidade. Se a questão pergunta consequência concreta da omissão do MP ou da renúncia do ofendido, pode migrar para 5470 ou 5472 conforme a espécie de ação."
+ },
+ "5474": {
+  "descricao": "Abrange a queixa-crime, peça inicial da ação penal privada, apresentada pelo ofendido, representante legal ou sucessores legitimados. Inclui requisitos, prazo decadencial, procuração com poderes especiais, aditamento pelo Ministério Público, indivisibilidade contra coautores, rejeição da queixa e diferenças em relação à denúncia.",
+  "palavras_chave": [
+   "queixa-crime",
+   "querelante",
+   "querelado",
+   "procuração com poderes especiais",
+   "menção ao fato criminoso",
+   "prazo decadencial",
+   "seis meses",
+   "aditamento da queixa",
+   "Ministério Público como fiscal da lei",
+   "indivisibilidade",
+   "renúncia tácita",
+   "perdão",
+   "perempção",
+   "rejeição da queixa",
+   "ação penal privada"
+  ],
+  "dispositivos": [
+   "CPP, art. 30",
+   "CPP, art. 31",
+   "CPP, art. 38",
+   "CPP, art. 41",
+   "CPP, art. 44",
+   "CPP, art. 45",
+   "CPP, art. 48",
+   "CPP, art. 49",
+   "CPP, art. 50",
+   "CPP, art. 60",
+   "CPP, art. 395",
+   "CP, arts. 103 a 106"
+  ],
+  "nao_confundir": "Não confundir com Denúncia (5473), que é oferecida pelo Ministério Público nas ações públicas. Também não confundir com Ação Penal de Iniciativa Privada (5472): se a questão discute a espécie, titularidade e institutos gerais da ação privada, use 5472; se discute a petição inicial e seus requisitos, use 5474."
  }
 }
