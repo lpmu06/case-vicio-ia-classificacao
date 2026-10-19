@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5093",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0.82,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Lei 10.467/2002 descreve corrupção ativa em transação internacional: dar ou pagar vantagem indevida a funcionário público estrangeiro para ato de ofício. Como não existe subtema exclusivo para esta lei especial, o enquadramento correto é [5093] Corrupção Ativa. A questão testa características peculiares desta modalidade especial (verbo \"dar ou pagar\" em vez de \"oferecer ou prometer\", ato de ofício, aplicação extraterritorial, majorantes, prescrição), mas mantém eixo central inequívoco: corrupção ativa. Não é multi-tema.",
+ "id": "Q0348",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.65,
+  "multi_tema": false,
+  "justificativa": "Questão sobre corrupção ativa em transação internacional (Lei 10.467/2002). Embora este crime específico não possua tema dedicado em \"Direito Penal - Legislação Especial\", é classificado em \"Dos Crimes Contra a Administração Pública\" (5087) como o tema nível-1 mais próximo e aplicável. Confiança moderada porque: (1) a questão trata de legislação especial muito específica, não do crime geral de corrupção no CP; (2) idealmente, Lei 10.467/2002 deveria ter tema próprio em Legislação Especial; (3) o tema disponível é genérico. Não é multi-tema: o eixo central é único (corrupção ativa internacional), embora a questão toque em Lei Penal no Espaço e prescrição como tópicos secundários."
+ },
+ "uso": {
+  "in": 20,
+  "out": 10737,
+  "cache_w": 13194,
+  "cache_r": 21034,
+  "custo_usd": 0.0904964
+ }
+}

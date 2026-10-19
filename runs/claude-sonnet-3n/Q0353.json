@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5530",
+ "subtema_n2_id": "5535",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.78,
+ "segunda_opcao_id": "5185",
+ "extras_ids": [
+  "5536"
+ ],
+ "multi_tema": true,
+ "justificativa": "O gabarito correto (B) trata da concentração da oitiva de testemunhas de acusação e defesa em ato único — providência de gestão da instrução processual regulada pelo art. 400 do CPP, que disciplina a ordem e a condução dos atos da audiência de instrução e julgamento no procedimento ordinário. Isso enquadra o núcleo da questão exatamente no subtema Audiência de Instrução e Julgamento (5535), filho de Procedimento Ordinário (5530). As demais alternativas são distratores de outros institutos: sentença sem alegações finais (A, violaria o art. 403/404 CPP — tema Alegações Orais, 5536), violação ao contraditório (C) e prescrição em perspectiva, instituto repudiado pela jurisprudência (D, ligado ao tema Prescrição, 5185, usado aqui como segunda opção por representar o distrator mais \"tentador\" e de maior carga doutrinária). Mantida a classificação em Procedimento Ordinário como ramo de nível 1, mas agora com segurança suficiente para indicar o subtema 5535, dado que a resposta correta trata especificamente da condução da prova oral em audiência, e não de alegações finais em si (que teria sido 5536) nem de qualquer instituto de direito penal material.",
+ "id": "Q0353",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP6",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão apresenta alternativas sobre atos do procedimento (concentração de oitiva de testemunhas, dispensa de memoriais, declarações escritas) e também sobre prescrição em perspectiva (instituto repudiado pela jurisprudência, ligado à Punibilidade/Prescrição). A resposta correta (concentração da oitiva das testemunhas em audiência única, art. 400 CPP) é matéria de procedimento comum, por isso o eixo central é processual (PP6 - Procedimentos), com forte conexão também ao tema Prescrição (P3), já que uma das alternativas versa diretamente sobre prescrição em perspectiva. Classifico como multi-tema pela diversidade de institutos testados nas alternativas."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5530",
+  "segunda_opcao_n1_id": "5185",
+  "confianca_ramo": 0.62,
+  "multi_tema": true,
+  "justificativa": "A pergunta busca identificar qual providência o juiz pode legitimamente tomar para evitar a prescrição, e o gabarito correto (concentração da oitiva de testemunhas em audiência única) é uma medida de gestão da instrução processual, própria do procedimento comum (art. 400 e correlatos do CPP), e não um instituto de direito penal material. As demais alternativas são distratores de diferentes institutos: violação ao contraditório (C), julgamento sem alegações finais (A) e prescrição em perspectiva — instituto repudiado pela jurisprudência (D), este último diretamente ligado ao tema Prescrição. Por isso mantenho o eixo central em Procedimento Ordinário (PP6/5530), já que a resposta correta é de natureza processual, com Prescrição (P3/5185) como segunda opção relevante dado o peso do distrator sobre prescrição em perspectiva. Trata-se de questão multi-tema pela diversidade de institutos nas alternativas, mas sem dúvida de que o núcleo da resposta correta é processual."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2711,
+  "cache_w": 31545,
+  "cache_r": 7906,
+  "custo_usd": 0.1664212
+ }
+}

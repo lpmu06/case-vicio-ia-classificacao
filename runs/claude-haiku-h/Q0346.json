@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5583",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão exclusivamente sobre o assistente de acusação, sujeito processual penal, analisando suas condições de admissibilidade, legitimidades específicas (prisão preventiva, desaforamento), limites de atuação em diferentes procedimentos e alcance de participação nas fases da persecução penal. Classificação em \"Sujeitos do Processo\" (5583) é certa e segura. Tema sem subtemas.",
+ "id": "Q0346",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5583",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão que trata exclusivamente do assistente de acusação no processo penal, analisando suas legitimidades, direitos, limites de atuação e participação em diferentes fases processuais. Este é um dos sujeitos processuais centrais. Classificação clara e segura em \"Sujeitos do Processo\" (5583), disciplina Processo Penal."
+ },
+ "uso": {
+  "in": 20,
+  "out": 3989,
+  "cache_w": 8806,
+  "cache_r": 12522,
+  "custo_usd": 0.0427602
+ }
+}

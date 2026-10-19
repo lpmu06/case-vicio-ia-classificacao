@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.45,
+ "segunda_opcao_id": "5073",
+ "extras_ids": [
+  "5072",
+  "5076"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão monotemanática confirmada em Concurso de Pessoas (5071). Aborda múltiplos subtemas simultaneamente: (A) autoria colateral (5073), (B) requisitos do concurso e distinção autor-partícipe (5072), (C) exceção pluralística em crime próprio como o aborto (5076). Embora (A) seja a resposta correta, a questão testa conhecimento transversal do ramo sem predominância clara de um único subtema. Subtema não selecionado para preservar rigor de classificação. Segunda opção é 5073 (resposta correta, mas não exclusivo).",
+ "id": "Q0321",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão monotemanática sobre Concurso de Pessoas. Todas as alternativas (A, B, C, D) testam requisitos, elementos subjetivos ou aplicações do instituto, mantendo eixo comum claro. Embora C e D refiram-se a crimes específicos (aborto, tráfico), a pergunta central é sempre sobre concurso. Tema 5071 cobre completamente. Confiança muito alta."
+ },
+ "uso": {
+  "in": 20,
+  "out": 9218,
+  "cache_w": 9812,
+  "cache_r": 12522,
+  "custo_usd": 0.0719292
+ }
+}

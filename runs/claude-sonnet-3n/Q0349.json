@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5178",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5204",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa diretamente o requisito legal do arrependimento posterior (art. 16, CP): a redução de pena de 1/3 a 2/3 somente se aplica a crimes cometidos \"sem violência ou grave ameaça à pessoa\". Como o roubo foi praticado com grave ameaça (arma de fogo), o instituto é inaplicável, e é exatamente esse requisito de configuração que a assertiva cobra - não o cálculo ou momento de aplicação na dosimetria. Isso caracteriza o subtema específico 5178 (Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior), dentro do tema 5175 (Iter Criminis). A segunda opção seria 5204 (Terceira Fase da Dosimetria), pois a redução de 1/3 a 2/3 é tecnicamente aplicada na terceira fase, mas o cerne testado é o requisito de cabimento do instituto, não seu cálculo.",
+ "id": "Q0349",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.65,
+  "multi_tema": false,
+  "justificativa": "A questão testa o instituto do arrependimento posterior (art. 16 do CP), tradicionalmente estudado junto com as fases do iter criminis (tentativa, desistência voluntária, arrependimento eficaz e posterior), tema do grupo P2. Também poderia ser enquadrado em Teoria da Pena (P3), por envolver causa de diminuição de pena, por isso indicado como segunda opção."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5175",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente o requisito de aplicabilidade do arrependimento posterior (art. 16, CP) — se a ausência de violência ou grave ameaça à pessoa é condição para a redução de pena. O eixo da pergunta é o instituto em si (seus requisitos, não o cálculo da pena), que pertence a Iter Criminis (5175), com subtema específico \"Desistência Voluntária, Arrependimento Eficaz e Arrependimento Posterior\". Teoria da Pena (5199) é segunda opção por tratar da causa de diminuição na terceira fase da dosimetria, mas o cerne testado é a configuração do instituto, não sua dosimetria."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2126,
+  "cache_w": 18552,
+  "cache_r": 14150,
+  "custo_usd": 0.111209
+ }
+}

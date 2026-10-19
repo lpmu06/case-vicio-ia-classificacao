@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5116",
+ "subtema_n2_id": "5118",
+ "confianca_ramo": 1,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre tipificação penal da falsificação de cartão de crédito. Cartão de crédito é documento particular cuja falsificação é tipificada no art. 297 CP. A questão testa especificamente a distinção entre falsificação de documento particular e demais formas de falsidade (documento público, falsidade ideológica, falsa identidade). Subtema 5118 menciona explicitamente \"cartão de crédito ou débito\" nas palavras-chave e cobre a falsificação de documentos particulares. Confianças máximas: tema e subtema estão precisamente indicados nos metadados.",
+ "id": "Q0351",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5116",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre tipificação penal e classificação jurídica de falsificação de cartão de crédito. Testa especificamente conhecimento sobre crimes contra a fé pública e falsidade documental (Título X do CP), diferenciando as modalidades de falsificação (documento público vs. particular, falsa identidade, falsidade ideológica). Cartão de crédito é configurado pela jurisprudência como documento particular. Encaixa-se no tema 5116 (Dos Crimes Contra a Fé Pública e de Falsidade Documental) e subtema \"Da Falsidade Documental\"."
+ },
+ "uso": {
+  "in": 10,
+  "out": 1713,
+  "cache_w": 7495,
+  "cache_r": 0,
+  "custo_usd": 0.063872
+ }
+}

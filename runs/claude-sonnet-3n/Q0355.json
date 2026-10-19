@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão gira integralmente em torno da tese do STF (RE 635.659) sobre o art. 28 da Lei 11.343/2006 (descriminalização/atipicidade do porte para consumo pessoal, quantidade-limite de maconha, prestação de serviços à comunidade e repercussões sobre ANPP e tipicidade da conduta policial), tema nuclear de \"Tráfico de Drogas\" (4708), que abrange o art. 28 da Lei de Drogas. Não há subtemas cadastrados sob esse tema, por isso subtema_n2_id permanece null.",
+ "id": "Q0355",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o art. 28 da Lei de Drogas (11.343/06) e a decisão do STF sobre descriminalização/despenalização do porte para consumo pessoal, tema que se insere em Tráfico de Drogas, dentro do grupo LE1 (Legislação Especial). Embora a disciplina de origem indique \"Concurso de Crimes\", o eixo central da questão é a Lei de Drogas, não teoria geral do concurso de crimes."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente da decisão do STF (RE 635.659) sobre o art. 28 da Lei de Drogas (porte para consumo pessoal), incluindo quantidade de droga, aplicação de penas restritivas e reincidência/benefícios despenalizadores — tudo matéria nuclear de Tráfico de Drogas (Lei 11.343/2006), tema 4708. Não há eixo relevante de outro instituto (as alternativas sobre ANPP, abuso de autoridade e prestação de serviços são todas testadas à luz da mesma lei de drogas e da tese do STF)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1521,
+  "cache_w": 9257,
+  "cache_r": 11846,
+  "custo_usd": 0.060873199999999995
+ }
+}

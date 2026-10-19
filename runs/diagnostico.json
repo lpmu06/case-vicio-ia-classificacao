@@ -1,24 +1,24 @@
 {
  "grupos": {
   "multipla_escolha": {
-   "unanimes": 0.807,
-   "publicadas": 0.621,
+   "unanimes": 0.801,
+   "publicadas": 0.618,
    "n": 301
   },
   "certo_errado": {
-   "unanimes": 0.741,
+   "unanimes": 0.724,
    "publicadas": 0.534,
    "n": 58
   },
   "multi": {
-   "unanimes": 0.735,
-   "publicadas": 0.41,
-   "n": 117
+   "unanimes": 0.721,
+   "publicadas": 0.402,
+   "n": 122
   },
   "nao_multi": {
-   "unanimes": 0.826,
-   "publicadas": 0.702,
-   "n": 242
+   "unanimes": 0.823,
+   "publicadas": 0.709,
+   "n": 237
   }
  },
  "disciplina_origem": {

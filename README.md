@@ -4,9 +4,9 @@ Entrega do processo seletivo da área de IA. Classifica 359 questões de concurs
 
 | Entregável | Onde |
 |---|---|
-| Decisão por questão | [`publicacao.csv`](publicacao.csv): 218 publicadas, 139 para revisão, 2 fora |
+| Decisão por questão | [`publicacao.csv`](publicacao.csv): 217 publicadas, 140 para revisão, 2 fora |
 | Variantes | [`publicacao_nivel1.csv`](publicacao_nivel1.csv) (tudo no tema de nível 1) e [`publicacao_sem_duplicados.csv`](publicacao_sem_duplicados.csv) (sem os temas da Legislação Especial que têm cópia em Penal) |
-| Previsão de precisão e cobertura | [`previsao.txt`](previsao.txt): precisão 0,96 (0,85 a 0,99), cobertura 0,61 |
+| Previsão de precisão e cobertura | [`previsao.txt`](previsao.txt): precisão 0,96 (0,85 a 0,99), cobertura 0,60 |
 | Relatório: raciocínio, diagnóstico, produção e memo (5 páginas) | [`docs/relatorio.pdf`](docs/relatorio.pdf) e [`docs/relatorio.md`](docs/relatorio.md) |
 | Memo para o professor (1 página) | [`docs/memo_professor.md`](docs/memo_professor.md) |
 | Anexos do relatório | [`docs/comparacao_metodos.md`](docs/comparacao_metodos.md), [`docs/embeddings.md`](docs/embeddings.md), [`docs/diagnostico.md`](docs/diagnostico.md), [`docs/sensibilidade.md`](docs/sensibilidade.md), [`docs/auditoria_caderno.md`](docs/auditoria_caderno.md) |

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5546",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5545",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema de nível 1 como 5543 (Provas em Espécies), pois a questão trata integralmente de regras procedimentais técnicas dos arts. 158 a 184 do CPP (perito não oficial, quesitos, assistente técnico, prazo da autópsia, exumação, oitiva de peritos), matéria de meio de prova específico, e não de teoria geral das provas (ônus, princípios, admissibilidade, valoração) — afastando 5590. Quanto ao subtema, o próprio enunciado anuncia tratar \"do exame de corpo de delito e das perícias em geral\", e os itens misturam regras gerais de perícia (perito não oficial com diploma de curso superior, quesitos e assistente técnico, oitiva de peritos para esclarecimentos) com regras específicas do exame cadavérico (autópsia após seis horas, exumação) — que é espécie de perícia. Como a nota de desempate entre 5545 e 5546 indica que, tratando-se de perícias em geral, o melhor enquadramento é 5546, opto por esse subtema, mas com confiança moderada, pois boa parte dos itens (III e IV) é específica do exame de corpo de delito (5545), que indico como segunda opção.",
+ "id": "Q0342",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata de exame de corpo de delito, perícia, autópsia, exumação e oitiva de peritos - matéria regulada pelos artigos 158 a 184 do CPP, que tratam de provas em espécie. O eixo central é a disciplina processual das perícias como meio de prova, o que se encaixa no grupo PP4 (Provas), subtema \"Provas em Espécies\"."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão versa especificamente sobre as regras procedimentais do exame de corpo de delito e das perícias em geral (perito não oficial, quesitos e assistente técnico, prazo da autópsia, exumação, oitiva de peritos), disciplinadas nos arts. 158 a 184 do CPP. Trata-se de conteúdo próprio do meio de prova \"perícia/exame de corpo de delito\", e não de teoria geral da prova (princípios, ônus, admissibilidade etc.). Por isso o tema de nível 1 correto é \"Provas em Espécies\" (5543), que contém o subtema específico \"Exame de Corpo de Delito\"/\"Perícia\". A segunda opção plausível, caso o professor entenda o enfoque como mais principiológico, seria \"Teoria Geral das Provas\" (5590), mas o conteúdo é majoritariamente técnico-procedimental específico da perícia."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2276,
+  "cache_w": 19119,
+  "cache_r": 14150,
+  "custo_usd": 0.115609
+ }
+}

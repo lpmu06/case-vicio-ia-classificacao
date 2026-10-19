@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": "5518",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.98,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre modalidades de prisão em flagrante (provocado, preparado, esperado, diferido, forjado) e ação controlada. A pergunta testa especificamente a capacidade de identificar qual modalidade caracteriza o caso e sua legalidade. Encaixa-se com precisão total em Processo Penal > Prisões em Espécie > Prisão em Flagrante [5518], cujos metadados explicitamente incluem \"flagrante preparado, flagrante esperado, flagrante forjado, ação controlada\" entre as palavras-chave. Tema bem definido, sem ambiguidade com outros ramos ou subtemas (diferencia-se de 5519 porque não trata de preventiva, de 5520 porque não trata de temporária, de 5523 porque não trata de liberdade provisória). Confiança alta em ambos os níveis.",
+ "id": "Q0218",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "grupo_id": "PP5",
+  "segundo_grupo_id": null,
+  "fora": false,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre modalidades lícitas e ilícitas de prisão em flagrante (preparado, provocado, diferido, esperado, ação controlada). É matéria clássica de Processo Penal > Prisões e medidas cautelares > Prisões em Espécie. A pista fraca \"Direito Constitucional\" é enganosa e foi descartada. Confiança alta: tema bem definido, sem ambiguidade com outros ramos."
+ },
+ "estagioB": {
+  "tema_n1_id": "5517",
+  "segunda_opcao_n1_id": "5584",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "Questão sobre modalidades lícitas e ilícitas de prisão em flagrante (preparado, provocado, diferido, esperado, ação controlada). É matéria clássica de Processo Penal > Prisões em Espécie > Prisão em Flagrante. O tema 5517 é mais preciso que 5584 porque abrange as modalidades concretas e específicas de prisão, não apenas fundamentos teóricos gerais. A pista fraca \"Direito Constitucional\" é enganosa e foi descartada. Confiança alta: tema bem definido, sem ambiguidade com outros ramos."
+ },
+ "uso": {
+  "in": 30,
+  "out": 6103,
+  "cache_w": 19716,
+  "cache_r": 4639,
+  "custo_usd": 0.08138190000000001
+ }
+}

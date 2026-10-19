@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5583",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5580",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todos os itens (I a V) versam especificamente sobre o assistente de acusação: admissibilidade e irrecorribilidade do despacho, legitimidade para requerer prisão preventiva, legitimidade para desaforamento, intervenção de entidades em crimes de consumo e momento de atuação na persecução penal. O núcleo é a disciplina do assistente como sujeito processual, matéria própria de 5583 (Sujeitos do Processo), que não possui subtemas. Não se trata de discussão sobre sistemas processuais ou princípios gerais (5580), que seria apenas pista fraca de origem.",
+ "id": "Q0346",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP1",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o assistente da acusação (legitimidade, admissibilidade, intervenção, atuação em crimes de relação de consumo), figura processual tratada dentro do estudo dos sujeitos do processo penal, tema que integra o grupo PP1 (Sujeitos do Processo)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5583",
+  "segunda_opcao_n1_id": "5580",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente do assistente de acusação (legitimidade para prisão preventiva, admissibilidade, desaforamento, entidades em crimes de consumo, momento de intervenção), tema que se insere na disciplina dos sujeitos do processo penal (5583), e não em princípios/sistemas processuais (5580), que seria apenas segunda opção por pista fraca de origem."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1182,
+  "cache_w": 11657,
+  "cache_r": 14150,
+  "custo_usd": 0.06874
+ }
+}

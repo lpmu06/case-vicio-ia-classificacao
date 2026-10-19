@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5203",
+ "confianca_ramo": 1,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre dosimetria penal na segunda fase: aplicação da atenuante de confissão espontânea, análise da reincidência sob o prazo de 5 anos (Súmula 241 STJ) e determinação se o réu é primário ou reincidente. O tema central é exatamente a segunda fase da dosimetria, onde incidem agravantes e atenuantes legais. Menções a reincidência e confissão espontânea, com discussão sobre sua incidência e compensação, caracterizam precisamente o subtema 5203.",
+ "id": "Q0327",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "Questão sobre dosimetria penal na segunda fase: aplicação da atenuante de confissão espontânea e da agravante de reincidência, e como essas circunstâncias se compensam no cálculo da pena. Enquadrável precisamente em \"Teoria da Pena > Segunda Fase da Dosimetria: Agravantes e Atenuantes\". O tema central não é o processo ou procedimento, mas o cálculo substantivo da pena material."
+ },
+ "uso": {
+  "in": 20,
+  "out": 9058,
+  "cache_w": 13035,
+  "cache_r": 12522,
+  "custo_usd": 0.08085020000000001
+ }
+}

@@ -4,11 +4,11 @@ Luis Paulo · lpmu06@gmail.com · 19/10/2026 · código, dados e saídas brutas 
 
 | Resultado | Valor |
 |---|---|
-| Publicadas | **218 de 359 (60,7%)**: 69 no subtema e 149 no tema de nível 1 |
-| Para revisão do professor | 139, cada uma com a sugestão do revisor automático e o motivo da dúvida |
+| Publicadas | **217 de 359 (60,4%)**: 69 no subtema e 148 no tema de nível 1 |
+| Para revisão do professor | 140, cada uma com a sugestão do revisor automático e o motivo da dúvida |
 | Fora da árvore | 2 (imposto estadual; crimes da Lei Geral do Esporte) |
 | Precisão prevista nas publicadas | **0,96**, intervalo de 0,85 a 0,99 |
-| Variante sem os temas duplicados | 180 publicadas (50,1%), precisão prevista 0,98 (`publicacao_sem_duplicados.csv`) |
+| Variante sem os temas duplicados | 179 publicadas (49,9%), precisão prevista 0,98 (`publicacao_sem_duplicados.csv`) |
 
 ## a) Como pensamos
 
@@ -29,7 +29,7 @@ Luis Paulo · lpmu06@gmail.com · 19/10/2026 · código, dados e saídas brutas 
 | LLM com a árvore inteira no prompt ("plano") | Funciona, mas o prompt tem 211 mil tokens por questão | Sim, como classificador principal |
 | LLM em camadas: 2 estágios (tema, depois subtema) e 3 estágios (grupo, tema, subtema) | Ver o experimento abaixo. 2 estágios fica no mesmo patamar do plano com um prompt 10 vezes menor; 3 estágios perde alguns pontos | 2 estágios sim; 3 estágios não |
 | Modelos menores (Sonnet, Haiku) | Em 2 estágios, o Sonnet empata com o Opus; o Haiku fica alguns pontos atrás | Sonnet em 2 estágios é um dos dois votantes |
-| Árbitro (Opus, esforço alto) | Escolhe entre os candidatos de todos, embaralhados, sem saber a maioria. Concorda com o consenso em 99,5% dos casos em que os dois classificadores principais concordam, e baixa a confiança de 0,89 para 0,63 quando eles divergem | Sim, como filtro e como sugestão para o professor |
+| Árbitro (Opus, esforço alto) | Escolhe entre os candidatos de todos, embaralhados, sem saber a maioria. Concorda com o consenso em 99,7% dos casos em que os dois classificadores principais concordam, e baixa a confiança de 0,89 para 0,65 quando eles divergem; só uma vez escolheu fora dos candidatos, o que indica alguma ancoragem | Sim, como filtro e como sugestão para o professor |
 | Buscar a questão em bancos de outros sites | As questões estão na web, mas usar a classificação de um concorrente não nos pareceu correto | Descartado |
 
 **Experimento de camadas.** Em 80 questões sorteadas, cruzamos modelo e método. A tabela mostra o quanto cada um acompanha a maioria dos demais classificadores, sem contar a si mesmo; não é acurácia, é consistência.
@@ -38,11 +38,11 @@ Luis Paulo · lpmu06@gmail.com · 19/10/2026 · código, dados e saídas brutas 
 |---|---|---|---|---|
 | Plano | Opus 5.5 | 93,8% (n=80) | 211.517 | 0,054 |
 | Plano | Sonnet 5 | 90,0% (n=80) | 211.517 | 0,050 |
-| 2 estágios | Opus 5.5 | 92,5% (n=80) | 22.460 | 0,058 |
-| 2 estágios | Sonnet 5 | 92,5% (n=80) | 20.790 | 0,031 |
-| 2 estágios | Haiku 4.5 | 89,8% (n=59) | 16.795 | 0,041 |
-| 3 estágios | Sonnet 5 | 87,5% (n=72) | 13.874 | 0,039 |
-| 3 estágios | Haiku 4.5 | não concluído | - | - |
+| 2 estágios | Opus 5.5 | 93,8% (n=80) | 22.460 | 0,058 |
+| 2 estágios | Sonnet 5 | 93,8% (n=80) | 20.790 | 0,031 |
+| 2 estágios | Haiku 4.5 | 90,0% (n=80) | 16.525 | 0,041 |
+| 3 estágios | Sonnet 5 | 88,7% (n=80) | 13.935 | 0,039 |
+| 3 estágios | Haiku 4.5 | 87,5% (n=40) | - | - |
 
 A segunda camada compensa: o prompt cai dez vezes e a consistência praticamente não cai. A terceira não compensa: cada etapa a mais é uma chance a mais de errar sem volta, e grupos de temas criados à mão não têm fronteiras naturais. Com cache, o prompt plano gigante custa quase o mesmo que o de 2 estágios, porque a parte fixa é lida do cache a um décimo do preço; sem cache, custaria 15 vezes mais. O Haiku sai caro aqui só porque, pelo Claude Code, gera milhares de tokens de raciocínio; pela API, sem raciocínio estendido, custaria uma fração disso. Tabelas completas no [anexo](comparacao_metodos.md).
 
@@ -54,9 +54,9 @@ A segunda camada compensa: o prompt cai dez vezes e a consistência praticamente
 |---|---|---|
 | Dawid-Skene sobre todos os classificadores e a origem | Erros independentes; é um limite superior | 98,8% |
 | Concordância com o GPT-5.5, a única família diferente | Famílias diferentes erram de forma pouco correlacionada; amostra pequena | 39 de 39 |
-| Auditoria cética, por IA, de 60 publicadas sorteadas | Um leitor cuidadoso acha os erros visíveis; dúvida conta 1/3 de erro | 97,9% (47 seguem publicadas após os limiares finais) |
+| Auditoria cética, por IA, de 60 publicadas sorteadas | Um leitor cuidadoso acha os erros visíveis; dúvida conta 1/3 de erro | 97,8% (46 seguem publicadas após os limiares finais) |
 | Desconto de convenção | O professor pode arquivar diferente de qualquer modelo | −2 pontos nos dois primeiros |
-| Desconto das cópias da Legislação Especial | 10% de chance de a equipe ter usado as cópias recentes em Penal; 17% das publicadas expostas | −1,74 pontos em todos |
+| Desconto das cópias da Legislação Especial | 10% de chance de a equipe ter usado as cópias recentes em Penal; 18% das publicadas expostas | −1,75 pontos em todos |
 
 A previsão é a mediana dos três estimadores ajustados: **0,96**. O intervalo vai do pior limite inferior de 95% (0,85) ao estimador sob independência (0,99). Se a equipe tiver rotulado nas cópias, a precisão real cairia para cerca de 80%. Os limiares finais vieram da [análise de sensibilidade](sensibilidade.md): exigir confiança 0,90 do árbitro em vez de 0,80 corta 11 pontos de cobertura, mas 5 das 9 dúvidas da auditoria estavam nessa faixa, e o limiar de 0,90 no subtema neutraliza uma sexta, de subtema irmão; subir para 0,95 corta mais 16 pontos sem ganho visível.
 
@@ -77,12 +77,12 @@ A previsão é a mediana dos três estimadores ajustados: **0,96**. O intervalo 
 
 | Tipo de questão | Unânimes | Publicadas |
 |---|---|---|
-| Múltipla escolha (301) | 81% | 62% |
-| Certo ou errado (58) | 74% | 53% |
-| Alternativas sobre institutos diferentes, segundo algum classificador (117) | 74% | 41% |
-| As demais | 83% | 70% |
+| Múltipla escolha (301) | 80% | 62% |
+| Certo ou errado (58) | 72% | 53% |
+| Alternativas sobre institutos diferentes, segundo algum classificador (122) | 72% | 40% |
+| As demais | 82% | 71% |
 
-Questões multi-tema e de certo ou errado são as mais difíceis: as primeiras não têm tema central, e as segundas trazem uma afirmação curta com pouco contexto. Os pares de ramos que os modelos mais confundem foram: Juizado Especial Criminal × Procedimento Sumaríssimo, Lei de Execução Penal × Teoria da Pena, Competência × Inquérito Policial, Organizações Criminosas × Provas em Espécies. São fronteiras em que até professores divergem, e nelas exigimos unanimidade para publicar.
+Questões multi-tema e de certo ou errado são as mais difíceis: as primeiras não têm tema central, e as segundas trazem uma afirmação curta com pouco contexto. Os pares de ramos que os modelos mais confundem foram: Juizado Especial Criminal × Procedimento Sumaríssimo, Lei de Execução Penal × Teoria da Pena, Competência × Inquérito Policial, Provas em Espécies × Teoria Geral das Provas, Organizações Criminosas × Provas em Espécies. São fronteiras em que até professores divergem, e nelas exigimos unanimidade para publicar.
 
 ## c) Produção: 50 mil questões por semana
 
@@ -117,7 +117,7 @@ Em [`memo_professor.md`](memo_professor.md), uma página.
 | Enriquecimento da taxonomia | GPT-5.5 | 89 chamadas | 8 min |
 | Classificador plano | Opus 5.5 | 359 | 18 min |
 | Classificador 2 estágios | Sonnet 5 | 359 | 59 min |
-| Classificador 3 estágios | Sonnet 5 | 323 | várias horas, em paralelo com as demais |
+| Classificador 3 estágios | Sonnet 5 | 359 | várias horas, em paralelo com as demais |
 | Árbitro | Opus 5.5, esforço alto | 359 | 4,8 h, em paralelo com as demais |
 | Experimento 2×2 e Haiku | Sonnet 5, Opus 5.5, Haiku 4.5 | 80 | várias horas |
 | GPT-5.5 plano | GPT-5.5 | 63, até acabar o crédito | 8 min |

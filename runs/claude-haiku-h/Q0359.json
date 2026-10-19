@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": null,
+ "extras_ids": [
+  "5541",
+  "5542"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão sobre o procedimento sumaríssimo da Lei 9.099/1995 aplicável a crimes contra idosos (com pena máxima até 4 anos) e as restrições legais às medidas despenalizadoras nessas situações. O tema central é procedural e abrange múltiplos subtemas simultaneamente: competência dos Juizados, vedação de transação penal e vedação de suspensão condicional do processo em crimes dolosos contra idosos (Estatuto do Idoso, art. 88). Não sendo específica a um único subtema, mas ao procedimento geral com proteções especiais, a questão é classificada como multi-tema em [5539] Procedimento Sumaríssimo, com [5541] Transação Penal e [5542] Suspensão Condicional do Processo como temas relevantes adicionais.",
+ "id": "Q0359",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5539",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "Questão de Processo Penal sobre o procedimento sumaríssimo dos Juizados Especiais Criminais (Lei 9.099/1995) e a aplicabilidade (ou vedação) de medidas despenalizadoras em crimes contra idosos com pena máxima até 4 anos. O tema central é procedural, não material: trata-se de definir o rito processual e as restrições às medidas despenalizadoras em razão da vulnerabilidade da vítima, cobrindo especificamente os subtemas de competência dos Juizados, transação penal e suspensão condicional do processo."
+ },
+ "uso": {
+  "in": 20,
+  "out": 8919,
+  "cache_w": 9671,
+  "cache_r": 12522,
+  "custo_usd": 0.0700912
+ }
+}

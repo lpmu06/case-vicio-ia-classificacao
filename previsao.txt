@@ -1,15 +1,15 @@
 precisao_prevista: 0.96
 precisao_intervalo: 0.85-0.99
-cobertura_prevista: 0.61
-cobertura_intervalo: 0.61-0.61
+cobertura_prevista: 0.60
+cobertura_intervalo: 0.60-0.61
 
 COMO CHEGAMOS NESTES NÚMEROS
 
 Cobertura
-Ela é escolha nossa: publicamos 218 das 359 questões (60.7%), sendo
-69 no subtema e 149 no tema de nível 1. O intervalo só cobre uma dúvida
+Ela é escolha nossa: publicamos 217 das 359 questões (60.4%), sendo
+69 no subtema e 148 no tema de nível 1. O intervalo só cobre uma dúvida
 de denominador: se as questões que a equipe também considera "fora" (2 na nossa decisão) saírem da conta,
-a cobertura sobe para 61.1%.
+a cobertura sobe para 60.8%.
 
 Precisão
 Não tivemos gabarito nem rotulagem humana. Usamos três estimadores independentes entre si, cada um com uma
@@ -26,10 +26,10 @@ hipótese declarada, e dois descontos para o que nenhum deles enxerga.
    nossas publicadas ele colocaria no mesmo tema, pai ou filho, pela régua do case. Erros de famílias diferentes
    são menos correlacionados, mas a amostra é pequena e ele também não conhece as convenções da equipe.
 
-3. Auditoria: 97.9% (amostra aleatória de 47 publicadas).
+3. Auditoria: 97.8% (amostra aleatória de 46 publicadas).
    Cada questão foi lida com olhar cético, perguntando onde um professor a arquivaria. Nenhum erro claro; as
    dúvidas genuínas (um tema alternativo plausível por convenção) contam como 1/3 de erro na estimativa central e
-   como 1/2 na conservadora (96.8%; intervalo de 95% de 87.3% a 99.3%).
+   como 1/2 na conservadora (96.7%; intervalo de 95% de 87.0% a 99.2%).
    A leitura foi feita por IA, não por especialista. Vereditos em data/auditoria_ia.csv, caderno em
    docs/auditoria_caderno.md.
 
@@ -38,15 +38,15 @@ hipótese declarada, e dois descontos para o que nenhum deles enxerga.
    endereços na árvore (prisão em "Prisões em Espécie" ou em "Teoria Geral das Prisões"; ação penal e decadência
    em Penal ou em Processo Penal) e fronteiras de teoria do crime (erro de tipo ou de proibição).
 
-5. Cópias dos temas da Legislação Especial (1.7% de perda esperada, descontada de todos).
+5. Cópias dos temas da Legislação Especial (1.8% de perda esperada, descontada de todos).
    A árvore tem cópias recentes, em Penal e em Processo Penal, de 8 temas da Legislação Especial (Lei Maria da
    Penha, Tráfico de Drogas, Lei de Execução Penal...). Publicamos sempre no tema da Legislação Especial, que tem
    histórico de questões; as cópias não têm descrição nem histórico. Se a equipe tiver rotulado nas cópias,
-   17.4% das publicadas estariam erradas e a precisão cairia para cerca de 80.4%.
+   17.5% das publicadas estariam erradas e a precisão cairia para cerca de 80.3%.
    Atribuímos 10.0% de chance a esse cenário. A variante publicacao_sem_duplicados.csv manda essas
    questões para revisão e elimina o risco, ao custo de cerca de 10 pontos de cobertura.
 
-Ponto: a mediana dos três estimadores ajustados (95.0%, 96.1%, 96.3%).
+Ponto: a mediana dos três estimadores ajustados (95.0%, 96.1%, 96.2%).
 Intervalo: limite inferior = o menor limite inferior de 95% entre 2 e 3, menos o item 5; limite superior = 1,
 a estimativa sob independência. O intervalo é largo porque a auditoria e a outra família têm poucas dezenas de
 questões; preferimos um intervalo honesto a um estreito.

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4688",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "Todas as alternativas versam sobre dispositivos específicos da Lei 9.605/1998 (art. 25 - destinação de animais apreendidos, produtos perecíveis, madeiras, instrumentos da infração; e art. 26 - natureza da ação penal nos crimes ambientais). O eixo comum é a disciplina penal ambiental da Lei de Crimes Ambientais, enquadrando-se integralmente no tema \"Crimes contra o meio ambiente\" (4688). Não há subtema específico na árvore (tema sem subtemas), então subtema_n2_id permanece null. Mantida a classificação anterior após confirmação dos metadados completos.",
+ "id": "Q0344",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "grupo_id": "LE3",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "A questão versa sobre disposições específicas da Lei de Crimes Ambientais (9.605/1998) - destinação de animais, produtos e instrumentos apreendidos e natureza da ação penal nos crimes ambientais. O tema central é o instituto dos \"Crimes contra o meio ambiente\", previsto no grupo LE3 (Legislação Especial - crimes ambientais), e não propriamente teoria geral de ação penal, apesar da pista de origem indicar \"Ação Penal\" (apenas uma das alternativas trata disso, mas o eixo comum é a lei ambiental)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4688",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam sobre dispositivos específicos da Lei 9.605/1998 (destinação de animais, produtos perecíveis, instrumentos apreendidos e natureza da ação penal nos crimes ambientais - arts. 25 e 26). O eixo comum é a disciplina penal ambiental, enquadrando-se no tema \"Crimes contra o meio ambiente\" (4688), e não em teoria geral de ação penal, já que apenas uma alternativa trata disso e no contexto específico da lei ambiental."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1767,
+  "cache_w": 9399,
+  "cache_r": 14150,
+  "custo_usd": 0.06374099999999999
+ }
+}

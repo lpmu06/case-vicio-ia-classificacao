@@ -1,10 +1,10 @@
 {
- "publicadas": 218,
+ "publicadas": 217,
  "total": 359,
  "fora": 2,
- "revisar": 139,
+ "revisar": 140,
  "publicadas_nivel2": 0,
- "E1_independencia": 0.9997,
+ "E1_independencia": 0.9998,
  "E2_outra_familia": {
   "acertos": 39,
   "n": 39,
@@ -15,37 +15,37 @@
   ]
  },
  "E3_auditoria": {
-  "pontos_central": 46.0,
-  "pontos_conservador": 45.5,
-  "n": 47.0,
-  "taxa": 0.9787,
-  "taxa_conservadora": 0.9681,
+  "pontos_central": 45.0,
+  "pontos_conservador": 44.5,
+  "n": 46.0,
+  "taxa": 0.9783,
+  "taxa_conservadora": 0.9674,
   "wilson95_conservador": [
-   0.8728,
-   0.9926
+   0.8703,
+   0.9924
   ]
  },
  "margem_convencao": 0.02,
- "taxa_subtema": 0.9236,
+ "taxa_subtema": 0.9251,
  "copias_67xx": {
   "p_cenario": 0.1,
-  "exposicao": 0.1743,
-  "perda_esperada": 0.0174,
+  "exposicao": 0.1751,
+  "perda_esperada": 0.0175,
   "precisao_se_cenario_ocorrer": 0.805
  },
  "estimadores_ajustados": [
-  0.9613,
-  0.9622,
-  0.9626
+  0.9607,
+  0.9623,
+  0.9625
  ],
  "precisao_prevista": 0.962,
  "precisao_intervalo": [
-  0.855,
+  0.853,
   1.0
  ],
- "cobertura_prevista": 0.607,
+ "cobertura_prevista": 0.604,
  "cobertura_intervalo": [
-  0.607,
-  0.611
+  0.604,
+  0.608
  ]
 }

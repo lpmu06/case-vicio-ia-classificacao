@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5544",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.99,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre etapas da cadeia de custódia (Lei 13.964/19, arts. 158-A a 158-F do CPP). Trata-se de aspecto processual relativo aos procedimentos de reconhecimento, acondicionamento, transporte, recebimento e armazenamento de vestígios. Encaixa-se no subtema 5544 (Cadeia de Custódia), que cobre exatamente \"procedimentos para preservar e documentar a história cronológica do vestígio\" e lista as mesmas etapas como palavras-chave. A alternativa incorreta (D) versa sobre a coleta exclusivamente por perito oficial, ponto de detalhe sobre o procedimento da cadeia de custódia. Nenhuma segunda opção aplicável.",
+ "id": "Q0226",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "Questão sobre procedimento de cadeia de custódia (Lei nº 13.964/19) no Código de Processo Penal. Trata-se de aspecto processual puro relativo à coleta, preservação e manutenção de provas, não de direito material. Enquadra-se em Teoria Geral das Provas (PP4: Provas). Confiança alta, sem ambiguidade disciplinar."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre procedimento de cadeia de custódia (Lei nº 13.964/19) no Código de Processo Penal. Trata-se de aspecto processual puro relativo às etapas de coleta, preservação e manutenção de provas (reconhecimento, armazenamento, recebimento, coleta e transporte). Encaixa-se especificamente no tema Provas em Espécies (5543), que lista Cadeia de Custódia como um de seus subtemas. Segunda opção possível em Teoria Geral das Provas (5590) é mais genérica."
+ },
+ "uso": {
+  "in": 40,
+  "out": 8430,
+  "cache_w": 28231,
+  "cache_r": 4639,
+  "custo_usd": 0.1147839
+ }
+}

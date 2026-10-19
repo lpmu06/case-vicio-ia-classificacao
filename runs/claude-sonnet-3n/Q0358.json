@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5128",
+ "subtema_n2_id": "5133",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata diretamente do art. 154-A do CP (invasão de dispositivo informático), tipificado pela Lei 12.737/2012 (\"Lei Carolina Dieckmann\"), exigindo violação de mecanismo de segurança e prevendo causas de aumento para obtenção e divulgação/comercialização de dados sigilosos. Isso se enquadra exatamente no subtema 5133, que abrange expressamente a invasão de dispositivo informático (art. 154-A CP, Lei 12.737/2012) dentro do tema 5128 (Crimes Contra a Liberdade Pessoal). Não há elementos de ameaça, perseguição, violência psicológica, bullying ou privação de liberdade que justifiquem outro subtema. Mantém-se a classificação de nível 1 já confirmada no estágio anterior.",
+ "id": "Q0358",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P4",
+  "segundo_grupo_id": null,
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata da invasão de dispositivo informático (art. 154-A do CP, \"Lei Carolina Dieckmann\"), tipificada dentro do Título I, Capítulo VI do CP - Dos Crimes Contra a Liberdade Individual (inviolabilidade dos segredos), que corresponde ao tema \"Dos Crimes Contra a Liberdade Pessoal\" do grupo P4 (Parte especial: crimes contra a pessoa)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5128",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o crime de invasão de dispositivo informático (art. 154-A do CP, Lei 12.737/2012 - \"Lei Carolina Dieckmann\"), que está inserido no Título I, Capítulo VI do CP (Dos Crimes Contra a Liberdade Individual, especificamente na seção de inviolabilidade dos segredos). Dentro do grupo P4, o tema de nível 1 \"Dos Crimes Contra a Liberdade Pessoal\" (5128) possui exatamente o subtema \"Dos Crimes contra a Inviolabilidade do Domicílio, Contra a Inviolabilidade da Correspondência e Contra a Inviolabilidade dos Segredos\", que abrange o art. 154-A. Confirma-se, assim, a classificação já feita no estágio anterior. Nenhum outro tema do grupo P4 trata de sigilo de dados informáticos, por isso não há segunda opção adequada dentro do mesmo grupo."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1864,
+  "cache_w": 11924,
+  "cache_r": 37312,
+  "custo_usd": 0.0814014
+ }
+}

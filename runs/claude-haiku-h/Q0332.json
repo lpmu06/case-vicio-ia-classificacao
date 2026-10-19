@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5541",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão específica sobre transação penal testando requisitos negativos (prazo de 5 anos para reutilização), efeitos processuais e impossibilidades (homicídio). Embora a transação penal seja regulada pela Lei 9.099/1995, o foco é procedural: como funciona o benefício, seus efeitos e vedações. Portanto, classifica-se em 5539 (Procedimento Sumaríssimo) > 5541 (Transação Penal), cuja descrição abrange exatamente \"requisitos negativos, efeitos da aceitação, impossibilidade em hipóteses\". Segunda opção: 4701 (Juizado Especial Criminal), que abrange a Lei 9.099/1995 como legislação especial de direito material. Confiança em 5539 = 0.85 pela ambiguidade estrutural entre Legislação Especial e Processo Penal; confiança em 5541 = 0.95 pela correspondência direta com descrição do subtema.",
+ "id": "Q0332",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4701",
+  "segunda_opcao_n1_id": "5539",
+  "confianca_ramo": 0.8,
+  "multi_tema": false,
+  "justificativa": "Questão sobre transação penal e seus requisitos legais (prazo de 5 anos para reutilização do benefício), instituto regulado pela Lei 9.099/1995. O tema 4701 (Juizado Especial Criminal) em Legislação Especial cobre integralmente essa lei, sendo a classificação mais apropriada para questões sobre esse instituto. Segunda opção: 5539 (Procedimento Sumaríssimo), que também possui subtema específico para Transação Penal. Confiança reduzida a 0.8 pela ambiguidade entre legislação especial e processo penal."
+ },
+ "uso": {
+  "in": 10,
+  "out": 5310,
+  "cache_w": 8547,
+  "cache_r": 0,
+  "custo_usd": 0.0910774
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": "5103",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5110",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige o reconhecimento de que a conduta de Antônio (acariciar os seios e beijar a aluna de 13 anos, vulnerável por idade) configura estupro de vulnerável consumado, pois o ato libidinoso diverso da conjunção carnal se consuma independentemente de penetração, não se exigindo reiteração ou toque prolongado - tema central do art. 217-A CP (subtema 5103, \"Estupro e Estupro de Vulnerável\"). A segunda parte da questão, sobre a possibilidade de incidência concomitante da agravante do art. 61, II, \"f\" (abuso de autoridade/relações domésticas) com a causa de aumento do art. 226, II (autoridade sobre a vítima em razão de ser preceptor/professor), é tema acessório que poderia remeter a 5110 (Disposições Gerais), mas o núcleo decisório da questão - identificar a tipificação correta (estupro de vulnerável consumado) - pertence a 5103. Como o aluno que estuda o tema de nível 1 (5102) tem acesso a ambos os subtemas, a classificação no subtema mais específico e central (5103) é a mais precisa, com 5110 como segunda opção relevante por tratar das majorantes específicas dos crimes sexuais.",
+ "id": "Q0345",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P6",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa a tipificação do estupro de vulnerável (Art. 217-A), sua consumação/tentativa, e a possibilidade de incidência concomitante da agravante do art. 61, II, f, com a causa de aumento do art. 226, II do CP — temas inseridos em \"Dos Crimes Contra a Dignidade Sexual\", pertencente ao grupo P6 (Parte especial: dignidade sexual e família)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5102",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata da tipificação do estupro de vulnerável (art. 217-A), sua consumação, e da possibilidade de incidência concomitante da agravante do art. 61, II, \"f\", com a causa de aumento do art. 226, II do CP, conforme entendimento do STJ. Trata-se de crime contra a dignidade sexual, dentro do subtema \"Estupro e Estupro de Vulnerável\", pertencente ao tema de nível 1 \"Dos Crimes Contra a Dignidade Sexual\" (5102). Não há elementos relativos a crimes contra a família, afastando o tema 5111."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1675,
+  "cache_w": 14800,
+  "cache_r": 14150,
+  "custo_usd": 0.08867900000000001
+ }
+}

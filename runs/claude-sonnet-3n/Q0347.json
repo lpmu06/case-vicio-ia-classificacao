@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5207",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5228",
+ "extras_ids": [
+  "5208",
+  "5232",
+  "5230"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão mistura institutos distintos em cada alternativa (A: estrito cumprimento do dever legal - ilicitude; B: revogação obrigatória do sursis - teoria da pena; C: estado de necessidade - ilicitude; D: crime continuado - concurso de crimes; E: livramento condicional - teoria da pena). A alternativa tecnicamente correta é a (B), que trata com precisão da revogação obrigatória da suspensão condicional da pena por frustração solvente da multa e não reparação do dano sem justificativa (art. 81, §1º, CP), hipótese expressamente prevista em lei. As demais contêm erros técnicos: (A) o estrito cumprimento exige dever legal específico do agente, não mera urgência, sendo caso de estado de necessidade; (C) o art. 24, §2º, CP prevê sim causa de diminuição de pena nessa hipótese, tornando a afirmativa falsa; (D) o STJ e STF reconhecem a continuidade delitiva em casos análogos (mesmas condições de tempo, lugar e modo de execução), tornando a negativa incorreta; (E) a soma/unificação de penas para fins de livramento condicional não necessariamente corresponde ao art. 75 CP (limite de cumprimento), havendo entendimento diverso na jurisprudência. Como o gabarito está ancorado no instituto do sursis (teoria da pena), mantenho a classificação em 5199, com subtema 5207 (Suspensão Condicional da Pena), dado que a resposta correta trata exatamente desse instituto. Mantida a Ilicitude (5228) como segunda opção relevante, pois duas das alternativas incorretas (A e C) versam sobre excludentes de ilicitude.",
+ "id": "Q0347",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos distintos da parte geral: excludente de ilicitude/estado de necessidade (A, C), concurso de crimes/continuidade delitiva (D), e teoria da pena/sursis/livramento condicional (B, E). Não há um eixo único. Como maioria das alternativas (A, C, D) envolve teoria do crime (ilicitude e concurso de crimes), optei por P2 como grupo principal, com P3 (pena/punibilidade) como segundo, já que cobre B e E."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "5228",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos distintos: estrito cumprimento do dever legal e estado de necessidade (A, C) — Teoria do Crime/Ilicitude; crime continuado (D) — Concurso de Crimes; e suspensão condicional da pena e livramento condicional (B, E) — Teoria da Pena. Não há eixo único. Analisando o conteúdo, a alternativa correta tecnicamente é a (B), que trata com precisão da revogação obrigatória do sursis (art. 81, §1º, CP), enquanto as demais contêm erros técnicos identificáveis (A e C invertem institutos/artigos, D contraria a jurisprudência do STF sobre continuidade delitiva). Como o \"gabarito\" da questão está ancorado em Teoria da Pena (sursis), reclassifico o tema principal para 5199 (Teoria da Pena, subtema Suspensão Condicional da Pena), mantendo Teoria do Crime: Ilicitude (5228) como segunda opção, por ser o eixo temático mais robusto entre as alternativas incorretas (A, C)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3085,
+  "cache_w": 20059,
+  "cache_r": 14150,
+  "custo_usd": 0.128017
+ }
+}

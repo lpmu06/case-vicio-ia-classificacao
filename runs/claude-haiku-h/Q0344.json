@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4688",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": "5063",
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "Questão que aborda especificamente a Lei nº 9.605/1998, testando conhecimento sobre apreensão de animais, destino de produtos perecíveis, preservação de provas e natureza da ação penal nesta lei especial. Embora toque em aspectos procedimentais (alternativas A-D) e materiais/de ação penal (alternativa E), todas as alternativas são regras específicas desta lei. O tema mais preciso é \"Crimes contra o meio ambiente\" em Legislação Especial (4688), sendo a questão classificada como multi-tema por misturar diferentes institutos (destino de bens + ação penal) dentro de uma mesma lei especial. A segunda opção (5063) seria pertinente se a questão focasse principalmente em ação penal em geral, mas o contexto é a lei ambiental.",
+ "id": "Q0344",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4688",
+  "segunda_opcao_n1_id": "5063",
+  "confianca_ramo": 0.92,
+  "multi_tema": true,
+  "justificativa": "Questão que aborda especificamente a Lei nº 9.605/1998, testando conhecimento sobre apreensão de animais, destino de produtos perecíveis, preservação de provas e natureza da ação penal nesta lei especial. Embora toque em aspectos procedimentais (alternativas A-D) e materiais (alternativa E), todas as alternativas são regras específicas desta lei. O tema mais preciso é \"Crimes contra o meio ambiente\" em Legislação Especial, com a ação penal como aspecto secundário. Classificada como multi-tema porque mistura procedimentos e Direito Penal material, mas dentro de uma mesma lei especial."
+ },
+ "uso": {
+  "in": 20,
+  "out": 6623,
+  "cache_w": 10043,
+  "cache_r": 12522,
+  "custo_usd": 0.05965519999999999
+ }
+}

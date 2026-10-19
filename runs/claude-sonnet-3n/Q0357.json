@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5134",
+ "subtema_n2_id": "5135",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5157",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede a definição exata do crime de boicotagem violenta (art. 198 do CP), que integra os crimes contra a organização do trabalho. O tema de nível 1 correto é 5134, e dentro dele o subtema específico é 5135 (Dos Crimes Contra a Organização do Trabalho), cujas palavras-chave e dispositivos (art. 198 CP) citam expressamente \"boicotagem violenta\". As demais alternativas descrevem outros tipos do mesmo capítulo (art. 197, II - atentado à liberdade de trabalho; art. 200 - paralisação com violência; dano a estabelecimento), mas o gabarito correto (constranger a não fornecer/adquirir matéria-prima mediante violência) corresponde literalmente ao art. 198, confirmando o subtema 5135. Não se trata de crime patrimonial (5157), que permanece apenas como segunda opção por aproximação fraca, já que não há subtração, dano ou fraude patrimonial como núcleo da conduta.",
+ "id": "Q0357",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata do crime de \"boicotagem violenta\" (art. 198 do CP), que integra os Crimes Contra a Organização do Trabalho, tema do grupo P5 (Parte especial: patrimônio, propriedade imaterial, organização do trabalho e fé pública). A pista de origem \"Iter Criminis\" está incorreta - o conteúdo testado é a tipificação específica desse delito contra a organização do trabalho, não fases do crime."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5134",
+  "segunda_opcao_n1_id": "5157",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige a identificação exata da conduta típica do art. 198 do CP (boicotagem violenta), que integra os Crimes Contra a Organização do Trabalho. O tema de nível 1 correto é 5134 (Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso), cujo subtema específico \"Dos Crimes Contra a Organização do Trabalho\" abrange exatamente esse delito. Não se trata de crime patrimonial (5157), que é apenas uma segunda opção por aproximação temática fraca (não se encaixa de fato). A pista de origem \"Iter Criminis\" está equivocada, pois o conteúdo testado é a tipificação específica do crime, não as fases de execução do delito."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2850,
+  "cache_w": 36287,
+  "cache_r": 7993,
+  "custo_usd": 0.18814160000000002
+ }
+}

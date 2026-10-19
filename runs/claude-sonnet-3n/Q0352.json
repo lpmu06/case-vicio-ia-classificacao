@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5512",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5560",
+ "extras_ids": [
+  "5515",
+  "5513",
+  "5514"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 \"Parte Geral dos Recursos\" (5512): a questão versa sobre institutos gerais aplicáveis a qualquer recurso criminal, sem se referir a um recurso em espécie determinado (apelação, RESE etc.), o que afasta 5560. Cada alternativa, porém, aborda um subtema diferente dentro da parte geral: (A) efeito extensivo subjetivo (5515); (B) indisponibilidade do recurso do MP, afeta a princípios recursais (5513); (C) legitimidade/interesse recursal do corréu (5514); (D) forma de interposição - petição x termo nos autos (5514, regularidade formal); (E) princípio da fungibilidade recursal (5513). Como não há um eixo único de subtema, mas sim um mosaico dentro do mesmo tema de nível 1, o subtema de nível 2 deve ficar em branco (null), evitando classificar erroneamente em um subtema específico quando as demais alternativas pertencem a outros subtemas. Trata-se de caso de multi-tema interno ao ramo \"Parte Geral dos Recursos\".",
+ "id": "Q0352",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre teoria geral dos recursos no processo penal (efeito extensivo, desistência pelo MP, legitimidade recursal e princípio da fungibilidade), temas típicos de \"Parte Geral dos Recursos\", enquadrados no grupo PP8 (Recursos e ações autônomas de impugnação)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5512",
+  "segunda_opcao_n1_id": "5560",
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam sobre institutos da teoria geral dos recursos (efeito extensivo subjetivo, desistência recursal pelo MP, legitimidade/interesse recursal do corréu, forma do recurso, princípio da fungibilidade), sem se referir a nenhum recurso em espécie específico. Isso caracteriza o tema \"Parte Geral dos Recursos\" (5512), dentro do grupo PP8. A segunda opção plausível seria \"Recursos em Espécies\" (5560), caso se entenda que a questão trata de aspectos formais de interposição aplicáveis a recursos específicos, mas o enunciado e as alternativas são claramente genéricos quanto ao tipo de recurso."
+ },
+ "uso": {
+  "in": 4,
+  "out": 900,
+  "cache_w": 23236,
+  "cache_r": 15521,
+  "custo_usd": 0.2341302
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5476",
+ "subtema_n2_id": "5477",
+ "confianca_ramo": 1,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão inequívoca e monofocal sobre Habeas Corpus. Aborda pressupostos de cabimento (alternativa A: quando há constrangimento ilegal), legitimidade para impetração (alternativa B: Promotor de Justiça), capacidade processual de magistrados (alternativa C), intervenção de terceiros (alternativa D: Assistente do MP) e formalidades de impetração (alternativa E: apócrifas). Todos esses elementos estão descritos no subtema 5477, que explicitamente cobre \"cabimento preventivo ou repressivo, legitimidade ampla, paciente, autoridade coatora, hipóteses do art. 648 do CPP\". Nenhuma ambiguidade ou sobreposição com outros temas.",
+ "id": "Q0331",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5476",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "Questão que trata especificamente de Habeas Corpus, analisando seus pressupostos de cabimento, legitimidade para impetração e particularidades processuais. Encaixa-se perfeitamente no tema \"Ações Autônomas de Impugnação\" (5476), disciplina Processo Penal. A questão é inequívoca e monofocal."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4053,
+  "cache_w": 9386,
+  "cache_r": 12522,
+  "custo_usd": 0.0448072
+ }
+}

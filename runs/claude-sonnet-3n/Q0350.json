@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4702",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam exclusivamente sobre a Lei 9.613/1998: autolavagem/consunção (A), (im)possibilidade de tentativa (B), colaboração premiada do art. 1º, §5º (C) e gerações legislativas quanto ao rol de infrações antecedentes (D). É o caso exato do tema de nível 1 \"Lavagem de Dinheiro\" (4702), que não possui subtemas, confirmando a classificação anterior.",
+ "id": "Q0350",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente do crime de lavagem de dinheiro (Lei 9.613/1998) — autolavagem, consunção, tentativa, colaboração premiada e gerações de legislação antilavagem —, tema específico \"Lavagem de Dinheiro\", integrante do grupo LE1 (Drogas, armas, crime organizado, lavagem, terrorismo, hediondos e tortura) em Direito Penal - Legislação Especial."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4702",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão versa inteiramente sobre o crime de lavagem de dinheiro (Lei 9.613/1998): autolavagem/consunção, (im)possibilidade de tentativa, colaboração premiada/delação e gerações legislativas da lei de lavagem. Todas as alternativas giram em torno do mesmo instituto específico, correspondendo exatamente ao tema de nível 1 \"Lavagem de Dinheiro\" (4702), que descreve especificamente os crimes da Lei 9.613/1998. Não há elementos de drogas, armas, organização criminosa, terrorismo, hediondez ou tortura que justifiquem outro tema do grupo LE1."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1357,
+  "cache_w": 25200,
+  "cache_r": 10097,
+  "custo_usd": 0.12216540000000001
+ }
+}

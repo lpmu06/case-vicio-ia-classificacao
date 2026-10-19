@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.62,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5182",
+ "extras_ids": [
+  "5093",
+  "5181",
+  "5183"
+ ],
+ "multi_tema": true,
+ "justificativa": "O crime-base é corrupção ativa em transação comercial internacional (art. 337-B, CP), tipo inserido no Capítulo II-A do Título XI (Crimes Contra a Administração Pública Estrangeira), dentro do mesmo título dos crimes contra a Administração Pública – por isso mantenho o tema de nível 1 em 5087, não havendo na árvore um subtema específico para o art. 337-B (o subtema 5093 \"Corrupção Ativa\" é voltado ao art. 333, tipo distinto, ainda que análogo; por isso subtema_n2_id = null, para não classificar erroneamente em um subtema irmão). A questão é claramente multi-tema: (A) e (B) versam sobre elementares do próprio art. 337-B; (C) versa sobre extraterritorialidade (art. 7º, §2º, CP), tema central de Lei Penal no Espaço (5182, subtema de 5180); (D) é a majorante específica do art. 337-B, §1º; (E) trata do termo inicial da prescrição. Dado o peso real da alternativa (C), que exige conhecimento autônomo e específico de extraterritorialidade condicionada, mantenho 5182 como segunda opção forte. A confiança no ramo é moderada (0,62) justamente pela dispersão temática e pela possibilidade de a prova ter objetivo central em extraterritorialidade; ainda assim, o enunciado e a maioria das alternativas giram em torno das peculiaridades do tipo penal de corrupção ativa internacional, o que sustenta 5087 como tema principal.",
+ "id": "Q0348",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": "P1",
+  "confianca": 0.62,
+  "multi_tema": true,
+  "justificativa": "O crime de corrupção ativa em transação comercial internacional (art. 337-B do CP) está inserido no capítulo \"Dos crimes praticados por particular contra a administração pública estrangeira\", dentro do título dos Crimes Contra a Administração Pública (grupo P8). Embora a questão também toque em extraterritorialidade da lei penal (art. 7º, §2º, CP - tema de P1) e prescrição (P3), o eixo central é o tipo penal específico e suas características (elementos do tipo, causa de aumento, consumação), o que remete ao capítulo da Administração Pública. É questão multi-tema, pois cada alternativa versa sobre um aspecto diferente (elementar do tipo, extraterritorialidade, causa de aumento, prescrição), mas o tema nuclear é o próprio crime do art. 337-B, classificado em Crimes Contra a Administração Pública."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5180",
+  "confianca_ramo": 0.62,
+  "multi_tema": true,
+  "justificativa": "A questão versa sobre o crime de corrupção ativa em transação comercial internacional (art. 337-B do CP), tipo penal inserido no capítulo dos crimes praticados por particular contra a administração pública estrangeira, dentro do Título XI (Crimes Contra a Administração Pública) — tema 5087 (grupo P8). É nitidamente multi-tema: a alternativa (A) trata da elementar \"dar/pagar\" vs. \"oferecer/prometer\"; (B) trata da exigência do elemento \"ato de ofício\" no tipo; (C) trata da extraterritorialidade da lei penal (art. 7º, §2º, CP), tema típico de Lei Penal no Espaço (5180, grupo P1); (D) trata da causa de aumento de pena específica do art. 337-B; (E) trata do termo inicial da prescrição. Apesar dessa dispersão, o fio condutor que unifica as alternativas é sempre o crime do art. 337-B e suas peculiaridades — por isso a classificação central permanece em Crimes Contra a Administração Pública (5087), com segunda opção em Lei Penal no Espaço (5180), dado o peso relevante da alternativa sobre extraterritorialidade. Mantive a mesma conclusão do estágio anterior por entender que o núcleo da questão é o tipo penal específico, não a extraterritorialidade isoladamente."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3114,
+  "cache_w": 19123,
+  "cache_r": 14150,
+  "custo_usd": 0.123682
+ }
+}

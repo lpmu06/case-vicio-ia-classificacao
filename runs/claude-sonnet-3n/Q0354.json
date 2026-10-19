@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5071",
+ "extras_ids": [
+  "5226",
+  "5227",
+  "5072"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão exige analisar em cada alternativa um instituto diferente da teoria do crime: (A) causalidade/conditio sine qua non e concausas (nexo causal), (B) imputação objetiva, (C) adequação social e insignificância (tipicidade material), (D) teoria do domínio do fato como critério de autoria (concurso de pessoas) e (E) conceito finalista de ação e natureza da culpabilidade. Não há eixo temático único: quatro das cinco alternativas (A, B, C, E) giram em torno de elementos do fato típico — causalidade, imputação objetiva, tipicidade e conduta/ação —, núcleo central do tema 5218 (Fato Típico), enquanto apenas a alternativa (D) pertence propriamente ao tema 5071 (Concurso de Pessoas), especificamente ao subtema de autoria (5072). Como o fato de a questão pedir a alternativa INCORRETA não altera a natureza do conteúdo cobrado em cada item, e a maioria do conteúdo gravita sobre fato típico, mantenho a classificação em 5218 como tema principal, com 5071 como segunda opção relevante pela presença da teoria do domínio do fato. Não escolho subtema de nível 2 porque nenhum subtema isolado (nem 5226, nem 5227, nem 5221) cobre a totalidade das alternativas relevantes — a questão é propriamente multi-tema dentro do próprio tema de nível 1, justificando subtema_n2_id = null.",
+ "id": "Q0354",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "A questão aborda teorias sobre conduta, causalidade, imputação objetiva, adequação social/insignificância e domínio do fato — todos institutos centrais da Teoria do Crime: Fato Típico, tema de nível 1 dentro do grupo P2 (Parte geral: teoria do crime)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5071",
+  "confianca_ramo": 0.6,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos de diferentes substratos da teoria do crime em cada alternativa: (A) causalidade/conditio sine qua non, (B) imputação objetiva, (C) adequação social e insignificância (tipicidade), (D) teoria do domínio do fato (autoria/concurso de pessoas) e (E) conceito finalista de ação e culpabilidade. A maioria das alternativas (A, B, C, E) gravita sobre conduta, nexo causal, imputação objetiva e tipicidade — núcleo de Fato Típico (5218), que é também o tema do grupo já selecionado (P2) e cobre a maior parte do enunciado. A alternativa (D), sobre domínio do fato como critério de autoria, pertence mais propriamente a Concurso de Pessoas (5071), por isso a indico como segunda opção. Não há um único subtema de nível 2 que abranja toda a questão, de modo que a classificação correta é no tema de nível 1 Fato Típico, com marcação de multi-tema pela heterogeneidade das alternativas."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2399,
+  "cache_w": 24735,
+  "cache_r": 4053,
+  "custo_usd": 0.1358416
+ }
+}

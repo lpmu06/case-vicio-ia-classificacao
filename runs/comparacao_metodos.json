@@ -36,49 +36,49 @@
    "rodada": "claude-sonnet-3n",
    "metodo": "3 estágios",
    "modelo": "Sonnet 5",
-   "questoes": 323,
+   "questoes": 359,
    "chamadas_por_questao": 2.98,
-   "tokens_prompt_por_questao": 13874,
-   "tokens_saida_por_questao": 2063,
-   "custo_usd_por_questao_sem_cache": 0.04838,
-   "custo_usd_por_questao_com_cache": 0.03905,
-   "custo_usd_50mil_com_cache": 1952,
+   "tokens_prompt_por_questao": 13935,
+   "tokens_saida_por_questao": 2083,
+   "custo_usd_por_questao_sem_cache": 0.0487,
+   "custo_usd_por_questao_com_cache": 0.03936,
+   "custo_usd_50mil_com_cache": 1968,
    "fora": 4,
-   "multi_tema": 89,
-   "escolheu_subtema": 173,
+   "multi_tema": 106,
+   "escolheu_subtema": 189,
    "conf_ramo_media": 0.899
   },
   {
    "rodada": "claude-haiku-h",
    "metodo": "2 estágios",
    "modelo": "Haiku 4.5",
-   "questoes": 70,
+   "questoes": 91,
    "chamadas_por_questao": 2.0,
-   "tokens_prompt_por_questao": 16795,
-   "tokens_saida_por_questao": 6878,
-   "custo_usd_por_questao_sem_cache": 0.05119,
-   "custo_usd_por_questao_com_cache": 0.04084,
-   "custo_usd_50mil_com_cache": 2042,
+   "tokens_prompt_por_questao": 16525,
+   "tokens_saida_por_questao": 6941,
+   "custo_usd_por_questao_sem_cache": 0.05123,
+   "custo_usd_por_questao_com_cache": 0.04088,
+   "custo_usd_50mil_com_cache": 2044,
    "fora": 0,
-   "multi_tema": 11,
-   "escolheu_subtema": 48,
-   "conf_ramo_media": 0.944
+   "multi_tema": 13,
+   "escolheu_subtema": 62,
+   "conf_ramo_media": 0.946
   },
   {
    "rodada": "claude-haiku-3n",
    "metodo": "3 estágios",
    "modelo": "Haiku 4.5",
-   "questoes": 29,
+   "questoes": 44,
    "chamadas_por_questao": 3.0,
-   "tokens_prompt_por_questao": 10504,
-   "tokens_saida_por_questao": 8809,
-   "custo_usd_por_questao_sem_cache": 0.05455,
-   "custo_usd_por_questao_com_cache": 0.05083,
-   "custo_usd_50mil_com_cache": 2541,
+   "tokens_prompt_por_questao": 10754,
+   "tokens_saida_por_questao": 8863,
+   "custo_usd_por_questao_sem_cache": 0.05507,
+   "custo_usd_por_questao_com_cache": 0.05135,
+   "custo_usd_50mil_com_cache": 2567,
    "fora": 0,
-   "multi_tema": 3,
-   "escolheu_subtema": 17,
-   "conf_ramo_media": 0.967
+   "multi_tema": 4,
+   "escolheu_subtema": 26,
+   "conf_ramo_media": 0.955
   },
   {
    "rodada": "gpt-5.5",
@@ -141,26 +141,26 @@
   {
    "a": "claude-opus",
    "b": "claude-sonnet-3n",
-   "n": 323,
-   "ramo": 0.845,
-   "n_ambos_subtema": 156,
-   "subtema_igual_quando_ambos_escolhem": 0.91
+   "n": 359,
+   "ramo": 0.847,
+   "n_ambos_subtema": 170,
+   "subtema_igual_quando_ambos_escolhem": 0.912
   },
   {
    "a": "claude-opus",
    "b": "claude-haiku-h",
-   "n": 70,
-   "ramo": 0.9,
-   "n_ambos_subtema": 45,
-   "subtema_igual_quando_ambos_escolhem": 0.911
+   "n": 91,
+   "ramo": 0.901,
+   "n_ambos_subtema": 58,
+   "subtema_igual_quando_ambos_escolhem": 0.879
   },
   {
    "a": "claude-opus",
    "b": "claude-haiku-3n",
-   "n": 29,
-   "ramo": 0.966,
-   "n_ambos_subtema": 17,
-   "subtema_igual_quando_ambos_escolhem": 0.882
+   "n": 44,
+   "ramo": 0.864,
+   "n_ambos_subtema": 26,
+   "subtema_igual_quando_ambos_escolhem": 0.885
   },
   {
    "a": "claude-opus",
@@ -189,26 +189,26 @@
   {
    "a": "claude-sonnet-h",
    "b": "claude-sonnet-3n",
-   "n": 323,
-   "ramo": 0.854,
-   "n_ambos_subtema": 162,
+   "n": 359,
+   "ramo": 0.858,
+   "n_ambos_subtema": 175,
    "subtema_igual_quando_ambos_escolhem": 0.92
   },
   {
    "a": "claude-sonnet-h",
    "b": "claude-haiku-h",
-   "n": 70,
-   "ramo": 0.9,
-   "n_ambos_subtema": 41,
-   "subtema_igual_quando_ambos_escolhem": 0.951
+   "n": 91,
+   "ramo": 0.901,
+   "n_ambos_subtema": 54,
+   "subtema_igual_quando_ambos_escolhem": 0.926
   },
   {
    "a": "claude-sonnet-h",
    "b": "claude-haiku-3n",
-   "n": 29,
-   "ramo": 0.966,
-   "n_ambos_subtema": 15,
-   "subtema_igual_quando_ambos_escolhem": 0.933
+   "n": 44,
+   "ramo": 0.886,
+   "n_ambos_subtema": 23,
+   "subtema_igual_quando_ambos_escolhem": 0.913
   },
   {
    "a": "claude-sonnet-h",
@@ -237,98 +237,98 @@
   {
    "a": "claude-sonnet-3n",
    "b": "claude-haiku-h",
-   "n": 70,
+   "n": 91,
    "ramo": 0.857,
-   "n_ambos_subtema": 38,
-   "subtema_igual_quando_ambos_escolhem": 0.921
-  },
-  {
-   "a": "claude-sonnet-3n",
-   "b": "claude-haiku-3n",
-   "n": 29,
-   "ramo": 0.931,
-   "n_ambos_subtema": 14,
-   "subtema_igual_quando_ambos_escolhem": 0.929
-  },
-  {
-   "a": "claude-sonnet-3n",
-   "b": "gpt-5.5",
-   "n": 59,
-   "ramo": 0.797,
-   "n_ambos_subtema": 26,
-   "subtema_igual_quando_ambos_escolhem": 0.846
-  },
-  {
-   "a": "claude-sonnet-3n",
-   "b": "claude-sonnet-plano",
-   "n": 72,
-   "ramo": 0.861,
-   "n_ambos_subtema": 45,
-   "subtema_igual_quando_ambos_escolhem": 0.933
-  },
-  {
-   "a": "claude-sonnet-3n",
-   "b": "claude-opus-h",
-   "n": 72,
-   "ramo": 0.889,
-   "n_ambos_subtema": 40,
-   "subtema_igual_quando_ambos_escolhem": 0.975
-  },
-  {
-   "a": "claude-haiku-h",
-   "b": "claude-haiku-3n",
-   "n": 29,
-   "ramo": 0.966,
-   "n_ambos_subtema": 16,
-   "subtema_igual_quando_ambos_escolhem": 0.938
-  },
-  {
-   "a": "claude-haiku-h",
-   "b": "gpt-5.5",
-   "n": 20,
-   "ramo": 0.95,
-   "n_ambos_subtema": 10,
-   "subtema_igual_quando_ambos_escolhem": 1.0
-  },
-  {
-   "a": "claude-haiku-h",
-   "b": "claude-sonnet-plano",
-   "n": 59,
-   "ramo": 0.932,
-   "n_ambos_subtema": 40,
+   "n_ambos_subtema": 50,
    "subtema_igual_quando_ambos_escolhem": 0.9
   },
   {
+   "a": "claude-sonnet-3n",
+   "b": "claude-haiku-3n",
+   "n": 44,
+   "ramo": 0.932,
+   "n_ambos_subtema": 22,
+   "subtema_igual_quando_ambos_escolhem": 0.909
+  },
+  {
+   "a": "claude-sonnet-3n",
+   "b": "gpt-5.5",
+   "n": 63,
+   "ramo": 0.794,
+   "n_ambos_subtema": 28,
+   "subtema_igual_quando_ambos_escolhem": 0.857
+  },
+  {
+   "a": "claude-sonnet-3n",
+   "b": "claude-sonnet-plano",
+   "n": 80,
+   "ramo": 0.863,
+   "n_ambos_subtema": 48,
+   "subtema_igual_quando_ambos_escolhem": 0.938
+  },
+  {
+   "a": "claude-sonnet-3n",
+   "b": "claude-opus-h",
+   "n": 80,
+   "ramo": 0.9,
+   "n_ambos_subtema": 43,
+   "subtema_igual_quando_ambos_escolhem": 0.977
+  },
+  {
+   "a": "claude-haiku-h",
+   "b": "claude-haiku-3n",
+   "n": 44,
+   "ramo": 0.886,
+   "n_ambos_subtema": 25,
+   "subtema_igual_quando_ambos_escolhem": 0.96
+  },
+  {
+   "a": "claude-haiku-h",
+   "b": "gpt-5.5",
+   "n": 22,
+   "ramo": 0.955,
+   "n_ambos_subtema": 12,
+   "subtema_igual_quando_ambos_escolhem": 0.917
+  },
+  {
+   "a": "claude-haiku-h",
+   "b": "claude-sonnet-plano",
+   "n": 80,
+   "ramo": 0.925,
+   "n_ambos_subtema": 53,
+   "subtema_igual_quando_ambos_escolhem": 0.887
+  },
+  {
    "a": "claude-haiku-h",
    "b": "claude-opus-h",
-   "n": 59,
-   "ramo": 0.881,
-   "n_ambos_subtema": 36,
-   "subtema_igual_quando_ambos_escolhem": 0.944
+   "n": 80,
+   "ramo": 0.875,
+   "n_ambos_subtema": 47,
+   "subtema_igual_quando_ambos_escolhem": 0.915
   },
   {
    "a": "claude-haiku-3n",
    "b": "gpt-5.5",
-   "n": 12,
-   "ramo": 1.0,
-   "n_ambos_subtema": 6,
+   "n": 14,
+   "ramo": 0.929,
+   "n_ambos_subtema": 7,
    "subtema_igual_quando_ambos_escolhem": 1.0
   },
   {
    "a": "claude-haiku-3n",
    "b": "claude-sonnet-plano",
-   "n": 25,
-   "ramo": 0.96,
-   "n_ambos_subtema": 15,
-   "subtema_igual_quando_ambos_escolhem": 0.867
+   "n": 40,
+   "ramo": 0.825,
+   "n_ambos_subtema": 24,
+   "subtema_igual_quando_ambos_escolhem": 0.833
   },
   {
    "a": "claude-haiku-3n",
    "b": "claude-opus-h",
-   "n": 25,
-   "ramo": 0.96,
-   "n_ambos_subtema": 15,
-   "subtema_igual_quando_ambos_escolhem": 0.933
+   "n": 40,
+   "ramo": 0.875,
+   "n_ambos_subtema": 23,
+   "subtema_igual_quando_ambos_escolhem": 0.913
   },
   {
    "a": "gpt-5.5",
@@ -368,18 +368,18 @@
   },
   {
    "rodada": "claude-sonnet-3n",
-   "n": 201,
-   "ramo_igual_origem": 0.353
+   "n": 225,
+   "ramo_igual_origem": 0.338
   },
   {
    "rodada": "claude-haiku-h",
-   "n": 43,
-   "ramo_igual_origem": 0.326
+   "n": 55,
+   "ramo_igual_origem": 0.327
   },
   {
    "rodada": "claude-haiku-3n",
-   "n": 19,
-   "ramo_igual_origem": 0.316
+   "n": 30,
+   "ramo_igual_origem": 0.3
   },
   {
    "rodada": "gpt-5.5",
@@ -413,7 +413,7 @@
    "metodo": "2 estágios",
    "modelo": "Sonnet 5",
    "n": 80,
-   "concorda_maioria_demais": 0.925,
+   "concorda_maioria_demais": 0.938,
    "tokens_prompt_por_questao": 20790,
    "tokens_saida_por_questao": 1589,
    "custo_usd_por_questao_com_cache": 0.03145
@@ -422,21 +422,31 @@
    "rodada": "claude-sonnet-3n",
    "metodo": "3 estágios",
    "modelo": "Sonnet 5",
-   "n": 72,
-   "concorda_maioria_demais": 0.875,
-   "tokens_prompt_por_questao": 13874,
-   "tokens_saida_por_questao": 2063,
-   "custo_usd_por_questao_com_cache": 0.03905
+   "n": 80,
+   "concorda_maioria_demais": 0.887,
+   "tokens_prompt_por_questao": 13935,
+   "tokens_saida_por_questao": 2083,
+   "custo_usd_por_questao_com_cache": 0.03936
   },
   {
    "rodada": "claude-haiku-h",
    "metodo": "2 estágios",
    "modelo": "Haiku 4.5",
-   "n": 59,
-   "concorda_maioria_demais": 0.898,
-   "tokens_prompt_por_questao": 16795,
-   "tokens_saida_por_questao": 6878,
-   "custo_usd_por_questao_com_cache": 0.04084
+   "n": 80,
+   "concorda_maioria_demais": 0.9,
+   "tokens_prompt_por_questao": 16525,
+   "tokens_saida_por_questao": 6941,
+   "custo_usd_por_questao_com_cache": 0.04088
+  },
+  {
+   "rodada": "claude-haiku-3n",
+   "metodo": "3 estágios",
+   "modelo": "Haiku 4.5",
+   "n": 40,
+   "concorda_maioria_demais": 0.875,
+   "tokens_prompt_por_questao": 10754,
+   "tokens_saida_por_questao": 8863,
+   "custo_usd_por_questao_com_cache": 0.05135
   },
   {
    "rodada": "claude-sonnet-plano",
@@ -453,7 +463,7 @@
    "metodo": "2 estágios",
    "modelo": "Opus 5.5 (amostra 80)",
    "n": 80,
-   "concorda_maioria_demais": 0.925,
+   "concorda_maioria_demais": 0.938,
    "tokens_prompt_por_questao": 22460,
    "tokens_saida_por_questao": 1176,
    "custo_usd_por_questao_com_cache": 0.05837

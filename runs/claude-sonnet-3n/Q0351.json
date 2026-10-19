@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5116",
+ "subtema_n2_id": "5118",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5157",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige saber que o cartão de crédito/débito é equiparado a documento particular por força do art. 298, parágrafo único, do CP (incluído pela Lei 12.737/2012), de modo que falsificá-lo configura falsificação de documento particular (art. 298, caput, CP), gabarito E. O tema central é a falsidade documental, cabendo tanto no tema-mãe 5116 quanto, com precisão, no subtema 5118 (Da Falsidade Documental), que trata expressamente de cartão de crédito/débito como documento equiparado. Não se trata de crime patrimonial (5157), pois não há fraude consumada contra vítima nem subtração de bem; o enunciado pede apenas a classificação jurídica da conduta de falsificar o cartão em si, sem potencialidade lesiva autônoma para estelionato discutida.",
+ "id": "Q0351",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão testa a tipificação da falsificação de cartão de crédito, equiparado a documento particular por força do art. 298, parágrafo único, do CP (alteração pela Lei 12.737/2012). O tema correto é \"Dos Crimes Contra a Fé Pública e de Falsidade Documental\", que integra o grupo P5 (Parte especial: patrimônio, propriedade imaterial, organização do trabalho e fé pública)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5116",
+  "segunda_opcao_n1_id": "5157",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão exige saber que cartão de crédito/débito é equiparado a documento particular (art. 298, parágrafo único, CP, incluído pela Lei 12.737/2012), tema central de Falsidade Documental, dentro de \"Dos Crimes Contra a Fé Pública e de Falsidade Documental\" (5116), e não de crimes patrimoniais propriamente ditos."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1463,
+  "cache_w": 37530,
+  "cache_r": 6157,
+  "custo_usd": 0.29740199999999994
+ }
+}

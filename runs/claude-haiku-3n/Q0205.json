@@ -1,0 +1,43 @@
+{
+ "fora": false,
+ "tema_n1_id": "5512",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.78,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5560",
+ "extras_ids": [
+  "5513",
+  "5514",
+  "5515",
+  "5567"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão multi-tema cobrindo direito recursal em seus vários pilares: carta testemunhável (recurso em espécie 5567), indisponibilidade do recurso do MP (princípio 5513), possibilidade de recorrer após extinção por prescrição (pressupostos 5514) e efeito suspensivo da apelação (efeitos 5515). A classificação anterior em 5560 seria apropriada se a questão focasse exclusivamente em procedimentos de recursos específicos; porém, nesta Q0205 três alternativas (B, C, D) cobrem regras gerais aplicáveis a múltiplos recursos (princípios, pressupostos, efeitos), não cabimento e processamento de um recurso em particular. Conforme metadados: 5512 abrange \"regras comuns a todos ou à maioria dos recursos\" enquanto 5560 trata de cada recurso concreto. Subtema indeterminável pois alternativas distribuem-se entre 5513, 5514, 5515 e 5567.",
+ "id": "Q0205",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "Questão sobre recursos em Processo Penal (carta testemunhável, desistência de recurso, apelação da sentença absolutória). Classifica-se em PP8 — Recursos e ações autônomas de impugnação, mais especificamente em \"Parte Geral dos Recursos\" ou \"Recursos em Espécies\". Embora a alternativa (C) envolva prescrição, o foco é processual (possibilidade de recurso), não material. O eixo central é unificado."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5512",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "Questão sobre recursos processuais em espécie (carta testemunhável, apelação) e suas regras de admissibilidade e efeitos. Embora a alternativa (C) mencione prescrição, o contexto é processual (possibilidade de recorrer em caso de extinção), não material. Eixo unificado em torno de recursos. Classificação em 5560 (Recursos em Espécies) é mais precisa que 5512 (Parte Geral) pelo foco em características específicas de cada recurso."
+ },
+ "uso": {
+  "in": 30,
+  "out": 13512,
+  "cache_w": 20049,
+  "cache_r": 4639,
+  "custo_usd": 0.11947289999999999
+ }
+}

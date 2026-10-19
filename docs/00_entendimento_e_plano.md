@@ -1,5 +1,7 @@
 # 00 — Entendimento do case e plano de abordagens
 
+> **Nota (19/10):** este é o diário de bordo, escrito durante o trabalho. O plano inicial (seções 1 a 9) mudou bastante: não houve rotulagem humana, a segunda família de modelos ficou restrita a 63 questões e entraram o árbitro, a auditoria e os classificadores em camadas. O estado final está no [relatório](relatorio.md); a seção 10 registra cada decisão, com data e motivo.
+
 > Rascunho v0, escrito em 16/10/2026 (sexta). Este documento é o "diário de bordo" do raciocínio antes do código: o que entendemos, o que achamos nos dados, as abordagens candidatas e as decisões em aberto. Ele vai evoluir e, no fim, alimenta a seção (a) do relatório.
 
 ---

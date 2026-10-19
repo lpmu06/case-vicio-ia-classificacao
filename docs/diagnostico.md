@@ -3,22 +3,22 @@
 Gerado por `src/44_diagnostico.py`. "Unânime": todas as rodadas de classificação e o árbitro escolheram o mesmo ramo (6 rodadas). É uma medida de dificuldade sem gabarito.
 
 ## Por tipo de questão
-- multipla escolha: 81% unânimes; 62% publicadas (n=301)
-- certo errado: 74% unânimes; 53% publicadas (n=58)
+- multipla escolha: 80% unânimes; 62% publicadas (n=301)
+- certo errado: 72% unânimes; 53% publicadas (n=58)
 
 ## Por tamanho do texto (terços)
-- curtas (121–601 caracteres): 82% unânimes; 71% publicadas (n=119)
-- médias (605–1015 caracteres): 78% unânimes; 57% publicadas (n=120)
-- longas (1020–4064 caracteres): 80% unânimes; 55% publicadas (n=120)
+- curtas (121–601 caracteres): 81% unânimes; 71% publicadas (n=119)
+- médias (605–1015 caracteres): 77% unânimes; 57% publicadas (n=120)
+- longas (1020–4064 caracteres): 79% unânimes; 54% publicadas (n=120)
 
 ## Multi-tema (algum classificador marcou alternativas sobre institutos diferentes)
-- marcadas: 74% unânimes; 41% publicadas (n=117)
-- não marcadas: 83% unânimes; 70% publicadas (n=242)
+- marcadas: 72% unânimes; 40% publicadas (n=122)
+- não marcadas: 82% unânimes; 71% publicadas (n=237)
 
 ## Por disciplina do ramo majoritário
 - Penal: 81% unânimes; 64% publicadas (n=140)
-- Processo Penal: 78% unânimes; 58% publicadas (n=114)
-- Direito Penal - Legislação Especial: 80% unânimes; 67% publicadas (n=69)
+- Processo Penal: 76% unânimes; 57% publicadas (n=114)
+- Direito Penal - Legislação Especial: 78% unânimes; 67% publicadas (n=69)
 - Criminologia: 76% unânimes; 50% publicadas (n=34)
 - fora: 100% unânimes; 0% publicadas (n=2)
 

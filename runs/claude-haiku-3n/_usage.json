@@ -1,0 +1,15 @@
+{
+ "uso": {
+  "in": 27175,
+  "out": 316470,
+  "cache_w": 660769,
+  "cache_r": 143809,
+  "custo_usd": 3.3054679
+ },
+ "segundos": 12029,
+ "erros": [],
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "metodo": "hierarquico_3_estagios"
+}
