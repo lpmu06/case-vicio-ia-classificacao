@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": "5519",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão classicamente sobre Lei Processual no Tempo (5507). Testa art. 2º do CPP (aplicação imediata da lei processual ao processo em curso, tempus regit actum) e a regra de que lei processual nova mais gravosa se aplica imediatamente sem prejudicar atos anteriores. Distingue entre fiança (norma processual pura, aplicação imediata mesmo se gravosa) e prisão preventiva (norma processual com reflexo em direito fundamental à liberdade, onde se aplica a mais favorável conforme CF art. 5º, XL). Segunda opção seria 5519 (Prisão Preventiva) apenas se erroneamente focasse em \"o que é preventiva\", mas o tema testado é inequivocamente temporal.",
+ "id": "Q0118",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5505",
+  "segunda_opcao_n1_id": "5517",
+  "confianca_ramo": 0.96,
+  "multi_tema": false,
+  "justificativa": "A questão é fundamentalmente sobre aplicação de lei processual penal no tempo, especificamente como uma lei processual nova mais gravosa se aplica a processos e medidas cautelares já decretadas. O tema central testado é: (1) aplicação imediata de lei processual; (2) não retroação quando mais gravosa; (3) aplicação de dispositivos mais favoráveis em caso de conflito. O tema 5505 (Lei Processual no Tempo e no Espaço) é o mais apropriado. Segunda opção seria 5517 (Prisões em Espécie, abrangendo liberdade provisória/fiança e prisão preventiva), mas o foco real é lei processual no tempo, não as modalidades de prisão em si."
+ },
+ "uso": {
+  "in": 20,
+  "out": 8696,
+  "cache_w": 12861,
+  "cache_r": 12522,
+  "custo_usd": 0.07846320000000001
+ }
+}

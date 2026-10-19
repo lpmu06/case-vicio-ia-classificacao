@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão monográfica sobre majorantes e critérios de dosimetria da Lei nº 11.343/2006 (Lei de Drogas). Analisa, com base em entendimento sumulado dos Tribunais Superiores, as majorantes de tráfico transnacional (art. 40, I), tráfico interestadual (art. 40, V) e a presunta majorante de tráfico próximo a escolas (art. 40, III), além de retroatividade da lei. O tema central é inequivocamente o tráfico de drogas e suas qualificadoras, consolidado em \"Tráfico de Drogas\" (4708). A questão testa jurisprudência pacificada (Súmula 607 STJ, Tema 506 STF) sobre não exigência de transposição efetiva de fronteiras para majorantes transnacionais e interstaduais, bastando a intenção demonstrada. Tema sem subtemas.",
+ "id": "Q0150",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.96,
+  "multi_tema": false,
+  "justificativa": "Questão monográfica sobre a Lei nº 11.343/2006, abordando majorantes de tráfico transnacional (art. 40, I), tráfico interestadual (art. 40, V) e causa de aumento por tráfico próximo a escolas (art. 40, III), além de retroatividade da lei. O tema central é inequivocamente o tráfico de drogas e suas qualificadoras, consolidado em \"Tráfico de Drogas\" (4708)."
+ },
+ "uso": {
+  "in": 20,
+  "out": 8095,
+  "cache_w": 5896,
+  "cache_r": 12522,
+  "custo_usd": 0.0574242
+ }
+}

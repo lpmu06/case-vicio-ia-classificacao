@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5116",
+ "subtema_n2_id": "5118",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o art. 298, parágrafo único, do CP, que equipara o cartão de crédito ou débito a documento particular. Por isso, a resposta é a alternativa E, que trata de falsidade documental (subtema 5118). A pista de origem, \"Teoria do Crime (Ilicitude)\", não tem relação com o conteúdo. Os subtemas 5117 (moeda e papéis públicos) e 5119 (falsa identidade e outras falsidades) não se aplicam.",
+ "id": "Q0351",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5116"
+ ],
+ "candidatos_subtemas": [
+  "5118"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 582,
+  "cache_w": 4668,
+  "cache_r": 16390,
+  "custo_usd": 0.055608000000000005
+ }
+}

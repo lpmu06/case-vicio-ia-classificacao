@@ -1,0 +1,31 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.82,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5227",
+ "extras_ids": [
+  "5226",
+  "5227",
+  "5221",
+  "5071"
+ ],
+ "multi_tema": true,
+ "justificativa": "Cada alternativa cobra um instituto diferente: nexo causal (A), imputação objetiva (B), tipicidade com insignificância e adequação social (C, que é a incorreta, porque esses princípios afetam a tipicidade material, e não a formal), domínio do fato em concurso de pessoas (D) e conduta finalista (E). Quatro dos cinco eixos estão dentro de Fato Típico, por isso o tema de nível 1 5218 é o que melhor abrange a questão. Deixei o subtema em branco porque as alternativas se espalham por vários subtemas irmãos (5226, 5227, 5221) e porque a alternativa D, de concurso de pessoas (5071), cai fora do ramo.",
+ "id": "Q0354",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5218"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 711,
+  "cache_w": 7076,
+  "cache_r": 14086,
+  "custo_usd": 0.0788592
+ }
+}

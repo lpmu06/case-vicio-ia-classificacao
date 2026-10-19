@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão que cobra identificação e aplicação precisa da Teoria da Anomia de Merton para explicar crime violento repentino causado por stress socioeconômico e privação relativa (queda súbita de status após demissão). O enunciado testa conhecimento de uma teoria criminológica específica, seus autores e conceitos próprios (anomia, desajuste entre metas culturais e meios disponíveis, frustração normativa). Classificação em subtema 4388 é apropriada conforme critério explícito: quando questão cobra teoria específica, usar 4388 em vez de 4387 (que seria mais genérico). Não é multi-tema nem fora da árvore.",
+ "id": "Q0115",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4385",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão que solicita identificação da teoria criminológica sociológica que melhor explica crime repentino motivado por stress socioeconômico e privação relativa. O tema central é a aplicação das Teorias Sociológicas Explicativas da Criminalidade (tema 4385), particularmente a anomia de Merton, não crime em espécie, nem processo, nem política criminal. Classificação muito precisa."
+ },
+ "uso": {
+  "in": 20,
+  "out": 5936,
+  "cache_w": 9889,
+  "cache_r": 12522,
+  "custo_usd": 0.055759199999999995
+ }
+}

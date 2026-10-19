@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.7,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [
+  "5486"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão afirma que cabe RESE contra a decisão que reconhece a competência do juízo (hipótese do art. 581, III, CPP), com prazo de 5 dias (art. 586 CPP) e sem efeito suspensivo (regra geral do art. 584, caput, CPP). O que se exige do candidato é o conhecimento do regime específico do recurso em sentido estrito - cabimento, prazo e efeito - e não a disciplina da competência em si (não se discute qual é o juízo competente, critérios de fixação, conexão etc., mas sim qual recurso impugna essa espécie de decisão e seu regime). Por isso mantenho o tema de nível 1 \"Recursos em Espécies\" e, com razoável segurança, o subtema \"Recurso em sentido estrito (RESE)\" (5561), que trata exatamente de cabimento, prazo e efeito do RESE contra decisões interlocutórias do art. 581 CPP, incluindo a hipótese de decisão sobre competência. Mantenho \"Competência\" (5480) como segunda opção, pois o fato gerador da decisão impugnada é justamente uma decisão sobre competência, podendo haver bancas que classifiquem a questão nesse eixo.",
+ "id": "Q0235",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP3",
+  "segundo_grupo_id": "PP8",
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata de recurso em sentido estrito cabível de decisão sobre competência (art. 581, III, CPP), tema central ligado à Competência no processo penal, embora envolva aspectos recursais (prazo e efeito suspensivo). O eixo é a decisão sobre competência, por isso PP3 (Competência) é o mais adequado, com PP8 (Recursos) como segunda opção pela natureza do instrumento questionado."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão testa especificamente o regime do recurso em sentido estrito (RESE) cabível contra decisão sobre competência: prazo de interposição e efeito (não) suspensivo — elementos próprios do art. 581, III c/c arts. 586/587 do CPP. Embora o fato gerador seja uma decisão de competência, o que se cobra do candidato é o conhecimento específico das regras do RESE enquanto espécie recursal (cabimento, prazo, efeito), existindo subtema exato \"Recurso em sentido estrito (RESE)\" dentro de Recursos em Espécie, o que torna esse enquadramento mais preciso do que o tema geral de Competência. Mantenho Competência como segunda opção pela relevância do contexto (decisão sobre competência é hipótese clássica de RESE), reconhecendo que a linha entre os dois eixos é tênue nesta questão."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2315,
+  "cache_w": 17244,
+  "cache_r": 11846,
+  "custo_usd": 0.10716919999999999
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "fora": false,
+ "tema_n1_id": "5079",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5080",
+ "extras_ids": [
+  "5080",
+  "5082",
+  "5084",
+  "5086"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1: 5079 (Dos Crimes Contra a Administração Judicial). A questão exige conhecimento de cinco institutos distintos do mesmo tema — denunciação caluniosa com ação de improbidade (art. 339, redação da Lei 14.110/2020 - subtema 5080), exercício arbitrário das próprias razões/ação penal (art. 345 - subtema 5082), corrupção ativa de testemunha versus coação no curso do processo (arts. 343/344 - correlatos a 5081/5086), exploração de prestígio como crime próprio (art. 357 - subtema 5086) e favorecimento pessoal (art. 348 - subtema 5084). Não há um eixo único de subtema, pois cada alternativa testa um crime diferente dentro do mesmo título. Por isso mantenho subtema_n2_id = null e multi_tema = true, com nível 1 preciso em 5079. A segunda opção 5087 (Administração Pública) não se aplica, pois nenhum instituto cobrado protege a regularidade da função administrativa em geral — todos protegem a função jurisdicional/investigativa. Ajusto a segunda opção para 5080, por ser o subtema do gabarito (alternativa A, correta), caso a plataforma aceite apenas um subtema específico quando a resposta correta apontar para ele.",
+ "id": "Q0232",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata dos crimes contra a Administração da Justiça (denunciação caluniosa, exercício arbitrário das próprias razões, coação no curso do processo, exploração de prestígio, favorecimento pessoal), todos previstos no Capítulo III do Título XI do CP, que se enquadra no tema \"Dos Crimes Contra a Administração Judicial\", integrante do grupo P8 (Parte especial: administração pública, administração da justiça, finanças e Estado)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5079",
+  "segunda_opcao_n1_id": "5087",
+  "confianca_ramo": 0.97,
+  "multi_tema": true,
+  "justificativa": "A questão aborda exclusivamente institutos do Capítulo III do Título XI do CP (Crimes contra a Administração da Justiça): denunciação caluniosa, exercício arbitrário das próprias razões, coação no curso do processo, exploração de prestígio e favorecimento pessoal. Cada alternativa testa um desses crimes específicos, sem eixo único, mas todos pertencem ao mesmo tema de nível 1 \"Dos Crimes Contra a Administração Judicial\" (5079), que abrange exatamente esses subtemas. É multi-tema dentro do próprio tema de administração judicial, por isso marcado como tal, mas a classificação de nível 1 é precisa. A segunda opção (5087 - Administração Pública) é mencionada apenas por proximidade temática geral (Título XI), mas não se aplica aos institutos cobrados."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2408,
+  "cache_w": 19035,
+  "cache_r": 14150,
+  "custo_usd": 0.116839
+ }
+}

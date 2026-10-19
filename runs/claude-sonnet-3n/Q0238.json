@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": "5523",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5584",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa sobre o reforço da fiança por inovação na classificação do delito, matéria disciplinada no art. 340, I, do CPP. Trata-se de instituto específico da fiança, que é espécie de liberdade provisória, subtema expressamente descrito em 5523 (menciona \"reforço da fiança\" como palavra-chave e art. 341 do CPP entre seus dispositivos). Mantém-se o tema de nível 1 \"Prisões em Espécie\" (5517), e agora é possível precisar o subtema exato (5523 - Liberdade Provisória), já que o instituto da fiança e seu reforço estão nominalmente abrangidos por esse subtema, afastando a hipótese mais genérica de 5584 (Teoria Geral das Prisões).",
+ "id": "Q0238",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP5",
+  "segundo_grupo_id": null,
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata do instituto da fiança (reforço de fiança por inovação na classificação do delito, art. 340 do CPP), que é uma medida cautelar/contracautela da prisão, tratada dentro do tema \"Prisões em Espécie\" no grupo PP5 (Prisões e medidas cautelares)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5517",
+  "segunda_opcao_n1_id": "5584",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata do reforço de fiança por inovação na classificação do delito (art. 340, I, CPP). A fiança é instituto diretamente ligado à liberdade provisória, que é subtema de \"Prisões em Espécie\" (5517), tema que trata das modalidades concretas de prisão cautelar e dos institutos ligados à cessação/substituição da custódia (liberdade provisória, fiança). Alternativamente, poderia ser enquadrado em \"Teoria Geral das Prisões\" (5584) por envolver garantias gerais sobre a prisão, mas o instituto específico (fiança/reforço) está mais diretamente associado à liberdade provisória."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1551,
+  "cache_w": 15213,
+  "cache_r": 14150,
+  "custo_usd": 0.08957999999999999
+ }
+}

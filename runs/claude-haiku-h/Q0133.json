@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5528",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5490",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre momento processual do desaforamento no Tribunal do Júri. O desaforamento é incidente específico do procedimento do júri com momentos próprios de interposição (arts. 427-435 CPP). Subtema [5528] é o mais específico porque a descrição menciona expressamente \"desaforamento\" como parte das \"regras de organização da pauta\" e \"atos praticados pelo juiz-presidente durante a sessão\" — trata-se de ato da segunda fase (preparação e realização do plenário). Segunda opção [5490] seria aplicável se entendido como incidente processual genérico, mas [5528] é mais preciso.",
+ "id": "Q0133",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": "5490",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre cabibilidade e momento processual do desaforamento no Tribunal do Júri. O desaforamento é incidente específico do procedimento do júri, regido por normas próprias que estabelecem momento preciso para sua interposição, não \"a qualquer momento\". Tema: Procedimento do Tribunal do Júri (5524) — apropriado por ser procedimento especializado do júri. Segunda opção: incidentes processuais genéricos (5490), caso se entenda como incidente processual puro."
+ },
+ "uso": {
+  "in": 20,
+  "out": 3899,
+  "cache_w": 13649,
+  "cache_r": 12522,
+  "custo_usd": 0.056825200000000006
+ }
+}

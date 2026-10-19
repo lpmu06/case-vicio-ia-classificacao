@@ -77,26 +77,35 @@ def main():
     e2 = (k2 / n2) if n2 else None
     e2_ic = wilson(k2, n2) if n2 else None
 
-    # E3
+    # E3: a auditoria já embute o risco de convenção (cada "duvidoso" é uma convenção plausível diferente da nossa).
+    # Estimativa central: duvidoso = 1/3 de erro (avaliação do auditor); conservadora (limite inferior): 1/2.
+    # Dúvida só de subtema irmão não conta quando a questão foi publicada no tema de nível 1.
     aud_path = RAIZ / "data" / "auditoria_ia.csv"
-    e3 = e3_ic = None
-    k3 = n3 = 0.0
+    e3 = e3_cons = e3_ic = None
+    k3 = k3c = n3 = 0.0
     if aud_path.exists():
-        pub_ids = {d["id"] for d in pub}
+        pub_por_id = {d["id"]: d for d in pub}
         for r in csv.DictReader(aud_path.open(encoding="utf-8")):
-            if r["id"] in pub_ids and r["veredito"].strip():
-                n3 += 1
-                k3 += {"ok": 1.0, "duvidoso": 0.5, "erro": 0.0}[r["veredito"].strip()]
+            d = pub_por_id.get(r["id"])
+            if not d or not r["veredito"].strip():
+                continue
+            v = r["veredito"].strip()
+            if v == "duvidoso" and r.get("tipo_duvida") == "subtema" and d["nivel"] == 1:
+                v = "ok"
+            n3 += 1
+            k3 += {"ok": 1.0, "duvidoso": 2 / 3, "erro": 0.0}[v]
+            k3c += {"ok": 1.0, "duvidoso": 0.5, "erro": 0.0}[v]
         if n3:
-            e3 = k3 / n3
-            e3_ic = wilson(k3, n3)
+            e3, e3_cons = k3 / n3, k3c / n3
+            e3_ic = wilson(k3c, n3)
 
-    # combinação conservadora: ponto = menor estimativa disponível menos a margem de convenção;
-    # intervalo: limite inferior de Wilson da auditoria (ou da outra família) menos a margem; superior = E1.
-    pontos = [x for x in (e1, e2, e3) if x is not None]
-    ponto = min(pontos) - a.margem_convencao
-    inferiores = [x[0] for x in (e3_ic, e2_ic) if x]
-    lo = min(inferiores) - a.margem_convencao if inferiores else ponto - 0.05
+    # combinação conservadora: E1 e E2 não enxergam convenções do professor, então descontam a margem; E3 já a embute.
+    # ponto = menor estimativa; intervalo: inferior = menor limite inferior de Wilson (E2 com margem, E3 conservador),
+    # superior = E1 (independência).
+    pontos = [x - a.margem_convencao for x in (e1, e2) if x is not None] + ([e3] if e3 is not None else [])
+    ponto = min(pontos)
+    inferiores = ([e2_ic[0] - a.margem_convencao] if e2_ic else []) + ([e3_ic[0]] if e3_ic else [])
+    lo = min(inferiores) if inferiores else ponto - 0.05
     hi = min(e1 if e1 else 1.0, 1.0)
     lo = max(min(lo, ponto - 0.01), 0.0)
     hi = max(hi, ponto + 0.005)
@@ -108,8 +117,10 @@ def main():
            "E1_independencia": round(e1, 4) if e1 is not None else None,
            "E2_outra_familia": {"acertos": k2, "n": n2, "taxa": round(e2, 4) if e2 is not None else None,
                                 "wilson95": [round(x, 4) for x in e2_ic] if e2_ic else None},
-           "E3_auditoria": {"pontos": k3, "n": n3, "taxa": round(e3, 4) if e3 is not None else None,
-                            "wilson95": [round(x, 4) for x in e3_ic] if e3_ic else None},
+           "E3_auditoria": {"pontos_central": round(k3, 2), "pontos_conservador": k3c, "n": n3,
+                            "taxa": round(e3, 4) if e3 is not None else None,
+                            "taxa_conservadora": round(e3_cons, 4) if e3_cons is not None else None,
+                            "wilson95_conservador": [round(x, 4) for x in e3_ic] if e3_ic else None},
            "margem_convencao": a.margem_convencao, "taxa_subtema": round(taxa_sub, 4),
            "precisao_prevista": round(ponto, 3), "precisao_intervalo": [round(lo, 3), round(hi, 3)],
            "cobertura_prevista": round(cob, 3), "cobertura_intervalo": [round(cob, 3), round(cob_hi, 3)]}

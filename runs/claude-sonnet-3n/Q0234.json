@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4380",
+ "subtema_n2_id": "4381",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "4382",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa a interdisciplinaridade da Criminologia, exigindo reconhecer quais ciências auxiliares compõem seu objeto/método de estudo (biologia, psicologia, sociologia, estatística) em contraste com a hermenêutica dogmática, que é típica da Dogmática Jurídico-Penal e não integra o campo interdisciplinar da Criminologia. Isso se encaixa no conceito e delimitação do objeto/natureza da Criminologia como ciência empírica e interdisciplinar, correspondendo ao subtema 4381 (Conceito e objeto da Criminologia), dentro do tema de nível 1 4380 (Teoria Geral da Criminologia). Não há foco histórico em escolas ou autores específicos, o que afasta o tema 4371.",
+ "id": "Q0234",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C1",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata da interdisciplinaridade da criminologia e suas ciências auxiliares (biologia, psicologia, sociologia, estatística), tema clássico de conceitos gerais/fundamentos da criminologia, correspondente a Teoria Geral da Criminologia (grupo C1)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4380",
+  "segunda_opcao_n1_id": "4371",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecer o conceito e objeto da Criminologia como ciência interdisciplinar, testando quais ciências a auxiliam (biologia, psicologia, sociologia, estatística) versus a hermenêutica dogmática (típica da Dogmática Jurídico-Penal, não da Criminologia). Isso corresponde diretamente ao subtema \"Conceito e objeto da Criminologia\" dentro do tema de nível 1 Teoria Geral da Criminologia (4380)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1409,
+  "cache_w": 9857,
+  "cache_r": 11846,
+  "custo_usd": 0.0623642
+ }
+}

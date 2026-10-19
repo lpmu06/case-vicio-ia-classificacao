@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa diretamente o regime das medidas protetivas de urgência previsto nos arts. 18 a 24 da Lei 11.340/2006 (independência de ação penal/cível, prazo/prorrogação e concessão imediata sem audiência das partes, com comunicação ao MP). É matéria própria do tema \"Lei Maria da Penha\" (4704), que não possui subtemas cadastrados, mantendo-se a classificação do estágio anterior.",
+ "id": "Q0254",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE2",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre medidas protetivas de urgência da Lei nº 11.340/2006 (Lei Maria da Penha), testando conhecimento específico dessa legislação especial, não sendo propriamente matéria de comunicação de atos processuais do CPP."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata especificamente das medidas protetivas de urgência da Lei Maria da Penha (concessão independente de ação penal/cível, prazo e prorrogação, concessão imediata sem audiência das partes), testando conhecimento direto da Lei 11.340/2006, que se enquadra no tema \"Lei Maria da Penha\" (4704), não sendo questão de comunicação de atos processuais do CPP."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1353,
+  "cache_w": 8985,
+  "cache_r": 11846,
+  "custo_usd": 0.0578212
+ }
+}

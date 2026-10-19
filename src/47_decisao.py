@@ -49,11 +49,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--modo", choices=["hibrido", "n1"], default="hibrido")
     ap.add_argument("--min_frac", type=float, default=0.75)
-    ap.add_argument("--t_arb", type=float, default=0.80)
-    ap.add_argument("--t_sub", type=float, default=0.85)
+    ap.add_argument("--t_arb", type=float, default=0.90)
+    ap.add_argument("--t_sub", type=float, default=0.90)
     ap.add_argument("--min_sub", type=int, default=2, help="mínimo de votos (incluindo o árbitro) no mesmo subtema")
     ap.add_argument("--min_par", type=int, default=3, help="mínimo de questões para um par de ramos ser 'confundível'")
     ap.add_argument("--margem", type=float, default=0.02, help="margem de convenção descontada da confiança")
+    ap.add_argument("--votantes", default="claude-opus,claude-sonnet-h",
+                    help="rodadas completas que votam na decisão, além do árbitro (as melhores no experimento 2x2)")
     ap.add_argument("--saida", default=str(RAIZ / "publicacao.csv"))
     ap.add_argument("--saida_jsonl", default=str(RAIZ / "data" / "decisoes.jsonl"))
     a = ap.parse_args()
@@ -64,10 +66,11 @@ def main():
     rods = {r: carregar_rodada(r, A) for r in CLASSIFICADORES}
     # só rodadas completas entram na regra, para o critério ser o mesmo em todas as questões;
     # as parciais (amostra 2x2, GPT, Haiku) servem à comparação e às estimativas
-    parciais = [r for r, v in rods.items() if v and len(v) < len(qids)]
     todas = {r: v for r, v in rods.items() if v}
-    rods = {r: v for r, v in rods.items() if len(v) >= len(qids)}
-    print(f"rodadas na decisão: {list(rods)}; parciais ignoradas: {parciais}")
+    votantes = a.votantes.split(",")
+    rods = {r: v for r, v in rods.items() if r in votantes and len(v) >= len(qids)}
+    assert set(rods) == set(votantes), f"rodadas votantes incompletas: {set(votantes) - set(rods)}"
+    print(f"rodadas na decisão: {list(rods)} + árbitro; demais (só pares confundíveis e estimativas): {[r for r in todas if r not in rods]}")
     arb = carregar_rodada(ARBITRO, A)
     origem = carregar_origem()
     # pares confundíveis medidos com todas as rodadas (inclusive parciais) e o árbitro: é uma medida empírica de confusão

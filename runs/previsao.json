@@ -1,35 +1,40 @@
 {
- "publicadas": 205,
+ "publicadas": 219,
  "total": 359,
  "fora": 2,
- "revisar": 152,
- "publicadas_nivel2": 77,
- "E1_independencia": 0.9867,
+ "revisar": 138,
+ "publicadas_nivel2": 70,
+ "E1_independencia": 0.9887,
  "E2_outra_familia": {
-  "acertos": 37,
-  "n": 37,
+  "acertos": 39,
+  "n": 39,
   "taxa": 1.0,
   "wilson95": [
-   0.9059,
+   0.9103,
    1.0
   ]
  },
  "E3_auditoria": {
-  "pontos": 0.0,
-  "n": 0.0,
-  "taxa": null,
-  "wilson95": null
+  "pontos_central": 47.0,
+  "pontos_conservador": 46.5,
+  "n": 48.0,
+  "taxa": 0.9792,
+  "taxa_conservadora": 0.9688,
+  "wilson95_conservador": [
+   0.8753,
+   0.9928
+  ]
  },
  "margem_convencao": 0.02,
  "taxa_subtema": 0.9315,
- "precisao_prevista": 0.967,
+ "precisao_prevista": 0.969,
  "precisao_intervalo": [
-  0.886,
-  0.987
+  0.875,
+  0.989
  ],
- "cobertura_prevista": 0.571,
+ "cobertura_prevista": 0.61,
  "cobertura_intervalo": [
-  0.571,
-  0.574
+  0.61,
+  0.613
  ]
 }

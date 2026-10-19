@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5178",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata exatamente da hipótese do art. 16 do CP: crime consumado (furto qualificado, sem violência ou grave ameaça à pessoa), com restituição voluntária da coisa antes do recebimento da denúncia. Esse é o núcleo do arrependimento posterior, que integra o subtema \"Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior\" (5178), dentro do tema de nível 1 Iter Criminis (5175). As alternativas (D) e (E) são distratores de outros institutos (atenuante genérica e extinção da punibilidade), mas não alteram o eixo central da questão, que é a correta classificação entre os institutos do iter criminis. Mantenho Teoria da Pena (5199) apenas como segunda opção, pois o arrependimento posterior opera como causa de diminuição de pena na terceira fase da dosimetria, mas o enquadramento mais preciso e didático é o subtema específico de Iter Criminis.",
+ "id": "Q0243",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão testa a distinção clássica entre institutos ligados ao percurso do crime (desistência voluntária, arrependimento eficaz) e o arrependimento posterior (art. 16, CP) - reparação do dano antes do recebimento da denúncia em crime já consumado sem violência/grave ameaça. Esse conjunto de institutos é tradicionalmente estudado dentro do tema \"Iter Criminis\", pertencente ao grupo P2. Alternativamente, poderia ser enquadrado em Teoria da Pena (P3), já que o arrependimento posterior é causa de diminuição de pena, mas a questão é essencialmente comparativa entre os institutos típicos do iter criminis."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5175",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa a distinção entre desistência voluntária, arrependimento eficaz e arrependimento posterior (art. 16, CP) - reparação do dano/restituição da coisa antes do recebimento da denúncia, em crime consumado sem violência ou grave ameaça à pessoa. Esse é exatamente o conteúdo do subtema \"Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior\", dentro do tema de nível 1 \"Iter Criminis\" (5175), que abrange todo o percurso do crime e as causas que o interrompem ou mitigam sua pena. As alternativas (D) circunstância atenuante e (E) extinção de punibilidade são distratores que remetem a outros institutos (Teoria da Pena/Punibilidade), mas o eixo da questão é a classificação correta entre os institutos do iter criminis, reforçando a escolha por 5175. Mantenho Teoria da Pena (5199) como segunda opção por conta do caráter de causa de diminuição de pena do arrependimento posterior, mas o enquadramento primário e mais preciso é Iter Criminis."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2624,
+  "cache_w": 18566,
+  "cache_r": 14150,
+  "custo_usd": 0.116299
+ }
+}

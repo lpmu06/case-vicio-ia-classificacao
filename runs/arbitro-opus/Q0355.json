@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o julgamento do STF no Tema 506 (RE 635.659) sobre o art. 28 da Lei 11.343/2006: a posse de maconha para consumo pessoal passou a ser ilícito administrativo e não penal, com o critério dos 40g ou seis plantas fêmeas e a aplicação apenas das sanções dos incisos I e III. Todas as alternativas têm esse ponto em comum, inclusive as que mencionam ANPP e abuso de autoridade, que aparecem apenas como reflexos do julgado. Descartei Concurso de Crimes, que veio do assunto de origem e não tem relação com o que é cobrado.",
+ "id": "Q0355",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4708",
+  "5066"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 921,
+  "cache_w": 5952,
+  "cache_r": 14086,
+  "custo_usd": 0.0732612
+ }
+}

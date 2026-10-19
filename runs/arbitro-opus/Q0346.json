@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "5583",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5580",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as proposições tratam do assistente de acusação: irrecorribilidade da decisão que o admite (art. 273 do CPP), legitimidade para requerer a prisão preventiva (art. 311), legitimidade para pedir o desaforamento (art. 427), intervenção de órgãos de defesa do consumidor (art. 80 do CDC) e momento de ingresso (art. 268). O gabarito é a alternativa E. O tema de origem 5580 foi descartado porque a menção ao sistema acusatório na proposição I é só cenário. O eixo comum de todas as proposições é o papel e os poderes de um sujeito processual, por isso a questão fica em 5583, tema que não tem subtemas.",
+ "id": "Q0346",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5583",
+  "5580"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 666,
+  "cache_w": 5773,
+  "cache_r": 16390,
+  "custo_usd": 0.066515
+ }
+}

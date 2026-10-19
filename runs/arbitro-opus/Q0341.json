@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5166",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão faz um panorama dos crimes contra o patrimônio, com uma alternativa para cada delito. Os pontos cobrados são: ação penal privada no dano por motivo egoístico (art. 167), exigência de que o agente conheça o transporte de valores no roubo, a Súmula 442 do STJ no furto, a duplicata simulada como crime formal (art. 172, que é a alternativa correta) e o perdão judicial, cabível apenas na receptação culposa. Como cobre vários subtemas sem predominar nenhum, fica no tema de nível 1; Concurso de Crimes (5066), o assunto de origem, foi descartado porque nenhuma alternativa trata de pluralidade de crimes.",
+ "id": "Q0341",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5157",
+  "5066"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 893,
+  "cache_w": 12973,
+  "cache_r": 16390,
+  "custo_usd": 0.13439399999999999
+ }
+}

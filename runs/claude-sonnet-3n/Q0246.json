@@ -1,0 +1,38 @@
+{
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5527",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5529",
+ "extras_ids": [],
+ "multi_tema": false,
+ "fora": false,
+ "justificativa": "A questão trata da decisão a ser proferida pelo juiz ao final da instrução preliminar (sumário de culpa) do rito do júri quando constatada a semi-imputabilidade do acusado. A semi-imputabilidade não afasta os indícios de autoria nem a materialidade, não configura hipótese de absolvição sumária (que exige inimputabilidade plena combinada com inexistência de outra tese defensiva, art. 415, parágrafo único, CPP) nem de impronúncia; o juiz deve pronunciar o acusado, cabendo aos jurados e, na dosimetria, ao juiz-presidente considerar a semi-imputabilidade como causa de diminuição de pena. Isso é matéria típica do subtema 5527 (Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia), que trata exatamente dos requisitos e distinções entre essas decisões de encerramento da primeira fase do júri. Mantém-se o tema de nível 1 5524 (Procedimento do Tribunal do Júri), pois o enunciado é expresso quanto ao \"sumário de culpa\" do júri, afastando o procedimento ordinário comum (5530), que não trata dessas quatro decisões típicas da pronúncia.",
+ "id": "Q0246",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP6",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata da decisão do juiz ao final da instrução preliminar (sumário de culpa) do rito do júri quando constatada semi-imputabilidade do acusado, exigindo conhecimento específico sobre a fase de pronúncia do Procedimento do Tribunal do Júri (a semi-imputabilidade não afasta a decisão de pronúncia, pois a aferição da pena/medida de segurança cabe ao próprio júri ou ao juiz na sentença). Tema de nível 1 adequado: Procedimentos (PP6), subtema Procedimento do Tribunal do Júri."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": "5530",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata da decisão do juiz ao final da instrução preliminar (sumário de culpa) do rito do júri diante de semi-imputabilidade do acusado, tema diretamente ligado à pronúncia/impronúncia/absolvição sumária do procedimento especial do Tribunal do Júri (tema 5524), não ao procedimento ordinário comum."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1743,
+  "cache_w": 15599,
+  "cache_r": 14150,
+  "custo_usd": 0.093296
+ }
+}

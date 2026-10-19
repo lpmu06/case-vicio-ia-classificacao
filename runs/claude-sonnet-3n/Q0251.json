@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5185",
+ "extras_ids": [
+  "5193"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão combina três assertivas que tratam de institutos distintos dentro da extinção da punibilidade: (I) taxatividade do rol do art. 107 do CP — regra geral sobre punibilidade; (II) distinção conceitual entre anistia (fatos) e indulto/graça (pessoas) — tema específico de Anistia, Graça e Indulto (5193); (III) definição genérica de prescrição como perda do direito de punir pelo decurso do tempo, sem explorar prazos, marcos ou causas suspensivas/interruptivas, o que a mantém no nível conceitual básico (mais próximo de 5191/5186 do que de um subtema técnico de Prescrição). Como não há um subtema único de nível 2 que abranja as três assertivas simultaneamente (cada uma pertence a um subtema diferente dentro de Punibilidade), o enquadramento correto é o tema de nível 1 \"Punibilidade\" (5191), sem subtema específico, confirmando a classificação do estágio anterior. Marco multi_tema=true porque cada assertiva testa um instituto diferente sob o mesmo guarda-chuva. A prescrição (5185) permanece como segunda opção plausível por força do item III, e Anistia/Graça/Indulto (5193) como extra relevante pelo item II.",
+ "id": "Q0251",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente das causas de extinção da punibilidade (art. 107 CP, anistia, indulto, prescrição), tema central \"Punibilidade\" (e correlato \"Prescrição\"), ambos no grupo P3 (parte geral: pena, medida de segurança, punibilidade, prescrição e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5191",
+  "segunda_opcao_n1_id": "5185",
+  "confianca_ramo": 0.75,
+  "multi_tema": true,
+  "justificativa": "A questão aborda o rol geral das causas de extinção da punibilidade do art. 107 CP (taxatividade), a distinção entre anistia e indulto (subtema de Punibilidade) e, de forma genérica, a prescrição como perda do direito de punir pelo decurso do tempo. O eixo comum é o tema \"Punibilidade\" (extinção da punibilidade em geral), já que o item sobre prescrição é tratado apenas em sua definição básica, sem explorar prazos, marcos ou causas suspensivas/interruptivas (que caracterizariam o tema específico \"Prescrição\"). Por isso, classifico em Punibilidade (5191), com Prescrição (5185) como segunda opção plausível dado que um dos itens trata exatamente desse instituto."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2273,
+  "cache_w": 14427,
+  "cache_r": 11846,
+  "custo_usd": 0.09323619999999999
+ }
+}

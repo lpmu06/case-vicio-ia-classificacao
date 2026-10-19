@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5100",
+ "extras_ids": [
+  "5092",
+  "5093",
+  "5091"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão exige correlacionar cinco tipos penais distintos (desobediência, resistência, corrupção passiva, corrupção ativa e concussão) com suas respectivas condutas típicas. Todos são crimes do Título XI do CP cobertos pelo tema 5087, confirmando a classificação de nível 1 com alta confiança. Entretanto, não há um subtema único aplicável: desobediência/resistência pertencem a 5100, corrupção passiva a 5092, corrupção ativa a 5093 e concussão a 5091 - cada alternativa versa sobre um instituto diferente, sem eixo comum de subtema. Por isso, subtema_n2_id = null e multi_tema = true, mantendo-se o tema de nível 1 (5087) como classificação segura, já que o aluno que estuda esse tema tem acesso a todos os subtemas envolvidos. A segunda opção 5079 (Administração Judicial) foi descartada por não guardar relação direta com nenhum dos cinco tipos cobrados (nenhum deles protege a função jurisdicional); optei por listar os subtemas específicos envolvidos como extras_ids, e indiquei 5100 como segunda opção residual por reunir dois dos cinco tipos (desobediência e resistência).",
+ "id": "Q0248",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": true,
+  "justificativa": "A questão correlaciona vários crimes contra a Administração Pública (desobediência, resistência, corrupção passiva, corrupção ativa, concussão), todos abrangidos pelo tema \"Dos Crimes Contra a Administração Pública\", pertencente ao grupo P8."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5079",
+  "confianca_ramo": 0.98,
+  "multi_tema": true,
+  "justificativa": "A questão correlaciona desobediência, resistência, corrupção passiva, corrupção ativa e concussão - todos tipos penais do Título XI (Crimes Contra a Administração Pública), cobertos pelo tema 5087, que inclusive lista esses subtemas específicos (Corrupção Ativa, Corrupção Passiva, Concussão, Resistência/Desobediência/Desacato). Não há eixo único (são 5 tipos diferentes), por isso multi_tema=true, mas todos pertencem ao mesmo tema de nível 1 (5087), tornando a classificação segura. Segunda opção 5079 (Administração Judicial) é menos provável, mas mantida como alternativa residual por tratar também de crimes contra a Administração."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1793,
+  "cache_w": 20082,
+  "cache_r": 14150,
+  "custo_usd": 0.11516
+ }
+}

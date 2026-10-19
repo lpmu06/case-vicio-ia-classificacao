@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "4684",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra três aspectos da Lei 13.869/2019: o elemento subjetivo especial (art. 1º, §1º), a ressalva da divergência interpretativa (art. 1º, §2º) e a natureza da ação penal, que é sempre pública incondicionada (art. 3º). Por isso o gabarito é D (V-V-F). O candidato Concurso de Crimes (5066), sugerido pelo assunto de origem, não tem relação com o conteúdo, e o eixo comum da questão é exclusivamente a Lei de Abuso de Autoridade.",
+ "id": "Q0337",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5066",
+  "4684"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 558,
+  "cache_w": 6349,
+  "cache_r": 16390,
+  "custo_usd": 0.069393
+ }
+}

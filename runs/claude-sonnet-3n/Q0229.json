@@ -1,0 +1,43 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5584",
+ "extras_ids": [
+  "5519",
+  "5520",
+  "5586",
+  "5585"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é claramente multi-tema: cada alternativa versa sobre um instituto diferente ligado à prisão no processo penal. (A) recaptura de evadido e (B) cumprimento noturno de mandado com consentimento são típicos de teoria geral das prisões (5584, possivelmente subtemas 5585/conceitos ou mesmo fora de qualquer subtema específico); (D) prisão especial cessando com o trânsito em julgado é tema de imunidades/prisões especiais (5586, subtema de 5584); (C), que é o gabarito (alternativa incorreta, pois inclui \"clamor público\" fora do rol do art. 312 CPP), trata de hipóteses legais de prisão preventiva (5519, subtema de 5517); e (E) versa sobre vedação de decretação de ofício e prazo de decisão da prisão temporária (5520, subtema de 5517). Como o ponto que define o gabarito (alternativa C, sobre requisitos da preventiva) é o núcleo mais \"testável\" da questão e pertence às prisões em espécie, mantenho 5517 como tema principal, mas reconheço que as demais alternativas (A, B, D) pertencem majoritariamente à teoria geral das prisões (5584), por isso mantenho essa como segunda opção forte e marco multi_tema = true. Não atribuo subtema de nível 2, pois nenhum subtema isolado cobre todo o conjunto de alternativas da questão — ela transita entre pelo menos quatro subtemas diferentes (conceitos gerais, imunidades/prisão especial, preventiva e temporária), o que tornaria qualquer escolha de subtema um risco de classificação em \"tema irmão errado\" para parte do conteúdo.",
+ "id": "Q0229",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP5",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": true,
+  "justificativa": "A questão aborda diversos aspectos das prisões no processo penal (recaptura, cumprimento de mandado, hipóteses de preventiva, prisão especial e prisão temporária), todos enquadrados no grupo PP5 - Prisões e medidas cautelares, que cobre Teoria Geral das Prisões e Prisões em Espécie. Não trata de lei processual no tempo/espaço (pista de origem equivocada)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5517",
+  "segunda_opcao_n1_id": "5584",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos de teoria geral das prisões (recaptura de evadido, cumprimento noturno de mandado com consentimento do morador, prisão especial/imunidades) com prisões em espécie (hipóteses de preventiva - alternativa C, que é a incorreta por incluir \"clamor público\", não previsto no art. 312 CPP; e prazo/decretação da prisão temporária - alternativa E). Como o gabarito (alternativa incorreta) recai sobre as hipóteses legais de prisão preventiva, instituto que pertence ao subtema \"Prisão Preventiva\" dentro do tema 5517 (Prisões em Espécie), opto por esse tema como principal, mas a questão também aborda fortemente conteúdo típico de 5584 (Teoria Geral das Prisões - recaptura, cumprimento de mandado, prisão especial), por isso marco como multi-tema com 5584 como segunda opção plausível."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3403,
+  "cache_w": 16111,
+  "cache_r": 14150,
+  "custo_usd": 0.112322
+ }
+}

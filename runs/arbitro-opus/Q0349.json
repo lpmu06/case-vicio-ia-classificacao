@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5178",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O item cobra o arrependimento posterior (art. 16 do CP). A redução de um a dois terços só vale para crimes cometidos sem violência ou grave ameaça à pessoa, por isso não alcança o roubo com grave ameaça e a assertiva está correta. Descartei Concurso de Crimes porque o assunto de origem só repete o enunciado genérico do bloco: o item não tem pluralidade de crimes.",
+ "id": "Q0349",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5066",
+  "5175"
+ ],
+ "candidatos_subtemas": [
+  "5178"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 481,
+  "cache_w": 8301,
+  "cache_r": 16390,
+  "custo_usd": 0.084967
+ }
+}

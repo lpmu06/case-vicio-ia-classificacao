@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5177",
+ "confianca_ramo": 0.7,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5160",
+ "extras_ids": [
+  "5149"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão multi-tema que testa tanto a distinção entre homicídio tentado e consumado (Iter Criminis > Crime Consumado e Tentado) quanto a qualificação de latrocínio versus roubo (Crimes contra o Patrimônio > Roubo). O fulcro central é determinar que Caio cometeu homicídio TENTADO — porque não matou (Túlio foi morto pelos golpes de Lívio, não pelos disparos) — e que Lívio cometeu LATROCÍNIO (roubo com resultado morte). Escolhido Iter Criminis como tema primário porque a distinção entre tentativa (início de execução + não consumação por circunstâncias alheias) é o ponto crucial que estrutura toda a análise. Confiança no ramo (0.70) reflete o caráter multi-tema; confiança alta no subtema 5177 (0.90) porque a questão é especificamente sobre consumação vs tentativa, exatamente o conteúdo deste subtema.",
+ "id": "Q0159",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5175",
+  "segunda_opcao_n1_id": "5157",
+  "confianca_ramo": 0.7,
+  "multi_tema": true,
+  "justificativa": "Questão multi-tema que testa tanto a distinção entre homicídio tentado e consumado (Iter Criminis) quanto a qualificação de latrocínio versus roubo (Crimes contra o Patrimônio). O fulcro central é determinar que Caio cometeu homicídio TENTADO (porque não matou—Túlio foi morto pelos golpes de Lívio) e que Lívio cometeu LATROCÍNIO (roubo com resultado morte). Escolhido Iter Criminis como tema primário porque a distinção entre tentativa e consumação é o ponto crucial que estrutura toda a análise. Confiança moderada (0.70) justifica-se pelo caráter claramente multi-tema da questão, sem um eixo único dominante."
+ },
+ "uso": {
+  "in": 20,
+  "out": 14316,
+  "cache_w": 13731,
+  "cache_r": 12522,
+  "custo_usd": 0.1114682
+ }
+}

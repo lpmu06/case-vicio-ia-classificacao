@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "4688",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5063",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra dispositivos específicos da Lei 9.605/1998. Quatro das cinco alternativas tratam da destinação de animais, produtos e instrumentos apreendidos (art. 25). A alternativa E trata da ação penal pública incondicionada (art. 26). O gabarito é a alternativa D, sobre a venda dos instrumentos com descaracterização por reciclagem. Descartei Penal > Ação Penal (5063), porque o tema de ação penal aparece só em uma alternativa e, mesmo nela, como regra própria da lei ambiental.",
+ "id": "Q0344",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4688",
+  "5063"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 732,
+  "cache_w": 5632,
+  "cache_r": 16390,
+  "custo_usd": 0.066674
+ }
+}

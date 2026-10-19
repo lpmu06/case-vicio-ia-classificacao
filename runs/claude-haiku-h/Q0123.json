@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": "4378",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "4368",
+ "extras_ids": [
+  "4379"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão sobre processos de criminalização e seletividade penal no sistema penal brasileiro. A assertiva I trata explicitamente de labeling approach e criminalização secundária (como as agências de controle determinam concretamente quem será criminalizado). As assertivas III e IV tratam de seletividade racial, que é manifestação de criminalização secundária desigual. O tema central é \"como determinadas condutas e pessoas passam a ser definidas e tratadas como criminosas\" (exatamente 4377), especificamente através de processos de criminalização secundária (4378). A análise anterior focava em 4368 (Estado Democrático / limites constitucionais), mas o assunto testado não é resposta estatal ao delito ou prevenção, e sim seleção penal e diferencial application da lei. Subtema 4378 é o melhor fit por causa da assertiva I (labeling) e da ênfase em criminalização secundária. 4379 (Cifras Criminais) é secundariamente relevante pelo aspecto estatístico, mas não é o eixo principal.",
+ "id": "Q0123",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4368",
+  "segunda_opcao_n1_id": "4377",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "Questão sobre funcionamento do sistema penal brasileiro sob perspectiva criminológica: labeling approach, cifras criminais, seletividade racial e racismo institucional. O eixo é a relação entre criminologia, controle social desigual e garantias fundamentais no Estado Democrático de Direito. Embora toque em institutos processuais (prisão em flagrante), contextualiza-os criminologicamente. Classificada em 4368 por ser o tema mais abrangente; 4377 seria alternativa válida pela ênfase em cifras e criminalização."
+ },
+ "uso": {
+  "in": 20,
+  "out": 9742,
+  "cache_w": 10578,
+  "cache_r": 12522,
+  "custo_usd": 0.0768302
+ }
+}

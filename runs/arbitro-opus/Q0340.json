@@ -1,0 +1,31 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5072",
+ "extras_ids": [
+  "5074",
+  "5076"
+ ],
+ "multi_tema": false,
+ "justificativa": "Toda a questão gira em torno da teoria geral do concurso de pessoas. A alternativa correta é a C, sobre a agravante do art. 62, III, do CP. A D está errada porque a redução por participação de menor importância é de 1/6 a 1/3, e não de 1/6 a 2/3. A E erra ao dizer que as elementares não se comunicam, contrariando o art. 30. As alternativas misturam vários subtemas: participação por omissão e participação de menor importância (Participação), comunicabilidade (art. 30) e agravantes do autor (Autores e Partícipes). Por isso, a classificação fica no tema de nível 1, sem subtema, e não no 5072 sugerido.",
+ "id": "Q0340",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5071"
+ ],
+ "candidatos_subtemas": [
+  "5072"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 712,
+  "cache_w": 5829,
+  "cache_r": 16390,
+  "custo_usd": 0.067842
+ }
+}

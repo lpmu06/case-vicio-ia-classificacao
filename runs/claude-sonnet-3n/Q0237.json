@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5178",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5177",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta diretamente a diferença entre desistência voluntária e arrependimento eficaz - resposta correta é a alternativa (A), que descreve exatamente esses dois institutos (desistência de prosseguir nos atos executórios vs. interferência ativa para evitar o resultado após esgotados os atos executórios). Isso corresponde precisamente ao subtema 5178 \"Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior\" dentro do tema 5175 \"Iter Criminis\". Não há ambiguidade quanto ao instituto testado.",
+ "id": "Q0237",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata da diferença entre desistência voluntária e arrependimento eficaz, institutos do Iter Criminis, que pertence ao grupo P2 (Parte geral: teoria do crime, incluindo Iter Criminis)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5175",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão pergunta diretamente a diferença entre desistência voluntária e arrependimento eficaz, que é exatamente o subtema \"Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior\" do tema de nível 1 \"Iter Criminis\" (5175). Não há dúvida quanto ao instituto testado, tratando-se de classificação precisa e não multi-tema."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1234,
+  "cache_w": 12094,
+  "cache_r": 14150,
+  "custo_usd": 0.071279
+ }
+}

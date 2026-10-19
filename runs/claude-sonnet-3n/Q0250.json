@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5201",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata exclusivamente da fixação do regime inicial de cumprimento de pena privativa de liberdade: influência da primeira fase da dosimetria sobre o regime, regime para pena de detenção, posição do STJ sobre reincidência e regime semiaberto, e regime para crimes de extorsão mediante sequestro e roubo (violência/grave ameaça). Todas as alternativas giram em torno do art. 33 do CP e jurisprudência correlata (Súmulas 269 e 718/719 STF, entendimentos do STJ), o que se encaixa precisamente no subtema \"Penas Privativas de Liberdade\" (5201), dentro do tema guarda-chuva Teoria da Pena (5199). Não há relação com dosimetria em fases isoladas (5202-5204), substituição por restritivas (5205) ou sursis/livramento (5207/5208), confirmando a classificação.",
+ "id": "Q0250",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata da determinação do regime inicial de cumprimento de pena (regime aberto/semiaberto, reincidência, Súmulas do STJ), tema clássico de Teoria da Pena, dentro do grupo P3 (Parte geral: pena, medida de segurança, punibilidade, prescrição e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a fixação do regime inicial de cumprimento de pena privativa de liberdade (regime aberto/semiaberto, influência da reincidência, entendimento do STJ, crimes violentos), tema que se insere no subtema \"Penas Privativas de Liberdade\", pertencente ao tema guarda-chuva Teoria da Pena (5199), dentro do grupo P3. Não há segunda opção plausível, pois o foco é exclusivamente a dosimetria/execução da pena privativa de liberdade, não se relacionando com punibilidade, prescrição, medida de segurança ou ação penal."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1561,
+  "cache_w": 14625,
+  "cache_r": 14150,
+  "custo_usd": 0.086835
+ }
+}

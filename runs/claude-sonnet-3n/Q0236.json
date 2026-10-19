@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5509",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5490",
+ "extras_ids": [
+  "5497"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão combina quatro institutos heterogêneos: (I) questão prejudicial heterogênea e suspensão do processo, (II) restituição de coisas apreendidas, (III) valor probatório do inquérito policial (teoria geral das provas) e (IV) direito de presença do acusado como nulidade absoluta. O gabarito mais provável é (C) III e IV, pois I contém erro técnico (a suspensão da prejudicial heterogênea facultativa não é obrigatória — art. 93 CPP fala em \"poderá\") e II também contém erro (art. 120, §1º, CPP permite restituição pela autoridade policial quando não houver dúvida sobre o direito do reclamante e os bens não interessarem mais à prova). Já III reflete a jurisprudência do STF/STJ sobre a insuficiência do inquérito como prova exclusiva de condenação, e IV reproduz o entendimento sobre o direito de presença do acusado na instrução como nulidade absoluta (tema expressamente coberto em 5509 - Nulidades, subtema Nulidade Absoluta e Relativa). Como os itens corretos do gabarito (III e IV) gravitam em torno de prova e nulidade, e dentre as duas opções apresentadas a que mais diretamente comporta o núcleo decisivo (item IV, que é expressamente sobre nulidade absoluta) é Nulidades (5509), mantenho esse tema como principal. A segunda opção permanece Questões e Processos Incidentes (5490), pois os itens I e II (ainda que incorretos no gabarito) pertencem tecnicamente a esse tema (Questões Prejudiciais - 5491, e Restituição de Coisas Apreendidas - 5495). Não atribuo subtema de nível 2 em 5509 porque a questão não se restringe a uma única hipótese do regime de nulidades (mistura prova e nulidade absoluta), e a natureza multi-tema reduz a confiança de que o aluno que buscasse exclusivamente \"Nulidade Absoluta e Relativa\" encontraria cobertura adequada ao item III. Mantida confiança moderada em razão da dispersão temática da questão.",
+ "id": "Q0236",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP3",
+  "segundo_grupo_id": "PP7",
+  "confianca": 0.4,
+  "multi_tema": true,
+  "justificativa": "A questão combina quatro assertivas sobre temas distintos de Processo Penal: questão prejudicial heterogênea e restituição de bens apreendidos (ambos institutos de \"Questões e Processos Incidentes\"), valor probatório do inquérito policial (Teoria Geral das Provas) e direito de presença do acusado (Nulidades). Não há um único eixo temático; os itens I e II concentram-se em processos incidentes, por isso esse grupo foi escolhido como principal, com Nulidades/Sentença como segundo grupo mais relevante. Confiança reduzida pela natureza multi-tema da questão."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5509",
+  "segunda_opcao_n1_id": "5490",
+  "confianca_ramo": 0.45,
+  "multi_tema": true,
+  "justificativa": "A questão reúne quatro institutos distintos: (I) questão prejudicial heterogênea, (II) restituição de coisas apreendidas, (III) valor probatório do inquérito policial e (IV) direito de presença do acusado. Analisando o gabarito mais provável, os itens corretos são III e IV (entendimento do STF sobre inquérito como prova exclusiva e direito de presença do réu como nulidade absoluta), enquanto I e II contêm erros técnicos (suspensão é facultativa, não obrigatória; e a autoridade policial pode, em hipóteses do art. 120 CPP, restituir bens). Como o eixo decisivo da resposta correta recai sobre nulidades (item IV, direito de presença/nulidade absoluta) e teoria das provas (item III, inquérito policial), e dentre os dois grupos oferecidos o que melhor abriga esse núcleo é o de Sentença e Nulidades (via o tema Nulidades, por tratar expressamente do direito de presença como nulidade absoluta), optei por esse grupo como principal. Mantenho como segunda opção o grupo de Questões e Processos Incidentes, pois os itens I e II (prejudicial heterogênea e restituição de bens) pertencem a esse tema, ainda que sejam as assertivas incorretas no gabarito. Confiança reduzida pela natureza claramente multi-tema da questão e pela ausência de um tema que cubra adequadamente o item III (teoria geral das provas) entre as opções apresentadas."
+ },
+ "uso": {
+  "in": 6,
+  "out": 4371,
+  "cache_w": 15963,
+  "cache_r": 14150,
+  "custo_usd": 0.12145299999999999
+ }
+}

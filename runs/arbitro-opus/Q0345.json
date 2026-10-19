@@ -1,0 +1,31 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": "5103",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5110",
+ "extras_ids": [
+  "5110",
+  "5199"
+ ],
+ "multi_tema": false,
+ "justificativa": "O eixo principal da questão é enquadrar no tipo penal a conduta de praticar ato libidinoso diverso da conjunção carnal com menor de 14 anos. Isso configura estupro de vulnerável consumado (art. 217-A), e não importunação sexual nem tentativa, o que aponta para o subtema 5103. A segunda parte cobra se a agravante do art. 61, II, f, pode incidir junto com a majorante do art. 226, II, segundo o STJ. Ela toca as disposições gerais do Título VI (5110) e a dosimetria (5199), por isso a confiança no subtema fica moderada.",
+ "id": "Q0345",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5102"
+ ],
+ "candidatos_subtemas": [
+  "5103"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 802,
+  "cache_w": 8586,
+  "cache_r": 16390,
+  "custo_usd": 0.09383
+ }
+}

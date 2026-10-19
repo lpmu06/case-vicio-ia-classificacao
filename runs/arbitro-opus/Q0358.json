@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5128",
+ "subtema_n2_id": "5133",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o crime de invasão de dispositivo informático. Ele está no art. 154-A do CP, inserido pela Lei 12.737/2012 e alterado pela Lei 14.155/2021. A qualificadora por obtenção de conteúdo sigiloso e o aumento por divulgação ou comercialização também estão nesse artigo, que pertence à seção dos crimes contra a inviolabilidade dos segredos (subtema 5133). Mencionar a LAI e o Marco Civil é só o pano de fundo do enunciado: não há tema de legislação especial sobre isso, e o instituto cobrado é o tipo penal do CP. Observação para o gabarito: desde a Lei 14.155/2021, o tipo não exige mais 'violação indevida de mecanismo de segurança', o que pode afetar se o item é certo ou errado hoje.",
+ "id": "Q0358",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5128"
+ ],
+ "candidatos_subtemas": [
+  "5133"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 703,
+  "cache_w": 6400,
+  "cache_r": 16390,
+  "custo_usd": 0.072693
+ }
+}

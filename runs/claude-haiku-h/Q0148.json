@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5203",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": null,
+ "extras_ids": [
+  "5202"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão sobre compensação entre agravante (reincidência) e atenuante (confissão espontânea) na segunda fase da dosimetria da pena, conforme jurisprudência consolidada. Trata-se de aplicação prática de direito penal material sobre o cálculo da pena em fase específica (segunda). O subtema 5203 é exato, pois a questão envolve exclusivamente agravantes e atenuantes legais (arts. 61 e 65 CP) e sua interação. Menção a \"pena-base\" é contextual (referência à primeira fase), mas o foco é segunda fase e compensação entre circunstâncias legais.",
+ "id": "Q0148",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "Questão sobre dosimetria da pena, especificamente sobre a compensação entre agravante (reincidência) e atenuante (confissão espontânea) na segunda fase da dosimetria, conforme jurisprudência do STF. Trata-se de aplicação prática de Direito Penal material sobre consequência da condenação (pena), pertencendo inequivocamente ao tema \"Teoria da Pena\" (5199). Não envolve processo penal ou procedimento."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4880,
+  "cache_w": 12939,
+  "cache_r": 12522,
+  "custo_usd": 0.0596202
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5583",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata exclusivamente das hipóteses de impedimento do juiz previstas nos arts. 252 e 253 do CPP (funções exercidas por parentes do juiz no processo, atuação em instância anterior, interesse direto, parentesco entre juízes em juízos coletivos). O núcleo da questão é a condição subjetiva do juiz que o impede de exercer jurisdição naquele processo específico - matéria relativa aos sujeitos processuais (figura do juiz), não um critério de fixação de competência (território, matéria, prerrogativa de função etc.) nem a disciplina da exceção processual de impedimento como incidente. Conforme a própria descrição do tema 5583, \"se a questão cobrar apenas a condição subjetiva do juiz... é 5583\", o que se verifica aqui, já que a questão apenas enuncia as hipóteses legais de impedimento, sem versar sobre o procedimento da exceção. Mantenho a classificação em Sujeitos do Processo (5583), sem subtema, pois esse tema não possui subtemas de nível 2. A competência (5480) permanece como segunda opção plausível por ser onde o CPP topologicamente insere o capítulo das exceções, mas o eixo material da questão é o impedimento do juiz em si.",
+ "id": "Q0249",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP1",
+  "segundo_grupo_id": "PP3",
+  "confianca": 0.6,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre as hipóteses de impedimento do juiz (art. 252 do CPP) e a vedação de parentesco entre juízes em juízos coletivos, matéria relativa aos sujeitos do processo (figura do juiz e seus impedimentos), e não propriamente sobre critérios de competência jurisdicional. Por isso enquadra-se melhor em PP1 (Sujeitos do Processo), com possibilidade de também ser tratada em PP3, já que o CPP disciplina o tema no capítulo de Competência."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5583",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão trata das hipóteses de impedimento do juiz (art. 252 do CPP), incluindo a vedação de parentesco entre juízes em juízos coletivos (art. 253, CPP). O eixo da questão é a figura do juiz e as situações que o impedem de exercer jurisdição naquele processo — matéria relativa aos sujeitos processuais, cabendo em \"Sujeitos do Processo\" (PP1-5583). Alternativamente, como o CPP trata o tema no capítulo \"Da Competência\" e há subtema específico de \"Exceção de Suspeição, de Impedimento ou de Incompatibilidade\" dentro de \"Questões e Processos Incidentes\" (PP3-5490), esta é uma segunda opção plausível, já que impedimento é tecnicamente arguido via exceção incidental regulada nesse capítulo. Mantenho a mesma classificação adotada no estágio anterior por entender que o conteúdo nuclear (quem é o juiz, quando não pode atuar) é mais afeto aos sujeitos processuais do que propriamente a critérios de fixação de competência."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2092,
+  "cache_w": 13623,
+  "cache_r": 14150,
+  "custo_usd": 0.087318
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5093",
+ "extras_ids": [
+  "5180"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão gira em torno da corrupção ativa em transação comercial internacional (art. 337-B do CP). Esse crime está no Capítulo II-A do Título XI, entre os crimes praticados por particular contra a administração pública estrangeira, e por isso fica no tema 5087. As alternativas tratam de pontos ligados a esse mesmo crime: verbos do tipo, ato de ofício, extraterritorialidade (art. 7º do CP) e termo inicial da prescrição. Deixei o subtema em branco porque o subtema Corrupção Ativa (5093) trata do art. 333, um crime diferente, e nenhum subtema cobre exatamente o art. 337-B; Lei Penal no Espaço (5180) entra apenas como tema acessório da alternativa C.",
+ "id": "Q0348",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5087"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 970,
+  "cache_w": 8959,
+  "cache_r": 14086,
+  "custo_usd": 0.1005342
+ }
+}

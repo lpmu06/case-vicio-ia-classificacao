@@ -13,30 +13,33 @@ import tempfile
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[1]
-GRADE = {"t_arb": [0.7, 0.8, 0.9], "min_frac": [0.67, 0.75, 1.0], "modo": ["hibrido", "n1"]}
+GRADE = {"t_arb": [0.8, 0.85, 0.9, 0.95], "t_sub": [0.85, 0.9], "modo": ["hibrido", "n1"]}
 
 
 def main():
     tmp = Path(tempfile.mkdtemp())
     linhas = []
-    for t_arb, min_frac, modo in itertools.product(GRADE["t_arb"], GRADE["min_frac"], GRADE["modo"]):
+    for t_arb, t_sub, modo in itertools.product(GRADE["t_arb"], GRADE["t_sub"], GRADE["modo"]):
+        if modo == "n1" and t_sub != GRADE["t_sub"][0]:
+            continue
         dec, csvp, js = tmp / "d.jsonl", tmp / "p.csv", tmp / "prev.json"
-        subprocess.run([sys.executable, str(RAIZ / "src" / "47_decisao.py"), "--t_arb", str(t_arb), "--min_frac", str(min_frac),
+        subprocess.run([sys.executable, str(RAIZ / "src" / "47_decisao.py"), "--t_arb", str(t_arb), "--t_sub", str(t_sub),
                         "--modo", modo, "--saida", str(csvp), "--saida_jsonl", str(dec)], check=True, capture_output=True)
         subprocess.run([sys.executable, str(RAIZ / "src" / "60_previsao.py"), "--decisoes", str(dec), "--saida_json", str(js)],
                        check=True, capture_output=True)
         r = json.loads(js.read_text(encoding="utf-8"))
-        linhas.append({"t_arb": t_arb, "min_frac": min_frac, "modo": modo, "publicadas": r["publicadas"], "cobertura": r["cobertura_prevista"],
+        linhas.append({"t_arb": t_arb, "t_sub": t_sub if modo == "hibrido" else None, "modo": modo, "publicadas": r["publicadas"], "cobertura": r["cobertura_prevista"],
                        "nivel2": r["publicadas_nivel2"], "E1": r["E1_independencia"], "E2": r["E2_outra_familia"]["taxa"],
-                       "E2_n": r["E2_outra_familia"]["n"]})
+                       "E2_n": r["E2_outra_familia"]["n"], "E3": r["E3_auditoria"]["taxa"], "E3_n": r["E3_auditoria"]["n"],
+                       "prev": r["precisao_prevista"], "prev_ic": r["precisao_intervalo"]})
         print(linhas[-1], flush=True)
     md = ["# Sensibilidade da regra de decisão\n", "Gerado por `src/49_sensibilidade.py`. E1: precisão estimada supondo erros independentes "
           "(limite superior). E2: concordância do GPT-5.5 com o tema publicado nas questões que ele classificou.\n",
-          "| Confiança mínima do árbitro | Fração mínima de votos no ramo | Modo | Publicadas | Cobertura | No subtema | E1 | E2 (n) |",
-          "|---|---|---|---|---|---|---|---|"]
+          "| Confiança mínima do árbitro no ramo | Confiança mínima no subtema | Modo | Publicadas | Cobertura | No subtema | E1 | E2 (n) | E3 auditoria (n) | Precisão prevista (intervalo) |",
+          "|---|---|---|---|---|---|---|---|---|---|"]
     for l in linhas:
-        md.append(f"| {l['t_arb']} | {l['min_frac']} | {l['modo']} | {l['publicadas']} | {l['cobertura']:.1%} | {l['nivel2']} | "
-                  f"{l['E1']:.1%} | {l['E2']:.1%} ({l['E2_n']}) |")
+        md.append(f"| {l['t_arb']} | {l['t_sub'] or '-'} | {l['modo']} | {l['publicadas']} | {l['cobertura']:.1%} | {l['nivel2']} | "
+                  f"{l['E1']:.1%} | {l['E2']:.1%} ({l['E2_n']}) | {l['E3']:.1%} ({l['E3_n']:g}) | {l['prev']:.1%} ({l['prev_ic'][0]:.1%}–{l['prev_ic'][1]:.1%}) |")
     (RAIZ / "docs" / "sensibilidade.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print("\n".join(md))
 

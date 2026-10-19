@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5546",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.72,
+ "segunda_opcao_id": "5545",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a disciplina da prova pericial nos arts. 159 a 184 do CPP: perito não oficial, quesitos e assistente técnico, autópsia, exumação e oitiva dos peritos. Por isso, o tema é Provas em Espécies, no subtema Perícia, e não Exame de Corpo de Delito, que seria o subtema mais restrito, pois quase todas as assertivas tratam de perícias em geral. Descartei Inquérito Policial, a pista de origem, porque o enunciado não cobra diligências investigatórias, e sim o regime legal da perícia como meio de prova.",
+ "id": "Q0342",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5543",
+  "5498"
+ ],
+ "candidatos_subtemas": [
+  "5546"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 845,
+  "cache_w": 14391,
+  "cache_r": 16390,
+  "custo_usd": 0.14590399999999998
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5091",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.98,
+ "segunda_opcao_id": "5092",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão reproduz literalmente o texto do art. 316, caput, do CP (\"exigir vantagem indevida, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela\"), que define o crime de concussão. O verbo \"exigir\" é o elemento diferenciador decisivo frente à corrupção passiva (solicitar/receber/aceitar promessa) e ao peculato (apropriar-se/desviar). Gabarito correto: (B) concussão. Confirma-se o tema 5087 e aponta-se com alta confiança o subtema 5091 (Concussão e Excesso de Exação), pois a questão testa exatamente esse tipo penal específico, não sendo caso de noções gerais (5088).",
+ "id": "Q0244",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão descreve literalmente o tipo do crime de concussão (art. 316, CP: exigir vantagem indevida, ainda que fora da função ou antes de assumi-la, mas em razão dela), tema integrante de 'Dos Crimes Contra a Administração Pública' (grupo P8)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão descreve literalmente o tipo penal da concussão (art. 316, CP), inserido no Título XI (Crimes contra a Administração Pública), correspondendo ao tema 5087, com subtema específico \"Concussão e Excesso de Exação\". As alternativas distratoras (peculato, corrupção passiva, corrupção ativa) também são crimes do mesmo título, confirmando o ramo. Não há outro tema de nível 1 que se aplique melhor."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1531,
+  "cache_w": 13912,
+  "cache_r": 11846,
+  "custo_usd": 0.08313020000000002
+ }
+}

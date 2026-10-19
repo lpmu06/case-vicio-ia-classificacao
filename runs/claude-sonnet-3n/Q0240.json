@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5473",
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.45,
+ "segunda_opcao_id": "5498",
+ "extras_ids": [
+  "5501"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão soma dois prazos distintos: o prazo do inquérito policial com indiciado preso (art. 10, CPP - 10 dias) e o prazo para o Ministério Público oferecer denúncia de réu preso (art. 46, CPP - 5 dias), totalizando 15 dias contados da prisão (alternativa A). O enunciado pergunta pelo prazo final para \"a denúncia... ser oferecida\", de modo que o ato processual cuja contagem é exigida é a denúncia, mantendo o tema de nível 1 Ação Penal (5466) e, no nível 2, o subtema Denúncia (5473), que trata expressamente de \"prazo para denunciar, acusado preso\". Contudo, como o raciocínio depende igualmente do prazo de conclusão do inquérito com indiciado preso (art. 10 CPP), mantenho Inquérito Policial (5498) como segunda opção plausível, com o subtema Conclusão e Arquivamento do Inquérito Policial (5501) como extra relevante, pois é ali que o prazo de 10 dias do indiciado preso é tratado. Dada a natureza híbrida (soma de prazos de dois institutos diferentes), marco como multi-tema e reduzo a confiança no subtema específico.",
+ "id": "Q0240",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão testa o prazo legal para oferecimento da denúncia pelo Ministério Público (art. 46, §1º, CPP) quando o réu está preso, somado ao prazo do inquérito policial para indiciado preso (10 dias, art. 10 CPP). O eixo central é o prazo da ação penal (denúncia), tema que se encontra em Ação Penal, dentro do grupo PP2 (Investigação e ação penal), que também abrange Inquérito Policial, cobrindo todo o raciocínio exigido."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5498",
+  "confianca_ramo": 0.72,
+  "multi_tema": false,
+  "justificativa": "A pergunta busca o prazo total, desde a prisão, para o oferecimento da denúncia, somando o prazo do inquérito de preso (10 dias, art. 10 CPP) e o prazo para denúncia de réu preso (5 dias, art. 46 CPP). Embora envolva o trâmite do inquérito policial, o núcleo da pergunta é o prazo da denúncia/ação penal (subtema Denúncia, dentro de Ação Penal), que é o ato processual cujo prazo final está sendo calculado. Por isso, o tema de nível 1 mais apropriado é Ação Penal, com Inquérito Policial como segunda opção plausível, já que o raciocínio perpassa também o prazo do inquérito."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2349,
+  "cache_w": 17545,
+  "cache_r": 14150,
+  "custo_usd": 0.108871
+ }
+}

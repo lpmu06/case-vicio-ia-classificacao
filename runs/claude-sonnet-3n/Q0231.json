@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "4708",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A pergunta testa diretamente a consequência jurídica do erro de tipo essencial (isenção de pena quando escusável, excluindo dolo e culpa, nos termos do art. 20, caput, CP), que é exatamente o subtema \"Erro de Tipo\" (5224) dentro do tema de nível 1 \"Teoria do Crime: Fato Típico\" (5218). O tráfico de drogas é apenas o cenário fático usado para ilustrar o instituto geral de teoria do crime, não havendo qualquer peculiaridade da Lei de Drogas sendo testada (não se discute dosimetria, natureza da droga, etc.). Por isso mantenho 5218/5224 como classificação principal, com 4708 (Tráfico de Drogas) como segunda opção por ser o pano de fundo narrativo.",
+ "id": "Q0231",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": "LE1",
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa o instituto do erro de tipo essencial (elemento do fato típico, dolo/culpa), tema de Teoria do Crime: Fato Típico, dentro do grupo P2 da Parte Geral. O contexto do tráfico de drogas é apenas narrativo/exemplo, não sendo o foco da pergunta, que é puramente de teoria geral do crime."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "4708",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre erro de tipo essencial, instituto da Teoria do Crime (Fato Típico), que é exatamente o subtema \"Erro de Tipo\" dentro do tema de nível 1 \"Teoria do Crime: Fato Típico\" (5218). O contexto de tráfico de drogas é apenas narrativo/exemplo, servindo somente para ilustrar a aplicação do instituto, mas a pergunta é sobre teoria geral do crime (consequência do erro de tipo escusável = isenção de pena, pois exclui dolo e culpa). Mantida a classificação do estágio anterior, com Tráfico de Drogas (4708, grupo LE1) como segunda opção por ser o pano de fundo factual da questão."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1865,
+  "cache_w": 14518,
+  "cache_r": 14150,
+  "custo_usd": 0.089167
+ }
+}

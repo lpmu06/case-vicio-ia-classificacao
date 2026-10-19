@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5530",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.7,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5535",
+ "extras_ids": [
+  "5185"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta o que o juiz pode fazer, dentro do rito, para evitar a prescrição. A resposta correta (B) é a concentração da oitiva das testemunhas em audiência una, prevista no art. 400 do CPP. As alternativas A e C também tratam de atos do procedimento ordinário (supressão de memoriais e troca da prova oral por declarações escritas). A alternativa D é um distrator de prescrição virtual, vedada pela Súmula 438 do STJ, o que não justifica classificar em Prescrição (5185). Ação Penal (5466) foi descartada porque não se discute titularidade, condição da ação nem a peça acusatória. O subtema ficou em aberto porque as alternativas envolvem tanto a audiência de instrução quanto as alegações finais.",
+ "id": "Q0353",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5530",
+  "5466",
+  "5185"
+ ],
+ "candidatos_subtemas": [
+  "5535",
+  "5190"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 998,
+  "cache_w": 14740,
+  "cache_r": 14086,
+  "custo_usd": 0.1522462
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4373",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "4380",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecimento específico sobre as Escolas Penais (Clássica e Positiva), seus fundamentos (livre-arbítrio x determinismo) e principais expoentes (Carrara, Lombroso, Ferri, Garofalo, Carmignani, Feuerbach), comparando premissas de cada escola. Isso corresponde precisamente ao subtema 4373 (Escolas Criminológicas), dentro do tema de nível 1 4371. Não se trata de conceito geral da Criminologia (4380), mas de conteúdo específico das escolas, justificando a classificação em 4373.",
+ "id": "Q0253",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C1",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão versa diretamente sobre as Escolas Penais (Clássica, Positiva/Lombrosiana) e seus expoentes (Carrara, Lombroso, Ferri, Garofalo, Carmignani), tema típico de Criminologia, especificamente \"Etapas Evolutivas e Escolas Criminológicas\", que integra o grupo C1."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4371",
+  "segunda_opcao_n1_id": "4380",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente das Escolas Penais (Clássica e Positiva) e seus principais expoentes (Carrara, Lombroso, Ferri, Garofalo, Carmignani, Feuerbach), exigindo conhecimento sobre o conteúdo e fundamentos de cada escola. Isso se encaixa precisamente no subtema \"Escolas Criminológicas\" dentro do tema 4371 (Etapas Evolutivas e Escolas Criminológicas). Como subtema específico é coberto pelo tema de nível 1, a classificação em 4371 é correta. O tema 4380 (Teoria Geral da Criminologia) é a segunda opção por ser tema correlato de fundamentos da disciplina, mas não trata especificamente das escolas penais."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1361,
+  "cache_w": 10542,
+  "cache_r": 11846,
+  "custo_usd": 0.0652322
+ }
+}

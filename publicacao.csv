@@ -1,0 +1,360 @@
+id,decisao,tema_central_id,extras_ids,confianca,motivo
+Q0001,publicar,5524,,0.95,
+Q0002,revisar,4378,4385,0.76,árbitro com confiança 0.75
+Q0003,revisar,5562,5466;5475;5534,0.73,árbitro com confiança 0.55; questão multi-tema (alternativas sobre institutos diferentes)
+Q0004,publicar,5480,,0.96,
+Q0005,publicar,5199,,0.95,
+Q0006,publicar,5157,5177,0.96,
+Q0007,revisar,5063,5128;5466;5121,0.88,árbitro com confiança 0.80
+Q0008,revisar,5201,4703,0.32,árbitro com confiança 0.75
+Q0009,publicar,5157,,0.95,
+Q0010,publicar,4688,,0.96,
+Q0011,revisar,4702,5480;5482;5092,0.91,árbitro com confiança 0.85
+Q0012,publicar,5569,5539,0.93,
+Q0013,publicar,5503,,0.95,
+Q0014,revisar,5477,,0.85,árbitro com confiança 0.80
+Q0015,publicar,5498,5505;5508,0.94,
+Q0016,revisar,5584,5522;5519;5503,0.93,questão multi-tema (alternativas sobre institutos diferentes)
+Q0017,revisar,5530,5509,0.70,árbitro com confiança 0.45
+Q0018,revisar,5540,5482;5486,0.85,árbitro com confiança 0.80
+Q0019,publicar,5475,,0.94,
+Q0020,revisar,5199,4709;5116;5157,0.65,árbitro com confiança 0.35; questão multi-tema (alternativas sobre institutos diferentes)
+Q0021,revisar,5503,,0.90,árbitro com confiança 0.88
+Q0022,publicar,5087,5079;5222,0.93,
+Q0023,publicar,5524,,0.96,
+Q0024,publicar,4385,4377;4379,0.94,
+Q0025,publicar,5101,,0.93,
+Q0026,publicar,4704,,0.95,
+Q0027,publicar,5487,,0.94,
+Q0028,publicar,5524,,0.94,
+Q0029,publicar,4684,,0.96,
+Q0030,publicar,5135,,0.94,
+Q0031,publicar,4385,,0.95,
+Q0032,revisar,5497,5498,0.85,árbitro com confiança 0.80
+Q0033,publicar,5519,,0.94,
+Q0034,publicar,5477,,0.94,
+Q0035,publicar,4706,,0.96,
+Q0036,publicar,4704,5466;5471,0.94,
+Q0037,revisar,5116,5128;5079;5081,0.21,classificadores divergem do árbitro (claude-opus: Dos Crimes Contra a Liberdade Pessoal; claude-sonnet-h: Dos Crimes Contra a Liberdade Pessoal; árbitro: Dos Crimes Contra a Fé Pública e de Falsidade Documental); árbitro com confiança 0.45;
+Q0038,revisar,5583,5543;5562;5500,0.26,classificadores divergem do árbitro (claude-opus: Provas em Espécies; claude-sonnet-h: Sujeitos do Processo; árbitro: Sujeitos do Processo); árbitro com confiança 0.55; questão multi-tema (alternativas sobre institutos diferentes)
+Q0039,revisar,4687,4694,0.91,árbitro com confiança 0.85
+Q0040,publicar,5560,5512;5524;5515,0.93,
+Q0041,publicar,5184,,0.96,
+Q0042,publicar,5222,,0.95,
+Q0043,publicar,5199,,0.96,
+Q0044,revisar,5488,5543;5548,0.85,árbitro com confiança 0.85
+Q0045,publicar,5091,,0.95,
+Q0046,publicar,5509,5531,0.95,
+Q0047,publicar,5164,5065,0.95,
+Q0048,revisar,5193,4703,0.84,classificadores divergem do árbitro (claude-opus: Punibilidade; claude-sonnet-h: Lei de Execução Penal; árbitro: Punibilidade); árbitro com confiança 0.80
+Q0049,publicar,5152,5174,0.95,
+Q0050,publicar,4708,,0.93,
+Q0051,publicar,5182,,0.95,
+Q0052,publicar,4703,,0.95,
+Q0053,revisar,5541,4701,0.78,árbitro com confiança 0.65
+Q0054,publicar,5174,,0.94,
+Q0055,revisar,5550,5509;5535;5510,0.88,árbitro com confiança 0.88
+Q0056,publicar,5066,,0.96,
+Q0057,publicar,5176,,0.94,
+Q0058,revisar,4377,4385;4387,0.79,árbitro com confiança 0.62
+Q0059,revisar,4388,4384;4370,0.23,classificadores divergem do árbitro (claude-opus: Teorias Sociológicas Explicativas da Criminalidade; claude-sonnet-h: Teorias Legitimidoras da Pena; árbitro: Teorias Sociológicas Explicativas da Criminalidade); árbitro com confiança 0.60
+Q0060,revisar,5087,,0.96,questão multi-tema (alternativas sobre institutos diferentes)
+Q0061,publicar,4703,5193,0.96,
+Q0062,publicar,5182,,0.95,
+Q0063,publicar,4704,,0.95,
+Q0064,revisar,4695,5191;5227;5187,0.63,classificadores divergem do árbitro (claude-opus: Crimes Tributários; claude-sonnet-h: Dos Crimes Contra o Patrimônio; árbitro: Crimes Tributários); árbitro com confiança 0.80
+Q0065,publicar,5161,,0.94,
+Q0066,publicar,4373,,0.93,
+Q0067,publicar,5091,,0.93,
+Q0068,revisar,5087,5116;5102;5125,0.68,classificadores divergem do árbitro (claude-opus: Dos Crimes Contra a Fé Pública e de Falsidade Documental; claude-sonnet-h: Dos Crimes Contra a Administração Pública; árbitro: Dos Crimes Contra a Administração Pública); árbitro com confian
+Q0069,publicar,5173,,0.94,
+Q0070,revisar,5193,4703;5201,0.78,árbitro com confiança 0.70
+Q0071,publicar,4688,,0.96,
+Q0072,revisar,5592,5498,0.84,árbitro com confiança 0.85
+Q0073,revisar,5087,5079;5147;5084,0.88,árbitro com confiança 0.80; questão multi-tema (alternativas sobre institutos diferentes)
+Q0074,revisar,5181,4703;5485,0.27,classificadores divergem do árbitro (claude-opus: Lei Penal no Tempo e no Espaço; claude-sonnet-h: Lei de Execução Penal; árbitro: Lei Penal no Tempo e no Espaço); árbitro com confiança 0.60
+Q0075,publicar,5191,,0.95,
+Q0076,publicar,4371,,0.95,
+Q0077,revisar,5170,5180;5181;5194,0.90,árbitro com confiança 0.85; questão multi-tema (alternativas sobre institutos diferentes)
+Q0078,publicar,4697,4691,0.94,
+Q0079,publicar,5580,,0.96,
+Q0080,publicar,4370,,0.93,
+Q0081,publicar,4371,4385,0.95,
+Q0082,publicar,5100,,0.94,
+Q0083,revisar,5224,5066;5150,0.79,classificadores divergem do árbitro (claude-opus: Teoria do Crime: Fato Típico; claude-sonnet-h: Dos Crimes Contra a Vida; árbitro: Teoria do Crime: Fato Típico); árbitro com confiança 0.80
+Q0084,publicar,4704,,0.96,
+Q0085,publicar,5071,5087;5091,0.94,
+Q0086,publicar,5092,,0.93,
+Q0087,revisar,4703,,0.92,árbitro com confiança 0.88
+Q0088,revisar,4389,4380;4381,0.92,árbitro com confiança 0.88
+Q0089,revisar,5172,5227,0.31,classificadores divergem do árbitro (claude-opus: Introdução ao Estudo do Direito Penal; claude-sonnet-h: Teoria do Crime: Fato Típico; árbitro: Introdução ao Estudo do Direito Penal); árbitro com confiança 0.70
+Q0090,revisar,5530,5539;5524;5466,0.75,árbitro com confiança 0.55; questão multi-tema (alternativas sobre institutos diferentes)
+Q0091,revisar,4703,5199;5201;4693,0.35,classificadores divergem do árbitro (claude-opus: Lei de Execução Penal; claude-sonnet-h: Teoria da Pena; árbitro: Lei de Execução Penal); árbitro com confiança 0.68
+Q0092,publicar,5509,5493,0.95,
+Q0093,publicar,5223,5142,0.93,
+Q0094,revisar,4388,4377;4378,0.82,árbitro com confiança 0.88
+Q0095,revisar,5197,5077;5150,0.90,classificadores divergem do árbitro (claude-opus: Punibilidade; claude-sonnet-h: Ação Penal; árbitro: Punibilidade)
+Q0096,publicar,5480,5528,0.95,
+Q0097,revisar,4708,4705;4702,0.83,árbitro com confiança 0.70; questão multi-tema (alternativas sobre institutos diferentes)
+Q0098,publicar,5548,,0.94,
+Q0099,revisar,5100,5228;5077;5232,0.89,árbitro com confiança 0.88
+Q0100,revisar,5103,5079;5071;5224,0.78,árbitro com confiança 0.85; questão multi-tema (alternativas sobre institutos diferentes)
+Q0101,publicar,4704,,0.95,
+Q0102,revisar,5572,5475;5209,0.92,árbitro com confiança 0.88
+Q0103,publicar,5478,,0.95,
+Q0104,revisar,5498,5477,0.85,árbitro com confiança 0.75
+Q0105,publicar,4385,4378,0.94,
+Q0106,publicar,5157,,0.95,
+Q0107,revisar,5116,,0.70,árbitro com confiança 0.45
+Q0108,publicar,5561,5515,0.94,
+Q0109,publicar,4708,,0.96,
+Q0110,publicar,5480,,0.96,
+Q0111,publicar,4371,,0.94,
+Q0112,publicar,4705,,0.96,
+Q0113,revisar,5185,5092,0.74,dúvida entre 'fora' e um tema da árvore
+Q0114,revisar,5507,5471;4704,0.72,classificadores divergem do árbitro (claude-opus: Lei Processual no Tempo e no Espaço; claude-sonnet-h: Ação Penal; árbitro: Lei Processual no Tempo e no Espaço); árbitro com confiança 0.60
+Q0115,publicar,4385,,0.95,
+Q0116,publicar,4708,,0.96,
+Q0117,publicar,4384,,0.95,
+Q0118,publicar,5507,5523;5519,0.94,
+Q0119,revisar,5181,5194,0.76,classificadores divergem do árbitro (claude-opus: Lei Penal no Tempo e no Espaço; claude-sonnet-h: Punibilidade; árbitro: Lei Penal no Tempo e no Espaço); árbitro com confiança 0.75
+Q0120,revisar,5533,5543;5590;5547,0.73,árbitro com confiança 0.65
+Q0121,publicar,5466,5065;5196,0.96,
+Q0122,publicar,4703,,0.93,
+Q0123,revisar,4377,4385;4388;4368,0.76,árbitro com confiança 0.55
+Q0124,revisar,4384,,0.88,árbitro com confiança 0.80
+Q0125,revisar,5181,4703;4708,0.27,classificadores divergem do árbitro (claude-opus: Lei Penal no Tempo e no Espaço; claude-sonnet-h: Lei de Execução Penal; árbitro: Lei Penal no Tempo e no Espaço); árbitro com confiança 0.60
+Q0126,revisar,5180,5218;5071;5211,0.78,árbitro com confiança 0.60; questão multi-tema (alternativas sobre institutos diferentes)
+Q0127,revisar,5575,4708;5581,0.25,classificadores divergem do árbitro (claude-opus: Sentença Penal; claude-sonnet-h: Sistemas e Princípios Processuais Penais; árbitro: Sentença Penal); árbitro com confiança 0.60; questão multi-tema (alternativas sobre institutos diferentes)
+Q0128,publicar,5466,5184,0.93,
+Q0129,publicar,5550,,0.94,
+Q0130,publicar,5157,5199;5205;5177,0.95,
+Q0131,publicar,5071,,0.96,
+Q0132,revisar,5543,5583,0.26,classificadores divergem do árbitro (claude-opus: Provas em Espécies; claude-sonnet-h: Comunicação dos Atos Processuais; árbitro: Provas em Espécies); árbitro com confiança 0.50
+Q0133,publicar,5524,,0.96,
+Q0134,publicar,5092,,0.96,
+Q0135,publicar,5169,,0.96,
+Q0136,publicar,4704,5131,0.95,
+Q0137,revisar,5498,5583,0.92,árbitro com confiança 0.88
+Q0138,publicar,5199,,0.96,
+Q0139,publicar,5211,,0.95,
+Q0140,publicar,5157,5204,0.95,
+Q0141,publicar,4385,,0.95,
+Q0142,fora,,,0.97,"nenhum tema da árvore cobre a questão: A questão pede as hipóteses de isenção do ITCD previstas na legislação estadual do Pará, um assunto exclusivamente de Direito Tributário (impostos est"
+Q0143,publicar,5507,,0.94,
+Q0144,publicar,5562,5524,0.94,
+Q0145,publicar,4702,5084;4695,0.94,
+Q0146,publicar,5590,5555;5554;5556,0.94,
+Q0147,revisar,5498,5543;5556;5557,0.83,árbitro com confiança 0.70; questão multi-tema (alternativas sobre institutos diferentes)
+Q0148,publicar,5199,,0.96,
+Q0149,publicar,5498,5543;5554,0.94,
+Q0150,publicar,4708,5181,0.96,
+Q0151,publicar,5517,5584;5585,0.94,
+Q0152,publicar,5466,5065,0.96,
+Q0153,publicar,5218,,0.93,
+Q0154,revisar,5134,,0.23,dúvida entre 'fora' e um tema da árvore
+Q0155,publicar,4703,,0.96,
+Q0156,publicar,4688,,0.96,
+Q0157,publicar,5517,4693,0.93,
+Q0158,publicar,4707,5209,0.93,
+Q0159,revisar,5226,5160;5177,0.28,classificadores divergem do árbitro (claude-opus: Teoria do Crime: Fato Típico; claude-sonnet-h: Dos Crimes Contra o Patrimônio; árbitro: Teoria do Crime: Fato Típico); árbitro com confiança 0.60; questão multi-tema (alternativas sobre inst
+Q0160,publicar,5205,,0.95,
+Q0161,revisar,5588,5517;5590;5594,0.80,árbitro com confiança 0.85
+Q0162,revisar,4381,,0.82,árbitro com confiança 0.85
+Q0163,revisar,4684,4703;5128;5183,0.78,árbitro com confiança 0.60
+Q0164,publicar,4703,,0.96,
+Q0165,publicar,4705,5557,0.96,
+Q0166,revisar,4703,5208;5191;4693,0.89,classificadores divergem do árbitro (claude-opus: Lei de Execução Penal; claude-sonnet-h: Teoria da Pena; árbitro: Lei de Execução Penal); árbitro com confiança 0.85
+Q0167,publicar,5524,,0.95,
+Q0168,fora,,,0.60,nenhum tema da árvore cobre a questão: A questão cobra os crimes da Lei Geral do Esporte (Lei 14.597/2023). Ela exige que o aluno diferencie a corrupção privada no esporte (art. 165) dos cr
+Q0169,revisar,5492,,0.89,árbitro com confiança 0.88
+Q0170,publicar,5199,5193,0.93,
+Q0171,revisar,4693,5557;5199;5185,0.47,classificadores divergem do árbitro (claude-opus: Crimes Hediondos; claude-sonnet-h: Provas em Espécies; árbitro: Crimes Hediondos); árbitro com confiança 0.50; questão multi-tema (alternativas sobre institutos diferentes)
+Q0172,revisar,5480,5572;5185;5579,0.75,árbitro com confiança 0.55; questão multi-tema (alternativas sobre institutos diferentes)
+Q0173,publicar,4703,,0.96,
+Q0174,revisar,5133,4709;5157;5166,0.73,árbitro com confiança 0.60; questão multi-tema (alternativas sobre institutos diferentes)
+Q0175,publicar,5087,,0.96,
+Q0176,publicar,5081,,0.95,
+Q0177,publicar,5543,5595,0.93,
+Q0178,publicar,4697,,0.94,
+Q0179,publicar,4369,,0.95,
+Q0180,revisar,5554,5590;5594,0.84,árbitro com confiança 0.85
+Q0181,publicar,4695,,0.94,
+Q0182,revisar,5138,5149;5120;5154,0.19,classificadores divergem do árbitro (claude-opus: Dos Crimes Contra a Periclitação da Vida e da Saúde; claude-sonnet-h: Dos Crimes Contra a Vida; árbitro: Dos Crimes Contra a Periclitação da Vida e da Saúde); árbitro com confiança 0.40; que
+Q0183,revisar,5561,5185;5187;5488,0.88,árbitro com confiança 0.88
+Q0184,revisar,4708,5518,0.90,árbitro com confiança 0.85
+Q0185,publicar,4703,5566,0.96,
+Q0186,publicar,5202,,0.95,
+Q0187,publicar,5199,5092,0.95,
+Q0188,publicar,5228,,0.96,
+Q0189,revisar,5472,5191;5196,0.78,árbitro com confiança 0.85
+Q0190,revisar,5539,,0.29,classificadores divergem do árbitro (claude-opus: Juizado Especial Criminal; claude-sonnet-h: Procedimento Sumaríssimo; árbitro: Procedimento Sumaríssimo); árbitro com confiança 0.60
+Q0191,publicar,5560,,0.95,
+Q0192,revisar,5087,5079;5199;5081,0.90,árbitro com confiança 0.85
+Q0193,revisar,5557,4705,0.80,árbitro com confiança 0.70
+Q0194,revisar,5076,5087;5089,0.87,árbitro com confiança 0.85
+Q0195,revisar,4373,4385;4387,0.80,árbitro com confiança 0.85
+Q0196,publicar,4385,4378,0.95,
+Q0197,revisar,5482,5498,0.85,árbitro com confiança 0.60
+Q0198,publicar,5071,,0.96,
+Q0199,revisar,5218,5228;5230;5183,0.88,árbitro com confiança 0.80; questão multi-tema (alternativas sobre institutos diferentes)
+Q0200,publicar,4705,,0.95,
+Q0201,publicar,5102,5069,0.94,
+Q0202,revisar,5108,5218;5224,0.83,árbitro com confiança 0.88
+Q0203,publicar,4702,,0.94,
+Q0204,publicar,5507,,0.96,
+Q0205,revisar,5512,5560;5567,0.72,classificadores divergem do árbitro (claude-opus: Recursos em Espécies; claude-sonnet-h: Parte Geral dos Recursos; árbitro: Parte Geral dos Recursos); árbitro com confiança 0.50; questão multi-tema (alternativas sobre institutos diferentes)
+Q0206,publicar,5583,,0.95,
+Q0207,publicar,4703,,0.96,
+Q0208,revisar,5228,5517;5524;5226,0.78,árbitro com confiança 0.60; questão multi-tema (alternativas sobre institutos diferentes)
+Q0209,publicar,5498,5580;5582,0.95,
+Q0210,publicar,4697,4693;5227;5181,0.95,
+Q0211,publicar,5583,5582,0.93,
+Q0212,publicar,5488,,0.94,
+Q0213,revisar,4708,,0.92,árbitro com confiança 0.88
+Q0214,publicar,5494,,0.93,
+Q0215,publicar,5199,,0.95,
+Q0216,revisar,4701,5541,0.78,classificadores divergem do árbitro (claude-opus: Juizado Especial Criminal; claude-sonnet-h: Procedimento Sumaríssimo; árbitro: Juizado Especial Criminal); árbitro com confiança 0.60
+Q0217,revisar,4372,4385;4384,0.57,classificadores divergem do árbitro (claude-opus: Etapas Evolutivas e Escolas Criminológicas; claude-sonnet-h: Teorias Legitimidoras da Pena; árbitro: Etapas Evolutivas e Escolas Criminológicas); árbitro com confiança 0.60
+Q0218,publicar,5518,,0.95,
+Q0219,revisar,5071,5174,0.90,árbitro com confiança 0.85
+Q0220,publicar,5501,,0.95,
+Q0221,revisar,5199,5184,0.90,classificadores divergem do árbitro (claude-opus: Teoria da Pena; claude-sonnet-h: Medida de Segurança; árbitro: Teoria da Pena); árbitro com confiança 0.88; questão multi-tema (alternativas sobre institutos diferentes)
+Q0222,revisar,4374,5170,0.84,árbitro com confiança 0.72
+Q0223,revisar,5086,,0.88,classificadores divergem do árbitro (claude-opus: Dos Crimes Contra a Administração Judicial; claude-sonnet-h: Dos Crimes Contra a Administração Pública; árbitro: Dos Crimes Contra a Administração Judicial)
+Q0224,publicar,5199,,0.94,
+Q0225,publicar,5478,5571,0.94,
+Q0226,publicar,5544,,0.95,
+Q0227,publicar,5102,4709;5066,0.94,
+Q0228,revisar,4703,5208;5566,0.88,classificadores divergem do árbitro (claude-opus: Lei de Execução Penal; claude-sonnet-h: Teoria da Pena; árbitro: Lei de Execução Penal); árbitro com confiança 0.82
+Q0229,revisar,5584,5517;5519;5520,0.77,árbitro com confiança 0.60
+Q0230,revisar,5211,5071;5199;5184,0.78,árbitro com confiança 0.60; questão multi-tema (alternativas sobre institutos diferentes)
+Q0231,publicar,5224,,0.93,
+Q0232,publicar,5079,,0.96,
+Q0233,publicar,5178,,0.94,
+Q0234,publicar,4380,,0.95,
+Q0235,revisar,5561,5515,0.88,árbitro com confiança 0.85
+Q0236,revisar,5490,5590;5509;5592,0.75,árbitro com confiança 0.55; questão multi-tema (alternativas sobre institutos diferentes)
+Q0237,publicar,5178,,0.96,
+Q0238,publicar,5517,,0.95,
+Q0239,revisar,5199,5218;5066;5224,0.88,árbitro com confiança 0.80; questão multi-tema (alternativas sobre institutos diferentes)
+Q0240,revisar,5501,5466;5473,0.55,classificadores divergem do árbitro (claude-opus: Inquérito Policial; claude-sonnet-h: Ação Penal; árbitro: Inquérito Policial); árbitro com confiança 0.60
+Q0241,publicar,5224,,0.93,
+Q0242,revisar,5512,5560,0.55,classificadores divergem do árbitro (claude-opus: Parte Geral dos Recursos; claude-sonnet-h: Recursos em Espécies; árbitro: Parte Geral dos Recursos); árbitro com confiança 0.55; questão multi-tema (alternativas sobre institutos diferentes)
+Q0243,publicar,5178,,0.95,
+Q0244,publicar,5087,,0.96,
+Q0245,publicar,5185,4708,0.95,
+Q0246,publicar,5527,5211;5213,0.94,
+Q0247,publicar,5502,5507,0.93,
+Q0248,publicar,5087,,0.96,
+Q0249,revisar,5492,5583,0.79,árbitro com confiança 0.70
+Q0250,publicar,5201,,0.93,
+Q0251,publicar,5191,5185,0.95,
+Q0252,revisar,4703,5191;5206;5208,0.75,árbitro com confiança 0.55; questão multi-tema (alternativas sobre institutos diferentes)
+Q0253,publicar,4371,,0.94,
+Q0254,publicar,4704,,0.96,
+Q0255,publicar,5213,,0.95,
+Q0256,revisar,5224,5211;5214,0.82,árbitro com confiança 0.80
+Q0257,revisar,5218,5170;5229,0.92,árbitro com confiança 0.88
+Q0258,publicar,5545,,0.95,
+Q0259,publicar,5183,,0.94,
+Q0260,revisar,4368,4374;4376,0.78,árbitro com confiança 0.60; questão multi-tema (alternativas sobre institutos diferentes)
+Q0261,revisar,5136,5063,0.88,árbitro com confiança 0.85
+Q0262,revisar,4703,5184,0.78,árbitro com confiança 0.60
+Q0263,revisar,5492,,0.88,árbitro com confiança 0.85
+Q0264,publicar,5102,,0.96,
+Q0265,publicar,5185,5066,0.95,
+Q0266,publicar,5480,5525,0.95,
+Q0267,publicar,4708,,0.94,
+Q0268,revisar,5116,5120;4684,0.78,árbitro com confiança 0.60; questão multi-tema (alternativas sobre institutos diferentes)
+Q0269,revisar,5170,,0.31,classificadores divergem do árbitro (claude-opus: Política Criminal; claude-sonnet-h: Introdução ao Estudo do Direito Penal; árbitro: Introdução ao Estudo do Direito Penal); árbitro com confiança 0.55
+Q0270,publicar,5087,,0.96,
+Q0271,publicar,5512,5562,0.94,
+Q0272,publicar,4703,,0.96,
+Q0273,revisar,5089,5116;4695;5222,0.78,árbitro com confiança 0.75
+Q0274,publicar,5160,5177,0.93,
+Q0275,revisar,5540,4701;5488,0.80,árbitro com confiança 0.80
+Q0276,publicar,5543,,0.95,
+Q0277,publicar,4696,,0.96,
+Q0278,publicar,5542,4701,0.94,
+Q0279,publicar,5185,5175;5178;5159,0.93,
+Q0280,revisar,5466,5120;5063,0.88,árbitro com confiança 0.80
+Q0281,revisar,5590,4700;5580;5555,0.90,classificadores divergem do árbitro (claude-opus: Teoria Geral das Provas; claude-sonnet-h: Interceptação Telefônica; árbitro: Teoria Geral das Provas); árbitro com confiança 0.85; questão multi-tema (alternativas sobre institutos diferente
+Q0282,revisar,4704,4697;4690,0.78,árbitro com confiança 0.60; questão multi-tema (alternativas sobre institutos diferentes)
+Q0283,publicar,5496,,0.94,
+Q0284,revisar,5224,5228;5211;5214,0.23,classificadores divergem do árbitro (claude-opus: Teoria do Crime: Ilicitude; claude-sonnet-h: Teoria do Crime: Fato Típico; árbitro: Teoria do Crime: Fato Típico); árbitro com confiança 0.55
+Q0285,revisar,4376,,0.92,árbitro com confiança 0.85
+Q0286,revisar,5199,5066,0.85,árbitro com confiança 0.75
+Q0287,publicar,5228,5211,0.95,
+Q0288,revisar,5066,5102;4695;4688,0.70,árbitro com confiança 0.45; questão multi-tema (alternativas sobre institutos diferentes)
+Q0289,publicar,4704,,0.96,
+Q0290,revisar,4701,5539,0.58,classificadores divergem do árbitro (claude-opus: Juizado Especial Criminal; claude-sonnet-h: Procedimento Sumaríssimo; árbitro: Juizado Especial Criminal); árbitro com confiança 0.60
+Q0291,revisar,4708,5498;5501,0.83,árbitro com confiança 0.70
+Q0292,revisar,4374,4368,0.90,árbitro com confiança 0.85
+Q0293,publicar,5185,,0.96,
+Q0294,publicar,5211,,0.96,
+Q0295,publicar,5487,,0.93,
+Q0296,publicar,5466,5065,0.95,
+Q0297,publicar,4695,4689,0.93,
+Q0298,revisar,4694,4695,0.93,classificadores divergem do árbitro (claude-opus: Crimes previstos no CDC; claude-sonnet-h: Crimes Tributários; árbitro: Crimes previstos no CDC)
+Q0299,revisar,4385,4384;4371,0.78,árbitro com confiança 0.60; questão multi-tema (alternativas sobre institutos diferentes)
+Q0300,publicar,5084,5071,0.95,
+Q0301,publicar,5191,5124;4688;4691,0.94,
+Q0302,publicar,5218,5214,0.95,
+Q0303,publicar,5180,,0.94,
+Q0304,revisar,4701,5539;5540;5541,0.58,classificadores divergem do árbitro (claude-opus: Juizado Especial Criminal; claude-sonnet-h: Procedimento Sumaríssimo; árbitro: Juizado Especial Criminal); árbitro com confiança 0.60
+Q0305,publicar,5466,,0.95,
+Q0306,publicar,5146,4705,0.94,
+Q0307,publicar,4707,5223,0.94,
+Q0308,publicar,5498,5467,0.93,
+Q0309,publicar,4688,,0.97,
+Q0310,publicar,5505,,0.96,
+Q0311,publicar,5488,,0.94,
+Q0312,publicar,4384,,0.94,
+Q0313,publicar,5209,5475,0.93,
+Q0314,publicar,5477,,0.95,
+Q0315,publicar,5185,,0.96,
+Q0316,publicar,5218,5153,0.94,
+Q0317,revisar,5198,5063;5471,0.85,árbitro com confiança 0.80
+Q0318,publicar,5175,5150,0.95,
+Q0319,publicar,5071,5174,0.95,
+Q0320,publicar,5543,,0.94,
+Q0321,publicar,5071,4693;4708,0.95,
+Q0322,publicar,5560,,0.94,
+Q0323,revisar,5590,5547;5557,0.83,árbitro com confiança 0.70; questão multi-tema (alternativas sobre institutos diferentes)
+Q0324,revisar,5199,5184;4703;4686,0.88,árbitro com confiança 0.80; questão multi-tema (alternativas sobre institutos diferentes)
+Q0325,revisar,5466,4704;4688;5494,0.88,árbitro com confiança 0.80; questão multi-tema (alternativas sobre institutos diferentes)
+Q0326,publicar,4708,,0.96,
+Q0327,publicar,5203,,0.94,
+Q0328,revisar,4382,4374,0.63,classificadores divergem do árbitro (claude-opus: Teoria Geral da Criminologia; claude-sonnet-h: Política Criminal; árbitro: Teoria Geral da Criminologia); árbitro com confiança 0.85
+Q0329,revisar,4705,5543;5557,0.58,classificadores divergem do árbitro (claude-opus: Organizações Criminosas; claude-sonnet-h: Provas em Espécies; árbitro: Organizações Criminosas); árbitro com confiança 0.60
+Q0330,revisar,5498,5580;5581,0.90,árbitro com confiança 0.85; questão multi-tema (alternativas sobre institutos diferentes)
+Q0331,publicar,5477,,0.95,
+Q0332,revisar,5541,4701,0.93,árbitro com confiança 0.72
+Q0333,revisar,4373,5175;5218;5199,0.29,classificadores divergem do árbitro (claude-opus: Iter Criminis; claude-sonnet-h: Etapas Evolutivas e Escolas Criminológicas; árbitro: Etapas Evolutivas e Escolas Criminológicas); árbitro com confiança 0.45; questão multi-tema (alternativas
+Q0334,publicar,4381,,0.94,
+Q0335,revisar,5218,5170;5173;5174,0.85,árbitro com confiança 0.75; questão multi-tema (alternativas sobre institutos diferentes)
+Q0336,publicar,5159,5177,0.93,
+Q0337,publicar,4684,,0.96,
+Q0338,revisar,5543,5590,0.95,questão multi-tema (alternativas sobre institutos diferentes)
+Q0339,revisar,5572,5524;5565,0.88,árbitro com confiança 0.80
+Q0340,publicar,5071,5203,0.96,
+Q0341,publicar,5157,,0.95,
+Q0342,publicar,5543,,0.95,
+Q0343,revisar,5196,5065,0.78,árbitro com confiança 0.75
+Q0344,publicar,4688,,0.95,
+Q0345,publicar,5102,5199;5203;5204,0.95,
+Q0346,publicar,5583,5519;5528,0.95,
+Q0347,revisar,5069,5199;5228;5230,0.49,classificadores divergem do árbitro (claude-opus: Concurso de Crimes; claude-sonnet-h: Teoria da Pena; árbitro: Concurso de Crimes); árbitro com confiança 0.50; questão multi-tema (alternativas sobre institutos diferentes)
+Q0348,revisar,5087,5180;5182;5187,0.92,árbitro com confiança 0.88
+Q0349,publicar,5178,5160,0.93,
+Q0350,publicar,4702,,0.96,
+Q0351,publicar,5118,,0.95,
+Q0352,publicar,5512,,0.95,
+Q0353,revisar,5530,5185;5190,0.63,classificadores divergem do árbitro (claude-opus: Procedimento Ordinário; claude-sonnet-h: Prescrição; árbitro: Procedimento Ordinário); árbitro com confiança 0.70
+Q0354,revisar,5218,5071;5072,0.89,árbitro com confiança 0.82; questão multi-tema (alternativas sobre institutos diferentes)
+Q0355,publicar,4708,5502,0.95,
+Q0356,publicar,5066,,0.96,
+Q0357,publicar,5135,,0.95,
+Q0358,publicar,5133,,0.94,
+Q0359,revisar,4696,4701,0.91,árbitro com confiança 0.85

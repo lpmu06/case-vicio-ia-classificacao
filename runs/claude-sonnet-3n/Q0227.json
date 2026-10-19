@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4709",
+ "extras_ids": [
+  "5103",
+  "5104"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão apresenta cinco situações hipotéticas distintas, cada uma testando um instituto diferente do Título VI do CP: concurso entre estupro e homicídio culposo/qualificado (alternativas A e B), estupro de vulnerável qualificado pela morte (C), estupro de vulnerável em concurso com art. 240 ECA (D) e violação sexual mediante fraude (E). Não há um único subtema de nível 2 que abranja todas as alternativas — há sobreposição entre 5103 (estupro/estupro de vulnerável, presente em A, B, C e D) e 5104 (violação sexual mediante fraude, em E), além de um elemento de legislação especial (ECA, art. 240) na alternativa D, que é justamente a correta. Por isso, mantenho o tema de nível 1 abrangente 5102 (Dos Crimes Contra a Dignidade Sexual), que cobre o eixo comum de todas as alternativas, sem apontar subtema específico (null), já que nenhum subtema isolado cobre o conjunto. Marco multi_tema = true e mantenho 4709 (Violência contra Criança e Adolescente) como segunda opção com confiança menor, pois a alternativa correta (D) depende do art. 240 do ECA, mas isso é apenas um dos cinco cenários, não o eixo central do conjunto da questão. Incluo 5103 e 5104 como extras por serem os subtemas mais recorrentes entre as alternativas.",
+ "id": "Q0227",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P6",
+  "segundo_grupo_id": "LE2",
+  "confianca": 0.75,
+  "multi_tema": true,
+  "justificativa": "Todas as alternativas versam sobre crimes contra a dignidade sexual do CP (estupro, estupro de vulnerável, violação sexual mediante fraude, concurso com homicídio), tema central do grupo P6 (Dos Crimes Contra a Dignidade Sexual). A alternativa D menciona também o art. 240 do ECA, mas o eixo da questão é a tipificação sexual do CP, não a legislação especial da criança/adolescente."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5102",
+  "segunda_opcao_n1_id": "4709",
+  "confianca_ramo": 0.9,
+  "multi_tema": true,
+  "justificativa": "Todas as alternativas giram em torno de tipos do Título VI do CP (estupro, estupro de vulnerável, violação sexual mediante fraude), eventualmente em concurso com homicídio, o que caracteriza o eixo central como Dos Crimes Contra a Dignidade Sexual (P6/5102), tema de nível 1 que abrange seus subtemas (Estupro e Estupro de Vulnerável, Violação Sexual Mediante Fraude). A alternativa D soma o art. 240 do ECA, mas isso é periférico a apenas uma alternativa, não o eixo comum da questão, por isso a segunda opção aponta para Violência contra Criança e Adolescente (4709) com confiança menor que a primeira."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2606,
+  "cache_w": 16927,
+  "cache_r": 14150,
+  "custo_usd": 0.108016
+ }
+}

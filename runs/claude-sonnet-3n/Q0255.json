@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5211",
+ "subtema_n2_id": "5213",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5212",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam sobre imputabilidade penal: emoção/paixão (não excluem), embriaguez fortuita (semi-imputabilidade/redução de pena), doença mental/desenvolvimento mental incompleto (isenção de pena), embriaguez voluntária/culposa (não exclui), e menoridade (inimputabilidade etária). Não há eixo multi-tema real: todas tratam do mesmo instituto - capacidade de culpabilidade (imputabilidade/inimputabilidade). Corresponde exatamente ao subtema \"Inimputabilidade\" (5213), que abrange especificamente doença mental, desenvolvimento mental incompleto/retardado, menoridade, embriaguez completa fortuita, embriaguez voluntária e emoção/paixão - todos os tópicos cobrados nas alternativas.",
+ "id": "Q0255",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre imputabilidade penal (emoção/paixão, embriaguez, doença mental, menoridade), elemento da culpabilidade, tema coberto por \"Teoria do Crime: Culpabilidade\", pertencente ao grupo P2 (parte geral - teoria do crime)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5211",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente de imputabilidade penal (emoção/paixão, embriaguez, doença mental, menoridade), elemento da culpabilidade. Todas as alternativas versam sobre o mesmo instituto - inimputabilidade/imputabilidade - sem eixo multi-tema real, correspondendo diretamente ao subtema \"Inimputabilidade\" dentro de Teoria do Crime: Culpabilidade (5211)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1270,
+  "cache_w": 12302,
+  "cache_r": 14150,
+  "custo_usd": 0.07262099999999999
+ }
+}

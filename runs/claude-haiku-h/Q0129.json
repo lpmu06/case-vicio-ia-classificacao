@@ -1,0 +1,30 @@
+{
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5550",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5530",
+ "extras_ids": [],
+ "multi_tema": false,
+ "fora": false,
+ "justificativa": "Questão sobre admissibilidade de prova testemunhal de parentes do acusado/vítima em processo penal. O tema central é a CAPACIDADE PARA TESTEMUNHAR, especificamente impedimentos e direitos dos parentes sob o art. 206 CPP, não procedimento da audiência de instrução. O contexto \"designação de audiência de instrução e julgamento\" é apenas a situação processual em que surge a decisão judicial. Confirmada a classificação anterior em 5550 (Prova Testemunhal), subtema de 5543 (Provas em Espécies), em detrimento de 5530 (Procedimento Ordinário), que trata da ordem e sequência dos atos da AIJ, não das qualidades das testemunhas. Confiança alta em ambos os níveis pois a questão é precisa e bem enquadrada na prova testemunhal.",
+ "id": "Q0129",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5530",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "Questão sobre admissibilidade de prova testemunhal de parentes do acusado/vítima em processo penal. O tema central é PROVA TESTEMUNHAL (5543 - Provas em Espécies), não \"Comunicação dos atos processuais\" como sugere a pista fraca. A questão exige conhecimento do art. 206 do CPP sobre incapacidades de testemunhas. Segunda opção seria Procedimento Ordinário (5530), pois menciona designação de audiência, mas é menos específica que o aspecto probatório central."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4797,
+  "cache_w": 17400,
+  "cache_r": 12522,
+  "custo_usd": 0.0725892
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5178",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5177",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede diretamente a distinção entre desistência voluntária, arrependimento eficaz e arrependimento posterior, com as alternativas testando os requisitos legais de cada instituto (voluntariedade, impedimento do resultado, reparação do dano até o recebimento da denúncia). Isso se encaixa exatamente no subtema 5178, que trata especificamente desses três institutos, dentro do tema de nível 1 Iter Criminis (5175).",
+ "id": "Q0233",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre desistência voluntária e arrependimento eficaz, institutos da Tentativa/Iter Criminis, tema de nível 1 presente no grupo P2 (Parte geral: teoria do crime, iter criminis, etc.)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5175",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão trata exatamente dos conceitos de desistência voluntária e arrependimento eficaz, subtema específico dentro do tema de nível 1 \"Iter Criminis\" (id 5175), que abrange justamente tentativa, desistência voluntária, arrependimento eficaz, arrependimento posterior e crime impossível."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1029,
+  "cache_w": 10884,
+  "cache_r": 14150,
+  "custo_usd": 0.06401599999999999
+ }
+}

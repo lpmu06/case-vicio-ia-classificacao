@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5502",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5507",
+ "extras_ids": [
+  "5505"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão é integralmente construída sobre o regime jurídico do ANPP: natureza (extinção da punibilidade pelo cumprimento integral), vedações legais (violência doméstica e racismo), requisito da confissão formal e circunstanciada, e a irretroatividade do instituto a fatos anteriores à Lei 13.964/2019. Todos os quatro parágrafos giram em torno de características e limites específicos do ANPP — inclusive a questão da aplicação temporal é tratada como regra própria do instituto (um ponto recorrente em provas sobre ANPP, não uma discussão genérica de sucessão de leis processuais). Por isso mantenho a classificação no subtema específico \"Acordo de Não Persecução Penal\" (5502), dentro do tema \"Inquérito Policial\" (5498), com \"Lei Processual no Tempo\" (5507, dentro de 5505) como segunda opção em razão do último item.",
+ "id": "Q0247",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP1",
+  "segundo_grupo_id": "PP2",
+  "confianca": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão trata do Acordo de Não Persecução Penal (ANPP), abordando vedações legais, requisitos (confissão) e, principalmente, a aplicação da lei no tempo (retroatividade/irretroatividade do instituto a fatos anteriores à Lei 13.964/2019). Esse último ponto, que costuma ser o cerne mais técnico e controvertido da questão, remete diretamente ao tema \"Lei Processual no Tempo e no Espaço\" (PP1). Contudo, o ANPP em si é instituto ligado à Ação Penal/política de persecução, o que também aproxima do grupo PP2 (Investigação e ação penal), não havendo tema específico de ANPP na árvore. Por isso marco multi_tema e indico PP1 como principal, com PP2 como alternativa."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5505",
+  "confianca_ramo": 0.62,
+  "multi_tema": true,
+  "justificativa": "A questão é centrada no instituto do Acordo de Não Persecução Penal (ANPP) como um todo: trata de sua natureza jurídica (extinção da punibilidade), vedações legais (violência doméstica e racismo), requisito da confissão e, por fim, a irretroatividade do instituto a fatos anteriores à Lei 13.964/2019. Embora esse último item isoladamente remeta à \"Lei Processual no Tempo\", a questão como conjunto testa o conhecimento específico sobre o regime do ANPP, que na árvore está alocado como subtema \"Acordo de Não Persecução Penal\" dentro do tema de nível 1 \"Inquérito Policial\" (5498). Como três dos quatro itens tratam diretamente de regras próprias do ANPP (não de lei processual no tempo em geral), prefiro classificar no tema que contém o subtema específico do instituto, mantendo \"Lei Processual no Tempo e no Espaço\" como segunda opção pela relevância do ponto da irretroatividade."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2733,
+  "cache_w": 14845,
+  "cache_r": 14150,
+  "custo_usd": 0.099555
+ }
+}

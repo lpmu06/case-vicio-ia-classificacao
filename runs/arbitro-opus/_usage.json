@@ -1,0 +1,14 @@
+{
+ "uso": {
+  "in": 716,
+  "out": 258383,
+  "cache_w": 2954070,
+  "cache_r": 5829081,
+  "custo_usd": 32.22008719999997
+ },
+ "segundos": 17298,
+ "erros": [],
+ "modelo": "opus",
+ "effort": "high",
+ "metodo": "arbitro_independente"
+}

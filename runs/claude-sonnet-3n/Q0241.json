@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5222",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todos os itens versam especificamente sobre erro de tipo essencial, erro sobre objeto (acidental), aberratio ictus e aberratio criminis, que são exatamente as hipóteses tratadas no subtema Erro de Tipo (5224), dentro do tema Teoria do Crime: Fato Típico (5218). Não há discussão sobre dolo/culpa em geral, conduta, nexo causal ou ilicitude/culpabilidade, apenas sobre os efeitos do erro nessas modalidades de erro acidental/essencial.",
+ "id": "Q0241",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre teoria do erro (erro de tipo, erro sobre objeto, aberratio ictus, aberratio criminis), temas ligados ao dolo e à tipicidade, integrantes de Teoria do Crime: Fato Típico, dentro do grupo P2 (Parte geral: teoria do crime)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente da teoria do erro (erro de tipo essencial, erro sobre objeto, aberratio ictus, aberratio criminis), todos subtemas relacionados ao fato típico/dolo, enquadrando-se em \"Teoria do Crime: Fato Típico\" (subtema Erro de Tipo), e não envolve ilicitude, culpabilidade, iter criminis ou concursos."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1256,
+  "cache_w": 12499,
+  "cache_r": 14150,
+  "custo_usd": 0.074019
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.65,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5079",
+ "extras_ids": [
+  "5147"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão multi-tema que testa crimes distintos sob rótulo de \"Administração Pública\". Classificada em 5087 por abranger melhor o conjunto — cobre peculato (A), corrupção ativa (B) e tráfico de influência (D). Porém confiança reduzida porque: (i) alternativa (C) sobre favorecimento pessoal/real pertence a 5079 (Administração da Justiça), não 5087, pois protege processo judicial não a função administrativa geral; (ii) alternativa (E) sobre despesa com pessoal pertence a 5147 (Finanças Públicas); (iii) cada alternativa cobre tipo penal distinto sem convergência temática clara — questão seria melhor se focasse um ramo único. Subtema não se aplica pela multiplicidade de crimes cobertos. Se reclassificação for necessária, 5079 seria alternativa mais próxima pois concentraria favorecimento; porém enunciado e maioria das alternativas justificam manutenção em 5087.",
+ "id": "Q0073",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5147",
+  "confianca_ramo": 0.62,
+  "multi_tema": true,
+  "justificativa": "Questão multi-tema que testa crimes distintos sob o rótulo de \"Administração Pública\". Classificada em 5087 (Administração Pública) por abranger melhor o conjunto — cobre peculato (A), corrupção ativa (B) e tráfico de influência (D). Porém, a confiança é reduzida porque: (i) alternativa (C) sobre favorecimento pessoal/real pertence a 5079 (Administração Judicial), não 5087; (ii) alternativa (E) sobre finanças públicas pertence a 5147, fora do escopo enunciado; (iii) cada alternativa trata de um crime diferente sem convergência temática clara."
+ },
+ "uso": {
+  "in": 20,
+  "out": 11801,
+  "cache_w": 13572,
+  "cache_r": 12522,
+  "custo_usd": 0.09614020000000001
+ }
+}

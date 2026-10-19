@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5512",
+ "subtema_n2_id": "5514",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5560",
+ "extras_ids": [
+  "5513"
+ ],
+ "multi_tema": true,
+ "justificativa": "A alternativa correta (D) trata do momento e local do juízo de admissibilidade do recurso ordinário constitucional - tema que se encaixa precisamente em \"Pressupostos Objetivos e Subjetivos de Admissibilidade Recursal\" (5514), subtema de 5512, pois trata exatamente de quando e onde se examina o cabimento/admissibilidade do recurso (interposto no tribunal recorrido, mas admissibilidade só no tribunal ad quem), não do procedimento específico do RO em si (que seria 5560). As demais alternativas versam sobre institutos distintos: processamento de RE/REsp em tribunais superiores (A, ligado a 5560), prazo em dobro para defensor dativo (B, também pressupostos/5514), unirrecorribilidade (C, princípio - 5513) e reexame necessário (E, classificação dos recursos - 5516). Como o núcleo da questão (a alternativa correta) é sobre admissibilidade recursal em abstrato, mantenho 5512 como tema de nível 1, com subtema 5514, mas com confiança moderada dado que o enunciado da alternativa correta menciona expressamente \"recurso ordinário constitucional\", o que poderia justificar classificação em 5560 (Recursos em Espécie) como segunda opção forte. Mantenho multi_tema=true pela natureza heterogênea das alternativas.",
+ "id": "Q0242",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": true,
+  "justificativa": "A questão trata exclusivamente de recursos em processo penal (RE/REsp, recurso ordinário constitucional, unirrecorribilidade, prazo para defensor dativo, reexame necessário), tema que se encaixa no grupo PP8 \"Recursos e ações autônomas de impugnação\". Cada alternativa aborda um instituto diferente dentro do universo recursal, mas todas pertencem ao mesmo eixo (recursos no processo penal), por isso marco multi_tema=true, mas o grupo é claramente identificável."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5512",
+  "segunda_opcao_n1_id": "5560",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos distintos da teoria recursal: juízo de admissibilidade do recurso ordinário constitucional e do RE/REsp (alternativas A e D), princípios recursais como unirrecorribilidade (C), prazo em dobro para defensor dativo (B, também ligado a pressupostos de admissibilidade) e reexame necessário (E). A alternativa tida como correta (D) versa sobre o momento e local do juízo de admissibilidade do recurso ordinário constitucional, tema que se insere na Parte Geral dos Recursos (subtema \"Pressupostos Objetivos e Subjetivos de Admissibilidade Recursal\"), por isso escolho 5512 como tema de nível 1 principal. Como há também forte conteúdo sobre recursos em espécie (RE, REsp, RO constitucional), indico 5560 como segunda opção plausível. Mantenho multi_tema=true pois cada alternativa versa sobre um instituto recursal diferente, sem eixo único de conteúdo, embora todas pertençam ao grande grupo de recursos no processo penal (PP8)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2769,
+  "cache_w": 17595,
+  "cache_r": 14150,
+  "custo_usd": 0.112933
+ }
+}

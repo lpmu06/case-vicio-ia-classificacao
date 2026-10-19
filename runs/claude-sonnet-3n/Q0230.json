@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5211",
+ "subtema_n2_id": "5213",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [
+  "5214",
+  "5200"
+ ],
+ "multi_tema": true,
+ "justificativa": "O gabarito (A) versa sobre embriaguez não acidental e a teoria da actio libera in causa, tema que a própria árvore enquadra expressamente em Inimputabilidade (5213), subtema de Culpabilidade (5211), pois a descrição de 5213 cita literalmente \"embriaguez voluntária, actio libera in causa\". Mantenho 5211 como nível 1 por conter o gabarito e por abranger também a alternativa B (erro de proibição, subtema 5214). As alternativas D (finalidades da pena) e E (medida de segurança) pertencem ao eixo de Teoria da Pena (5199/5200), por isso mantenho essa combinação como segunda opção, e a alternativa C (concurso de pessoas - teoria monista) é um quarto eixo totalmente distinto, não contemplado nos dois temas escolhidos, reforçando o caráter multi-tema da questão. Dado que o gabarito recai especificamente sobre a hipótese de embriaguez/actio libera in causa, atribuo confiança razoável ao subtema 5213, ainda que a questão toque también erro de proibição (5214), que listo como extra.",
+ "id": "Q0230",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos de temas distintos da parte geral: culpabilidade/erro de proibição/embriaguez (alternativas A e B), concurso de pessoas (C), finalidades da pena (D) e medida de segurança (E). Cada alternativa testa um instituto diferente, sem eixo temático único. A alternativa correta (A) versa sobre actio libera in causa na embriaguez, tema de Teoria do Crime: Culpabilidade (grupo P2), mas D e E remetem a Teoria da Pena/Medida de Segurança (grupo P3), e C a Concurso de Pessoas (também P2). Dado o caráter multi-tema, escolho P2 como grupo principal por conter o gabarito e mais de uma alternativa relacionada, com P3 como segunda opção por cobrir pena e medida de segurança."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5211",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão é multi-tema: cada alternativa aborda um instituto distinto da Parte Geral - embriaguez/actio libera in causa e erro de proibição (culpabilidade), concurso de pessoas, finalidades da pena e medida de segurança. O gabarito (A) trata da actio libera in causa na embriaguez não acidental, instituto típico de Culpabilidade (tema 5211), que também abrange outra alternativa (B, erro de proibição). As alternativas D e E remetem a Teoria da Pena e Medida de Segurança (grupo P3, tema 5199), por isso mantenho essa combinação como segunda opção. Escolho 5211 como tema principal por conter o gabarito e concentrar o eixo de culpabilidade."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2468,
+  "cache_w": 20064,
+  "cache_r": 14150,
+  "custo_usd": 0.12198300000000001
+ }
+}

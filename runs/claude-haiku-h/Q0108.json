@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5512",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre o recurso cabível contra decisão interlocutória que indefere prescrição durante audiência de instrução. O tema central é o Recurso em Sentido Estrito (RESE), especificamente sua hipótese de cabimento prevista no art. 581, VII, CPP (decisão que indefere extinção da punibilidade) e sua característica processual de não ter efeito suspensivo automático por lei (art. 586, CPP). Classificada em 5561 (RESE) porque trata de recurso concreto em suas características próprias de cabimento, legitimidade e efeito específico. Segunda opção 5512 abrange a teoria geral dos efeitos recursais, embora a questão seja bem específica do RESE. Não é multi-tema pois o eixo é unicamente qual recurso cabe e seu efeito suspensivo, não sobre prescrição material.",
+ "id": "Q0108",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5512",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre o recurso cabível contra decisão interlocutória que indefere prescrição durante audiência de instrução. O tema central é o Recurso em Sentido Estrito (espécie de recurso específica) e seu efeito suspensivo. Classificada em 5560 (Recursos em Espécies) por tratar de um recurso concreto em suas características próprias. Segunda opção: 5512 (Parte Geral dos Recursos) abrange a teoria geral dos efeitos recursais. Não é multi-tema pois o eixo é unicamente sobre qual recurso cabe e seu efeito suspensivo, não sobre prescrição material."
+ },
+ "uso": {
+  "in": 20,
+  "out": 6098,
+  "cache_w": 14768,
+  "cache_r": 12522,
+  "custo_usd": 0.0712072
+ }
+}
