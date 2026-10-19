@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5149",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.65,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5160",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão que testa qualificação de crimes em concurso: tentativa de homicídio por Caio (disparou com dolo de matar, mas a morte foi provocada pela ação de Lívio com pedra, não consumando o delito) e latrocínio por Lívio (roubo que resultou em morte). O instituto jurídico central é a tentativa de homicídio, exigindo análise causal de quem matou. Classificado em 5149 (Crimes Contra a Vida) porque a qualificação do crime de Caio é mais relevante; segunda opção 5160 (Roubo) porque latrocínio é roubo com morte. Subtema não selecionado porque a questão não trata exclusivamente de um subtema de crimes contra a vida. Confiança moderada (0.65) no ramo pela simultaneidade de institutos de vida e patrimônio.",
+ "id": "Q0159",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P4",
+  "segundo_grupo_id": "P5",
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "Questão que testa qualificação de homicídio consumado vs tentado (Caio disparou com dolo de matar mas não consumou porque outro sujeito matou) e latrocínio (Lívio praticou roubo que resultou em morte). O crime central é homicídio (P4), secundariamente envolve latrocínio (P5). Há eixo comum na análise, portanto não é multi_tema. Confiança moderada porque questão aborda múltiplos institutos (homicídio, tentativa, latrocínio), e poderia razoavelmente caber também em P5 ou P2 conforme ênfase pedagógica."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5149",
+  "segunda_opcao_n1_id": "5157",
+  "confianca_ramo": 0.7,
+  "multi_tema": false,
+  "justificativa": "Questão que testa qualificação de homicídio consumado vs tentado (Caio disparou com dolo de matar mas não consumou porque outro sujeito matou por concussão cerebral) e latrocínio (Lívio praticou roubo que resultou em morte). O crime central é homicídio (P4) — especificamente a tentativa —, secundariamente envolve latrocínio (P5). Há eixo comum na análise (concurso de crimes), portanto não é multi_tema. Confiança moderada porque questão aborda múltiplos institutos (homicídio, tentativa, latrocínio) de ramos distintos, e poderia razoavelmente caber também em P5 conforme ênfase pedagógica."
+ },
+ "uso": {
+  "in": 30,
+  "out": 22014,
+  "cache_w": 22886,
+  "cache_r": 4639,
+  "custo_usd": 0.17058689999999999
+ }
+}

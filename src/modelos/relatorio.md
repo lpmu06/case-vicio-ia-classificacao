@@ -28,7 +28,7 @@ Luis Paulo · lpmu06@gmail.com · 19/10/2026 · código, dados e saídas brutas 
 | Enriquecer a taxonomia | 337 de 377 descrições eram texto gerado. Um LLM escreveu descrição, palavras-chave, artigos de lei e "não confundir com" para os 351 temas usáveis. Isso melhora todos os embeddings em 10 a 20 pontos | Sim, é a base de tudo |
 | LLM com a árvore inteira no prompt ("plano") | Funciona, mas o prompt tem 211 mil tokens por questão | Sim, como classificador principal |
 | LLM em camadas: 2 estágios (tema, depois subtema) e 3 estágios (grupo, tema, subtema) | Ver o experimento abaixo. 2 estágios fica no mesmo patamar do plano com um prompt 10 vezes menor; 3 estágios perde alguns pontos | 2 estágios sim; 3 estágios não |
-| Modelos menores (Sonnet, Haiku) | Em 2 estágios, o Sonnet empata com o Opus; o Haiku fica alguns pontos atrás | Sonnet como classificador principal |
+| Modelos menores (Sonnet, Haiku) | Em 2 estágios, o Sonnet empata com o Opus; o Haiku fica alguns pontos atrás | Sonnet em 2 estágios é um dos dois votantes |
 | Árbitro (Opus, esforço alto) | Escolhe entre os candidatos de todos, embaralhados, sem saber a maioria. Concorda com o consenso em 99,5% dos casos em que os dois classificadores principais concordam, e baixa a confiança de 0,89 para 0,63 quando eles divergem | Sim, como filtro e como sugestão para o professor |
 | Buscar a questão em bancos de outros sites | As questões estão na web, mas usar a classificação de um concorrente não nos pareceu correto | Descartado |
 
@@ -58,7 +58,7 @@ A segunda camada compensa: o prompt cai dez vezes e a consistência praticamente
 | Desconto de convenção | O professor pode arquivar diferente de qualquer modelo | −2 pontos nos dois primeiros |
 | Desconto das cópias da Legislação Especial | 10% de chance de a equipe ter usado as cópias recentes em Penal; «EXPO» das publicadas expostas | −«M67» pontos em todos |
 
-A previsão é a mediana dos três estimadores ajustados: **«PREC»**. O intervalo vai do pior limite inferior de 95% («PREC_LO») ao estimador sob independência («PREC_HI»). Se a equipe tiver rotulado nas cópias, a precisão real cairia para cerca de «PREC_67». Os limiares finais vieram da [análise de sensibilidade](sensibilidade.md): exigir confiança 0,90 do árbitro em vez de 0,80 corta 11 pontos de cobertura, mas a faixa entre 0,80 e 0,90 concentrava 6 das 9 dúvidas da auditoria; subir para 0,95 corta mais 16 pontos sem ganho visível.
+A previsão é a mediana dos três estimadores ajustados: **«PREC»**. O intervalo vai do pior limite inferior de 95% («PREC_LO») ao estimador sob independência («PREC_HI»). Se a equipe tiver rotulado nas cópias, a precisão real cairia para cerca de «PREC_67». Os limiares finais vieram da [análise de sensibilidade](sensibilidade.md): exigir confiança 0,90 do árbitro em vez de 0,80 corta 11 pontos de cobertura, mas 5 das 9 dúvidas da auditoria estavam nessa faixa, e o limiar de 0,90 no subtema neutraliza uma sexta, de subtema irmão; subir para 0,95 corta mais 16 pontos sem ganho visível.
 
 ## b) Diagnóstico: o que atrapalha máquina e humano
 
@@ -77,12 +77,12 @@ A previsão é a mediana dos três estimadores ajustados: **«PREC»**. O interv
 
 | Tipo de questão | Unânimes | Publicadas |
 |---|---|---|
-| Múltipla escolha | «D_ME_U» | «D_ME_P» |
+| Múltipla escolha («N_ME») | «D_ME_U» | «D_ME_P» |
 | Certo ou errado («N_CE») | «D_CE_U» | «D_CE_P» |
-| Alternativas sobre institutos diferentes, "multi-tema" («N_MT») | «D_MT_U» | «D_MT_P» |
-| Demais | «D_NMT_U» | «D_NMT_P» |
+| Alternativas sobre institutos diferentes, segundo algum classificador («N_MT») | «D_MT_U» | «D_MT_P» |
+| As demais | «D_NMT_U» | «D_NMT_P» |
 
-Questões multi-tema e de certo ou errado são as mais difíceis: as primeiras não têm tema central, e as segundas trazem uma afirmação curta com pouco contexto. Os pares de ramos que os modelos mais confundem foram Juizado Especial Criminal × Procedimento Sumaríssimo, Lei de Execução Penal × Teoria da Pena, Competência × Inquérito Policial e Organizações Criminosas × Provas em Espécie. São fronteiras em que até professores divergem, e nelas exigimos unanimidade para publicar.
+Questões multi-tema e de certo ou errado são as mais difíceis: as primeiras não têm tema central, e as segundas trazem uma afirmação curta com pouco contexto. Os pares de ramos que os modelos mais confundem foram: «PARES». São fronteiras em que até professores divergem, e nelas exigimos unanimidade para publicar.
 
 ## c) Produção: 50 mil questões por semana
 

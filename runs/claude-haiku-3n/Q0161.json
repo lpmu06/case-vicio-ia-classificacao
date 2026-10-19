@@ -1,0 +1,44 @@
+{
+ "fora": false,
+ "tema_n1_id": "5584",
+ "subtema_n2_id": "5589",
+ "confianca_ramo": 0.82,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5517",
+ "extras_ids": [
+  "5588",
+  "5518",
+  "5523",
+  "5522",
+  "5521"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão centrada em audiência de custódia (art. 310 CPP), em que preso é apresentado ao juiz para controle de legalidade. O cenário envolve busca domiciliar ilegal (sem mandado, sem consentimento do morador), que contamina e torna nulo o flagrante delito. A defesa deve requerer o relaxamento da prisão por essa ilegalidade, não substituição para outra forma legal de custódia. A questão testa conhecimento sobre: (i) violação de garantias constitucionais (direitos do preso, inviolabilidade do domicílio), (ii) controle judicial dessa legalidade, e (iii) a providência apropriada quando há vício (relaxamento, art. 310 I) em contraste com providências para prisões legais (liberdade provisória, medidas cautelares diversas, prisão domiciliar). Tema: Teoria Geral das Prisões (5584) — controle judicial e garantias da prisão. Subtema: Audiência de Custódia (5589) — ato jurídico específico onde são decididas todas essas providências. Confiança reduzida levemente de 5589 apenas pela possibilidade legítima de estar em 5588 (Relaxamento), mas o contexto de audiência de custódia é determinante.",
+ "id": "Q0161",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP5",
+  "segundo_grupo_id": "PP7",
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre medidas cautelares na audiência de custódia (relaxamento de prisão em flagrante, liberdade provisória, conversão em medidas diversas). O tema central é Prisões e Medidas Cautelares (PP5). Secundariamente envolve questões de nulidades processuais pela ilegalidade da busca domiciliar (PP7). Questão típica de Processo Penal, sem multi-temática."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5517",
+  "segunda_opcao_n1_id": "5584",
+  "confianca_ramo": 0.8,
+  "multi_tema": false,
+  "justificativa": "Questão sobre medidas cautelares na audiência de custódia, testando conhecimento das modalidades concretas de custódia (relaxamento, liberdade provisória, medidas cautelares diversas, prisão domiciliar) e a estratégia de defesa. Tema central: Prisões em Espécie (5517), que abrange as modalidades concretas e institutos de substituição/cessação da custódia. Segunda opção: Teoria Geral das Prisões (5584), pelo contexto da audiência de custódia. O aspecto da ilegalidade da busca domiciliar é contextual. Sem multi-temática; todas as alternativas tratam de medidas cautelares no mesmo eixo. Confiança reduzida levemente (0.80) apenas pela possibilidade legítima de estar em 5584, dado que a audiência de custódia é subtema específico daquele tema."
+ },
+ "uso": {
+  "in": 30,
+  "out": 16866,
+  "cache_w": 21083,
+  "cache_r": 4639,
+  "custo_usd": 0.13939590000000002
+ }
+}

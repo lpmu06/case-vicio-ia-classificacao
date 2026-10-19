@@ -1,0 +1,30 @@
+[
+ {
+  "a": "4701",
+  "b": "5539",
+  "titulo_a": "Juizado Especial Criminal",
+  "titulo_b": "Procedimento Sumaríssimo",
+  "questoes": 7
+ },
+ {
+  "a": "4703",
+  "b": "5199",
+  "titulo_a": "Lei de Execução Penal",
+  "titulo_b": "Teoria da Pena",
+  "questoes": 5
+ },
+ {
+  "a": "5480",
+  "b": "5498",
+  "titulo_a": "Competência",
+  "titulo_b": "Inquérito Policial",
+  "questoes": 3
+ },
+ {
+  "a": "4705",
+  "b": "5543",
+  "titulo_a": "Organizações Criminosas",
+  "titulo_b": "Provas em Espécies",
+  "questoes": 3
+ }
+]

@@ -62,7 +62,9 @@ def main():
         "D_CE_U": p0(g["certo_errado"]["unanimes"]), "D_CE_P": p0(g["certo_errado"]["publicadas"]),
         "D_MT_U": p0(g["multi"]["unanimes"]), "D_MT_P": p0(g["multi"]["publicadas"]),
         "D_NMT_U": p0(g["nao_multi"]["unanimes"]), "D_NMT_P": p0(g["nao_multi"]["publicadas"]),
-        "N_MT": str(g["multi"]["n"]), "N_CE": str(g["certo_errado"]["n"]),
+        "N_MT": str(g["multi"]["n"]), "N_CE": str(g["certo_errado"]["n"]), "N_ME": str(g["multipla_escolha"]["n"]),
+        "PARES": ", ".join(f"{p['titulo_a']} × {p['titulo_b']}" for p in
+                           json.loads((RAIZ / "runs" / "pares_confundiveis.json").read_text(encoding="utf-8"))),
     }
     modelo = (RAIZ / "src" / "modelos" / "relatorio.md").read_text(encoding="utf-8")
     faltando = sorted(set(re.findall(r"«([A-Z0-9_]+)»", modelo)) - set(v))

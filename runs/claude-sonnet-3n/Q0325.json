@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5471",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.65,
+ "segunda_opcao_id": "5467",
+ "extras_ids": [
+  "5469",
+  "5473"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 \"Ação Penal\" (5466): todas as alternativas giram em torno de institutos da teoria da ação penal (condições específicas de procedibilidade, inépcia da denúncia, litispendência, justa causa, representação). Embora as alternativas tratem de institutos variados (o que justifica manter multi_tema=true, pois o aluno precisa dominar vários subtemas para eliminar as incorretas), a alternativa correta (E) versa especificamente sobre a retratação da representação na Lei Maria da Penha — condição de procedibilidade da ação penal pública condicionada, matéria central do subtema \"Ação Penal Pública Condicionada\" (5471), que expressamente lista \"violência doméstica\" e o art. 16 da Lei 11.340/2006 entre seus dispositivos e palavras-chave. Como a resposta da questão depende do conhecimento desse instituto específico, classifico no subtema 5471, com confiança moderada (há risco de a questão ser vista como puramente multi-tema, sem subtema definido, dado que as demais alternativas versam sobre justa causa, inépcia e litispendência — por isso indico \"Características e Condições da Ação Penal\" (5467) como segunda opção, que abrange justa causa, inépcia e litispendência de forma mais genérica).",
+ "id": "Q0325",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": true,
+  "justificativa": "As alternativas versam sobre institutos ligados à ação penal: justa causa para denúncia, litispendência, inépcia da denúncia, condições específicas da ação penal pública condicionada na Lei Maria da Penha e requisitos para transação penal/suspensão condicional do processo em crimes ambientais. O eixo comum é a teoria da ação penal (condições, requisitos e extinção da punibilidade processual), tema de nível 1 \"Ação Penal\" dentro do grupo PP2 (Investigação e ação penal). Não há um subtema único exato, por isso classifico no grupo que melhor abrange o conjunto, com indicação de multi-tema pela diversidade de institutos tratados em cada alternativa."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5498",
+  "confianca_ramo": 0.8,
+  "multi_tema": true,
+  "justificativa": "As cinco alternativas tratam de institutos diversos ligados à teoria da ação penal: condições específicas (transação penal/suspensão condicional em crimes ambientais), inépcia da denúncia, litispendência, justa causa para a denúncia e condição de procedibilidade (representação) na Lei Maria da Penha. Todos esses institutos giram em torno dos requisitos e vicissitudes da ação penal (recebimento da denúncia, condições de procedibilidade, extinção da punibilidade processual), o que se encaixa no tema de nível 1 \"Ação Penal\" (id 5466), que contém subtemas como Denúncia, Ação Penal Pública Condicionada e Princípios da Ação Penal, cobrindo o conjunto. Não há um único subtema que abranja todas as alternativas, por isso a classificação fica no nível 1 e marco multi-tema. Como segunda opção, indico \"Inquérito Policial\" (5498), pois a justa causa e a investigação preliminar guardam relação indireta com a fase pré-processual, embora o eixo principal seja claramente a ação penal."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2840,
+  "cache_w": 18140,
+  "cache_r": 14150,
+  "custo_usd": 0.116677
+ }
+}

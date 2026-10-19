@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4703",
+ "extras_ids": [
+  "5184"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo a classificação anterior. A questão mistura quatro institutos distintos: (I) regime de cumprimento da prisão simples (art. 6º CP, próximo de 5201 dentro de Teoria da Pena), (II) penas acessórias — figura histórica do CP revogada em 1984, hoje tematicamente aproximada de efeitos da condenação (5209), (III) semi-imputabilidade e aplicação de medida de segurança (art. 98 CP, tema irmão 5184, não subtema de 5199), e (IV) trabalho do preso remunerado com piso de 3/4 do salário mínimo, que é regra específica do art. 29 da LEP (matéria de execução penal, 4703). Não há eixo único de nível 2 dentro de 5199 que abranja os quatro itens, por isso subtema_n2_id = null e multi_tema = true. Mantenho 5199 como tema de nível 1 predominante (I e, em sentido amplo, II e III tocam sanção penal/medida de segurança como institutos da parte geral do CP), com 4703 (LEP) como segunda opção forte dado o peso do item IV, e acrescento 5184 (Medida de Segurança) como extra pela relevância do item III. A confiança no ramo é moderada (0,55) justamente pela natureza híbrida da questão, que poderia também ser enquadrada predominantemente em LEP se o critério de peso privilegiar o item mais específico e menos \"genérico historicamente revogado\".",
+ "id": "Q0324",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": "LE4",
+  "confianca": 0.65,
+  "multi_tema": true,
+  "justificativa": "A questão mistura itens sobre regime de cumprimento da pena de prisão simples, penas acessórias e semi-imputabilidade/medida de segurança - todos institutos de Teoria da Pena e Medida de Segurança (grupo P3, Parte Geral). O item IV trata de trabalho do preso, que é matéria de execução penal (LEP), por isso indico LE4 como segunda opção. Como o eixo predominante é a teoria da pena/medida de segurança do Código Penal, P3 é o grupo mais adequado."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "4703",
+  "confianca_ramo": 0.65,
+  "multi_tema": true,
+  "justificativa": "A questão combina quatro itens de institutos diferentes: (I) regime de cumprimento da pena de prisão simples, (II) penas acessórias (figura histórica do CP, hoje tratada dentro de Sanção Penal/efeitos da condenação), (III) semi-imputabilidade e aplicação de medida de segurança, e (IV) trabalho do preso remunerado, que é matéria típica da LEP (execução penal). Não há um subtema único de nível 2 que abarque todos os itens dentro de Teoria da Pena, pois eles tocam sanção penal em geral, medida de segurança e execução penal simultaneamente - por isso marco multi_tema=true. O eixo predominante (3 de 4 itens: I, II, III) é a teoria da pena e da medida de segurança como consequências jurídicas do crime antes/durante a fase de conhecimento, cabendo no guarda-chuva 5199 (Teoria da Pena), que inclusive abrange \"Sanção Penal: Conceito, Finalidade e Modalidades\" e dialoga com Medida de Segurança (tema irmão 5184, não é necessariamente o mesmo grupo mas do mesmo bloco P3). Como o item IV é puramente execução penal (regulamentação do trabalho do preso conforme LEP), indico LE4 (Lei de Execução Penal, id 4703) como segunda opção, mantendo a mesma linha da classificação anterior."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3681,
+  "cache_w": 16999,
+  "cache_r": 14150,
+  "custo_usd": 0.119536
+ }
+}

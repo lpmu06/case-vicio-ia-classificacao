@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "A questão exige conhecimento literal dos tipos penais dos arts. 34 a 39 da Lei 11.343/2006 (fornecimento de maquinário, oferecimento de droga, prescrição culposa, condução de veículo sob efeito de droga, cessão de local para tráfico), cada alternativa tratando de um dispositivo diferente da mesma lei. Como o tema 4708 abrange toda a parte penal da Lei de Drogas e não possui subtemas, a classificação correta é o próprio tema de nível 1, sem subtema (null). É caso de multi-tema interno (vários tipos penais distintos), mas todos dentro do mesmo ramo, confirmando o enquadramento anterior.",
+ "id": "Q0326",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento literal dos tipos penais previstos na Lei 11.343/06 (Lei de Drogas), especificamente os artigos relativos a fornecimento de maquinário, oferecimento de droga, prescrição culposa, condução de veículo e cessão de local para tráfico. Trata-se de matéria de Legislação Especial, enquadrando-se no tema \"Tráfico de Drogas\" do grupo LE1."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão testa o conhecimento literal de diversos tipos penais da Lei 11.343/2006 (arts. 33, §1º e §3º, 34, 38 e 39), todos inseridos na parte penal da Lei de Drogas. Como o tema \"Tráfico de Drogas\" (4708) é descrito como abrangendo \"a Lei de Drogas (Lei 11.343/2006) em sua parte penal\", é o enquadramento correto, mesmo tratando de figuras diversas (fornecimento de maquinário, oferecimento de droga, prescrição culposa, condução de veículo, cessão de local), pois todas pertencem ao mesmo diploma legal e ao mesmo tema de nível 1. Não há outro tema da árvore que trate dessas condutas específicas, logo não é caso de \"fora\" nem de multi-tema entre ramos diferentes."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2565,
+  "cache_w": 9570,
+  "cache_r": 14150,
+  "custo_usd": 0.072517
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5228",
+ "subtema_n2_id": "5230",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5229",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre excludentes de ilicitude segundo o Código Penal. A resposta correta é estado de necessidade (art. 23, I, CP), que é causa legal de exclusão da ilicitude. As demais alternativas (erro de proibição, doença mental, embriaguez acidental, menoridade penal) referem-se a causas de exclusão de culpabilidade ou imputabilidade, não de ilicitude. O subtema 5230 é específico porque a questão testa o conhecimento de estado de necessidade como justificante, não apenas a teoria geral da ilicitude.",
+ "id": "Q0287",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5228",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "Questão sobre excludentes de ilicitude, diferenciando causas de exclusão da ilicitude (estado de necessidade) de causas de exclusão de culpabilidade (erro de proibição, doença mental) e inimputabilidade. Tema claramente identificado como Teoria do Crime: Ilicitude (5228), que abrange a antijuridicidade como segundo substrato analítico do crime e suas causas de exclusão supralegais."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4444,
+  "cache_w": 9788,
+  "cache_r": 12522,
+  "custo_usd": 0.047984200000000005
+ }
+}

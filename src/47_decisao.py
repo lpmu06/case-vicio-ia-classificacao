@@ -228,6 +228,10 @@ def main():
         print(f"  {k[0]:9s} nível {k[1]}: {v}")
     print(f"cobertura: {pub}/{n} = {pub / n:.1%}")
     top = sorted(conf_pairs.items(), key=lambda x: -x[1])[:12]
+    if a.saida == str(RAIZ / "publicacao.csv"):
+        (RAIZ / "runs" / "pares_confundiveis.json").write_text(json.dumps(
+            [{"a": x, "b": y, "titulo_a": A.rotulo(x), "titulo_b": A.rotulo(y), "questoes": c} for (x, y), c in top],
+            ensure_ascii=False, indent=1), encoding="utf-8")
     print("pares confundíveis mais frequentes:", [(A.titulo(x)[:30], A.titulo(y)[:30], c) for (x, y), c in top])
 
 

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4374",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.4,
+ "segunda_opcao_id": "4377",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmação de 4374 (Política Criminal). A questão aborda prevenção secundária do delito — estratégia estatal de enfrentamento da criminalidade dirigida a grupos de risco. Este é conteúdo central de Política Criminal (formulação de estratégias e modelos de controle social), não de processos de criminalização ou cifras criminais. O tema não é específico de nenhum subtema (não é corrente doutrinária nem Direito Penal do Inimigo), por isso subtema_n2_id = null.",
+ "id": "Q0179",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão aborda prevenção secundária do delito, uma classificação das estratégias de prevenção que integra o tema Política Criminal. A prevenção secundária — ações dirigidas a grupos de risco — é conteúdo central de Política Criminal em Criminologia, não de \"Criminologia no Estado Democrático\" (C1). Classificação clara, alta confiança."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4374",
+  "segunda_opcao_n1_id": "4377",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão aborda prevenção secundária do delito — estratégia de enfrentamento da criminalidade dirigida a grupos de risco. Esta é conteúdo central de Política Criminal (formulação de estratégias estatais e sociais), não de processos de criminalização (que tratam da definição legal de condutas como crimes). Classificação clara no tema 4374."
+ },
+ "uso": {
+  "in": 30,
+  "out": 5512,
+  "cache_w": 15607,
+  "cache_r": 4639,
+  "custo_usd": 0.0661279
+ }
+}
