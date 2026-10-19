@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4380",
+ "subtema_n2_id": "4381",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4382",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede o item que NÃO é objeto de estudo da Criminologia, listando crime, vítima, controle social e personalidade do delinquente (objetos clássicos/modernos) versus \"dever-ser\" (que é objeto do Direito Penal, ciência normativa). Isso é exatamente a delimitação do objeto da Criminologia, tema do subtema 4381 (Conceito e objeto da Criminologia), e não trata de métodos/funções (4382).",
+ "id": "Q0334",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C1",
+  "segundo_grupo_id": "C3",
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata do objeto de estudo da Criminologia (crime, vítima, controle social, personalidade do delinquente), exigindo conhecimento sobre fundamentos e conceitos gerais da disciplina criminológica - distinguindo-se do \"dever-ser\" (objeto do Direito Penal, não da Criminologia, que trabalha com o \"ser\"). Esse conteúdo conceitual básico se encaixa em \"Teoria Geral da Criminologia\" (C1)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4380",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão pergunta diretamente qual item NÃO é objeto de estudo da Criminologia, testando o conceito e objeto da disciplina (crime, vítima, controle social, personalidade do delinquente vs. \"dever-ser\", que é objeto do Direito Penal). Isso se encaixa perfeitamente em \"Teoria Geral da Criminologia\" (4380), cujo subtema \"Conceito e objeto da Criminologia\" é exatamente o testado. Não há elementos de vitimologia específica, classificações de vítimas/criminosos ou síndromes que justifiquem o grupo C3."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1164,
+  "cache_w": 9379,
+  "cache_r": 14150,
+  "custo_usd": 0.057562
+ }
+}

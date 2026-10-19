@@ -1,0 +1,43 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5116",
+ "extras_ids": [
+  "5159",
+  "5160",
+  "5164",
+  "5169"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 \"Dos Crimes Contra o Patrimônio\" (5157), pois todas as alternativas giram em torno de institutos do Título dos Crimes Contra o Patrimônio: ação penal no dano (art. 163, alternativa A), natureza da majorante do roubo por transporte de valores - art. 157, §2º, I (alternativa B, correta, pois é causa de aumento objetiva, aplicável independentemente do conhecimento do agente sobre a circunstância, segundo entendimento consolidado), vedação à analogia in malam partem para estender majorante do roubo ao furto em concurso de pessoas (alternativa C, incorreta), natureza do crime de duplicata simulada - art. 172 CP, inserido sistematicamente em \"Estelionato e outras fraudes\" dentro de Crimes Contra o Patrimônio (alternativa D), e perdão judicial na receptação dolosa simples - art. 180, §5º (alternativa E). Como cada alternativa versa sobre um delito ou instituto distinto (dano, roubo, furto, duplicata simulada, receptação), sem eixo único além do ramo comum, trata-se de questão multi-tema. O subtema de nível 2 fica null porque não há prevalência de um único instituto - a resposta correta (B) remete a roubo, mas a questão como um todo exige conhecimento transversal de furto, dano, estelionato/fraudes e receptação. Segunda opção (Fé Pública, 5116) permanece fraca, pela menção à duplicata simulada, mas o tipo está sistematicamente alocado em crimes contra o patrimônio (fraudes), não em fé pública/falsidade documental.",
+ "id": "Q0341",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam sobre institutos do Título dos Crimes Contra o Patrimônio no Código Penal: ação penal no dano (art. 163), majorante do roubo (transporte de valores), aplicação analógica de majorante ao furto qualificado, natureza do crime de duplicata simulada (art. 172, inserido no capítulo de estelionato e outras fraudes, dentro de crimes contra o patrimônio) e perdão judicial na receptação (art. 180). Embora cada alternativa trate de um delito/instituto distinto, todos se enquadram no mesmo tema de nível 1 \"Dos Crimes Contra o Patrimônio\" (grupo P5), não havendo necessidade de marcar como multi-tema, já que há eixo comum (patrimônio)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": "5116",
+  "confianca_ramo": 0.9,
+  "multi_tema": true,
+  "justificativa": "Todas as alternativas versam sobre institutos do Título dos Crimes Contra o Patrimônio: ação penal no dano (art. 163), majorante do roubo por transporte de valores, aplicação analógica de majorante ao furto em concurso de pessoas, natureza do crime de duplicata simulada (art. 172, inserido no capítulo de estelionato e outras fraudes, dentro de crimes contra o patrimônio) e perdão judicial na receptação (art. 180). Embora cada alternativa trate de delito/instituto distinto, há eixo comum (crimes patrimoniais), de modo que o tema de nível 1 \"Dos Crimes Contra o Patrimônio\" (5157) abrange adequadamente o conjunto, sendo marcada como multi-tema apenas pela diversidade de institutos dentro do mesmo ramo. Segunda opção (Fé Pública) é fraca, citada apenas pela menção à duplicata simulada, mas o tipo está sistematicamente alocado em crimes contra o patrimônio."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2797,
+  "cache_w": 18870,
+  "cache_r": 14150,
+  "custo_usd": 0.119519
+ }
+}

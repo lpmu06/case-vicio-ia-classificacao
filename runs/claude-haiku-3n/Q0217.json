@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4384",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre teoria foucaultiana de legitimação da pena: analisa a transformação da tecnologia e economia do poder punitivo no século XVIII (Reforma Humanista). Eixo testado é exclusivamente a TEORIA LEGITIMADORA — por que e como o Estado justifica e exerce o poder de punir. Tema 4384 (Teorias Legitimidoras da Pena) é aplicável e inequívoco. Sem subtemas conforme indicação do tema.",
+ "id": "Q0217",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": "C1",
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre a teoria foucaultiana de legitimação da pena (reforma humanista como nova tecnologia de poder punitivo), não como história das escolas. Tema aplicável e explícito na árvore (C2 > Teorias Legitimidoras da Pena). Pista fraca está correta."
+ },
+ "estagioB": {
+  "tema_n1_id": "4384",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "Questão sobre teoria foucaultiana de legitimação da pena (Vigiar e Punir): transformação da tecnologia e economia do poder punitivo no século XVIII. Contexto histórico, mas o eixo testado é exclusivamente a TEORIA LEGITIMADORA, não história das escolas. Tema 4384 aplicável e inequívoco."
+ },
+ "uso": {
+  "in": 30,
+  "out": 4846,
+  "cache_w": 13639,
+  "cache_r": 4639,
+  "custo_usd": 0.056936900000000006
+ }
+}

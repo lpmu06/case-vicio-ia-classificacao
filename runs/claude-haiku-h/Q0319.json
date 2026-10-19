@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": "5073",
+ "confianca_ramo": 1,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre impossibilidade de coautoria em crimes culposos, unissubsistentes e habituais/de mera conduta. O eixo central é coautoria (uma modalidade específica de autoria), não a distinção geral entre autores e partícipes. Subtema 5073 é o mais específico: aborda formas precisas de autoria, incluindo coautoria, e as condições para sua viabilidade. A pergunta explora limitações objetivas (tipo de crime) que impedem coautoria — expertise clara de 5073, não de 5072 (que é mais conceitual e amplo).",
+ "id": "Q0319",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "Questão sobre impossibilidade de co-autoria em crimes culposos, unissubsistentes e habituais/mera conduta. Trata exclusivamente da teoria geral de concurso de pessoas, especificamente dos requisitos e limitações à coautoria. Tema inequívoco: Concurso de Pessoas (nível 1), Penal."
+ },
+ "uso": {
+  "in": 20,
+  "out": 6612,
+  "cache_w": 9677,
+  "cache_r": 12522,
+  "custo_usd": 0.05853119999999999
+ }
+}

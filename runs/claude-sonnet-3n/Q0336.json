@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5159",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5160",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão narra subtração de celular sem violência ou grave ameaça (furto), e a pergunta central é sobre o momento consumativo do furto conforme jurisprudência consolidada do STJ: consuma-se com a inversão da posse (saída do bem da esfera de vigilância da vítima), independentemente de posse mansa e pacífica ou de o agente ser imediatamente perseguido/abordado. O instituto testado é especificamente o furto (consumação x tentativa), não havendo violência/ameaça que justifique roubo, nem posse lícita anterior que configure apropriação indébita. Trata-se, portanto, do subtema Furto (5159), dentro do tema Dos Crimes Contra o Patrimônio (5157), confirmando a classificação anterior.",
+ "id": "Q0336",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata de furto (subtração sem violência/grave ameaça) e exige conhecimento da jurisprudência do STJ (Súmula 582) sobre o momento consumativo do furto (necessidade de posse mansa e pacífica), para diferenciar furto consumado de tentado. O tema central é \"Dos Crimes Contra o Patrimônio\", que está no grupo P5 (Penal - parte especial: patrimônio)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão narra subtração de celular sem violência/grave ameaça (furto) e exige saber o momento consumativo do furto segundo a jurisprudência (STJ) — basta a inversão da posse, com saída do bem da esfera de vigilância da vítima, independentemente de posse mansa e pacífica ou de o agente ser perseguido imediatamente após. O instituto testado (consumação x tentativa de furto) pertence ao tema \"Dos Crimes Contra o Patrimônio\" (grupo P5), que já contém o subtema \"Furto\". Não há outro tema de nível 1 que trate especificamente desse ponto, pois roubo e apropriação indébita aparecem apenas como alternativas incorretas de descarte, sem constituir eixo central da questão."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1841,
+  "cache_w": 16691,
+  "cache_r": 14150,
+  "custo_usd": 0.09947399999999999
+ }
+}

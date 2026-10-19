@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5189",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5188",
+ "extras_ids": [
+  "5187"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão sobre prescrição da pretensão executória (5189). A resposta correta (4 anos após trânsito em julgado) resulta de cálculo específico de prescrição executória: metade do prazo de prescrição punitiva para roubo majorado (8 anos). O subtema 5189 é o melhor enquadramento pois aborda cálculo pela pena aplicada e contagem após trânsito em julgado. A alternativa (A) funciona como distrator, mencionando prescrição punitiva (5188), exigindo que o aluno diferencie as espécies. Confiança elevada: tema e subtema muito bem definidos pela jurisprudência atual do STF.",
+ "id": "Q0315",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "tema_n1_id": "5185",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "Questão sobre prescrição executória segundo jurisprudência do STF. Instituto jurídico central é a prescrição penal (tema 5185 — Prescrição), categoria de direito material que causa extinção da punibilidade. Não é processo penal pois não aborda procedimento, provas ou recursos. Tema bem definido, sem ambiguidades de classificação."
+ },
+ "uso": {
+  "in": 20,
+  "out": 8933,
+  "cache_w": 10419,
+  "cache_r": 12522,
+  "custo_usd": 0.07233919999999999
+ }
+}

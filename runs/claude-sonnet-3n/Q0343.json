@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": "5196",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [
+  "5195"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa diretamente o regime jurídico do perdão do ofendido: sua natureza bilateral (dependência de aceitação do querelado), os efeitos da rejeição expressa pela parte acusada e a impossibilidade de a inércia posterior do querelante (que configuraria perempção) suprir essa rejeição para extinguir a punibilidade. Todas as alternativas giram em torno exatamente desse instituto - renúncia, perdão e sua interação com perempção -, que tem subtema exato na árvore de Penal: \"Renúncia, Perdão do Ofendido e Retratação\" (5196), cujo descritivo menciona expressamente \"necessidade de aceitação no perdão\" e \"comunicabilidade entre querelados\". O tema de nível 1 \"Punibilidade\" (5191) é o correto porque a pergunta versa sobre causa extintiva da punibilidade (art. 107, V e VI, CP) e seu funcionamento técnico, não sobre titularidade, espécie ou condições da ação penal (o que seria Processo Penal > Ação Penal, 5466). Mantenho 5466 como segunda opção plausível pelo contexto processual da narrativa (processo em curso por ação penal privada), e incluo 5195 (Perempção) como extra relevante, já que a alternativa B menciona expressamente o instituto da perempção (30 dias de inércia) como possível \"mitigação\" do perdão rejeitado, tema tangente mas não central.",
+ "id": "Q0343",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.65,
+  "multi_tema": false,
+  "justificativa": "A questão testa institutos específicos da ação penal privada (perdão do ofendido, sua bilateralidade, perempção, renúncia), regulados nos arts. 50-60 do CPP, dentro do tema \"Ação Penal\". Embora esses institutos também causem extinção da punibilidade (matéria de Penal/P3), o enfoque da questão é processual, sobre o funcionamento da ação penal privada, cabendo melhor em PP2 (Ação Penal) do Processo Penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5191",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão testa especificamente o regime jurídico do perdão do ofendido (natureza bilateral, necessidade de aceitação) e a possibilidade de perempção, institutos classificados pelo próprio CP/CPP como causas de extinção da punibilidade. A árvore de Penal (P3) tem o tema \"Punibilidade\" (5191) com subtemas exatos para isso: \"Renúncia, Perdão do Ofendido e Retratação\" e \"Perempção\" — que casam perfeitamente com o conteúdo cobrado (bilateralidade do perdão, efeitos da rejeição, hipótese de perempção). Já em Processo Penal, o tema \"Ação Penal\" (5466) trata de titularidade, espécies e condições da ação, sem subtema específico que replique esse recorte sobre perdão/perempção como causas extintivas. Como o critério 1 orienta classificar pelo instituto efetivamente testado (aqui, as causas de extinção da punibilidade), e há subtema exato em Punibilidade, prefiro 5191, mantendo 5466 como segunda opção plausível dado o contexto de ação penal privada."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3285,
+  "cache_w": 18247,
+  "cache_r": 14150,
+  "custo_usd": 0.121691
+ }
+}

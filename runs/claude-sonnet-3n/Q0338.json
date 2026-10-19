@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5590",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [
+  "5548",
+  "5545",
+  "5550"
+ ],
+ "multi_tema": true,
+ "justificativa": "Reanalisando o mérito das alternativas: (A) é falsa (indícios têm valor legal, art. 239 CPP); (B) é falsa porque a confissão é divisível, não indivisível (a doutrina fala em retratabilidade, divisibilidade e relatividade); (C) é discutível/incompleta quanto à dispensa de compromisso; (E) é falsa porque o art. 159, §1º, CPP exige duas pessoas idôneas na falta de perito oficial, não apenas uma. A alternativa (D) reproduz literalmente o art. 155, parágrafo único, do CPP (\"somente quanto ao estado das pessoas serão observadas as restrições à prova estabelecidas na lei civil\"), que é regra geral de admissibilidade da prova no processo penal, matéria de Teoria Geral das Provas (5590), e não um meio de prova em espécie. Como o gabarito mais provável é a alternativa correspondente a uma regra geral de admissibilidade, reclassifico o tema de nível 1 principal para 5590, mantendo 5543 como segunda opção relevante, já que as demais alternativas versam sobre institutos específicos (confissão, testemunha, exame de corpo de delito) típicos de Provas em Espécie. Não atribuo subtema de nível 2 com segurança, pois nenhum subtema de 5590 corresponde exatamente à restrição de prova civil sobre estado das pessoas, e a questão é claramente multi-tema.",
+ "id": "Q0338",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata das regras de prova do CPP (indícios, confissão, testemunhas proibidas de depor, restrições da lei civil, exame de corpo de delito por perito não oficial - arts. 159, 197-200, 207, 232 do CPP), que são institutos de Provas em Espécie / Teoria Geral das Provas, enquadrando-se no grupo PP4 (Provas)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.65,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos distintos em cada alternativa: indícios/presunção (teoria geral da prova), confissão, testemunhas proibidas de depor, restrições da lei civil à prova e exame de corpo de delito por perito não oficial. A maioria das alternativas versa sobre meios de prova em espécie (confissão - art. 200; testemunhas - art. 207; exame de corpo de delito - art. 159), o que a enquadra preferencialmente em \"Provas em Espécies\" (5543), com subtemas Confissão e Exame de Corpo de Delito sendo os mais testados. Porém, a alternativa (A) trata de indícios (art. 239) e a (D) de restrições da prova civil (art. 155, parágrafo único), temas de Teoria Geral das Provas (5590), por isso marco como multi-tema, com 5590 como segunda opção plausível."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3634,
+  "cache_w": 18947,
+  "cache_r": 14150,
+  "custo_usd": 0.128353
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5487",
+ "subtema_n2_id": "5489",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5488",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre fluência de prazos no processo penal, com foco principal em intimação de órgãos legitimados (alternativas A, C, E versam sobre contagem de prazos para Defensoria Pública e MP). Encaixa-se em 5489 (Intimação e Contagem dos Prazos) pois trata de como se contam prazos para intimação da Defensoria Pública e Ministério Público. A alternativa D (regra geral sobre comunicação) gera pequena incerteza, mas o contexto geral é intimação e suas regras específicas de contagem de prazos.",
+ "id": "Q0295",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5487",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão de Processo Penal sobre comunicação de atos processuais e contagem de prazos. O núcleo da questão é a fluência de prazos para diferentes sujeitos processuais (defensoria pública, Ministério Público) e as formas de comunicação (intimação, publicação, mandado) que marcam o início da contagem. Encaixa-se perfeitamente em \"Comunicação dos Atos Processuais\" (tema 5487), particularmente nos subtemas \"Intimação e Contagem dos Prazos\" e \"Citação e Contagem dos Prazos\". Não há características de multi-tema (todas as alternativas versam sobre o mesmo eixo: contagem de prazos) nem de questão fora da árvore."
+ },
+ "uso": {
+  "in": 20,
+  "out": 10168,
+  "cache_w": 9189,
+  "cache_r": 12522,
+  "custo_usd": 0.07479720000000001
+ }
+}

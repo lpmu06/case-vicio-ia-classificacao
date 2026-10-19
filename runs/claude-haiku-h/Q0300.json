@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5079",
+ "subtema_n2_id": "5084",
+ "confianca_ramo": 1,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão testa especificamente o crime de favorecimento real (art. 349 CP): ocultação de arma de fogo que constitui corpo de delito e proveito do crime antecedente de roubo. A resposta exigida é distinguir favorecimento real (auxílio para tornar seguro o proveito) de favorecimento pessoal (auxílio na fuga do criminoso). Isso é exatamente o núcleo do subtema 5084. A tipificação é inequívoca: ocultação de objeto produto/corpo de delito caracteriza favorecimento real, não pessoal. Confiança máxima tanto no ramo (Penal, crime contra administração judicial) quanto no subtema específico.",
+ "id": "Q0300",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5079",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão trata especificamente de ocultação de objeto (arma de fogo) que constitui corpo de delito, tipificando favorecimento real (art. 349, CP). Teste é unívoco sobre este crime específico integrado ao tema 'Dos Crimes Contra a Administração Judicial'. Sem múltiplos temas ou ambiguidades."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4974,
+  "cache_w": 10596,
+  "cache_r": 12522,
+  "custo_usd": 0.0530472
+ }
+}

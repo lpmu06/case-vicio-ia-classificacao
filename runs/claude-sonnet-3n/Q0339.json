@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5572",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.65,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5524",
+ "extras_ids": [
+  "5578"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é claramente multi-tema, cada alternativa tratando de instituto diferente: (A) embargos de declaração da sentença (art. 382 CPP, vício formal da sentença - não há subtema específico listado em 5572 para isso, fica no nível 1); (B) desclassificação após pronúncia preclusa, tema de Procedimento do Júri (5527/5524); (C) limites da sentença quanto a agravantes não alegadas, ligado ao princípio da correlação acusação-sentença (5578); (D) nulidade por violação da correlação acusação-sentença, também relacionado a 5578. Como três das quatro alternativas (A, C, D) giram em torno da disciplina da sentença penal em sentido amplo (vícios, limites, correlação), mantenho PP7 - Sentença Penal (5572) como tema de nível 1 predominante, com confiança moderada dada a dispersão. Não escolho subtema de nível 2 porque as alternativas relevantes ao eixo central se dividem entre matéria sem subtema específico (embargos, A) e o subtema Princípio da Correlação (5578, relevante para C e D), não havendo um único subtema que abranja corretamente todo o conjunto - por isso subtema_n2_id = null, com 5578 listado como extra relevante. Mantenho 5524 (Procedimento do Júri) como segunda opção em razão da alternativa B.",
+ "id": "Q0339",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP7",
+  "segundo_grupo_id": "PP6",
+  "confianca": 0.72,
+  "multi_tema": true,
+  "justificativa": "As alternativas versam sobre institutos ligados à sentença penal: embargos de declaração (art. 382, CPP), correlação entre acusação e sentença/emendatio e mutatio libelli, e nulidade por violação da correlação - todos temas centrais de Sentença Penal (PP7). A alternativa B toca tangencialmente o procedimento do júri (pronúncia preclusa), por isso PP6 como segunda opção, mas o eixo comum das quatro alternativas é a disciplina da sentença penal (vícios, correção, correlação), não o procedimento do júri em si."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5572",
+  "segunda_opcao_n1_id": "5524",
+  "confianca_ramo": 0.7,
+  "multi_tema": true,
+  "justificativa": "As alternativas tratam de institutos variados, mas três das quatro (A - embargos de declaração da sentença, C - limites da sentença quanto a agravantes não alegadas, D - nulidade por violação da correlação acusação-sentença) giram em torno da disciplina da sentença penal (vícios, correção, correlação), tema central de PP7 - Sentença Penal. A alternativa B trata de desclassificação após pronúncia preclusa, assunto do procedimento do júri (PP6), por isso mantida como segunda opção. Como há dispersão temática (multi_tema=true), mas o eixo predominante é sentença penal, escolho PP7 com confiança moderada."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2628,
+  "cache_w": 16459,
+  "cache_r": 14150,
+  "custo_usd": 0.10633500000000001
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.7,
+ "segunda_opcao_id": "5562",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre o recurso cabível contra sentença que extingue a punibilidade por prescrição. Testa especificamente se RESE (incorreto) é adequado, quando o correto é apelação. A questão discrimina entre RESE (para decisões interlocutórias) e apelação (para sentenças). Classifica-se em [5561] RESE por ser esse o recurso questionado (e testando seu limite); segunda opção é [5562] Apelação (recurso correto, conforme art. 593, I, CPP). Confiança moderada no subtema por haver certa ambiguidade na distinção, mas a questão centra-se inequivocamente em Recursos em Espécies.",
+ "id": "Q0183",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa o recurso processual correto (recurso em sentido estrito vs apelação) contra uma sentença de extinção por prescrição e o prazo recursório. Embora prescrição seja o contexto, o tema central testado é claramente Processo Penal (recursos), não direito material penal. O erro da questão reside em confundir o tipo de recurso adequado: sentença definitiva exige apelação, não recurso em sentido estrito. Classificada em PP8 com alta confiança."
+ },
+ "estagioB": {
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5512",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "Questão sobre o recurso processual correto (apelação vs RESE) e prazo contra sentença de extinção por prescrição. Embora prescrição seja contexto, o tema central é recurso em espécie — claramente Processo Penal, não Penal material. Classificada em Recursos em Espécies."
+ },
+ "uso": {
+  "in": 40,
+  "out": 12887,
+  "cache_w": 27691,
+  "cache_r": 4639,
+  "custo_usd": 0.13542890000000002
+ }
+}

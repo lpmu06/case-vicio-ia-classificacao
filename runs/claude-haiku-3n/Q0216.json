@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4701",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmação: a questão trata exclusivamente de institutos da Lei 9.099/1995 (Lei dos Juizados Especiais Criminais). Todas as cinco alternativas convergem para requisitos, vedações ou efeitos dos despenalizadores: composição civil dos danos (A), transação penal em seus requisitos (B), homologação e coisa julgada material (C), procedimento de apuração e exame pericial (D), transação penal em crimes de ação penal privada (E). Nenhuma alternativa se afasta desse campo temático. A classificação em 4701 é absolutamente apropriada. Tema sem subtemas.",
+ "id": "Q0216",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "grupo_id": "LE4",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "A questão trata exclusivamente do Sistema de Juizados Especiais Criminais (Lei 9.099/1995), abordando institutos característicos dessa lei especial: composição civil, transação penal, homologação de transação e procedimentos. Esses institutos integram Legislação Especial > Juizado Especial Criminal (grupo LE4), não Processo Penal comum. A Lei 9.099 é um sistema processual especial regulado fora do CPP ordinário."
+ },
+ "estagioB": {
+  "tema_n1_id": "4701",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "A questão trata exclusivamente de institutos característicos do sistema de Juizados Especiais Criminais (Lei 9.099/1995): composição civil dos danos, transação penal, homologação da transação penal e infrações de menor potencial ofensivo. O enunciado deixa claro o recorte (\"Considerando o sistema de juizados especiais criminais\"), e todas as cinco alternativas convergem para esses institutos. A Lei 9.099 regulamenta um sistema processual especial fora do Código de Processo Penal ordinário, razão por que se classifica em Legislação Especial > Juizado Especial Criminal (LE4), não em Processo Penal comum. Nenhuma segunda opção é necessária."
+ },
+ "uso": {
+  "in": 30,
+  "out": 5368,
+  "cache_w": 14487,
+  "cache_r": 4639,
+  "custo_usd": 0.0621069
+ }
+}

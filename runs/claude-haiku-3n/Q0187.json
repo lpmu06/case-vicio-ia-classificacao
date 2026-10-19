@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5209",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre efeitos jurídicos da condenação criminal (perda de poder familiar, confisco de instrumento/produto do crime, perda de cargo público, reparação do dano). Embora mencione \"progressão de regime\", este é contexto, não o foco: a pergunta é se essa progressão é condicionada à reparação, que é efeito da condenação no âmbito de direito material penal (arts. 91-92 CP), não matéria de execução penal (LEP). Subtema 5209 abrange exatamente efeitos automáticos e específicos da sentença condenatória.",
+ "id": "Q0187",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "grupo_id": "P3",
+  "segundo_grupo_id": "LE4",
+  "confianca": 0.85,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "A questão trata de efeitos jurídicos da condenação criminal por corrupção: perdimento de poder familiar, natureza do veículo como instrumento do crime, perdimento de bens, progressão de regime e perda de cargo público. O eixo central é Teoria da Pena e seus efeitos extrapenais (P3). Embora mencione progressão de regime (característica de LE4), esse é apenas um dos tópicos abordados, não sendo o foco principal da questão."
+ },
+ "estagioB": {
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "4703",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "A questão trata centralmente de efeitos jurídicos da condenação criminal (perda de poder familiar, confisco de bens, perda de cargo público), que se enquadram no subtema \"Efeitos da Condenação Penais e Extrapenais\" dentro de Teoria da Pena (P3). Embora mencione progressão de regime (aspecto de execução penal - LE4), este é periférico; o foco é no regime jurídico que decorre da sentença condenatória no âmbito do direito material penal."
+ },
+ "uso": {
+  "in": 30,
+  "out": 6078,
+  "cache_w": 20540,
+  "cache_r": 4639,
+  "custo_usd": 0.08380090000000001
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.99,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre o princípio tempus regit actum e aplicação imediata da lei processual penal no tempo. A questão examina a regra do art. 2º do CPP: normas processuais penais têm efeito imediato, mas os atos anteriormente praticados sob a lei revogada permanecem válidos. Encaixa-se precisamente no subtema 5507 \"Lei Processual no Tempo\", que cobre exatamente este instituto (incidência imediata, validade dos atos anteriores, tempus regit actum). O tema de nível 1 [5505] é mantido como correto. Confiança muito alta em ambos os níveis.",
+ "id": "Q0204",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP1",
+  "segundo_grupo_id": null,
+  "confianca": 0.98,
+  "multi_tema": false,
+  "justificativa": "Questão sobre o princípio do efeito imediato (tempus regit actum) e aplicação das normas processuais penais no tempo. Encaixa-se perfeitamente no tema \"Lei Processual no Tempo e no Espaço\" do grupo PP1. É claramente uma matéria de Processo Penal, não de Direito Penal material. Nenhuma ambiguidade."
+ },
+ "estagioB": {
+  "tema_n1_id": "5505",
+  "segunda_opcao_n1_id": "5580",
+  "confianca_ramo": 0.95,
+  "fora": false,
+  "multi_tema": false,
+  "justificativa": "Questão sobre o princípio do efeito imediato (tempus regit actum) e sua aplicação na lei processual penal no tempo. Encaixa-se precisamente no tema 5505 \"Lei Processual no Tempo e no Espaço\", subtema \"Lei processual no Tempo\". Segunda opção: 5580 \"Princípios do Processo Penal\", tema guarda-chuva que também abrange princípios fundamentais, mas menos específico que 5505."
+ },
+ "uso": {
+  "in": 30,
+  "out": 5298,
+  "cache_w": 16056,
+  "cache_r": 4639,
+  "custo_usd": 0.0664349
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5476",
+ "subtema_n2_id": "5477",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5512",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam especificamente do instituto do Habeas Corpus: cabimento (ameaça à liberdade de locomoção), legitimidade do Ministério Público e do Magistrado, concessão de ofício, intervenção de assistente e requisito de impetração não apócrifa. É matéria típica do subtema Habeas Corpus (5477), dentro de Ações Autônomas de Impugnação (5476). Não há conteúdo sobre teoria geral de recursos (admissibilidade, efeitos, princípios recursais), que seria o tema da segunda opção (5512); a pista de origem (comunicação dos atos processuais) é equivocada e não corresponde ao conteúdo da questão.",
+ "id": "Q0331",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente de Habeas Corpus (legitimidade para impetração, intervenção de assistente, HC apócrifo, concessão de ofício), tema que se insere em Ações Autônomas de Impugnação, subtema do grupo PP8 (Recursos e ações autônomas de impugnação). Não se trata de teoria geral da comunicação dos atos, apesar da pista de origem."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5476",
+  "segunda_opcao_n1_id": "5512",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa inteiramente sobre o instituto do Habeas Corpus (legitimidade para impetração, HC apócrifo, intervenção de assistente, concessão de ofício), que é subtema de Ações Autônomas de Impugnação (5476). Não trata de teoria geral dos recursos nem de comunicação de atos processuais, apesar da pista de origem."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1146,
+  "cache_w": 13042,
+  "cache_r": 14150,
+  "custo_usd": 0.07497400000000001
+ }
+}

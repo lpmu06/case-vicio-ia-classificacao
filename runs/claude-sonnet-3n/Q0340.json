@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5074",
+ "extras_ids": [
+  "5076",
+  "5072"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 \"Concurso de Pessoas\" (5071): cada alternativa versa sobre um instituto diferente da teoria geral do concurso de pessoas — (A) participação por omissão, (B) concorrência de culpas, (C) agravante do art. 62, II (instigar/determinar inimputável), relacionada a autores/partícipes (5072), (D) participação de menor importância (art. 29, §1º — subtema 5074), (E) comunicabilidade de circunstâncias (art. 30 — subtema 5076). Não há um eixo único de subtema: a questão exige conhecimento transversal de participação, agravantes e comunicabilidade de circunstâncias, por isso é tratada como multi-tema dentro do mesmo ramo, com subtema_n2_id em null para não restringir indevidamente ao aluno. A alternativa tecnicamente correta (C) remete ao art. 62, II, mais próximo de Autores e Partícipes (5072), por isso ela aparece como extra, mas o conjunto da questão abrange também Participação (5074) e Comunicabilidade (5076).",
+ "id": "Q0340",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.97,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam exclusivamente sobre o instituto do concurso de pessoas (participação, autoria colateral, agravante do art. 62, participação de menor importância, comunicabilidade de elementares/circunstâncias), tema de Direito Penal parte geral situado no grupo P2 (Teoria do Crime/Concurso de Pessoas)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas tratam de institutos específicos do concurso de pessoas: participação por omissão, concorrência de culpas, agravante do art. 62 (induzimento/determinação a inimputável), participação de menor importância e comunicabilidade de elementares/circunstâncias. É exatamente o tema de nível 1 \"Concurso de Pessoas\" (5071), cobrindo seus subtemas de Participação e Comunicabilidade de Circunstâncias."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1848,
+  "cache_w": 11660,
+  "cache_r": 14150,
+  "custo_usd": 0.075357
+ }
+}

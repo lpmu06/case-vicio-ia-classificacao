@@ -1,0 +1,44 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5170",
+ "extras_ids": [
+  "5171",
+  "5174",
+  "5222",
+  "5223",
+  "5221"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo 5218 como tema de nível 1, mantendo 5170 como segunda opção, conforme já fundamentado no estágio anterior: a questão é nitidamente multi-tema dentro da Parte Geral de Penal, pois cada alternativa versa sobre um instituto diferente. As alternativas A (concepção welzeliana de ação/desvalor de ação e resultado), B (causalidade jurídica nos crimes omissivos próprios) e C (teoria do dolo adotada pelo CP) pertencem ao núcleo de Fato Típico (5218) — mas cada uma aponta para um subtema diferente dentro dele (A: Conduta/5221, B: Crimes Omissivos e Comissivos/5223, C: Crime Doloso e Culposo/5222), de modo que não há um único subtema de nível 2 que capture a questão como um todo; por isso subtema_n2_id = null. Já a alternativa D (correta), sobre bigamia como lei penal em branco em sentido estrito, pertence a Conceito e Fontes do Direito Penal (5171, dentro de 5170), e a alternativa E, sobre crimes pluriofensivos, seria mais afim a Classificações dos Crimes (5174, também em 5170), embora o enunciado da E (iter criminis fracionável) esteja tecnicamente incorreto como definição de pluriofensividade. Como o maior número de institutos testados (3 de 5) e o peso analítico da teoria geral do delito recai sobre fato típico, mantenho 5218 como primeira opção e 5170 como segunda, com baixa confiança para qualquer subtema específico dado o caráter plurinuclear da questão.",
+ "id": "Q0335",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "grupo_id": "P2",
+  "segundo_grupo_id": "P1",
+  "confianca": 0.65,
+  "multi_tema": true,
+  "fora": false,
+  "justificativa": "A questão mistura vários institutos de teoria geral do delito: finalismo welzeliano e desvalor de ação/resultado (fato típico), crimes omissivos próprios (fato típico/causalidade), teoria do dolo adotada pelo CP (fato típico), lei penal em branco (tema de introdução ao direito penal) e classificação de crimes pluriofensivos (classificação do delito, também fato típico). A maioria das alternativas testa conceitos de Teoria do Crime: Fato Típico (dolo, causalidade na omissão, finalismo), o que aponta para o grupo P2 (Parte geral: teoria do crime). A alternativa D trata especificamente de lei penal em branco, tema que se enquadra em P1 (Introdução ao Estudo do Direito Penal), por isso marco como segundo grupo e como multi-tema, já que não há um eixo único e exclusivo entre as alternativas."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5170",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "Das cinco alternativas, três (A, B, C) versam diretamente sobre Fato Típico: a concepção welzeliana de ação e desvalor de ação/resultado, a causalidade jurídica nos crimes omissivos próprios, e a teoria do dolo adotada pelo CP (teoria da vontade/assentimento, aqui testada por exclusão da teoria da representação) — todos núcleos do tema \"Teoria do Crime: Fato Típico\" (5218), que tem subtemas específicos para Crime Doloso e Culposo, Crimes Omissivos e Comissivos e Conduta. Já a alternativa D versa sobre lei penal em branco (classificada no subtema \"Conceito e Fontes do Direito Penal\" de 5170) e a alternativa E sobre classificação dos crimes como pluriofensivos (subtema \"Classificações dos Crimes\", também em 5170). Como a maioria numérica e o peso analítico das alternativas recai sobre fato típico, e a própria alternativa correta (D, sobre a bigamia como lei penal em branco em sentido estrito que remete à lei civil) pertence ao tema de Introdução, trata-se de questão nitidamente multi-tema dentro da parte geral. Opto por 5218 como primeira opção por concentrar o maior número de institutos testados (3 de 5 alternativas), mantendo 5170 como segunda opção por abrigar tanto a resposta correta quanto outro distrator relevante (classificação de crimes pluriofensivos)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 4151,
+  "cache_w": 17327,
+  "cache_r": 14150,
+  "custo_usd": 0.125492
+ }
+}

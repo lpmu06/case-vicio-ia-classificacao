@@ -7,7 +7,7 @@ Entrega do processo seletivo da área de IA. Classifica 359 questões de concurs
 | Decisão por questão | [`publicacao.csv`](publicacao.csv): 218 publicadas, 139 para revisão, 2 fora |
 | Variantes | [`publicacao_nivel1.csv`](publicacao_nivel1.csv) (tudo no tema de nível 1) e [`publicacao_sem_duplicados.csv`](publicacao_sem_duplicados.csv) (sem os temas da Legislação Especial que têm cópia em Penal) |
 | Previsão de precisão e cobertura | [`previsao.txt`](previsao.txt): precisão 0,96 (0,85 a 0,99), cobertura 0,61 |
-| Relatório: raciocínio, diagnóstico, produção | [`docs/relatorio.md`](docs/relatorio.md) |
+| Relatório: raciocínio, diagnóstico, produção e memo (5 páginas) | [`docs/relatorio.pdf`](docs/relatorio.pdf) e [`docs/relatorio.md`](docs/relatorio.md) |
 | Memo para o professor (1 página) | [`docs/memo_professor.md`](docs/memo_professor.md) |
 | Anexos do relatório | [`docs/comparacao_metodos.md`](docs/comparacao_metodos.md), [`docs/embeddings.md`](docs/embeddings.md), [`docs/diagnostico.md`](docs/diagnostico.md), [`docs/sensibilidade.md`](docs/sensibilidade.md), [`docs/auditoria_caderno.md`](docs/auditoria_caderno.md) |
 | Diário de bordo: entendimento, plano e todas as decisões, com data e motivo | [`docs/00_entendimento_e_plano.md`](docs/00_entendimento_e_plano.md) |
@@ -49,7 +49,11 @@ python src/49_sensibilidade.py           # limiares x cobertura x precisão -> d
 python src/47_decisao.py --modo n1 --saida publicacao_nivel1.csv --saida_jsonl data/decisoes_nivel1.jsonl
 python src/47_decisao.py --evitar_duplicados --saida publicacao_sem_duplicados.csv --saida_jsonl data/decisoes_sem_duplicados.jsonl
 python src/62_preencher_relatorio.py     # docs/relatorio.md a partir de src/modelos/relatorio.md e das saídas
+python src/64_gerar_pdf.py               # docs/relatorio.pdf (relatório + memo)
+python src/63_validar_entrega.py         # confere o formato dos CSVs de entrega
 ```
+
+Os passos de análise, sem nenhuma chamada a LLM, estão juntos em `rodar_analises.sh`.
 
 **O que gera o `publicacao.csv`:** o passo `47_decisao.py`, lendo as saídas brutas em `runs/`. Todas as chamadas a modelos ficam gravadas em `runs/<rodada>/<id>.json`, com a resposta, a justificativa e o uso de tokens.
 

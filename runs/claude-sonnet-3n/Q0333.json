@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4373",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5175",
+ "extras_ids": [
+  "5178"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão nitidamente multi-tema: (A) sujeito ativo/passivo, (B) desistência voluntária/arrependimento eficaz, (C) regime de cumprimento de pena, (D) contraposição metodológica entre positivismo criminológico e escola clássica, (E) contagem de prazos processuais. Não há eixo comum entre as alternativas. A alternativa correta é a (D), que exige conhecimento específico sobre a oposição de método entre a Escola Positiva (empírico-experimental) e a Escola Clássica (filosófico-metafísico) — isso é exatamente o conteúdo do subtema 4373 (Escolas Criminológicas), mais preciso que o tema genérico 4372 (etapas pré-científicas). Mantenho o nível 1 em 4371 (Criminologia > Etapas Evolutivas e Escolas Criminológicas) e, com segurança razoável, aponto o subtema 4373. Segunda opção permanece 5175 (Iter Criminis), pela alternativa B sobre desistência voluntária/arrependimento eficaz, e cito 5178 como extra por tratar exatamente desse instituto específico caso a banca considerasse outra alternativa correta.",
+ "id": "Q0333",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C1",
+  "segundo_grupo_id": "P2",
+  "confianca": 0.75,
+  "multi_tema": true,
+  "justificativa": "A questão apresenta alternativas heterogêneas (sujeito ativo/passivo, desistência voluntária/arrependimento eficaz, regime de cumprimento de pena, escolas criminológicas, contagem de prazos), sem eixo comum - é multi-tema. A alternativa correta é a (D), que trata da contraposição entre o método empírico do positivismo criminológico e o método filosófico-metafísico da escola clássica, assunto pertencente à Criminologia (Etapas Evolutivas e Escolas Criminológicas, dentro do grupo C1). Como a resposta certa exige esse conhecimento específico, classifico no grupo de Criminologia, com Parte Geral do Direito Penal (P2, que trata de Iter Criminis) como segunda opção pela pista de origem e pela alternativa B."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4371",
+  "segunda_opcao_n1_id": "5175",
+  "confianca_ramo": 0.85,
+  "multi_tema": true,
+  "justificativa": "Questão multi-tema (sujeito ativo/passivo, iter criminis, regime de pena, escolas criminológicas, contagem de prazos), sem eixo comum. A alternativa correta (D) versa sobre a contraposição metodológica entre o positivismo criminológico (método empírico) e a escola clássica (método filosófico-metafísico), tema central de Criminologia - Etapas Evolutivas e Escolas Criminológicas (4371). Como a resposta exige exatamente esse conhecimento, classifico nesse tema de nível 1. Segunda opção: Iter Criminis (5175), por conter a alternativa B sobre desistência voluntária/arrependimento eficaz e pela pista de origem."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2200,
+  "cache_w": 13741,
+  "cache_r": 14150,
+  "custo_usd": 0.088748
+ }
+}

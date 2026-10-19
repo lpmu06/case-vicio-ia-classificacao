@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5474",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5472",
+ "extras_ids": [
+  "5467"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão sobre transmissibilidade do direito de queixa-crime em caso de morte do ofendido antes de iniciada a ação. Trata especificamente de um requisito de legitimidade da queixa-crime (peça inicial da ação penal privada), abrangido pelo subtema 5474 (que menciona \"sucessores legitimados\" e cita o art. 31 do CPP). Também compatível com 5472 (sucessão processual), mas 5474 é mais específico pois trata dos requisitos da peça processual queixa-crime.",
+ "id": "Q0296",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "Questão sobre condições processuais de titularidade na ação penal privada (se herdeiros podem suceder na legitimidade para propor queixa-crime). É Processo Penal, não Penal material. Encaixa-se no tema \"Ação Penal\" (5466), subtema \"Ação Penal de Iniciativa Privada\", que aborda requisitos e condições de exercício da ação penal privada."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4399,
+  "cache_w": 11531,
+  "cache_r": 12522,
+  "custo_usd": 0.0529762
+ }
+}

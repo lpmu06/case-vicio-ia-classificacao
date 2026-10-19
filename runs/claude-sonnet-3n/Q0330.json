@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5501",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5503",
+ "extras_ids": [
+  "5499",
+  "5500"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 em Inquérito Policial (5498), pois todas as alternativas giram em torno de aspectos da fase investigatória pré-processual regulados pelo pacote anticrime (arquivamento, sigilo pós-arquivamento, direitos de investigados policiais, estrutura acusatória do inquérito), com exceção da alternativa B, que é o \"distrator\" tratando da fase instrutória judicial (processo, não inquérito). Como a alternativa correta (A) versa especificamente sobre a hipótese de a vítima não concordar com o arquivamento e submeter a matéria à revisão da instância ministerial competente (art. 28, §1º, CPP, na redação dada pela Lei 13.964/2019), o conteúdo efetivamente testado como \"resposta certa\" converge para o regime de arquivamento e seu controle/revisão, que é exatamente o escopo do subtema \"Conclusão e Arquivamento do Inquérito Policial\" (5501), cuja descrição menciona expressamente \"controle/revisão do arquivamento\" e \"instância de revisão ministerial\". Por isso, diferentemente da avaliação anterior (que deixou o subtema em aberto), agora indico 5501 com razoável confiança. Mantenho multi_tema=true porque as demais alternativas (erradas) tocam em outros subtemas do mesmo tema de nível 1 — estrutura acusatória do inquérito (5499/5500), sigilo pós-arquivamento (5501) e direitos de investigados policiais/citação para constituir defensor, que se aproxima do juiz das garantias e do procedimento do inquérito (5500/5503) — sem um eixo único exclusivo, mas todas dentro do guarda-chuva de Inquérito Policial. A segunda opção mais plausível seria o subtema Juiz das Garantias (5503), dado o tema geral do pacote anticrime e seus reflexos na fase investigatória, mas a alternativa correta não trata do juiz das garantias propriamente. Ação Penal (5466) foi descartada como segunda opção porque nenhuma alternativa trata de titularidade, denúncia ou queixa.",
+ "id": "Q0330",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata das alterações do pacote anticrime ao CPP relacionadas ao inquérito policial, especialmente o procedimento de arquivamento (art. 28, CPP) e a estrutura acusatória da investigação. O eixo central é o arquivamento do inquérito policial, tema que se encontra no grupo PP2 (Investigação e ação penal - Inquérito Policial), que inclusive engloba as demais alternativas sobre a fase investigatória."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.9,
+  "multi_tema": true,
+  "justificativa": "A questão versa sobre as alterações do \"pacote anticrime\" ao CPP, com foco predominante no inquérito policial: arquivamento e revisão pela vítima (alternativa correta A), estrutura acusatória da fase investigatória (E), sigilo após arquivamento (D) e direitos de investigados policiais no procedimento investigatório (C). Apenas a alternativa B trata de estrutura do processo penal em geral (fase instrutória judicial), fugindo ao eixo do inquérito. Como a questão exige conhecer especificamente o regime do arquivamento e da fase investigatória (art. 28 e correlatos), o tema central se enquadra em Inquérito Policial (5498), nível 1, que abrange o subtema \"Conclusão e Arquivamento do Inquérito Policial\" e também os demais aspectos cobrados. Marquei multi_tema=true porque as alternativas tocam institutos distintos (arquivamento, estrutura do processo, direitos do investigado), mas todos gravitam majoritariamente em torno do inquérito policial, justificando a escolha do nível 1. Como segunda opção, indico Ação Penal (5466), tema correlato dentro do mesmo grupo PP2, embora com menor aderência ao conteúdo efetivamente testado."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3023,
+  "cache_w": 17827,
+  "cache_r": 14150,
+  "custo_usd": 0.116895
+ }
+}

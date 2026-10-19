@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4684",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as afirmativas tratam de dispositivos gerais da Lei 13.869/2019 (elemento subjetivo específico - art. 1º, §1º; exclusão da mera divergência de interpretação - art. 1º, §2º; natureza da ação penal - art. 3º), todos abrangidos pelo tema único \"Abuso de Autoridade\" (4684), que não possui subtemas. A pista de origem (Concurso de Crimes) não procede, pois nenhum item trata de concurso de crimes.",
+ "id": "Q0337",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE2",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente de dispositivos da Lei nº 13.869/2019 (Lei de Abuso de Autoridade): elemento subjetivo específico do crime, exclusão de mero erro de interpretação, e natureza da ação penal nos crimes dessa lei. O tema \"Abuso de Autoridade\" está no grupo LE2 (Violência, discriminação e grupos vulneráveis). Não é sobre concurso de crimes, apesar da pista fraca de origem."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4684",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente de dispositivos gerais da Lei 13.869/2019 (Lei de Abuso de Autoridade): elemento subjetivo específico, exclusão da mera divergência de interpretação/avaliação de provas, e natureza da ação penal nesses crimes. Todos os itens versam sobre o mesmo diploma e instituto, cabendo no tema específico \"Abuso de Autoridade\" (4684), dentro do grupo LE2. Não há relação com concurso de crimes (pista de origem é falsa)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1237,
+  "cache_w": 9349,
+  "cache_r": 14150,
+  "custo_usd": 0.058248999999999995
+ }
+}

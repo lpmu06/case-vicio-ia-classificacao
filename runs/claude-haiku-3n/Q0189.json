@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5472",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5469",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre desistência da ação penal privada, instituto que integra a disciplina da ação privada. O subtema [5472] Ação Penal de Iniciativa Privada é o mais específico, pois cobre expressamente institutos extintivos/disponíveis como renúncia, perdão, perempção e os princípios da disponibilidade que regem a ação privada. A desistência é exercício concreto deste princípio. [5469] é segunda opção apenas se a questão enfatizasse aspectos principiológicos, mas aqui o foco é no instituto específico.",
+ "id": "Q0189",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "fora": false,
+  "multi_tema": false,
+  "confianca": 0.95,
+  "justificativa": "Questão sobre Ação Penal (tema do grupo PP2 - Investigação e ação penal). Trata especificamente da desistência da ação penal privada e seus óbices, matéria de Processo Penal. A afirmação é tecnicamente errada: o art. 60 do CPP impede a desistência quando \"proferida sentença de condenação\", não apenas quando \"transitada em julgado\" como a questão afirma."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão exclusivamente sobre desistência da ação penal privada, instituto que integra a disciplina processual da ação penal. O tema 'Ação Penal' (5466) abrange precisamente a teoria e disciplina processual da ação penal, incluindo espécies e condições para exercício. A questão foca unicamente este aspecto processual, sem multi-tematização. Nenhuma segunda opção se aplica."
+ },
+ "uso": {
+  "in": 30,
+  "out": 7773,
+  "cache_w": 17031,
+  "cache_r": 4639,
+  "custo_usd": 0.0816929
+ }
+}

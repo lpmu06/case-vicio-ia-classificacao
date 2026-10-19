@@ -15,4 +15,6 @@ python src/61_escrever_previsao.py > /dev/null
 python src/44_diagnostico.py > /dev/null
 python src/43_embeddings.py avaliar > /dev/null 2>&1 || echo "aviso: avaliação de embeddings não rodou (faltam os vetores em data/embeddings)"
 python src/62_preencher_relatorio.py | head -1
+python src/64_gerar_pdf.py
 head -4 previsao.txt
+python src/63_validar_entrega.py
