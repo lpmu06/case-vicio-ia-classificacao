@@ -193,3 +193,8 @@ publicacao.csv · previsao.txt
 | 16/10 | Arquivos locais conferidos contra o GitHub (README, PDF e os 4 anexos do ZIP: idênticos byte a byte) | Garantir que trabalhamos com os dados oficiais |
 | 16/10 | Texto classificável = enunciado + alternativas, limpos de HTML; `comando` ignorado | 11 questões só têm conteúdo nas alternativas; `comando` é vazio ou gerado |
 | 16/10 | Limpeza de HTML robusta (comentários, `<xml>`, `<style>`, entidades) antes de qualquer modelo | Q0099 carrega ~100 mil caracteres de lixo do Word que estourariam prompt e custo |
+| 18/10 | Segunda família de modelos = OpenAI (GPT-5.x), via chave do Luis; Anthropic via chave de API (Opus/Sonnet/Haiku 5.5). Jev (typesafe.ai) é opcional: até 255 opções por pergunta, caberia como votante hierárquico | Concordância entre famílias (E2) exige provedores independentes |
+| 18/10 | Evidência externa (QConcursos etc.) descartada | Luis: acessar conteúdo de um concorrente pode parecer irregular; o ganho não compensa |
+| 18/10 | Backoff hierárquico adotado: publicar no nível 1 quando o nível 2 é incerto | Conta como certo pela régua e é honesto para o aluno |
+| 18/10 | Temas 67xx ("(Parte N)" e cópias vazias dentro de Penal/Processo Penal) e inativos marcados como "não usar"; o equivalente da Legislação Especial é o alvo (ex.: Lei Maria da Penha 4704, não 6724) | São buckets de curso, sem histórico; o especialista provavelmente usou o nó semântico |
+| 18/10 | Prazo caiu para hoje (18/10): escada reduzida ao essencial: baseline de origem, taxonomia enriquecida, classificação LLM com 2 famílias, ensemble, amostra rotulada pequena, relatório | Tempo |
