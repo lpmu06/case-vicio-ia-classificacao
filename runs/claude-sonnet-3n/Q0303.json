@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.4,
+ "segunda_opcao_id": "5182",
+ "extras_ids": [
+  "5181"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 \"Lei Penal no Tempo e no Espaço\" (5180), pois as alternativas C, D e E versam sobre lei penal no espaço (homologação de sentença estrangeira, extraterritorialidade, território por extensão - aeronaves/embarcações) e a alternativa B versa sobre tempo do crime, todas cobertas por este ramo. A alternativa A (frações de pena) é tangencial e não pertence a este tema, mas não desloca o eixo. Como a questão mistura claramente dois subtemas do mesmo ramo - lei no espaço (3 alternativas, incluindo a correta E) e lei no tempo (1 alternativa) - não há um subtema de nível 2 único que a classificação correta, pelo que mantenho subtema_n2_id = null, com segunda opção em 5182 (Lei penal no Espaço), que concentra o maior número de alternativas e a resposta correta.",
+ "id": "Q0303",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P1",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata de institutos da aplicação da lei penal no tempo e no espaço: tempo do crime (teoria), cômputo de frações de pena, homologação de sentença estrangeira e extraterritorialidade (lei brasileira a crimes cometidos fora do território), bem como aplicação da lei penal a aeronaves/embarcações estrangeiras. Todo o conteúdo pertence ao tema \"Lei Penal no Tempo e no Espaço\", integrante do grupo P1 da parte geral."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5180",
+  "segunda_opcao_n1_id": "5170",
+  "confianca_ramo": 0.95,
+  "multi_tema": true,
+  "justificativa": "As alternativas versam sobre institutos distintos (cômputo de frações de pena, tempo do crime, homologação de sentença estrangeira, extraterritorialidade, aplicação da lei a aeronaves/embarcações), mas o eixo central é a aplicação da lei penal no tempo e no espaço, tema de nível 1 \"Lei Penal no Tempo e no Espaço\" (5180), que engloba territorialidade/extraterritorialidade e tempo do crime. A alternativa sobre frações de pena é tangencial, mas não desloca o eixo predominante da questão."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1954,
+  "cache_w": 13615,
+  "cache_r": 14150,
+  "custo_usd": 0.085684
+ }
+}

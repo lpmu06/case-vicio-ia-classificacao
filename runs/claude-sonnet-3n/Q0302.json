@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "César desconhecia a presença da vítima escondida (circunstância fática elementar), de modo que não se forma dolo em relação ao resultado morte - trata-se de erro de tipo essencial que exclui o dolo (art. 20, caput, CP), eventualmente permitindo punição por culpa se o erro fosse vencível, o que no caso parece inevitável diante das circunstâncias (vítima escondida, sem qualquer indício perceptível). O instituto central testado é exatamente o erro de tipo, subtema específico dentro de Teoria do Crime: Fato Típico (5218/5224). As demais alternativas (imputabilidade, inexigibilidade de conduta diversa, erro de proibição, ilicitude) são distratores que remetem a institutos de culpabilidade ou ilicitude, mas não correspondem ao caso descrito. Mantenho 5211 como segunda opção por ser o ramo mais próximo tangenciado pelos distratores de culpabilidade, embora com confiança baixa, já que o eixo correto da questão é inequivocamente erro de tipo (fato típico).",
+ "id": "Q0302",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata de erro de tipo essencial (César desconhece circunstância fática que integra o tipo - presença da vítima), excluindo o dolo, tema de Fato Típico, dentro da Teoria do Crime (grupo P2)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5211",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige reconhecer o erro de tipo essencial: César desconhece circunstância fática (presença da vítima escondida), de modo que o dolo não se forma em relação ao resultado morte. Isso é tema de Erro de Tipo, subtema de Fato Típico (5218), dentro da teoria do crime. As demais alternativas (imputabilidade, inexigibilidade de conduta diversa, erro de proibição) remetem à culpabilidade, mas são distratores incorretos - o instituto testado é o erro de tipo. Segunda opção é Culpabilidade (5211) por estar tangencialmente relacionada aos distratores, embora não seja o eixo correto."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1661,
+  "cache_w": 16487,
+  "cache_r": 14150,
+  "custo_usd": 0.096564
+ }
+}

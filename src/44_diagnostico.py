@@ -38,25 +38,30 @@ def main():
                        "frac": nmaj / len(votos) if votos else 0, "multi": multi, "disc_origem": q["disciplina_origem"],
                        "decisao": dec[qid]["decisao"]})
 
-    def taxa(grupo):
-        return f"{sum(x['unanime'] for x in grupo) / len(grupo):.0%} unânimes; {sum(x['decisao'] == 'publicar' for x in grupo) / len(grupo):.0%} publicadas (n={len(grupo)})"
+    res = {"grupos": {}}
 
-    res = {}
+    def taxa(grupo, chave=None):
+        u = sum(x['unanime'] for x in grupo) / len(grupo)
+        pb = sum(x['decisao'] == 'publicar' for x in grupo) / len(grupo)
+        if chave:
+            res["grupos"][chave] = {"unanimes": round(u, 3), "publicadas": round(pb, 3), "n": len(grupo)}
+        return f"{u:.0%} unânimes; {pb:.0%} publicadas (n={len(grupo)})"
+
     md = ["# Diagnóstico quantitativo\n", "Gerado por `src/44_diagnostico.py`. \"Unânime\": todas as rodadas de classificação e o árbitro "
           f"escolheram o mesmo ramo ({len(rods)} rodadas). É uma medida de dificuldade sem gabarito.\n"]
 
     md.append("## Por tipo de questão")
     for t in ("multipla_escolha", "certo_errado"):
         g = [x for x in linhas if x["tipo"] == t]
-        md.append(f"- {t.replace('_', ' ')}: {taxa(g)}")
+        md.append(f"- {t.replace('_', ' ')}: {taxa(g, t)}")
     md.append("\n## Por tamanho do texto (terços)")
     ordem = sorted(linhas, key=lambda x: x["chars"])
     for i, nome in enumerate(("curtas", "médias", "longas")):
         g = ordem[i * len(ordem) // 3:(i + 1) * len(ordem) // 3]
         md.append(f"- {nome} ({g[0]['chars']}–{g[-1]['chars']} caracteres): {taxa(g)}")
     md.append("\n## Multi-tema (algum classificador marcou alternativas sobre institutos diferentes)")
-    md.append(f"- marcadas: {taxa([x for x in linhas if x['multi']])}")
-    md.append(f"- não marcadas: {taxa([x for x in linhas if not x['multi']])}")
+    md.append(f"- marcadas: {taxa([x for x in linhas if x['multi']], 'multi')}")
+    md.append(f"- não marcadas: {taxa([x for x in linhas if not x['multi']], 'nao_multi')}")
 
     md.append("\n## Por disciplina do ramo majoritário")
     por = defaultdict(list)

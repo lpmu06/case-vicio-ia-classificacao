@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5203",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.98,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre a segunda fase da dosimetria da pena (art. 65-66 CP), abordando especificamente a compensação entre a atenuante de confissão espontânea e a agravante de reincidência. O instituto jurídico testado é exclusivamente a dosimetria (segunda fase: agravantes e atenuantes), não tipicidade, culpabilidade ou outras matérias penais. A questão exige conhecimento preciso da jurisprudência sobre compensação de agravantes/atenuantes na segunda fase da dosimetria. Tema central confirmado: Teoria da Pena > Segunda Fase da Dosimetria: Agravantes e Atenuantes [5203].",
+ "id": "Q0148",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre dosimetria da pena, especificamente sobre como o juiz deve proceder na segunda fase (aplicação de circunstâncias agravantes e atenuantes), analisando a compensação entre a atenuante de confissão espontânea e a agravante de reincidência. Trata-se de tema clássico de Teoria da Pena, integrado no grupo P3 (Parte geral: pena, medida de segurança, punibilidade, prescrição e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre a segunda fase da dosimetria da pena (arts. 65-66, CP), abordando a compensação entre a atenuante de confissão espontânea e a agravante de reincidência. O instituto jurídico testado é exclusivamente dosimetria (construção da pena condenatória), não tipicidade, culpabilidade, crime ou extinção de punibilidade. Tema central = Teoria da Pena, subtema = Segunda Fase da Dosimetria: Agravantes e Atenuantes."
+ },
+ "uso": {
+  "in": 30,
+  "out": 7889,
+  "cache_w": 19224,
+  "cache_r": 4639,
+  "custo_usd": 0.08893789999999999
+ }
+}

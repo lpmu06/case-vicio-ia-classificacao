@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5209",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa exatamente sobre o efeito genérico da condenação previsto no art. 91, I, do CP - tornar certa a obrigação de reparar o dano causado pelo crime, efeito automático (independe de pronunciamento expresso) que constitui título executivo judicial para a ação civil ex delicto (art. 387, IV, CPP e art. 63 CPP). Isso corresponde precisamente ao subtema \"Efeitos da Condenação Penais e Extrapenais\" (5209), dentro do tema de nível 1 \"Teoria da Pena\" (5199). Não se trata de extinção da punibilidade (5191), pois a questão não discute perda do poder-dever punitivo estatal, mas sim consequência jurídica extrapenal decorrente da sentença condenatória.",
+ "id": "Q0313",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata dos efeitos genéricos da condenação (art. 91 do CP), especificamente a obrigação de reparar o dano como efeito automático que gera título executivo para ação civil ex delicto. Esse tema está inserido em Teoria da Pena, dentro do grupo P3 (Parte geral: pena, medida de segurança, punibilidade, prescrição e ação penal), pois os efeitos da condenação são consequência penal/civil decorrente da sentença condenatória, matéria classicamente tratada junto à teoria da pena."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "5191",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata dos efeitos genéricos da condenação (art. 91, I, do CP) - tornar certa a obrigação de reparar o dano, efeito automático que forma título executivo para ação civil ex delicto. Esse é exatamente o subtema \"Efeitos da Condenação Penais e Extrapenais\", integrante do tema de nível 1 \"Teoria da Pena\" (5199), que abrange todas as consequências jurídicas da condenação. Não se trata de extinção da punibilidade (5191) nem de prescrição, mas especificamente dos efeitos extrapenais automáticos da sentença condenatória, tema classicamente estudado dentro da teoria da pena."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1556,
+  "cache_w": 17883,
+  "cache_r": 14150,
+  "custo_usd": 0.102578
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5502",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5191",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata especificamente do Acordo de Não Persecução Penal (ANPP), abordando seus requisitos (confissão circunstanciada), vedações legais (violência doméstica, racismo) e aplicação no tempo. O ANPP é um negócio jurídico pré-processual explicitamente coberto pelo subtema [5502], que envolve investigação criminal preliminar e alternativas ao exercício da persecução. Embora a questão mencione \"extinção da punibilidade\" como efeito do ANPP, o tema testado é o próprio instituto processual (quando, como e por que não pode ser oferecido), não a teoria geral de causas extintivas da punibilidade que caracteriza o tema 5191. Confiança muito alta tanto no ramo (Processo Penal) quanto no subtema específico (ANPP).",
+ "id": "Q0247",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5191",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "O ANPP é um instituto explicitamente listado como subtema de \"Inquérito Policial\" (5498) na árvore. Embora tenha reflexos em Direito Penal Material (extinção de punibilidade, tema 5191), a questão trata primariamente de requisitos, vedações, limites e aplicabilidade do ANPP — questões de processo penal e investigação. A confiança é moderada (0.75) porque há possibilidade legítima de enquadramento também em \"Punibilidade\" (5191) se o enfoque fosse apenas a extinção da punibilidade como efeito jurídico, mas a natureza da questão é mais processual."
+ },
+ "uso": {
+  "in": 20,
+  "out": 7982,
+  "cache_w": 13914,
+  "cache_r": 12522,
+  "custo_usd": 0.0780592
+ }
+}

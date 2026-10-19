@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5544",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.98,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão técnica sobre as etapas específicas do procedimento de cadeia de custódia conforme regulamentado pela Lei 13.964/2019 e arts. 158-A a 158-F do CPP. Testa conhecimento sobre reconhecimento, armazenamento, recebimento, coleta e transporte de vestígios e seus requisitos procedimentais. O subtema [5544] Cadeia de Custódia é o enquadramento exato: a questão versa sobre procedimentos formais, documentação e rastreabilidade na preservação do vestígio, núcleo preciso deste subtema. Classificação anterior mantida com alta confiança, agora confirmada pelos metadados completos.",
+ "id": "Q0226",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão técnica sobre o procedimento de cadeia de custódia no CPP, regulamentado pela Lei 13.964/19. Testa conhecimento sobre etapas específicas (reconhecimento, armazenamento, recebimento, coleta, transporte) e seus requisitos procedimentais. \"Provas em Espécies\" é o tema apropriado, pois cadeia de custódia é subtema explícito. A sugestão de origem (\"Ação Penal\") está incorreta: trata-se de prova, não de disciplina processual da ação penal."
+ },
+ "uso": {
+  "in": 20,
+  "out": 3789,
+  "cache_w": 15843,
+  "cache_r": 10800,
+  "custo_usd": 0.063285
+ }
+}

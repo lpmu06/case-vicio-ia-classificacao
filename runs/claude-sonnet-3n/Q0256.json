@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5228",
+ "extras_ids": [
+  "5222"
+ ],
+ "multi_tema": false,
+ "justificativa": "A assertiva compara duas hipóteses que, tecnicamente, convergem no mesmo instituto: o erro de tipo. A primeira é o erro de tipo essencial invencível puro (desconhecimento invencível de elementar do tipo), que exclui dolo e culpa, afastando a própria tipicidade/crime. A segunda é a descriminante putativa por erro sobre pressupostos fáticos (\"acreditar estar autorizado\"), que pela teoria limitada da culpabilidade (adotada pelo CP, art. 20, §1º) é tratada como erro de tipo permissivo, excluindo o dolo (e, se invencível, também a culpa, afastando o crime). O eixo comum testado é exatamente o regime do erro de tipo e seus efeitos sobre dolo/culpa/crime, matéria central do subtema Erro de Tipo (5224), dentro do tema Fato Típico (5218). A referência à \"autorização\" remete à ilicitude apenas como pano de fundo factual da descriminante putativa, mas o que a questão exige saber é o efeito desse erro sobre o dolo via teoria do erro de tipo — por isso 5224 é o subtema mais preciso, com Ilicitude (5228) como segunda opção por conta do contexto de descriminante putativa, e Crime Doloso e Culposo (5222) como extra pertinente.",
+ "id": "Q0256",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre erro de tipo essencial invencível (que exclui dolo e culpa, afastando a tipicidade) e sobre descriminantes putativas por erro quanto aos pressupostos fáticos (que, pela teoria limitada da culpabilidade, é tratado como erro de tipo permissivo, excluindo o dolo). Ambos os institutos pertencem ao estudo do Fato Típico/elemento subjetivo do tipo, com repercussão na culpabilidade - temas do grupo P2 (Teoria do Crime), que reúne Fato Típico e Culpabilidade."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5228",
+  "confianca_ramo": 0.8,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente o instituto do erro de tipo essencial invencível (que exclui dolo e culpa, afastando a tipicidade) e sua aplicação às descriminantes putativas por erro sobre os pressupostos fáticos, as quais, pela teoria limitada da culpabilidade (adotada pelo CP), são tratadas como erro de tipo permissivo, excluindo o dolo. O eixo comum da questão é a exclusão do dolo pela via do erro de tipo (em sua modalidade essencial e na forma do erro de tipo permissivo), o que remete centralmente ao tema Fato Típico (subtema Erro de Tipo), e não à Ilicitude propriamente, já que a pergunta não exige analisar os requisitos da legítima defesa/estado de necessidade em si, mas sim o efeito do erro sobre pressupostos fáticos no dolo. Por isso, Fato Típico é a melhor opção de nível 1, com Ilicitude como segunda opção plausível dado o contexto de descriminantes putativas."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2622,
+  "cache_w": 16051,
+  "cache_r": 14150,
+  "custo_usd": 0.104069
+ }
+}

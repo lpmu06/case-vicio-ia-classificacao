@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5222",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre dolo direto como elemento subjetivo do fato típico. Testa conceito inequívoco da Parte Geral do Direito Penal: dolo direto é aquele em que o agente atua com vontade dirigida à realização da conduta típica e ao alcance do resultado como objetivo direto (alternativa B). Encaixa-se perfeitamente em 5222 (Crime Doloso e Culposo), que abrange explicitamente dolo, culpa e suas espécies conforme art. 18 CP. Classificação cristalina, sem alternativas viáveis de mudança de tema ou subtema.",
+ "id": "Q0042",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.98,
+  "multi_tema": false,
+  "justificativa": "Questão sobre dolo direto como elemento subjetivo do fato típico. Testa conceito fundamental da Parte Geral do Direito Penal (teoria do crime). Classificada em P2 (Teoria do Crime: Fato Típico). As pistas (disciplina_origem = Penal; assunto_origem = Tipo Penal Doloso, Tipicidade) confirmam a classificação. Confiança 0.98 porque a questão é inequívoca: o único ponto de dúvida mínima seria se alguma doutrina localizar dolo em culpabilidade em vez de tipicidade, mas a prática jurídica brasileira consolidada o trata como elemento do tipo."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.99,
+  "multi_tema": false,
+  "justificativa": "Questão sobre dolo direto como elemento subjetivo do fato típico. Testa conceito inequívoco da Parte Geral do Direito Penal: dolo direto é aquele em que o agente atua com vontade dirigida à realização da conduta típica e ao alcance do resultado como objetivo (alternativa B). Encaixa-se perfeitamente em Teoria do Crime: Fato Típico (5218), que abrange explicitamente dolo como subtema. Classificação cristalina sem alternativas viáveis."
+ },
+ "uso": {
+  "in": 30,
+  "out": 6215,
+  "cache_w": 14909,
+  "cache_r": 4639,
+  "custo_usd": 0.0698389
+ }
+}

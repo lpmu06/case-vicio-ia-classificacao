@@ -1,0 +1,63 @@
+precisao_prevista: 0.96
+precisao_intervalo: 0.85-0.99
+cobertura_prevista: 0.61
+cobertura_intervalo: 0.61-0.61
+
+COMO CHEGAMOS NESTES NÚMEROS
+
+Cobertura
+Ela é escolha nossa: publicamos 218 das 359 questões (60.7%), sendo
+69 no subtema e 149 no tema de nível 1. O intervalo só cobre uma dúvida
+de denominador: se as questões que a equipe também considera "fora" (2 na nossa decisão) saírem da conta,
+a cobertura sobe para 61.1%.
+
+Precisão
+Não tivemos gabarito nem rotulagem humana. Usamos três estimadores independentes entre si, cada um com uma
+hipótese declarada, e dois descontos para o que nenhum deles enxerga.
+
+1. Dawid-Skene: 98.8%.
+   Modelo estatístico que estima a taxa de acerto de cada classificador só pelo padrão de concordâncias entre eles
+   (Opus plano, Sonnet em 2 e 3 estágios, árbitro, rodadas parciais e a classificação de origem) e dá a
+   probabilidade de o ramo de cada questão estar certo. Supõe erros independentes. Como todos são LLMs que leram a
+   mesma taxonomia, é um limite superior.
+
+2. Outra família de modelo: 100.0% (39 de 39; intervalo de 95% de 91.0% a 100.0%).
+   O GPT-5.5, de outra empresa, classificou 63 questões antes de acabarem nossos créditos. Medimos quantas das
+   nossas publicadas ele colocaria no mesmo tema, pai ou filho, pela régua do case. Erros de famílias diferentes
+   são menos correlacionados, mas a amostra é pequena e ele também não conhece as convenções da equipe.
+
+3. Auditoria: 97.9% (amostra aleatória de 47 publicadas).
+   Cada questão foi lida com olhar cético, perguntando onde um professor a arquivaria. Nenhum erro claro; as
+   dúvidas genuínas (um tema alternativo plausível por convenção) contam como 1/3 de erro na estimativa central e
+   como 1/2 na conservadora (96.8%; intervalo de 95% de 87.3% a 99.3%).
+   A leitura foi feita por IA, não por especialista. Vereditos em data/auditoria_ia.csv, caderno em
+   docs/auditoria_caderno.md.
+
+4. Margem de convenção (2.0%, descontada de 1 e 2).
+   O professor pode seguir convenções que nenhum modelo conhece. A auditoria mostrou onde: assuntos com dois
+   endereços na árvore (prisão em "Prisões em Espécie" ou em "Teoria Geral das Prisões"; ação penal e decadência
+   em Penal ou em Processo Penal) e fronteiras de teoria do crime (erro de tipo ou de proibição).
+
+5. Cópias dos temas da Legislação Especial (1.7% de perda esperada, descontada de todos).
+   A árvore tem cópias recentes, em Penal e em Processo Penal, de 8 temas da Legislação Especial (Lei Maria da
+   Penha, Tráfico de Drogas, Lei de Execução Penal...). Publicamos sempre no tema da Legislação Especial, que tem
+   histórico de questões; as cópias não têm descrição nem histórico. Se a equipe tiver rotulado nas cópias,
+   17.4% das publicadas estariam erradas e a precisão cairia para cerca de 80.4%.
+   Atribuímos 10.0% de chance a esse cenário. A variante publicacao_sem_duplicados.csv manda essas
+   questões para revisão e elimina o risco, ao custo de cerca de 10 pontos de cobertura.
+
+Ponto: a mediana dos três estimadores ajustados (95.0%, 96.1%, 96.3%).
+Intervalo: limite inferior = o menor limite inferior de 95% entre 2 e 3, menos o item 5; limite superior = 1,
+a estimativa sob independência. O intervalo é largo porque a auditoria e a outra família têm poucas dezenas de
+questões; preferimos um intervalo honesto a um estreito.
+
+Por que esperamos ficar acima de 95%
+Só publicamos quando o árbitro e os dois classificadores principais, de métodos e tamanhos diferentes, concordam
+no ramo, o árbitro tem confiança de pelo menos 0,90 e não vê a questão como multi-tema. Nos pares de ramos que os
+modelos confundem entre si exigimos unanimidade. Publicamos no subtema só com concordância forte e confiança de pelo
+menos 0,90; nos demais casos, no tema de nível 1, que pela régua está certo sempre que o ramo está certo.
+
+O que poderia derrubar a previsão
+O uso das cópias da Legislação Especial pela equipe (item 5) ou uma convenção sistemática diferente da nossa num
+ramo com muitas publicadas. A variante publicacao_nivel1.csv, com tudo no nível 1, elimina o risco de subtema
+irmão sem mudar a cobertura. A sensibilidade aos limiares está em docs/sensibilidade.md.

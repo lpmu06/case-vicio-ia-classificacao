@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5550",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5590",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa sobre as espécies doutrinárias de testemunha, especificamente a testemunha fedatária (que atesta a regularidade de ato processual/do inquérito). Trata-se de classificação doutrinária específica dentro da prova testemunhal, não de teoria geral da prova (ônus, valoração, princípios). Por isso mantenho o tema de nível 1 \"Provas em Espécies\" (5543) e, com confiança razoável, o subtema \"Prova Testemunhal\" (5550), que abrange expressamente as espécies de testemunha e informante.",
+ "id": "Q0320",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre espécies de testemunhas (prova testemunhal), tema tratado em Provas em Espécie, dentro do grupo PP4 (Provas - teoria geral e provas em espécie)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata das espécies de testemunhas, especificamente a testemunha fedatária, que é um instituto classificado dentro do subtema \"Prova Testemunhal\", pertencente ao tema de nível 1 \"Provas em Espécies\" (5543). Embora a teoria geral das provas (5590) seja tema correlato, a classificação específica das espécies de testemunha pertence às provas em espécie."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1191,
+  "cache_w": 18263,
+  "cache_r": 14150,
+  "custo_usd": 0.100543
+ }
+}

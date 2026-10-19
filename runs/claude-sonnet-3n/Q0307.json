@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4707",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4693",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A assertiva afirma que o crime de tortura só pode ser praticado de forma comissiva, o que é falso diante do art. 1º, §2º, da Lei 9.455/97, que prevê expressamente a modalidade omissiva imprópria (dever de evitar ou apurar a tortura). O núcleo da questão é exatamente a tipicidade e as modalidades do crime de tortura (inclusive por omissão), tema específico e exaustivamente tratado em 4707 - Tortura, que não possui subtemas. Não se trata de efeitos de crime hediondo (4693), mas do próprio tipo penal e suas formas de execução, confirmando a classificação anterior.",
+ "id": "Q0307",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata da Lei de Tortura (9.455/97), especificamente sobre a figura do omitente (delegado que se mantém inerte) prevista no art. 1º, §2º, que permite a prática do crime por omissão, testando o conhecimento sobre o tema \"Tortura\", dentro do grupo LE1 (Legislação Especial)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4707",
+  "segunda_opcao_n1_id": "4693",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento específico do art. 1º, §2º, da Lei 9.455/97, que prevê a modalidade omissiva imprópria de tortura (o agente que tem o dever de evitar ou apurar a conduta e se omite). A afirmativa testa exatamente se o delegado, por se manter inerte, pode ser responsabilizado, o que remete diretamente ao instituto da tortura por omissão - tema central é Tortura (4707), e não concurso de crimes ou outro instituto geral de Legislação Especial."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1333,
+  "cache_w": 10467,
+  "cache_r": 14150,
+  "custo_usd": 0.064508
+ }
+}

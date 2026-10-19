@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5091",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5092",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O policial exige vantagem indevida (\"exigiu, para si, R$ 2.000,00\") para liberar o veículo, valendo-se de sua função. O verbo \"exigir\" é o elemento central que caracteriza concussão (art. 316 CP), distinguindo-a da corrupção passiva (que usa \"solicitar, receber ou aceitar promessa\"). As demais alternativas (corrupção ativa, corrupção passiva, peculato, excesso de exação) são distratores do mesmo gênero de crimes funcionais, todos dentro do tema 5087, mas o gabarito correto corresponde ao subtema 5091 (Concussão e Excesso de Exação).",
+ "id": "Q0270",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão testa a distinção entre concussão (exigir vantagem indevida, art. 316 CP) e outros crimes funcionais (corrupção passiva, peculato, excesso de exação), todos inseridos em \"Dos Crimes Contra a Administração Pública\", tema do grupo P8."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão trata de concussão (art. 316 CP), delito funcional contra a Administração Pública, mesmo gênero dos demais crimes das alternativas (corrupção, peculato, excesso de exação), todos no tema 5087."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1137,
+  "cache_w": 14002,
+  "cache_r": 14150,
+  "custo_usd": 0.08008399999999999
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5091",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.98,
+ "segunda_opcao_id": "5092",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre tipificação de crime específico contra a Administração Pública. Cenário de funcionário público (policial militar) que exige vantagem indevida de particular, sob constrangimento (medo da função). O verbo \"exige\" é característico de concussão (art. 316 CP), não corrupção passiva (que usa \"solicitar/receber/aceitar\"). Todas as cinco alternativas exploram exclusivamente crimes do Título XI: concussão, corrupção passiva, prevaricação, patrocínio infiel e excesso de exação. Não há ambiguidade temática ou desvio para Processo Penal. Subtema 5091 (Concussão e Excesso de Exação) é específico e inequívoco: \"a concussão, em que o funcionário público exige vantagem indevida em razão da função\". Segunda opção (5092 — Corrupção Passiva) seria aceitável apenas se houvesse confusão sobre verbo exigir vs. solicitar, mas a tipificação é clara.",
+ "id": "Q0067",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre tipificação de crimes contra a Administração Pública (concussão, corrupção, prevaricação etc.), todos previstos no Título XI do CP (Parte Especial). Apesar das múltiplas alternativas, todas pertencem ao mesmo subtema: Dos Crimes Contra a Administração Pública. Classificação inequívoca em P8."
+ },
+ "estagioB": {
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "Questão sobre tipificação de crime específico contra a Administração Pública. Apresenta cenário de funcionário público (policial) que exige vantagem abusando de sua autoridade. Todas as cinco alternativas exploram unicamente crimes do Título XI do CP: concussão, corrupção passiva, corrupção ativa, prevaricação e patrocínio infiel (este último também do Título XI, arts. 235-236). Não há ambiguidade temática, desvio para Processo Penal ou Legislação Especial. Classificação inequívoca em 5087 — Dos Crimes Contra a Administração Pública."
+ },
+ "uso": {
+  "in": 30,
+  "out": 7223,
+  "cache_w": 19242,
+  "cache_r": 4639,
+  "custo_usd": 0.08561089999999999
+ }
+}

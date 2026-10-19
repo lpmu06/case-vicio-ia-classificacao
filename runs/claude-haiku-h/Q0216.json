@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4701",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5539",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre institutos despenalizadores da Lei 9.099/1995 (composição civil dos danos, transação penal, extinção de punibilidade). Embora toque em aspectos procedimentais (alternativa D sobre exames periciais), o foco é nos requisitos, efeitos e vedações dos institutos especiais da Lei 9.099/1995, não no fluxo procedimental geral. 4701 é classificação apropriada pois testa conhecimento substantivo desses institutos exclusivos da legislação especial. Confiança 0,88 por haver legitimidade marginal também em 5539 (se enfoque fosse procedural), mas 4701 é claramente superior.",
+ "id": "Q0216",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4701",
+  "segunda_opcao_n1_id": "5539",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "Questão específica sobre a Lei 9.099/1995 (Juizados Especiais Criminais) abordando composição civil dos danos, transação penal, homologação e extinção da punibilidade. Tema 4701 é dedicado a essa lei especial com subtema \"Transação Penal\". Classificação em Legislação Especial (4701) em vez de Processo Penal (5539) porque a questão testa institutos exclusivos e especiais dessa lei, não apenas procedimento comum. Confiança de 0,75 por haver legitimidade também na leitura processual (5539), mas 4701 é mais preciso."
+ },
+ "uso": {
+  "in": 20,
+  "out": 8148,
+  "cache_w": 10703,
+  "cache_r": 12522,
+  "custo_usd": 0.0692642
+ }
+}

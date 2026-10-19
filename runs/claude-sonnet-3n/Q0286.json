@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5066",
+ "extras_ids": [
+  "5204",
+  "5203"
+ ],
+ "multi_tema": true,
+ "justificativa": "Revisando com os metadados completos, a questão testa exclusivamente a ORDEM de incidência das fases da dosimetria trifásica: circunstâncias judiciais (1ª fase - má antecedência), agravantes/atenuantes (2ª fase - confissão, menoridade, reincidência) e causas de aumento/diminuição (3ª fase - tentativa, participação de menor importância, concurso formal, crime continuado). O concurso formal e o crime continuado aparecem em apenas duas das quatro alternativas, e sempre como exemplo de causa de 3ª fase a ser comparada com institutos de outras fases - não há pergunta sobre a natureza, requisitos ou distinção entre espécies de concurso de crimes em si. A própria árvore orienta expressamente, no \"não confundir\" do subtema 5204: \"Quando a causa de aumento decorre de concurso de crimes, pode dialogar com 5066, mas o cálculo na dosimetria permanece em 5204\" - confirmando que questões sobre a sequência de cálculo da pena (mesmo citando concurso formal/continuado) pertencem a Teoria da Pena. Por isso, troco o tema principal de 5066 para 5199, mantendo Concurso de Crimes como segunda opção pela relevância do concurso formal/continuado no enunciado. Quanto ao subtema, como as alternativas combinam simultaneamente 1ª, 2ª e 3ª fases sem um eixo único (não é possível classificar em 5202, 5203 ou 5204 isoladamente), marco multi_tema = true e deixo subtema_n2_id em null, indicando 5204 e 5203 como extras por serem os mais diretamente testados (a ordem das fases 2 e 3).",
+ "id": "Q0286",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.72,
+  "multi_tema": false,
+  "justificativa": "A questão testa a ordem de incidência das causas de aumento/diminuição no cálculo da pena, envolvendo diretamente o concurso formal/continuado (concurso de crimes) combinado com outras circunstâncias (menoridade, confissão, tentativa, reincidência). O eixo central é a sistemática de aplicação da pena nos casos de concurso de crimes, tema do grupo P2; a Teoria da Pena (P3) também tangencia o assunto, por isso é indicada como segunda opção."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5066",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão exige saber a ordem de incidência das diversas causas no cálculo da pena: o aumento do concurso formal (ou crime continuado) em relação a atenuantes/agravantes/causas de aumento ou diminuição (confissão, tentativa, menoridade, reincidência, participação de menor importância). Cada alternativa combina um instituto da dosimetria trifásica (Teoria da Pena) com o concurso de crimes, sem eixo único exclusivo. Como o fio condutor comum a todas as alternativas é a posição do concurso formal/continuado na sequência de cálculo, mantenho Concurso de Crimes como tema principal (compatível com a classificação anterior), com Teoria da Pena como segunda opção, já que a resposta também depende de dominar a ordem das fases da dosimetria (2ª e 3ª fases)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 4092,
+  "cache_w": 17249,
+  "cache_r": 11846,
+  "custo_usd": 0.1248812
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5120",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.5,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5116",
+ "extras_ids": [
+  "5118",
+  "5122",
+  "5121"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão sem eixo único: cada alternativa versa sobre instituto diferente — (A) e (B) sobre falsidade documental/fé pública (requisitos da falsidade ideológica e natureza do uso de documento falso como crime formal); (C) sobre ação penal em abuso de autoridade (lei especial, fora das duas árvores comparadas); (D) calúnia contra os mortos e (E) exceção da verdade, ambas de crimes contra a honra. Há empate técnico (2 alternativas para honra, 2 para fé pública), e nenhuma delas se encaixa perfeitamente em um único subtema de nível 2 — (D) toca calúnia (5122) e (E) toca a disposição geral de exceção da verdade (5121), sem que uma prevaleça com certeza sobre qual é a alternativa-gabarito. Mantenho 5120 (Crimes Contra a Honra) como tema principal por já ter sido validado no estágio anterior e por cobrir duas das cinco alternativas de forma mais \"clássica\" e autossuficiente (sem depender de lei especial), com 5116 (Fé Pública/Falsidade Documental) como segunda opção robusta cobrindo A e B. Como não há certeza sobre qual alternativa é efetivamente o gabarito (a análise de mérito sugere que nenhuma das cinco está isenta de problemas técnicos, tornando difícil cravar o subtema exato), deixo subtema_n2_id como null, evitando erro de classificar em um subtema-irmão incorreto.",
+ "id": "Q0268",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P4",
+  "segundo_grupo_id": "P5",
+  "confianca": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos diferentes em cada alternativa: falsidade ideológica e uso de documento falso (fé pública), abuso de autoridade (ação penal), calúnia contra mortos e exceção da verdade (crimes contra a honra). Não há um eixo único; as alternativas sobre honra (calúnia, injúria, difamação, exceção da verdade) predominam, por isso P4 (Crimes contra a Honra) foi escolhido como grupo principal, com P5 (Fé Pública/Falsidade Documental) como segundo, por cobrir as alternativas A e B."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5120",
+  "segunda_opcao_n1_id": "5116",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos diferentes em cada alternativa: falsidade ideológica e uso de documento falso (fé pública), abuso de autoridade (ação penal), calúnia contra mortos e exceção da verdade (crimes contra a honra). Não há eixo único de instituto, mas 2 das 5 alternativas (D e E) versam especificamente sobre crimes contra a honra (calúnia, exceção da verdade aplicável a calúnia/difamação/injúria), enquanto 2 alternativas (A e B) tratam de falsidade documental/fé pública, e uma (C) trata de abuso de autoridade (lei especial, fora das duas árvores listadas). Dado o empate técnico entre honra e fé pública, mantenho P4 (Crimes Contra a Honra) como principal por cobrir as alternativas finais (D, E), que tratam do tema mais \"clássico\" de honra, com P5 (Fé Pública/Falsidade Documental) como segunda opção por cobrir A e B. A alternativa sobre abuso de autoridade (C) não é contemplada por nenhum dos dois grupos de forma direta, reforçando o caráter multi-tema sem eixo dominante claro."
+ },
+ "uso": {
+  "in": 6,
+  "out": 5288,
+  "cache_w": 14031,
+  "cache_r": 14150,
+  "custo_usd": 0.121837
+ }
+}

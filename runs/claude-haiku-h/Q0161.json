@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5584",
+ "subtema_n2_id": "5589",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.7,
+ "segunda_opcao_id": "5588",
+ "extras_ids": [
+  "5518"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão de Processo Penal sobre audiência de custódia e providências judiciais. A defesa técnica deve requerer o relaxamento da prisão em flagrante, que é ilegal por decorrência de busca domiciliar realizada sem autorização judicial ou consentimento do morador (violação do art. 5º, XI da CF). Na audiência de custódia, o juiz analisa a legalidade da prisão conforme exigem os arts. 5º LXII/LXIII e 310 do CPP, e pode adotar várias providências: relaxamento (art. 310, I), liberdade provisória (art. 310, III), medidas cautelares diversas (art. 319) ou conversão em domiciliar (art. 318). A questão testa a capacidade de identificar qual é a principal tese de defesa (relaxamento por ilegalidade) e distingui-la das outras providências possíveis, que são subsidiárias e pressupõem legalidade. Encaixa-se primariamente em 5589 (Audiência de Custódia) pelo contexto processual explícito e estrutura de providências judiciais, com 5588 (Relaxamento da Prisão) como segunda opção igualmente relevante. A confiança no subtema é moderada (0.70) porque a questão toca equilibradamente em ambos os temas.",
+ "id": "Q0161",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5584",
+  "segunda_opcao_n1_id": "5517",
+  "confianca_ramo": 0.8,
+  "multi_tema": false,
+  "justificativa": "Questão de Processo Penal sobre resposta processual à prisão em flagrante viciada (decorrente de busca domiciliar ilegal). O tema central é o controle judicial da prisão na audiência de custódia, envolvendo análise de legalidade (fundamento para relaxamento) e apresentação de teses de defesa (relaxamento, liberdade provisória, medidas cautelares, prisão domiciliar). Encaixa-se em 5584 (Teoria Geral das Prisões) pelos subtemas explícitos de Audiência de Custódia e Relaxamento da Prisão, e pela ênfase nos fundamentos constitucionais e nas garantias mínimas. A segunda opção seria 5517 (Prisões em Espécie) pelo enfoque nas modalidades concretas."
+ },
+ "uso": {
+  "in": 20,
+  "out": 11194,
+  "cache_w": 14832,
+  "cache_r": 12522,
+  "custo_usd": 0.0969282
+ }
+}

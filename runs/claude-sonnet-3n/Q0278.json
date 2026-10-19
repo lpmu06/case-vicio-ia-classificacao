@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5542",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa especificamente os requisitos da suspensão condicional do processo (art. 89 da Lei 9.099/95): pena mínima igual ou inferior a um ano (e não dois, como afirma a assertiva, que está errada por esse motivo) e prazo de suspensão de dois a quatro anos. Como existe um subtema de nível 2 exatamente dedicado a esse instituto — \"Suspensão Condicional do Processo\" (5542), dentro de \"Procedimento Sumaríssimo\" (5539) em Processo Penal —, a classificação mais precisa é nele, já que subtemas específicos devem ser preferidos quando correspondem exatamente ao conteúdo cobrado. O tema \"Juizado Especial Criminal\" (4701), em Legislação Especial, não possui subtemas, de modo que mantém a mesma amplitude temática mas com menor precisão de enquadramento; por isso passa a ser a segunda opção, ainda correta por cobrir integralmente a Lei 9.099/95.",
+ "id": "Q0278",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "grupo_id": "LE4",
+  "segundo_grupo_id": "PP6",
+  "confianca": 0.85,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "A questão trata da suspensão condicional do processo, instituto previsto no art. 89 da Lei 9.099/95 (Juizados Especiais Criminais), aplicável a crimes com pena mínima igual ou inferior a um ano (não dois anos, como erroneamente afirma o item). O tema central é Juizado Especial Criminal, dentro do grupo LE4."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4701",
+  "segunda_opcao_n1_id": "5539",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a suspensão condicional do processo (art. 89 da Lei 9.099/95), testando o requisito da pena mínima (correto é igual ou inferior a um ano, não dois) e o prazo de suspensão (de dois a quatro anos). O instituto é tratado expressamente na descrição do tema \"Juizado Especial Criminal\" (4701), dentro do grupo de Legislação Especial, que, por ser nível 1, abrange toda a matéria da Lei 9.099/95. Alternativamente, o mesmo instituto aparece como subtema exato \"Suspensão Condicional do Processo\" dentro de \"Procedimento Sumaríssimo\" (5539), em Processo Penal, o que também seria uma classificação correta e precisa. Dado que a questão é extraída de legislação extravagante (enunciado expresso) e o instituto está nomeado literalmente na ementa do tema de Legislação Especial, opto por esse como primeira escolha, mantendo o tema processual como segunda opção por também cobrir exatamente o subtema."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2980,
+  "cache_w": 10764,
+  "cache_r": 11846,
+  "custo_usd": 0.08327520000000001
+ }
+}

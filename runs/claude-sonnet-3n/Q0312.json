@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4384",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": "4374",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata exatamente da concepção de Von Liszt sobre os fins da pena segundo a categoria do delinquente (correção/ressocialização dos corrigíveis, intimidação dos intimidáveis, neutralização/inocuização dos incorrigíveis), núcleo clássico da prevenção especial dentro das Teorias Legitimidoras da Pena (4384), que não possui subtemas. Política Criminal (4374) seria aplicável a estratégias de enfrentamento da criminalidade, não à fundamentação teórica da pena, por isso mantida apenas como segunda opção.",
+ "id": "Q0312",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata da teoria da pena de Von Liszt (prevenção especial diferenciada conforme a categoria do delinquente), tema clássico de Teorias Legitimidoras da Pena, dentro do grupo C2 de Criminologia."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4384",
+  "segunda_opcao_n1_id": "4374",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente da concepção de Von Liszt sobre os fins da pena conforme a categoria do delinquente (correção dos corrigíveis, intimidação dos intimidáveis, neutralização dos incorrigíveis), que é a essência da teoria preventiva especial dentro das Teorias Legitimidoras da Pena. Segunda opção (Política Criminal) é menos adequada, pois o foco é a fundamentação da pena, não estratégias de enfrentamento da criminalidade."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1221,
+  "cache_w": 10088,
+  "cache_r": 14150,
+  "custo_usd": 0.061608
+ }
+}

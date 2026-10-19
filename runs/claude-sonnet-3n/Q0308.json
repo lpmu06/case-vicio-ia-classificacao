@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5501",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5467",
+ "extras_ids": [
+  "5466"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta qual o efeito jurídico do arquivamento do inquérito policial pelo MP por ausência de elementos de informação (justa causa). O eixo central é o próprio instituto do arquivamento do inquérito e suas consequências (não produz coisa julgada material, admite desarquivamento com novas provas, apenas reconhece ausência de justa causa em sentido estrito) — matéria tratada especificamente no subtema \"Conclusão e Arquivamento do Inquérito Policial\" (5501), dentro do tema \"Inquérito Policial\" (5498), que trata expressamente de arquivamento, desarquivamento e novas provas. Como alternativa, a questão tangencia o conceito de \"justa causa\" como condição da ação penal, tema tratado em \"Características e Condições da Ação Penal\" (5467), dentro de \"Ação Penal\" (5466), por isso mantenho essa como segunda opção plausível. Opto por confirmar o tema de nível 1 anterior (5498) e, diferentemente do estágio anterior, atribuo o subtema específico (5501), já que a pergunta foca exatamente nos efeitos do arquivamento, não apenas no conceito abstrato de justa causa.",
+ "id": "Q0308",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata dos efeitos jurídicos do arquivamento do inquérito policial por ausência de elementos de informação suficientes, tema que se insere diretamente em Inquérito Policial (encerramento/arquivamento), dentro do grupo PP2."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre os efeitos do arquivamento do inquérito policial por ausência de elementos de informação (falta de justa causa), tema diretamente relacionado ao instituto do arquivamento do inquérito, enquadrado em \"Inquérito Policial\" (subtema Conclusão e Arquivamento do Inquérito Policial). Como alternativa, poderia ser pensado como ligado às condições da ação penal (justa causa como requisito), por isso \"Ação Penal\" é a segunda opção plausível."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2535,
+  "cache_w": 16586,
+  "cache_r": 14150,
+  "custo_usd": 0.10618399999999999
+ }
+}

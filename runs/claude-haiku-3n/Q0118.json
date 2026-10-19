@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão que testa aplicação temporal de leis processuais penais, especificamente o princípio tempus regit actum (art. 2º CPP) e a incidência imediata da lei processual nova aos processos em curso. O instituto jurídico central é Lei Processual no Tempo: avalia se a lei nova sobre fiança se aplica desde logo sem prejudicar atos anteriores, e se normas sobre prisão preventiva (medida cautelar que afeta direito fundamental) podem se beneficiar de aplicação retroativa benéfica. Subtema 5507 é preciso (palavras-chave, dispositivos e descrição cobrem exatamente este escopo); não há confusão com interpretação (5508) ou espaço (5506).",
+ "id": "Q0118",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP1",
+  "segundo_grupo_id": null,
+  "confianca": 0.97,
+  "multi_tema": false,
+  "justificativa": "Questão sobre aplicação temporal de leis processuais penais (fiança e prisão preventiva sob lei anterior vs. lei nova), que é o tema central de \"Lei Processual no Tempo e no Espaço\" em PP1. Não há ambiguidade temática: o instituto jurídico testado é especificamente o princípio de irretroatividade relativa (favor rei) das leis processuais penais."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5505",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão que testa especificamente a aplicação temporal de leis processuais penais, avaliando o princípio de irretroatividade relativa (favor rei) em duas situações: fiança e prisão preventiva sob lei anterior vs. lei nova. O instituto jurídico central é a aplicação no tempo da lei processual penal brasileira, que é o objeto direto de \"Lei Processual no Tempo e no Espaço\" (5505). Não há ambiguidade temática nem multiúltiplos eixos: a questão é unicamente sobre aplicação temporal, sem envolver subtemas adicionais (espaço, interpretação)."
+ },
+ "uso": {
+  "in": 30,
+  "out": 7985,
+  "cache_w": 15091,
+  "cache_r": 4639,
+  "custo_usd": 0.07697889999999999
+ }
+}

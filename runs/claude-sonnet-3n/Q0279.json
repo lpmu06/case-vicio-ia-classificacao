@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5186",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0.78,
+ "segunda_opcao_id": "5178",
+ "extras_ids": [
+  "5188"
+ ],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema de nível 1 Prescrição (5185). O dado de que o agente tinha 19 anos à época do fato não é mero detalhe narrativo: é a chave para a resposta, pois reduz pela metade o prazo prescricional (art. 115 CP). Furto simples tem pena máxima de 4 anos, cuja prescrição em abstrato seria de 8 anos (art. 109, IV), mas reduzida pela metade por ser menor de 21 anos na data do fato, o prazo cai para 4 anos. Como o recebimento da denúncia ocorreu 4 anos e 6 meses após o fato, ultrapassando esse prazo reduzido, reconhece-se a prescrição da pretensão punitiva pela pena em abstrato, contada do fato até o recebimento da denúncia (arts. 109 e 110, §1º, CP), respondendo corretamente à alternativa (C). Os demais institutos citados (arrependimento eficaz, desistência voluntária, tentativa, \"crime oco\") são distratores de iter criminis, já afastados porque o furto se consumou com a posse da coisa (ainda que breve) antes da devolução motivada pela mãe — a devolução posterior não desconfigura a consumação nem configura desistência voluntária ou arrependimento eficaz, que pressupõem atuação durante a execução ou antes da consumação. Como o núcleo da questão exige calcular e aplicar a regra de redução do prazo prescricional pela menoridade relativa (art. 115 CP) combinada ao marco do recebimento da denúncia, há tensão entre dois subtemas: 5186 (regras gerais, inclusive a redução etária do art. 115) e 5187 (contagem de prazos e marco do recebimento da denúncia). Opto por 5186 por ser o subtema que expressamente menciona \"menor de 21 anos\" e \"art. 115 CP\" como palavra-chave central, mas a confiança no subtema é moderada dado esse cruzamento legítimo com 5187. Mantenho segunda opção em Iter Criminis (5178) pelo forte apelo distrator da desistência voluntária/arrependimento eficaz, e incluo 5188 (Prescrição da Pretensão Punitiva) como extra por também ser tecnicamente aplicável ao núcleo da resposta.",
+ "id": "Q0279",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": "P2",
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "Apesar do contexto narrativo envolver furto e institutos de iter criminis (desistência voluntária, arrependimento eficaz), a pergunta central exige calcular o prazo prescricional aplicável à pena do furto simples (pena máxima 4 anos, prescrição em 8 anos pela tabela do art. 109, mas pela redação do enunciado o examinador testa o conhecimento sobre prescrição da pretensão punitiva em abstrato/retroativa, com o decurso de 4 anos e 6 meses entre o fato e o recebimento da denúncia). O instituto jurídico cuja resposta exige conhecimento é a Prescrição (P3), não os institutos de iter criminis, que são distratores no texto. Furto simples tem pena de 1 a 4 anos; prescrição pela pena máxima (4 anos) ocorre em 8 anos (art. 109, IV) - mas se a questão considerasse a pena em concreto ou outra hipótese, a resposta correta seria C mesmo assim, confirmando que o eixo é prescrição."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5185",
+  "segunda_opcao_n1_id": "5175",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "O enunciado traz distratores de iter criminis (desistência voluntária/arrependimento eficaz, inclusive a consumação do furto já ocorrida com a posse da coisa, afastando tentativa) e um falso instituto (\"crime oco\"), mas a pergunta central exige calcular o lapso entre a data do fato e o recebimento da denúncia (4 anos e 6 meses) à luz dos prazos do art. 109 do CP para reconhecer a prescrição da pretensão punitiva. O instituto cuja resposta exige conhecimento é a Prescrição, mantendo a classificação do estágio anterior (P3 > Prescrição, id 5185), com segunda opção em Iter Criminis (5175) dado o forte apelo narrativo a esses institutos como distratores."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2920,
+  "cache_w": 16504,
+  "cache_r": 14150,
+  "custo_usd": 0.1094
+ }
+}

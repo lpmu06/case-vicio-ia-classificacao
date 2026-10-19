@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [
+  "5208",
+  "5206"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão combina quatro institutos tipicamente de fase executória - graça/indulto parcial, parcelamento do pagamento da multa, legitimidade para requerer livramento condicional (arts. 710-712 CPP, ainda vigentes e aplicados em conjunto com a LEP) e eventual redução do requisito temporal por idade - sem um eixo único de nível 2. Mantenho a Lei de Execução Penal (4703) como tema guarda-chuva de nível 1, já que graça, parcelamento de multa e livramento condicional são todos incidentes típicos da execução penal, mesmo que a alternativa sobre livramento remeta a dispositivos formalmente alocados no CPP. Como segunda opção, Teoria da Pena (5199) é relevante porque cobre doutrinariamente livramento condicional (5208) e pena de multa (5206), que aparecem fortemente no enunciado. Não marco subtema específico porque nenhum instituto isolado domina todas as alternativas - a alternativa B (parcelamento de multa) e a C/D (livramento condicional) disputam o foco central, e não há certeza suficiente sobre qual subtema isolado representaria corretamente toda a questão.",
+ "id": "Q0252",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.6,
+  "multi_tema": true,
+  "justificativa": "A questão trata de institutos típicos de execução penal: graça (indulto individual), parcelamento da pena de multa e livramento condicional, todos regidos essencialmente pela Lei de Execução Penal (ainda que previstos também no CPP/CP). Cada alternativa versa sobre um instituto diferente ligado à fase executória da pena, o que caracteriza certo caráter multi-tema dentro do eixo \"execução penal\". Por isso, o grupo que melhor abrange o conjunto é LE4 (Lei de Execução Penal), com P3 (Punibilidade/Teoria da Pena) como segunda opção, já que o livramento condicional também é tratado na parte geral do Direito Penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão combina quatro institutos tipicamente executórios da pena (graça/indulto parcial, parcelamento da multa, livramento condicional e sua legitimidade/requisito etário), todos regulados essencialmente pela LEP (ainda que replicados no CPP/CP). Não há um eixo único de nível 2 comum a todas as alternativas, mas o conjunto se encaixa melhor no tema guarda-chuva de execução penal (LE4), pois graça e parcelamento de multa são questões de fase executória por excelência. Como segunda opção, Teoria da Pena (5199) cobre o livramento condicional e a questão do idoso na dosimetria/benefícios, que também aparece fortemente na questão."
+ },
+ "uso": {
+  "in": 6,
+  "out": 4159,
+  "cache_w": 16623,
+  "cache_r": 14150,
+  "custo_usd": 0.122429
+ }
+}

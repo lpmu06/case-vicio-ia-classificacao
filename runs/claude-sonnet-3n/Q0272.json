@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão trata exclusivamente de falta grave na execução penal (prescrição, rol do art. 50 LEP, aplicação ao preso provisório, posse de droga e tornozeleira eletrônica), temas regidos pela LEP, correspondendo exatamente ao tema 4703, que não possui subtemas.",
+ "id": "Q0272",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata de falta grave no curso da execução penal, tema regido pela Lei de Execução Penal (prescrição, rol do art. 50, aplicação ao preso provisório, etc.), estando todas as alternativas centradas nesse instituto específico da LEP, classificado em Legislação Especial (LE4)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão versa exclusivamente sobre falta grave na execução penal (prescrição, rol do art. 50, aplicação ao preso provisório, posse de droga, tornozeleira eletrônica), temas regidos pela Lei de Execução Penal (Lei 7.210/1984), correspondendo exatamente ao tema 4703."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1027,
+  "cache_w": 8204,
+  "cache_r": 11846,
+  "custo_usd": 0.050791199999999995
+ }
+}

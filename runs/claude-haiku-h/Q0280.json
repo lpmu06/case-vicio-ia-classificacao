@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5472",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.82,
+ "segunda_opcao_id": "5122",
+ "extras_ids": [
+  "5121",
+  "5467"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão sobre ação penal privada em crime contra a honra (calúnia contra funcionário público). O eixo central é processual: espécie de ação (privada, não pública condicionada), titularidade (ofendido), forma de exercício (queixa com procuração com poderes especiais), condições de deflagração de investigação (manifestação clara do ofendido) e aditamento de queixa. A alternativa (A) incorreta testa conhecimento crítico: que em ação penal privada não há representação ao MP (instrumento de ação pública condicionada). Embora a questão mencione calúnia (tipo penal) e exceção da verdade (direito material), o teste concentra-se em disciplina processual. Confiança moderada no subtema 5472 porque há elementos de direito material substantivo (exceto da verdade, crime de calúnia) que poderiam apontar para 5122 (Calúnia); segunda opção justificada.",
+ "id": "Q0280",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5120",
+  "confianca_ramo": 0.72,
+  "multi_tema": false,
+  "justificativa": "Questão sobre ação penal em crimes contra a honra, abordando principalmente: (1) classificação de ação penal (pública condicionada à representação vs. ação privada/queixa); (2) competência da polícia judiciária para deflagrar investigação; (3) possibilidade de intervenção/aditamento pelo MP. O tema central é a disciplina processual da ação penal (espécies, representação, queixa, condições). Embora toque em direito material (exceção da verdade, crime contra a honra), o eixo das alternativas é processual. Confiança moderada por haver elementos de direito material e possibilidade de classificar em Crimes Contra a Honra (5120)."
+ },
+ "uso": {
+  "in": 20,
+  "out": 14622,
+  "cache_w": 14351,
+  "cache_r": 12522,
+  "custo_usd": 0.1125622
+ }
+}

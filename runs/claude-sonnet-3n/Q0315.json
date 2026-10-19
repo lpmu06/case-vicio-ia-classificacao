@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5189",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [
+  "5188"
+ ],
+ "multi_tema": false,
+ "justificativa": "Confirmo o ramo 5185 (Prescrição). A questão exige calcular o prazo prescricional a partir da pena efetivamente aplicada (2 anos e 9 meses), situando-o na faixa do art. 109, IV, CP (prazo de 4 anos), reduzido pela metade por força do art. 115 do CP (réu menor de 21 anos na data do fato: nascido em 15/8/1996, fato em 7/4/2016), chegando a 2 anos — exatamente o que a alternativa correta (B) testa, contado \"após o trânsito em julgado da condenação, quer para a defesa quer para a acusação\". Esse enunciado - prazo contado do trânsito em julgado definitivo, com base na pena em concreto e sem diferenciação entre as partes - é a marca distintiva da prescrição da pretensão EXECUTÓRIA (art. 110, caput, CP), não da pretensão punitiva intercorrente (que corre entre a sentença e o trânsito em julgado, e cujo marco final variava por parte na jurisprudência anterior do STF, hoje unificado). Por isso, ajusto o subtema de 5186/geral para 5188... na verdade para 5189 (Prescrição da Pretensão Executória), que é o subtema que trata especificamente de cálculo pela pena aplicada após o trânsito em julgado, sem diferenciação entre acusação e defesa. Mantenho 5199 (Teoria da Pena) como segunda opção, pois a pista de origem (concurso de crimes/dosimetria) e a necessidade de calcular a pena aplicada tangenciam esse tema, e incluo 5188 como extra por também caber na discussão sobre quando o prazo prescricional é contado antes versus depois do trânsito em julgado.",
+ "id": "Q0315",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa exclusivamente o instituto da prescrição penal (cálculo de prazos prescricionais com base na pena em concreto, considerando a idade do réu e o entendimento do STF sobre contagem de prazos pela pena aplicada), que está no subtema \"Prescrição\" dentro do grupo P3 (Parte geral: pena, medida de segurança, punibilidade, prescrição e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5185",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige exclusivamente o cálculo do prazo prescricional (art. 109 c/c art. 115 do CP, considerando a pena em concreto aplicada e a redução pela metade por ser o réu menor de 21 anos na data do fato), tema central e específico de Prescrição (5185), subtema \"Prescrição da Pretensão Punitiva\"/\"Contagem dos Prazos\". Não se trata de concurso de crimes nem de dosimetria em si, apesar da pista de origem. Mantém-se dentro do grupo P3, mas o tema de nível 1 correto é Prescrição, não Teoria da Pena (que seria a segunda opção, por tangenciar a pena aplicada usada no cálculo)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 5466,
+  "cache_w": 18185,
+  "cache_r": 14150,
+  "custo_usd": 0.143127
+ }
+}

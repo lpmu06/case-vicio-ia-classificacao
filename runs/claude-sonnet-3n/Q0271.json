@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5512",
+ "subtema_n2_id": "5513",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5525",
+ "extras_ids": [
+  "5515"
+ ],
+ "multi_tema": false,
+ "justificativa": "O comando da questão gira em torno do princípio tantum devolutum quantum appellatum e sua relativização (reformatio in mellius x reformatio in pejus) em recurso exclusivo da acusação, perguntando qual é a exceção jurisprudencial consolidada pelo STF a essa regra geral. O enunciado expõe textualmente os conceitos-chave de 5513 (tantum devolutum quantum appellatum, non reformatio in pejus) como premissa teórica, e pede ao aluno que identifique a exceção a esse princípio — ou seja, o eixo cobrado é a extensão/limite do princípio recursal, não o procedimento do júri em si. A alternativa correta (B) aponta a soberania dos veredictos do júri como fundamento da exceção, o que cria forte conexão com Princípios Constitucionais do Júri (5525), pertencente ao tema 5524. Optei por manter 5512 (Parte Geral dos Recursos) como ramo principal, com subtema 5513 (Princípios Recursais), pois a pergunta é estruturalmente sobre o alcance de um princípio recursal geral e sua exceção, e as palavras-chave de 5513 (\"tantum devolutum quantum appellatum\", \"non reformatio in pejus\") correspondem exatissimamente ao texto do enunciado. Mantenho 5524/5525 como segunda opção relevante, dada a materialidade da exceção estar centrada na soberania dos veredictos do júri — um ponto de dúvida genuína entre classificar pelo princípio geral testado ou pela exceção específica que é objeto da resposta correta.",
+ "id": "Q0271",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": "PP6",
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa o princípio tantum devolutum quantum appellatum, a reformatio in mellius e as exceções a essa regra em sede de recurso (apelação), conforme art. 617 do CPP e jurisprudência do STF/STJ, especialmente quanto à soberania do Tribunal do Júri. O eixo central é teoria geral dos recursos (parte geral dos recursos), cabendo em PP8. Há conexão secundária com Procedimento do Júri (PP6), já que a exceção tratada envolve especificamente as decisões do Júri."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5512",
+  "segunda_opcao_n1_id": "5524",
+  "confianca_ramo": 0.65,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o princípio tantum devolutum quantum appellatum, a reformatio in mellius e a exceção jurisprudencial do STF a essa regra (soberania dos veredictos do Júri impedindo reforma em recurso exclusivo da acusação). O eixo central testado é um princípio recursal (extensão da devolutividade e limites da reforma pro reo/pro societate), matéria de teoria geral dos recursos, cabendo em Parte Geral dos Recursos (PP8), especificamente no subtema Princípios Recursais no Processo Penal. Há, contudo, forte conexão com o Procedimento do Júri (PP6), já que a exceção tratada na alternativa correta (B) é especificamente sobre decisões do Júri e sua soberania constitucional, o que também poderia justificar classificação em Princípios Constitucionais do Júri. Mantenho a linha do estágio anterior: PP8 como eixo principal (o comando pergunta sobre uma exceção a um princípio recursal geral) e PP6 como segunda opção pela especificidade do objeto da exceção (Júri)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2753,
+  "cache_w": 15509,
+  "cache_r": 14150,
+  "custo_usd": 0.102873
+ }
+}

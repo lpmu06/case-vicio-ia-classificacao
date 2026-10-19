@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5178",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.99,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão com tema central inequívoco: diferenciação entre desistência voluntária (art. 15 do CP) e arrependimento eficaz (art. 16 do CP). A resposta correta (A) capta com precisão as diferenças essenciais: (1) desistência voluntária ocorre durante a execução, o agente abandona voluntariamente e responde pelos atos praticados; (2) arrependimento eficaz ocorre entre o término dos atos executórios e a consumação, quando o agente, tendo feito tudo, interfere ativamente para evitar o resultado. Classificação confirmada no subtema 5178, que trata especificamente destes institutos do iter criminis. Nenhuma ambiguidade temática. Confiança muito alta pela clareza e especificidade do conteúdo testado.",
+ "id": "Q0237",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5175",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão com tema central bem delimitado: desistência voluntária versus arrependimento eficaz (art. 15 do CP). Pertence inequivocamente ao subtema \"Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior\" do tema 5175 Iter Criminis (Penal). Não há ambiguidade temática ou sobreposição com outros temas. A resposta correta é (A), que capta com precisão as diferenças essenciais: momento de ocorrência (durante vs. após execução) e forma de atuação (desistência voluntária vs. interferência ativa). Confiança alta pela clareza e especificidade do conteúdo testado."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4896,
+  "cache_w": 9183,
+  "cache_r": 12522,
+  "custo_usd": 0.0495762
+ }
+}

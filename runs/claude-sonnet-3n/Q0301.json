@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": "5197",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "4691",
+ "extras_ids": [
+  "4691"
+ ],
+ "multi_tema": true,
+ "justificativa": "A pergunta central é \"não admite perdão judicial\", exigindo que o aluno conheça exatamente as hipóteses legais de perdão judicial (art. 120 CP e correlatos em leis especiais) para identificar qual delas não se encaixa. A alternativa correta é a (A): lesão corporal culposa na direção de veículo automotor é regida pelo CTB (art. 303), que não contempla perdão judicial — diferentemente da lesão culposa comum do CP (art. 129, §8º, c/c 121, §5º). As demais alternativas (trapaça do art. 176, parágrafo único, CP; maus-tratos à fauna do art. 29, §2º, Lei 9.605/98; retorsão imediata do art. 143 CP) são exemplos legais de perdão judicial já mapeados no subtema 5197. Como o teste gira em torno do instituto do perdão judicial (e não de um crime específico), mantenho o tema de nível 1 Punibilidade com subtema Perdão Judicial, mesmo havendo alternativas de ramos distintos (trânsito, legislação ambiental, estelionato, honra), por isso marco multi_tema = true e indico Crimes de Trânsito como segunda opção, já que a resposta correta reside justamente na ausência de previsão de perdão judicial no CTB.",
+ "id": "Q0301",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": "LE4",
+  "confianca": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão testa o instituto do perdão judicial (causa de extinção da punibilidade), tema de Punibilidade (P3), ainda que cada alternativa narre um crime diferente (lesão culposa de trânsito - CTB, \"trapaça\" do art. 176 CP, crime ambiental da Lei 9.605, difamação). Como o eixo comum é o perdão judicial, classifico em Punibilidade; marco multi_tema pois as alternativas remetem a crimes de ramos distintos, sem eixo narrativo único, e cito LE4 (que trata de trânsito/leg. especial) como segunda opção possível."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5191",
+  "segunda_opcao_n1_id": "4691",
+  "confianca_ramo": 0.75,
+  "multi_tema": true,
+  "justificativa": "O eixo comum da questão é o instituto do perdão judicial (causa de extinção da punibilidade prevista em diversos diplomas: CTB art. 291, §1º combinado com homicídio culposo de trânsito; CP art. 176, parágrafo único - trapaça; Lei 9.605/98 art. 29, §2º - fauna; CP art. 143 - difamação), o que o enquadra em Punibilidade (P3), subtema Perdão Judicial. Como as alternativas remetem a crimes de ramos distintos (trânsito, legislação ambiental, difamação, estelionato-trapaça), sem eixo narrativo único, marco multi_tema = true e indico Crimes de Trânsito (LE4) como segunda opção, por ser o ramo de legislação especial mais presente no enunciado."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2944,
+  "cache_w": 13491,
+  "cache_r": 14150,
+  "custo_usd": 0.09528
+ }
+}

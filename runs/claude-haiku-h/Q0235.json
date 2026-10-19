@@ -1,0 +1,30 @@
+{
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "fora": false,
+ "justificativa": "Questão centrada no RESE: cabimento contra decisão sobre competência, prazo de 5 dias e ausência de efeito suspensivo. Legislação consolidada (CPP arts. 581, VI e 586). Jurisprudência STF/STJ pacífica reconhece RESE contra decisão de competência, embora expressamente previsto para Justiça Federal. Tema processual penal, recurso em espécie específico, subtema RESE bem delimitado. Não há ambiguidade com tema 5480 (Competência), pois o foco é o meio de impugnação, não o critério de competência.",
+ "id": "Q0235",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre características específicas do RESE contra decisão de competência: cabimento, prazo de 5 dias e ausência de efeito suspensivo. Tema processual penal sobre recursos em espécie, com legislação e jurisprudência consolidadas (CPP arts. 581, 585; STJ/STF pacífico)."
+ },
+ "uso": {
+  "in": 20,
+  "out": 9862,
+  "cache_w": 12930,
+  "cache_r": 12522,
+  "custo_usd": 0.0867762
+ }
+}

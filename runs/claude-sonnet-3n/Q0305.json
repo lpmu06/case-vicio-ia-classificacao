@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5471",
+ "extras_ids": [
+  "5473",
+  "5469"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 \"Ação Penal\" (5466): a questão trata exclusivamente de institutos da ação penal pública (prazo para denúncia - art. 46 CPP, indisponibilidade/princípios, requisitos da denúncia - qualificação do acusado, forma da representação do ofendido, e requisição do Ministro da Justiça para crimes contra o Presidente da República), não havendo qualquer relação com a fase investigatória (Inquérito Policial, 5498), que fica descartado. Cada alternativa testa um subtema diferente dentro de Ação Penal: (A) prazo para denúncia (Denúncia, 5473, ou procedimento), (B) indisponibilidade (Princípios da Ação Penal, 5469), (C) requisitos da denúncia (5473), (D) forma da representação (Ação Penal Pública Condicionada, 5471) e (E) - a correta - requisição do Ministro da Justiça (também 5471, art. 145, parágrafo único, CP: ato irrevogável e sem prazo legal). Como a alternativa correta (E) versa sobre requisição ministerial, subtema próprio de Ação Penal Pública Condicionada (5471), este seria o subtema mais defensável; porém, como as demais alternativas exigem conhecimento de outros subtemas (Denúncia, Princípios) para serem descartadas, não há um único subtema que abranja todo o enunciado com segurança. Por isso, mantenho subtema_n2_id = null, classificando apenas no tema de nível 1, com 5471 como segunda opção (por conter a resposta correta) e 5473/5469 como extras relevantes.",
+ "id": "Q0305",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa inteiramente sobre ação penal pública: prazos para denúncia, dispensabilidade da ação penal, requisitos da denúncia, representação do ofendido e requisição do Ministro da Justiça - todos institutos típicos de Ação Penal, tema integrante do grupo PP2 (Investigação e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5498",
+  "confianca_ramo": 0.95,
+  "multi_tema": true,
+  "justificativa": "A questão aborda múltiplos institutos da ação penal pública: prazo para denúncia, princípio da indisponibilidade, requisitos da denúncia, forma de exercício da representação do ofendido e requisição do Ministro da Justiça. Todos esses temas (Denúncia, Características e Condições da Ação Penal, Ação Penal Pública Condicionada) são subtemas do tema de nível 1 \"Ação Penal\" (5466), que abrange integralmente o conteúdo cobrado, sem relação direta com a fase investigatória tratada em Inquérito Policial (5498), que fica como segunda opção apenas por pertencer ao mesmo grupo temático de processo penal pré-processual/ação."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2461,
+  "cache_w": 17433,
+  "cache_r": 14150,
+  "custo_usd": 0.109447
+ }
+}

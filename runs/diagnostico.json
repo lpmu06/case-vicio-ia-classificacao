@@ -1,0 +1,53 @@
+{
+ "grupos": {
+  "multipla_escolha": {
+   "unanimes": 0.807,
+   "publicadas": 0.621,
+   "n": 301
+  },
+  "certo_errado": {
+   "unanimes": 0.741,
+   "publicadas": 0.534,
+   "n": 58
+  },
+  "multi": {
+   "unanimes": 0.735,
+   "publicadas": 0.41,
+   "n": 117
+  },
+  "nao_multi": {
+   "unanimes": 0.826,
+   "publicadas": 0.702,
+   "n": 242
+  }
+ },
+ "disciplina_origem": {
+  "igual": 302,
+  "diferente": 48,
+  "sem": 9
+ },
+ "temas_vazios_n1": [
+  "Classificação das Vítimas",
+  "Classificação dos Criminosos",
+  "Teorias e Síndromes com Enfoque nas Vítimas",
+  "Biossegurança",
+  "Contravenções Penais",
+  "Crimes Eleitorais",
+  "Crimes contra o Sistema Financeiro",
+  "Crimes de Racismo",
+  "Crimes de Trânsito",
+  "Genocídio",
+  "Identificação Criminal",
+  "Interceptação Telefônica",
+  "Violência contra Criança e Adolescente",
+  "Das Lesões Corporais",
+  "Dos Crimes Contra a Honra",
+  "Dos Crimes Contra a Incolumidade Pública",
+  "Dos Crimes contra a Família",
+  "Dos Crimes contra as Finanças Públicas",
+  "Dos Crimes contra as Instituições Democráticas",
+  "Dos Crimes contra o Estado Democrático de Direito",
+  "Dos Crimes contra o Funcionamento dos Serviços Essenciais",
+  "Procedimento Sumário"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4701",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5539",
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "A questão exige conhecimento de diversos dispositivos da Lei 9.099/1995 (ação penal nas lesões corporais - art. 88; termo circunstanciado - art. 69; citação - art. 66/70; publicidade dos atos - art. 81; produção de provas - art. 81, §2º), sem um eixo único além da própria Lei dos Juizados. Como existe o tema específico \"Juizado Especial Criminal\" (4701) em Direito Penal - Legislação Especial que abrange todo o microssistema (termo circunstanciado, procedimento sumaríssimo, ação penal nas infrações de menor potencial ofensivo), ele deve prevalecer sobre o correspondente de Processo Penal (5539 - Procedimento Sumaríssimo), conforme a regra de priorização da Legislação Especial. Como não há subtemas em 4701, subtema_n2_id permanece null. Marco multi_tema=true porque cada alternativa versa sobre um instituto distinto dentro do mesmo diploma legal.",
+ "id": "Q0290",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": "PP6",
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa integralmente sobre disposições da Lei 9.099/95 (Juizados Especiais Criminais): ação penal em lesões, termo circunstanciado, citação, publicidade dos atos e produção de provas na audiência. Existindo o tema específico \"Juizado Especial Criminal\" em Legislação Especial (LE4), este deve ser preferido, conforme a regra que dá prioridade à Legislação Especial quando há o mesmo título em ambos os ramos (o correspondente em Processo Penal seria Procedimento Sumaríssimo, PP6)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4701",
+  "segunda_opcao_n1_id": "5539",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata integralmente de dispositivos da Lei 9.099/95: ação penal nas lesões corporais, termo circunstanciado, citação, publicidade dos atos e produção de provas na audiência. Como existe o tema específico \"Juizado Especial Criminal\" (4701) em Legislação Especial, ele deve ser preferido em relação ao correspondente de Processo Penal (Procedimento Sumaríssimo, 5539), conforme a regra de priorização da Legislação Especial quando há mesmo título em ambos os ramos."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1817,
+  "cache_w": 12149,
+  "cache_r": 11846,
+  "custo_usd": 0.0777212
+ }
+}

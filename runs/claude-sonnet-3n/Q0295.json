@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5487",
+ "subtema_n2_id": "5489",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5488",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam sobre intimação (MP, defensoria pública, assistente de acusação) e a contagem/fluência de seus prazos a partir da ciência do ato — matéria típica do subtema \"Intimação e Contagem dos Prazos\" (5489), distinto de citação do acusado (5488). Confirma-se o tema de nível 1 \"Comunicação dos Atos Processuais\" (5487), descartando \"Competência\" (5480), que não guarda relação com o conteúdo da questão.",
+ "id": "Q0295",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "grupo_id": "PP3",
+  "segundo_grupo_id": null,
+  "fora": false,
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata da contagem de prazos processuais e intimações (MP, defensoria pública, assistente de acusação), tema central de Comunicação dos Atos Processuais, que integra o grupo PP3 (Competência, questões e processos incidentes, comunicação dos atos)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5487",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente da forma de contagem e fluência de prazos processuais relativos a intimações (MP, defensoria pública, assistente de acusação), tema central de \"Comunicação dos Atos Processuais\", especificamente do subtema \"Intimação e Contagem dos Prazos\". Não envolve competência, exceções ou incidentes processuais, de modo que o tema de nível 1 adequado é 5487, mantendo-se dentro do grupo PP3."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1346,
+  "cache_w": 12220,
+  "cache_r": 9542,
+  "custo_usd": 0.07357140000000001
+ }
+}

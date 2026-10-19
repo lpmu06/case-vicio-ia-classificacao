@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5186",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5191",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata da regra do art. 119 do CP (prescrição incide isoladamente sobre cada crime no concurso), que é regra geral da prescrição expressamente listada no subtema 5186 (Conceito, Regras Gerais e Fundamentos da Prescrição, que cita explicitamente \"concurso de crimes\" e art. 119 CP). O tema de nível 1 é Prescrição (5185), não Punibilidade (5191), pois o foco não é o gênero extinção da punibilidade, mas a mecânica específica de cálculo prescricional. Confiança alta no ramo e boa confiança no subtema dado o match direto com a descrição de 5186.",
+ "id": "Q0265",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a aplicação da prescrição no concurso de crimes (art. 119 CP - cada crime tem sua pena contada isoladamente para fins de prescrição), tema que se encaixa diretamente em \"Prescrição\", pertencente ao grupo P3 (Parte geral: pena, medida de segurança, punibilidade, prescrição e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5185",
+  "segunda_opcao_n1_id": "5191",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata especificamente da regra do art. 119 do CP, segundo a qual, no concurso de crimes, a prescrição é calculada isoladamente para cada infração penal. Esse é um conteúdo próprio e específico do tema \"Prescrição\" (subtema \"Outras Prescrições\" ou \"Conceito, Regras Gerais e Fundamentos da Prescrição\"), não sendo um aspecto genérico de \"Punibilidade\" (que trata das demais causas extintivas, como abolitio criminis, anistia, decadência etc.). Como o professor classifica no nível 1, \"Prescrição\" (5185) é o tema correto; \"Punibilidade\" (5191) fica como segunda opção por ser o gênero do qual a prescrição é espécie."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1286,
+  "cache_w": 14060,
+  "cache_r": 11846,
+  "custo_usd": 0.0816312
+ }
+}

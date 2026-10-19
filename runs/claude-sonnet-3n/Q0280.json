@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.78,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5063",
+ "extras_ids": [
+  "5471",
+  "5474",
+  "5472"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 em Processo Penal > Ação Penal (5466), pois a questão testa exclusivamente institutos processuais: (A) representação como condição de procedibilidade, (B) queixa com poderes especiais do advogado, (C) exceção da verdade como incidente da defesa escrita, (D) legitimidade para deflagrar investigação policial sem manifestação do ofendido, e (E) aditamento da queixa pelo MP (art. 45 CPP). Todos esses são aspectos de procedimento, legitimidade e peças processuais da ação penal, cobertos por 5466, não pela disciplina material da espécie de ação (5063), que seria mais pertinente se o foco fosse apenas a classificação penal da ação. Quanto ao subtema de nível 2, a questão combina simultaneamente institutos de ação pública condicionada (representação, investigação policial - próprios de 5471), de ação privada/queixa (poderes especiais, aditamento - próprios de 5474/5472) e um instituto peculiar aos crimes contra a honra (exceção da verdade), decorrente da aplicação da Súmula 714/STF que permite ao ofendido optar entre representação ou queixa quando funcionário público é ofendido em razão da função. Como nenhum subtema isolado cobre todas as alternativas e a questão exige visão comparativa das duas espécies de ação cabíveis no caso (o que é próprio de 5468 - Classificação da Ação Penal, mas também extrapola para institutos específicos de queixa e representação), opto por não arriscar um subtema único, deixando subtema_n2_id = null com baixa confiança de subtema. Mantenho 5063 como segunda opção por tangenciar a escolha material entre as espécies de ação e a decadência mencionada na narrativa (prazo computado a partir de 29/12/2016 até 28/05/2017, relevante para decadência do art. 103 CP), ainda que a pergunta central seja processual.",
+ "id": "Q0280",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.65,
+  "multi_tema": false,
+  "justificativa": "A questão testa regras de ação penal nos crimes contra a honra (representação ao MP, queixa, decadência, exceção da verdade, aditamento pelo MP) — temas que, segundo os critérios do curso, pertencem a \"Ação Penal\" como instituto processual (competência para agir, legitimidade, prazos, procedimento), listado no grupo PP2 de Processo Penal. Há também o tema \"Ação Penal\" dentro de Penal (P3), tratando de aspectos penais/decadência, por isso mantenho como segunda opção, já que a questão mistura aspectos materiais (decadência) e processuais (exceção da verdade, aditamento, representação), reduzindo a confiança."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5063",
+  "confianca_ramo": 0.6,
+  "multi_tema": true,
+  "justificativa": "A questão exige conhecimento sobre o procedimento da ação penal em crimes contra a honra praticados contra funcionário público em razão da função (ação penal pública condicionada OU queixa, por força da Súmula 714/STF), testando especificamente institutos processuais: forma de deflagração (representação/queixa), legitimidade para investigação sem manifestação do ofendido, exceção da verdade como incidente processual na defesa escrita e aditamento da queixa pelo MP (art. 45/46 CPP). Esses são aspectos eminentemente processuais de legitimidade, procedimento e atuação do MP na ação privada, o que aponta para \"Ação Penal\" dentro de Processo Penal (5466). Entretanto, a questão também tangencia a escolha penal-material entre as espécies de ação (pública condicionada vs. privada) nos crimes contra a honra de funcionário público, tema tratado em \"Ação Penal\" de Direito Penal (5063), e a decadência (prazo decadencial) é instituto da Punibilidade penal. Por isso mantenho a classificação em PP2/5466 como principal, com P3/5063 como segunda opção e confiança moderada, dada a mistura de aspectos materiais e processuais."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3472,
+  "cache_w": 16690,
+  "cache_r": 14150,
+  "custo_usd": 0.11604500000000001
+ }
+}

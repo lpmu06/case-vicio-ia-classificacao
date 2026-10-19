@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre falta grave em execução penal, especificamente sobre seus efeitos jurídicos (abrangência em regimes aberto/penas restritivas, obrigatoriedade de exame criminológico em progressão, efeitos em remição, comutação e indulto). Instituto exclusivo da Lei de Execução Penal (arts. 50, 112, 66 LEP). Tema 4703 confirmado; sem subtemas conforme metadados.",
+ "id": "Q0061",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "Questão sobre falta grave em execução penal (conceito, abrangência, consequências legais como perda de remissão e efeitos em progressão, comutação e indulto). Conteúdo exclusivo de LE4 > Lei de Execução Penal. As pistas (disciplina_origem e assunto_origem) apontam para \"Teoria da Pena\", mas claramente estão incorretas: trata-se de regime sancionatório específico da execução, não da teoria geral da pena no Código Penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "Questão sobre falta grave em execução penal, especificamente sobre seus efeitos jurídicos (perda de remição, exame criminológico em progressão, efeitos em comutação e indulto, abrangência em diferentes regimes). Conteúdo exclusivo da Lei de Execução Penal (LEP - Lei 7.210/1984), tema 4703. As pistas de origem estão incorretas: refere-se a instituto específico da execução, não a teoria geral da pena do Código Penal."
+ },
+ "uso": {
+  "in": 3608,
+  "out": 5336,
+  "cache_w": 10659,
+  "cache_r": 0,
+  "custo_usd": 0.057007
+ }
+}

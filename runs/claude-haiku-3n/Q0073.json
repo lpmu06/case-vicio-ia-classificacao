@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5147",
+ "extras_ids": [
+  "5089",
+  "5093",
+  "5101"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão multi-tema sobre crimes contra a Administração Pública e Finanças Públicas. Cada alternativa aborda um crime/instituto diferente: A (Peculato e extinção de punibilidade - 5089), B (Corrupção Ativa - 5093), C (Favorecimento Pessoal/Real - 5088), D (Tráfico de Influência - 5101) e E (Aumento de Despesa com Pessoal nos últimos 12 meses do mandato - Finanças Públicas - 5147). Embora sem concentração em um único subtema, o eixo comum é claro para as alternativas A–D: crimes praticados por/contra funcionário público que violam a regularidade funcional. Tema 5087 (Administração Pública em geral) abrange adequadamente as alternativas A–D conforme escopo de arts. 312–337-A CP. Alternativa E refere-se ao art. 359-F CP (Finanças Públicas), justificando 5147 como segunda opção. Questão de direito material (tipicidade, extinção de punibilidade, figuras dos tipos). Sem subtema específico por tratar de vários tipos penais simultaneamente.",
+ "id": "Q0073",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "Questão sobre múltiplos crimes contra a Administração Pública (peculato, corrupção ativa, favorecimento, tráfico de influência, crimes contra finanças públicas). Apesar de cada alternativa abordar um crime diferente, há eixo comum explícito: \"crimes praticados contra a Administração Pública\". Todos os institutos estão situados em P8 (administração pública, finanças públicas). Questão de direito material (pena, extinção da punibilidade, isenção), não processual."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5147",
+  "confianca_ramo": 0.9,
+  "multi_tema": true,
+  "justificativa": "Questão multi-tema sobre crimes contra a Administração Pública (peculato, corrupção ativa, favorecimento, tráfico de influência) e contra Finanças Públicas (aumento de despesa com pessoal). Cada alternativa aborda um crime diferente, mas com eixo comum explícito: crimes praticados contra a administração pública. Tema 5087 abrange as alternativas A–D; 5147 como segunda opção para a alternativa E. Questão de direito material (extinção de punibilidade, isenção de pena)."
+ },
+ "uso": {
+  "in": 30,
+  "out": 13039,
+  "cache_w": 19118,
+  "cache_r": 4639,
+  "custo_usd": 0.11489390000000001
+ }
+}

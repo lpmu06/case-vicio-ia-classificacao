@@ -1,0 +1,51 @@
+{
+ "publicadas": 180,
+ "total": 359,
+ "fora": 2,
+ "revisar": 177,
+ "publicadas_nivel2": 69,
+ "E1_independencia": 0.985,
+ "E2_outra_familia": {
+  "acertos": 35,
+  "n": 35,
+  "taxa": 1.0,
+  "wilson95": [
+   0.9011,
+   1.0
+  ]
+ },
+ "E3_auditoria": {
+  "pontos_central": 41.0,
+  "pontos_conservador": 40.5,
+  "n": 42.0,
+  "taxa": 0.9762,
+  "taxa_conservadora": 0.9643,
+  "wilson95_conservador": [
+   0.859,
+   0.9917
+  ]
+ },
+ "margem_convencao": 0.02,
+ "taxa_subtema": 0.9236,
+ "copias_67xx": {
+  "p_cenario": 0.1,
+  "exposicao": 0.0,
+  "perda_esperada": 0.0,
+  "precisao_se_cenario_ocorrer": 0.976
+ },
+ "estimadores_ajustados": [
+  0.965,
+  0.9762,
+  0.98
+ ],
+ "precisao_prevista": 0.976,
+ "precisao_intervalo": [
+  0.859,
+  0.985
+ ],
+ "cobertura_prevista": 0.501,
+ "cobertura_intervalo": [
+  0.501,
+  0.504
+ ]
+}

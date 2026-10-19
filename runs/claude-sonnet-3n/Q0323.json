@@ -1,0 +1,43 @@
+{
+ "fora": false,
+ "tema_n1_id": "5590",
+ "subtema_n2_id": "5591",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.65,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [
+  "5593",
+  "5595",
+  "5557",
+  "5547"
+ ],
+ "multi_tema": true,
+ "justificativa": "Mantenho 5590 (Teoria Geral das Provas) como tema de nível 1, pois a alternativa correta (D) trata de produção antecipada de provas, instituto que a própria descrição de 5591 (Finalidade, Sujeitos e Ônus da Prova) lista expressamente em suas palavras-chave (\"poderes instrutórios do juiz, produção antecipada de provas\"). Isso permite, com razoável segurança, apontar o subtema 5591 — a produção antecipada vincula-se à lógica de urgência/relevância e aos poderes instrutórios do juiz na obtenção da prova, tema central dessa unidade, e não a um \"meio de prova em espécie\" específico dos listados em 5543. As demais alternativas (A - prova emprestada/interceptação; B - interrogatório como meio de defesa; C - nemo tenetur se detegere em reconhecimento/reconstituição; E - colaboração premiada) pertencem a institutos distintos, caracterizando questão multi-tema dentro do grupo de Provas no Processo Penal, com forte presença de temas de 5543 (Provas em Espécie) e também de 5593/5595 (Prova Emprestada; Princípios da Prova) dentro do próprio 5590. Por isso mantenho 5543 como segunda opção plausível e incluo extras relevantes. A confiança no subtema é moderada, pois, embora a produção antecipada esteja textualmente em 5591, não há certeza absoluta de que a banca não a trataria como item autônomo mais próximo de outro enquadramento.",
+ "id": "Q0323",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": "PP5",
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata centralmente de teoria geral das provas no processo penal: prova emprestada, interrogatório como meio de defesa, direito de não autoincriminação (nemo tenetur se detegere), produção antecipada de provas e colaboração premiada (técnica especial de obtenção de prova). Todas as alternativas giram em torno do regime jurídico das provas, cabendo no grupo PP4 (Provas - teoria geral e provas em espécie), que abrange tanto a teoria geral quanto institutos como prova emprestada e colaboração premiada. Apesar de a colaboração premiada (Lei 12.850/13) também estar na Legislação Especial (LE1 - Organizações Criminosas), o eixo da questão é processual-probatório, não o instituto da colaboração em si, o que justifica a escolha de PP4 como tema principal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5590",
+  "segunda_opcao_n1_id": "5543",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão reúne em suas alternativas institutos distintos de prova: prova emprestada e nemo tenetur se detegere (teoria geral — admissibilidade, ilicitude, princípios), interrogatório como meio de defesa e colaboração premiada (provas em espécie), além de produção antecipada de provas (instituto ligado aos princípios/admissibilidade da prova, mais afeito à teoria geral). Não há um eixo único: cada alternativa versa sobre um tema de prova diferente, caracterizando questão multi-tema dentro do grupo PP4. A alternativa correta (D) trata de produção antecipada de provas, tema que se vincula mais a princípios e critérios gerais de admissibilidade/urgência da prova do que a um \"meio de prova em espécie\" dos listados em 5543, o que pesa para classificar em Teoria Geral das Provas (5590) como tema principal, com Provas em Espécie (5543) como segunda opção dada a presença forte de interrogatório e colaboração premiada nas demais alternativas. Ambos pertencem ao ramo Processo Penal (grupo PP4), mas a escolha entre os dois temas de nível 1 tem incerteza relevante."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3263,
+  "cache_w": 20979,
+  "cache_r": 14150,
+  "custo_usd": 0.134255
+ }
+}

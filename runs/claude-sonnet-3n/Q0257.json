@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.72,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5228",
+ "extras_ids": [
+  "5219",
+  "5227",
+  "5229"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão combina três afirmativas com eixos distintos: (I) conceito de tipo legal incriminador e suas espécies (crime, contravenção), que se aproxima de 5219 (Conceito, Sujeito e Objeto do Crime) ou 5227 (Tipicidade); (II) sujeito ativo do crime, tema central de 5219; e (III) a possibilidade de um fato ser ilícito sem ser típico, discussão clássica sobre a relação entre tipicidade e antijuridicidade (ratio cognoscendi vs ratio essendi), que é especificamente tratada em 5229 (Conceito e Elementos da Ilicitude), dentro do tema de nível 1 5228 (Ilicitude). Como os itens I e II pertencem ao campo do fato típico/tipicidade (5218) e o item III é estruturalmente uma questão de teoria da ilicitude (sua relação com a tipicidade), não há um eixo único dominante — é uma questão teórica que mistura fato típico e ilicitude. Mantive 5218 como tema principal por ser o ramo mais abrangente e por dois dos três itens guardarem relação mais direta com ele, mas a confiança não é alta e a segunda opção (5228) é bastante competitiva, especialmente pelo item III. Não há certeza suficiente para indicar um subtema específico, pois nenhum subtema isolado cobre adequadamente os três itens (sujeito ativo está em 5219, mas a tipicidade-ilicitude está em 5229, de ramo diferente). Por isso, subtema_n2_id = null e multi_tema = true.",
+ "id": "Q0257",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata da teoria do tipo penal/tipicidade (conceito de tipo, sujeito ativo, relação entre tipicidade e ilicitude), temas da Teoria do Crime: Fato Típico e Ilicitude, cobertos pelo grupo P2 (Parte geral: teoria do crime)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5228",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão gira em torno do conceito de tipo penal e tipicidade (item I - tipo legal incriminador; item II - sujeito ativo do crime; item III - relação entre tipicidade e ilicitude, afirmando que pode haver ilicitude sem tipicidade). O eixo central é a teoria da tipicidade/fato típico, tema coberto pelo subtema \"Conceito, Sujeito e Objeto do Crime\" e \"Tipicidade\" dentro de 5218 (Teoria do Crime: Fato Típico). Há conexão secundária com Ilicitude (5228) pelo item III, mas o enunciado e a maior parte dos itens tratam do tipo penal e seus elementos, não de excludentes de ilicitude específicas."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2769,
+  "cache_w": 16946,
+  "cache_r": 11846,
+  "custo_usd": 0.1099042
+ }
+}

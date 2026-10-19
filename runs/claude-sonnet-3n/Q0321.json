@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5073",
+ "extras_ids": [
+  "5076"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 como Concurso de Pessoas (5071), rejeitando a segunda opção Teoria do Crime: Fato Típico (5218), pois todas as alternativas relevantes (A, B, C) versam sobre institutos específicos do concurso de pessoas (autoria colateral, requisitos do concurso, teoria monista aplicada ao aborto consentido), e não sobre elementos do fato típico isoladamente considerado (conduta, dolo, nexo causal etc.). A alternativa correta (A) trata especificamente de autoria colateral - ausência de vínculo subjetivo entre agentes -, o que aponta para o subtema 5073 (Autoria Mediata, Colateral e Coautoria). Contudo, como a alternativa B versa sobre requisitos gerais do concurso de pessoas (tema-mãe) e a C sobre a teoria monista unitária (também afeta ao caput do art. 29, tema-mãe), não há um único subtema que abranja coerentemente todas as assertivas relevantes da questão - por isso, mantenho subtema_n2_id em null, com baixa confiança para subtema, e marco multi_tema=true, já que a questão transita por diferentes institutos dentro do mesmo ramo de nível 1. A alternativa D (hediondez da associação para o tráfico) é mero distrator, não desloca o eixo. Dado que o estudante que escolhe o tema de nível 1 'Concurso de Pessoas' terá acesso a todos os subtemas relevantes (5073, entre outros), a classificação no nível 1 é segura e suficiente para garantir o estudo correto, mesmo sem precisão no subtema.",
+ "id": "Q0321",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente do instituto do Concurso de Pessoas (autoria colateral, requisitos, teoria monista), tema da Parte Geral do Direito Penal, correspondente ao grupo P2."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": "5218",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão gira em torno do concurso de pessoas: a alternativa correta (A) trata de autoria colateral (ausência de vínculo subjetivo), a (B) testa os requisitos do concurso de pessoas, e a (C) aborda a teoria monista unitária aplicada ao aborto consentido — todas sub-institutos do Concurso de Pessoas. A alternativa (D), sobre natureza hedionda da associação para o tráfico, é mero distrator isolado e não desloca o eixo central da questão. Portanto, o tema de nível 1 correto é Concurso de Pessoas (5071), não havendo necessidade de marcar multi-tema, já que há um eixo comum claro. Segunda opção: Teoria do Crime: Fato Típico, por ser o tema geral de Parte Geral mais próximo caso o avaliador entenda diferente."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2550,
+  "cache_w": 15847,
+  "cache_r": 14150,
+  "custo_usd": 0.102369
+ }
+}

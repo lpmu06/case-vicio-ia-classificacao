@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5170",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5173",
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "A questão versa sobre a doutrina do garantismo penal de Ferrajoli em sua concepção clássica, abordando simultaneamente: interpretação da lei penal como atividade valorativa (alt. A, que tocaria em 5173), legitimação da jurisdição penal e função das garantias como limite ao poder punitivo (alt. B, C e E) e a função do Direito Penal como minimizador da violência estatal e social (alt. D). Trata-se de um conteúdo tipicamente de fundamentos filosóficos/teóricos do Direito Penal, que a árvore enquadra melhor no tema guarda-chuva 5170 (Introdução ao Estudo do Direito Penal), já que a questão não se concentra exclusivamente em métodos de interpretação (5173), nem em princípios específicos (5172), mas numa visão ampla e combinada de vários aspectos da teoria garantista. Por isso, não há segurança para apontar um subtema único — a alternativa A poderia justificar 5173, mas as demais alternativas (B, C, D, E) extrapolam esse recorte, tratando de legitimação da jurisdição e função do Direito Penal, temas mais gerais. Mantém-se 5170 como tema de nível 1, com 5173 como segunda opção por conter conexão parcial via a alternativa sobre interpretação da lei penal. Não há elementos sobre lei penal no tempo/espaço, de modo que 5180 (escolhido anteriormente como segunda opção) é descartado como pouco aderente ao conteúdo real da questão.",
+ "id": "Q0269",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P1",
+  "segundo_grupo_id": null,
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a doutrina do garantismo penal (Luigi Ferrajoli), tema de teoria/fundamentos do Direito Penal, relacionado aos fundamentos filosóficos e epistemológicos do estudo do Direito Penal (interpretação da lei, legitimação da atividade jurisdicional, função das garantias penais). Isso se enquadra em \"Introdução ao Estudo do Direito Penal\", tema do grupo P1. Não há componente de teoria do crime, pena ou parte especial que justifique outro grupo."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5170",
+  "segunda_opcao_n1_id": "5180",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata da doutrina do garantismo penal de Ferrajoli (interpretação da lei, legitimação da jurisdição, função das garantias penais, minimização da violência), tema de fundamentos filosóficos do Direito Penal, enquadrado em \"Introdução ao Estudo do Direito Penal\" (subtema Interpretação da Norma Penal/Princípios do Direito Penal). Não envolve lei penal no tempo/espaço, por isso Lei Penal no Tempo e no Espaço é apenas segunda opção fraca pela proximidade de grupo (fundamentos da parte geral)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1930,
+  "cache_w": 13525,
+  "cache_r": 14150,
+  "custo_usd": 0.085049
+ }
+}

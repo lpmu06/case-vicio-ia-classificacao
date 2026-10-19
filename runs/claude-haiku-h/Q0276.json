@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "Questão multi-temática que aborda cinco meios de prova distintos em seus respectivos procedimentos: interrogatório (5547), confissão (5548), acareação (5552), exame de corpo de delito (5545) e busca e apreensão (5554). O tema \"Provas em Espécies\" (5543) é o enquadramento correto porque a questão trata especificamente de requisitos formais, procedimentos e valor probatório de meios probatórios em espécie, não de princípios gerais, ônus ou sistemas de avaliação da prova que caracterizariam a \"Teoria Geral das Provas\" (5590). Não há subtema único predominante, pois cada alternativa recai em subtema diferente. Conforme jurisprudência consolidada (STF, STJ) e art. 155 a 250 do CPP, estes meios probatórios e suas regras são especificidades da espécie, não generalidades do gênero.",
+ "id": "Q0276",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.82,
+  "multi_tema": true,
+  "justificativa": "Questão multi-temática sobre provas no processo penal. Cada alternativa testa um meio de prova diferente (interrogatório, confissão, acareação, exame de corpo de delito, busca pessoal), mas todas pertencem ao eixo de \"Provas em Espécies\". O tema 5543 é mais apropriado que a \"Teoria Geral das Provas\" por abordar especificamente os meios de prova em espécie. Classificada em Processo Penal, conforme pista de origem."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4853,
+  "cache_w": 15993,
+  "cache_r": 12522,
+  "custo_usd": 0.0686102
+ }
+}

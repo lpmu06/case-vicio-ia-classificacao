@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5507",
+ "extras_ids": [
+  "5507",
+  "5508",
+  "5506"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 em 5505 (Lei Processual no Tempo e no Espaço), pois todas as alternativas giram em torno da aplicação/interpretação da lei processual penal, eixo comum deste tema guarda-chuva. Porém, ao nível de subtema, a questão mistura deliberadamente três institutos distintos: (A) e (D) tratam de lei processual no tempo/normas híbridas (5507) — sendo (D) o gabarito mais provável, pois reproduz corretamente a regra de que normas de natureza híbrida (processual-material) não retroagem quando prejudiciais ao réu; (B) e (E) tratam de interpretação extensiva/analogia/princípios gerais (5508, art. 3º CPP); e (C) trata de territorialidade do CPP e suas ressalvas (5506, art. 1º CPP). Como não há um único subtema que abranja todas as assertivas e o foco é testar o domínio global do candidato sobre o tema 5505, opto por não escolher subtema de nível 2 (subtema_n2_id = null), evitando o erro de classificar em um subtema irmão incorreto. Caso a banca considere (D) como gabarito definitivo, o subtema mais aderente seria 5507, por isso o indico como segunda opção e também como extra, junto com 5508 e 5506, que cobrem as demais alternativas. A segunda opção anterior (5580 - Sistemas e Princípios Processuais Penais) foi descartada, pois nenhuma alternativa trata de sistemas acusatório/inquisitório/misto ou princípios estruturantes como contraditório, ampla defesa etc.; o foco é exclusivamente sobre regras de aplicação e interpretação da lei processual no tempo/espaço.",
+ "id": "Q0310",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP1",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente a aplicação da lei processual penal no tempo (art. 2º do CPP, princípio tempus regit actum, normas processuais materiais/híbridas e vedação à retroatividade prejudicial), tema específico de \"Lei Processual no Tempo e no Espaço\", integrante do grupo PP1 (Fundamentos: sistemas e princípios, lei processual, sujeitos do processo)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5505",
+  "segunda_opcao_n1_id": "5580",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente a aplicação da lei processual penal no tempo (art. 2º CPP, normas híbridas, irretroatividade quando prejudicial), tema específico \"Lei Processual no Tempo e no Espaço\". Alternativas sobre interpretação extensiva/analogia (art. 3º CPP) também se encaixam nesse mesmo tema de nível 1, que abrange \"Interpretação da Lei processual Penal\". A segunda opção, Sistemas e Princípios Processuais Penais, é menos aderente, pois a questão não trata de princípios estruturantes do processo em si, mas de regras de aplicação da norma."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2232,
+  "cache_w": 12274,
+  "cache_r": 14150,
+  "custo_usd": 0.082203
+ }
+}

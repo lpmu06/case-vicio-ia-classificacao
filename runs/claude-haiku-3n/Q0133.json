@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5528",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [
+  "5525"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão sobre os limites temporais da cabibilidade do desaforamento no procedimento do júri. Confirmado tema 5524 (Procedimento do Tribunal do Júri). O subtema mais preciso é 5528 (Organização do Júri e Sessão de Julgamento), pois desaforamento está nele explicitamente nas palavras-chave e dispositivos (art. 427 CPP), e a questão trata de regra procedimental específica da sessão de julgamento. Embora desaforamento seja tecnicamente questão de competência (5480 seria segunda opção), a contextualização no procedimento do júri e o foco na regra temporal aplicável apenas nele justificam a classificação em 5528. Relação secundária com 5525 (soberania e princípios constitucionais do júri).",
+ "id": "Q0133",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP6",
+  "segundo_grupo_id": "PP3",
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "Questão sobre desaforamento no procedimento do tribunal do júri, testando limites temporais de sua cabibilidade. Pertence claramente a Processo Penal, nível 2 (Procedimento do Tribunal do Júri), pois aborda regras procedimentais específicas daquele procedimento. Segundo grupo PP3 seria relevante pois desaforamento é questão incidente de competência, mas o enunciado situa a questão no contexto do júri especificamente."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "Questão sobre desaforamento no procedimento do tribunal do júri, testando especificamente os limites temporais de sua cabibilidade. Pertence claramente ao tema 5524 (Procedimento do Tribunal do Júri), pois aborda regra processual particularizada daquele procedimento. Embora desaforamento seja tecnicamente questão de competência, a enunciação precisamente contextualizada no procedimento do júri justifica sua classificação em nível 1 específico, não genérico. Segunda opção 5480 seria válida apenas com menor precisão."
+ },
+ "uso": {
+  "in": 30,
+  "out": 7501,
+  "cache_w": 19284,
+  "cache_r": 4639,
+  "custo_usd": 0.0870879
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4374",
+ "subtema_n2_id": "4376",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "4375",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta diretamente qual é \"uma das características do direito penal do inimigo\", exigindo conhecimento específico das marcas da teoria de Jakobs (legislação diferenciada, antecipação da punibilidade/punição de atos preparatórios, ampliação de medidas de segurança, flexibilização de garantias processuais). Isso não é apenas o gênero \"correntes de política criminal\" (4375), mas o recorte específico e nomeado \"Direito Penal do Inimigo\", que é exatamente o subtema 4376, descrito com as mesmas palavras-chave (antecipação da tutela penal, flexibilização de garantias, legislação diferenciada). Mantenho o tema de nível 1 Política Criminal (4374), que abrange esse subtema, e agora specifico o subtema 4376 com alta confiança, pois a questão não compara correntes entre si, mas testa características internas e específicas dessa teoria.",
+ "id": "Q0285",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": "P2",
+  "confianca": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre \"direito penal do inimigo\" (teoria de Jakobs), conceito de política criminal que trata da flexibilização de garantias penais e processuais para certos grupos de autores, incluindo legislação diferenciada, punição antecipada (atos preparatórios), uso ampliado de medidas de segurança e relativização de garantias processuais. Trata-se de tema próprio de Política Criminal (Criminologia), não havendo subtema específico \"Direito Penal do Inimigo\" na árvore — o grupo C2 (Política Criminal) é o que melhor abrange. Alternativamente, poderia ser enquadrado em Teoria do Crime (P2) por alguns professores que tratam o tema dentro da parte geral do Direito Penal, por isso indico como segunda opção."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4374",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão pede diretamente uma característica do \"direito penal do inimigo\" (teoria de Jakobs): legislação diferenciada (A, correta), punição por atos preparatórios/executórios antecipados, uso ampliado de medidas de segurança e relativização de garantias processuais (as demais alternativas incorretas invertem essas características). Trata-se de conteúdo de Política Criminal (4374), que inclui expressamente o subtema \"Direito Penal do Inimigo\" na árvore de Criminologia. Como o tema de nível 1 Política Criminal abrange esse subtema específico, classificar aqui é correto e cobre a questão integralmente. Não há, dentro do grupo P2 (Teoria do Crime), nenhum tema de nível 1 que trate especificamente dessa teoria criminológico-político-criminal, de modo que não há segunda opção adequada nesse grupo — por isso deixo em branco. A questão é puramente conceitual sobre política criminal/criminologia crítica, sem exigir conhecimento de dogmática penal (fato típico, ilicitude, culpabilidade, iter criminis ou concursos), o que reduz a pertinência do grupo P2."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2531,
+  "cache_w": 10144,
+  "cache_r": 14150,
+  "custo_usd": 0.075531
+ }
+}

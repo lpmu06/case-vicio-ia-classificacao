@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5092",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.99,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão que testa tipificação de crime cometido por agente público federal que solicita vantagem indevida ao condutor para deixar de autuar crime de trânsito. O verbo \"solicitar\" é decisivo: na corrupção passiva (art. 317 CP), o funcionário solicita, recebe ou aceita promessa; na concussão (art. 316 CP), exige com intimidação. João apenas solicita, sem coação, caracterizando corrupção passiva pura. O condutor não é corruptor ativo, pois este oferece ou promete, iniciando a ilicitude; aqui apenas cede à solicitação alheia. Classificado em 5092 - Corrupção Passiva, subtema específico de 5087 - Crimes Contra a Administração Pública. Todas as alternativas tratam de variações do mesmo instituto (crimes funcionais contra a administração), não caracterizando multi-tema.",
+ "id": "Q0175",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre tipificação de crime de corrupção passiva (e análise de concussão) cometido por agente público que solicita vantagem indevida. O tema central é exclusivamente crimes contra a administração pública, classificado em P8. Não é processo penal (sem discussão procedural, probatória ou processual) e não envolve legislação especial (está no CP). Resposta esperada: (C) corrupção passiva."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão que testa a tipificação de crime cometido por agente público federal que solicita vantagem indevida para deixar de autuar condutor por crime de trânsito. O tema central é exclusivamente crimes contra a administração pública (corrupção passiva versus concussão e análise de possível concurso), classificado em 5087. Não envolve processo penal (sem discussão procedural, probatória ou processual) nem legislação especial (está regulado no CP). A resposta esperada é (C) corrupção passiva. Alternativas testam variações do mesmo tema, não caracterizando multi-tema."
+ },
+ "uso": {
+  "in": 30,
+  "out": 7105,
+  "cache_w": 19065,
+  "cache_r": 4639,
+  "custo_usd": 0.0845059
+ }
+}

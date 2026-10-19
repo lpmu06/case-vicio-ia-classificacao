@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5509",
+ "subtema_n2_id": "5510",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": null,
+ "extras_ids": [
+  "5511"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão que trata especificamente da distinção entre nulidades absolutas e relativas e seu regime jurídico fundamental: nulidades absolutas (vinculadas a garantias constitucionais e interesse público indisponível) são reconhecidas independentemente de demonstração de prejuízo, enquanto nulidades relativas exigem comprovação de dano (pas de nullité sans grief). A resposta correta é a alternativa C. O tema de nível 1 é confirmado (5509 - Nulidades abrange toda a teoria das nulidades processuais penais). O subtema 5510 é o mais preciso, pois a questão se concentra no regime jurídico das espécies de nulidade (momento de arguição, necessidade de prejuízo, reconhecimento de ofício), não em hipóteses concretas de nulidade. Embora a questão mencione hipóteses específicas em outras alternativas (art. 212, inépcia), o eixo temático unívoco é o regime jurídico diferenciado entre absolutas e relativas.",
+ "id": "Q0046",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "grupo_id": "PP7",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "fora": false,
+  "multi_tema": false,
+  "justificativa": "Questão que trata especificamente de nulidades processuais penais, suas classificações (relativas e absolutas), requisitos para declaração (instrumentalidade e prejuízo) e efeitos. O tema \"Nulidades\" é explicitamente listado em PP7 (Sentença e nulidades). A pista de origem (Sistemas e Princípios) é apenas contexto inicial; o instituto efetivamente testado é unívocamente nulidades. Alta confiança pela precisão temática."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5509",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão que trata especificamente de nulidades processuais penais, cobrindo sua classificação em nulidades relativas e absolutas (alternativa C como resposta correta), o requisito de instrumentalidade e necessidade de prejuízo para sua declaração (alternativa A), e efeitos das nulidades. O instituto jurídico efetivamente testado é unívocamente \"Nulidades\", listado em 5509, abrangendo \"vícios dos atos processuais, necessidade de prejuízo, convalidação, preclusão, formas de arguição e consequências da invalidação\". A pista de origem (Sistemas e Princípios) é apenas contexto narrativo. Confirmação da classificação anterior com confiança de 95% pela precisão temática absoluta."
+ },
+ "uso": {
+  "in": 30,
+  "out": 6673,
+  "cache_w": 15154,
+  "cache_r": 0,
+  "custo_usd": 0.070053
+ }
+}

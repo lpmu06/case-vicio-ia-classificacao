@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5514",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta qual recurso é cabível contra a rejeição da denúncia e qual o seu prazo. A rejeição da denúncia é hipótese expressa do art. 581, I, do CPP, atraindo Recurso em Sentido Estrito, com prazo de 5 dias (art. 586, CPP). Trata-se de identificar o recurso em espécie correto (RESE) dentre as alternativas, e não de discutir princípios ou requisitos genéricos de admissibilidade - por isso o subtema correto é 5561 (RESE), dentro do tema guarda-chuva 5560 (Recursos em Espécies), e não a Parte Geral dos Recursos (5512), que trataria de classificação, efeitos ou princípios em abstrato, sem vincular à hipótese concreta de cabimento do art. 581 CPP.",
+ "id": "Q0322",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão testa o cabimento e prazo do recurso contra a rejeição da denúncia (RESE, art. 581, I, CPP, prazo de 5 dias), tema de Recursos em Espécie, dentro do grupo PP8 (Recursos e ações autônomas de impugnação). Apesar de o contexto narrativo envolver abuso de autoridade, o que se exige do candidato é conhecimento processual sobre recursos, não sobre o crime em si."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5512",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento específico sobre o recurso cabível contra a rejeição da denúncia: Recurso em Sentido Estrito (art. 581, I, CPP), com prazo de 5 dias (art. 586, CPP). Trata-se de hipótese de cabimento e prazo de recurso em espécie (RESE), tema que se insere em \"Recursos em Espécies\" (5560), e não na teoria geral dos recursos (classificação, efeitos, princípios - 5512), tampouco em ações autônomas de impugnação. O contexto de abuso de autoridade é apenas narrativo; o conhecimento testado é puramente processual recursal."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1634,
+  "cache_w": 16855,
+  "cache_r": 14150,
+  "custo_usd": 0.09818199999999999
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5498",
+ "extras_ids": [
+  "5555"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão reúne quatro assertivas sem eixo único: (I) interceptação telefônica/escutas (meio de prova, subtema 5555 de Provas em Espécies); (II) proteção residual ao sigilo bancário/fiscal após sua quebra, tema de sigilo de dados que também se aproxima de 5555, mas sem subtema exato na árvore; (III) sigilo dos autos de inquérito frente ao investigado e seu advogado (tema clássico de Inquérito Policial, ligado à SV 14/STF, mas sem subtema específico de \"acesso aos autos\" isolado - cabe em 5500/5499); (IV) devassa de correspondência pelo MP, que não tem subtema específico em nenhum dos dois ramos. Não há um instituto central dominante: dois itens (I e II) gravitam em torno de provas/sigilo de comunicações e dados (5543), e um item (III) é nitidamente de inquérito policial (5498). Mantida a classificação anterior em 5543 como tema de nível 1 por ligeira predominância (interceptação é o item mais \"clássico\" e testável de prova penal, e o enunciado em si trata de limites probatórios na investigação), com 5498 como segunda opção forte dada a relevância do item III. Não atribuo subtema de nível 2 porque nenhum subtema cobre isoladamente o conjunto das quatro assertivas com segurança - fixar em \"Interceptação Telefônica\" (5555) seria parcialmente correto para o item I, mas deixaria descobertos II, III e IV, tornando o enquadramento específico arriscado. Confiança moderada no ramo, baixa certeza para subtema.",
+ "id": "Q0281",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": "PP2",
+  "confianca": 0.45,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos distintos: interceptação telefônica (item I), sigilo bancário/fiscal (item II), sigilo dos autos de inquérito frente ao investigado/advogado (item III) e devassa de correspondência pelo MP (item IV). Não há um único instituto testado, mas todos giram em torno de sigilo/provas e limites da investigação criminal, o que aproxima do eixo \"Provas em Espécie\" (PP4), com forte conexão também ao Inquérito Policial (PP2, item III - acesso aos autos). Confiança moderada-baixa por se tratar de questão claramente multi-tema."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5498",
+  "confianca_ramo": 0.5,
+  "multi_tema": true,
+  "justificativa": "A questão combina quatro assertivas sobre temas distintos: interceptação telefônica (I), sigilo bancário/fiscal (II), sigilo dos autos de inquérito frente ao investigado/advogado (III) e devassa de correspondência pelo MP (IV). Não há um único instituto central, mas o eixo predominante é sigilo e limites probatórios na investigação, aproximando-se de \"Provas em Espécies\" (interceptação telefônica é subtema explícito, item I é o mais \"clássico\" de prova penal), com forte conexão alternativa a \"Inquérito Policial\" (item III trata de sigilo dos autos do IP). Mantida a classificação anterior por ser questão nitidamente multi-tema, sem eixo único dominante, com confiança moderada-baixa."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3100,
+  "cache_w": 18783,
+  "cache_r": 9542,
+  "custo_usd": 0.1223934
+ }
+}

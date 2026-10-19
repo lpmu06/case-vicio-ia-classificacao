@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5545",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5590",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam sobre o exame de corpo de delito: forma de realização por perito, exame indireto no Tribunal do Júri, substituição por outros meios de prova, e prioridade em caso de violência doméstica (art. 158, parágrafo único, CPP). Trata-se exatamente do subtema \"Exame de Corpo de Delito\" (5545) dentro do tema \"Provas em Espécies\" (5543), e não de teoria geral da prova (5590), pois não há discussão sobre ônus, admissibilidade ou princípios probatórios em abstrato.",
+ "id": "Q0258",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata do exame de corpo de delito, matéria de prova em espécie (arts. 158 a 184 do CPP), dentro do grupo de Provas do Processo Penal. Não se trata de procedimento do júri especificamente, embora uma alternativa cite competência do júri."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa inteiramente sobre o exame de corpo de delito (forma de realização, perito, exame indireto no júri, substituição por outros meios, prioridade em violência doméstica), que é meio de prova em espécie disciplinado nos arts. 158 a 184 do CPP. Corresponde exatamente ao subtema \"Exame de Corpo de Delito\" dentro do tema de nível 1 \"Provas em Espécies\" (5543). Não trata de teoria geral da prova (admissibilidade, ônus, princípios), por isso 5590 fica como segunda opção mais distante."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1372,
+  "cache_w": 17476,
+  "cache_r": 14150,
+  "custo_usd": 0.09916900000000001
+ }
+}

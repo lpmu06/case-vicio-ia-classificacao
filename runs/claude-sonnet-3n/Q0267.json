@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5530",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecimento exclusivo e detalhado dos arts. 50 a 53 da Lei 11.343/2006: laudo de constatação de natureza/quantidade da droga (inclusive a possibilidade de ser firmado por pessoa idônea na ausência de perito oficial), comunicação da prisão em flagrante ao juiz, Ministério Público e Defensoria Pública, e o procedimento de destruição das drogas apreendidas (vistoria do local antes e depois, auto circunstanciado, presença de autoridades). Todas as alternativas versam sobre esse procedimento específico e exaustivo da Lei de Drogas, não sobre o rito comum do CPP. Por isso, mantenho o tema de nível 1 \"Tráfico de Drogas\" (4708), que abrange \"regras sobre laudo, apreensão e destruição de drogas\" conforme sua própria descrição, prevalecendo sobre a Legislação Especial geral do Processo Penal. Como o tema 4708 não possui subtemas, subtema_n2_id é null. Mantenho como segunda opção o Procedimento Ordinário (5530), pois a origem indicada é processual, embora nenhum subtema do CPP corresponda ao rito específico da Lei de Drogas.</justificativa>\n</invoke>\n",
+ "id": "Q0267",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": "PP6",
+  "confianca": 0.8,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o procedimento especial previsto na Lei nº 11.343/2006 (laudo de constatação da natureza e quantidade da droga, comunicação ao juiz/MP/Defensoria, destruição das drogas apreendidas), matéria tratada integralmente dentro do tema \"Tráfico de Drogas\", que compõe o grupo LE1 (Legislação Especial). Embora a disciplina de origem indicada seja \"Processo Penal\", trata-se de procedimento específico da lei especial, não do procedimento comum do CPP, por isso prevalece a Legislação Especial sobre um eventual tema genérico de Processo Penal (PP6 - Procedimentos), que fica como segunda opção."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": "5530",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente do procedimento especial previsto nos arts. 50 e seguintes da Lei 11.343/2006: laudo de constatação da natureza e quantidade da droga, exigência de perito oficial ou pessoa idônea na sua ausência, comunicação ao juiz, Ministério Público e Defensoria Pública, e procedimento de destruição das drogas apreendidas (vistoria, auto circunstanciado, presença de autoridades). Trata-se de matéria integralmente disciplinada dentro da Lei de Drogas, tema que compõe \"Tráfico de Drogas\" (id 4708), no grupo de Legislação Especial. Embora a origem indique \"Processo Penal\" e o conteúdo seja de natureza processual, é um procedimento específico e exaustivamente tratado dentro da própria lei especial, e não do rito comum do CPP (ordinário, sumário, sumaríssimo ou júri), por isso prevalece a Legislação Especial. Como segunda opção, mantenho um tema de Processo Penal relacionado a procedimentos (Procedimento Ordinário, id 5530), já que a disciplina de origem sinalizada é processual, embora nenhum subtema específico de procedimentos do CPP corresponda exatamente a este rito da Lei de Drogas."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2769,
+  "cache_w": 15773,
+  "cache_r": 14150,
+  "custo_usd": 0.10431900000000001
+ }
+}

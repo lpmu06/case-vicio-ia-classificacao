@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4374",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4377",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão avalia criticamente a política criminal brasileira (encarceramento em massa sob a CF/88, letalidade policial, política de construção de presídios, dados de gênero na população prisional), eixo temático central do tema Política Criminal (4374). Nenhuma das alternativas exige conhecimento específico de correntes (abolicionismo, garantismo etc.) nem de Direito Penal do Inimigo, então não há subtema específico aplicável — fica no nível 1. A segunda opção, Processos de Criminalização e Cifras Criminais (4377), permanece pertinente pela relação com seletividade penal, mas o enfoque é mais de avaliação de política pública do que de seletividade/cifras propriamente ditas.",
+ "id": "Q0292",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata de política criminal brasileira, encarceramento em massa e seus efeitos, tema central é Política Criminal, que está no grupo C2 (Teorias da criminalidade, teorias da pena, política criminal e processos de criminalização)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4374",
+  "segunda_opcao_n1_id": "4377",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão discute diretamente a política criminal brasileira e seus efeitos práticos (encarceramento em massa, letalidade policial, política prisional, gênero), o que se encaixa centralmente no tema Política Criminal (4374), que trata justamente das estratégias e críticas às políticas de enfrentamento da criminalidade no Brasil. Como segunda opção, Processos de Criminalização e Cifras Criminais (4377) também é pertinente, pois o tema de encarceramento em massa se relaciona à seletividade do sistema penal e à criminalização secundária, mas o enfoque da questão é mais de avaliação crítica da política criminal do que de cifras ou seletividade propriamente."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1356,
+  "cache_w": 10206,
+  "cache_r": 9542,
+  "custo_usd": 0.0636844
+ }
+}

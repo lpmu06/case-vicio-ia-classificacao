@@ -1,0 +1,46 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [
+  "5091",
+  "5089",
+  "5101",
+  "5094",
+  "5097",
+  "5093",
+  "5096"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão multi-tema que testa conhecimento abrangente sobre crimes contra a administração pública. Cada alternativa examina características específicas de delitos funcionais distintos: (A) classificação em crimes próprios, (B) sujeito ativo em contrabando/descaminho, (C) requisito de qualidade em advocacia administrativa, (D) majorante em corrupção ativa, (E) confusão com condescendência criminosa. O eixo comum é o ramo 5087, mas não há concentração em um único subtema. Confiança no ramo alta (0.95) pela clareza do escopo temático.",
+ "id": "Q0060",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre tipos penais de crimes contra a administração pública (concussão, peculato, tráfico de influência, contrabando, advocacia administrativa, corrupção ativa, condescendência criminosa). Todas as alternativas tratam exclusivamente de crimes contra o funcionamento e integridade da administração pública, localizados no Título XI do CP. É questão de direito material penal sobre tipicidade e elementares específicas desses crimes. Tema: \"Dos Crimes Contra a Administração Pública\" em P8."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre tipicidade, elementares, capacidade ativa e causas de aumento de pena dos crimes contra a administração pública (concussão, peculato, tráfico de influência, contrabando/descaminho, advocacia administrativa, corrupção ativa, condescendência criminosa). Todas as alternativas examinam características específicas de delitos do Título XI do CP voltados à proteção da administração pública. É direito material penal, não processual. Tema: \"Dos Crimes Contra a Administração Pública\" (5087) em P8."
+ },
+ "uso": {
+  "in": 30,
+  "out": 8335,
+  "cache_w": 19015,
+  "cache_r": 4639,
+  "custo_usd": 0.09046489999999999
+ }
+}

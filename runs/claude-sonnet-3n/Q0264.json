@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": "5108",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5103",
+ "extras_ids": [
+  "5103"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão exige diferenciar, no âmbito da exploração sexual de vulnerável (menor de 14 anos ou pessoa sem discernimento), a conduta do cliente/proxeneta que pratica conjunção carnal (estupro de vulnerável, art. 217-A) da conduta equiparada do proprietário/gerente do local (art. 218-B, §2º - favorecimento da prostituição/exploração sexual de vulnerável), bem como a hipótese de vítima entre 14 e 18 anos (em que o cliente responde pelo art. 218-B, não por estupro). O eixo central da questão é justamente a distinção entre o art. 217-A e o art. 218-B, tema explicitamente descrito no subtema 5108 (Corrupção de Menores, que abrange art. 218-B) em seu campo \"não confundir\". Como o foco não é a tipificação do estupro em si, mas a correta atribuição de responsabilidade conforme a figura do art. 218-B e suas condutas equiparadas, o subtema mais preciso é 5108, ainda que a comparação com 5103 (estupro de vulnerável) seja intrínseca ao raciocínio exigido.",
+ "id": "Q0264",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P6",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão testa os tipos penais de estupro de vulnerável e favorecimento à prostituição/exploração sexual de vulnerável/menor, ambos previstos no capítulo dos Crimes Contra a Dignidade Sexual (Lei nº 11.106/2005 e alterações do CP), tema de nível 1 do grupo P6."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5102",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata da distinção entre estupro de vulnerável (art. 217-A) e favorecimento da prostituição ou outra forma de exploração sexual de criança/adolescente ou vulnerável (art. 218-B, especialmente seu §2º, condutas equiparadas do cliente/proprietário/gerente), ambos tipos do Título VI do CP (Dos Crimes Contra a Dignidade Sexual). Não há elemento processual ou de outro ramo; o eixo é exclusivamente a tipificação dos crimes sexuais, pertencendo ao tema 5102."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1899,
+  "cache_w": 13246,
+  "cache_r": 14150,
+  "custo_usd": 0.08332600000000001
+ }
+}

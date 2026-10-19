@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5134",
+ "subtema_n2_id": "5136",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5134",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata da reprodução não autorizada de programa de computador (cópia de segurança sem autorização do titular) à luz do art. 12 da Lei nº 9.609/98, exigindo do candidato o conhecimento da tipicidade e, sobretudo, da natureza da ação penal cabível nesse crime específico de violação de direito autoral de software. O bem jurídico tutelado é a propriedade intelectual/imaterial sobre o programa de computador, que se encaixa precisamente na descrição do subtema 5136 (Dos Crimes contra a Propriedade Imaterial), cuja lista de dispositivos menciona expressamente a Lei 9.609/98 e os arts. 524 a 530-I do CPP relativos à ação penal nos crimes contra a propriedade imaterial. Não se trata de crime contra organização do trabalho (5135) nem contra sentimento religioso/respeito aos mortos (5137), de modo que o subtema específico é identificável com alta confiança. Mantém-se o tema de nível 1 (5134) por ser o ramo correto e abrangente, mas, diferentemente da análise anterior, agora é possível - e mais preciso - indicar o subtema exato 5136, já que a descrição deste contempla expressamente a hipótese de software e Lei 9.609/98 com a questão da ação penal, afastando a hesitação inicial.",
+ "id": "Q0261",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "fora": false,
+  "confianca": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o crime de violação de direito autoral de programa de computador (art. 12 da Lei nº 9.609/98) e o tipo de ação penal cabível. Embora seja lei especial, não há tema específico para \"software\"/propriedade intelectual na árvore de Legislação Especial; o tema mais próximo e que efetivamente abrange crimes contra propriedade imaterial é o de nível 1 \"Parte especial: patrimônio, propriedade imaterial, organização do trabalho e fé pública\" (P5), cujo subtema \"Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso\" é o que mais se aproxima do conteúdo testado (direitos autorais sobre programas de computador e ação penal cabível)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5134",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata do crime de violação de direito de autor de programa de computador (art. 12 da Lei nº 9.609/98) e do tipo de ação penal cabível. O núcleo testado é a proteção penal da propriedade imaterial (direitos autorais sobre software), tema que, dentro da árvore disponível, corresponde ao tema de nível 1 \"Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso\" (5134), cujo subtema \"Dos Crimes contra a Propriedade Imaterial\" é o que efetivamente abrange a matéria de direitos autorais, ainda que o tipo penal específico esteja previsto em lei especial (9.609/98) e não no Código Penal. Não há, nos grupos apresentados, outro tema que trate especificamente de propriedade intelectual/software, por isso não há uma segunda opção plausível entre os listados; os demais temas (patrimônio comum e fé pública) não guardam relação direta com o bem jurídico tutelado (direito de autor sobre programa de computador)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2915,
+  "cache_w": 11196,
+  "cache_r": 14150,
+  "custo_usd": 0.083901
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5144",
+ "subtema_n2_id": "5146",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5071",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam exclusivamente sobre o crime de associação criminosa (art. 288, CP): requisitos objetivos (número de agentes, estabilidade, pena mínima das infrações-fim), elemento subjetivo, hediondez e cabimento de colaboração premiada. O art. 288 está no capítulo \"Dos Crimes Contra a Paz Pública\", correspondendo exatamente ao subtema 5146, dentro do tema de nível 1 5144. Não há multi-tema, pois o eixo é único (associação criminosa). O tema 5125 (incolumidade pública) e o subtema de concurso de pessoas (5071) são apenas distrações mencionadas nas alternativas, não o núcleo da questão.",
+ "id": "Q0306",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P7",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o crime de associação criminosa (art. 288 do CP), tipificado no capítulo \"Dos Crimes Contra a Paz Pública\", abrangido pelo grupo P7 (incolumidade, saúde e paz públicas). Todas as alternativas tratam do mesmo instituto (elementos do tipo, hediondez, colaboração premiada), não configurando multi-tema."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5144",
+  "segunda_opcao_n1_id": "5125",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "O crime de associação criminosa (art. 288, CP) está tipificado no capítulo \"Dos Crimes Contra a Paz Pública\", que corresponde ao subtema \"Crimes Contra à Paz Pública\" dentro do tema de nível 1 5144 (\"Dos Crimes Contra a Saúde Pública e Dos Crimes Contra à Paz Pública\"). Todas as alternativas versam sobre o mesmo instituto (elementos do tipo, hediondez e colaboração premiada), não havendo multi-tema. O tema 5125 (crimes contra a incolumidade pública) é correlato, mas trata de outro capítulo do CP, servindo apenas como segunda opção de baixa probabilidade."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1820,
+  "cache_w": 11754,
+  "cache_r": 14150,
+  "custo_usd": 0.075431
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": "5485",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.72,
+ "segunda_opcao_id": "5503",
+ "extras_ids": [
+  "5498"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão trata das competências e atribuições do Juiz das Garantias conforme a Lei 13.964/2019. O instituto jurídico testado é a repartição de poderes jurisdicionais — especificamente qual magistrado exerce quais funções durante a investigação criminal.\n\nConfirmação do tema: O tema de nível 1 permanece COMPETÊNCIA (5480), pois o eixo central é \"demarcação clara de poderes jurisdicionais\" (qual órgão/magistrado tem cada função), não procedimentos investigatórios em si. Embora exista o subtema Juiz das Garantias (5503) dentro de Inquérito Policial (5498), este seria secundário nesta questão.\n\nSubtema: A questão enquadra-se em COMPETÊNCIA DE JUÍZO (5485) — \"competência funcional por fase ou ato processual\" — pois o Juiz das Garantias é uma divisão funcional entre quem controla a investigação e quem julga posteriormente. Contudo, 5485 é menos específico que 5503; por isso, confiança moderada (0.72).\n\nSegunda opção: 5503 (Juiz das Garantias em Inquérito Policial) é válida e talvez mais específica, mas o enfoque sobre quais competências/poderes o coloca melhor em Competência de Juízo do que em procedimentos investigatórios propriamente ditos.",
+ "id": "Q0013",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "grupo_id": "PP3",
+  "segundo_grupo_id": "PP2",
+  "confianca": 0.88,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "Questão sobre competência do Juiz das Garantias durante investigação preliminar. Apesar de tocar em vários institutos processuais (habeas corpus, ANPP, inquérito policial), o eixo central é definir corretamente quais atribuições cabem ao Juiz das Garantias — o que é tema de Competência (PP3). O grupo PP2 seria secundário, pois a questão não trata do inquérito em si, mas da competência judicial durante sua fase. Questão de Processo Penal, claramente dentro da árvore. Confiança moderada-alta porque competência pode ser entendida como parte de PP2 (Investigação), mas PP3 é mais preciso."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5480",
+  "segunda_opcao_n1_id": "5498",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata das atribuições e competências do Juiz das Garantias — qual magistrado exerce quais funções durante a investigação. O eixo central é COMPETÊNCIA (PP3, tema 5480), não procedimentos investigatórios em si. Embora exista subtema \"Juiz das Garantias\" em Inquérito Policial (PP2, 5498), este seria secundário, pois a questão não aborda o inquérito, mas a demarcação clara de poderes jurisdicionais. PP3 é mais preciso; PP2 válida como segunda opção pelo contexto investigatório."
+ },
+ "uso": {
+  "in": 30,
+  "out": 14266,
+  "cache_w": 25448,
+  "cache_r": 0,
+  "custo_usd": 0.134311
+ }
+}

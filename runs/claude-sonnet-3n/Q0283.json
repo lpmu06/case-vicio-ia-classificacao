@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5496",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata exclusivamente de hipoteca legal, medida assecuratória patrimonial prevista nos arts. 134-144 do CPP. Todas as alternativas versam sobre aspectos específicos desse instituto: cabimento contra terceiro não investigado (art. 134), possibilidade de caução substitutiva em dinheiro (art. 135, §2º), embargos como meio de impugnação (art. 136), execução/venda do bem após trânsito em julgado (art. 143), e questão sobre origem lícita do bem. Isso corresponde exatamente ao subtema \"Medidas Assecuratórias: Sequestro, Hipoteca Legal e Arresto\" (5496), dentro do tema de nível 1 \"Das Questões e Processos Incidentes\" (5490). Confirma-se a classificação anterior: não se trata de ação penal nem de competência (5480), que é apenas a segunda opção remota por pertencer ao mesmo grupo \"Processo Penal\", mas sem qualquer critério de fixação de juízo em jogo.",
+ "id": "Q0283",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP3",
+  "segundo_grupo_id": "PP2",
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata de hipoteca legal, uma medida assecuratória prevista nos arts. 134-144 do CPP, inserida no Título \"Das Questões e Processos Incidentes\". O instituto testado (requisitos, caução, embargos, cabimento contra terceiro) é típico desse subtema processual, não de ação penal propriamente."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5490",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa integralmente sobre hipoteca legal — medida assecuratória disciplinada nos arts. 134-144 do CPP, dentro do Título das Questões e Processos Incidentes. Todas as alternativas exploram aspectos específicos do instituto (cabimento contra terceiro não investigado, caução substitutiva, embargos como meio de impugnação, execução após trânsito em julgado, licitude da origem do bem), exigindo conhecimento aprofundado exatamente desse subtema (Medidas Assecuratórias: Sequestro, Hipoteca Legal e Arresto), contido no tema de nível 1 \"Das Questões e Processos Incidentes\" (5490). Não se trata de ação penal (titularidade, condições, peças iniciais), tema do segundo grupo, nem de competência. A segunda opção (5480 - Competência) é apenas o outro tema do mesmo grupo mais próximo, mas com confiança baixa, já que o conteúdo não trata de critérios de fixação de competência."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1955,
+  "cache_w": 16292,
+  "cache_r": 11846,
+  "custo_usd": 0.09894620000000001
+ }
+}

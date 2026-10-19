@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam sobre institutos processuais da Lei Maria da Penha (medidas protetivas de urgência - Tema 1.249 STJ, sigilo processual, dano moral - Tema 983, aplicabilidade da lei - Tema 1.186), confirmando o tema de nível 1 \"Lei Maria da Penha\" (4704). Como este tema não possui subtemas de nível 2, subtema_n2_id permanece null.",
+ "id": "Q0289",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE2",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente de aspectos processuais da Lei nº 11.340/2006 (Lei Maria da Penha): teses de recursos repetitivos do STJ sobre medidas protetivas de urgência, sigilo processual e dano moral em violência doméstica. Todas as alternativas giram em torno do mesmo diploma legal, correspondendo ao tema \"Lei Maria da Penha\" dentro do grupo LE2 (Legislação Especial - violência e grupos vulneráveis)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam exclusivamente sobre institutos processuais da Lei nº 11.340/2006 (Lei Maria da Penha): teses de repetitivos do STJ sobre medidas protetivas de urgência, sigilo processual, dano moral e aplicabilidade da lei. O eixo comum é o microssistema da própria Lei Maria da Penha, correspondendo exatamente ao tema de nível 1 \"Lei Maria da Penha\" (4704), que abrange tanto aspectos materiais quanto processuais da Lei 11.340/2006. Não há menção a ECA, idoso, racismo, genocídio ou abuso de autoridade, afastando os demais temas do grupo LE2."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1496,
+  "cache_w": 12452,
+  "cache_r": 14150,
+  "custo_usd": 0.075603
+ }
+}

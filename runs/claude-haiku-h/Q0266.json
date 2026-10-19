@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": "5482",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5484",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão que testa qual ramo de Justiça (ratione materiae) é competente para julgamento de crime doloso contra a vida envolvendo militares (Exército Brasileiro e Polícia Militar estadual). O conflito central é entre a competência constitucional do Tribunal do Júri para crimes dolosos contra a vida (matéria) e a competência da Justiça Militar para julgamento de agentes militares (qualidade do agente). O tema específico é competência em razão da matéria [5482], que determina qual ramo de Justiça (Federal, Estadual, Militar da União, Militar dos Estados) é competente. Segunda opção [5484] descartada: não se trata de foro privilegiado de \"autoridade\" específica, mas de ramo jurisdicional próprio para militares. [5524] descartado: não há pergunta sobre procedimento do júri.",
+ "id": "Q0266",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5480",
+  "segunda_opcao_n1_id": "5524",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "Questão sobre competência jurisdicional para julgamento de crime doloso contra a vida envolvendo militares do Exército e Polícia Militar estadual. O instituto jurídico testado é a competência por prerrogativa de função, tema central do Processo Penal. A segunda opção seria Procedimento do Tribunal do Júri, caso o foco fosse o procedimento após definição de competência, mas a pergunta é claramente sobre competência. Confiança alta, pois é questão straightforward sobre competência processual penal."
+ },
+ "uso": {
+  "in": 20,
+  "out": 7844,
+  "cache_w": 13059,
+  "cache_r": 10800,
+  "custo_usd": 0.075191
+ }
+}

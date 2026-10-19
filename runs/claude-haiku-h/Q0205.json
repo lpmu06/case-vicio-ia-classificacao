@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5567",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5512",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre recursos processuais penais. A alternativa correta (A) trata especificamente da carta testemunhável como recurso autônomo cabível contra decisão que denega outro recurso (arts. 639-646 CPP), encaixando-se precisamente no subtema 5567. As demais alternativas (B, C, D) são armadilhas que testam princípios gerais (indisponibilidade do recurso do MP em 5513) e efeitos dos recursos (5515, 5514), todos pertencentes ao ramo de Recursos em Espécies (5560) ou sua disciplina mãe (5512 — Parte Geral). Não é multi-tema pois o eixo comum é recurso especial em processo penal, não múltiplos ramos ou crimes.",
+ "id": "Q0205",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5512",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "Questão sobre recursos processuais penais. A alternativa correta (A) refere-se à carta testemunhável, um recurso autônomo específico coberto em \"Recursos em Espécies\" (tema 5560, subtema \"Carta Testemunhavel\"). As demais alternativas tratam de princípios gerais e específicos sobre desistência de recurso, prescrição e apelação, todos assuntos do eixo temático de recursos processuais penais."
+ },
+ "uso": {
+  "in": 20,
+  "out": 7305,
+  "cache_w": 14365,
+  "cache_r": 12522,
+  "custo_usd": 0.0760082
+ }
+}

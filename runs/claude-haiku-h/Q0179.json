@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4368",
+ "subtema_n2_id": "4369",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão de classificação de medidas preventivas em crime (controle de comunicação e ordenação urbana dirigidas a grupos específicos), inserida no subtema 4369 \"Sistemas de Prevenção\". As ações descritas caracterizam prevenção secundária: direcionadas a públicos-alvo vulneráveis ou em risco, diferenciando-se da primária (população geral) e terciária (condenados). Alinhamento textual com as palavras-chave de 4369: \"prevenção secundária\", \"grupos vulneráveis\", \"públicos-alvo\".",
+ "id": "Q0179",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4368",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.94,
+  "multi_tema": false,
+  "justificativa": "Questão sobre classificação de prevenção criminal (secundária), inserida no subtema \"Sistemas de Prevenção\" dentro de \"Criminologia no Estado Democrático de Direito\". A característica \"orientadas a determinados grupos ou subgrupos sociais\" é marcante da prevenção secundária, diferenciando-a da primária (geral) e terciária (condenados)."
+ },
+ "uso": {
+  "in": 20,
+  "out": 3582,
+  "cache_w": 8002,
+  "cache_r": 10800,
+  "custo_usd": 0.038694
+ }
+}

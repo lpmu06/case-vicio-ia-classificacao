@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5092",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.98,
+ "segunda_opcao_id": "5091",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre corrupção passiva (art. 317, CP). João, agente público federal, solicitou vantagem indevida em razão da função, caracterizando corrupção passiva. A distinção com concussão é clara: o verbo empregado é \"solicitar\" (não \"exigir\"), sendo este o desempate entre os subtemas 5092 e 5091. A narrativa de contexto (trânsito, velocidade) é irrelevante; o instituto jurídico testado é exclusivamente corrupção passiva. Subtema 5092 é o único aplicável com precisão.",
+ "id": "Q0175",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre corrupção passiva (art. 317, CP). João, agente público federal, solicitou e recebeu vantagem indevida em razão de suas atribuições funcionais para liberar condutor. O crime é corrupção passiva, não concussão, porque houve solicitação voluntária (não exigência coercitiva). O tema é \"Crimes Contra a Administração Pública\" com enfoque em \"Corrupção Passiva\". O contexto de trânsito é narrativo apenas."
+ },
+ "uso": {
+  "in": 20,
+  "out": 5685,
+  "cache_w": 12342,
+  "cache_r": 12522,
+  "custo_usd": 0.0624222
+ }
+}

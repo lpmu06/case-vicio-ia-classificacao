@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.99,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão de Processo Penal sobre recurso cabível contra indeferimento de prescrição durante a instrução. O tema central é processual-recursal: qual recurso (RESE) cabe e seus efeitos legais (suspensão automática). Embora envolva prescrição, esta é contexto do meritum decidendum; a resposta exige conhecer o art. 581, V e 584 do CPP (RESE com efeito suspensivo). Classificada em 5560 > Recursos em Espécies, subtema 5561 > RESE, que explicitamente cobre \"hipóteses clássicas como prescrição e extinção da punibilidade\". Nenhuma outra opção em 5560 é concorrente. Prescrição não configura incidente processual em 5490, mas instituto material cuja alegação é processualmente regulada por recurso específico.",
+ "id": "Q0108",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "grupo_id": "PP8",
+  "segundo_grupo_id": "PP3",
+  "confianca": 0.96,
+  "fora": false,
+  "multi_tema": false,
+  "justificativa": "Questão de Processo Penal sobre recursos cabíveis contra decisões interlocutórias. Embora mencione prescrição, esta é apenas contexto narrativo; o tema central testado é qual recurso (em sentido estrito) cabe contra o indeferimento de uma moção de prescrição durante a instrução, e se tem efeito suspensivo por força de lei. Classificada em PP8 (Recursos em Espécies), com PP3 (Questões e Processos Incidentes) como segundo grupo, já que prescrição é tecnicamente uma questão incidente, mas o foco da avaliação é processual-recursal, não material."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5490",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "Questão de Processo Penal sobre recursos cabíveis contra decisões interlocutórias. Embora mencione prescrição da pretensão punitiva, esta é apenas contexto narrativo; o tema central testado é qual recurso (Recurso em Sentido Estrito) cabe contra o indeferimento de uma moção de prescrição durante a instrução e se tem efeito suspensivo automático por lei. Classificada em PP8 > Recursos em Espécies (subtema Recurso em sentido estrito - RESE), com PP3 > Das Questões e Processos Incidentes como segunda opção, já que prescrição é tecnicamente uma questão incidente, mas o foco da avaliação é processual-recursal, não material."
+ },
+ "uso": {
+  "in": 4079,
+  "out": 9101,
+  "cache_w": 15725,
+  "cache_r": 4639,
+  "custo_usd": 0.0954239
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5120",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.65,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5116",
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "Questão multipla-tema que mescla falsidade documental (arts. 297, 304 CP), abuso de autoridade e crimes contra a honra, sem eixo único. As alternativas (D) e (E) testam calúnia contra mortos (Súmula 107 STF) e exceção da verdade, ambas em 5120; as alternativas (A) e (B) testam falsidade ideológica e uso de documento falso (5116/5118). Mantém-se 5120 como tema principal por abranger as alternativas sobre honra, com segunda opção 5116 por cobertura equivalente das alternativas sobre falsidade. Confianças reduzidas (0.65 em ramo, 0 em subtema) refletem a dispersão de institutos, sem um único subtema que cubra todas as alternativas testadas.",
+ "id": "Q0268",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5120",
+  "segunda_opcao_n1_id": "5116",
+  "confianca_ramo": 0.6,
+  "multi_tema": true,
+  "justificativa": "Questão multipla que mescla falsidade documental (arts. 297-304), abuso de autoridade e crimes contra a honra, sem eixo único. A resposta correta (D) é sobre calúnia contra mortos, conforme Súmula 107 do STF, primariamente em Crimes Contra a Honra. Porém, classificar exclusivamente neste tema deixaria de lado alternativas sobre falsidade documental e abuso de autoridade, reduzindo confiança para 0.6. Todos os institutos pertencem ao ramo Penal."
+ },
+ "uso": {
+  "in": 20,
+  "out": 11611,
+  "cache_w": 12035,
+  "cache_r": 12522,
+  "custo_usd": 0.09056820000000002
+ }
+}

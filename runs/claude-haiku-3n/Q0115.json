@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão que cobra a identificação de qual teoria criminológica em espécie melhor explica o caso narrado. Paulo exemplifica a Anomia de Merton: transformação de cidadão respeitável (executivo, classe média-alta) em criminoso pela ruptura entre metas culturais (sucesso, prosperidade) e meios legítimos agora bloqueados (demissão), gerando strain/tensão manifesta nas emoções descritas (fracasso, frustração, impotência). Como o enunciado cobra uma teoria específica entre alternativas nominadas (Escola de Chicago, associação diferencial, anomia, labeling approach, crítica), a classificação em 4388 - Teorias Criminológicas em Espécie é a mais precisa, em vez do tema amplo 4385.",
+ "id": "Q0115",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão que testa especificamente conhecimento de Teorias Sociológicas Explicativas da Criminalidade. O caso de Paulo exemplifica a Anomia de Merton: ruptura entre metas culturais (sucesso) e meios legítimos (emprego), gerando tensão que leva ao desvio. A questão pede identificação da teoria criminológica aplicável, não analisa crime específico, pena ou procedimento. Classificação: C2 - Teorias Sociológicas Explicativas da Criminalidade."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4385",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "Questão que testa especificamente aplicação de Teorias Sociológicas Explicativas da Criminalidade. O caso de Paulo exemplifica a Anomia de Merton: ruptura entre metas culturais (sucesso, prosperidade) e meios legítimos (perdeu o emprego), gerando strain/tensão que leva ao desvio criminal. A narrativa do \"pacato cidadão\" que se transforma em criminoso por ruptura nas expectativas sociais é clássica da anomia. A questão não trata crime específico, pena, procedimento, política criminal ou criminalização secundária, mas especificamente sobre qual teoria criminológica explica as CAUSAS da criminalidade. Classificação: 4385 - Teorias Sociológicas Explicativas da Criminalidade."
+ },
+ "uso": {
+  "in": 3660,
+  "out": 6295,
+  "cache_w": 10035,
+  "cache_r": 0,
+  "custo_usd": 0.062422
+ }
+}

@@ -28,7 +28,7 @@ from itertools import combinations
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from comum import Arvore, RAIZ, carregar_rodada, carregar_questoes, carregar_origem
+from comum import Arvore, RAIZ, carregar_rodada, carregar_questoes, carregar_origem, norm
 
 CLASSIFICADORES = ["claude-opus", "claude-sonnet-h", "claude-sonnet-3n", "claude-haiku-h", "claude-haiku-3n",
                    "claude-sonnet-plano", "claude-opus-h", "gpt-5.5", "jev-h"]
@@ -54,6 +54,8 @@ def main():
     ap.add_argument("--min_sub", type=int, default=2, help="mínimo de votos (incluindo o árbitro) no mesmo subtema")
     ap.add_argument("--min_par", type=int, default=3, help="mínimo de questões para um par de ramos ser 'confundível'")
     ap.add_argument("--margem", type=float, default=0.02, help="margem de convenção descontada da confiança")
+    ap.add_argument("--evitar_duplicados", action="store_true",
+                    help="manda para revisar as questões de temas da Legislação Especial que têm cópia em Penal/Processo Penal (ids 67xx)")
     ap.add_argument("--votantes", default="claude-opus,claude-sonnet-h",
                     help="rodadas completas que votam na decisão, além do árbitro (as melhores no experimento 2x2)")
     ap.add_argument("--saida", default=str(RAIZ / "publicacao.csv"))
@@ -80,6 +82,15 @@ def main():
         ramos_risco[x] += n
         ramos_risco[y] += n
 
+    # temas usáveis que têm uma cópia "bucket" (ids 67xx) em outra disciplina, com o mesmo título
+    duplicados_le = {}
+    for t in A.t.values():
+        if t["bucket"] and t["status"] == "active":
+            for c in A.por_titulo.get(norm(t["titulo"]), []):
+                if c["tema_id"] != t["tema_id"] and not c["bucket"] and c["nivel"] == 1:
+                    duplicados_le[c["tema_id"]] = t["disciplina"]
+    if "4696" in A.t and "6722" in A.t:  # "Estaturo de Idoso" (erro de grafia) x "Estatuto do Idoso - Crimes"
+        duplicados_le["4696"] = A.t["6722"]["disciplina"]
     regs, stats = [], Counter()
     for q in qids:
         votos = {r: rod[q][0] for r, rod in rods.items() if q in rod}
@@ -107,13 +118,15 @@ def main():
                 tema = None if ramo_a == "FORA" else ramo_a
                 if tema is None:
                     tema = next((r for r, _ in cont.most_common() if r != "FORA"), None)
-                motivo = "dúvida entre 'fora' e um tema da árvore"
+                motivo = (f"dúvida entre 'fora' (nenhum tema serve) e {A.rotulo(tema)}" if tema
+                          else "dúvida entre 'fora' e um tema da árvore")
             else:
                 tema = va["sub"] or ramo_a
                 fortes_ok = all(q in rods.get(f, {}) and rods[f][q][0]["ramo"] == ramo_a for f in FORTES)
                 frac = cont.get(ramo_a, 0) / n_mod if n_mod else 0
                 risco = ramos_risco.get(ramo_a, 0) > 0
-                unanime = cont.get(ramo_a, 0) == n_mod
+                # nos ramos confundíveis, exige que TODAS as rodadas disponíveis (inclusive as não votantes) concordem
+                unanime = all(rod[q][0]["ramo"] == ramo_a for rod in todas.values() if q in rod and not rod[q][0]["fora"])
                 if risco:
                     flags.append("ramo em par confundível")
                 if va["multi"]:
@@ -133,20 +146,33 @@ def main():
                                 and va["c_sub"] >= a.t_sub):
                             tema, nivel = sub_a, 2
                 else:
-                    partes = []
+                    # motivo escrito para o professor: "dúvida entre X e Y", com a razão principal
+                    alternativas = []
+                    seg = A.redirecionar(arb[q][1].get("segunda_opcao_id")) if q in arb else None
+                    candidatos = [seg] + [v["sub"] or v["ramo"] for v in votos.values() if not v["fora"]]
+                    for c in candidatos:
+                        if c and A.ramo_de(c) != A.ramo_de(tema) and c not in alternativas:
+                            alternativas.append(c)
+                    if not alternativas:
+                        for c in [seg] + [v["sub"] for v in votos.values()]:
+                            if c and c != tema and c not in alternativas and A.ramo_de(c) == A.ramo_de(tema):
+                                alternativas.append(c)
+                    base = (f"dúvida entre {A.rotulo(tema)} e {' / '.join(A.rotulo(x) for x in alternativas[:2])}" if alternativas
+                            else f"tema provável {A.rotulo(tema)}, mas sem segurança suficiente")
+                    razoes = []
                     if not fortes_ok:
-                        desc = "; ".join(f"{r}: {A.titulo(v['ramo']) if v['ramo'] else 'fora'}" for r, v in votos.items() if r in FORTES)
-                        partes.append(f"classificadores divergem do árbitro ({desc}; árbitro: {A.titulo(ramo_a)})")
-                    elif frac < a.min_frac:
-                        partes.append(f"só {cont.get(ramo_a, 0)} de {n_mod} votos no ramo {A.titulo(ramo_a)}")
-                    if va["c_ramo"] < a.t_arb:
-                        partes.append(f"árbitro com confiança {va['c_ramo']:.2f}")
+                        razoes.append("os classificadores não concordam no tema")
                     if va["multi"]:
-                        partes.append("questão multi-tema (alternativas sobre institutos diferentes)")
-                    if risco and not unanime and fortes_ok and frac >= a.min_frac:
-                        outros = [A.titulo(r) for r in cont if r not in (ramo_a, "FORA")]
-                        partes.append(f"ramo sujeito a confusão com {', '.join(outros)}")
-                    motivo = "; ".join(partes) or "evidência insuficiente"
+                        razoes.append("cada alternativa cobra um instituto diferente")
+                    if risco and not unanime and fortes_ok:
+                        razoes.append("ramos que os modelos costumam confundir")
+                    if va["c_ramo"] < a.t_arb and not razoes:
+                        razoes.append("fronteira entre temas")
+                    motivo = f"{base} ({'; '.join(razoes)}; confiança do revisor automático {va['c_ramo']:.2f})" if razoes else base
+        if a.evitar_duplicados and decisao == "publicar" and A.ramo_de(tema) in duplicados_le:
+            decisao, nivel = "revisar", None
+            motivo = (f"tema provável {A.rotulo(tema)}, mas ele existe em duplicata (Legislação Especial e cópia recente em "
+                      f"{duplicados_le[A.ramo_de(tema)]}); confirmar qual dos dois a equipe usa")
         reg.update({"decisao": decisao, "tema": tema, "nivel": nivel if decisao == "publicar" else (A.t[tema]["nivel"] if tema in A.t else None),
                     "motivo": motivo[:240], "flags": flags})
         regs.append(reg)

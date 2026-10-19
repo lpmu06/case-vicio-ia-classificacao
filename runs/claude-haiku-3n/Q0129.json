@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5550",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão que trata especificamente de capacidade para testemunhar e impedimentos relativos de parentes (arts. 206 e 207 CPP). Embora o contexto narrativo seja um crime doméstico e a pista de origem mencione \"comunicação dos atos processuais\" (manifestamente enganosa), o tema central testado é a admissibilidade de testemunhas conforme seus requisitos de capacidade. A questão é monotemática e se enquadra com precisão em [5550] Prova Testemunhal, subtema de [5543] Provas em Espécies. Não há confusão com declaração do ofendido (5549) nem com acareação (5552).",
+ "id": "Q0129",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre admissibilidade de parentes como testemunhas em processo penal, incidindo em requisitos de validade da prova testemunhal (arts. 206-207 CPP). Tema central: provas em espécies. Pista de origem (comunicação dos atos processuais) é enganosa."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre admissibilidade de parentes como testemunhas em processo penal, incidindo em requisitos de validade e capacidade testemunhal (arts. 206 e 207 CPP). O tema central é especificamente \"Prova Testemunhal\" como meio de prova, abrangido por \"Provas em Espécies\". Embora admissibilidade seja um princípio geral das provas, a questão foca na incapacidade relativa característica da prova testemunhal em particular. \"Teoria Geral das Provas\" é secundária. A pista de origem (comunicação dos atos processuais) é manifestamente enganosa."
+ },
+ "uso": {
+  "in": 30,
+  "out": 6705,
+  "cache_w": 22279,
+  "cache_r": 4639,
+  "custo_usd": 0.0921349
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.35,
+ "segunda_opcao_id": "5509",
+ "extras_ids": [
+  "5511"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão predominantemente criminológica, mas multi-tema dentro de 4377. Assertiva I (labeling approach) e IV (seletividade racial estrutural) testam criminalização secundária (4378); assertiva III testa cifras criminais e estatísticas de desigualdade racial (4379); assertiva II (~25%) testa nulidade de prisão em flagrante por discriminação (5511). Eixo integrador inequívoco em processos de criminalização e cifras criminais (4377), mas múltiplos subtemas tocados em igual peso justificam subtema_n2_id = null. Resposta correta: apenas III. Confiança alta no ramo (Criminologia predomina); confiança baixa no subtema pela multiplicidade.",
+ "id": "Q0123",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": "PP7",
+  "confianca": 0.8,
+  "multi_tema": true,
+  "justificativa": "Questão predominantemente criminológica testando labeling approach, processos de criminalização, cifras criminais e seletividade racial (3 de 4 assertivas). A assertiva II aborda processo penal (nulidades em prisão por discriminação), tornando a questão multi-tema. O eixo central é C2 (Processos de Criminalização e Cifras Criminais), com elemento secundário em PP7 (Nulidades). Confiança elevada pela clareza temática predominante."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4377",
+  "segunda_opcao_n1_id": "5509",
+  "confianca_ramo": 0.87,
+  "multi_tema": true,
+  "justificativa": "Questão predominantemente criminológica. Assertivas I, III e IV (75%) testam labeling approach, cifras criminais e seletividade racial como fenômeno de criminalização secundária estrutural. Assertiva II (25%) aborda nulidades processuais por discriminação, tornando a questão multi-tema. Eixo central inequívoco em 4377 (Processos de Criminalização e Cifras Criminais); segundo tema em 5509 (Nulidades). A clareza da predominância justifica confiança elevada."
+ },
+ "uso": {
+  "in": 30,
+  "out": 10545,
+  "cache_w": 17091,
+  "cache_r": 4639,
+  "custo_usd": 0.09579489999999999
+ }
+}

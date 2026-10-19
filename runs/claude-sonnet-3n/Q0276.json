@@ -1,0 +1,44 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5545",
+ "extras_ids": [
+  "5547",
+  "5548",
+  "5552",
+  "5545",
+  "5554"
+ ],
+ "multi_tema": true,
+ "justificativa": "Cada alternativa versa sobre um meio de prova em espécie distinto: interrogatório do réu (A → 5547), confissão informal (B → 5548), acareação entre corréus (C → 5552), exame de corpo de delito (D → 5545, que é o gabarito, refletindo o art. 184 CPP sobre a possibilidade de o juiz negar perícia dispensável ao esclarecimento da verdade) e busca pessoal no curso de busca domiciliar (E → 5554). Não há um eixo único de subtema, pois as alternativas exploram institutos probatórios diferentes e autônomos, todos abrigados sob o guarda-chuva de Provas em Espécies (5543). Por isso, classifico no tema de nível 1 (5543), sem subtema específico, marcando multi_tema = true e listando os subtemas tocados como extras. Não há indício de que a questão discuta teoria geral da prova (ônus, princípios, valoração) de forma abstrata, o que afastaria 5590 como tema principal, mantendo-o apenas como segunda opção de baixa probabilidade.",
+ "id": "Q0276",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": "PP5",
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata especificamente de meios de prova no processo penal (interrogatório, confissão, acareação, exame de corpo de delito, busca pessoal), todos institutos regulados dentro de Provas em Espécie (PP4). A alternativa sobre busca pessoal toca tangencialmente em medidas cautelares (PP5), mas o eixo central e as demais alternativas giram em torno da teoria das provas."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam sobre meios de prova em espécie expressamente listados como subtemas de Provas em Espécies (5543): interrogatório do réu (A), confissão informal (B), acareação entre corréus (C), exame de corpo de delito (D) e busca pessoal/domiciliar (E). Não há questionamento sobre princípios gerais, ônus ou valoração da prova (que seria Teoria Geral das Provas, 5590), mas sim sobre regras específicas de cada instituto probatório, o que situa a questão precisamente no subtema de Provas em Espécies. A alternativa E toca em busca pessoal/domiciliar, tema que também aparece em medidas cautelares (PP5), mas aqui está tratada como meio de prova (busca e apreensão), não como instituto de prisão cautelar, por isso mantenho PP5 apenas como segunda opção de reserva improvável."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2481,
+  "cache_w": 18184,
+  "cache_r": 11846,
+  "custo_usd": 0.11332519999999999
+ }
+}

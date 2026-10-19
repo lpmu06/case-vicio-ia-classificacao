@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": "5073",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.65,
+ "segunda_opcao_id": "5175",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta diretamente sobre a impossibilidade de coautoria em determinadas classes de crime (culposos, unissubsistentes, habituais/mera conduta). O núcleo é a modalidade de coautoria em si - quando ela é compatível ou não com certos tipos penais -, o que se encaixa no tema de nível 1 Concurso de Pessoas (5071). Dentro dele, o subtema 5073 (Autoria Mediata, Colateral e Coautoria) é o que trata especificamente das espécies de autoria, incluindo coautoria e seus requisitos/limites, cabendo doutrinariamente a discussão sobre crimes culposos (ausência de concurso no sentido estrito, há coautoria culposa discutível), unissubsistentes (impossibilidade de fracionamento de atos) e habituais/mera conduta (dificuldade de divisão de tarefas). Mantenho confiança moderada no subtema porque a questão é doutrinária e um pouco mal formulada (as alternativas de resposta parecem desalinhadas com os itens I, II, III), mas o eixo central continua sendo a coautoria, não o iter criminis (que seria mais pertinente a tentativa/consumação). Por isso, mantenho 5071 como tema de nível 1 com alta confiança e 5073 como subtema com confiança moderada, preservando 5175 como segunda opção plausível por conta da menção a crimes unissubsistentes, que remete ao fracionamento de atos executórios.",
+ "id": "Q0319",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente de coautoria (concurso de pessoas) e das hipóteses em que ela é impossível, exigindo conhecimento específico do instituto do concurso de agentes - tema que está no grupo P2 (Teoria do Crime/Concurso de Pessoas)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": "5175",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente o instituto da coautoria (modalidade de concurso de pessoas) e as hipóteses em que ela é incompatível com certas classificações de crime (culposos, unissubsistentes, habituais/mera conduta). O eixo central é a teoria do concurso de pessoas, especificamente a coautoria - tema 5071, cujo subtema \"Autoria Mediata, Colateral e Coautoria\" trata exatamente disso. Mantenho a classificação do estágio anterior. Como segunda opção, Iter Criminis (5175) é plausível pois crimes unissubsistentes se relacionam ao fracionamento do iter criminis, mas o foco da pergunta é a coautoria, não a tentativa."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1927,
+  "cache_w": 13970,
+  "cache_r": 14150,
+  "custo_usd": 0.087223
+ }
+}

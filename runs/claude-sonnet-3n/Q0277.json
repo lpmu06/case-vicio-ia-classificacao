@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4696",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4709",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmado o tema 4696. Todas as alternativas versam sobre tipos penais do Estatuto do Idoso (arts. 96 a 107, Lei 10.741/2003). A alternativa correta (gabarito A) explora justamente a distinção do art. 107, que só criminaliza induzir idoso SEM discernimento a outorgar procuração - induzir idoso com discernimento não configura esse crime. Tema não possui subtemas cadastrados, logo subtema_n2_id = null.",
+ "id": "Q0277",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "grupo_id": "LE2",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "Questão trata dos crimes previstos no Estatuto do Idoso (Lei 10.741/2003), pedindo qual alternativa não configura crime contra o idoso. Enquadra-se no tema \"Estatuto de Idoso - Crimes\", pertencente ao grupo LE2 (Violência, discriminação e grupos vulneráveis)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4696",
+  "segunda_opcao_n1_id": "4709",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas descrevem condutas tipificadas (ou não) nos artigos 96 a 108 do Estatuto do Idoso (Lei 10.741/2003): discriminação (art. 96), abandono (art. 98), omissão de socorro (art. 97), retenção de cartão de benefício (art. 102) e induzir outorga de procuração (art. 107, que exige ausência de discernimento). A questão testa exatamente o tema \"Estatuto do Idoso - Crimes\", de forma unitária, sem mistura relevante com outros institutos."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1421,
+  "cache_w": 8160,
+  "cache_r": 9542,
+  "custo_usd": 0.054588399999999995
+ }
+}

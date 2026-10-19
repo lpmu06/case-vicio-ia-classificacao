@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5487",
+ "subtema_n2_id": "5488",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [
+  "5482"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecimento específico sobre a forma de citação do acusado não localizado no rito dos Juizados Especiais Criminais (Lei 9.099/95): a alternativa correta (E) trata da citação por hora certa, por entender-se incompatível a citação por edital com o procedimento sumaríssimo (art. 66, parágrafo único, da Lei 9.099/95). O eixo central da pergunta é, portanto, a forma adequada de citação, matéria que se insere no subtema \"Citação e Contagem dos Prazos\" (5488), dentro do tema de nível 1 \"Comunicação dos Atos Processuais\" (5487). A alternativa (D), que menciona remessa ao juízo comum, é apenas distrator e não representa o núcleo da questão; por isso Competência (5480) permanece apenas como segunda opção subsidiária, e Competência em Razão da Matéria (5482) como extra pela menção ao Juizado.",
+ "id": "Q0275",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP3",
+  "segundo_grupo_id": null,
+  "confianca": 0.8,
+  "multi_tema": false,
+  "justificativa": "A questão trata da citação do acusado em sede de Juizado Especial Criminal (Lei 9.099/95), especificamente sobre citação por hora certa quando o acusado não é encontrado. O tema central é comunicação dos atos processuais (citação), que se insere no grupo PP3, que abrange \"Comunicação dos Atos Processuais\"."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5487",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a forma de citação do acusado no rito do Juizado Especial Criminal (Lei 9.099/95), quando não localizado, exigindo conhecimento específico sobre citação por hora certa em contraposição à citação por edital. O eixo central é a comunicação dos atos processuais (citação), tema de nível 1 \"Comunicação dos Atos Processuais\" (5487), cujo subtema \"Citação e Contagem dos Prazos\" trataria exatamente disso. Não há questão de fixação/critério de competência propriamente dito, apenas menciona de forma indireta o juízo comum como consequência, por isso Competência (5480) fica como segunda opção subsidiária."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1516,
+  "cache_w": 13925,
+  "cache_r": 14150,
+  "custo_usd": 0.083159
+ }
+}

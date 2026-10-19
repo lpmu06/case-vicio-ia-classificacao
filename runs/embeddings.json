@@ -5,29 +5,29 @@
   "grupo": "jurídico PT",
   "obs": "BERT cru (MLM), sem treino de similaridade; o elo fraco do MoVAI",
   "segundos": 245.0,
-  "n_ref": 285,
+  "n_ref": 315,
   "titulo": {
-   "top1_ramo": 0.06,
-   "recall_ramo@5": 0.147,
-   "recall_ramo@10": 0.214,
-   "recall_ramo@20": 0.33,
-   "maior_lixeira": "Crimes contra o meio ambiente (38%)",
-   "maior_lixeira_frac": 0.382,
+   "top1_ramo": 0.054,
+   "recall_ramo@5": 0.146,
+   "recall_ramo@10": 0.213,
+   "recall_ramo@20": 0.321,
+   "maior_lixeira": "Crimes contra o meio ambiente (39%)",
+   "maior_lixeira_frac": 0.394,
    "temas_distintos_top1": 12
   },
   "enriq": {
-   "top1_ramo": 0.204,
-   "recall_ramo@5": 0.446,
-   "recall_ramo@10": 0.558,
-   "recall_ramo@20": 0.667,
+   "top1_ramo": 0.21,
+   "recall_ramo@5": 0.444,
+   "recall_ramo@10": 0.562,
+   "recall_ramo@20": 0.673,
    "maior_lixeira": "Fraude Processual (8%)",
-   "maior_lixeira_frac": 0.081,
-   "temas_distintos_top1": 94
+   "maior_lixeira_frac": 0.083,
+   "temas_distintos_top1": 98
   },
   "destilacao": {
-   "acerto_cv": 0.29,
-   "n": 200,
-   "classes": 25
+   "acerto_cv": 0.286,
+   "n": 227,
+   "classes": 27
   }
  },
  {
@@ -36,29 +36,215 @@
   "grupo": "jurídico PT",
   "obs": "Legal-BERTimbau ajustado para similaridade (STS)",
   "segundos": 16734.4,
-  "n_ref": 285,
+  "n_ref": 315,
   "titulo": {
-   "top1_ramo": 0.239,
-   "recall_ramo@5": 0.488,
-   "recall_ramo@10": 0.565,
-   "recall_ramo@20": 0.674,
+   "top1_ramo": 0.225,
+   "recall_ramo@5": 0.489,
+   "recall_ramo@10": 0.568,
+   "recall_ramo@20": 0.683,
    "maior_lixeira": "Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia (8%)",
-   "maior_lixeira_frac": 0.077,
-   "temas_distintos_top1": 111
+   "maior_lixeira_frac": 0.083,
+   "temas_distintos_top1": 115
   },
   "enriq": {
-   "top1_ramo": 0.333,
-   "recall_ramo@5": 0.568,
-   "recall_ramo@10": 0.684,
-   "recall_ramo@20": 0.793,
+   "top1_ramo": 0.343,
+   "recall_ramo@5": 0.571,
+   "recall_ramo@10": 0.689,
+   "recall_ramo@20": 0.797,
    "maior_lixeira": "Mandado de Segurança (6%)",
-   "maior_lixeira_frac": 0.06,
-   "temas_distintos_top1": 134
+   "maior_lixeira_frac": 0.063,
+   "temas_distintos_top1": 140
   },
   "destilacao": {
-   "acerto_cv": 0.505,
-   "n": 200,
-   "classes": 25
+   "acerto_cv": 0.489,
+   "n": 227,
+   "classes": 27
+  }
+ },
+ {
+  "modelo": "jurisbert-sts",
+  "hf_id": "alfaneo/jurisbert-base-portuguese-sts",
+  "grupo": "jurídico BR",
+  "obs": "JurisBERT: pré-treino em decisões do STJ, ajustado para STS",
+  "segundos": 344.2,
+  "n_ref": 315,
+  "titulo": {
+   "top1_ramo": 0.175,
+   "recall_ramo@5": 0.375,
+   "recall_ramo@10": 0.502,
+   "recall_ramo@20": 0.629,
+   "maior_lixeira": "Autoria Mediata, Colateral e Coautoria (5%)",
+   "maior_lixeira_frac": 0.054,
+   "temas_distintos_top1": 126
+  },
+  "enriq": {
+   "top1_ramo": 0.327,
+   "recall_ramo@5": 0.549,
+   "recall_ramo@10": 0.67,
+   "recall_ramo@20": 0.787,
+   "maior_lixeira": "Escolas Crimonológicas (2%)",
+   "maior_lixeira_frac": 0.022,
+   "temas_distintos_top1": 171
+  },
+  "destilacao": {
+   "acerto_cv": 0.471,
+   "n": 227,
+   "classes": 27
+  }
+ },
+ {
+  "modelo": "bertimbau-base",
+  "hf_id": "neuralmind/bert-base-portuguese-cased",
+  "grupo": "português geral",
+  "obs": "BERTimbau cru (MLM)",
+  "segundos": 358.8,
+  "n_ref": 315,
+  "titulo": {
+   "top1_ramo": 0.13,
+   "recall_ramo@5": 0.27,
+   "recall_ramo@10": 0.365,
+   "recall_ramo@20": 0.47,
+   "maior_lixeira": "Noções gerais dos crimes praticados contra a administração pública (24%)",
+   "maior_lixeira_frac": 0.238,
+   "temas_distintos_top1": 30
+  },
+  "enriq": {
+   "top1_ramo": 0.298,
+   "recall_ramo@5": 0.524,
+   "recall_ramo@10": 0.644,
+   "recall_ramo@20": 0.752,
+   "maior_lixeira": "Ação Penal Privada (4%)",
+   "maior_lixeira_frac": 0.041,
+   "temas_distintos_top1": 106
+  },
+  "destilacao": {
+   "acerto_cv": 0.357,
+   "n": 227,
+   "classes": 27
+  }
+ },
+ {
+  "modelo": "mpnet-multilingual",
+  "hf_id": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+  "grupo": "multilíngue",
+  "obs": "paráfrase multilíngue (2019)",
+  "segundos": 404.2,
+  "n_ref": 315,
+  "titulo": {
+   "top1_ramo": 0.321,
+   "recall_ramo@5": 0.511,
+   "recall_ramo@10": 0.619,
+   "recall_ramo@20": 0.708,
+   "maior_lixeira": "Lei Maria da Penha (6%)",
+   "maior_lixeira_frac": 0.057,
+   "temas_distintos_top1": 124
+  },
+  "enriq": {
+   "top1_ramo": 0.403,
+   "recall_ramo@5": 0.632,
+   "recall_ramo@10": 0.746,
+   "recall_ramo@20": 0.838,
+   "maior_lixeira": "Condescendência Criminosa (3%)",
+   "maior_lixeira_frac": 0.035,
+   "temas_distintos_top1": 149
+  },
+  "destilacao": {
+   "acerto_cv": 0.555,
+   "n": 227,
+   "classes": 27
+  }
+ },
+ {
+  "modelo": "e5-base",
+  "hf_id": "intfloat/multilingual-e5-base",
+  "grupo": "multilíngue",
+  "obs": "E5 base, com prefixos query/passage",
+  "segundos": 207.8,
+  "n_ref": 315,
+  "titulo": {
+   "top1_ramo": 0.34,
+   "recall_ramo@5": 0.546,
+   "recall_ramo@10": 0.667,
+   "recall_ramo@20": 0.746,
+   "maior_lixeira": "Fases do Iter Criminis (8%)",
+   "maior_lixeira_frac": 0.083,
+   "temas_distintos_top1": 123
+  },
+  "enriq": {
+   "top1_ramo": 0.571,
+   "recall_ramo@5": 0.794,
+   "recall_ramo@10": 0.86,
+   "recall_ramo@20": 0.905,
+   "maior_lixeira": "Ameaça e Perseguição (4%)",
+   "maior_lixeira_frac": 0.041,
+   "temas_distintos_top1": 152
+  },
+  "destilacao": {
+   "acerto_cv": 0.233,
+   "n": 227,
+   "classes": 27
+  }
+ },
+ {
+  "modelo": "bge-m3",
+  "hf_id": "bge-m3",
+  "grupo": "multilíngue",
+  "obs": "BGE-M3 via Ollama (GPU local)",
+  "segundos": null,
+  "n_ref": 315,
+  "titulo": {
+   "top1_ramo": 0.46,
+   "recall_ramo@5": 0.698,
+   "recall_ramo@10": 0.756,
+   "recall_ramo@20": 0.813,
+   "maior_lixeira": "Falso Testemunha ou Falsa Perícia e Corrupção Ativa de Testemunha ou Perito (4%)",
+   "maior_lixeira_frac": 0.041,
+   "temas_distintos_top1": 138
+  },
+  "enriq": {
+   "top1_ramo": 0.644,
+   "recall_ramo@5": 0.851,
+   "recall_ramo@10": 0.892,
+   "recall_ramo@20": 0.93,
+   "maior_lixeira": "Inquérito Policial (2%)",
+   "maior_lixeira_frac": 0.022,
+   "temas_distintos_top1": 165
+  },
+  "destilacao": {
+   "acerto_cv": 0.595,
+   "n": 227,
+   "classes": 27
+  }
+ },
+ {
+  "modelo": "mxbai-large",
+  "hf_id": "mxbai-embed-large",
+  "grupo": "inglês",
+  "obs": "mxbai-embed-large via Ollama, treinado sobretudo em inglês",
+  "segundos": null,
+  "n_ref": 315,
+  "titulo": {
+   "top1_ramo": 0.365,
+   "recall_ramo@5": 0.562,
+   "recall_ramo@10": 0.651,
+   "recall_ramo@20": 0.749,
+   "maior_lixeira": "Ação Penal Pública Incondicionada (3%)",
+   "maior_lixeira_frac": 0.032,
+   "temas_distintos_top1": 128
+  },
+  "enriq": {
+   "top1_ramo": 0.486,
+   "recall_ramo@5": 0.724,
+   "recall_ramo@10": 0.803,
+   "recall_ramo@20": 0.87,
+   "maior_lixeira": "Omissão de Socorro (3%)",
+   "maior_lixeira_frac": 0.029,
+   "temas_distintos_top1": 156
+  },
+  "destilacao": {
+   "acerto_cv": 0.476,
+   "n": 227,
+   "classes": 27
   }
  }
 ]

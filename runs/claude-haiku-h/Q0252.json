@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4703",
+ "extras_ids": [
+  "5191"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão multi-tema abordando: (A) graça/extinção da punibilidade (tema 5191); (B) pena de multa em parcelas — subtema 5206; (C) livramento condicional com menção a juízo da execução — subtema 5208/tema 4703; (D) livramento condicional para maiores de 70 anos — subtema 5208. A maioria (B, C, D = 75%) trata de institutos de Teoria da Pena. Embora C mencione \"juízo da execução penal\", a substância testada é direito penal material (requisitos, direitos e benefícios do livramento), não procedimento executório. Classificado em 5199 (Teoria da Pena) como tema principal. Segunda opção: 4703 (pela perspectiva de execução penal em C). Extras: 5191 (graça é causa de extinção da punibilidade).",
+ "id": "Q0252",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.65,
+  "multi_tema": true,
+  "justificativa": "Questão multi-tema que aborda graça (Punibilidade - Direito Penal), pena de multa em parcelas, livramento condicional e benefícios para maiores de 70 anos. A maioria das alternativas (B, C, D) trata especificamente de execução penal, com menção explícita a \"juízo da execução penal\". Classificada em Lei de Execução Penal como tema principal, com segunda opção em Teoria da Pena, pois as questões sobre pena de multa e livramento condicional também podem ser tratadas como institutos de direito material penal."
+ },
+ "uso": {
+  "in": 20,
+  "out": 16098,
+  "cache_w": 10559,
+  "cache_r": 10800,
+  "custo_usd": 0.11128500000000001
+ }
+}

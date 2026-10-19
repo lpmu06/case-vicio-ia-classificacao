@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "4701",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5540",
+ "extras_ids": [
+  "5541",
+  "5542"
+ ],
+ "multi_tema": true,
+ "justificativa": "Embora o enunciado mencione \"competência dos Juizados Especiais Criminais\", as alternativas abordam institutos distintos do microssistema do Jecrim: (A) deslocamento de competência por conexão/continência, (B) vedação de transação penal por benefício anterior, (C) queixa oral, (D) institutos despenalizadores como garantia individual do acusado (gabarito, conforme jurisprudência STF - RE 229752), e (E) decadência da representação. O gabarito (D) não é sobre competência específica, mas sobre a natureza e abrangência dos institutos despenalizadores da Lei 9.099/95 em geral, o que é melhor coberto pelo tema amplo \"Juizado Especial Criminal\" (4701) do que pelo subtema específico \"Competência dos Juizados Especiais Criminais\" (5540), que trataria apenas da alternativa A. Mantida a classificação anterior no ramo de Legislação Especial, com subtema null por não haver um único subtema que abranja todas as alternativas testadas. Indico 5540 como segunda opção pela menção expressa à competência no enunciado, e 5541/5542 como extras por também serem testados nas alternativas B e E (ainda que E seja sobre representação/decadência, tema correlato à transação penal no procedimento sumaríssimo).",
+ "id": "Q0304",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": "PP6",
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre competência e institutos despenalizadores do Juizado Especial Criminal (Lei 9.099/95), tema específico \"Juizado Especial Criminal\" presente no grupo LE4 (Legislação Especial), que deve ser preferido ao tema homônimo/correlato de Processo Penal (Procedimento Sumaríssimo), conforme regra de preferência quando há duplicidade de temas entre disciplinas."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4701",
+  "segunda_opcao_n1_id": "5539",
+  "confianca_ramo": 0.65,
+  "multi_tema": true,
+  "justificativa": "A questão aborda, em suas alternativas, diversos institutos da Lei 9.099/95 (competência e deslocamento por conexão/continência, requisitos da transação penal, queixa oral, institutos despenalizadores como garantia do acusado, decadência da representação), não se restringindo apenas à competência. Por isso, embora exista subtema específico \"Competência dos Juizados Especiais Criminais\" dentro de Procedimento Sumaríssimo (PP6/5539), o conjunto da questão é mais bem abrangido pelo tema geral \"Juizado Especial Criminal\" (LE4/4701), que cobre todos os institutos testados (transação penal, procedimento sumaríssimo, suspensão condicional, composição civil etc.), mantendo-se a preferência pela Legislação Especial em caso de sobreposição temática com Processo Penal. Marco como multi-tema pois as alternativas versam sobre institutos distintos do mesmo microssistema (Jecrim), e indico PP6 como segunda opção pelo subtema específico de competência mencionado no enunciado."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3046,
+  "cache_w": 13018,
+  "cache_r": 14150,
+  "custo_usd": 0.09389600000000001
+ }
+}

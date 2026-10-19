@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4384",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata especificamente das teorias de Foucault que fundamentam e legitimam a reforma penal humanista do século XVIII, indagando sobre as razões essenciais e a nova tecnologia do poder de punir. Insere-se perfeitamente no escopo de Teorias Legitimidoras da Pena (4384), que cobre a justificação teórica de por que e para que punir. Não se confunde com temas vizinhos: não é evolução histórica do pensamento (4371) nem política criminal estatal (4374), mas a justificação teórica subjacente ao sistema penal. As pistas fracas (disciplina: Criminologia; assunto: Teorias Legitimidoras) coincidem perfeitamente.",
+ "id": "Q0217",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4384",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre as teorias de Foucault que fundamentam e legitimam a reforma penal humanista do século XVIII. É uma questão criminológica sobre teorias legitimidoras da pena, não sobre aplicação prática de penas. O tema 4384 é exato para o conteúdo. As pistas fracas (disciplina: Criminologia; assunto: Teorias Legitimidoras) coincidem perfeitamente."
+ },
+ "uso": {
+  "in": 20,
+  "out": 3356,
+  "cache_w": 7837,
+  "cache_r": 12522,
+  "custo_usd": 0.036694199999999996
+ }
+}

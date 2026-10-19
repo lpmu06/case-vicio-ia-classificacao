@@ -125,7 +125,7 @@ def main():
         refs = {**rod, "arbitro-opus": arb} if arb else dict(rod)
         for r in rod:
             cobertas = [q for q in amostra if q in rod[r]]
-            if len(cobertas) < 60:
+            if len(cobertas) < 30:
                 continue
             ok = n_ok = 0
             for q in cobertas:

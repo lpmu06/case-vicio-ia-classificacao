@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5562",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5515",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão específica sobre apelação criminal contra sentença condenatória do Tribunal do Júri, testando as condições (características cumuladas) para atribuição de efeito suspensivo a este recurso em espécie. Confirma-se 5560 (Recursos em Espécies) como tema de nível 1, que cobre efeitos e processamento de cada recurso concreto, diferenciando-se de 5512 (Parte Geral dos Recursos), que aborda princípios e pressupostos recursais em abstrato. Refina-se para 5562 (Apelação) como subtema, pois a questão trata exclusivamente de apelação específica; as palavras-chave de 5562 incluem explicitamente \"efeito suspensivo\". Segunda opção seria 5515 (Efeito dos Recursos), menos apropriada porque trata efeitos em geral, não apelação específica.",
+ "id": "Q0040",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre recurso de apelação contra sentença do Tribunal do Júri e características que atribuem efeito suspensivo. É matéria processual pura (recurso, procedimento, efeitos), não direito penal substantivo. Encaixa-se diretamente em PP8 | Recursos e ações autônomas de impugnação, tema Recursos em Espécies, pois apelação é uma espécie específica de recurso criminal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5512",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "Questão sobre apelação contra sentença condenatória do Tribunal do Júri e as condições para atribuição de efeito suspensivo. É matéria processual pura (efeitos de um recurso em espécie). 5560 | Recursos em Espécies cobre expressamente \"efeitos e processamento de cada recurso concretamente previsto em lei\", sendo mais apropriado que 5512 (teoria geral dos recursos). A apelação é a espécie de recurso específica testada. Segunda opção 5512 por tocar também em princípios e efeitos gerais dos recursos."
+ },
+ "uso": {
+  "in": 3483,
+  "out": 12422,
+  "cache_w": 14596,
+  "cache_r": 4639,
+  "custo_usd": 0.10695790000000001
+ }
+}

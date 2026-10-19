@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": "5227",
+ "extras_ids": [
+  "5222"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão sobre erro de tipo essencial e seu efeito sobre a tipicidade. O instituto jurídico testado é exclusivamente \"Erro de Tipo Essencial\" (erro sobre elemento constitutivo do tipo) como excludente de tipicidade e dolo. A resposta correta (A) expressa que o agente poderá alegar atipicidade, confirmando que a conduta típica deixa de existir quando há erro essencial sobre elementar do tipo. Classificação em 5224 (Erro de Tipo) é a mais precisa, não no nível 1 genérico 5218. Segunda opção seria 5227 (Tipicidade) como tema correlato. Extras: 5222 (Crime Doloso e Culposo), pois o erro afeta o dolo.",
+ "id": "Q0231",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "Questão sobre erro de tipo essencial e sua consequência na tipicidade. O instituto testado é exclusivamente \"Erro de Tipo\" como excludente de tipicidade (não de ilicitude ou culpabilidade). Classificada em Teoria do Crime: Fato Típico (5218), subtema Erro de Tipo. A resposta correta (A) expressa que o agente poderá alegar atipicidade, justamente porque o erro essencial sobre elemento constitutivo do tipo exclui a tipicidade da conduta."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4124,
+  "cache_w": 10389,
+  "cache_r": 12522,
+  "custo_usd": 0.048745199999999995
+ }
+}

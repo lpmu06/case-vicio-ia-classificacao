@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5583",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão enumera literalmente as hipóteses de suspeição do juiz previstas no art. 254, I a IV, do CPP. O tema 5583 (Sujeitos do Processo) expressamente lista \"impedimento e suspeição\" entre suas palavras-chave e cita os arts. 252 a 256 do CPP como dispositivos de referência, cobrindo exatamente a condição subjetiva do juiz que gera seu afastamento do feito. Não se trata de exceção processual formal (que seria 5490), nem de questão específica do procedimento do júri, apesar da pista de origem - a regra é geral e aplicável a qualquer processo. Confirmo o tema de nível 1 do estágio anterior. Como 5583 não possui subtemas de nível 2, subtema_n2_id permanece null. Não há segunda opção relevante, já que 5505 (Lei Processual no Tempo e no Espaço) não guarda qualquer relação com o conteúdo testado.",
+ "id": "Q0263",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP1",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata das hipóteses de suspeição do juiz (art. 254 do CPP), matéria relativa aos sujeitos do processo, especificamente ao magistrado como sujeito processual e suas garantias de imparcialidade. Isso se enquadra no tema \"Sujeitos do Processo\", pertencente ao grupo PP1, apesar da pista de origem indicar \"Procedimento do Júri\" - trata-se de regra geral de suspeição aplicável a qualquer procedimento, não específica do júri."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5583",
+  "segunda_opcao_n1_id": "5505",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre as hipóteses de suspeição do juiz (art. 254 do CPP), matéria diretamente relacionada à disciplina do magistrado como sujeito processual e às garantias de sua imparcialidade. Trata-se de regra geral aplicável a qualquer procedimento (não específica do júri, apesar da pista de origem), enquadrando-se no tema \"Sujeitos do Processo\" (5583). A segunda opção (5505 - Lei Processual no Tempo e no Espaço) é mencionada apenas por pertencer ao mesmo grupo PP1, mas não guarda relação temática direta com o conteúdo da questão."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1619,
+  "cache_w": 10521,
+  "cache_r": 11846,
+  "custo_usd": 0.06778619999999999
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5160",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5116",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata exatamente da Súmula 610 do STF (latrocínio consumado quando a subtração é tentada mas a morte se consuma), matéria do art. 157, §3º, CP (roubo qualificado pelo resultado morte). O tema de nível 1 correto é 5157 (Crimes Contra o Patrimônio) e, como o latrocínio é modalidade específica de roubo, o subtema correto é 5160 (Roubo), que expressamente lista a Súmula 610 STF entre seus dispositivos. Não há qualquer relação com fé pública/falsidade documental (5116), que permanece apenas como opção remota e improvável.",
+ "id": "Q0274",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata da Súmula 610 do STF (latrocínio consumado quando há subtração tentada e morte consumada), tema diretamente ligado ao crime de latrocínio (art. 157, §3º, CP), que está inserido em \"Dos Crimes Contra o Patrimônio\", pertencente ao grupo P5."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": "5116",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a Súmula 610 do STF, segundo a qual há latrocínio consumado quando a subtração é tentada, mas a morte da vítima se consuma. O latrocínio é crime complexo previsto no art. 157, §3º, do CP (Roubo qualificado pelo resultado morte), inserido no Título II - Dos Crimes Contra o Patrimônio. Logo, o tema de nível 1 correto é 5157 (Dos Crimes Contra o Patrimônio), cujo subtema específico seria \"Roubo\". Não há relação com fé pública ou falsidade documental, por isso a segunda opção é apenas uma alternativa remota e de baixa probabilidade real."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1475,
+  "cache_w": 18095,
+  "cache_r": 14150,
+  "custo_usd": 0.10256299999999999
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre medidas protetivas de urgência da Lei nº 11.340/2006 (Lei Maria da Penha), examinando características técnicas de seu regime jurídico próprio: cumulatividade das medidas protetivas versus regime de medidas cautelares do CPP, competência do delegado em municípios sem sede de comarca para afastamento imediato, concessão em juízo de cognição sumária, e concessão imediata independentemente de audiência das partes e do MP. Trata-se de matéria exclusiva do microssistema da Lei Maria da Penha, sem ambiguidade temática. Não há subtema aplicável (tema sem subdivisões).",
+ "id": "Q0063",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE2",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "Questão sobre medidas protetivas de urgência da Lei nº 11.340/2006 (Lei Maria da Penha), examinando seu regime jurídico próprio (cumulatividade, competência do delegado, cognição sumária, concessão imediata). Embora mencione medidas cautelares do CPP para contraste, o tema central é direito material de legislação especial, não processo penal. Classifica-se em LE2 (tema \"Lei Maria da Penha\"), não em Processo Penal apesar da pista fraca."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "Questão sobre medidas protetivas de urgência da Lei nº 11.340/2006 (Lei Maria da Penha), examinando seu regime jurídico próprio: cumulatividade, competência do delegado, cognição sumária e concessão imediata independentemente de audiência das partes e do MP. Embora contraste com medidas cautelares do CPP, o tema central é o microssistema especial da LMP, não processo penal geral. Classifica-se em 4704 (Lei Maria da Penha)."
+ },
+ "uso": {
+  "in": 30,
+  "out": 7808,
+  "cache_w": 12520,
+  "cache_r": 4639,
+  "custo_usd": 0.0706599
+ }
+}

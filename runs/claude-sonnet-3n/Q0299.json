@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": "4378",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.72,
+ "segunda_opcao_id": "4371",
+ "extras_ids": [
+  "4385"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é multi-tema (cada alternativa trata de um instituto distinto: criminologia crítica, Escola positivista, teoria retributiva, labelling approach, finalismo), mas o eixo central exigido pelo gabarito (D) é o labelling approach, que estuda os mecanismos de reação social (controle social formal/agências) ao delito e sua influência na reprodução da criminalidade — ou seja, a seletividade da aplicação concreta da lei penal, núcleo da \"Criminalização Secundária\". Isso se encaixa com precisão no subtema 4378 (Criminalização Primária e Secundária), cujas palavras-chave citam expressamente \"etiquetamento, labelling approach\" e \"seletividade penal\". Mantenho 4377 como tema de nível 1 e, diferente da rodada anterior, agora aponto o subtema 4378 (não 4379, que trata de cifras/subnotificação, tema não abordado na alternativa correta). Como segunda opção, mantenho 4371, pois a alternativa B versa sobre a Escola positivista, e incluo 4385 (Teorias Sociológicas) como extra, já que o labelling approach também pode ser enquadrado ali como teoria explicativa da criminalidade, gerando alguma incerteza no subtema.",
+ "id": "Q0299",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": "C1",
+  "confianca": 0.75,
+  "multi_tema": true,
+  "justificativa": "A questão mistura vários temas (labelling approach, escola positivista, finalismo, retributivismo), sem eixo comum único, mas o gabarito correto (D) trata do labelling approach, que se insere em Teorias Sociológicas Explicativas da Criminalidade / Processos de Criminalização, dentro do grupo C2 (Teorias da criminalidade, teorias da pena, política criminal e processos de criminalização). A alternativa B remete a Etapas Evolutivas e Escolas Criminológicas (C1), por isso indico C1 como segundo grupo."
+ },
+ "estagioB": {
+  "tema_n1_id": "4377",
+  "segunda_opcao_n1_id": "4371",
+  "fora": false,
+  "confianca_ramo": 0.72,
+  "multi_tema": true,
+  "justificativa": "A questão apresenta alternativas sobre temas distintos (Escola positivista, teoria retributiva, finalismo, criminologia crítica e labelling approach), sem eixo comum. O gabarito (D) versa sobre o labelling approach, que trata especificamente dos mecanismos de reação social ao delito e sua influência na reprodução da criminalidade — isso se insere precisamente em \"Processos de Criminalização e Cifras Criminais\" (tema 4377), especificamente no subtema de Criminalização Primária e Secundária, mais específico que o \"guarda-chuva\" de Teorias Sociológicas (4385). Como segunda opção, indico 4371 (Etapas Evolutivas e Escolas Criminológicas), pois a alternativa B trata da Escola Positivista."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1991,
+  "cache_w": 11292,
+  "cache_r": 11846,
+  "custo_usd": 0.0750362
+ }
+}

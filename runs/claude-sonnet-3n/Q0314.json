@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5476",
+ "subtema_n2_id": "5477",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5512",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige o conceito exato do habeas corpus (natureza de ação/remédio constitucional, não recurso, abrangendo coação ilegal por autoridade ou particular), conteúdo típico e específico do subtema Habeas Corpus (5477), dentro do tema de nível 1 Ações Autônomas de Impugnação (5476). A alternativa (B) explora o erro de classificá-lo como \"recurso\", o que conecta perifericamente com Parte Geral dos Recursos (5512), mas o eixo central é a definição do próprio instituto do HC.",
+ "id": "Q0314",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão testa a natureza jurídica do habeas corpus, que é classificado como ação autônoma de impugnação, tema integrante do grupo PP8 (Recursos e ações autônomas de impugnação)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5476",
+  "segunda_opcao_n1_id": "5512",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão pede a correta definição/natureza jurídica do habeas corpus, distinguindo-o de recurso e de revisão criminal. É conteúdo específico do subtema Habeas Corpus, dentro do tema de nível 1 \"Ações Autônomas de Impugnação\" (5476). Como segunda opção, \"Parte Geral dos Recursos\" (5512) é pertinente por envolver a distinção entre natureza de ação x recurso, mas o eixo central é o instituto do HC em si."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1349,
+  "cache_w": 12978,
+  "cache_r": 14150,
+  "custo_usd": 0.076683
+ }
+}

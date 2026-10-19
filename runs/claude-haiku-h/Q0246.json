@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5527",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre a decisão judicial correta ao final da primeira fase (sumário de culpa) do Tribunal do Júri. Fica provada a semi-imputabilidade do acusado, presentes indícios de autoria e materialidade. A semi-imputabilidade reduz (não exclui) culpabilidade, logo não fundamenta absolvição sumária ou impronúncia. O crime mantém natureza dolosa contra a vida e competência do júri. A decisão deve ser pronunciá-lo, deixando ao plenário e à dosimetria a consideração da semi-imputabilidade. A questão é especificamente sobre diferenciação dos requisitos das quatro decisões possíveis da primeira fase (pronúncia, impronúncia, absolvição sumária, desclassificação), objeto de 5527. Não trata de dosimetria (5199), como sugerido anteriormente, mas de procedimento bifásico e decisões interlocutórias do júri.",
+ "id": "Q0246",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "Questão sobre o procedimento bifásico do Tribunal do Júri, especificamente sobre a decisão judicial (pronuncia/impronúncia/desclassificação) quando descoberta a semi-imputabilidade do acusado durante o sumário de culpa. A questão envolve competência, procedimento e decisões processuais no Júri. Classificada em \"Procedimento do Tribunal do Júri\" (5524) > \"Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia\". Segunda opção é \"Teoria da Pena\" (5199) se a questão fosse enfatizar o aspecto de culpabilidade/redução de pena decorrente da semi-imputabilidade, mas o foco principal é processual/procedimental."
+ },
+ "uso": {
+  "in": 20,
+  "out": 11353,
+  "cache_w": 15092,
+  "cache_r": 12522,
+  "custo_usd": 0.09845720000000001
+ }
+}

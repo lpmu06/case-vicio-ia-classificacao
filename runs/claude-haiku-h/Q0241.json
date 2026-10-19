@@ -1,0 +1,32 @@
+{
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.94,
+ "fora": false,
+ "multi_tema": false,
+ "segunda_opcao_id": null,
+ "extras_ids": [
+  "5222"
+ ],
+ "justificativa": "Questão de Direito Penal que testa domínio específico da Teoria do Crime: Fato Típico (5218), exatamente no subtema Erro de Tipo (5224). Os quatro itens analisam modalidades de erro de tipo: erro de tipo essencial sobre elementar (I), erro sobre objeto (II), aberratio ictus como erro acidental na execução (III) e aberratio criminis como desvio qualitativo no resultado (IV). Nenhum item adentra processo penal, culpabilidade ou ilicitude; o foco permanece rigorosamente na tipicidade sob erro. Classificação em 5224 é certa. Confiança reduzida para 0.94 por imprecisões redacionais em II e IV (aberratio criminis mal caracterizada), mantendo o padrão anterior. Inclusão de 5222 em extras por relevância tangencial: erro de tipo afeta dolo, mas a questão trata erro e não dolo propriamente.",
+ "id": "Q0241",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "Questão de Direito Penal - Penal (5062) que testa domínio da Teoria do Crime: Fato Típico (5218), especificamente a teoria do erro de tipo e seus conceitos correlatos (aberratio ictus, aberratio criminis). A análise centrada em \"erro de tipo essencial\", \"erro sobre objeto\" e desvios na execução/resultado do crime (aberrationes) confirma o posicionamento exato no subtema Erro de Tipo da Teoria do Crime. Não constitui multi-tema pois todas as afirmações tratam do mesmo instituto jurídico (erro e suas espécies). Confiança ligeiramente reduzida (0.92) pela redação imprecisa de algumas afirmações na questão, particularmente II e IV, que podem gerar interpretações divergentes conforme a banca examinadora."
+ },
+ "uso": {
+  "in": 20,
+  "out": 9140,
+  "cache_w": 11334,
+  "cache_r": 12522,
+  "custo_usd": 0.07607320000000001
+ }
+}

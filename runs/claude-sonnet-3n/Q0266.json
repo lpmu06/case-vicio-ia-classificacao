@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": "5482",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5481",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige definir, em razão da natureza do agente e da infração (crime doloso contra a vida cometido por militar federal e por militar estadual em operação de GLO), qual Justiça é competente: Justiça Militar da União, Justiça Militar estadual ou Tribunal do Júri. Trata-se de típica questão de competência em razão da matéria (ratione materiae), confrontando ramos de Justiça distintos (Militar da União x Militar estadual x Júri), hipótese central do subtema 5482, que expressamente lista \"crime militar\" e \"crime doloso contra a vida\" e \"Justiça Militar\" entre suas palavras-chave e dispositivos (CPM, art. 9º; CF, art. 125, §4º). Não se trata do subtema panorâmico 5481 (que apenas lista critérios em abstrato), nem de prerrogativa de função (5484), território (5483) ou prorrogação/conexão (5486), pois a questão não menciona reunião de processos por conexão como fundamento da resposta correta, mas sim a definição do ramo competente para cada agente isoladamente, conforme sua condição (militar federal vs. estadual).",
+ "id": "Q0266",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP3",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa definição de competência jurisdicional para julgamento de crime doloso contra a vida praticado por militar federal (Justiça Militar da União) e militar estadual (Tribunal do Júri/Justiça Militar estadual) em operação de GLO, matéria de Competência (nível 1 'Competência, questões e processos incidentes, comunicação dos atos' - PP3), e não sobre o rito do júri em si."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5480",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa critérios de fixação de competência (em razão da matéria/foro militar) para julgamento de crime doloso contra a vida cometido por militares federais e estaduais em operação de GLO, confrontando Justiça Militar da União, Justiça Militar estadual e Tribunal do Júri. É matéria central de Competência (tema 5480), especificamente sobre espécies e fixação de competência criminal, não se tratando de comunicação de atos nem de incidentes processuais (5490/5487). Mantém-se o tema de nível 1 'Competência' já indicado anteriormente como PP3."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1570,
+  "cache_w": 12261,
+  "cache_r": 14150,
+  "custo_usd": 0.075655
+ }
+}

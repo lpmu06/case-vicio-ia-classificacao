@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5170",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmado tema 5170. A questão aborda a doutrina do garantismo penal como teoria estruturante e fundadora dos princípios do Direito Penal, não como exame isolado de um princípio específico. A resposta correta (C) ilustra perfeitamente o contraste: o garantismo protege contra arbitrariedades estatais E da maioria, rejeitando precisamente a submissão ao consensualismo popular que a alternativa propõe. Classifica-se em Introdução (5170) por se tratar de abordagem doutrinária geral e fundamental que perpassa toda a disciplina, sem descender para Princípios específicos (5172). Sem subtema de nível 2 apropriado.",
+ "id": "Q0269",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5170",
+  "segunda_opcao_n1_id": null,
+  "multi_tema": false,
+  "confianca_ramo": 0.88,
+  "justificativa": "Questão sobre doutrina do garantismo penal clássico. Trata de conceitos fundamentais, princípios e função estruturante do Direito Penal, situando-se como questão introdutória e doutrinária. O garantismo é teoria axial que permeia toda a disciplina de Penal, especialmente seus princípios. Resposta correta: C (que nega o garantismo ao submeter-se ao consenso popular, quando o garantismo precisamente protege contra arbitrariedades da maioria e do poder estatal)."
+ },
+ "uso": {
+  "in": 20,
+  "out": 8791,
+  "cache_w": 9950,
+  "cache_r": 12522,
+  "custo_usd": 0.0701732
+ }
+}

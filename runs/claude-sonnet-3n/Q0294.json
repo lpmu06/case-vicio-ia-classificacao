@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5211",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5212",
+ "extras_ids": [
+  "5213",
+  "5217",
+  "5214"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 Culpabilidade (5211), pois todas as cinco alternativas versam sobre aspectos distintos desse instituto: (A) embriaguez/dependência química como causa de exclusão/diminuição (tema de Inimputabilidade, 5213); (B) inexigibilidade de conduta diversa no delito previdenciário (Causas Supralegais, 5217); (C) conceito da teoria normativa pura e reprovação pessoal (Conceito e Elementos, 5212) — alternativa correta; (D) teoria limitada da culpabilidade e erro de tipo/proibição (Erro de Proibição, 5214); (E) correntes preventivas e teoria da motivação normativa (também ligado a 5212). Como não há um subtema único que harmonize todas as alternativas — cada uma remete a um subtema diferente de 5211 — opto por subtema_n2_id = null e marco multi_tema = true, listando os subtemas tangenciados em extras_ids. A segunda opção, caso se exigisse um subtema, seria 5212 (Conceito e Elementos da Culpabilidade), por ser o foco da alternativa correta (C) e também tangenciado pela (E).",
+ "id": "Q0294",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam sobre culpabilidade (teoria normativa pura, teoria limitada da culpabilidade, erro de tipo/proibição, inexigibilidade de conduta diversa, embriaguez/dependência química), que corresponde ao tema \"Teoria do Crime: Culpabilidade\" dentro do grupo P2."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5211",
+  "segunda_opcao_n1_id": "5218",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas tratam de aspectos da culpabilidade: teoria normativa pura (reprovação pessoal), teoria limitada da culpabilidade e sua relação com erro de tipo/erro de proibição, inexigibilidade de conduta diversa (crise financeira no delito previdenciário), e embriaguez/dependência química como causa de exclusão ou diminuição da culpabilidade. O eixo comum é claramente \"Teoria do Crime: Culpabilidade\" (5211), que abrange inclusive os subtemas de erro de proibição e causas supralegais de exclusão da culpabilidade mencionados nas opções. A segunda opção (Fato Típico - 5218) é citada apenas como alternativa residual, já que a alternativa D menciona erro de tipo em contraste com erro de proibição, mas o foco da questão permanece na culpabilidade."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2117,
+  "cache_w": 16776,
+  "cache_r": 14150,
+  "custo_usd": 0.103004
+ }
+}

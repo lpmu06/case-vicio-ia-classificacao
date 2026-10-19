@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5164",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.99,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão que testa o crime de dano em suas modalidades simples e qualificada (art. 163, CP), com ênfase na qualificadora por dano a bem público (art. 163, parágrafo único, I) e no regime de ação penal correspondente. O tema central é único e bem definido: Dano, enquanto subtema específico de Dos Crimes Contra o Patrimônio (5157). Não há multi-tema, pois o eixo é coerente (mesma conduta em contextos diferentes: bem privado vs. bem público). Confiança alta pela clareza jurídica e alinhamento com a classificação anterior do grupo.",
+ "id": "Q0047",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "fora": false,
+  "multi_tema": false,
+  "confianca": 0.95,
+  "justificativa": "Questão que testa dano qualificado contra bem particular e bem público, incluindo qualificação e regime de ação penal. O tema central é Dos Crimes Contra o Patrimônio (P5), com foco no crime de dano (CP arts. 163-169). Não há multi-tema: há eixo único (delito de dano em contextos distintos). Confiança alta pela clareza jurídica."
+ },
+ "estagioB": {
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "Questão que testa o crime de dano em suas modalidades simples e qualificada (art. 163, CP), com ênfase na qualificadora por dano a bem público (art. 163, parágrafo único, I) e no regime de ação penal correspondente. O tema central é único e bem definido: Dano, enquanto subtema de Dos Crimes Contra o Patrimônio (5157). Não há multi-tema, pois o eixo é coerente (mesma conduta em contextos diferentes). Confiança alta pela clareza jurídica e alinhamento com a classificação anterior do grupo."
+ },
+ "uso": {
+  "in": 3694,
+  "out": 7449,
+  "cache_w": 16352,
+  "cache_r": 0,
+  "custo_usd": 0.084872
+ }
+}

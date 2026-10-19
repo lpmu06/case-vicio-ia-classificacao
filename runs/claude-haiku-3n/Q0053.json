@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5541",
+ "confianca_ramo": 1,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre transação penal (Lei 9.099/1995, art. 76) nos Juizados Especiais Criminais, especificamente seus efeitos processuais (coisa julgada material) e regime do descumprimento. Enquadra-se precisamente no subtema 5541 (Transação Penal), que cobre legitimidade, requisitos negativos, efeitos da aceitação e descumprimento do acordo. A comparação com suspensão condicional do processo é apenas contextual. Não é multi-tema: eixo temático único e claro (transação penal). Confiança máxima em ambos os níveis.",
+ "id": "Q0053",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP6",
+  "segundo_grupo_id": "PP7",
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre transação penal nos Juizados Especiais Criminais (Lei 9.099/1995), especificamente sobre seus efeitos processuais (coisa julgada material vs. suspensão condicional do processo). É questão de procedimento processual especial, enquadrando-se no tema \"Juizado Especial Criminal\" do grupo PP6. Menção a nulidades é contextual, não o eixo principal. Não é multi-tema pois há eixo temático claro (transação penal nos JECRIM)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5539",
+  "segunda_opcao_n1_id": "5572",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre transação penal nos Juizados Especiais Criminais (Lei 9.099/1995), especificamente sobre seus efeitos processuais (coisa julgada material e consequências do descumprimento). É questão de procedimento especial sumaríssimo, enquadrando-se precisamente no tema \"Procedimento Sumaríssimo\" (5539), que tem o subtema \"Transação Penal\" listado explicitamente. Menções a nulidades e execução penal são contextual apenas. Não é multi-tema pois há eixo temático claro (transação penal nos JECRIM)."
+ },
+ "uso": {
+  "in": 3778,
+  "out": 5872,
+  "cache_w": 15710,
+  "cache_r": 0,
+  "custo_usd": 0.075265
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "4368",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.1,
+ "segunda_opcao_id": "4374",
+ "extras_ids": [
+  "4370",
+  "4376"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão multi-tema sobre Criminologia: assertiva I aborda Direito Penal do Inimigo (4376 em 4374), II trata de Justiça Restaurativa (4370), III protege minorias/garantias fundamentais (4368), IV menciona movimentos sociais/controle social (4368). Embora toque em Política Criminal pela assertiva I, a maioria do conteúdo (3 de 4) pertence ao escopo de Criminologia no Estado Democrático de Direito (4368). As assertivas III e IV não encaixam em nenhum subtema específico; II encaixaria em 4370, mas a questão como conjunto é multi-tema. Mantém-se 4368 como tema principal pela predominância temática; 4374 (especialmente seu subtema 4376) como segunda opção pela assertiva I.",
+ "id": "Q0260",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "tema_n1_id": "4368",
+  "segunda_opcao_n1_id": "4374",
+  "confianca_ramo": 0.85,
+  "multi_tema": true,
+  "fora": false,
+  "justificativa": "Questão sobre Criminologia no Estado Democrático de Direito, abordando múltiplos tópicos: Direito Penal do Inimigo (política criminal), Justiça Restaurativa (modelos de reação ao delito), proteção de minorias (garantias fundamentais) e movimentos sociais (controle social e cidadania). Todas as assertivas pertencem ao escopo de 4368, com destaque para a assertiva II (Justiça Restaurativa, subtema de Modelos de Reação ao Delito) e a assertiva I (Direito Penal do Inimigo, que poderia enquadrar-se em 4374). A confiança não é máxima pela multiplicidade temática, mas permanece alta por tratar-se de questão claramente de Criminologia."
+ },
+ "uso": {
+  "in": 20,
+  "out": 5451,
+  "cache_w": 11089,
+  "cache_r": 12522,
+  "custo_usd": 0.0569302
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5228",
+ "subtema_n2_id": "5230",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [
+  "5213",
+  "5214"
+ ],
+ "multi_tema": true,
+ "justificativa": "A alternativa correta (estado de necessidade) é excludente de ilicitude prevista no art. 23, I, CP, exigindo conhecimento específico desse instituto (tema 5228, subtema 5230 - Estado de Necessidade). As demais alternativas são distratores de culpabilidade: erro de proibição (5214), doença mental/inimputabilidade (5213) e embriaguez acidental (5213), além de menoridade penal (inimputabilidade etária, correlata a 5213). Como a resposta certa gira exclusivamente em torno do estado de necessidade, classifico no subtema específico, mantendo Culpabilidade (5211) como segunda opção pelo peso dos distratores.",
+ "id": "Q0287",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão pergunta diretamente sobre excludente de ilicitude (estado de necessidade, art. 23 CP), tema que pertence ao grupo P2 (Teoria do Crime: Ilicitude). As demais alternativas tratam de causas de exclusão de culpabilidade ou outros institutos, não de ilicitude."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5228",
+  "segunda_opcao_n1_id": "5211",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente o conhecimento sobre qual instituto configura excludente de ilicitude (estado de necessidade, art. 23 CP), em contraste com institutos de culpabilidade (erro de proibição, inimputabilidade por doença mental, embriaguez acidental completa) e de inimputabilidade etária (menoridade). O eixo central é a teoria da ilicitude, tema 5228. A segunda opção é Culpabilidade (5211), já que as alternativas erradas versam sobre esse substrato do crime."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1292,
+  "cache_w": 13958,
+  "cache_r": 14150,
+  "custo_usd": 0.081348
+ }
+}

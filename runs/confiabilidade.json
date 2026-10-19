@@ -2,47 +2,47 @@
  "concentracao": 0.5,
  "anotadores": {
   "claude-opus": {
-   "p_acerto_ramo": 0.9509,
+   "p_acerto_ramo": 0.9503,
    "n": 359
   },
   "claude-sonnet-h": {
-   "p_acerto_ramo": 0.9271,
+   "p_acerto_ramo": 0.9301,
    "n": 359
   },
   "claude-sonnet-3n": {
-   "p_acerto_ramo": 0.8799,
-   "n": 236
+   "p_acerto_ramo": 0.8761,
+   "n": 291
   },
   "claude-haiku-h": {
-   "p_acerto_ramo": 0.995,
-   "n": 29
+   "p_acerto_ramo": 0.97,
+   "n": 56
   },
   "claude-haiku-3n": {
-   "p_acerto_ramo": 0.995,
-   "n": 6
+   "p_acerto_ramo": 0.9412,
+   "n": 17
   },
   "claude-sonnet-plano": {
-   "p_acerto_ramo": 0.9016,
+   "p_acerto_ramo": 0.9216,
    "n": 80
   },
   "claude-opus-h": {
-   "p_acerto_ramo": 0.9575,
+   "p_acerto_ramo": 0.9292,
    "n": 80
   },
   "gpt-5.5": {
-   "p_acerto_ramo": 0.995,
+   "p_acerto_ramo": 0.9891,
    "n": 63
   },
   "origem": {
-   "p_acerto_ramo": 0.305,
+   "p_acerto_ramo": 0.3127,
    "n": 225
   }
  },
  "faixas_posterior": {
-  "≥0.99": 315,
-  "0.80–0.95": 12,
-  "0.95–0.99": 19,
-  "<0.80": 13
+  "≥0.99": 311,
+  "<0.80": 9,
+  "0.95–0.99": 24,
+  "0.80–0.95": 15
  },
- "acerto_esperado_ramo_map_todas": 0.9811
+ "acerto_esperado_ramo_map_todas": 0.9832
 }

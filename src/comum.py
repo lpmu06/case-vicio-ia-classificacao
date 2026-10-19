@@ -71,6 +71,14 @@ class Arvore:
     def titulo(self, tid):
         return self.t[tid]["titulo"] if tid in self.t else str(tid)
 
+    def rotulo(self, tid):
+        """Título legível; quando o mesmo título existe em outra disciplina, acrescenta a disciplina."""
+        if tid not in self.t:
+            return str(tid)
+        x = self.t[tid]
+        iguais = [c for c in self.por_titulo.get(norm(x["titulo"]), []) if usavel(c)]
+        return f"{x['titulo']} ({x['disciplina']})" if len(iguais) > 1 else x["titulo"]
+
 
 def normalizar_voto(v, A):
     base = {"multi": bool(v.get("multi_tema", False)), "segunda": v.get("segunda_opcao_id"),

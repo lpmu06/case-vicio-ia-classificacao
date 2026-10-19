@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5472",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5474",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa sobre a possibilidade de sucessão processual (art. 31 do CPP - CADI: cônjuge, ascendente, descendente, irmão) para oferecimento de queixa em caso de morte do ofendido antes do exercício do direito de queixa. É tema de Ação Penal (5466), e não de Inquérito Policial (5498), pois trata de legitimidade para iniciar a ação penal privada, não de fase investigatória. Dentro de Ação Penal, o subtema mais preciso é Ação Penal de Iniciativa Privada (5472), cuja descrição menciona expressamente \"sucessão processual\" como instituto coberto. Há também aderência a Queixa Crime (5474), pois a questão fala em \"apresentação de queixa\", mas o núcleo da pergunta é a legitimidade sucessória do art. 31 do CPP, tema mais afeto a 5472. Por isso mantenho confiança moderada no subtema e indico 5474 como segunda opção.",
+ "id": "Q0296",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata da legitimidade para prosseguimento/sucessão na ação penal privada em caso de morte do ofendido (art. 31 do CPP, direito de queixa pelo CADI), tema central de Ação Penal, pertencente ao grupo PP2 (Investigação e ação penal) de Processo Penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5498",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata da possibilidade de sucessão processual no direito de queixa em caso de morte do ofendido (art. 31 do CPP - CADI: cônjuge, ascendente, descendente, irmão), tema central de Ação Penal (de Iniciativa Privada), não de Inquérito Policial."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1701,
+  "cache_w": 16415,
+  "cache_r": 14150,
+  "custo_usd": 0.09706700000000001
+ }
+}

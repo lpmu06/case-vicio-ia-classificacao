@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4697",
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "Questão de alternativas desconexas (multi-tema): A e E tratam da Lei Maria da Penha (medidas protetivas), B trata de racismo/Lei 7.716/89, C e D tratam do Estatuto do Desarmamento. A alternativa E é tecnicamente a mais correta e detalhada (hipótese de restrição de visitas com oitiva da equipe multidisciplinar, art. 22, II e §único, da Lei 11.340/06), sendo provavelmente o gabarito, o que reforça a Lei Maria da Penha como eixo central. Mantenho 4704 como tema principal e 4697 (Estatuto do Desarmamento) como segunda opção, já que concentra também 2 alternativas (C e D). O tema 4704 não possui subtemas, então subtema_n2_id permanece null.",
+ "id": "Q0282",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "grupo_id": "LE2",
+  "segundo_grupo_id": "LE1",
+  "fora": false,
+  "confianca": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos distintos de legislação especial: alternativas A e E tratam de medidas protetivas da Lei Maria da Penha (LE2), B trata de crime de racismo (Lei 7.716/89, também em LE2), enquanto C e D tratam do Estatuto do Desarmamento (LE1). Não há um eixo temático único; a maioria das alternativas (3 de 5) gravita em torno de LE2, por isso esse foi escolhido como grupo principal, com LE1 como segundo grupo relevante."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": "4697",
+  "confianca_ramo": 0.4,
+  "multi_tema": true,
+  "justificativa": "A questão mistura quatro institutos distintos: alternativas A e E tratam da Lei Maria da Penha (medidas protetivas de urgência), B trata de crime de racismo (Lei 7.716/89, símbolos nazistas), e C e D tratam do Estatuto do Desarmamento (cessão de arma e aquisição por menor de 25 anos). Não há eixo temático único. Considerando o peso de cada subtema: Lei Maria da Penha tem 2 alternativas (A e E) e é o subtema mais testado isoladamente, com conteúdo central e provavelmente a alternativa correta (E, sobre restrição de visitas). Por isso escolho 'Lei Maria da Penha' (4704) como tema principal. O Estatuto do Desarmamento também concentra 2 alternativas (C e D), sendo a segunda opção mais relevante. Racismo (B) fica como terceiro eixo minoritário, não contemplado nas opções principal/secundária."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2298,
+  "cache_w": 9377,
+  "cache_r": 7238,
+  "custo_usd": 0.0694006
+ }
+}

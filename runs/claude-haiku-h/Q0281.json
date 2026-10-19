@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5580",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.78,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5590",
+ "extras_ids": [
+  "5594"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão panorâmica sobre direitos e garantias constitucionais processuais (sigilo processual, inviolabilidade de correspondência, quebra de sigilo bancário/fiscal, direitos da defesa). Classificada em 5580 (tema guarda-chuva) porque aborda múltiplos princípios constitucionais que condicionam a persecução penal, não um princípio isolado. Subtema = null porque 5582 não lista explicitamente os tópicos específicos (sigilo, inviolabilidade) em suas palavras-chave, e 5594 (prova ilícita) não cobre adequadamente a questão, que trata de direitos fundamentais processuais, não de inadmissibilidade da prova. Segunda opção 5590 é inadequada (teoria geral das provas); 5594 é listada como extra por mencionar \"quebra de sigilo\".",
+ "id": "Q0281",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5580",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "Questão sobre princípios processuais penais fundamentais: sigilo processual, inviolabilidade de correspondência, quebra de sigilo bancário/fiscal, direitos constitucionais da defesa e limites ao sigilo investigativo. Embora mencione interceptação telefônica, o eixo central não é a técnica específica de prova, mas os princípios constitucionais e processuais que a regem. Classificada em 5580 | Sistemas e Princípios Processuais Penais (subtema: Princípios do Processo Penal)."
+ },
+ "uso": {
+  "in": 20,
+  "out": 6870,
+  "cache_w": 11702,
+  "cache_r": 12522,
+  "custo_usd": 0.0658902
+ }
+}

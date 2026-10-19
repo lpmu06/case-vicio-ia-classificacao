@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5066",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5228",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata do conflito aparente de normas (princípio da consunção), tema doutrinário que antecede e se relaciona ao concurso de crimes, pois serve justamente para distinguir quando há pluralidade real de crimes (concurso) ou apenas um crime absorvendo outro por consunção/especialidade/subsidiariedade. Nenhum dos dois ramos candidatos (Concurso de Crimes ou Teoria do Crime: Ilicitude) possui subtema específico para \"conflito aparente de normas/princípios da tipicidade\", de modo que nenhum subtema de nível 2 pode ser indicado com segurança. Mantenho a classificação em nível 1 \"Concurso de Crimes\" (5066), que é o capítulo onde a maioria dos manuais trata do tema como pressuposto para distinguir concurso real de concurso aparente, com \"Teoria do Crime: Ilicitude\" (5228) como segunda opção por ser a origem da classificação e também plausível, já que o exemplo (dano absorvido pelo furto qualificado) é por vezes tratado em capítulos de tipicidade/ilicitude em algumas obras. A confiança no ramo é moderada (0,55) justamente pela ausência de um tema específico de \"conflito aparente de normas\" na árvore.",
+ "id": "Q0259",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa o princípio da consunção (conflito aparente de normas), tema relacionado à Ilicitude dentro da Teoria do Crime (fato típico/ilicitude), coberto pelo grupo P2 (Teoria do Crime: Ilicitude)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5066",
+  "segunda_opcao_n1_id": "5228",
+  "confianca_ramo": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre conflito aparente de normas (princípios da especialidade, consunção, subsidiariedade), tema classicamente tratado nos manuais de Direito Penal como antecedente/parte integrante do estudo do Concurso de Crimes, para distinguir quando há efetivamente pluralidade de crimes ou apenas um crime absorvendo outro (ex.: dano absorvido pelo furto qualificado). Não se trata propriamente de ilicitude (antijuridicidade), mas de técnica de tipificação/concurso aparente. Dado que nenhum dos temas listados possui subtema específico \"conflito aparente de normas\", opto pelo nível 1 \"Concurso de Crimes\" por ser o capítulo doutrinário onde o tema normalmente é estudado, mantendo \"Teoria do Crime: Ilicitude\" como segunda opção por ser a classificação de origem e também plausível em algumas plataformas."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2275,
+  "cache_w": 14217,
+  "cache_r": 14150,
+  "custo_usd": 0.09188500000000001
+ }
+}

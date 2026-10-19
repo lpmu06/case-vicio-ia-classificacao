@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": "5518",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre legalidade e espécies de prisão em flagrante (esperado vs. preparado vs. ação controlada). Exige discriminar entre modalidades concretas de flagrante, o que é exatamente o escopo de 5518. O contexto (fraude em FGTS) é narrativo; o tema central é processual-penal. Pista fraca (Direito Constitucional) é enganosa; o núcleo é 5518 porque pergunta sobre flagrante e suas espécies legais.",
+ "id": "Q0218",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5517",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre legalidade e espécies de prisão em flagrante (preparado vs. provocado), que é matéria típica de Processo Penal. A questão discrimina entre modalidades concretas de prisão cautelar, o que é exatamente o escopo do tema Prisões em Espécie. A pista fraca (Direito Constitucional) é enganosa; o tema central é processual-penal, não constitucional."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4553,
+  "cache_w": 8182,
+  "cache_r": 10800,
+  "custo_usd": 0.046410999999999994
+ }
+}

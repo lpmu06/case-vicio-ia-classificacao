@@ -9,7 +9,7 @@ RAIZ = Path(__file__).resolve().parents[1]
 
 
 def pct(x):
-    return f"{100 * x:.1f}%"
+    return f"{100 * x:.1f}%" if x is not None else "n/d"
 
 
 def main():
@@ -17,6 +17,8 @@ def main():
     lo, hi = r["precisao_intervalo"]
     clo, chi = r["cobertura_intervalo"]
     e2, e3 = r["E2_outra_familia"], r["E3_auditoria"]
+    m = r["margem_convencao"]
+    c67 = r["copias_67xx"]
     txt = f"""precisao_prevista: {r['precisao_prevista']:.2f}
 precisao_intervalo: {lo:.2f}-{hi:.2f}
 cobertura_prevista: {r['cobertura_prevista']:.2f}
@@ -24,47 +26,62 @@ cobertura_intervalo: {clo:.2f}-{chi:.2f}
 
 COMO CHEGAMOS NESTES NÚMEROS
 
-Cobertura. Ela é escolha nossa: publicamos {r['publicadas']} das {r['total']} questões ({pct(r['cobertura_prevista'])}),
-sendo {r['publicadas_nivel2']} no subtema e {r['publicadas'] - r['publicadas_nivel2']} no tema de nível 1. O intervalo só
-cobre uma dúvida de denominador: se as questões que a equipe também considera "fora" ({r['fora']} na nossa decisão)
-forem excluídas da conta, a cobertura sobe para {pct(chi)}.
+Cobertura
+Ela é escolha nossa: publicamos {r['publicadas']} das {r['total']} questões ({pct(r['cobertura_prevista'])}), sendo
+{r['publicadas_nivel2']} no subtema e {r['publicadas'] - r['publicadas_nivel2']} no tema de nível 1. O intervalo só cobre uma dúvida
+de denominador: se as questões que a equipe também considera "fora" ({r['fora']} na nossa decisão) saírem da conta,
+a cobertura sobe para {pct(chi)}.
 
-Precisão. Não tivemos gabarito nem rotulagem humana. Usamos estimadores independentes, cada um com uma hipótese
-declarada, e combinamos de forma conservadora.
+Precisão
+Não tivemos gabarito nem rotulagem humana. Usamos três estimadores independentes entre si, cada um com uma
+hipótese declarada, e dois descontos para o que nenhum deles enxerga.
 
-1. Dawid-Skene (E1 = {pct(r['E1_independencia'])}). Modelo estatístico que estima a taxa de acerto de cada
-   classificador só pelo padrão de concordâncias entre eles (Opus plano, Sonnet em 2 e 3 estágios, árbitro, a origem
-   e as rodadas parciais), e dá a probabilidade de o ramo de cada questão estar certo. Supõe erros independentes;
-   como todos os classificadores são LLMs e compartilham a mesma taxonomia enriquecida, é um limite SUPERIOR.
+1. Dawid-Skene: {pct(r['E1_independencia'])}.
+   Modelo estatístico que estima a taxa de acerto de cada classificador só pelo padrão de concordâncias entre eles
+   (Opus plano, Sonnet em 2 e 3 estágios, árbitro, rodadas parciais e a classificação de origem) e dá a
+   probabilidade de o ramo de cada questão estar certo. Supõe erros independentes. Como todos são LLMs que leram a
+   mesma taxonomia, é um limite superior.
 
-2. Outra família de modelo (E2 = {pct(e2['taxa']) if e2['taxa'] is not None else 'n/d'}, {e2['acertos']} de {e2['n']},
-   intervalo de 95% {pct(e2['wilson95'][0]) if e2['wilson95'] else 'n/d'}-{pct(e2['wilson95'][1]) if e2['wilson95'] else 'n/d'}).
-   O GPT-5.5, de outra empresa, classificou 63 questões antes de acabarem nossos créditos. Medimos, pela régua do
-   case, quantas das nossas publicadas ele também colocaria no mesmo nó, pai ou filho. Erros de famílias diferentes
-   são menos correlacionados, mas a amostra é pequena.
+2. Outra família de modelo: {pct(e2['taxa'])} ({e2['acertos']} de {e2['n']}; intervalo de 95% de {pct(e2['wilson95'][0] if e2['wilson95'] else None)} a {pct(e2['wilson95'][1] if e2['wilson95'] else None)}).
+   O GPT-5.5, de outra empresa, classificou 63 questões antes de acabarem nossos créditos. Medimos quantas das
+   nossas publicadas ele colocaria no mesmo tema, pai ou filho, pela régua do case. Erros de famílias diferentes
+   são menos correlacionados, mas a amostra é pequena e ele também não conhece as convenções da equipe.
 
-3. Auditoria (E3 = {pct(e3['taxa']) if e3['taxa'] is not None else 'n/d'}, {e3['pontos']:g} de {e3['n']:g},
-   intervalo de 95% {pct(e3['wilson95'][0]) if e3['wilson95'] else 'n/d'}-{pct(e3['wilson95'][1]) if e3['wilson95'] else 'n/d'}).
-   Uma amostra aleatória das publicadas foi lida questão a questão com olhar cético, procurando onde um professor
-   arquivaria a questão; "duvidoso" contou como meio erro. A leitura foi feita por IA, não por especialista; os
-   vereditos estão em data/auditoria_ia.csv e o caderno em docs/auditoria_caderno.md.
+3. Auditoria: {pct(e3['taxa'])} (amostra aleatória de {e3['n']:g} publicadas).
+   Cada questão foi lida com olhar cético, perguntando onde um professor a arquivaria. Nenhum erro claro; as
+   dúvidas genuínas (um tema alternativo plausível por convenção) contam como 1/3 de erro na estimativa central e
+   como 1/2 na conservadora ({pct(e3['taxa_conservadora'])}; intervalo de 95% de {pct(e3['wilson95_conservador'][0] if e3['wilson95_conservador'] else None)} a {pct(e3['wilson95_conservador'][1] if e3['wilson95_conservador'] else None)}).
+   A leitura foi feita por IA, não por especialista. Vereditos em data/auditoria_ia.csv, caderno em
+   docs/auditoria_caderno.md.
 
-4. Margem de convenção ({pct(r['margem_convencao'])}). O professor pode seguir convenções que nenhum modelo conhece:
-   onde guarda progressão de regime (Execução Penal ou Teoria da Pena), questões de juizado (Legislação Especial ou
-   Procedimento Sumaríssimo), ou se usou os temas duplicados criados em Penal (ids 67xx) em vez dos da Legislação
-   Especial, que foi a nossa escolha. Isso não é mensurável sem gabarito, então entra como desconto explícito.
+4. Margem de convenção ({pct(m)}, descontada de 1 e 2).
+   O professor pode seguir convenções que nenhum modelo conhece. A auditoria mostrou onde: assuntos com dois
+   endereços na árvore (prisão em "Prisões em Espécie" ou em "Teoria Geral das Prisões"; ação penal e decadência
+   em Penal ou em Processo Penal) e fronteiras de teoria do crime (erro de tipo ou de proibição).
 
-Ponto: a menor das três estimativas menos a margem de convenção.
-Intervalo: limite inferior = o menor limite inferior de 95% entre E2 e E3, menos a margem; limite superior = E1.
+5. Cópias dos temas da Legislação Especial ({pct(c67['perda_esperada'])} de perda esperada, descontada de todos).
+   A árvore tem cópias recentes, em Penal e em Processo Penal, de 8 temas da Legislação Especial (Lei Maria da
+   Penha, Tráfico de Drogas, Lei de Execução Penal...). Publicamos sempre no tema da Legislação Especial, que tem
+   histórico de questões; as cópias não têm descrição nem histórico. Se a equipe tiver rotulado nas cópias,
+   {pct(c67['exposicao'])} das publicadas estariam erradas e a precisão cairia para cerca de {pct(c67['precisao_se_cenario_ocorrer'])}.
+   Atribuímos {pct(c67['p_cenario'])} de chance a esse cenário. A variante publicacao_sem_duplicados.csv manda essas
+   questões para revisão e elimina o risco, ao custo de cerca de 10 pontos de cobertura.
 
-Por que acreditamos que a precisão fica acima de 95%: só publicamos quando o árbitro e os dois classificadores
-principais (métodos e tamanhos de modelo diferentes) concordam no ramo, o árbitro tem confiança de pelo menos 0,80 e
-não vê a questão como multi-tema; nos pares de ramos que os modelos confundem entre si exigimos unanimidade; e
-publicamos no subtema só com concordância forte, usando o tema de nível 1 nos demais casos, o que pela régua é certo
-sempre que o ramo está certo.
+Ponto: a mediana dos três estimadores ajustados ({', '.join(pct(x) for x in r['estimadores_ajustados'])}).
+Intervalo: limite inferior = o menor limite inferior de 95% entre 2 e 3, menos o item 5; limite superior = 1,
+a estimativa sob independência. O intervalo é largo porque a auditoria e a outra família têm poucas dezenas de
+questões; preferimos um intervalo honesto a um estreito.
 
-O que poderia derrubar a previsão: uma convenção sistemática da equipe diferente da nossa num ramo com muitas
-publicadas, ou a equipe ter usado os temas duplicados de Penal. A sensibilidade a cada um está no relatório.
+Por que esperamos ficar acima de 95%
+Só publicamos quando o árbitro e os dois classificadores principais, de métodos e tamanhos diferentes, concordam
+no ramo, o árbitro tem confiança de pelo menos 0,90 e não vê a questão como multi-tema. Nos pares de ramos que os
+modelos confundem entre si exigimos unanimidade. Publicamos no subtema só com concordância forte e confiança de pelo
+menos 0,90; nos demais casos, no tema de nível 1, que pela régua está certo sempre que o ramo está certo.
+
+O que poderia derrubar a previsão
+O uso das cópias da Legislação Especial pela equipe (item 5) ou uma convenção sistemática diferente da nossa num
+ramo com muitas publicadas. A variante publicacao_nivel1.csv, com tudo no nível 1, elimina o risco de subtema
+irmão sem mudar a cobertura. A sensibilidade aos limiares está em docs/sensibilidade.md.
 """
     (RAIZ / "previsao.txt").write_text(txt, encoding="utf-8")
     print(txt)

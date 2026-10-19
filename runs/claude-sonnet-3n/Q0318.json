@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5178",
+ "extras_ids": [
+  "5179",
+  "5218"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 Iter Criminis (5175): a questão exige diferenciar, dentro de um único caso concreto, desistência voluntária (alt. A), arrependimento eficaz (alt. B), arrependimento posterior (alt. D) e crime impossível por ineficácia relativa (alt. E), concluindo pela correta (C) que, consumado o resultado morte por circunstâncias não voluntárias supervenientes (morte do hospital), nenhuma dessas figuras incide, respondendo o agente por homicídio consumado com atenuante. Como as alternativas versam sobre institutos de subtemas distintos dentro do mesmo tema-mãe — 5178 (desistência voluntária, arrependimento eficaz e posterior) e 5179 (crime impossível) —, não há um único subtema que abranja todas as alternativas testadas; por isso mantenho subtema_n2_id = null e marco multi_tema = true, com 5178 como segunda opção mais provável (por cobrir 3 das 5 alternativas) e 5179 como extra relevante. O tema 5218 (Fato Típico) permanece como extra, já que a questão tangencia o conceito de consumação, mas o eixo central é claramente o iter criminis.",
+ "id": "Q0318",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa institutos do iter criminis — desistência voluntária, arrependimento eficaz, arrependimento posterior e crime impossível — exigindo que o aluno diferencie essas figuras para concluir que, tendo o resultado morte ocorrido, não há desistência nem arrependimento eficaz, respondendo o agente por homicídio consumado. Esse é exatamente o conteúdo do tema \"Iter Criminis\", pertencente ao grupo P2 (Parte geral: teoria do crime)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5175",
+  "segunda_opcao_n1_id": "5218",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão exige diferenciar desistência voluntária, arrependimento eficaz, arrependimento posterior e crime impossível, concluindo que, com a consumação do resultado morte, nenhuma dessas figuras incide, respondendo o agente por homicídio consumado (com atenuante do art. 65, III, \"b\"). O eixo central é exatamente o iter criminis (tema 5175), já que todas as alternativas versam sobre essas figuras específicas do caminho do crime. A segunda opção, Teoria do Crime: Fato Típico (5218), é menos provável mas related ao conceito de consumação/resultado."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2104,
+  "cache_w": 17414,
+  "cache_r": 14150,
+  "custo_usd": 0.10544400000000001
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5189",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5191",
+ "extras_ids": [
+  "5190"
+ ],
+ "multi_tema": false,
+ "fora": false,
+ "justificativa": "A questão exige calcular, para cada condenado, a prescrição da pretensão executória: marco inicial no trânsito em julgado (2021), interrupção pelo início do cumprimento (Lucas) e aplicação do saldo de pena remanescente (11 meses = prazo de 3 anos pelo art. 109, VI), bem como a situação de Serafim, que não iniciou efetivamente o cumprimento, usando a pena total de 2 anos (também prazo de 3 anos). Também é abordada a prescrição da pena de multa cumulativa (alternativa A), tema correlato que está em \"Outras Prescrições\" (5190), mas que também é incidental e parte do raciocínio central de prescrição executória. O eixo comum de todas as alternativas é a prescrição da pretensão executória, de modo que o subtema 5189 é o mais preciso dentro do tema de nível 1 Prescrição (5185), mantendo-se Punibilidade (5191) como segunda opção por também tratar da extinção da punibilidade em sentido amplo.",
+ "id": "Q0293",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": null,
+  "confianca": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão exige o cálculo da prescrição da pretensão executória (e verificação de prescrição da pena de multa) a partir do trânsito em julgado e da interrupção do cumprimento da pena, tema central de Prescrição, inserido no grupo P3 (parte geral: pena, punibilidade, prescrição e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5185",
+  "segunda_opcao_n1_id": "5191",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão exige o cálculo da prescrição da pretensão executória para cada condenado (marco inicial no trânsito em julgado, interrupção pelo início/descumprimento do cumprimento da pena, prazo conforme a pena aplicada ou o saldo remanescente) e a eventual prescrição da pena de multa — tudo matéria central do subtema \"Prescrição da Pretensão Executória\", dentro do tema de nível 1 Prescrição (5185). Como existe tema específico de Prescrição na árvore, ele deve ser preferido ao guarda-chuva mais genérico (Teoria da Pena) ou ao tema geral de Punibilidade, que fica como segunda opção por tratar também de causas extintivas da punibilidade."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1779,
+  "cache_w": 15709,
+  "cache_r": 11846,
+  "custo_usd": 0.0944702
+ }
+}

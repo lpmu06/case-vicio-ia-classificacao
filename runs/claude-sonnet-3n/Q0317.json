@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": "5198",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5063",
+ "extras_ids": [
+  "5064",
+  "5065"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa exclusivamente o termo inicial do prazo decadencial de seis meses para o exercício do direito de representação, afirmando (incorretamente) que ele conta da data do fato, quando na verdade, nos termos do art. 103 do CP e art. 38 do CPP, o prazo conta-se do dia em que o ofendido vem a saber quem é o autor do crime. Esse é precisamente o núcleo do subtema \"Decadência\" (5198), cuja descrição menciona como ponto central \"identificar termo inicial, natureza do prazo, consequências\" - exatamente o que a assertiva exige. Embora decadência também seja referida em Ação Penal (5063), a própria árvore estabelece o critério de desempate: se a discussão é sobre o instituto da decadência em si (termo inicial, prazo, consequências) e não sobre a classificação/titularidade da ação penal, o tema correto é Punibilidade > Decadência (5191 > 5198). Como a questão não discute espécie de ação penal, legitimidade ou representação como condição de procedibilidade em si, mas sim o regime jurídico do prazo decadencial, reclassifico para 5191/5198, mantendo 5063 como segunda opção plausível.",
+ "id": "Q0317",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": null,
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata do prazo decadencial de seis meses para o exercício do direito de representação (art. 38 do CPP/art. 103 do CP), tema típico de Ação Penal, que está dentro do grupo P3 (Parte geral: pena, medida de segurança, punibilidade, prescrição e ação penal), no tema \"Ação Penal\"."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5063",
+  "segunda_opcao_n1_id": "5191",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o prazo decadencial de seis meses para o exercício do direito de representação (art. 38 do CPP), instituto diretamente ligado à ação penal pública condicionada, tema central do grupo \"Ação Penal\" (5063), que inclui o subtema \"Ação Penal Pública\". Embora a decadência também seja listada como subtema de \"Punibilidade\" (5191), o foco específico da questão é o prazo de representação em si, matéria nuclear de Ação Penal, tornando esse o tema mais adequado como segunda opção."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2114,
+  "cache_w": 13473,
+  "cache_r": 14150,
+  "custo_usd": 0.08698800000000001
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5066",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.4,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4695",
+ "extras_ids": [
+  "5068"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão com cinco assertivas de temas totalmente distintos e sem eixo comum: (I) estupro de vulnerável [Penal - Crimes contra Dignidade Sexual], (II) ação penal em sonegação fiscal [Legislação Especial - Crimes Tributários, 4695], (III) atenuante em crimes ambientais [Lei de Crimes Ambientais], (IV) concurso formal impróprio e sistema aplicável à pena [Concurso de Crimes > Concurso Formal, 5068], (V) crime de responsabilidade de prefeitos (Decreto-Lei 201/67), que está fora da árvore de Penal/Processo Penal/Legislação Especial listada. Mantenho o tema de nível 1 \"Concurso de Crimes\" (5066) como escolha principal, pois o item IV é o que exige conhecimento técnico mais específico e decisivo (a assertiva é falsa: no concurso formal impróprio aplica-se o cúmulo material, não a exasperação — regra do próprio tema 5066/5068), coerente com a pista de origem. Não marco o subtema 5068 porque a questão não trata exclusivamente de concurso formal: é extremamente multi-temática, de modo que a classificação correta é no nível 1, não em um subtema específico. Mantenho 4695 como segunda opção pelo item II, e acrescento 5068 como extra por ser o subtema mais próximo do item IV. Confiança baixa dada a dispersão temática extrema e a presença do item V, inteiramente fora da árvore.",
+ "id": "Q0288",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": "LE3",
+  "confianca": 0.3,
+  "multi_tema": true,
+  "justificativa": "A questão combina cinco assertivas sobre temas completamente diferentes e sem eixo comum: estupro de vulnerável (dignidade sexual), ação penal em sonegação fiscal (crimes tributários), atenuante em crimes ambientais, concurso formal impróprio (concurso de crimes - parte geral) e crime de responsabilidade de prefeitos/vereadores (decreto-lei 201, fora da árvore de Penal/Processo Penal). Não há tema único que cubra todas as assertivas. Optei por P2 (Concurso de Crimes) por ser o item tecnicamente mais \"puro\" de teoria geral do Direito Penal e por coincidir com a pista de origem (assunto_origem: Concurso de Crimes), com LE3 como segundo grupo por abranger os itens de sonegação fiscal e meio ambiente. Confiança baixa dada a natureza multi-temática e a presença de item (V) sobre crime de responsabilidade que não se encaixa em nenhum grupo listado."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5066",
+  "segunda_opcao_n1_id": "4695",
+  "confianca_ramo": 0.35,
+  "multi_tema": true,
+  "justificativa": "A questão reúne cinco assertivas de temas distintos e sem eixo comum: (I) estupro de vulnerável, (II) ação penal em crimes tributários, (III) atenuante em crimes ambientais, (IV) concurso formal impróprio e sistema da exasperação, (V) crime de responsabilidade de prefeitos (Decreto-Lei 201/67, fora da árvore de Penal/Processo Penal/Legislação Especial listada). Dentro do grupo P2, o item IV trata exatamente de Concurso de Crimes (concurso formal impróprio e sistema da exasperação), tema de nível 1 \"Concurso de Crimes\" (5066) — sendo o item tecnicamente mais puro de teoria geral e coerente com a pista de origem (assunto_origem: Concurso de Crimes). Como segunda opção, dentro do grupo LE3, o item II (ação penal condicionada em sonegação fiscal) aponta para \"Crimes Tributários\" (4695), mais específico e decisivo para a resposta correta (que exige saber que a ação penal em crimes tributários é condicionada à representação) do que o item III sobre crimes ambientais. Mantenho confiança baixa dada a natureza multi-temática extrema da questão e a presença de item (V) que não se encaixa em nenhum dos dois grupos."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3395,
+  "cache_w": 12749,
+  "cache_r": 11846,
+  "custo_usd": 0.09620319999999999
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5209",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "4703",
+ "extras_ids": [
+  "4703"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão multi-tema que testa múltiplas consequências jurídicas de condenação criminal em ramos distintos: poder familiar (Direito de Família), confisco de bens instrumento do crime (Efeitos da Condenação), progressão de regime (Lei de Execução Penal), confisco alargado (Efeitos da Condenação) e perda de cargo (Efeitos da Condenação). A resposta correta (B) refere-se ao confisco automático de bem instrumento previsto no art. 91 do CP, enquadrando-se em Efeitos da Condenação Penais (subtema 5209). Apesar da multiplicidade temática, o tema primário é Teoria da Pena > Efeitos da Condenação, pois concentra a maioria das alternativas. A alternativa C sobre progressão (tema 4703) funciona como distrator. Confiança reduzida pela incursão em Direito de Família e Lei de Execução Penal.",
+ "id": "Q0187",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.5,
+  "multi_tema": true,
+  "justificativa": "Questão multi-tema que testa múltiplas consequências jurídicas de condenação criminal: poder familiar (Direito de Família), confisco de bens (Direito Penal material), progressão de regime (Lei de Execução Penal), perda de cargo (Efeitos da Condenação). Cada alternativa aborda instituto distinto sem eixo unificador. Tema primário: Lei de Execução Penal (progressão), tema secundário: Efeitos da Condenação em Teoria da Pena. Confiança reduzida pela multiplicidade temática."
+ },
+ "uso": {
+  "in": 20,
+  "out": 11708,
+  "cache_w": 13690,
+  "cache_r": 12522,
+  "custo_usd": 0.0960452
+ }
+}

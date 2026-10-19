@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5492",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.98,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre as hipóteses legais de suspeição do juiz conforme CPP art. 252, incidentes I a IV. Pertence explicitamente ao subtema 5492, que abrange exceção de suspeição, impedimento ou incompatibilidade. Não há ambiguidade: é teste direto de conhecimento das causas de suspeição. Confirma-se a classificação anterior de nível 1 (5490) e refina-se para subtema específico 5492.",
+ "id": "Q0263",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5490",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "Questão sobre as causas de suspeição do juiz no processo penal, reguladas pelo artigo 252 do CPP. Enquadra-se em Processo Penal > Das Questões e Processos Incidentes > Exceção de Suspeição, de Impedimento ou de Incompatibilidade. A confiança é de 90% porque, embora o tema seja inequívoco, há alguma ambiguidade nas alternativas propostas (a combinação correta de assertivas não está representada exatamente em nenhuma opção)."
+ },
+ "uso": {
+  "in": 20,
+  "out": 8282,
+  "cache_w": 11486,
+  "cache_r": 12522,
+  "custo_usd": 0.07227120000000001
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5079",
+ "subtema_n2_id": "5084",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5087",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata de ocultação de arma usada em roubo anterior, por quem não tem vínculo de parentesco com o autor, sem auxílio para subtração à ação da autoridade, mas sim para assegurar o proveito/instrumento do crime - caracterizando favorecimento real (art. 349 CP), fora dos casos de coautoria/participação/receptação. O subtema específico 5084 (Favorecimento Pessoal e Real) do tema 5079 (Crimes Contra a Administração Judicial) é o correto, confirmando a classificação anterior.",
+ "id": "Q0300",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão testa a diferenciação entre favorecimento pessoal e favorecimento real, institutos dos Crimes Contra a Administração da Justiça (arts. 348 e 349 do CP), tema coberto pelo grupo P8 (Dos Crimes Contra a Administração Judicial)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5079",
+  "segunda_opcao_n1_id": "5087",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão exige diferenciar favorecimento pessoal de favorecimento real (ocultação de instrumento de crime, sem auxílio ao agente), institutos previstos nos arts. 348 e 349 do CP, tema do subtema \"Favorecimento Pessoal e Real\" dentro do grupo P8 - Dos Crimes Contra a Administração Judicial (5079). Mantida a classificação anterior."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1149,
+  "cache_w": 18889,
+  "cache_r": 14150,
+  "custo_usd": 0.102939
+ }
+}

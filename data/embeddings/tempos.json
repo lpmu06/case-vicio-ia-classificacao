@@ -1,5 +1,8 @@
 {
  "legal-bertimbau-base": 245.0,
  "legal-bertimbau-sts-large": 16734.4,
- "jurisbert-sts": 344.2
+ "jurisbert-sts": 344.2,
+ "bertimbau-base": 358.8,
+ "mpnet-multilingual": 404.2,
+ "e5-base": 207.8
 }

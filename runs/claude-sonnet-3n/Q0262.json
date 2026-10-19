@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5184",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.82,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4703",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas giram em torno da superveniência de doença mental ao apenado durante a execução da pena e das providências cabíveis: remoção provisória para hospital de custódia, conversão da pena em medida de segurança, tratamento ambulatorial e quem pode determinar a remoção (juiz ou diretor do estabelecimento), com base nos arts. 682 CPP e 183 LEP. O eixo comum e decisivo para responder é o instituto da Medida de Segurança (pressupostos, espécies e substituição da pena por ela), não meramente regras procedimentais genéricas de execução penal. Por isso mantenho 5184 como tema de nível 1, que não possui subtemas (daí subtema_n2_id = null). Como a disciplina específica desses dispositivos está nos arts. 171-179 da LEP e no CPP, e um examinador poderia classificar a questão sob a ótica da execução penal propriamente, mantenho LEP (4703) como segunda opção plausível.",
+ "id": "Q0262",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": "LE4",
+  "confianca": 0.65,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a superveniência de doença mental ao condenado durante a execução da pena e as consequências jurídicas (internação, conversão em medida de segurança, tratamento ambulatorial), regidas pelos arts. 41/42 do CP e 108, 182-183 da LEP. O instituto central testado é a Medida de Segurança (tema de nível 1 em P3), já que todas as alternativas giram em torno de internação/conversão/cessação da medida de segurança aplicada ao apenado que adoece mentalmente. Como segunda opção, cabe considerar Lei de Execução Penal (LE4), pois os dispositivos específicos sobre remoção e competência do diretor do estabelecimento estão na LEP."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5184",
+  "segunda_opcao_n1_id": "4703",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata da superveniência de doença mental ao condenado durante a execução da pena e das consequências jurídicas cabíveis: internação em hospital de custódia, conversão da pena em medida de segurança, tratamento ambulatorial, e a quem compete determinar a remoção provisória. O eixo central de todas as alternativas é o instituto da Medida de Segurança (art. 41 e 183 da LEP, art. 682 do CPP), já que a pergunta gira em torno da aplicação, substituição e manutenção dessa medida ao apenado que adoece mentalmente. Por isso mantenho Medida de Segurança (P3/5184) como tema principal. Como os dispositivos específicos sobre quem pode determinar a remoção provisória (diretor do estabelecimento) e o regime de execução dessas medidas estão na LEP, mantenho Lei de Execução Penal (LE4/4703) como segunda opção plausível, pois um professor poderia enquadrar a questão nesse tema dado seu viés processual-executório."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2071,
+  "cache_w": 12141,
+  "cache_r": 14150,
+  "custo_usd": 0.079968
+ }
+}

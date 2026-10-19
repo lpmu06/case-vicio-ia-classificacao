@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "A questão é multi-tema: compara erro de tipo invencível (afasta dolo, permite culpa = crime culposo persiste) com erro de proibição (não afasta dolo, apenas atenua pena). O primeiro pertence ao Fato Típico (5218/5224); o segundo à Culpabilidade (5211/5214). Embora ambos os institutos sejam mencionados, a ênfase no \"desconhecimento invencível de elemento do tipo\" e o teste da correta compreensão de que isso não exclui o crime (apenas muda sua natureza) justificam Fato Típico como tema principal. Subtema não foi selecionado por envolver dois subtemas de ramos diferentes. Confiança no ramo é moderada pela natureza multi-tema; confiança no subtema é baixa pela impossibilidade de alocação única.",
+ "id": "Q0256",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5211",
+  "confianca_ramo": 0.7,
+  "multi_tema": true,
+  "justificativa": "A questão aborda erro de tipo (desconhecimento invencível de elemento do tipo) e erro de proibição (crença de estar autorizado), pertencentes respectivamente ao fato típico e à culpabilidade. O foco na \"exclusão do dolo\" sugere 5218 como tema principal, mas a discussão sobre erro de proibição integra também 5211. Trata-se de questão multi-tema que poderia estar em ambos os temas de nível 1, com ligeira preferência por Fato Típico (5218) pela ênfase na exclusão do dolo."
+ },
+ "uso": {
+  "in": 20,
+  "out": 6309,
+  "cache_w": 13703,
+  "cache_r": 12522,
+  "custo_usd": 0.0690572
+ }
+}

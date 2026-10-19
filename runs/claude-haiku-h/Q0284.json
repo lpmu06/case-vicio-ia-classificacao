@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5211",
+ "subtema_n2_id": "5214",
+ "confianca_ramo": 0.78,
+ "confianca_subtema": 0.82,
+ "segunda_opcao_id": "5228",
+ "extras_ids": [
+  "5231",
+  "5212"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão sobre legítima defesa putativa, mas cujo eixo técnico central é a correta classificação do erro cometido por Bernardo — especificamente, se é erro de tipo, erro de proibição direto ou indireto, e se inevitável ou evitável. A resposta correta (B) não depende apenas de conhecer legítima defesa putativa, mas fundamentalmente de compreender que erro sobre a EXISTÊNCIA de uma causa de justificação (agressão) é erro de proibição INDIRETO, que sob teoria limitada, sendo INEVITÁVEL, afasta a culpabilidade. Todas as alternativas incorretas erram na classificação do erro (tipo vs. proibição; direto vs. indireto; teoria extremada vs. limitada). Essa tipologia de erros é conteúdo de Culpabilidade > Erro de Proibição (5214). Embora a questão \"dialogue\" com Legítima Defesa (conforme descrição de 5231), o conhecimento crítico para resolver é sobre Erro de Proibição. Segunda opção é Ilicitude porque legítima defesa putativa é subtema dela.",
+ "id": "Q0284",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5228",
+  "segunda_opcao_n1_id": "5211",
+  "confianca_ramo": 0.8,
+  "multi_tema": false,
+  "justificativa": "Questão sobre legítima defesa putativa, que é subtema de Ilicitude (5228). Embora envolva análise de culpabilidade e erro de proibição indireto, o tema central é legítima defesa como causa de exclusão de ilicitude. A questão explora como o erro sobre a existência de agressão afeta a tipicidade e a culpabilidade, mas o eixo é legítima defesa. Segunda opção é Culpabilidade (5211) porque o enfoque metodológico das respostas recai sobre erro de proibição indireto e exclusão de culpabilidade."
+ },
+ "uso": {
+  "in": 20,
+  "out": 17625,
+  "cache_w": 15009,
+  "cache_r": 12522,
+  "custo_usd": 0.12958920000000002
+ }
+}

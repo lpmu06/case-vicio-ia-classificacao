@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão que testa conhecimento de disposições específicas da LEP (arts. 12, 14, 17-18, 25-27) sobre direitos e garantias do preso e egresso durante a execução penal. Todas as cinco alternativas exploram institutos da execução penal (assistência material, assistência à saúde, educação, definição de egresso e alojamento do egresso), sem ambiguidade sobre o tema. Confirmação do tema 4703 conforme análise anterior. Tema sem subtemas.",
+ "id": "Q0164",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre disposições específicas da Lei de Execução Penal (arts. 14, 25-27): assistência material, de saúde, alojamento ao preso e egresso. O tema central é exclusivamente execução penal sob a LEP, com alto rigor técnico nas alternativas. A pista fraca sobre \"Teoria da Pena\" é enganosa; trata-se de direitos e garantias durante a execução, não de fundamentos da sanção penal."
+ },
+ "uso": {
+  "in": 20,
+  "out": 5530,
+  "cache_w": 8359,
+  "cache_r": 12522,
+  "custo_usd": 0.0491572
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5512",
+ "extras_ids": [
+  "5562"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão de Processo Penal que trata especificamente do cabimento do Recurso em Sentido Estrito (RESE) contra uma sentença que extingue a punibilidade por prescrição. Testa conhecimento concreto do art. 581 CPP (quando RESE é cabível em decisões interlocutórias) e contrasta com apelação (art. 593 CPP, para sentenças). O prazo de 5 dias mencionado é correto para RESE, mas o erro central é usar RESE contra sentença. Classificada em 5561 (RESE) por testar especificamente este recurso em espécie, não teoria geral; segunda opção seria 5512 (Parte Geral), mas a especificidade do instrumento impugnatório favorece 5560 > 5561. Apelação também é relevante (5562) como contraste, mas não é o foco principal.",
+ "id": "Q0183",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5512",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão de Processo Penal que trata especificamente de Recurso em Sentido Estrito (RESE): cabimento para impugnar sentença que extingue punibilidade por prescrição e prazo de 5 dias. Classificada em 5560 (Recursos em Espécies) por testar conhecimento de um recurso em espécie concreto, não teoria geral. Segunda opção seria 5512 (Parte Geral dos Recursos), mas a especificidade do RESE favorece 5560."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4198,
+  "cache_w": 14596,
+  "cache_r": 12522,
+  "custo_usd": 0.061185199999999995
+ }
+}

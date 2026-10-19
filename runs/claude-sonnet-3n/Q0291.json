@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.62,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5501",
+ "extras_ids": [
+  "5498"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra literalmente o art. 51 da Lei 11.343/2006 (prazo de IP de tráfico: 30 dias preso/90 dias solto, duplicáveis), regra expressa e peculiar da Lei de Drogas, distinta da regra geral do art. 10 do CPP. Por ser um dispositivo próprio da lei especial, tradicionalmente cobrado dentro do estudo de Tráfico de Drogas (cujo enunciado do tema 4708 expressamente inclui \"reflexos processuais\"), mantenho o tema de nível 1 em 4708, sem subtema (o tema não possui subtemas). Como segunda opção, refino para o subtema 5501 (Conclusão e Arquivamento do Inquérito Policial), dentro de Inquérito Policial, por ser o subtema que trata especificamente de \"prazo do inquérito, indiciado preso, indiciado solto\" na ótica processual geral - mais preciso do que o tema genérico 5498. Há dúvida real entre classificar pelo critério \"dispositivo especial da lei\" (4708) ou pelo critério \"instituto processual testado\" (5501/5498), optando por manter a primeira por ser o traço mais discriminante e específico do enunciado.",
+ "id": "Q0291",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": "PP2",
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata do prazo específico de conclusão do inquérito policial previsto na Lei de Drogas (art. 51 da Lei 11.343/06), regra especial que se insere no tema Tráfico de Drogas da Legislação Especial, e não na regra geral de Inquérito Policial do CPP."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": "5498",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão cobra o prazo específico de conclusão do inquérito policial previsto no art. 51 da Lei 11.343/06 (30 dias preso, 90 dias solto, duplicáveis), regra especial e expressa da Lei de Drogas, descrita no próprio enunciado do tema 4708 (Tráfico de Drogas) como abrangendo \"reflexos processuais\". Por ser um dispositivo peculiar da lei especial, entendo que pertence melhor a Tráfico de Drogas do que à regra geral de prazos do CPP (art. 10), que é tratada em Inquérito Policial > Procedimento do Inquérito Policial. Mantenho a segunda opção em Inquérito Policial (PP2), pois a pergunta verdadeiramente trata de \"prazo de conclusão do IP\", tema central do subtema \"Procedimento do Inquérito Policial\", havendo dúvida real entre as duas classificações."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2524,
+  "cache_w": 11817,
+  "cache_r": 14150,
+  "custo_usd": 0.08427899999999999
+ }
+}

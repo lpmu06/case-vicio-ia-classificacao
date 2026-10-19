@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5557",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre procedimentos, requisitos legais, benefícios penais e proteções do colaborador na colaboração premiada conforme Lei 12.850/2013. É propriamente classificada como meio de obtenção de prova e negócio jurídico processual em Processo Penal > Provas em Espécies, com subtema específico \"Colaboração Premiada\" (5557). Embora a Lei 12.850/2013 seja lei sobre organizações criminosas, a questão não versa sobre a estrutura associativa ou seus requisitos constitutivos, mas sobre procedimento processual (instrução, celebração, homologação), benefícios (perdão judicial, redução de pena) e proteções legais ao colaborador. A alternativa (B) é incorreta por omitir exceções ao sigilo quando o acordo não é celebrado.",
+ "id": "Q0193",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "4705",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "Questão sobre colaboração premiada conforme Lei 12.850/2013, versando sobre procedimentos de celebração de acordo, requisitos, benefícios penais e proteções ao colaborador. Embora integre a Lei de Organizações Criminosas (4705), é propriamente classificada como meio de prova especial em Processo Penal, com subtema específico \"Colaboração Premiada\" listado sob \"Provas em Espécies\" (5543). A alternativa (B) é incorreta por omitir a exceção legal ao sigilo quando o acordo não é celebrado."
+ },
+ "uso": {
+  "in": 20,
+  "out": 10872,
+  "cache_w": 11802,
+  "cache_r": 10800,
+  "custo_usd": 0.08883200000000001
+ }
+}

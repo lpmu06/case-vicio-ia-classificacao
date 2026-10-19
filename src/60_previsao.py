@@ -38,6 +38,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--decisoes", default=str(RAIZ / "data" / "decisoes.jsonl"))
     ap.add_argument("--margem_convencao", type=float, default=0.02)
+    ap.add_argument("--p_copias", type=float, default=0.10, help="probabilidade de a equipe ter usado as cópias 67xx")
     ap.add_argument("--saida_json", default=str(RAIZ / "runs" / "previsao.json"))
     a = ap.parse_args()
 
@@ -99,13 +100,19 @@ def main():
             e3, e3_cons = k3 / n3, k3c / n3
             e3_ic = wilson(k3c, n3)
 
-    # combinação conservadora: E1 e E2 não enxergam convenções do professor, então descontam a margem; E3 já a embute.
-    # ponto = menor estimativa; intervalo: inferior = menor limite inferior de Wilson (E2 com margem, E3 conservador),
-    # superior = E1 (independência).
-    pontos = [x - a.margem_convencao for x in (e1, e2) if x is not None] + ([e3] if e3 is not None else [])
-    ponto = min(pontos)
+    # risco das cópias 67xx: a equipe pode ter rotulado nas cópias criadas em Penal/Processo Penal em vez dos temas da
+    # Legislação Especial (nossa escolha). Nenhum estimador enxerga isso; entra como perda esperada = P(cenário) x exposição.
+    dup = {"4684", "4688", "4702", "4704", "4705", "4708", "4696", "4703"}
+    exposicao = sum(1 for d in pub if A.ramo_de(d["tema"]) in dup) / npub if npub else 0.0
+    m67 = a.p_copias * exposicao
+    # combinação: E1 e E2 não enxergam convenções do professor (descontam a margem de convenção); E3 já as embute.
+    # ponto = mediana dos estimadores ajustados; intervalo: inferior = menor limite inferior de Wilson (E2 com margem,
+    # E3 conservador) menos m67; superior = E1 (independência).
+    ajustados = [x - a.margem_convencao - m67 for x in (e1, e2) if x is not None] + ([e3 - m67] if e3 is not None else [])
+    ajustados.sort()
+    ponto = ajustados[len(ajustados) // 2] if len(ajustados) % 2 else sum(ajustados[len(ajustados) // 2 - 1:len(ajustados) // 2 + 1]) / 2
     inferiores = ([e2_ic[0] - a.margem_convencao] if e2_ic else []) + ([e3_ic[0]] if e3_ic else [])
-    lo = min(inferiores) if inferiores else ponto - 0.05
+    lo = (min(inferiores) if inferiores else ponto - 0.05) - m67
     hi = min(e1 if e1 else 1.0, 1.0)
     lo = max(min(lo, ponto - 0.01), 0.0)
     hi = max(hi, ponto + 0.005)
@@ -122,6 +129,9 @@ def main():
                             "taxa_conservadora": round(e3_cons, 4) if e3_cons is not None else None,
                             "wilson95_conservador": [round(x, 4) for x in e3_ic] if e3_ic else None},
            "margem_convencao": a.margem_convencao, "taxa_subtema": round(taxa_sub, 4),
+           "copias_67xx": {"p_cenario": a.p_copias, "exposicao": round(exposicao, 4), "perda_esperada": round(m67, 4),
+                           "precisao_se_cenario_ocorrer": round(ponto + m67 - exposicao, 3)},
+           "estimadores_ajustados": [round(x, 4) for x in ajustados],
            "precisao_prevista": round(ponto, 3), "precisao_intervalo": [round(lo, 3), round(hi, 3)],
            "cobertura_prevista": round(cob, 3), "cobertura_intervalo": [round(cob, 3), round(cob_hi, 3)]}
     Path(a.saida_json).write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")

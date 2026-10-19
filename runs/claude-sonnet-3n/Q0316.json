@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa expressamente sobre o art. 20, §3º, do CP (erro sobre a pessoa / error in persona), modalidade de erro de tipo que não exclui o dolo e determina a consideração das condições da vítima virtual. O cerne da pergunta é qual teoria resolve essa hipótese (teoria da concretização, segundo a doutrina majoritária sobre error in persona e aberratio ictus), tema que se insere dentro de Fato Típico (5218), especificamente no subtema Erro de Tipo (5224), que lista expressamente \"erro sobre pessoa\" entre suas palavras-chave e dispositivos (art. 20, §3º, CP). Não se trata de culpabilidade (5211), pois o erro in persona não recai sobre a consciência da ilicitude, mas sobre a identificação do objeto/pessoa visada, afetando a estrutura do dolo no fato típico. A menção a \"concurso de crimes\" na origem é imprecisa, já que o caso não envolve pluralidade de infrações, mas sim a disciplina do erro quanto à pessoa.",
+ "id": "Q0316",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata do erro sobre a pessoa (error in persona), previsto no art. 20, §3º do CP, instituto estudado dentro da Teoria do Crime - Fato Típico (elemento dolo/erro de tipo), tema que compõe o grupo P2 (Parte geral: teoria do crime). Não se trata de concurso de crimes, apesar da pista de origem indicar isso erroneamente."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5211",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata do erro sobre a pessoa (error in persona), disciplinado no art. 20, §3º, do CP, que é uma modalidade de erro de tipo (não exclui dolo, considera-se a pessoa visada). O instituto é estudado dentro de Fato Típico (elemento dolo/erro de tipo), tema 5218, cujo subtema \"Erro de Tipo\" o abrange especificamente. Não se trata de concurso de crimes (pista de origem equivocada) nem de culpabilidade, pois o erro in persona não afeta a culpabilidade, mas sim a configuração do dolo quanto ao objeto do crime."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1675,
+  "cache_w": 16606,
+  "cache_r": 14150,
+  "custo_usd": 0.097286
+ }
+}

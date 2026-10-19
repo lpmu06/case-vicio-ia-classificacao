@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5089",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5096",
+ "extras_ids": [
+  "5079"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão pergunta qual crime admite forma culposa, sendo a resposta correta o peculato culposo (art. 312, §2º, CP), tema central. As demais alternativas (condescendência criminosa, violação de sigilo funcional, falsidade ideológica, supressão de tributos) são incorretas justamente por não admitirem culpa. Como o foco é identificar o único tipo culposo dentre crimes funcionais, e a resposta correta (peculato) pertence exatamente ao subtema Peculato (5089), mantenho o ramo 5087 (Administração Pública), mas ajusto o subtema para 5089, já que a alternativa correta e testada é peculato, não condescendência. Marco multi_tema=true pois cada alternativa trata de um crime distinto, com eixo comum na Administração Pública/Judicial.",
+ "id": "Q0273",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa o conhecimento sobre crimes contra a administração pública que admitem modalidade culposa, sendo o peculato culposo (art. 312, §2º, CP) a resposta correta. Trata-se de instituto da Parte Especial do Código Penal referente aos crimes contra a Administração Pública, tema coberto pelo grupo P8."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5079",
+  "confianca_ramo": 0.97,
+  "multi_tema": true,
+  "justificativa": "A questão exige saber quais crimes contra a Administração Pública/Judicial admitem forma culposa, sendo o peculato culposo (art. 312, §2º, CP) a resposta. Peculato e condescendência criminosa pertencem ao grupo P8 (5087), enquanto falsidade ideológica é crime contra a fé pública e supressão de tributos é crime tributário - ambos fora do eixo principal, mas o tema central e a alternativa correta estão em 5087. Como condescendência criminosa também é alternativa (também em 5087), a questão é majoritariamente do ramo Penal/Administração Pública."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1425,
+  "cache_w": 18743,
+  "cache_r": 14150,
+  "custo_usd": 0.105053
+ }
+}

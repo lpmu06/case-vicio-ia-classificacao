@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5545",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5546",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata exclusivamente de exame de corpo de delito como meio de prova processual penal. As cinco alternativas versam sobre características específicas deste instituto: requisito de realização (indispensabilidade quando há vestígios), qualificação do perito (oficial, não juiz), forma direta ou indireta, impossibilidade de substituição, e prioridade em violência doméstica. Embora exame de corpo de delito seja uma espécie de perícia, a questão exige conhecimento de requisitos muito particulares que correspondem ao subtema 5545, não apenas à perícia genérica de 5546. Segunda opção seria 5546 apenas se houvesse abordagem mais ampla sobre perícia em geral.",
+ "id": "Q0258",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata especificamente do exame de corpo de delito como meio de prova no processo penal, abrangendo requisitos de realização, forma (direta/indireta), admissibilidade e possibilidade de substituição. Embora o assunto_origem cite \"Procedimento do Júri\" e a alternativa (C) mencione competência do Tribunal do Júri, o tema central é claramente um meio de prova genérico, não procedimento específico. O exame de corpo de delito é subtema direto de \"Provas em Espécies\" (5543), enquanto \"Procedimento do Tribunal do Júri\" não apresenta subtema correlato. A questão é processual penal pura, não material."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4998,
+  "cache_w": 13419,
+  "cache_r": 12522,
+  "custo_usd": 0.061625200000000005
+ }
+}

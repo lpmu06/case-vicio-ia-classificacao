@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 1,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmado tema 4703 (Lei de Execução Penal). A questão trata exclusivamente de direitos e assistências previstos na LEP ao preso e egresso (alojamento, alimentação, saúde, estudo, assistência material), conforme arts. 10-27 LEP. Todas as cinco alternativas versam sobre diferentes institutos de execução penal. Não há qualquer elemento que sugira Penal material, Processo Penal ou outro ramo. A pista de origem \"Teoria da Pena\" está claramente incorreta — a questão não trata de fundamentação, espécies ou dosimetria de pena, mas de direitos durante a execução. Classificação inequívoca. O tema 4703 não possui subtemas (subtema_n2_id = null).",
+ "id": "Q0164",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": null,
+  "confianca": 0.98,
+  "multi_tema": false,
+  "justificativa": "Questão sobre direitos e assistências previstos na Lei de Execução Penal (LEP): alojamento, alimentação, saúde, estudo e assistência material ao preso e egresso. Classificação clara em LE4 (Lei de Execução Penal). A pista de origem \"Teoria da Pena\" está incorreta; a questão não trata de fundamentação ou espécies de pena, mas de direitos durante execução penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre direitos e assistências previstos na Lei de Execução Penal (LEP): alojamento, alimentação, saúde, estudo e assistência material ao preso e egresso. Classificação clara em 4703 (Lei de Execução Penal). A menção explícita \"Conforme o que a LEP prevê\" e o conteúdo específico de direitos de execução tornam a classificação praticamente inequívoca. A pista de origem \"Teoria da Pena\" está incorreta; a questão não trata de fundamentação ou espécies de pena, mas de direitos durante execução penal."
+ },
+ "uso": {
+  "in": 30,
+  "out": 5023,
+  "cache_w": 14282,
+  "cache_r": 4639,
+  "custo_usd": 0.05976290000000001
+ }
+}

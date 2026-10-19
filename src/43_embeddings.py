@@ -173,14 +173,14 @@ def avaliar(a):
           "\"Recall@k\": o ramo da referência aparece entre os k temas mais parecidos. \"Maior lixeira\": o tema que mais "
           "atraiu questões como primeira opção. \"Destilação\": regressão logística treinada sobre os embeddings das questões "
           "com os rótulos do consenso, validação cruzada de 5 partes, só classes com ao menos 5 questões.\n",
-          "| Modelo | Grupo | Texto do tema | Top-1 ramo | Recall@5 | Recall@10 | Recall@20 | Maior lixeira | Temas distintos no top-1 | Destilação (acerto CV) | Tempo (s) |",
-          "|---|---|---|---|---|---|---|---|---|---|---|"]
+          "| Modelo | Grupo | Texto do tema | Top-1 ramo | Recall@5 | Recall@10 | Recall@20 | Maior lixeira | Temas distintos no top-1 | Destilação (acerto CV) |",
+          "|---|---|---|---|---|---|---|---|---|---|"]
     for r in linhas:
         for var, nome in (("titulo", "só caminho"), ("enriq", "enriquecido")):
             v = r[var]
             dest = f"{r['destilacao']['acerto_cv']:.0%} (n={r['destilacao']['n']})" if var == "enriq" and "destilacao" in r else ""
             md.append(f"| {r['modelo']} | {r['grupo']} | {nome} | {v['top1_ramo']:.0%} | {v['recall_ramo@5']:.0%} | {v['recall_ramo@10']:.0%} | "
-                      f"{v['recall_ramo@20']:.0%} | {v['maior_lixeira']} | {v['temas_distintos_top1']} | {dest} | {r['segundos'] if var == 'enriq' else ''} |")
+                      f"{v['recall_ramo@20']:.0%} | {v['maior_lixeira']} | {v['temas_distintos_top1']} | {dest} |")
     md.append("\nModelos: " + "; ".join(f"`{r['hf_id']}` ({r['obs']})" for r in linhas) + ".")
     (RAIZ / "docs" / "embeddings.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print("\n".join(md))
