@@ -105,7 +105,7 @@ Fechamento do bloco A: regras de execução, item 3. Commit "melhorias bloco A: 
 - `src/42_comparar_metodos.py`: rodada `arbitro-opus` como método "árbitro": prompt = sistema do árbitro (`prompts/arbitro_sistema.md` com a árvore resumida, como em `46_arbitragem.py`) + blocos dos ramos candidatos (`candidatos_ramos` gravados em cada JSON, via `c31.bloco_ramo`) + pedido da questão; tokens de saída do `uso`. Adicionar a `RODADAS` e a `MODELO_REAL` (`claude-opus-5-5`).
 - `62_preencher_relatorio.py`: marcador `CUSTO_PIPELINE` = soma (Opus plano + Sonnet 2 estágios + árbitro) × 359 com cache, e `CUSTO_PIPELINE_LOTE` = metade; substituir o "US$ 48" / "US$ 24" fixos no modelo do relatório e no README.
 - Verificação: `docs/comparacao_metodos.md` tem a linha do árbitro; o valor de `CUSTO_PIPELINE` aparece no relatório e no README (README é editado à mão com o mesmo número).
-- [ ] feito
+- [x] feito
 
 ## Bloco E — repositório (item 12) — depende de D4
 

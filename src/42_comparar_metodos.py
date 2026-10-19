@@ -25,13 +25,21 @@ RODADAS = [("claude-opus", "plano", "Opus 5.5"), ("claude-sonnet-h", "2 estágio
            ("claude-sonnet-3n", "3 estágios", "Sonnet 5"), ("claude-haiku-h", "2 estágios", "Haiku 4.5"),
            ("claude-haiku-3n", "3 estágios", "Haiku 4.5"), ("gpt-5.5", "plano", "GPT-5.5 (parcial)"),
            ("claude-sonnet-plano", "plano", "Sonnet 5 (amostra 80)"), ("claude-opus-h", "2 estágios", "Opus 5.5 (amostra 80)"),
-           ("jev-h", "2 estágios", "Jev")]
+           ("jev-h", "2 estágios", "Jev"), ("arbitro-opus", "árbitro", "Opus 5.5, esforço alto")]
 
 
 def prompts_por_questao(A, enr, metodo, q, bruto, cache):
     """Lista de (sistema, pedido) efetivamente enviados para a questão."""
     if metodo == "plano":
         return [(cache["flat"], c30.montar_pedido(q))]
+    if metodo == "árbitro":
+        # mesmo pedido de 46_arbitragem.py: blocos dos ramos candidatos gravados no JSON + subtemas sugeridos + questão
+        ramos = [r for r in bruto.get("candidatos_ramos", []) if r in A.t]
+        blocos = "\n\n=====\n\n".join(c31.bloco_ramo(A.t, enr, r) for r in ramos)
+        sub_txt = ", ".join(f"{s} ({A.titulo(s)})" for s in bruto.get("candidatos_subtemas", [])) or "nenhum"
+        pedido = (f"Candidatos de tema de nível 1 sugeridos (ordem aleatória), com metadados completos:\n\n{blocos}\n\n"
+                  f"Subtemas que algum classificador sugeriu: {sub_txt}\n\n" + c30.montar_pedido(q))
+        return [(cache["arb"], pedido)]
     if metodo == "2 estágios":
         r1 = bruto.get("estagio1") or {}
         out = [(cache["s1"], c30.montar_pedido(q))]
@@ -55,9 +63,12 @@ def main():
     grupos = c32.carregar_grupos(A.t)
     flat, _ = c30.montar_sistema(A.t)
     regras = c31.REGRAS
-    cache = {"flat": flat, "s1": c31.sistema_estagio1(A.t, enr), "grupos": grupos,
+    s1 = c31.sistema_estagio1(A.t, enr)
+    resumo_arvore = s1.split("<arvore>")[1].split("</arvore>")[0]
+    cache = {"flat": flat, "s1": s1, "grupos": grupos,
              "s2": regras + c31.SAIDA_2, "sA": c32.sistema_estagio_a(A.t, grupos),
-             "sB": regras + c32.SAIDA_B, "sC": regras + c31.SAIDA_2}
+             "sB": regras + c32.SAIDA_B, "sC": regras + c31.SAIDA_2,
+             "arb": (RAIZ / "prompts" / "arbitro_sistema.md").read_text(encoding="utf-8").replace("{arvore}", resumo_arvore)}
 
     rod = {}
     tabela = []
@@ -121,8 +132,7 @@ def main():
     if amostra_p.exists():
         from collections import Counter as _C
         amostra = amostra_p.read_text().strip().split(",")
-        arb = carregar_rodada("arbitro-opus", A)
-        refs = {**rod, "arbitro-opus": arb} if arb else dict(rod)
+        refs = dict(rod)  # inclui o árbitro, que agora é uma das rodadas comparadas
         for r in rod:
             cobertas = [q for q in amostra if q in rod[r]]
             if len(cobertas) < 30:

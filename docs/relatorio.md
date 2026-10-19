@@ -125,6 +125,6 @@ Em [`memo_professor.md`](memo_professor.md), uma página.
 | Experimento 2×2 e Haiku | Sonnet 5, Opus 5.5, Haiku 4.5 | 80 | várias horas |
 | GPT-5.5 plano | GPT-5.5 | 63, até acabar o crédito | 8 min |
 
-Os modelos Claude foram chamados pelo Claude Code em modo headless, numa assinatura, sem custo marginal; a lentidão veio de dividir a cota da assinatura entre rodadas paralelas. A preço de lista da API, com cache e sem o contexto do Claude Code, o pipeline final (Opus plano, Sonnet 2 estágios e árbitro) custaria cerca de US$ 48 para as 359 questões, ou US$ 24 pela API em lote. Os créditos da OpenAI foram de teste e se esgotaram.
+Os modelos Claude foram chamados pelo Claude Code em modo headless, numa assinatura, sem custo marginal; a lentidão veio de dividir a cota da assinatura entre rodadas paralelas. A preço de lista da API, com cache e sem o contexto do Claude Code, o pipeline final (Opus plano, Sonnet 2 estágios e árbitro, este com 19.246 tokens de prompt e 0,041 por questão) custaria US$ 45 para as 359 questões, ou US$ 23 pela API em lote; a soma vem da tabela de métodos do [anexo](comparacao_metodos.md). Os créditos da OpenAI foram de teste e se esgotaram.
 
 **O que faríamos com mais tempo.** Rotular 100 questões com um professor para calibrar de verdade; rodar uma segunda família de modelos em todas as questões; testar o Jev, um modelo de decisão estruturada com probabilidades calibradas, cuja integração está pronta em `src/33_classificar_jev.py` e só depende de uma chave; e perguntar à equipe qual dos temas duplicados ela usa.

@@ -127,6 +127,22 @@
    "multi_tema": 10,
    "escolheu_subtema": 50,
    "conf_ramo_media": 0.871
+  },
+  {
+   "rodada": "arbitro-opus",
+   "metodo": "árbitro",
+   "modelo": "Opus 5.5, esforço alto",
+   "questoes": 359,
+   "chamadas_por_questao": 1.0,
+   "tokens_prompt_por_questao": 19246,
+   "tokens_saida_por_questao": 720,
+   "custo_usd_por_questao_sem_cache": 0.09138,
+   "custo_usd_por_questao_com_cache": 0.04075,
+   "custo_usd_50mil_com_cache": 2037,
+   "fora": 2,
+   "multi_tema": 44,
+   "escolheu_subtema": 192,
+   "conf_ramo_media": 0.861
   }
  ],
  "concordancia": [
@@ -187,6 +203,14 @@
    "subtema_igual_quando_ambos_escolhem": 1.0
   },
   {
+   "a": "claude-opus",
+   "b": "arbitro-opus",
+   "n": 359,
+   "ramo": 0.978,
+   "n_ambos_subtema": 191,
+   "subtema_igual_quando_ambos_escolhem": 0.99
+  },
+  {
    "a": "claude-sonnet-h",
    "b": "claude-sonnet-3n",
    "n": 359,
@@ -235,6 +259,14 @@
    "subtema_igual_quando_ambos_escolhem": 0.957
   },
   {
+   "a": "claude-sonnet-h",
+   "b": "arbitro-opus",
+   "n": 359,
+   "ramo": 0.903,
+   "n_ambos_subtema": 174,
+   "subtema_igual_quando_ambos_escolhem": 0.931
+  },
+  {
    "a": "claude-sonnet-3n",
    "b": "claude-haiku-h",
    "n": 91,
@@ -275,6 +307,14 @@
    "subtema_igual_quando_ambos_escolhem": 0.977
   },
   {
+   "a": "claude-sonnet-3n",
+   "b": "arbitro-opus",
+   "n": 359,
+   "ramo": 0.85,
+   "n_ambos_subtema": 163,
+   "subtema_igual_quando_ambos_escolhem": 0.908
+  },
+  {
    "a": "claude-haiku-h",
    "b": "claude-haiku-3n",
    "n": 44,
@@ -307,6 +347,14 @@
    "subtema_igual_quando_ambos_escolhem": 0.915
   },
   {
+   "a": "claude-haiku-h",
+   "b": "arbitro-opus",
+   "n": 91,
+   "ramo": 0.901,
+   "n_ambos_subtema": 54,
+   "subtema_igual_quando_ambos_escolhem": 0.907
+  },
+  {
    "a": "claude-haiku-3n",
    "b": "gpt-5.5",
    "n": 14,
@@ -331,6 +379,14 @@
    "subtema_igual_quando_ambos_escolhem": 0.913
   },
   {
+   "a": "claude-haiku-3n",
+   "b": "arbitro-opus",
+   "n": 44,
+   "ramo": 0.886,
+   "n_ambos_subtema": 25,
+   "subtema_igual_quando_ambos_escolhem": 0.88
+  },
+  {
    "a": "gpt-5.5",
    "b": "claude-sonnet-plano",
    "n": 13,
@@ -347,12 +403,36 @@
    "subtema_igual_quando_ambos_escolhem": 1.0
   },
   {
+   "a": "gpt-5.5",
+   "b": "arbitro-opus",
+   "n": 63,
+   "ramo": 0.968,
+   "n_ambos_subtema": 33,
+   "subtema_igual_quando_ambos_escolhem": 0.97
+  },
+  {
    "a": "claude-sonnet-plano",
    "b": "claude-opus-h",
    "n": 80,
    "ramo": 0.875,
    "n_ambos_subtema": 50,
    "subtema_igual_quando_ambos_escolhem": 0.92
+  },
+  {
+   "a": "claude-sonnet-plano",
+   "b": "arbitro-opus",
+   "n": 80,
+   "ramo": 0.887,
+   "n_ambos_subtema": 51,
+   "subtema_igual_quando_ambos_escolhem": 0.902
+  },
+  {
+   "a": "claude-opus-h",
+   "b": "arbitro-opus",
+   "n": 80,
+   "ramo": 0.95,
+   "n_ambos_subtema": 48,
+   "subtema_igual_quando_ambos_escolhem": 0.979
   }
  ],
  "com_origem": [
@@ -395,6 +475,11 @@
    "rodada": "claude-opus-h",
    "n": 47,
    "ramo_igual_origem": 0.298
+  },
+  {
+   "rodada": "arbitro-opus",
+   "n": 225,
+   "ramo_igual_origem": 0.293
   }
  ],
  "amostra_2x2": [
@@ -467,6 +552,16 @@
    "tokens_prompt_por_questao": 22460,
    "tokens_saida_por_questao": 1176,
    "custo_usd_por_questao_com_cache": 0.05837
+  },
+  {
+   "rodada": "arbitro-opus",
+   "metodo": "árbitro",
+   "modelo": "Opus 5.5, esforço alto",
+   "n": 80,
+   "concorda_maioria_demais": 0.963,
+   "tokens_prompt_por_questao": 19246,
+   "tokens_saida_por_questao": 720,
+   "custo_usd_por_questao_com_cache": 0.04075
   }
  ]
 }

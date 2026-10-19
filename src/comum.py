@@ -19,7 +19,8 @@ RAIZ = Path(__file__).resolve().parents[1]
 # US$ por milhão de tokens: (entrada, saída, leitura de cache).
 MODELO_REAL = {"claude-opus": "claude-opus-5-5", "claude-sonnet-h": "claude-sonnet-5", "claude-sonnet-3n": "claude-sonnet-5",
                "claude-haiku-h": "claude-haiku-4-5", "claude-haiku-3n": "claude-haiku-4-5", "gpt-5.5": "gpt-5.5",
-               "claude-sonnet-plano": "claude-sonnet-5", "claude-opus-h": "claude-opus-5-5", "jev-h": "jev"}
+               "claude-sonnet-plano": "claude-sonnet-5", "claude-opus-h": "claude-opus-5-5", "jev-h": "jev",
+               "arbitro-opus": "claude-opus-5-5"}
 PRECO = {"claude-opus-5-5": (4.0, 20.0, 0.20), "claude-sonnet-5": (2.0, 10.0, 0.20), "claude-haiku-4-5": (1.0, 5.0, 0.10)}
 # Caracteres por token medidos neste corpus (runs/calibracao_tokens.json): o tokenizador do Opus/Sonnet 5 gera ~25% mais tokens.
 CHARS_POR_TOKEN = {"claude-opus-5-5": 2.36, "claude-sonnet-5": 2.36, "claude-haiku-4-5": 2.97, "gpt-5.5": 3.8}
