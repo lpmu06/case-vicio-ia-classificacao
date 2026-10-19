@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4373",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "4372",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige identificar as características do positivismo criminológico (método científico/empírico, superação do livre-arbítrio clássico, individualização/periculosidade), em contraste direto com a Escola Clássica — exatamente o eixo comparativo do subtema 4373 (Escolas Criminológicas), dentro do tema 4371. Não se trata das fases pré-científicas (4372), nem de teorias sociológicas específicas (4385), nem de conceito/método geral da Criminologia (4380).",
+ "id": "Q0066",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4371",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente das características do positivismo criminológico (método científico, determinismo, superação do livre-arbítrio da Escola Clássica), tema central de \"Etapas Evolutivas e Escolas Criminológicas\", especificamente do subtema Escolas Criminológicas."
+ },
+ "uso": {
+  "in": 4,
+  "out": 878,
+  "cache_w": 28760,
+  "cache_r": 78694,
+  "custo_usd": 0.14348679999999997
+ }
+}

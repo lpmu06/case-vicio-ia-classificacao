@@ -12,7 +12,7 @@ ENTRADA = RAIZ / "anexos" / "questoes.jsonl"
 SAIDA = RAIZ / "data" / "questoes_limpas.jsonl"
 
 def limpar(s: str) -> str:
-    s = s.replace("\n", " ")                                   # "\n" literal vindo do banco
+    s = re.sub(r"\\n|\n", " ", s)                                   # "\n" literal vindo do banco
     s = re.sub(r"<!--.*?-->", " ", s, flags=re.S)               # comentários (inclui condicionais do Word)
     s = re.sub(r"<(xml|style|script)\b.*?</\1>", " ", s, flags=re.S | re.I)
     s = re.sub(r"<\s*br\s*/?>|</p>|</div>|</li>", "\n", s, flags=re.I)

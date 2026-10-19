@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5527",
+ "extras_ids": [
+  "5528"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão combina quatro institutos distintos do procedimento do júri: desaforamento (item I), que pertence ao subtema \"Organização do Júri e Sessão de Julgamento\" (5528); e impronúncia, absolvição sumária e desclassificação (itens II, III e IV), que pertencem ao subtema \"Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia\" (5527). Como não há um único subtema de nível 2 que cubra todos os quatro itens simultaneamente, a classificação correta é no tema de nível 1 \"Procedimento do Tribunal do Júri\" (5524), mantendo subtema_n2_id nulo. Marco multi_tema = true e indico 5527 como segunda opção (cobre 3 dos 4 itens) e 5528 como extra relevante (cobre o item I).",
+ "id": "Q0001",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP6",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente de institutos do procedimento do Tribunal do Júri (desaforamento, impronúncia, absolvição sumária e desclassificação), todos enquadrados no tema \"Procedimento do Tribunal do Júri\", pertencente ao grupo PP6 (Procedimentos)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa exclusivamente sobre institutos do procedimento do Tribunal do Júri: desaforamento (item I), natureza jurídica e recorribilidade da impronúncia (item II), coisa julgada material da absolvição sumária (item III) e natureza da decisão de desclassificação (item IV). Todos esses institutos pertencem ao tema de nível 1 \"Procedimento do Tribunal do Júri\" (5524). Como a questão combina múltiplos institutos (impronúncia, absolvição sumária, desclassificação e desaforamento) que não se restringem a um único subtema listado (o subtema \"Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia\" não cobre o desaforamento, que está mais ligado a \"Organização do Júri e Sessão de Julgamento\"), a classificação correta é no tema de nível 1, e não em um subtema específico. Não há outro tema de nível 1 do grupo PP6 que se aplique, já que a questão não trata de rito ordinário, sumário ou sumaríssimo."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1822,
+  "cache_w": 45022,
+  "cache_r": 101498,
+  "custo_usd": 0.22617160000000003
+ }
+}

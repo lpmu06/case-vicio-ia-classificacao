@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5161",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5157",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata exclusivamente do crime de extorsão mediante sequestro (art. 159 do CP), abordando qualificadoras (lesão grave/morte, idade da vítima), tentativa e momento consumativo (exigência vs. obtenção do resgate). É matéria de direito penal material, dentro do subtema \"Extorsão\" (5161), que expressamente abrange, segundo sua descrição, tanto a extorsão simples quanto a extorsão mediante sequestro. Confirmo o tema de nível 1 \"Dos Crimes Contra o Patrimônio\" (5157) e atribuo o subtema 5161, já que todas as alternativas giram em torno do mesmo tipo penal específico, sem dispersão para outros institutos patrimoniais.",
+ "id": "Q0065",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o crime de extorsão mediante sequestro (art. 159 do CP), espécie de crime contra o patrimônio, abordando suas qualificadoras e momento consumativo. Trata-se de direito penal material, enquadrando-se no tema \"Dos Crimes Contra o Patrimônio\" (subtema Extorsão), e não em Processo Penal ou Legislação Especial."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1439,
+  "cache_w": 34574,
+  "cache_r": 78694,
+  "custo_usd": 0.1771068
+ }
+}

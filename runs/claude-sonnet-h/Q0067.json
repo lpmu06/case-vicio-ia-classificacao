@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5091",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5092",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Sebastião, funcionário público (policial militar), exige vantagem indevida (R$ 4.000,00) de Caio, valendo-se do temor inspirado pela função, para não efetuar a prisão. O verbo \"exigir\" (elemento intimidativo/coativo) é o núcleo típico da concussão (art. 316, CP), distinguindo-a da corrupção passiva (em que o funcionário solicita/recebe/aceita promessa, sem coação) e das demais alternativas, que não se adequam à conduta descrita. Confirma-se o tema de nível 1 \"Dos Crimes Contra a Administração Pública\" (5087) e define-se o subtema \"Concussão e Excesso de Exação\" (5091).",
+ "id": "Q0067",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata de funcionário público (policial militar) que exige vantagem indevida valendo-se de sua função, caracterizando concussão (art. 316, CP), subtema de Crimes Contra a Administração Pública. Não é concurso de crimes, apesar da pista fraca de origem."
+ },
+ "uso": {
+  "in": 4,
+  "out": 910,
+  "cache_w": 34003,
+  "cache_r": 78694,
+  "custo_usd": 0.16894579999999998
+ }
+}

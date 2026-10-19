@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5500",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as quatro afirmativas giram em torno do regime específico das medidas protetivas de urgência da Lei 11.340/2006: cumulação de medidas, atuação do delegado quando o município não é sede de comarca (art. 12-C), cognição sumária para concessão e dispensa de audiência das partes/MP com comunicação ao Parquet (art. 19). Esse é o eixo exclusivo e específico da Lei Maria da Penha (tema 4704), e não do procedimento geral do inquérito policial (5498), que foi citado apenas como pista fraca de origem. Confirmo o tema 4704. Como esse tema não possui subtemas, subtema_n2_id permanece null.",
+ "id": "Q0063",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": "5498",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata integralmente de medidas protetivas de urgência da Lei 11.340/2006 (Lei Maria da Penha): cumulação das medidas, atuação do delegado em município sem comarca, cognição sumária e dispensa de audiência das partes/MP. Todo o eixo da questão é o regime jurídico específico da Lei Maria da Penha, tema de nível 1 próprio em Legislação Especial (4704), que deve prevalecer sobre Inquérito Policial, citado apenas como contexto fraco de origem."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1014,
+  "cache_w": 32709,
+  "cache_r": 78694,
+  "custo_usd": 0.1638968
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.3,
+ "extras_ids": [
+  "5483"
+ ],
+ "fora": false,
+ "justificativa": "Confirmo o tema de nível 1 \"Competência\" (5480). A questão combina dois critérios de fixação de competência: foro por prerrogativa de função de prefeito municipal (itens I, II, IV e V, que tratam de TJ vs TRF e cessação do mandato) e competência territorial subsidiária pelo domicílio do réu quando desconhecido o local da infração (item III, art. 72 do CPP). Como são quatro de cinco itens voltados à prerrogativa de função e apenas um à competência territorial, não há um subtema único que abranja toda a questão com segurança - por isso deixo subtema_n2_id como null, mantendo multi_tema=true. Indico 5484 (Competência por Prerrogativa de Função) como segunda opção, por ser o eixo predominante, e 5483 (Competência Territorial) como extra, pelo item III.",
+ "multi_tema": true,
+ "segunda_opcao_id": "5484",
+ "subtema_n2_id": null,
+ "tema_n1_id": "5480",
+ "id": "Q0004",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP3",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente de regras de competência (foro por prerrogativa de função de prefeito, critério subsidiário de domicílio quando desconhecido o local da infração), tema central do grupo PP3 (Competência)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5480",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": true,
+  "justificativa": "A questão versa inteiramente sobre critérios de fixação de competência criminal: foro por prerrogativa de função de prefeito municipal (itens I, II, IV, V) e critério subsidiário de domicílio do réu quando desconhecido o local da infração (item III). Ambos os aspectos pertencem ao tema de nível 1 \"Competência\" (5480), ainda que correspondam a subtemas distintos (Competência por Prerrogativa de Função e Competência Territorial), por isso marco multi_tema=true dentro do mesmo ramo. Não há questão de processo incidente nem de comunicação de atos, de modo que os outros temas do grupo (5490, 5487) não se aplicam."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1700,
+  "cache_w": 45883,
+  "cache_r": 101498,
+  "custo_usd": 0.22900260000000003
+ }
+}

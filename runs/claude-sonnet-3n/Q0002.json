@@ -1,0 +1,40 @@
+{
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "extras_ids": [
+  "4374"
+ ],
+ "fora": false,
+ "justificativa": "A questão cobra exatamente a tese de Vera Regina Pereira de Andrade sobre seletividade penal: a clientela do sistema penal é formada por pobres não por maior tendência a delinquir (alternativas A, B, C e D são falácias etiológicas rejeitadas pela criminologia crítica), mas porque têm maiores chances de serem criminalizados (E) — ou seja, o filtro seletivo das agências de controle formal (polícia, MP, Judiciário) na aplicação concreta da lei penal. Isso é o núcleo da criminalização secundária, subtema 4378, dentro do tema 4377 \"Processos de Criminalização e Cifras Criminais\". Não é 4379 (cifras criminais), pois a questão não trata de dados ocultos/subnotificação, mas de quem é selecionado para ser punido pelo sistema. Mantenho 4377 como tema de nível 1 (confirmado), com subtema 4378. 4374 (Política Criminal) permanece como extra/segunda opção por tratar criticamente do funcionamento do sistema penal, mas o foco específico é mais preciso em 4377/4378.",
+ "multi_tema": false,
+ "segunda_opcao_id": "4374",
+ "subtema_n2_id": "4378",
+ "tema_n1_id": "4377",
+ "id": "Q0002",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata da seletividade do sistema penal (criminologia crítica/labeling approach), segundo a qual a clientela do sistema penal é formada por pobres não por tendência a delinquir, mas por maior vulnerabilidade à criminalização. Esse é o tema de Processos de Criminalização e Cifras Criminais, dentro do grupo C2 (teorias da criminalidade, política criminal e processos de criminalização)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4377",
+  "segunda_opcao_n1_id": "4374",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente da seletividade do sistema penal (Vera Regina Pereira de Andrade, criminologia crítica/labeling approach): a clientela do sistema penal é formada por pobres não por maior tendência a delinquir, mas por maiores chances de serem criminalizados. Isso é o núcleo do estudo de como condutas e pessoas passam a ser definidas/tratadas como criminosas (criminalização secundária seletiva), tema 4377 \"Processos de Criminalização e Cifras Criminais\". Como segunda opção, 4374 \"Política Criminal\" é plausível por tratar criticamente do funcionamento do sistema penal, mas o foco específico na seletividade/vulnerabilidade à criminalização é mais preciso em 4377."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1828,
+  "cache_w": 43703,
+  "cache_r": 101498,
+  "custo_usd": 0.22046960000000004
+ }
+}
