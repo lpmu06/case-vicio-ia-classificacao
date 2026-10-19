@@ -9,7 +9,7 @@ Origem: `docs/avaliacao_melhorias.md` (avaliação simulada, lida e aceita com o
 3. Depois de cada bloco: `bash rodar_analises.sh`, depois `python src/63_validar_entrega.py` (três CSVs OK), depois `pdfinfo docs/relatorio.pdf | grep Pages` (= 5). Um commit por bloco, mensagem "melhorias bloco X: ...".
 4. Os números do relatório vêm de `src/modelos/relatorio.md` + `src/62_preencher_relatorio.py`; os do `previsao.txt`, de `src/61_escrever_previsao.py`. Nunca editar `docs/relatorio.md` ou `previsao.txt` à mão.
 5. Cada decisão tomada (do Luis ou do assistente) entra no diário com data e motivo.
-6. Se o tempo apertar, a ordem de corte é: F → E → D → C → B → A (A é o que mais muda a nota; F fecha a entrega e não pode faltar).
+6. Se o tempo apertar, a ordem de corte é: G → F → E → D → C → B → A (A é o que mais muda a nota; F fecha a entrega e não pode faltar; G depende de chave externa e roda quando ela existir, mesmo depois do fechamento).
 
 ## Decisões do Luis (tomadas em 19/10 às 18h30)
 
@@ -123,6 +123,26 @@ Fechamento do bloco A: regras de execução, item 3. Commit "melhorias bloco A: 
 - Verificação: `git log --all --oneline -- estudo_movai.md` vazio; `git grep -c "org-<prefixo do id>" $(git rev-list --all)` vazio; `git log --oneline | wc -l` igual ao de antes; `gh repo view` ainda privado.
 - [ ] feito
 
+## Bloco G — Jev (TypeSafe) como classificador adicional — decisão do Luis, 19/10 18h40
+
+Motivo: o Jev é uma tecnologia nova feita para classificação estruturada, com probabilidades calibradas, aplicada a um problema que é exatamente de classificação. Mesmo que o resultado não seja o melhor, testá-lo demonstra pesquisa e domínio de tecnologias novas; o resultado entra no relatório como está, bom ou ruim. O Luis providencia a chave (console.typesafe.ai); até lá, o bloco não roda.
+
+### G1. Rodada do Jev
+- Pré-requisito: linha `typesafe = ...` em `keys.txt` (não versionado).
+- Como: `python src/33_classificar_jev.py` (integração pronta: 2 estágios, tema de nível 1 entre até 255 opções com descrição, depois subtema; saída em `runs/jev-h/`). Testar primeiro com `--limite 3`, conferir o JSON de uma questão (escolha, probabilidades, confiança), depois rodar as 359. Registrar tokens e custo (preço de lista: entrada quase zero, saída grátis).
+- Verificação: `ls runs/jev-h | grep -c '^Q'` = 359; `_usage.json` com erros = 0.
+- [ ] feito
+
+### G2. Jev na comparação e nas estimativas
+- `42_comparar_metodos.py`, `45_confiabilidade.py` e `47_decisao.py` já listam `jev-h`; ele entra automaticamente na tabela de métodos, no Dawid-Skene e nos pares confundíveis. Não entra como votante da regra de publicação (a regra fecha com Opus plano, Sonnet 2 estágios e árbitro); fica como anotador de outra família.
+- Medir e escrever no relatório: concordância do Jev com o consenso (leave-one-out na amostra 2×2 e nas 359), calibração das probabilidades dele (acurácia contra o consenso por faixa de confiança, em `docs/jev.md`), custo por questão. Se a calibração for boa, propor na seção c) o Jev como "segunda opinião de outra família" na cascata, no lugar do modelo pequeno.
+- `src/modelos/relatorio.md`: parágrafo na seção a) (o que é, por que testamos, o que deu) e marcadores `LOO_JEV`, `JEV_CALIB` em `62_preencher_relatorio.py`.
+- Verificação: `docs/comparacao_metodos.md` tem a linha `jev-h`; `docs/jev.md` existe; PDF segue com 5 páginas.
+- [ ] feito
+
+### G3. Se a chave não chegar antes do fechamento
+- O relatório mantém o parágrafo "o que faríamos com mais tempo" citando o Jev com a integração pronta, e a seção 8 da avaliação registra a frente. Nada mais.
+
 ## Bloco F — fechamento (item 13)
 
 1. `bash rodar_analises.sh`; `python src/63_validar_entrega.py`; `pdfinfo docs/relatorio.pdf | grep Pages` = 5; abrir o PDF renderizado (pdftoppm) e conferir a tabela de custo e o memo na última página.
@@ -142,5 +162,6 @@ Fechamento do bloco A: regras de execução, item 3. Commit "melhorias bloco A: 
 | D | 25 min | 22h00 |
 | E | 25 min | 22h30 |
 | F | 30 min + ações do Luis | 23h00 |
+| G | 45 min, quando a chave do Jev existir | sem prazo |
 
 Folga de uma hora para imprevistos.
