@@ -11,6 +11,7 @@ Entrega do processo seletivo da área de IA. Classifica 359 questões de concurs
 | Memo para o professor (1 página) | [`docs/memo_professor.md`](docs/memo_professor.md) |
 | Anexos do relatório | [`docs/comparacao_metodos.md`](docs/comparacao_metodos.md), [`docs/embeddings.md`](docs/embeddings.md), [`docs/diagnostico.md`](docs/diagnostico.md), [`docs/sensibilidade.md`](docs/sensibilidade.md), [`docs/auditoria_cega_caderno.md`](docs/auditoria_cega_caderno.md) (auditoria cega) e [`docs/auditoria_caderno.md`](docs/auditoria_caderno.md) (primeira auditoria, usada para os limiares) |
 | Diário de bordo: entendimento, plano e todas as decisões, com data e motivo | [`docs/00_entendimento_e_plano.md`](docs/00_entendimento_e_plano.md) |
+| Avaliação simulada (como um avaliador leria a entrega) e plano de melhorias executado na noite de 19/10 | [`docs/90_avaliacao_simulada.md`](docs/90_avaliacao_simulada.md), [`docs/91_plano_melhorias.md`](docs/91_plano_melhorias.md) |
 | Enunciado original | [`case-ia-classificacao-de-topicos.pdf`](case-ia-classificacao-de-topicos.pdf), [`docs/enunciado_README_original.md`](docs/enunciado_README_original.md) |
 
 ## Como rodar

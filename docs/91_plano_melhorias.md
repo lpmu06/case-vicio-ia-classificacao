@@ -2,6 +2,10 @@
 
 Origem: `docs/90_avaliacao_simulada.md` (avaliação simulada, lida e aceita com os ajustes anotados abaixo). Este arquivo é a lista de trabalho; foi escrito para ser executado depois de uma compactação de contexto, então é autossuficiente. Marque o status de cada item aqui mesmo (`[ ]` → `[x]`) e registre as decisões no diário (`docs/00_entendimento_e_plano.md`, seção 10).
 
+## Status em 19/10 às 20h40
+
+Blocos A, B, C, D e E executados e commitados (um commit por bloco; o bloco A foi feito por uma sessão paralela e complementado depois). Bloco F executado: entrega final commitada e enviada ao repositório privado. Bloco G aguarda a chave do Jev. Pendentes do Luis: tornar o repositório público, enviar o e-mail (rascunho em `docs/92_email_entrega.md`), revogar as chaves de `keys.txt`, providenciar a chave do Jev.
+
 ## Regras de execução (valem para todos os itens)
 
 1. Antes de começar: ler este arquivo inteiro e a seção 2 de `docs/90_avaliacao_simulada.md`.
@@ -115,13 +119,13 @@ Fechamento do bloco A: regras de execução, item 3. Commit "melhorias bloco A: 
 - `runs/faltam.py`: apagar.
 - `docs/90_avaliacao_simulada.md` e `docs/91_plano_melhorias.md`: decidir se ficam públicos. Recomendação: ficam, renomeados para `docs/90_avaliacao_simulada.md` e `docs/91_plano_melhorias.md`, porque mostram o caminho; o diário cita os dois.
 - Título do PDF: `<title>Relatório — Case Classificação de tópicos</title>` em `64_gerar_pdf.py`.
-- Verificação: `git ls-files | grep -E "estudo_movai|faltam.py"` vazio; `grep -c "org-11Y" runs/gpt-5.5/_usage.json` = 0; `pdfinfo docs/relatorio.pdf | grep Title`.
+- Verificação: `git ls-files | grep -E "estudo_movai|faltam.py"` vazio; `runs/gpt-5.5/_usage.json` só com `org-REDACTED`; `pdfinfo docs/relatorio.pdf | grep Title`.
 - [x] feito
 
 ### E2. Reescrever o histórico (só se D4 = sim)
 - `pip install git-filter-repo`; `git filter-repo --invert-paths --path estudo_movai.md --path runs/faltam.py --replace-text <(echo "org-<id da organização OpenAI>==>org-REDACTED")` (criar o arquivo de substituição em `runs/` temporário e apagar depois); o filter-repo remove o remote: `git remote add origin git@github.com:lpmu06/case-vicio-ia-classificacao.git`; `git push --force origin main`.
 - Verificação: `git log --all --oneline -- estudo_movai.md` vazio; `git grep -c "org-<id da organização OpenAI>" $(git rev-list --all)` vazio; `git log --oneline | wc -l` igual ao de antes; `gh repo view` ainda privado.
-- [ ] feito
+- [x] feito
 
 ## Bloco G — Jev (TypeSafe) como classificador adicional — decisão do Luis, 19/10 18h40
 
