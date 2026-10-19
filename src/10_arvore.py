@@ -35,7 +35,8 @@ def arvore_texto(temas, incluir_marcas=True):
         if incluir_marcas:
             if t["status"] != "active": marca = "  [INATIVO - não usar]"
             elif t["bucket"]: marca = "  [bucket de curso - não usar]"
-        linhas.append(f"{'  ' * prof}{t['tema_id']} | {t['titulo']}{marca}")
+        rotulo = {0: "DISCIPLINA (nível 0)", 1: "tema (nível 1)", 2: "subtema (nível 2)"}[t["nivel"]]
+        linhas.append(f"{'    ' * prof}{t['tema_id']} | {rotulo} | {t['titulo']}{marca}")
         for f in t["filhos"]:
             walk(f, prof + 1)
     for r in [t for t in temas.values() if t["nivel"] == 0]:

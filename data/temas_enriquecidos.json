@@ -1351,5 +1351,2336 @@
    "Lei 13.964/2019"
   ],
   "nao_confundir": "Não confundir com 4702, pois lavagem de dinheiro trata da ocultação ou dissimulação de bens, direitos ou valores, ainda que praticada por organização criminosa; se o foco for a estrutura associativa, seus requisitos e técnicas da Lei 12.850/2013, o tema é 4705. Distingue-se de 4708 e 4706 porque tráfico de drogas e terrorismo possuem leis penais próprias; só será 4705 quando a questão cobrar organização criminosa, colaboração premiada, ação controlada ou infiltração nos termos da Lei 12.850/2013. Também não confundir com 4700, que trata da interceptação telefônica da Lei 9.296/1996; captação ambiental, infiltração de agentes e colaboração premiada, quando ligadas à criminalidade organizada, pertencem a 4705."
+ },
+ "4702": {
+  "descricao": "Abrange os crimes da Lei 9.613/1998, especialmente ocultar ou dissimular a origem, localização, movimentação, propriedade ou natureza de bens, direitos ou valores provenientes de infração penal. Em provas, cobra-se muito a autonomia da lavagem em relação à infração antecedente, a inexistência de rol taxativo de crimes antecedentes após a Lei 12.683/2012, causas de aumento, colaboração premiada, medidas assecuratórias e deveres de comunicação ao COAF.",
+  "palavras_chave": [
+   "lavagem de dinheiro",
+   "ocultação de bens",
+   "dissimulação de origem ilícita",
+   "infração penal antecedente",
+   "branqueamento de capitais",
+   "COAF",
+   "comunicação de operação suspeita",
+   "conversão em ativos lícitos",
+   "bens, direitos ou valores",
+   "crime autônomo",
+   "medidas assecuratórias",
+   "alienação antecipada",
+   "colaboração premiada",
+   "organização criminosa",
+   "setores obrigados"
+  ],
+  "dispositivos": [
+   "Lei 9.613/1998",
+   "art. 1º Lei 9.613/1998",
+   "art. 1º, §§ 1º e 2º, Lei 9.613/1998",
+   "art. 1º, § 3º, Lei 9.613/1998",
+   "art. 1º, § 4º, Lei 9.613/1998",
+   "art. 1º, § 5º, Lei 9.613/1998",
+   "art. 2º Lei 9.613/1998",
+   "art. 4º Lei 9.613/1998",
+   "arts. 9º a 11 Lei 9.613/1998",
+   "art. 12 Lei 9.613/1998",
+   "art. 14 Lei 9.613/1998",
+   "art. 17-B Lei 9.613/1998",
+   "Lei 12.683/2012"
+  ],
+  "nao_confundir": "Não confundir com 4689, 4695, 4708 ou outros crimes antecedentes: se a questão trata do delito que gerou o proveito ilícito, classifique no tema específico; se trata da ocultação ou dissimulação posterior dos valores ou bens, é 4702. Também não confundir com 4705: organização criminosa pode majorar ou contextualizar a lavagem, mas o núcleo de 4702 é a reciclagem de ativos ilícitos, não a estrutura associativa estável. Não confundir com 4700 quando o foco for técnica investigativa de interceptação telefônica; só será lavagem se a interceptação aparecer como meio de prova em investigação de ocultação de capitais."
+ },
+ "4704": {
+  "descricao": "Abrange a Lei 11.340/2006 como microssistema de prevenção, proteção e repressão à violência doméstica e familiar contra a mulher. Em provas, o foco costuma recair sobre hipóteses de incidência, formas de violência, medidas protetivas de urgência, competência dos Juizados de Violência Doméstica e Familiar, atuação policial e ministerial, ação penal e inaplicabilidade da Lei dos Juizados Especiais.",
+  "palavras_chave": [
+   "violência doméstica e familiar contra a mulher",
+   "Lei Maria da Penha",
+   "medidas protetivas de urgência",
+   "relação íntima de afeto",
+   "unidade doméstica",
+   "âmbito familiar",
+   "violência física, psicológica, sexual, patrimonial e moral",
+   "descumprimento de medida protetiva",
+   "Juizado de Violência Doméstica e Familiar contra a Mulher",
+   "retratação da representação",
+   "ação penal pública incondicionada",
+   "inaplicabilidade da Lei 9.099/1995",
+   "afastamento do agressor",
+   "prisão preventiva por descumprimento",
+   "violência de gênero"
+  ],
+  "dispositivos": [
+   "Lei 11.340/2006",
+   "arts. 5º a 7º da Lei 11.340/2006",
+   "arts. 10 a 12-C da Lei 11.340/2006",
+   "arts. 14 a 17 da Lei 11.340/2006",
+   "arts. 18 a 24 da Lei 11.340/2006",
+   "art. 24-A da Lei 11.340/2006",
+   "art. 41 da Lei 11.340/2006",
+   "art. 129, § 13, CP",
+   "art. 121, § 2º, VI, CP",
+   "art. 313, III, CPP",
+   "Súmula 536 STJ",
+   "Súmula 542 STJ",
+   "Súmula 588 STJ",
+   "Súmula 589 STJ",
+   "Súmula 600 STJ",
+   "Súmula 639 STJ",
+   "ADC 19 STF",
+   "ADI 4424 STF"
+  ],
+  "nao_confundir": "Não confundir com 4701, pois, embora a Lei Maria da Penha dialogue com institutos processuais, seu art. 41 afasta a aplicação da Lei 9.099/1995 aos crimes praticados com violência doméstica e familiar contra a mulher; questões sobre transação penal, composição civil ou suspensão condicional do processo em geral pertencem ao Juizado Especial Criminal. Diferencie de 4709 quando o foco for proteção penal-processual de criança ou adolescente como vítima, e não a violência de gênero contra mulher. Também não confundir com 4693 ou crimes do CP: se a questão trata do feminicídio ou da lesão corporal apenas como tipo penal, o tema pode ser crimes contra a vida ou lesões; se cobra medidas protetivas, incidência da Lei 11.340/2006 ou violência doméstica de gênero, é Lei Maria da Penha."
+ },
+ "4703": {
+  "descricao": "Abrange a Lei de Execução Penal (Lei 7.210/1984), especialmente regras sobre cumprimento da pena e da medida de segurança, direitos e deveres do preso, disciplina prisional, faltas graves, sanções, remição, progressão e regressão de regime. Em provas, costuma aparecer ligada à atuação do juízo da execução, benefícios executórios, regime disciplinar diferenciado, saída temporária, livramento condicional na execução e incidentes de execução.",
+  "palavras_chave": [
+   "execução penal",
+   "Lei 7.210/1984",
+   "progressão de regime",
+   "regressão de regime",
+   "remição da pena",
+   "falta grave",
+   "regime disciplinar diferenciado",
+   "RDD",
+   "saída temporária",
+   "livramento condicional",
+   "juízo da execução",
+   "agravo em execução",
+   "direitos do preso",
+   "trabalho do preso",
+   "exame criminológico"
+  ],
+  "dispositivos": [
+   "Lei 7.210/1984 - Lei de Execução Penal",
+   "arts. 1º a 3º LEP",
+   "arts. 10 a 27 LEP",
+   "arts. 39 a 60 LEP",
+   "art. 52 LEP",
+   "art. 66 LEP",
+   "art. 112 LEP",
+   "art. 118 LEP",
+   "arts. 122 a 125 LEP",
+   "arts. 126 a 130 LEP",
+   "arts. 194 a 197 LEP",
+   "art. 33 CP",
+   "art. 83 CP",
+   "Súmula 439 STJ",
+   "Súmula 441 STJ",
+   "Súmula 491 STJ",
+   "Súmula 520 STJ",
+   "Súmula 526 STJ",
+   "Súmula 533 STJ",
+   "Súmula 534 STJ",
+   "Súmula 535 STJ",
+   "Súmula Vinculante 26 STF",
+   "Súmulas 716 e 717 STF"
+  ],
+  "nao_confundir": "Não confundir com Crimes Hediondos (4693), Tráfico de Drogas (4708) ou Tortura (4707): se a questão tratar da definição do crime, equiparação a hediondo ou causa de aumento, fica no tipo penal especial; se tratar de frações, progressão, remição, falta grave ou benefícios na execução, fica em 4703. Também não confundir com Juizado Especial Criminal (4701), que trata de fase de conhecimento e institutos despenalizadores, enquanto a LEP pressupõe pena ou medida de segurança em execução."
+ },
+ "4707": {
+  "descricao": "Abrange os crimes previstos na Lei de Tortura, especialmente as modalidades de tortura-prova, tortura-crime, tortura-discriminatória, tortura-castigo, tortura contra preso ou pessoa submetida a medida de segurança e a omissão diante da tortura. Em provas, costuma envolver elementos do tipo, sujeito ativo comum ou agente público, causas de aumento, resultado qualificador, perda do cargo e efeitos por ser crime equiparado a hediondo.",
+  "palavras_chave": [
+   "Lei de Tortura",
+   "sofrimento físico ou mental",
+   "violência ou grave ameaça",
+   "obter informação, declaração ou confissão",
+   "tortura-prova",
+   "tortura-castigo",
+   "discriminação racial ou religiosa",
+   "preso ou pessoa submetida a medida de segurança",
+   "omissão em face da tortura",
+   "agente público",
+   "perda do cargo público",
+   "crime equiparado a hediondo",
+   "inafiançável",
+   "insuscetível de graça ou anistia",
+   "regime inicial fechado"
+  ],
+  "dispositivos": [
+   "Lei 9.455/1997",
+   "art. 1º, I, Lei 9.455/1997",
+   "art. 1º, II, Lei 9.455/1997",
+   "art. 1º, §1º, Lei 9.455/1997",
+   "art. 1º, §2º, Lei 9.455/1997",
+   "art. 1º, §3º, Lei 9.455/1997",
+   "art. 1º, §4º, Lei 9.455/1997",
+   "art. 1º, §5º, Lei 9.455/1997",
+   "art. 1º, §6º, Lei 9.455/1997",
+   "art. 1º, §7º, Lei 9.455/1997",
+   "art. 5º, III, CF",
+   "art. 5º, XLIII, CF",
+   "art. 5º, XLIX, CF",
+   "Lei 8.072/1990, art. 2º"
+  ],
+  "nao_confundir": "Não confundir com 4684 Abuso de Autoridade: se a questão trata de constrangimento ilegal, violência, revista vexatória ou prisão abusiva por agente público sem exigir intenso sofrimento físico ou mental típico da Lei 9.455/1997, tende a ser abuso de autoridade; havendo finalidade típica de tortura ou sofrimento intenso, classificar em 4707. Não confundir com 4693 Crimes Hediondos: tortura é crime equiparado a hediondo, mas questões sobre rol, progressão, livramento e regime dos hediondos em geral pertencem a 4693; questões sobre o tipo penal de tortura, suas modalidades e efeitos próprios ficam em 4707. Também não confundir com 4703 Lei de Execução Penal, pois maus-tratos, castigos ilegais ou direitos do preso em execução só serão 4707 quando o foco for o crime de tortura contra preso ou pessoa sob custódia."
+ },
+ "4706": {
+  "descricao": "Abrange a Lei Antiterrorismo, especialmente a definição legal de terrorismo, seus elementos subjetivos específicos, os atos terroristas em espécie, atos preparatórios, organização terrorista e financiamento do terrorismo. Em provas, o foco costuma estar na exigência cumulativa de motivação discriminatória/xenófoba e finalidade de provocar terror social ou generalizado, bem como na cláusula de exclusão de movimentos sociais, sindicais, religiosos, políticos e reivindicatórios legítimos.",
+  "palavras_chave": [
+   "Lei Antiterrorismo",
+   "terrorismo",
+   "terror social ou generalizado",
+   "xenofobia",
+   "discriminação ou preconceito de raça, cor, etnia e religião",
+   "atos preparatórios de terrorismo",
+   "organização terrorista",
+   "financiamento do terrorismo",
+   "explosivos ou gases tóxicos",
+   "sabotagem de serviço essencial",
+   "cláusula de exclusão dos movimentos sociais",
+   "Lei 13.260/2016",
+   "indisponibilidade de ativos",
+   "ameaça à paz pública",
+   "crime equiparado a hediondo"
+  ],
+  "dispositivos": [
+   "Lei 13.260/2016, arts. 2º a 7º",
+   "Lei 13.260/2016, art. 2º, §2º",
+   "Lei 13.260/2016, art. 3º",
+   "Lei 13.260/2016, art. 5º",
+   "Lei 13.260/2016, art. 6º",
+   "CF/1988, art. 5º, XLIII",
+   "CF/1988, art. 4º, VIII",
+   "Lei 8.072/1990, art. 2º",
+   "Lei 13.810/2019",
+   "Lei 12.850/2013"
+  ],
+  "nao_confundir": "Não confundir com 4693, pois o terrorismo é equiparado a hediondo, mas questões sobre conceito, atos típicos, preparação ou financiamento pela Lei 13.260/2016 pertencem a 4706. Diferencia-se de 4705 quando a associação é tratada especificamente como organização terrorista ou voltada à prática de terrorismo; se a pergunta for sobre organização criminosa comum, colaboração premiada ou estrutura da Lei 12.850/2013 sem finalidade terrorista, o tema é 4705. Também não confundir com 4690 ou 4698: racismo ou genocídio podem envolver discriminação contra grupos, mas o terrorismo exige a finalidade de provocar terror social ou generalizado mediante os atos previstos na Lei 13.260/2016."
+ },
+ "5063": {
+  "descricao": "Abrange a classificação da ação penal no Direito Penal material, isto é, a definição legal de quem pode provocar a persecução penal e sob quais condições: ação penal pública incondicionada, pública condicionada à representação ou requisição, e ação penal privada. Em provas, aparece ligada aos arts. 100 a 106 do CP, à titularidade, à representação, decadência, renúncia, perdão, perempção e à identificação da espécie de ação penal em crimes específicos.",
+  "palavras_chave": [
+   "ação penal pública",
+   "ação penal privada",
+   "representação do ofendido",
+   "requisição do Ministro da Justiça",
+   "titularidade da ação",
+   "queixa-crime",
+   "denúncia",
+   "decadência",
+   "renúncia ao direito de queixa",
+   "perdão do ofendido",
+   "perempção",
+   "ação penal subsidiária da pública",
+   "princípio da obrigatoriedade",
+   "princípio da oportunidade"
+  ],
+  "dispositivos": [
+   "arts. 100 a 106 CP",
+   "art. 5º, LIX, CF",
+   "art. 129, I, CF",
+   "arts. 24 a 62 CPP",
+   "art. 38 CPP",
+   "Súmula 714 STF"
+  ],
+  "nao_confundir": "Não confundir com Processo Penal - Ação Penal (5466), que trata mais de condições da ação, denúncia, queixa e procedimento; aqui o foco é a disciplina penal material da espécie de ação e seus efeitos extintivos. Também se aproxima de Punibilidade (5191) e Prescrição (5185), mas o critério de desempate é: se a questão discute decadência, renúncia, perdão ou perempção como institutos ligados à espécie de ação, fica em 5063; se discute causas extintivas em geral, fica em 5191."
+ },
+ "5065": {
+  "descricao": "Cobre a ação penal de iniciativa privada, em que a legitimidade ordinária para propor a queixa-crime é do ofendido ou de seu representante legal, embora o jus puniendi continue pertencendo ao Estado. Em concursos, o tema envolve ação penal exclusivamente privada, personalíssima, privada subsidiária da pública, prazo decadencial, indivisibilidade, disponibilidade, renúncia, perdão do ofendido, perempção e sucessão processual.",
+  "palavras_chave": [
+   "queixa-crime",
+   "querelante",
+   "querelado",
+   "ação penal exclusivamente privada",
+   "ação penal privada personalíssima",
+   "ação penal privada subsidiária da pública",
+   "prazo de seis meses",
+   "decadência do direito de queixa",
+   "renúncia expressa ou tácita",
+   "perdão do ofendido",
+   "perempção",
+   "princípio da indivisibilidade",
+   "princípio da disponibilidade",
+   "sucessores do ofendido",
+   "crimes contra a honra"
+  ],
+  "dispositivos": [
+   "art. 5º, LIX, CF",
+   "arts. 100, §§ 2º, 3º e 4º, CP",
+   "arts. 103 a 106 CP",
+   "arts. 30 a 38 CPP",
+   "arts. 48 a 60 CPP",
+   "art. 236, parágrafo único, CP",
+   "Súmula 714 STF"
+  ],
+  "nao_confundir": "Não confundir com Ação Penal Pública (5064): se a iniciativa é do Ministério Público por denúncia, ainda que dependa de representação, o tema é 5064; se a iniciativa é do ofendido por queixa, é 5065. Também pode aparecer junto a Crimes contra a Honra (5120), mas, se a pergunta cobra calúnia, difamação ou injúria em si, classifica-se em 5120; se cobra legitimidade, queixa, decadência, renúncia ou perdão, classifica-se em 5065."
+ },
+ "5064": {
+  "descricao": "Abrange a ação penal pública, cuja titularidade é do Ministério Público e que pode ser incondicionada ou condicionada à representação do ofendido ou à requisição do Ministro da Justiça. Em provas, o foco costuma estar nos princípios da obrigatoriedade, indisponibilidade, oficialidade, divisibilidade/indivisibilidade, na representação, na retratação e na regra de que a ação penal pública é a regra geral quando a lei não dispõe em contrário.",
+  "palavras_chave": [
+   "ação penal pública incondicionada",
+   "ação penal pública condicionada",
+   "denúncia",
+   "Ministério Público",
+   "representação do ofendido",
+   "requisição do Ministro da Justiça",
+   "retratação da representação",
+   "prazo decadencial de seis meses",
+   "princípio da obrigatoriedade",
+   "princípio da indisponibilidade",
+   "oficialidade",
+   "oficiosidade",
+   "ação penal pública como regra",
+   "lesão corporal leve",
+   "violência doméstica"
+  ],
+  "dispositivos": [
+   "art. 100, caput e § 1º, CP",
+   "art. 101 CP",
+   "art. 102 CP",
+   "art. 103 CP",
+   "art. 129, I, CF",
+   "arts. 24 a 29 CPP",
+   "art. 38 CPP",
+   "art. 16 da Lei 11.340/2006",
+   "Súmula 542 STJ",
+   "Súmula 608 STF"
+  ],
+  "nao_confundir": "Não confundir com Ação Penal Privada (5065): a presença de representação não torna a ação privada; se quem ajuíza é o Ministério Público por denúncia, continua sendo ação penal pública condicionada. Também se aproxima de crimes específicos, como Lesões Corporais (5077), Dignidade Sexual (5102) e Honra (5120); o critério é classificar no crime específico quando a questão cobra o tipo penal, e em 5064 quando cobra a espécie de ação penal, representação ou legitimidade do MP."
+ },
+ "4708": {
+  "descricao": "Cobre a Lei de Drogas (Lei 11.343/2006) em sua parte penal e principais reflexos processuais: porte para consumo pessoal, tráfico, figuras equiparadas, associação para o tráfico, financiamento, informante, majorantes, minorantes e critérios de dosimetria. Em provas, costuma aparecer na distinção entre usuário e traficante, tráfico privilegiado, hediondez/equiparação, causas de aumento do art. 40 e regras sobre laudo, apreensão e destruição de drogas.",
+  "palavras_chave": [
+   "Lei de Drogas",
+   "tráfico de drogas",
+   "porte para consumo pessoal",
+   "usuário de drogas",
+   "art. 28 da Lei 11.343/2006",
+   "art. 33 da Lei 11.343/2006",
+   "tráfico privilegiado",
+   "associação para o tráfico",
+   "financiamento do tráfico",
+   "informante do tráfico",
+   "majorantes do art. 40",
+   "transnacionalidade",
+   "laudo de constatação",
+   "quantidade e natureza da droga",
+   "sem autorização ou em desacordo com determinação legal"
+  ],
+  "dispositivos": [
+   "Lei 11.343/2006",
+   "Lei 11.343/2006, arts. 28 a 30",
+   "Lei 11.343/2006, art. 33, caput e §§ 1º a 4º",
+   "Lei 11.343/2006, arts. 34 a 39",
+   "Lei 11.343/2006, art. 40",
+   "Lei 11.343/2006, arts. 41 e 42",
+   "Lei 11.343/2006, arts. 44 a 47",
+   "Lei 11.343/2006, arts. 50 a 59",
+   "Portaria SVS/MS 344/1998",
+   "CF/1988, art. 5º, XLIII",
+   "Lei 8.072/1990, art. 2º",
+   "Súmula 587 STJ",
+   "Súmula 607 STJ",
+   "Súmula 630 STJ",
+   "Tema 506 STF"
+  ],
+  "nao_confundir": "Não confundir com 4693, que trata do regime dos crimes hediondos e equiparados em geral; se a questão discute tipo penal, usuário, associação, minorante do §4º ou majorantes da Lei 11.343/2006, o tema é 4708. Distinguir de 4705 quando o enunciado tratar de organização criminosa da Lei 12.850/2013; a associação para o tráfico do art. 35 da Lei de Drogas, inclusive seus requisitos próprios, permanece em 4708. Se o foco for técnica investigativa autônoma, como interceptação telefônica, o tema pode ser 4700; mas interceptação apenas como meio de prova em investigação de tráfico não desloca o núcleo da questão de Lei de Drogas."
+ },
+ "4709": {
+  "descricao": "Abrange os crimes e mecanismos especiais de proteção penal de crianças e adolescentes, sobretudo os previstos no ECA e nas leis de enfrentamento à violência contra esse público. Em provas, costuma envolver pornografia infantil, corrupção de menores, entrega irregular para adoção, venda de produtos proibidos a menores, constrangimento ilegal de adolescente apreendido, escuta/depoimento especial e medidas protetivas da Lei Henry Borel.",
+  "palavras_chave": [
+   "Estatuto da Criança e do Adolescente",
+   "ECA",
+   "criança ou adolescente",
+   "pornografia infantil",
+   "cena de sexo explícito",
+   "corrupção de menores",
+   "exploração sexual infantil",
+   "entrega de filho mediante recompensa",
+   "adoção irregular",
+   "subtração de criança",
+   "venda de bebida alcoólica a menor",
+   "depoimento especial",
+   "escuta especializada",
+   "Lei Henry Borel",
+   "medida protetiva de urgência"
+  ],
+  "dispositivos": [
+   "Lei 8.069/1990, arts. 225 a 244-B, ECA",
+   "Lei 8.069/1990, arts. 240 a 241-E, ECA",
+   "Lei 8.069/1990, art. 244-B, ECA",
+   "Lei 13.431/2017",
+   "Lei 14.344/2022, Lei Henry Borel",
+   "Lei 14.344/2022, art. 25",
+   "art. 121, § 2º, IX, CP",
+   "Súmula 500 STJ"
+  ],
+  "nao_confundir": "Não confundir com 4704, Lei Maria da Penha: se o foco for violência doméstica contra mulher adulta, aplica-se o tema 4704; se a vítima central for criança ou adolescente e a questão tratar do ECA, Lei 13.431/2017 ou Lei Henry Borel, fica em 4709. Não confundir com 4707, Tortura, nem com 4693, Crimes Hediondos: se a pergunta tratar especificamente do tipo penal de tortura ou do regime jurídico dos hediondos, classificar nesses temas; se tratar de crimes/proteções especiais contra criança e adolescente, classificar aqui. Também distinguir de 4697 e 4708: porte/tráfico em si vão para Estatuto do Desarmamento ou Drogas, enquanto venda/fornecimento a menor prevista no ECA ou corrupção de menores fica em 4709."
+ },
+ "5077": {
+  "descricao": "Abrange o crime de lesão corporal do art. 129 do Código Penal, incluindo lesão leve, grave, gravíssima, lesão seguida de morte, lesão culposa e hipóteses de violência doméstica ou familiar. Em provas, costuma exigir a distinção entre as qualificadoras pelo resultado, causas de aumento, forma privilegiada e regras especiais de ação penal, especialmente em contexto de violência doméstica contra a mulher.",
+  "palavras_chave": [
+   "lesão corporal",
+   "ofensa à integridade corporal",
+   "ofensa à saúde",
+   "lesão leve",
+   "lesão grave",
+   "lesão gravíssima",
+   "incapacidade para ocupações habituais",
+   "perigo de vida",
+   "debilidade permanente",
+   "deformidade permanente",
+   "aborto resultante de lesão",
+   "lesão seguida de morte",
+   "lesão corporal culposa",
+   "violência doméstica e familiar",
+   "ação penal na lesão corporal"
+  ],
+  "dispositivos": [
+   "art. 129 CP",
+   "art. 129, §1º, CP",
+   "art. 129, §2º, CP",
+   "art. 129, §3º, CP",
+   "art. 129, §4º, CP",
+   "art. 129, §5º, CP",
+   "art. 129, §6º, CP",
+   "art. 129, §9º, CP",
+   "art. 129, §10, CP",
+   "art. 129, §11, CP",
+   "art. 129, §12, CP",
+   "art. 129, §13, CP",
+   "art. 88 da Lei 9.099/1995",
+   "Lei 11.340/2006",
+   "Súmula 542 STJ",
+   "Súmula 536 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5149, pois nas lesões corporais o dolo é de ferir ou ofender a saúde; se houver animus necandi, o tema será homicídio tentado ou consumado, ainda que a vítima sobreviva. Também se distingue de 5138, em que o foco é a criação de perigo à vida ou à saúde, como maus-tratos ou omissão de socorro, sem necessariamente haver resultado lesivo típico do art. 129 CP. Questões centradas apenas na titularidade ou modalidade da ação penal devem ir para 5063, salvo quando a ação penal aparece como consequência específica das espécies de lesão corporal."
+ },
+ "5066": {
+  "descricao": "Abrange as regras gerais de concurso de crimes: quando uma ou mais condutas geram dois ou mais crimes e como se calcula a pena final. Em provas, costuma envolver identificação entre concurso material, concurso formal e crime continuado, escolha entre cúmulo material e exasperação, além de limites e reflexos na dosimetria.",
+  "palavras_chave": [
+   "concurso de crimes",
+   "pluralidade de crimes",
+   "pluralidade de condutas",
+   "uma só ação ou omissão",
+   "mais de uma ação ou omissão",
+   "cúmulo material",
+   "exasperação da pena",
+   "sistema da acumulação",
+   "sistema da exasperação",
+   "pena mais grave",
+   "soma das penas",
+   "limite da pena",
+   "concurso formal",
+   "concurso material",
+   "crime continuado"
+  ],
+  "dispositivos": [
+   "arts. 69 a 72 CP",
+   "art. 69 CP",
+   "art. 70 CP",
+   "art. 71 CP",
+   "art. 72 CP",
+   "art. 75 CP",
+   "art. 119 CP",
+   "Súmula 243 STJ",
+   "Súmula 711 STF"
+  ],
+  "nao_confundir": "Não confundir com 5071, pois concurso de pessoas trata de pluralidade de agentes no mesmo crime, enquanto 5066 trata de pluralidade de crimes atribuídos ao agente. Também se distingue de 5199: se a questão discute cálculo da pena em razão de vários crimes, é 5066; se trata apenas de regime, substituição, sursis, agravantes, atenuantes ou fases da dosimetria sem pluralidade delitiva, é Teoria da Pena."
+ },
+ "5068": {
+  "descricao": "Cuida do concurso formal, hipótese em que o agente, mediante uma só ação ou omissão, pratica dois ou mais crimes. As questões geralmente cobram a diferença entre concurso formal próprio ou perfeito, com exasperação, e concurso formal impróprio ou imperfeito, com cúmulo material quando há desígnios autônomos.",
+  "palavras_chave": [
+   "concurso formal",
+   "uma só ação",
+   "uma só omissão",
+   "dois ou mais crimes",
+   "concurso formal próprio",
+   "concurso formal perfeito",
+   "concurso formal impróprio",
+   "concurso formal imperfeito",
+   "desígnios autônomos",
+   "unidade de conduta",
+   "resultado múltiplo",
+   "exasperação de um sexto até metade",
+   "pena mais grave aumentada",
+   "cúmulo material benéfico",
+   "acidente com várias vítimas"
+  ],
+  "dispositivos": [
+   "art. 70 CP",
+   "art. 70, caput, primeira parte, CP",
+   "art. 70, caput, segunda parte, CP",
+   "art. 72 CP",
+   "Súmula 243 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5067: no concurso material há duas ou mais condutas; no concurso formal há uma única conduta que produz pluralidade de crimes. Diferencia-se de 5069 porque o crime continuado exige vários crimes praticados em condições semelhantes de tempo, lugar e modo de execução, e não uma só ação ou omissão."
+ },
+ "5067": {
+  "descricao": "Abrange o concurso material, configurado quando o agente pratica dois ou mais crimes mediante mais de uma ação ou omissão. Em provas, o ponto central é a aplicação cumulativa das penas, inclusive distinguindo-o do concurso formal e da continuidade delitiva.",
+  "palavras_chave": [
+   "concurso material",
+   "mais de uma ação",
+   "mais de uma omissão",
+   "pluralidade de condutas",
+   "pluralidade de crimes",
+   "cúmulo material",
+   "soma das penas",
+   "penas aplicadas cumulativamente",
+   "crimes idênticos ou não",
+   "concurso material homogêneo",
+   "concurso material heterogêneo",
+   "várias condutas independentes",
+   "execução sucessiva",
+   "dosimetria de cada crime"
+  ],
+  "dispositivos": [
+   "art. 69 CP",
+   "art. 69, caput, CP",
+   "art. 69, § 1º, CP",
+   "art. 69, § 2º, CP",
+   "art. 72 CP",
+   "art. 75 CP",
+   "art. 119 CP",
+   "Súmula 243 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5068, pois neste há unidade de ação ou omissão; em 5067 há pluralidade de condutas. Também não confundir com 5069: se as várias condutas são tratadas como continuação umas das outras por condições de tempo, lugar, maneira de execução e semelhança entre crimes, o enquadramento é crime continuado, não concurso material simples."
+ },
+ "5069": {
+  "descricao": "Trata do crime continuado, ficção jurídica pela qual vários crimes da mesma espécie, praticados em condições semelhantes de tempo, lugar, maneira de execução e outras circunstâncias, são considerados continuação do primeiro para fins de pena. Em concursos, cobra-se a teoria objetivo-subjetiva, os requisitos da continuidade, a fração de aumento, a continuidade específica em crimes dolosos com violência ou grave ameaça contra vítimas diferentes e a incidência da lei penal no tempo.",
+  "palavras_chave": [
+   "crime continuado",
+   "continuidade delitiva",
+   "crimes da mesma espécie",
+   "mesmas condições de tempo",
+   "mesmas condições de lugar",
+   "mesma maneira de execução",
+   "continuação do primeiro",
+   "unidade de desígnios",
+   "teoria objetivo-subjetiva",
+   "fração de aumento",
+   "um sexto a dois terços",
+   "continuidade específica",
+   "vítimas diferentes",
+   "violência ou grave ameaça",
+   "condições judiciais favoráveis"
+  ],
+  "dispositivos": [
+   "art. 71 CP",
+   "art. 71, caput, CP",
+   "art. 71, parágrafo único, CP",
+   "art. 72 CP",
+   "art. 75 CP",
+   "art. 119 CP",
+   "Súmula 711 STF",
+   "Súmula 243 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5067: ambos pressupõem várias condutas, mas no crime continuado há vínculo objetivo, e em regra também unidade de desígnio segundo a jurisprudência, permitindo exasperação em vez de simples soma. Não confundir com 5068, pois no concurso formal existe uma única ação ou omissão; na continuidade delitiva há vários atos criminosos."
+ },
+ "5070": {
+  "descricao": "Abrange a regra específica da pena de multa no concurso de crimes, segundo a qual as multas são aplicadas distinta e integralmente. As questões costumam testar se a multa segue a exasperação da pena privativa de liberdade ou se deve ser somada de forma autônoma em concurso material, formal ou crime continuado.",
+  "palavras_chave": [
+   "pena de multa",
+   "multa no concurso de crimes",
+   "aplicação distinta",
+   "aplicação integral",
+   "multas somadas",
+   "não exasperação da multa",
+   "dias-multa",
+   "concurso material e multa",
+   "concurso formal e multa",
+   "crime continuado e multa",
+   "penas de multa cumulativas",
+   "artigo 72 do Código Penal",
+   "cálculo da multa",
+   "pena pecuniária",
+   "dosimetria da multa"
+  ],
+  "dispositivos": [
+   "art. 72 CP",
+   "art. 49 CP",
+   "art. 50 CP",
+   "art. 69 CP",
+   "art. 70 CP",
+   "art. 71 CP"
+  ],
+  "nao_confundir": "Não confundir com 5206, que trata da pena de multa em geral, seus critérios de fixação, valor do dia-multa e execução; o tema 5070 é restrito à incidência da multa quando há concurso de crimes. Também se diferencia de 5067, 5068 e 5069 porque estes definem a espécie de concurso e a pena privativa de liberdade, enquanto 5070 pergunta especificamente como ficam as multas."
+ },
+ "5071": {
+  "descricao": "Abrange a teoria geral do concurso de pessoas: quando duas ou mais pessoas concorrem para a prática de uma mesma infração penal, com relevância causal e vínculo subjetivo. Em provas, envolve requisitos, teoria monista adotada pelo CP, exceções pluralísticas, autoria, participação, coautoria, autoria mediata, comunicabilidade de circunstâncias e desvios subjetivos entre concorrentes.",
+  "palavras_chave": [
+   "concurso de pessoas",
+   "coautoria",
+   "participação",
+   "autor",
+   "partícipe",
+   "liame subjetivo",
+   "vínculo psicológico",
+   "teoria monista",
+   "teoria unitária",
+   "relevância causal",
+   "unidade de infração",
+   "pluralidade de agentes",
+   "participação de menor importância",
+   "circunstâncias incomunicáveis",
+   "desvio subjetivo"
+  ],
+  "dispositivos": [
+   "arts. 29 a 31 CP",
+   "art. 29, caput, CP",
+   "art. 29, §1º, CP",
+   "art. 29, §2º, CP",
+   "art. 30 CP",
+   "art. 31 CP",
+   "art. 62 CP"
+  ],
+  "nao_confundir": "Não confundir com 5066, que trata de concurso de crimes, isto é, pluralidade de infrações praticadas por um ou mais agentes; aqui o foco é a pluralidade de pessoas concorrendo para a mesma infração. Também se distingue de 5218, pois a análise não é apenas do fato típico individual, mas da imputação conjunta entre agentes."
+ },
+ "5072": {
+  "descricao": "Cuida da distinção entre autor e partícipe, das teorias sobre autoria e da regra de que quem concorre para o crime incide nas penas a ele cominadas, na medida de sua culpabilidade. Em concursos, costuma cobrar requisitos do concurso de pessoas, teoria restritiva, extensiva, domínio do fato, participação de menor importância e agravantes ligadas à direção ou organização da prática criminosa.",
+  "palavras_chave": [
+   "autor",
+   "partícipe",
+   "teoria do domínio do fato",
+   "teoria restritiva de autor",
+   "teoria extensiva de autor",
+   "executor material",
+   "mentor intelectual",
+   "mandante",
+   "participação de menor importância",
+   "na medida da culpabilidade",
+   "relevância causal da conduta",
+   "liame subjetivo",
+   "unidade de desígnios",
+   "autor intelectual",
+   "agravante do organizador"
+  ],
+  "dispositivos": [
+   "art. 29, caput, CP",
+   "art. 29, §1º, CP",
+   "art. 31 CP",
+   "art. 62, I, CP",
+   "art. 62, II, CP",
+   "art. 62, III, CP",
+   "art. 62, IV, CP"
+  ],
+  "nao_confundir": "Não confundir com 5074: em 5072, a ênfase é conceitual, distinguindo autor e partícipe e as teorias da autoria; em 5074, a questão normalmente pergunta sobre induzimento, instigação ou auxílio. Também se diferencia de 5073, que aprofunda espécies de autoria, como autoria mediata, colateral e coautoria."
+ },
+ "5073": {
+  "descricao": "Abrange formas específicas de autoria no concurso de pessoas: coautoria, autoria mediata, autoria colateral, autoria incerta e autoria sucessiva. As provas costumam explorar se há vínculo subjetivo entre os agentes, se alguém utiliza outrem como instrumento, ou se agentes atuam independentemente contra a mesma vítima ou objeto.",
+  "palavras_chave": [
+   "autoria mediata",
+   "autoria colateral",
+   "coautoria",
+   "autoria incerta",
+   "autoria sucessiva",
+   "domínio do fato",
+   "domínio da vontade",
+   "instrumento humano",
+   "erro provocado por terceiro",
+   "coação moral irresistível",
+   "obediência hierárquica",
+   "inimputável utilizado como instrumento",
+   "ausência de liame subjetivo",
+   "execução conjunta",
+   "divisão de tarefas"
+  ],
+  "dispositivos": [
+   "art. 29, caput, CP",
+   "art. 20, §2º, CP",
+   "art. 22 CP",
+   "art. 26 CP",
+   "art. 31 CP",
+   "art. 62, I, CP"
+  ],
+  "nao_confundir": "Não confundir com 5072, que trata da distinção geral entre autores e partícipes; em 5073, o ponto central é a modalidade de autoria. Se os agentes atuam sem ajuste ou vínculo subjetivo, a hipótese tende a ser de autoria colateral, não de concurso de pessoas propriamente dito nem de coautoria."
+ },
+ "5076": {
+  "descricao": "Trata da regra do art. 30 do CP sobre a comunicabilidade ou incomunicabilidade de circunstâncias, condições pessoais e elementares no concurso de pessoas. Em provas, a cobrança recai sobre distinguir circunstâncias subjetivas, circunstâncias objetivas e elementares do tipo, especialmente em crimes próprios, como peculato e infanticídio.",
+  "palavras_chave": [
+   "comunicabilidade",
+   "incomunicabilidade",
+   "circunstâncias pessoais",
+   "condições pessoais",
+   "elementares do crime",
+   "caráter pessoal",
+   "circunstância objetiva",
+   "circunstância subjetiva",
+   "crime próprio",
+   "crime funcional",
+   "qualidade de funcionário público",
+   "infanticídio",
+   "peculato",
+   "conhecimento da elementar",
+   "artigo 30 do CP"
+  ],
+  "dispositivos": [
+   "art. 30 CP",
+   "art. 29 CP",
+   "art. 123 CP",
+   "art. 312 CP",
+   "art. 327 CP",
+   "art. 155, §4º, IV, CP"
+  ],
+  "nao_confundir": "Não confundir com 5075, que trata do desvio subjetivo de conduta, isto é, quando um concorrente queria participar de crime menos grave e outro pratica crime mais grave. No art. 30, o problema é saber se uma qualidade, condição ou elementar de um agente se comunica aos demais, especialmente se conhecida por eles."
+ },
+ "5075": {
+  "descricao": "Abrange a cooperação dolosamente distinta, prevista no art. 29, §2º, do CP, quando um agente quis participar de crime menos grave, mas outro pratica crime mais grave. As questões exploram a responsabilidade do concorrente pelo crime que pretendia praticar e a possibilidade de aumento da pena se o resultado mais grave era previsível.",
+  "palavras_chave": [
+   "cooperação dolosamente distinta",
+   "desvio subjetivo",
+   "crime menos grave",
+   "crime mais grave",
+   "resultado previsível",
+   "previsibilidade do resultado",
+   "responde pelo crime pretendido",
+   "aumento até metade",
+   "vontade diversa",
+   "excesso do executor",
+   "desvio de finalidade",
+   "roubo e latrocínio",
+   "furto e roubo",
+   "dolo do concorrente"
+  ],
+  "dispositivos": [
+   "art. 29, §2º, CP",
+   "art. 29, caput, CP",
+   "art. 157, §3º, CP",
+   "art. 155 CP",
+   "art. 121 CP"
+  ],
+  "nao_confundir": "Não confundir com 5076: na cooperação dolosamente distinta, o critério é o crime efetivamente querido por cada agente e o excesso praticado por outro; na comunicabilidade, discute-se transmissão de circunstâncias ou elementares. Também não se confunde com 5066, pois não é concurso de crimes, mas limite da responsabilidade individual dentro do concurso de pessoas."
+ },
+ "5074": {
+  "descricao": "Cuida da participação em sentido estrito, isto é, a contribuição acessória ao crime alheio por induzimento, instigação ou auxílio material. Em provas, envolve acessoriedade da participação, punição da participação de menor importância, impunibilidade de ajuste, determinação, instigação ou auxílio quando o crime não chega ao menos a ser tentado, salvo disposição expressa.",
+  "palavras_chave": [
+   "participação",
+   "partícipe",
+   "induzimento",
+   "instigação",
+   "auxílio",
+   "auxílio material",
+   "auxílio moral",
+   "acessoriedade limitada",
+   "participação de menor importância",
+   "ajuste",
+   "determinação",
+   "crime não tentado",
+   "impunibilidade da participação",
+   "contribuição acessória",
+   "participação por omissão"
+  ],
+  "dispositivos": [
+   "art. 29, caput, CP",
+   "art. 29, §1º, CP",
+   "art. 31 CP",
+   "art. 13, §2º, CP",
+   "art. 122 CP",
+   "art. 286 CP",
+   "art. 287 CP"
+  ],
+  "nao_confundir": "Não confundir com 5072, que aborda a distinção ampla entre autor e partícipe; aqui o foco é a conduta acessória de induzir, instigar ou auxiliar. Também se diferencia de 5175: se a pergunta discute atos preparatórios, tentativa e consumação em si, é iter criminis; se discute a punição do auxílio ou instigação de terceiro, é participação."
+ },
+ "5125": {
+  "descricao": "Abrange os crimes do Código Penal que protegem a incolumidade pública contra perigos coletivos, especialmente situações capazes de atingir número indeterminado de pessoas ou bens. Na prática das provas, envolve a distinção entre perigo comum, segurança de transportes/comunicações e serviços de utilidade pública, com atenção a crimes de perigo abstrato ou concreto, qualificadoras por resultado e modalidades culposas.",
+  "palavras_chave": [
+   "incolumidade pública",
+   "perigo comum",
+   "perigo coletivo",
+   "incêndio",
+   "explosão",
+   "inundação",
+   "desabamento",
+   "desmoronamento",
+   "transporte ferroviário",
+   "transporte marítimo",
+   "transporte aéreo",
+   "serviço de utilidade pública",
+   "interrupção de serviço",
+   "comunicação telefônica ou telemática",
+   "qualificadora pelo resultado"
+  ],
+  "dispositivos": [
+   "arts. 250 a 266 CP",
+   "art. 258 CP",
+   "Título VIII, Capítulos I e II, CP"
+  ],
+  "nao_confundir": "Não confundir com 5138, que trata de perigo à vida ou à saúde de pessoas determinadas ou individualizáveis; aqui o risco é coletivo, à incolumidade pública. Também se distingue de 5144, pois crimes contra a saúde pública, como epidemia, curandeirismo e falsificação de medicamentos, estão fora deste recorte da árvore. Se o enunciado discutir dano patrimonial sem perigo comum, tende a ser 5157, e não 5125."
+ },
+ "5127": {
+  "descricao": "Cobre os crimes que colocam em risco a segurança dos meios de transporte e comunicação, bem como o funcionamento de serviços de utilidade pública. As questões costumam explorar perigo de desastre ferroviário, atentado contra transporte marítimo, fluvial ou aéreo, arremesso de projétil, sabotagem/interrupção de telecomunicações, informática ou serviço público essencial, além das formas qualificadas quando ocorre desastre, lesão ou morte.",
+  "palavras_chave": [
+   "perigo de desastre ferroviário",
+   "desastre ferroviário",
+   "transporte marítimo",
+   "transporte fluvial",
+   "transporte aéreo",
+   "outro meio de transporte",
+   "arremesso de projétil",
+   "segurança dos meios de transporte",
+   "serviço de utilidade pública",
+   "interrupção de serviço",
+   "perturbação de serviço telefônico",
+   "serviço telemático",
+   "serviço informático",
+   "informação de utilidade pública",
+   "sabotagem de comunicação"
+  ],
+  "dispositivos": [
+   "arts. 260 a 266 CP",
+   "art. 260 CP",
+   "art. 261 CP",
+   "art. 262 CP",
+   "art. 263 CP",
+   "art. 264 CP",
+   "art. 265 CP",
+   "art. 266 CP"
+  ],
+  "nao_confundir": "Não confundir com 5126: se o núcleo do fato é incêndio, explosão, inundação, desabamento ou material de salvamento, a classificação tende a ser 5126; se o foco é transporte, comunicação ou serviço de utilidade pública, é 5127. Diferencia-se de 5156 quando a questão tratar genericamente de funcionamento de serviços essenciais em outro contexto típico; aqui o critério é a previsão específica dos arts. 260 a 266 do CP. Também não se confunde com 5157 quando houver mero dano ao bem, sem risco ou perturbação à segurança do serviço ou transporte."
+ },
+ "5126": {
+  "descricao": "Abrange os crimes de perigo comum do Código Penal, nos quais a conduta cria risco coletivo por fogo, explosão, gás tóxico, inundação, desabamento, desmoronamento, subtração de material de salvamento ou difusão de doença/praga em lavoura, rebanho ou floresta. Em provas, é frequente a cobrança dos elementos objetivos, do caráter de perigo comum, das formas culposas e das qualificadoras pelo resultado previstas para esses delitos.",
+  "palavras_chave": [
+   "incêndio",
+   "explosão",
+   "gás tóxico",
+   "gás asfixiante",
+   "substância explosiva",
+   "inundação",
+   "perigo de inundação",
+   "desabamento",
+   "desmoronamento",
+   "material de salvamento",
+   "aparelho de combate ao perigo",
+   "difusão de doença",
+   "praga agrícola",
+   "lavoura",
+   "rebanho ou floresta"
+  ],
+  "dispositivos": [
+   "arts. 250 a 259 CP",
+   "art. 250 CP",
+   "art. 251 CP",
+   "art. 252 CP",
+   "art. 253 CP",
+   "art. 254 CP",
+   "art. 255 CP",
+   "art. 256 CP",
+   "art. 257 CP",
+   "art. 258 CP",
+   "art. 259 CP"
+  ],
+  "nao_confundir": "Não confundir com 5127, reservado aos riscos ligados a meios de transporte, comunicação e serviços de utilidade pública. Distingue-se de 5138 porque, nos crimes de perigo comum, o perigo é coletivo e indeterminado; nos crimes de periclitação da vida e da saúde, o perigo recai sobre pessoa ou grupo determinado. Se o fato for apenas dano, furto ou inutilização de coisa sem perigo comum, o tema mais adequado será 5157."
+ },
+ "5102": {
+  "descricao": "Tema abrangente dos crimes do Título VI do Código Penal, voltado à tutela da liberdade sexual, da dignidade sexual de vulneráveis e da moralidade sexual pública em hipóteses específicas. Em provas, inclui a identificação dos tipos penais sexuais, suas elementares, causas de aumento, ação penal, segredo de justiça e distinções entre violência, grave ameaça, fraude, vulnerabilidade e atos libidinosos sem conjunção carnal.",
+  "palavras_chave": [
+   "dignidade sexual",
+   "liberdade sexual",
+   "conjunção carnal",
+   "ato libidinoso",
+   "vulnerável",
+   "violência ou grave ameaça",
+   "fraude sexual",
+   "importunação sexual",
+   "assédio sexual",
+   "estupro de vulnerável",
+   "exploração sexual",
+   "segredo de justiça",
+   "ação penal pública incondicionada"
+  ],
+  "dispositivos": [
+   "arts. 213 a 234-C CP",
+   "art. 213 CP",
+   "art. 215 CP",
+   "art. 215-A CP",
+   "art. 216-A CP",
+   "art. 216-B CP",
+   "art. 217-A CP",
+   "arts. 218 a 218-C CP",
+   "arts. 225 e 226 CP",
+   "arts. 234-A a 234-C CP",
+   "Súmula 593 STJ",
+   "Súmula 608 STF"
+  ],
+  "nao_confundir": "Este é o tema-pai: use-o quando a questão tratar genericamente dos crimes contra a dignidade sexual ou de regras comuns do Título VI. Se o enunciado focalizar um tipo específico, classifique no subtema próprio: 5103 para estupro/estupro de vulnerável, 5104 para fraude, 5105 para importunação, 5106 para assédio, 5107 para registro íntimo não autorizado, 5108 para corrupção sexual de menores/vulneráveis, 5109 para demais crimes. Não confundir com 5077 quando a discussão central for lesão corporal resultante ou autônoma, nem com 5128 quando o núcleo for privação da liberdade sem conteúdo sexual."
+ },
+ "5106": {
+  "descricao": "Abrange o crime de assédio sexual, consistente em constranger alguém com intuito de obter vantagem ou favorecimento sexual, prevalecendo-se o agente de sua condição de superior hierárquico ou ascendência inerente a emprego, cargo ou função. Em provas, o ponto decisivo costuma ser a existência de relação de hierarquia ou ascendência funcional, pois sem isso pode haver outro crime, ilícito trabalhista ou mera atipicidade penal.",
+  "palavras_chave": [
+   "assédio sexual",
+   "superior hierárquico",
+   "ascendência funcional",
+   "emprego cargo ou função",
+   "vantagem sexual",
+   "favorecimento sexual",
+   "constranger alguém",
+   "ambiente de trabalho",
+   "chefe e subordinado",
+   "professor e aluno",
+   "abuso de posição",
+   "relação laboral",
+   "intuito sexual"
+  ],
+  "dispositivos": [
+   "art. 216-A CP",
+   "art. 225 CP",
+   "art. 226 CP",
+   "art. 234-B CP"
+  ],
+  "nao_confundir": "Não confundir com 5105: na importunação sexual há ato libidinoso praticado contra alguém sem anuência, e não necessariamente relação hierárquica. Não confundir com 5103: se há violência ou grave ameaça para conjunção carnal ou ato libidinoso, o caso é estupro. Se a questão tratar apenas de perseguição, ameaça ou constrangimento sem finalidade sexual típica, pode migrar para 5128."
+ },
+ "5108": {
+  "descricao": "Cobre os crimes sexuais praticados contra crianças, adolescentes ou vulneráveis que não se enquadram diretamente como estupro de vulnerável, especialmente induzir menor de 14 anos a satisfazer lascívia de outrem, presenciar ato libidinoso e exploração sexual de vulnerável. Em provas, é essencial diferenciar esses crimes de atos libidinosos praticados diretamente com a vítima, hipótese em que se tende ao estupro de vulnerável.",
+  "palavras_chave": [
+   "corrupção de menores",
+   "menor de 14 anos",
+   "satisfazer lascívia de outrem",
+   "presenciar conjunção carnal",
+   "presenciar ato libidinoso",
+   "satisfação de lascívia",
+   "criança ou adolescente",
+   "prostituição infantil",
+   "exploração sexual",
+   "vulnerável",
+   "aliciamento sexual",
+   "intermediação de menor",
+   "favorecimento da prostituição"
+  ],
+  "dispositivos": [
+   "art. 218 CP",
+   "art. 218-A CP",
+   "art. 218-B CP",
+   "art. 217-A CP",
+   "art. 225 CP",
+   "art. 226 CP",
+   "art. 234-A CP",
+   "art. 234-B CP",
+   "Súmula 593 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5103: se o agente pratica conjunção carnal ou outro ato libidinoso com menor de 14 anos, trata-se de estupro de vulnerável, não de corrupção de menores do art. 218. Não confundir com o crime de corrupção de menores do ECA, art. 244-B, que é tema de legislação especial e não exige conteúdo sexual. Se houver divulgação de cena sexual ou pornografia, o enquadramento pode ser 5109, especialmente art. 218-C CP."
+ },
+ "5110": {
+  "descricao": "Abrange as regras comuns aplicáveis aos crimes contra a dignidade sexual, como ação penal, causas de aumento, segredo de justiça e disposições gerais do Título VI. Em provas, aparece em questões sobre natureza da ação penal, majorantes por concurso de agentes, vínculo de autoridade ou parentesco, gravidez, transmissão de IST e regras processuais de sigilo.",
+  "palavras_chave": [
+   "disposições gerais",
+   "ação penal pública incondicionada",
+   "segredo de justiça",
+   "causas de aumento",
+   "concurso de agentes",
+   "ascendente padrasto madrasta",
+   "autoridade sobre a vítima",
+   "estupro coletivo",
+   "estupro corretivo",
+   "gravidez",
+   "infecção sexualmente transmissível",
+   "vítima idosa",
+   "pessoa com deficiência",
+   "majorantes sexuais"
+  ],
+  "dispositivos": [
+   "art. 225 CP",
+   "art. 226 CP",
+   "art. 234-A CP",
+   "art. 234-B CP",
+   "art. 234-C CP",
+   "Súmula 608 STF",
+   "Lei 12.015/2009",
+   "Lei 13.718/2018"
+  ],
+  "nao_confundir": "Não confundir com 5063, que trata da teoria geral da ação penal; aqui a pergunta deve estar ligada especificamente à ação penal nos crimes sexuais. Não confundir com 5066 ou 5071 quando a discussão principal for concurso de crimes ou concurso de pessoas em geral; o critério de desempate é se o foco está na majorante sexual ou em regras gerais de autoria e concurso."
+ },
+ "5103": {
+  "descricao": "Abrange o estupro e o estupro de vulnerável, incluindo conjunção carnal ou outro ato libidinoso mediante violência ou grave ameaça, bem como atos sexuais com menor de 14 anos ou pessoa vulnerável, independentemente de consentimento. Em provas, os temas recorrentes são vulnerabilidade absoluta do menor de 14 anos, irrelevância de experiência sexual prévia ou relacionamento, distinção entre violência real e presumida e formas qualificadas pelo resultado.",
+  "palavras_chave": [
+   "estupro",
+   "estupro de vulnerável",
+   "conjunção carnal",
+   "ato libidinoso",
+   "violência ou grave ameaça",
+   "menor de 14 anos",
+   "vulnerabilidade absoluta",
+   "discernimento reduzido",
+   "não pode oferecer resistência",
+   "consentimento irrelevante",
+   "violência presumida",
+   "qualificadora pelo resultado",
+   "lesão grave",
+   "morte da vítima",
+   "Súmula 593 STJ"
+  ],
+  "dispositivos": [
+   "art. 213 CP",
+   "art. 217-A CP",
+   "art. 225 CP",
+   "art. 226 CP",
+   "art. 234-A CP",
+   "art. 234-B CP",
+   "Súmula 593 STJ",
+   "Súmula 608 STF"
+  ],
+  "nao_confundir": "Não confundir com 5105: importunação sexual é subsidiária e envolve ato libidinoso sem violência ou grave ameaça e sem a vulnerabilidade do art. 217-A. Não confundir com 5104: na violação sexual mediante fraude, o consentimento existe, mas é viciado por fraude ou meio impeditivo da livre manifestação de vontade. Lesões corporais ou morte decorrentes podem repercutir na forma qualificada, mas, se forem o foco autônomo da questão, verificar 5077 ou 5149."
+ },
+ "5105": {
+  "descricao": "Trata do crime de importunação sexual, caracterizado pela prática de ato libidinoso contra alguém e sem sua anuência, com objetivo de satisfazer a própria lascívia ou a de terceiro. Nas provas, costuma aparecer como figura intermediária entre contravenção revogada, assédio e estupro, exigindo atenção à ausência de violência ou grave ameaça e à inexistência de vulnerabilidade típica do art. 217-A.",
+  "palavras_chave": [
+   "importunação sexual",
+   "ato libidinoso sem anuência",
+   "satisfazer lascívia",
+   "transporte público",
+   "encoxar",
+   "beijo roubado",
+   "masturbação em público contra vítima",
+   "sem violência ou grave ameaça",
+   "ato lascivo",
+   "ausência de consentimento",
+   "subsidiariedade",
+   "dignidade sexual",
+   "Lei 13.718/2018"
+  ],
+  "dispositivos": [
+   "art. 215-A CP",
+   "art. 213 CP",
+   "art. 217-A CP",
+   "art. 225 CP",
+   "Lei 13.718/2018"
+  ],
+  "nao_confundir": "Não confundir com 5103: se houver violência ou grave ameaça, ou se a vítima for vulnerável nos termos do art. 217-A, o enquadramento tende a estupro ou estupro de vulnerável. Não confundir com 5106, pois assédio sexual depende de constrangimento com prevalecimento de hierarquia ou ascendência funcional. Se o ato for meramente obsceno sem vítima determinada, pode ser 5109, art. 233 CP."
+ },
+ "5109": {
+  "descricao": "Abrange os demais crimes contra a dignidade sexual não destacados em subtema próprio, especialmente divulgação de cena de estupro, sexo ou pornografia, lenocínio, exploração sexual, casa de prostituição, rufianismo e ultraje público ao pudor. Em provas, o foco costuma ser identificar núcleos como divulgar, oferecer, vender, intermediar, manter estabelecimento, tirar proveito da prostituição ou praticar ato obsceno em local público.",
+  "palavras_chave": [
+   "divulgação de cena de estupro",
+   "cena de sexo",
+   "pornografia",
+   "revenge porn",
+   "lenocínio",
+   "mediação para servir a lascívia",
+   "favorecimento da prostituição",
+   "exploração sexual",
+   "casa de prostituição",
+   "rufianismo",
+   "tirar proveito da prostituição",
+   "ato obsceno",
+   "escrito ou objeto obsceno",
+   "ultraje público ao pudor"
+  ],
+  "dispositivos": [
+   "art. 218-C CP",
+   "art. 227 CP",
+   "art. 228 CP",
+   "art. 229 CP",
+   "art. 230 CP",
+   "art. 233 CP",
+   "art. 234 CP",
+   "art. 225 CP",
+   "art. 234-B CP",
+   "Lei 13.718/2018"
+  ],
+  "nao_confundir": "Não confundir com 5108 quando a conduta envolver exploração sexual de criança, adolescente ou vulnerável especificamente prevista no art. 218-B. Não confundir com 5107: o registro não autorizado da intimidade sexual pune a captação/registro, enquanto o art. 218-C pune a divulgação, transmissão ou publicação. Se a conduta for tráfico de pessoas para exploração sexual, o tipo atual é art. 149-A CP, mais próximo de 5128."
+ },
+ "5107": {
+  "descricao": "Trata do crime de produzir, fotografar, filmar ou registrar, por qualquer meio, conteúdo com cena de nudez, ato sexual ou libidinoso de caráter íntimo e privado sem autorização dos participantes. Em provas, a distinção central é entre registrar indevidamente a intimidade sexual e divulgar ou compartilhar posteriormente esse material.",
+  "palavras_chave": [
+   "registro não autorizado",
+   "intimidade sexual",
+   "cena de nudez",
+   "ato sexual íntimo",
+   "ato libidinoso íntimo",
+   "fotografar sem consentimento",
+   "filmar sem autorização",
+   "câmera escondida",
+   "conteúdo íntimo",
+   "privacidade sexual",
+   "registro clandestino",
+   "nudez privada",
+   "participantes sem autorização"
+  ],
+  "dispositivos": [
+   "art. 216-B CP",
+   "art. 218-C CP",
+   "art. 225 CP",
+   "art. 234-B CP",
+   "Lei 13.772/2018"
+  ],
+  "nao_confundir": "Não confundir com 5109, art. 218-C CP: este pune a divulgação ou compartilhamento de cena sexual, enquanto o art. 216-B pune a produção ou registro não autorizado. Não confundir com 5105 se não há mero ato libidinoso contra a vítima, mas captação de imagem íntima. Se a discussão for invasão de dispositivo informático para obter imagens, pode haver interface com crimes contra a inviolabilidade de segredos em 5128."
+ },
+ "5104": {
+  "descricao": "Abrange a violação sexual mediante fraude, em que o agente pratica conjunção carnal ou outro ato libidinoso com alguém mediante fraude ou outro meio que impeça ou dificulte a livre manifestação de vontade da vítima. Em provas, a chave é perceber que não há violência ou grave ameaça, mas consentimento viciado ou vontade sexual comprometida por engano, ardil ou meio equivalente.",
+  "palavras_chave": [
+   "violação sexual mediante fraude",
+   "fraude sexual",
+   "consentimento viciado",
+   "ardil",
+   "engano",
+   "livre manifestação de vontade",
+   "conjunção carnal mediante fraude",
+   "ato libidinoso mediante fraude",
+   "estelionato sexual",
+   "falsa identidade para ato sexual",
+   "meio que dificulte resistência",
+   "sem violência ou grave ameaça",
+   "vontade comprometida"
+  ],
+  "dispositivos": [
+   "art. 215 CP",
+   "art. 213 CP",
+   "art. 215-A CP",
+   "art. 217-A CP",
+   "art. 225 CP",
+   "art. 226 CP"
+  ],
+  "nao_confundir": "Não confundir com 5103: se há violência ou grave ameaça, é estupro; se a vítima é vulnerável, pode ser estupro de vulnerável. Não confundir com 5105: importunação sexual não exige fraude nem conjunção carnal, mas ato libidinoso contra alguém sem anuência. Se o engano tiver finalidade patrimonial, e não sexual, pode deslocar a análise para 5157, especialmente estelionato."
+ },
+ "5116": {
+  "descricao": "Tema abrangente dos crimes do Título X do Código Penal, voltados à tutela da fé pública: confiança social na autenticidade de moedas, papéis públicos, documentos, identidades, sinais identificadores e certames. Em provas, costuma envolver tipificação entre falsidade material, falsidade ideológica, uso de documento falso, moeda falsa, falsa identidade, adulteração de sinal de veículo e fraude em concurso/certame.",
+  "palavras_chave": [
+   "fé pública",
+   "falsificação",
+   "falsidade material",
+   "falsidade ideológica",
+   "documento público",
+   "documento particular",
+   "uso de documento falso",
+   "moeda falsa",
+   "papéis públicos",
+   "falsa identidade",
+   "adulteração de sinal identificador",
+   "fraude em certame",
+   "potencialidade lesiva",
+   "falsidade grosseira",
+   "Súmula 17 STJ"
+  ],
+  "dispositivos": [
+   "arts. 289 a 311-A CP",
+   "arts. 289 a 295 CP",
+   "arts. 296 a 305 CP",
+   "arts. 306 a 311-A CP",
+   "Súmula 17 STJ",
+   "Súmula 73 STJ",
+   "Súmula 104 STJ",
+   "Súmula 200 STJ",
+   "Súmula 522 STJ",
+   "Súmula 546 STJ",
+   "art. 109, IV, CF"
+  ],
+  "nao_confundir": "É o tema-mãe dos subtemas 5117, 5118 e 5119: use 5117 para moeda falsa e papéis/títulos públicos, 5118 para falsidades documentais e 5119 para outras falsidades como falsa identidade, sinal de veículo e certame. Não confundir com 5157 quando a falsidade for mero meio para estelionato; pela Súmula 17 do STJ, se o falso se exaure no estelionato sem potencialidade lesiva autônoma, prevalece o crime patrimonial. Também não confundir com 5079 quando a conduta for falso testemunho, denunciação caluniosa ou fraude processual, pois aí o bem jurídico principal é a administração da justiça."
+ },
+ "5118": {
+  "descricao": "Abrange as falsidades documentais propriamente ditas, especialmente falsificação de documento público ou particular, falsidade ideológica, falso reconhecimento de firma, certidão ou atestado falso, atestado médico falso, uso de documento falso e supressão de documento. A prova costuma cobrar a diferença entre falsidade material e ideológica, documento público e particular, competência, absorção pelo estelionato e autonomia do uso de documento falso.",
+  "palavras_chave": [
+   "falsificação de documento público",
+   "falsificação de documento particular",
+   "falsidade ideológica",
+   "uso de documento falso",
+   "supressão de documento",
+   "falso reconhecimento de firma",
+   "atestado médico falso",
+   "certidão falsa",
+   "documento ideologicamente falso",
+   "carteira de trabalho",
+   "cartão de crédito ou débito",
+   "potencialidade lesiva",
+   "documento público por equiparação",
+   "Súmula 546 STJ",
+   "Súmula 17 STJ"
+  ],
+  "dispositivos": [
+   "art. 296 CP",
+   "art. 297 CP",
+   "art. 298 CP",
+   "art. 299 CP",
+   "art. 300 CP",
+   "art. 301 CP",
+   "art. 302 CP",
+   "art. 303 CP",
+   "art. 304 CP",
+   "art. 305 CP",
+   "Súmula 17 STJ",
+   "Súmula 104 STJ",
+   "Súmula 200 STJ",
+   "Súmula 546 STJ"
+  ],
+  "nao_confundir": "Distingue-se de 5117 porque aqui o objeto é documento, selo/sinal público documental, certidão, atestado ou o próprio uso/supressão documental; em 5117 predominam moeda falsa, títulos e papéis públicos. Distingue-se de 5119 porque falsa identidade sem falsificação documental, uso de documento verdadeiro de terceiro, adulteração de chassi/placa e fraude em certame ficam em outras falsidades. Não confundir com 5157: se o documento falso é apenas meio sem potencialidade autônoma para estelionato, aplica-se a Súmula 17 do STJ."
+ },
+ "5119": {
+  "descricao": "Compreende as demais falsidades previstas nos arts. 306 a 311-A do Código Penal, que não são falsidade documental típica: falsa identidade, uso de documento de identidade alheio, fraude relacionada a estrangeiro, falsidade em nacionalização de sociedade, adulteração de sinal identificador de veículo e fraude em certame de interesse público. Em concursos, o foco costuma ser a tipicidade da falsa identidade perante autoridade, a diferença entre documento falso e documento verdadeiro alheio, e as formas de adulteração de veículo ou violação de sigilo de concurso.",
+  "palavras_chave": [
+   "falsa identidade",
+   "atribuir-se falsa identidade",
+   "autodefesa",
+   "documento de identidade alheio",
+   "uso de documento verdadeiro de terceiro",
+   "estrangeiro",
+   "nacionalização de sociedade",
+   "sinal identificador de veículo",
+   "chassi",
+   "placa",
+   "remarcação",
+   "adulteração de veículo",
+   "fraude em certame",
+   "concurso público",
+   "conteúdo sigiloso"
+  ],
+  "dispositivos": [
+   "art. 306 CP",
+   "art. 307 CP",
+   "art. 308 CP",
+   "art. 309 CP",
+   "art. 310 CP",
+   "art. 311 CP",
+   "art. 311-A CP",
+   "Súmula 522 STJ",
+   "Lei 12.550/2011",
+   "Lei 14.562/2023"
+  ],
+  "nao_confundir": "Não confundir com 5118: se há falsificação, alteração ou uso de documento falso, o enquadramento é de falsidade documental; se o agente usa documento verdadeiro pertencente a outra pessoa, o foco é art. 308 CP, neste tema. Também se distingue de 5117, que trata de moeda falsa e papéis/títulos públicos, e de 5087, pois a fraude em certame ou falsa identidade não exige necessariamente crime contra a Administração Pública, embora possa envolver órgão público."
+ },
+ "5117": {
+  "descricao": "Funciona como núcleo residual dos crimes contra a fé pública não documentais, especialmente moeda falsa e falsidade de títulos e outros papéis públicos. Nas provas, envolve falsificação, alteração, introdução em circulação, guarda ou aquisição de moeda falsa, crimes assimilados, petrechos de falsificação, emissão irregular de títulos ao portador e falsificação de papéis públicos.",
+  "palavras_chave": [
+   "moeda falsa",
+   "papel-moeda",
+   "moeda metálica",
+   "introduzir em circulação",
+   "receber de boa-fé",
+   "restituir à circulação",
+   "petrechos para falsificação",
+   "crimes assimilados ao de moeda falsa",
+   "falsificação de papéis públicos",
+   "título ao portador",
+   "selo destinado a controle tributário",
+   "vale postal",
+   "cautela de penhor",
+   "falsidade grosseira",
+   "competência federal"
+  ],
+  "dispositivos": [
+   "art. 289 CP",
+   "art. 290 CP",
+   "art. 291 CP",
+   "art. 292 CP",
+   "art. 293 CP",
+   "art. 294 CP",
+   "art. 295 CP",
+   "Súmula 73 STJ",
+   "art. 109, IV, CF"
+  ],
+  "nao_confundir": "Distingue-se de 5118 porque não trata de documento público ou particular comum, falsidade ideológica, atestados, certidões ou uso de documento falso, mas de moeda, títulos e papéis públicos. Distingue-se de 5119 porque não envolve falsa identidade, documento verdadeiro alheio, adulteração de sinal de veículo ou fraude em certame. Se a falsificação de moeda for grosseira e incapaz de iludir, pode haver discussão de atipicidade do art. 289 CP ou eventual estelionato, aproximando-se de 5157 conforme o caso."
+ },
+ "5120": {
+  "descricao": "Abrange o conjunto dos crimes contra a honra previstos no Código Penal: calúnia, difamação e injúria, além das regras comuns de aumento de pena, imunidades, retratação, pedido de explicações e ação penal. Em provas, aparece sobretudo na distinção entre honra objetiva e subjetiva, imputação de fato versus atribuição de qualidade ofensiva, e nas peculiaridades quando a vítima é funcionário público, Presidente da República, menor, idoso ou pessoa com deficiência.",
+  "palavras_chave": [
+   "honra objetiva",
+   "honra subjetiva",
+   "calúnia",
+   "difamação",
+   "injúria",
+   "imputação falsa de crime",
+   "fato ofensivo à reputação",
+   "dignidade e decoro",
+   "exceção da verdade",
+   "retratação",
+   "pedido de explicações",
+   "funcionário público em razão da função",
+   "meio que facilite a divulgação",
+   "redes sociais",
+   "ação penal privada"
+  ],
+  "dispositivos": [
+   "arts. 138 a 145 CP",
+   "art. 5º, V e X, CF",
+   "Súmula 714 STF",
+   "ADPF 130 STF"
+  ],
+  "nao_confundir": "Se a questão tratar de um tipo penal específico, classificar nos subtemas 5122, 5123 ou 5124; usar 5120 para questões panorâmicas ou comparativas entre os crimes contra a honra. Não confundir com 5063 quando o foco for apenas espécie de ação penal, representação, queixa ou legitimidade; nem com 5079 quando a imputação falsa perante autoridade gera investigação, hipótese típica de denunciação caluniosa."
+ },
+ "5122": {
+  "descricao": "Cobre o crime de calúnia, consistente em imputar falsamente a alguém fato definido como crime. Nas provas, o ponto central é diferenciar a calúnia da difamação e da injúria, além de dominar a exceção da verdade, a calúnia contra os mortos e a punição de quem propala ou divulga a imputação falsa.",
+  "palavras_chave": [
+   "imputar falsamente",
+   "fato definido como crime",
+   "calúnia contra os mortos",
+   "propalar calúnia",
+   "divulgar calúnia",
+   "exceção da verdade",
+   "falsidade da imputação",
+   "honra objetiva",
+   "fato criminoso determinado",
+   "animus calumniandi",
+   "crime inexistente",
+   "autoria falsamente atribuída",
+   "ofendido absolvido por sentença irrecorrível"
+  ],
+  "dispositivos": [
+   "art. 138 CP",
+   "art. 138, §1º, CP",
+   "art. 138, §2º, CP",
+   "art. 138, §3º, CP",
+   "art. 141 CP",
+   "art. 143 CP",
+   "art. 145 CP",
+   "Súmula 714 STF"
+  ],
+  "nao_confundir": "Não confundir com difamação (5123): na calúnia o fato imputado deve ser definido como crime e a imputação deve ser falsa; na difamação basta fato ofensivo à reputação, ainda que não criminoso. Não confundir com denunciação caluniosa em 5079: se a falsa imputação é levada à autoridade e provoca investigação, processo ou procedimento contra inocente, o núcleo passa a ser crime contra a Administração da Justiça."
+ },
+ "5123": {
+  "descricao": "Abrange o crime de difamação, que consiste em imputar a alguém fato ofensivo à sua reputação, sem necessidade de que o fato seja crime. As questões costumam explorar a proteção da honra objetiva, a irrelevância da falsidade como regra, a exceção da verdade restrita ao funcionário público e as causas de aumento comuns.",
+  "palavras_chave": [
+   "imputar fato ofensivo",
+   "reputação",
+   "honra objetiva",
+   "fato desonroso",
+   "fato não criminoso",
+   "difamação contra funcionário público",
+   "exceção da verdade restrita",
+   "ofensa à reputação profissional",
+   "divulgação a terceiros",
+   "animus diffamandi",
+   "fato determinado",
+   "crítica ofensiva",
+   "publicidade da ofensa"
+  ],
+  "dispositivos": [
+   "art. 139 CP",
+   "art. 139, parágrafo único, CP",
+   "art. 141 CP",
+   "art. 142 CP",
+   "art. 143 CP",
+   "art. 144 CP",
+   "art. 145 CP",
+   "Súmula 714 STF"
+  ],
+  "nao_confundir": "Não confundir com calúnia (5122): se o fato imputado é definido como crime e é falso, o enquadramento tende à calúnia; se é apenas fato ofensivo à reputação, é difamação. Não confundir com injúria (5124): na difamação há imputação de fato a terceiro, enquanto na injúria há ofensa direta à dignidade ou ao decoro por qualidade negativa ou xingamento."
+ },
+ "5121": {
+  "descricao": "Reúne as disposições gerais aplicáveis aos crimes contra a honra, como causas de aumento de pena, imunidades materiais, retratação, pedido de explicações em juízo e regras de ação penal. Em concursos, o tema aparece em questões sobre crimes contra a honra praticados contra funcionário público, em redes sociais, mediante paga, em juízo, e sobre a legitimidade concorrente prevista na Súmula 714 do STF.",
+  "palavras_chave": [
+   "causas de aumento",
+   "Presidente da República",
+   "chefe de governo estrangeiro",
+   "funcionário público em razão das funções",
+   "presença de várias pessoas",
+   "meio que facilite a divulgação",
+   "redes sociais",
+   "mediante paga ou recompensa",
+   "imunidade judiciária",
+   "crítica literária artística ou científica",
+   "retratação",
+   "pedido de explicações",
+   "ação penal privada",
+   "representação do ofendido",
+   "legitimidade concorrente"
+  ],
+  "dispositivos": [
+   "art. 141 CP",
+   "art. 142 CP",
+   "art. 143 CP",
+   "art. 144 CP",
+   "art. 145 CP",
+   "Súmula 714 STF",
+   "art. 5º, V e X, CF",
+   "ADPF 130 STF"
+  ],
+  "nao_confundir": "Não confundir com 5122, 5123 e 5124 quando a questão exigir a identificação do tipo penal básico; 5121 deve ser usado quando o núcleo da pergunta for aumento de pena, imunidade, retratação, pedido de explicações ou ação penal nos crimes contra a honra. Se a questão for predominantemente sobre queixa, representação, decadência ou princípios da ação penal em geral, o tema mais adequado pode ser 5063."
+ },
+ "5124": {
+  "descricao": "Cobre o crime de injúria, que consiste em ofender a dignidade ou o decoro da vítima, atingindo sua honra subjetiva. Nas provas, é essencial distinguir a injúria da calúnia e da difamação pela ausência de imputação de fato determinado, além de conhecer o perdão judicial, a injúria real e as formas qualificadas ou especiais ligadas a elementos discriminatórios remanescentes no Código Penal.",
+  "palavras_chave": [
+   "ofender dignidade",
+   "ofender decoro",
+   "honra subjetiva",
+   "xingamento",
+   "qualidade negativa",
+   "injúria simples",
+   "injúria real",
+   "violência aviltante",
+   "vias de fato",
+   "perdão judicial",
+   "provocação reprovável",
+   "retorsão imediata",
+   "religião",
+   "pessoa idosa",
+   "pessoa com deficiência"
+  ],
+  "dispositivos": [
+   "art. 140 CP",
+   "art. 140, §1º, CP",
+   "art. 140, §2º, CP",
+   "art. 140, §3º, CP",
+   "art. 141 CP",
+   "art. 142 CP",
+   "art. 145 CP",
+   "Lei 7.716/1989, art. 2º-A",
+   "Lei 14.532/2023"
+  ],
+  "nao_confundir": "Não confundir com difamação (5123): na injúria não há imputação de fato específico a terceiro, mas ofensa direta à dignidade ou ao decoro da vítima. Não confundir com lesão corporal em 5077: se a violência é meio de humilhar ou aviltar, pode haver injúria real; se o foco é dano à integridade física ou saúde, prevalece o enquadramento em lesões corporais, sem prejuízo de concurso conforme o caso."
+ },
+ "5079": {
+  "descricao": "Abrange os crimes do Código Penal que protegem o regular funcionamento da Justiça e de seus órgãos auxiliares, como investigações, processos, provas, decisões judiciais e execução de prisões. Em provas, costuma aparecer pela identificação do tipo penal correto diante de condutas que atrapalham investigação, falseiam prova, favorecem criminosos ou desobedecem atos judiciais.",
+  "palavras_chave": [
+   "administração da justiça",
+   "inquérito policial",
+   "processo judicial",
+   "autoridade policial",
+   "induzir juiz a erro",
+   "falsa imputação",
+   "testemunha",
+   "perito",
+   "favorecimento",
+   "fraude processual",
+   "coação no curso do processo",
+   "fuga de preso",
+   "patrocínio infiel",
+   "exploração de prestígio"
+  ],
+  "dispositivos": [
+   "arts. 338 a 359 CP",
+   "art. 339 CP",
+   "art. 342 CP",
+   "art. 344 CP",
+   "art. 347 CP",
+   "arts. 348 e 349 CP",
+   "art. 350 CP revogado pela Lei 13.869/2019"
+  ],
+  "nao_confundir": "Não confundir com 5087, pois aqui o bem jurídico imediato é a função jurisdicional/investigativa, e não a probidade ou regularidade geral da Administração Pública. Também se distingue de 5116 quando a falsidade documental é fim em si mesma; se a conduta visa diretamente enganar juiz, perito ou autoridade em processo/inquérito, tende a ser 5079 ou seus subtemas."
+ },
+ "5080": {
+  "descricao": "Cobre a denunciação caluniosa, a comunicação falsa de crime ou contravenção e a autoacusação falsa. O foco das questões é distinguir se há imputação falsa a pessoa determinada sabidamente inocente, simples notícia de fato criminoso inexistente ou falsa atribuição do crime a si próprio.",
+  "palavras_chave": [
+   "denunciação caluniosa",
+   "comunicação falsa de crime",
+   "autoacusação falsa",
+   "dar causa à investigação",
+   "pessoa sabidamente inocente",
+   "crime inexistente",
+   "contravenção inexistente",
+   "procedimento investigatório criminal",
+   "inquérito civil",
+   "ação de improbidade",
+   "infração ético-disciplinar",
+   "anonimato",
+   "nome suposto",
+   "acusou-se falsamente"
+  ],
+  "dispositivos": [
+   "art. 339 CP",
+   "art. 340 CP",
+   "art. 341 CP",
+   "Lei 14.110/2020"
+  ],
+  "nao_confundir": "Não confundir com 5122, pois calúnia ofende a honra de alguém, enquanto a denunciação caluniosa movimenta indevidamente a máquina estatal contra inocente. Distingue-se de 5081 porque a falsidade aqui está na provocação da autoridade ou na imputação de fato, não em depoimento, perícia, tradução ou interpretação prestados como prova."
+ },
+ "5082": {
+  "descricao": "Abrange o exercício arbitrário das próprias razões, quando alguém busca satisfazer pretensão própria, ainda que legítima, sem recorrer aos meios legais, salvo hipóteses autorizadas. Inclui também a conduta de tirar, suprimir, destruir ou danificar coisa própria que se encontra em poder de terceiro por determinação judicial ou convenção.",
+  "palavras_chave": [
+   "fazer justiça pelas próprias mãos",
+   "pretensão legítima",
+   "satisfazer pretensão",
+   "sem autorização legal",
+   "emprego de violência",
+   "ação penal privada",
+   "mediante queixa",
+   "coisa própria em poder de terceiro",
+   "determinação judicial",
+   "convenção",
+   "destruir coisa própria",
+   "suprimir coisa própria",
+   "autotutela ilícita"
+  ],
+  "dispositivos": [
+   "art. 345 CP",
+   "art. 346 CP"
+  ],
+  "nao_confundir": "Não confundir com 5157 quando o agente visa subtrair ou obter vantagem patrimonial como fim criminoso autônomo; em 5082, o núcleo é a autotutela para satisfazer pretensão que o agente entende possuir. Também não se confunde com 5085: no art. 345 o agente atua como particular fazendo justiça pelas próprias mãos; no antigo art. 350, havia abuso ligado a poder estatal ou medida privativa de liberdade."
+ },
+ "5085": {
+  "descricao": "Tema voltado ao antigo crime de exercício arbitrário ou abuso de poder do art. 350 do Código Penal, que tratava de medidas privativas de liberdade praticadas sem formalidades legais ou com abuso. Em questões atuais, deve-se observar que o art. 350 foi revogado pela Lei de Abuso de Autoridade, de modo que muitas condutas hoje são enquadradas na Lei 13.869/2019.",
+  "palavras_chave": [
+   "exercício arbitrário",
+   "abuso de poder",
+   "prisão ilegal",
+   "medida privativa de liberdade",
+   "formalidades legais",
+   "constrangimento ilegal por autoridade",
+   "prolongamento indevido de prisão",
+   "comunicação da prisão",
+   "relaxamento de prisão",
+   "autoridade pública",
+   "Lei de Abuso de Autoridade",
+   "artigo revogado"
+  ],
+  "dispositivos": [
+   "art. 350 CP revogado",
+   "Lei 13.869/2019",
+   "arts. 9º, 12, 13 e 15 da Lei 13.869/2019"
+  ],
+  "nao_confundir": "Não confundir com 5082, que trata de autotutela por particular para satisfação de pretensão própria. Em provas pós-Lei 13.869/2019, se o enunciado cobra abuso de autoridade vigente, o enquadramento tende a ser 4684, e não o art. 350 do CP revogado."
+ },
+ "5081": {
+  "descricao": "Cobre o falso testemunho, a falsa perícia e a corrupção ativa de testemunha, perito, contador, tradutor ou intérprete. As provas exploram quem pode praticar o crime, a retratação antes da sentença no processo em que ocorreu o ilícito, as causas de aumento e a diferença em relação à corrupção ativa comum.",
+  "palavras_chave": [
+   "falso testemunho",
+   "falsa perícia",
+   "testemunha",
+   "perito",
+   "contador",
+   "tradutor",
+   "intérprete",
+   "calar a verdade",
+   "negar a verdade",
+   "fazer afirmação falsa",
+   "retratação",
+   "suborno de testemunha",
+   "corrupção ativa de testemunha",
+   "prova em processo penal",
+   "declaração da verdade"
+  ],
+  "dispositivos": [
+   "art. 342 CP",
+   "art. 343 CP"
+  ],
+  "nao_confundir": "Não confundir com 5093: a corrupção ativa comum envolve vantagem oferecida a funcionário público para ato de ofício; no art. 343, a vantagem é voltada à produção de prova falsa por testemunha, perito, contador, tradutor ou intérprete. Também se distingue de 5083, pois fraude processual manipula estado de lugar, coisa ou pessoa, enquanto 5081 recai sobre declaração, perícia, tradução, interpretação ou suborno desses sujeitos."
+ },
+ "5084": {
+  "descricao": "Abrange o favorecimento pessoal e o favorecimento real. No favorecimento pessoal, alguém auxilia autor de crime a subtrair-se à ação da autoridade; no favorecimento real, presta auxílio para tornar seguro o proveito do crime, fora dos casos de coautoria, participação ou receptação.",
+  "palavras_chave": [
+   "favorecimento pessoal",
+   "favorecimento real",
+   "subtrair-se à ação da autoridade",
+   "autor de crime",
+   "esconder criminoso",
+   "auxiliar fuga",
+   "proveito do crime",
+   "tornar seguro o proveito",
+   "fora dos casos de coautoria",
+   "fora dos casos de receptação",
+   "ascendente",
+   "descendente",
+   "cônjuge",
+   "irmão",
+   "isenção de pena"
+  ],
+  "dispositivos": [
+   "art. 348 CP",
+   "art. 349 CP"
+  ],
+  "nao_confundir": "Não confundir com 5071: se o auxílio foi previamente ajustado ou contribuiu para a prática do crime antecedente, pode haver concurso de pessoas; em 5084, o auxílio é posterior e autônomo. Também se distingue de 5169, pois na receptação o agente adquire, recebe, transporta ou oculta coisa produto de crime em contexto patrimonial próprio, enquanto o favorecimento real busca assegurar o proveito do crime para o autor anterior."
+ },
+ "5083": {
+  "descricao": "Trata da fraude processual, consistente em inovar artificiosamente o estado de lugar, coisa ou pessoa para induzir a erro juiz ou perito. As questões costumam cobrar a existência de processo civil ou administrativo, o curso de inquérito policial, e a regra especial de aumento/dobra quando a inovação visa produzir efeito em processo penal, ainda que não iniciado.",
+  "palavras_chave": [
+   "fraude processual",
+   "inovar artificiosamente",
+   "estado de lugar",
+   "estado de coisa",
+   "estado de pessoa",
+   "induzir juiz a erro",
+   "induzir perito a erro",
+   "pendência de processo",
+   "processo civil",
+   "processo administrativo",
+   "inquérito policial",
+   "processo penal ainda não iniciado",
+   "alterar cena do crime",
+   "simular provas"
+  ],
+  "dispositivos": [
+   "art. 347 CP"
+  ],
+  "nao_confundir": "Não confundir com 5116 quando a questão tratar apenas de falsificação material ou ideológica de documento sem finalidade processual imediata. Se o ponto central for modificar cenário, objeto ou pessoa para enganar juiz ou perito em processo ou investigação, o tema é 5083; se for depoimento ou laudo falso, tende a ser 5081."
+ },
+ "5086": {
+  "descricao": "Tema residual dos demais crimes contra a Administração da Justiça não alocados nos subtemas específicos, como coação no curso do processo, reingresso de estrangeiro expulso, ingresso de aparelho telefônico em presídio, fuga, evasão, arrebatamento e motim de presos, patrocínio infiel, exploração de prestígio e desobediência a decisão judicial. Em provas, serve para classificar tipos menos frequentes dos arts. 338 e 344 a 359 do CP, quando não se tratar de denunciação, falso testemunho, fraude processual ou favorecimento.",
+  "palavras_chave": [
+   "coação no curso do processo",
+   "reingresso de estrangeiro expulso",
+   "fuga de pessoa presa",
+   "evasão mediante violência",
+   "arrebatamento de preso",
+   "motim de presos",
+   "patrocínio infiel",
+   "sonegação de papel probatório",
+   "exploração de prestígio",
+   "violência em arrematação judicial",
+   "fraude em arrematação judicial",
+   "desobediência a decisão judicial",
+   "aparelho telefônico em presídio",
+   "advogado infiel"
+  ],
+  "dispositivos": [
+   "art. 338 CP",
+   "art. 344 CP",
+   "art. 349-A CP",
+   "arts. 351 a 359 CP",
+   "art. 355 CP",
+   "art. 357 CP",
+   "art. 359 CP"
+  ],
+  "nao_confundir": "Não usar 5086 quando a conduta se encaixar diretamente nos subtemas 5080, 5081, 5082, 5083, 5084 ou 5085; este é um agrupamento residual. Também não confundir com 5100: a desobediência comum do art. 330 CP é crime contra a Administração Pública em geral, enquanto o art. 359 CP envolve decisão judicial sobre perda ou suspensão de direito."
+ },
+ "5087": {
+  "descricao": "Abrange os crimes do Título XI do Código Penal voltados à proteção da Administração Pública, especialmente os delitos funcionais praticados por funcionário público e os crimes praticados por particulares contra a Administração em geral. Em provas, costuma envolver identificação do sujeito ativo, conceito penal de funcionário público, elementares funcionais, formas equiparadas e distinção entre tipos próximos como peculato, corrupção, concussão, prevaricação e resistência.",
+  "palavras_chave": [
+   "Administração Pública",
+   "funcionário público",
+   "crime funcional",
+   "delito próprio",
+   "particular contra a Administração",
+   "elementar funcional",
+   "cargo emprego ou função pública",
+   "administração direta e indireta",
+   "autarquia",
+   "empresa pública",
+   "sociedade de economia mista",
+   "majorante do cargo em comissão",
+   "violação do dever funcional",
+   "probidade administrativa"
+  ],
+  "dispositivos": [
+   "arts. 312 a 337-A CP",
+   "art. 327 CP",
+   "art. 30 CP",
+   "art. 29 CP",
+   "Súmula 599 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5079, que trata de crimes contra a Administração da Justiça, como denunciação caluniosa e falso testemunho, nem com 5147, que reúne crimes contra as finanças públicas. Se o núcleo do tipo protege a regularidade da função administrativa em geral, o tema é 5087; se protege processo judicial/investigação ou orçamento/finanças, usar 5079 ou 5147."
+ },
+ "5097": {
+  "descricao": "Trata do crime de advocacia administrativa, consistente em o funcionário público patrocinar, direta ou indiretamente, interesse privado perante a Administração Pública, valendo-se da qualidade funcional. As questões cobram a natureza de crime próprio, a irrelevância de vantagem econômica e a forma qualificada quando o interesse patrocinado é ilegítimo.",
+  "palavras_chave": [
+   "advocacia administrativa",
+   "patrocinar interesse privado",
+   "interesse legítimo",
+   "interesse ilegítimo",
+   "perante a Administração Pública",
+   "valendo-se da qualidade de funcionário",
+   "crime próprio",
+   "funcionário público",
+   "intermediação funcional",
+   "favorecimento de particular",
+   "processo administrativo",
+   "requerimento administrativo"
+  ],
+  "dispositivos": [
+   "art. 321 CP",
+   "art. 327 CP"
+  ],
+  "nao_confundir": "Confunde-se com 5101 quando há pedido de vantagem a pretexto de influir em funcionário; na advocacia administrativa, o próprio funcionário patrocina interesse privado. Diferencia-se de 5095 porque na prevaricação há ato de ofício praticado ou omitido para satisfazer interesse ou sentimento pessoal, e não patrocínio de interesse alheio perante a Administração."
+ },
+ "5091": {
+  "descricao": "Abrange a concussão, em que o funcionário público exige vantagem indevida em razão da função, e o excesso de exação, relativo à exigência indevida ou vexatória de tributo ou contribuição social. Em provas, o ponto central é distinguir a exigência intimidativa da simples solicitação ou recebimento de vantagem, bem como reconhecer as figuras qualificadas envolvendo desvio do valor arrecadado.",
+  "palavras_chave": [
+   "concussão",
+   "exigir vantagem indevida",
+   "em razão da função",
+   "excesso de exação",
+   "tributo indevido",
+   "contribuição social",
+   "cobrança vexatória",
+   "meio gravoso não autorizado",
+   "desvio em proveito próprio",
+   "desvio em proveito de terceiro",
+   "funcionário público",
+   "abuso da função",
+   "vantagem patrimonial"
+  ],
+  "dispositivos": [
+   "art. 316 CP",
+   "art. 327 CP"
+  ],
+  "nao_confundir": "Não confundir com 5092: na concussão o verbo é exigir; na corrupção passiva, solicitar, receber ou aceitar promessa. Também pode ser confundido com 5161, mas a extorsão é crime patrimonial comum, enquanto a concussão exige funcionário público atuando em razão da função."
+ },
+ "5096": {
+  "descricao": "Cuida da condescendência criminosa, crime funcional omissivo em que o superior deixa, por indulgência, de responsabilizar subordinado que cometeu infração no exercício do cargo, ou não comunica o fato à autoridade competente. As provas exploram o motivo específico de indulgência e a ausência de vantagem indevida.",
+  "palavras_chave": [
+   "condescendência criminosa",
+   "indulgência",
+   "deixar de responsabilizar subordinado",
+   "infração no exercício do cargo",
+   "não comunicar à autoridade competente",
+   "superior hierárquico",
+   "subordinado",
+   "omissão funcional",
+   "crime próprio",
+   "tolerância indevida",
+   "dever de apuração",
+   "responsabilidade disciplinar"
+  ],
+  "dispositivos": [
+   "art. 320 CP",
+   "art. 327 CP"
+  ],
+  "nao_confundir": "Distingue-se de 5095 porque, na prevaricação, a omissão visa satisfazer interesse ou sentimento pessoal; aqui o motivo é indulgência para com subordinado. Se houver vantagem indevida recebida ou solicitada para a omissão, o enquadramento tende a ser 5092."
+ },
+ "5094": {
+  "descricao": "Abrange descaminho e contrabando. Descaminho consiste em iludir o pagamento de direito ou imposto devido pela entrada, saída ou consumo de mercadoria permitida; contrabando envolve importar ou exportar mercadoria proibida, sendo comum a cobrança de distinções jurisprudenciais sobre insignificância e competência.",
+  "palavras_chave": [
+   "descaminho",
+   "contrabando",
+   "iludir tributo",
+   "imposto de importação",
+   "mercadoria permitida",
+   "mercadoria proibida",
+   "importar ou exportar",
+   "aduana",
+   "alfândega",
+   "cota de isenção",
+   "perdimento",
+   "apreensão de mercadorias",
+   "princípio da insignificância",
+   "reiteração delitiva"
+  ],
+  "dispositivos": [
+   "art. 334 CP",
+   "art. 334-A CP",
+   "Súmula 151 STJ",
+   "Súmula 599 STJ"
+  ],
+  "nao_confundir": "Não confundir descaminho com crimes tributários especiais, normalmente classificados em legislação penal especial, pois aqui o tipo está no Código Penal e envolve ilusão de tributo na operação de importação, exportação ou consumo. Contrabando não é mero inadimplemento tributário: o critério é a proibição da mercadoria."
+ },
+ "5093": {
+  "descricao": "Trata da corrupção ativa, crime praticado, em regra, por particular que oferece ou promete vantagem indevida a funcionário público para determiná-lo a praticar, omitir ou retardar ato de ofício. Em provas, é cobrada a autonomia em relação à corrupção passiva e a majorante quando o funcionário efetivamente age infringindo dever funcional.",
+  "palavras_chave": [
+   "corrupção ativa",
+   "oferecer vantagem indevida",
+   "prometer vantagem indevida",
+   "funcionário público",
+   "ato de ofício",
+   "retardar ato",
+   "omitir ato",
+   "praticar ato infringindo dever funcional",
+   "particular corruptor",
+   "bilateralidade não necessária",
+   "vantagem econômica",
+   "majorante",
+   "autonomia dos delitos"
+  ],
+  "dispositivos": [
+   "art. 333 CP",
+   "art. 327 CP"
+  ],
+  "nao_confundir": "Distingue-se de 5092 porque a corrupção ativa é conduta de quem oferece ou promete, enquanto a passiva é do funcionário que solicita, recebe ou aceita promessa. Não confundir com 5101, em que a vantagem é pedida a pretexto de influir em funcionário, sem que necessariamente se ofereça vantagem ao agente público."
+ },
+ "5092": {
+  "descricao": "Abrange a corrupção passiva, em que o funcionário público solicita, recebe ou aceita promessa de vantagem indevida em razão da função, ainda que fora dela ou antes de assumi-la. As questões costumam cobrar corrupção própria e imprópria, antecedente e subsequente, forma privilegiada e distinção em relação à concussão e à prevaricação.",
+  "palavras_chave": [
+   "corrupção passiva",
+   "solicitar vantagem indevida",
+   "receber vantagem indevida",
+   "aceitar promessa",
+   "em razão da função",
+   "ato de ofício",
+   "corrupção própria",
+   "corrupção imprópria",
+   "antecedente",
+   "subsequente",
+   "corrupção passiva privilegiada",
+   "ceder a pedido ou influência",
+   "funcionário público",
+   "majorante"
+  ],
+  "dispositivos": [
+   "art. 317 CP",
+   "art. 327 CP"
+  ],
+  "nao_confundir": "O principal desempate com 5091 é o verbo: exigir indica concussão; solicitar, receber ou aceitar promessa indica corrupção passiva. Se não há vantagem indevida e a conduta visa satisfazer interesse ou sentimento pessoal, o tema tende a ser 5095."
+ },
+ "5090": {
+  "descricao": "Trata do emprego irregular de verbas ou rendas públicas, caracterizado quando o agente dá a verba pública aplicação diversa da prevista em lei. Em provas, o foco é perceber que não há apropriação nem desvio em proveito próprio ou de terceiro, mas destinação pública irregular.",
+  "palavras_chave": [
+   "emprego irregular de verbas",
+   "rendas públicas",
+   "aplicação diversa da estabelecida em lei",
+   "verba pública",
+   "destinação legal",
+   "gestor público",
+   "ordenador de despesas",
+   "desvio de finalidade pública",
+   "orçamento público",
+   "crime funcional",
+   "ausência de proveito próprio",
+   "legalidade orçamentária"
+  ],
+  "dispositivos": [
+   "art. 315 CP",
+   "art. 327 CP"
+  ],
+  "nao_confundir": "Não confundir com 5089: no peculato-desvio, há desvio de bem ou valor em proveito próprio ou alheio; no emprego irregular, a verba continua destinada a finalidade pública, porém diversa da legalmente prevista. Também se aproxima de 5147, mas este reúne crimes específicos contra finanças públicas, como contratação de operação de crédito irregular."
+ },
+ "5088": {
+  "descricao": "Reúne noções gerais sobre crimes contra a Administração Pública, especialmente o conceito penal de funcionário público, equiparações, majorantes, comunicabilidade da condição funcional e classificação dos crimes funcionais em próprios e impróprios. Serve para questões introdutórias ou transversais que não se concentram em um tipo penal específico.",
+  "palavras_chave": [
+   "conceito de funcionário público",
+   "funcionário público por equiparação",
+   "cargo emprego ou função pública",
+   "crime funcional próprio",
+   "crime funcional impróprio",
+   "elementar do tipo",
+   "comunicabilidade de circunstâncias",
+   "administração direta",
+   "administração indireta",
+   "entidade paraestatal",
+   "empresa prestadora de serviço público",
+   "cargo em comissão",
+   "função de direção ou assessoramento",
+   "sujeito ativo qualificado"
+  ],
+  "dispositivos": [
+   "art. 327 CP",
+   "art. 30 CP",
+   "art. 29 CP",
+   "arts. 312 a 337-A CP"
+  ],
+  "nao_confundir": "Não usar 5088 quando o enunciado cobrar diretamente um tipo penal específico, como peculato 5089, corrupção passiva 5092 ou prevaricação 5095. O critério é reservar 5088 para conceitos gerais, sujeitos do crime, elementares funcionais e regras comuns aos delitos contra a Administração."
+ },
+ "5089": {
+  "descricao": "Abrange o peculato em suas modalidades principais: apropriação, desvio, furto, culposo e o peculato mediante erro de outrem. Em provas, cobra-se a posse do bem em razão do cargo, a qualidade de funcionário público, a reparação do dano no peculato culposo e a distinção entre apropriação/desvio funcional e meros crimes patrimoniais.",
+  "palavras_chave": [
+   "peculato",
+   "peculato-apropriação",
+   "peculato-desvio",
+   "peculato-furto",
+   "peculato culposo",
+   "peculato mediante erro de outrem",
+   "apropriar-se de dinheiro público",
+   "desviar valor público",
+   "posse em razão do cargo",
+   "erro de outrem",
+   "reparação do dano",
+   "extinção da punibilidade",
+   "redução de pena",
+   "funcionário público"
+  ],
+  "dispositivos": [
+   "art. 312 CP",
+   "art. 313 CP",
+   "art. 327 CP"
+  ],
+  "nao_confundir": "Distingue-se de 5090 porque no peculato há apropriação, subtração ou desvio em proveito próprio ou alheio; no emprego irregular, a verba é aplicada em finalidade pública diversa da legal. Se a vantagem é paga ao funcionário por terceiro em troca de ato funcional, o tema é 5092, não peculato."
+ },
+ "5095": {
+  "descricao": "Trata da prevaricação, consistente em retardar ou deixar de praticar ato de ofício, ou praticá-lo contra disposição expressa de lei, para satisfazer interesse ou sentimento pessoal. Inclui a figura específica do diretor de penitenciária ou agente público que deixa de cumprir dever de vedar acesso de preso a aparelho telefônico ou similar.",
+  "palavras_chave": [
+   "prevaricação",
+   "retardar ato de ofício",
+   "deixar de praticar ato de ofício",
+   "praticar ato contra lei",
+   "interesse pessoal",
+   "sentimento pessoal",
+   "satisfação pessoal",
+   "ato funcional",
+   "omissão funcional",
+   "diretor de penitenciária",
+   "aparelho telefônico em presídio",
+   "celular de preso",
+   "crime próprio"
+  ],
+  "dispositivos": [
+   "art. 319 CP",
+   "art. 319-A CP",
+   "art. 327 CP"
+  ],
+  "nao_confundir": "Não confundir com 5092, pois a prevaricação não envolve vantagem indevida. Diferencia-se de 5096 pelo motivo: indulgência com subordinado caracteriza condescendência criminosa; interesse ou sentimento pessoal caracteriza prevaricação."
+ },
+ "5100": {
+  "descricao": "Abrange resistência, desobediência e desacato, crimes praticados por particular contra a Administração Pública em geral. As provas cobram a oposição com violência ou ameaça a ato legal, o descumprimento de ordem legal de funcionário público e a ofensa à dignidade ou ao prestígio da função pública.",
+  "palavras_chave": [
+   "resistência",
+   "desobediência",
+   "desacato",
+   "oposição à execução de ato legal",
+   "violência ou ameaça",
+   "ordem legal",
+   "funcionário público",
+   "ato de ofício",
+   "ofender funcionário público",
+   "prestígio da função pública",
+   "cumprimento de mandado",
+   "prisão em flagrante",
+   "recusa injustificada",
+   "xingamento contra agente público"
+  ],
+  "dispositivos": [
+   "art. 329 CP",
+   "art. 330 CP",
+   "art. 331 CP"
+  ],
+  "nao_confundir": "Não confundir resistência com 5098: na resistência, o particular se opõe ao funcionário; na violência arbitrária, o funcionário pratica a violência. Ofensas a agente público fora do contexto funcional podem deslocar a análise para crimes contra a honra, tema 5120."
+ },
+ "5101": {
+  "descricao": "Trata do tráfico de influência, no qual alguém solicita, exige, cobra ou obtém vantagem ou promessa de vantagem a pretexto de influir em ato praticado por funcionário público no exercício da função. As questões costumam explorar que a influência pode ser falsa ou real e que há aumento de pena se o agente alega que a vantagem também se destina ao funcionário.",
+  "palavras_chave": [
+   "tráfico de influência",
+   "solicitar vantagem",
+   "exigir vantagem",
+   "cobrar vantagem",
+   "obter vantagem",
+   "pretexto de influir",
+   "ato de funcionário público",
+   "influência real ou suposta",
+   "intermediário",
+   "prestígio junto à Administração",
+   "vantagem destinada ao funcionário",
+   "majorante",
+   "venda de influência"
+  ],
+  "dispositivos": [
+   "art. 332 CP",
+   "art. 327 CP"
+  ],
+  "nao_confundir": "Distingue-se de 5097 porque, no tráfico de influência, o agente vende suposta influência sobre funcionário; na advocacia administrativa, o próprio funcionário patrocina interesse privado. Não confundir com 5093, em que a vantagem é oferecida ou prometida diretamente ao funcionário público para a prática de ato de ofício."
+ },
+ "5099": {
+  "descricao": "Abrange a usurpação de função pública, consistente em exercer indevidamente função pública sem investidura ou autorização legal. Em provas, é comum a cobrança da forma qualificada quando o agente aufere vantagem e a distinção em relação a falsa identidade ou estelionato.",
+  "palavras_chave": [
+   "usurpação de função pública",
+   "exercer função pública",
+   "sem investidura",
+   "sem autorização legal",
+   "falso policial",
+   "falso fiscal",
+   "falso servidor",
+   "prática de atos funcionais",
+   "vantagem auferida",
+   "forma qualificada",
+   "particular",
+   "aparência de autoridade",
+   "cargo público inexistente para o agente"
+  ],
+  "dispositivos": [
+   "art. 328 CP"
+  ],
+  "nao_confundir": "Não confundir com crimes contra a fé pública do tema 5116 quando a conduta se limita a usar documento falso ou atribuir-se falsa identidade sem exercer função pública. Se a falsa qualidade é usada para obter vantagem patrimonial da vítima, pode haver relação com estelionato 5166, mas o núcleo típico de 5099 é o exercício indevido da função pública."
+ },
+ "5098": {
+  "descricao": "Trata da violência arbitrária, atribuída ao funcionário público que pratica violência no exercício da função ou a pretexto de exercê-la. Em provas, o ponto decisivo é a qualidade funcional do agente e o vínculo entre a violência e a atuação estatal, sem prejuízo de eventual concurso com lesões corporais ou abuso de autoridade conforme o caso.",
+  "palavras_chave": [
+   "violência arbitrária",
+   "praticar violência",
+   "no exercício da função",
+   "a pretexto de exercer função",
+   "funcionário público",
+   "abuso funcional",
+   "violência contra administrado",
+   "agente público violento",
+   "ato arbitrário",
+   "uso ilegítimo da força",
+   "concurso com lesão corporal",
+   "abuso de autoridade"
+  ],
+  "dispositivos": [
+   "art. 322 CP",
+   "art. 327 CP",
+   "Lei 13.869/2019"
+  ],
+  "nao_confundir": "Não confundir com 5100: resistência é violência ou ameaça do particular contra o funcionário; violência arbitrária é violência do funcionário contra o particular. Se a questão enfatizar lesão corporal como resultado autônomo, pode envolver 5077 em concurso, mas o enquadramento em 5098 depende do abuso da função pública."
+ },
+ "5144": {
+  "descricao": "Tema guarda-chuva dos crimes do Código Penal que tutelam interesses coletivos ligados à saúde pública e à paz pública. Abrange tanto condutas que expõem a coletividade a risco sanitário, alimentar, medicinal ou profissional quanto condutas que estimulam crimes ou estruturam associação criminosa/milícia privada.",
+  "palavras_chave": [
+   "saúde pública",
+   "paz pública",
+   "perigo coletivo",
+   "epidemia",
+   "medida sanitária preventiva",
+   "falsificação de medicamento",
+   "exercício ilegal da medicina",
+   "charlatanismo",
+   "curandeirismo",
+   "incitação ao crime",
+   "apologia de crime",
+   "associação criminosa",
+   "milícia privada"
+  ],
+  "dispositivos": [
+   "arts. 267 a 285 CP",
+   "arts. 286 a 288-A CP",
+   "art. 285 CP",
+   "Lei 9.677/1998",
+   "Lei 12.720/2012"
+  ],
+  "nao_confundir": "Distingue-se de 5138 quando o perigo é coletivo e voltado à saúde pública; em 5138, a exposição ao risco é mais individualizada, como omissão de socorro ou maus-tratos. Não confundir com 5125: ali o foco é a incolumidade pública por incêndio, explosão, inundação e outros perigos comuns; aqui o foco é saúde pública ou paz social. Também se diferencia de 5071, pois associação criminosa é crime autônomo contra a paz pública, enquanto concurso de pessoas trata da imputação conjunta em qualquer delito."
+ },
+ "5146": {
+  "descricao": "Cobre os crimes contra a paz pública previstos nos arts. 286 a 288-A do Código Penal. Em provas, o foco recai sobre incitação ao crime, apologia de crime ou criminoso, associação criminosa e constituição de milícia privada, especialmente suas diferenças em relação a concurso de pessoas e organização criminosa.",
+  "palavras_chave": [
+   "incitação ao crime",
+   "apologia de crime",
+   "apologia de criminoso",
+   "associação criminosa",
+   "três ou mais pessoas",
+   "estabilidade e permanência",
+   "milícia privada",
+   "grupo de extermínio",
+   "esquadrão",
+   "paz pública",
+   "crime autônomo",
+   "concurso necessário",
+   "propaganda de fato criminoso",
+   "exaltação de criminoso"
+  ],
+  "dispositivos": [
+   "art. 286 CP",
+   "art. 287 CP",
+   "art. 288 CP",
+   "art. 288-A CP",
+   "Lei 12.720/2012",
+   "Lei 12.850/2013"
+  ],
+  "nao_confundir": "Não confundir com 5071: na associação criminosa exige-se vínculo estável e permanente para cometer crimes, sendo crime autônomo; no concurso de pessoas há apenas colaboração para um ou mais delitos determinados. Distingue-se de 4705 quando o enunciado tratar de organização criminosa da Lei 12.850/2013, que exige quatro ou mais pessoas, estrutura ordenada e divisão de tarefas. Pode tocar 5155 ou 5148 se houver ataque a instituições democráticas, mas permanece em 5146 quando o núcleo for incitar, fazer apologia, associar-se ou constituir milícia privada sem os tipos específicos contra o Estado Democrático."
+ },
+ "5145": {
+  "descricao": "Abrange os crimes contra a saúde pública do Código Penal, especialmente delitos de perigo comum relacionados a epidemia, medidas sanitárias, água, alimentos, medicamentos e exercício irregular de profissões de saúde. Em concursos, são frequentes questões sobre falsificação de medicamento, infração de medida sanitária preventiva, exercício ilegal da medicina, charlatanismo e curandeirismo.",
+  "palavras_chave": [
+   "epidemia",
+   "infração de medida sanitária preventiva",
+   "notificação compulsória",
+   "envenenamento de água potável",
+   "substância alimentícia",
+   "substância medicinal",
+   "produto terapêutico",
+   "medicamento falsificado",
+   "cosmético adulterado",
+   "saneante adulterado",
+   "exercício ilegal da medicina",
+   "arte dentária",
+   "farmácia",
+   "charlatanismo",
+   "curandeirismo"
+  ],
+  "dispositivos": [
+   "art. 267 CP",
+   "art. 268 CP",
+   "art. 269 CP",
+   "art. 270 CP",
+   "arts. 272 a 278 CP",
+   "art. 280 CP",
+   "art. 282 CP",
+   "art. 283 CP",
+   "art. 284 CP",
+   "art. 285 CP",
+   "Lei 6.360/1976",
+   "Lei 9.677/1998"
+  ],
+  "nao_confundir": "Não confundir com 5138: em 5145 a ofensa é à saúde pública, com risco coletivo ou sanitário; em 5138 predominam crimes contra a pessoa, como perigo de contágio, omissão de socorro e maus-tratos. Distingue-se de 5077 e 5149 quando houver efetiva lesão ou morte individualizada, hipótese em que podem surgir lesões corporais ou homicídio, sem afastar eventual qualificadora ou concurso conforme o caso. Também não se confunde com 5125, pois incêndio, explosão e desabamento são crimes de perigo comum contra a incolumidade pública, não especificamente sanitários."
+ },
+ "5138": {
+  "descricao": "Abrange os crimes do Código Penal que protegem a vida e a saúde individuais contra situações de perigo, ainda que não haja efetiva lesão ou morte. Em provas, envolve a distinção entre crimes de perigo concreto, perigo individual, omissões penalmente relevantes e figuras qualificadas pelo resultado.",
+  "palavras_chave": [
+   "periclitação da vida",
+   "periclitação da saúde",
+   "crime de perigo",
+   "perigo individual",
+   "perigo concreto",
+   "vida ou saúde de outrem",
+   "contágio venéreo",
+   "moléstia grave",
+   "abandono de incapaz",
+   "omissão de socorro",
+   "maus-tratos",
+   "recém-nascido",
+   "dever de cuidado",
+   "perigo direto e iminente"
+  ],
+  "dispositivos": [
+   "arts. 130 a 136 CP",
+   "art. 130 CP",
+   "art. 131 CP",
+   "art. 132 CP",
+   "art. 133 CP",
+   "art. 134 CP",
+   "art. 135 CP",
+   "art. 135-A CP",
+   "art. 136 CP"
+  ],
+  "nao_confundir": "Não confundir com 5149, pois nos crimes contra a vida o núcleo é a morte ou o animus necandi; aqui, em regra, pune-se a exposição individual a perigo. Também não confundir com 5077 quando o foco da questão for a lesão corporal efetiva, nem com 5125 ou 5144, que tratam de perigo comum, incolumidade pública, saúde pública ou paz pública."
+ },
+ "5141": {
+  "descricao": "Cobre os crimes de abandono de incapaz e exposição ou abandono de recém-nascido. As questões costumam cobrar a existência de dever especial de cuidado, guarda, vigilância ou autoridade, a incapacidade de defesa da vítima, a finalidade de ocultar desonra própria no caso do recém-nascido e as formas qualificadas por lesão grave ou morte.",
+  "palavras_chave": [
+   "abandono de incapaz",
+   "exposição de recém-nascido",
+   "abandono de recém-nascido",
+   "pessoa sob cuidado",
+   "guarda",
+   "vigilância",
+   "autoridade",
+   "incapaz de defender-se",
+   "ocultar desonra própria",
+   "lugar ermo",
+   "ascendente",
+   "descendente",
+   "cônjuge",
+   "tutor ou curador",
+   "vítima maior de 60 anos"
+  ],
+  "dispositivos": [
+   "art. 133 CP",
+   "art. 133, §1º, CP",
+   "art. 133, §2º, CP",
+   "art. 133, §3º, CP",
+   "art. 134 CP",
+   "art. 134, §1º, CP",
+   "art. 134, §2º, CP"
+  ],
+  "nao_confundir": "Não confundir com 5142: na omissão de socorro o agente, em regra, não tem dever especial prévio de guarda ou cuidado; no abandono de incapaz, esse vínculo é elementar do crime. Também se diferencia de 5143, pois maus-tratos pressupõem abuso no contexto de educação, ensino, tratamento ou custódia, e não simples abandono ou exposição ao perigo."
+ },
+ "5143": {
+  "descricao": "Abrange o crime de maus-tratos, consistente em expor a perigo a vida ou a saúde de pessoa sob autoridade, guarda ou vigilância do agente, para fins de educação, ensino, tratamento ou custódia. Em provas, a cobrança recai sobre as formas de execução, como privação de alimentação ou cuidados indispensáveis, sujeição a trabalho excessivo ou inadequado e abuso dos meios de correção ou disciplina.",
+  "palavras_chave": [
+   "maus-tratos",
+   "autoridade",
+   "guarda",
+   "vigilância",
+   "educação",
+   "ensino",
+   "tratamento",
+   "custódia",
+   "privação de alimentação",
+   "cuidados indispensáveis",
+   "trabalho excessivo",
+   "trabalho inadequado",
+   "abuso de correção",
+   "abuso de disciplina",
+   "menor de 14 anos"
+  ],
+  "dispositivos": [
+   "art. 136 CP",
+   "art. 136, §1º, CP",
+   "art. 136, §2º, CP",
+   "art. 136, §3º, CP"
+  ],
+  "nao_confundir": "Não confundir com 5141: no abandono de incapaz há abandono ou exposição decorrente da ruptura do dever de cuidado; nos maus-tratos há abuso ou privação no exercício de autoridade, guarda ou vigilância. Se houver dolo de lesionar ou matar, a questão pode migrar para 5077 ou 5149, conforme o resultado e o elemento subjetivo."
+ },
+ "5142": {
+  "descricao": "Trata do crime de omissão de socorro, que pune quem deixa de prestar assistência possível, sem risco pessoal, a criança abandonada ou extraviada, pessoa inválida ou ferida, ou pessoa em grave e iminente perigo. Também abrange a omissão de pedir socorro à autoridade pública quando o auxílio direto não for possível.",
+  "palavras_chave": [
+   "omissão de socorro",
+   "deixar de prestar assistência",
+   "sem risco pessoal",
+   "criança abandonada",
+   "criança extraviada",
+   "pessoa inválida",
+   "pessoa ferida",
+   "desamparo",
+   "grave e iminente perigo",
+   "pedir socorro à autoridade",
+   "crime omissivo próprio",
+   "dever de solidariedade",
+   "lesão grave",
+   "morte"
+  ],
+  "dispositivos": [
+   "art. 135 CP",
+   "art. 135, parágrafo único, CP"
+  ],
+  "nao_confundir": "Não confundir com 5141, pois no abandono de incapaz há vínculo especial de cuidado, guarda, vigilância ou autoridade; na omissão de socorro há dever geral de assistência. Também não confundir com crimes omissivos impróprios estudados em 5218, quando o agente possui posição de garantidor e responde pelo resultado mais grave."
+ },
+ "5139": {
+  "descricao": "Abrange os crimes de perigo de contágio venéreo e perigo de contágio de moléstia grave. As questões geralmente exploram a diferença entre moléstia venérea transmitida por relação sexual ou ato libidinoso, a exigência de conhecimento ou dever de saber da contaminação e, no art. 131, o fim específico de transmitir moléstia grave.",
+  "palavras_chave": [
+   "perigo de contágio venéreo",
+   "moléstia venérea",
+   "relação sexual",
+   "ato libidinoso",
+   "sabe ou deve saber",
+   "intenção de transmitir",
+   "representação",
+   "moléstia grave",
+   "fim de transmitir",
+   "ato capaz de produzir contágio",
+   "doença transmissível",
+   "contaminação",
+   "dolo específico"
+  ],
+  "dispositivos": [
+   "art. 130 CP",
+   "art. 130, §1º, CP",
+   "art. 130, §2º, CP",
+   "art. 131 CP"
+  ],
+  "nao_confundir": "Não confundir com 5144, que trata de crimes contra a saúde pública, como epidemia ou infração de medida sanitária, voltados à coletividade. Se a questão envolver transmissão efetiva com lesão corporal ou morte e dolo correspondente, pode haver enquadramento em 5077 ou 5149, e não apenas crime de perigo."
+ },
+ "5140": {
+  "descricao": "Cobre o crime de perigo para a vida ou saúde de outrem, figura subsidiária aplicada quando o agente expõe alguém a perigo direto e iminente e o fato não constitui crime mais grave. Em provas, aparece em situações de risco individual concreto, como condutas perigosas contra pessoa determinada, inclusive com causa de aumento ligada ao transporte de pessoas para prestação de serviços em desacordo com normas legais.",
+  "palavras_chave": [
+   "perigo para a vida",
+   "perigo para a saúde",
+   "perigo direto e iminente",
+   "expor a perigo",
+   "crime subsidiário",
+   "se o fato não constitui crime mais grave",
+   "perigo concreto",
+   "pessoa determinada",
+   "risco individual",
+   "transporte de pessoas",
+   "prestação de serviços",
+   "desacordo com normas legais",
+   "causa de aumento"
+  ],
+  "dispositivos": [
+   "art. 132 CP",
+   "art. 132, parágrafo único, CP"
+  ],
+  "nao_confundir": "Não confundir com 5125, pois lá o perigo é comum ou coletivo, atingindo número indeterminado de pessoas ou a incolumidade pública. Também se diferencia de 5077 e 5149 quando há lesão corporal ou morte com dolo ou culpa específicos, pois o art. 132 é expressamente subsidiário."
+ },
+ "5128": {
+  "descricao": "Abrange os crimes do Código Penal que protegem a liberdade individual em sentido amplo: liberdade de locomoção, autodeterminação, tranquilidade, privacidade, domicílio, correspondência e segredos. Em provas, costuma aparecer como tema guarda-chuva para questões sobre constrangimento ilegal, ameaça, perseguição, bullying, violência psicológica contra a mulher, sequestro/cárcere privado, redução à condição análoga à de escravo, tráfico de pessoas e violações de domicílio, correspondência, segredo ou dispositivo informático.",
+  "palavras_chave": [
+   "liberdade individual",
+   "liberdade pessoal",
+   "constrangimento ilegal",
+   "grave ameaça",
+   "perseguição reiterada",
+   "violação de domicílio",
+   "cárcere privado",
+   "redução à condição análoga à de escravo",
+   "tráfico de pessoas",
+   "inviolabilidade de correspondência",
+   "segredo profissional",
+   "invasão de dispositivo informático",
+   "violência psicológica",
+   "intimidação sistemática"
+  ],
+  "dispositivos": [
+   "arts. 146 a 154-B CP",
+   "art. 5º, X, XI e XII, CF",
+   "Lei 14.132/2021",
+   "Lei 14.188/2021",
+   "Lei 14.811/2024",
+   "Lei 11.340/2006"
+  ],
+  "nao_confundir": "Não confundir com crimes contra a honra (5120), em que o foco é a reputação ou dignidade subjetiva; com crimes contra o patrimônio (5157), em que há subtração, dano ou vantagem patrimonial; nem com crimes contra a dignidade sexual (5102), quando o núcleo da conduta é sexual. Se a questão cobrar elementos gerais de tipicidade, dolo, tentativa ou concurso, pode pertencer a Teoria do Crime (5218), Iter Criminis (5175) ou Concurso de Crimes (5066), e não ao tipo penal em espécie."
+ },
+ "5130": {
+  "descricao": "Cobre os crimes de ameaça e perseguição, centrados na intimidação da vítima e na perturbação de sua liberdade, privacidade ou tranquilidade. Em provas, os pontos mais cobrados são o conceito de mal injusto e grave, os meios de exteriorização da ameaça, a ação penal condicionada à representação e, no stalking, a reiteração da conduta e a invasão da esfera de liberdade da vítima.",
+  "palavras_chave": [
+   "ameaça",
+   "mal injusto e grave",
+   "palavra, escrito ou gesto",
+   "meio simbólico",
+   "intimidação",
+   "ação penal condicionada à representação",
+   "perseguição",
+   "stalking",
+   "conduta reiterada",
+   "integridade física ou psicológica",
+   "restrição da capacidade de locomoção",
+   "invasão de privacidade",
+   "perturbação da liberdade",
+   "Lei 14.132/2021"
+  ],
+  "dispositivos": [
+   "art. 147 CP",
+   "art. 147-A CP",
+   "art. 100 CP",
+   "Lei 14.132/2021"
+  ],
+  "nao_confundir": "Não confundir com violência psicológica contra a mulher (5131): se o enunciado exige dano emocional à mulher e controle/degradação de sua autodeterminação, prevalece o art. 147-B CP. Também não confundir com intimidação sistemática/bullying (5129), que exige prática intencional e repetitiva de intimidação, humilhação ou discriminação, geralmente em contexto sistemático; nem com crimes contra a honra (5120), quando a ofensa atinge a reputação, e não a liberdade psíquica."
+ },
+ "5133": {
+  "descricao": "Abrange os crimes contra a inviolabilidade do domicílio, da correspondência, das comunicações, dos segredos e dos dados informáticos. Em provas, aparecem questões sobre conceito penal de casa, hipóteses constitucionais de ingresso domiciliar, violação/sonegação de correspondência, divulgação de segredo, violação de segredo profissional e invasão de dispositivo informático.",
+  "palavras_chave": [
+   "violação de domicílio",
+   "casa",
+   "permanecer contra a vontade",
+   "ingresso clandestino",
+   "flagrante delito",
+   "desastre ou socorro",
+   "determinação judicial durante o dia",
+   "violação de correspondência",
+   "sonegação de correspondência",
+   "divulgação de segredo",
+   "segredo profissional",
+   "invasão de dispositivo informático",
+   "dados informáticos",
+   "dispositivo alheio",
+   "vulnerabilidade"
+  ],
+  "dispositivos": [
+   "art. 5º, X, XI e XII, CF",
+   "art. 150 CP",
+   "art. 151 CP",
+   "art. 152 CP",
+   "art. 153 CP",
+   "art. 154 CP",
+   "art. 154-A CP",
+   "art. 154-B CP",
+   "Lei 12.737/2012",
+   "Lei 14.155/2021"
+  ],
+  "nao_confundir": "Não confundir com crimes contra o patrimônio (5157): se a questão trata de subtração, dano ou vantagem econômica, o foco pode ser patrimonial; se trata de ingresso, sigilo, privacidade ou acesso indevido a dados, fica neste tema. Também não confundir com crimes contra a honra (5120), quando a divulgação serve especificamente para caluniar, difamar ou injuriar, nem com crimes contra a Administração Pública (5087) ou abuso de autoridade em legislação especial quando o ingresso domiciliar abusivo é praticado por agente público nessa qualidade."
+ },
+ "5129": {
+  "descricao": "Trata do crime de intimidação sistemática, o bullying, incluindo sua forma praticada em ambiente digital, conhecida como cyberbullying. Em provas, a identificação depende da reiteração, da intencionalidade e de atos de intimidação, humilhação ou discriminação, com caráter subsidiário quando a conduta não constituir crime mais grave.",
+  "palavras_chave": [
+   "intimidação sistemática",
+   "bullying",
+   "cyberbullying",
+   "conduta repetitiva",
+   "ato intencional",
+   "humilhação",
+   "discriminação",
+   "violência física ou psicológica",
+   "sem motivação evidente",
+   "ambiente escolar",
+   "rede social",
+   "aplicativo",
+   "jogo online",
+   "meio digital",
+   "crime subsidiário"
+  ],
+  "dispositivos": [
+   "art. 146-A CP",
+   "Lei 14.811/2024",
+   "Lei 13.185/2015"
+  ],
+  "nao_confundir": "Não confundir com ameaça ou perseguição (5130): ameaça pode ser ato intimidatório isolado, e perseguição exige reiteração voltada a invadir/perturbar a liberdade ou privacidade da vítima. Também não confundir com crimes contra a honra (5120) ou lesões corporais (5077); se a humilhação, agressão ou ofensa constituir crime mais grave, o próprio art. 146-A CP atua de forma subsidiária."
+ },
+ "5132": {
+  "descricao": "Abrange os crimes que retiram ou restringem intensamente a liberdade de locomoção e autodeterminação da vítima: sequestro, cárcere privado, redução à condição análoga à de escravo e tráfico de pessoas. Em provas, os pontos centrais são a privação da liberdade, as qualificadoras do sequestro/cárcere, as modalidades de trabalho escravo contemporâneo e as finalidades específicas do tráfico de pessoas.",
+  "palavras_chave": [
+   "sequestro",
+   "cárcere privado",
+   "privação da liberdade",
+   "restrição da locomoção",
+   "qualificadoras",
+   "maus-tratos",
+   "grave sofrimento físico ou moral",
+   "redução à condição análoga à de escravo",
+   "trabalho forçado",
+   "jornada exaustiva",
+   "condições degradantes",
+   "servidão por dívida",
+   "tráfico de pessoas",
+   "recrutar, transportar, transferir, alojar ou acolher",
+   "exploração"
+  ],
+  "dispositivos": [
+   "art. 148 CP",
+   "art. 149 CP",
+   "art. 149-A CP",
+   "art. 5º, III e XV, CF",
+   "Protocolo de Palermo",
+   "Lei 13.344/2016"
+  ],
+  "nao_confundir": "Não confundir com extorsão mediante sequestro, que pertence aos crimes contra o patrimônio (5157), pois ali a privação da liberdade é meio para obter vantagem econômica como preço ou resgate. Também não confundir com crimes contra a dignidade sexual (5102): se houver finalidade de exploração sexual no tráfico de pessoas, o art. 149-A CP continua central; se o enunciado cobra o ato sexual ou vulnerabilidade sexual em si, pode deslocar-se para 5102."
+ },
+ "5131": {
+  "descricao": "Cobre o crime de violência psicológica contra a mulher, consistente em causar dano emocional que prejudique ou perturbe o pleno desenvolvimento da vítima ou vise degradar/controlar suas ações, comportamentos, crenças e decisões. Em provas, o tema costuma aparecer associado à Lei Maria da Penha, a relações domésticas ou familiares, mecanismos de controle, humilhação, isolamento, chantagem e limitação do direito de ir e vir.",
+  "palavras_chave": [
+   "violência psicológica contra a mulher",
+   "dano emocional",
+   "prejuízo à saúde psicológica",
+   "autodeterminação",
+   "controle de ações",
+   "controle de crenças e decisões",
+   "humilhação",
+   "manipulação",
+   "isolamento",
+   "chantagem",
+   "ridicularização",
+   "limitação do direito de ir e vir",
+   "Lei Maria da Penha",
+   "violência de gênero",
+   "art. 147-B CP"
+  ],
+  "dispositivos": [
+   "art. 147-B CP",
+   "Lei 14.188/2021",
+   "Lei 11.340/2006, art. 7º, II",
+   "art. 5º, I, CF",
+   "Convenção de Belém do Pará"
+  ],
+  "nao_confundir": "Não confundir com ameaça e perseguição (5130): se a questão descreve apenas promessa de mal grave ou stalking reiterado, sem exigir o dano emocional típico do art. 147-B CP, o tema é 5130. Também não confundir com lesão corporal (5077), que exige ofensa à integridade corporal ou saúde física/mental nos termos do art. 129 CP, nem com crimes contra a honra (5120), quando o núcleo é caluniar, difamar ou injuriar."
  }
 }

@@ -49,14 +49,17 @@ def normalizar_voto(v, temas, por_titulo):
         return {"fora": True, "ramo": None, "sub": None, "c_ramo": v.get("confianca_ramo", 0),
                 "c_sub": 0, "multi": v.get("multi_tema", False), "segunda": v.get("segunda_opcao_id"),
                 "extras": v.get("extras_ids", []), "just": v.get("justificativa", "")}
-    ramo = redirecionar(v.get("ramo_n1_id"), temas, por_titulo)
-    sub = redirecionar(v.get("subtema_n2_id"), temas, por_titulo)
-    if ramo and temas[ramo]["nivel"] == 2:          # modelo pôs um nível 2 no campo de ramo
-        sub, ramo = (sub or ramo), temas[ramo]["parent_id"]
-    if sub and temas[sub]["nivel"] == 1:            # modelo pôs um nível 1 no campo de subtema
-        ramo, sub = (sub if not ramo else ramo), None
-    if sub and (not ramo or temas[sub]["parent_id"] != ramo):  # subtema não pertence ao ramo: fica no ramo do subtema
-        ramo = temas[sub]["parent_id"]
+    # nó mais específico e usável entre os dois ids informados (o modelo às vezes troca os campos ou põe a disciplina)
+    ids = [redirecionar(v.get("tema_n1_id") or v.get("ramo_n1_id"), temas, por_titulo),
+           redirecionar(v.get("subtema_n2_id"), temas, por_titulo)]
+    ids = [i for i in ids if i and temas[i]["nivel"] > 0]
+    ramo = sub = None
+    if ids:
+        no = max(ids, key=lambda i: temas[i]["nivel"])
+        if temas[no]["nivel"] == 2:
+            sub, ramo = no, temas[no]["parent_id"]
+        else:
+            ramo = no
     return {"fora": False, "ramo": ramo, "sub": sub, "c_ramo": float(v.get("confianca_ramo", 0)),
             "c_sub": float(v.get("confianca_subtema", 0)) if sub else 0.0, "multi": bool(v.get("multi_tema", False)),
             "segunda": v.get("segunda_opcao_id"), "extras": v.get("extras_ids", []), "just": v.get("justificativa", "")}

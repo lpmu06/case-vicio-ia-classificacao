@@ -18,7 +18,7 @@ ESQUEMA = {
     "type": "object",
     "properties": {
         "fora": {"type": "boolean"},
-        "ramo_n1_id": {"type": ["string", "null"]},
+        "tema_n1_id": {"type": ["string", "null"]},
         "subtema_n2_id": {"type": ["string", "null"]},
         "confianca_ramo": {"type": "number"},
         "confianca_subtema": {"type": "number"},
@@ -27,7 +27,7 @@ ESQUEMA = {
         "multi_tema": {"type": "boolean"},
         "justificativa": {"type": "string"},
     },
-    "required": ["fora", "ramo_n1_id", "subtema_n2_id", "confianca_ramo", "confianca_subtema",
+    "required": ["fora", "tema_n1_id", "subtema_n2_id", "confianca_ramo", "confianca_subtema",
                  "segunda_opcao_id", "extras_ids", "multi_tema", "justificativa"],
     "additionalProperties": False,
 }
