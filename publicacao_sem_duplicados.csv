@@ -1,360 +1,360 @@
 id,decisao,tema_central_id,extras_ids,confianca,motivo
 Q0001,publicar,5524,,0.95,
-Q0002,revisar,4378,4385,0.76,dúvida entre Criminalização Primária e Secundária e Teorias Sociológicas Explicativas da Criminalidade (fronteira entre temas; confiança do revisor automático 0.75)
-Q0003,revisar,5562,5466;5475;5534,0.73,dúvida entre Apelação e Ação Civil Ex Delicto (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.55)
-Q0004,publicar,5480,,0.96,
-Q0005,publicar,5199,,0.95,
-Q0006,publicar,5157,5177,0.96,
-Q0007,revisar,5063,5128;5466;5121,0.88,dúvida entre Ação Penal (Penal) e Ação Penal (Processo Penal) (fronteira entre temas; confiança do revisor automático 0.80)
-Q0008,revisar,5201,4703,0.76,dúvida entre Penas Privativas de Liberdade e Lei de Execução Penal (ramos que os modelos costumam confundir; confiança do revisor automático 0.75)
-Q0009,publicar,5157,,0.95,
-Q0010,revisar,4688,,0.96,"tema provável Crimes contra o meio ambiente, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0011,revisar,4702,5480;5482;5092,0.91,dúvida entre Lavagem de Dinheiro e Competência (fronteira entre temas; confiança do revisor automático 0.85)
-Q0012,publicar,5569,5539,0.93,
-Q0013,revisar,5503,,0.95,dúvida entre Juiz das Garantias e Sistemas e Princípios Processuais Penais (ramos que os modelos costumam confundir; confiança do revisor automático 0.95)
-Q0014,revisar,5477,,0.85,dúvida entre Habeas Corpus e Violência contra Criança e Adolescente (fronteira entre temas; confiança do revisor automático 0.80)
+Q0002,revisar,4378,4385,0.53,dúvida entre Criminalização Primária e Secundária e Teorias Sociológicas Explicativas da Criminalidade (fronteira entre temas; confiança do revisor automático 0.75)
+Q0003,revisar,5562,5466;5475;5534,0.43,dúvida entre Apelação e Ação Civil Ex Delicto (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.55)
+Q0004,revisar,5480,,0.90,"tema provável Competência, mas a árvore tem um gêmeo recente sem descrição (Competência (Parte 1) (Processo Penal), Competência (Parte 2) (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0005,revisar,5199,,0.88,"tema provável Teoria da Pena, mas a árvore tem um gêmeo recente sem descrição (Teoria da Pena (Parte 1) (Penal), Teoria da Pena (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0006,revisar,5157,5177,0.90,"tema provável Dos Crimes Contra o Patrimônio, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra o Patrimônio (Parte 1) (Penal), Dos Crimes contra o Patrimônio (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0007,revisar,5063,5128;5466;5121,0.78,dúvida entre Ação Penal (Penal) e Ação Penal (Processo Penal) (fronteira entre temas; confiança do revisor automático 0.80)
+Q0008,revisar,5201,4703,0.58,dúvida entre Penas Privativas de Liberdade e Lei de Execução Penal (fronteira entre temas; confiança do revisor automático 0.75)
+Q0009,revisar,5157,,0.88,"tema provável Dos Crimes Contra o Patrimônio, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra o Patrimônio (Parte 1) (Penal), Dos Crimes contra o Patrimônio (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0010,revisar,4688,,0.84,"tema provável Crimes contra o meio ambiente, mas a árvore tem um gêmeo recente sem descrição (Crimes contra o meio ambiente (Penal)); confirmar qual dos dois a equipe usa"
+Q0011,revisar,4702,5480;5482;5092,0.73,dúvida entre Lavagem de Dinheiro e Competência (fronteira entre temas; confiança do revisor automático 0.85)
+Q0012,revisar,5560,5539,0.86,"tema provável Recursos em Espécies, mas a árvore tem um gêmeo recente sem descrição (Recursos (Parte 03) - Espécies (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0013,publicar,5498,,0.95,
+Q0014,revisar,5477,,0.73,dúvida entre Habeas Corpus e Violência contra Criança e Adolescente (fronteira entre temas; confiança do revisor automático 0.80)
 Q0015,publicar,5498,5505;5508,0.94,
-Q0016,revisar,5584,5522;5519;5503,0.93,dúvida entre Teoria Geral das Prisões e Prisões em Espécie (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.90)
-Q0017,revisar,5530,5509,0.70,dúvida entre Procedimento Ordinário e Ação Penal (Processo Penal) (fronteira entre temas; confiança do revisor automático 0.45)
-Q0018,revisar,5540,5482;5486,0.85,dúvida entre Competência dos Juizados Especiais Criminais e Juizado Especial Criminal (ramos que os modelos costumam confundir; confiança do revisor automático 0.80)
-Q0019,publicar,5475,,0.94,
-Q0020,revisar,5199,4709;5116;5157,0.65,dúvida entre Teoria da Pena e Dos Crimes Contra a Fé Pública e de Falsidade Documental (cada alternativa cobra um instituto diferente; ramos que os modelos costumam confundir; confiança do revisor automático 0.35)
-Q0021,revisar,5503,,0.90,dúvida entre Juiz das Garantias e Competência (ramos que os modelos costumam confundir; confiança do revisor automático 0.88)
-Q0022,publicar,5087,5079;5222,0.93,
+Q0016,revisar,5584,5522;5519;5503,0.88,dúvida entre Teoria Geral das Prisões e Prisões em Espécie (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.90)
+Q0017,revisar,5530,5509,0.43,dúvida entre Procedimento Ordinário e Ação Penal (Processo Penal) (fronteira entre temas; confiança do revisor automático 0.45)
+Q0018,revisar,5540,5482;5486,0.73,dúvida entre Competência dos Juizados Especiais Criminais e Juizado Especial Criminal (ramos que os modelos costumam confundir; confiança do revisor automático 0.80)
+Q0019,publicar,5466,,0.96,
+Q0020,revisar,5199,4709;5116;5157,0.28,dúvida entre Teoria da Pena e Dos Crimes Contra a Fé Pública e de Falsidade Documental (cada alternativa cobra um instituto diferente; ramos que os modelos costumam confundir; confiança do revisor automático 0.35)
+Q0021,revisar,5503,,0.84,dúvida entre Juiz das Garantias e Competência (ramos que os modelos costumam confundir; confiança do revisor automático 0.88)
+Q0022,revisar,5087,5079;5222,0.83,"tema provável Dos Crimes Contra a Administração Pública, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra a Administração Pública (Parte 1) (Penal), Dos Crimes contra a Administração Pública (Parte 2) (Penal))"
 Q0023,publicar,5524,,0.96,
 Q0024,publicar,4385,4377;4379,0.94,
-Q0025,publicar,5101,,0.93,
-Q0026,revisar,4704,,0.95,"tema provável Lei Maria da Penha, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
+Q0025,revisar,5087,,0.90,"tema provável Dos Crimes Contra a Administração Pública, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra a Administração Pública (Parte 1) (Penal), Dos Crimes contra a Administração Pública (Parte 2) (Penal))"
+Q0026,revisar,4704,,0.83,"tema provável Lei Maria da Penha, mas a árvore tem um gêmeo recente sem descrição (Lei Maria da Penha (Penal)); confirmar qual dos dois a equipe usa"
 Q0027,publicar,5487,,0.94,
 Q0028,publicar,5524,,0.94,
-Q0029,revisar,4684,,0.96,"tema provável Abuso de Autoridade, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0030,publicar,5135,,0.94,
+Q0029,revisar,4684,,0.85,"tema provável Abuso de Autoridade, mas a árvore tem um gêmeo recente sem descrição (Abuso de Autoridade (Penal)); confirmar qual dos dois a equipe usa"
+Q0030,publicar,5134,,0.96,
 Q0031,publicar,4385,,0.95,
-Q0032,revisar,5497,5498,0.85,dúvida entre Incidente de Falsidade e de Insanidade Mental e Procedimento do Inquérito Policial (fronteira entre temas; confiança do revisor automático 0.80)
-Q0033,publicar,5519,,0.94,
-Q0034,publicar,5477,,0.94,
+Q0032,revisar,5497,5498,0.73,dúvida entre Incidente de Falsidade e de Insanidade Mental e Procedimento do Inquérito Policial (fronteira entre temas; confiança do revisor automático 0.80)
+Q0033,publicar,5517,,0.96,
+Q0034,publicar,5476,,0.95,
 Q0035,publicar,4706,,0.96,
-Q0036,revisar,4704,5466;5471,0.94,"tema provável Lei Maria da Penha, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0037,revisar,5116,5128;5079;5081,0.21,"dúvida entre Dos Crimes Contra a Fé Pública e de Falsidade Documental e Dos Crimes Contra a Liberdade Pessoal / Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas (os classificadores não concordam no te"
-Q0038,revisar,5583,5543;5562;5500,0.26,dúvida entre Sujeitos do Processo e Declaração do Ofendido (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.55)
-Q0039,revisar,4687,4694,0.91,dúvida entre Crimes contra a Economia Popular e Crimes Tributários (fronteira entre temas; confiança do revisor automático 0.85)
-Q0040,publicar,5560,5512;5524;5515,0.93,
+Q0036,revisar,4704,5466;5471,0.80,"tema provável Lei Maria da Penha, mas a árvore tem um gêmeo recente sem descrição (Lei Maria da Penha (Penal)); confirmar qual dos dois a equipe usa"
+Q0037,revisar,5116,5128;5079;5081,0.43,"dúvida entre Dos Crimes Contra a Fé Pública e de Falsidade Documental e Dos Crimes Contra a Liberdade Pessoal / Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas (os classificadores não concordam no…"
+Q0038,revisar,5583,5543;5562;5500,0.53,dúvida entre Sujeitos do Processo e Declaração do Ofendido (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.55)
+Q0039,revisar,4687,4694,0.83,dúvida entre Crimes contra a Economia Popular e Crimes Tributários (fronteira entre temas; confiança do revisor automático 0.85)
+Q0040,revisar,5560,5512;5524;5515,0.83,"tema provável Recursos em Espécies, mas a árvore tem um gêmeo recente sem descrição (Recursos (Parte 03) - Espécies (Processo Penal)); confirmar qual dos dois a equipe usa"
 Q0041,publicar,5184,,0.96,
-Q0042,publicar,5222,,0.95,
-Q0043,publicar,5199,,0.96,
-Q0044,revisar,5488,5543;5548,0.85,dúvida entre Citação e Contagem dos Prazos e Sujeitos do Processo (fronteira entre temas; confiança do revisor automático 0.85)
-Q0045,publicar,5091,,0.95,
+Q0042,publicar,5218,,0.96,
+Q0043,revisar,5199,,0.90,"tema provável Teoria da Pena, mas a árvore tem um gêmeo recente sem descrição (Teoria da Pena (Parte 1) (Penal), Teoria da Pena (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0044,revisar,5488,5543;5548,0.73,dúvida entre Citação e Contagem dos Prazos e Sujeitos do Processo (fronteira entre temas; confiança do revisor automático 0.85)
+Q0045,revisar,5087,,0.91,"tema provável Dos Crimes Contra a Administração Pública, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra a Administração Pública (Parte 1) (Penal), Dos Crimes contra a Administração Pública (Parte 2) (Penal))"
 Q0046,publicar,5509,5531,0.95,
-Q0047,publicar,5164,5065,0.95,
-Q0048,revisar,5193,4703,0.77,"dúvida entre Anistia, Graça e Indulto e Lei de Execução Penal (os classificadores não concordam no tema; confiança do revisor automático 0.80)"
-Q0049,publicar,5152,5174,0.95,
-Q0050,revisar,4708,,0.93,"tema provável Tráfico de Drogas, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0051,publicar,5182,,0.95,
-Q0052,revisar,4703,,0.95,"tema provável Lei de Execução Penal, mas ele existe em duplicata (Legislação Especial e cópia recente em Processo Penal); confirmar qual dos dois a equipe usa"
-Q0053,revisar,5541,4701,0.78,dúvida entre Transação Penal e Juizado Especial Criminal (ramos que os modelos costumam confundir; confiança do revisor automático 0.65)
-Q0054,publicar,5174,,0.94,
-Q0055,revisar,5550,5509;5535;5510,0.88,dúvida entre Prova Testemunhal e Nulidades (fronteira entre temas; confiança do revisor automático 0.88)
+Q0047,revisar,5157,5065,0.90,"tema provável Dos Crimes Contra o Patrimônio, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra o Patrimônio (Parte 1) (Penal), Dos Crimes contra o Patrimônio (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0048,revisar,5193,4703,0.73,"dúvida entre Anistia, Graça e Indulto e Lei de Execução Penal (os classificadores não concordam no tema; confiança do revisor automático 0.80)"
+Q0049,publicar,5149,5174,0.96,
+Q0050,revisar,4708,,0.78,"tema provável Tráfico de Drogas, mas a árvore tem um gêmeo recente sem descrição (Tráfico de Drogas (Penal)); confirmar qual dos dois a equipe usa"
+Q0051,publicar,5180,,0.96,
+Q0052,revisar,4703,,0.83,"tema provável Lei de Execução Penal, mas a árvore tem um gêmeo recente sem descrição (Lei de Execução Penal (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0053,revisar,5541,4701,0.58,dúvida entre Transação Penal e Juizado Especial Criminal (ramos que os modelos costumam confundir; confiança do revisor automático 0.65)
+Q0054,publicar,5170,,0.95,
+Q0055,revisar,5550,5509;5535;5510,0.68,dúvida entre Prova Testemunhal e Nulidades (fronteira entre temas; confiança do revisor automático 0.88)
 Q0056,publicar,5066,,0.96,
-Q0057,publicar,5176,,0.94,
-Q0058,revisar,4377,4385;4387,0.79,dúvida entre Processos de Criminalização e Cifras Criminais e Teorias Sociológicas Explicativas da Criminalidade (fronteira entre temas; confiança do revisor automático 0.62)
-Q0059,revisar,4388,4384;4370,0.22,dúvida entre Teorias Criminológicas em Espécie e Teorias Legitimidoras da Pena (os classificadores não concordam no tema; confiança do revisor automático 0.60)
-Q0060,revisar,5087,,0.96,dúvida entre Dos Crimes Contra a Administração Pública e Corrupção Ativa (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.97)
-Q0061,revisar,4703,5193,0.96,"tema provável Lei de Execução Penal, mas ele existe em duplicata (Legislação Especial e cópia recente em Processo Penal); confirmar qual dos dois a equipe usa"
-Q0062,publicar,5182,,0.95,
-Q0063,revisar,4704,,0.95,"tema provável Lei Maria da Penha, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0064,revisar,4695,5191;5227;5187,0.59,dúvida entre Crimes Tributários e Punibilidade / Dos Crimes Contra o Patrimônio (os classificadores não concordam no tema; confiança do revisor automático 0.80)
-Q0065,publicar,5161,,0.94,
-Q0066,publicar,4373,,0.93,
-Q0067,publicar,5091,,0.93,
-Q0068,revisar,5087,5116;5102;5125,0.70,dúvida entre Dos Crimes Contra a Administração Pública e Dos Crimes Contra a Fé Pública e de Falsidade Documental (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.50
-Q0069,publicar,5173,,0.94,
-Q0070,revisar,5193,4703;5201,0.78,"dúvida entre Anistia, Graça e Indulto e Lei de Execução Penal (fronteira entre temas; confiança do revisor automático 0.70)"
-Q0071,revisar,4688,,0.96,"tema provável Crimes contra o meio ambiente, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0072,revisar,5592,5498,0.84,"dúvida entre Sistemas de Avaliação da Prova e Conceito, Finalidade e Caractéristas do Inquérito Policial (fronteira entre temas; confiança do revisor automático 0.85)"
-Q0073,revisar,5087,5079;5147;5084,0.88,dúvida entre Dos Crimes Contra a Administração Pública e Dos Crimes Contra a Administração Judicial (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.80)
-Q0074,revisar,5181,4703;5485,0.26,dúvida entre Lei penal no Tempo e Lei de Execução Penal (os classificadores não concordam no tema; confiança do revisor automático 0.60)
+Q0057,publicar,5175,,0.97,
+Q0058,revisar,4377,4385;4387,0.60,dúvida entre Processos de Criminalização e Cifras Criminais e Teorias Sociológicas Explicativas da Criminalidade (fronteira entre temas; confiança do revisor automático 0.62)
+Q0059,revisar,4388,4384;4370,0.43,dúvida entre Teorias Criminológicas em Espécie e Teorias Legitimidoras da Pena (os classificadores não concordam no tema; confiança do revisor automático 0.60)
+Q0060,revisar,5087,,0.90,dúvida entre Dos Crimes Contra a Administração Pública e Corrupção Ativa (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.97)
+Q0061,revisar,4703,5193,0.84,"tema provável Lei de Execução Penal, mas a árvore tem um gêmeo recente sem descrição (Lei de Execução Penal (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0062,publicar,5180,,0.96,
+Q0063,revisar,4704,,0.83,"tema provável Lei Maria da Penha, mas a árvore tem um gêmeo recente sem descrição (Lei Maria da Penha (Penal)); confirmar qual dos dois a equipe usa"
+Q0064,revisar,4695,5191;5227;5187,0.78,dúvida entre Crimes Tributários e Punibilidade / Dos Crimes Contra o Patrimônio (os classificadores não concordam no tema; confiança do revisor automático 0.80)
+Q0065,revisar,5157,,0.90,"tema provável Dos Crimes Contra o Patrimônio, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra o Patrimônio (Parte 1) (Penal), Dos Crimes contra o Patrimônio (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0066,publicar,4371,,0.95,
+Q0067,revisar,5087,,0.89,"tema provável Dos Crimes Contra a Administração Pública, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra a Administração Pública (Parte 1) (Penal), Dos Crimes contra a Administração Pública (Parte 2) (Penal))"
+Q0068,revisar,5087,5116;5102;5125,0.43,dúvida entre Dos Crimes Contra a Administração Pública e Dos Crimes Contra a Fé Pública e de Falsidade Documental (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente
+Q0069,publicar,5170,,0.96,
+Q0070,revisar,5193,4703;5201,0.60,"dúvida entre Anistia, Graça e Indulto e Lei de Execução Penal (fronteira entre temas; confiança do revisor automático 0.70)"
+Q0071,revisar,4688,,0.85,"tema provável Crimes contra o meio ambiente, mas a árvore tem um gêmeo recente sem descrição (Crimes contra o meio ambiente (Penal)); confirmar qual dos dois a equipe usa"
+Q0072,revisar,5592,5498,0.70,"dúvida entre Sistemas de Avaliação da Prova e Conceito, Finalidade e Caractéristas do Inquérito Policial (fronteira entre temas; confiança do revisor automático 0.85)"
+Q0073,revisar,5087,5079;5147;5084,0.73,dúvida entre Dos Crimes Contra a Administração Pública e Dos Crimes Contra a Administração Judicial (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.80)
+Q0074,revisar,5181,4703;5485,0.53,dúvida entre Lei penal no Tempo e Lei de Execução Penal (os classificadores não concordam no tema; confiança do revisor automático 0.60)
 Q0075,publicar,5191,,0.95,
 Q0076,publicar,4371,,0.95,
-Q0077,revisar,5170,5180;5181;5194,0.90,dúvida entre Introdução ao Estudo do Direito Penal e Interpretação da Norma Penal (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.85)
+Q0077,revisar,5170,5180;5181;5194,0.83,dúvida entre Introdução ao Estudo do Direito Penal e Interpretação da Norma Penal (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.85)
 Q0078,publicar,4697,4691,0.94,
 Q0079,publicar,5580,,0.96,
-Q0080,publicar,4370,,0.93,
+Q0080,publicar,4368,,0.95,
 Q0081,publicar,4371,4385,0.95,
-Q0082,publicar,5100,,0.94,
-Q0083,revisar,5224,5066;5150,0.79,dúvida entre Erro de Tipo e Homicídio (os classificadores não concordam no tema; confiança do revisor automático 0.80)
-Q0084,revisar,4704,,0.96,"tema provável Lei Maria da Penha, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
+Q0082,revisar,5087,,0.89,"tema provável Dos Crimes Contra a Administração Pública, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra a Administração Pública (Parte 1) (Penal), Dos Crimes contra a Administração Pública (Parte 2) (Penal))"
+Q0083,revisar,5224,5066;5150,0.63,dúvida entre Erro de Tipo e Homicídio (os classificadores não concordam no tema; confiança do revisor automático 0.80)
+Q0084,revisar,4704,,0.85,"tema provável Lei Maria da Penha, mas a árvore tem um gêmeo recente sem descrição (Lei Maria da Penha (Penal)); confirmar qual dos dois a equipe usa"
 Q0085,publicar,5071,5087;5091,0.94,
-Q0086,publicar,5092,,0.93,
-Q0087,revisar,4703,,0.92,dúvida entre Lei de Execução Penal e Prisões em Espécie (fronteira entre temas; confiança do revisor automático 0.88)
-Q0088,revisar,4389,4380;4381,0.92,dúvida entre Vitimologia e Teoria Geral da Criminologia (fronteira entre temas; confiança do revisor automático 0.88)
-Q0089,revisar,5172,5227,0.31,dúvida entre Princípios do Direito Penal e Tipicidade (os classificadores não concordam no tema; confiança do revisor automático 0.70)
-Q0090,revisar,5530,5539;5524;5466,0.75,dúvida entre Procedimento Ordinário e Procedimento Sumaríssimo (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.55)
-Q0091,revisar,4703,5199;5201;4693,0.34,dúvida entre Lei de Execução Penal e Penas Privativas de Liberdade (os classificadores não concordam no tema; confiança do revisor automático 0.68)
+Q0086,revisar,5087,,0.90,"tema provável Dos Crimes Contra a Administração Pública, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra a Administração Pública (Parte 1) (Penal), Dos Crimes contra a Administração Pública (Parte 2) (Penal))"
+Q0087,revisar,4703,,0.76,dúvida entre Lei de Execução Penal e Prisões em Espécie (fronteira entre temas; confiança do revisor automático 0.88)
+Q0088,revisar,4389,4380;4381,0.86,dúvida entre Vitimologia e Teoria Geral da Criminologia (fronteira entre temas; confiança do revisor automático 0.88)
+Q0089,revisar,5172,5227,0.60,dúvida entre Princípios do Direito Penal e Tipicidade (os classificadores não concordam no tema; confiança do revisor automático 0.70)
+Q0090,revisar,5530,5539;5524;5466,0.53,dúvida entre Procedimento Ordinário e Procedimento Sumaríssimo (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.55)
+Q0091,revisar,4703,5199;5201;4693,0.56,dúvida entre Lei de Execução Penal e Penas Privativas de Liberdade (os classificadores não concordam no tema; confiança do revisor automático 0.68)
 Q0092,publicar,5509,5493,0.95,
-Q0093,publicar,5223,5142,0.93,
-Q0094,revisar,4388,4377;4378,0.82,dúvida entre Teorias Criminológicas em Espécie e Teorias de Nível Sociológico (fronteira entre temas; confiança do revisor automático 0.88)
-Q0095,revisar,5197,5077;5150,0.90,dúvida entre Perdão Judicial e Concurso de Crimes / Ação Penal Pública Condicionada (os classificadores não concordam no tema; confiança do revisor automático 0.90)
-Q0096,publicar,5480,5528,0.95,
-Q0097,revisar,4708,4705;4702,0.83,dúvida entre Tráfico de Drogas e Organizações Criminosas (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.70)
-Q0098,publicar,5548,,0.94,
-Q0099,revisar,5100,5228;5077;5232,0.89,"dúvida entre Resistência, Desobediência e Desacato e Teoria do Crime: Ilicitude (fronteira entre temas; confiança do revisor automático 0.88)"
-Q0100,revisar,5103,5079;5071;5224,0.78,dúvida entre Estupro e Estupro de Vulnerável e Teoria do Crime: Fato Típico (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.85)
-Q0101,revisar,4704,,0.95,"tema provável Lei Maria da Penha, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0102,revisar,5572,5475;5209,0.92,dúvida entre Sentença Penal e Efeitos Decorrentes da Sentença Penal Condenatória / Sentença Absolutória (fronteira entre temas; confiança do revisor automático 0.88)
-Q0103,publicar,5478,,0.95,
-Q0104,revisar,5498,5477,0.85,dúvida entre Inquérito Policial e Ações Autônomas de Impugnação (fronteira entre temas; confiança do revisor automático 0.75)
+Q0093,publicar,5218,5142,0.95,
+Q0094,revisar,4388,4377;4378,0.66,dúvida entre Teorias Criminológicas em Espécie e Teorias de Nível Sociológico (fronteira entre temas; confiança do revisor automático 0.88)
+Q0095,revisar,5197,5077;5150,0.83,dúvida entre Perdão Judicial e Concurso de Crimes / Ação Penal Pública Condicionada (os classificadores não concordam no tema; confiança do revisor automático 0.90)
+Q0096,revisar,5480,5528,0.88,"tema provável Competência, mas a árvore tem um gêmeo recente sem descrição (Competência (Parte 1) (Processo Penal), Competência (Parte 2) (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0097,revisar,4708,4705;4702,0.58,dúvida entre Tráfico de Drogas e Organizações Criminosas (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.70)
+Q0098,revisar,5543,,0.83,"tema provável Provas em Espécies, mas a árvore tem um gêmeo recente sem descrição (Provas em Espécie (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0099,revisar,5100,5228;5077;5232,0.75,"dúvida entre Resistência, Desobediência e Desacato e Teoria do Crime: Ilicitude (fronteira entre temas; confiança do revisor automático 0.88)"
+Q0100,revisar,5103,5079;5071;5224,0.58,dúvida entre Estupro e Estupro de Vulnerável e Teoria do Crime: Fato Típico (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.85)
+Q0101,revisar,4704,,0.83,"tema provável Lei Maria da Penha, mas a árvore tem um gêmeo recente sem descrição (Lei Maria da Penha (Penal)); confirmar qual dos dois a equipe usa"
+Q0102,revisar,5572,5475;5209,0.81,dúvida entre Sentença Penal e Efeitos Decorrentes da Sentença Penal Condenatória / Sentença Absolutória (fronteira entre temas; confiança do revisor automático 0.88)
+Q0103,publicar,5476,,0.96,
+Q0104,revisar,5498,5477,0.73,dúvida entre Inquérito Policial e Ações Autônomas de Impugnação (fronteira entre temas; confiança do revisor automático 0.75)
 Q0105,publicar,4385,4378,0.94,
-Q0106,publicar,5157,,0.95,
-Q0107,revisar,5116,,0.70,dúvida entre Dos Crimes Contra a Fé Pública e de Falsidade Documental e De outras falsidades (fronteira entre temas; confiança do revisor automático 0.45)
-Q0108,publicar,5561,5515,0.94,
-Q0109,revisar,4708,,0.96,"tema provável Tráfico de Drogas, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0110,publicar,5480,,0.96,
+Q0106,revisar,5157,,0.88,"tema provável Dos Crimes Contra o Patrimônio, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra o Patrimônio (Parte 1) (Penal), Dos Crimes contra o Patrimônio (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0107,revisar,5116,,0.43,dúvida entre Dos Crimes Contra a Fé Pública e de Falsidade Documental e De outras falsidades (fronteira entre temas; confiança do revisor automático 0.45)
+Q0108,revisar,5560,5515,0.88,"tema provável Recursos em Espécies, mas a árvore tem um gêmeo recente sem descrição (Recursos (Parte 03) - Espécies (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0109,revisar,4708,,0.85,"tema provável Tráfico de Drogas, mas a árvore tem um gêmeo recente sem descrição (Tráfico de Drogas (Penal)); confirmar qual dos dois a equipe usa"
+Q0110,revisar,5480,,0.90,"tema provável Competência, mas a árvore tem um gêmeo recente sem descrição (Competência (Parte 1) (Processo Penal), Competência (Parte 2) (Processo Penal)); confirmar qual dos dois a equipe usa"
 Q0111,publicar,4371,,0.94,
-Q0112,revisar,4705,,0.96,"tema provável Organizações Criminosas, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0113,revisar,5185,5092,0.74,dúvida entre 'fora' (nenhum tema serve) e Prescrição
-Q0114,revisar,5507,5471;4704,0.72,dúvida entre Lei processual no Tempo e Ação Penal (Processo Penal) (os classificadores não concordam no tema; confiança do revisor automático 0.60)
+Q0112,revisar,4705,,0.85,"tema provável Organizações Criminosas, mas a árvore tem um gêmeo recente sem descrição (Organizações Criminosas (Penal)); confirmar qual dos dois a equipe usa"
+Q0113,revisar,5185,5092,0.53,dúvida entre 'fora' (nenhum tema serve) e Prescrição
+Q0114,revisar,5507,5471;4704,0.48,dúvida entre Lei processual no Tempo e Ação Penal (Processo Penal) (os classificadores não concordam no tema; confiança do revisor automático 0.60)
 Q0115,publicar,4385,,0.95,
-Q0116,revisar,4708,,0.96,"tema provável Tráfico de Drogas, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
+Q0116,revisar,4708,,0.84,"tema provável Tráfico de Drogas, mas a árvore tem um gêmeo recente sem descrição (Tráfico de Drogas (Penal)); confirmar qual dos dois a equipe usa"
 Q0117,publicar,4384,,0.95,
-Q0118,publicar,5507,5523;5519,0.94,
-Q0119,revisar,5181,5194,0.76,dúvida entre Lei penal no Tempo e Abolitio Criminis (os classificadores não concordam no tema; confiança do revisor automático 0.75)
-Q0120,revisar,5533,5543;5590;5547,0.73,dúvida entre Defesa Preliminar e Provas em Espécies (fronteira entre temas; confiança do revisor automático 0.65)
+Q0118,publicar,5505,5523;5519,0.95,
+Q0119,revisar,5181,5194,0.58,dúvida entre Lei penal no Tempo e Abolitio Criminis (os classificadores não concordam no tema; confiança do revisor automático 0.75)
+Q0120,revisar,5533,5543;5590;5547,0.48,dúvida entre Defesa Preliminar e Provas em Espécies (fronteira entre temas; confiança do revisor automático 0.65)
 Q0121,publicar,5466,5065;5196,0.96,
-Q0122,revisar,4703,,0.93,"tema provável Lei de Execução Penal, mas ele existe em duplicata (Legislação Especial e cópia recente em Processo Penal); confirmar qual dos dois a equipe usa"
-Q0123,revisar,4377,4385;4388;4368,0.76,dúvida entre Processos de Criminalização e Cifras Criminais e Criminologia no Estado Democrático de Direito (fronteira entre temas; confiança do revisor automático 0.55)
-Q0124,revisar,4384,,0.88,dúvida entre Teorias Legitimidoras da Pena e Teoria da Pena (fronteira entre temas; confiança do revisor automático 0.80)
-Q0125,revisar,5181,4703;4708,0.26,dúvida entre Lei penal no Tempo e Lei de Execução Penal (os classificadores não concordam no tema; confiança do revisor automático 0.60)
-Q0126,revisar,5180,5218;5071;5211,0.78,dúvida entre Lei Penal no Tempo e no Espaço e Lei penal no Espaço (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
-Q0127,revisar,5575,4708;5581,0.25,dúvida entre Sentença Condenatória e Sistemas Processuais Penais (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
+Q0122,revisar,4703,,0.78,"tema provável Lei de Execução Penal, mas a árvore tem um gêmeo recente sem descrição (Lei de Execução Penal (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0123,revisar,4377,4385;4388;4368,0.53,dúvida entre Processos de Criminalização e Cifras Criminais e Criminologia no Estado Democrático de Direito (fronteira entre temas; confiança do revisor automático 0.55)
+Q0124,revisar,4384,,0.78,dúvida entre Teorias Legitimidoras da Pena e Teoria da Pena (fronteira entre temas; confiança do revisor automático 0.80)
+Q0125,revisar,5181,4703;4708,0.53,dúvida entre Lei penal no Tempo e Lei de Execução Penal (os classificadores não concordam no tema; confiança do revisor automático 0.60)
+Q0126,revisar,5180,5218;5071;5211,0.58,dúvida entre Lei Penal no Tempo e no Espaço e Lei penal no Espaço (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
+Q0127,revisar,5575,4708;5581,0.43,dúvida entre Sentença Condenatória e Sistemas Processuais Penais (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
 Q0128,publicar,5466,5184,0.93,
-Q0129,publicar,5550,,0.94,
-Q0130,publicar,5157,5199;5205;5177,0.95,
+Q0129,revisar,5543,,0.83,"tema provável Provas em Espécies, mas a árvore tem um gêmeo recente sem descrição (Provas em Espécie (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0130,revisar,5157,5199;5205;5177,0.86,"tema provável Dos Crimes Contra o Patrimônio, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra o Patrimônio (Parte 1) (Penal), Dos Crimes contra o Patrimônio (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
 Q0131,publicar,5071,,0.96,
-Q0132,revisar,5543,5583,0.25,dúvida entre Provas em Espécies e Comunicação dos Atos Processuais (os classificadores não concordam no tema; confiança do revisor automático 0.50)
+Q0132,revisar,5543,5583,0.38,dúvida entre Provas em Espécies e Comunicação dos Atos Processuais (os classificadores não concordam no tema; confiança do revisor automático 0.50)
 Q0133,publicar,5524,,0.96,
-Q0134,publicar,5092,,0.96,
-Q0135,publicar,5169,,0.96,
-Q0136,revisar,4704,5131,0.95,"tema provável Lei Maria da Penha, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0137,revisar,5498,5583,0.92,dúvida entre Inquérito Policial e Procedimento do Inquérito Policial (fronteira entre temas; confiança do revisor automático 0.88)
-Q0138,publicar,5199,,0.96,
+Q0134,revisar,5087,,0.91,"tema provável Dos Crimes Contra a Administração Pública, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra a Administração Pública (Parte 1) (Penal), Dos Crimes contra a Administração Pública (Parte 2) (Penal))"
+Q0135,revisar,5157,,0.91,"tema provável Dos Crimes Contra o Patrimônio, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra o Patrimônio (Parte 1) (Penal), Dos Crimes contra o Patrimônio (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0136,revisar,4704,5131,0.83,"tema provável Lei Maria da Penha, mas a árvore tem um gêmeo recente sem descrição (Lei Maria da Penha (Penal)); confirmar qual dos dois a equipe usa"
+Q0137,revisar,5498,5583,0.86,dúvida entre Inquérito Policial e Procedimento do Inquérito Policial (fronteira entre temas; confiança do revisor automático 0.88)
+Q0138,revisar,5199,,0.89,"tema provável Teoria da Pena, mas a árvore tem um gêmeo recente sem descrição (Teoria da Pena (Parte 1) (Penal), Teoria da Pena (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
 Q0139,publicar,5211,,0.95,
-Q0140,publicar,5157,5204,0.95,
+Q0140,revisar,5157,5204,0.88,"tema provável Dos Crimes Contra o Patrimônio, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra o Patrimônio (Parte 1) (Penal), Dos Crimes contra o Patrimônio (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
 Q0141,publicar,4385,,0.95,
-Q0142,fora,,,0.97,"nenhum tema da árvore cobre a questão: A questão pede as hipóteses de isenção do ITCD previstas na legislação estadual do Pará, um assunto exclusivamente de Direito Tributário (impostos est"
-Q0143,publicar,5507,,0.94,
-Q0144,publicar,5562,5524,0.94,
-Q0145,revisar,4702,5084;4695,0.94,"tema provável Lavagem de Dinheiro, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0146,revisar,5594,5555;5554;5556,0.90,dúvida entre Prova Ilegal e Prova Ilícita e Provas em Espécies (ramos que os modelos costumam confundir; confiança do revisor automático 0.92)
-Q0147,revisar,5498,5543;5556;5557,0.83,dúvida entre Inquérito Policial e Provas em Espécies (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.70)
-Q0148,publicar,5199,,0.96,
+Q0142,fora,,,0.97,"nenhum tema da árvore cobre a questão: A questão pede as hipóteses de isenção do ITCD previstas na legislação estadual do Pará, um assunto exclusivamente de Direito Tributário (impostos estaduais)."
+Q0143,publicar,5505,,0.96,
+Q0144,revisar,5560,5524,0.90,"tema provável Recursos em Espécies, mas a árvore tem um gêmeo recente sem descrição (Recursos (Parte 03) - Espécies (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0145,revisar,4702,5084;4695,0.81,"tema provável Lavagem de Dinheiro, mas a árvore tem um gêmeo recente sem descrição (Lavagem de Dinheiro (Penal)); confirmar qual dos dois a equipe usa"
+Q0146,revisar,5594,5555;5554;5556,0.83,dúvida entre Prova Ilegal e Prova Ilícita e Provas em Espécies (ramos que os modelos costumam confundir; confiança do revisor automático 0.92)
+Q0147,revisar,5498,5543;5556;5557,0.68,dúvida entre Inquérito Policial e Provas em Espécies (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.70)
+Q0148,revisar,5199,,0.90,"tema provável Teoria da Pena, mas a árvore tem um gêmeo recente sem descrição (Teoria da Pena (Parte 1) (Penal), Teoria da Pena (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
 Q0149,publicar,5498,5543;5554,0.94,
-Q0150,revisar,4708,5181,0.96,"tema provável Tráfico de Drogas, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
+Q0150,revisar,4708,5181,0.84,"tema provável Tráfico de Drogas, mas a árvore tem um gêmeo recente sem descrição (Tráfico de Drogas (Penal)); confirmar qual dos dois a equipe usa"
 Q0151,publicar,5517,5584;5585,0.94,
 Q0152,publicar,5466,5065,0.96,
 Q0153,publicar,5218,,0.93,
-Q0154,revisar,5134,,0.22,"dúvida entre 'fora' (nenhum tema serve) e Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso"
-Q0155,revisar,4703,,0.96,"tema provável Lei de Execução Penal, mas ele existe em duplicata (Legislação Especial e cópia recente em Processo Penal); confirmar qual dos dois a equipe usa"
-Q0156,revisar,4688,,0.96,"tema provável Crimes contra o meio ambiente, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
+Q0154,revisar,5134,,0.43,"dúvida entre 'fora' (nenhum tema serve) e Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso"
+Q0155,revisar,4703,,0.84,"tema provável Lei de Execução Penal, mas a árvore tem um gêmeo recente sem descrição (Lei de Execução Penal (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0156,revisar,4688,,0.84,"tema provável Crimes contra o meio ambiente, mas a árvore tem um gêmeo recente sem descrição (Crimes contra o meio ambiente (Penal)); confirmar qual dos dois a equipe usa"
 Q0157,publicar,5517,4693,0.93,
 Q0158,publicar,4707,5209,0.93,
-Q0159,revisar,5226,5160;5177,0.26,dúvida entre Nexo Causal e Imputação Objetiva e Roubo (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
-Q0160,publicar,5205,,0.95,
-Q0161,revisar,5588,5517;5590;5594,0.80,dúvida entre Relaxamento da Prisão e Audiência de Custódia (fronteira entre temas; confiança do revisor automático 0.85)
-Q0162,revisar,4381,,0.82,dúvida entre Conceito e objeto da Criminologia e Criminologia no Estado Democrático de Direito (fronteira entre temas; confiança do revisor automático 0.85)
-Q0163,revisar,4684,4703;5128;5183,0.78,dúvida entre Abuso de Autoridade e Dos Crimes Contra a Liberdade Pessoal (fronteira entre temas; confiança do revisor automático 0.60)
-Q0164,revisar,4703,,0.96,"tema provável Lei de Execução Penal, mas ele existe em duplicata (Legislação Especial e cópia recente em Processo Penal); confirmar qual dos dois a equipe usa"
-Q0165,revisar,4705,5557,0.96,"tema provável Organizações Criminosas, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0166,revisar,4703,5208;5191;4693,0.83,dúvida entre Lei de Execução Penal e Teoria da Pena / Livramento Condicional (os classificadores não concordam no tema; confiança do revisor automático 0.85)
+Q0159,revisar,5226,5160;5177,0.53,dúvida entre Nexo Causal e Imputação Objetiva e Roubo (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
+Q0160,revisar,5199,,0.90,"tema provável Teoria da Pena, mas a árvore tem um gêmeo recente sem descrição (Teoria da Pena (Parte 1) (Penal), Teoria da Pena (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0161,revisar,5588,5517;5590;5594,0.63,dúvida entre Relaxamento da Prisão e Audiência de Custódia (fronteira entre temas; confiança do revisor automático 0.85)
+Q0162,revisar,4381,,0.68,dúvida entre Conceito e objeto da Criminologia e Criminologia no Estado Democrático de Direito (fronteira entre temas; confiança do revisor automático 0.85)
+Q0163,revisar,4684,4703;5128;5183,0.48,dúvida entre Abuso de Autoridade e Dos Crimes Contra a Liberdade Pessoal (fronteira entre temas; confiança do revisor automático 0.60)
+Q0164,revisar,4703,,0.85,"tema provável Lei de Execução Penal, mas a árvore tem um gêmeo recente sem descrição (Lei de Execução Penal (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0165,revisar,4705,5557,0.84,"tema provável Organizações Criminosas, mas a árvore tem um gêmeo recente sem descrição (Organizações Criminosas (Penal)); confirmar qual dos dois a equipe usa"
+Q0166,revisar,4703,5208;5191;4693,0.73,dúvida entre Lei de Execução Penal e Teoria da Pena / Livramento Condicional (os classificadores não concordam no tema; confiança do revisor automático 0.85)
 Q0167,publicar,5524,,0.95,
-Q0168,fora,,,0.60,nenhum tema da árvore cobre a questão: A questão cobra os crimes da Lei Geral do Esporte (Lei 14.597/2023). Ela exige que o aluno diferencie a corrupção privada no esporte (art. 165) dos cr
-Q0169,revisar,5492,,0.89,"dúvida entre Exceção de Suspeição, de Impedimento ou de Incompatibilidade e Sujeitos do Processo (fronteira entre temas; confiança do revisor automático 0.88)"
-Q0170,publicar,5199,5193,0.93,
-Q0171,revisar,4693,5557;5199;5185,0.44,dúvida entre Crimes Hediondos e Provas em Espécies / Colaboração Premiada (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.50)
-Q0172,revisar,5480,5572;5185;5579,0.75,dúvida entre Competência e Ação Penal (Processo Penal) (cada alternativa cobra um instituto diferente; ramos que os modelos costumam confundir; confiança do revisor automático 0.55)
-Q0173,revisar,4703,,0.96,"tema provável Lei de Execução Penal, mas ele existe em duplicata (Legislação Especial e cópia recente em Processo Penal); confirmar qual dos dois a equipe usa"
-Q0174,revisar,5133,4709;5157;5166,0.73,"dúvida entre Dos Crimes contra a Inviolabilidade do Domicílio, Contra a Inviolabilidade da Correspondência e Contra a Inviolabilidade dos Segredos e Dos Crimes Contra o Patrimônio (cada alternativa cobra um instituto diferente; confiança do"
-Q0175,publicar,5087,,0.96,
-Q0176,publicar,5081,,0.95,
-Q0177,publicar,5543,5595,0.93,
+Q0168,revisar,5071,,0.18,dúvida entre 'fora' (nenhum tema serve) e Concurso de Pessoas; confiança do revisor automático em 'fora' 0.60
+Q0169,revisar,5492,,0.80,"dúvida entre Exceção de Suspeição, de Impedimento ou de Incompatibilidade e Sujeitos do Processo (fronteira entre temas; confiança do revisor automático 0.88)"
+Q0170,revisar,5199,5193,0.83,"tema provável Teoria da Pena, mas a árvore tem um gêmeo recente sem descrição (Teoria da Pena (Parte 1) (Penal), Teoria da Pena (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0171,revisar,4693,5557;5199;5185,0.48,dúvida entre Crimes Hediondos e Provas em Espécies / Colaboração Premiada (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.50)
+Q0172,revisar,5480,5572;5185;5579,0.48,dúvida entre Competência e Ação Penal (Processo Penal) (cada alternativa cobra um instituto diferente; ramos que os modelos costumam confundir; confiança do revisor automático 0.55)
+Q0173,revisar,4703,,0.84,"tema provável Lei de Execução Penal, mas a árvore tem um gêmeo recente sem descrição (Lei de Execução Penal (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0174,revisar,5133,4709;5157;5166,0.48,"dúvida entre Dos Crimes contra a Inviolabilidade do Domicílio, Contra a Inviolabilidade da Correspondência e Contra a Inviolabilidade dos Segredos e Dos Crimes Contra o Patrimônio (cada alternativa cobra um instituto diferente"
+Q0175,revisar,5087,,0.90,"tema provável Dos Crimes Contra a Administração Pública, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra a Administração Pública (Parte 1) (Penal), Dos Crimes contra a Administração Pública (Parte 2) (Penal))"
+Q0176,publicar,5079,,0.96,
+Q0177,revisar,5543,5595,0.78,"tema provável Provas em Espécies, mas a árvore tem um gêmeo recente sem descrição (Provas em Espécie (Processo Penal)); confirmar qual dos dois a equipe usa"
 Q0178,publicar,4697,,0.94,
-Q0179,publicar,4369,,0.95,
-Q0180,revisar,5554,5590;5594,0.84,dúvida entre Busca e Apreensão e Teoria Geral das Provas (fronteira entre temas; confiança do revisor automático 0.85)
+Q0179,publicar,4368,,0.96,
+Q0180,revisar,5554,5590;5594,0.60,dúvida entre Busca e Apreensão e Teoria Geral das Provas (fronteira entre temas; confiança do revisor automático 0.85)
 Q0181,publicar,4695,,0.94,
-Q0182,revisar,5138,5149;5120;5154,0.19,dúvida entre Dos Crimes Contra a Periclitação da Vida e da Saúde e Dos Crimes Contra a Vida (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.40)
-Q0183,revisar,5561,5185;5187;5488,0.88,dúvida entre Recurso em sentido estrito (RESE) e Prescrição (fronteira entre temas; confiança do revisor automático 0.88)
-Q0184,revisar,4708,5518,0.90,dúvida entre Tráfico de Drogas e Prisões em Espécie (fronteira entre temas; confiança do revisor automático 0.85)
-Q0185,revisar,4703,5566,0.96,"tema provável Lei de Execução Penal, mas ele existe em duplicata (Legislação Especial e cópia recente em Processo Penal); confirmar qual dos dois a equipe usa"
-Q0186,publicar,5202,,0.95,
-Q0187,publicar,5199,5092,0.95,
+Q0182,revisar,5138,5149;5120;5154,0.38,dúvida entre Dos Crimes Contra a Periclitação da Vida e da Saúde e Dos Crimes Contra a Vida (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.40)
+Q0183,revisar,5561,5185;5187;5488,0.73,dúvida entre Recurso em sentido estrito (RESE) e Prescrição (fronteira entre temas; confiança do revisor automático 0.88)
+Q0184,revisar,4708,5518,0.73,dúvida entre Tráfico de Drogas e Prisões em Espécie (fronteira entre temas; confiança do revisor automático 0.85)
+Q0185,revisar,4703,5566,0.84,"tema provável Lei de Execução Penal, mas a árvore tem um gêmeo recente sem descrição (Lei de Execução Penal (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0186,revisar,5199,,0.91,"tema provável Teoria da Pena, mas a árvore tem um gêmeo recente sem descrição (Teoria da Pena (Parte 1) (Penal), Teoria da Pena (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0187,revisar,5199,5092,0.86,"tema provável Teoria da Pena, mas a árvore tem um gêmeo recente sem descrição (Teoria da Pena (Parte 1) (Penal), Teoria da Pena (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
 Q0188,publicar,5228,,0.96,
-Q0189,revisar,5472,5191;5196,0.78,dúvida entre Ação Penal de Iniciativa Privada e Princípios da Ação Penal (fronteira entre temas; confiança do revisor automático 0.85)
-Q0190,revisar,5539,,0.29,dúvida entre Procedimento Sumaríssimo e Juizado Especial Criminal (os classificadores não concordam no tema; confiança do revisor automático 0.60)
-Q0191,publicar,5560,,0.95,
-Q0192,revisar,5087,5079;5199;5081,0.90,dúvida entre Dos Crimes Contra a Administração Pública e Concussão e Excesso de Exação (fronteira entre temas; confiança do revisor automático 0.85)
-Q0193,revisar,5557,4705,0.80,dúvida entre Colaboração Premiada e Organizações Criminosas (ramos que os modelos costumam confundir; confiança do revisor automático 0.70)
-Q0194,revisar,5076,5087;5089,0.87,"dúvida entre Comunicabilidade de Circunstâncias, Condições e Elementares e Dos Crimes Contra a Administração Pública (fronteira entre temas; confiança do revisor automático 0.85)"
-Q0195,revisar,4373,4385;4387,0.80,dúvida entre Escolas Crimonológicas e Teorias Sociológicas Explicativas da Criminalidade (fronteira entre temas; confiança do revisor automático 0.85)
+Q0189,revisar,5472,5191;5196,0.58,dúvida entre Ação Penal de Iniciativa Privada e Princípios da Ação Penal (fronteira entre temas; confiança do revisor automático 0.85)
+Q0190,revisar,5539,,0.58,dúvida entre Procedimento Sumaríssimo e Juizado Especial Criminal (os classificadores não concordam no tema; confiança do revisor automático 0.60)
+Q0191,revisar,5560,,0.88,"tema provável Recursos em Espécies, mas a árvore tem um gêmeo recente sem descrição (Recursos (Parte 03) - Espécies (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0192,revisar,5087,5079;5199;5081,0.78,dúvida entre Dos Crimes Contra a Administração Pública e Concussão e Excesso de Exação (fronteira entre temas; confiança do revisor automático 0.85)
+Q0193,revisar,5557,4705,0.53,dúvida entre Colaboração Premiada e Organizações Criminosas (ramos que os modelos costumam confundir; confiança do revisor automático 0.70)
+Q0194,revisar,5076,5087;5089,0.76,"dúvida entre Comunicabilidade de Circunstâncias, Condições e Elementares e Dos Crimes Contra a Administração Pública (fronteira entre temas; confiança do revisor automático 0.85)"
+Q0195,revisar,4373,4385;4387,0.63,dúvida entre Escolas Crimonológicas e Teorias Sociológicas Explicativas da Criminalidade (fronteira entre temas; confiança do revisor automático 0.85)
 Q0196,publicar,4385,4378,0.95,
-Q0197,revisar,5482,5498,0.85,dúvida entre Competência em Razão da Matéria e Inquérito Policial (ramos que os modelos costumam confundir; confiança do revisor automático 0.60)
+Q0197,revisar,5482,5498,0.68,dúvida entre Competência em Razão da Matéria e Inquérito Policial (ramos que os modelos costumam confundir; confiança do revisor automático 0.60)
 Q0198,publicar,5071,,0.96,
-Q0199,revisar,5218,5228;5230;5183,0.88,"dúvida entre Teoria do Crime: Fato Típico e Conceito, Sujeito e Objeto do Crime (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.80)"
-Q0200,revisar,4705,,0.95,"tema provável Organizações Criminosas, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
+Q0199,revisar,5218,5228;5230;5183,0.78,"dúvida entre Teoria do Crime: Fato Típico e Conceito, Sujeito e Objeto do Crime (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.80)"
+Q0200,revisar,4705,,0.83,"tema provável Organizações Criminosas, mas a árvore tem um gêmeo recente sem descrição (Organizações Criminosas (Penal)); confirmar qual dos dois a equipe usa"
 Q0201,publicar,5102,5069,0.94,
-Q0202,revisar,5108,5218;5224,0.83,dúvida entre Corrupção de Menores e Teoria do Crime: Fato Típico (fronteira entre temas; confiança do revisor automático 0.88)
-Q0203,revisar,4702,,0.94,"tema provável Lavagem de Dinheiro, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0204,publicar,5507,,0.96,
-Q0205,revisar,5512,5560;5567,0.72,dúvida entre Parte Geral dos Recursos e Recursos em Espécies (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.50)
+Q0202,revisar,5108,5218;5224,0.68,dúvida entre Corrupção de Menores e Teoria do Crime: Fato Típico (fronteira entre temas; confiança do revisor automático 0.88)
+Q0203,revisar,4702,,0.81,"tema provável Lavagem de Dinheiro, mas a árvore tem um gêmeo recente sem descrição (Lavagem de Dinheiro (Penal)); confirmar qual dos dois a equipe usa"
+Q0204,publicar,5505,,0.97,
+Q0205,revisar,5512,5560;5567,0.48,dúvida entre Parte Geral dos Recursos e Recursos em Espécies (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.50)
 Q0206,publicar,5583,,0.95,
-Q0207,revisar,4703,,0.96,"tema provável Lei de Execução Penal, mas ele existe em duplicata (Legislação Especial e cópia recente em Processo Penal); confirmar qual dos dois a equipe usa"
-Q0208,revisar,5228,5517;5524;5226,0.78,dúvida entre Teoria do Crime: Ilicitude e Teoria do Crime: Fato Típico (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
+Q0207,revisar,4703,,0.85,"tema provável Lei de Execução Penal, mas a árvore tem um gêmeo recente sem descrição (Lei de Execução Penal (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0208,revisar,5228,5517;5524;5226,0.58,dúvida entre Teoria do Crime: Ilicitude e Teoria do Crime: Fato Típico (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
 Q0209,publicar,5498,5580;5582,0.95,
 Q0210,publicar,4697,4693;5227;5181,0.95,
 Q0211,publicar,5583,5582,0.93,
-Q0212,publicar,5488,,0.94,
-Q0213,revisar,4708,,0.92,dúvida entre Tráfico de Drogas e Procedimento Ordinário (fronteira entre temas; confiança do revisor automático 0.88)
-Q0214,publicar,5494,,0.93,
-Q0215,publicar,5199,,0.95,
-Q0216,revisar,4701,5541,0.78,dúvida entre Juizado Especial Criminal e Procedimento Sumaríssimo (os classificadores não concordam no tema; confiança do revisor automático 0.60)
-Q0217,revisar,4372,4385;4384,0.21,"dúvida entre Etapas Evolutivas da Criminologia (Antiguidade, Idade Média e Idade Moderna) e Teorias Legitimidoras da Pena (os classificadores não concordam no tema; confiança do revisor automático 0.60)"
-Q0218,publicar,5518,,0.95,
-Q0219,revisar,5071,5174,0.90,dúvida entre Concurso de Pessoas e Introdução ao Estudo do Direito Penal (fronteira entre temas; confiança do revisor automático 0.85)
-Q0220,publicar,5501,,0.95,
-Q0221,revisar,5199,5184,0.90,dúvida entre Teoria da Pena e Medida de Segurança (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.88)
-Q0222,revisar,4374,5170,0.84,dúvida entre Política Criminal e Direito Penal do Inimigo (fronteira entre temas; confiança do revisor automático 0.72)
-Q0223,revisar,5086,,0.88,dúvida entre Outros crimes contra a Administração Judicial e Dos Crimes Contra a Administração Pública (os classificadores não concordam no tema; confiança do revisor automático 0.90)
-Q0224,publicar,5199,,0.94,
-Q0225,publicar,5478,5571,0.94,
-Q0226,publicar,5544,,0.95,
+Q0212,publicar,5487,,0.95,
+Q0213,revisar,4708,,0.76,dúvida entre Tráfico de Drogas e Procedimento Ordinário (fronteira entre temas; confiança do revisor automático 0.88)
+Q0214,publicar,5490,,0.96,
+Q0215,revisar,5199,,0.88,"tema provável Teoria da Pena, mas a árvore tem um gêmeo recente sem descrição (Teoria da Pena (Parte 1) (Penal), Teoria da Pena (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0216,revisar,4701,5541,0.58,dúvida entre Juizado Especial Criminal e Procedimento Sumaríssimo (os classificadores não concordam no tema; confiança do revisor automático 0.60)
+Q0217,revisar,4372,4385;4384,0.43,"dúvida entre Etapas Evolutivas da Criminologia (Antiguidade, Idade Média e Idade Moderna) e Teorias Legitimidoras da Pena (os classificadores não concordam no tema; confiança do revisor automático 0.60)"
+Q0218,publicar,5517,,0.96,
+Q0219,revisar,5071,5174,0.83,dúvida entre Concurso de Pessoas e Introdução ao Estudo do Direito Penal (fronteira entre temas; confiança do revisor automático 0.85)
+Q0220,publicar,5498,,0.96,
+Q0221,revisar,5199,5184,0.81,dúvida entre Teoria da Pena e Medida de Segurança (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.88)
+Q0222,revisar,4374,5170,0.70,dúvida entre Política Criminal e Direito Penal do Inimigo (fronteira entre temas; confiança do revisor automático 0.72)
+Q0223,revisar,5086,,0.80,dúvida entre Outros crimes contra a Administração Judicial e Dos Crimes Contra a Administração Pública (os classificadores não concordam no tema; confiança do revisor automático 0.90)
+Q0224,revisar,5199,,0.86,"tema provável Teoria da Pena, mas a árvore tem um gêmeo recente sem descrição (Teoria da Pena (Parte 1) (Penal), Teoria da Pena (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0225,publicar,5476,5571,0.95,
+Q0226,revisar,5543,,0.85,"tema provável Provas em Espécies, mas a árvore tem um gêmeo recente sem descrição (Provas em Espécie (Processo Penal)); confirmar qual dos dois a equipe usa"
 Q0227,publicar,5102,4709;5066,0.94,
-Q0228,revisar,4703,5208;5566,0.88,dúvida entre Lei de Execução Penal e Livramento Condicional (os classificadores não concordam no tema; confiança do revisor automático 0.82)
-Q0229,revisar,5584,5517;5519;5520,0.77,dúvida entre Teoria Geral das Prisões e Prisões em Espécie (fronteira entre temas; confiança do revisor automático 0.60)
-Q0230,revisar,5211,5071;5199;5184,0.78,dúvida entre Teoria do Crime: Culpabilidade e Concurso de Pessoas (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
-Q0231,publicar,5224,,0.93,
+Q0228,revisar,4703,5208;5566,0.70,dúvida entre Lei de Execução Penal e Livramento Condicional (os classificadores não concordam no tema; confiança do revisor automático 0.82)
+Q0229,revisar,5584,5517;5519;5520,0.58,dúvida entre Teoria Geral das Prisões e Prisões em Espécie (fronteira entre temas; confiança do revisor automático 0.60)
+Q0230,revisar,5211,5071;5199;5184,0.58,dúvida entre Teoria do Crime: Culpabilidade e Concurso de Pessoas (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
+Q0231,publicar,5218,,0.96,
 Q0232,publicar,5079,,0.96,
-Q0233,publicar,5178,,0.94,
+Q0233,publicar,5175,,0.97,
 Q0234,publicar,4380,,0.95,
-Q0235,revisar,5561,5515,0.88,dúvida entre Recurso em sentido estrito (RESE) e Competência (fronteira entre temas; confiança do revisor automático 0.85)
-Q0236,revisar,5490,5590;5509;5592,0.75,dúvida entre Das Questões e Processos Incidentes e Teoria Geral das Provas (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.55)
-Q0237,publicar,5178,,0.96,
+Q0235,revisar,5561,5515,0.73,dúvida entre Recurso em sentido estrito (RESE) e Competência (fronteira entre temas; confiança do revisor automático 0.85)
+Q0236,revisar,5490,5590;5509;5592,0.53,dúvida entre Das Questões e Processos Incidentes e Teoria Geral das Provas (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.55)
+Q0237,publicar,5175,,0.97,
 Q0238,publicar,5517,,0.95,
-Q0239,revisar,5199,5218;5066;5224,0.88,dúvida entre Teoria da Pena e Suspensão Condicional da Pena (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.80)
-Q0240,revisar,5501,5466;5473,0.25,dúvida entre Conclusão e Arquivamento do Inquérito Policial e Denúncia (os classificadores não concordam no tema; confiança do revisor automático 0.60)
-Q0241,publicar,5224,,0.93,
-Q0242,revisar,5512,5560,0.74,dúvida entre Parte Geral dos Recursos e Recursos em Espécies (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.55)
-Q0243,publicar,5178,,0.95,
-Q0244,publicar,5087,,0.96,
+Q0239,revisar,5199,5218;5066;5224,0.73,dúvida entre Teoria da Pena e Suspensão Condicional da Pena (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.80)
+Q0240,revisar,5501,5466;5473,0.48,dúvida entre Conclusão e Arquivamento do Inquérito Policial e Denúncia (os classificadores não concordam no tema; confiança do revisor automático 0.60)
+Q0241,publicar,5218,,0.96,
+Q0242,revisar,5512,5560,0.53,dúvida entre Parte Geral dos Recursos e Recursos em Espécies (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.55)
+Q0243,publicar,5175,,0.96,
+Q0244,revisar,5087,,0.90,"tema provável Dos Crimes Contra a Administração Pública, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra a Administração Pública (Parte 1) (Penal), Dos Crimes contra a Administração Pública (Parte 2) (Penal))"
 Q0245,publicar,5185,4708,0.95,
-Q0246,publicar,5527,5211;5213,0.94,
-Q0247,publicar,5502,5507,0.93,
-Q0248,publicar,5087,,0.96,
-Q0249,revisar,5492,5583,0.79,"dúvida entre Exceção de Suspeição, de Impedimento ou de Incompatibilidade e Sujeitos do Processo (fronteira entre temas; confiança do revisor automático 0.70)"
-Q0250,publicar,5201,,0.93,
+Q0246,publicar,5524,5211;5213,0.96,
+Q0247,publicar,5498,5507,0.95,
+Q0248,revisar,5087,,0.90,"tema provável Dos Crimes Contra a Administração Pública, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra a Administração Pública (Parte 1) (Penal), Dos Crimes contra a Administração Pública (Parte 2) (Penal))"
+Q0249,revisar,5492,5583,0.60,"dúvida entre Exceção de Suspeição, de Impedimento ou de Incompatibilidade e Sujeitos do Processo (fronteira entre temas; confiança do revisor automático 0.70)"
+Q0250,revisar,5199,,0.90,"tema provável Teoria da Pena, mas a árvore tem um gêmeo recente sem descrição (Teoria da Pena (Parte 1) (Penal), Teoria da Pena (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
 Q0251,publicar,5191,5185,0.95,
-Q0252,revisar,4703,5191;5206;5208,0.75,dúvida entre Lei de Execução Penal e Teoria da Pena (cada alternativa cobra um instituto diferente; ramos que os modelos costumam confundir; confiança do revisor automático 0.55)
+Q0252,revisar,4703,5191;5206;5208,0.43,dúvida entre Lei de Execução Penal e Teoria da Pena (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.55)
 Q0253,publicar,4371,,0.94,
-Q0254,revisar,4704,,0.96,"tema provável Lei Maria da Penha, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0255,publicar,5213,,0.95,
-Q0256,revisar,5224,5211;5214,0.82,dúvida entre Erro de Tipo e Teoria do Crime: Culpabilidade (fronteira entre temas; confiança do revisor automático 0.80)
-Q0257,revisar,5218,5170;5229,0.92,dúvida entre Teoria do Crime: Fato Típico e Tipicidade (fronteira entre temas; confiança do revisor automático 0.88)
-Q0258,publicar,5545,,0.95,
-Q0259,publicar,5183,,0.94,
-Q0260,revisar,4368,4374;4376,0.78,dúvida entre Criminologia no Estado Democrático de Direito e Política Criminal (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
-Q0261,revisar,5136,5063,0.88,dúvida entre Dos Crimescontra a Propriedade Imaterial e Ação Penal (Penal) (fronteira entre temas; confiança do revisor automático 0.85)
-Q0262,revisar,4703,5184,0.78,dúvida entre Lei de Execução Penal e Medida de Segurança (ramos que os modelos costumam confundir; confiança do revisor automático 0.60)
-Q0263,revisar,5492,,0.88,"dúvida entre Exceção de Suspeição, de Impedimento ou de Incompatibilidade e Sujeitos do Processo (fronteira entre temas; confiança do revisor automático 0.85)"
+Q0254,revisar,4704,,0.84,"tema provável Lei Maria da Penha, mas a árvore tem um gêmeo recente sem descrição (Lei Maria da Penha (Penal)); confirmar qual dos dois a equipe usa"
+Q0255,publicar,5211,,0.96,
+Q0256,revisar,5224,5211;5214,0.66,dúvida entre Erro de Tipo e Teoria do Crime: Culpabilidade (fronteira entre temas; confiança do revisor automático 0.80)
+Q0257,revisar,5218,5170;5229,0.86,dúvida entre Teoria do Crime: Fato Típico e Tipicidade (fronteira entre temas; confiança do revisor automático 0.88)
+Q0258,revisar,5543,,0.85,"tema provável Provas em Espécies, mas a árvore tem um gêmeo recente sem descrição (Provas em Espécie (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0259,publicar,5180,,0.95,
+Q0260,revisar,4368,4374;4376,0.58,dúvida entre Criminologia no Estado Democrático de Direito e Política Criminal (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
+Q0261,revisar,5136,5063,0.78,dúvida entre Dos Crimescontra a Propriedade Imaterial e Ação Penal (Penal) (fronteira entre temas; confiança do revisor automático 0.85)
+Q0262,revisar,4703,5184,0.48,dúvida entre Lei de Execução Penal e Medida de Segurança (ramos que os modelos costumam confundir; confiança do revisor automático 0.60)
+Q0263,revisar,5492,,0.78,"dúvida entre Exceção de Suspeição, de Impedimento ou de Incompatibilidade e Sujeitos do Processo (fronteira entre temas; confiança do revisor automático 0.85)"
 Q0264,publicar,5102,,0.96,
 Q0265,publicar,5185,5066,0.95,
-Q0266,publicar,5480,5525,0.95,
-Q0267,revisar,4708,,0.94,"tema provável Tráfico de Drogas, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0268,revisar,5116,5120;4684,0.66,dúvida entre Dos Crimes Contra a Fé Pública e de Falsidade Documental e Dos Crimes Contra a Honra (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
-Q0269,revisar,5170,,0.75,dúvida entre Introdução ao Estudo do Direito Penal e Correntes da Política Criminal (os classificadores não concordam no tema; confiança do revisor automático 0.55)
-Q0270,publicar,5087,,0.96,
+Q0266,revisar,5480,5525,0.88,"tema provável Competência, mas a árvore tem um gêmeo recente sem descrição (Competência (Parte 1) (Processo Penal), Competência (Parte 2) (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0267,revisar,4708,,0.80,"tema provável Tráfico de Drogas, mas a árvore tem um gêmeo recente sem descrição (Tráfico de Drogas (Penal)); confirmar qual dos dois a equipe usa"
+Q0268,revisar,5116,5120;4684,0.58,dúvida entre Dos Crimes Contra a Fé Pública e de Falsidade Documental e Dos Crimes Contra a Honra (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
+Q0269,revisar,5170,,0.53,dúvida entre Introdução ao Estudo do Direito Penal e Correntes da Política Criminal (os classificadores não concordam no tema; confiança do revisor automático 0.55)
+Q0270,revisar,5087,,0.90,"tema provável Dos Crimes Contra a Administração Pública, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra a Administração Pública (Parte 1) (Penal), Dos Crimes contra a Administração Pública (Parte 2) (Penal))"
 Q0271,publicar,5512,5562,0.94,
-Q0272,revisar,4703,,0.96,"tema provável Lei de Execução Penal, mas ele existe em duplicata (Legislação Especial e cópia recente em Processo Penal); confirmar qual dos dois a equipe usa"
-Q0273,revisar,5089,5116;4695;5222,0.78,dúvida entre Peculato e Peculato Mediante Erro de Outrem e Teoria do Crime: Fato Típico (fronteira entre temas; confiança do revisor automático 0.75)
-Q0274,publicar,5160,5177,0.93,
-Q0275,revisar,5540,4701;5488,0.80,dúvida entre Competência dos Juizados Especiais Criminais e Citação e Contagem dos Prazos (ramos que os modelos costumam confundir; confiança do revisor automático 0.80)
-Q0276,publicar,5543,,0.95,
-Q0277,revisar,4696,,0.96,"tema provável Estaturo de Idoso - Crimes, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0278,publicar,5542,4701,0.94,
+Q0272,revisar,4703,,0.85,"tema provável Lei de Execução Penal, mas a árvore tem um gêmeo recente sem descrição (Lei de Execução Penal (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0273,revisar,5089,5116;4695;5222,0.53,dúvida entre Peculato e Peculato Mediante Erro de Outrem e Teoria do Crime: Fato Típico (fronteira entre temas; confiança do revisor automático 0.75)
+Q0274,revisar,5157,5177,0.88,"tema provável Dos Crimes Contra o Patrimônio, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra o Patrimônio (Parte 1) (Penal), Dos Crimes contra o Patrimônio (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0275,revisar,5540,4701;5488,0.63,dúvida entre Competência dos Juizados Especiais Criminais e Citação e Contagem dos Prazos (ramos que os modelos costumam confundir; confiança do revisor automático 0.80)
+Q0276,revisar,5543,,0.81,"tema provável Provas em Espécies, mas a árvore tem um gêmeo recente sem descrição (Provas em Espécie (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0277,revisar,4696,,0.85,"tema provável Estaturo de Idoso - Crimes, mas a árvore tem um gêmeo recente sem descrição (Estatuto do Idoso - Crimes (Penal)); confirmar qual dos dois a equipe usa"
+Q0278,publicar,5539,4701,0.94,
 Q0279,publicar,5185,5175;5178;5159,0.93,
-Q0280,revisar,5466,5120;5063,0.88,dúvida entre Ação Penal (Processo Penal) e Dos Crimes Contra a Honra (fronteira entre temas; confiança do revisor automático 0.80)
-Q0281,revisar,5590,4700;5580;5555,0.69,dúvida entre Teoria Geral das Provas e Sistemas e Princípios Processuais Penais / Interceptação Telefônica (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.85)
-Q0282,revisar,4704,4697;4690,0.78,dúvida entre Lei Maria da Penha e Estatuto do Desarmamento (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
-Q0283,publicar,5496,,0.94,
-Q0284,revisar,5224,5228;5211;5214,0.23,dúvida entre Erro de Tipo e Legítima Defesa (os classificadores não concordam no tema; confiança do revisor automático 0.55)
-Q0285,revisar,4376,,0.92,dúvida entre Direito Penal do Inimigo e Introdução ao Estudo do Direito Penal (fronteira entre temas; confiança do revisor automático 0.85)
-Q0286,revisar,5199,5066,0.85,dúvida entre Teoria da Pena e Concurso de Crimes (fronteira entre temas; confiança do revisor automático 0.75)
+Q0280,revisar,5466,5120;5063,0.78,dúvida entre Ação Penal (Processo Penal) e Dos Crimes Contra a Honra (fronteira entre temas; confiança do revisor automático 0.80)
+Q0281,revisar,5590,4700;5580;5555,0.83,dúvida entre Teoria Geral das Provas e Sistemas e Princípios Processuais Penais / Interceptação Telefônica (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.85)
+Q0282,revisar,4704,4697;4690,0.48,dúvida entre Lei Maria da Penha e Estatuto do Desarmamento (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
+Q0283,publicar,5490,,0.95,
+Q0284,revisar,5224,5228;5211;5214,0.48,dúvida entre Erro de Tipo e Legítima Defesa (os classificadores não concordam no tema; confiança do revisor automático 0.55)
+Q0285,revisar,4376,,0.86,dúvida entre Direito Penal do Inimigo e Introdução ao Estudo do Direito Penal (fronteira entre temas; confiança do revisor automático 0.85)
+Q0286,revisar,5199,5066,0.68,dúvida entre Teoria da Pena e Concurso de Crimes (fronteira entre temas; confiança do revisor automático 0.75)
 Q0287,publicar,5228,5211,0.95,
-Q0288,revisar,5066,5102;4695;4688,0.70,dúvida entre Concurso de Crimes e Dos Crimes Contra a Dignidade Sexual (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.45)
-Q0289,revisar,4704,,0.96,"tema provável Lei Maria da Penha, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0290,revisar,4701,5539,0.77,dúvida entre Juizado Especial Criminal e Procedimento Sumaríssimo (os classificadores não concordam no tema; confiança do revisor automático 0.60)
-Q0291,revisar,4708,5498;5501,0.83,dúvida entre Tráfico de Drogas e Inquérito Policial (fronteira entre temas; confiança do revisor automático 0.70)
-Q0292,revisar,4374,4368,0.90,dúvida entre Política Criminal e Processos de Criminalização e Cifras Criminais (fronteira entre temas; confiança do revisor automático 0.85)
+Q0288,revisar,5066,5102;4695;4688,0.43,dúvida entre Concurso de Crimes e Dos Crimes Contra a Dignidade Sexual (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.45)
+Q0289,revisar,4704,,0.84,"tema provável Lei Maria da Penha, mas a árvore tem um gêmeo recente sem descrição (Lei Maria da Penha (Penal)); confirmar qual dos dois a equipe usa"
+Q0290,revisar,4701,5539,0.58,dúvida entre Juizado Especial Criminal e Procedimento Sumaríssimo (os classificadores não concordam no tema; confiança do revisor automático 0.60)
+Q0291,revisar,4708,5498;5501,0.58,dúvida entre Tráfico de Drogas e Inquérito Policial (fronteira entre temas; confiança do revisor automático 0.70)
+Q0292,revisar,4374,4368,0.83,dúvida entre Política Criminal e Processos de Criminalização e Cifras Criminais (fronteira entre temas; confiança do revisor automático 0.85)
 Q0293,publicar,5185,,0.96,
 Q0294,publicar,5211,,0.96,
 Q0295,publicar,5487,,0.93,
 Q0296,publicar,5466,5065,0.95,
 Q0297,publicar,4695,4689,0.93,
-Q0298,revisar,4694,4695,0.93,dúvida entre Crimes previstos no CDC e Crimes contra a Economia Popular / Crimes Tributários (os classificadores não concordam no tema; confiança do revisor automático 0.90)
-Q0299,revisar,4385,4384;4371,0.78,dúvida entre Teorias Sociológicas Explicativas da Criminalidade e Etapas Evolutivas e Escolas Criminológicas (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
-Q0300,publicar,5084,5071,0.95,
+Q0298,revisar,4694,4695,0.88,dúvida entre Crimes previstos no CDC e Crimes contra a Economia Popular / Crimes Tributários (os classificadores não concordam no tema; confiança do revisor automático 0.90)
+Q0299,revisar,4385,4384;4371,0.58,dúvida entre Teorias Sociológicas Explicativas da Criminalidade e Etapas Evolutivas e Escolas Criminológicas (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.60)
+Q0300,publicar,5079,5071,0.96,
 Q0301,publicar,5191,5124;4688;4691,0.94,
 Q0302,publicar,5218,5214,0.95,
 Q0303,publicar,5180,,0.94,
-Q0304,revisar,4701,5539;5540;5541,0.76,dúvida entre Juizado Especial Criminal e Competência dos Juizados Especiais Criminais / Procedimento Sumaríssimo (os classificadores não concordam no tema; confiança do revisor automático 0.60)
+Q0304,revisar,4701,5539;5540;5541,0.58,dúvida entre Juizado Especial Criminal e Competência dos Juizados Especiais Criminais / Procedimento Sumaríssimo (os classificadores não concordam no tema; confiança do revisor automático 0.60)
 Q0305,publicar,5466,,0.95,
-Q0306,publicar,5146,4705,0.94,
+Q0306,publicar,5144,4705,0.96,
 Q0307,publicar,4707,5223,0.94,
 Q0308,publicar,5498,5467,0.93,
-Q0309,revisar,4688,,0.97,"tema provável Crimes contra o meio ambiente, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
+Q0309,revisar,4688,,0.86,"tema provável Crimes contra o meio ambiente, mas a árvore tem um gêmeo recente sem descrição (Crimes contra o meio ambiente (Penal)); confirmar qual dos dois a equipe usa"
 Q0310,publicar,5505,,0.96,
-Q0311,publicar,5488,,0.94,
+Q0311,publicar,5487,,0.96,
 Q0312,publicar,4384,,0.94,
-Q0313,publicar,5209,5475,0.93,
-Q0314,publicar,5477,,0.95,
+Q0313,revisar,5199,5475,0.86,"tema provável Teoria da Pena, mas a árvore tem um gêmeo recente sem descrição (Teoria da Pena (Parte 1) (Penal), Teoria da Pena (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0314,publicar,5476,,0.96,
 Q0315,publicar,5185,,0.96,
 Q0316,publicar,5218,5153,0.94,
-Q0317,revisar,5198,5063;5471,0.85,dúvida entre Decadência e Ação Penal (Processo Penal) (fronteira entre temas; confiança do revisor automático 0.80)
+Q0317,revisar,5198,5063;5471,0.73,dúvida entre Decadência e Ação Penal (Processo Penal) (fronteira entre temas; confiança do revisor automático 0.80)
 Q0318,publicar,5175,5150,0.95,
 Q0319,publicar,5071,5174,0.95,
-Q0320,publicar,5543,,0.94,
+Q0320,revisar,5543,,0.81,"tema provável Provas em Espécies, mas a árvore tem um gêmeo recente sem descrição (Provas em Espécie (Processo Penal)); confirmar qual dos dois a equipe usa"
 Q0321,publicar,5071,4693;4708,0.95,
-Q0322,publicar,5560,,0.94,
-Q0323,revisar,5590,5547;5557,0.83,dúvida entre Teoria Geral das Provas e Provas em Espécies (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.70)
-Q0324,revisar,5199,5184;4703;4686,0.88,dúvida entre Teoria da Pena e Penas Privativas de Liberdade (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.80)
-Q0325,revisar,5466,4704;4688;5494,0.88,dúvida entre Ação Penal (Processo Penal) e Características e Condições da Ação Penal (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.80)
-Q0326,revisar,4708,,0.96,"tema provável Tráfico de Drogas, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0327,publicar,5203,,0.94,
-Q0328,revisar,4382,4374,0.35,dúvida entre Métodos e funções da Criminologia e Política Criminal (os classificadores não concordam no tema; confiança do revisor automático 0.85)
-Q0329,revisar,4705,5543;5557,0.77,dúvida entre Organizações Criminosas e Colaboração Premiada (os classificadores não concordam no tema; confiança do revisor automático 0.60)
-Q0330,revisar,5498,5580;5581,0.90,dúvida entre Inquérito Policial e Conclusão e Arquivamento do Inquérito Policial (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.85)
-Q0331,publicar,5477,,0.95,
-Q0332,revisar,5541,4701,0.93,dúvida entre Transação Penal e Juizado Especial Criminal (ramos que os modelos costumam confundir; confiança do revisor automático 0.72)
-Q0333,revisar,4373,5175;5218;5199,0.65,dúvida entre Escolas Crimonológicas e Iter Criminis (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.45)
-Q0334,publicar,4381,,0.94,
-Q0335,revisar,5218,5170;5173;5174,0.85,dúvida entre Teoria do Crime: Fato Típico e Introdução ao Estudo do Direito Penal (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.75)
-Q0336,publicar,5159,5177,0.93,
-Q0337,revisar,4684,,0.96,"tema provável Abuso de Autoridade, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0338,revisar,5543,5590,0.95,dúvida entre Provas em Espécies e Teoria Geral das Provas (cada alternativa cobra um instituto diferente; ramos que os modelos costumam confundir; confiança do revisor automático 0.95)
-Q0339,revisar,5572,5524;5565,0.88,dúvida entre Sentença Penal e Princípio da Correlação entre Acusação e Sentença (fronteira entre temas; confiança do revisor automático 0.80)
+Q0322,revisar,5560,,0.86,"tema provável Recursos em Espécies, mas a árvore tem um gêmeo recente sem descrição (Recursos (Parte 03) - Espécies (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0323,revisar,5590,5547;5557,0.68,dúvida entre Teoria Geral das Provas e Provas em Espécies (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.70)
+Q0324,revisar,5199,5184;4703;4686,0.73,dúvida entre Teoria da Pena e Penas Privativas de Liberdade (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.80)
+Q0325,revisar,5466,4704;4688;5494,0.78,dúvida entre Ação Penal (Processo Penal) e Características e Condições da Ação Penal (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.80)
+Q0326,revisar,4708,,0.85,"tema provável Tráfico de Drogas, mas a árvore tem um gêmeo recente sem descrição (Tráfico de Drogas (Penal)); confirmar qual dos dois a equipe usa"
+Q0327,revisar,5199,,0.90,"tema provável Teoria da Pena, mas a árvore tem um gêmeo recente sem descrição (Teoria da Pena (Parte 1) (Penal), Teoria da Pena (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0328,revisar,4382,4374,0.68,dúvida entre Métodos e funções da Criminologia e Política Criminal (os classificadores não concordam no tema; confiança do revisor automático 0.85)
+Q0329,revisar,4705,5543;5557,0.48,dúvida entre Organizações Criminosas e Colaboração Premiada (os classificadores não concordam no tema; confiança do revisor automático 0.60)
+Q0330,revisar,5498,5580;5581,0.83,dúvida entre Inquérito Policial e Conclusão e Arquivamento do Inquérito Policial (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.85)
+Q0331,publicar,5476,,0.96,
+Q0332,revisar,5541,4701,0.88,dúvida entre Transação Penal e Juizado Especial Criminal (ramos que os modelos costumam confundir; confiança do revisor automático 0.72)
+Q0333,revisar,4373,5175;5218;5199,0.38,dúvida entre Escolas Crimonológicas e Iter Criminis (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.45)
+Q0334,publicar,4380,,0.96,
+Q0335,revisar,5218,5170;5173;5174,0.73,dúvida entre Teoria do Crime: Fato Típico e Introdução ao Estudo do Direito Penal (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.75)
+Q0336,revisar,5157,5177,0.90,"tema provável Dos Crimes Contra o Patrimônio, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra o Patrimônio (Parte 1) (Penal), Dos Crimes contra o Patrimônio (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0337,revisar,4684,,0.85,"tema provável Abuso de Autoridade, mas a árvore tem um gêmeo recente sem descrição (Abuso de Autoridade (Penal)); confirmar qual dos dois a equipe usa"
+Q0338,revisar,5543,5590,0.83,dúvida entre Provas em Espécies e Teoria Geral das Provas (cada alternativa cobra um instituto diferente; ramos que os modelos costumam confundir; confiança do revisor automático 0.95)
+Q0339,revisar,5572,5524;5565,0.73,dúvida entre Sentença Penal e Princípio da Correlação entre Acusação e Sentença (fronteira entre temas; confiança do revisor automático 0.80)
 Q0340,publicar,5071,5203,0.96,
-Q0341,publicar,5157,,0.95,
-Q0342,publicar,5543,,0.95,
-Q0343,revisar,5196,5065,0.78,"dúvida entre Renúncia, Perdão do Ofendido e Retratação e Ação Penal (Processo Penal) (fronteira entre temas; confiança do revisor automático 0.75)"
-Q0344,revisar,4688,,0.95,"tema provável Crimes contra o meio ambiente, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
+Q0341,revisar,5157,,0.88,"tema provável Dos Crimes Contra o Patrimônio, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra o Patrimônio (Parte 1) (Penal), Dos Crimes contra o Patrimônio (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
+Q0342,revisar,5543,,0.83,"tema provável Provas em Espécies, mas a árvore tem um gêmeo recente sem descrição (Provas em Espécie (Processo Penal)); confirmar qual dos dois a equipe usa"
+Q0343,revisar,5196,5065,0.58,"dúvida entre Renúncia, Perdão do Ofendido e Retratação e Ação Penal (Processo Penal) (fronteira entre temas; confiança do revisor automático 0.75)"
+Q0344,revisar,4688,,0.83,"tema provável Crimes contra o meio ambiente, mas a árvore tem um gêmeo recente sem descrição (Crimes contra o meio ambiente (Penal)); confirmar qual dos dois a equipe usa"
 Q0345,publicar,5102,5199;5203;5204,0.95,
 Q0346,publicar,5583,5519;5528,0.95,
-Q0347,revisar,5069,5199;5228;5230,0.22,dúvida entre Crime Continuado e Teoria da Pena / Suspensão Condicional da Pena (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.50)
-Q0348,revisar,5087,5180;5182;5187,0.92,dúvida entre Dos Crimes Contra a Administração Pública e Corrupção Ativa (fronteira entre temas; confiança do revisor automático 0.88)
-Q0349,publicar,5178,5160,0.93,
-Q0350,revisar,4702,,0.96,"tema provável Lavagem de Dinheiro, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
-Q0351,publicar,5118,,0.95,
+Q0347,revisar,5069,5199;5228;5230,0.43,dúvida entre Crime Continuado e Teoria da Pena / Suspensão Condicional da Pena (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.50)
+Q0348,revisar,5087,5180;5182;5187,0.81,dúvida entre Dos Crimes Contra a Administração Pública e Corrupção Ativa (fronteira entre temas; confiança do revisor automático 0.88)
+Q0349,publicar,5175,5160,0.95,
+Q0350,revisar,4702,,0.85,"tema provável Lavagem de Dinheiro, mas a árvore tem um gêmeo recente sem descrição (Lavagem de Dinheiro (Penal)); confirmar qual dos dois a equipe usa"
+Q0351,publicar,5116,,0.96,
 Q0352,publicar,5512,,0.95,
-Q0353,revisar,5530,5185;5190,0.82,dúvida entre Procedimento Ordinário e Outras Prescrições (os classificadores não concordam no tema; confiança do revisor automático 0.70)
-Q0354,revisar,5218,5071;5072,0.89,dúvida entre Teoria do Crime: Fato Típico e Tipicidade (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.82)
-Q0355,revisar,4708,5502,0.95,"tema provável Tráfico de Drogas, mas ele existe em duplicata (Legislação Especial e cópia recente em Penal); confirmar qual dos dois a equipe usa"
+Q0353,revisar,5530,5185;5190,0.68,dúvida entre Procedimento Ordinário e Outras Prescrições (os classificadores não concordam no tema; confiança do revisor automático 0.70)
+Q0354,revisar,5218,5071;5072,0.80,dúvida entre Teoria do Crime: Fato Típico e Tipicidade (cada alternativa cobra um instituto diferente; confiança do revisor automático 0.82)
+Q0355,revisar,4708,5502,0.83,"tema provável Tráfico de Drogas, mas a árvore tem um gêmeo recente sem descrição (Tráfico de Drogas (Penal)); confirmar qual dos dois a equipe usa"
 Q0356,publicar,5066,,0.96,
-Q0357,publicar,5135,,0.95,
-Q0358,publicar,5133,,0.94,
-Q0359,revisar,4696,4701,0.91,dúvida entre Estaturo de Idoso - Crimes e Procedimento Sumaríssimo (fronteira entre temas; confiança do revisor automático 0.85)
+Q0357,publicar,5134,,0.96,
+Q0358,publicar,5128,,0.95,
+Q0359,revisar,4696,4701,0.73,dúvida entre Estaturo de Idoso - Crimes e Procedimento Sumaríssimo (fronteira entre temas; confiança do revisor automático 0.85)

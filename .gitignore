@@ -8,3 +8,5 @@ runs/**/*.tmp
 .ipynb_checkpoints/
 data/embeddings/*.npy
 runs/log_*.txt
+runs/decisoes_antes_*
+runs/publicacao_antes_*

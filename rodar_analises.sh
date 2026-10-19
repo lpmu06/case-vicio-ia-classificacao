@@ -4,12 +4,13 @@ set -euo pipefail
 export PYTHONIOENCODING=utf-8
 python src/42_comparar_metodos.py > /dev/null
 python src/45_confiabilidade.py > /dev/null
-python src/47_decisao.py --modo n1 --saida publicacao_nivel1.csv --saida_jsonl data/decisoes_nivel1.jsonl > /dev/null
+# variantes: híbrido (subtema quando a evidência é forte) e sem os temas com gêmeo 67xx
+python src/47_decisao.py --modo hibrido --saida publicacao_subtema.csv --saida_jsonl data/decisoes_subtema.jsonl > /dev/null
 python src/47_decisao.py --evitar_duplicados --saida publicacao_sem_duplicados.csv --saida_jsonl data/decisoes_sem_duplicados.jsonl > /dev/null
-python src/60_previsao.py --decisoes data/decisoes_nivel1.jsonl --saida_json runs/previsao_nivel1.json > /dev/null
+python src/60_previsao.py --decisoes data/decisoes_subtema.jsonl --saida_json runs/previsao_subtema.json > /dev/null
 python src/60_previsao.py --decisoes data/decisoes_sem_duplicados.jsonl --saida_json runs/previsao_sem_duplicados.json > /dev/null
 python src/49_sensibilidade.py > /dev/null
-python src/47_decisao.py                                   # versão principal -> publicacao.csv
+python src/47_decisao.py                                   # entrega principal: nível 1 -> publicacao.csv
 python src/60_previsao.py > /dev/null
 python src/61_escrever_previsao.py > /dev/null
 python src/44_diagnostico.py > /dev/null

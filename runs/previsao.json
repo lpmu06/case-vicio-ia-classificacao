@@ -1,10 +1,10 @@
 {
- "publicadas": 217,
+ "publicadas": 218,
  "total": 359,
- "fora": 2,
+ "fora": 1,
  "revisar": 140,
- "publicadas_nivel2": 69,
- "E1_independencia": 0.9879,
+ "publicadas_nivel2": 0,
+ "E1_independencia": 0.9998,
  "E2_outra_familia": {
   "acertos": 39,
   "n": 39,
@@ -15,37 +15,251 @@
   ]
  },
  "E3_auditoria": {
-  "pontos_central": 45.0,
-  "pontos_conservador": 44.5,
-  "n": 46.0,
-  "taxa": 0.9783,
-  "taxa_conservadora": 0.9674,
+  "arquivo": "auditoria_ia.csv",
+  "n": 47.0,
+  "duvidosos": 3,
+  "erros": 0,
+  "pontos_central": 46.0,
+  "pontos_conservador": 45.5,
+  "taxa": 0.9787,
+  "taxa_conservadora": 0.9681,
   "wilson95_conservador": [
-   0.8703,
-   0.9924
+   0.8728,
+   0.9926
+  ],
+  "cega": false
+ },
+ "E3_ancorada": {
+  "arquivo": "auditoria_ia.csv",
+  "n": 47.0,
+  "duvidosos": 3,
+  "erros": 0,
+  "pontos_central": 46.0,
+  "pontos_conservador": 45.5,
+  "taxa": 0.9787,
+  "taxa_conservadora": 0.9681,
+  "wilson95_conservador": [
+   0.8728,
+   0.9926
   ]
  },
+ "peso_duvida": 0.3333,
  "margem_convencao": 0.02,
  "taxa_subtema": 0.9251,
  "copias_67xx": {
+  "p_copias": 0.1,
+  "p_partes": 0.05,
+  "exposicao_copias": 0.211,
+  "exposicao_partes": 0.2064,
+  "n_copias": 46,
+  "n_partes": 45,
+  "perda_esperada": 0.0314,
+  "precisao_se_copias": 0.768,
+  "precisao_se_todos": 0.562,
+  "por_tema": [
+   {
+    "tema": "5199",
+    "titulo": "Teoria da Pena",
+    "grupo": "parte",
+    "gemeos": [
+     "6726",
+     "6727"
+    ],
+    "publicadas": 13
+   },
+   {
+    "tema": "5157",
+    "titulo": "Dos Crimes Contra o Patrimônio",
+    "grupo": "parte",
+    "gemeos": [
+     "6720",
+     "6721"
+    ],
+    "publicadas": 11
+   },
+   {
+    "tema": "5087",
+    "titulo": "Dos Crimes Contra a Administração Pública",
+    "grupo": "parte",
+    "gemeos": [
+     "6718",
+     "6719"
+    ],
+    "publicadas": 11
+   },
+   {
+    "tema": "4703",
+    "titulo": "Lei de Execução Penal",
+    "grupo": "copia",
+    "gemeos": [
+     "6734"
+    ],
+    "publicadas": 9
+   },
+   {
+    "tema": "4704",
+    "titulo": "Lei Maria da Penha",
+    "grupo": "copia",
+    "gemeos": [
+     "6724"
+    ],
+    "publicadas": 8
+   },
+   {
+    "tema": "5543",
+    "titulo": "Provas em Espécies",
+    "grupo": "copia",
+    "gemeos": [
+     "6735"
+    ],
+    "publicadas": 8
+   },
+   {
+    "tema": "4708",
+    "titulo": "Tráfico de Drogas",
+    "grupo": "copia",
+    "gemeos": [
+     "6728"
+    ],
+    "publicadas": 7
+   },
+   {
+    "tema": "5560",
+    "titulo": "Recursos em Espécies",
+    "grupo": "parte",
+    "gemeos": [
+     "6736"
+    ],
+    "publicadas": 6
+   },
+   {
+    "tema": "4688",
+    "titulo": "Crimes contra o meio ambiente",
+    "grupo": "copia",
+    "gemeos": [
+     "6717"
+    ],
+    "publicadas": 5
+   },
+   {
+    "tema": "5480",
+    "titulo": "Competência",
+    "grupo": "parte",
+    "gemeos": [
+     "6732",
+     "6733"
+    ],
+    "publicadas": 4
+   },
+   {
+    "tema": "4705",
+    "titulo": "Organizações Criminosas",
+    "grupo": "copia",
+    "gemeos": [
+     "6725"
+    ],
+    "publicadas": 3
+   },
+   {
+    "tema": "4702",
+    "titulo": "Lavagem de Dinheiro",
+    "grupo": "copia",
+    "gemeos": [
+     "6723"
+    ],
+    "publicadas": 3
+   },
+   {
+    "tema": "4684",
+    "titulo": "Abuso de Autoridade",
+    "grupo": "copia",
+    "gemeos": [
+     "6716"
+    ],
+    "publicadas": 2
+   },
+   {
+    "tema": "4696",
+    "titulo": "Estaturo de Idoso - Crimes",
+    "grupo": "copia",
+    "gemeos": [
+     "6722"
+    ],
+    "publicadas": 1
+   }
+  ],
   "p_cenario": 0.1,
-  "exposicao": 0.1751,
-  "perda_esperada": 0.0175,
-  "precisao_se_cenario_ocorrer": 0.803
+  "exposicao": 0.211,
+  "precisao_se_cenario_ocorrer": 0.768
  },
  "estimadores_ajustados": [
-  0.9503,
-  0.9607,
-  0.9625
+  0.9486,
+  0.9473
  ],
- "precisao_prevista": 0.961,
+ "sensibilidade": [
+  {
+   "p_copias": 0.05,
+   "p_partes": 0.025,
+   "peso_duvida": 0.333,
+   "precisao": 0.964
+  },
+  {
+   "p_copias": 0.05,
+   "p_partes": 0.025,
+   "peso_duvida": 0.5,
+   "precisao": 0.958
+  },
+  {
+   "p_copias": 0.05,
+   "p_partes": 0.025,
+   "peso_duvida": 1.0,
+   "precisao": 0.942
+  },
+  {
+   "p_copias": 0.1,
+   "p_partes": 0.05,
+   "peso_duvida": 0.333,
+   "precisao": 0.948
+  },
+  {
+   "p_copias": 0.1,
+   "p_partes": 0.05,
+   "peso_duvida": 0.5,
+   "precisao": 0.943
+  },
+  {
+   "p_copias": 0.1,
+   "p_partes": 0.05,
+   "peso_duvida": 1.0,
+   "precisao": 0.927
+  },
+  {
+   "p_copias": 0.25,
+   "p_partes": 0.125,
+   "peso_duvida": 0.333,
+   "precisao": 0.901
+  },
+  {
+   "p_copias": 0.25,
+   "p_partes": 0.125,
+   "peso_duvida": 0.5,
+   "precisao": 0.895
+  },
+  {
+   "p_copias": 0.25,
+   "p_partes": 0.125,
+   "peso_duvida": 1.0,
+   "precisao": 0.88
+  }
+ ],
+ "precisao_prevista": 0.948,
  "precisao_intervalo": [
-  0.853,
-  0.988
+  0.841,
+  0.993
  ],
- "cobertura_prevista": 0.604,
+ "cobertura_prevista": 0.607,
  "cobertura_intervalo": [
-  0.604,
-  0.608
+  0.607,
+  0.609
  ]
 }

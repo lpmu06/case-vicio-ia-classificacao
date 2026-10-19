@@ -47,6 +47,6 @@ def validar(caminho):
 
 
 if __name__ == "__main__":
-    arqs = sys.argv[1:] or [str(RAIZ / f) for f in ("publicacao.csv", "publicacao_nivel1.csv", "publicacao_sem_duplicados.csv")]
+    arqs = sys.argv[1:] or [str(RAIZ / f) for f in ("publicacao.csv", "publicacao_subtema.csv", "publicacao_sem_duplicados.csv")]
     ok = all([validar(a) for a in arqs])
     sys.exit(0 if ok else 1)

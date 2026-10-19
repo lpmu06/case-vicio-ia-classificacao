@@ -114,3 +114,46 @@ def carregar_questoes():
 def carregar_origem():
     p = RAIZ / "data" / "baseline_origem.jsonl"
     return {json.loads(l)["id"]: json.loads(l) for l in p.open(encoding="utf-8")} if p.exists() else {}
+
+
+# Gêmeos explícitos que o título não revela: plural, erro de grafia ou nome composto.
+GEMEOS_EXPLICITOS = {"6735": "5543",   # "Provas em Espécie" -> "Provas em Espécies"
+                     "6736": "5560",   # "Recursos (Parte 03) - Espécies" -> "Recursos em Espécies"
+                     "6722": "4696"}   # "Estatuto do Idoso - Crimes" -> "Estaturo de Idoso - Crimes"
+
+
+def gemeos_67xx(A):
+    """Temas usáveis de nível 1 que têm um gêmeo "bucket" (ids 67xx, criados por importação, sem descrição nem histórico).
+
+    Devolve {tema_usavel_id: {"gemeos": [ids], "grupo": "copia" | "parte"}}.
+    - "copia": o bucket tem o mesmo título do tema usável (cópias da Legislação Especial dentro de Penal/Processo Penal,
+      Lei de Execução Penal em Processo Penal, Provas em Espécie, Estatuto do Idoso). Quem rotula à mão vê dois títulos iguais.
+    - "parte": o bucket é um nome de aula, "X (Parte N)", cujo X é um tema usável. Menos provável de ser escolhido à mão.
+    """
+    out = {}
+
+    def liga(usavel_id, bucket, grupo):
+        e = out.setdefault(usavel_id, {"gemeos": [], "grupo": grupo})
+        e["gemeos"].append(bucket["tema_id"])
+        if grupo == "copia":
+            e["grupo"] = "copia"
+
+    for t in A.t.values():
+        if not (t["bucket"] and t["status"] == "active"):
+            continue
+        if t["tema_id"] in GEMEOS_EXPLICITOS:
+            alvo = GEMEOS_EXPLICITOS[t["tema_id"]]
+            liga(alvo, t, "parte" if "(Parte" in t["titulo"] else "copia")
+            continue
+        m = re.match(r"^(.*?)\s*\(Parte\s*0?\d+\)\s*$", t["titulo"], re.I)
+        if m:
+            base = norm(m.group(1))
+            cands = [c for c in A.por_titulo.get(base, []) if usavel(c) and c["nivel"] == 1]
+            mesma = [c for c in cands if c["disciplina"] == t["disciplina"]]
+            for c in (mesma or cands)[:1]:
+                liga(c["tema_id"], t, "parte")
+        else:
+            cands = [c for c in A.por_titulo.get(norm(t["titulo"]), []) if usavel(c) and c["nivel"] == 1 and c["tema_id"] != t["tema_id"]]
+            for c in cands[:1]:
+                liga(c["tema_id"], t, "copia")
+    return out

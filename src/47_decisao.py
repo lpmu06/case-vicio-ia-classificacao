@@ -28,7 +28,7 @@ from itertools import combinations
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from comum import Arvore, RAIZ, carregar_rodada, carregar_questoes, carregar_origem, norm
+from comum import Arvore, RAIZ, carregar_rodada, carregar_questoes, carregar_origem, gemeos_67xx
 
 CLASSIFICADORES = ["claude-opus", "claude-sonnet-h", "claude-sonnet-3n", "claude-haiku-h", "claude-haiku-3n",
                    "claude-sonnet-plano", "claude-opus-h", "gpt-5.5", "jev-h"]
@@ -45,17 +45,34 @@ def pares_confundiveis(rods, qids, minimo):
     return {p: n for p, n in cont.items() if n >= minimo}
 
 
+def cortar(texto, n=240):
+    """Corta no fim da última frase completa (ponto, ponto e vírgula ou parêntese) antes de n caracteres."""
+    texto = (texto or "").strip()
+    if len(texto) <= n:
+        return texto
+    corte = texto[:n]
+    pos = max(corte.rfind(". "), corte.rfind("; "), corte.rfind(") "))
+    if pos < n // 3:
+        pos = corte.rfind(" ")
+        return (corte[:pos].rstrip(" ,;") + "…") if pos > 0 else corte
+    return corte[:pos + 1].rstrip(" ;,")
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--modo", choices=["hibrido", "n1"], default="hibrido")
+    ap.add_argument("--modo", choices=["hibrido", "n1"], default="n1",
+                    help="n1: tudo no tema de nível 1 (entrega); hibrido: subtema quando a evidência é forte (variante)")
     ap.add_argument("--min_frac", type=float, default=0.75)
     ap.add_argument("--t_arb", type=float, default=0.90)
     ap.add_argument("--t_sub", type=float, default=0.90)
     ap.add_argument("--min_sub", type=int, default=2, help="mínimo de votos (incluindo o árbitro) no mesmo subtema")
     ap.add_argument("--min_par", type=int, default=3, help="mínimo de questões para um par de ramos ser 'confundível'")
     ap.add_argument("--margem", type=float, default=0.02, help="margem de convenção descontada da confiança")
+    ap.add_argument("--t_fora", type=float, default=0.80, help="confiança mínima do árbitro para decidir 'fora'")
+    ap.add_argument("--p_copias", type=float, default=0.10, help="risco de a equipe ter usado a cópia 67xx de título idêntico")
+    ap.add_argument("--p_partes", type=float, default=0.05, help="risco de a equipe ter usado o gêmeo 67xx 'nome de aula (Parte N)'")
     ap.add_argument("--evitar_duplicados", action="store_true",
-                    help="manda para revisar as questões de temas da Legislação Especial que têm cópia em Penal/Processo Penal (ids 67xx)")
+                    help="manda para revisar as questões de temas que têm gêmeo 67xx (cópias de título idêntico e nomes de aula)")
     ap.add_argument("--votantes", default="claude-opus,claude-sonnet-h",
                     help="rodadas completas que votam na decisão, além do árbitro (as melhores no experimento 2x2)")
     ap.add_argument("--saida", default=str(RAIZ / "publicacao.csv"))
@@ -82,16 +99,12 @@ def main():
         ramos_risco[x] += n
         ramos_risco[y] += n
 
-    # temas usáveis que têm uma cópia "bucket" (ids 67xx) em outra disciplina, com o mesmo título
-    duplicados_le = {}
-    for t in A.t.values():
-        if t["bucket"] and t["status"] == "active":
-            for c in A.por_titulo.get(norm(t["titulo"]), []):
-                if c["tema_id"] != t["tema_id"] and not c["bucket"] and c["nivel"] == 1:
-                    duplicados_le[c["tema_id"]] = t["disciplina"]
-    if "4696" in A.t and "6722" in A.t:  # "Estaturo de Idoso" (erro de grafia) x "Estatuto do Idoso - Crimes"
-        duplicados_le["4696"] = A.t["6722"]["disciplina"]
-    regs, stats = [], Counter()
+    # temas usáveis que têm um gêmeo "bucket" (ids 67xx): cópias de título idêntico e nomes de aula "(Parte N)"
+    gemeos = gemeos_67xx(A)
+    completas = {r: v for r, v in todas.items() if len(v) >= len(qids)}  # rodadas com as 359 questões
+    antes_path = RAIZ / "runs" / "decisoes_antes_blocoA.jsonl"
+    antes = {json.loads(l)["id"]: json.loads(l)["decisao"] for l in antes_path.open(encoding="utf-8")} if antes_path.exists() else {}
+    regs, stats, mudancas = [], Counter(), 0
     for q in qids:
         votos = {r: rod[q][0] for r, rod in rods.items() if q in rod}
         va = arb.get(q, (None, None))[0]
@@ -112,21 +125,28 @@ def main():
         else:
             ramo_a = "FORA" if va["fora"] else va["ramo"]
             frac_fora = cont.get("FORA", 0) / n_mod if n_mod else 0
-            if ramo_a == "FORA" and frac_fora >= 0.5:
-                decisao, motivo = "fora", "nenhum tema da árvore cobre a questão: " + va["just"][:150]
-            elif ramo_a == "FORA" or (frac_fora > 0 and ramo_a != "FORA" and frac_fora >= 0.34):
-                tema = None if ramo_a == "FORA" else ramo_a
+            if ramo_a == "FORA" and cont.get("FORA", 0) == n_mod and va["c_ramo"] >= a.t_fora:
+                decisao, motivo = "fora", "nenhum tema da árvore cobre a questão: " + cortar(va["just"], 190)
+            elif ramo_a == "FORA" or frac_fora > 0:
+                # dúvida entre 'fora' e um tema: sugere o melhor tema disponível (árbitro, votantes, demais rodadas, origem)
+                seg = A.redirecionar(arb[q][1].get("segunda_opcao_id")) if q in arb else None
+                cands = ([ramo_a] if ramo_a != "FORA" else []) + [seg] + [r for r, _ in cont.most_common() if r != "FORA"]
+                cands += [rod[q][0]["ramo"] for rod in todas.values() if q in rod and rod[q][0]["ramo"]] + [ramo_origem]
+                tema = next((c for c in cands if c and c in A.t), None)
                 if tema is None:
-                    tema = next((r for r, _ in cont.most_common() if r != "FORA"), None)
-                motivo = (f"dúvida entre 'fora' (nenhum tema serve) e {A.rotulo(tema)}" if tema
-                          else "dúvida entre 'fora' e um tema da árvore")
+                    decisao, motivo = "fora", "nenhum tema da árvore cobre a questão: " + cortar(va["just"], 190)
+                elif ramo_a == "FORA":
+                    motivo = (f"dúvida entre 'fora' (nenhum tema serve) e {A.rotulo(tema)}; confiança do revisor automático "
+                              f"em 'fora' {va['c_ramo']:.2f}")
+                else:
+                    motivo = f"dúvida entre 'fora' (nenhum tema serve) e {A.rotulo(tema)}"
             else:
                 tema = va["sub"] or ramo_a
                 fortes_ok = all(q in rods.get(f, {}) and rods[f][q][0]["ramo"] == ramo_a for f in FORTES)
                 frac = cont.get(ramo_a, 0) / n_mod if n_mod else 0
                 risco = ramos_risco.get(ramo_a, 0) > 0
-                # nos ramos confundíveis, exige que TODAS as rodadas disponíveis (inclusive as não votantes) concordem
-                unanime = all(rod[q][0]["ramo"] == ramo_a for rod in todas.values() if q in rod and not rod[q][0]["fora"])
+                # nos ramos confundíveis, exige que todas as rodadas completas (359 questões) concordem: critério igual para todas
+                unanime = all(rod[q][0]["ramo"] == ramo_a for rod in completas.values() if q in rod and not rod[q][0]["fora"])
                 if risco:
                     flags.append("ramo em par confundível")
                 if va["multi"]:
@@ -169,12 +189,18 @@ def main():
                     if va["c_ramo"] < a.t_arb and not razoes:
                         razoes.append("fronteira entre temas")
                     motivo = f"{base} ({'; '.join(razoes)}; confiança do revisor automático {va['c_ramo']:.2f})" if razoes else base
-        if a.evitar_duplicados and decisao == "publicar" and A.ramo_de(tema) in duplicados_le:
+        gem = gemeos.get(A.ramo_de(tema)) if tema else None
+        if gem:
+            flags.append("gêmeo 67xx: " + gem["grupo"])
+        if a.evitar_duplicados and decisao == "publicar" and gem:
             decisao, nivel = "revisar", None
-            motivo = (f"tema provável {A.rotulo(tema)}, mas ele existe em duplicata (Legislação Especial e cópia recente em "
-                      f"{duplicados_le[A.ramo_de(tema)]}); confirmar qual dos dois a equipe usa")
+            nomes = ", ".join(f"{A.t[g]['titulo']} ({A.t[g]['disciplina']})" for g in gem["gemeos"])
+            motivo = (f"tema provável {A.rotulo(tema)}, mas a árvore tem um gêmeo recente sem descrição ({nomes}); "
+                      "confirmar qual dos dois a equipe usa")
         reg.update({"decisao": decisao, "tema": tema, "nivel": nivel if decisao == "publicar" else (A.t[tema]["nivel"] if tema in A.t else None),
-                    "motivo": motivo[:240], "flags": flags})
+                    "motivo": cortar(motivo, 240), "flags": flags})
+        if antes and antes.get(q) != decisao:
+            mudancas += 1
         regs.append(reg)
         stats[(decisao, reg["nivel"] if decisao == "publicar" else None)] += 1
 
@@ -190,8 +216,11 @@ def main():
                     ex.append(e2)
         reg["extras"] = ex[:3]
 
-    # confiança = média entre a posterior de Dawid-Skene do ramo e a confiança do árbitro no nó escolhido,
-    # menos a margem de convenção (o que nenhum modelo vê); para "fora", a confiança do árbitro em "fora"
+    # confiança ("a chance de o tema central estar certo"):
+    # publicar: média entre a posterior de Dawid-Skene do ramo e a confiança do árbitro no nó, menos a margem de convenção
+    #           e menos o risco do gêmeo 67xx do ramo (p_copias ou p_partes);
+    # revisar:  só a confiança do árbitro no nó sugerido, com os mesmos descontos (a posterior de Dawid-Skene não discrimina aqui);
+    # fora:     a confiança do árbitro em 'fora'.
     cpath = RAIZ / "data" / "confiabilidade.jsonl"
     ds = {json.loads(l)["id"]: json.loads(l) for l in cpath.open(encoding="utf-8")} if cpath.exists() else {}
     for reg in regs:
@@ -210,7 +239,10 @@ def main():
             p_arb = ar["c_sub"] if (A.t[reg["tema"]]["nivel"] == 2 and ar["sub"] == reg["tema"]) else ar["c_ramo"]
         elif ar:
             p_arb = max(0.0, 1 - ar["c_ramo"]) / 2
-        reg["confianca"] = round(max(0.0, min(1.0, (p_ds + p_arb) / 2 - a.margem)), 2)
+        gem = gemeos.get(ramo)
+        risco = (a.p_copias if gem["grupo"] == "copia" else a.p_partes) if gem else 0.0
+        base = (p_ds + p_arb) / 2 if reg["decisao"] == "publicar" else p_arb
+        reg["confianca"] = round(max(0.0, min(1.0, base - a.margem - risco)), 2)
 
     with open(a.saida_jsonl, "w", encoding="utf-8") as g:
         for r in regs:
@@ -227,6 +259,8 @@ def main():
     for k, v in sorted(stats.items(), key=lambda x: -x[1]):
         print(f"  {k[0]:9s} nível {k[1]}: {v}")
     print(f"cobertura: {pub}/{n} = {pub / n:.1%}")
+    if antes:
+        print(f"decisões diferentes de runs/decisoes_antes_blocoA.jsonl: {mudancas}")
     top = sorted(conf_pairs.items(), key=lambda x: -x[1])[:12]
     if a.saida == str(RAIZ / "publicacao.csv"):
         (RAIZ / "runs" / "pares_confundiveis.json").write_text(json.dumps(

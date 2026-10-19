@@ -4,11 +4,11 @@ Luis Paulo · lpmu06@gmail.com · 19/10/2026 · código, dados e saídas brutas 
 
 | Resultado | Valor |
 |---|---|
-| Publicadas | **217 de 359 (60,4%)**: 69 no subtema e 148 no tema de nível 1 |
+| Publicadas | **218 de 359 (60,7%)**: 0 no subtema e 218 no tema de nível 1 |
 | Para revisão do professor | 140, cada uma com a sugestão do revisor automático e o motivo da dúvida |
-| Fora da árvore | 2 (imposto estadual; crimes da Lei Geral do Esporte) |
-| Precisão prevista nas publicadas | **0,96**, intervalo de 0,85 a 0,99 |
-| Variante sem os temas duplicados | 179 publicadas (49,9%), precisão prevista 0,98 (`publicacao_sem_duplicados.csv`) |
+| Fora da árvore | 1 (imposto estadual; crimes da Lei Geral do Esporte) |
+| Precisão prevista nas publicadas | **0,95**, intervalo de 0,84 a 0,99 |
+| Variante sem os temas duplicados | 127 publicadas (35,4%), precisão prevista 0,97 (`publicacao_sem_duplicados.csv`) |
 
 ## a) Como pensamos
 
@@ -52,13 +52,13 @@ A segunda camada compensa: o prompt cai dez vezes e a consistência praticamente
 
 | Estimador | Hipótese | Nas publicadas |
 |---|---|---|
-| Dawid-Skene sobre todos os classificadores e a origem | Erros independentes; é um limite superior | 98,8% |
+| Dawid-Skene sobre todos os classificadores e a origem | Erros independentes; é um limite superior | 100,0% |
 | Concordância com o GPT-5.5, a única família diferente | Famílias diferentes erram de forma pouco correlacionada; amostra pequena | 39 de 39 |
-| Auditoria cética, por IA, de 60 publicadas sorteadas | Um leitor cuidadoso acha os erros visíveis; dúvida conta 1/3 de erro | 97,8% (46 seguem publicadas após os limiares finais) |
+| Auditoria cética, por IA, de 60 publicadas sorteadas | Um leitor cuidadoso acha os erros visíveis; dúvida conta 1/3 de erro | 97,9% (47 seguem publicadas após os limiares finais) |
 | Desconto de convenção | O professor pode arquivar diferente de qualquer modelo | −2 pontos nos dois primeiros |
-| Desconto das cópias da Legislação Especial | 10% de chance de a equipe ter usado as cópias recentes em Penal; 18% das publicadas expostas | −1,75 pontos em todos |
+| Desconto das cópias da Legislação Especial | 10% de chance de a equipe ter usado as cópias recentes em Penal; 21% das publicadas expostas | −3,14 pontos em todos |
 
-A previsão é a mediana dos três estimadores ajustados: **0,96**. O intervalo vai do pior limite inferior de 95% (0,85) ao estimador sob independência (0,99). Se a equipe tiver rotulado nas cópias, a precisão real cairia para cerca de 80%. Os limiares finais vieram da [análise de sensibilidade](sensibilidade.md): exigir confiança 0,90 do árbitro em vez de 0,80 corta 11 pontos de cobertura, mas 5 das 9 dúvidas da auditoria estavam nessa faixa, e o limiar de 0,90 no subtema neutraliza uma sexta, de subtema irmão; subir para 0,95 corta mais 16 pontos sem ganho visível.
+A previsão é a mediana dos três estimadores ajustados: **0,95**. O intervalo vai do pior limite inferior de 95% (0,84) ao estimador sob independência (0,99). Se a equipe tiver rotulado nas cópias, a precisão real cairia para cerca de 77%. Os limiares finais vieram da [análise de sensibilidade](sensibilidade.md): exigir confiança 0,90 do árbitro em vez de 0,80 corta 11 pontos de cobertura, mas 5 das 9 dúvidas da auditoria estavam nessa faixa, e o limiar de 0,90 no subtema neutraliza uma sexta, de subtema irmão; subir para 0,95 corta mais 16 pontos sem ganho visível.
 
 ## b) Diagnóstico: o que atrapalha máquina e humano
 
