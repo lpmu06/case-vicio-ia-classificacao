@@ -35,7 +35,7 @@ Q0033,publicar,5517,,0.96,
 Q0034,publicar,5476,,0.95,
 Q0035,publicar,4706,,0.96,
 Q0036,revisar,4704,5466;5471,0.80,"tema provável Lei Maria da Penha, mas a árvore tem um gêmeo recente sem descrição (Lei Maria da Penha (Penal)); confirmar qual dos dois a equipe usa"
-Q0037,revisar,5116,5128;5079;5081,0.43,"dúvida entre Dos Crimes Contra a Fé Pública e de Falsidade Documental e Dos Crimes Contra a Liberdade Pessoal / Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas (os classificadores não concordam no…"
+Q0037,revisar,5116,5128;5079;5081,0.43,"dúvida entre Dos Crimes Contra a Fé Pública e de Falsidade Documental e Dos Crimes Contra a Liberdade Pessoal / Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas (os classificadores não concordam no…)"
 Q0038,revisar,5583,5543;5562;5500,0.53,dúvida entre Sujeitos do Processo e Declaração do Ofendido (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.55)
 Q0039,revisar,4687,4694,0.83,dúvida entre Crimes contra a Economia Popular e Crimes Tributários (fronteira entre temas; confiança do revisor automático 0.85)
 Q0040,revisar,5560,5512;5524;5515,0.83,"tema provável Recursos em Espécies, mas a árvore tem um gêmeo recente sem descrição (Recursos (Parte 03) - Espécies (Processo Penal)); confirmar qual dos dois a equipe usa"
@@ -66,7 +66,7 @@ Q0064,revisar,4695,5191;5227;5187,0.78,dúvida entre Crimes Tributários e Punib
 Q0065,revisar,5157,,0.90,"tema provável Dos Crimes Contra o Patrimônio, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra o Patrimônio (Parte 1) (Penal), Dos Crimes contra o Patrimônio (Parte 2) (Penal)); confirmar qual dos dois a equipe usa"
 Q0066,publicar,4371,,0.95,
 Q0067,revisar,5087,,0.89,"tema provável Dos Crimes Contra a Administração Pública, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra a Administração Pública (Parte 1) (Penal), Dos Crimes contra a Administração Pública (Parte 2) (Penal))"
-Q0068,revisar,5087,5116;5102;5125,0.43,dúvida entre Dos Crimes Contra a Administração Pública e Dos Crimes Contra a Fé Pública e de Falsidade Documental (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente
+Q0068,revisar,5087,5116;5102;5125,0.43,dúvida entre Dos Crimes Contra a Administração Pública e Dos Crimes Contra a Fé Pública e de Falsidade Documental (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente)
 Q0069,publicar,5170,,0.96,
 Q0070,revisar,5193,4703;5201,0.60,"dúvida entre Anistia, Graça e Indulto e Lei de Execução Penal (fronteira entre temas; confiança do revisor automático 0.70)"
 Q0071,revisar,4688,,0.85,"tema provável Crimes contra o meio ambiente, mas a árvore tem um gêmeo recente sem descrição (Crimes contra o meio ambiente (Penal)); confirmar qual dos dois a equipe usa"
@@ -172,7 +172,7 @@ Q0170,revisar,5199,5193,0.83,"tema provável Teoria da Pena, mas a árvore tem u
 Q0171,revisar,4693,5557;5199;5185,0.48,dúvida entre Crimes Hediondos e Provas em Espécies / Colaboração Premiada (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.50)
 Q0172,revisar,5480,5572;5185;5579,0.48,dúvida entre Competência e Ação Penal (Processo Penal) (cada alternativa cobra um instituto diferente; ramos que os modelos costumam confundir; confiança do revisor automático 0.55)
 Q0173,revisar,4703,,0.84,"tema provável Lei de Execução Penal, mas a árvore tem um gêmeo recente sem descrição (Lei de Execução Penal (Processo Penal)); confirmar qual dos dois a equipe usa"
-Q0174,revisar,5133,4709;5157;5166,0.48,"dúvida entre Dos Crimes contra a Inviolabilidade do Domicílio, Contra a Inviolabilidade da Correspondência e Contra a Inviolabilidade dos Segredos e Dos Crimes Contra o Patrimônio (cada alternativa cobra um instituto diferente"
+Q0174,revisar,5133,4709;5157;5166,0.48,"dúvida entre Dos Crimes contra a Inviolabilidade do Domicílio, Contra a Inviolabilidade da Correspondência e Contra a Inviolabilidade dos Segredos e Dos Crimes Contra o Patrimônio (cada alternativa cobra um instituto diferente)"
 Q0175,revisar,5087,,0.90,"tema provável Dos Crimes Contra a Administração Pública, mas a árvore tem um gêmeo recente sem descrição (Dos Crimes Contra a Administração Pública (Parte 1) (Penal), Dos Crimes contra a Administração Pública (Parte 2) (Penal))"
 Q0176,publicar,5079,,0.96,
 Q0177,revisar,5543,5595,0.78,"tema provável Provas em Espécies, mas a árvore tem um gêmeo recente sem descrição (Provas em Espécie (Processo Penal)); confirmar qual dos dois a equipe usa"

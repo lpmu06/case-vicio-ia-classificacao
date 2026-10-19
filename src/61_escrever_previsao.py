@@ -80,8 +80,9 @@ menos 0,90; nos demais casos, no tema de nível 1, que pela régua está certo s
 
 O que poderia derrubar a previsão
 O uso das cópias da Legislação Especial pela equipe (item 5) ou uma convenção sistemática diferente da nossa num
-ramo com muitas publicadas. A variante publicacao_nivel1.csv, com tudo no nível 1, elimina o risco de subtema
-irmão sem mudar a cobertura. A sensibilidade aos limiares está em docs/sensibilidade.md.
+ramo com muitas publicadas. A entrega está toda no tema de nível 1, o que elimina o risco de subtema irmão; a
+variante publicacao_subtema.csv mostra o que a versão híbrida faria. A sensibilidade aos limiares está em
+docs/sensibilidade.md.
 """
     (RAIZ / "previsao.txt").write_text(txt, encoding="utf-8")
     print(txt)

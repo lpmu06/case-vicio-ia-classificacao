@@ -29,6 +29,7 @@ def main():
     A = Arvore()
     prev = json.loads((RAIZ / "runs" / "previsao.json").read_text(encoding="utf-8"))
     prev_sd = json.loads((RAIZ / "runs" / "previsao_sem_duplicados.json").read_text(encoding="utf-8"))
+    prev_sub = json.loads((RAIZ / "runs" / "previsao_subtema.json").read_text(encoding="utf-8"))
     comp = json.loads((RAIZ / "runs" / "comparacao_metodos.json").read_text(encoding="utf-8"))
     diag = json.loads((RAIZ / "runs" / "diagnostico.json").read_text(encoding="utf-8"))
     dec = [json.loads(l) for l in (RAIZ / "data" / "decisoes.jsonl").open(encoding="utf-8")]
@@ -45,6 +46,7 @@ def main():
         "PUB1": str(prev["publicadas"] - prev["publicadas_nivel2"]), "REV": str(c["revisar"]), "FORA": str(c["fora"]),
         "PREC": dec2(prev["precisao_prevista"]), "PREC_LO": dec2(prev["precisao_intervalo"][0]), "PREC_HI": dec2(prev["precisao_intervalo"][1]),
         "VAR_PUB": str(prev_sd["publicadas"]), "VAR_COB": p1(prev_sd["cobertura_prevista"]), "VAR_PREC": dec2(prev_sd["precisao_prevista"]),
+        "PUB2_SUB": str(prev_sub["publicadas_nivel2"]), "PREC_SUB": dec2(prev_sub["precisao_prevista"]),
         "E1": p1(prev["E1_independencia"]), "E2": f"{prev['E2_outra_familia']['acertos']} de {prev['E2_outra_familia']['n']}",
         "E3": p1(prev["E3_auditoria"]["taxa"]), "E3_N": f"{prev['E3_auditoria']['n']:g}",
         "M67": dec2(100 * prev["copias_67xx"]["perda_esperada"]).replace(",00", ""), "EXPO": p0(prev["copias_67xx"]["exposicao"]),

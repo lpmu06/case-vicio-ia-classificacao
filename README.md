@@ -5,7 +5,7 @@ Entrega do processo seletivo da área de IA. Classifica 359 questões de concurs
 | Entregável | Onde |
 |---|---|
 | Decisão por questão | [`publicacao.csv`](publicacao.csv): 217 publicadas, 140 para revisão, 2 fora |
-| Variantes | [`publicacao_nivel1.csv`](publicacao_nivel1.csv) (tudo no tema de nível 1) e [`publicacao_sem_duplicados.csv`](publicacao_sem_duplicados.csv) (sem os temas da Legislação Especial que têm cópia em Penal) |
+| Variantes | [`publicacao_subtema.csv`](publicacao_subtema.csv) (versão híbrida: desce ao subtema quando a evidência é forte; a tentativa que não compensou pela régua) e [`publicacao_sem_duplicados.csv`](publicacao_sem_duplicados.csv) (os temas que têm um gêmeo 67xx na árvore vão para revisão) |
 | Previsão de precisão e cobertura | [`previsao.txt`](previsao.txt): precisão 0,96 (0,85 a 0,99), cobertura 0,60 |
 | Relatório: raciocínio, diagnóstico, produção e memo (5 páginas) | [`docs/relatorio.pdf`](docs/relatorio.pdf) e [`docs/relatorio.md`](docs/relatorio.md) |
 | Memo para o professor (1 página) | [`docs/memo_professor.md`](docs/memo_professor.md) |
@@ -46,7 +46,7 @@ python src/48_auditoria.py --n 50        # caderno de auditoria -> docs/auditori
 python src/60_previsao.py                # estimadores de precisão -> runs/previsao.json
 python src/61_escrever_previsao.py       # -> previsao.txt
 python src/49_sensibilidade.py           # limiares x cobertura x precisão -> docs/sensibilidade.md
-python src/47_decisao.py --modo n1 --saida publicacao_nivel1.csv --saida_jsonl data/decisoes_nivel1.jsonl
+python src/47_decisao.py --modo hibrido --saida publicacao_subtema.csv --saida_jsonl data/decisoes_subtema.jsonl
 python src/47_decisao.py --evitar_duplicados --saida publicacao_sem_duplicados.csv --saida_jsonl data/decisoes_sem_duplicados.jsonl
 python src/62_preencher_relatorio.py     # docs/relatorio.md a partir de src/modelos/relatorio.md e das saídas
 python src/64_gerar_pdf.py               # docs/relatorio.pdf (relatório + memo)
@@ -63,7 +63,7 @@ Os passos de análise, sem nenhuma chamada a LLM, estão juntos em `rodar_analis
 2. **Taxonomia enriquecida**: um LLM escreve, uma única vez, descrição, palavras-chave, dispositivos legais e "não confundir com" para cada tema usável. Temas inativos e os 20 temas-"bucket" (ids 67xx, nomes de aula como "(Parte 1)") nunca recebem publicação.
 3. **Vários classificadores independentes**: plano (árvore inteira em uma chamada), 2 estágios (tema, depois subtema) e 3 estágios (grupo, tema, subtema), com modelos de tamanhos diferentes.
 4. **Árbitro**: um modelo forte escolhe entre os candidatos de todos, embaralhados, sem saber qual é a maioria.
-5. **Decisão**: publica só quando o árbitro e os dois classificadores principais concordam no ramo, com confiança e maioria suficientes; exige unanimidade nos ramos que os modelos costumam confundir entre si; publica no subtema só com concordância forte, senão no tema de nível 1, o que é correto pela régua sempre que o ramo está certo. O resto vai para revisar, com a sugestão do árbitro e o motivo.
+5. **Decisão**: publica só quando o árbitro e os dois classificadores principais concordam no ramo, com confiança e maioria suficientes; exige unanimidade das rodadas completas nos ramos que os modelos costumam confundir entre si; publica sempre no tema de nível 1, o que é correto pela régua sempre que o ramo está certo (a variante `publicacao_subtema.csv` desce ao subtema quando a evidência é forte). O resto vai para revisar, com a sugestão do árbitro e o motivo; `fora` só quando o árbitro e os dois classificadores dizem fora com confiança alta.
 6. **Previsão sem gabarito**: quatro estimadores, com as hipóteses declaradas, combinados de forma conservadora. Detalhes no relatório.
 
 ## Decisões tomadas à mão

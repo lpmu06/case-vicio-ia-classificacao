@@ -27,32 +27,32 @@ Origem: `docs/avaliacao_melhorias.md` (avaliação simulada, lida e aceita com o
 ### A1. Nível 1 como entrega principal (item 1 da avaliação) — depende de D1
 - Mudança: `src/47_decisao.py`, padrão de `--modo` passa a `n1`. No modelo do relatório (seção a), apresentar as duas versões lado a lado como comparação: nível 1 = ótima pela régua; híbrido/subtema = tentativa que não compensou (mesmas publicadas, risco de irmão a mais, previsão igual ou menor); manter o argumento de produto como trabalho futuro. `rodar_analises.sh`: `publicacao.csv` = nível 1; `publicacao_subtema.csv` = `--modo hibrido`; manter `publicacao_sem_duplicados.csv` (nível 1 + `--evitar_duplicados`). `src/60_previsao.py`: `runs/previsao_subtema.json` para a variante. README, modelo do relatório e `61_escrever_previsao.py`: trocar as referências (`publicacao_nivel1.csv` deixa de existir).
 - Verificação: `python -c "import csv,json;A={json.loads(l)['tema_id']:json.loads(l) for l in open('data/temas.json')}"` não serve (temas.json é dict); usar: `python - <<EOF` que lê `publicacao.csv` e confere que todo `tema_central_id` de `publicar` tem `nivel == 1` em `data/temas.json`. Resultado esperado: 0 publicadas no nível 2; total de publicadas igual ao da variante subtema.
-- [ ] feito
+- [x] feito
 
 ### A2. `fora` só com evidência forte (item 4)
 - Mudança: `src/47_decisao.py`, ramo `if ramo_a == "FORA" and frac_fora >= 0.5` → exigir `va["c_ramo"] >= 0.80` e `cont.get("FORA", 0) == n_mod` (os dois votantes). Senão `revisar` com motivo "dúvida entre 'fora' (nenhum tema serve) e X".
 - Verificação: `grep -c ",fora," publicacao.csv` = 1 (só Q0142); Q0168 em `revisar` com motivo começando por "dúvida entre 'fora'".
-- [ ] feito
+- [x] feito
 
 ### A3. Unanimidade com critério igual para todas as questões (item 5)
 - Mudança: `src/47_decisao.py`, linha `unanime = all(rod[q][0]["ramo"] == ramo_a for rod in todas.values() ...)`: trocar `todas` por `completas` = rodadas com 359 questões (hoje: claude-opus, claude-sonnet-h, claude-sonnet-3n) mais o árbitro. Imprimir quantas questões mudam de decisão em relação ao `data/decisoes.jsonl` anterior (salvar cópia antes em `runs/decisoes_antes_A3.jsonl`).
 - Verificação: a impressão mostra a contagem; registrar no diário. Os pares confundíveis continuam calculados com todas as rodadas (isso é só diagnóstico).
-- [ ] feito
+- [x] feito
 
 ### A4. Coluna `confianca` que separa as decisões (seção 4, item 5)
 - Mudança: `src/47_decisao.py`, bloco "confiança = média...": em `publicar`, subtrair o risco por questão (p das cópias, de `--p_copias`, quando o ramo tem gêmeo 67xx; usar o mesmo mapa de gêmeos de A5); em `revisar`, usar só a confiança do árbitro no nó sugerido (sem a média com Dawid-Skene); em `fora`, manter.
 - Verificação: `python -c` que imprime min/max da confiança por decisão: publicadas abaixo de qualquer revisar com o mesmo ramo? Não precisa ser perfeito; esperado: nenhuma `revisar` com confiança ≥ 0,93, e publicadas expostas às cópias com confiança ~0,10 menor que as demais.
-- [ ] feito
+- [x] feito
 
 ### A5. Gêmeos "(Parte N)" no risco 67xx (item 2) — depende de D2
 - Mudança: `src/60_previsao.py`: substituir o conjunto fixo `dup` por um mapa construído da árvore: para cada tema bucket ativo (ids 67xx), achar o tema usável correspondente: título idêntico (normalizado) ou título com "(Parte N)" removido, na mesma disciplina ou em Legislação Especial; incluir à mão `4696` (Estaturo/Estatuto do Idoso). Dois grupos: `copias` (título idêntico, p = `--p_copias`, padrão 0,10) e `partes` (nome de aula, p = `--p_partes`, padrão conforme D2). Perda esperada = soma de p × exposição por grupo. Gravar em `runs/previsao.json` a tabela por tema (gêmeo, publicadas) e uma grade de sensibilidade: p_copias ∈ {5, 10, 25%} × peso da dúvida ∈ {1/3, 1/2, 1}. `src/47_decisao.py --evitar_duplicados` passa a usar o mesmo mapa (os dois grupos).
 - Verificação: `runs/previsao.json` mostra exposição das cópias = 38 publicadas e dos "(Parte N)" ≈ 47 (números podem mudar com A2/A3); a grade tem 9 células; `publicacao_sem_duplicados.csv` tem menos publicadas que antes (≈ 130).
-- [ ] feito
+- [x] feito
 
 ### A6. Motivos sem corte no meio da palavra (item 11)
 - Mudança: `src/47_decisao.py`: função `cortar(texto, n=240)` que corta no fim da última frase completa (ponto, ponto e vírgula ou parêntese fechado) antes de n; aplicar ao motivo e à justificativa do `fora` (hoje `[:150]`).
 - Verificação: `python -c` que confere que nenhum motivo tem 240 caracteres exatos nem termina sem pontuação/parêntese; os dois `fora` terminam em frase completa.
-- [ ] feito
+- [x] feito
 
 Fechamento do bloco A: regras de execução, item 3. Commit "melhorias bloco A: nível 1 principal, fora, unanimidade, confiança, gêmeos 67xx, motivos".
 

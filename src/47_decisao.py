@@ -54,8 +54,11 @@ def cortar(texto, n=240):
     pos = max(corte.rfind(". "), corte.rfind("; "), corte.rfind(") "))
     if pos < n // 3:
         pos = corte.rfind(" ")
-        return (corte[:pos].rstrip(" ,;") + "…") if pos > 0 else corte
-    return corte[:pos + 1].rstrip(" ;,")
+        corte = (corte[:pos].rstrip(" ,;") + "…") if pos > 0 else corte
+    else:
+        corte = corte[:pos + 1].rstrip(" ;,")
+    # fecha o parêntese aberto quando o corte caiu dentro dele
+    return corte + ")" if corte.count("(") > corte.count(")") else corte
 
 
 def main():

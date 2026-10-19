@@ -4,7 +4,7 @@ Luis Paulo · lpmu06@gmail.com · 19/10/2026 · código, dados e saídas brutas 
 
 | Resultado | Valor |
 |---|---|
-| Publicadas | **218 de 359 (60,7%)**: 0 no subtema e 218 no tema de nível 1 |
+| Publicadas | **218 de 359 (60,7%)**, todas no tema de nível 1 (a variante `publicacao_subtema.csv` desce ao subtema em 70 delas) |
 | Para revisão do professor | 140, cada uma com a sugestão do revisor automático e o motivo da dúvida |
 | Fora da árvore | 1 (imposto estadual; crimes da Lei Geral do Esporte) |
 | Precisão prevista nas publicadas | **0,95**, intervalo de 0,84 a 0,99 |
@@ -16,7 +16,7 @@ Luis Paulo · lpmu06@gmail.com · 19/10/2026 · código, dados e saídas brutas 
 
 **Três leituras da régua guiaram o desenho.**
 - Só as publicadas contam. Revisar e fora custam cobertura, não precisão.
-- Acerto inclui pai e filho do tema do especialista, mas não o irmão. Quando o ramo é certo e o subtema é duvidoso, publicar no tema de nível 1 é correto e honesto com o aluno, que vê a questão ao estudar o tema. Publicamos no subtema só com evidência forte, porque é isso que serve a quem estuda "Juiz das Garantias" e não "Inquérito Policial". A variante `publicacao_nivel1.csv` põe tudo no nível 1, com a mesma cobertura e sem risco de irmão.
+- Acerto inclui pai e filho do tema do especialista, mas não o irmão. Logo, publicar no tema de nível 1 é correto sempre que o ramo está certo, e o aluno vê a questão ao estudar o tema. Comparamos as duas versões: a entrega (`publicacao.csv`) põe tudo no nível 1; a versão híbrida (`publicacao_subtema.csv`) desce ao subtema em 70 questões, quando o árbitro e o classificador plano concordam com confiança de pelo menos 0,90. Pela régua, a híbrida foi a tentativa que não compensou: mesmas 218 publicadas, risco de irmão a mais e precisão prevista 0,95 contra 0,95. Publicar no subtema é o que serve a quem estuda "Juiz das Garantias" e não "Inquérito Policial", mas isso exige rótulos do professor para calibrar; fica como trabalho futuro.
 - A própria previsão é avaliada, então ela precisa ser conservadora e explicada.
 
 **O que testamos, do simples ao caro.**

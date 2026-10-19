@@ -35,7 +35,7 @@ Q0033,publicar,5519,,0.94,
 Q0034,publicar,5477,,0.94,
 Q0035,publicar,4706,,0.96,
 Q0036,publicar,4704,5466;5471,0.84,
-Q0037,revisar,5116,5128;5079;5081,0.43,"dúvida entre Dos Crimes Contra a Fé Pública e de Falsidade Documental e Dos Crimes Contra a Liberdade Pessoal / Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas (os classificadores não concordam no…"
+Q0037,revisar,5116,5128;5079;5081,0.43,"dúvida entre Dos Crimes Contra a Fé Pública e de Falsidade Documental e Dos Crimes Contra a Liberdade Pessoal / Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas (os classificadores não concordam no…)"
 Q0038,revisar,5583,5543;5562;5500,0.53,dúvida entre Sujeitos do Processo e Declaração do Ofendido (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.55)
 Q0039,revisar,4687,4694,0.83,dúvida entre Crimes contra a Economia Popular e Crimes Tributários (fronteira entre temas; confiança do revisor automático 0.85)
 Q0040,publicar,5560,5512;5524;5515,0.88,
@@ -66,7 +66,7 @@ Q0064,revisar,4695,5191;5227;5187,0.78,dúvida entre Crimes Tributários e Punib
 Q0065,publicar,5161,,0.89,
 Q0066,publicar,4373,,0.93,
 Q0067,publicar,5091,,0.88,
-Q0068,revisar,5087,5116;5102;5125,0.43,dúvida entre Dos Crimes Contra a Administração Pública e Dos Crimes Contra a Fé Pública e de Falsidade Documental (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente
+Q0068,revisar,5087,5116;5102;5125,0.43,dúvida entre Dos Crimes Contra a Administração Pública e Dos Crimes Contra a Fé Pública e de Falsidade Documental (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente)
 Q0069,publicar,5173,,0.94,
 Q0070,revisar,5193,4703;5201,0.60,"dúvida entre Anistia, Graça e Indulto e Lei de Execução Penal (fronteira entre temas; confiança do revisor automático 0.70)"
 Q0071,publicar,4688,,0.86,
@@ -172,7 +172,7 @@ Q0170,publicar,5199,5193,0.88,
 Q0171,revisar,4693,5557;5199;5185,0.48,dúvida entre Crimes Hediondos e Provas em Espécies / Colaboração Premiada (os classificadores não concordam no tema; cada alternativa cobra um instituto diferente; confiança do revisor automático 0.50)
 Q0172,revisar,5480,5572;5185;5579,0.48,dúvida entre Competência e Ação Penal (Processo Penal) (cada alternativa cobra um instituto diferente; ramos que os modelos costumam confundir; confiança do revisor automático 0.55)
 Q0173,publicar,4703,,0.86,
-Q0174,revisar,5133,4709;5157;5166,0.48,"dúvida entre Dos Crimes contra a Inviolabilidade do Domicílio, Contra a Inviolabilidade da Correspondência e Contra a Inviolabilidade dos Segredos e Dos Crimes Contra o Patrimônio (cada alternativa cobra um instituto diferente"
+Q0174,revisar,5133,4709;5157;5166,0.48,"dúvida entre Dos Crimes contra a Inviolabilidade do Domicílio, Contra a Inviolabilidade da Correspondência e Contra a Inviolabilidade dos Segredos e Dos Crimes Contra o Patrimônio (cada alternativa cobra um instituto diferente)"
 Q0175,publicar,5087,,0.91,
 Q0176,publicar,5081,,0.95,
 Q0177,publicar,5543,5595,0.83,

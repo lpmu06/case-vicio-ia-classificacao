@@ -4,7 +4,7 @@ Luis Paulo · lpmu06@gmail.com · 19/10/2026 · código, dados e saídas brutas 
 
 | Resultado | Valor |
 |---|---|
-| Publicadas | **«PUB» de 359 («COB»)**: «PUB2» no subtema e «PUB1» no tema de nível 1 |
+| Publicadas | **«PUB» de 359 («COB»)**, todas no tema de nível 1 (a variante `publicacao_subtema.csv` desce ao subtema em «PUB2_SUB» delas) |
 | Para revisão do professor | «REV», cada uma com a sugestão do revisor automático e o motivo da dúvida |
 | Fora da árvore | «FORA» (imposto estadual; crimes da Lei Geral do Esporte) |
 | Precisão prevista nas publicadas | **«PREC»**, intervalo de «PREC_LO» a «PREC_HI» |
@@ -16,7 +16,7 @@ Luis Paulo · lpmu06@gmail.com · 19/10/2026 · código, dados e saídas brutas 
 
 **Três leituras da régua guiaram o desenho.**
 - Só as publicadas contam. Revisar e fora custam cobertura, não precisão.
-- Acerto inclui pai e filho do tema do especialista, mas não o irmão. Quando o ramo é certo e o subtema é duvidoso, publicar no tema de nível 1 é correto e honesto com o aluno, que vê a questão ao estudar o tema. Publicamos no subtema só com evidência forte, porque é isso que serve a quem estuda "Juiz das Garantias" e não "Inquérito Policial". A variante `publicacao_nivel1.csv` põe tudo no nível 1, com a mesma cobertura e sem risco de irmão.
+- Acerto inclui pai e filho do tema do especialista, mas não o irmão. Logo, publicar no tema de nível 1 é correto sempre que o ramo está certo, e o aluno vê a questão ao estudar o tema. Comparamos as duas versões: a entrega (`publicacao.csv`) põe tudo no nível 1; a versão híbrida (`publicacao_subtema.csv`) desce ao subtema em «PUB2_SUB» questões, quando o árbitro e o classificador plano concordam com confiança de pelo menos 0,90. Pela régua, a híbrida foi a tentativa que não compensou: mesmas «PUB» publicadas, risco de irmão a mais e precisão prevista «PREC_SUB» contra «PREC». Publicar no subtema é o que serve a quem estuda "Juiz das Garantias" e não "Inquérito Policial", mas isso exige rótulos do professor para calibrar; fica como trabalho futuro.
 - A própria previsão é avaliada, então ela precisa ser conservadora e explicada.
 
 **O que testamos, do simples ao caro.**
