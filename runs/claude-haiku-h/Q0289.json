@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 1,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão integralmente dedicada à Lei nº 11.340/2006 (Lei Maria da Penha). Aborda teses jurisprudenciais do STJ fixadas nos Temas Repetitivos 1.186 (aplicabilidade da Lei Maria da Penha e condição de gênero), 983 (indenização por dano moral em contexto de violência doméstica) e 1.249 (natureza jurídica, duração e procedimento de revogação das medidas protetivas de urgência). Inclui ainda sigilo processual e requisitos para concessão de proteções. Tema 4704 é a classificação precisa e única, abrangendo exatamente este microssistema de prevenção, proteção e repressão à violência doméstica e familiar contra a mulher.",
+ "id": "Q0289",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "Questão integralmente dedicada à Lei nº 11.340/2006 (Lei Maria da Penha), abordando teses jurisprudenciais do STJ sobre aplicabilidade da lei, medidas protetivas de urgência (Temas Repetitivos 1.186, 983 e 1.249), sigilo processual e requisitos para concessão de proteções. O tema 4704 abrange exatamente este microssistema de proteção à mulher em violência doméstica e familiar, sendo classificação mais precisa que os temas genéricos de Processo Penal."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4348,
+  "cache_w": 10031,
+  "cache_r": 12522,
+  "custo_usd": 0.0482742
+ }
+}

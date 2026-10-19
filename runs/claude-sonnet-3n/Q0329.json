@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4705",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Mantenho a classificação em Organizações Criminosas (4705). O eixo da questão é o instituto da colaboração premiada previsto no art. 4º e §4º da Lei 12.850/2013 (manipulação de resultado esportivo por organização estruturada, com jogador colaborando com a investigação). As alternativas corretas versam sobre efeitos específicos desse instituto: possibilidade de não oferecimento de denúncia ao colaborador efetivo (alínea A) e redução de pena em até 2/3 sem isenção (alínea E), que são disciplina própria da Lei 12.850/2013, não da teoria geral da ação penal (que trataria de titularidade, espécies de ação, representação, queixa etc.). Embora a alternativa A toque en passant em \"deixar de oferecer denúncia\", o fundamento jurídico cobrado é o benefício da colaboração premiada da legislação especial sobre organizações criminosas, e não um instituto geral do CPP sobre ação penal. Por isso, Ação Penal (5466) permanece apenas como segunda opção plausível, sem subtema definido (o tema 4705 não possui subtemas de nível 2).",
+ "id": "Q0329",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": "PP2",
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão narra um esquema de manipulação de resultados esportivos por organização criminosa e testa especificamente o instituto da colaboração premiada (delação premiada), incluindo possibilidade de não oferecimento de denúncia e redução de pena em até 2/3, previsto na Lei 12.850/2013 (Lei de Organizações Criminosas). O eixo central não é a teoria geral da ação penal, mas sim o benefício processual/penal típico do colaborador em organização criminosa, pertencente ao tema Organizações Criminosas (LE1). Ação Penal (PP2) é alternativa plausível por tratar de oferecimento de denúncia, mas o instituto testado é específico da legislação de organizações criminosas."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4705",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão narra esquema de manipulação de resultados esportivos por organização criminosa e testa o instituto da colaboração premiada (delação premiada) especificamente disciplinado na Lei 12.850/2013, art. 4º e §4º (possibilidade de não oferecimento de denúncia ao colaborador e redução de pena em até 2/3). O eixo central das alternativas (A e E, as mais relevantes) é o benefício processual/penal típico do colaborador em organização criminosa, instituto próprio da Lei de Organizações Criminosas, não da teoria geral da ação penal. Por isso mantenho Organizações Criminosas (LE1) como tema principal. Ação Penal (PP2) permanece como segunda opção plausível, pois a alternativa correta (A) menciona \"deixar de oferecer denúncia\", tema que também tangencia a disciplina da ação penal, mas o instituto cobrado é específico da legislação especial sobre colaboração premiada em organizações criminosas."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2373,
+  "cache_w": 16730,
+  "cache_r": 14150,
+  "custo_usd": 0.10506599999999999
+ }
+}
