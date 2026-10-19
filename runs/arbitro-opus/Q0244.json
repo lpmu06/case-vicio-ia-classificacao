@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5091",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5092",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O enunciado reproduz o art. 316 do CP, em que o verbo \"exigir\" vantagem indevida em razão da função caracteriza a concussão (alternativa B). Por isso o subtema certo é Concussão e Excesso de Exação. As outras alternativas (peculato, corrupção passiva e corrupção ativa) só servem de distratores. A segunda opção é Corrupção Passiva (5092), porque a questão também pede distinguir esse crime pelo verbo, mas o tipo cobrado é a concussão.",
+ "id": "Q0244",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5087"
+ ],
+ "candidatos_subtemas": [
+  "5091"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 613,
+  "cache_w": 8574,
+  "cache_r": 14086,
+  "custo_usd": 0.0901002
+ }
+}

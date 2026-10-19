@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5554",
+ "extras_ids": [
+  "5547",
+  "5548",
+  "5552",
+  "5545",
+  "5554"
+ ],
+ "multi_tema": false,
+ "justificativa": "Cada alternativa cobra um meio de prova diferente: interrogatório (art. 196), confissão, acareação (art. 229), exame de corpo de delito (art. 184, que não permite ao juiz negar esse exame) e busca pessoal sem mandado no curso de busca domiciliar (art. 244, a alternativa correta, E). O eixo comum é Provas em Espécies, por isso deixei o subtema em branco: escolher só Busca e Apreensão deixaria de fora as outras quatro alternativas. Descartei Inquérito Policial, que veio do assunto de origem, porque nenhuma alternativa trata da investigação preliminar.",
+ "id": "Q0276",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5543",
+  "5498"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 713,
+  "cache_w": 13559,
+  "cache_r": 16390,
+  "custo_usd": 0.136431
+ }
+}

@@ -114,7 +114,33 @@ def main():
         ok = sum(A.ramo_de(origem[q]["tema_id"]) == chave_ramo(rod[a][q][0]) for q in cmp)
         com_origem.append({"rodada": a, "n": len(cmp), "ramo_igual_origem": round(ok / len(cmp), 3) if cmp else None})
 
-    res = {"metodos": tabela, "concordancia": pares, "com_origem": com_origem}
+    # experimento 2x2 (e Haiku) nas 80 questões sorteadas: concordância de cada rodada com a maioria das DEMAIS
+    # rodadas e do árbitro (leave-one-out), para não usar como referência um modelo igual ao avaliado
+    amostra_p = RAIZ / "data" / "amostra_2x2.txt"
+    loo = []
+    if amostra_p.exists():
+        from collections import Counter as _C
+        amostra = amostra_p.read_text().strip().split(",")
+        arb = carregar_rodada("arbitro-opus", A)
+        refs = {**rod, "arbitro-opus": arb} if arb else dict(rod)
+        for r in rod:
+            cobertas = [q for q in amostra if q in rod[r]]
+            if len(cobertas) < 60:
+                continue
+            ok = n_ok = 0
+            for q in cobertas:
+                outros = _C(chave_ramo(refs[o][q][0]) for o in refs if o != r and q in refs[o])
+                if not outros:
+                    continue
+                maj, nmaj = outros.most_common(1)[0]
+                n_ok += 1
+                ok += chave_ramo(rod[r][q][0]) == maj
+            met = next(l for l in tabela if l["rodada"] == r)
+            loo.append({"rodada": r, "metodo": met["metodo"], "modelo": met["modelo"], "n": n_ok,
+                        "concorda_maioria_demais": round(ok / n_ok, 3) if n_ok else None,
+                        "tokens_prompt_por_questao": met["tokens_prompt_por_questao"], "tokens_saida_por_questao": met["tokens_saida_por_questao"],
+                        "custo_usd_por_questao_com_cache": met["custo_usd_por_questao_com_cache"]})
+    res = {"metodos": tabela, "concordancia": pares, "com_origem": com_origem, "amostra_2x2": loo}
     (RAIZ / "runs" / "comparacao_metodos.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
 
     md = ["# Comparação de métodos e modelos\n",
@@ -136,6 +162,14 @@ def main():
     md += ["\n## Concordância com a classificação de origem (só onde a origem tem um tema correspondente)\n", "| Rodada | n | Mesmo ramo da origem |", "|---|---|---|"]
     for c in com_origem:
         md.append(f"| {c['rodada']} | {c['n']} | {c['ramo_igual_origem']:.1%} |" if c["ramo_igual_origem"] is not None else f"| {c['rodada']} | 0 | |")
+    if loo:
+        md += ["\n## Experimento 2×2 nas 80 questões sorteadas\n",
+               "Cada rodada comparada com a maioria das demais rodadas e do árbitro, excluindo a própria (leave-one-out). "
+               "Não é acurácia; é o quanto a rodada acompanha o consenso dos outros.\n",
+               "| Rodada | Método | Modelo | n | Concorda com a maioria dos demais | Tokens prompt/q | Tokens saída/q | US$/q com cache |", "|---|---|---|---|---|---|---|---|"]
+        for l in sorted(loo, key=lambda x: -(x["concorda_maioria_demais"] or 0)):
+            md.append(f"| {l['rodada']} | {l['metodo']} | {l['modelo']} | {l['n']} | {l['concorda_maioria_demais']:.1%} | "
+                      f"{l['tokens_prompt_por_questao']:,} | {l['tokens_saida_por_questao']:,} | {l['custo_usd_por_questao_com_cache']} |")
     (RAIZ / "docs" / "comparacao_metodos.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print("\n".join(md))
 

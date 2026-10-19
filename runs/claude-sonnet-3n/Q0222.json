@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "4374",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "4376",
+ "extras_ids": [
+  "4380"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão versa sobre a teoria das \"velocidades do direito penal\" (Silva Sánchez) — primeira, segunda, terceira e quarta velocidades, incluindo o neopunitivismo e a referência ao direito penal do inimigo de Jakobs como contextualização. O eixo central é a discussão sobre graus de flexibilização de garantias penais conforme a política criminal adotada, o que se encaixa no tema de nível 1 \"Política Criminal\" (4374), que abrange expressamente expansão/contenção do poder punitivo e tem como subtema \"Direito Penal do Inimigo\". Contudo, nenhum subtema de nível 2 cobre especificamente as \"velocidades do direito penal\" como um todo: o subtema 4376 trata apenas da teoria de Jakobs isoladamente, e a questão exige conhecimento de todas as velocidades (incluindo a quarta, sobre neopunitivismo e Chefes de Estado), que não se limita ao inimigo. Por isso, mantenho o tema de nível 1 em 4374, mas deixo o subtema como null, pois marcar 4376 seria impreciso — a questão não trata apenas do direito penal do inimigo, mas de toda a classificação das velocidades penais, tema mais amplo que extrapola esse subtema específico. Não há subtema sobre \"velocidades do direito penal\" na árvore apresentada.",
+ "id": "Q0222",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": "C1",
+  "confianca": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a teoria das \"velocidades do direito penal\" (Silva Sánchez) e direito penal do inimigo (Jakobs), temas de política criminal/criminologia relacionados à fundamentação e legitimação da intervenção penal, encaixando-se melhor em Política Criminal (C2), embora também tenha relação com fundamentos históricos da criminologia (C1)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4374",
+  "segunda_opcao_n1_id": "4380",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata das \"velocidades do direito penal\" (Silva Sánchez) e do direito penal do inimigo (Jakobs), eixo que gira em torno de política criminal e estratégias de enfrentamento da criminalidade com diferentes níveis de garantias — tema central do grupo Política Criminal (4374), que inclusive tem subtema específico \"Direito Penal do Inimigo\". É mais específico e aderente do que a Teoria Geral da Criminologia (4380), que trataria apenas de conceito/objeto/métodos da disciplina, não da discussão sobre flexibilização de garantias penais."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2339,
+  "cache_w": 15345,
+  "cache_r": 7993,
+  "custo_usd": 0.09422459999999999
+ }
+}

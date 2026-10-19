@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4374",
+ "subtema_n2_id": "4376",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5170",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta só pelas características do Direito Penal do Inimigo (Jakobs). A alternativa correta é a legislação diferenciada. As erradas trocam marcas da teoria: a punição vem antes dos atos executórios, as medidas de segurança são usadas, as garantias são flexibilizadas e as penas ficam mais duras. Na árvore existe um subtema próprio para isso, o 4376, dentro de Política Criminal (4374). Por isso confirmo o tema de nível 1 e escolho esse subtema. A segunda opção continua sendo Introdução ao Estudo do Direito Penal (5170), que a origem rotulou como Teoria Geral do Delito.",
+ "id": "Q0285",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4374",
+  "segunda_opcao_n1_id": "5170",
+  "confianca_ramo": 0.8,
+  "multi_tema": false,
+  "justificativa": "A questão pergunta só pelas características do Direito Penal do Inimigo (Jakobs), como a legislação diferenciada, a antecipação da punição, a flexibilização de garantias e o endurecimento das penas. Na árvore, esse assunto é um subtema de Política Criminal (Criminologia). A segunda opção é Introdução ao Estudo do Direito Penal, porque muitos materiais tratam do tema junto com as velocidades do Direito Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 853,
+  "cache_w": 10030,
+  "cache_r": 20512,
+  "custo_usd": 0.1076494
+ }
+}

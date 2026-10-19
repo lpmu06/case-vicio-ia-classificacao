@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5091",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.82,
+ "segunda_opcao_id": "5092",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O policial exigiu vantagem indevida para si em razão da função. Isso é concussão (art. 316 do CP), e a resposta correta é a D. O ponto da questão é separar o verbo \"exigir\" (concussão) de \"solicitar/receber\" (corrupção passiva). Por isso a corrupção passiva (5092) fica só como segunda opção, e os demais crimes funcionais das alternativas servem apenas de distratores.",
+ "id": "Q0270",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5087"
+ ],
+ "candidatos_subtemas": [
+  "5091"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 538,
+  "cache_w": 9309,
+  "cache_r": 16390,
+  "custo_usd": 0.094965
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5228",
+ "subtema_n2_id": "5231",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.7,
+ "segunda_opcao_id": "5214",
+ "extras_ids": [
+  "5211",
+  "5218"
+ ],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema 5228 (Ilicitude). O próprio enunciado diz que Bernardo \"agiu em legítima defesa\" e pergunta de que espécie ela é. As alternativas comparam a legítima defesa real com a putativa e discutem como tratar o erro sobre um pressuposto fático da excludente (art. 20, §1º, CP; teoria limitada da culpabilidade). O subtema 5231 (Legítima Defesa) cita de forma expressa a legítima defesa putativa e o art. 20, §1º, CP, por isso o escolhi. Coloquei Erro de Proibição (5214) como segunda opção: a discussão entre erro de proibição indireto e erro de tipo permissivo também cabe no tema Culpabilidade. A absolvição sumária no júri é só pano de fundo processual.",
+ "id": "Q0284",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5228",
+  "segunda_opcao_n1_id": "5211",
+  "confianca_ramo": 0.45,
+  "multi_tema": false,
+  "justificativa": "A questão testa a legítima defesa putativa, uma descriminante putativa. Bernardo errou sobre a situação de fato que, se existisse, justificaria sua conduta: ele acreditou que estava sendo assaltado. Para resolvê-la, é preciso saber distinguir a teoria limitada da teoria extremada da culpabilidade e o erro de tipo permissivo do erro de proibição indireto. O gabarito provável é a alternativa D, que fala em erro sobre pressuposto fático, nos termos do art. 20, §1º, do CP. O eixo é a legítima defesa, por isso escolhi Ilicitude. Mas o assunto fica na fronteira com Culpabilidade (erro de proibição/teoria da culpabilidade) e com Fato Típico (erro de tipo), por isso a confiança é moderada. O contexto de Processo Penal, como a absolvição sumária no júri, é só pano de fundo."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1569,
+  "cache_w": 14670,
+  "cache_r": 18208,
+  "custo_usd": 0.1626546
+ }
+}

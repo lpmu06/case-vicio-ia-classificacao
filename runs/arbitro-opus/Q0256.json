@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.68,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [
+  "5211"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a diferença entre os efeitos do erro de tipo e os do erro de proibição. O erro de tipo é o desconhecimento invencível de um elemento do tipo e exclui dolo e culpa, conforme o art. 20 do CP. Já quem age acreditando estar autorizado incorre em erro de proibição, que afasta a culpabilidade e não o dolo (art. 21 do CP), por isso o gabarito é Errado. O eixo da questão é a consequência do erro de tipo sobre o dolo, o que leva ao subtema 5224 dentro de 5218. A segunda opção é 5211 (erro de proibição), descartada por ser apenas o termo de contraste da questão.",
+ "id": "Q0256",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5218"
+ ],
+ "candidatos_subtemas": [
+  "5224"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 750,
+  "cache_w": 6406,
+  "cache_r": 14086,
+  "custo_usd": 0.0737362
+ }
+}

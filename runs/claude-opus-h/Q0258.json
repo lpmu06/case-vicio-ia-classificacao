@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5545",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5546",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam do exame de corpo de delito (arts. 158 a 167 do CPP). A alternativa correta é a E: o art. 158, parágrafo único, I, dá prioridade ao exame em caso de violência doméstica e familiar contra a mulher. As outras alternativas estão erradas pelos motivos a seguir. A: o exame é feito por perito oficial (art. 159), e não pelo juiz. B: o exame é exigido quando o crime deixa vestígios (art. 158). C: o exame indireto cabe quando os vestígios desaparecem (art. 167), e não por causa da competência do júri. D: nenhum outro meio de prova substitui o exame, e a lei não traz essa exceção para os crimes contra a fé pública. Por isso, confirmo o tema 5543 e o subtema 5545, Exame de Corpo de Delito. A pista de origem \"Procedimento do Júri\" está errada.",
+ "id": "Q0258",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata apenas do exame de corpo de delito (arts. 158 e seguintes do CPP). A alternativa correta é a E, porque o art. 158, parágrafo único, I, dá prioridade ao exame em caso de violência doméstica e familiar contra a mulher. As demais alternativas também cobram regras do mesmo exame: quem pode realizá-lo, a exigência quando o crime deixa vestígios, o exame indireto e a impossibilidade de substituí-lo por outra prova. Por isso, o tema é Provas em Espécies, subtema Exame de Corpo de Delito. A pista de origem \"Procedimento do Júri\" está errada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1004,
+  "cache_w": 16167,
+  "cache_r": 20512,
+  "custo_usd": 0.1645374
+ }
+}

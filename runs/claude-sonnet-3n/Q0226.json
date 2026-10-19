@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5544",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5590",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecimento direto das definições legais das etapas da cadeia de custódia (reconhecimento, armazenamento, recebimento, coleta e transporte), previstas nos arts. 158-A a 158-F do CPP, introduzidos pela Lei 13.964/2019. Trata-se exatamente do subtema \"Cadeia de Custódia\" (5544), dentro do tema de nível 1 \"Provas em Espécies\" (5543). Não é caso de \"Teoria Geral das Provas\" (5590), pois não há discussão sobre ônus, princípios ou valoração geral da prova, mas sim sobre o procedimento técnico específico de preservação e rastreamento do vestígio, que é o núcleo próprio e exclusivo de 5544.",
+ "id": "Q0226",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre cadeia de custódia da prova (arts. 158-A a 158-F do CPP, introduzidos pelo Pacote Anticrime), tema que se insere na Teoria Geral das Provas, dentro do grupo PP4 (Provas)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão cobra especificamente as etapas da cadeia de custódia da prova (reconhecimento, armazenamento, recebimento, coleta, transporte), disciplinadas nos arts. 158-A a 158-F do CPP, que constitui subtema expresso dentro de \"Provas em Espécies\" (5543) — \"Cadeia de Custódia\". Por se tratar exatamente desse subtema, a classificação correta de nível 1 é 5543, cujo aluno interessado no tema o encontrará. Como segunda opção, \"Teoria Geral das Provas\" (5590) é pertinente por tratar de princípios e critérios gerais de prova, mas o foco específico da questão (procedimento técnico de cadeia de custódia) está mais diretamente ligado às provas em espécie."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1723,
+  "cache_w": 19307,
+  "cache_r": 14150,
+  "custo_usd": 0.11088900000000002
+ }
+}

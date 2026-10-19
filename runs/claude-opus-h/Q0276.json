@@ -1,0 +1,36 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5554",
+ "extras_ids": [
+  "5547",
+  "5548",
+  "5552",
+  "5545",
+  "5554"
+ ],
+ "multi_tema": true,
+ "justificativa": "Mantenho o tema 5543 (Provas em Espécies). Cada alternativa trata de um meio de prova específico do CPP: (A) renovação do interrogatório (art. 196); (B) confissão informal, que não basta para condenar (arts. 197 e 155); (C) acareação, que também é admitida entre corréus (art. 229); (D) exame de corpo de delito, que o juiz não pode negar (art. 184); e (E) busca pessoal sem mandado quando ocorre durante busca domiciliar (art. 244), que é a alternativa correta. Nenhuma alternativa trata da teoria geral das provas, por isso não troco pelo tema 5590. Como as alternativas passam por cinco subtemas diferentes, não escolho nenhum subtema específico.",
+ "id": "Q0276",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas tratam de meios de prova específicos do CPP: interrogatório (renovação, art. 196), confissão, acareação, exame de corpo de delito (art. 184 — não pode ser negado) e busca pessoal sem mandado durante busca domiciliar (art. 244 — correta). Há um eixo comum, as provas em espécie, embora as alternativas passem por subtemas diferentes. Por isso, a classificação fica no nível 1 de Provas em Espécies, sem descer a um subtema. A pista de origem, \"Inquérito Policial\", está errada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1144,
+  "cache_w": 14607,
+  "cache_r": 15904,
+  "custo_usd": 0.1540548
+ }
+}

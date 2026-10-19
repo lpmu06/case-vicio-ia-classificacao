@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5116",
+ "subtema_n2_id": "5118",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5116",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema 5116. A questão cobra o art. 298, parágrafo único, do CP, incluído pela Lei 12.737/2012, que equipara o cartão de crédito ou de débito a documento particular. Por isso a resposta é a (E). As outras alternativas (falsidade ideológica, falsa identidade, documento público) são só distratores dentro do mesmo assunto. Escolhi o subtema 5118 (Falsidade Documental) porque ele cobre o art. 298 e traz 'cartão de crédito ou débito' entre as palavras-chave. Descartei o 5157, porque a questão não tem estelionato nem pede a Súmula 17. A pista de origem (Ilicitude) está errada.",
+ "id": "Q0351",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5116",
+  "segunda_opcao_n1_id": "5157",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão cobra o art. 298, parágrafo único, do CP, incluído pela Lei 12.737/2012. Esse dispositivo equipara o cartão de crédito ou de débito a documento particular, por isso a resposta é a alternativa (E). O tema é falsidade documental, dentro dos crimes contra a fé pública. A pista de origem (Ilicitude) está errada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 907,
+  "cache_w": 15551,
+  "cache_r": 20512,
+  "custo_usd": 0.1573074
+ }
+}

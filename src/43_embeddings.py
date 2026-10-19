@@ -34,7 +34,7 @@ MODELOS = [
     ("bertimbau-base", "st", "neuralmind/bert-base-portuguese-cased", "português geral", "BERTimbau cru (MLM)"),
     ("serafim-335m-ir", "st", "PORTULAN/serafim-335m-portuguese-pt-sentence-encoder-ir", "português geral", "codificador de sentenças para busca"),
     ("mpnet-multilingual", "st", "sentence-transformers/paraphrase-multilingual-mpnet-base-v2", "multilíngue", "paráfrase multilíngue (2019)"),
-    ("e5-large", "st", "intfloat/multilingual-e5-large", "multilíngue", "E5 large, com prefixos query/passage"),
+    ("e5-base", "st", "intfloat/multilingual-e5-base", "multilíngue", "E5 base, com prefixos query/passage"),
     ("qwen3-emb-0.6b", "st", "Qwen/Qwen3-Embedding-0.6B", "multilíngue", "Qwen3 Embedding 0.6B (2025)"),
     ("bge-m3", "ollama", "bge-m3", "multilíngue", "BGE-M3 via Ollama (GPU local)"),
     ("mxbai-large", "ollama", "mxbai-embed-large", "inglês", "mxbai-embed-large via Ollama, treinado sobretudo em inglês"),

@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5066",
+ "extras_ids": [
+  "5066"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a ordem das fases da dosimetria no sistema trifásico do art. 68 do CP. O gabarito é a alternativa C: os maus antecedentes entram na pena-base, na 1ª fase, e a tentativa só incide depois, na 3ª fase. As demais alternativas comparam atenuantes e agravantes, que são da 2ª fase, com o aumento pelo concurso de crimes e a participação de menor importância, que incidem depois. O eixo comum é o cálculo da pena (Teoria da Pena), e não a identificação da espécie de concurso de crimes, que fica como segunda opção. Não indiquei subtema porque a questão abrange as três fases ao mesmo tempo.",
+ "id": "Q0286",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5066",
+  "5199"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 664,
+  "cache_w": 27790,
+  "cache_r": 0,
+  "custo_usd": 0.243809
+ }
+}

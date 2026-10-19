@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5501",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra exatamente o precedente do STF (ADIs 6298, 6299, 6300 e 6305) sobre o art. 28 do CPP, tratando de quem pode provocar a revisão do arquivamento do inquérito policial pela instância revisora do MP (vítima, autoridade judicial em caso de teratologia, membro do MP dissidente etc.). O eixo central é precisamente a disciplina da conclusão/arquivamento do inquérito e seu controle, que é objeto específico do subtema 5501 \"Conclusão e Arquivamento do Inquérito Policial\", cujas palavras-chave incluem expressamente \"instância de revisão ministerial\" e \"promoção de arquivamento\". Não se trata de ação penal (5466), pois o arquivamento é decisão que encerra ou suspende a persecução investigatória antes do oferecimento de denúncia/queixa, mantida como segunda opção apenas por proximidade temática genérica, com confiança baixa.",
+ "id": "Q0220",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata do procedimento de arquivamento do inquérito policial previsto no art. 28 do CPP (redação dada pelo Pacote Anticrime) e do controle de constitucionalidade exercido pelo STF sobre esse dispositivo (ADIs que discutiram a possibilidade de revisão judicial do arquivamento). O eixo central é o instituto do inquérito policial e seu encerramento, que se enquadra no tema \"Inquérito Policial\", dentro do grupo PP2 (Investigação e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o precedente do STF (ADIs 6298, 6299, 6300 e 6305) acerca da constitucionalidade do art. 28 do CPP, especificamente sobre quem pode provocar a revisão do arquivamento do inquérito policial pela instância revisora do Ministério Público. O eixo é exatamente a conclusão/arquivamento do inquérito policial, subtema específico dentro do tema de nível 1 \"Inquérito Policial\" (id 5498), que integra o grupo PP2. Não se trata de ação penal propriamente, por isso \"Ação Penal\" (5466) fica apenas como segunda opção, com confiança baixa, pois o arquivamento é fase anterior e distinta do exercício da ação penal."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1893,
+  "cache_w": 17923,
+  "cache_r": 14150,
+  "custo_usd": 0.106191
+ }
+}

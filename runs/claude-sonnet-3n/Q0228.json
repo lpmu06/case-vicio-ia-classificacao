@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata do procedimento correto para o preso pleitear livramento condicional (petição dirigida ao Juiz da Execução), matéria típica da Lei de Execução Penal (art. 112 e seguintes da LEP), que disciplina os incidentes e benefícios na execução penal. Não se confunde com habeas corpus, revisão criminal ou agravo em execução (que serve para impugnar decisão já proferida, não para pleitear o benefício inicialmente). O tema não possui subtemas, por isso subtema_n2_id = null.",
+ "id": "Q0228",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": null,
+  "confianca": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão trata do procedimento para requerer livramento condicional, instituto e incidente de execução penal regulado pela LEP, cuja competência é do Juízo da Execução via petição. É matéria de Execução Penal, classificada em Legislação Especial (LE4), não em Ação Penal do processo penal comum."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o procedimento adequado para o preso pleitear livramento condicional (petição ao Juízo da Execução), matéria tipicamente regulada pela LEP, incidente de execução penal. Classifica-se em Lei de Execução Penal (4703), dentro do grupo LE4."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1070,
+  "cache_w": 7856,
+  "cache_r": 14150,
+  "custo_usd": 0.050024
+ }
+}

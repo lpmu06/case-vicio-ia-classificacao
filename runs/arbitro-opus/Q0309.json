@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "4688",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a pena do art. 61 da Lei 9.605/98, que trata da disseminação de doença, praga ou espécies danosas. A resposta é reclusão de um a quatro anos, e multa (alternativa C). Trata-se de um tipo penal ambiental, por isso o tema é Crimes contra o meio ambiente (4688), que não tem subtemas. Não há relação com Biossegurança, porque a questão não envolve OGM nem a Lei 11.105/2005, nem com outros temas da Parte Geral do Código Penal.",
+ "id": "Q0309",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4688"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 508,
+  "cache_w": 3611,
+  "cache_r": 16390,
+  "custo_usd": 0.044330999999999995
+ }
+}

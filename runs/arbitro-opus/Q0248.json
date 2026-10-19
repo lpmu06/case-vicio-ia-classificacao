@@ -1,0 +1,31 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5088",
+ "extras_ids": [
+  "5100",
+  "5092",
+  "5093",
+  "5091"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pede para ligar cada crime do Título XI do CP à sua conduta típica: desobediência, resistência, corrupção passiva, corrupção ativa e concussão (gabarito C). Todas as condutas pertencem ao mesmo tema de nível 1. Não indiquei subtema porque a cobrança se espalha por quatro subtemas (5100, 5092, 5093 e 5091), e escolher só um deixaria a classificação incompleta. Também não marquei multi-tema, já que o eixo comum é a comparação entre os tipos de um único tema.",
+ "id": "Q0248",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5087"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 540,
+  "cache_w": 8954,
+  "cache_r": 14086,
+  "custo_usd": 0.09199020000000001
+ }
+}

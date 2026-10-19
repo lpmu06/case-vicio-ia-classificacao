@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5170",
+ "extras_ids": [
+  "5170"
+ ],
+ "multi_tema": true,
+ "justificativa": "A resposta correta é a alternativa A. Ela trata da teoria finalista de Welzel: o dolo natural e a culpa passam a integrar o tipo, e o desvalor da ação se soma ao desvalor do resultado. As alternativas B (crime omissivo próprio confundido com o impróprio) e C (o CP adotou as teorias da vontade e do assentimento) também cobram elementos do fato típico. As alternativas D (art. 237 do CP como norma penal em branco em sentido lato, e não estrito) e E (definição de crime plurissubsistente atribuída ao pluriofensivo) cobram norma penal e classificação dos crimes, que pertencem ao tema 5170. Por isso marquei como multi-tema e não escolhi subtema.",
+ "id": "Q0335",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5218"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 883,
+  "cache_w": 7448,
+  "cache_r": 16390,
+  "custo_usd": 0.08550599999999998
+ }
+}

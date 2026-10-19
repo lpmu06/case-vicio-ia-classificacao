@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5476",
+ "subtema_n2_id": "5477",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": "5476",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam só de Habeas Corpus. A alternativa A trata do cabimento do HC preventivo (art. 647 do CPP); B e C, de quem pode impetrar e da concessão de ofício (art. 654 do CPP); D, da intervenção do assistente no HC; E, da impetração apócrifa, ou seja, sem assinatura. O eixo comum é o HC, então o subtema 5477 está certo. O assunto de origem, \"Comunicação dos atos processuais\", está errado.",
+ "id": "Q0331",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5476",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas tratam de Habeas Corpus: cabimento, legitimidade para impetrar (promotor, magistrado), intervenção do assistente e impetração apócrifa. Por isso a questão vai para Ações Autônomas de Impugnação (subtema Habeas Corpus). O assunto de origem, \"Comunicação dos atos processuais\", está errado."
+ },
+ "uso": {
+  "in": 4,
+  "out": 762,
+  "cache_w": 7856,
+  "cache_r": 20512,
+  "custo_usd": 0.0867214
+ }
+}

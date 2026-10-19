@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5590",
+ "extras_ids": [
+  "5555",
+  "5594"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema 5543. O ponto comum das quatro assertivas são os meios de obtenção de prova que restringem direitos fundamentais. A assertiva I trata da interceptação telefônica, que só é cabível em crimes punidos com reclusão (Lei 9.296/96). A II trata da quebra dos sigilos bancário e fiscal: o dever de preservar o segredo continua a cargo dos operadores do processo. A III trata do sigilo dos autos frente ao investigado e seu advogado (Súmula Vinculante 14). A IV trata da violação de correspondência por determinação do MP, o que esbarra na reserva de jurisdição. A interceptação (5555) aparece em apenas uma das quatro assertivas, por isso não escolho subtema e deixo subtema_n2_id = null. Como as assertivas tratam de institutos diferentes, a questão é multi-tema.",
+ "id": "Q0281",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.4,
+  "multi_tema": true,
+  "justificativa": "O eixo comum das assertivas são os meios de obtenção de prova que restringem direitos fundamentais. A assertiva I trata dos requisitos da interceptação telefônica (Lei 9.296/96: apenas crimes punidos com reclusão). A II trata da quebra dos sigilos bancário e fiscal e da preservação do segredo. A III trata do sigilo dos autos diante do investigado e de seu advogado (Súmula Vinculante 14). A IV trata da violação de correspondência por determinação do MP (cláusula de reserva de jurisdição). O ramo que melhor abrange o conjunto é Provas em Espécies, que inclui interceptação e quebra de sigilo de dados. Como segunda opção, Teoria Geral das Provas (limites constitucionais e prova ilícita). A questão também toca no Inquérito Policial (assertiva III) e na Lei de Interceptação, na Legislação Especial (assertiva I)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1408,
+  "cache_w": 16472,
+  "cache_r": 20512,
+  "custo_usd": 0.17542639999999998
+ }
+}

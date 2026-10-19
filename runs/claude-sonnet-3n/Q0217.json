@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4384",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4374",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra literalmente a passagem de Foucault em \"Vigiar e Punir\" sobre a Reforma Humanista do Direito Penal constituir uma nova economia e tecnologia do poder de punir. Isso se insere diretamente no núcleo de Teorias Legitimadoras da Pena (4384), que trata das justificativas históricas e filosóficas para o poder de punir do Estado. O tema 4384 não possui subtemas, então subtema_n2_id permanece null. Política Criminal (4374) fica como segunda opção por tangenciar o debate sobre o poder punitivo estatal, mas o foco específico em \"por que punir\" na obra de Foucault é mais aderente a 4384.",
+ "id": "Q0217",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata da obra \"Vigiar e Punir\" de Foucault sobre a reforma penal humanista e a nova tecnologia do poder de punir, tema diretamente relacionado às Teorias Legitimadoras da Pena, dentro do grupo C2 (teorias da pena, política criminal e processos de criminalização)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4384",
+  "segunda_opcao_n1_id": "4374",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento direto sobre o trecho de \"Vigiar e Punir\" de Foucault acerca da reforma humanista como nova economia e tecnologia do poder de punir — conteúdo central do tema Teorias Legitimadoras da Pena, que trata das justificativas e fundamentos do poder punitivo estatal. A alternativa correta (D - punir) reforça exatamente esse eixo. Política Criminal é segunda opção por tangenciar o debate sobre estratégias estatais de controle penal."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1217,
+  "cache_w": 9446,
+  "cache_r": 14150,
+  "custo_usd": 0.059039999999999995
+ }
+}

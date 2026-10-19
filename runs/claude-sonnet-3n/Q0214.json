@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5494",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [
+  "5493"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão narra duas ações penais pela mesma imputação (corrupção passiva), sendo a primeira ainda pendente de recurso (sem trânsito em julgado). Como não há coisa julgada, mas sim duplicidade de processos em curso sobre o mesmo fato, cabe exceção de litispendência, processada em autos apartados (gabarito D), o que afasta as alternativas de coisa julgada (B/C) e de incompetência (A). Isso se enquadra precisamente no subtema \"Exceção de Litispendência e de Coisa Julgada\" (5494), dentro do tema de nível 1 \"Das Questões e Processos Incidentes\" (5490), que trata do instrumento processual (exceção) e não do critério abstrato de competência. A alternativa (A) menciona incompetência, por isso mantenho Competência (5480) como segunda opção, embora o eixo central e a resposta correta girem em torno do incidente de litispendência, não de competência.",
+ "id": "Q0214",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP3",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão testa o conhecimento sobre exceção de litispendência (duas ações penais pela mesma imputação, sem trânsito em julgado da primeira), tema processado em autos apartados, enquadrando-se em \"Das Questões e Processos Incidentes\" (exceções), dentro do grupo PP3."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5490",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige identificar que, havendo duas ações penais pela mesma imputação sem trânsito em julgado da primeira, cabe exceção de litispendência, processada em autos apartados. Isso se enquadra no subtema \"Exceção de Litispendência e de Coisa Julgada\", dentro do tema de nível 1 \"Das Questões e Processos Incidentes\" (5490). A segunda opção seria Competência (5480), já que a alternativa (A) envolve incompetência de juízo, mas o eixo central da questão é o incidente processual de litispendência."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1435,
+  "cache_w": 19271,
+  "cache_r": 10210,
+  "custo_usd": 0.105266
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "fora": false,
+ "tema_n1_id": "5170",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "4375",
+ "extras_ids": [
+  "5172"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a teoria do garantismo penal de Ferrajoli em si: função do Direito Penal, interpretação e legitimação da jurisdição pela estrita legalidade, e não pelo consenso popular. Por isso, o melhor enquadramento é o tema guarda-chuva de Introdução ao Direito Penal, coerente com a origem da questão. O subtema 4375 (garantismo como corrente de política criminal) é uma alternativa plausível, por isso aparece como segunda opção. Não escolhi o subtema de Princípios porque a questão não aplica nenhum princípio específico; trata da fundamentação teórica do sistema garantista.",
+ "id": "Q0269",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4374",
+  "5170"
+ ],
+ "candidatos_subtemas": [
+  "4375"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 864,
+  "cache_w": 6914,
+  "cache_r": 14086,
+  "custo_usd": 0.08051520000000001
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam de aspectos processuais da Lei 11.340/2006 e da jurisprudência do STJ sobre ela: Tema 1.186 (incidência em vítima criança ou adolescente), Tema 983 (dano moral mínimo), sigilo do nome da ofendida e natureza e duração das medidas protetivas de urgência (Tema 1.249, que é a alternativa correta, E). O eixo comum é o microssistema da Lei Maria da Penha, que não tem subtemas. Temas de Processo Penal, como Sentença Penal ou Ação Penal, foram descartados porque são abordados apenas como reflexos da lei especial.",
+ "id": "Q0289",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4704"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 552,
+  "cache_w": 4855,
+  "cache_r": 16390,
+  "custo_usd": 0.056082
+ }
+}

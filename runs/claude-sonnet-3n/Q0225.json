@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5476",
+ "subtema_n2_id": "5478",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5571",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa especificamente a competência para processar e julgar revisão criminal quando o STJ apenas não conheceu do recurso especial (com base na Súmula 7/STJ) sem analisar o mérito da causa. Nesse cenário, a jurisprudência do STJ é firme no sentido de que a competência para a revisão criminal permanece com o tribunal que efetivamente julgou o mérito (no caso, o TJ), e não com o STJ, já que este não proferiu \"julgado próprio\" sobre o mérito da condenação - apenas inadmitiu o recurso por questão processual (reexame de provas). Assim, a afirmativa de que a competência seria do STJ está errada. O instituto central é a revisão criminal (competência), subtema específico de Ações Autônomas de Impugnação (5476/5478), confirmando a classificação anterior. O contexto de execução penal mencionado no enunciado introdutório é apenas disfarce narrativo. A segunda opção envolve o recurso especial (5571), pois a compreensão do efeito do não conhecimento por Súmula 7 é premissa necessária para resolver a questão, mas não é o cerne da pergunta.",
+ "id": "Q0225",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão testa a competência para processar e julgar revisão criminal (ação autônoma de impugnação), especificamente a regra de que, quando o STJ apenas não conhece do recurso especial (sem apreciar o mérito), a competência para revisão criminal permanece com o tribunal que julgou o mérito (TJ), e não com o STJ. Isso é típico do tema \"Ações Autônomas de Impugnação\", dentro do grupo PP8, e não de Execução Penal, apesar do enunciado mencionar esse contexto."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5476",
+  "segunda_opcao_n1_id": "5560",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata da competência para julgar revisão criminal (ação autônoma de impugnação) quando o STJ apenas não conheceu do recurso especial sem analisar o mérito - nesse caso a competência permanece com o TJ, não com o STJ. O instituto central testado é a revisão criminal, subtema de \"Ações Autônomas de Impugnação\" (5476), e não execução penal, apesar do enunciado introdutório mencionar esse contexto. Segunda opção: Recursos em Espécie (5560), já que a questão também exige compreender o efeito do não conhecimento por Súmula 7/STJ sobre o recurso especial."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1836,
+  "cache_w": 15236,
+  "cache_r": 14150,
+  "custo_usd": 0.093696
+ }
+}

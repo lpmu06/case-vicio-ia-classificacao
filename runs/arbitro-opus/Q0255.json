@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5211",
+ "subtema_n2_id": "5213",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5212",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam da imputabilidade penal nos arts. 26 a 28 do CP: emoção e paixão, embriaguez fortuita e voluntária, semi-imputabilidade e menoridade. A alternativa incorreta é a C, porque a perturbação da saúde mental que só reduz a capacidade de entender ou de se determinar autoriza apenas a redução da pena (art. 26, parágrafo único), e não a isenção. O eixo comum é exatamente o subtema Inimputabilidade; o subtema Conceito e Elementos da Culpabilidade foi descartado por ser mais genérico, e Medida de Segurança porque a questão não cobra a sanção aplicável.",
+ "id": "Q0255",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5211"
+ ],
+ "candidatos_subtemas": [
+  "5213"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 583,
+  "cache_w": 5718,
+  "cache_r": 14086,
+  "custo_usd": 0.0643852
+ }
+}

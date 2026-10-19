@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4374",
+ "subtema_n2_id": "4375",
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5170",
+ "extras_ids": [
+  "5172"
+ ],
+ "multi_tema": false,
+ "justificativa": "Troquei 5170 por 4374. A questão não cobra um princípio penal isolado (legalidade, intervenção mínima etc.). Ela pede as características da doutrina do garantismo penal de Ferrajoli em sua concepção clássica. As alternativas tratam do direito penal mínimo como técnica de minimização da violência, da interpretação como escolha, das garantias como forma de deslegitimar o abuso punitivo e da função contramajoritária da jurisdição. A alternativa incorreta é a C, que condiciona a decisão ao consenso popular. Na árvore, o subtema 4375 (Correntes da Política Criminal) cita expressamente garantismo penal e Ferrajoli e tem como núcleo identificar autores e características de cada corrente. É exatamente o que a questão faz. A origem marca Penal > Introdução, e o garantismo também é estudado nos fundamentos do Direito Penal. Por isso, mantenho 5170 como segunda opção e a confiança no ramo fica moderada.",
+ "id": "Q0269",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5170",
+  "segunda_opcao_n1_id": "4374",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão cobra a doutrina do garantismo penal de Ferrajoli: o direito penal mínimo como técnica de minimização da violência e de garantia do acusado, a interpretação como escolha, e o fato de as garantias servirem para deslegitimar o abuso do poder punitivo. A alternativa incorreta é a C, que condiciona a decisão ao consenso popular. Isso contraria a função contramajoritária da jurisdição garantista. Trata-se de fundamento e legitimação do Direito Penal e de seus princípios, conteúdo de Introdução ao Estudo do Direito Penal. Classifiquei no nível 1 para não arriscar o subtema Princípios. Segunda opção: Política Criminal (Criminologia), que trata das correntes político-criminais, entre elas o garantismo e o direito penal mínimo."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1655,
+  "cache_w": 8997,
+  "cache_r": 18208,
+  "custo_usd": 0.11545659999999999
+ }
+}

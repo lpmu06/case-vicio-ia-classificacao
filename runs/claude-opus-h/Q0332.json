@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4701",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5541",
+ "extras_ids": [
+  "5539"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão só cobra a transação penal do art. 76 da Lei 9.099/95. O enunciado transcreve os §§ 4º e 6º, e as alternativas tratam do impedimento de novo benefício por cinco anos (§ 2º, II), da ausência de reincidência e do descumprimento do acordo (SV 35). O tema 4701, Juizado Especial Criminal, é da Legislação Especial e cita expressamente a transação penal. Por isso tem preferência sobre Processo Penal > Procedimento Sumaríssimo (5539), que é o mesmo assunto. O 4701 não tem subtemas, então o subtema fica null. A segunda opção é 5541, Transação Penal, subtema de 5539 que corresponde exatamente ao conteúdo da questão.",
+ "id": "Q0332",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4701",
+  "segunda_opcao_n1_id": "5539",
+  "confianca_ramo": 0.5,
+  "multi_tema": false,
+  "justificativa": "A questão cobra a transação penal da Lei 9.099/95 (art. 76, §§ 2º, II, 4º e 6º). Testa o impedimento de um novo benefício no prazo de cinco anos, a ausência de reincidência e as consequências do descumprimento. Todas as alternativas giram em torno desse único eixo. Escolhi o tema Juizado Especial Criminal da Legislação Especial, cuja descrição cita expressamente a transação penal. Pela regra, a Legislação Especial tem preferência quando há sobreposição. A alternativa forte é Processo Penal > Procedimento Sumaríssimo, que tem o subtema \"Transação Penal\"."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1276,
+  "cache_w": 9806,
+  "cache_r": 20512,
+  "custo_usd": 0.11417440000000001
+ }
+}

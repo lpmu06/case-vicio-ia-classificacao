@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5501",
+ "extras_ids": [
+  "5501",
+  "5580",
+  "5500"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão cobra as alterações do Pacote Anticrime na fase investigatória. A correta é a A (art. 28, §1º, CPP: a vítima pode pedir a revisão do arquivamento em 30 dias), e a D também trata de arquivamento. As demais alternativas cobram outros pontos: B e E tratam da estrutura acusatória do art. 3º-A (Sistemas e Princípios), e a C trata do art. 14-A, que vale só para policiais investigados por uso de força letal no exercício da função (Procedimento do IP). Como as alternativas misturam subtemas, classifiquei no tema Inquérito Policial, que abrange a maioria delas, e deixei o subtema null, com Conclusão e Arquivamento como segunda opção.",
+ "id": "Q0330",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5498"
+ ],
+ "candidatos_subtemas": [
+  "5501"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 1069,
+  "cache_w": 6969,
+  "cache_r": 16390,
+  "custo_usd": 0.08509800000000001
+ }
+}

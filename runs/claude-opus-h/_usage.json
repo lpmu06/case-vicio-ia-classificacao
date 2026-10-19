@@ -1,0 +1,15 @@
+{
+ "uso": {
+  "in": 320,
+  "out": 94050,
+  "cache_w": 1055033,
+  "cache_r": 1534060,
+  "custo_usd": 11.288078000000002
+ },
+ "segundos": 16688,
+ "erros": [],
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "metodo": "hierarquico_2_estagios"
+}

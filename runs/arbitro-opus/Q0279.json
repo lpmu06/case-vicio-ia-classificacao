@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5188",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.65,
+ "segunda_opcao_id": "5186",
+ "extras_ids": [
+  "5175"
+ ],
+ "multi_tema": false,
+ "justificativa": "A alternativa correta é a C. O furto simples tem pena máxima de 4 anos, o que dá prazo prescricional de 8 anos (art. 109, IV, CP). Como o agente tinha menos de 21 anos na data do fato, esse prazo cai pela metade e fica em 4 anos (art. 115). Assim, quando a denúncia foi recebida, 4 anos e 6 meses depois, a prescrição da pretensão punitiva em abstrato já tinha ocorrido. As alternativas sobre iter criminis (desistência, arrependimento eficaz, tentativa, crime oco) servem só de distração: o furto já estava consumado e a devolução da joia seria, no máximo, arrependimento posterior. Por isso escolhi 5188 em vez de 5186, que só apareceria pela redução etária do art. 115.",
+ "id": "Q0279",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5185"
+ ],
+ "candidatos_subtemas": [
+  "5188"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 875,
+  "cache_w": 6166,
+  "cache_r": 16390,
+  "custo_usd": 0.07421699999999999
+ }
+}

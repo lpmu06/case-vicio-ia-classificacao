@@ -1,0 +1,35 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.45,
+ "segunda_opcao_id": "5471",
+ "extras_ids": [
+  "5120",
+  "5121",
+  "5474",
+  "5122"
+ ],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema 5466, Ação Penal. O eixo da questão é a legitimidade concorrente da Súmula 714 do STF na calúnia contra funcionário público em razão da função. As alternativas A e D tratam da representação ao Ministério Público (MP) e da exigência dessa condição para instaurar o inquérito. As alternativas B e E tratam da queixa: procuração com poderes especiais e aditamento pelo MP. Só a alternativa C cobra exceção da verdade, que é direito material. Como as alternativas se dividem entre a ação pública condicionada (5471) e a queixa-crime ou ação privada (5474/5472), nenhum subtema sozinho cobre o conjunto. Por isso deixei o subtema vazio. A segunda opção é 5471, porque a descrição dele menciona expressamente a Súmula 714 e os crimes contra a honra de funcionário público.",
+ "id": "Q0280",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5120",
+  "confianca_ramo": 0.6,
+  "multi_tema": false,
+  "justificativa": "O caso é de calúnia contra funcionário público por fato ligado às suas funções. As alternativas cobram a legitimidade concorrente (Súmula 714 do STF): representação ao Ministério Público ou queixa do ofendido, procuração com poderes especiais, necessidade de representação para instaurar o inquérito e aditamento da queixa pelo MP. Só a alternativa C trata da exceção da verdade. O eixo comum é, portanto, a ação penal no aspecto processual. A segunda opção é Crimes Contra a Honra, porque o contexto é calúnia e a exceção da verdade está no CP. A pista de origem (\"Comunicação dos atos processuais\") não se confirma."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1435,
+  "cache_w": 13230,
+  "cache_r": 18208,
+  "custo_usd": 0.1477046
+ }
+}

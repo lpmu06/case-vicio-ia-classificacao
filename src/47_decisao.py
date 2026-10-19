@@ -51,8 +51,9 @@ def main():
     ap.add_argument("--min_frac", type=float, default=0.75)
     ap.add_argument("--t_arb", type=float, default=0.80)
     ap.add_argument("--t_sub", type=float, default=0.85)
-    ap.add_argument("--min_sub", type=int, default=3)
+    ap.add_argument("--min_sub", type=int, default=2, help="mínimo de votos (incluindo o árbitro) no mesmo subtema")
     ap.add_argument("--min_par", type=int, default=3, help="mínimo de questões para um par de ramos ser 'confundível'")
+    ap.add_argument("--margem", type=float, default=0.02, help="margem de convenção descontada da confiança")
     ap.add_argument("--saida", default=str(RAIZ / "publicacao.csv"))
     ap.add_argument("--saida_jsonl", default=str(RAIZ / "data" / "decisoes.jsonl"))
     a = ap.parse_args()
@@ -61,10 +62,16 @@ def main():
     qs = carregar_questoes()
     qids = [q["id"] for q in qs]
     rods = {r: carregar_rodada(r, A) for r in CLASSIFICADORES}
-    rods = {r: v for r, v in rods.items() if v}
+    # só rodadas completas entram na regra, para o critério ser o mesmo em todas as questões;
+    # as parciais (amostra 2x2, GPT, Haiku) servem à comparação e às estimativas
+    parciais = [r for r, v in rods.items() if v and len(v) < len(qids)]
+    todas = {r: v for r, v in rods.items() if v}
+    rods = {r: v for r, v in rods.items() if len(v) >= len(qids)}
+    print(f"rodadas na decisão: {list(rods)}; parciais ignoradas: {parciais}")
     arb = carregar_rodada(ARBITRO, A)
     origem = carregar_origem()
-    conf_pairs = pares_confundiveis(rods, qids, a.min_par)
+    # pares confundíveis medidos com todas as rodadas (inclusive parciais) e o árbitro: é uma medida empírica de confusão
+    conf_pairs = pares_confundiveis({**todas, ARBITRO: arb}, qids, a.min_par)
     ramos_risco = Counter()
     for (x, y), n in conf_pairs.items():
         ramos_risco[x] += n
@@ -116,7 +123,7 @@ def main():
                     tema, nivel = ramo_a, 1
                     sub_a = va["sub"]
                     if a.modo == "hibrido" and sub_a:
-                        subs = Counter(v["sub"] for v in votos.values() if v["sub"] and v["ramo"] == ramo_a)
+                        subs = Counter(v["sub"] for v in list(votos.values()) + [va] if v["sub"] and v["ramo"] == ramo_a)
                         irmao = any(s != sub_a for s in subs)
                         opus_sub = rods.get("claude-opus", {}).get(q, (None,))[0]
                         if (opus_sub and opus_sub["sub"] == sub_a and not irmao and subs.get(sub_a, 0) >= a.min_sub
@@ -153,6 +160,28 @@ def main():
                 if e2 and reg["tema"] and A.ramo_de(e2) != A.ramo_de(reg["tema"]) and e2 not in ex:
                     ex.append(e2)
         reg["extras"] = ex[:3]
+
+    # confiança = média entre a posterior de Dawid-Skene do ramo e a confiança do árbitro no nó escolhido,
+    # menos a margem de convenção (o que nenhum modelo vê); para "fora", a confiança do árbitro em "fora"
+    cpath = RAIZ / "data" / "confiabilidade.jsonl"
+    ds = {json.loads(l)["id"]: json.loads(l) for l in cpath.open(encoding="utf-8")} if cpath.exists() else {}
+    for reg in regs:
+        ar = reg["arbitro"]
+        if reg["decisao"] == "fora":
+            reg["confianca"] = round(ar["c_ramo"] if ar else 0.5, 2)
+            continue
+        if not reg["tema"]:
+            reg["confianca"] = 0.0
+            continue
+        ramo = A.ramo_de(reg["tema"])
+        d = ds.get(reg["id"], {})
+        p_ds = d.get("p_ramo_map", 0.5) if d.get("ramo_map") == ramo else (1 - d.get("p_ramo_map", 0.5)) / 2
+        p_arb = 0.5
+        if ar and ar["ramo"] == ramo:
+            p_arb = ar["c_sub"] if (A.t[reg["tema"]]["nivel"] == 2 and ar["sub"] == reg["tema"]) else ar["c_ramo"]
+        elif ar:
+            p_arb = max(0.0, 1 - ar["c_ramo"]) / 2
+        reg["confianca"] = round(max(0.0, min(1.0, (p_ds + p_arb) / 2 - a.margem)), 2)
 
     with open(a.saida_jsonl, "w", encoding="utf-8") as g:
         for r in regs:

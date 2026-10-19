@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5159",
+ "extras_ids": [
+  "5160"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão monitemática e comparativa sobre crimes contra o patrimônio. Aborda consumação do furto (contrectatio com inversão de posse), distinção entre furto e roubo (narcóticos = fraude, não violência, conforme Súmula 511 STJ) e tentativa de roubo impróprio. Embora compare furto (5159) e roubo (5160), não existe prevalência clara de um subtema em relação ao outro, justificando a manutenção no tema genérico de nível 1. A questão testa conhecimento integrado de ambos os tipos patrimoniais sem eixo específico em apenas um deles. Confiança alta no ramo (crimes contra patrimônio) e confiança alta na decisão de subtema null (pela natureza comparativa e equilibrada).",
+ "id": "Q0006",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "fora": false,
+  "multi_tema": false,
+  "confianca": 0.95,
+  "justificativa": "Questão sobre furto e roubo, especificamente consumação do furto (contrectatio), diferenciação entre furto e roubo quanto ao meio (narcóticos vs. violência/ameaça) e possibilidade de tentativa de roubo impróprio. O tema central é claramente \"Dos Crimes Contra o Patrimônio\" (P5). Embora toque em elementos de teoria do crime, o foco é no crime específico, não na teoria geral."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão monitemática sobre crimes contra o patrimônio. Versa especificamente sobre furto (consumação, contrectatio, diferenciação de meios) e roubo (tentativa em roubo impróprio). Ambos são subtemas diretos de \"Dos Crimes Contra o Patrimônio\". Embora toque em conceitos de teoria geral do crime, o foco é no crime específico, não na teoria abstrata."
+ },
+ "uso": {
+  "in": 30,
+  "out": 9347,
+  "cache_w": 19360,
+  "cache_r": 4639,
+  "custo_usd": 0.09659789999999999
+ }
+}

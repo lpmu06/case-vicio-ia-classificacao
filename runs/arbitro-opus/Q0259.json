@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": "5183",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5157",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta qual princípio resolve o concurso aparente entre o dano e o furto qualificado pelo rompimento de obstáculo: consunção, subsidiariedade tácita ou especialidade. Esse é exatamente o conteúdo do subtema Conflito Aparente de Normas (5183), dentro de Lei Penal no Tempo e no Espaço. Descartei Ilicitude, que é o assunto de origem e não tem relação com a questão, e Crimes contra o Patrimônio (5157), porque os tipos de furto e dano são só o cenário; a questão não cobra os elementos desses crimes.",
+ "id": "Q0259",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5180"
+ ],
+ "candidatos_subtemas": [
+  "5183"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 482,
+  "cache_w": 5129,
+  "cache_r": 16390,
+  "custo_usd": 0.057122
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4705",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5557",
+ "extras_ids": [
+  "5543"
+ ],
+ "multi_tema": false,
+ "justificativa": "O eixo da questão é a colaboração premiada de um integrante de organização criminosa na Lei 12.850/2013. As alternativas tratam do não oferecimento de denúncia (art. 4º, §4º), da redução da pena em até 2/3 e da natureza da colaboração em comparação com a confissão. A descrição do tema 4705 manda classificar ali a colaboração premiada ligada à criminalidade organizada, por isso escolhi esse tema e deixei o subtema 5557 (Provas em Espécies > Colaboração Premiada) como alternativa muito próxima. Descartei o tema 5466 (Ação Penal), que veio do assunto de origem, porque a questão não cobra titularidade nem espécie de ação penal.",
+ "id": "Q0329",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4705",
+  "5466",
+  "5543"
+ ],
+ "candidatos_subtemas": [
+  "5557"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 1119,
+  "cache_w": 16765,
+  "cache_r": 16390,
+  "custo_usd": 0.17241099999999998
+ }
+}

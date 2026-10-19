@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5193",
+ "extras_ids": [
+  "5185"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão trata da teoria geral da extinção da punibilidade (art. 107 do CP). Cobra se o rol é exemplificativo ou taxativo, a diferença entre anistia e indulto e a prescrição como causa extintiva. Como cada item cai num ponto diferente dentro do mesmo tema (Anistia/Graça/Indulto num, Prescrição em outro), deixei o subtema em branco e classifiquei no tema de nível 1 Punibilidade, que cobre todos eles. A Prescrição (5185) não serve como tema principal, porque aparece só em um item e apenas como espécie de causa extintiva.",
+ "id": "Q0251",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5191"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 638,
+  "cache_w": 5682,
+  "cache_r": 14086,
+  "custo_usd": 0.0652602
+ }
+}

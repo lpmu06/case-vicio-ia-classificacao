@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra os tipos penais da Lei 11.343/2006. A alternativa correta é a C, que reproduz o art. 38 (prescrever ou ministrar drogas culposamente). As outras alternativas distorcem os arts. 34, 33 §3º, 39 e 33 §1º, II. O candidato Concurso de Crimes (5066) foi descartado porque nenhuma alternativa trata de pluralidade de crimes nem de cálculo de pena; o assunto de origem está equivocado.",
+ "id": "Q0326",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4708",
+  "5066"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 503,
+  "cache_w": 6482,
+  "cache_r": 16390,
+  "custo_usd": 0.069424
+ }
+}

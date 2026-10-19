@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5487",
+ "subtema_n2_id": "5488",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o que acontece quando o réu não é encontrado para a citação pessoal. Pelos arts. 361 e 366 do CPP, faz-se a citação por edital e, se o réu não comparecer nem constituir advogado, o processo e a prescrição ficam suspensos (gabarito C). As alternativas erradas também giram em torno da citação: hora certa só cabe quando o réu se oculta, a revelia não é decretada diretamente e a prescrição fica suspensa, não interrompida. Por isso o subtema Citação e Contagem dos Prazos é o correto, e não Intimação, Nulidades ou Procedimento.",
+ "id": "Q0311",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5487"
+ ],
+ "candidatos_subtemas": [
+  "5488"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 532,
+  "cache_w": 4517,
+  "cache_r": 16390,
+  "custo_usd": 0.052840000000000005
+ }
+}

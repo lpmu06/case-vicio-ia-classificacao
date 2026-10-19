@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5176",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão que cobra a definição fundamental e as fases do iter criminis (cogitação, preparação, execução, consumação, exaurimento). A resposta correta é \"fases pelas quais passa o delito\" (alternativa D). A classificação no subtema 5176 \"Fases do Iter Criminis\" é exata: a questão trata especificamente da localização e nomenclatura das etapas da progressão criminal, sem adentrar em fenômenos específicos como tentativa, crime impossível ou desistência voluntária.",
+ "id": "Q0057",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5175",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.99,
+  "multi_tema": false,
+  "justificativa": "Questão conceitual sobre a definição de iter criminis. O tema central é o conceito fundamental do caminho do crime (conjunto de fases), classificável diretamente no tema \"Iter Criminis\" (5175). Altíssima confiança pela especificidade e alinhamento exato com o descritor do tema."
+ },
+ "uso": {
+  "in": 20,
+  "out": 2655,
+  "cache_w": 9528,
+  "cache_r": 12522,
+  "custo_usd": 0.0382192
+ }
+}

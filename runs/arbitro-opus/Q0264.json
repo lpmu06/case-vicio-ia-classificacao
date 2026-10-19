@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": "5108",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5103",
+ "extras_ids": [
+  "5103"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o art. 218-B do CP, que trata do favorecimento da prostituição ou exploração sexual de criança, adolescente ou vulnerável. Ela pede para separar a responsabilidade do cliente, do proxeneta e do proprietário do local, distinguindo o caso de estupro de vulnerável (art. 217-A, vítima menor de 14) das figuras equiparadas do §2º, I e II (vítima entre 14 e 18). O subtema 5108 cobre expressamente o art. 218-B, e a nota do 5109 manda remeter a ele esse caso. O 5103 fica como opção secundária, e o assunto de origem \"Lesão Corporal\" foi descartado por não ter relação com a questão.",
+ "id": "Q0264",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5102"
+ ],
+ "candidatos_subtemas": [
+  "5108"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 795,
+  "cache_w": 8075,
+  "cache_r": 16390,
+  "custo_usd": 0.089164
+ }
+}

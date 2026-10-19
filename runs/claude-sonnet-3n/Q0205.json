@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5512",
+ "subtema_n2_id": "5514",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5560",
+ "extras_ids": [
+  "5560",
+  "5567",
+  "5562"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é \"assinale a correta\", com cada alternativa versando sobre um instituto recursal diferente: (A) carta testemunhável, hipótese de cabimento específica de recurso em espécie (5560/5567); (B) desistência de recurso pelo MP, ligada ao princípio da indisponibilidade recursal do MP (5513); (C) interesse em recorrer para obter decisão de mérito absolutória mesmo após extinção da punibilidade por prescrição — tema clássico de interesse recursal, um dos pressupostos subjetivos de admissibilidade (5514), e é a alternativa correta (jurisprudência do STF/STJ admite recurso da defesa buscando absolvição própria, por ser mais benéfica que a simples extinção da punibilidade); (D) efeito da apelação contra sentença absolutória sobre a soltura do réu, tema de efeitos dos recursos (5515) — e está errada, pois a absolvição implica soltura imediata independentemente do recurso. Como o enunciado pede a assertiva verdadeira e esta trata de interesse recursal (pressuposto de admissibilidade), mantenho o tema de nível 1 em Parte Geral dos Recursos (5512), agora com subtema 5514, já que é o instituto efetivamente testado pela alternativa correta. Mantida a segunda opção em Recursos em Espécie (5560) por conta da presença da carta testemunhável, e por ser um caso nítido de mistura de institutos dentro do mesmo ramo (recursos em processo penal), configurando multi_tema.",
+ "id": "Q0205",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam sobre o sistema recursal processual penal: carta testemunhável, desistência de recurso pelo MP, interesse em recorrer e efeitos da apelação sobre a liberdade do réu - temas típicos de Recursos em Espécie (PP8)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5512",
+  "segunda_opcao_n1_id": "5560",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos distintos do sistema recursal: (A) carta testemunhável é recurso em espécie (CPP art. 639); mas (B) desistência de recurso pelo MP, (C) interesse/legitimidade para recorrer buscando mérito após extinção da punibilidade, e (D) efeitos da apelação sobre a liberdade do réu são todos temas de teoria geral dos recursos (legitimidade/interesse recursal e efeitos dos recursos), pertencentes à Parte Geral dos Recursos (5512). Como 3 das 4 alternativas giram em torno de pressupostos e efeitos recursais genéricos, e não de peculiaridades específicas de um recurso nominado, classifico preferencialmente em Parte Geral dos Recursos, com Recursos em Espécie como segunda opção pela presença da carta testemunhável. É um caso claramente multi-tema dentro do mesmo ramo (Recursos/Processo Penal)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3791,
+  "cache_w": 15818,
+  "cache_r": 14150,
+  "custo_usd": 0.115375
+ }
+}

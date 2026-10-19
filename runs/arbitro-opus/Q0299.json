@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.4,
+ "segunda_opcao_id": "4371",
+ "extras_ids": [
+  "4384",
+  "4371"
+ ],
+ "multi_tema": true,
+ "justificativa": "A alternativa correta (D) cobra o labeling approach, uma teoria sociológica da reação social. Por isso, a questão se encaixa melhor em 4385, e o candidato 4388 seria o subtema mais provável. As demais alternativas misturam institutos sem um eixo comum: criminologia crítica, Escola Positiva (4371), teoria retributiva da pena (4384) e finalismo penal. Descartei 4384 como tema principal porque só a alternativa C, que é falsa, trata dos fins da pena; deixei o subtema como null por ser uma questão multi-tema.",
+ "id": "Q0299",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4385",
+  "4384"
+ ],
+ "candidatos_subtemas": [
+  "4388"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 646,
+  "cache_w": 5891,
+  "cache_r": 16390,
+  "custo_usd": 0.06704
+ }
+}

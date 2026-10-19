@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5583",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema Sujeitos do Processo (5583), que não tem subtemas. As cinco proposições giram em torno de um só eixo: o assistente de acusação, regulado nos arts. 268 a 273 do CPP. Elas perguntam se cabe recurso contra a decisão que o admite (art. 273), se ele pode pedir a prisão preventiva (art. 311) ou o desaforamento (art. 427), se órgãos de defesa do consumidor podem intervir como assistentes (art. 80 do CDC) e em que momento ele pode atuar (art. 268, só depois de recebida a denúncia). A pergunta é sobre os poderes e os limites de um sujeito processual, e não sobre a titularidade ou as espécies de ação penal, por isso a Ação Penal (5466) fica só como segunda opção.",
+ "id": "Q0346",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5583",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "Todas as proposições tratam do assistente de acusação: se cabe recurso contra a decisão que o admite, se ele pode pedir a prisão preventiva ou o desaforamento, a intervenção de órgãos do CDC e em que momento ele pode atuar. O assistente é sujeito do processo penal (arts. 268 a 273 do CPP), então o tema é Sujeitos do Processo. A pista de origem (Sistemas e Princípios) só aparece no contexto da proposição I. Segunda opção: Ação Penal (Processo Penal)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 983,
+  "cache_w": 12303,
+  "cache_r": 20512,
+  "custo_usd": 0.13041740000000002
+ }
+}

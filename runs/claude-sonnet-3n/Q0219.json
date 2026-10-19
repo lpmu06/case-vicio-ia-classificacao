@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5071",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A classificação \"participação necessária imprópria\" refere-se à distinção doutrinária entre crimes unissubjetivos (concurso eventual) e plurissubjetivos (concurso necessário próprio e impróprio), que é matéria de classificação dos crimes quanto ao número de agentes exigido pelo tipo penal - tema tradicionalmente tratado na Teoria Geral do Crime, e não especificamente nos arts. 29-31 do CP (que disciplinam o concurso eventual de pessoas em crime unissubjetivo). Reconsiderando a classificação anterior, entendo que o eixo central da questão é essa categorização doutrinária do delito quanto à pluralidade necessária de agentes, mais afeita a 5218 (Teoria do Crime: Fato Típico), ainda que nenhum subtema específico da árvore contemple exatamente essa classificação mono/plurissubjetivo (por isso subtema null). Mantenho Concurso de Pessoas (5071) como segunda opção plausível, pois a terminologia \"participação\" dialoga com esse instituto, e a confiança sobre o ramo correto não é alta dado que não tenho acesso ao enunciado completo da situação hipotética.",
+ "id": "Q0219",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão trata de \"participação necessária impropria\", classificação doutrinária relativa aos crimes de concurso necessário/eventual, tema diretamente ligado a Concurso de Pessoas (teoria do concurso de agentes), que integra o grupo P2 da parte geral do Direito Penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": "5218",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "\"Participação necessária imprópria\" é classificação doutrinária relacionada aos crimes de concurso necessário (plurissubjetivos) versus concurso eventual (monossubjetivos), distinção clássica tratada no estudo do Concurso de Pessoas, que contrapõe os crimes que exigem pluralidade de agentes (concurso necessário próprio/impróprio) aos crimes que admitem pluralidade apenas eventualmente. Por isso mantenho o tema em Concurso de Pessoas. Como segunda opção, cabe Teoria do Crime: Fato Típico, pois a classificação de crimes quanto ao número de sujeitos (mono/plurissubjetivos) também é tratada na teoria geral do crime/classificação dos tipos penais, podendo aparecer no subtema \"Conceito, Sujeito e Objeto do Crime\"."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3574,
+  "cache_w": 15496,
+  "cache_r": 14150,
+  "custo_usd": 0.110928
+ }
+}

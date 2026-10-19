@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5530",
+ "extras_ids": [
+  "5533"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecimento do art. 55, caput, da Lei 11.343/2006, que estabelece rito especial e peculiar: após o oferecimento da denúncia, o juiz ordena a notificação do acusado (não citação) para oferecer defesa prévia (não resposta à acusação) no prazo de 10 dias (não 15). Essa disciplina é exclusiva e especial da Lei de Drogas, distinta do procedimento comum ordinário do CPP (art. 396 - citação para resposta à acusação em 10 dias). Como o tema 4708 expressamente abrange \"principais reflexos processuais\" da Lei de Drogas, e o próprio enunciado pede o procedimento específico \"nos crimes previstos na Lei de Drogas\", o núcleo da questão é a especialidade procedimental da Lei 11.343/2006, não o procedimento ordinário genérico. O tema 4708 não possui subtemas, por isso subtema_n2_id é null. Mantenho 5530 como segunda opção por ser o contraponto comparativo explorado nas alternativas (citação/resposta à acusação vs. notificação/defesa prévia), e incluo 5533 (Defesa Preliminar) como extra pela proximidade conceitual com a defesa prévia.",
+ "id": "Q0213",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": "PP6",
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata do procedimento específico de notificação para defesa prévia previsto no art. 55 da Lei 11.343/2006 (Lei de Drogas), matéria própria do tema Tráfico de Drogas dentro de Legislação Especial, que abrange também os aspectos processuais peculiares dessa lei."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": "5530",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão testa o procedimento específico do art. 55 da Lei 11.343/2006, que prevê notificação do acusado para defesa prévia (não citação para resposta à acusação do rito comum do CPP). É um reflexo processual peculiar da Lei de Drogas, cobrindo exatamente a especialidade do rito dessa lei frente ao procedimento comum. Como o tema \"Tráfico de Drogas\" na Legislação Especial expressamente inclui \"principais reflexos processuais\" da lei, essa questão se encaixa melhor ali do que nos procedimentos genéricos do CPP (que tratam de citação para resposta à acusação, rito diverso). Ainda assim, há proximidade temática com Procedimento Ordinário, pois a questão contrasta justamente com esse rito geral, por isso mantenho como segunda opção."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2288,
+  "cache_w": 13650,
+  "cache_r": 7906,
+  "custo_usd": 0.0886442
+ }
+}

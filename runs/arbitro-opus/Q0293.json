@@ -1,0 +1,31 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5189",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.62,
+ "segunda_opcao_id": "5190",
+ "extras_ids": [
+  "5188",
+  "5187"
+ ],
+ "multi_tema": false,
+ "justificativa": "O caso exige calcular a prescrição de penas já transitadas em julgado. Isso envolve o saldo de pena após o cumprimento ser interrompido (art. 113 do CP), o termo inicial após o trânsito e a interrupção pelo início do cumprimento (art. 117, V, do CP). Por isso, o eixo é a prescrição da pretensão executória. As alternativas também cobram a prescrição da multa cumulativa (5190) e a da pretensão punitiva pela pena concreta (5188), o que justifica a confiança moderada no subtema. Mesmo assim, todas ficam dentro do tema Prescrição (5185).",
+ "id": "Q0293",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5185"
+ ],
+ "candidatos_subtemas": [
+  "5189"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 938,
+  "cache_w": 6374,
+  "cache_r": 16390,
+  "custo_usd": 0.077265
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5116",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.45,
+ "segunda_opcao_id": "5120",
+ "extras_ids": [
+  "5118",
+  "5122",
+  "5121"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão mistura assuntos diferentes. A e B tratam de falsidade ideológica e de uso de documento falso, que é matéria de falsidade documental (5118). C trata da ação penal no abuso de autoridade. D e E tratam de crimes contra a honra: calúnia contra os mortos e exceção da verdade. A alternativa correta é a A, sobre os requisitos clássicos do falso. Por isso, confirmei o tema 5116 (Fé Pública), que concentra o gabarito e duas alternativas. Como a questão mistura assuntos, deixei o subtema em branco e indiquei o 5118 como extra. A segunda opção é 5120 (Crimes contra a Honra).",
+ "id": "Q0268",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5116",
+  "segunda_opcao_n1_id": "5120",
+  "confianca_ramo": 0.45,
+  "multi_tema": true,
+  "justificativa": "As alternativas tratam de crimes diferentes, sem um eixo comum. A e B tratam de falsidade ideológica e uso de documento falso, que são crimes contra a fé pública. C trata da ação penal no abuso de autoridade. D e E tratam dos crimes contra a honra: calúnia contra os mortos e exceção da verdade. A alternativa correta é a A, segundo a doutrina clássica sobre os requisitos do falso (alteração da verdade, imitação da verdade, dano potencial e dolo). A D é falsa, porque o art. 138, §2º, do CP pune a calúnia contra os mortos. Por isso, o tema principal é Fé Pública e a segunda opção é Crimes contra a Honra. A pista de origem (Ilicitude) está errada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1578,
+  "cache_w": 10457,
+  "cache_r": 18208,
+  "custo_usd": 0.12610359999999998
+ }
+}

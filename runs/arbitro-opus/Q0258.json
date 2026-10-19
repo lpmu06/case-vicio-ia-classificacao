@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5545",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5546",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam do exame de corpo de delito: quem o realiza, cabimento quando há vestígios, forma direta ou indireta, impossibilidade de ser substituído e a prioridade prevista no art. 158, parágrafo único, I, do CPP, que torna correta a alternativa E. Por isso, o subtema certo é 5545, e não Perícia em geral (5546). Também descartei Procedimento do Júri, porque esse era o assunto de origem e a menção ao Júri na alternativa C é só um distrator.",
+ "id": "Q0258",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5543"
+ ],
+ "candidatos_subtemas": [
+  "5545"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 511,
+  "cache_w": 10111,
+  "cache_r": 16390,
+  "custo_usd": 0.101512
+ }
+}

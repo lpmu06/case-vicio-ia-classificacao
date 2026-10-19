@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5116",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.4,
+ "segunda_opcao_id": "5120",
+ "extras_ids": [
+  "5118",
+  "5120",
+  "4684"
+ ],
+ "multi_tema": true,
+ "justificativa": "A alternativa correta é a A, que trata dos requisitos clássicos do falso na falsidade ideológica. A B também é de falsidade documental: o uso de documento falso é crime formal. Por isso escolhi o tema de fé pública (5116), com 5118 como subtema provável, embora tenha deixado o subtema em branco. A questão é multi-tema: a C cobra a ação penal no abuso de autoridade, que é pública incondicionada, e a D e a E cobram crimes contra a honra (a calúnia contra os mortos é punível e a exceção da verdade não cabe na injúria). Descartei a ilicitude, assunto de origem, porque nenhuma alternativa trata dela.",
+ "id": "Q0268",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5116"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 1024,
+  "cache_w": 5477,
+  "cache_r": 16390,
+  "custo_usd": 0.07107000000000001
+ }
+}

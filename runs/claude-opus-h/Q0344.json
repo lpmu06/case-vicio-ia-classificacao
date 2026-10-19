@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4688",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5064",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema 4688. A questão cobra a Lei 9.605/1998. As alternativas A a D tratam da destinação de animais, produtos e instrumentos apreendidos (art. 25), e a resposta correta é a D. Só a alternativa E trata da ação penal (art. 26: pública incondicionada). O eixo da questão é a lei de crimes ambientais. O tema 4688 não tem subtemas, por isso o subtema fica null.",
+ "id": "Q0344",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4688",
+  "segunda_opcao_n1_id": "5063",
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão cobra a Lei 9.605/1998. As alternativas A a D tratam da destinação de animais, produtos e instrumentos apreendidos (art. 25), e a alternativa E trata da ação penal nos crimes ambientais (art. 26: pública incondicionada). O gabarito é a D. Todas as alternativas pertencem à mesma lei especial, então o tema é Crimes contra o meio ambiente. A pista de origem \"Ação Penal\" corresponde a apenas uma das alternativas."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1000,
+  "cache_w": 8604,
+  "cache_r": 20512,
+  "custo_usd": 0.09813140000000001
+ }
+}

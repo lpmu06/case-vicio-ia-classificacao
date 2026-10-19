@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5187",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O eixo comum de todas as alternativas é a prescrição penal. O gabarito é a A: pelo art. 182 da Lei 11.101/05, o prazo começa a correr da decretação da falência, da concessão da recuperação judicial ou da homologação do plano extrajudicial. A B erra porque a decretação da falência interrompe a prescrição, e não a suspende; a C erra porque o art. 30 da Lei de Drogas fixa o prazo em 2 anos; a D contraria o art. 116, parágrafo único, do CP; e a E contraria o art. 113 do CP, porque a prescrição se regula pelo restante da pena. A maioria das alternativas trata de marcos iniciais, suspensão e interrupção, o que se aproxima de 5187. Mas há mistura com prescrição executória e com regras de leis especiais (a falimentar e a de drogas), por isso mantive o tema de nível 1 5185, sem subtema.",
+ "id": "Q0245",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5185"
+ ],
+ "candidatos_subtemas": [
+  "5187"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 1243,
+  "cache_w": 5461,
+  "cache_r": 16390,
+  "custo_usd": 0.075927
+ }
+}

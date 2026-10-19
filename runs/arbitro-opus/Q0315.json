@@ -1,0 +1,31 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5189",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.62,
+ "segunda_opcao_id": "5187",
+ "extras_ids": [
+  "5186"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o cálculo da prescrição da pretensão executória. Pela pena aplicada de 2 anos e 9 meses, o prazo seria de 8 anos (art. 109, IV, CP), mas cai pela metade porque Paulo tinha menos de 21 anos na data do fato (art. 115). Pelo Tema 788 do STF, esse prazo de 4 anos conta do trânsito em julgado para ambas as partes, por isso o gabarito é C. Afasto Concurso de Crimes, que é só o assunto de origem e não tem relação com o que se pede; o termo inicial e a redução pela idade ficam como aspectos secundários (5187/5186).",
+ "id": "Q0315",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5185",
+  "5066"
+ ],
+ "candidatos_subtemas": [
+  "5189"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 998,
+  "cache_w": 8731,
+  "cache_r": 16390,
+  "custo_usd": 0.099272
+ }
+}

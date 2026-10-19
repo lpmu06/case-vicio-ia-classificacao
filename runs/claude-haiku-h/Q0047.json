@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5164",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": "5063",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre qualificadoras do crime de dano (prejuízo considerável contra bem privado e dano contra bem público) conforme arts. 163-165 do CP. Núcleo: identificação dos tipos penais e suas qualificadoras. A dimensão de ação penal (pública condicionada à representação vs. pública incondicionada para dano contra bem público) é elemento acessório de qualificação do procedimento. Tema primário: Dano (5164). Segunda opção: Ação Penal (5063), pela componente de distinção entre ação penal condicionada e incondicionada.",
+ "id": "Q0047",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": "5063",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "Questão sobre concurso de crimes contra patrimônio (dano simples contra bem privado vs. dano qualificado contra bem público). Núcleo: identificação dos tipos penais e qualificadoras nos arts. 163-165 do CP. A dimensão de ação penal (privada vs. pública) é elemento acessório de qualificação do procedimento. Tema primário: Dos Crimes Contra o Patrimônio (subtema Dano). Segunda opção: Ação Penal, pela componente de distinção entre ação privada e pública."
+ },
+ "uso": {
+  "in": 10,
+  "out": 4970,
+  "cache_w": 10985,
+  "cache_r": 0,
+  "custo_usd": 0.111993
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.62,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5087",
+ "extras_ids": [
+  "5209",
+  "5201"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 como Teoria da Pena (5199), pois a questão, embora narrativamente ambientada em corrupção, testa institutos típicos das consequências da condenação: efeitos penais/extrapenais (perda do poder familiar, perda de cargo, confisco/instrumento do crime - alternativas A, B, D, E, todos do art. 91/91-A/92 CP) e regime de cumprimento de pena (progressão condicionada à reparação do dano/devolução do produto do ilícito - art. 33, §4º, CP, alternativa C, que é o gabarito). Como cada alternativa gira em torno de um instituto diferente dentro da Parte Geral sobre pena (efeitos da condenação de um lado, regime/progressão de outro), sem um eixo único de subtema, não há segurança para apontar um subtema de nível 2 específico: a resposta correta (C) remeteria a Penas Privativas de Liberdade (5201), mas a maioria das alternativas (A, B, D, E) gravita em torno de Efeitos da Condenação (5209). Por isso deixo subtema_n2_id = null e marco multi_tema = true, listando 5209 e 5201 como extras. Mantenho Crimes Contra a Administração Pública (5087) como segunda opção pelo forte pano de fundo factual (corrupção, funcionário público, perda de cargo com regra especial do art. 92, I, 'a', e confisco alargado do art. 91-A, frequentemente aplicado a esses crimes), mas o cerne das perguntas é sempre a consequência jurídica da pena/condenação, não a tipicidade da corrupção em si.",
+ "id": "Q0187",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": "P8",
+  "confianca": 0.55,
+  "multi_tema": true,
+  "justificativa": "Embora o contexto narrativo seja o crime de corrupção (crime contra a Administração Pública), as alternativas testam predominantemente institutos ligados aos efeitos da condenação e à pena: confisco/perda de bens como instrumento ou produto do crime (art. 91 CP), perda do poder familiar e perda de cargo como efeitos específicos da condenação (art. 92 CP), e condicionantes de progressão de regime - todos temas típicos de Teoria da Pena. Não há um eixo único claro, havendo forte ligação também com Crimes Contra a Administração Pública, já que vários efeitos (perda de cargo, confisco) são tratados com regras especiais para esse delito. Por isso marco multi_tema=true e confiança moderada."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "5087",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "Todas as alternativas versam sobre efeitos da condenação e consequências da pena previstos nos arts. 91 e 92 do CP (perda de bens/confisco como instrumento ou produto do crime, perda do poder familiar, perda de cargo público) e sobre requisito de progressão de regime - temas nucleares de Teoria da Pena (subtema \"Efeitos da Condenação Penais e Extrapenais\"), ainda que o contexto narrativo seja o crime de corrupção. Como o eixo comum é a disciplina dos efeitos/consequências da condenação, e não a tipicidade do crime de corrupção em si, prevalece Teoria da Pena (5199). Mantenho Crimes Contra a Administração Pública (5087) como segunda opção pela forte conexão temática com o crime-base e regras especiais de perda de cargo/confisco aplicáveis a funcionários públicos corruptos. Marco multi_tema=true pela dispersão de institutos entre as alternativas."
+ },
+ "uso": {
+  "in": 6,
+  "out": 5027,
+  "cache_w": 22673,
+  "cache_r": 14150,
+  "custo_usd": 0.16057099999999996
+ }
+}

@@ -38,7 +38,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--decisoes", default=str(RAIZ / "data" / "decisoes.jsonl"))
     ap.add_argument("--margem_convencao", type=float, default=0.02)
-    ap.add_argument("--saida", default=str(RAIZ / "previsao.txt"))
+    ap.add_argument("--saida_json", default=str(RAIZ / "runs" / "previsao.json"))
     a = ap.parse_args()
 
     A = Arvore()
@@ -113,7 +113,7 @@ def main():
            "margem_convencao": a.margem_convencao, "taxa_subtema": round(taxa_sub, 4),
            "precisao_prevista": round(ponto, 3), "precisao_intervalo": [round(lo, 3), round(hi, 3)],
            "cobertura_prevista": round(cob, 3), "cobertura_intervalo": [round(cob, 3), round(cob_hi, 3)]}
-    (RAIZ / "runs" / "previsao.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
+    Path(a.saida_json).write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
     print(json.dumps(res, ensure_ascii=False, indent=1))
 
 

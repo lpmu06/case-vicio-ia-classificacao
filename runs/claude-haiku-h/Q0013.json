@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5503",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre competências específicas do Juiz de Garantias durante a investigação preliminar, conforme Lei 13.964/2019 (Pacote Anticrime). A pergunta solicita identificar qual alternativa NÃO pertence ao rol legal de atribuições deste magistrado, abordando institutos como trancamento do inquérito policial, homologação de ANPP, informação sobre instauração de procedimentos investigatórios e produção antecipada de provas. O tema central é monofocal e exclusivamente este subtema, com altíssima precisão em relação aos metadados de [5503].",
+ "id": "Q0013",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "Questão sobre competências específicas do Juiz de Garantias durante a investigação preliminar (Lei 13.964/2019). O tema central é identificar qual atribuição NÃO pertence ao rol legal deste magistrado. Classificada no tema \"Inquérito Policial\" (nível 1), mais especificamente no subtema \"Juiz das Garantias\". A confiança é alta (0.92) porque a questão trata exclusivamente desta matéria, embora haja pequena margem de incerteza sobre se o subtema mais preciso seria suficiente para alunos que estudem apenas o nível 1."
+ },
+ "uso": {
+  "in": 20,
+  "out": 5806,
+  "cache_w": 8405,
+  "cache_r": 10800,
+  "custo_usd": 0.053323999999999996
+ }
+}

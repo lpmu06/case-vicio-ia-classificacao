@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5203",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5202",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a segunda fase da dosimetria: verificar se há reincidência e se ela se compensa com a confissão espontânea. Não há reincidência. No item I, o período depurador do art. 64, I, do CP inclui o período de prova do livramento não revogado, iniciado em 2017, e já se passaram mais de 5 anos até 04/03/2023. No item II, quem pratica crime depois de condenação por contravenção não é reincidente. No item III, o fato é posterior ao crime julgado. Por isso, só incide a atenuante da confissão (alternativa A). A primeira fase (antecedentes) e os demais subtemas ficam de lado, porque o enunciado pergunta expressamente sobre a segunda fase.",
+ "id": "Q0327",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5199"
+ ],
+ "candidatos_subtemas": [
+  "5203"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 806,
+  "cache_w": 9153,
+  "cache_r": 16390,
+  "custo_usd": 0.099131
+ }
+}

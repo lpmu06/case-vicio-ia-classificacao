@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5203",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5208",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O enunciado pergunta de forma explícita qual é o resultado da segunda fase da dosimetria. Para responder, é preciso saber três coisas: se há reincidência pelo período depurador do art. 64, I, do CP (contado desde o início do livramento condicional não revogado), se a contravenção anterior gera reincidência para um crime posterior (não gera) e como a confissão espontânea se relaciona com a reincidência. Todos esses pontos pertencem ao subtema 5203. O livramento condicional aparece só como marco para contar o prazo da reincidência, por isso o subtema 5208 fica apenas como alternativa remota.",
+ "id": "Q0327",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "5170",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão cobra a segunda fase da dosimetria. É preciso verificar se há reincidência: o período depurador de 5 anos do art. 64, I, do CP conta desde o início do livramento condicional não revogado, e a condenação por contravenção anterior não gera reincidência para um crime posterior. Também é preciso saber se a atenuante da confissão espontânea se compensa com a agravante da reincidência. O tema central é Teoria da Pena (subtema Segunda Fase da Dosimetria: Agravantes e Atenuantes)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 924,
+  "cache_w": 15100,
+  "cache_r": 20512,
+  "custo_usd": 0.1537734
+ }
+}

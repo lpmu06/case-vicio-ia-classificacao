@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5476",
+ "subtema_n2_id": "5477",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a natureza jurídica e a finalidade do habeas corpus: se é ação constitucional ou recurso, se protege a liberdade de locomoção e se cabe contra ato de particular. Por isso, entra no subtema Habeas Corpus, dentro de Ações Autônomas de Impugnação. Descartei Ação Penal (5466), porque esse assunto de origem é só uma pista fraca e nada na questão trata de quem tem o direito de iniciar a ação, das espécies de ação penal ou da denúncia e da queixa.",
+ "id": "Q0314",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5466",
+  "5476"
+ ],
+ "candidatos_subtemas": [
+  "5477"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 546,
+  "cache_w": 10083,
+  "cache_r": 16390,
+  "custo_usd": 0.10221
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5079",
+ "subtema_n2_id": "5084",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5071",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta qual tipo penal se aplica a quem esconde, depois do roubo, a arma usada por outra pessoa, sem ter combinado nada antes. A resposta exige diferenciar favorecimento pessoal (art. 348 CP) de favorecimento real (art. 349 CP), com coautoria e participação aparecendo só como alternativas erradas. O tema é Crimes contra a Administração Judicial, no subtema Favorecimento Pessoal e Real.",
+ "id": "Q0300",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5079",
+  "segunda_opcao_n1_id": "5071",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão pede que se distinga favorecimento pessoal de favorecimento real, tendo como caso a ocultação, depois do roubo, da arma usada por terceiro. A ajuda prestada depois que o crime terminou, sem acordo prévio, afasta a coautoria e a participação. Por isso a questão trata dos crimes contra a Administração da Justiça, no subtema Favorecimento Pessoal e Real. A origem indica 'Administração Pública', mas, pela árvore, esses tipos penais ficam em Administração Judicial. A segunda opção é Concurso de Pessoas, porque esse instituto aparece nas alternativas que servem de distrator."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1039,
+  "cache_w": 29180,
+  "cache_r": 4078,
+  "custo_usd": 0.26326160000000004
+ }
+}

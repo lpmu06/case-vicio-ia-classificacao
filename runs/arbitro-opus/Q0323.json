@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5590",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.7,
+ "confianca_subtema": 0.4,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [
+  "5591",
+  "5593",
+  "5595"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão trata de provas de forma panorâmica: cada alternativa cobra um ponto diferente. A cobra prova emprestada, B cobra interrogatório, C cobra nemo tenetur, D (gabarito provável) cobra a produção antecipada de provas do art. 156, I, do CPP, e E cobra colaboração premiada. Por isso, o tema de nível 1 que melhor reúne essas alternativas é Teoria Geral das Provas. Descartei 5580 porque o eixo é probatório, não os sistemas processuais. Deixei o subtema como null porque a questão é multi-tema, embora o gabarito se aproxime de 5591.",
+ "id": "Q0323",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5580",
+  "5590"
+ ],
+ "candidatos_subtemas": [
+  "5591"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 738,
+  "cache_w": 8293,
+  "cache_r": 16390,
+  "custo_usd": 0.090138
+ }
+}

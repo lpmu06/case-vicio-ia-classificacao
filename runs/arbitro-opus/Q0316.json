@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5149",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata do erro sobre a pessoa (error in persona, art. 20, § 3º, CP), uma espécie de erro de tipo acidental. Pergunta qual teoria o CP adota: a da equivalência, que contrapõe a da concretização. O infanticídio é só o cenário da história. Descartei Concurso de Crimes porque há um único crime contra uma única vítima, sem pluralidade de delitos (a pista de origem está errada). O subtema Erro de Tipo (5224) cobre expressamente o erro sobre a pessoa.",
+ "id": "Q0316",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5218",
+  "5066"
+ ],
+ "candidatos_subtemas": [
+  "5224"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 558,
+  "cache_w": 9861,
+  "cache_r": 16390,
+  "custo_usd": 0.100274
+ }
+}

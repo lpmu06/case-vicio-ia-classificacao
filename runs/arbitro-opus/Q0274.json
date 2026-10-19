@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5160",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5175",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O item cobra a Súmula 610 do STF: há latrocínio consumado quando o homicídio se consuma, ainda que a subtração não se realize. Portanto, o item está Certo. O latrocínio é uma forma qualificada de roubo (art. 157, §3º, II, CP), por isso o subtema Roubo é o adequado. Descartei Iter Criminis porque a questão trata da consumação de um tipo específico da Parte Especial, e não da teoria geral da tentativa.",
+ "id": "Q0274",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5157"
+ ],
+ "candidatos_subtemas": [
+  "5160"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 516,
+  "cache_w": 9527,
+  "cache_r": 14086,
+  "custo_usd": 0.0966042
+ }
+}

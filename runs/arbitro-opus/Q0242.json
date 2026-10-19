@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5512",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5560",
+ "extras_ids": [
+  "5560"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é um panorama sobre recursos no processo penal. Três alternativas tratam de regras gerais: prazo em dobro e defensor dativo (B), unirrecorribilidade (C) e recurso de ofício/reexame necessário (E). As outras duas cobram recursos específicos: processamento do RE/REsp conforme o art. 638 do CPP (A) e o recurso ordinário constitucional (D). Por isso a Parte Geral dos Recursos (5512) é o tema que melhor reúne o conjunto, e Recursos em Espécies (5560) fica como segunda opção. Descartei Sistemas e Princípios (5580), apesar do assunto de origem, porque o eixo da questão é o sistema recursal, e não as garantias processuais gerais.",
+ "id": "Q0242",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5512",
+  "5580",
+  "5560"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 1216,
+  "cache_w": 12841,
+  "cache_r": 14086,
+  "custo_usd": 0.1397182
+ }
+}

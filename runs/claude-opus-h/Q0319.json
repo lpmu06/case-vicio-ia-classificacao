@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": "5073",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.62,
+ "segunda_opcao_id": "5174",
+ "extras_ids": [
+  "5174"
+ ],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema 5071 (Concurso de Pessoas). A questão quer saber em quais crimes não se admite coautoria. A resposta são os crimes de mão própria: eles admitem participação, mas não coautoria. O instituto testado é, portanto, a coautoria, que é o núcleo do subtema 5073 (Autoria Mediata, Colateral e Coautoria). A classificação dos crimes (5174) aparece só como meio para chegar à resposta. Por isso ficou como segunda opção, e não como tema principal. O enunciado está malformado: os itens I a III não têm relação com as alternativas. Isso reduz a confiança no subtema.",
+ "id": "Q0319",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": "5170",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão pergunta em quais crimes a coautoria é impossível. A resposta são os crimes de mão própria, que admitem participação, mas não coautoria. Portanto, ela testa a teoria do concurso de pessoas, especificamente coautoria e participação. A classificação dos crimes (comissivos, omissivos, próprios e de mão própria) aparece só como meio para chegar à resposta. Por isso, a segunda opção é Introdução ao Estudo do Direito Penal, subtema Classificações dos Crimes. Classifiquei no tema de nível 1 (Concurso de Pessoas), e não no subtema 'Autoria Mediata, Colateral e Coautoria', por segurança. O enunciado também está malformado: traz itens I a III que não se relacionam com as alternativas."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1328,
+  "cache_w": 11180,
+  "cache_r": 20512,
+  "custo_usd": 0.1272084
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 1,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão que testa unicamente o âmbito de aplicação da Lei nº 11.340/2006. Exige conhecimento sobre a exigência cumulativa de violência (doméstica E familiar) para incidência da lei. A resposta correta identifica que violência laboral, desacompanhada de vínculo doméstico ou relação íntima de afeto, não é protegida pela lei. Classificação inequívoca em Lei Maria da Penha.",
+ "id": "Q0026",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "Questão sobre o âmbito de aplicação da Lei nº 11.340/2006 (Lei Maria da Penha). Testa conhecimento sobre quando a proteção da lei se aplica (violência doméstica e familiar) e quando não se aplica. A resposta correta identifica que violência laboral sem vínculo doméstico/familiar está fora do escopo. Classificação única e inequívoca em Lei Maria da Penha."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4259,
+  "cache_w": 7788,
+  "cache_r": 10800,
+  "custo_usd": 0.04151099999999999
+ }
+}

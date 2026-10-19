@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4701",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam sobre institutos próprios da Lei 9.099/1995: composição civil dos danos e seus efeitos sobre a punibilidade (A), requisitos da transação penal (B e E), natureza da sentença homologatória da transação e consequências do descumprimento (C), e possibilidade de perícia no rito sumaríssimo (D). O eixo comum é exclusivamente o microssistema dos Juizados Especiais Criminais, confirmando a classificação em 4701. A menção, na alternativa A, a \"ação penal privada ou pública condicionada à representação\" é apenas pressuposto fático para a aplicação do instituto da composição civil (efeito extintivo da punibilidade), não o foco da pergunta, que é sobre o próprio instituto do JECrim — por isso não desloca o tema para Ação Penal (5466), mantido apenas como segunda opção por proximidade terminológica. Tema 4701 não possui subtemas, logo subtema_n2_id permanece null.",
+ "id": "Q0216",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": "PP2",
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata do sistema de Juizados Especiais Criminais (Lei 9.099/95), especificamente institutos como composição civil, transação penal e procedimento das infrações de menor potencial ofensivo. O eixo central é a Lei 9.099/95, enquadrada em Direito Penal - Legislação Especial > Juizado Especial Criminal (LE4), e não propriamente em Ação Penal processual penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4701",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas giram em torno de institutos próprios da Lei 9.099/95 (composição civil, transação penal, procedimento sumaríssimo), eixo comum e específico do tema Juizado Especial Criminal (LE4/4701). Não se trata de ação penal processual genérica (titularidade, condições, espécies), mas de institutos exclusivos do microssistema dos juizados, o que justifica manter a classificação em LE4, com Ação Penal (PP2/5466) como segunda opção por proximidade temática (menção a ação penal privada/condicionada nas alternativas)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1589,
+  "cache_w": 15809,
+  "cache_r": 10210,
+  "custo_usd": 0.09147999999999999
+ }
+}

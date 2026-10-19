@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": "5197",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5124",
+ "extras_ids": [
+  "5120"
+ ],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas giram em torno de um único instituto: as hipóteses legais em que cabe perdão judicial (art. 107, IX, do CP). Admitem perdão judicial: (A) a lesão culposa no trânsito, em que a jurisprudência aplica o art. 129, §8º, do CP; (B) o art. 176, parágrafo único, do CP; (C) o art. 29, §2º, da Lei 9.605/98. A retorsão imediata gera perdão judicial apenas na injúria (art. 140, §1º, II, do CP), não na difamação. Por isso a resposta é a letra D. Confirmo o tema Punibilidade, no subtema Perdão Judicial (5197). A alternativa correta toca na injúria e na retorsão, então a segunda opção é Injúria.",
+ "id": "Q0301",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5191",
+  "segunda_opcao_n1_id": "5120",
+  "confianca_ramo": 0.7,
+  "multi_tema": false,
+  "justificativa": "A questão testa um único instituto: as hipóteses legais de perdão judicial, que é causa de extinção da punibilidade prevista no art. 107, IX, do CP. As alternativas trazem quatro situações:\n- (A) lesão corporal culposa no trânsito, que admite perdão judicial pelo art. 129, §8º, do CP;\n- (B) art. 176 do CP, que admite perdão judicial;\n- (C) art. 29, §2º, da Lei 9.605/98, que admite perdão judicial;\n- (D) a retorsão imediata. O perdão judicial por retorsão imediata (art. 140, §1º, II, do CP) vale só para a injúria, não para a difamação. Por isso a resposta é a letra D.\nComo há um eixo comum, o perdão judicial, a questão não é multi-tema. O tema é Punibilidade, no subtema Perdão Judicial. A segunda opção é Crimes contra a Honra, porque a alternativa correta trata da difamação."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1434,
+  "cache_w": 12155,
+  "cache_r": 20512,
+  "custo_usd": 0.1380024
+ }
+}

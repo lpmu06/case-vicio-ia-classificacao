@@ -1,0 +1,31 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5471",
+ "extras_ids": [
+  "5473",
+  "5469"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão trata da ação penal pública. As alternativas cobram o prazo e os requisitos da denúncia (CPP, arts. 46 e 41), o princípio da indisponibilidade (CPP, art. 42), a representação por procurador (CPP, art. 39) e a requisição do Ministro da Justiça. A resposta é a letra E: a requisição é irretratável e não tem prazo decadencial. Como as alternativas se espalham por vários subtemas do mesmo tema (Denúncia, Princípios, Pública Condicionada), classifico no tema de nível 1 Ação Penal e deixo o subtema em branco; a segunda opção é 5471 (Ação Penal Pública Condicionada), porque o gabarito envolve requisição e representação.",
+ "id": "Q0305",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5466"
+ ],
+ "candidatos_subtemas": [
+  "5471"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 872,
+  "cache_w": 7937,
+  "cache_r": 16390,
+  "custo_usd": 0.08980099999999999
+ }
+}

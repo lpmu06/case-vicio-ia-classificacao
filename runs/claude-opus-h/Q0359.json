@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4696",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [
+  "4701"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o art. 94 da Lei 10.741/2003 e a leitura que o STF fez dele na ADI 3096. Segundo o STF, aos crimes contra idoso com pena máxima de até 4 anos aplica-se só o procedimento célere da Lei 9.099/95, sem os benefícios despenalizadores. O item é Certo. A descrição do tema 4696 cita expressamente a regra do art. 94, e o \"não confundir\" manda deixar no 4696 quando o núcleo da questão é o Estatuto da Pessoa Idosa. Fica como segunda opção o Juizado Especial Criminal (4701), porque a questão envolve o rito e as medidas da Lei 9.099/95. O tema escolhido não tem subtemas.",
+ "id": "Q0359",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4696",
+  "segunda_opcao_n1_id": "4701",
+  "confianca_ramo": 0.6,
+  "multi_tema": false,
+  "justificativa": "A questão cobra o art. 94 do Estatuto da Pessoa Idosa: aos crimes contra idoso com pena máxima de até 4 anos aplica-se o procedimento da Lei 9.099/95. Cobra também a interpretação do STF na ADI 3096, segundo a qual só se aplica o rito célere, e não os benefícios despenalizadores. O eixo é a disposição penal e processual do Estatuto do Idoso, que fica em Legislação Especial. Segunda opção: Juizado Especial Criminal (ou o Procedimento Sumaríssimo), porque o conteúdo envolve a aplicação do rito e das medidas da Lei 9.099/95."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1233,
+  "cache_w": 6736,
+  "cache_r": 20512,
+  "custo_usd": 0.0868444
+ }
+}

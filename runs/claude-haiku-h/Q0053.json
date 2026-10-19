@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [
+  "5541",
+  "5542"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão que compara Transação Penal e Suspensão Condicional do Processo, dois subtemas do Procedimento Sumaríssimo (Lei 9.099/1995). Testa a diferença fundamental entre eles: a transação penal faz coisa julgada material (art. 76), enquanto a suspensão condicional não faz (art. 89), com implicações no descumprimento dos acordos. Como é uma comparação integrada entre dois subtemas irmãos do mesmo tema nível 1, mantém-se a classificação em 5539 sem especificar um único subtema nível 2. Confiança alta no tema (Procedimento Sumaríssimo), mas confiança zero no subtema porque a questão não é exclusiva de nenhum deles.",
+ "id": "Q0053",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5539",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre diferenças entre transação penal e suspensão condicional do processo no contexto dos Juizados Especiais Criminais. Ambos os institutos são subtemas explícitos do tema 5539 (Procedimento Sumaríssimo) da Lei 9.099/1995. O foco é na distinção entre: (1) transação penal, que faz coisa julgada material e encerra a persecução com condenação; (2) suspensão condicional do processo, que não faz coisa julgada material e permite continuidade da persecução se descumprida. Classificação em Processo Penal, tema 5539 (Procedimento Sumaríssimo), é a mais precisa."
+ },
+ "uso": {
+  "in": 20,
+  "out": 5402,
+  "cache_w": 19962,
+  "cache_r": 0,
+  "custo_usd": 0.071828
+ }
+}

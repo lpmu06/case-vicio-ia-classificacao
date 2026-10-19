@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "4701",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5540",
+ "extras_ids": [
+  "5539"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a Lei 9.099/1995 como um todo. A alternativa correta (D) trata do deslocamento por conexão ou continência ao juízo comum ou ao Júri com preservação dos institutos despenalizadores (art. 60, parágrafo único); as demais tratam de transação penal, queixa oral e representação na audiência preliminar. O tema 4701, de origem Legislação Especial, abrange tudo isso. O 5539/5540 (Processo Penal) é uma alternativa plausível pelo enunciado sobre competência, mas restringir ao subtema de competência deixaria de fora as alternativas sobre os outros institutos despenalizadores.",
+ "id": "Q0304",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5539",
+  "4701"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 939,
+  "cache_w": 6409,
+  "cache_r": 16390,
+  "custo_usd": 0.077603
+ }
+}

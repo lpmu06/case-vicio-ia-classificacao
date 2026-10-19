@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5509",
+ "subtema_n2_id": "5510",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão aborda exclusivamente nulidades processuais penais. A alternativa correta (C) cobra especificamente o regime jurídico das nulidades absolutas versus relativas — particularmente, que nulidades absolutas são reconhecidas independentemente de prejuízo. Isso é conteúdo central do subtema 5510 (Nulidade Absoluta e Relativa), que trata exatamente da \"distinção entre nulidade absoluta e relativa, seus regimes jurídicos e necessidade de demonstração de prejuízo\". As demais alternativas abordam aspectos conexos (instrumentalidade, vícios em espécie, inépcia, coisa julgada), mas convergem para o instituto de nulidades (5509). Tema e subtema com alta confiança.",
+ "id": "Q0046",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5509",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão aborda especificamente a teoria das nulidades processuais penais: conceito, classificação em absolutas e relativas, necessidade de prejuízo, convalidação e efeitos jurisprudenciais. Todas as cinco alternativas tratam exclusivamente de nulidades (instrumentalidade, vícios processuais, ordem de gravidade, inépcia da acusação, coisa julgada). Tema 5509 (Nulidades) é o único aplicável, cobrindo exatamente \"nulidade absoluta e relativa\". O assunto_origem (Sistemas e Princípios) é pista fraca inadequada — sistemas seria demasiado genérico e não especifica o que a questão efetivamente testa."
+ },
+ "uso": {
+  "in": 20,
+  "out": 3866,
+  "cache_w": 22039,
+  "cache_r": 0,
+  "custo_usd": 0.1033652
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5472",
+ "confianca_ramo": 0.82,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5474",
+ "extras_ids": [
+  "5063",
+  "5065"
+ ],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema Processo Penal > Ação Penal (5466). A questão cobra a sucessão processual do ofendido na ação penal privada. Pelo art. 31 do CPP, se o ofendido morrer ou for declarado ausente, o direito de oferecer queixa ou de prosseguir na ação passa ao CADI: cônjuge, ascendente, descendente ou irmão. Por isso, a afirmação está errada. O assunto é a legitimidade e a sucessão na ação privada, que a descrição do subtema 5472 cita expressamente (\"sucessão processual\"). A questão não trata dos requisitos da peça de queixa, então 5474 fica como segunda opção.",
+ "id": "Q0296",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5063",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão trata da substituição processual na ação penal privada. Pelo art. 31 do CPP, se o ofendido morrer ou for declarado ausente, o direito de oferecer queixa passa ao cônjuge, ascendente, descendente ou irmão (CADI). Por isso, a afirmação está errada. O tema é a titularidade e a legitimidade para a queixa, matéria processual. A classificação adequada é Processo Penal > Ação Penal, no subtema Ação Penal de Iniciativa Privada. Como segunda opção, cabe Penal > Ação Penal, porque o art. 100, § 4º, do CP traz a mesma regra."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1096,
+  "cache_w": 26544,
+  "cache_r": 3003,
+  "custo_usd": 0.24324059999999997
+ }
+}

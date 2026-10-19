@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5490",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta expressamente se é correto o Ministério Público impugnar, por recurso em sentido estrito, no prazo de cinco dias, a sentença que reconhece a extinção da punibilidade pela prescrição. Esse é exatamente o núcleo do subtema RESE (5561): o art. 581, VIII, do CPP prevê o RESE contra a decisão que \"julgar extinta a punibilidade\", e o art. 586 fixa o prazo geral de 5 dias, aplicável a qualquer recorrente, inclusive o MP. A narrativa sobre a suspensão do processo e da prescrição por citação editalícia (art. 366 CPP), tema do subtema 5491/5490, é apenas pano de fundo fático - o enunciado já afirma como corretos os cálculos prescricionais, não questionando a suspensão em si, mas apenas o meio recursal cabível e seu prazo. Por isso, confirmo o tema de nível 1 Recursos em Espécies (5560) e, diferentemente do estágio anterior, agora atribuo o subtema específico Recurso em Sentido Estrito (5561), pois há certeza de que o cabimento contra extinção da punibilidade e o prazo de 5 dias são exatamente a hipótese nuclear desse subtema, não cabendo enquadrar em subtema irmão. Mantenho 5490 como segunda opção por conexão com a suspensão processual do art. 366 CPP, embora o cerne da pergunta seja recursal.",
+ "id": "Q0183",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": "PP3",
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "Embora a narrativa envolva suspensão do processo por citação editalícia (art. 366 CPP) e prescrição, a pergunta efetivamente testada é sobre qual recurso cabe contra a sentença que reconhece a extinção da punibilidade - trata-se de verificar se é cabível recurso em sentido estrito (art. 581 CPP) ou apelação. Isso é matéria de Recursos em Espécie (Processo Penal), não de Ação Penal. O grupo PP8 (Recursos) abrange o tema central; PP3 (Das Questões e Processos Incidentes) seria alternativa por tratar de suspensão do processo, mas o cerne da pergunta é recursal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5490",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A pergunta central é sobre o cabimento de recurso em sentido estrito contra a sentença que reconhece a extinção da punibilidade (art. 581, VIII, CPP), além do prazo recursal de cinco dias. Trata-se, portanto, de matéria de Recursos em Espécie (RESE), dentro do grupo PP8, e não de Parte Geral dos Recursos (que trataria de teoria geral/admissibilidade) nem de Ações Autônomas de Impugnação. A narrativa sobre suspensão do processo por citação editalícia (art. 366 CPP) é apenas o contexto fático que gera a prescrição e a posterior extinção da punibilidade, mas não é o que a questão efetivamente testa - o enunciado já afirma os cálculos de prescrição como corretos e pergunta apenas sobre o recurso cabível. Por isso, o tema de nível 1 mais adequado é 5560 (Recursos em Espécies), do grupo PP8. Como segunda opção, mantenho 5490 (Questões e Processos Incidentes), do grupo PP3, pela relação com a suspensão processual do art. 366, embora o cerne da pergunta seja recursal."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2525,
+  "cache_w": 19568,
+  "cache_r": 14150,
+  "custo_usd": 0.12021899999999999
+ }
+}

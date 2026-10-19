@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5159",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5176",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o momento consumativo do furto. Pela teoria da amotio/apprehensio (Tema 934 do STJ e mesma lógica da Súmula 582), o crime se consuma com a inversão da posse, mesmo que breve e sem posse mansa e pacífica; por isso a alternativa D (furto consumado) está correta. Descartei roubo, porque não houve violência nem grave ameaça, e apropriação indébita, porque não havia posse lícita anterior. Iter Criminis fica como segunda opção, já que o eixo da questão é a consumação de um tipo patrimonial específico.",
+ "id": "Q0336",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5157"
+ ],
+ "candidatos_subtemas": [
+  "5159"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 572,
+  "cache_w": 10600,
+  "cache_r": 16390,
+  "custo_usd": 0.10707900000000001
+ }
+}

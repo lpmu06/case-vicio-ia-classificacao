@@ -1,0 +1,31 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5569",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5561",
+ "extras_ids": [
+  "5701"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra qual recurso cabe contra a rejeição da denúncia. Por isso o tema é Recursos em Espécies, e não Procedimento Ordinário, que não trata do meio de impugnação. O crime do art. 12 da Lei 13.869/19 tem pena de 6 meses a 2 anos, é infração de menor potencial ofensivo e vai para o JECRIM, onde cabe apelação em 10 dias (art. 82 da Lei 9.099/95, alternativa B); o RESE do art. 581, I, do CPP (alternativa E) é a pegadinha, por isso ele fica como segunda opção de subtema.",
+ "id": "Q0322",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5560",
+  "5530"
+ ],
+ "candidatos_subtemas": [
+  "5561"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 980,
+  "cache_w": 13055,
+  "cache_r": 16390,
+  "custo_usd": 0.136867
+ }
+}

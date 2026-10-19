@@ -1,0 +1,39 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [
+  "5091",
+  "5089",
+  "5101",
+  "5094",
+  "5097",
+  "5093",
+  "5096",
+  "5088"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão multi-tema que apresenta enunciado genérico sobre crimes contra a administração pública e testa o conhecimento do aluno sobre vários institutos jurídicos em paralelo (concussão, peculato, tráfico de influência, contrabando/descaminho, advocacia administrativa, corrupção ativa e condescendência criminosa). Cada alternativa aborda um crime ou aspecto diferente sem eixo comum além do ramo. A resposta correta é (D), que trata especificamente da majorante na corrupção ativa. Classificação confirmada em tema de nível 1 \"Dos Crimes Contra a Administração Pública\" (5087) abrange adequadamente todos os institutos testados, evitando erro de subtema específico. Subtema_n2_id = null por não haver concentração em um tipo penal específico.",
+ "id": "Q0060",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.96,
+  "multi_tema": true,
+  "justificativa": "Questão multi-tema que apresenta enunciado genérico sobre crimes contra a administração pública e testa o conhecimento do aluno sobre vários institutos jurídicos em paralelo (concussão, peculato, tráfico de influência, contrabando/descaminho, advocacia administrativa, corrupção ativa e condescendência criminosa). Cada alternativa aborda um crime diferente sem eixo comum além do ramo. Classificação em tema de nível 1 \"Dos Crimes Contra a Administração Pública\" abrange adequadamente todos os institutos testados, evitando erro de subtema específico."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4861,
+  "cache_w": 12893,
+  "cache_r": 12522,
+  "custo_usd": 0.0593802
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5209",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o efeito genérico e automático da condenação previsto no art. 91, I, do CP: tornar certa a obrigação de reparar o dano. Esse instituto pertence exatamente ao subtema Efeitos da Condenação Penais e Extrapenais. A menção à ação civil ex delicto (Processo Penal > Ação Penal) fica apenas como desdobramento, porque o núcleo da questão é o efeito da sentença condenatória no direito material.",
+ "id": "Q0313",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5199"
+ ],
+ "candidatos_subtemas": [
+  "5209"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 577,
+  "cache_w": 8694,
+  "cache_r": 16390,
+  "custo_usd": 0.09048800000000001
+ }
+}

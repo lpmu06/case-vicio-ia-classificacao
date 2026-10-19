@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam de aspectos processuais da Lei 11.340/2006. Os assuntos cobrados são as medidas protetivas de urgência (Tema 1.249 e independência da tipificação penal), o sigilo do nome da ofendida, o valor mínimo indenizatório (Tema 983) e a aplicação da lei a vítimas meninas (Tema 1.186). Como o eixo é único, confirmo o tema Lei Maria da Penha, da Legislação Especial. Esse tema não tem subtemas, por isso subtema_n2_id = null.",
+ "id": "Q0289",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata dos aspectos processuais da Lei 11.340/2006 nas cinco alternativas. Os assuntos cobrados são as medidas protetivas de urgência (Tema 1.249), o sigilo do nome da ofendida, o valor mínimo indenizatório (Tema 983) e a aplicação da lei a vítimas crianças e adolescentes (Tema 1.186). Como o eixo é único, a classificação é o tema Lei Maria da Penha, da Legislação Especial."
+ },
+ "uso": {
+  "in": 4,
+  "out": 824,
+  "cache_w": 8083,
+  "cache_r": 18208,
+  "custo_usd": 0.0899826
+ }
+}

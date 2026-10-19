@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5499",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa sobre o art. 20, parágrafo único, do CPP, que trata do sigilo relativo do inquérito policial e da possibilidade de a autoridade policial mencionar a instauração de inquérito em atestados de antecedentes, desde que indispensável aos interesses da justiça. Esse dispositivo integra as características clássicas do inquérito (sigilo, inquisitoriedade), tema expressamente listado no subtema \"Conceito, Finalidade e Características do Inquérito Policial\" (5499), que traz justamente \"sigilo do inquérito\" e \"art. 20 CPP\" entre seus descritores. Mantém-se o tema de nível 1 \"Inquérito Policial\" (5498), com segunda opção \"Ação Penal\" (5466) apenas por ser tema vizinho do mesmo ramo, embora não aplicável ao caso.",
+ "id": "Q0209",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a possibilidade de a autoridade policial mencionar a instauração de inquérito policial em atestados de antecedentes, tema diretamente ligado ao instituto do Inquérito Policial (CPP, art. 20, parágrafo único), inserido no grupo PP2 (Investigação e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata da possibilidade de a autoridade policial mencionar a instauração de inquérito nos atestados de antecedentes criminais, matéria diretamente vinculada ao regime do inquérito policial (art. 20, parágrafo único, CPP), especificamente suas características e limites (sigilo relativo). O eixo da questão é o instituto do Inquérito Policial, não a Ação Penal, que trata de titularidade e peças acusatórias. Por isso, o tema de nível 1 adequado é \"Inquérito Policial\" (5498), mantendo a classificação anterior do grupo PP2."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1701,
+  "cache_w": 15812,
+  "cache_r": 14150,
+  "custo_usd": 0.094786
+ }
+}

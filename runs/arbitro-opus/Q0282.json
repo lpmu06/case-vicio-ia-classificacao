@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "4697",
+ "extras_ids": [
+  "4697",
+  "4690"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão mistura leis especiais sem um eixo comum. As alternativas A e E tratam das medidas protetivas da Lei Maria da Penha, a B trata da Lei de Racismo e as alternativas C e D tratam do Estatuto do Desarmamento. A Lei Maria da Penha (4704) prevalece porque cobre a alternativa correta (E: art. 22, IV, restrição ou suspensão de visitas, ouvida a equipe multidisciplinar) e mais uma alternativa. Descartei Processo Penal > Ação Penal (5466), porque nenhuma alternativa trata de ação penal; o assunto de origem informado não corresponde ao conteúdo.",
+ "id": "Q0282",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5466",
+  "4704"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 0,
+  "out": 0,
+  "cache_w": 0,
+  "cache_r": 0,
+  "custo_usd": 0.227356
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5492",
+ "confianca_ramo": 0.62,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5583",
+ "extras_ids": [
+  "5583"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pede ao aluno que separe as hipóteses de suspeição do juiz (art. 254 do CPP) das de impedimento (art. 252 do CPP). As assertivas II e III são suspeição; as assertivas I e IV são impedimento. O enunciado reproduz o texto do art. 254 (\"poderá ser recusado por qualquer das partes\"), que se liga à exceção de suspeição. A descrição do subtema 5492 inclui expressamente as hipóteses legais e os arts. 252 e 254. Por isso, mantenho o tema 5490, subtema 5492. Há uma dúvida real: o art. 254 fica no capítulo \"Do Juiz\", e o tema 5583 manda para Sujeitos do Processo a questão que cobra só a condição subjetiva do juiz. Por isso, 5583 fica como segunda opção e a confiança é moderada. A pista de origem, Procedimento do Júri, não se confirma.",
+ "id": "Q0263",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5490",
+  "segunda_opcao_n1_id": "5583",
+  "confianca_ramo": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão cobra as hipóteses de suspeição do juiz (art. 254 do CPP). As assertivas I e IV, na verdade, são hipóteses de impedimento (art. 252 do CPP). Esse conteúdo cabe no tema Questões e Processos Incidentes, subtema Exceção de Suspeição, de Impedimento ou de Incompatibilidade. A segunda opção é Sujeitos do Processo, porque trata do juiz. A pista de origem, Procedimento do Júri, não se confirma."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1491,
+  "cache_w": 10641,
+  "cache_r": 20512,
+  "custo_usd": 0.12630940000000002
+ }
+}

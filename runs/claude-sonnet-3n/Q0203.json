@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4702",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4705",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão reproduz o art. 4º da Lei 9.613/1998, que trata da indisponibilidade de bens, direitos e valores registrados em nome de interpostas pessoas quando o verdadeiro titular é acusado de lavagem de dinheiro. É medida assecuratória específica da Lei de Lavagem de Dinheiro (4702), tema que não possui subtemas. Não se trata de estrutura associativa de organização criminosa (4705), apesar de poder haver conexão contextual.",
+ "id": "Q0203",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão trata de apreensão/indisponibilidade de bens em interpostas pessoas, previsto na Lei 9.613/1998 (Lavagem de Dinheiro), tema do grupo LE1 - Tráfico de Drogas, Armas, Crime Organizado, Lavagem de Dinheiro, etc."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4702",
+  "segunda_opcao_n1_id": "4705",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão cobra diretamente o art. 4º da Lei 9.613/1998, sobre indisponibilidade de bens, direitos e valores registrados em nome de interpostas pessoas cujo verdadeiro titular seja o acusado por lavagem de dinheiro. É matéria central e específica da Lei de Lavagem de Dinheiro (4702), não de Organizações Criminosas, embora o contexto possa se relacionar a crime organizado em tese."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1192,
+  "cache_w": 8905,
+  "cache_r": 11846,
+  "custo_usd": 0.0558732
+ }
+}

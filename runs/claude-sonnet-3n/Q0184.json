@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5518",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra exatamente o art. 50, §1º, da Lei 11.343/2006, que estabelece regra especial e exclusiva de comunicação da prisão em flagrante em crimes de drogas (prazo de 5 dias, improrrogável, com vista ao MP em 24h) — regra que diverge do procedimento geral do art. 306 do CPP. Trata-se de dispositivo próprio da Lei de Drogas, expressamente listado entre os dispositivos do tema 4708 (\"Lei 11.343/2006, arts. 50 a 59\"), que abrange toda a disciplina da lei antidrogas, inclusive seus reflexos processuais específicos. O tema 4708 não possui subtemas, então subtema_n2_id é null. Mantenho como segunda opção o tema de Prisão em Flagrante (5518, dentro de Prisões em Espécie), pois há conexão temática relevante com a teoria geral da comunicação do flagrante, embora a essência cobrada seja a regra especial da Lei de Drogas, não a disciplina geral do CPP.",
+ "id": "Q0184",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": "PP5",
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata de dispositivo específico da Lei de Drogas (art. 50, §1º, da Lei 11.343/2006) sobre comunicação da prisão em flagrante ao juiz e vista ao MP, matéria tipicamente estudada dentro do tema \"Tráfico de Drogas\" na Legislação Especial, que abrange todo o procedimento da lei antidrogas, não apenas o tipo penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": "5517",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento do art. 50, §1º, da Lei 11.343/2006, que estabelece prazo específico (5 dias) e procedimento próprio (vista ao MP em 24h) para comunicação da prisão em flagrante em crimes de drogas — regra especial que diverge do procedimento geral do CPP. Trata-se de dispositivo procedimental próprio e exclusivo da Lei de Drogas, estudado dentro do tema \"Tráfico de Drogas\" na Legislação Especial, que abrange toda a disciplina da lei antidrogas, inclusive seus reflexos processuais específicos. Ainda assim, por se tratar de prisão em flagrante, há conexão temática relevante com \"Prisões em Espécie\" (Processo Penal), que trata do instituto em sua generalidade — por isso mantenho essa opção como segunda alternativa, com confiança moderada na escolha do ramo principal, já que a essência cobrada é a regra especial da lei de drogas, não a teoria geral do flagrante."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2123,
+  "cache_w": 13523,
+  "cache_r": 14150,
+  "custo_usd": 0.087177
+ }
+}

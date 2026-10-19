@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5580",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão enuncia textualmente o princípio tempus regit actum aplicado à lei processual penal (aplicação imediata da lei nova, preservando a validade dos atos praticados sob a lei anterior), que é exatamente o conteúdo descrito no subtema 5507 \"Lei processual no Tempo\" (fundado no art. 2º do CPP). Não se trata de discussão sobre sistemas ou princípios estruturantes do processo (5580/5582), mas da regra específica de sucessão temporal de normas processuais, confirmando a classificação anterior em nível 1 (5505) e refinando para o subtema 5507.",
+ "id": "Q0204",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP1",
+  "segundo_grupo_id": null,
+  "confianca": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o princípio tempus regit actum e a aplicação da lei processual penal no tempo (sistema do isolamento dos atos processuais), tema específico de \"Lei Processual no Tempo e no Espaço\", integrante do grupo PP1 de Processo Penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5505",
+  "segunda_opcao_n1_id": "5580",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa especificamente a regra de aplicação da lei processual penal no tempo (tempus regit actum, princípio do efeito imediato/isolamento dos atos processuais), que é o subtema \"Lei processual no Tempo\" dentro do tema de nível 1 \"Lei Processual no Tempo e no Espaço\" (5505). Embora relacionado a princípios processuais em sentido amplo, o foco é a regra de vigência temporal da norma, não os sistemas/princípios estruturantes do processo (5580), que seria a segunda opção mais próxima."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1383,
+  "cache_w": 10690,
+  "cache_r": 14150,
+  "custo_usd": 0.066775
+ }
+}

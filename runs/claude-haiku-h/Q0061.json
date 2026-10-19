@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmação de classificação anterior. Questão sobre falta grave na execução penal: analisa seus efeitos jurídicos (perda de remição conforme Súmula 440 STJ, exame criminológico, comutação/indulto, regimes). Tema central inegavelmente Lei de Execução Penal (arts. 122-130 LEP), não Teoria da Pena. Assunto_origem é pista enganosa. Confiança 0.95 porque alternativa correta exige conhecimento de jurisprudência STJ, mas instituto é inequivocamente de LEP. Subtema null confirma estrutura do tema.",
+ "id": "Q0061",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "Questão sobre falta grave na execução penal: regras de disciplina carcerária, perda de remição e consequências processuais do cumprimento de pena. Tema central é Lei de Execução Penal (art. 127 e disciplina penitenciária), não Teoria da Pena. Questão específica sobre instituto bem-definido. Confiança 0.9 porque a alternativa correta (D) exige conhecimento preciso da jurisprudência sobre quantificação da perda de remição, mas é inquestionavelmente tema de LEP."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4785,
+  "cache_w": 8318,
+  "cache_r": 12522,
+  "custo_usd": 0.0452712
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5583",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam exclusivamente sobre o regime jurídico do assistente de acusação: momento e condições de admissão (art. 269 CPP), necessidade de prévia manifestação do Ministério Público (art. 272 CPP - gabarito B), (ir)recorribilidade da decisão que o admite (art. 273 CPP) e seus poderes de arrazoar recursos (art. 271 CPP). Trata-se, portanto, de matéria própria dos sujeitos processuais (CPP, arts. 268 a 273), tema 5583, que não possui subtemas de nível 2. A segunda opção plausível seria Ação Penal (5466), já que o assistente atua tipicamente em ação penal pública, mas o foco é a disciplina da figura do assistente em si, não a titularidade/espécie de ação.",
+ "id": "Q0206",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP1",
+  "segundo_grupo_id": "PP2",
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o instituto do assistente de acusação (arts. 268 a 273 do CPP), figura processual que se insere no estudo dos sujeitos do processo (PP1 - Sujeitos do Processo). Não trata de comunicação de atos processuais, apesar da pista de origem. Alternativamente poderia ser enquadrada em Ação Penal (PP2), já que a atuação do assistente está ligada à ação penal pública, mas o foco central é sua natureza, momento de admissão e prerrogativas, típico de sujeitos processuais."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5583",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.72,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam sobre regras específicas do instituto do assistente de acusação (momento/condições de admissão, recorribilidade da decisão que o admite, limites de sua atuação em recursos) — matéria disciplinada nos arts. 268 a 273 do CPP, pertencente ao estudo dos sujeitos processuais (5583). Embora o assistente atue no contexto da ação penal pública, o foco da questão é o regime jurídico da figura do assistente propriamente, não as espécies/condições da ação penal, por isso Ação Penal (5466) fica como segunda opção plausível."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2629,
+  "cache_w": 12367,
+  "cache_r": 14150,
+  "custo_usd": 0.088002
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": "5482",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5486",
+ "extras_ids": [
+  "5525"
+ ],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema 5480. A questão pede que se diga qual Justiça é competente: Militar da União, Júri, Militar Estadual ou Federal. Isso é exatamente o critério do subtema 5482, Competência em Razão da Matéria, que inclui entre seus dispositivos o CPM, art. 9º, e a CF, art. 125, § 4º. A Lei 13.491/2017 atribui à Justiça Militar da União o crime doloso contra a vida de civil cometido por militar das Forças Armadas em operação de GLO. Já o policial militar estadual vai ao Júri (CF, art. 125, § 4º). A conexão (alternativa E) aparece apenas como distrator, por isso o subtema 5486 fica como segunda opção. A questão não trata do rito do Júri.",
+ "id": "Q0266",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5480",
+  "segunda_opcao_n1_id": "5524",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão pergunta qual órgão é competente para julgar um crime doloso contra a vida de civil cometido durante operação de GLO. Pela Lei 13.491/2017, que alterou o art. 9º, §2º, do CPM, o militar das Forças Armadas é julgado pela Justiça Militar da União. Já o policial militar estadual vai ao Tribunal do Júri (art. 125, §4º, da CF). A conexão não reúne os processos, e a resposta é a alternativa A. O instituto testado é a competência criminal em razão da matéria, não o rito do Júri. A pista de origem 'Procedimento do Júri' fica apenas como segunda opção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1075,
+  "cache_w": 13227,
+  "cache_r": 20512,
+  "custo_usd": 0.14026840000000002
+ }
+}

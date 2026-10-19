@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5527",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5526",
+ "extras_ids": [
+  "5211"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a escolha da decisão que encerra a primeira fase do júri. Com indícios de autoria e prova da materialidade, o semi-imputável deve ser pronunciado (alternativa A), porque a semi-imputabilidade só reduz a pena (art. 26, parágrafo único, CP). Ela não autoriza a absolvição sumária imprópria do art. 415, parágrafo único, CPP, reservada ao inimputável. O núcleo está nas decisões de pronúncia, impronúncia, absolvição sumária e desclassificação (5527), e não na sequência do rito bifásico (5526) nem na culpabilidade em si (5211), que aparece só como pressuposto.",
+ "id": "Q0246",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5524"
+ ],
+ "candidatos_subtemas": [
+  "5527"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 603,
+  "cache_w": 6045,
+  "cache_r": 16390,
+  "custo_usd": 0.067618
+ }
+}

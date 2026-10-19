@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5201",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5202",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas giram em torno do mesmo instituto: a fixação do regime inicial de cumprimento da pena privativa de liberdade, ou seja, o art. 33, §§ 2º e 3º, do CP, as Súmulas 269 e 440 do STJ e a inconstitucionalidade do regime fechado obrigatório para crimes hediondos (por isso a alternativa D está correta). Isso corresponde exatamente ao subtema 5201. A menção às circunstâncias judiciais (art. 59) só aparece como critério para escolher o regime, então não leva a questão para a dosimetria (5202). Execução Penal também fica de fora, porque a questão não fala de progressão de regime.",
+ "id": "Q0250",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5199"
+ ],
+ "candidatos_subtemas": [
+  "5201"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 706,
+  "cache_w": 8191,
+  "cache_r": 14086,
+  "custo_usd": 0.0886872
+ }
+}

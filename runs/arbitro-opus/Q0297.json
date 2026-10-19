@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "4695",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "4689",
+ "extras_ids": [
+  "4689"
+ ],
+ "multi_tema": false,
+ "justificativa": "Quatro das cinco alternativas cobram a Lei 8.137/90: dia-multa, insignificância, natureza material ou formal da falsificação de nota fiscal (SV 24) e extinção da punibilidade pelo pagamento. O eixo da questão, portanto, são os crimes contra a ordem tributária. Só a alternativa D trata do art. 6º da Lei 7.492/86 (Sistema Financeiro), por isso 4689 entra apenas como extra; o assunto de origem \"Ação Penal\" é pista fraca e não corresponde ao conteúdo.",
+ "id": "Q0297",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4695"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 871,
+  "cache_w": 3889,
+  "cache_r": 16390,
+  "custo_usd": 0.053973
+ }
+}

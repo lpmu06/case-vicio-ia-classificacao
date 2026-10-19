@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5189",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5186",
+ "extras_ids": [
+  "5187",
+  "5186"
+ ],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema Prescrição (5185). O centro da questão é a prescrição depois do trânsito em julgado da condenação. A pena aplicada, de 2 anos e 9 meses, dá prazo de 8 anos (art. 109, IV, do CP). Como Paulo tinha menos de 21 anos na data do fato, o prazo cai pela metade (art. 115 do CP) e fica em 4 anos. Segundo o STF (Tema 788), esse prazo só começa a contar quando a condenação transita em julgado para as duas partes, e não apenas para a acusação. Esse é o tema da Prescrição da Pretensão Executória (5189). A redução pela idade (5186) e o termo inicial (5187) aparecem como pontos secundários. O roubo tentado é apenas o contexto da história, e a pista \"Concurso de Crimes\", vinda do site de origem, está errada.",
+ "id": "Q0315",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5185",
+  "segunda_opcao_n1_id": "5191",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige calcular a prescrição. A pena é de 2 anos e 9 meses, o que dá prazo de 8 anos (art. 109, IV, do CP). Como Paulo tinha menos de 21 anos na data do fato, o prazo cai pela metade (art. 115 do CP) e fica em 4 anos. Esse prazo conta a partir do trânsito em julgado, o que caracteriza a prescrição da pretensão executória, conforme o entendimento atual do STF. O roubo tentado é só o contexto da história. A pista \"Concurso de Crimes\", vinda do site de origem, está errada. Por isso, o tema é Prescrição; o subtema seria a Pretensão Executória."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1300,
+  "cache_w": 12212,
+  "cache_r": 20512,
+  "custo_usd": 0.1364854
+ }
+}

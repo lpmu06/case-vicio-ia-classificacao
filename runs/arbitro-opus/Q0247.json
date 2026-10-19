@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5502",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5505",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as afirmações tratam do ANPP (art. 28-A do CPP): extinção da punibilidade pelo cumprimento, vedações legais (o racismo não está no texto legal, e há controvérsia a respeito), confissão, que não é exigida no momento do flagrante, e aplicação a fatos anteriores, que o STF admite em processos ainda em curso. Por isso o gabarito é Errado. O assunto de origem, \"lei processual no tempo\", só aparece na última frase como aspecto do próprio ANPP, então não é o eixo da questão. Também não se trata de Ação Penal nem do Procedimento Sumaríssimo (Lei 9.099/95).",
+ "id": "Q0247",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5498"
+ ],
+ "candidatos_subtemas": [
+  "5502"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 692,
+  "cache_w": 6864,
+  "cache_r": 16390,
+  "custo_usd": 0.076571
+ }
+}

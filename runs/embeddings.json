@@ -1,0 +1,64 @@
+[
+ {
+  "modelo": "legal-bertimbau-base",
+  "hf_id": "rufimelo/Legal-BERTimbau-base",
+  "grupo": "jurídico PT",
+  "obs": "BERT cru (MLM), sem treino de similaridade; o elo fraco do MoVAI",
+  "segundos": 245.0,
+  "n_ref": 285,
+  "titulo": {
+   "top1_ramo": 0.06,
+   "recall_ramo@5": 0.147,
+   "recall_ramo@10": 0.214,
+   "recall_ramo@20": 0.33,
+   "maior_lixeira": "Crimes contra o meio ambiente (38%)",
+   "maior_lixeira_frac": 0.382,
+   "temas_distintos_top1": 12
+  },
+  "enriq": {
+   "top1_ramo": 0.204,
+   "recall_ramo@5": 0.446,
+   "recall_ramo@10": 0.558,
+   "recall_ramo@20": 0.667,
+   "maior_lixeira": "Fraude Processual (8%)",
+   "maior_lixeira_frac": 0.081,
+   "temas_distintos_top1": 94
+  },
+  "destilacao": {
+   "acerto_cv": 0.29,
+   "n": 200,
+   "classes": 25
+  }
+ },
+ {
+  "modelo": "legal-bertimbau-sts-large",
+  "hf_id": "rufimelo/Legal-BERTimbau-sts-large-ma-v3",
+  "grupo": "jurídico PT",
+  "obs": "Legal-BERTimbau ajustado para similaridade (STS)",
+  "segundos": 16734.4,
+  "n_ref": 285,
+  "titulo": {
+   "top1_ramo": 0.239,
+   "recall_ramo@5": 0.488,
+   "recall_ramo@10": 0.565,
+   "recall_ramo@20": 0.674,
+   "maior_lixeira": "Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia (8%)",
+   "maior_lixeira_frac": 0.077,
+   "temas_distintos_top1": 111
+  },
+  "enriq": {
+   "top1_ramo": 0.333,
+   "recall_ramo@5": 0.568,
+   "recall_ramo@10": 0.684,
+   "recall_ramo@20": 0.793,
+   "maior_lixeira": "Mandado de Segurança (6%)",
+   "maior_lixeira_frac": 0.06,
+   "temas_distintos_top1": 134
+  },
+  "destilacao": {
+   "acerto_cv": 0.505,
+   "n": 200,
+   "classes": 25
+  }
+ }
+]

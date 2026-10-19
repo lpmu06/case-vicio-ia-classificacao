@@ -20,13 +20,13 @@
    "rodada": "claude-sonnet-h",
    "metodo": "2 estágios",
    "modelo": "Sonnet 5",
-   "questoes": 358,
+   "questoes": 359,
    "chamadas_por_questao": 1.99,
-   "tokens_prompt_por_questao": 20801,
+   "tokens_prompt_por_questao": 20790,
    "tokens_saida_por_questao": 1589,
-   "custo_usd_por_questao_sem_cache": 0.05749,
-   "custo_usd_por_questao_com_cache": 0.03146,
-   "custo_usd_50mil_com_cache": 1573,
+   "custo_usd_por_questao_sem_cache": 0.05747,
+   "custo_usd_por_questao_com_cache": 0.03145,
+   "custo_usd_50mil_com_cache": 1572,
    "fora": 4,
    "multi_tema": 95,
    "escolheu_subtema": 204,
@@ -36,17 +36,49 @@
    "rodada": "claude-sonnet-3n",
    "metodo": "3 estágios",
    "modelo": "Sonnet 5",
-   "questoes": 151,
-   "chamadas_por_questao": 2.99,
-   "tokens_prompt_por_questao": 13568,
-   "tokens_saida_por_questao": 2009,
-   "custo_usd_por_questao_sem_cache": 0.04722,
-   "custo_usd_por_questao_com_cache": 0.03788,
-   "custo_usd_50mil_com_cache": 1894,
-   "fora": 1,
-   "multi_tema": 33,
-   "escolheu_subtema": 80,
-   "conf_ramo_media": 0.918
+   "questoes": 218,
+   "chamadas_por_questao": 2.97,
+   "tokens_prompt_por_questao": 13671,
+   "tokens_saida_por_questao": 2003,
+   "custo_usd_por_questao_sem_cache": 0.04737,
+   "custo_usd_por_questao_com_cache": 0.03806,
+   "custo_usd_50mil_com_cache": 1903,
+   "fora": 4,
+   "multi_tema": 51,
+   "escolheu_subtema": 115,
+   "conf_ramo_media": 0.909
+  },
+  {
+   "rodada": "claude-haiku-h",
+   "metodo": "2 estágios",
+   "modelo": "Haiku 4.5",
+   "questoes": 21,
+   "chamadas_por_questao": 2.0,
+   "tokens_prompt_por_questao": 16384,
+   "tokens_saida_por_questao": 6318,
+   "custo_usd_por_questao_sem_cache": 0.04798,
+   "custo_usd_por_questao_com_cache": 0.03763,
+   "custo_usd_50mil_com_cache": 1881,
+   "fora": 0,
+   "multi_tema": 2,
+   "escolheu_subtema": 15,
+   "conf_ramo_media": 0.97
+  },
+  {
+   "rodada": "claude-haiku-3n",
+   "metodo": "3 estágios",
+   "modelo": "Haiku 4.5",
+   "questoes": 6,
+   "chamadas_por_questao": 3.0,
+   "tokens_prompt_por_questao": 11182,
+   "tokens_saida_por_questao": 12252,
+   "custo_usd_por_questao_sem_cache": 0.07244,
+   "custo_usd_por_questao_com_cache": 0.06872,
+   "custo_usd_50mil_com_cache": 3436,
+   "fora": 0,
+   "multi_tema": 0,
+   "escolheu_subtema": 3,
+   "conf_ramo_media": 0.962
   },
   {
    "rodada": "gpt-5.5",
@@ -63,24 +95,72 @@
    "multi_tema": 11,
    "escolheu_subtema": 39,
    "conf_ramo_media": 0.922
+  },
+  {
+   "rodada": "claude-sonnet-plano",
+   "metodo": "plano",
+   "modelo": "Sonnet 5 (amostra 80)",
+   "questoes": 80,
+   "chamadas_por_questao": 1.0,
+   "tokens_prompt_por_questao": 211517,
+   "tokens_saida_por_questao": 717,
+   "custo_usd_por_questao_sem_cache": 0.4302,
+   "custo_usd_por_questao_com_cache": 0.05028,
+   "custo_usd_50mil_com_cache": 2514,
+   "fora": 0,
+   "multi_tema": 19,
+   "escolheu_subtema": 61,
+   "conf_ramo_media": 0.872
+  },
+  {
+   "rodada": "claude-opus-h",
+   "metodo": "2 estágios",
+   "modelo": "Opus 5.5 (amostra 80)",
+   "questoes": 73,
+   "chamadas_por_questao": 2.0,
+   "tokens_prompt_por_questao": 22612,
+   "tokens_saida_por_questao": 1186,
+   "custo_usd_por_questao_sem_cache": 0.11417,
+   "custo_usd_por_questao_com_cache": 0.05918,
+   "custo_usd_50mil_com_cache": 2959,
+   "fora": 0,
+   "multi_tema": 10,
+   "escolheu_subtema": 48,
+   "conf_ramo_media": 0.869
   }
  ],
  "concordancia": [
   {
    "a": "claude-opus",
    "b": "claude-sonnet-h",
-   "n": 358,
-   "ramo": 0.885,
+   "n": 359,
+   "ramo": 0.886,
    "n_ambos_subtema": 183,
    "subtema_igual_quando_ambos_escolhem": 0.918
   },
   {
    "a": "claude-opus",
    "b": "claude-sonnet-3n",
-   "n": 151,
-   "ramo": 0.834,
-   "n_ambos_subtema": 73,
-   "subtema_igual_quando_ambos_escolhem": 0.932
+   "n": 218,
+   "ramo": 0.83,
+   "n_ambos_subtema": 103,
+   "subtema_igual_quando_ambos_escolhem": 0.922
+  },
+  {
+   "a": "claude-opus",
+   "b": "claude-haiku-h",
+   "n": 21,
+   "ramo": 0.952,
+   "n_ambos_subtema": 15,
+   "subtema_igual_quando_ambos_escolhem": 0.933
+  },
+  {
+   "a": "claude-opus",
+   "b": "claude-haiku-3n",
+   "n": 6,
+   "ramo": 1.0,
+   "n_ambos_subtema": 3,
+   "subtema_igual_quando_ambos_escolhem": 0.667
   },
   {
    "a": "claude-opus",
@@ -91,12 +171,44 @@
    "subtema_igual_quando_ambos_escolhem": 0.973
   },
   {
+   "a": "claude-opus",
+   "b": "claude-sonnet-plano",
+   "n": 80,
+   "ramo": 0.9,
+   "n_ambos_subtema": 55,
+   "subtema_igual_quando_ambos_escolhem": 0.873
+  },
+  {
+   "a": "claude-opus",
+   "b": "claude-opus-h",
+   "n": 73,
+   "ramo": 0.973,
+   "n_ambos_subtema": 48,
+   "subtema_igual_quando_ambos_escolhem": 1.0
+  },
+  {
    "a": "claude-sonnet-h",
    "b": "claude-sonnet-3n",
-   "n": 151,
-   "ramo": 0.861,
-   "n_ambos_subtema": 77,
-   "subtema_igual_quando_ambos_escolhem": 0.922
+   "n": 218,
+   "ramo": 0.872,
+   "n_ambos_subtema": 108,
+   "subtema_igual_quando_ambos_escolhem": 0.926
+  },
+  {
+   "a": "claude-sonnet-h",
+   "b": "claude-haiku-h",
+   "n": 21,
+   "ramo": 0.952,
+   "n_ambos_subtema": 12,
+   "subtema_igual_quando_ambos_escolhem": 1.0
+  },
+  {
+   "a": "claude-sonnet-h",
+   "b": "claude-haiku-3n",
+   "n": 6,
+   "ramo": 1.0,
+   "n_ambos_subtema": 2,
+   "subtema_igual_quando_ambos_escolhem": 1.0
   },
   {
    "a": "claude-sonnet-h",
@@ -107,12 +219,140 @@
    "subtema_igual_quando_ambos_escolhem": 0.909
   },
   {
+   "a": "claude-sonnet-h",
+   "b": "claude-sonnet-plano",
+   "n": 80,
+   "ramo": 0.912,
+   "n_ambos_subtema": 51,
+   "subtema_igual_quando_ambos_escolhem": 0.922
+  },
+  {
+   "a": "claude-sonnet-h",
+   "b": "claude-opus-h",
+   "n": 73,
+   "ramo": 0.918,
+   "n_ambos_subtema": 44,
+   "subtema_igual_quando_ambos_escolhem": 0.955
+  },
+  {
+   "a": "claude-sonnet-3n",
+   "b": "claude-haiku-h",
+   "n": 21,
+   "ramo": 0.905,
+   "n_ambos_subtema": 10,
+   "subtema_igual_quando_ambos_escolhem": 1.0
+  },
+  {
+   "a": "claude-sonnet-3n",
+   "b": "claude-haiku-3n",
+   "n": 6,
+   "ramo": 1.0,
+   "n_ambos_subtema": 2,
+   "subtema_igual_quando_ambos_escolhem": 1.0
+  },
+  {
    "a": "claude-sonnet-3n",
    "b": "gpt-5.5",
+   "n": 46,
+   "ramo": 0.804,
+   "n_ambos_subtema": 22,
+   "subtema_igual_quando_ambos_escolhem": 0.864
+  },
+  {
+   "a": "claude-sonnet-3n",
+   "b": "claude-sonnet-plano",
    "n": 38,
-   "ramo": 0.789,
-   "n_ambos_subtema": 17,
-   "subtema_igual_quando_ambos_escolhem": 0.824
+   "ramo": 0.842,
+   "n_ambos_subtema": 23,
+   "subtema_igual_quando_ambos_escolhem": 0.87
+  },
+  {
+   "a": "claude-sonnet-3n",
+   "b": "claude-opus-h",
+   "n": 38,
+   "ramo": 0.868,
+   "n_ambos_subtema": 20,
+   "subtema_igual_quando_ambos_escolhem": 0.95
+  },
+  {
+   "a": "claude-haiku-h",
+   "b": "claude-haiku-3n",
+   "n": 6,
+   "ramo": 1.0,
+   "n_ambos_subtema": 3,
+   "subtema_igual_quando_ambos_escolhem": 1.0
+  },
+  {
+   "a": "claude-haiku-h",
+   "b": "gpt-5.5",
+   "n": 13,
+   "ramo": 1.0,
+   "n_ambos_subtema": 6,
+   "subtema_igual_quando_ambos_escolhem": 1.0
+  },
+  {
+   "a": "claude-haiku-h",
+   "b": "claude-sonnet-plano",
+   "n": 10,
+   "ramo": 1.0,
+   "n_ambos_subtema": 8,
+   "subtema_igual_quando_ambos_escolhem": 1.0
+  },
+  {
+   "a": "claude-haiku-h",
+   "b": "claude-opus-h",
+   "n": 10,
+   "ramo": 1.0,
+   "n_ambos_subtema": 8,
+   "subtema_igual_quando_ambos_escolhem": 1.0
+  },
+  {
+   "a": "claude-haiku-3n",
+   "b": "gpt-5.5",
+   "n": 6,
+   "ramo": 1.0,
+   "n_ambos_subtema": 2,
+   "subtema_igual_quando_ambos_escolhem": 1.0
+  },
+  {
+   "a": "claude-haiku-3n",
+   "b": "claude-sonnet-plano",
+   "n": 2,
+   "ramo": 1.0,
+   "n_ambos_subtema": 1,
+   "subtema_igual_quando_ambos_escolhem": 1.0
+  },
+  {
+   "a": "claude-haiku-3n",
+   "b": "claude-opus-h",
+   "n": 2,
+   "ramo": 1.0,
+   "n_ambos_subtema": 1,
+   "subtema_igual_quando_ambos_escolhem": 1.0
+  },
+  {
+   "a": "gpt-5.5",
+   "b": "claude-sonnet-plano",
+   "n": 13,
+   "ramo": 0.923,
+   "n_ambos_subtema": 10,
+   "subtema_igual_quando_ambos_escolhem": 0.7
+  },
+  {
+   "a": "gpt-5.5",
+   "b": "claude-opus-h",
+   "n": 12,
+   "ramo": 0.917,
+   "n_ambos_subtema": 7,
+   "subtema_igual_quando_ambos_escolhem": 1.0
+  },
+  {
+   "a": "claude-sonnet-plano",
+   "b": "claude-opus-h",
+   "n": 73,
+   "ramo": 0.877,
+   "n_ambos_subtema": 48,
+   "subtema_igual_quando_ambos_escolhem": 0.917
   }
  ],
  "com_origem": [
@@ -123,18 +363,80 @@
   },
   {
    "rodada": "claude-sonnet-h",
-   "n": 224,
-   "ramo_igual_origem": 0.317
+   "n": 225,
+   "ramo_igual_origem": 0.316
   },
   {
    "rodada": "claude-sonnet-3n",
-   "n": 100,
-   "ramo_igual_origem": 0.38
+   "n": 142,
+   "ramo_igual_origem": 0.352
+  },
+  {
+   "rodada": "claude-haiku-h",
+   "n": 14,
+   "ramo_igual_origem": 0.286
+  },
+  {
+   "rodada": "claude-haiku-3n",
+   "n": 4,
+   "ramo_igual_origem": 0.5
   },
   {
    "rodada": "gpt-5.5",
    "n": 44,
    "ramo_igual_origem": 0.227
+  },
+  {
+   "rodada": "claude-sonnet-plano",
+   "n": 47,
+   "ramo_igual_origem": 0.298
+  },
+  {
+   "rodada": "claude-opus-h",
+   "n": 42,
+   "ramo_igual_origem": 0.333
+  }
+ ],
+ "amostra_2x2": [
+  {
+   "rodada": "claude-opus",
+   "metodo": "plano",
+   "modelo": "Opus 5.5",
+   "n": 80,
+   "concorda_maioria_demais": 0.938,
+   "tokens_prompt_por_questao": 211517,
+   "tokens_saida_por_questao": 508,
+   "custo_usd_por_questao_com_cache": 0.05418
+  },
+  {
+   "rodada": "claude-sonnet-h",
+   "metodo": "2 estágios",
+   "modelo": "Sonnet 5",
+   "n": 80,
+   "concorda_maioria_demais": 0.925,
+   "tokens_prompt_por_questao": 20790,
+   "tokens_saida_por_questao": 1589,
+   "custo_usd_por_questao_com_cache": 0.03145
+  },
+  {
+   "rodada": "claude-sonnet-plano",
+   "metodo": "plano",
+   "modelo": "Sonnet 5 (amostra 80)",
+   "n": 80,
+   "concorda_maioria_demais": 0.887,
+   "tokens_prompt_por_questao": 211517,
+   "tokens_saida_por_questao": 717,
+   "custo_usd_por_questao_com_cache": 0.05028
+  },
+  {
+   "rodada": "claude-opus-h",
+   "metodo": "2 estágios",
+   "modelo": "Opus 5.5 (amostra 80)",
+   "n": 73,
+   "concorda_maioria_demais": 0.959,
+   "tokens_prompt_por_questao": 22612,
+   "tokens_saida_por_questao": 1186,
+   "custo_usd_por_questao_com_cache": 0.05918
   }
  ]
 }

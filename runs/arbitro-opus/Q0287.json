@@ -1,0 +1,31 @@
+{
+ "fora": false,
+ "tema_n1_id": "5228",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5229",
+ "extras_ids": [
+  "5211"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pede que o aluno reconheça, entre as opções, qual é uma excludente de ilicitude prevista no art. 23 do CP. A resposta é o estado de necessidade; as demais alternativas (erro de proibição, doença mental, embriaguez acidental e menoridade) são causas que excluem a culpabilidade e servem apenas como distratores, por isso o tema 5211 aparece só como extra. Classifiquei no tema geral da Ilicitude e não escolhi subtema, porque fiquei em dúvida entre 5229 (identificação das excludentes legais) e 5230 (estado de necessidade, que é o gabarito), já que a questão não cobra os requisitos do art. 24.",
+ "id": "Q0287",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5228"
+ ],
+ "candidatos_subtemas": [
+  "5229",
+  "5230"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 781,
+  "cache_w": 5859,
+  "cache_r": 16390,
+  "custo_usd": 0.06943
+ }
+}

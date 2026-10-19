@@ -1,0 +1,40 @@
+{
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5201",
+ "segunda_opcao_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.92,
+ "fora": false,
+ "multi_tema": false,
+ "extras_ids": [
+  "5203"
+ ],
+ "justificativa": "Questão sobre reincidência (art. 63, CP), período depurador (art. 64, CP) e regime inicial de execução privativa de liberdade (art. 33, §2º, CP). Enquadra-se em Penal > Teoria da Pena (5199). Especificamente, em Pena Privativa de Liberdade (5201: 'critérios para fixação do regime inicial'), pois testa como determinar o regime inicial (fechado) levando em conta a reincidência como critério legal. Reincidência também aparece em 5203 (agravante na segunda fase dosimétrica), mas ali é fator de dosimetria, não de regime. Confiança muito alta em ramo (Penal material substantivo claro); alta em subtema (5201 é preciso e expressamente cobre 'regime fechado, semiaberto, aberto' e 'critérios para regime inicial'). A anterior segunda opção (4703/LEP) foi removida, pois trata de execução posterior (progressão, regressão), não de fixação inicial de regime na sentença.",
+ "id": "Q0005",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "grupo_id": "P3",
+  "segundo_grupo_id": "LE4",
+  "confianca": 0.92,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "A questão é sobre Reincidência e Regime Inicial de Execução da Pena, institutos da Parte Geral do Direito Penal. O cálculo do período depurador (art. 64 do CP), a caracterização da reincidência (art. 63 do CP) e a fixação do regime inicial (art. 33 do CP) são matérias de Punibilidade e Teoria da Pena, que integram o grupo P3. Embora o regime seja executado pela LEP, sua determinação é ato de Direito Penal material. Confiança moderada-alta pois há possível sobreposição com LE4 (Lei de Execução Penal), mas o foco é claramente penal material."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "4703",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "Questão sobre reincidência (art. 63, CP), período depurador (art. 64, CP) e regime inicial de execução (art. 33, CP) — institutos de Direito Penal material da Parte Geral. Enquadra-se perfeitamente em Teoria da Pena (5199: \"escolha e execução inicial das penas\"), específico da dosimetria e suas consequências. A LEP (4703) é segunda opção válida apenas pela execução ulterior, mas a questão testa Penal substantivo. Confiança alta pois o escopo de 5199 é expressamente dirigido a estes temas; sobreposição com LEP é mínima."
+ },
+ "uso": {
+  "in": 30,
+  "out": 18796,
+  "cache_w": 20834,
+  "cache_r": 4639,
+  "custo_usd": 0.1482639
+ }
+}

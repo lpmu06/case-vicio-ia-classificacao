@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [
+  "5191"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão cobra as regras de execução das penas previstas no Livro IV do CPP e na LEP. O gabarito é a alternativa B, sobre o parcelamento da multa (CPP, art. 687, e LEP, art. 169). As demais alternativas tratam de livramento condicional, com legitimidade para requerer e requisito temporal, e da recusa da graça ou comutação, o que reforça o eixo de execução penal (4703). O tema Ação Penal (5466), sugerido pela origem, foi descartado porque nada na questão envolve titularidade ou exercício da ação. Mantive Teoria da Pena e Punibilidade como alternativas, porque a questão mistura institutos.",
+ "id": "Q0252",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4703",
+  "5466"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 971,
+  "cache_w": 7887,
+  "cache_r": 14086,
+  "custo_usd": 0.0916242
+ }
+}

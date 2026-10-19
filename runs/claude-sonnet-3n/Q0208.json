@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5228",
+ "subtema_n2_id": "5231",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão descreve exatamente a estrutura da legítima defesa de terceiro: agressão injusta e atual (Mauro parte para cima de Carlos com faca peixeira), e Lucas, para repelir essa agressão em favor do irmão, dispara contra o agressor. O teste central é se há exclusão da ilicitude pela legítima defesa (moderação dos meios, atualidade da agressão, animus defendendi em favor de terceiro), o que se encaixa precisamente no subtema Legítima Defesa (5231), dentro do tema de nível 1 Ilicitude (5228). Não há elementos de inimputabilidade, erro de proibição, coação ou outras causas de exclusão da culpabilidade, o que torna Culpabilidade (5211) apenas uma segunda opção por proximidade na teoria do crime, mas menos aderente ao caso concreto.",
+ "id": "Q0208",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "O caso narra Lucas atirando contra Mauro, que atacava seu irmão Carlos com uma faca — cenário típico de legítima defesa (própria/de terceiro), excludente de ilicitude, e não de concurso de crimes. O tema central testado é a ilicitude (excludentes), que está no grupo P2 (Teoria do Crime: Ilicitude)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5228",
+  "segunda_opcao_n1_id": "5211",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "O núcleo da questão é saber se Lucas, ao disparar contra Mauro que atacava seu irmão Carlos com uma faca, agiu amparado por legítima defesa de terceiro (excludente de ilicitude), afastando o dolo de matar qualificado narrado na denúncia. O teste central é sobre a ilicitude do fato (tema 5228), e não sobre culpabilidade (inimputabilidade, erro de proibição etc.) nem sobre concurso de crimes/pessoas, iter criminis ou fato típico puro. Como segunda opção, Culpabilidade (5211) é plausível por proximidade temática na teoria do crime, mas menos aderente ao caso."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1612,
+  "cache_w": 15517,
+  "cache_r": 11846,
+  "custo_usd": 0.0915212
+ }
+}

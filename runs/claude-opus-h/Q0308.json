@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5501",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.82,
+ "segunda_opcao_id": "5467",
+ "extras_ids": [
+  "5467"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta o que significa arquivar o inquérito policial por falta de elementos de informação. A resposta é a ausência de justa causa, que não forma coisa julgada material e permite o desarquivamento se surgirem novas provas (art. 18 do CPP e Súmula 524 do STF). Isso é exatamente o assunto do subtema 5501, Conclusão e Arquivamento do Inquérito Policial, que lista a Súmula 524 e o arquivamento entre seus temas. A justa causa como condição da ação (5467) fica como tema secundário.",
+ "id": "Q0308",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão pergunta qual é a natureza jurídica e o efeito do arquivamento do inquérito policial quando faltam elementos de informação. A resposta é a falta de justa causa, que não forma coisa julgada material (Súmula 524 do STF e art. 18 do CPP). Isso corresponde ao subtema \"Conclusão e Arquivamento do Inquérito Policial\", mas classifico no tema de nível 1 Inquérito Policial (5498). A segunda opção é Ação Penal (5466), porque a justa causa também é condição da ação."
+ },
+ "uso": {
+  "in": 4,
+  "out": 843,
+  "cache_w": 13898,
+  "cache_r": 20512,
+  "custo_usd": 0.1422204
+ }
+}

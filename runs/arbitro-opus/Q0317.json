@@ -1,0 +1,31 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": "5198",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [
+  "5063"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o termo inicial do prazo decadencial de seis meses para o direito de representação (art. 103 CP / art. 38 CPP). Pelo art. 103 do CP, esse prazo conta a partir do dia em que o ofendido soube quem é o autor do crime, e não da data do fato. Isso corresponde exatamente ao subtema Decadência, que trata da causa extintiva da punibilidade. Concurso de Crimes, que aparece na pista de origem, não tem nenhuma relação com a questão. As segundas opções são Ação Penal, em Processo Penal ou em Penal, porque o tema também tangencia a representação na ação pública condicionada.",
+ "id": "Q0317",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5191",
+  "5066"
+ ],
+ "candidatos_subtemas": [
+  "5198"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 702,
+  "cache_w": 8892,
+  "cache_r": 16390,
+  "custo_usd": 0.09471600000000001
+ }
+}

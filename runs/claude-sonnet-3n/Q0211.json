@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5583",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.62,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5490",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa sobre a \"polícia das audiências\" (arts. 792 a 800 do CPP): publicidade dos atos processuais, poder de direção e disciplina do juiz na audiência, retirada de pessoas que desobedeçam seus comandos e requisição de força pública. O núcleo testado é o poder diretivo/disciplinar do juiz sobre o ambiente da audiência, atribuição inerente à figura do juiz como sujeito do processo. A árvore fornecida não contém um subtema específico de \"polícia das audiências\" nem em Sujeitos do Processo (5583, que é tema sem subtemas) nem em Questões e Processos Incidentes (5490) — nenhum dos subtemas de 5490 (exceções, incidentes de falsidade/insanidade, medidas assecuratórias, restituição, questões prejudiciais) corresponde à matéria de polícia das audiências. Mantenho a classificação em Sujeitos do Processo (5583) por ser o tema de nível 1 mais compatível com o foco na atuação e poderes do juiz na condução do processo, embora o tema específico (arts. 792-800) não esteja perfeitamente descrito nas palavras-chave/dispositivos de nenhum dos dois temas, o que reduz a confiança. Subtema fica null porque 5583 não possui subtemas e não há correspondência exata em 5490.",
+ "id": "Q0211",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP1",
+  "segundo_grupo_id": "PP3",
+  "confianca": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão trata dos poderes de polícia do juiz nas audiências (arts. 792 a 800 do CPP), tema ligado às atribuições do juiz como sujeito do processo (PP1 - Sujeitos do Processo), e não propriamente de comunicação de atos processuais (citação/intimação), nem de provas ou procedimentos específicos. Não há correspondência mais específica em nível 2 na árvore apresentada, por isso a classificação fica no tema de nível 1 que melhor abrange o poder diretivo e disciplinar do juiz na condução dos atos processuais."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5583",
+  "segunda_opcao_n1_id": "5490",
+  "confianca_ramo": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a polícia das audiências (arts. 792 a 800 do CPP) — poder disciplinar e diretivo do juiz na condução dos atos processuais em audiência, incluindo publicidade dos atos, manutenção da ordem e requisição de força pública. Trata-se de atribuição do juiz como sujeito do processo, não havendo subtema específico sobre \"polícia das audiências\" na árvore. Mantenho a classificação em Sujeitos do Processo (PP1-5583), por abranger as atribuições do juiz na condução do processo. Como segunda opção, \"Das Questões e Processos Incidentes\" (5490) poderia ser considerado por aproximação com incidentes de audiência, mas não há correspondência direta de subtema, o que reduz a confiança."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2357,
+  "cache_w": 15342,
+  "cache_r": 10097,
+  "custo_usd": 0.09658040000000001
+ }
+}

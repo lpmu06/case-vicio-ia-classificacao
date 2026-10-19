@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "4368",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "4374",
+ "extras_ids": [
+  "4376",
+  "4370"
+ ],
+ "multi_tema": true,
+ "justificativa": "Mantenho o tema 4368. Cada assertiva trata de um assunto diferente. A I trata do Direito Penal do Inimigo de Jakobs (4376). A II trata da Justiça Restaurativa (4370). A III e a IV tratam da relação entre minorias, movimentos sociais, direito e cidadania. Essa relação entre controle social, direito e Estado Democrático só cabe no tema 4368, e é ela que reúne o maior número de assertivas. Como nenhum subtema cobre todas as assertivas, deixo o subtema em branco. O tema 4374 fica como segunda opção, por causa da assertiva I.",
+ "id": "Q0260",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4368",
+  "segunda_opcao_n1_id": "4374",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "As assertivas não têm um eixo comum. A I trata do Direito Penal do Inimigo de Jakobs, que fica em Política Criminal. A II trata da Justiça Restaurativa como forma de reagir ao delito, que fica em Criminologia no Estado Democrático de Direito > Modelos de Reação ao Delito. A III e a IV tratam de minorias, movimentos sociais e direitos, isto é, da relação entre controle social, direito e cidadania. Escolhi o tema 4368 (Criminologia no Estado Democrático de Direito) porque é o que melhor cobre o conjunto. O tema 4374 (Política Criminal) é a segunda opção, por causa da assertiva I."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1051,
+  "cache_w": 9465,
+  "cache_r": 18208,
+  "custo_usd": 0.1065666
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "fora": false,
+ "tema_n1_id": "5211",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5212",
+ "extras_ids": [
+  "5212",
+  "5213",
+  "5217",
+  "5214"
+ ],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema 5211 (Culpabilidade). Todas as alternativas tratam desse substrato do crime. A alternativa A trata de inimputabilidade por dependência química. A B trata de causa supralegal, a inexigibilidade de conduta diversa em caso de crise financeira; o STJ a admite em tese, então a alternativa é falsa. A C trata da teoria normativa pura, e é a correta. A D trata da teoria limitada da culpabilidade, ligada ao erro de tipo e ao erro de proibição. A E trata das teorias preventivas. O gabarito (C) fica no subtema Conceito e Elementos (5212). Mesmo assim, as alternativas passam por vários subtemas (5212, 5213, 5214 e 5217), então classificar só em 5212 não teria certeza suficiente. Por isso a questão fica no nível 1, sem subtema.",
+ "id": "Q0294",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5211",
+  "segunda_opcao_n1_id": "5218",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas tratam da culpabilidade: inimputabilidade por uso de drogas, inexigibilidade de conduta diversa como causa supralegal, teoria normativa pura, teoria limitada da culpabilidade (erro) e teorias preventivas. Há um eixo comum, então a questão não é multi-tema. Vários subtemas estão envolvidos (conceito, inimputabilidade, causas supralegais, erro de proibição), por isso a classificação fica no nível 1."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1128,
+  "cache_w": 14278,
+  "cache_r": 20512,
+  "custo_usd": 0.15036839999999999
+ }
+}

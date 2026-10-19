@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5073",
+ "extras_ids": [
+  "5073",
+  "5072",
+  "4708"
+ ],
+ "multi_tema": true,
+ "justificativa": "Mantenho o tema 5071. Três das quatro alternativas tratam da teoria geral do concurso de pessoas. A alternativa correta (A) fala de autoria colateral, que seria o subtema 5073. A B trata dos requisitos do concurso, assunto do 5072, ou do tema geral. A C trata das exceções pluralísticas à teoria monista, que ficam no tema geral. A D foge do eixo, pois trata da Lei de Drogas (4708). Como as alternativas abrangem vários subtemas, não há como ter certeza de um só, e por isso o subtema fica nulo.",
+ "id": "Q0321",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": "4708",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "Três das quatro alternativas tratam da teoria geral do concurso de pessoas. A alternativa A, que é a correta, aborda a autoria colateral sem vínculo subjetivo. A B trata dos requisitos do concurso, que incluem também o liame subjetivo. A C trata do aborto consentido como exceção pluralística à teoria monista. Só a D foge do eixo, pois diz respeito à natureza não hedionda da associação para o tráfico. O núcleo da questão é Concurso de Pessoas. Não escolhi um subtema porque as alternativas abrangem mais de um."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1154,
+  "cache_w": 9519,
+  "cache_r": 20512,
+  "custo_usd": 0.1091354
+ }
+}

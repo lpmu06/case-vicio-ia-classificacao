@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5472",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.72,
+ "segunda_opcao_id": "5474",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a sucessão processual na ação penal privada: o art. 31 do CPP permite que, morta a vítima, o cônjuge, o ascendente, o descendente ou o irmão (CADI) ofereçam queixa ou prossigam na ação. Por isso, o gabarito é \"Errado\". Esse tema é instituto da espécie de ação privada (legitimidade e sucessão), coberto pelo subtema 5472. O subtema Queixa Crime (5474) é próximo, mas trata da peça e de seus requisitos. O tema de Penal material (5063) foi descartado, porque o foco é a legitimidade processual prevista no CPP.",
+ "id": "Q0296",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5466"
+ ],
+ "candidatos_subtemas": [
+  "5472"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 684,
+  "cache_w": 7653,
+  "cache_r": 16390,
+  "custo_usd": 0.08356500000000001
+ }
+}

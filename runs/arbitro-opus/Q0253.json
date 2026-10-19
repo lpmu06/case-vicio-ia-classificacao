@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4373",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "4384",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão compara a Escola Clássica e a Escola Positiva. Para responder, o aluno precisa saber a diferença entre livre-arbítrio e determinismo e quais autores pertencem a cada escola (Carrara, Carmignani, Lombroso, Ferri, Garofalo, Feuerbach); a correta é a B. Esse é exatamente o conteúdo do subtema 4373 (Escolas Criminológicas). Descartei 4384 (Teorias Legitimadoras da Pena), que é só o assunto de origem: a pena aparece apenas como detalhe da alternativa D, sem cobrar as teorias retributivas ou preventivas.",
+ "id": "Q0253",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4371",
+  "4384"
+ ],
+ "candidatos_subtemas": [
+  "4373"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 601,
+  "cache_w": 5192,
+  "cache_r": 16390,
+  "custo_usd": 0.059979
+ }
+}

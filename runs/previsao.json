@@ -1,0 +1,35 @@
+{
+ "publicadas": 205,
+ "total": 359,
+ "fora": 2,
+ "revisar": 152,
+ "publicadas_nivel2": 77,
+ "E1_independencia": 0.9867,
+ "E2_outra_familia": {
+  "acertos": 37,
+  "n": 37,
+  "taxa": 1.0,
+  "wilson95": [
+   0.9059,
+   1.0
+  ]
+ },
+ "E3_auditoria": {
+  "pontos": 0.0,
+  "n": 0.0,
+  "taxa": null,
+  "wilson95": null
+ },
+ "margem_convencao": 0.02,
+ "taxa_subtema": 0.9315,
+ "precisao_prevista": 0.967,
+ "precisao_intervalo": [
+  0.886,
+  0.987
+ ],
+ "cobertura_prevista": 0.571,
+ "cobertura_intervalo": [
+  0.571,
+  0.574
+ ]
+}
