@@ -6,7 +6,7 @@ Entrega do processo seletivo da área de IA. Classifica 359 questões de concurs
 |---|---|
 | Decisão por questão | [`publicacao.csv`](publicacao.csv): 218 publicadas (todas no tema de nível 1), 140 para revisão, 1 fora |
 | Variantes | [`publicacao_subtema.csv`](publicacao_subtema.csv) (versão híbrida: desce ao subtema quando a evidência é forte; a tentativa que não compensou pela régua) e [`publicacao_sem_duplicados.csv`](publicacao_sem_duplicados.csv) (os temas que têm um gêmeo 67xx na árvore vão para revisão) |
-| Previsão de precisão e cobertura | [`previsao.txt`](previsao.txt): precisão 0,95 (0,84 a 0,99), cobertura 0,61 |
+| Previsão de precisão e cobertura | [`previsao.txt`](previsao.txt): precisão 0,95 (0,86 a 1,00), cobertura 0,61 |
 | Relatório: raciocínio, diagnóstico, produção e memo (5 páginas) | [`docs/relatorio.pdf`](docs/relatorio.pdf) e [`docs/relatorio.md`](docs/relatorio.md) |
 | Memo para o professor (1 página) | [`docs/memo_professor.md`](docs/memo_professor.md) |
 | Anexos do relatório | [`docs/comparacao_metodos.md`](docs/comparacao_metodos.md), [`docs/embeddings.md`](docs/embeddings.md), [`docs/diagnostico.md`](docs/diagnostico.md), [`docs/sensibilidade.md`](docs/sensibilidade.md), [`docs/auditoria_cega_caderno.md`](docs/auditoria_cega_caderno.md) (auditoria cega) e [`docs/auditoria_caderno.md`](docs/auditoria_caderno.md) (primeira auditoria, usada para os limiares) |
