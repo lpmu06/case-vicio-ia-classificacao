@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [
+  "5206",
+  "5208",
+  "5193"
+ ],
+ "multi_tema": true,
+ "justificativa": "As alternativas tratam da execução da pena do condenado: graça, parcelamento da multa, legitimidade para pedir o livramento condicional e o requisito temporal dele. O eixo comum é a execução penal, por isso o ramo escolhido é a Lei de Execução Penal; há sobreposição com a Teoria da Pena (multa e livramento condicional) e com Punibilidade (graça).",
+ "id": "Q0252",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 658,
+  "cache_w": 15050,
+  "cache_r": 237485,
+  "custo_usd": 0.182441
+ }
+}

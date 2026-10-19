@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O item testa o conteúdo de uma teoria criminológica nominada (a anomia, de Durkheim e Merton): a tensão entre metas culturais e meios institucionais. Por isso vai para Teorias Criminológicas em Espécie.",
+ "id": "Q0031",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 353,
+  "cache_w": 13858,
+  "cache_r": 237485,
+  "custo_usd": 0.166563
+ }
+}

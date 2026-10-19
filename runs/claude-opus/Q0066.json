@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4373",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "4386",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra as características da Escola Positiva: método empírico, determinismo em oposição ao livre-arbítrio, viés etiológico e ruptura com a Escola Clássica. É, portanto, um tema de escolas criminológicas.",
+ "id": "Q0066",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 352,
+  "cache_w": 14882,
+  "cache_r": 237485,
+  "custo_usd": 0.174817
+ }
+}

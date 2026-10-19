@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5228",
+ "subtema_n2_id": "5231",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5229",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta qual excludente o ofendículo configura. A doutrina dominante o trata como legítima defesa preordenada, ou seja, uma causa de exclusão da ilicitude (antijuridicidade). Os metadados do subtema Legítima Defesa citam os ofendículos de forma expressa. Parte da doutrina, porém, o classifica como exercício regular de direito, por isso a confiança no subtema é moderada.",
+ "id": "Q0188",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 418,
+  "cache_w": 13828,
+  "cache_r": 237485,
+  "custo_usd": 0.167607
+ }
+}

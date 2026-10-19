@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5091",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.99,
+ "segunda_opcao_id": "5087",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra diretamente a qualificadora do excesso de exação prevista no art. 316, §2º, do CP, quando o funcionário desvia, em proveito próprio ou de terceiro, o que recebeu indevidamente para recolher aos cofres públicos. O enquadramento específico é Crimes contra a Administração Pública, subtema Concussão e Excesso de Exação.",
+ "id": "Q0045",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1107,
+  "out": 227,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

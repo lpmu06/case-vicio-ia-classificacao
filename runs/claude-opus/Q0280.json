@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.5,
+ "confianca_subtema": 0.4,
+ "segunda_opcao_id": "5121",
+ "extras_ids": [
+  "5120",
+  "5063",
+  "5471",
+  "5474"
+ ],
+ "multi_tema": true,
+ "justificativa": "Calúnia contra funcionário público em razão da função: a questão cobra sobretudo a legitimidade concorrente da Súmula 714 do STF (representação ao MP ou queixa), a necessidade de representação para instaurar o inquérito e o aditamento da queixa. A exceção da verdade aparece só em uma alternativa, de forma acessória. Por isso o ramo é Ação Penal no Processo Penal, sem subtema único, já que as alternativas se dividem entre representação e queixa.",
+ "id": "Q0280",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 831,
+  "cache_w": 14156,
+  "cache_r": 237485,
+  "custo_usd": 0.178758
+ }
+}

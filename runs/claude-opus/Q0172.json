@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": "5484",
+ "confianca_ramo": 0.45,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [
+  "5579",
+  "5494",
+  "5466"
+ ],
+ "multi_tema": true,
+ "justificativa": "As alternativas misturam vários institutos: foro por prerrogativa de Promotor do DF, aditamento/mutatio libelli, coisa julgada na extinção da punibilidade, imunidade de deputado distrital e exceção da verdade julgada pelo tribunal. O eixo que mais se repete (A, D, E) é a prerrogativa de função e a competência dos tribunais, e a incorreta (D) trata da antiga licença parlamentar, abolida pela EC 35/2001.",
+ "id": "Q0172",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 746,
+  "cache_w": 14123,
+  "cache_r": 237485,
+  "custo_usd": 0.176763
+ }
+}

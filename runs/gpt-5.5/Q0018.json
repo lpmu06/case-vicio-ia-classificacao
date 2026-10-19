@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5540",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [
+  "5482"
+ ],
+ "multi_tema": false,
+ "justificativa": "A assertiva cobra hipóteses de afastamento/remessa da competência dos Juizados Especiais Criminais, como não localização do acusado, complexidade do caso e conexão, matéria específica da competência do JECRIM no procedimento sumaríssimo. Embora dialogue com competência em geral e com a Lei 9.099/1995, o núcleo testado é o subtema de competência dos Juizados.",
+ "id": "Q0018",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1073,
+  "out": 472,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

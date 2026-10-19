@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5472",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5469",
+ "extras_ids": [
+  "5196"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa a ação penal de iniciativa privada, especialmente o princípio da indivisibilidade da queixa-crime e a consequência da omissão deliberada de coautor, com renúncia tácita e extensão aos demais. Embora envolva extinção da punibilidade, o núcleo cobrado é o regime processual da ação penal privada.",
+ "id": "Q0121",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1343,
+  "out": 663,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

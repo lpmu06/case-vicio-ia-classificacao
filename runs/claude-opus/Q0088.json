@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4389",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.72,
+ "confianca_subtema": 0.68,
+ "segunda_opcao_id": "4381",
+ "extras_ids": [
+  "4381"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra principalmente o objeto da vitimologia e o debate sobre a autonomia dela como ciência, que é matéria do tema amplo de Vitimologia. O processo de vitimização não é cobrado. A primeira parte, sobre o objeto da Criminologia, aproxima a questão de Conceito e Objeto da Criminologia (4381).",
+ "id": "Q0088",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 515,
+  "cache_w": 13837,
+  "cache_r": 237485,
+  "custo_usd": 0.169607
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5116",
+ "subtema_n2_id": "5119",
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.45,
+ "segunda_opcao_id": "5118",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O texto da questão não traz o item a ser julgado, impedindo identificar o instituto efetivamente cobrado. A classificação foi feita apenas pela pista de origem, que indica crimes contra a fé pública, especialmente outras falsidades.",
+ "id": "Q0107",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1020,
+  "out": 623,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

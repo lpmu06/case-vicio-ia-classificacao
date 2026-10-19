@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5203",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5576",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede a segunda fase da dosimetria. Para resolvê-la, é preciso saber se há reincidência: o período depurador do art. 64 do CP e a regra de que contravenção anterior não gera reincidência em crime. Também é preciso saber como a atenuante da confissão espontânea se compensa com a agravante da reincidência. Por isso a questão fica em Agravantes e Atenuantes.",
+ "id": "Q0327",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 471,
+  "cache_w": 14296,
+  "cache_r": 237485,
+  "custo_usd": 0.172851
+ }
+}

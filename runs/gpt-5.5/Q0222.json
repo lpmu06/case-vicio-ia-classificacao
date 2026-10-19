@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4374",
+ "subtema_n2_id": "4375",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.72,
+ "segunda_opcao_id": "4376",
+ "extras_ids": [
+  "4384"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a teoria das velocidades do Direito Penal, relacionada à expansão/restrição de garantias, penas alternativas, neopunitivismo e Direito Penal do Inimigo, tema típico de Política Criminal. O subtema mais adequado é Correntes da Política Criminal, pois o foco é mais amplo que o Direito Penal do Inimigo isoladamente.",
+ "id": "Q0222",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1201,
+  "out": 665,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

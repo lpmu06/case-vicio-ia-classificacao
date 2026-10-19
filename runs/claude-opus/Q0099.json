@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5100",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.72,
+ "segunda_opcao_id": "5228",
+ "extras_ids": [
+  "5232",
+  "5231",
+  "5077"
+ ],
+ "multi_tema": false,
+ "justificativa": "O eixo da questão é o crime de resistência (art. 329 do CP): a consumação, a forma qualificada e o concurso com lesões corporais pelo §2º. Em segundo plano, cobra a excludente de ilicitude dos fiscais, que agiram em estrito cumprimento do dever legal ou em legítima defesa.",
+ "id": "Q0099",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 500,
+  "cache_w": 15238,
+  "cache_r": 237485,
+  "custo_usd": 0.18090699999999998
+ }
+}

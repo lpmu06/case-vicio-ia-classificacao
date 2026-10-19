@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5503",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra exatamente o conteúdo do julgamento das ADIs 6298/6299/6300/6305 sobre o prazo (12 meses, improrrogável, a contar da publicação da ata) para implantação do juiz das garantias nas leis de organização judiciária, sob supervisão do CNJ - matéria descrita literalmente nos dispositivos e descrição do subtema \"Juiz das Garantias\" (5503), dentro do tema \"Inquérito Policial\" (5498). Não se trata de critério de fixação de competência (território, matéria, prerrogativa), por isso \"Competência\" (5480) permanece apenas como segunda opção por proximidade temática, não como classificação correta.",
+ "id": "Q0021",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o julgamento do STF (ADIs) acerca da implantação do juiz das garantias e o prazo fixado para adequação das leis de organização judiciária, sob supervisão do CNJ. O instituto central é o \"Juiz das Garantias\", que na árvore é subtema do tema de nível 1 \"Inquérito Policial\" (id 5498). A pista de origem aponta \"Competência\", mas o conteúdo testado não é critério de fixação de competência em si, e sim o regime de implantação do juiz das garantias; ainda assim, por proximidade temática, mantive \"Competência\" (5480) como segunda opção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1224,
+  "cache_w": 35042,
+  "cache_r": 78694,
+  "custo_usd": 0.1773128
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5184",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam especificamente sobre o regime jurídico da medida de segurança: sistema duplo binário/vicariante, inaplicabilidade ao imputável, lógica manicomial, desinternação condicional da Lei 10.216/2001 e aplicação do Estatuto da Pessoa com Deficiência aos inimputáveis. O tema de nível 1 \"Medida de Segurança\" (5184) abrange exatamente esse conteúdo (espécies, pressupostos, desinternação condicional, Lei 10.216/2001 constam expressamente na descrição e dispositivos). Como o tema não possui subtemas listados, subtema_n2_id permanece null.",
+ "id": "Q0041",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5184",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam especificamente sobre medida de segurança (sistema duplo binário/vicariante, aplicabilidade a imputáveis, lógica manicomial, Lei 10.216/2001, Estatuto da Pessoa com Deficiência em face de inimputáveis), tema de nível 1 \"Medida de Segurança\" (5184) em Penal, que não possui subtemas específicos listados, de modo que a classificação no próprio tema é correta."
+ },
+ "uso": {
+  "in": 4,
+  "out": 881,
+  "cache_w": 28056,
+  "cache_r": 78694,
+  "custo_usd": 0.1402258
+ }
+}

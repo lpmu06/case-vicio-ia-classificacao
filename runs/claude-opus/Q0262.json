@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5184",
+ "extras_ids": [
+  "5184"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão sobre doença mental que surge durante a execução da pena. A resposta (internação em HCTP ou conversão da pena em medida de segurança pelo juiz da execução) está nos arts. 108 e 183 da LEP e no art. 41 do CP. Por ser incidente da execução penal, vai para Lei de Execução Penal; Medida de Segurança fica como segunda opção.",
+ "id": "Q0262",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 637,
+  "cache_w": 14395,
+  "cache_r": 237485,
+  "custo_usd": 0.176978
+ }
+}

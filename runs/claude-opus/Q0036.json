@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5471",
+ "extras_ids": [
+  "5471"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a audiência do art. 16 da Lei 11.340/2006. Pelo entendimento consolidado do STJ, essa audiência só é designada quando a vítima manifesta antes a vontade de se retratar, o que é instituto próprio da Lei Maria da Penha. A questão também toca a representação na ação penal pública condicionada (5471).",
+ "id": "Q0036",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 564,
+  "cache_w": 14586,
+  "cache_r": 237485,
+  "custo_usd": 0.177224
+ }
+}

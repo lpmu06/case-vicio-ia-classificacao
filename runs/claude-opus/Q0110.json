@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5483",
+ "extras_ids": [
+  "5483",
+  "5482",
+  "5484"
+ ],
+ "multi_tema": true,
+ "justificativa": "Todas as alternativas tratam de competência criminal, mas em critérios diferentes: a A é competência em razão da matéria (vara da infância), a B e a C são competência territorial (peculato-desvio e Súmulas 521 STF/244 STJ) e a D é foro por prerrogativa de função na exceção da verdade. Por isso a questão fica no tema geral de Competência, sem subtema específico.",
+ "id": "Q0110",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 470,
+  "cache_w": 14171,
+  "cache_r": 237485,
+  "custo_usd": 0.17164600000000002
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.7,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5477",
+ "extras_ids": [
+  "5477",
+  "5500"
+ ],
+ "multi_tema": false,
+ "justificativa": "O item trata de um inquérito policial instaurado por requisição do Ministério Público e de quem conduz a investigação, o que define a autoridade coatora para fins de habeas corpus. O núcleo é o inquérito policial (instauração e condução pelo delegado), e o habeas corpus aparece como aspecto secundário.",
+ "id": "Q0104",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 518,
+  "cache_w": 13848,
+  "cache_r": 237485,
+  "custo_usd": 0.169793
+ }
+}

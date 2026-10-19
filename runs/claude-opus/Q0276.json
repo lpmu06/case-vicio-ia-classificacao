@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5554",
+ "extras_ids": [
+  "5547",
+  "5548",
+  "5552",
+  "5545",
+  "5554"
+ ],
+ "multi_tema": true,
+ "justificativa": "Cada alternativa cobra um meio de prova diferente: interrogatório, confissão, acareação, exame de corpo de delito e busca pessoal. A correta é a E (art. 244 do CPP). O eixo comum são as provas em espécie, sem predominância de um subtema, por isso classifico no tema de nível 1.",
+ "id": "Q0276",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 495,
+  "cache_w": 13977,
+  "cache_r": 237485,
+  "custo_usd": 0.17048200000000002
+ }
+}

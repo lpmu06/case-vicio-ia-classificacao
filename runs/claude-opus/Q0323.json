@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5590",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [
+  "5593",
+  "5595",
+  "5591",
+  "5547",
+  "5557"
+ ],
+ "multi_tema": true,
+ "justificativa": "As alternativas tratam de vários assuntos de prova: prova emprestada, nemo tenetur, produção antecipada de provas (alternativa D, a correta, art. 156, I, do CPP), interrogatório e colaboração premiada. A maioria cai em Teoria Geral das Provas, e por isso o ramo escolhido é esse, sem subtema.",
+ "id": "Q0323",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 640,
+  "cache_w": 14565,
+  "cache_r": 237485,
+  "custo_usd": 0.17852900000000002
+ }
+}

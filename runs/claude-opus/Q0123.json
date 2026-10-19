@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.4,
+ "confianca_subtema": 0.35,
+ "segunda_opcao_id": "4385",
+ "extras_ids": [
+  "4388",
+  "4368",
+  "5594"
+ ],
+ "multi_tema": true,
+ "justificativa": "Eixo comum: seletividade do sistema penal. A assertiva I trata do labeling approach e da criminalização secundária feita pelas agências; a III, da seletividade racial na letalidade policial; a IV, do racismo institucional. A II traz um aspecto processual (prova e flagrante obtidos com discriminação). Por isso escolhi Processos de Criminalização (4377) como tema que abrange o conjunto, com confiança baixa e Teorias Sociológicas (4385) como segunda opção.",
+ "id": "Q0123",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 709,
+  "cache_w": 14284,
+  "cache_r": 237485,
+  "custo_usd": 0.177405
+ }
+}

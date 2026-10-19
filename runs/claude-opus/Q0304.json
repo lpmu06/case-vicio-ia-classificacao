@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "4701",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5539",
+ "extras_ids": [
+  "5540",
+  "5541"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a Lei 9.099/1995 sob vários ângulos: competência e conexão (art. 60, parágrafo único), transação penal, queixa oral, representação e a garantia dos institutos despenalizadores. O tema da Legislação Especial dedicado ao Juizado Especial Criminal abrange tudo isso. A alternativa correta é a D, sobre os institutos despenalizadores assegurados em qualquer juízo.",
+ "id": "Q0304",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 427,
+  "cache_w": 14110,
+  "cache_r": 237485,
+  "custo_usd": 0.17030299999999998
+ }
+}

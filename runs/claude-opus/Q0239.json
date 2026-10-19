@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5207",
+ "extras_ids": [
+  "5203",
+  "5207",
+  "5224"
+ ],
+ "multi_tema": true,
+ "justificativa": "As alternativas A e B tratam de atenuantes (arts. 65 e 66 do CP), a C trata de aberratio ictus com concurso formal e a D, que é a correta, trata do sursis simples e do especial (art. 78). Por isso a questão é multi-tema, mas três das quatro alternativas pertencem à Teoria da Pena.",
+ "id": "Q0239",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 733,
+  "cache_w": 14238,
+  "cache_r": 237485,
+  "custo_usd": 0.177564
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "4695",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5165",
+ "extras_ids": [
+  "5191",
+  "5227",
+  "5187"
+ ],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam do crime de apropriação indébita previdenciária (art. 168-A do CP): a tipificação, a extinção da punibilidade pelo pagamento, a natureza do crime para fins de prescrição e a insignificância. Os metadados põem o art. 168-A no tema Crimes Tributários da Legislação Especial.",
+ "id": "Q0064",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 537,
+  "cache_w": 14149,
+  "cache_r": 237485,
+  "custo_usd": 0.172822
+ }
+}

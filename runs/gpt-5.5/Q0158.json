@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4707",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5209",
+ "extras_ids": [
+  "5209"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra efeito específico da condenação por crime de tortura previsto no art. 1º, §5º, da Lei 9.455/1997: perda do cargo, função ou emprego público e interdição pelo dobro do prazo da pena. Embora envolva efeito da condenação, o núcleo é a legislação especial de Tortura.",
+ "id": "Q0158",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1164,
+  "out": 299,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

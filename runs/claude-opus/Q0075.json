@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5066",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o art. 108 do CP, que trata da incomunicabilidade da extinção da punibilidade nos crimes acessórios, complexos e conexos. Por isso fica no tema geral de Punibilidade, já que nenhum subtema trata especificamente desse dispositivo.",
+ "id": "Q0075",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 435,
+  "cache_w": 13972,
+  "cache_r": 237485,
+  "custo_usd": 0.169234
+ }
+}

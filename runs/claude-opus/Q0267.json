@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5545",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra as regras procedimentais da Lei 11.343/2006: laudo de constatação feito por pessoa idônea (art. 50, §1º), comunicação do flagrante e destruição das drogas (art. 50, §§3º a 5º). O tema próprio é Tráfico de Drogas na Legislação Especial, cuja descrição abrange as regras sobre laudo, apreensão e destruição de drogas.",
+ "id": "Q0267",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 413,
+  "cache_w": 14362,
+  "cache_r": 237485,
+  "custo_usd": 0.17221
+ }
+}

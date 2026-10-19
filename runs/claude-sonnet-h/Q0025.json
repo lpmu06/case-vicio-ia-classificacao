@@ -1,0 +1,32 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5093",
+ "extras_ids": [
+  "5093"
+ ],
+ "multi_tema": false,
+ "justificativa": "A conduta descrita — particular solicitar vantagem de contribuinte autuado, a pretexto de influir em ato de auditor fiscal (funcionário público) — é o núcleo típico do tráfico de influência (art. 332, CP), e não da corrupção ativa (art. 333, CP), que exige oferecer/prometer vantagem diretamente ao próprio funcionário para que pratique, omita ou retarde ato de ofício. Como a questão apresenta exatamente a situação fática do art. 332 (solicitar vantagem a pretexto de influir em ato de funcionário) e pede para o aluno reconhecer que isso não é corrupção ativa, o enquadramento mais preciso é o subtema \"Tráfico de Influência\" (5101), dentro do tema de nível 1 \"Dos Crimes Contra a Administração Pública\" (5087). Mantenho a corrupção ativa (5093) como segunda opção/extra, pois é o instituto erroneamente afirmado na assertiva.",
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5101",
+ "id": "Q0025",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão testa a diferenciação entre corrupção ativa (art. 333, CP) e tráfico de influência (art. 332, CP): quem solicita vantagem de particular a pretexto de influir em ato de funcionário público pratica tráfico de influência, não corrupção ativa (que exige oferecer/prometer vantagem ao próprio funcionário para que pratique, omita ou retarde ato de ofício). Logo, a assertiva está errada. Ambos os tipos penais (corrupção ativa e tráfico de influência) estão dentro do tema de nível 1 \"Dos Crimes Contra a Administração Pública\" (id 5087), que também possui o subtema específico \"Tráfico de Influência\" — mas como a questão compara institutos e testa a distinção entre eles, classifico no tema de nível 1 abrangente."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1549,
+  "cache_w": 33516,
+  "cache_r": 78694,
+  "custo_usd": 0.17305580000000004
+ }
+}

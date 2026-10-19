@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5116",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.35,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5096",
+ "extras_ids": [
+  "5087",
+  "5102",
+  "5126"
+ ],
+ "multi_tema": true,
+ "justificativa": "Cada alternativa cobra um crime diferente da Parte Especial: estupro, condescendência criminosa (a correta, B), incêndio, supressão de documento e falsa identidade. Escolhi o tema Fé Pública porque duas alternativas são dessa matéria e a origem aponta para ela. A segunda opção é Condescendência Criminosa, que é a resposta correta.",
+ "id": "Q0068",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 859,
+  "cache_w": 14054,
+  "cache_r": 237485,
+  "custo_usd": 0.17843000000000003
+ }
+}

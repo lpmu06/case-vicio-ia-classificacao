@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.92,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão reproduz a regra do art. 367 do CPP: o processo seguirá sem a presença do acusado que, citado ou intimado pessoalmente para qualquer ato, deixar de comparecer sem motivo justificado (gabarito C). Trata-se de regra sobre efeitos da citação pessoal e não comparecimento, tema de Comunicação dos Atos Processuais, especificamente do subtema Citação e Contagem dos Prazos (5488), que expressamente lista \"não comparecimento do acusado\" entre suas palavras-chave.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5489",
+ "subtema_n2_id": "5488",
+ "tema_n1_id": "5487",
+ "id": "Q0027",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5487",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata da regra do art. 367 do CPP sobre o processo seguir sem a presença do acusado citado/intimado pessoalmente que deixa de comparecer sem motivo justificado — tema processual de Comunicação dos Atos Processuais (subtema Citação e Contagem dos Prazos)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1109,
+  "cache_w": 28734,
+  "cache_r": 78694,
+  "custo_usd": 0.1458518
+ }
+}

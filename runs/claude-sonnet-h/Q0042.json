@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5222",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5224",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede a definição de dolo direto, confrontando-o com dolo eventual (alternativa A), culpa (alternativa C) e culpa consciente/dolo eventual mal descrito (D). O eixo é inteiramente o elemento subjetivo do tipo (dolo e suas espécies), tema de Penal > Teoria do Crime: Fato Típico, especificamente o subtema Crime Doloso e Culposo (5222), que trata expressamente de dolo direto, dolo eventual e culpa. Não se trata de erro de tipo (5224), pois não há engano do agente sobre elementos do fato, apenas a definição conceitual de dolo direto.",
+ "id": "Q0042",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o conceito de dolo direto, elemento subjetivo do fato típico (crime doloso), tema da Teoria do Crime: Fato Típico (subtema Crime Doloso e Culposo), dentro do Direito Penal material."
+ },
+ "uso": {
+  "in": 4,
+  "out": 853,
+  "cache_w": 31523,
+  "cache_r": 78694,
+  "custo_usd": 0.1564708
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5222",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.68,
+ "segunda_opcao_id": "5224",
+ "extras_ids": [
+  "5224"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pede para identificar uma espécie de dolo: o dolo geral, também chamado erro sucessivo. Isso é elemento subjetivo do tipo, e por isso o subtema é Crime Doloso e Culposo. Fica uma proximidade com Erro de Tipo (aberratio causae), mas não é Iter Criminis, apesar da pista de origem.",
+ "id": "Q0153",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 482,
+  "cache_w": 13837,
+  "cache_r": 237485,
+  "custo_usd": 0.16896500000000003
+ }
+}

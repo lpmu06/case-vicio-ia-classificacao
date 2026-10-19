@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4372",
+ "confianca_ramo": 0.45,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "4384",
+ "extras_ids": [
+  "4384"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a leitura de Foucault (Vigiar e Punir) sobre a reforma humanista do Direito Penal no século XVIII, que ele descreve como uma nova economia do poder de punir. É uma abordagem histórica da evolução do pensamento penal e criminológico na Idade Moderna e no Iluminismo. Ela também toca na justificação da pena, por isso Teorias Legitimadoras da Pena (4384) fica como segunda opção.",
+ "id": "Q0217",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 675,
+  "cache_w": 13855,
+  "cache_r": 237485,
+  "custo_usd": 0.172979
+ }
+}

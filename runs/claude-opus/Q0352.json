@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5512",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5515",
+ "extras_ids": [
+  "5515",
+  "5514",
+  "5513"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a teoria geral dos recursos. As alternativas tratam de efeito extensivo (art. 580), da vedação à desistência pelo MP (art. 576), do interesse recursal, da forma de interposição por termo (art. 578) e da fungibilidade (art. 579). Por isso a classificação é o tema-pai Parte Geral dos Recursos. A alternativa correta, sobre o efeito extensivo, aponta para o subtema Efeito dos Recursos (5515), escolhido como segunda opção.",
+ "id": "Q0352",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 459,
+  "cache_w": 14064,
+  "cache_r": 237485,
+  "custo_usd": 0.170499
+ }
+}

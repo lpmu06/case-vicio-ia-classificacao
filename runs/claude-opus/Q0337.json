@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4684",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5064",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra as disposições gerais da Lei 13.869/2019: o elemento subjetivo especial e a exclusão da divergência interpretativa (art. 1º) e a ação penal pública incondicionada (art. 3º). O tema é Abuso de Autoridade na Legislação Especial, que não tem subtemas. A pista de origem \"Concurso de Crimes\" está errada.",
+ "id": "Q0337",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 401,
+  "cache_w": 14066,
+  "cache_r": 237485,
+  "custo_usd": 0.16937100000000002
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5557",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a colaboração premiada prevista no art. 41 da Lei 11.343/2006 e seus requisitos (voluntariedade, identificação dos coautores e recuperação do produto do crime). Como a pergunta é sobre esse benefício dentro da própria Lei de Drogas, o tema é Tráfico de Drogas, na Legislação Especial.",
+ "id": "Q0050",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 395,
+  "cache_w": 14840,
+  "cache_r": 237485,
+  "custo_usd": 0.175299
+ }
+}

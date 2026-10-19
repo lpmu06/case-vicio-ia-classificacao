@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4374",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.65,
+ "segunda_opcao_id": "4377",
+ "extras_ids": [
+  "4368"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra uma visão geral da política criminal brasileira: encarceramento em massa depois da CF/88, construção de presídios e recorte de gênero da população prisional. Isso cabe no tema genérico de Política Criminal, sem apontar para uma corrente específica.",
+ "id": "Q0292",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 365,
+  "cache_w": 14033,
+  "cache_r": 237485,
+  "custo_usd": 0.16832400000000003
+ }
+}

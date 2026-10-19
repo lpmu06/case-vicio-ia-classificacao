@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5572",
+ "subtema_n2_id": "5575",
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.45,
+ "segunda_opcao_id": "5581",
+ "extras_ids": [
+  "5581",
+  "4708"
+ ],
+ "multi_tema": true,
+ "justificativa": "A alternativa correta é a B. O eixo da questão é se o juiz pode condenar mesmo quando o MP pede a absolvição (art. 385 do CPP), o que é matéria da sentença condenatória. A alternativa E puxa a discussão para o sistema acusatório, e as alternativas A, C e D tratam da Lei de Drogas (rito, regime e tráfico privilegiado).",
+ "id": "Q0127",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 590,
+  "cache_w": 14653,
+  "cache_r": 237485,
+  "custo_usd": 0.178303
+ }
+}

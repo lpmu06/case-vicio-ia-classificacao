@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "5066",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.35,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5068",
+ "extras_ids": [
+  "5103",
+  "4695",
+  "4688",
+  "5068"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é multi-tema: cada assertiva cobra um assunto diferente (estupro de vulnerável, ação penal na sonegação fiscal, atenuante ambiental, concurso formal impróprio, crime de responsabilidade de prefeito), sem eixo comum. Optei por Concurso de Crimes porque é a pista de origem e o único instituto da Parte Geral presente (item IV). A confiança é baixa.",
+ "id": "Q0288",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 563,
+  "cache_w": 14066,
+  "cache_r": 237485,
+  "custo_usd": 0.172592
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5159",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.72,
+ "segunda_opcao_id": "5177",
+ "extras_ids": [
+  "5177"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pede o momento consumativo do furto segundo a teoria da amotio/apprehensio (Súmula 582 STJ aplicada ao furto): houve inversão da posse, logo o furto está consumado. O eixo é furto, mas a questão também cobra a distinção entre crime consumado e tentado.",
+ "id": "Q0336",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 378,
+  "cache_w": 14289,
+  "cache_r": 237485,
+  "custo_usd": 0.17087
+ }
+}

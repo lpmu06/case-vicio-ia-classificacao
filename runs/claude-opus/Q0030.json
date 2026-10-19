@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5134",
+ "subtema_n2_id": "5135",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5128",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a tipificação do atentado contra a liberdade de trabalho (art. 197, I, CP) e a distinção com tipos próximos dos arts. 198 e 203. Por isso o enquadramento é em Crimes contra a Organização do Trabalho, e não em Lesão Corporal, como sugeria a origem.",
+ "id": "Q0030",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 383,
+  "cache_w": 14822,
+  "cache_r": 237485,
+  "custo_usd": 0.174899
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5089",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5222",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige identificar qual dos crimes listados possui modalidade culposa; a resposta é o peculato culposo, previsto no art. 312, §2º, do CP. Embora haja alternativas com outros crimes, o núcleo cobrado é a modalidade de peculato.",
+ "id": "Q0022",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1026,
+  "out": 383,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

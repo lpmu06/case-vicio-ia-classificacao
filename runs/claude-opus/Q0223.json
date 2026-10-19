@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5079",
+ "subtema_n2_id": "5086",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.72,
+ "segunda_opcao_id": "5227",
+ "extras_ids": [
+  "5084"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa a tipificação do art. 349-A do CP. Esse artigo pune o ingresso de aparelho de comunicação em presídio e, segundo o STJ, alcança também o chip. Trata-se de crime contra a Administração da Justiça, que os metadados incluem no subtema residual 5086.",
+ "id": "Q0223",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 519,
+  "cache_w": 13828,
+  "cache_r": 237485,
+  "custo_usd": 0.16959400000000002
+ }
+}

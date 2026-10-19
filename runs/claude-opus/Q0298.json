@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4694",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.5,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "4687",
+ "extras_ids": [
+  "4695"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra os crimes contra as relações de consumo do art. 7º da Lei 8.137/90, que admite modalidade culposa (parágrafo único). Por isso o item está errado. Na árvore, o tema mais próximo é o da tutela penal da relação de consumo (4694). As alternativas são Economia Popular (4687) e Crimes Tributários (4695), que também tratam da Lei 8.137/90.",
+ "id": "Q0298",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 662,
+  "cache_w": 13798,
+  "cache_r": 237485,
+  "custo_usd": 0.172237
+ }
+}

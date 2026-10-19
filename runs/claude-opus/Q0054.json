@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5170",
+ "subtema_n2_id": "5174",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5219",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra classificações doutrinárias dos crimes (mera atividade, de lesão, plurissubjetivo, pluriofensivo). Os tipos penais das alternativas servem só de exemplo, então o tema é Classificações dos Crimes.",
+ "id": "Q0054",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 357,
+  "cache_w": 14882,
+  "cache_r": 237485,
+  "custo_usd": 0.17492
+ }
+}

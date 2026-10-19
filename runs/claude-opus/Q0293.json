@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5189",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5187",
+ "extras_ids": [
+  "5190",
+  "5188"
+ ],
+ "multi_tema": false,
+ "justificativa": "O caso pede que se calcule a prescrição após a condenação definitiva. Para Lucas, o saldo de 11 meses prescreve em 3 anos (art. 113 c/c art. 109, VI, CP), contados da interrupção do cumprimento em 2022, o que leva a 2025. O eixo é a prescrição da pretensão executória, embora as alternativas também tratem da prescrição da multa e da pretensão punitiva.",
+ "id": "Q0293",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 608,
+  "cache_w": 14340,
+  "cache_r": 237485,
+  "custo_usd": 0.175936
+ }
+}

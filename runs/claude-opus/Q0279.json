@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5188",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5186",
+ "extras_ids": [
+  "5178",
+  "5159"
+ ],
+ "multi_tema": false,
+ "justificativa": "O furto simples tem pena máxima de 4 anos, o que dá prescrição em 8 anos (art. 109, IV, CP). Como o agente tinha 19 anos, menor de 21 na data do fato, o prazo cai pela metade e fica em 4 anos (art. 115, CP). A denúncia só foi recebida após 4 anos e 6 meses, então ocorreu a prescrição da pretensão punitiva em abstrato (alternativa C). As alternativas sobre arrependimento eficaz, desistência voluntária, tentativa e crime oco são apenas distratores de iter criminis.",
+ "id": "Q0279",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 926,
+  "cache_w": 14188,
+  "cache_r": 237485,
+  "custo_usd": 0.18095999999999998
+ }
+}

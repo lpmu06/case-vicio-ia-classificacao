@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5211",
+ "subtema_n2_id": "5213",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.98,
+ "segunda_opcao_id": "5212",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra diretamente imputabilidade/inimputabilidade penal, incluindo menoridade, doença mental, desenvolvimento mental incompleto ou retardado, emoção/paixão e embriaguez, todos pontos do art. 26 a 28 do CP. O subtema específico é Inimputabilidade dentro de Teoria do Crime: Culpabilidade.",
+ "id": "Q0255",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1227,
+  "out": 191,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

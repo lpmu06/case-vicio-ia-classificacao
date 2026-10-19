@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5211",
+ "subtema_n2_id": "5217",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.78,
+ "segunda_opcao_id": "5212",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a noção de coculpabilidade, ligada à menor autodeterminação do agente por condicionamentos sociais, tema de culpabilidade penal. Na árvore, esse recorte aparece expressamente entre as causas supralegais/exculpantes de culpabilidade, embora também dialogue com o conceito geral de culpabilidade.",
+ "id": "Q0139",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1082,
+  "out": 599,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

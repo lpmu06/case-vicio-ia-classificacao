@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra especificamente a identificação e o conteúdo de teorias criminológicas nominadas - teoria ecológica da Escola de Chicago, teoria da associação diferencial (aprendizagem social) e a figura dos crimes do colarinho branco/cifras negras -, exigindo conhecimento dos autores e conceitos próprios de cada uma. Isso corresponde exatamente ao critério de desempate do subtema 4388 (\"Teorias Criminológicas em Espécie\"): quando o enunciado cobra uma teoria específica, seus autores ou conceitos próprios, usa-se 4388, e não a categoria ampla 4387 (nível sociológico). Mantém-se o tema de nível 1 4385, confirmado no estágio anterior, pois todas as assertivas giram em torno do eixo comum das teorias sociológicas explicativas da criminalidade, sem configurar multi-tema de ramos distintos.",
+ "id": "Q0024",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4385",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão testa teorias sociológicas explicativas da criminalidade (teoria ecológica da Escola de Chicago, associação diferencial e crimes do colarinho branco/cifras negras), tema central coberto por \"Teorias Sociológicas Explicativas da Criminalidade\", cujo subtema \"Teorias Criminológicas em Espécie\" abrange exatamente esses institutos. Como são várias teorias sob o mesmo eixo temático (teorias sociológicas da criminalidade), não se trata de multi-tema no sentido de ramos distintos."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1297,
+  "cache_w": 30916,
+  "cache_r": 78694,
+  "custo_usd": 0.1572008
+ }
+}

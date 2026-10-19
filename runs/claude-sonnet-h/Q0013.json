@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5503",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5501",
+ "extras_ids": [
+  "5502"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pede qual alternativa NÃO está entre as competências legais do juiz das garantias previstas no art. 3º-B do CPP (incluído pela Lei 13.964/2019). Todas as alternativas reproduzem (ou alteram sutilmente) incisos desse artigo: (A) remete ao inciso X (habeas corpus) combinado com trancamento de ofício, que na verdade é vedado ao juiz das garantias decidir de ofício - é a pegadinha; (B) homologação de ANPP é inciso XI; (C) ser informado da instauração de investigação é inciso I; (D) produção antecipada de provas urgentes é inciso VIII, mas o CPP fala em contraditório diferido/em cartório, não necessariamente audiência pública e oral - possível pegadinha também. De qualquer forma, o eixo central é exatamente a competência funcional do juiz das garantias do art. 3º-B CPP, que é o subtema específico 'Juiz das Garantias' (5503), dentro do tema de nível 1 'Inquérito Policial' (5498), confirmando a classificação anterior. Mantenho baixa chance residual para 'Conclusão e Arquivamento' (trancamento de inquérito) e ANPP como temas correlatos, mas o núcleo é claramente a enumeração de competências do art. 3º-B, tema específico do juiz das garantias.",
+ "id": "Q0013",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente das competências legais do Juiz das Garantias (art. 3º-B do CPP, introduzido pelo \"pacote anticrime\"), instituto relacionado à fase de investigação preliminar/inquérito policial. Dentro da árvore, \"Juiz das Garantias\" é subtema específico de \"Inquérito Policial\" (nível 1, id 5498), em Processo Penal, cobrindo exatamente o conteúdo cobrado (HC durante a investigação, homologação de ANPP, ciência da instauração de investigação, produção antecipada de provas urgentes)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1263,
+  "cache_w": 31770,
+  "cache_r": 78694,
+  "custo_usd": 0.1618758
+ }
+}

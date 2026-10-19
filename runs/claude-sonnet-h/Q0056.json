@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5066",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5070",
+ "extras_ids": [
+  "5067",
+  "5068",
+  "5069"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão pede o sistema correto de aplicação de pena \"no caso de pluralidade delitiva\" e as alternativas abordam, cada uma, um recorte diferente do concurso de crimes: cúmulo material genérico (A), exasperação no concurso formal imperfeito (B, incorreta, pois nesse caso é cúmulo material), exasperação no concurso material heterogêneo (C, incorreta), exasperação considerando apenas crimes consumados (D, incorreta) e cúmulo material da multa ressalvado o crime continuado (E). Não há um único instituto testado isoladamente - a questão exige domínio de todo o capítulo de concurso de crimes (material, formal, continuado e multa), confirmando o tema de nível 1 Concurso de Crimes (5066), mas sem um subtema único e certo, por isso subtema_n2_id = null. Marco multi_tema = true e incluo como extras os subtemas que aparecem nas alternativas (concurso material 5067, concurso formal 5068, crime continuado 5069) e como segunda opção a pena de multa no concurso de crimes (5070), tema da alternativa que provavelmente é o gabarito.",
+ "id": "Q0056",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5066",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa diretamente sobre os sistemas de aplicação da pena no concurso de crimes (cúmulo material, exasperação, concurso formal/material, crime continuado), tema central de Concurso de Crimes (nível 1, id 5066)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1799,
+  "cache_w": 29703,
+  "cache_r": 78694,
+  "custo_usd": 0.15734179999999998
+ }
+}

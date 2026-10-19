@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": "5181",
+ "confianca_ramo": 0.7,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5194",
+ "extras_ids": [
+  "5194"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a retroatividade da lei penal que deixa de considerar o fato crime (abolitio criminis), que alcança o réu mesmo após o trânsito em julgado (art. 2º do CP). O eixo é a sucessão de leis penais no tempo, que é direito material e não processual. A alternativa é Punibilidade > Abolitio Criminis.",
+ "id": "Q0119",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 578,
+  "cache_w": 13982,
+  "cache_r": 237485,
+  "custo_usd": 0.172149
+ }
+}

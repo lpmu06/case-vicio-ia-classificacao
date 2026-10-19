@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": "5520",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "4693",
+ "extras_ids": [
+  "4693"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta o prazo da prisão temporária. Como a epidemia com resultado morte é crime hediondo, aplica-se o prazo de 30 dias, prorrogável por igual período (art. 2º, § 4º, da Lei 8.072/1990). O núcleo é a prisão temporária; a hediondez aparece como tema secundário.",
+ "id": "Q0157",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 479,
+  "cache_w": 13896,
+  "cache_r": 237485,
+  "custo_usd": 0.16942600000000002
+ }
+}

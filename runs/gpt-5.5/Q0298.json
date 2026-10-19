@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4694",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.58,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "4687",
+ "extras_ids": [
+  "4695"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra crime especial contra relações de consumo, especificamente modalidade subjetiva dos tipos da Lei 8.137/1990. A árvore não possui tema próprio para crimes contra relações de consumo da Lei 8.137; o enquadramento mais próximo é o bloco de crimes consumeristas, embora não seja propriamente CDC.",
+ "id": "Q0298",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1031,
+  "out": 2004,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

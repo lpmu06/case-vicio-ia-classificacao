@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4373",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5170",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão compara a Escola Clássica e a Escola Positiva e cobra seus fundamentos (livre-arbítrio × determinismo) e seus autores (Carrara, Lombroso, Ferri, Garofalo, Carmignani). Esse é o núcleo do subtema Escolas Criminológicas. Não se trata de teorias da pena em si, apesar do que sugere o assunto de origem.",
+ "id": "Q0253",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 484,
+  "cache_w": 14032,
+  "cache_r": 237485,
+  "custo_usd": 0.170721
+ }
+}

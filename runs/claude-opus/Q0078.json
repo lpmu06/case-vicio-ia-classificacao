@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4697",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4691",
+ "extras_ids": [
+  "4691"
+ ],
+ "multi_tema": false,
+ "justificativa": "Quase todas as alternativas pedem o enquadramento das condutas na Lei 10.826/2003: porte de munição, posse ou porte de arma, comércio ilegal, omissão de cautela e arma com numeração raspada. A direção sem habilitação (CTB) aparece só de forma secundária em uma alternativa.",
+ "id": "Q0078",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 478,
+  "cache_w": 14656,
+  "cache_r": 237485,
+  "custo_usd": 0.176057
+ }
+}

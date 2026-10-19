@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5160",
+ "extras_ids": [
+  "5159"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão compara institutos de furto (teoria da contrectatio para consumação) e roubo (distinção furto/roubo pelo uso de narcóticos para reduzir resistência da vítima; tentativa de roubo impróprio), exigindo conhecimento simultâneo dos dois tipos penais do Título II do CP, sem prevalência de um só. Por isso mantém-se no tema amplo de nível 1 \"Dos Crimes Contra o Patrimônio\" (5157), com subtema null, já que não há um único subtema (Furto 5159 ou Roubo 5160) que cubra todas as afirmativas isoladamente - trata-se de questão multi-tema dentro do mesmo ramo.",
+ "id": "Q0006",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre institutos dos crimes de furto e roubo (teoria da contrectatio para consumação do furto, distinção entre furto e roubo no uso de narcóticos, e tentativa de roubo impróprio), temas de direito penal material que se enquadram em \"Dos Crimes Contra o Patrimônio\" (subtemas Furto e Roubo), tema de nível 1 dentro da disciplina Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1021,
+  "cache_w": 34611,
+  "cache_r": 78694,
+  "custo_usd": 0.1731158
+ }
+}

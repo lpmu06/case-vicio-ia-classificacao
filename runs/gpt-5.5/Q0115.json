@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a identificação de uma teoria criminológica específica apta a explicar a passagem de um indivíduo integrado socialmente para a prática delitiva em contexto de frustração/pressão social, indicando especialmente a teoria da anomia. Como as alternativas comparam teorias nominadas como Escola de Chicago, associação diferencial, anomia, labeling approach e teoria crítica, o enquadramento mais preciso é Teorias Criminológicas em Espécie.",
+ "id": "Q0115",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1336,
+  "out": 346,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

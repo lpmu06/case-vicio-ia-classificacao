@@ -1,0 +1,30 @@
+{
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5526",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5530",
+ "extras_ids": [],
+ "multi_tema": false,
+ "fora": false,
+ "justificativa": "Confirmado o tema de nível 1 \"Procedimento do Tribunal do Júri\" (5524): os três artigos citados (406, 409 e 421, §1º, CPP) pertencem ao capítulo específico do rito bifásico do júri. Quanto ao nível 2, o conteúdo da questão versa sobre a sequência de atos da primeira fase (citação para resposta à acusação no art. 406, oitiva do MP/querelante sobre preliminares e documentos no art. 409, e remessa dos autos ao MP diante de circunstância superveniente após preclusão da pronúncia no art. 421, §1º) — ou seja, o encadeamento procedimental típico do judicium accusationis, e não o conteúdo de uma decisão de pronúncia/impronúncia/absolvição sumária/desclassificação em si (que seria 5527). Por isso mantenho o subtema \"Procedimento Bifásico do Tribunal do Júri\" (5526), com confiança moderada por envolver também um dispositivo (art. 421, §1º) que tangencia os efeitos da pronúncia. A segunda opção em nível 1 permanece \"Procedimento Ordinário\" (5530) apenas pela semelhança estrutural dos atos (resposta à acusação, oitiva sobre preliminares), mas os dispositivos citados são exclusivos do rito do júri.",
+ "id": "Q0028",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": "5530",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata dos arts. 406, 409 e 421, §1º, do CPP, todos inseridos no Capítulo \"Do Processo e do Julgamento dos Crimes da Competência do Tribunal do Júri\" (primeira fase/judicium accusationis: resposta à acusação, oitiva sobre preliminares e documentos, e possibilidade de nova manifestação do MP após preclusão da pronúncia em caso de circunstância superveniente). Trata-se, portanto, do procedimento bifásico do júri, cabendo no tema de nível 1 \"Procedimento do Tribunal do Júri\" (5524), especificamente no subtema \"Procedimento Bifásico do Tribunal do Júri\". Não é caso de \"Procedimento Ordinário\" (5530), pois os artigos citados são específicos do rito do júri, embora compartilhem alguma semelhança estrutural com o procedimento comum (daí a segunda opção)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1512,
+  "cache_w": 35029,
+  "cache_r": 78694,
+  "custo_usd": 0.18002579999999999
+ }
+}

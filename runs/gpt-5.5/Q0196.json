@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [
+  "4378"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra diretamente o Labelling Approach/Teoria do Etiquetamento Social, uma teoria criminológica específica de matriz interacionista sobre controle social e seletividade penal. Por isso, o enquadramento mais preciso é Teorias Sociológicas Explicativas da Criminalidade, no subtema Teorias Criminológicas em Espécie.",
+ "id": "Q0196",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1194,
+  "out": 265,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

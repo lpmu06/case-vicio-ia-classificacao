@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5562",
+ "confianca_ramo": 0.74,
+ "confianca_subtema": 0.68,
+ "segunda_opcao_id": "5534",
+ "extras_ids": [
+  "5574",
+  "5475"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão cobra principalmente o recurso cabível contra a absolvição sumária no procedimento comum, cuja resposta é apelação. Também exige conhecer o efeito civil da absolvição fundada em fato que não constitui crime, razão pela qual há interseção relevante com sentença absolutória/ação civil ex delicto.",
+ "id": "Q0003",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 2244,
+  "out": 1696,
+  "cache_w": 0,
+  "cache_r": 128768,
+  "custo_usd": null
+ }
+}

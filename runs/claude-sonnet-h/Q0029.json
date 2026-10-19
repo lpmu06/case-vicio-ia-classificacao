@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão pede qual conduta configura crime segundo a Lei 13.869/2019 (Lei de Abuso de Autoridade), analisando hipóteses de nota de culpa, interrogatório com advogado, repouso noturno, entrevista reservada e invasão de domicílio - todos tipos penais previstos nos arts. 12 a 22 da referida lei. O tema central é integralmente a Lei de Abuso de Autoridade, confirmando o tema de nível 1 (id 4684). Como esse tema não possui subtemas de nível 2, subtema_n2_id permanece null.",
+ "multi_tema": false,
+ "segunda_opcao_id": null,
+ "subtema_n2_id": null,
+ "tema_n1_id": "4684",
+ "id": "Q0029",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4684",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão pede diretamente qual conduta configura crime segundo a Lei nº 13.869/2019 (Lei de Abuso de Autoridade), exigindo conhecimento dos tipos penais dessa lei especial (nota de culpa, interrogatório com advogado, repouso noturno, entrevista com advogado, invasão de domicílio). O tema central é a Lei de Abuso de Autoridade, que na árvore corresponde ao tema de nível 1 \"Abuso de Autoridade\" (id 4684), em Direito Penal - Legislação Especial. A pista de origem (Medida de Segurança) está equivocada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 967,
+  "cache_w": 28164,
+  "cache_r": 78694,
+  "custo_usd": 0.14169980000000001
+ }
+}

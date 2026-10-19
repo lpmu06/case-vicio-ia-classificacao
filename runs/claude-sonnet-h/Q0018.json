@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5540",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata exatamente das hipóteses legais de exclusão da competência do Juizado Especial Criminal - conexão, não localização do acusado (impossibilidade de citação) e complexidade da causa que impede o imediato oferecimento da denúncia (arts. 66, parágrafo único, e 77, §2º, da Lei 9.099/95). Isso é objeto específico do subtema \"Competência dos Juizados Especiais Criminais\" (5540), dentro do tema \"Procedimento Sumaríssimo\" (5539), que trata precisamente dos critérios de inclusão/exclusão da competência do JECRIM para infrações de menor potencial ofensivo. Não se trata de competência genérica (5480), pois o enunciado é especificamente sobre as regras do microssistema dos Juizados Especiais.",
+ "id": "Q0018",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5539",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata das hipóteses de exclusão da competência do Juizado Especial Criminal (conexão, revelia/não localização do acusado e complexidade/circunstância que impeça o imediato oferecimento da denúncia - art. 66 e 77, §2º, da Lei 9.099/95), matéria especificamente tratada no subtema \"Competência dos Juizados Especiais Criminais\", dentro do tema de nível 1 \"Procedimento Sumaríssimo\". Não se trata de competência genérica do processo penal (tema 5480), mas da disciplina própria do rito sumaríssimo dos Juizados."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1085,
+  "cache_w": 33520,
+  "cache_r": 78694,
+  "custo_usd": 0.16867179999999998
+ }
+}

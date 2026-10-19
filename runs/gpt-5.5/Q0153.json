@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5222",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5224",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a identificação do 'dolo geral' ou dolus generalis, modalidade relacionada ao elemento subjetivo do fato típico. Embora envolva uma sequência de condutas, o núcleo testado é a classificação do dolo, não o iter criminis.",
+ "id": "Q0153",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1056,
+  "out": 611,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

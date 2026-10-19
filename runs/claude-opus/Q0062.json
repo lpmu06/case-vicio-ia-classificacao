@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": "5182",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5180",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a extraterritorialidade incondicionada do art. 7º, I, e §1º, do CP: o agente é punido segundo a lei brasileira mesmo que tenha sido absolvido ou condenado no estrangeiro, já que o crime foi contra o patrimônio de sociedade de economia mista. Isso é Lei Penal no Espaço, e não Concurso de Crimes.",
+ "id": "Q0062",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 406,
+  "cache_w": 14901,
+  "cache_r": 237485,
+  "custo_usd": 0.176074
+ }
+}

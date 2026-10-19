@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5158",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5159",
+ "extras_ids": [
+  "5159"
+ ],
+ "multi_tema": false,
+ "justificativa": "O ponto decisivo da questão é a incidência ou não da imunidade penal patrimonial entre ascendente e descendente, afastada quando a vítima tem 60 anos ou mais, o que remete às disposições gerais dos crimes contra o patrimônio. O furto qualificado pelo rompimento de obstáculo é relevante para a alternativa correta, mas a pegadinha central está na escusa absolutória e sua exceção.",
+ "id": "Q0009",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1115,
+  "out": 680,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

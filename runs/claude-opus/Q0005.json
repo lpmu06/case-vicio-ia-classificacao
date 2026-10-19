@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5203",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5201",
+ "extras_ids": [
+  "5201"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra principalmente a reincidência e o período depurador do art. 64, I, do CP. O livramento condicional cumprido sem revogação entra na contagem dos 5 anos, de modo que Carlos é primário. Isso leva à agravante da segunda fase da dosimetria (5203) e, em consequência, à fixação do regime inicial (5201, subtema irmão e segunda opção).",
+ "id": "Q0005",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 778,
+  "cache_w": 14364,
+  "cache_r": 237485,
+  "custo_usd": 0.17954599999999998
+ }
+}

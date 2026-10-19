@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5169",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5157",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam do crime de receptação (art. 180 CP): quem pode ser sujeito ativo, a forma culposa, a receptação qualificada pela atividade comercial e a autonomia em relação ao crime antecedente (§4º).",
+ "id": "Q0135",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 357,
+  "cache_w": 13885,
+  "cache_r": 237485,
+  "custo_usd": 0.16687300000000002
+ }
+}

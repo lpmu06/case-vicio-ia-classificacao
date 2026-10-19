@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "4693",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.45,
+ "confianca_subtema": 0.45,
+ "segunda_opcao_id": "4705",
+ "extras_ids": [
+  "5201",
+  "4705",
+  "4699",
+  "5187",
+  "5502"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão percorre alterações do Pacote Anticrime em vários institutos sem um eixo comum: limite de 40 anos, hediondez do roubo, colaboração premiada, perfil genético e ANPP/prescrição. A alternativa correta é a B (o roubo com emprego de arma de fogo passou a ser hediondo), por isso escolhi Crimes Hediondos como ramo principal, com confiança baixa.",
+ "id": "Q0171",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 900,
+  "cache_w": 14158,
+  "cache_r": 237485,
+  "custo_usd": 0.180185
+ }
+}

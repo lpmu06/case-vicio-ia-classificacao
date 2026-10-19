@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.86,
+ "segunda_opcao_id": "5160",
+ "extras_ids": [
+  "5159",
+  "5160",
+  "5177"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão compara furto e roubo, abordando consumação do furto, violência imprópria no roubo e tentativa de roubo impróprio; portanto, o eixo mais seguro é o tema amplo de crimes contra o patrimônio. Não convém restringir a um único subtema irmão, pois há itens relevantes tanto de furto quanto de roubo, com interface pontual com consumação/tentativa.",
+ "id": "Q0006",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 2160,
+  "out": 1203,
+  "cache_w": 0,
+  "cache_r": 128768,
+  "custo_usd": null
+ }
+}

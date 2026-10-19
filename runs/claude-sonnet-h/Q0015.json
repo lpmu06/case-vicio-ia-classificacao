@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5500",
+ "extras_ids": [
+  "5501"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 Inquérito Policial (5498): a questão testa literalidade de dispositivos do CPP sobre o inquérito (polícia judiciária, art. 4º; interpretação da lei processual, art. 3º; prazo com preso, art. 10; devolução para diligências ao MP, art. 16; requerimento de diligências pelo ofendido, art. 14), todos no núcleo do tema. Quanto ao subtema, as alternativas não convergem para um único: a letra C/D/E remetem ao Procedimento do Inquérito Policial (5500), a letra D também toca Conclusão/Arquivamento (5501), e a letra B é regra geral de interpretação da lei processual, estranha a qualquer subtema específico de inquérito. Por isso, sem um subtema que cubra o conjunto das alternativas com segurança, mantenho subtema_n2_id como null e marco multi_tema, indicando 5500 como segunda opção mais próxima e 5501 como tema extra relevante.",
+ "id": "Q0015",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam sobre regras do inquérito policial no CPP: atribuição da polícia judiciária, interpretação da lei processual, prazo do inquérito com preso, devolução para diligências e requerimento de diligências pelo ofendido. É questão central e específica de Inquérito Policial, tema de nível 1 em Processo Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1425,
+  "cache_w": 31299,
+  "cache_r": 78694,
+  "custo_usd": 0.1612578
+ }
+}

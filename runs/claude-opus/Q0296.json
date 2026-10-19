@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5472",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.7,
+ "segunda_opcao_id": "5474",
+ "extras_ids": [
+  "5065"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a sucessão processual do ofendido morto na ação penal privada (art. 31 do CPP: cônjuge, ascendente, descendente ou irmão podem oferecer queixa ou prosseguir na ação). Isso é legitimidade na ação penal de iniciativa privada. Gabarito: Errado.",
+ "id": "Q0296",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 476,
+  "cache_w": 13821,
+  "cache_r": 237485,
+  "custo_usd": 0.168728
+ }
+}

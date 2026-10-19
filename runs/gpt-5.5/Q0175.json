@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5092",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": "5091",
+ "extras_ids": [
+  "5091",
+  "5093"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa a distinção entre corrupção passiva, concussão e corrupção ativa em crime contra a Administração Pública. Como João, agente público, solicitou vantagem indevida em razão da função, o núcleo é corrupção passiva, e não concussão, que exigiria o verbo 'exigir'.",
+ "id": "Q0175",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1171,
+  "out": 327,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

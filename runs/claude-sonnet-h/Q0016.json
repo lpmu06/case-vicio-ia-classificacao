@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5584",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5517",
+ "extras_ids": [
+  "5586",
+  "5589",
+  "5519"
+ ],
+ "multi_tema": true,
+ "justificativa": "Mantida a classificação em 5584 (Teoria Geral das Prisões) como tema de nível 1, com 5517 (Prisões em Espécie) como segunda opção. A questão é inequivocamente multi-tema: o item I trata da vedação à decretação/conversão de ofício do flagrante em preventiva (matéria de Prisão Preventiva, subtema 5519 de 5517); o item II trata da inconstitucionalidade da prisão especial por diploma superior, art. 295, VII, CPP (subtema \"Imunidades Prisionais e Prisões Especiais\", 5586, dentro de 5584); e o item III trata do juiz das garantias e apresentação em 72h (subtema \"Audiência de Custódia\", 5589, também dentro de 5584). Como dois dos três itens pertencem a subtemas distintos de 5584, esse é o tema de nível 1 mais abrangente para o conjunto, e 5517 continua sendo a segunda opção por conter o item I. Como nenhum subtema único cobre a questão inteira (ela exige conhecimento de subtemas diferentes, inclusive de ramos nível-1 diferentes), subtema_n2_id fica null. Incluí como extras os subtemas efetivamente testados (5586, 5589 e 5519) para referência.",
+ "id": "Q0016",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5584",
+  "segunda_opcao_n1_id": "5517",
+  "confianca_ramo": 0.5,
+  "multi_tema": true,
+  "justificativa": "A questão combina três institutos distintos ligados ao tema \"prisão\": (I) decretação/conversão de ofício do flagrante em preventiva, que é específico de Prisão Preventiva (subtema de Prisões em Espécie, 5517); (II) prisão especial por diploma de nível superior (art. 295, VII, CPP), que se relaciona ao subtema \"Imunidades Prisionais e Prisões Especiais\" de Teoria Geral das Prisões (5584); e (III) juiz das garantias e apresentação do presa em até 72h (art. 3º-B, §1º, CPP), ligado a \"Audiência de Custódia\", também subtema de Teoria Geral das Prisões (5584). Por não haver um eixo único exato, tratei como multi-tema dentro do ramo de prisões, escolhendo 5584 por conter dois dos três itens (II e III) e 5517 como segunda opção por conter o item I."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2433,
+  "cache_w": 35720,
+  "cache_r": 78694,
+  "custo_usd": 0.1925498
+ }
+}

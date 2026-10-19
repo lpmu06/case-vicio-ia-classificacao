@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5170",
+ "subtema_n2_id": "5174",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede exatamente a identificação de crimes que se encaixam nas classificações doutrinárias de mera atividade, de lesão, plurissubjetivo e pluriofensivo — exemplos clássicos do conteúdo de \"Classificações dos Crimes\" (5174), subtema de \"Introdução ao Estudo do Direito Penal\" (5170). Não há elementos de teoria do crime (dolo, culpa, tipicidade) nem de outro recorte do tema-guarda-chuva, de modo que o subtema específico se aplica com alta confiança.",
+ "id": "Q0054",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "confianca_ramo": 0.95,
+  "fora": false,
+  "justificativa": "A questão exige conhecimento das classificações doutrinárias dos delitos (mera atividade, de lesão, plurissubjetivo, pluriofensivo), tema de Direito Penal (parte geral), correspondente ao subtema \"Classificações dos Crimes\" dentro do tema de nível 1 \"Introdução ao Estudo do Direito Penal\".",
+  "multi_tema": false,
+  "segunda_opcao_n1_id": null,
+  "tema_n1_id": "5170"
+ },
+ "uso": {
+  "in": 4,
+  "out": 1035,
+  "cache_w": 29753,
+  "cache_r": 78694,
+  "custo_usd": 0.1499688
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5149",
+ "subtema_n2_id": "5152",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5150",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão narra conduta de Mévia que instiga Tício (pessoa com depressão) a se suicidar, testando diretamente a tipicidade do art. 122 do CP (induzimento, instigação ou auxílio a suicídio e automutilação), inclusive a natureza do crime quanto ao resultado (independe de lesão ou morte para se consumar, sendo esses resultados apenas causas de aumento de pena pelos §§1º e 2º) e a questão da tentativa (o crime não admite tentativa na forma tradicional do resultado, pois a consumação se dá com o próprio ato de induzir/instigar/auxiliar, independente do resultado da vítima). Não há dolo de matar por parte de Mévia (não é homicídio), nem execução direta do ato letal, de modo que o enquadramento correto é o subtema específico \"Induzimento, Instigação ou Auxílio ao Suicídio\" (5152), dentro do tema de nível 1 \"Dos Crimes Contra a Vida\" (5149). Mantenho a confirmação do tema de nível 1 do estágio anterior e acrescento o subtema com alta confiança, dado que a redação da questão, as alternativas e os dispositivos aplicáveis (art. 122, caput e §§1º/2º, CP) correspondem exatamente à descrição e palavras-chave do subtema 5152, sem menção a qualificadoras de homicídio, feminicídio ou outro instituto que justificasse subtema diverso.",
+ "id": "Q0049",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5149",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o crime de induzimento, instigação ou auxílio a suicídio e automutilação (art. 122 do CP), analisando a conduta de Mévia que instigou Tício ao suicídio e as consequências jurídicas (tentativa, resultado exigido, qualificadoras). Trata-se de matéria de direito penal material, inserida no tema \"Dos Crimes Contra a Vida\" (nível 1, id 5149), que possui o subtema específico \"Induzimento, Instigação ou Auxílio ao Suicídio\". Não é questão processual, nem de legislação especial, nem multi-tema, pois todas as alternativas giram em torno do mesmo tipo penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1650,
+  "cache_w": 31638,
+  "cache_r": 78694,
+  "custo_usd": 0.1651588
+ }
+}

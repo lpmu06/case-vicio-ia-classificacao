@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.62,
+ "segunda_opcao_id": "5201",
+ "extras_ids": [
+  "5203",
+  "5201"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é de Direito Penal material e trata de Teoria da Pena, combinando reincidência/período depurador como agravante com a fixação do regime inicial da pena privativa de liberdade. Como há incidência relevante de dois subtemas irmãos, é mais seguro classificá-la no tema-pai.",
+ "id": "Q0005",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 2452,
+  "out": 1180,
+  "cache_w": 0,
+  "cache_r": 128768,
+  "custo_usd": null
+ }
+}

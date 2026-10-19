@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5185",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra diretamente a prática e a apuração de falta grave no curso da execução penal, matéria típica da Lei de Execução Penal. Embora uma alternativa mencione prescrição para apuração da falta disciplinar, o eixo comum de todas as alternativas é o regime disciplinar da execução penal.",
+ "id": "Q0272",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1159,
+  "out": 245,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

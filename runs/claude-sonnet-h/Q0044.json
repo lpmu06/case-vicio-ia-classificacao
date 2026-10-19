@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5487",
+ "subtema_n2_id": "5488",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.82,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [
+  "5548"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão trata diretamente dos efeitos da citação pessoal válida (art. 367 CPP): réu citado pessoalmente que não comparece é declarado revel, o processo prossegue com defensor dativo nomeado, sem suspensão — diferentemente da hipótese do art. 366 (citação por edital/não localizado). A pergunta explicitamente ancora o raciocínio em \"após a citação pessoal válida\", tornando o ato de citação e seus efeitos o eixo central, cabendo no subtema 5488 (Citação e Contagem dos Prazos). A menção à ausência de confissão ficta é consequência da revelia decorrente da citação, não um questionamento sobre o meio de prova \"confissão\" em si (5548/5543), por isso mantenho o tema 5487 como principal, com 5543 como segunda opção por conter o instituto citado tangencialmente.",
+ "id": "Q0044",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5487",
+  "segunda_opcao_n1_id": "5543",
+  "confianca_ramo": 0.72,
+  "multi_tema": false,
+  "justificativa": "A questão testa os efeitos da citação pessoal válida no processo penal: revelia, nomeação de defensor dativo e a inexistência de confissão ficta (diferentemente do processo civil). O eixo central é a disciplina da citação e suas consequências processuais, enquadrando-se em \"Comunicação dos Atos Processuais\" (subtema Citação e Contagem dos Prazos). Hesitei com \"Provas em Espécies\" por mencionar confissão, mas a confissão ficta aqui é tratada como efeito da revelia decorrente da citação, não como meio de prova em si."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1370,
+  "cache_w": 36576,
+  "cache_r": 78694,
+  "custo_usd": 0.1860338
+ }
+}

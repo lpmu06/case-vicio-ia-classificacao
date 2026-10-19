@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": "4378",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4374",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede o motivo pelo qual, segundo Vera Regina Pereira de Andrade, a clientela do sistema penal é composta por pobres: a alternativa correta (E) remete à maior vulnerabilidade/chance de criminalização (seletividade penal), rejeitando explicações biológicas/culturais (A, B, C, D), típicas de teorias etiológicas superadas. O núcleo testado é a aplicação concreta e seletiva da lei penal pelas agências de controle social (polícia, MP, Judiciário) sobre certos grupos sociais - exatamente o objeto da criminalização secundária, dentro do tema \"Processos de Criminalização e Cifras Criminais\" (4377), subtema \"Criminalização Primária e Secundária\" (4378). Não trata de cifras ocultas (4379) nem é um debate sobre correntes de política criminal (4374), embora a seletividade seja tema correlato a esta; mantenho 4374 como segunda opção por essa proximidade temática, mas a questão é mais precisamente sobre seletividade/etiquetamento do sistema penal (4378).",
+ "id": "Q0002",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4377",
+  "segunda_opcao_n1_id": "4374",
+  "confianca_ramo": 0.82,
+  "multi_tema": false,
+  "justificativa": "A questão trata da seletividade do sistema penal segundo a criminologia crítica (Vera Regina Pereira de Andrade), explicando por que a \"clientela\" do sistema penal é composta por pobres em razão das maiores chances de criminalização (vulnerabilidade à seleção penal), e não por supostas características pessoais. Isso é tema central de \"Processos de Criminalização e Cifras Criminais\" (subtema Criminalização Primária e Secundária), que trata exatamente de como e por que certas pessoas/condutas são selecionadas pelo sistema penal. Como segunda opção, Política Criminal também poderia ser considerada por tratar de enfrentamento da criminalidade sob perspectiva crítica, mas o foco na seletividade/etiquetamento aponta mais precisamente para o primeiro tema."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1363,
+  "cache_w": 30592,
+  "cache_r": 78694,
+  "custo_usd": 0.1571428
+ }
+}

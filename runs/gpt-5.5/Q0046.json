@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5509",
+ "subtema_n2_id": "5510",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.86,
+ "segunda_opcao_id": "5511",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão tem como núcleo a teoria das nulidades processuais penais, especialmente a exigência de prejuízo, instrumentalidade das formas e distinção entre nulidade absoluta e relativa. Embora mencione vícios procedimentais específicos, eles aparecem como aplicação do regime geral das nulidades.",
+ "id": "Q0046",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1222,
+  "out": 359,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

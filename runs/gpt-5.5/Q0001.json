@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5527",
+ "extras_ids": [
+  "5527",
+  "5528"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão trata do procedimento do Tribunal do Júri, cobrando desaforamento e decisões da primeira fase, como impronúncia, absolvição sumária e desclassificação. Como há mistura relevante de subtemas irmãos do Júri, é mais seguro classificar no tema de nível 1, sem subtema específico.",
+ "id": "Q0001",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 130967,
+  "out": 393,
+  "cache_w": 0,
+  "cache_r": 0,
+  "custo_usd": null
+ }
+}

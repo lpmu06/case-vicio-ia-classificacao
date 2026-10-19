@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5577",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas giram em torno da Lei 11.340/2006 e dos temas repetitivos do STJ sobre ela: medidas protetivas de urgência (Tema 1.249), indenização mínima (Tema 983), sigilo e aplicação a vítimas menores (Tema 1.186). Como o eixo comum é a Lei Maria da Penha, a questão vai para o tema da Legislação Especial. A resposta correta é a E.",
+ "id": "Q0289",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 534,
+  "cache_w": 15034,
+  "cache_r": 237485,
+  "custo_usd": 0.180528
+ }
+}

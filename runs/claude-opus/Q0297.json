@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4695",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.82,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "4689",
+ "extras_ids": [
+  "4689"
+ ],
+ "multi_tema": true,
+ "justificativa": "Quatro das cinco alternativas tratam da Lei 8.137/90: dia-multa, insignificância, se o crime é formal ou material e extinção da punibilidade pelo pagamento. A alternativa D cobra o art. 6º da Lei 7.492/86, sobre o sistema financeiro. Por isso o eixo predominante é crimes tributários, e o sistema financeiro entra como tema secundário.",
+ "id": "Q0297",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 689,
+  "cache_w": 14309,
+  "cache_r": 237485,
+  "custo_usd": 0.17724499999999999
+ }
+}

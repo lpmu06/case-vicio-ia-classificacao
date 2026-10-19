@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4688",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "A questão apresenta cinco alternativas, cada uma versando sobre um instituto diferente dos crimes ambientais da Lei 9.605/1998: (A) poluição sonora e tipicidade, (B) natureza de crime permanente na destruição/impedimento de regeneração de vegetação, (C) responsabilidade penal da pessoa jurídica, (D) teoria da dupla imputação/imputação paralela, e (E) crime omissivo próprio contra a administração pública ambiental. Todos os institutos pertencem exclusivamente ao tema \"Crimes contra o meio ambiente\" (Legislação Especial), que não possui subtemas cadastrados, de modo que subtema_n2_id permanece null. Mantida a classificação do estágio anterior, com confiança elevada no ramo; marcado multi_tema=true por cobrir múltiplos institutos distintos dentro do mesmo tema de nível 1.",
+ "id": "Q0010",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4688",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente de crimes contra o meio ambiente (Lei 9.605/1998), abordando poluição sonora, crime permanente contra vegetação, responsabilidade penal de pessoa jurídica, dupla imputação e crime omissivo contra a administração pública ambiental. Todas as alternativas versam sobre institutos específicos dessa lei especial, enquadrando-se no tema \"Crimes contra o meio ambiente\" da Legislação Especial, que é preferido sobre eventual tema correlato em Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1072,
+  "cache_w": 29006,
+  "cache_r": 78694,
+  "custo_usd": 0.1465998
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5222",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5227",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede o conceito de dolo direto e o contrapõe a dolo eventual, culpa inconsciente e culpa consciente. Esses são os elementos subjetivos do tipo (art. 18 do CP), que pertencem ao subtema Crime Doloso e Culposo.",
+ "id": "Q0042",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 367,
+  "cache_w": 14916,
+  "cache_r": 237485,
+  "custo_usd": 0.175409
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "5066",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5070",
+ "extras_ids": [
+  "5067",
+  "5068",
+  "5069",
+  "5070"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão trata da pluralidade delitiva e dos sistemas de aplicação da pena no concurso de crimes, envolvendo concurso material, concurso formal, crime continuado e multa. Como não se concentra exclusivamente em um subtema irmão, a classificação mais segura é no tema geral Concurso de Crimes.",
+ "id": "Q0056",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1147,
+  "out": 658,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5583",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5580",
+ "extras_ids": [
+  "5519",
+  "5528"
+ ],
+ "multi_tema": false,
+ "justificativa": "Todas as assertivas tratam do assistente de acusação: admissão, legitimidade para pedir preventiva (art. 311 do CPP), desaforamento, intervenção prevista no CDC e momento de intervir. Esse é o núcleo do tema Sujeitos do Processo (arts. 268 a 273 do CPP), que não tem subtemas na árvore.",
+ "id": "Q0346",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 525,
+  "cache_w": 14407,
+  "cache_r": 237485,
+  "custo_usd": 0.174844
+ }
+}

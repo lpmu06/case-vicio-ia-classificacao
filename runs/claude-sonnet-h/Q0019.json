@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "Todas as alternativas versam exclusivamente sobre a ação civil ex delicto: legitimação do MP para promovê-la em favor de pobre (art. 68 CPP), suspensão do processo cível por questão prejudicial penal (art. 64, parágrafo único, CPP), efeitos do arquivamento de inquérito sobre a ação civil, e eficácia da sentença penal que reconhece descriminante putativa (erro sobre a legítima defesa) na esfera cível. O eixo comum é exatamente o subtema Ação Civil Ex Delicto (5475), dentro do tema Ação Penal (5466).",
+ "multi_tema": false,
+ "segunda_opcao_id": "5466",
+ "subtema_n2_id": "5475",
+ "tema_n1_id": "5466",
+ "id": "Q0019",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa inteiramente sobre a ação civil ex delicto (art. 68 do CPP, suspensão do processo cível por questão prejudicial penal, efeitos do arquivamento de inquérito e da sentença penal sobre a ação civil), tema processual penal classificado dentro de \"Ação Penal\" (nível 1), que possui o subtema específico \"Ação Civil Ex Delicto\"."
+ },
+ "uso": {
+  "in": 4,
+  "out": 998,
+  "cache_w": 32596,
+  "cache_r": 78694,
+  "custo_usd": 0.1633368
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": "5193",
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "4703",
+ "extras_ids": [
+  "5201"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa se a prisão provisória pode ser computada no requisito objetivo temporal dos decretos de indulto e comutação (tese repetitiva do STJ). O núcleo é indulto/comutação, que fica em Punibilidade > Anistia, Graça e Indulto. A Lei de Execução Penal fica como segunda opção, porque o pedido é feito na execução, e a detração (art. 42 do CP) aparece como tema acessório.",
+ "id": "Q0070",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 635,
+  "cache_w": 14883,
+  "cache_r": 237485,
+  "custo_usd": 0.18122200000000002
+ }
+}

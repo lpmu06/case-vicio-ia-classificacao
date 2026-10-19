@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4688",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5174",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra entendimentos do STF/STJ sobre tipos penais e responsabilização penal em crimes ambientais da Lei 9.605/1998, incluindo poluição sonora, crime permanente, pessoa jurídica e crime contra a administração ambiental. Não há subtema específico na árvore para crimes ambientais, devendo ficar no tema de Legislação Especial.",
+ "id": "Q0010",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1395,
+  "out": 318,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

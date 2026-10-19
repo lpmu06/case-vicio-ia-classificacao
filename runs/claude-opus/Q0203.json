@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4702",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5496",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O item cobra a medida assecuratória do art. 4º da Lei 9.613/1998, que permite tornar indisponíveis bens registrados em nome de interpostas pessoas. Por ser regra própria da Lei de Lavagem, a questão fica no tema Lavagem de Dinheiro.",
+ "id": "Q0203",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 371,
+  "cache_w": 13881,
+  "cache_r": 237485,
+  "custo_usd": 0.16719599999999998
+ }
+}

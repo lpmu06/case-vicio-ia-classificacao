@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5583",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa sobre as prerrogativas do ofendido no processo penal, com foco em sua atuação como assistente de acusação (habilitação, legitimidade para apelar, requisição de diligências), direito ao segredo de justiça e pedido de prisão temporária. O eixo central é a posição e os poderes do ofendido/assistente como sujeito processual, o que se encaixa expressamente em \"Sujeitos do Processo\" (5583), tema que menciona o assistente de acusação em sua descrição. Esse tema não possui subtema específico sobre assistente de acusação, de modo que a classificação deve permanecer no nível 1, sem subtema. \"Ação Penal\" (5466) permanece como segunda opção plausível, pois a alternativa (A) trata de legitimidade recursal do assistente em contexto de ação penal, mas o conjunto das alternativas (segredo de justiça, prisão temporária, requisição de diligências) extrapola o tema de ação penal e converge para o papel do ofendido/assistente como sujeito processual.",
+ "id": "Q0038",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5583",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.6,
+  "multi_tema": true,
+  "justificativa": "A questão trata das prerrogativas do ofendido no processo penal: habilitação como assistente de acusação, recurso de apelação pelo assistente, segredo de justiça, requisição de diligências investigatórias e prisão temporária. O eixo comum das alternativas é a posição do ofendido/assistente de acusação como sujeito processual, o que se encaixa em \"Sujeitos do Processo\" (que expressamente menciona assistente de acusação). Como alternativa, \"Ação Penal\" também seria defensável, pois trata de habilitação do assistente e recurso em contexto de ação penal. Por não haver subtema específico de \"assistente de acusação\" na árvore, a classificação de nível 1 é a mais segura."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1930,
+  "cache_w": 33190,
+  "cache_r": 78694,
+  "custo_usd": 0.1755438
+ }
+}

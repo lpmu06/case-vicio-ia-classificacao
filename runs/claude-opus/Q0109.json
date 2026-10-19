@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a pena do art. 33, §3º, da Lei 11.343/2006, que trata do oferecimento eventual e gratuito de droga a pessoa do relacionamento para consumo conjunto. É tipo penal da Lei de Drogas. O assunto de origem, \"Prescrição\", está errado.",
+ "id": "Q0109",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 375,
+  "cache_w": 14030,
+  "cache_r": 237485,
+  "custo_usd": 0.168538
+ }
+}

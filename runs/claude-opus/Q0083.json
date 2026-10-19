@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5226",
+ "extras_ids": [
+  "5066",
+  "5150"
+ ],
+ "multi_tema": false,
+ "justificativa": "O caso é o clássico dolo geral (erro sucessivo, ou aberratio causae): o agente supõe que já consumou o crime e, com um segundo ato, causa a morte. A doutrina trata isso como erro de tipo acidental sobre o nexo causal, e por isso o agente responde por um único homicídio doloso, sem concurso de crimes. O contexto de 'concurso de crimes' é só aparente.",
+ "id": "Q0083",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 644,
+  "cache_w": 13971,
+  "cache_r": 237485,
+  "custo_usd": 0.173402
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": "5518",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5179",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede para classificar as espécies de flagrante (esperado, preparado, provocado, diferido) e julgar se a prisão foi legal. O núcleo, portanto, é a Prisão em Flagrante. Pode haver relação com crime impossível (Súmula 145 STF), mas o que se cobra é a modalidade de flagrante.",
+ "id": "Q0218",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 387,
+  "cache_w": 14043,
+  "cache_r": 237485,
+  "custo_usd": 0.16888699999999998
+ }
+}

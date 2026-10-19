@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "4702",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4695",
+ "extras_ids": [
+  "5084",
+  "4695"
+ ],
+ "multi_tema": false,
+ "justificativa": "Todas as assertivas tratam da Lei 9.613/1998 após a Lei 12.683/2012: o objeto material da lavagem, a infração antecedente (inclusive crime tributário), a distinção em relação ao favorecimento real e o fim do rol taxativo. O eixo comum é a Lavagem de Dinheiro. O tema não tem subtemas, por isso o subtema fica nulo.",
+ "id": "Q0145",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 414,
+  "cache_w": 14374,
+  "cache_r": 237485,
+  "custo_usd": 0.17230700000000002
+ }
+}

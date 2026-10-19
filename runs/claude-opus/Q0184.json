@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5518",
+ "extras_ids": [
+  "5518"
+ ],
+ "multi_tema": false,
+ "justificativa": "O item testa o art. 50 da Lei 11.343/2006. A regra correta é a comunicação imediata da prisão em flagrante ao juiz, e não em cinco dias; a vista ao MP é que se dá em 24 horas. Por isso o item está errado. Trata-se da parte procedimental da Lei de Drogas, que fica em Legislação Especial > Tráfico de Drogas, com interface com Prisão em Flagrante.",
+ "id": "Q0184",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 613,
+  "cache_w": 13862,
+  "cache_r": 237485,
+  "custo_usd": 0.171847
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5541",
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [
+  "4701"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra os requisitos da transação penal do art. 76, §§ 2º, II, 4º e 6º, da Lei 9.099/1995. O ponto central é a vedação de novo benefício no prazo de cinco anos e a ausência de efeito de reincidência. O enquadramento é no subtema Transação Penal do Procedimento Sumaríssimo. Há sobreposição com Juizado Especial Criminal (4701), da Legislação Especial.",
+ "id": "Q0332",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 767,
+  "cache_w": 14296,
+  "cache_r": 237485,
+  "custo_usd": 0.178728
+ }
+}

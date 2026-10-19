@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5549",
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5583",
+ "extras_ids": [
+  "5583",
+  "5562",
+  "5500"
+ ],
+ "multi_tema": true,
+ "justificativa": "O eixo comum da questão são as prerrogativas do ofendido. O gabarito é a alternativa B, que corresponde ao art. 201, §6º, do CPP: o juiz pode decretar segredo de justiça para evitar que o ofendido seja exposto aos meios de comunicação. Esse dispositivo integra o capítulo \"Do Ofendido\" e se enquadra em Declaração do Ofendido. As demais alternativas tratam de assistente de acusação, apelação supletiva, prisão temporária e inquérito, o que justifica marcar a questão como multi-tema.",
+ "id": "Q0038",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 735,
+  "cache_w": 15002,
+  "cache_r": 237485,
+  "custo_usd": 0.183539
+ }
+}

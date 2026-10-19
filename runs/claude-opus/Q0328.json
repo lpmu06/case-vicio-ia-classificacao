@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4380",
+ "subtema_n2_id": "4382",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "4374",
+ "extras_ids": [
+  "4374"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra as funções da Criminologia e como ela se relaciona com o Direito Penal e a Política Criminal. Quem converte a experiência criminológica em proposições normativas é a Política Criminal, e não a Criminologia, por isso o item está errado. O tema central é o papel e a função da Criminologia, que corresponde ao subtema Métodos e funções.",
+ "id": "Q0328",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 398,
+  "cache_w": 13868,
+  "cache_r": 237485,
+  "custo_usd": 0.167541
+ }
+}

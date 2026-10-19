@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5091",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.98,
+ "segunda_opcao_id": "5087",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige identificar o tipo penal praticado por funcionário público que exige vantagem indevida em razão da função. O verbo 'exigir' caracteriza concussão, prevista no art. 316 do CP, dentro dos crimes contra a Administração Pública.",
+ "id": "Q0067",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1227,
+  "out": 241,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

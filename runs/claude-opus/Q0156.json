@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4688",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra as regras da Lei 9.605/98: sursis até 3 anos, penas aplicáveis à pessoa jurídica, atenuante pela baixa escolaridade, interdição temporária de direitos (art. 10) e abate de animal nocivo. Por isso o tema é Crimes contra o meio ambiente, na Legislação Especial.",
+ "id": "Q0156",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 480,
+  "cache_w": 14021,
+  "cache_r": 237485,
+  "custo_usd": 0.170546
+ }
+}

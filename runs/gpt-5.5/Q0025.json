@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5101",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.98,
+ "segunda_opcao_id": "5093",
+ "extras_ids": [
+  "5093"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa a distinção entre corrupção ativa e tráfico de influência: solicitar vantagem a pretexto de influir em ato de funcionário público configura, em regra, o art. 332 do CP, ainda que a influência seja ilusória. Portanto, o núcleo é crime contra a Administração Pública, subtema Tráfico de Influência.",
+ "id": "Q0025",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1029,
+  "out": 252,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

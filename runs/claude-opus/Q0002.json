@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": "4378",
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.4,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [
+  "4385"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a tese da seletividade do sistema penal, defendida por Vera Andrade a partir da criminologia crítica e do labeling: os pobres formam a clientela do sistema porque têm mais chances de ser criminalizados. Esse é o núcleo da criminalização secundária. A alternativa seria classificar pela teoria sociológica da reação social, em Teorias de Nível Sociológico.",
+ "id": "Q0002",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 589,
+  "cache_w": 13852,
+  "cache_r": 237485,
+  "custo_usd": 0.171234
+ }
+}

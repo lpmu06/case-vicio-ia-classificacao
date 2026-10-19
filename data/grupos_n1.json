@@ -1,0 +1,28 @@
+{
+ "_nota": "Agrupamento artificial dos temas de nível 1, feito à mão em 19/10/2026, para o classificador de 3 estágios (disciplina/grupo -> tema -> subtema). Não existe na plataforma; só reduz as opções que o modelo vê em cada etapa.",
+ "grupos": [
+  {"id": "P1", "disciplina": "Penal", "titulo": "Parte geral: fundamentos e lei penal", "temas": ["5170", "5180"]},
+  {"id": "P2", "disciplina": "Penal", "titulo": "Parte geral: teoria do crime (fato típico, ilicitude, culpabilidade, iter criminis, concursos)", "temas": ["5218", "5228", "5211", "5175", "5071", "5066"]},
+  {"id": "P3", "disciplina": "Penal", "titulo": "Parte geral: pena, medida de segurança, punibilidade, prescrição e ação penal (aspectos penais)", "temas": ["5199", "5184", "5191", "5185", "5063"]},
+  {"id": "P4", "disciplina": "Penal", "titulo": "Parte especial: crimes contra a pessoa (vida, lesões, periclitação, honra, liberdade)", "temas": ["5149", "5077", "5138", "5120", "5128"]},
+  {"id": "P5", "disciplina": "Penal", "titulo": "Parte especial: patrimônio, propriedade imaterial, organização do trabalho e fé pública", "temas": ["5157", "5134", "5116"]},
+  {"id": "P6", "disciplina": "Penal", "titulo": "Parte especial: dignidade sexual e família", "temas": ["5102", "5111"]},
+  {"id": "P7", "disciplina": "Penal", "titulo": "Parte especial: incolumidade, saúde e paz públicas", "temas": ["5125", "5144"]},
+  {"id": "P8", "disciplina": "Penal", "titulo": "Parte especial: administração pública, administração da justiça, finanças e Estado", "temas": ["5087", "5079", "5147", "5148", "5155", "5156"]},
+  {"id": "PP1", "disciplina": "Processo Penal", "titulo": "Fundamentos: sistemas e princípios, lei processual, sujeitos do processo", "temas": ["5580", "5505", "5583"]},
+  {"id": "PP2", "disciplina": "Processo Penal", "titulo": "Investigação e ação penal", "temas": ["5498", "5466"]},
+  {"id": "PP3", "disciplina": "Processo Penal", "titulo": "Competência, questões e processos incidentes, comunicação dos atos", "temas": ["5480", "5490", "5487"]},
+  {"id": "PP4", "disciplina": "Processo Penal", "titulo": "Provas (teoria geral e provas em espécie)", "temas": ["5590", "5543"]},
+  {"id": "PP5", "disciplina": "Processo Penal", "titulo": "Prisões e medidas cautelares", "temas": ["5584", "5517"]},
+  {"id": "PP6", "disciplina": "Processo Penal", "titulo": "Procedimentos (ordinário, sumário, sumaríssimo, júri)", "temas": ["5530", "5538", "5539", "5524"]},
+  {"id": "PP7", "disciplina": "Processo Penal", "titulo": "Sentença e nulidades", "temas": ["5572", "5509"]},
+  {"id": "PP8", "disciplina": "Processo Penal", "titulo": "Recursos e ações autônomas de impugnação (habeas corpus, revisão, mandado de segurança)", "temas": ["5512", "5560", "5476"]},
+  {"id": "LE1", "disciplina": "Direito Penal - Legislação Especial", "titulo": "Drogas, armas, crime organizado, lavagem, terrorismo, hediondos e tortura", "temas": ["4708", "4697", "4705", "4702", "4706", "4693", "4707"]},
+  {"id": "LE2", "disciplina": "Direito Penal - Legislação Especial", "titulo": "Violência, discriminação e grupos vulneráveis (Maria da Penha, criança e adolescente, idoso, racismo, genocídio, abuso de autoridade)", "temas": ["4704", "4709", "4696", "4690", "4698", "4684"]},
+  {"id": "LE3", "disciplina": "Direito Penal - Legislação Especial", "titulo": "Crimes econômicos, tributários, financeiros, consumeristas, ambientais, eleitorais e de biossegurança", "temas": ["4695", "4689", "4687", "4694", "4688", "4685", "4692"]},
+  {"id": "LE4", "disciplina": "Direito Penal - Legislação Especial", "titulo": "Execução penal, juizados, interceptação, identificação criminal, contravenções e trânsito", "temas": ["4703", "4701", "4700", "4699", "4686", "4691"]},
+  {"id": "C1", "disciplina": "Criminologia", "titulo": "Fundamentos, história, escolas e criminologia no Estado Democrático", "temas": ["4380", "4371", "4368"]},
+  {"id": "C2", "disciplina": "Criminologia", "titulo": "Teorias da criminalidade, teorias da pena, política criminal e processos de criminalização", "temas": ["4385", "4384", "4374", "4377"]},
+  {"id": "C3", "disciplina": "Criminologia", "titulo": "Vítimas e criminosos (vitimologia, classificações)", "temas": ["4389", "4383", "4366", "4367"]}
+ ]
+}

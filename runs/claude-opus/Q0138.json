@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5205",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5207",
+ "extras_ids": [
+  "5207"
+ ],
+ "multi_tema": false,
+ "justificativa": "Três das quatro alternativas (A, B e D) tratam da substituição por penas restritivas de direitos (art. 44 do CP, incluindo o §3º sobre reincidência, o §5º sobre conversão e o art. 46 sobre prestação de serviços). A alternativa correta, B, reproduz o art. 44, §5º. Só a alternativa C trata de sursis (art. 77), por isso esse subtema entra como secundário.",
+ "id": "Q0138",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 537,
+  "cache_w": 14062,
+  "cache_r": 237485,
+  "custo_usd": 0.172054
+ }
+}

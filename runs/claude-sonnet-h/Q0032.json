@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5497",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5498",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta especificamente o que a autoridade policial deve fazer quando houver motivo para duvidar da integridade mental do investigado no curso da investigação. A resposta correta (representar à autoridade judiciária para exame médico-legal) está diretamente disciplinada pelo art. 149, §1º, do CPP, que trata do incidente de insanidade mental. Embora o fato ocorra no curso do inquérito policial (tema 5498), o que a questão efetivamente testa é o procedimento do incidente de insanidade mental em si, regulado nos arts. 149 a 154 do CPP, que é subtema específico de \"Das Questões e Processos Incidentes\" (5490/5497), e não as regras gerais de procedimento do inquérito. Mantém-se a classificação do estágio anterior, agora com o subtema de nível 2 definido.",
+ "id": "Q0032",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5490",
+  "segunda_opcao_n1_id": "5498",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o incidente de insanidade mental do investigado (art. 149 do CPP), que impõe à autoridade policial representar à autoridade judiciária para a realização do exame médico-legal. Trata-se exatamente do Incidente de Insanidade Mental, subtema de \"Das Questões e Processos Incidentes\" (5490), e não do procedimento geral do Inquérito Policial (5498), embora ocorra no seu curso."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1147,
+  "cache_w": 35708,
+  "cache_r": 78694,
+  "custo_usd": 0.1796628
+ }
+}

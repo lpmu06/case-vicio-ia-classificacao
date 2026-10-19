@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5472",
+ "confianca_ramo": 0.7,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5196",
+ "extras_ids": [
+  "5196",
+  "5469"
+ ],
+ "multi_tema": false,
+ "justificativa": "O item cobra o princípio da disponibilidade da ação penal privada: o querelante pode desistir dela (por perdão ou perempção) até o trânsito em julgado da condenação. Por isso o tema é Ação Penal de Iniciativa Privada no Processo Penal; o perdão do ofendido, do Direito Penal material, é a segunda opção.",
+ "id": "Q0189",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 504,
+  "cache_w": 13812,
+  "cache_r": 237485,
+  "custo_usd": 0.16920300000000002
+ }
+}

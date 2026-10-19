@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4380",
+ "subtema_n2_id": "4381",
+ "confianca_ramo": 0.7,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "4368",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão apresenta o controle social como objeto da moderna criminologia e cobra a distinção entre controle social formal (polícia, Judiciário, sistema penitenciário) e informal (família, escola, opinião pública), o que é conteúdo de conceito e objeto da Criminologia. Como alternativa, o tema poderia ser Criminologia no Estado Democrático de Direito, cujas palavras-chave incluem controle social formal e informal.",
+ "id": "Q0162",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 515,
+  "cache_w": 14023,
+  "cache_r": 237485,
+  "custo_usd": 0.171262
+ }
+}

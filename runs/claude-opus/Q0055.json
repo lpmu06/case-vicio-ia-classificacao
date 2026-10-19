@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5550",
+ "confianca_ramo": 0.65,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5535",
+ "extras_ids": [
+  "5535",
+  "5510"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o art. 212 do CPP: como as testemunhas são inquiridas (perguntas feitas diretamente pelas partes, o juiz complementando depois) e o que acontece quando essa ordem é invertida. Isso é prova testemunhal; a audiência de instrução e a nulidade relativa (que exige demonstrar prejuízo) aparecem como pontos secundários.",
+ "id": "Q0055",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 602,
+  "cache_w": 14913,
+  "cache_r": 237485,
+  "custo_usd": 0.180138
+ }
+}

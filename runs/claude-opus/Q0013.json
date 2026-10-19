@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5503",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5581",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra as competências do juiz das garantias previstas no art. 3º-B do CPP. A alternativa A é a exceção, porque o trancamento é determinado no julgamento do HC, e não de ofício. Por isso o tema é Inquérito Policial, no subtema Juiz das Garantias.",
+ "id": "Q0013",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 374,
+  "cache_w": 14267,
+  "cache_r": 237485,
+  "custo_usd": 0.17055900000000002
+ }
+}

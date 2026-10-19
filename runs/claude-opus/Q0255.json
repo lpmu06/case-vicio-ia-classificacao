@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5211",
+ "subtema_n2_id": "5213",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5212",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam da imputabilidade penal (arts. 26 a 28 do CP): semi-imputabilidade, menoridade, emoção e paixão, embriaguez. Por isso a questão cabe no subtema Inimputabilidade.",
+ "id": "Q0255",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 358,
+  "cache_w": 14116,
+  "cache_r": 237485,
+  "custo_usd": 0.168936
+ }
+}

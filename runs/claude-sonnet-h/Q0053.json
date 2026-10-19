@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5541",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [
+  "5542"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão trata exclusivamente da transação penal (Lei 9.099/95), especificamente dos efeitos de sua homologação (natureza de coisa julgada material) e das consequências do descumprimento das cláusulas acordadas, em contraste com a suspensão condicional do processo. Esse recorte corresponde precisamente ao subtema \"Transação Penal\" (5541), dentro do tema de nível 1 \"Procedimento Sumaríssimo\" (5539), em Processo Penal. Mantém-se como segunda opção o tema \"Juizado Especial Criminal\" (4701), de Legislação Especial, que também abrange genericamente o instituto, mas sem subtemas específicos.",
+ "id": "Q0053",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5539",
+  "segunda_opcao_n1_id": "4701",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão versa especificamente sobre a transação penal no âmbito dos Juizados Especiais Criminais, tratando de seus efeitos (coisa julgada material) e das consequências do descumprimento das cláusulas, em comparação com a suspensão condicional do processo. Esse conteúdo corresponde ao subtema \"Transação Penal\", alocado sob o tema de nível 1 \"Procedimento Sumaríssimo\" (5539), dentro da disciplina Processo Penal, já que trata de instituto processual da Lei 9.099/95. Como segunda opção, o tema \"Juizado Especial Criminal\" (4701), em Legislação Especial, também abrange o assunto de forma mais genérica, cobrindo a Lei 9.099/95 como um todo."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1817,
+  "cache_w": 30659,
+  "cache_r": 78694,
+  "custo_usd": 0.1621618
+ }
+}

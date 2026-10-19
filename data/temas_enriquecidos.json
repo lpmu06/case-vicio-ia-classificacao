@@ -6884,5 +6884,3476 @@
    "CP, arts. 103 a 106"
   ],
   "nao_confundir": "Não confundir com Denúncia (5473), que é oferecida pelo Ministério Público nas ações públicas. Também não confundir com Ação Penal de Iniciativa Privada (5472): se a questão discute a espécie, titularidade e institutos gerais da ação privada, use 5472; se discute a petição inicial e seus requisitos, use 5474."
+ },
+ "5487": {
+  "descricao": "Abrange as formas pelas quais o juízo comunica atos processuais a acusados, defensores, Ministério Público, vítimas, testemunhas e terceiros, especialmente citação e intimação. Em provas, costuma envolver validade do ato de comunicação, forma adequada, destinatário, ciência pessoal ou por publicação, cartas, edital, hora certa e regras básicas de contagem de prazos processuais penais.",
+  "palavras_chave": [
+   "comunicação dos atos processuais",
+   "citação",
+   "intimação",
+   "notificação",
+   "mandado",
+   "carta precatória",
+   "carta rogatória",
+   "carta de ordem",
+   "edital",
+   "hora certa",
+   "publicação no diário oficial",
+   "intimação pessoal",
+   "prazo processual penal",
+   "juntada do mandado",
+   "ciência do ato"
+  ],
+  "dispositivos": [
+   "arts. 351 a 372 CPP",
+   "arts. 370 a 372 CPP",
+   "art. 798 CPP",
+   "Lei 11.419/2006",
+   "Súmula 710 STF",
+   "Súmula 351 STF",
+   "Súmula 366 STF"
+  ],
+  "nao_confundir": "Não confundir com Nulidades (5509): se a questão pergunta a consequência de um vício, prejuízo ou decretação de nulidade, o foco tende a ser 5509; se pergunta a forma correta de citar, intimar ou contar prazo, é 5487. Também não confundir com Recursos (5512 e 5560): prazo recursal específico pode ser recurso, mas a regra geral de intimação e termo inicial do prazo é comunicação dos atos."
+ },
+ "5488": {
+  "descricao": "Trata da citação no processo penal, isto é, o chamamento formal do acusado para integrar a relação processual e exercer defesa. Cobre citação pessoal, por mandado, precatória, rogatória, carta de ordem, edital, hora certa, réu preso, réu no estrangeiro, efeitos da ausência e regras de contagem dos prazos ligados à citação, como resposta à acusação.",
+  "palavras_chave": [
+   "citação do acusado",
+   "citação pessoal",
+   "citação por mandado",
+   "citação por precatória",
+   "citação por rogatória",
+   "citação por edital",
+   "citação por hora certa",
+   "réu em local incerto",
+   "réu preso",
+   "suspensão do processo",
+   "art. 366 CPP",
+   "resposta à acusação",
+   "prazo de 10 dias",
+   "termo inicial do prazo",
+   "não comparecimento do acusado"
+  ],
+  "dispositivos": [
+   "arts. 351 a 369 CPP",
+   "art. 361 CPP",
+   "art. 362 CPP",
+   "art. 363 CPP",
+   "art. 366 CPP",
+   "arts. 396 e 396-A CPP",
+   "art. 798 CPP",
+   "Súmula 351 STF",
+   "Súmula 366 STF",
+   "Súmula 415 STJ",
+   "Súmula 455 STJ",
+   "Súmula 710 STF"
+  ],
+  "nao_confundir": "Não confundir com Intimação e Contagem dos Prazos (5489): citação é o ato inicial de chamamento do acusado à relação processual; intimação é a ciência de atos posteriores. Não confundir com Procedimento Ordinário (5530), Sumário (5538), Sumaríssimo (5539) ou Júri (5524): se a questão discute a etapa procedimental em si, é procedimento; se discute a forma e efeitos da citação, é 5488."
+ },
+ "5489": {
+  "descricao": "Abrange a intimação no processo penal, ou seja, a comunicação às partes, defensores, Ministério Público, ofendido, testemunhas e demais sujeitos sobre atos, decisões e audiências já existentes no processo. Em provas, o tema aparece em intimação pessoal ou por publicação, intimação de defensor constituído, dativo, Ministério Público e Defensoria Pública, carta precatória, diário eletrônico e contagem de prazos a partir da intimação.",
+  "palavras_chave": [
+   "intimação",
+   "ciência da decisão",
+   "publicação no diário oficial",
+   "intimação pessoal",
+   "Ministério Público",
+   "Defensoria Pública",
+   "defensor constituído",
+   "defensor dativo",
+   "advogado constituído",
+   "intimação da sentença",
+   "intimação por precatória",
+   "diário da justiça eletrônico",
+   "termo inicial do prazo",
+   "data da intimação",
+   "contagem de prazo"
+  ],
+  "dispositivos": [
+   "arts. 370 a 372 CPP",
+   "art. 392 CPP",
+   "art. 798 CPP",
+   "Lei 11.419/2006",
+   "LC 80/1994, arts. 44, I, 89, I, e 128, I",
+   "Súmula 710 STF",
+   "Súmula 310 STF",
+   "Súmula 708 STF"
+  ],
+  "nao_confundir": "Não confundir com Citação e Contagem dos Prazos (5488): intimação pressupõe processo já formado e serve para dar ciência de atos posteriores, enquanto citação chama o acusado para integrar a relação processual. Não confundir com Parte Geral dos Recursos (5512) ou Recursos em Espécie (5560): se a dúvida é cabimento, efeitos ou pressupostos recursais, use recursos; se é quem deve ser intimado e quando começa o prazo, use 5489."
+ },
+ "5505": {
+  "descricao": "Abrange as regras gerais de aplicação da lei processual penal quanto ao tempo, ao espaço e aos métodos de interpretação. Em provas, costuma envolver o princípio tempus regit actum, a incidência imediata da norma processual, a territorialidade do CPP e o uso de analogia, interpretação extensiva e princípios gerais do direito.",
+  "palavras_chave": [
+   "aplicação da lei processual penal",
+   "lei processual no tempo",
+   "lei processual no espaço",
+   "tempus regit actum",
+   "aplicação imediata",
+   "territorialidade",
+   "extraterritorialidade",
+   "atos processuais praticados",
+   "norma processual pura",
+   "norma processual mista",
+   "interpretação extensiva",
+   "analogia",
+   "princípios gerais do direito",
+   "CPP no território brasileiro"
+  ],
+  "dispositivos": [
+   "art. 1º CPP",
+   "art. 2º CPP",
+   "art. 3º CPP",
+   "art. 4º LINDB",
+   "art. 5º LINDB",
+   "art. 5º, XXXIX, XL e LIV, CF"
+  ],
+  "nao_confundir": "Não confundir com 5580, que trata dos sistemas e princípios estruturantes do processo penal; aqui o foco é a aplicação e interpretação da lei processual. Também se diferencia de 5480, pois lei processual no espaço define a incidência territorial do CPP, enquanto competência define qual órgão jurisdicional julga o caso. Se a questão discutir prazos, citações ou intimações em concreto, tende a ser 5487, e não 5505."
+ },
+ "5508": {
+  "descricao": "Trata das formas de interpretação da lei processual penal, especialmente a possibilidade de interpretação extensiva, aplicação analógica e uso dos princípios gerais do direito. Nas provas, aparece em assertivas sobre lacunas do CPP, limites da analogia no processo penal e distinção entre interpretação da norma processual e criação de regra incriminadora.",
+  "palavras_chave": [
+   "interpretação da lei processual penal",
+   "interpretação extensiva",
+   "analogia",
+   "aplicação analógica",
+   "princípios gerais do direito",
+   "lacuna normativa",
+   "norma processual penal",
+   "integração da norma",
+   "interpretação literal",
+   "interpretação teleológica",
+   "interpretação sistemática",
+   "analogia in bonam partem",
+   "vedação de analogia prejudicial",
+   "art. 3º do CPP"
+  ],
+  "dispositivos": [
+   "art. 3º CPP",
+   "art. 4º LINDB",
+   "art. 5º LINDB",
+   "art. 5º, XXXIX, CF",
+   "art. 5º, LIV e LV, CF"
+  ],
+  "nao_confundir": "Não confundir com 5580: princípios processuais podem servir como critério interpretativo, mas o tema 5508 examina especificamente métodos de interpretação e integração da lei. Também não é 5509 quando a questão discute consequência de vício processual; nulidade pressupõe defeito do ato, enquanto 5508 cuida de como compreender ou suprir a norma aplicável."
+ },
+ "5506": {
+  "descricao": "Abrange a incidência espacial da lei processual penal brasileira, especialmente a regra de que o CPP se aplica ao processo penal em território brasileiro, ressalvadas hipóteses constitucionais, tratados, convenções e legislações especiais. Em concursos, o tema costuma cobrar as exceções do art. 1º do CPP e a diferença entre aplicação territorial da lei processual e regras de competência jurisdicional.",
+  "palavras_chave": [
+   "lei processual no espaço",
+   "territorialidade processual",
+   "CPP no território brasileiro",
+   "exceções ao CPP",
+   "tratados e convenções internacionais",
+   "prerrogativas constitucionais",
+   "justiça militar",
+   "tribunal especial",
+   "processos de competência originária",
+   "território nacional",
+   "jurisdição brasileira",
+   "aplicação espacial",
+   "processo penal brasileiro",
+   "art. 1º do CPP"
+  ],
+  "dispositivos": [
+   "art. 1º CPP",
+   "art. 1º, I a V, CPP",
+   "art. 5º, §2º, CF",
+   "art. 5º, §3º, CF",
+   "art. 109 CF",
+   "art. 124 CF",
+   "Código de Processo Penal Militar"
+  ],
+  "nao_confundir": "Não confundir com 5480: competência define o juiz ou tribunal competente dentro da jurisdição, enquanto 5506 pergunta se a lei processual penal brasileira incide espacialmente. Também não se confunde com regras de extraterritorialidade da lei penal material; se o foco for punibilidade de crime cometido fora do Brasil, o tema é de Direito Penal, não de Processo Penal."
+ },
+ "5507": {
+  "descricao": "Trata da aplicação da lei processual penal no tempo, com destaque para a incidência imediata da lei nova aos processos em curso, sem prejuízo da validade dos atos já praticados. Em provas, o ponto central é o art. 2º do CPP, a regra tempus regit actum e a distinção entre norma processual pura e norma híbrida ou materialmente penal.",
+  "palavras_chave": [
+   "lei processual no tempo",
+   "aplicação imediata",
+   "tempus regit actum",
+   "processos em curso",
+   "atos processuais já praticados",
+   "validade dos atos anteriores",
+   "irretroatividade",
+   "retroatividade benéfica",
+   "norma processual pura",
+   "norma processual mista",
+   "norma híbrida",
+   "lei nova processual",
+   "vigência da lei processual",
+   "art. 2º do CPP"
+  ],
+  "dispositivos": [
+   "art. 2º CPP",
+   "art. 5º, XL, CF",
+   "art. 5º, LIV e LV, CF",
+   "art. 2º CP",
+   "art. 4º LINDB",
+   "art. 6º LINDB"
+  ],
+  "nao_confundir": "Não confundir com 5487 quando a questão apenas cobra contagem de prazos de citação ou intimação; 5507 trata da sucessão de leis processuais no tempo. Também se distingue de 5512 e 5560, pois regras temporais sobre recursos só entram aqui quando a pergunta for sobre qual lei recursal se aplica a processos ou atos em transição. Se houver discussão sobre prejuízo e invalidade do ato, o tema pode migrar para 5509."
+ },
+ "5490": {
+  "descricao": "Abrange o conjunto de questões e incidentes processuais regulados no CPP que podem interferir no andamento, validade, competência, partes, prova documental, sanidade do acusado ou bens apreendidos. Em provas, costuma aparecer com regras de processamento em autos apartados, suspensão do processo, momento de arguição, recurso cabível e efeitos da decisão incidental.",
+  "palavras_chave": [
+   "questões prejudiciais",
+   "processos incidentes",
+   "exceções processuais",
+   "autos apartados",
+   "suspensão do processo",
+   "incidente processual",
+   "restituição de coisas apreendidas",
+   "sequestro de bens",
+   "hipoteca legal",
+   "arresto",
+   "incidente de falsidade",
+   "insanidade mental",
+   "suspeição",
+   "incompetência",
+   "coisa julgada"
+  ],
+  "dispositivos": [
+   "CPP arts. 92 a 154",
+   "CPP arts. 92 a 94",
+   "CPP arts. 95 a 111",
+   "CPP arts. 112 a 117",
+   "CPP arts. 118 a 124",
+   "CPP arts. 125 a 144-A",
+   "CPP arts. 145 a 148",
+   "CPP arts. 149 a 154"
+  ],
+  "nao_confundir": "Não confundir com Competência (5480), que trata dos critérios abstratos de fixação do juízo competente; aqui entram os incidentes e exceções usados dentro do processo para discutir competência ou outras questões. Também não confundir com Provas em Espécies (5543) e Teoria Geral das Provas (5590): se o foco for incidente autônomo de falsidade documental ou insanidade, fica em 5490/5497; se for produção ou valoração da prova em geral, vai para provas."
+ },
+ "5493": {
+  "descricao": "Cobre as exceções de incompetência do juízo e de ilegitimidade de parte, especialmente forma de arguição, prazo, processamento, reconhecimento de ofício e efeitos dos atos já praticados. Em concursos, o tema aparece associado à incompetência relativa ou absoluta, remessa dos autos ao juízo competente e legitimidade ativa/passiva na relação processual penal.",
+  "palavras_chave": [
+   "exceção de incompetência",
+   "incompetência do juízo",
+   "declinatória fori",
+   "competência relativa",
+   "competência absoluta",
+   "remessa dos autos",
+   "juízo competente",
+   "ilegitimidade de parte",
+   "parte ilegítima",
+   "exceção dilatória",
+   "exceção peremptória",
+   "arguição por exceção",
+   "prazo da defesa",
+   "ratificação dos atos",
+   "art. 108 CPP"
+  ],
+  "dispositivos": [
+   "CPP art. 95, II e IV",
+   "CPP arts. 108 e 109",
+   "CPP art. 110",
+   "CPP art. 111",
+   "CPP art. 567",
+   "Súmula 33 STJ"
+  ],
+  "nao_confundir": "Não confundir com Competência (5480), que estuda os critérios de competência; este tema trata do instrumento incidental para arguir incompetência em processo já instaurado. Se a questão for sobre denúncia, queixa, legitimidade para propor ação penal ou condições da ação, o melhor enquadramento tende a ser Ação Penal (5466), salvo quando a pergunta for expressamente sobre exceção de ilegitimidade no CPP."
+ },
+ "5494": {
+  "descricao": "Trata das exceções de litispendência e coisa julgada no processo penal, usadas para impedir duplicidade de processos ou nova persecução penal pelo mesmo fato. As provas cobram identidade de partes, fato imputado, causa de pedir, efeitos extintivos, relação com o ne bis in idem e forma de arguição por exceção.",
+  "palavras_chave": [
+   "exceção de litispendência",
+   "exceção de coisa julgada",
+   "ne bis in idem",
+   "duplo processo",
+   "mesmo fato",
+   "identidade de ações penais",
+   "trânsito em julgado",
+   "sentença definitiva",
+   "ação penal repetida",
+   "extinção do processo",
+   "coisa julgada material",
+   "coisa julgada formal",
+   "persecução penal duplicada",
+   "art. 95 CPP"
+  ],
+  "dispositivos": [
+   "CPP art. 95, III e V",
+   "CPP art. 110",
+   "CPP art. 111",
+   "CF art. 5º, XXXVI",
+   "Pacto de San José da Costa Rica art. 8.4",
+   "CP art. 107"
+  ],
+  "nao_confundir": "Não confundir com Recursos em Espécies (5560) ou Ações Autônomas de Impugnação (5476): aqui não se busca desconstituir decisão transitada em julgado, mas impedir processo repetido por litispendência ou coisa julgada. Se a discussão for revisão criminal contra condenação definitiva, o tema correto é 5478 dentro de 5476."
+ },
+ "5492": {
+  "descricao": "Abrange as exceções de suspeição, impedimento e incompatibilidade de juiz, membro do Ministério Público, serventuários, peritos e intérpretes. Em provas, o foco recai nas hipóteses legais, momento de arguição, reconhecimento espontâneo, processamento do incidente e consequências dos atos praticados por sujeito parcial ou impedido.",
+  "palavras_chave": [
+   "suspeição",
+   "impedimento",
+   "incompatibilidade",
+   "juiz suspeito",
+   "juiz impedido",
+   "parcialidade do julgador",
+   "amizade íntima",
+   "inimizade capital",
+   "interesse no processo",
+   "parentesco",
+   "exceção de suspeição",
+   "rol de impedimentos",
+   "Ministério Público suspeito",
+   "perito impedido",
+   "garantia da imparcialidade"
+  ],
+  "dispositivos": [
+   "CPP art. 95, I",
+   "CPP arts. 96 a 107",
+   "CPP arts. 112 a 117",
+   "CPP art. 252",
+   "CPP art. 253",
+   "CPP art. 254",
+   "CPP art. 258",
+   "CPP art. 280",
+   "CF art. 5º, XXXVII e LIII"
+  ],
+  "nao_confundir": "Não confundir com Sujeitos do Processo (5583), que trata da posição institucional de juiz, MP, defensor e auxiliares; aqui o núcleo é o incidente de afastamento por parcialidade, impedimento ou incompatibilidade. Também não confundir com Nulidades (5509): se a questão perguntar a consequência processual de ato praticado por juiz impedido, pode ser nulidade; se perguntar hipóteses e procedimento da exceção, é 5492."
+ },
+ "5497": {
+  "descricao": "Reúne dois incidentes autônomos: o incidente de falsidade documental, voltado a verificar a autenticidade de documento juntado aos autos, e o incidente de insanidade mental, destinado a apurar a imputabilidade do acusado por perícia. As questões costumam cobrar legitimidade, processamento em autos apartados, suspensão do processo, perícia médica, curador, laudo e efeitos sobre culpabilidade ou medida de segurança.",
+  "palavras_chave": [
+   "incidente de falsidade",
+   "falsidade documental",
+   "documento falso",
+   "arguição de falsidade",
+   "desentranhamento de documento",
+   "insanidade mental",
+   "incidente de insanidade mental",
+   "exame médico-legal",
+   "perícia psiquiátrica",
+   "imputabilidade",
+   "inimputabilidade",
+   "semi-imputabilidade",
+   "nomeação de curador",
+   "suspensão do processo",
+   "laudo pericial"
+  ],
+  "dispositivos": [
+   "CPP arts. 145 a 148",
+   "CPP arts. 149 a 154",
+   "CP art. 26",
+   "CP arts. 96 a 99",
+   "CPP art. 151",
+   "CPP art. 152",
+   "CPP art. 153",
+   "CPP art. 154"
+  ],
+  "nao_confundir": "Não confundir com Teoria Geral das Provas (5590) ou Provas em Espécies (5543): perícia e documento em geral pertencem a provas; incidente de falsidade ou de insanidade, com rito próprio no CPP, pertence a 5497. Se a pergunta tratar da inimputabilidade como elemento da culpabilidade no Direito Penal material, o tema é Penal - Culpabilidade, não Processo Penal."
+ },
+ "5496": {
+  "descricao": "Trata das medidas assecuratórias patrimoniais no processo penal: sequestro, hipoteca legal e arresto, voltadas a garantir reparação do dano, perda de bens, custas, pena pecuniária ou confisco. Em provas, são cobrados cabimento sobre bens móveis ou imóveis, bens adquiridos com proveito da infração, requerimento, contraditório, levantamento, especialização da hipoteca, arresto prévio e alienação antecipada.",
+  "palavras_chave": [
+   "medidas assecuratórias",
+   "sequestro de bens",
+   "hipoteca legal",
+   "arresto",
+   "arresto prévio",
+   "bens imóveis",
+   "bens móveis",
+   "produto do crime",
+   "proveito da infração",
+   "reparação do dano",
+   "perda de bens",
+   "confisco",
+   "especialização da hipoteca",
+   "levantamento do sequestro",
+   "alienação antecipada"
+  ],
+  "dispositivos": [
+   "CPP arts. 125 a 144-A",
+   "CPP arts. 125 a 133",
+   "CPP arts. 134 a 137",
+   "CPP arts. 136 e 137",
+   "CPP arts. 140 a 144",
+   "CPP art. 144-A",
+   "CP art. 91",
+   "CP art. 91-A",
+   "Lei 9.613/1998 art. 4º",
+   "Lei 11.343/2006 arts. 60 a 64"
+  ],
+  "nao_confundir": "Não confundir com Prisões em Espécie (5517) ou medidas cautelares pessoais: aqui a cautela é patrimonial, recaindo sobre bens. Também não confundir com Restituição de Coisas Apreendidas (5495): se a questão pergunta apreensão/devolução de objeto apreendido, é restituição; se pergunta constrição para garantir dano, confisco ou perda, é medida assecuratória."
+ },
+ "5491": {
+  "descricao": "Abrange questões prejudiciais e preliminares que condicionam ou antecedem o exame do mérito penal, especialmente controvérsias civis relevantes para a existência da infração. O tema costuma aparecer com suspensão obrigatória ou facultativa do processo, decisão sobre estado das pessoas, prazo de suspensão, ação civil prejudicial e distinção entre prejudicial homogênea e heterogênea.",
+  "palavras_chave": [
+   "questão prejudicial",
+   "questão preliminar",
+   "prejudicial obrigatória",
+   "prejudicial facultativa",
+   "estado das pessoas",
+   "questão civil",
+   "suspensão do processo",
+   "controvérsia séria e fundada",
+   "ação civil",
+   "dependência lógica",
+   "mérito penal",
+   "prejudicial heterogênea",
+   "prejudicial homogênea",
+   "prazo de suspensão",
+   "art. 92 CPP"
+  ],
+  "dispositivos": [
+   "CPP arts. 92 a 94",
+   "CPP art. 92",
+   "CPP art. 93",
+   "CPP art. 94",
+   "CPP art. 116, I",
+   "CC art. 2º",
+   "CF art. 5º, XXXV"
+  ],
+  "nao_confundir": "Não confundir com Ação Civil Ex Delicto (5475), que trata da reparação civil decorrente do crime; em 5491, a questão civil influencia previamente o julgamento penal. Também não confundir com Nulidades (5509): preliminar como vício processual ou nulidade vai para 5509; questão prejudicial/preliminar que suspende ou condiciona o mérito penal fica em 5491."
+ },
+ "5495": {
+  "descricao": "Trata do procedimento de restituição de coisas apreendidas no processo penal, quando o bem não interessar mais à prova ou quando houver controvérsia sobre propriedade ou posse. As provas cobram legitimidade do requerente, oitiva do Ministério Público, decisão do juiz ou autoridade policial, incidente em autos apartados, coisa de terceiro de boa-fé, instrumentos/produto do crime e impossibilidade de restituição.",
+  "palavras_chave": [
+   "restituição de coisas apreendidas",
+   "coisa apreendida",
+   "bem apreendido",
+   "produto do crime",
+   "instrumento do crime",
+   "terceiro de boa-fé",
+   "interesse à prova",
+   "propriedade do bem",
+   "posse do bem",
+   "autos apartados",
+   "oitiva do Ministério Público",
+   "decisão judicial",
+   "autoridade policial",
+   "perdimento",
+   "leilão de bens"
+  ],
+  "dispositivos": [
+   "CPP arts. 118 a 124",
+   "CPP art. 118",
+   "CPP art. 119",
+   "CPP art. 120",
+   "CPP art. 121",
+   "CPP art. 122",
+   "CPP art. 123",
+   "CPP art. 124",
+   "CP art. 91, II",
+   "CP art. 91-A"
+  ],
+  "nao_confundir": "Não confundir com Busca e Apreensão (5554), que é meio de obtenção da coisa; restituição cuida da devolução ou destinação do bem já apreendido. Também não confundir com Medidas Assecuratórias (5496): se o foco for garantir reparação, confisco ou perda por constrição patrimonial, use 5496; se for devolver coisa apreendida ou decidir sua destinação, use 5495."
+ },
+ "5509": {
+  "descricao": "Abrange a teoria das nulidades no processo penal: vícios dos atos processuais, necessidade de prejuízo, convalidação, preclusão, formas de arguição e consequências da invalidação. Em provas, costuma aparecer em casos de violação ao contraditório, ampla defesa, competência, citação, intimação, atuação defensiva, prova viciada e atos do júri, perguntando se há nulidade, se ela é absoluta ou relativa e em que momento deve ser alegada.",
+  "palavras_chave": [
+   "nulidade processual",
+   "pas de nullité sans grief",
+   "prejuízo",
+   "convalidação",
+   "preclusão",
+   "nulidade absoluta",
+   "nulidade relativa",
+   "ato processual defeituoso",
+   "arguição oportuna",
+   "princípio da instrumentalidade das formas",
+   "cerceamento de defesa",
+   "ampla defesa",
+   "contraditório",
+   "renovação do ato",
+   "anulação do processo"
+  ],
+  "dispositivos": [
+   "arts. 563 a 573 CPP",
+   "art. 5º, LIV e LV, CF",
+   "art. 93, IX, CF",
+   "Súmula 160 STF",
+   "Súmula 162 STF",
+   "Súmula 351 STF",
+   "Súmula 523 STF",
+   "Súmula 706 STF",
+   "Súmula 707 STF",
+   "Súmula 708 STF",
+   "Súmula 712 STF"
+  ],
+  "nao_confundir": "Não confundir com Comunicação dos Atos Processuais (5487), que trata das regras de citação e intimação em si; se a questão pergunta a consequência do vício desses atos, o tema é nulidade. Também se distingue de Recursos (5512 e 5560), pois nulidade é fundamento de invalidação, enquanto recurso é o meio de impugnação; e de Provas (5543 e 5590), pois a discussão aqui é a invalidade processual decorrente do vício, não a disciplina da prova em espécie."
+ },
+ "5510": {
+  "descricao": "Trata da distinção entre nulidade absoluta e nulidade relativa, seus regimes jurídicos, momento de arguição, necessidade de demonstração de prejuízo, possibilidade de reconhecimento de ofício e convalidação. Em concursos, o foco é identificar se o vício atinge garantia constitucional ou interesse público indisponível, ou se depende de provocação da parte e arguição tempestiva.",
+  "palavras_chave": [
+   "nulidade absoluta",
+   "nulidade relativa",
+   "prejuízo demonstrado",
+   "preclusão",
+   "convalidação",
+   "arguição tempestiva",
+   "reconhecimento de ofício",
+   "interesse público",
+   "garantia constitucional",
+   "cerceamento de defesa",
+   "defesa técnica",
+   "deficiência de defesa",
+   "incompetência absoluta",
+   "incompetência relativa",
+   "ratificação dos atos"
+  ],
+  "dispositivos": [
+   "arts. 563 a 573 CPP",
+   "art. 564 CPP",
+   "art. 565 CPP",
+   "art. 566 CPP",
+   "art. 567 CPP",
+   "art. 568 CPP",
+   "art. 569 CPP",
+   "art. 571 CPP",
+   "art. 572 CPP",
+   "art. 573 CPP",
+   "art. 5º, LIV e LV, CF",
+   "Súmula 523 STF",
+   "Súmula 706 STF",
+   "Súmula 707 STF",
+   "Súmula 708 STF"
+  ],
+  "nao_confundir": "Não confundir com Nulidades em Espécie (5511): aqui o ponto central é o regime jurídico do vício — absoluto ou relativo, preclusão, prejuízo e convalidação — e não a enumeração de casos concretos do art. 564 do CPP. Pode tangenciar Competência (5480), especialmente incompetência absoluta e relativa; o critério é que, se a pergunta cobra a consequência invalidante e sua arguição, fica em 5510."
+ },
+ "5511": {
+  "descricao": "Abrange as hipóteses concretas de nulidade previstas principalmente no art. 564 do CPP e na jurisprudência: vícios de competência, suspeição, suborno do juiz, ilegitimidade de parte, falta de denúncia ou queixa, ausência de defensor, falta de citação, ausência de exame de corpo de delito quando indispensável e vícios no júri. Nas provas, aparece em enunciados que descrevem uma falha específica do procedimento e perguntam se ela gera nulidade ou qual ato deve ser renovado.",
+  "palavras_chave": [
+   "art. 564 CPP",
+   "falta de denúncia ou queixa",
+   "falta de citação",
+   "ausência de defensor",
+   "defensor dativo",
+   "falta de intimação",
+   "exame de corpo de delito",
+   "suspeição do juiz",
+   "incompetência do juízo",
+   "ilegitimidade de parte",
+   "quesitos do júri",
+   "pronúncia",
+   "libelo",
+   "contrariedade",
+   "intervenção do Ministério Público",
+   "termos essenciais"
+  ],
+  "dispositivos": [
+   "art. 564 CPP",
+   "art. 564, I, CPP",
+   "art. 564, II, CPP",
+   "art. 564, III, CPP",
+   "art. 564, IV, CPP",
+   "arts. 563 a 573 CPP",
+   "art. 261 CPP",
+   "art. 351 CPP",
+   "art. 564, III, e, CPP",
+   "art. 158 CPP",
+   "arts. 406 a 497 CPP",
+   "Súmula 156 STF",
+   "Súmula 160 STF",
+   "Súmula 162 STF",
+   "Súmula 351 STF",
+   "Súmula 523 STF"
+  ],
+  "nao_confundir": "Não confundir com Procedimento Ordinário, Sumário, Sumaríssimo ou Júri (5530, 5538, 5539 e 5524), que estudam a sequência regular dos atos; se o foco for o defeito de um ato e a consequência invalidante, o tema é 5511. Também se diferencia de Comunicação dos Atos Processuais (5487), pois a falta ou defeito de citação/intimação entra aqui quando a questão pergunta pela nulidade resultante."
+ },
+ "5480": {
+  "descricao": "Tema geral sobre competência criminal: critérios que determinam qual órgão jurisdicional deve processar e julgar a infração penal. Abrange competência territorial, material, funcional/de juízo, por prerrogativa de função, conexão, continência, prevenção, distribuição, prorrogação e modificação de competência.",
+  "palavras_chave": [
+   "juiz natural",
+   "competência criminal",
+   "fixação da competência",
+   "foro competente",
+   "competência absoluta",
+   "competência relativa",
+   "conexão",
+   "continência",
+   "prevenção",
+   "distribuição",
+   "prerrogativa de função",
+   "competência territorial",
+   "competência em razão da matéria"
+  ],
+  "dispositivos": [
+   "CF, art. 5º, XXXVII e LIII",
+   "CF, arts. 102, 105, 108, 109, 124 e 125",
+   "CPP, arts. 69 a 91",
+   "CPP, arts. 70 a 83",
+   "CPP, arts. 84 a 87",
+   "Súmula 38 STJ",
+   "Súmula 122 STJ",
+   "Súmula 147 STJ",
+   "Súmula 702 STF",
+   "Súmula 704 STF",
+   "Súmula 721 STF"
+  ],
+  "nao_confundir": "Distinguir de 5490, que trata de exceções e incidentes processuais, inclusive exceção de incompetência, isto é, do meio de arguição, não do critério de competência em si. Também não confundir com 5509, que aborda nulidades decorrentes de vícios processuais; aqui o foco é definir o órgão competente."
+ },
+ "5483": {
+  "descricao": "Trata da competência territorial, isto é, do foro ou comarca/seção judiciária competente conforme o lugar da infração, o resultado, o último ato de execução na tentativa, o domicílio ou residência do réu e regras especiais. Em provas, aparece muito em crimes à distância, crimes plurilocais, estelionato por depósito/transferência, cheque, contrabando/descaminho e hipóteses de competência pelo domicílio da vítima ou do réu.",
+  "palavras_chave": [
+   "lugar da infração",
+   "foro competente",
+   "local da consumação",
+   "teoria do resultado",
+   "último ato de execução",
+   "crime tentado",
+   "domicílio do réu",
+   "residência do réu",
+   "ação penal privada",
+   "estelionato eletrônico",
+   "domicílio da vítima",
+   "cheque sem fundos",
+   "contrabando e descaminho",
+   "prevenção territorial"
+  ],
+  "dispositivos": [
+   "CPP, art. 70",
+   "CPP, art. 70, §§ 1º a 4º",
+   "CPP, art. 71",
+   "CPP, art. 72",
+   "CPP, art. 73",
+   "CP, art. 6º",
+   "Súmula 521 STF",
+   "Súmula 48 STJ",
+   "Súmula 151 STJ",
+   "Súmula 200 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5482: se a dúvida é entre Justiça Federal, Estadual, Eleitoral, Militar, Júri ou Juizado, o tema é matéria; se já se sabe a Justiça competente e se busca o local do processo, é 5483. Também se diferencia de 5486 quando a questão trata de alteração do foro por conexão, continência, prevenção ou prorrogação."
+ },
+ "5485": {
+  "descricao": "Abrange a definição do juízo competente dentro de uma mesma estrutura jurisdicional, como vara criminal, juízo especializado, distribuição, prevenção e competência funcional por fase ou ato processual. Em concursos, envolve conflitos entre juízos do mesmo foro, prevenção por atos anteriores, distribuição entre varas, especialização por lei de organização judiciária e distinção entre juízo de conhecimento e juízo da execução.",
+  "palavras_chave": [
+   "juízo competente",
+   "vara criminal",
+   "vara especializada",
+   "distribuição",
+   "prevenção",
+   "competência funcional",
+   "juízo prevento",
+   "juízo da execução",
+   "lei de organização judiciária",
+   "competência interna",
+   "órgão jurisdicional",
+   "juízo natural",
+   "identidade física do juiz"
+  ],
+  "dispositivos": [
+   "CPP, art. 69, IV e VI",
+   "CPP, art. 75",
+   "CPP, art. 83",
+   "CPP, art. 399, § 2º",
+   "CPP, arts. 65 e 66 da LEP",
+   "CF, art. 96, I, a",
+   "CF, art. 125, § 1º",
+   "Lei 7.210/1984, arts. 65 e 66"
+  ],
+  "nao_confundir": "Não confundir com 5483, que escolhe o território, nem com 5482, que escolhe a Justiça ou ramo competente em razão da matéria. Se a questão já está dentro da mesma comarca/seção ou do mesmo ramo e discute qual vara ou juízo específico atuará, o enquadramento é 5485."
+ },
+ "5482": {
+  "descricao": "Cuida da competência em razão da matéria, isto é, da natureza da infração ou do interesse jurídico envolvido, determinando se o julgamento cabe à Justiça Federal, Estadual, Eleitoral, Militar, Tribunal do Júri, Juizado Especial Criminal ou juízos especializados. É tema recorrente em crimes contra bens, serviços ou interesses da União, crimes eleitorais, crimes militares, crimes dolosos contra a vida, contravenções penais e infrações de menor potencial ofensivo.",
+  "palavras_chave": [
+   "competência material",
+   "ratione materiae",
+   "Justiça Federal",
+   "Justiça Estadual",
+   "Justiça Eleitoral",
+   "Justiça Militar",
+   "Tribunal do Júri",
+   "crime doloso contra a vida",
+   "contravenção penal",
+   "bem da União",
+   "serviço federal",
+   "interesse federal",
+   "crime eleitoral",
+   "crime militar",
+   "infração de menor potencial ofensivo"
+  ],
+  "dispositivos": [
+   "CF, art. 5º, XXXVIII",
+   "CF, art. 109",
+   "CF, art. 121",
+   "CF, art. 124",
+   "CF, art. 125, §§ 4º e 5º",
+   "CPP, art. 74",
+   "CPP, art. 78, I e IV",
+   "Lei 9.099/1995, arts. 60 e 61",
+   "Código Eleitoral, arts. 35 e 78",
+   "CPM, art. 9º",
+   "Súmula 38 STJ",
+   "Súmula 42 STJ",
+   "Súmula 122 STJ",
+   "Súmula 140 STJ",
+   "Súmula 147 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5484: prerrogativa de função desloca a competência em razão da pessoa/cargo, não pela natureza do delito. Também não confundir com 5539, que estuda o procedimento sumaríssimo dos Juizados; aqui o foco é saber se a infração é de competência do Juizado."
+ },
+ "5484": {
+  "descricao": "Abrange a competência por prerrogativa de função, ou foro funcional, atribuída a tribunais para processar e julgar determinadas autoridades em razão do cargo ocupado. Em provas, envolve foro de Presidente, parlamentares, governadores, prefeitos, magistrados, membros do Ministério Público, crimes praticados durante o mandato e relacionados às funções, cessação do cargo e atração de corréus por conexão ou continência.",
+  "palavras_chave": [
+   "foro por prerrogativa de função",
+   "foro privilegiado",
+   "autoridade com foro",
+   "crime praticado no cargo",
+   "crime relacionado às funções",
+   "cessação do mandato",
+   "prefeito",
+   "governador",
+   "deputado federal",
+   "senador",
+   "magistrado",
+   "membro do Ministério Público",
+   "corréu sem foro",
+   "atração por conexão",
+   "Tribunal competente"
+  ],
+  "dispositivos": [
+   "CF, art. 29, X",
+   "CF, art. 53",
+   "CF, art. 86",
+   "CF, art. 96, III",
+   "CF, art. 102, I, b e c",
+   "CF, art. 105, I, a",
+   "CF, art. 108, I, a",
+   "CF, art. 125, § 1º",
+   "CPP, arts. 84 a 87",
+   "Súmula 702 STF",
+   "Súmula 704 STF",
+   "Súmula 721 STF",
+   "STF, AP 937 QO"
+  ],
+  "nao_confundir": "Não confundir com 5482, pois aqui o deslocamento decorre da qualidade funcional da pessoa, e não da matéria do crime. Também se diferencia de 5486 quando a questão discute apenas conexão/continência e reunião de processos; em 5484 o ponto central é a existência ou não de foro por cargo."
+ },
+ "5481": {
+  "descricao": "Tema introdutório e sistemático sobre as espécies de competência e a ordem de critérios para sua fixação no processo penal. Cobre os critérios do CPP — lugar da infração, domicílio do réu, natureza da infração, distribuição, conexão ou continência, prevenção e prerrogativa de função — e a distinção entre competência absoluta e relativa.",
+  "palavras_chave": [
+   "critérios de competência",
+   "espécies de competência",
+   "fixação da competência",
+   "competência absoluta",
+   "competência relativa",
+   "competência territorial",
+   "competência material",
+   "competência funcional",
+   "domicílio do réu",
+   "natureza da infração",
+   "distribuição",
+   "conexão e continência",
+   "prevenção",
+   "prerrogativa de função",
+   "juiz natural"
+  ],
+  "dispositivos": [
+   "CPP, art. 69",
+   "CPP, arts. 70 a 73",
+   "CPP, art. 74",
+   "CPP, art. 75",
+   "CPP, arts. 76 a 82",
+   "CPP, art. 83",
+   "CPP, arts. 84 a 87",
+   "CF, art. 5º, XXXVII e LIII"
+  ],
+  "nao_confundir": "Este é o subtema panorâmico; se a questão exige aplicação específica de local do crime, use 5483; de ramo da Justiça, use 5482; de cargo da autoridade, use 5484; de conexão, continência ou alteração posterior, use 5486. Distingue-se de 5490 porque não trata do procedimento da exceção de incompetência."
+ },
+ "5486": {
+  "descricao": "Trata das hipóteses em que a competência inicialmente fixada pode ser prorrogada, mantida ou modificada, especialmente por conexão, continência, prevenção, reunião ou separação de processos. Inclui regras sobre unidade de processo e julgamento, prevalência do Júri, Justiça Federal em crimes conexos com estaduais, competência relativa, perpetuação da jurisdição e efeitos da absolvição ou desclassificação sobre a competência.",
+  "palavras_chave": [
+   "prorrogação de competência",
+   "modificação da competência",
+   "perpetuatio jurisdictionis",
+   "conexão",
+   "continência",
+   "reunião de processos",
+   "separação de processos",
+   "unidade de processo e julgamento",
+   "prevenção",
+   "juízo prevento",
+   "crime conexo",
+   "corréus",
+   "prevalência do Júri",
+   "competência federal por conexão",
+   "desclassificação"
+  ],
+  "dispositivos": [
+   "CPP, arts. 76 a 82",
+   "CPP, art. 78",
+   "CPP, art. 79",
+   "CPP, art. 80",
+   "CPP, art. 81",
+   "CPP, art. 82",
+   "CPP, art. 83",
+   "CPP, art. 492, § 1º",
+   "Súmula 122 STJ",
+   "Súmula 704 STF",
+   "Súmula 721 STF",
+   "CPC, art. 43, por aplicação subsidiária"
+  ],
+  "nao_confundir": "Não confundir com 5483, que define o território originário; aqui o ponto é a alteração, reunião, separação ou preservação da competência por fatos processuais. Também não confundir com 5490: a exceção de incompetência é o instrumento processual para alegar o vício, enquanto 5486 trata das regras materiais de prorrogação e modificação."
+ },
+ "5498": {
+  "descricao": "Abrange a investigação criminal preliminar presidida, em regra, pela polícia judiciária, destinada a apurar materialidade e autoria para subsidiar a atuação do Ministério Público ou do querelante. Em provas, costuma envolver natureza jurídica, características, instauração, diligências, indiciamento, relatório, arquivamento, controle judicial na fase investigatória, ANPP e juiz das garantias.",
+  "palavras_chave": [
+   "investigação preliminar",
+   "polícia judiciária",
+   "delegado de polícia",
+   "materialidade e autoria",
+   "elementos informativos",
+   "indiciamento",
+   "relatório final",
+   "arquivamento do inquérito",
+   "sigilo do inquérito",
+   "dispensabilidade",
+   "inquisitoriedade",
+   "notitia criminis",
+   "diligências investigatórias",
+   "Ministério Público"
+  ],
+  "dispositivos": [
+   "arts. 4º a 23 CPP",
+   "art. 28 CPP",
+   "art. 28-A CPP",
+   "arts. 3º-A a 3º-F CPP",
+   "art. 144, §§ 1º e 4º, CF",
+   "Lei 12.830/2013",
+   "Súmula Vinculante 14 STF",
+   "Súmula 524 STF"
+  ],
+  "nao_confundir": "Não confundir com Ação Penal (5466): o inquérito é fase pré-processual e informativa; ação penal é o exercício da pretensão acusatória em juízo, por denúncia ou queixa. Também se distingue de Provas em Espécies (5543) e Teoria Geral das Provas (5590), pois os atos do inquérito produzem, em regra, elementos informativos, não prova judicial submetida ao contraditório."
+ },
+ "5502": {
+  "descricao": "Cobre o acordo de não persecução penal, negócio jurídico pré-processual proposto pelo Ministério Público quando presentes os requisitos legais, especialmente confissão formal e circunstanciada, crime sem violência ou grave ameaça e pena mínima inferior a 4 anos. As questões cobram requisitos, vedações, condições ajustáveis, homologação judicial, descumprimento e controle da recusa do MP.",
+  "palavras_chave": [
+   "ANPP",
+   "acordo de não persecução penal",
+   "confissão formal e circunstanciada",
+   "pena mínima inferior a quatro anos",
+   "sem violência ou grave ameaça",
+   "condições do acordo",
+   "reparação do dano",
+   "prestação de serviço à comunidade",
+   "renúncia a bens e direitos",
+   "homologação judicial",
+   "descumprimento do acordo",
+   "recusa do Ministério Público",
+   "investigado reincidente",
+   "violência doméstica"
+  ],
+  "dispositivos": [
+   "art. 28-A CPP",
+   "art. 28 CPP",
+   "art. 5º, XXXV, LIV e LV, CF",
+   "Resolução CNMP 181/2017",
+   "Lei 13.964/2019"
+  ],
+  "nao_confundir": "Não confundir com Transação Penal e Suspensão Condicional do Processo do Procedimento Sumaríssimo (5539): o ANPP está no art. 28-A do CPP e pressupõe, como regra, investigação criminal antes da denúncia, enquanto aqueles institutos pertencem à Lei 9.099/1995. Também não se confunde com Ação Penal (5466), pois não é denúncia nem queixa, mas alternativa negocial à persecução penal."
+ },
+ "5499": {
+  "descricao": "Trata do conceito, finalidade e natureza do inquérito policial como procedimento administrativo, investigatório e preparatório da ação penal. As provas cobram suas características clássicas: escrito, sigiloso, inquisitivo, oficial, oficioso, indisponível, dispensável e discricionário quanto às diligências, com limites decorrentes das garantias fundamentais.",
+  "palavras_chave": [
+   "conceito de inquérito policial",
+   "procedimento administrativo",
+   "caráter inquisitivo",
+   "procedimento escrito",
+   "sigilo do inquérito",
+   "dispensabilidade do inquérito",
+   "indisponibilidade",
+   "oficialidade",
+   "oficiosidade",
+   "discricionariedade investigatória",
+   "ausência de contraditório",
+   "elementos informativos",
+   "justa causa",
+   "acesso do defensor"
+  ],
+  "dispositivos": [
+   "art. 4º CPP",
+   "art. 9º CPP",
+   "art. 12 CPP",
+   "art. 14 CPP",
+   "art. 17 CPP",
+   "art. 20 CPP",
+   "art. 144, §§ 1º e 4º, CF",
+   "Lei 12.830/2013",
+   "Súmula Vinculante 14 STF"
+  ],
+  "nao_confundir": "Não confundir com Procedimento do Inquérito Policial (5500): aqui o foco é a natureza, finalidade e características gerais; no procedimento, o foco é como o inquérito se instaura e quais diligências são realizadas. Também se distingue de Sistemas e Princípios Processuais Penais (5580), pois a inquisitoriedade aqui é característica da investigação, não modelo constitucional de processo penal."
+ },
+ "5501": {
+  "descricao": "Abrange o encerramento do inquérito, com relatório da autoridade policial, remessa dos autos e prazos legais, além das regras de arquivamento e eventual desarquivamento. Em concursos, aparecem a impossibilidade de arquivamento pelo delegado, a atuação do Ministério Público, o controle/revisão do arquivamento e a necessidade de novas provas para propositura da ação após arquivamento.",
+  "palavras_chave": [
+   "relatório final",
+   "conclusão do inquérito",
+   "prazo do inquérito",
+   "indiciado preso",
+   "indiciado solto",
+   "remessa dos autos",
+   "arquivamento do inquérito",
+   "desarquivamento",
+   "novas provas",
+   "promoção de arquivamento",
+   "instância de revisão ministerial",
+   "diligências complementares",
+   "impossibilidade de arquivamento pelo delegado",
+   "Súmula 524 STF"
+  ],
+  "dispositivos": [
+   "art. 10 CPP",
+   "art. 16 CPP",
+   "art. 17 CPP",
+   "art. 18 CPP",
+   "art. 28 CPP",
+   "art. 28-A CPP",
+   "art. 46 CPP",
+   "Súmula 524 STF",
+   "Lei 13.964/2019"
+  ],
+  "nao_confundir": "Não confundir com Ação Penal (5466): conclusão e arquivamento dizem respeito ao destino da investigação; oferecimento de denúncia ou queixa já inaugura a persecução em juízo. Também não confundir com Recursos em Espécies (5560), pois a impugnação/revisão do arquivamento segue regime próprio, não a lógica recursal comum contra sentença."
+ },
+ "5504": {
+  "descricao": "Trata do inquérito civil, procedimento administrativo presidido pelo Ministério Público para apurar fatos que possam fundamentar ação civil pública, termo de ajustamento de conduta ou outras medidas de tutela coletiva. Embora não seja inquérito policial nem persecução penal propriamente dita, pode aparecer em Processo Penal para diferenciar investigações ministeriais civis, criminais e policiais.",
+  "palavras_chave": [
+   "inquérito civil",
+   "Ministério Público",
+   "ação civil pública",
+   "interesses difusos",
+   "interesses coletivos",
+   "direitos individuais homogêneos",
+   "patrimônio público",
+   "meio ambiente",
+   "consumidor",
+   "termo de ajustamento de conduta",
+   "TAC",
+   "recomendação ministerial",
+   "arquivamento do inquérito civil",
+   "Conselho Superior do Ministério Público"
+  ],
+  "dispositivos": [
+   "art. 129, III e VI, CF",
+   "Lei 7.347/1985, art. 8º, § 1º",
+   "Lei 7.347/1985, art. 9º",
+   "Lei 8.625/1993, art. 25, IV",
+   "LC 75/1993, arts. 6º e 7º",
+   "Resolução CNMP 23/2007"
+  ],
+  "nao_confundir": "Não confundir com Inquérito Policial (5498): o inquérito civil é presidido pelo Ministério Público e voltado à tutela coletiva cível; o inquérito policial é investigação criminal presidida pela polícia judiciária. Também se distingue de Ação Penal (5466), pois seus resultados normalmente subsidiam ação civil pública, e não denúncia ou queixa."
+ },
+ "5503": {
+  "descricao": "Cobre o juiz das garantias, órgão jurisdicional responsável pelo controle da legalidade da investigação criminal e pela proteção dos direitos individuais na fase pré-processual. As questões cobram sua competência funcional, atos que dependem de autorização judicial, separação em relação ao juiz da instrução e julgamento, e regras introduzidas pelo Pacote Anticrime.",
+  "palavras_chave": [
+   "juiz das garantias",
+   "controle da investigação",
+   "legalidade da prisão",
+   "direitos fundamentais do investigado",
+   "fase pré-processual",
+   "recebimento da denúncia",
+   "imparcialidade objetiva",
+   "sistema acusatório",
+   "medidas cautelares",
+   "busca e apreensão",
+   "interceptação telefônica",
+   "prova antecipada",
+   "trancamento da investigação",
+   "impedimento do juiz"
+  ],
+  "dispositivos": [
+   "arts. 3º-A a 3º-F CPP",
+   "art. 5º, LIII, LIV, LV, LXI, LXII, LXIII, LXV e LXVI, CF",
+   "Lei 13.964/2019",
+   "ADIs 6298, 6299, 6300 e 6305 STF"
+  ],
+  "nao_confundir": "Não confundir com Competência (5480): juiz das garantias envolve repartição funcional entre controle da investigação e julgamento, não apenas critérios territoriais, materiais ou por prerrogativa. Também não confundir com Prisões em Espécie (5517) ou Teoria Geral das Prisões (5584): quando a questão tratar da autoridade judicial que controla a legalidade da prisão na investigação, o foco é este tema."
+ },
+ "5500": {
+  "descricao": "Abrange o rito de formação do inquérito policial: formas de instauração, notitia criminis, requerimento do ofendido, requisições, auto de prisão em flagrante, diligências investigatórias, indiciamento e atos de documentação. Em provas, o foco está no que a autoridade policial pode ou deve fazer durante a investigação, inclusive oitivas, perícias, apreensões, reprodução simulada e pedidos ao juiz ou ao Ministério Público.",
+  "palavras_chave": [
+   "instauração do inquérito",
+   "portaria",
+   "auto de prisão em flagrante",
+   "notitia criminis",
+   "delatio criminis",
+   "requisição do Ministério Público",
+   "requerimento do ofendido",
+   "diligências policiais",
+   "oitiva do ofendido",
+   "interrogatório do investigado",
+   "reprodução simulada dos fatos",
+   "indiciamento",
+   "exame de corpo de delito",
+   "busca e apreensão",
+   "acesso aos autos"
+  ],
+  "dispositivos": [
+   "art. 5º CPP",
+   "art. 6º CPP",
+   "art. 7º CPP",
+   "art. 13 CPP",
+   "art. 13-A CPP",
+   "art. 13-B CPP",
+   "art. 14 CPP",
+   "art. 14-A CPP",
+   "art. 15 CPP",
+   "art. 22 CPP",
+   "Lei 12.830/2013, art. 2º, § 6º",
+   "Súmula Vinculante 14 STF"
+  ],
+  "nao_confundir": "Não confundir com Conceito, Finalidade e Características do Inquérito Policial (5499): aqui a pergunta é sobre atos e dinâmica procedimental; lá, sobre natureza jurídica e traços gerais. Também se distingue de Provas em Espécies (5543), pois diligências policiais produzem elementos informativos e só serão prova judicial, em regra, quando observados contraditório ou hipóteses legais de prova cautelar, antecipada ou irrepetível."
+ },
+ "5530": {
+  "descricao": "Abrange a sequência completa do procedimento comum ordinário no CPP, usado como regra para infrações cuja sanção máxima seja igual ou superior a 4 anos de pena privativa de liberdade. Em provas, envolve a ordem dos atos desde o oferecimento da denúncia/queixa até audiência de instrução, alegações finais e sentença, incluindo recebimento da peça acusatória, resposta à acusação e absolvição sumária.",
+  "palavras_chave": [
+   "procedimento comum ordinário",
+   "rito ordinário",
+   "pena máxima igual ou superior a 4 anos",
+   "denúncia ou queixa",
+   "resposta à acusação",
+   "absolvição sumária",
+   "audiência de instrução e julgamento",
+   "oitiva de testemunhas",
+   "interrogatório ao final",
+   "alegações finais orais",
+   "memoriais",
+   "sentença"
+  ],
+  "dispositivos": [
+   "arts. 394 a 405 CPP",
+   "art. 394, §1º, I, CPP",
+   "art. 396 CPP",
+   "art. 396-A CPP",
+   "art. 397 CPP",
+   "art. 399 CPP",
+   "art. 400 CPP",
+   "art. 403 CPP",
+   "art. 404 CPP",
+   "art. 405 CPP"
+  ],
+  "nao_confundir": "Não confundir com o procedimento sumário (5538), aplicável em regra a crimes com pena máxima inferior a 4 anos, nem com o sumaríssimo (5539), próprio das infrações de menor potencial ofensivo. Se a questão tratar do júri, com crimes dolosos contra a vida e fase de pronúncia, o tema correto será Procedimento do Tribunal do Júri (5524). Questões genéricas sobre teoria da sentença devem ir para Sentença Penal (5572), salvo quando o foco for a posição da sentença dentro do rito ordinário."
+ },
+ "5531": {
+  "descricao": "Trata dos requisitos e momentos iniciais da ação penal no procedimento ordinário: oferecimento da denúncia ou queixa, juízo de admissibilidade, rejeição liminar e recebimento da peça acusatória. Em provas, é comum cobrar hipóteses de rejeição, distinção entre rejeição e absolvição sumária, e consequências do recebimento, como citação para resposta à acusação.",
+  "palavras_chave": [
+   "oferecimento da denúncia",
+   "oferecimento da queixa",
+   "rejeição da denúncia",
+   "rejeição da queixa",
+   "inépcia da inicial",
+   "pressuposto processual",
+   "condição da ação",
+   "justa causa",
+   "recebimento da denúncia",
+   "recebimento da queixa",
+   "juízo de admissibilidade",
+   "citação do acusado",
+   "peça acusatória"
+  ],
+  "dispositivos": [
+   "art. 41 CPP",
+   "art. 395 CPP",
+   "art. 396 CPP",
+   "art. 396-A CPP",
+   "art. 399 CPP",
+   "art. 564, III, a, CPP",
+   "Súmula 707 STF"
+  ],
+  "nao_confundir": "Não confundir com Ação Penal (5466), que trata de titularidade, espécies, princípios, denúncia e queixa em perspectiva geral; aqui o foco é o ato de admissibilidade dentro do procedimento ordinário. Também não confundir com Absolvição Sumária (5534): a rejeição ocorre antes da instauração válida do processo por vício da inicial ou falta de justa causa, enquanto a absolvição sumária pressupõe resposta à acusação e análise das hipóteses do art. 397 do CPP."
+ },
+ "5534": {
+  "descricao": "Cobre a decisão de absolvição sumária no procedimento comum, proferida após a resposta à acusação quando presentes hipóteses legais evidentes. As provas costumam explorar as quatro hipóteses do art. 397 do CPP e a diferença entre absolver sumariamente, rejeitar a denúncia e impronunciar no júri.",
+  "palavras_chave": [
+   "absolvição sumária",
+   "art. 397 CPP",
+   "excludente manifesta de ilicitude",
+   "excludente manifesta de culpabilidade",
+   "fato narrado não constitui crime",
+   "causa extintiva da punibilidade",
+   "resposta à acusação",
+   "julgamento antecipado",
+   "mérito antecipado",
+   "inexistência de crime",
+   "inimputabilidade",
+   "decisão absolutória"
+  ],
+  "dispositivos": [
+   "art. 397 CPP",
+   "art. 396 CPP",
+   "art. 396-A CPP",
+   "art. 107 CP",
+   "arts. 23 a 25 CP",
+   "arts. 26 a 28 CP"
+  ],
+  "nao_confundir": "Não confundir com rejeição da peça acusatória (5531), pois esta decorre do art. 395 do CPP e antecede a resposta à acusação. Também não confundir com a absolvição sumária do Tribunal do Júri (5524), prevista no art. 415 do CPP, nem com sentença absolutória em geral (5572), quando a questão tratar do julgamento após instrução completa."
+ },
+ "5536": {
+  "descricao": "Abrange as alegações finais no procedimento ordinário, normalmente feitas oralmente após a instrução, com possibilidade de substituição por memoriais em hipóteses legais. Em provas, aparecem prazos, ordem de manifestação, tempo de sustentação, conversão em diligências e consequências da não observância do contraditório.",
+  "palavras_chave": [
+   "alegações finais",
+   "debates orais",
+   "memoriais",
+   "prazo sucessivo",
+   "acusação e defesa",
+   "assistente de acusação",
+   "diligências complementares",
+   "complexidade da causa",
+   "número de acusados",
+   "20 minutos prorrogáveis",
+   "10 minutos do assistente",
+   "art. 403 CPP",
+   "art. 404 CPP"
+  ],
+  "dispositivos": [
+   "art. 403 CPP",
+   "art. 403, §1º, CPP",
+   "art. 403, §2º, CPP",
+   "art. 403, §3º, CPP",
+   "art. 404 CPP",
+   "art. 404, parágrafo único, CPP",
+   "art. 402 CPP",
+   "art. 5º, LV, CF"
+  ],
+  "nao_confundir": "Não confundir com Audiência de Instrução e Julgamento (5535), que engloba a coleta da prova oral e atos instrutórios; este tema foca especificamente a fase de debates finais ou memoriais. Se a questão discutir recurso cabível contra a sentença ou efeitos recursais, o tema será Parte Geral dos Recursos (5512) ou Recursos em Espécies (5560)."
+ },
+ "5535": {
+  "descricao": "Trata da audiência de instrução e julgamento no rito ordinário, incluindo ordem de atos, oitiva do ofendido, testemunhas de acusação e defesa, esclarecimentos periciais, acareações, reconhecimento de pessoas e coisas, interrogatório e eventuais diligências. Em concursos, é muito cobrada a ordem do art. 400 do CPP, especialmente o interrogatório como último ato da instrução.",
+  "palavras_chave": [
+   "audiência de instrução e julgamento",
+   "AIJ",
+   "oitiva do ofendido",
+   "testemunhas de acusação",
+   "testemunhas de defesa",
+   "esclarecimentos dos peritos",
+   "acareação",
+   "reconhecimento de pessoas e coisas",
+   "interrogatório ao final",
+   "ordem da instrução",
+   "princípio da identidade física do juiz",
+   "prova oral",
+   "80 testemunhas não",
+   "8 testemunhas"
+  ],
+  "dispositivos": [
+   "art. 399 CPP",
+   "art. 400 CPP",
+   "art. 400, §1º, CPP",
+   "art. 400, §2º, CPP",
+   "art. 401 CPP",
+   "art. 402 CPP",
+   "art. 405 CPP",
+   "art. 212 CPP",
+   "art. 5º, LV, CF",
+   "HC 127.900 STF"
+  ],
+  "nao_confundir": "Não confundir com Provas em Espécies (5543) ou Teoria Geral das Provas (5590), que tratam dos meios de prova e suas regras abstratas; aqui o critério é a prática desses atos dentro da audiência do rito ordinário. Se o enunciado tratar de nulidade pela inversão da ordem dos atos, pode dialogar com Nulidades (5509), mas será deste tema quando o foco for a ordem procedimental da audiência."
+ },
+ "5532": {
+  "descricao": "Abrange a classificação dos procedimentos penais, especialmente a divisão do procedimento comum em ordinário, sumário e sumaríssimo, conforme a pena máxima cominada e a natureza da infração. Em provas, costuma aparecer como questão de enquadramento do rito aplicável a determinado crime ou contravenção e como distinção entre procedimento comum e especial.",
+  "palavras_chave": [
+   "classificação dos procedimentos",
+   "procedimento comum",
+   "procedimento especial",
+   "ordinário",
+   "sumário",
+   "sumaríssimo",
+   "pena máxima cominada",
+   "igual ou superior a 4 anos",
+   "inferior a 4 anos",
+   "infração de menor potencial ofensivo",
+   "contravenção penal",
+   "Lei dos Juizados Especiais",
+   "rito aplicável",
+   "critério da pena máxima"
+  ],
+  "dispositivos": [
+   "art. 394 CPP",
+   "art. 394, §1º, CPP",
+   "art. 394, §2º, CPP",
+   "art. 394, §4º, CPP",
+   "art. 61 Lei 9.099/1995",
+   "art. 77 Lei 9.099/1995"
+  ],
+  "nao_confundir": "Não confundir com Procedimento Sumário (5538) ou Procedimento Sumaríssimo (5539), que estudam o desenvolvimento específico desses ritos. Este tema é adequado quando a questão pede apenas identificar ou comparar o procedimento cabível; se já cobrar os atos internos do rito ordinário, o enquadramento será em 5530 ou em seus subtemas."
+ },
+ "5533": {
+  "descricao": "Trata da resposta à acusação no procedimento comum ordinário, apresentada após a citação do acusado e antes da decisão de absolvição sumária ou designação de audiência. Em provas, envolve prazo, conteúdo da peça defensiva, arguição de preliminares, juntada de documentos, rol de testemunhas e atuação da Defensoria Pública quando o réu não apresenta defesa.",
+  "palavras_chave": [
+   "resposta à acusação",
+   "defesa preliminar",
+   "prazo de 10 dias",
+   "citação do acusado",
+   "preliminares",
+   "alegar tudo que interesse à defesa",
+   "documentos e justificações",
+   "rol de testemunhas",
+   "defensor constituído",
+   "Defensoria Pública",
+   "defesa técnica",
+   "não apresentação de resposta",
+   "art. 396-A CPP"
+  ],
+  "dispositivos": [
+   "art. 396 CPP",
+   "art. 396-A CPP",
+   "art. 396-A, §1º, CPP",
+   "art. 396-A, §2º, CPP",
+   "art. 397 CPP",
+   "art. 401 CPP",
+   "art. 5º, LV, CF",
+   "Súmula 523 STF"
+  ],
+  "nao_confundir": "Não confundir com Defesa Preliminar de procedimentos especiais, como drogas ou crimes funcionais, quando houver regra própria anterior ao recebimento da denúncia. No rito ordinário, a resposta à acusação ocorre após o recebimento da denúncia/queixa e citação, servindo como etapa antecedente à possível absolvição sumária (5534)."
+ },
+ "5537": {
+  "descricao": "Abrange a sentença proferida ao final do procedimento ordinário, após instrução e alegações finais, incluindo momento de prolação, possibilidade de sentença oral reduzida a termo e requisitos básicos do ato decisório. Nas provas, o foco é a sentença como etapa final do rito ordinário, e não toda a teoria dos provimentos judiciais.",
+  "palavras_chave": [
+   "sentença no rito ordinário",
+   "sentença em audiência",
+   "sentença escrita",
+   "relatório",
+   "fundamentação",
+   "dispositivo",
+   "encerramento da instrução",
+   "após alegações finais",
+   "sentença condenatória",
+   "sentença absolutória",
+   "sentença oral",
+   "termo de audiência",
+   "publicação da sentença"
+  ],
+  "dispositivos": [
+   "art. 381 CPP",
+   "art. 382 CPP",
+   "art. 383 CPP",
+   "art. 384 CPP",
+   "art. 385 CPP",
+   "art. 386 CPP",
+   "art. 387 CPP",
+   "art. 388 CPP",
+   "art. 389 CPP",
+   "art. 403, §3º, CPP",
+   "art. 405 CPP",
+   "art. 93, IX, CF"
+  ],
+  "nao_confundir": "Não confundir com Sentença Penal (5572), que cobre teoria geral, espécies, efeitos, emendatio libelli, mutatio libelli e requisitos em sentido amplo. Este tema deve ser usado quando a questão vincular a sentença ao fluxo do procedimento ordinário, especialmente após AIJ, debates orais ou memoriais."
+ },
+ "5512": {
+  "descricao": "Tema guarda-chuva da teoria geral dos recursos no processo penal: conceito, finalidade, natureza jurídica, juízo de admissibilidade e de mérito, princípios, efeitos e classificação dos recursos. Em provas, aparece em questões que não exigem o procedimento detalhado de um recurso específico, mas sim regras comuns a todos ou à maioria dos recursos criminais.",
+  "palavras_chave": [
+   "teoria geral dos recursos",
+   "juízo de admissibilidade",
+   "juízo de mérito recursal",
+   "duplo grau de jurisdição",
+   "voluntariedade recursal",
+   "fungibilidade recursal",
+   "efeito devolutivo",
+   "efeito suspensivo",
+   "reformatio in pejus",
+   "extensão dos efeitos do recurso",
+   "legitimidade recursal",
+   "interesse recursal",
+   "tempestividade",
+   "regularidade formal"
+  ],
+  "dispositivos": [
+   "CF/1988, art. 5º, LV",
+   "CADH/Pacto de San José da Costa Rica, art. 8.2.h",
+   "CPP, arts. 574 a 580",
+   "CPP, art. 581",
+   "CPP, art. 593",
+   "CPP, art. 617",
+   "Súmula 160 STF",
+   "Súmula 347 STJ",
+   "Súmula 705 STF",
+   "Súmula 713 STF"
+  ],
+  "nao_confundir": "Não confundir com Recursos em Espécies (5560), que trata do cabimento, prazo e processamento de cada recurso, como apelação, RESE, embargos e recursos excepcionais. Também não confundir com Ações Autônomas de Impugnação (5476): habeas corpus, revisão criminal e mandado de segurança não são recursos, pois instauram nova relação processual."
+ },
+ "5516": {
+  "descricao": "Abrange as formas de classificar os recursos criminais: ordinários e extraordinários, totais e parciais, voluntários e necessários, de fundamentação livre ou vinculada, horizontais ou verticais, principais ou incidentais. Em concursos, costuma ser cobrado para identificar a natureza de determinado recurso ou a consequência prática de sua classificação.",
+  "palavras_chave": [
+   "recurso ordinário",
+   "recurso extraordinário",
+   "recurso total",
+   "recurso parcial",
+   "recurso voluntário",
+   "recurso de ofício",
+   "reexame necessário",
+   "fundamentação livre",
+   "fundamentação vinculada",
+   "recurso vertical",
+   "recurso horizontal",
+   "recurso principal",
+   "recurso incidental",
+   "taxatividade recursal"
+  ],
+  "dispositivos": [
+   "CPP, art. 574",
+   "CPP, art. 579",
+   "CPP, art. 580",
+   "CPP, art. 581",
+   "CPP, art. 593",
+   "CF/1988, art. 102, III",
+   "CF/1988, art. 105, III",
+   "Súmula 713 STF"
+  ],
+  "nao_confundir": "Não confundir com Efeito dos Recursos (5515): a classificação identifica a espécie teórica do recurso; os efeitos indicam o que a interposição produz sobre a decisão recorrida. Também se distingue de Recursos em Espécies (5560), que analisa individualmente apelação, RESE, embargos, recurso especial e extraordinário."
+ },
+ "5515": {
+  "descricao": "Trata dos efeitos produzidos pela interposição, admissibilidade e julgamento dos recursos criminais, especialmente efeitos devolutivo, suspensivo, regressivo, extensivo e translativo, além da vedação à reformatio in pejus. Em provas, o foco é saber se a decisão pode ser executada, qual matéria foi devolvida ao tribunal e se o resultado favorável aproveita a corréus não recorrentes.",
+  "palavras_chave": [
+   "efeito devolutivo",
+   "efeito suspensivo",
+   "efeito regressivo",
+   "efeito extensivo",
+   "efeito translativo",
+   "tantum devolutum quantum appellatum",
+   "reformatio in pejus",
+   "reformatio in mellius",
+   "reformatio in pejus indireta",
+   "execução provisória",
+   "extensão ao corréu",
+   "juízo de retratação",
+   "limites da devolução",
+   "matéria de ordem pública"
+  ],
+  "dispositivos": [
+   "CPP, art. 580",
+   "CPP, art. 584",
+   "CPP, art. 596",
+   "CPP, art. 597",
+   "CPP, art. 617",
+   "CPP, art. 637",
+   "Súmula 160 STF",
+   "Súmula 347 STJ",
+   "Súmula 713 STF"
+  ],
+  "nao_confundir": "Não confundir com Pressupostos de Admissibilidade Recursal (5514): estes definem se o recurso será conhecido; os efeitos tratam das consequências de sua interposição ou julgamento. Se a questão perguntar sobre suspensão da decisão, devolução da matéria ou proibição de piorar a situação do réu em recurso exclusivo da defesa, o tema é 5515."
+ },
+ "5514": {
+  "descricao": "Cobre os requisitos objetivos e subjetivos para que o recurso criminal seja conhecido, como cabimento, adequação, tempestividade, regularidade formal, preparo quando exigível, legitimidade e interesse recursal. Também envolve fatos impeditivos ou extintivos do direito de recorrer, como renúncia, preclusão, desistência e deserção quando aplicável.",
+  "palavras_chave": [
+   "admissibilidade recursal",
+   "pressupostos objetivos",
+   "pressupostos subjetivos",
+   "cabimento",
+   "adequação",
+   "tempestividade",
+   "legitimidade recursal",
+   "interesse recursal",
+   "regularidade formal",
+   "preparo",
+   "deserção",
+   "renúncia ao recurso",
+   "desistência do recurso",
+   "preclusão",
+   "juízo de admissibilidade"
+  ],
+  "dispositivos": [
+   "CPP, art. 575",
+   "CPP, art. 576",
+   "CPP, art. 577",
+   "CPP, art. 578",
+   "CPP, art. 579",
+   "CPP, art. 581",
+   "CPP, art. 586",
+   "CPP, art. 593",
+   "CPP, art. 798",
+   "Súmula 347 STJ",
+   "Súmula 705 STF"
+  ],
+  "nao_confundir": "Não confundir com Princípios Recursais (5513), embora alguns princípios, como fungibilidade e voluntariedade, influenciem a admissibilidade. O critério de desempate é: se a questão pergunta se o recurso deve ser conhecido, por prazo, legitimidade, interesse ou forma, o tema é 5514."
+ },
+ "5513": {
+  "descricao": "Abrange os princípios que estruturam o sistema recursal penal, como duplo grau de jurisdição, voluntariedade, taxatividade, unirrecorribilidade, fungibilidade, dialeticidade, complementariedade, vedação à reformatio in pejus e proibição de desistência pelo Ministério Público. Em concursos, aparece em assertivas conceituais e em situações nas quais se deve aplicar um princípio para resolver problema de cabimento ou alcance do recurso.",
+  "palavras_chave": [
+   "duplo grau de jurisdição",
+   "voluntariedade",
+   "taxatividade",
+   "unirrecorribilidade",
+   "singularidade recursal",
+   "fungibilidade",
+   "dialeticidade",
+   "complementariedade",
+   "non reformatio in pejus",
+   "disponibilidade recursal",
+   "indisponibilidade do recurso do Ministério Público",
+   "tantum devolutum quantum appellatum",
+   "ampla defesa",
+   "contraditório recursal"
+  ],
+  "dispositivos": [
+   "CF/1988, art. 5º, LV",
+   "CADH/Pacto de San José da Costa Rica, art. 8.2.h",
+   "CPP, art. 574",
+   "CPP, art. 576",
+   "CPP, art. 579",
+   "CPP, art. 580",
+   "CPP, art. 617",
+   "Súmula 160 STF",
+   "Súmula 705 STF",
+   "Súmula 713 STF"
+  ],
+  "nao_confundir": "Não confundir com Efeito dos Recursos (5515): princípios são vetores interpretativos do sistema; efeitos são consequências jurídicas concretas do recurso. Também não confundir com Pressupostos de Admissibilidade (5514), salvo quando o princípio for usado para decidir conhecimento do recurso, como na fungibilidade."
+ },
+ "5539": {
+  "descricao": "Abrange o rito sumaríssimo dos Juizados Especiais Criminais, previsto na Lei 9.099/1995, com foco em oralidade, simplicidade, informalidade, economia processual e celeridade. Em provas, envolve o fluxo procedimental das infrações de menor potencial ofensivo: termo circunstanciado, audiência preliminar, composição civil, transação penal, oferecimento de denúncia oral ou queixa, audiência de instrução e julgamento e sentença.",
+  "palavras_chave": [
+   "procedimento sumaríssimo",
+   "Juizado Especial Criminal",
+   "JECRIM",
+   "infração de menor potencial ofensivo",
+   "termo circunstanciado",
+   "audiência preliminar",
+   "composição civil dos danos",
+   "oralidade",
+   "informalidade",
+   "celeridade",
+   "denúncia oral",
+   "queixa oral",
+   "audiência de instrução e julgamento",
+   "Lei 9.099/1995"
+  ],
+  "dispositivos": [
+   "CF, art. 98, I",
+   "Lei 9.099/1995, arts. 60 a 83",
+   "Lei 9.099/1995, art. 61",
+   "Lei 9.099/1995, art. 62",
+   "Lei 9.099/1995, art. 69",
+   "Lei 9.099/1995, arts. 72 a 75",
+   "Lei 9.099/1995, arts. 76 a 83",
+   "Lei 10.259/2001, art. 2º, parágrafo único",
+   "CPP, art. 394, §1º, III"
+  ],
+  "nao_confundir": "Não confundir com Procedimento Ordinário (5530) ou Procedimento Sumário (5538), que tratam dos ritos comuns do CPP conforme a pena máxima e não do microssistema dos Juizados. Se a questão discutir apenas fixação abstrata de competência, foro ou conexão em geral, tende a ser Competência (5480); se tratar especificamente de infração de menor potencial ofensivo e atos da Lei 9.099/1995, fica em 5539 ou em seus subtemas."
+ },
+ "5540": {
+  "descricao": "Trata da competência dos Juizados Especiais Criminais para processar e julgar infrações de menor potencial ofensivo, isto é, contravenções penais e crimes com pena máxima não superior a 2 anos, cumulada ou não com multa. Inclui regras sobre local da infração, causas de deslocamento ao juízo comum, impossibilidade de citação por edital no JECRIM, complexidade da causa, conexão/continência e exclusões legais, como violência doméstica e familiar contra a mulher.",
+  "palavras_chave": [
+   "competência do JECRIM",
+   "infração de menor potencial ofensivo",
+   "pena máxima não superior a 2 anos",
+   "contravenção penal",
+   "lugar em que foi praticada a infração",
+   "citação por edital",
+   "remessa ao juízo comum",
+   "complexidade da causa",
+   "conexão e continência",
+   "violência doméstica",
+   "Lei Maria da Penha",
+   "Juizado Especial Federal Criminal",
+   "competência territorial",
+   "art. 61 da Lei 9.099/1995"
+  ],
+  "dispositivos": [
+   "CF, art. 98, I",
+   "Lei 9.099/1995, art. 60",
+   "Lei 9.099/1995, art. 61",
+   "Lei 9.099/1995, art. 63",
+   "Lei 9.099/1995, art. 66, parágrafo único",
+   "Lei 9.099/1995, art. 77, §§2º e 3º",
+   "Lei 10.259/2001, art. 2º, parágrafo único",
+   "Lei 11.340/2006, art. 41",
+   "Súmula 536 STJ"
+  ],
+  "nao_confundir": "Distinguir de Competência em geral (5480): aqui o critério é a competência específica dos Juizados Especiais Criminais e o conceito de infração de menor potencial ofensivo. Não confundir com Transação Penal (5541) ou Suspensão Condicional do Processo (5542): se o enunciado pergunta sobre cabimento de benefícios despenalizadores, o foco é 5541 ou 5542; se pergunta sobre qual juízo processa e julga, é 5540."
+ },
+ "5542": {
+  "descricao": "Cobre a suspensão condicional do processo, instituto despenalizador do art. 89 da Lei 9.099/1995, cabível para crimes cuja pena mínima cominada seja igual ou inferior a 1 ano, abrangidos ou não pela Lei dos Juizados. Em concursos, aparecem requisitos, momento da proposta, período de prova, condições impostas, hipóteses de revogação obrigatória ou facultativa e extinção da punibilidade ao final.",
+  "palavras_chave": [
+   "suspensão condicional do processo",
+   "sursis processual",
+   "art. 89 da Lei 9.099/1995",
+   "pena mínima igual ou inferior a 1 ano",
+   "período de prova",
+   "condições da suspensão",
+   "revogação obrigatória",
+   "revogação facultativa",
+   "extinção da punibilidade",
+   "acusado não processado",
+   "acusado não condenado",
+   "reparação do dano",
+   "proposta do Ministério Público",
+   "concurso de crimes"
+  ],
+  "dispositivos": [
+   "Lei 9.099/1995, art. 89",
+   "CP, art. 77",
+   "Súmula 243 STJ",
+   "Súmula 723 STF",
+   "Súmula 536 STJ",
+   "Lei 11.340/2006, art. 41"
+  ],
+  "nao_confundir": "Não confundir com Transação Penal (5541): a transação ocorre antes do recebimento da denúncia ou queixa e considera, em regra, infração de menor potencial ofensivo; a suspensão condicional do processo é proposta com a denúncia e depende da pena mínima igual ou inferior a 1 ano. Também não confundir com suspensão condicional da pena, tema de Direito Penal, pois nesta já há condenação e execução da pena, enquanto o sursis processual suspende o próprio processo."
+ },
+ "5541": {
+  "descricao": "Trata da transação penal, acordo pelo qual o Ministério Público propõe a aplicação imediata de pena restritiva de direitos ou multa, evitando o prosseguimento da persecução penal nas infrações de menor potencial ofensivo. As provas costumam cobrar legitimidade para proposta, requisitos negativos, efeitos da aceitação, ausência de reconhecimento de culpa, descumprimento do acordo e impossibilidade em hipóteses como violência doméstica contra a mulher.",
+  "palavras_chave": [
+   "transação penal",
+   "aplicação imediata de pena",
+   "pena restritiva de direitos",
+   "multa",
+   "proposta do Ministério Público",
+   "infração de menor potencial ofensivo",
+   "audiência preliminar",
+   "aceitação pelo autor do fato",
+   "não gera reincidência",
+   "não importa confissão",
+   "descumprimento da transação",
+   "oferecimento da denúncia",
+   "benefício nos últimos cinco anos",
+   "violência doméstica"
+  ],
+  "dispositivos": [
+   "Lei 9.099/1995, art. 72",
+   "Lei 9.099/1995, art. 76",
+   "Lei 9.099/1995, art. 76, §2º",
+   "Lei 9.099/1995, art. 76, §§4º e 6º",
+   "Súmula Vinculante 35 STF",
+   "Lei 11.340/2006, art. 41",
+   "Súmula 536 STJ"
+  ],
+  "nao_confundir": "Não confundir com Suspensão Condicional do Processo (5542): a transação penal é anterior ao processo e envolve aplicação imediata de medida alternativa; o sursis processual pressupõe denúncia e suspensão do processo por período de prova. Também se distingue da Composição Civil dos Danos, dentro do Procedimento Sumaríssimo (5539), porque esta resolve a reparação civil e pode gerar renúncia ao direito de queixa ou representação, enquanto a transação penal trata da resposta penal negociada."
+ },
+ "5538": {
+  "descricao": "Abrange o rito comum sumário do CPP, usado, em regra, para crimes cuja pena máxima seja inferior a 4 anos, ressalvados os procedimentos especiais e o procedimento sumaríssimo dos Juizados. Em provas, costuma cobrar o critério de escolha do rito, o prazo para audiência, a concentração dos atos em audiência de instrução e julgamento, o número máximo de testemunhas e as alegações finais orais.",
+  "palavras_chave": [
+   "procedimento comum sumário",
+   "pena máxima inferior a 4 anos",
+   "rito sumário",
+   "audiência de instrução e julgamento",
+   "prazo de 30 dias",
+   "até 5 testemunhas",
+   "alegações finais orais",
+   "debates orais",
+   "sentença em audiência",
+   "concentração dos atos",
+   "arts. 531 a 538 do CPP",
+   "resposta à acusação",
+   "absolvição sumária",
+   "procedimento comum"
+  ],
+  "dispositivos": [
+   "art. 394, §1º, II, CPP",
+   "art. 394, §4º, CPP",
+   "art. 395 CPP",
+   "arts. 396 e 396-A CPP",
+   "art. 397 CPP",
+   "art. 399 CPP",
+   "arts. 531 a 538 CPP",
+   "art. 531 CPP",
+   "art. 532 CPP",
+   "art. 534 CPP",
+   "art. 535 CPP",
+   "art. 536 CPP"
+  ],
+  "nao_confundir": "Não confundir com o Procedimento Ordinário (5530), aplicável, em regra, a crimes com pena máxima igual ou superior a 4 anos; o desempate é o quantum da pena máxima em abstrato. Também não confundir com o Procedimento Sumaríssimo (5539), próprio das infrações de menor potencial ofensivo nos Juizados Especiais Criminais, em regra contravenções e crimes com pena máxima não superior a 2 anos. Se a questão tratar de crimes dolosos contra a vida submetidos ao júri, ainda que a pena possa sugerir outro rito, o tema correto será Procedimento do Tribunal do Júri (5524)."
+ },
+ "5517": {
+  "descricao": "Abrange as modalidades concretas de prisão cautelar e os institutos diretamente ligados à manutenção, substituição ou cessação da custódia no processo penal. Em provas, envolve a escolha entre prisão em flagrante, preventiva, temporária, domiciliar, liberdade provisória e medidas cautelares diversas da prisão, com seus pressupostos, prazos, cabimento e autoridade competente.",
+  "palavras_chave": [
+   "prisão cautelar",
+   "prisão processual",
+   "flagrante",
+   "preventiva",
+   "temporária",
+   "prisão domiciliar",
+   "liberdade provisória",
+   "fiança",
+   "medidas cautelares diversas",
+   "conversão do flagrante",
+   "relaxamento da prisão",
+   "revogação da prisão",
+   "custódia cautelar"
+  ],
+  "dispositivos": [
+   "CF, art. 5º, LXI a LXVI",
+   "CPP, arts. 282 a 350",
+   "CPP, arts. 301 a 310",
+   "CPP, arts. 311 a 316",
+   "CPP, arts. 317 a 318-B",
+   "CPP, arts. 319 e 320",
+   "CPP, arts. 321 a 350",
+   "Lei 7.960/1989",
+   "Lei 8.072/1990, art. 2º, § 4º"
+  ],
+  "nao_confundir": "Não confundir com 5584, que trata da teoria geral das prisões, conceitos amplos, direitos do preso, audiência de custódia e relaxamento em perspectiva geral. Se a questão exige identificar espécie de prisão, requisitos específicos, prazo, fiança ou substituição por cautelares, fica em 5517 ou em um de seus subtemas; se pergunta sobre habeas corpus contra prisão, o foco pode ser 5476."
+ },
+ "5523": {
+  "descricao": "Trata da liberdade provisória como contracautela à prisão em flagrante ou a outra custódia cautelar, com ou sem fiança e com possibilidade de imposição de medidas cautelares. Em provas, aparecem competência para conceder fiança, crimes inafiançáveis, valor, reforço, quebramento e perda da fiança, além da distinção entre relaxamento, revogação e liberdade provisória.",
+  "palavras_chave": [
+   "liberdade provisória",
+   "com fiança",
+   "sem fiança",
+   "arbitramento de fiança",
+   "crimes inafiançáveis",
+   "quebramento da fiança",
+   "perda da fiança",
+   "reforço da fiança",
+   "dispensa da fiança",
+   "contracautela",
+   "art. 310, III, CPP",
+   "comparecimento a atos processuais",
+   "condições da liberdade provisória"
+  ],
+  "dispositivos": [
+   "CF, art. 5º, XLII, XLIII, XLIV e LXVI",
+   "CPP, art. 310, III",
+   "CPP, art. 321",
+   "CPP, arts. 322 a 350",
+   "CPP, art. 325",
+   "CPP, art. 326",
+   "CPP, art. 327",
+   "CPP, art. 341",
+   "CPP, art. 343",
+   "CPP, art. 344",
+   "Lei 8.072/1990, art. 2º, II"
+  ],
+  "nao_confundir": "Não confundir com 5522: liberdade provisória é a soltura do investigado ou acusado, enquanto as cautelares diversas são obrigações que podem acompanhar essa liberdade. Também não confundir com 5518, pois, se o núcleo da questão é a lavratura ou legalidade do flagrante, o tema é prisão em flagrante; se é a soltura após o flagrante, o tema é 5523."
+ },
+ "5522": {
+  "descricao": "Abrange as medidas cautelares pessoais diversas da prisão, aplicadas para evitar a custódia ou substituí-la quando a prisão não for necessária. Em concursos, cobra-se adequação, necessidade, proporcionalidade, cumulação, descumprimento, monitoração eletrônica, proibição de contato, comparecimento periódico e proibição de ausentar-se.",
+  "palavras_chave": [
+   "medidas cautelares diversas da prisão",
+   "art. 319 CPP",
+   "comparecimento periódico",
+   "proibição de acesso",
+   "proibição de contato",
+   "proibição de ausentar-se",
+   "recolhimento domiciliar noturno",
+   "suspensão de função pública",
+   "internação provisória",
+   "fiança como cautelar",
+   "monitoração eletrônica",
+   "proibição de ausentar-se do país",
+   "descumprimento de cautelar",
+   "necessidade e adequação"
+  ],
+  "dispositivos": [
+   "CPP, art. 282",
+   "CPP, art. 282, § 4º",
+   "CPP, art. 319",
+   "CPP, art. 320",
+   "CPP, art. 321",
+   "CPP, art. 312, § 1º",
+   "CPP, art. 315",
+   "Lei 12.403/2011"
+  ],
+  "nao_confundir": "Não confundir com 5521: recolhimento domiciliar noturno do art. 319, V, CPP é medida cautelar diversa, enquanto prisão domiciliar dos arts. 317 e 318 substitui a prisão preventiva. Também não confundir com 5519, pois preventiva é privação cautelar da liberdade; as medidas do 5522 são alternativas menos gravosas, embora o descumprimento possa justificar preventiva."
+ },
+ "5521": {
+  "descricao": "Cuida da prisão domiciliar no processo penal, isto é, do recolhimento do indiciado ou acusado em sua residência como substituição à prisão preventiva. As questões costumam cobrar hipóteses legais de substituição, como idade avançada, doença grave, gestante, mãe ou responsável por criança ou pessoa com deficiência, além das regras especiais dos arts. 318-A e 318-B do CPP.",
+  "palavras_chave": [
+   "prisão domiciliar",
+   "substituição da preventiva",
+   "recolhimento em residência",
+   "maior de 80 anos",
+   "extremamente debilitado",
+   "doença grave",
+   "gestante",
+   "mulher com filho",
+   "criança de até 12 anos",
+   "pessoa com deficiência",
+   "imprescindível aos cuidados",
+   "mãe responsável",
+   "art. 318-A CPP",
+   "art. 318-B CPP"
+  ],
+  "dispositivos": [
+   "CPP, art. 317",
+   "CPP, art. 318",
+   "CPP, art. 318-A",
+   "CPP, art. 318-B",
+   "CPP, art. 282",
+   "CPP, art. 312",
+   "ECA, art. 2º",
+   "STF, HC 143.641"
+  ],
+  "nao_confundir": "Não confundir com 5522, especialmente com o recolhimento domiciliar noturno do art. 319, V, CPP, que é cautelar diversa da prisão. O critério de desempate é: se há substituição de prisão preventiva por permanência integral em residência, classifique em 5521; se há apenas obrigação cautelar de recolher-se em determinados períodos, classifique em 5522."
+ },
+ "5519": {
+  "descricao": "Trata da prisão preventiva, medida cautelar decretada judicialmente durante a investigação ou o processo quando presentes prova da existência do crime, indício suficiente de autoria e perigo gerado pelo estado de liberdade do imputado. Em provas, são centrais os fundamentos do art. 312, as hipóteses de admissibilidade do art. 313, a vedação de decretação de ofício, a fundamentação concreta e a revisão periódica da necessidade da prisão.",
+  "palavras_chave": [
+   "prisão preventiva",
+   "garantia da ordem pública",
+   "garantia da ordem econômica",
+   "conveniência da instrução criminal",
+   "assegurar aplicação da lei penal",
+   "periculum libertatis",
+   "fumus comissi delicti",
+   "prova da existência do crime",
+   "indício suficiente de autoria",
+   "art. 312 CPP",
+   "art. 313 CPP",
+   "fundamentação concreta",
+   "revisão a cada 90 dias",
+   "descumprimento de cautelar",
+   "vedação de decretação de ofício"
+  ],
+  "dispositivos": [
+   "CPP, art. 282",
+   "CPP, art. 311",
+   "CPP, art. 312",
+   "CPP, art. 313",
+   "CPP, art. 314",
+   "CPP, art. 315",
+   "CPP, art. 316",
+   "CPP, art. 310, II",
+   "CF, art. 5º, LXI e LXVI",
+   "Súmula 52 STJ",
+   "Súmula 64 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5520: a preventiva pode ocorrer na investigação ou no processo e não tem prazo legal fixo, enquanto a temporária é própria da investigação e possui prazo determinado. Também se distingue de 5518 porque o flagrante decorre da situação de flagrância e pode ser lavrado pela autoridade policial; a preventiva depende de decisão judicial fundamentada."
+ },
+ "5520": {
+  "descricao": "Abrange a prisão temporária, custódia cautelar de prazo determinado e cabível apenas na fase investigatória, voltada a assegurar a eficácia das investigações em crimes legalmente previstos. As provas cobram legitimidade para requerer ou representar, impossibilidade de decretação de ofício, requisitos do art. 1º da Lei 7.960/1989, prazos de 5 dias prorrogáveis e regra especial de 30 dias para crimes hediondos e equiparados.",
+  "palavras_chave": [
+   "prisão temporária",
+   "Lei 7.960/1989",
+   "fase investigatória",
+   "inquérito policial",
+   "imprescindível às investigações",
+   "sem residência fixa",
+   "identidade não esclarecida",
+   "fundadas razões de autoria",
+   "rol de crimes",
+   "prazo de 5 dias",
+   "prorrogação por igual período",
+   "crimes hediondos 30 dias",
+   "representação da autoridade policial",
+   "requerimento do Ministério Público",
+   "vedação de ofício"
+  ],
+  "dispositivos": [
+   "Lei 7.960/1989, art. 1º",
+   "Lei 7.960/1989, art. 2º",
+   "Lei 7.960/1989, art. 3º",
+   "Lei 8.072/1990, art. 2º, § 4º",
+   "CPP, art. 282",
+   "CF, art. 5º, LXI",
+   "STF, ADI 3.360",
+   "STF, ADI 4.109"
+  ],
+  "nao_confundir": "Não confundir com 5519: preventiva exige fundamentos do art. 312 do CPP e pode subsistir no curso do processo, sem prazo legal predeterminado; temporária tem finalidade investigativa, prazo certo e depende das hipóteses da Lei 7.960/1989. Se a questão fala em prisão após denúncia ou durante a ação penal, em regra não será 5520."
+ },
+ "5518": {
+  "descricao": "Trata da prisão em flagrante, desde a captura até a lavratura do auto de prisão em flagrante e o controle judicial posterior. Em provas, envolve flagrante próprio, impróprio, presumido, facultativo e obrigatório, flagrante preparado, esperado, forjado, prorrogado ou diferido, além das providências do art. 310 do CPP.",
+  "palavras_chave": [
+   "prisão em flagrante",
+   "estado de flagrância",
+   "flagrante próprio",
+   "flagrante impróprio",
+   "flagrante presumido",
+   "flagrante facultativo",
+   "flagrante obrigatório",
+   "auto de prisão em flagrante",
+   "nota de culpa",
+   "comunicação ao juiz",
+   "flagrante preparado",
+   "flagrante esperado",
+   "flagrante forjado",
+   "ação controlada",
+   "conversão em preventiva"
+  ],
+  "dispositivos": [
+   "CF, art. 5º, LXI, LXII, LXIII, LXV e LXVI",
+   "CPP, art. 301",
+   "CPP, art. 302",
+   "CPP, art. 303",
+   "CPP, art. 304",
+   "CPP, art. 305",
+   "CPP, art. 306",
+   "CPP, art. 309",
+   "CPP, art. 310",
+   "Súmula 145 STF",
+   "Lei 12.850/2013, art. 8º",
+   "Lei 11.343/2006, art. 53, II"
+  ],
+  "nao_confundir": "Não confundir com 5519: flagrante é prisão inicialmente administrativa, fundada na situação de flagrância, enquanto preventiva é prisão judicial fundada nos arts. 312 e 313 do CPP. Também não confundir com 5523, pois a análise da concessão de liberdade provisória após o flagrante pertence a 5523; se o foco é a captura, espécies de flagrante ou auto de prisão, o tema é 5518."
+ },
+ "5524": {
+  "descricao": "Abrange o procedimento especial dos crimes dolosos contra a vida submetidos ao Tribunal do Júri, desde a fase de formação da culpa até o julgamento em plenário. Em provas, costuma envolver a estrutura bifásica, a competência constitucional do júri, as decisões da primeira fase, a organização da sessão e os limites da sentença do juiz-presidente.",
+  "palavras_chave": [
+   "Tribunal do Júri",
+   "crimes dolosos contra a vida",
+   "judicium accusationis",
+   "judicium causae",
+   "plenário do júri",
+   "conselho de sentença",
+   "jurados",
+   "pronúncia",
+   "impronúncia",
+   "absolvição sumária",
+   "desclassificação",
+   "quesitação",
+   "soberania dos veredictos"
+  ],
+  "dispositivos": [
+   "art. 5º, XXXVIII, CF",
+   "arts. 406 a 497 CPP",
+   "art. 74, §1º, CPP",
+   "art. 78, I, CPP",
+   "art. 394, §3º, CPP",
+   "arts. 121 a 127 CP",
+   "Súmula Vinculante 45 STF"
+  ],
+  "nao_confundir": "Não confundir com procedimento ordinário, sumário ou sumaríssimo (5530, 5538, 5539): o critério é a existência de crime doloso contra a vida de competência do júri e o rito especial bifásico. Questões focadas apenas em competência territorial ou prerrogativa de função devem ir para 5480, salvo quando o ponto central for a competência constitucional do júri."
+ },
+ "5527": {
+  "descricao": "Trata das quatro principais decisões ao final da primeira fase do júri: pronúncia, impronúncia, absolvição sumária e desclassificação. Em concursos, o foco é diferenciar seus requisitos, efeitos, recursos cabíveis e consequências sobre crimes conexos ou sobre eventual reabertura do processo.",
+  "palavras_chave": [
+   "pronúncia",
+   "impronúncia",
+   "absolvição sumária",
+   "desclassificação",
+   "indícios suficientes de autoria",
+   "materialidade do fato",
+   "juízo de admissibilidade da acusação",
+   "decisão interlocutória mista",
+   "excesso de linguagem",
+   "eloquência acusatória",
+   "recurso em sentido estrito",
+   "coisa julgada formal",
+   "crime conexo",
+   "desclassificação própria e imprópria"
+  ],
+  "dispositivos": [
+   "art. 413 CPP",
+   "art. 414 CPP",
+   "art. 415 CPP",
+   "art. 416 CPP",
+   "art. 419 CPP",
+   "art. 420 CPP",
+   "art. 421 CPP",
+   "art. 581, IV, CPP",
+   "art. 581, II, CPP",
+   "art. 593, III, CPP"
+  ],
+  "nao_confundir": "Não confundir com o procedimento bifásico em geral (5526): aqui o núcleo é a decisão que encerra a primeira fase. Se a questão tratar do recurso contra pronúncia, impronúncia ou absolvição sumária como técnica recursal autônoma, pode pertencer a Recursos em Espécies (5560); se cobrar os requisitos e efeitos dessas decisões no júri, classifique aqui."
+ },
+ "5528": {
+  "descricao": "Cobre a preparação e a realização da sessão plenária do Tribunal do Júri, incluindo alistamento e sorteio de jurados, composição do conselho de sentença, recusas, incomunicabilidade, debates, apartes, quesitação e votação. Também abrange regras de organização da pauta, desaforamento, estouro de urna e atos praticados pelo juiz-presidente durante a sessão.",
+  "palavras_chave": [
+   "sessão de julgamento",
+   "plenário do júri",
+   "alistamento de jurados",
+   "sorteio dos jurados",
+   "conselho de sentença",
+   "recusas imotivadas",
+   "incomunicabilidade dos jurados",
+   "desaforamento",
+   "estouro de urna",
+   "debates orais",
+   "apartes",
+   "quesitos",
+   "votação secreta",
+   "sala especial",
+   "dissolução do conselho de sentença"
+  ],
+  "dispositivos": [
+   "arts. 425 a 452 CPP",
+   "arts. 453 a 491 CPP",
+   "art. 427 CPP",
+   "art. 428 CPP",
+   "art. 447 CPP",
+   "art. 448 CPP",
+   "art. 449 CPP",
+   "art. 466 CPP",
+   "art. 468 CPP",
+   "art. 477 CPP",
+   "art. 478 CPP",
+   "art. 479 CPP",
+   "art. 483 CPP",
+   "art. 485 CPP"
+  ],
+  "nao_confundir": "Não confundir com Sentença do Júri (5529): quesitação e votação em plenário pertencem a este tema; a sentença formal proferida pelo juiz-presidente após o veredicto vai para 5529. Nulidades ocorridas na sessão podem ser cobradas em 5509 se a pergunta for sobre regime de nulidades; se o foco for a regra específica do plenário, classifique aqui."
+ },
+ "5525": {
+  "descricao": "Trata dos princípios constitucionais próprios do Tribunal do Júri: plenitude de defesa, sigilo das votações, soberania dos veredictos e competência para julgamento dos crimes dolosos contra a vida. Em provas, o tema aparece na distinção entre ampla defesa e plenitude de defesa, limites da revisão ou apelação contra decisões dos jurados e alcance da competência constitucional do júri.",
+  "palavras_chave": [
+   "plenitude de defesa",
+   "sigilo das votações",
+   "soberania dos veredictos",
+   "competência para crimes dolosos contra a vida",
+   "ampla defesa",
+   "íntima convicção dos jurados",
+   "veredicto dos jurados",
+   "cláusula pétrea",
+   "competência mínima do júri",
+   "desaforamento e soberania",
+   "decisão manifestamente contrária à prova dos autos",
+   "foro por prerrogativa de função"
+  ],
+  "dispositivos": [
+   "art. 5º, XXXVIII, CF",
+   "art. 5º, LV, CF",
+   "art. 60, §4º, IV, CF",
+   "art. 74, §1º, CPP",
+   "art. 78, I, CPP",
+   "art. 483 CPP",
+   "art. 485 CPP",
+   "art. 593, III, d, CPP",
+   "Súmula Vinculante 45 STF"
+  ],
+  "nao_confundir": "Não confundir com Sistemas e Princípios Processuais Penais (5580), que trata de princípios gerais do processo penal; aqui o critério é a incidência específica do art. 5º, XXXVIII, da Constituição. Se a questão discutir competência em abstrato, use 5480; se discutir a garantia constitucional do júri para crimes dolosos contra a vida, use este tema."
+ },
+ "5526": {
+  "descricao": "Abrange a lógica bifásica do procedimento do júri: primeira fase, de formação da culpa, e segunda fase, de preparação e julgamento em plenário. Em concursos, o tema envolve prazos, sequência de atos, resposta à acusação, audiência de instrução, alegações finais, preparação do processo após a pronúncia e remessa ao plenário.",
+  "palavras_chave": [
+   "procedimento bifásico",
+   "primeira fase do júri",
+   "segunda fase do júri",
+   "formação da culpa",
+   "judicium accusationis",
+   "judicium causae",
+   "resposta à acusação",
+   "audiência de instrução",
+   "alegações finais",
+   "diligências",
+   "preparação para julgamento",
+   "libelo acusatório abolido",
+   "rol de testemunhas",
+   "saneamento do processo",
+   "relatório do processo"
+  ],
+  "dispositivos": [
+   "arts. 406 a 412 CPP",
+   "art. 411 CPP",
+   "art. 412 CPP",
+   "arts. 413 a 421 CPP",
+   "arts. 422 a 424 CPP",
+   "art. 394, §3º, CPP",
+   "art. 396-A CPP"
+  ],
+  "nao_confundir": "Não confundir com Procedimento Ordinário (5530), embora haja atos semelhantes, como resposta à acusação e audiência; no júri, o rito é especial e bifásico. Se a questão se concentrar no conteúdo da decisão de pronúncia, impronúncia, absolvição sumária ou desclassificação, o tema mais específico é 5527."
+ },
+ "5529": {
+  "descricao": "Trata da sentença proferida pelo juiz-presidente após a votação dos jurados, observando o veredicto do conselho de sentença. Em provas, inclui a forma da sentença condenatória ou absolutória, dosimetria, imposição de medidas, efeitos da condenação, execução provisória prevista no CPP e limites do juiz diante da soberania dos veredictos.",
+  "palavras_chave": [
+   "sentença do júri",
+   "juiz-presidente",
+   "veredicto dos jurados",
+   "sentença condenatória",
+   "sentença absolutória",
+   "dosimetria no júri",
+   "fixação da pena",
+   "regime inicial",
+   "efeitos da condenação",
+   "execução provisória da pena",
+   "absolvição pelos jurados",
+   "quesito absolutório genérico",
+   "ata de julgamento",
+   "limites da sentença"
+  ],
+  "dispositivos": [
+   "art. 492 CPP",
+   "art. 493 CPP",
+   "art. 387 CPP",
+   "art. 5º, XXXVIII, c, CF",
+   "art. 483 CPP",
+   "art. 593, III, CPP",
+   "art. 492, I, e, CPP"
+  ],
+  "nao_confundir": "Não confundir com Sentença Penal em geral (5572), que trata dos provimentos judiciais comuns; aqui a sentença é específica do júri e vinculada ao veredicto dos jurados. Se a questão for sobre votação, quesitos ou dinâmica do plenário antes da sentença, o tema adequado é 5528."
+ },
+ "5580": {
+  "descricao": "Tema guarda-chuva sobre a estrutura ideológica do processo penal brasileiro e os princípios que condicionam a persecução penal em juízo. Em provas, abrange tanto a distinção entre sistemas acusatório, inquisitório e misto quanto garantias como devido processo legal, contraditório, ampla defesa, juiz natural, imparcialidade, presunção de inocência e publicidade.",
+  "palavras_chave": [
+   "sistema acusatório",
+   "sistema inquisitório",
+   "sistema misto",
+   "devido processo legal",
+   "contraditório",
+   "ampla defesa",
+   "juiz natural",
+   "imparcialidade do juiz",
+   "presunção de inocência",
+   "paridade de armas",
+   "verdade real",
+   "publicidade dos atos",
+   "favor rei",
+   "nemo tenetur se detegere"
+  ],
+  "dispositivos": [
+   "CF/1988, art. 5º, XXXVII, LIII, LIV, LV, LVII, LX, LXIII e LXXVIII",
+   "CF/1988, art. 93, IX",
+   "CPP, art. 3º-A",
+   "CPP, art. 155",
+   "CPP, art. 156",
+   "CPP, art. 261",
+   "CPP, art. 792",
+   "Pacto de San José da Costa Rica, art. 8º",
+   "Súmula Vinculante 14 STF"
+  ],
+  "nao_confundir": "Usar este id apenas para questões panorâmicas sobre sistemas processuais e princípios gerais. Se a questão tratar especificamente de um princípio, classificar em 5582; se o foco for a comparação entre modelos acusatório/inquisitório/misto, classificar em 5581. Não confundir com 5590, que trata de teoria geral da prova, nem com 5509, que trata das consequências processuais da violação de formas e garantias."
+ },
+ "5582": {
+  "descricao": "Cobre os princípios constitucionais e infraconstitucionais do processo penal e sua aplicação prática em questões de concurso. Inclui contraditório, ampla defesa, devido processo legal, presunção de inocência, juiz natural, publicidade, duração razoável do processo, imparcialidade, paridade de armas, vedação à autoincriminação e identidade física do juiz quando cobrada como garantia processual.",
+  "palavras_chave": [
+   "contraditório",
+   "ampla defesa",
+   "defesa técnica",
+   "autodefesa",
+   "devido processo legal",
+   "presunção de inocência",
+   "não culpabilidade",
+   "juiz natural",
+   "promotor natural",
+   "nemo tenetur se detegere",
+   "direito ao silêncio",
+   "publicidade",
+   "duração razoável do processo",
+   "paridade de armas",
+   "duplo grau de jurisdição"
+  ],
+  "dispositivos": [
+   "CF/1988, art. 5º, XXXVII, LIII, LIV, LV, LVII, LX, LXIII e LXXVIII",
+   "CF/1988, art. 93, IX",
+   "CPP, art. 185",
+   "CPP, art. 186",
+   "CPP, art. 261",
+   "CPP, art. 400",
+   "CPP, art. 792",
+   "Pacto de San José da Costa Rica, art. 8º, 2",
+   "Súmula 523 STF",
+   "Súmula Vinculante 14 STF"
+  ],
+  "nao_confundir": "Não confundir com 5581: aqui o núcleo da questão é uma garantia ou princípio específico; em 5581 o núcleo é o modelo estrutural do processo penal. Se o enunciado discutir prova ilícita, ônus da prova ou sistemas de valoração probatória, o tema adequado tende a ser 5590; se discutir nulidade causada pela violação do princípio, classificar em 5509 quando a consequência invalidante for o ponto central."
+ },
+ "5581": {
+  "descricao": "Trata dos sistemas processuais penais, especialmente a distinção entre sistema acusatório, inquisitório e misto, suas características e a opção constitucional/legal brasileira pelo modelo acusatório. Em provas, costuma envolver separação entre acusar e julgar, iniciativa probatória do juiz, imparcialidade, gestão da prova, papel do Ministério Público e do juiz das garantias como reforço do sistema acusatório.",
+  "palavras_chave": [
+   "sistema acusatório",
+   "sistema inquisitório",
+   "sistema misto",
+   "separação das funções",
+   "acusação e julgamento",
+   "gestão da prova",
+   "juiz inerte",
+   "juiz imparcial",
+   "iniciativa probatória do juiz",
+   "processo de partes",
+   "oralidade",
+   "publicidade",
+   "contraditório",
+   "juiz das garantias",
+   "estrutura acusatória"
+  ],
+  "dispositivos": [
+   "CF/1988, art. 5º, LIV e LV",
+   "CF/1988, art. 129, I",
+   "CPP, art. 3º-A",
+   "CPP, arts. 3º-B a 3º-F",
+   "CPP, art. 155",
+   "CPP, art. 156",
+   "CPP, art. 385",
+   "Lei 13.964/2019"
+  ],
+  "nao_confundir": "Não confundir com 5582, que aborda princípios isolados; em 5581 o critério é a discussão sobre o desenho do sistema processual como um todo. Questões sobre poderes instrutórios do juiz podem ir para 5590 quando o enfoque for prova, valoração ou ônus probatório; ficam aqui quando o enfoque for compatibilidade desses poderes com o sistema acusatório. Questões detalhadas sobre juiz das garantias no inquérito podem se aproximar de 5498, mas permanecem em 5581 se cobradas como expressão do modelo acusatório."
+ },
+ "5583": {
+  "descricao": "Abrange a disciplina dos participantes da relação processual penal: juiz, Ministério Público, acusado, defensor, assistente de acusação, auxiliares da Justiça, peritos, intérpretes e demais intervenientes. Em provas, costuma cobrar funções, prerrogativas, impedimentos e suspeições, necessidade de defesa técnica, atuação do MP, habilitação do assistente e consequências da ausência ou deficiência de defesa.",
+  "palavras_chave": [
+   "juiz criminal",
+   "Ministério Público",
+   "acusado",
+   "réu",
+   "defensor constituído",
+   "defensor dativo",
+   "Defensoria Pública",
+   "assistente de acusação",
+   "querelante",
+   "auxiliares da Justiça",
+   "perito",
+   "intérprete",
+   "impedimento e suspeição",
+   "defesa técnica",
+   "capacidade processual"
+  ],
+  "dispositivos": [
+   "arts. 251 a 281 CPP",
+   "arts. 252 a 256 CPP",
+   "arts. 257 e 258 CPP",
+   "arts. 259 a 267 CPP",
+   "arts. 268 a 273 CPP",
+   "arts. 274 a 281 CPP",
+   "art. 5º, LV e LXXIV, CF",
+   "art. 129, I, CF",
+   "art. 133 CF",
+   "Lei 8.906/1994",
+   "LC 80/1994",
+   "Súmula 523 STF",
+   "Súmula 708 STF",
+   "Súmula 234 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5466, que trata da titularidade e das espécies de ação penal; aqui o foco é quem atua no processo e quais são seus poderes/deveres. Se a questão versar sobre suspeição, impedimento ou ilegitimidade como exceção processual formal, tende a ser 5490; se cobrar apenas a condição subjetiva do juiz, MP, defensor ou assistente, é 5583. Nulidades por ausência ou deficiência de defesa podem aparecer em 5509, mas, quando o núcleo for a necessidade de defensor e o papel dos sujeitos processuais, classifique em 5583."
+ },
+ "5572": {
+  "descricao": "Abrange a teoria e a disciplina processual da sentença penal como ato jurisdicional que encerra fase procedimental ou resolve o mérito da imputação. Em provas, envolve requisitos formais da sentença, fundamentação, relatório, dispositivo, publicação, intimação, vícios, espécies de sentença, correlação com a acusação e consequências da decisão absolutória ou condenatória.",
+  "palavras_chave": [
+   "sentença penal",
+   "relatório fundamentação e dispositivo",
+   "requisitos da sentença",
+   "decisão de mérito",
+   "publicação da sentença",
+   "intimação da sentença",
+   "sentença absolutória",
+   "sentença condenatória",
+   "fundamentação judicial",
+   "coisa julgada penal",
+   "capítulos da sentença",
+   "juiz natural",
+   "mérito da imputação",
+   "provimento jurisdicional"
+  ],
+  "dispositivos": [
+   "arts. 381 a 393 CPP",
+   "art. 93, IX, CF",
+   "art. 155 CPP",
+   "art. 385 CPP",
+   "art. 386 CPP",
+   "art. 387 CPP",
+   "art. 383 CPP",
+   "art. 384 CPP",
+   "art. 564 CPP"
+  ],
+  "nao_confundir": "Não confundir com Procedimento Ordinário (5530), Sumário (5538), Sumaríssimo (5539) ou Júri (5524), que tratam do rito até a decisão; o id 5572 trata do ato decisório final e seus elementos. Também se distingue de Recursos em Espécie (5560) e Parte Geral dos Recursos (5512), pois aqui o foco é o conteúdo e validade da sentença, não sua impugnação."
+ },
+ "5573": {
+  "descricao": "Cobre a classificação dos atos e provimentos judiciais no processo penal, especialmente a distinção entre despachos de mero expediente, decisões interlocutórias, decisões com força definitiva, sentenças e acórdãos. Em concursos, costuma aparecer ligada ao recurso cabível e à natureza jurídica do pronunciamento judicial.",
+  "palavras_chave": [
+   "despacho de mero expediente",
+   "decisão interlocutória",
+   "decisão interlocutória simples",
+   "decisão interlocutória mista",
+   "decisão definitiva",
+   "decisão com força de definitiva",
+   "sentença terminativa",
+   "sentença de mérito",
+   "acórdão",
+   "pronunciamento judicial",
+   "natureza jurídica da decisão",
+   "ato judicial",
+   "decisão recorrível",
+   "provimento jurisdicional"
+  ],
+  "dispositivos": [
+   "art. 381 CPP",
+   "art. 382 CPP",
+   "art. 593 CPP",
+   "art. 581 CPP",
+   "art. 800 CPP",
+   "art. 203 CPC aplicado subsidiariamente",
+   "art. 3º CPP"
+  ],
+  "nao_confundir": "Não confundir com Recursos em Espécie (5560): embora a classificação ajude a definir se cabe RESE, apelação ou outro recurso, o critério aqui é a natureza do pronunciamento judicial. Também não confundir com Classificação dos Provimentos Judiciais da sentença propriamente dita em 5572 quando a questão exigir apenas requisitos ou efeitos da sentença final."
+ },
+ "5577": {
+  "descricao": "Trata dos efeitos processuais e extraprocessuais da sentença penal condenatória, como obrigação de reparar o dano, perda de bens, perda de cargo, incapacidade para poder familiar, suspensão de direitos políticos e formação de título executivo judicial. Em provas, cobra a distinção entre efeitos automáticos/genéricos e efeitos específicos que dependem de fundamentação expressa.",
+  "palavras_chave": [
+   "efeitos da condenação",
+   "efeitos genéricos",
+   "efeitos específicos",
+   "reparação do dano",
+   "valor mínimo indenizatório",
+   "perda de bens",
+   "confisco",
+   "perda do cargo público",
+   "suspensão dos direitos políticos",
+   "título executivo judicial",
+   "rol dos culpados",
+   "reincidência",
+   "incapacidade para poder familiar",
+   "efeitos extrapenais",
+   "fundamentação específica"
+  ],
+  "dispositivos": [
+   "art. 387, IV, CPP",
+   "art. 91 CP",
+   "art. 91-A CP",
+   "art. 92 CP",
+   "art. 63 CPP",
+   "art. 64 CPP",
+   "art. 15, III, CF",
+   "art. 5º, XLVI, b, CF",
+   "Súmula 631 STJ",
+   "Tema 983 STJ"
+  ],
+  "nao_confundir": "Não confundir com Fixação da Pena e do Regime Penitenciário (5576), que trata da dosimetria, regime inicial, substituição e sursis; aqui o foco são consequências jurídicas da condenação além da pena. Também se distingue de Teoria da Pena em Direito Penal, pois o id 5577 examina os efeitos na sentença penal processual e sua declaração pelo juiz."
+ },
+ "5579": {
+  "descricao": "Abrange as hipóteses de alteração da definição jurídica do fato ou da própria imputação no momento da sentença. Emendatio libelli ocorre quando o juiz apenas muda a capitulação jurídica sem modificar a descrição fática; mutatio libelli ocorre quando surge fato ou circunstância não contida na denúncia ou queixa, exigindo aditamento e contraditório.",
+  "palavras_chave": [
+   "emendatio libelli",
+   "mutatio libelli",
+   "nova definição jurídica",
+   "capitulação jurídica",
+   "aditamento da denúncia",
+   "aditamento da queixa",
+   "fato novo",
+   "circunstância elementar",
+   "contraditório",
+   "defesa sobre nova imputação",
+   "sem modificar a descrição fática",
+   "descrição dos fatos",
+   "MP adita a denúncia",
+   "classificação jurídica diversa",
+   "sentença e imputação"
+  ],
+  "dispositivos": [
+   "art. 383 CPP",
+   "art. 384 CPP",
+   "art. 384, § 1º, CPP",
+   "art. 384, § 4º, CPP",
+   "art. 617 CPP",
+   "Súmula 453 STF",
+   "art. 5º, LV, CF"
+  ],
+  "nao_confundir": "Não confundir com Princípio da Correlação entre Acusação e Sentença (5578): a correlação é a regra geral de congruência; emendatio e mutatio são técnicas legais para lidar com divergências entre imputação e julgamento. Também não confundir com Nulidades (5509), salvo quando a questão perguntar a consequência da ausência de aditamento ou de contraditório."
+ },
+ "5576": {
+  "descricao": "Trata do conteúdo condenatório da sentença quanto à individualização da pena: cálculo da pena pelo critério trifásico, fixação do regime inicial, substituição por penas restritivas de direitos, sursis, detração e consequências imediatas relacionadas à execução. Em provas de processo penal, o enfoque costuma ser o que o juiz deve decidir na sentença condenatória, especialmente nos termos do art. 387 do CPP.",
+  "palavras_chave": [
+   "fixação da pena",
+   "dosimetria",
+   "critério trifásico",
+   "circunstâncias judiciais",
+   "agravantes e atenuantes",
+   "causas de aumento e diminuição",
+   "regime inicial",
+   "regime fechado semiaberto aberto",
+   "substituição da pena",
+   "penas restritivas de direitos",
+   "sursis",
+   "detração penal",
+   "individualização da pena",
+   "artigo 387 do CPP",
+   "pena-base"
+  ],
+  "dispositivos": [
+   "art. 387 CPP",
+   "art. 387, § 2º, CPP",
+   "art. 59 CP",
+   "art. 68 CP",
+   "art. 33 CP",
+   "art. 44 CP",
+   "art. 77 CP",
+   "art. 42 CP",
+   "art. 5º, XLVI, CF",
+   "Súmula 440 STJ",
+   "Súmula 718 STF",
+   "Súmula 719 STF"
+  ],
+  "nao_confundir": "Não confundir com Efeitos da Sentença Condenatória (5577), que trata de consequências como reparação, perda de bens e perda de cargo; aqui o foco é a pena e o regime. Também não confundir com Teoria da Pena em Direito Penal, pois neste ponto processual a ênfase é a obrigação do juiz de fixar esses elementos na sentença."
+ },
+ "5578": {
+  "descricao": "Abrange o princípio da correlação, congruência ou adstrição entre a acusação e a sentença, segundo o qual o réu deve ser julgado pelos fatos descritos na denúncia ou queixa, e não por imputação fática diversa sem contraditório. Em provas, aparece em questões sobre julgamento extra petita, ultra petita ou citra petita, limites da atividade judicial e nulidade por condenação por fato não narrado.",
+  "palavras_chave": [
+   "princípio da correlação",
+   "congruência",
+   "adstrição",
+   "acusação e sentença",
+   "fatos narrados na denúncia",
+   "causa de pedir acusatória",
+   "extra petita",
+   "ultra petita",
+   "citra petita",
+   "limites da sentença",
+   "condenação por fato diverso",
+   "contraditório e ampla defesa",
+   "imputação fática",
+   "nulidade da sentença",
+   "surpresa à defesa"
+  ],
+  "dispositivos": [
+   "art. 5º, LIV e LV, CF",
+   "art. 41 CPP",
+   "art. 383 CPP",
+   "art. 384 CPP",
+   "art. 385 CPP",
+   "art. 564, III, CPP",
+   "Súmula 453 STF"
+  ],
+  "nao_confundir": "Não confundir com Emendatio Libelli e Mutatio Libelli (5579): se a questão pergunta o princípio geral de vinculação da sentença aos fatos acusados, é 5578; se pergunta a técnica de correção da capitulação ou de aditamento por fato novo, é 5579. Também se distingue de Nulidades (5509), que aborda o regime de invalidação, e não a regra material de congruência."
+ },
+ "5574": {
+  "descricao": "Trata da sentença absolutória, suas hipóteses legais, fundamentos e efeitos imediatos, como soltura do réu, cessação de medidas cautelares e levantamento de medidas assecuratórias quando cabível. Em provas, cobra os incisos do art. 386 do CPP, a diferença entre absolvição própria e imprópria e os reflexos civis de cada fundamento absolutório.",
+  "palavras_chave": [
+   "sentença absolutória",
+   "absolvição",
+   "artigo 386 do CPP",
+   "inexistência do fato",
+   "fato não constitui infração penal",
+   "negativa de autoria",
+   "insuficiência de provas",
+   "excludente de ilicitude",
+   "excludente de culpabilidade",
+   "absolvição imprópria",
+   "medida de segurança",
+   "soltura do réu",
+   "cessação das cautelares",
+   "levantamento de sequestro",
+   "efeitos civis da absolvição"
+  ],
+  "dispositivos": [
+   "art. 386 CPP",
+   "art. 386, parágrafo único, CPP",
+   "art. 397 CPP",
+   "art. 96 CP",
+   "art. 97 CP",
+   "art. 65 CPP",
+   "art. 66 CPP",
+   "art. 67 CPP",
+   "art. 91, I, CP",
+   "art. 5º, LVII, CF"
+  ],
+  "nao_confundir": "Não confundir com Absolvição Sumária no Procedimento Ordinário (5534) ou no Júri (5527), que são momentos e decisões específicas do rito; aqui o foco é a sentença absolutória final e seus fundamentos. Também não confundir com Sentença Condenatória (5575), pois o critério de desempate é o resultado do mérito: rejeição da pretensão punitiva versus imposição de sanção."
+ },
+ "5575": {
+  "descricao": "Abrange a sentença condenatória como decisão que julga procedente, total ou parcialmente, a pretensão punitiva, reconhecendo materialidade, autoria, tipicidade, ilicitude e culpabilidade. Em concursos, envolve requisitos do art. 387 do CPP, possibilidade de condenação mesmo com pedido absolutório do Ministério Público, fixação de pena, regime, valor mínimo de reparação e decisão sobre prisão ou liberdade.",
+  "palavras_chave": [
+   "sentença condenatória",
+   "procedência da acusação",
+   "materialidade e autoria",
+   "condenação criminal",
+   "artigo 387 do CPP",
+   "juiz pode condenar",
+   "pedido de absolvição do MP",
+   "fixação da pena",
+   "regime inicial",
+   "valor mínimo de reparação",
+   "prisão após sentença",
+   "liberdade para recorrer",
+   "fundamentação da condenação",
+   "prova judicializada",
+   "individualização da pena"
+  ],
+  "dispositivos": [
+   "art. 387 CPP",
+   "art. 385 CPP",
+   "art. 155 CPP",
+   "art. 381 CPP",
+   "art. 283 CPP",
+   "art. 312 CPP",
+   "art. 313 CPP",
+   "art. 63 CPP",
+   "art. 91 CP",
+   "art. 93, IX, CF",
+   "art. 5º, LVII, CF"
+  ],
+  "nao_confundir": "Não confundir com Fixação da Pena e do Regime Penitenciário (5576), que é apenas um dos capítulos da sentença condenatória. Também não confundir com Efeitos Decorrentes da Sentença Penal Condenatória (5577), pois 5575 trata da estrutura e pressupostos da condenação, enquanto 5577 trata das consequências jurídicas dela decorrentes."
+ },
+ "5560": {
+  "descricao": "Tema guarda-chuva dos recursos em espécie no processo penal, cobrindo hipóteses de cabimento, prazo, legitimidade, efeitos e processamento de cada recurso concretamente previsto em lei. Em provas, envolve identificar qual recurso é cabível contra determinada decisão penal, especialmente apelação, RESE, agravos, embargos, carta testemunhável e recursos excepcionais.",
+  "palavras_chave": [
+   "cabimento recursal",
+   "apelação",
+   "recurso em sentido estrito",
+   "RESE",
+   "agravo em execução",
+   "embargos infringentes",
+   "embargos de declaração",
+   "carta testemunhável",
+   "correição parcial",
+   "recurso especial",
+   "recurso extraordinário",
+   "juizados especiais criminais",
+   "prazo recursal",
+   "juízo de retratação"
+  ],
+  "dispositivos": [
+   "arts. 574 a 646 CPP",
+   "art. 197 LEP",
+   "arts. 82 e 83 da Lei 9.099/1995",
+   "art. 105, III, CF",
+   "art. 102, III, CF",
+   "Súmula 700 STF"
+  ],
+  "nao_confundir": "Não confundir com 5512, que trata da parte geral dos recursos, como princípios, efeitos e pressupostos recursais em abstrato; aqui o foco é o recurso específico cabível no caso concreto. Também se distingue de 5572 quando a questão discute o conteúdo da sentença, e não o meio de impugnação dela."
+ },
+ "5566": {
+  "descricao": "Abrange o agravo em execução, recurso cabível contra decisões proferidas pelo juiz da execução penal. As questões costumam tratar de decisões sobre progressão ou regressão de regime, remição, falta grave, livramento condicional, unificação de penas e benefícios da execução.",
+  "palavras_chave": [
+   "agravo em execução",
+   "juiz da execução",
+   "decisão na execução penal",
+   "progressão de regime",
+   "regressão de regime",
+   "remição",
+   "falta grave",
+   "livramento condicional",
+   "unificação de penas",
+   "saída temporária",
+   "execução penal",
+   "prazo de 5 dias",
+   "Súmula 700 STF",
+   "efeito suspensivo"
+  ],
+  "dispositivos": [
+   "art. 197 LEP",
+   "Lei 7.210/1984",
+   "Súmula 700 STF",
+   "arts. 581 a 592 CPP, por aplicação subsidiária",
+   "art. 66 LEP"
+  ],
+  "nao_confundir": "Não confundir com 5561, pois o RESE impugna decisões do processo de conhecimento previstas no art. 581 do CPP, enquanto o agravo em execução ataca decisões do juízo da execução penal. Também não confundir com 6734/LEP quando o foco for material de execução, sem discussão sobre recurso cabível."
+ },
+ "5562": {
+  "descricao": "Trata da apelação criminal, recurso amplo cabível, em regra, contra sentenças definitivas ou com força de definitivas e contra decisões do Tribunal do Júri nas hipóteses legais. Em provas, aparece em discussões sobre prazo, processamento, razões, efeito devolutivo, apelação plena ou parcial, apelação da acusação, da defesa, do assistente e limites da decisão do tribunal.",
+  "palavras_chave": [
+   "apelação criminal",
+   "sentença definitiva",
+   "sentença condenatória",
+   "sentença absolutória",
+   "decisão definitiva ou com força de definitiva",
+   "prazo de 5 dias",
+   "razões de apelação",
+   "efeito devolutivo",
+   "efeito suspensivo",
+   "apelação plena",
+   "apelação parcial",
+   "assistente de acusação",
+   "Tribunal do Júri",
+   "soberania dos veredictos"
+  ],
+  "dispositivos": [
+   "arts. 593 a 606 CPP",
+   "art. 416 CPP",
+   "art. 598 CPP",
+   "art. 600 CPP",
+   "art. 601 CPP",
+   "art. 617 CPP",
+   "Súmula 160 STF",
+   "Súmula 713 STF"
+  ],
+  "nao_confundir": "Não confundir com 5561, pois o RESE é cabível contra decisões interlocutórias taxativamente previstas no art. 581 do CPP, enquanto a apelação ataca sentenças e decisões definitivas ou equiparadas. Em matéria de Júri, diferenciar de 5524: lá se estuda o procedimento; aqui, o recurso cabível contra decisões do Júri."
+ },
+ "5567": {
+  "descricao": "Abrange a carta testemunhável, recurso residual destinado a atacar decisão que denega recurso ou impede seu seguimento, especialmente quando não houver outro recurso cabível. As provas cobram sua função de destrancar recurso, legitimidade, prazo e processamento por instrumento.",
+  "palavras_chave": [
+   "carta testemunhável",
+   "recurso denegado",
+   "seguimento negado",
+   "destrancar recurso",
+   "instrumento",
+   "testemunhante",
+   "testemunhado",
+   "prazo de 48 horas",
+   "recurso obstado",
+   "denegação do RESE",
+   "subida do recurso",
+   "processamento da carta",
+   "peças do traslado"
+  ],
+  "dispositivos": [
+   "arts. 639 a 646 CPP",
+   "art. 640 CPP",
+   "art. 641 CPP",
+   "art. 644 CPP",
+   "art. 645 CPP"
+  ],
+  "nao_confundir": "Não confundir com 5561 ou 5562: a carta testemunhável não substitui o RESE ou a apelação quanto ao mérito, mas serve para impugnar a negativa de seguimento do recurso. Também se distingue de 5568, pois a correição parcial corrige tumulto ou erro procedimental grave, não simples denegação de recurso."
+ },
+ "5568": {
+  "descricao": "Trata da correição parcial, meio de impugnação usado contra ato judicial que cause inversão tumultuária do procedimento ou erro de rito sem recurso específico previsto. Em concursos, costuma aparecer como providência residual, muitas vezes regulada por leis de organização judiciária ou regimentos internos, e não como recurso típico do CPP.",
+  "palavras_chave": [
+   "correição parcial",
+   "reclamação correicional",
+   "inversão tumultuária do processo",
+   "erro de procedimento",
+   "ato judicial tumultuário",
+   "ausência de recurso próprio",
+   "sucedâneo recursal",
+   "poder correicional",
+   "lei de organização judiciária",
+   "regimento interno",
+   "tumulto processual",
+   "despacho irrecorrível",
+   "erro in procedendo"
+  ],
+  "dispositivos": [
+   "Leis de organização judiciária estaduais ou federais",
+   "Regimentos Internos dos Tribunais",
+   "art. 93, I, CF, por pertinência administrativa",
+   "art. 5º, XXXV, CF"
+  ],
+  "nao_confundir": "Não confundir com 5512, pois a correição parcial tem natureza controvertida e residual, não sendo recurso típico previsto sistematicamente no CPP. Distingue-se de 5567 porque a carta testemunhável visa destrancar recurso denegado, enquanto a correição parcial busca corrigir tumulto procedimental sem recurso próprio."
+ },
+ "5564": {
+  "descricao": "Abrange os embargos infringentes e de nulidade no processo penal, cabíveis pela defesa contra acórdão não unânime desfavorável ao réu em apelação, RESE ou agravo em execução, conforme a compreensão predominante. As questões cobram legitimidade exclusiva da defesa, limite da divergência, prazo e diferença entre matéria de mérito e nulidade.",
+  "palavras_chave": [
+   "embargos infringentes",
+   "embargos de nulidade",
+   "acórdão não unânime",
+   "voto vencido",
+   "decisão desfavorável ao réu",
+   "recurso exclusivo da defesa",
+   "limite da divergência",
+   "prazo de 10 dias",
+   "matéria de mérito",
+   "nulidade processual",
+   "segundo grau",
+   "prevalência do voto vencido"
+  ],
+  "dispositivos": [
+   "art. 609, parágrafo único, CPP",
+   "art. 197 LEP",
+   "Súmula 207 STJ, por distinção em recursos excepcionais",
+   "Súmula 355 STF"
+  ],
+  "nao_confundir": "Não confundir com 5565: embargos de declaração corrigem obscuridade, contradição, omissão ou ambiguidade; embargos infringentes buscam novo julgamento quando há acórdão não unânime desfavorável à defesa. Também se distinguem de 5570 e 5571, pois podem ser requisito de esgotamento antes dos recursos excepcionais quando cabíveis."
+ },
+ "5565": {
+  "descricao": "Trata dos embargos de declaração em processo penal, cabíveis para esclarecer obscuridade, eliminar contradição, suprir omissão ou corrigir ambiguidade de decisão judicial. As provas cobram prazo, efeitos, possibilidade excepcional de efeitos infringentes e uso para prequestionamento em recursos excepcionais.",
+  "palavras_chave": [
+   "embargos de declaração",
+   "omissão",
+   "contradição",
+   "obscuridade",
+   "ambiguidade",
+   "prazo de 2 dias",
+   "efeitos infringentes",
+   "prequestionamento",
+   "integração do julgado",
+   "interrupção do prazo recursal",
+   "declaração do acórdão",
+   "erro material",
+   "decisão embargada"
+  ],
+  "dispositivos": [
+   "arts. 619 e 620 CPP",
+   "art. 382 CPP",
+   "art. 83, § 2º, Lei 9.099/1995",
+   "art. 1.022 CPC, aplicação subsidiária",
+   "Súmula 356 STF",
+   "Súmula 211 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5564, pois os embargos infringentes dependem de acórdão não unânime desfavorável à defesa, enquanto os declaratórios visam integrar ou esclarecer qualquer decisão com vício interno. Também se conectam a 5570 e 5571 quando usados para prequestionamento, mas não são recursos excepcionais."
+ },
+ "5563": {
+  "descricao": "Abrange o protesto por novo júri, antigo recurso cabível quando a pena imposta pelo Tribunal do Júri fosse igual ou superior a 20 anos. O tema hoje aparece principalmente em questões históricas ou de direito intertemporal, pois o instituto foi revogado pela Lei 11.689/2008.",
+  "palavras_chave": [
+   "protesto por novo júri",
+   "recurso extinto",
+   "revogação",
+   "Lei 11.689/2008",
+   "pena igual ou superior a 20 anos",
+   "Tribunal do Júri",
+   "novo julgamento",
+   "direito intertemporal",
+   "tempus regit actum",
+   "procedimento do júri",
+   "arts. 607 e 608 revogados",
+   "crime doloso contra a vida"
+  ],
+  "dispositivos": [
+   "arts. 607 e 608 CPP, revogados",
+   "Lei 11.689/2008",
+   "art. 2º CPP",
+   "art. 5º, XXXVIII, CF"
+  ],
+  "nao_confundir": "Não confundir com 5562, pois atualmente a impugnação ordinária das decisões do Júri se dá por apelação nas hipóteses do art. 593, III, do CPP. Também não confundir com 5524, que trata do procedimento do Tribunal do Júri, e não de recurso extinto."
+ },
+ "5571": {
+  "descricao": "Trata do recurso especial criminal ao STJ, cabível contra decisão de tribunal que contrarie lei federal, negue-lhe vigência ou dê interpretação divergente à legislação federal. As provas cobram hipóteses constitucionais de cabimento, prequestionamento, impossibilidade de reexame de fatos e provas e distinção em relação ao recurso extraordinário.",
+  "palavras_chave": [
+   "recurso especial",
+   "STJ",
+   "lei federal",
+   "contrariar tratado ou lei federal",
+   "negar vigência",
+   "divergência jurisprudencial",
+   "dissídio jurisprudencial",
+   "prequestionamento",
+   "Súmula 7 STJ",
+   "Súmula 83 STJ",
+   "Súmula 211 STJ",
+   "acórdão de tribunal",
+   "juízo de admissibilidade",
+   "reexame de provas"
+  ],
+  "dispositivos": [
+   "art. 105, III, CF",
+   "art. 637 CPP",
+   "arts. 1.029 a 1.041 CPC, aplicação subsidiária",
+   "Súmula 7 STJ",
+   "Súmula 83 STJ",
+   "Súmula 211 STJ",
+   "Súmula 207 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5570: o recurso especial discute violação ou divergência sobre lei federal, enquanto o extraordinário discute matéria constitucional. Também não confundir com 5564, pois embargos infringentes cabíveis podem precisar ser opostos antes, sob pena de não esgotamento das instâncias ordinárias."
+ },
+ "5570": {
+  "descricao": "Abrange o recurso extraordinário criminal ao STF, cabível contra decisão de tribunal que envolva questão constitucional nas hipóteses do art. 102, III, da Constituição. Em provas, destacam-se repercussão geral, prequestionamento, impossibilidade de reexame de fatos e provas e distinção entre ofensa direta e reflexa à Constituição.",
+  "palavras_chave": [
+   "recurso extraordinário",
+   "STF",
+   "matéria constitucional",
+   "repercussão geral",
+   "ofensa direta à Constituição",
+   "ofensa reflexa",
+   "prequestionamento",
+   "Súmula 279 STF",
+   "Súmula 282 STF",
+   "Súmula 356 STF",
+   "controle difuso",
+   "validade de lei local",
+   "juízo de admissibilidade",
+   "acórdão recorrido"
+  ],
+  "dispositivos": [
+   "art. 102, III, CF",
+   "art. 102, § 3º, CF",
+   "art. 637 CPP",
+   "arts. 1.029 a 1.041 CPC, aplicação subsidiária",
+   "Súmula 279 STF",
+   "Súmula 282 STF",
+   "Súmula 356 STF",
+   "Súmula 283 STF",
+   "Súmula 284 STF"
+  ],
+  "nao_confundir": "Não confundir com 5571: o recurso extraordinário é para questão constitucional, enquanto o especial é para lei federal infraconstitucional. Também se distingue de 5476, pois habeas corpus e revisão criminal são ações autônomas de impugnação, não recursos excepcionais."
+ },
+ "5561": {
+  "descricao": "Trata do recurso em sentido estrito, cabível contra decisões interlocutórias expressamente previstas, em regra, no art. 581 do CPP. As questões cobram taxatividade mitigada, prazo, razões, juízo de retratação e hipóteses clássicas como rejeição da denúncia, pronúncia, decisões sobre fiança, prescrição e extinção da punibilidade.",
+  "palavras_chave": [
+   "recurso em sentido estrito",
+   "RESE",
+   "art. 581 CPP",
+   "rol taxativo",
+   "taxatividade mitigada",
+   "decisão interlocutória",
+   "rejeição da denúncia",
+   "pronúncia",
+   "impronúncia",
+   "fiança",
+   "extinção da punibilidade",
+   "prescrição",
+   "juízo de retratação",
+   "prazo de 5 dias"
+  ],
+  "dispositivos": [
+   "arts. 581 a 592 CPP",
+   "art. 586 CPP",
+   "art. 588 CPP",
+   "art. 589 CPP",
+   "art. 584 CPP",
+   "art. 416 CPP",
+   "art. 294 CPP"
+  ],
+  "nao_confundir": "Não confundir com 5562, pois a apelação ataca sentenças e decisões definitivas ou com força de definitivas, enquanto o RESE se volta contra decisões interlocutórias previstas em lei. Também não confundir com 5566: decisões do juiz da execução penal são impugnadas por agravo em execução, ainda que o rito possa se aproximar do RESE."
+ },
+ "5569": {
+  "descricao": "Abrange os recursos no âmbito dos Juizados Especiais Criminais, especialmente apelação à Turma Recursal, embargos de declaração e meios de impugnação ligados à transação penal e à suspensão condicional do processo. As provas costumam explorar prazos próprios da Lei 9.099/1995, competência da Turma Recursal e diferenças em relação ao CPP comum.",
+  "palavras_chave": [
+   "Juizado Especial Criminal",
+   "JECRIM",
+   "Turma Recursal",
+   "apelação no Juizado",
+   "prazo de 10 dias",
+   "embargos de declaração no Juizado",
+   "transação penal",
+   "suspensão condicional do processo",
+   "composição civil",
+   "infrações de menor potencial ofensivo",
+   "termo circunstanciado",
+   "sentença no JECRIM",
+   "recurso inominado",
+   "rito sumaríssimo"
+  ],
+  "dispositivos": [
+   "arts. 76, 82, 83 e 89 da Lei 9.099/1995",
+   "art. 61 da Lei 9.099/1995",
+   "art. 98, I, CF",
+   "Súmula 640 STF",
+   "Súmula 428 STJ",
+   "Súmula 376 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5539, que trata do procedimento sumaríssimo em si, incluindo competência, transação penal e suspensão condicional do processo; aqui o foco é a impugnação recursal no sistema dos Juizados. Também distinguir de 5562, pois a apelação do JECRIM tem disciplina própria, como prazo de 10 dias e julgamento pela Turma Recursal."
+ },
+ "5590": {
+  "descricao": "Abrange as noções gerais da prova no processo penal: conceito, finalidade, destinatários, objeto, ônus, princípios, admissibilidade, ilicitude e critérios de valoração. Em provas, costuma aparecer em questões teóricas sobre o regime probatório como um todo, sem se concentrar em um meio de prova específico.",
+  "palavras_chave": [
+   "prova penal",
+   "objeto da prova",
+   "destinatário da prova",
+   "ônus da prova",
+   "verdade real",
+   "convencimento do juiz",
+   "contraditório",
+   "ampla defesa",
+   "prova ilícita",
+   "livre convencimento motivado",
+   "persuasão racional",
+   "prova emprestada",
+   "comunhão da prova"
+  ],
+  "dispositivos": [
+   "arts. 155 a 157 CPP",
+   "art. 5º, LIV, LV e LVI, CF",
+   "art. 93, IX, CF",
+   "art. 3º CPP",
+   "art. 563 CPP"
+  ],
+  "nao_confundir": "Não confundir com 5543, que trata dos meios de prova em espécie, como interrogatório, confissão, perícia, busca e apreensão e prova testemunhal. Se a questão discute regras gerais de admissibilidade, ônus, princípios ou valoração da prova, o tema é 5590; se pergunta o procedimento ou requisitos de um meio probatório específico, tende a ser 5543. Também se distingue de 5509 quando o foco for nulidade processual em geral, e não a validade ou utilização da prova."
+ },
+ "5591": {
+  "descricao": "Trata da finalidade da prova, dos sujeitos envolvidos na atividade probatória e da distribuição do ônus probatório no processo penal. Inclui questões sobre quem deve provar a acusação ou a defesa, quais fatos precisam ser provados e os poderes instrutórios do juiz.",
+  "palavras_chave": [
+   "finalidade da prova",
+   "convencimento judicial",
+   "destinatário direto da prova",
+   "destinatário indireto da prova",
+   "objeto da prova",
+   "fatos que independem de prova",
+   "fato notório",
+   "ônus da acusação",
+   "ônus da defesa",
+   "in dubio pro reo",
+   "presunção de inocência",
+   "poderes instrutórios do juiz",
+   "produção antecipada de provas"
+  ],
+  "dispositivos": [
+   "art. 155 CPP",
+   "art. 156 CPP",
+   "art. 386, II, V e VII, CPP",
+   "art. 5º, LV e LVII, CF",
+   "art. 93, IX, CF"
+  ],
+  "nao_confundir": "Não confundir com 5592, que trata dos sistemas de valoração da prova pelo juiz após sua produção. O critério de desempate é: se a questão pergunta quem deve provar, para que se prova ou qual fato deve ser provado, use 5591; se pergunta como o juiz aprecia ou valora a prova, use 5592. Também não se confunde com 5498 quando a discussão estiver no inquérito policial e não na prova processual."
+ },
+ "5595": {
+  "descricao": "Abrange os princípios aplicáveis à prova penal, como contraditório, ampla defesa, publicidade, oralidade, comunhão ou aquisição da prova, autorresponsabilidade das partes e nemo tenetur se detegere. Em concursos, aparece em assertivas sobre limites constitucionais da atividade probatória e garantias das partes na produção da prova.",
+  "palavras_chave": [
+   "contraditório",
+   "ampla defesa",
+   "devido processo legal",
+   "nemo tenetur se detegere",
+   "direito ao silêncio",
+   "comunhão da prova",
+   "aquisição da prova",
+   "oralidade",
+   "publicidade",
+   "imediação",
+   "concentração",
+   "autorresponsabilidade das partes",
+   "paridade de armas",
+   "presunção de inocência"
+  ],
+  "dispositivos": [
+   "art. 5º, LIV, LV, LVI, LVII e LXIII, CF",
+   "art. 155 CPP",
+   "art. 186 CPP",
+   "art. 212 CPP",
+   "art. 400 CPP",
+   "art. 8º, 2, g, Convenção Americana sobre Direitos Humanos"
+  ],
+  "nao_confundir": "Não confundir com 5594, embora a inadmissibilidade da prova ilícita também seja princípio constitucional. Se a questão enfatiza a garantia ou o princípio abstrato, use 5595; se discute prova ilícita, derivação, desentranhamento, fonte independente ou descoberta inevitável, use 5594. Também pode tangenciar 5580, mas aqui o foco é especificamente probatório."
+ },
+ "5593": {
+  "descricao": "Cuida da prova emprestada, isto é, da utilização, em um processo, de prova produzida em outro procedimento ou processo. As questões costumam cobrar requisitos de admissibilidade, necessidade de contraditório, possibilidade de compartilhamento e limites de aproveitamento da prova produzida anteriormente.",
+  "palavras_chave": [
+   "prova emprestada",
+   "compartilhamento de provas",
+   "aproveitamento da prova",
+   "prova produzida em outro processo",
+   "contraditório diferido",
+   "contraditório prévio",
+   "mesmas partes",
+   "valor probatório",
+   "traslado de prova",
+   "prova documental emprestada",
+   "processo administrativo disciplinar",
+   "autorização judicial"
+  ],
+  "dispositivos": [
+   "art. 3º CPP",
+   "art. 155 CPP",
+   "art. 5º, LV e LVI, CF",
+   "art. 372 CPC",
+   "Súmula 591 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5543 quando a questão trata do meio de prova originário, como interceptação telefônica, colaboração premiada ou perícia. Se o problema central é a transferência ou utilização da prova em outro processo, o tema é 5593. Se o debate é sobre ilicitude da origem ou contaminação por derivação, o melhor enquadramento é 5594."
+ },
+ "5594": {
+  "descricao": "Trata das provas ilegais, especialmente da prova ilícita e de suas consequências no processo penal. Inclui a distinção entre prova ilícita e ilegítima, a teoria dos frutos da árvore envenenada, o desentranhamento, a fonte independente, a descoberta inevitável e o eventual uso da prova ilícita em favor da defesa.",
+  "palavras_chave": [
+   "prova ilícita",
+   "prova ilegítima",
+   "prova ilegal",
+   "inadmissibilidade da prova",
+   "desentranhamento",
+   "frutos da árvore envenenada",
+   "prova ilícita por derivação",
+   "fonte independente",
+   "descoberta inevitável",
+   "nexo de causalidade",
+   "contaminação da prova",
+   "ilicitude pro reo",
+   "quebra de sigilo",
+   "violação de domicílio"
+  ],
+  "dispositivos": [
+   "art. 5º, LVI, CF",
+   "art. 157 CPP",
+   "art. 157, §§ 1º a 5º, CPP",
+   "art. 5º, XI e XII, CF",
+   "art. 564 CPP",
+   "Súmula 145 STF"
+  ],
+  "nao_confundir": "Não confundir com 5595, pois lá o foco é o princípio probatório em abstrato; aqui o foco é a consequência processual da prova obtida ou produzida em desconformidade com a Constituição ou a lei. Também se diferencia de 5509: se a invalidade é tratada como nulidade de ato processual em geral, use 5509; se o núcleo é inadmissibilidade, desentranhamento ou contaminação da prova, use 5594."
+ },
+ "5592": {
+  "descricao": "Abrange os sistemas de apreciação e valoração da prova no processo penal: íntima convicção, prova legal ou tarifada e livre convencimento motivado. Em provas, costuma aparecer em perguntas sobre a fundamentação da decisão, o valor relativo das provas e exceções como o Tribunal do Júri e o exame de corpo de delito.",
+  "palavras_chave": [
+   "valoração da prova",
+   "apreciação da prova",
+   "livre convencimento motivado",
+   "persuasão racional",
+   "íntima convicção",
+   "prova tarifada",
+   "prova legal",
+   "fundamentação da decisão",
+   "livre apreciação",
+   "prova cautelar",
+   "prova não repetível",
+   "prova antecipada",
+   "elementos informativos do inquérito",
+   "convicção dos jurados"
+  ],
+  "dispositivos": [
+   "art. 155 CPP",
+   "art. 158 CPP",
+   "art. 167 CPP",
+   "art. 182 CPP",
+   "art. 381, III, CPP",
+   "art. 93, IX, CF",
+   "art. 5º, XXXVIII, CF"
+  ],
+  "nao_confundir": "Não confundir com 5591, que trata de finalidade, sujeitos e ônus da prova antes ou durante sua produção. Se a questão pergunta como o juiz ou os jurados apreciam a prova e quais sistemas de valoração existem, o tema é 5592. Se a questão aborda sentença e fundamentação como ato decisório final, sem foco no sistema probatório, pode pertencer a 5572."
+ },
+ "5584": {
+  "descricao": "Abrange os fundamentos gerais da privação cautelar da liberdade no processo penal: conceito constitucional de prisão, exigência de ordem escrita e fundamentada ou flagrante, legalidade, controle judicial e garantias mínimas do preso. Em provas, costuma funcionar como tema guarda-chuva para requisitos constitucionais, mandado de prisão, comunicação, apresentação ao juiz, prisão especial, imunidades e consequências da ilegalidade da prisão.",
+  "palavras_chave": [
+   "prisão cautelar",
+   "prisão processual",
+   "ordem escrita e fundamentada",
+   "flagrante delito",
+   "mandado de prisão",
+   "controle judicial da prisão",
+   "legalidade da prisão",
+   "comunicação da prisão",
+   "direitos do preso",
+   "prisão especial",
+   "imunidade prisional",
+   "relaxamento da prisão",
+   "audiência de custódia",
+   "liberdade provisória",
+   "medidas cautelares pessoais"
+  ],
+  "dispositivos": [
+   "CF, art. 5º, LXI a LXVII",
+   "CF, art. 5º, XLIX",
+   "CPP, arts. 282 a 300",
+   "CPP, art. 306",
+   "CPP, art. 310",
+   "CPP, art. 287",
+   "CPP, art. 289-A",
+   "Resolução CNJ 213/2015",
+   "Convenção Americana sobre Direitos Humanos, art. 7.5"
+  ],
+  "nao_confundir": "Não confundir com 5517, que trata das prisões em espécie, como flagrante, preventiva, temporária, domiciliar e liberdade provisória, com seus requisitos próprios. O tema 5584 é usado quando a questão cobra fundamentos gerais, garantias constitucionais, conceito, controle judicial ou regime jurídico comum das prisões. Também se diferencia de 5476 quando o foco não é o remédio constitucional habeas corpus em si, mas a legalidade ou disciplina da prisão."
+ },
+ "5589": {
+  "descricao": "Cobre a audiência de custódia, isto é, a apresentação da pessoa presa à autoridade judicial, em regra no prazo de 24 horas, para controle da legalidade, necessidade da prisão e verificação de maus-tratos. As provas exploram as providências possíveis do juiz: relaxar a prisão ilegal, converter o flagrante em preventiva, conceder liberdade provisória com ou sem cautelares, ou adotar medidas diante de violência policial.",
+  "palavras_chave": [
+   "audiência de custódia",
+   "apresentação do preso",
+   "24 horas",
+   "juiz competente",
+   "controle da legalidade",
+   "maus-tratos",
+   "tortura policial",
+   "conversão em preventiva",
+   "relaxamento do flagrante",
+   "liberdade provisória",
+   "medidas cautelares diversas",
+   "auto de prisão em flagrante",
+   "presença do defensor",
+   "Ministério Público",
+   "Resolução CNJ 213"
+  ],
+  "dispositivos": [
+   "CPP, art. 310",
+   "CPP, art. 306",
+   "CPP, art. 282",
+   "CPP, art. 312",
+   "CPP, art. 319",
+   "CF, art. 5º, LXII, LXIII e LXV",
+   "Convenção Americana sobre Direitos Humanos, art. 7.5",
+   "Pacto Internacional sobre Direitos Civis e Políticos, art. 9.3",
+   "Resolução CNJ 213/2015",
+   "STF, ADPF 347"
+  ],
+  "nao_confundir": "Não confundir com 5588: na audiência de custódia pode haver relaxamento, mas o tema 5589 é identificado quando o centro da questão é o ato de apresentação, prazo, finalidade e providências judiciais. Diferencia-se de 5518, dentro de 5517, quando a questão discute a prisão em flagrante em si, suas espécies ou lavratura, e não a apresentação posterior ao juiz."
+ },
+ "5585": {
+  "descricao": "Trata da noção geral de prisão e de suas classificações: prisão-pena e prisão cautelar/processual, prisão em flagrante, preventiva, temporária, domiciliar, civil excepcional e prisões militares. Em provas, o foco é reconhecer a natureza da prisão, sua fonte constitucional ou legal, a necessidade de mandado ou flagrante, e distinguir prisão cautelar de cumprimento de pena.",
+  "palavras_chave": [
+   "conceito de prisão",
+   "espécies de prisão",
+   "prisão-pena",
+   "prisão cautelar",
+   "prisão processual",
+   "prisão provisória",
+   "prisão em flagrante",
+   "prisão preventiva",
+   "prisão temporária",
+   "prisão domiciliar",
+   "prisão civil",
+   "depositário infiel",
+   "alimentos",
+   "prisão disciplinar militar",
+   "mandado de prisão"
+  ],
+  "dispositivos": [
+   "CF, art. 5º, LXI",
+   "CF, art. 5º, LXVII",
+   "CPP, art. 282",
+   "CPP, art. 283",
+   "CPP, arts. 284 a 300",
+   "CPP, art. 301",
+   "CPP, art. 312",
+   "CPP, arts. 317 e 318",
+   "Lei 7.960/1989",
+   "Súmula Vinculante 25 STF",
+   "Súmula 419 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5517, que aprofunda cada prisão em espécie e seus requisitos concretos, como preventiva, temporária e flagrante. O tema 5585 é adequado quando a pergunta é classificatória ou conceitual, perguntando que tipo de prisão existe, qual sua natureza ou se determinada modalidade é admitida no ordenamento."
+ },
+ "5587": {
+  "descricao": "Abrange os direitos fundamentais do preso e as garantias incidentes no momento da prisão e durante a custódia inicial, como comunicação imediata ao juiz, família e defensor, direito ao silêncio, assistência de advogado, integridade física e moral e identificação dos responsáveis pela prisão. Em concursos, aparece em assertivas sobre nulidade ou ilicitude decorrente da violação desses direitos, deveres da autoridade policial e limites da atuação estatal.",
+  "palavras_chave": [
+   "direitos do preso",
+   "garantias do preso",
+   "direito ao silêncio",
+   "aviso de Miranda",
+   "comunicação da prisão",
+   "comunicação à família",
+   "comunicação ao juiz",
+   "assistência de advogado",
+   "Defensoria Pública",
+   "integridade física e moral",
+   "identificação dos responsáveis",
+   "nota de culpa",
+   "prisão ilegal",
+   "uso de algemas",
+   "dignidade do preso"
+  ],
+  "dispositivos": [
+   "CF, art. 5º, XLIX",
+   "CF, art. 5º, LXII",
+   "CF, art. 5º, LXIII",
+   "CF, art. 5º, LXIV",
+   "CF, art. 5º, LXV",
+   "CPP, art. 306",
+   "CPP, art. 186",
+   "CPP, art. 185",
+   "Lei 13.869/2019",
+   "Súmula Vinculante 11 STF",
+   "Estatuto da OAB, art. 7º"
+  ],
+  "nao_confundir": "Não confundir com 5589 quando a questão se concentra especificamente na audiência de custódia, prazo de apresentação e decisões do juiz. O tema 5587 deve ser usado quando o ponto central é o conjunto de garantias do preso, como silêncio, comunicação, advogado, integridade e identificação dos agentes. Também se distingue de 5509 se a pergunta não está discutindo regime das nulidades processuais, mas o direito material-processual do preso."
+ },
+ "5586": {
+  "descricao": "Trata das hipóteses de imunidade à prisão e de prisão especial, incluindo autoridades que não podem ser presas salvo em situações específicas e pessoas que, antes da condenação definitiva, têm direito a recolhimento especial. Em provas, o tema envolve parlamentares, Presidente da República, magistrados, membros do Ministério Público, advogados, diplomatas, eleitores em período eleitoral e o rol do art. 295 do CPP.",
+  "palavras_chave": [
+   "imunidade prisional",
+   "prisão especial",
+   "foro especial não é prisão especial",
+   "parlamentar preso",
+   "flagrante de crime inafiançável",
+   "Presidente da República",
+   "diplomata",
+   "magistrado",
+   "membro do Ministério Público",
+   "advogado",
+   "sala de Estado-Maior",
+   "eleitor preso",
+   "período eleitoral",
+   "art. 295 CPP",
+   "prerrogativa funcional"
+  ],
+  "dispositivos": [
+   "CF, art. 53, §2º",
+   "CF, art. 27, §1º",
+   "CF, art. 86, §3º",
+   "CPP, art. 295",
+   "CPP, art. 296",
+   "CPP, art. 300",
+   "Código Eleitoral, art. 236",
+   "Estatuto da OAB, art. 7º, V",
+   "LC 35/1979, art. 33, II",
+   "Lei 8.625/1993, art. 40, III",
+   "LC 75/1993, art. 18, II, d",
+   "Convenção de Viena sobre Relações Diplomáticas"
+  ],
+  "nao_confundir": "Não confundir com 5480, pois prerrogativa de função para julgamento é matéria de competência, enquanto 5586 trata de possibilidade, limites ou local de prisão. Também não confundir com 5517: a questão pode mencionar preventiva ou flagrante, mas será 5586 se o problema central for uma imunidade, prerrogativa pessoal ou direito a prisão especial."
+ },
+ "5588": {
+  "descricao": "Abrange o relaxamento da prisão ilegal, providência constitucional e processual destinada a fazer cessar imediatamente constrição ilegal da liberdade. Em provas, o foco é distinguir relaxamento de revogação da prisão preventiva e de concessão de liberdade provisória, além de reconhecer ilegalidades no flagrante, no mandado ou na manutenção da custódia.",
+  "palavras_chave": [
+   "relaxamento da prisão",
+   "prisão ilegal",
+   "ilegalidade da prisão",
+   "flagrante ilegal",
+   "relaxamento do flagrante",
+   "ordem de soltura",
+   "controle judicial",
+   "prisão sem mandado",
+   "ausência de flagrante",
+   "excesso de prazo",
+   "coação ilegal",
+   "liberdade provisória",
+   "revogação da preventiva",
+   "habeas corpus",
+   "art. 5º LXV"
+  ],
+  "dispositivos": [
+   "CF, art. 5º, LXV",
+   "CF, art. 5º, LXVIII",
+   "CPP, art. 310, I",
+   "CPP, art. 316",
+   "CPP, art. 648",
+   "CPP, art. 660",
+   "CPP, art. 282, §5º",
+   "CPP, art. 306",
+   "CPP, art. 312"
+  ],
+  "nao_confundir": "Não confundir com 5517: revogação da preventiva ocorre quando faltam ou desaparecem seus requisitos, enquanto relaxamento pressupõe ilegalidade da prisão. Diferencia-se de 5477, pois o habeas corpus é o instrumento autônomo de impugnação; 5588 é a providência de soltura por prisão ilegal, que pode ser determinada inclusive de ofício ou na audiência de custódia. Também não confundir com liberdade provisória, cabível quando a prisão é legal, mas desnecessária."
+ },
+ "5543": {
+  "descricao": "Abrange os meios de prova em espécie previstos no CPP e em leis especiais, como interrogatório, confissão, testemunhas, perícias, documentos, reconhecimento, busca e apreensão e técnicas especiais de investigação. Em provas, costuma cobrar requisitos formais de produção, autoridade competente, necessidade de autorização judicial, valor probatório e consequências do descumprimento do procedimento legal.",
+  "palavras_chave": [
+   "meios de prova",
+   "prova em espécie",
+   "produção da prova",
+   "prova testemunhal",
+   "interrogatório",
+   "confissão",
+   "perícia",
+   "busca e apreensão",
+   "reconhecimento de pessoas",
+   "cadeia de custódia",
+   "interceptação telefônica",
+   "colaboração premiada",
+   "infiltração de agentes"
+  ],
+  "dispositivos": [
+   "arts. 155 a 250 CPP",
+   "arts. 158 a 184 CPP",
+   "arts. 185 a 196 CPP",
+   "arts. 197 a 200 CPP",
+   "art. 201 CPP",
+   "arts. 202 a 225 CPP",
+   "arts. 226 a 230 CPP",
+   "arts. 231 a 250 CPP",
+   "Lei 9.296/1996",
+   "Lei 12.850/2013"
+  ],
+  "nao_confundir": "Não confundir com 5590, que trata da teoria geral das provas, como ônus, sistemas de avaliação e prova ilícita em abstrato. Se a questão pergunta sobre um meio probatório específico e seu procedimento de produção, o enquadramento é 5543 ou um de seus subtemas; se discute validade processual como nulidade, pode envolver 5509."
+ },
+ "5552": {
+  "descricao": "Trata da acareação, meio de prova utilizado quando houver divergência relevante entre declarações de acusados, testemunhas ou ofendidos. As questões costumam cobrar quem pode ser acareado, quando é cabível e como se registram as contradições e esclarecimentos.",
+  "palavras_chave": [
+   "acareação",
+   "contradição entre depoimentos",
+   "divergência relevante",
+   "testemunhas acareadas",
+   "acusados acareados",
+   "ofendido",
+   "confronto de versões",
+   "esclarecimento de divergências",
+   "termo de acareação",
+   "reperguntas",
+   "declarações contraditórias"
+  ],
+  "dispositivos": [
+   "arts. 229 e 230 CPP"
+  ],
+  "nao_confundir": "Não confundir com 5550, que trata da prova testemunhal comum, nem com 5549, relativo à oitiva do ofendido. O critério de desempate é a existência de confronto formal entre declarações contraditórias: havendo esse confronto, o tema é 5552."
+ },
+ "5558": {
+  "descricao": "Abrange a ação controlada, técnica especial de investigação que consiste em retardar a intervenção policial ou administrativa para acompanhar a atuação criminosa e obter mais elementos probatórios. É muito cobrada em crimes de organização criminosa, drogas e lavagem de dinheiro, especialmente quanto à comunicação ou autorização judicial e ao controle pelo Ministério Público.",
+  "palavras_chave": [
+   "ação controlada",
+   "flagrante retardado",
+   "retardar intervenção policial",
+   "acompanhamento da organização criminosa",
+   "entrega vigiada",
+   "diferimento da atuação estatal",
+   "controle judicial",
+   "comunicação ao juiz",
+   "organização criminosa",
+   "investigação especial",
+   "Lei de Drogas",
+   "lavagem de dinheiro"
+  ],
+  "dispositivos": [
+   "arts. 8º e 9º da Lei 12.850/2013",
+   "art. 53, II, Lei 11.343/2006",
+   "art. 4º-B da Lei 9.613/1998",
+   "Convenção de Palermo"
+  ],
+  "nao_confundir": "Não confundir com 5559, que envolve agente infiltrado participando da investigação, nem com 5518, prisão em flagrante. Na ação controlada, o ponto central é o retardamento estratégico da intervenção estatal; no flagrante comum há atuação imediata."
+ },
+ "5554": {
+  "descricao": "Trata da busca e apreensão pessoal ou domiciliar, seus requisitos, finalidade, limites constitucionais e forma de cumprimento. As provas costumam cobrar mandado judicial, inviolabilidade de domicílio, hipóteses de busca sem mandado, fundadas razões, apreensão de instrumentos do crime e horário de cumprimento.",
+  "palavras_chave": [
+   "busca e apreensão",
+   "busca domiciliar",
+   "busca pessoal",
+   "mandado de busca",
+   "fundadas razões",
+   "inviolabilidade do domicílio",
+   "flagrante delito",
+   "consentimento do morador",
+   "apreensão de objetos",
+   "corpo de delito",
+   "casa",
+   "durante o dia",
+   "ordem judicial"
+  ],
+  "dispositivos": [
+   "arts. 240 a 250 CPP",
+   "art. 5º, XI, CF",
+   "art. 5º, LVI, CF",
+   "art. 157 CPP"
+  ],
+  "nao_confundir": "Não confundir com 5495, que trata da restituição de coisas apreendidas após a apreensão, nem com 5518, prisão em flagrante. Se a pergunta é sobre ingresso, procura e apreensão de pessoas ou coisas como meio de prova, o tema é 5554."
+ },
+ "5544": {
+  "descricao": "Cobre a cadeia de custódia da prova, isto é, o conjunto de procedimentos para preservar e documentar a história cronológica do vestígio, desde o reconhecimento até o descarte. Em concursos, o foco está nas etapas legais, central de custódia, lacre, rastreabilidade e consequências de eventual quebra da cadeia.",
+  "palavras_chave": [
+   "cadeia de custódia",
+   "vestígio",
+   "rastreabilidade",
+   "lacre",
+   "preservação do local",
+   "coleta",
+   "acondicionamento",
+   "transporte",
+   "recebimento",
+   "processamento",
+   "armazenamento",
+   "descarte",
+   "central de custódia",
+   "quebra da cadeia de custódia"
+  ],
+  "dispositivos": [
+   "arts. 158-A a 158-F CPP",
+   "Lei 13.964/2019",
+   "art. 6º CPP",
+   "art. 169 CPP"
+  ],
+  "nao_confundir": "Não confundir com 5545 e 5546, que tratam do exame de corpo de delito e da perícia propriamente dita. A cadeia de custódia não pergunta, em regra, sobre a conclusão técnica do perito, mas sobre preservação, documentação e rastreamento do vestígio."
+ },
+ "5556": {
+  "descricao": "Abrange a captação ambiental de sinais eletromagnéticos, ópticos ou acústicos para fins investigatórios ou probatórios. As questões cobram necessidade de autorização judicial, requisitos de subsidiariedade, prazo, crimes abrangidos e distinção entre gravação ambiental feita por um dos interlocutores e captação clandestina por terceiro.",
+  "palavras_chave": [
+   "captação ambiental",
+   "sinais acústicos",
+   "sinais ópticos",
+   "sinais eletromagnéticos",
+   "gravação ambiental",
+   "autorização judicial",
+   "ambiente público ou privado",
+   "meio de obtenção de prova",
+   "subsidiariedade",
+   "renovação do prazo",
+   "crime punido com reclusão",
+   "Lei 9.296/1996"
+  ],
+  "dispositivos": [
+   "art. 8º-A da Lei 9.296/1996",
+   "art. 10-A da Lei 9.296/1996",
+   "art. 5º, X e XII, CF",
+   "Lei 13.964/2019"
+  ],
+  "nao_confundir": "Não confundir com 5555, que envolve interceptação de comunicações telefônicas ou telemáticas em curso. Na captação ambiental, o foco é a gravação de sons, imagens ou sinais no ambiente; na interceptação, é a comunicação transmitida por telefone ou dados."
+ },
+ "5557": {
+  "descricao": "Trata da colaboração premiada, negócio jurídico processual e meio de obtenção de prova em que o investigado ou acusado coopera com a investigação ou processo em troca de benefícios legais. Em provas, são cobrados voluntariedade, presença de defensor, homologação judicial, direitos do colaborador, valor probatório das declarações e benefícios possíveis.",
+  "palavras_chave": [
+   "colaboração premiada",
+   "delação premiada",
+   "acordo de colaboração",
+   "voluntariedade",
+   "defensor",
+   "homologação judicial",
+   "benefícios legais",
+   "perdão judicial",
+   "redução de pena",
+   "regime diferenciado",
+   "corroboração",
+   "declarações do colaborador",
+   "organização criminosa"
+  ],
+  "dispositivos": [
+   "arts. 3º-A a 7º da Lei 12.850/2013",
+   "art. 4º da Lei 12.850/2013",
+   "art. 5º, LXIII, CF",
+   "art. 14 da Lei 9.807/1999"
+  ],
+  "nao_confundir": "Não confundir com 5548, pois confissão é admissão de fato próprio, enquanto colaboração premiada pressupõe cooperação útil mais ampla e acordo. Também não confundir com 5559, que é técnica de infiltração de agente estatal ou colaborador autorizado em investigação."
+ },
+ "5548": {
+  "descricao": "Abrange a confissão como meio de prova, seu valor relativo, divisibilidade e retratabilidade. As questões costumam cobrar que a confissão deve ser confrontada com as demais provas e sua repercussão penal como atenuante quando utilizada para fundamentar a condenação.",
+  "palavras_chave": [
+   "confissão",
+   "confissão judicial",
+   "confissão extrajudicial",
+   "confissão espontânea",
+   "retratabilidade",
+   "divisibilidade",
+   "valor probatório relativo",
+   "corroboração",
+   "atenuante da confissão",
+   "autoincriminação",
+   "admissão de autoria",
+   "Súmula 545 STJ"
+  ],
+  "dispositivos": [
+   "arts. 197 a 200 CPP",
+   "art. 65, III, d, CP",
+   "art. 5º, LXIII, CF",
+   "Súmula 545 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5547, que é o interrogatório judicial, ato em que a confissão pode ou não ocorrer. Se a questão versa sobre o ato de ouvir o acusado e suas garantias, é 5547; se versa sobre admissão de autoria e seu valor, é 5548."
+ },
+ "5549": {
+  "descricao": "Trata da declaração do ofendido no processo penal, incluindo sua intimação, condução coercitiva em caso de ausência injustificada e comunicação dos atos processuais relevantes. Em provas, aparece especialmente em temas sobre palavra da vítima, crimes sexuais, contraditório, proteção e reparação de danos.",
+  "palavras_chave": [
+   "declaração do ofendido",
+   "oitiva da vítima",
+   "palavra da vítima",
+   "intimação do ofendido",
+   "condução coercitiva",
+   "comunicação dos atos",
+   "reparação do dano",
+   "vítima",
+   "crimes sexuais",
+   "depoimento da vítima",
+   "proteção da vítima",
+   "valor probatório"
+  ],
+  "dispositivos": [
+   "art. 201 CPP",
+   "art. 387, IV, CPP",
+   "Lei 11.340/2006",
+   "Lei 13.431/2017"
+  ],
+  "nao_confundir": "Não confundir com 5550, pois o ofendido não é tecnicamente testemunha e não presta compromisso como testemunha comum. Se o enunciado fala em vítima ou ofendido e seus direitos de comunicação, o tema é 5549."
+ },
+ "5545": {
+  "descricao": "Cobre o exame de corpo de delito, direto ou indireto, exigido quando a infração deixa vestígios. As questões cobram indispensabilidade do exame, impossibilidade de suprimento pela confissão, número de peritos, laudo pericial e hipóteses em que a prova testemunhal supre a falta do exame por desaparecimento dos vestígios.",
+  "palavras_chave": [
+   "exame de corpo de delito",
+   "corpo de delito direto",
+   "corpo de delito indireto",
+   "infração que deixa vestígios",
+   "laudo pericial",
+   "vestígios desaparecidos",
+   "confissão não supre",
+   "perito oficial",
+   "assistente técnico",
+   "prova testemunhal supletiva",
+   "materialidade",
+   "necropsia",
+   "lesões corporais"
+  ],
+  "dispositivos": [
+   "arts. 158 a 184 CPP",
+   "art. 158 CPP",
+   "art. 159 CPP",
+   "art. 167 CPP",
+   "Súmula 361 STF"
+  ],
+  "nao_confundir": "Não confundir com 5546, que é o tema geral da perícia. O exame de corpo de delito é uma espécie de perícia voltada à comprovação da materialidade em crimes que deixam vestígios; se a questão trata de perícias em geral, o melhor tema é 5546."
+ },
+ "5559": {
+  "descricao": "Abrange a infiltração de agentes, técnica especial de investigação pela qual agente policial, mediante autorização judicial, ingressa de forma dissimulada em organização criminosa ou ambiente investigado. As provas cobram requisitos, prazo, renovação, relatório circunstanciado, controle judicial, limites da atuação do infiltrado e infiltração virtual.",
+  "palavras_chave": [
+   "infiltração de agentes",
+   "agente infiltrado",
+   "organização criminosa",
+   "autorização judicial",
+   "relatório circunstanciado",
+   "identidade fictícia",
+   "prazo de infiltração",
+   "renovação",
+   "infiltração virtual",
+   "proporcionalidade",
+   "investigação sigilosa",
+   "agente policial",
+   "excludente de responsabilidade"
+  ],
+  "dispositivos": [
+   "arts. 10 a 14 da Lei 12.850/2013",
+   "art. 53, I, Lei 11.343/2006",
+   "arts. 190-A a 190-E do ECA",
+   "Lei 13.441/2017"
+  ],
+  "nao_confundir": "Não confundir com 5558, que apenas retarda a intervenção estatal, nem com 5557, que envolve colaboração de investigado ou acusado. Na infiltração há inserção dissimulada de agente autorizado no grupo ou ambiente investigado."
+ },
+ "5555": {
+  "descricao": "Trata da interceptação telefônica e da quebra de sigilo de dados telefônicos ou telemáticos como meios de obtenção de prova. As questões cobram reserva de jurisdição, requisitos legais, prazo, renovação, crimes punidos com reclusão, degravação, encontro fortuito de provas e distinção entre interceptação, escuta, gravação e acesso a dados pretéritos.",
+  "palavras_chave": [
+   "interceptação telefônica",
+   "quebra de sigilo telefônico",
+   "sigilo de dados",
+   "comunicação telefônica",
+   "autorização judicial",
+   "reserva de jurisdição",
+   "prazo de 15 dias",
+   "renovação",
+   "degravação",
+   "encontro fortuito de provas",
+   "comunicações telemáticas",
+   "dados cadastrais",
+   "fluxo comunicacional",
+   "Lei 9.296/1996"
+  ],
+  "dispositivos": [
+   "art. 5º, XII, CF",
+   "Lei 9.296/1996",
+   "arts. 1º a 10 da Lei 9.296/1996",
+   "art. 10 da Lei 12.965/2014",
+   "art. 22 da Lei 12.965/2014",
+   "Súmula 455 STJ"
+  ],
+  "nao_confundir": "Não confundir com 5556, que versa sobre captação ambiental, nem com 5554, busca e apreensão de aparelhos ou documentos. O critério é o objeto da medida: comunicação telefônica ou telemática e dados a ela relacionados indicam 5555."
+ },
+ "5547": {
+  "descricao": "Abrange o interrogatório judicial do acusado, sua natureza de meio de defesa e de prova, o direito ao silêncio e as regras de realização presencial ou por videoconferência. Em provas, cobra-se momento do interrogatório, presença da defesa, perguntas das partes, advertências constitucionais e nulidades relacionadas ao ato.",
+  "palavras_chave": [
+   "interrogatório judicial",
+   "acusado",
+   "direito ao silêncio",
+   "autodefesa",
+   "meio de defesa",
+   "videoconferência",
+   "presença do defensor",
+   "perguntas das partes",
+   "qualificação do acusado",
+   "interrogatório ao final",
+   "nemo tenetur se detegere",
+   "confissão no interrogatório"
+  ],
+  "dispositivos": [
+   "arts. 185 a 196 CPP",
+   "art. 5º, LXIII, CF",
+   "art. 400 CPP",
+   "art. 564, III, e, CPP",
+   "Súmula 523 STF"
+  ],
+  "nao_confundir": "Não confundir com 5548, que trata da confissão como conteúdo probatório, nem com 5530, sobre a sequência do procedimento ordinário. Se a questão pergunta sobre garantias e forma do ato de ouvir o acusado, o tema é 5547."
+ },
+ "5546": {
+  "descricao": "Trata da perícia em geral no processo penal, incluindo perito oficial, laudo pericial, assistente técnico, quesitos, divergência entre peritos e livre apreciação judicial do laudo. Em provas, aparece em questões sobre prova técnica, exame complementar, nomeação de peritos e limites de vinculação do juiz à conclusão pericial.",
+  "palavras_chave": [
+   "perícia",
+   "prova pericial",
+   "perito oficial",
+   "laudo pericial",
+   "assistente técnico",
+   "quesitos",
+   "exame complementar",
+   "divergência entre peritos",
+   "perito não oficial",
+   "nomeação de perito",
+   "livre convencimento do juiz",
+   "prova técnica",
+   "materialidade"
+  ],
+  "dispositivos": [
+   "arts. 158 a 184 CPP",
+   "art. 159 CPP",
+   "art. 160 CPP",
+   "art. 182 CPP",
+   "art. 184 CPP"
+  ],
+  "nao_confundir": "Não confundir com 5545, que é a subespécie exame de corpo de delito, nem com 5544, cadeia de custódia. Se a questão fala da atividade técnica do perito e do laudo em geral, é 5546; se fala da preservação do vestígio, é 5544."
+ },
+ "5553": {
+  "descricao": "Abrange a prova documental, incluindo juntada de documentos, conceito legal amplo de documento, autenticidade, tradução, desentranhamento e momento de apresentação. As questões costumam cobrar documentos escritos, públicos ou particulares, fotografias, cópias, documentos eletrônicos e possibilidade de juntada em qualquer fase, respeitado o contraditório.",
+  "palavras_chave": [
+   "prova documental",
+   "documentos",
+   "juntada de documentos",
+   "documento público",
+   "documento particular",
+   "autenticidade",
+   "tradução",
+   "cópia autenticada",
+   "documento eletrônico",
+   "fotografia",
+   "desentranhamento",
+   "contraditório",
+   "documentos em língua estrangeira"
+  ],
+  "dispositivos": [
+   "arts. 231 a 238 CPP",
+   "art. 232 CPP",
+   "art. 233 CPP",
+   "art. 234 CPP",
+   "art. 235 CPP",
+   "art. 479 CPP"
+  ],
+  "nao_confundir": "Não confundir com 5546, pois perícia pode incidir sobre documento, mas prova documental é o próprio documento como fonte de prova. Também não confundir com 5524 quando a questão tratar da juntada de documentos especificamente no plenário do júri, caso em que o foco procedimental pode ser o Tribunal do Júri."
+ },
+ "5550": {
+  "descricao": "Trata da prova testemunhal, incluindo capacidade para testemunhar, compromisso, contradita, impedimentos, suspeição, número de testemunhas e forma de inquirição. Em provas, são frequentes temas como testemunha referida, informante, direito ao silêncio de pessoas próximas, falso testemunho e perguntas diretas pelas partes.",
+  "palavras_chave": [
+   "prova testemunhal",
+   "testemunha",
+   "compromisso de dizer a verdade",
+   "contradita",
+   "informante",
+   "suspeição da testemunha",
+   "impedimento",
+   "inquirição de testemunhas",
+   "perguntas diretas",
+   "testemunha referida",
+   "depoimento",
+   "falso testemunho",
+   "número de testemunhas",
+   "dever de depor"
+  ],
+  "dispositivos": [
+   "arts. 202 a 225 CPP",
+   "art. 203 CPP",
+   "art. 206 CPP",
+   "art. 207 CPP",
+   "art. 212 CPP",
+   "art. 342 CP"
+  ],
+  "nao_confundir": "Não confundir com 5549, pois a vítima não é testemunha, nem com 5552, que pressupõe acareação entre depoentes. Se a questão trata da oitiva de terceiro compromissado ou informante, o tema é 5550."
+ },
+ "5551": {
+  "descricao": "Abrange o reconhecimento de pessoas e coisas, especialmente o procedimento formal para reconhecimento pessoal, com descrição prévia, colocação ao lado de semelhantes e lavratura de auto. As questões cobram a observância do art. 226 do CPP, reconhecimento fotográfico, valor probatório, necessidade de confirmação por outras provas e consequências da inobservância do rito.",
+  "palavras_chave": [
+   "reconhecimento de pessoas",
+   "reconhecimento de coisas",
+   "reconhecimento fotográfico",
+   "descrição prévia",
+   "pessoas semelhantes",
+   "auto de reconhecimento",
+   "alinhamento de suspeitos",
+   "valor probatório",
+   "art. 226 CPP",
+   "identificação do acusado",
+   "reconhecimento em juízo",
+   "reconhecimento informal",
+   "nulidade do reconhecimento"
+  ],
+  "dispositivos": [
+   "arts. 226 a 228 CPP",
+   "art. 5º, LV, CF",
+   "art. 155 CPP"
+  ],
+  "nao_confundir": "Não confundir com 5550, pois testemunha pode realizar o reconhecimento, mas o ato probatório específico é a identificação formal de pessoa ou coisa. Se o centro da pergunta é o procedimento de identificação do suspeito ou objeto, o tema é 5551."
  }
 }

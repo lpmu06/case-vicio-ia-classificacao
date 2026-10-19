@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5063",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.78,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5468",
+ "extras_ids": [
+  "5466",
+  "5064",
+  "5065"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão pede que se identifique, para cada um dos crimes narrados (ameaça - art. 147 CP; injúria - art. 140 CP; perseguição/stalking - art. 147-A CP), qual é a espécie de ação penal cabível (pública incondicionada, pública condicionada à representação ou privada), e depois comparar essas classificações entre as alternativas. Isso é, no núcleo, a definição legal de quem pode provocar a persecução penal para cada tipo, o que corresponde à descrição do tema 5063 (Penal > Ação Penal), cujo enunciado expressamente abrange \"a identificação da espécie de ação penal em crimes específicos\". O enunciado não aborda aspectos processuais (denúncia, queixa, requisitos formais, procedimento), por isso mantenho a prevalência de 5063 sobre o equivalente processual 5466, confirmando a classificação do estágio anterior. Quanto ao subtema de nível 2 dentro de 5063, a questão trata simultaneamente de ação pública condicionada (ameaça e perseguição) e de ação privada (injúria), não se encaixando isoladamente em 5064 ou 5065; por isso deixo subtema_n2_id como null, marcando multi_tema = true, já que cada alternativa cruza institutos de ação pública e privada sem um eixo único de subtema. Como segunda opção, dentro da árvore de Processo Penal, o subtema que mais precisamente corresponde ao pedido da questão (comparar a espécie de ação penal cabível a cada crime) é 5468 (Classificação da Ação Penal), por isso o indico como segunda_opcao_id, e incluo os demais temas correlatos (5466, 5064, 5065) como extras por proximidade temática.",
+ "id": "Q0007",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5063",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão exige identificar a espécie de ação penal (pública incondicionada, condicionada à representação ou privada) de cada um dos crimes narrados (ameaça, injúria e perseguição/stalking), com base nas regras de direito material sobre quem pode provocar a persecução penal. Isso corresponde exatamente à descrição do tema 5063 (Penal > Ação Penal), que trata da \"classificação da ação penal no Direito Penal material... ação penal pública incondicionada, pública condicionada à representação... e ação penal privada\". Embora o tema \"Ação Penal\" também exista em Processo Penal (5466), o enunciado foca na natureza material de cada crime (condição de procedibilidade), não em aspectos processuais como denúncia, queixa ou peças acusatórias, por isso prevalece o enquadramento em Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2920,
+  "cache_w": 34654,
+  "cache_r": 78694,
+  "custo_usd": 0.1926108
+ }
+}

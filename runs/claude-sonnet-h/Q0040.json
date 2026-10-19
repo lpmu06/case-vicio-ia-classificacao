@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5562",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5524",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecer os requisitos cumulativos do art. 492, §4º, do CPP para a atribuição de efeito suspensivo à apelação interposta contra sentença condenatória do Tribunal do Júri com pena igual ou superior a 15 anos de reclusão (gabarito D: réu primário + questão substancial capaz de levar a redução da pena para patamar inferior a 15 anos). O núcleo testado é um instituto específico do recurso de apelação — seus efeitos e o regime diferenciado após a Lei 13.964/2019 — o que o insere precisamente no subtema \"Apelação\" (5562), dentro do tema de nível 1 \"Recursos em Espécies\" (5560). Embora o contexto narrativo seja a sentença do Tribunal do Júri, a pergunta não versa sobre o conteúdo ou a formação da sentença em si, nem sobre dinâmica do plenário ou veredicto, mas exclusivamente sobre o meio de impugnação e seu efeito, afastando \"Procedimento do Tribunal do Júri\" (5524) como primeira opção, mantido apenas como segunda opção plausível pelo contexto factual do júri.",
+ "id": "Q0040",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5524",
+  "confianca_ramo": 0.72,
+  "multi_tema": false,
+  "justificativa": "A questão testa o regime do art. 492, §4º, do CPP sobre a possibilidade de atribuição de efeito suspensivo à apelação interposta contra sentença condenatória do Tribunal do Júri com pena igual ou superior a 15 anos, exigindo-se pena abaixo desse patamar e questão substancial que possa levar a reforma, anulação ou absolvição. O instituto central testado é o recurso de apelação (seus efeitos), tema que se encontra no nível 1 \"Recursos em Espécies\" (subtema Apelação). Como o contexto é a sentença do júri, \"Procedimento do Tribunal do Júri\" (que também abrange \"Sentença do Júri\") é uma alternativa plausível, mas o cerne da pergunta é especificamente sobre o recurso e seu efeito suspensivo, não sobre o procedimento do júri em si."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1806,
+  "cache_w": 36525,
+  "cache_r": 78694,
+  "custo_usd": 0.19025380000000003
+ }
+}

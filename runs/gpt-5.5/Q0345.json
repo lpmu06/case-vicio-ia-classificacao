@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": "5103",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.86,
+ "segunda_opcao_id": "5110",
+ "extras_ids": [
+  "5110",
+  "5203",
+  "5204"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão tem como núcleo a adequação típica de atos libidinosos praticados contra menor de 14 anos, distinguindo estupro de vulnerável consumado de tentativa ou importunação sexual. A discussão sobre a agravante genérica e a majorante do art. 226 do CP é relevante, mas acessória à classificação principal nos crimes contra a dignidade sexual, especialmente estupro de vulnerável.",
+ "id": "Q0345",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1453,
+  "out": 684,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

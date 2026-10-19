@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5203",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.65,
+ "segunda_opcao_id": "5210",
+ "extras_ids": [
+  "5210",
+  "5193"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa os requisitos da reincidência (arts. 63 e 64 do CP): período depurador, crimes militares próprios e impróprios, sentença estrangeira, indulto, reabilitação e prescrição. A reincidência é agravante da segunda fase da dosimetria.",
+ "id": "Q0170",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 544,
+  "cache_w": 14224,
+  "cache_r": 237485,
+  "custo_usd": 0.17359200000000002
+ }
+}

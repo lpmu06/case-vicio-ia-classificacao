@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.7,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5170",
+ "extras_ids": [
+  "5221",
+  "5222",
+  "5230",
+  "5183"
+ ],
+ "multi_tema": true,
+ "justificativa": "Cada alternativa cobra um ponto diferente da teoria do crime: ausência de conduta, bem jurídico (a correta), elementos subjetivos do injusto, estado de necessidade e tipo misto alternativo. A maior parte está em Fato Típico, por isso escolhi o ramo de nível 1 sem fixar subtema.",
+ "id": "Q0199",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 500,
+  "cache_w": 14081,
+  "cache_r": 237485,
+  "custo_usd": 0.17145
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5201",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.82,
+ "segunda_opcao_id": "5576",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede o regime inicial de quem é primário e foi condenado a 6 anos de reclusão. A resposta é o semiaberto (art. 33, §2º, b, do CP). As Súmulas 718 e 719 do STF e a Súmula 440 do STJ proíbem impor regime mais gravoso com base apenas na gravidade abstrata do crime. Por isso o tema é Penas Privativas de Liberdade, dentro de Teoria da Pena.",
+ "id": "Q0215",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 541,
+  "cache_w": 14004,
+  "cache_r": 237485,
+  "custo_usd": 0.171599
+ }
+}

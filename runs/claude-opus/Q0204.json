@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5505",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o art. 2º do CPP: a lei processual tem aplicação imediata (tempus regit actum) e os atos praticados sob a lei anterior continuam válidos. Isso é exatamente o tema Lei Processual no Tempo.",
+ "id": "Q0204",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 356,
+  "cache_w": 13845,
+  "cache_r": 237485,
+  "custo_usd": 0.166538
+ }
+}

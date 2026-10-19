@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5528",
+ "extras_ids": [
+  "5527",
+  "5526"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão pede a alternativa INCORRETA e cada item versa sobre um ponto distinto do procedimento do júri: (A) estrutura bifásica (judicium accusationis/causae) — tema 5526; (B) efeitos da pronúncia sobre a prisão cautelar e necessidade de motivação — tema afeto a pronúncia/efeitos (5527) e também a princípios constitucionais de prisão, sem subtema exclusivo; (C) natureza jurídica da impronúncia (ausência de coisa julgada material) — tema 5527; (D) adiamento de julgamento por ausência de defensor e intimação da Defensoria Pública — organização da sessão, tema 5528; (E) sistema de colheita de depoimentos em plenário (exame direto e cruzado para as partes, indireto/presidencialista para os jurados) — também tema 5528. Não há um único subtema de nível 2 que abranja todos os pontos testados, pois eles se distribuem entre Procedimento Bifásico (5526), Impronúncia/Pronúncia (5527) e Organização do Júri e Sessão de Julgamento (5528). Por isso, mantenho a classificação no tema de nível 1 'Procedimento do Tribunal do Júri' (5524), que abrange corretamente todas as alternativas, marcando multi_tema = true e deixando subtema_n2_id em null por não haver certeza de um subtema único aplicável a toda a questão. Como segunda opção, indico 5528 (Organização do Júri e Sessão de Julgamento), por concentrar duas das cinco alternativas (D e E), e incluo como extras os temas 5527 e 5526, que também cobrem partes relevantes da questão.",
+ "id": "Q0023",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa integralmente sobre o procedimento do Tribunal do Júri: fases do procedimento bifásico, efeitos da pronúncia sobre a prisão, natureza da impronúncia, adiamento de julgamento por ausência de defensor e sistema de colheita de depoimentos em plenário. Todos os pontos se enquadram no tema de nível 1 \"Procedimento do Tribunal do Júri\" (5524), em Processo Penal, inclusive havendo subtemas específicos (Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia; Organização do Júri e Sessão de Julgamento; Procedimento Bifásico) que cobrem exatamente essas alternativas."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1645,
+  "cache_w": 30805,
+  "cache_r": 78694,
+  "custo_usd": 0.1610878
+ }
+}

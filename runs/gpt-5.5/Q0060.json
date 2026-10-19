@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5093",
+ "extras_ids": [
+  "5091",
+  "5089",
+  "5101",
+  "5097",
+  "5093",
+  "5096"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão compara vários crimes contra a Administração Pública do Código Penal, como concussão, peculato, tráfico de influência, advocacia administrativa, corrupção ativa e condescendência criminosa. Embora a alternativa correta trate de corrupção ativa, o enunciado é panorâmico e exige conhecimento de subtipos diversos, por isso o enquadramento mais seguro é no tema amplo.",
+ "id": "Q0060",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1170,
+  "out": 687,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4706",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4705",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecimento direto e exclusivo da Lei 13.260/2016 (Lei Antiterrorismo): competência investigativa da Polícia Federal (art. 11), atos preparatórios de terrorismo (art. 5º), conceito legal de terrorismo com seus elementos subjetivos cumulativos de motivação discriminatória/xenófoba e finalidade de provocar terror social ou generalizado (art. 2º, caput e §1º), e atos de terrorismo em espécie (incêndio, sabotagem de sistemas de informática, destruição de bens). Todas as alternativas versam sobre o mesmo diploma, confirmando o tema de nível 1 \"Terrorismo\" (4706). Como esse tema não possui subtemas de nível 2, o subtema_n2_id permanece null.",
+ "id": "Q0035",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4706",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente da Lei nº 13.260/2016 (Lei Antiterrorismo), exigindo conhecimento da definição legal de terrorismo, atos de terrorismo em espécie, atos preparatórios e competência investigativa. Todas as alternativas versam sobre o mesmo diploma legal, correspondendo diretamente ao tema de nível 1 \"Terrorismo\" (id 4706), dentro da disciplina Direito Penal - Legislação Especial."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1195,
+  "cache_w": 28288,
+  "cache_r": 78694,
+  "custo_usd": 0.1443828
+ }
+}

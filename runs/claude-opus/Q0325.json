@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.4,
+ "segunda_opcao_id": "5467",
+ "extras_ids": [
+  "5494",
+  "4701",
+  "4704",
+  "5531"
+ ],
+ "multi_tema": true,
+ "justificativa": "Cada alternativa trata de um instituto diferente: Lei 9.605 no JECRIM, inépcia da denúncia, litispendência, justa causa e renúncia à representação na Lei Maria da Penha. O eixo comum mais próximo são as condições e os pressupostos para exercer a ação penal e receber a denúncia, por isso o tema escolhido é Ação Penal no Processo Penal.",
+ "id": "Q0325",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 737,
+  "cache_w": 14338,
+  "cache_r": 237485,
+  "custo_usd": 0.178483
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5471",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema de nível 1 \"Lei Maria da Penha\" (4704). A questão exige conhecimento da jurisprudência consolidada do STJ sobre o art. 16 da Lei 11.340/2006: a audiência de ratificação da representação só é necessária quando a vítima manifesta prévio e expresso interesse em se retratar, não sendo ato obrigatório de ofício em toda ação penal por violência doméstica. Esse dispositivo (art. 16 da LMP) está expressamente listado nos dispositivos do tema 4704, que também traz \"retratação da representação\" como palavra-chave central, tornando-o o tema mais preciso e didaticamente correto para o aluno estudar esse instituto específico do microssistema da Lei Maria da Penha. O tema 4704 não possui subtemas de nível 2, logo subtema_n2_id = null. Como segunda opção, dentro de Processo Penal, prefiro agora o subtema específico \"Ação Penal Pública Condicionada\" (5471) — que trata expressamente de representação, retratação e prazo decadencial, inclusive citando o art. 16 da LMP em seus próprios dispositivos — em vez do tema genérico \"Ação Penal\" (5466), pois a questão, se fosse classificada em Processo Penal, encaixaria-se exatamente nesse subtema sobre a condição de procedibilidade por representação/retratação.",
+ "id": "Q0036",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento específico da Lei Maria da Penha (Lei 11.340/2006), em especial da jurisprudência do STJ sobre a audiência do art. 16 (ratificação da representação), que só é necessária quando a vítima manifesta prévio interesse em se retratar. Trata-se de instituto próprio do microssistema da Lei Maria da Penha, cujo tema de nível 1 em Legislação Especial (id 4704) abrange justamente esse diploma, incluindo seus aspectos processuais específicos (seria também compatível com \"Ação Penal\" em Processo Penal, mas a especificidade do art. 16 da LMP torna o tema especial mais preciso)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1692,
+  "cache_w": 34517,
+  "cache_r": 78694,
+  "custo_usd": 0.1795268
+ }
+}

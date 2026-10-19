@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5590",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.82,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [
+  "5591",
+  "5593",
+  "5595",
+  "5547",
+  "5557",
+  "5551"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão reúne várias afirmações sobre regime probatório: prova emprestada, nemo tenetur, produção antecipada de provas, interrogatório, reconhecimento e colaboração premiada. Por não se concentrar em um único meio de prova, o melhor enquadramento é o tema amplo de Teoria Geral das Provas, com interface relevante com Provas em Espécies.",
+ "id": "Q0323",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1490,
+  "out": 965,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

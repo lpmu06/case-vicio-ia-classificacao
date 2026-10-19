@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5161",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5157",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra as qualificadoras, a tentativa e a consumação da extorsão mediante sequestro (art. 159 do CP). Pelos metadados, esse crime fica no subtema Extorsão (5161), dentro de Crimes contra o Patrimônio. A pista de origem \"Lesão Corporal\" está errada.",
+ "id": "Q0065",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 382,
+  "cache_w": 13943,
+  "cache_r": 237485,
+  "custo_usd": 0.167904
+ }
+}

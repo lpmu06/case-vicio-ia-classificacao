@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": "5182",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige o conhecimento específico das hipóteses de extraterritorialidade da lei penal brasileira (princípios da nacionalidade ativa, representação, justiça universal e defesa) e a distinção entre extraterritorialidade condicionada e incondicionada, todos tópicos nucleares do subtema \"Lei penal no Espaço\" (5182), que trata exatamente de territorialidade e extraterritorialidade (arts. 5º a 9º do CP). Não envolve sucessão de leis no tempo (5181) nem conflito aparente de normas (5183), de modo que o subtema pode ser atribuído com alta confiança.",
+ "id": "Q0051",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5180",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão narra um fato ocorrido na Espanha (ofensas racistas em jogo de futebol) e pergunta sobre a aplicação da lei penal brasileira a infrações ocorridas fora do território nacional, exigindo conhecimento dos princípios da extraterritorialidade (nacionalidade ativa, representação, justiça universal, defesa) e suas espécies (condicionada/incondicionada). O instituto central testado é a aplicação da lei penal no espaço (extraterritorialidade), matéria de Direito Penal (parte geral), correspondente ao tema 5180 \"Lei Penal no Tempo e no Espaço\", especificamente ao subtema \"Lei penal no Espaço\". Não se trata de concurso de crimes (pista de origem equivocada) nem de matéria processual, pois o foco é a validade espacial da norma penal, e não questões de competência jurisdicional."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1075,
+  "cache_w": 30929,
+  "cache_r": 78694,
+  "custo_usd": 0.1558618
+ }
+}

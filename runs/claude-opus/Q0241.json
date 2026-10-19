@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5218",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todos os itens tratam da teoria do erro de tipo: erro essencial, erro sobre o objeto, aberratio ictus e aberratio criminis, que são modalidades de erro acidental (arts. 20, 73 e 74 do CP). Por isso a questão fica no subtema Erro de Tipo.",
+ "id": "Q0241",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 376,
+  "cache_w": 14103,
+  "cache_r": 237485,
+  "custo_usd": 0.169171
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "fora": true,
+ "tema_n1_id": null,
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "4687",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra os crimes da Lei Geral do Esporte (Lei 14.597/2023), a corrupção privada no esporte e os crimes contra a incerteza do resultado esportivo. A árvore não tem tema de crimes esportivos (antigo Estatuto do Torcedor) nem um tema residual de legislação especial que os cubra, por isso classifiquei como fora. A segunda opção, Crimes contra a Economia Popular (4687), é só uma aproximação fraca.",
+ "id": "Q0168",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 634,
+  "cache_w": 14300,
+  "cache_r": 237485,
+  "custo_usd": 0.176125
+ }
+}

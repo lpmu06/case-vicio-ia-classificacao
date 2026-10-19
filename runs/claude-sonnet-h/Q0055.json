@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5550",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5530",
+ "extras_ids": [
+  "5535"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão versa exclusivamente sobre a forma de inquirição de testemunhas prevista no art. 212 do CPP: ordem de perguntas (partes e depois o juiz), hipóteses de alteração dessa ordem (ausência momentânea de parte), necessidade de demonstração de prejuízo para reconhecimento de nulidade, e momento de intervenção judicial para coibir ilegalidades na condução do depoimento. Todo o conteúdo cobrado é regra procedimental específica da prova testemunhal (dispositivo listado expressamente em 5550), e não da teoria geral de comunicação de atos processuais (tema de origem, incorreto) nem da sequência geral do procedimento ordinário. Por isso, mantenho o tema de nível 1 \"Provas em Espécies\" (5543) e, diferentemente do estágio anterior, agora atribuo o subtema de nível 2 \"Prova Testemunhal\" (5550), pois a questão trata precisamente do modo de inquirição de testemunhas (art. 212 CPP), dispositivo expressamente listado nesse subtema. Como segunda opção, mantenho \"Procedimento Ordinário\" (5530), já que o ato ocorre na audiência de instrução regida pelo art. 400 CPP; incluo como extra \"Audiência de Instrução e Julgamento\" (5535), que também trata da ordem dos atos na AIJ, incluindo o art. 212 CPP.",
+ "id": "Q0055",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5530",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata especificamente da forma de inquirição de testemunhas prevista no art. 212 do CPP (ordem de perguntas das partes e do juiz, hipóteses de alteração da ordem, momento de intervenção judicial), o que é matéria de prova testemunhal, e não de comunicação de atos processuais (citação/intimação), tema sugerido na origem mas incorreto. O tema de nível 1 \"Provas em Espécies\" abrange o subtema \"Prova Testemunhal\", que é exatamente o que a questão testa. Como segunda opção, \"Procedimento Ordinário\" também seria defensável, já que o art. 212 disciplina ato praticado na audiência de instrução e julgamento."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1551,
+  "cache_w": 39059,
+  "cache_r": 78694,
+  "custo_usd": 0.1997238
+ }
+}

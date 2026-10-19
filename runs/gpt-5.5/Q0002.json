@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": "4378",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "4388",
+ "extras_ids": [
+  "4385"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa a seletividade do sistema penal e a ideia de que determinados grupos, especialmente pobres, têm maior probabilidade de serem criminalizados. O núcleo é o processo de criminalização secundária, mais do que uma teoria etiológica da criminalidade ou teoria legitimadora da pena.",
+ "id": "Q0002",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 2084,
+  "out": 316,
+  "cache_w": 0,
+  "cache_r": 128768,
+  "custo_usd": null
+ }
+}

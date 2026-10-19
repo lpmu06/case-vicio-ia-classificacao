@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5476",
+ "subtema_n2_id": "5477",
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "4709",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O contexto é a internação de adolescente pelo ECA, mas a questão testa se cabe habeas corpus contra decisão da vara da infância que restringe a liberdade de locomoção. Por isso o instituto central é o habeas corpus, e não a medida socioeducativa em si. Há risco de a questão ser rotulada como ECA puro (\"fora\") ou como Violência contra Criança e Adolescente.",
+ "id": "Q0014",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 556,
+  "cache_w": 13852,
+  "cache_r": 237485,
+  "custo_usd": 0.170575
+ }
+}

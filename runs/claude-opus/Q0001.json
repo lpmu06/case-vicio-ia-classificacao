@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5527",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5528",
+ "extras_ids": [
+  "5528"
+ ],
+ "multi_tema": false,
+ "justificativa": "Todas as assertivas tratam do Tribunal do Júri. Três delas (impronúncia, absolvição sumária e desclassificação) cobram as decisões que encerram a primeira fase, o que aponta para o subtema 5527. A assertiva I, sobre desaforamento, pertence ao subtema 5528.",
+ "id": "Q0001",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 520,
+  "cache_w": 252440,
+  "cache_r": 0,
+  "custo_usd": 2.031213
+ }
+}

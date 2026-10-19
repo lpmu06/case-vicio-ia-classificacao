@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão descreve literalmente a conduta do art. 197, caput, do CP (constranger alguém, mediante violência ou grave ameaça, a trabalhar ou não trabalhar durante certo período), que tipifica o crime de atentado contra a liberdade de trabalho (alternativa C é a correta). Trata-se de um dos crimes contra a organização do trabalho (arts. 197 a 207 CP), confirmando o tema de nível 1 [5134] e apontando precisamente o subtema [5135] \"Dos Crimes Contra a Organização do Trabalho\". As demais alternativas apenas servem de distratores com institutos vizinhos (constrangimento ilegal, frustração de direito trabalhista, atentado contra liberdade de contrato de trabalho), todos também do mesmo subtema, não havendo caráter multi-tema real, pois a pergunta tem eixo único e resposta certa definida.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5134",
+ "subtema_n2_id": "5135",
+ "tema_n1_id": "5134",
+ "id": "Q0030",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5134",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata do crime de atentado contra a liberdade de trabalho (art. 197 do CP), consistente em constranger alguém, mediante violência ou grave ameaça, a trabalhar ou não trabalhar durante certo período. Esse delito está inserido no Título IV da Parte Especial do CP, \"Dos Crimes Contra a Organização do Trabalho\", que corresponde ao tema de nível 1 \"Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso\" (id 5134), especificamente ao subtema \"Dos Crimes Contra a Organização do Trabalho\". A pista de origem (\"Lesão Corporal\") está equivocada, pois nenhuma alternativa trata de lesão corporal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1288,
+  "cache_w": 29704,
+  "cache_r": 78694,
+  "custo_usd": 0.15213379999999999
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5228",
+ "subtema_n2_id": "5231",
+ "confianca_ramo": 0.5,
+ "confianca_subtema": 0.4,
+ "segunda_opcao_id": "5226",
+ "extras_ids": [
+  "5226",
+  "5518",
+  "5150"
+ ],
+ "multi_tema": true,
+ "justificativa": "O enunciado mostra Lucas repelindo o ataque injusto e atual de Mauro, que avançava com uma peixeira contra Carlos. Isso aponta para legítima defesa de terceiro como eixo provável. Os itens a julgar não foram fornecidos e podem cobrar outros pontos: nexo causal (morte após cirurgia), flagrante (prisão doze horas depois) ou a qualificadora do motivo fútil. A pista de origem, Concurso de Crimes, não encontra apoio no texto.",
+ "id": "Q0208",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 665,
+  "cache_w": 14290,
+  "cache_r": 237485,
+  "custo_usd": 0.176615
+ }
+}

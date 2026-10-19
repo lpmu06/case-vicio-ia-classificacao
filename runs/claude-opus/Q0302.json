@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5222",
+ "extras_ids": [
+  "5214"
+ ],
+ "multi_tema": false,
+ "justificativa": "César não sabia que havia uma pessoa escondida e erra sobre a elementar \"alguém\". A questão quer que o candidato reconheça o erro de tipo essencial que exclui o dolo (art. 20 do CP) e o distinga do erro de proibição e das excludentes de culpabilidade e de ilicitude.",
+ "id": "Q0302",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 381,
+  "cache_w": 13966,
+  "cache_r": 237485,
+  "custo_usd": 0.168094
+ }
+}

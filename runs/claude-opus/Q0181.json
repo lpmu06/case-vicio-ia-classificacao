@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4695",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "4687",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede para identificar qual conduta é crime contra a ordem tributária. A única é a III, que reproduz o art. 1º, V, da Lei 8.137/1990. As afirmações I, II e IV são crimes contra a ordem econômica e de usurpação de bens da União, previstos na Lei 8.176/1991, e servem só para distinguir. O tema é Crimes Tributários, e o assunto de origem (\"Concurso de Crimes\") está errado.",
+ "id": "Q0181",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 569,
+  "cache_w": 14176,
+  "cache_r": 237485,
+  "custo_usd": 0.173661
+ }
+}

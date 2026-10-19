@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5128",
+ "subtema_n2_id": "5132",
+ "confianca_ramo": 0.45,
+ "confianca_subtema": 0.4,
+ "segunda_opcao_id": "5081",
+ "extras_ids": [
+  "5079"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão multi-tema sem eixo único: (A) e (B) versam sobre redução a condição análoga à de escravo (art. 149 CP), que se encaixa precisamente no subtema 5132 \"Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas\", dentro do tema 5128 \"Dos Crimes Contra a Liberdade Pessoal\"; (C) trata de falso testemunho/falsa perícia (art. 342 CP), que corresponde ao subtema 5081 do tema 5079 \"Dos Crimes Contra a Administração Judicial\"; (D) trata de falsificação de documento particular (art. 298 CP), tema de Crimes Contra a Fé Pública/Falsidade Documental, não representado entre as opções fornecidas. Mantenho 5128 como tema de nível 1 por abranger duas das quatro alternativas e por essas duas se encaixarem com precisão em um subtema específico (5132), mas a confiança é moderada/baixa dada a dispersão temática real da questão. 5079 (com subtema 5081) permanece como segunda opção forte, pois também cobre com precisão uma alternativa.",
+ "id": "Q0037",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5128",
+  "segunda_opcao_n1_id": "5079",
+  "confianca_ramo": 0.4,
+  "multi_tema": true,
+  "justificativa": "A questão é multi-tema: as alternativas (A) e (B) versam sobre redução a condição análoga à de escravo (art. 149, CP – Crimes Contra a Liberdade Pessoal), a (C) sobre falso testemunho/falsa perícia (Crimes Contra a Administração Judicial) e a (D) sobre falsificação de documento particular (Crimes Contra a Fé Pública e Falsidade Documental). Não há eixo temático único testado; escolhi \"Dos Crimes Contra a Liberdade Pessoal\" por abranger duas das quatro alternativas, com \"Dos Crimes Contra a Administração Judicial\" como segunda opção. Confiança baixa dada a dispersão temática entre os itens, todos dentro do ramo Penal (Código Penal)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2741,
+  "cache_w": 35326,
+  "cache_r": 78694,
+  "custo_usd": 0.1935818
+ }
+}

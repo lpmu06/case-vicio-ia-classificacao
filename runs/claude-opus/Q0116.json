@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4693",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam da Lei 11.343/2006: vedação de penas restritivas (Resolução 5/2012 do Senado), porte para consumo, informante, critério usuário×traficante e condução de embarcação/aeronave. O eixo comum é a Lei de Drogas; a pista 'Prescrição' está errada.",
+ "id": "Q0116",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 480,
+  "cache_w": 14155,
+  "cache_r": 237485,
+  "custo_usd": 0.171734
+ }
+}

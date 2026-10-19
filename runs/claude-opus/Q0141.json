@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede que se identifique uma teoria criminológica nominada: a Teoria Ecológica (Escola de Chicago), associada à desorganização social e ao contágio urbano. Por isso se encaixa em Teorias Criminológicas em Espécie. A alternativa seria Teorias de Nível Sociológico.",
+ "id": "Q0141",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 379,
+  "cache_w": 13873,
+  "cache_r": 237485,
+  "custo_usd": 0.167207
+ }
+}

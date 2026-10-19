@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4701",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5539",
+ "extras_ids": [
+  "5541"
+ ],
+ "multi_tema": false,
+ "justificativa": "As alternativas cobram institutos da Lei 9.099/1995: composição civil, cabimento e natureza da transação penal, perícia no rito e transação em ação privada. O eixo comum é o Juizado Especial Criminal. O tema 5539 (Procedimento Sumaríssimo) é uma alternativa forte em Processo Penal.",
+ "id": "Q0216",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 746,
+  "cache_w": 14123,
+  "cache_r": 237485,
+  "custo_usd": 0.176812
+ }
+}

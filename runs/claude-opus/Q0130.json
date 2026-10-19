@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5160",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.7,
+ "segunda_opcao_id": "5205",
+ "extras_ids": [
+  "5205",
+  "5177"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pede o enquadramento como roubo: o crime está consumado, porque houve inversão da posse (Súmula 582 STJ), e não incide majorante, porque a arma era um simulacro. Também cobra a vedação de substituir a pena por restritivas de direitos quando há grave ameaça (art. 44 CP). O eixo central é o roubo; a substituição da pena e a consumação entram como temas secundários.",
+ "id": "Q0130",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 567,
+  "cache_w": 14338,
+  "cache_r": 237485,
+  "custo_usd": 0.175102
+ }
+}

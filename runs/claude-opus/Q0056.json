@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5066",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5070",
+ "extras_ids": [
+  "5070",
+  "5068",
+  "5067"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão compara os sistemas de aplicação da pena na pluralidade delitiva (cúmulo material, exasperação) no concurso material, no concurso formal e no crime continuado. É uma questão panorâmica de Concurso de Crimes. A alternativa correta (E) trata da multa do art. 72, por isso 5070 fica como segunda opção.",
+ "id": "Q0056",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 513,
+  "cache_w": 14921,
+  "cache_r": 237485,
+  "custo_usd": 0.17842000000000002
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [
+  "4379"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pede a identificação de teorias criminológicas nominadas: a teoria ecológica da Escola de Chicago, a associação diferencial e os crimes de colarinho branco, ambas de Sutherland. A menção à cifra negra é secundária e aparece só na afirmativa III.",
+ "id": "Q0024",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 456,
+  "cache_w": 15093,
+  "cache_r": 237485,
+  "custo_usd": 0.178745
+ }
+}

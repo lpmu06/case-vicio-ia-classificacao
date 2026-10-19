@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.3,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão exige conhecimento geral da teoria das nulidades processuais penais: instrumentalidade das formas e exigência de prejuízo (alt. A), jurisprudência sobre o art. 212 do CPP e o princípio do contraditório (alt. B), distinção entre nulidade absoluta e relativa (alt. C), momento de análise da inépcia da acusação nas fases dos arts. 396/397 CPP (alt. D) e efeitos da coisa julgada sobre as nulidades (alt. E). Confirma-se o tema de nível 1 \"Nulidades\" (5509). Como as alternativas combinam o regime geral de nulidade absoluta/relativa (que se encaixaria em 5510) com temas de espécie (inépcia da denúncia, art. 212) sem eixo único, não há segurança para apontar um subtema específico, optando por deixá-lo em branco no nível 1.",
+ "multi_tema": true,
+ "segunda_opcao_id": "5510",
+ "subtema_n2_id": null,
+ "tema_n1_id": "5509",
+ "id": "Q0046",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5509",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente da teoria das nulidades processuais penais (instrumentalidade, prejuízo, nulidade absoluta vs. relativa, art. 212 CPP, inépcia da acusação, coisa julgada), tema central de \"Nulidades\" em Processo Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1072,
+  "cache_w": 29337,
+  "cache_r": 78694,
+  "custo_usd": 0.1483468
+ }
+}

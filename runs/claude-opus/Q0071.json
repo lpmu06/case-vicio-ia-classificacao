@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4688",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a causa de aumento do art. 53 da Lei 9.605/98, que se aplica aos crimes contra a flora. Por isso pertence a Crimes contra o meio ambiente, na Legislação Especial. O assunto de origem (Ilicitude) está errado.",
+ "id": "Q0071",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 365,
+  "cache_w": 14860,
+  "cache_r": 237485,
+  "custo_usd": 0.174893
+ }
+}

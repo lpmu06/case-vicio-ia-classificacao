@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5492",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5583",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra literalmente hipóteses de impedimento do juiz e impedimento por parentesco em juízos coletivos, previstas nos arts. 252 e 253 do CPP. Embora a pista indique competência, o núcleo testado é a imparcialidade/impedimento do julgador, enquadrado nas exceções de suspeição, impedimento ou incompatibilidade.",
+ "id": "Q0249",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1198,
+  "out": 368,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

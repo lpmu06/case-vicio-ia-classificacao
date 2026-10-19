@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5073",
+ "extras_ids": [
+  "4708"
+ ],
+ "multi_tema": false,
+ "justificativa": "Três das quatro alternativas cobram concurso de pessoas: autoria colateral, que é a resposta correta, os requisitos do concurso e as exceções à teoria monista. A alternativa D, sobre a associação para o tráfico, é um item isolado da Lei de Drogas. Como a questão mistura vários pontos do concurso de pessoas, ficou no tema geral 5071; a segunda opção é o subtema 5073 (autoria colateral).",
+ "id": "Q0321",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 588,
+  "cache_w": 13919,
+  "cache_r": 237485,
+  "custo_usd": 0.171805
+ }
+}

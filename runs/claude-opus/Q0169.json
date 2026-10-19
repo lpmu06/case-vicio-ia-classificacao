@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5492",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.65,
+ "segunda_opcao_id": "5583",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra as hipóteses de impedimento e suspeição do juiz previstas nos arts. 252 a 256 do CPP. Na árvore, o tema mais próximo é o das exceções de suspeição e impedimento. A alternativa correta é a A, conforme o art. 253 do CPP. Como alternativa, a questão também poderia ficar em Sujeitos do Processo (juiz).",
+ "id": "Q0169",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 406,
+  "cache_w": 14088,
+  "cache_r": 237485,
+  "custo_usd": 0.16967500000000002
+ }
+}

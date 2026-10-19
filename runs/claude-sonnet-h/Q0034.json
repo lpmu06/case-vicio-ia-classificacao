@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5476",
+ "subtema_n2_id": "5477",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5479",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta diretamente em qual hipótese cabe habeas corpus, testando as hipóteses de cabimento desse writ (art. 648 CPP e restrições jurisprudenciais) frente a situações que não configuram constrangimento à liberdade de locomoção (pena pecuniária, acesso a autos, inadmissão de assistente, prova ilícita, restituição de coisas). O eixo é exclusivamente o cabimento do HC, subtema Habeas Corpus (5477) dentro de Ações Autônomas de Impugnação (5476).",
+ "id": "Q0034",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5476",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente as hipóteses de cabimento do habeas corpus, instituto classificado no subtema \"Habeas Corpus\" dentro do tema de nível 1 \"Ações Autônomas de Impugnação\" (5476), em Processo Penal. Embora as alternativas mencionem institutos diversos (pena pecuniária, assistente de acusação, prova ilícita, restituição de coisas apreendidas), o eixo comum e o que efetivamente se pergunta é em qual dessas situações cabe o remédio constitucional do HC, não a disciplina de cada instituto em si."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1130,
+  "cache_w": 29285,
+  "cache_r": 78694,
+  "custo_usd": 0.14865079999999997
+ }
+}

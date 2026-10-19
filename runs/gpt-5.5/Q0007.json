@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5063",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5468",
+ "extras_ids": [
+  "5130",
+  "5124"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão não cobra os elementos típicos de ameaça, injúria ou perseguição, mas a natureza da ação penal de cada delito. Como envolve a classificação material da ação penal em crimes específicos, enquadra-se melhor em Penal > Ação Penal, sem subtema único porque combina ação pública condicionada e ação privada.",
+ "id": "Q0007",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 2285,
+  "out": 661,
+  "cache_w": 0,
+  "cache_r": 128768,
+  "custo_usd": null
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5562",
+ "confianca_ramo": 0.94,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5515",
+ "extras_ids": [
+  "5529"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o cabimento/efeito suspensivo da apelação contra sentença condenatória do Tribunal do Júri, especialmente a regra recursal aplicável à apelação. Embora envolva efeitos dos recursos e sentença do júri, o núcleo testado é o recurso de apelação em espécie.",
+ "id": "Q0040",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1157,
+  "out": 488,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

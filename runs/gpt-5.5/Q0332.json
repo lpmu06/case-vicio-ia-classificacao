@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5541",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.99,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra diretamente a transação penal da Lei 9.099/1995: aplicação imediata de pena restritiva ou multa, ausência de reincidência e impedimento de novo benefício por cinco anos. O enquadramento mais preciso é Processo Penal > Procedimento Sumaríssimo > Transação Penal.",
+ "id": "Q0332",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1330,
+  "out": 471,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

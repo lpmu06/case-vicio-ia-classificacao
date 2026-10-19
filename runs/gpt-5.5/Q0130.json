@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5160",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": "5205",
+ "extras_ids": [
+  "5177",
+  "5204",
+  "5205"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o enquadramento do fato como roubo: subtração mediante grave ameaça, consumação com inversão da posse e discussão sobre simulacro de arma não gerar majorante de arma de fogo. A menção à substituição por penas restritivas de direitos é consequência penal acessória, mas o núcleo testado permanece no crime de roubo.",
+ "id": "Q0130",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1353,
+  "out": 520,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

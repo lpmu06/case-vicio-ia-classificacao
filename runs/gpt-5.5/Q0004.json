@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5484",
+ "extras_ids": [
+  "5484",
+  "5482",
+  "5483"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão trata de competência criminal, sobretudo foro por prerrogativa de função de prefeito e sua interação com competência federal, além de uma assertiva sobre competência territorial pelo domicílio do réu. Como envolve subtemas distintos dentro de Competência, é mais seguro classificá-la no tema de nível 1.",
+ "id": "Q0004",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 2274,
+  "out": 653,
+  "cache_w": 0,
+  "cache_r": 128768,
+  "custo_usd": null
+ }
+}

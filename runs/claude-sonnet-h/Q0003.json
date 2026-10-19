@@ -1,0 +1,32 @@
+{
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5534",
+ "extras_ids": [
+  "5530"
+ ],
+ "multi_tema": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5562",
+ "fora": false,
+ "justificativa": "Reexaminando a questão, o núcleo do que é efetivamente perguntado não é \"o que é absolvição sumária\" nem a ordem dos atos do procedimento ordinário, mas sim: (i) qual é o recurso cabível contra a decisão de absolvição sumária fundada em \"fato não constitui crime\" e (ii) qual o efeito dessa decisão transitada em julgado sobre o juízo cível. O item central testado - a escolha entre RESE, apelação e correição parcial como meio de impugnação - é exatamente o objeto do tema \"Recursos em Espécies\", e dentro dele, do subtema \"Apelação\" (5562), já que a resposta correta (apelação, por força do art. 593, caput, CPP, por se tratar de decisão com força de definitiva que encerra o processo com análise de mérito) é o ponto central a ser conhecido, somado ao efeito do art. 66/67 do CPP quanto à não vinculação do juízo cível quando fundada em inexistência de fato/crime. Embora a absolvição sumária (5534, subtema de Procedimento Ordinário) seja o contexto fático da questão, o que efetivamente se exige do candidato é dominar o regime recursal, não as hipóteses ou o procedimento da absolvição sumária em si. Por isso, troco o tema de nível 1 para 5560 (Recursos em Espécies), com subtema 5562 (Apelação), mantendo como segunda opção forte o subtema de Absolvição Sumária (5534) dentro de 5530, dado que a linha entre \"testar o recurso cabível contra X\" e \"testar o instituto X\" é tênue nesse caso.",
+ "id": "Q0003",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5530",
+  "segunda_opcao_n1_id": "5560",
+  "confianca_ramo": 0.6,
+  "multi_tema": false,
+  "justificativa": "A questão testa o regime da absolvição sumária proferida após a resposta preliminar (art. 397 c/c 581/593 do CPP), exigindo conhecer o recurso cabível (apelação, e não RESE ou correição parcial) e o efeito da decisão fundada em \"fato não constitui crime\" sobre a esfera cível (art. 67, III, CPP - não vincula o juízo cível). O instituto central é a absolvição sumária dentro do procedimento ordinário, subtema específico de 5530 (Procedimento Ordinário). Como segunda opção, o tema de Recursos em Espécies (5560) também seria defensável, já que a questão também exige conhecer o cabimento da apelação contra tal decisão."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2884,
+  "cache_w": 37730,
+  "cache_r": 78694,
+  "custo_usd": 0.20675179999999999
+ }
+}

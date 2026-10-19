@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5517",
+ "extras_ids": [
+  "5523",
+  "5519"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta como a lei processual nova e mais gravosa se aplica no tempo à fiança e à prisão preventiva: aplicação imediata pelo art. 2º do CPP (tempus regit actum) ou retroatividade benéfica no caso de normas híbridas. É o subtema Lei Processual no Tempo. Fiança e preventiva são só o contexto do caso.",
+ "id": "Q0118",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 462,
+  "cache_w": 14112,
+  "cache_r": 237485,
+  "custo_usd": 0.170951
+ }
+}

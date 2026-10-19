@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": "5197",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5077",
+ "extras_ids": [
+  "5150",
+  "5077"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa a aplicação do perdão judicial em crimes culposos quando as consequências do fato atingem gravemente o próprio agente, instituto de extinção da punibilidade previsto, por exemplo, no homicídio culposo e na lesão corporal culposa. O contexto envolve lesão corporal e morte, mas o eixo jurídico comum das alternativas é o perdão judicial.",
+ "id": "Q0095",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1187,
+  "out": 595,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

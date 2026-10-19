@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5072",
+ "extras_ids": [
+  "5074",
+  "5076"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra regras gerais de concurso de pessoas, com alternativas sobre participação, agravantes do art. 62 do CP, participação de menor importância e comunicabilidade de circunstâncias. Como abrange vários recortes internos do tema, é mais seguro classificá-la no tema-pai, sem subtema específico.",
+ "id": "Q0340",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1195,
+  "out": 476,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5522",
+ "extras_ids": [
+  "5522"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra diretamente o regime das medidas protetivas de urgência da Lei Maria da Penha: concessão imediata, cognição sumária, comunicação ao MP e afastamento do agressor por autoridade policial em hipóteses legais. A menção às cautelares diversas do CPP é apenas comparativa, não deslocando o núcleo temático.",
+ "id": "Q0063",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1289,
+  "out": 294,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5557",
+ "confianca_ramo": 0.82,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "4705",
+ "extras_ids": [
+  "4705"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra diretamente o regime jurídico da colaboração premiada como meio de obtenção de prova: acordo, benefícios, perdão judicial, suspensão do prazo para denúncia/processo e uso das informações. Embora os dispositivos sejam da Lei de Organizações Criminosas, o núcleo testado é o instituto processual da colaboração premiada.",
+ "id": "Q0193",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1317,
+  "out": 731,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

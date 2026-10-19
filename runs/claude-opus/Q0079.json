@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5580",
+ "subtema_n2_id": "5581",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5582",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas cobram características dos sistemas acusatório e inquisitivo e a escolha do modelo processual por critérios de política criminal; o foco é o desenho estrutural do sistema, o que corresponde ao subtema Sistemas Processuais Penais.",
+ "id": "Q0079",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 362,
+  "cache_w": 14097,
+  "cache_r": 237485,
+  "custo_usd": 0.168834
+ }
+}

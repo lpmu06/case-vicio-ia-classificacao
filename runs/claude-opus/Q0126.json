@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.45,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5182",
+ "extras_ids": [
+  "5226",
+  "5076",
+  "5213",
+  "5218"
+ ],
+ "multi_tema": true,
+ "justificativa": "Cada alternativa trata de um instituto diferente da Parte Geral: nexo causal, comunicabilidade de circunstâncias, art. 12 do CP, embriaguez fortuita e extraterritorialidade. A correta é a E, extraterritorialidade incondicionada nos crimes contra a fé pública (art. 7º, I, b, CP), e por isso o ramo escolhido é Lei Penal no Tempo e no Espaço. Não há tema comum e a classificação de origem, 'Ação Penal', não corresponde a nenhuma alternativa.",
+ "id": "Q0126",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 795,
+  "cache_w": 14100,
+  "cache_r": 237485,
+  "custo_usd": 0.177522
+ }
+}

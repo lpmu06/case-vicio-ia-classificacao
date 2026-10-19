@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5205",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5203",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O item cobra os requisitos para substituir a pena privativa de liberdade por restritiva de direitos quando o réu é reincidente (art. 44, §3º, CP). Pela lei, a substituição é admitida se for socialmente recomendável e a reincidência não decorrer do mesmo crime, por isso o gabarito é Errado.",
+ "id": "Q0160",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 384,
+  "cache_w": 13829,
+  "cache_r": 237485,
+  "custo_usd": 0.166964
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5164",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5158",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa exclusivamente o crime de dano (art. 163 CP), em suas modalidades simples e qualificada (inclusive a qualificadora de dano contra o patrimônio público, art. 163, parágrafo único, III), e a respectiva ação penal cabível em cada hipótese (privada mediante queixa no dano simples vs. pública incondicionada no dano qualificado). Não há questão de imunidade/parentesco (o que afastaria para 5158), nem qualquer outro instituto patrimonial em jogo. Trata-se, portanto, do subtema específico \"Dano\" (5164), dentro do tema de nível 1 \"Dos Crimes Contra o Patrimônio\" (5157).",
+ "id": "Q0047",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata do crime de dano (art. 163 do CP) em suas modalidades simples e qualificada, inclusive a qualificadora de dano contra o patrimônio público, e da respectiva ação penal cabível em cada caso. É crime contra o patrimônio, pertencente ao tema de nível 1 \"Dos Crimes Contra o Patrimônio\" (subtema Dano)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1493,
+  "cache_w": 35162,
+  "cache_r": 78694,
+  "custo_usd": 0.1805028
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": "5519",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5584",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam especificamente sobre a prisão preventiva: cabimento por garantia da ordem pública/econômica (art. 312, CPP), hipótese do art. 366 do CPP, revogação por excesso de prazo da instrução, vedação quando há apresentação espontânea e possibilidade de recair sobre réu primário. O núcleo da questão não é genérico sobre prisões, mas específico da modalidade preventiva e de seus requisitos/hipóteses legais, o que direciona ao subtema 5519 (Prisão Preventiva), dentro do tema 5517. A segunda opção, 5584, permanece como alternativa por tratar de fundamentos gerais das prisões, mas o foco concreto em requisitos e hipóteses da preventiva confirma 5517/5519.",
+ "id": "Q0033",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5517",
+  "segunda_opcao_n1_id": "5584",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata especificamente dos requisitos e hipóteses de cabimento da prisão preventiva (garantia da ordem pública, art. 366 CPP, excesso de prazo, apresentação espontânea, réu primário), o que se enquadra no tema \"Prisões em Espécie\" (subtema Prisão Preventiva), tema de nível 1 em Processo Penal (5517). A segunda opção seria \"Teoria Geral das Prisões\" (5584), por também tratar de fundamentos gerais da prisão cautelar, mas o foco é especificamente na modalidade preventiva."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1107,
+  "cache_w": 35029,
+  "cache_r": 78694,
+  "custo_usd": 0.1759488
+ }
+}

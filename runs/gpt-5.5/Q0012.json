@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5569",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5539",
+ "extras_ids": [
+  "5539"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o recurso cabível e o prazo contra rejeição da denúncia no rito da Lei 9.099/1995, matéria específica de recursos no âmbito dos Juizados Especiais Criminais. Embora mencione o procedimento sumaríssimo, o núcleo testado é recursal: apelação no prazo próprio de 10 dias.",
+ "id": "Q0012",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1081,
+  "out": 494,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

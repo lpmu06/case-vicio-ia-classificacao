@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5541",
+ "confianca_ramo": 0.65,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [
+  "5542"
+ ],
+ "multi_tema": false,
+ "justificativa": "O item testa os efeitos da homologação da transação penal. Pela SV 35 do STF, essa homologação não faz coisa julgada material: se o acordo for descumprido, a persecução penal pode continuar. O tema é Procedimento Sumaríssimo, no subtema Transação Penal. A segunda opção é Juizado Especial Criminal, na Legislação Especial.",
+ "id": "Q0053",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 590,
+  "cache_w": 13921,
+  "cache_r": 237485,
+  "custo_usd": 0.171895
+ }
+}

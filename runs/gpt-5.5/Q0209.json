@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5499",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.86,
+ "segunda_opcao_id": "5582",
+ "extras_ids": [
+  "5582"
+ ],
+ "multi_tema": false,
+ "justificativa": "O item cobra regra própria do inquérito policial, ligada ao sigilo/limitações de registro em atestados de antecedentes: a autoridade policial não deve mencionar anotações referentes à instauração de inquérito. A presunção de inocência é fundamento contextual, mas o instituto diretamente testado é a disciplina do inquérito policial.",
+ "id": "Q0209",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1062,
+  "out": 493,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

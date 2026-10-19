@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": "5198",
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5064",
+ "extras_ids": [
+  "5471"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa o prazo decadencial de seis meses para exercer o direito de representação e o seu termo inicial, que é o dia em que o ofendido sabe quem é o autor do crime (art. 103 do CP e art. 38 do CPP). Por isso o assunto central é a decadência como causa de extinção da punibilidade, e não concurso de crimes, como indicava a origem.",
+ "id": "Q0317",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 496,
+  "cache_w": 13796,
+  "cache_r": 237485,
+  "custo_usd": 0.168896
+ }
+}

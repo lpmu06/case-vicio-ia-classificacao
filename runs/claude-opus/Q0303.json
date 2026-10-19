@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": "5182",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5181",
+ "extras_ids": [
+  "5181"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a aplicação da lei penal (arts. 4º a 11 do CP). A maioria das alternativas trata da lei penal no espaço: territorialidade, extraterritorialidade incondicionada do art. 7º, I, b (a correta, D) e homologação de sentença estrangeira. A alternativa B trata do tempo do crime. O assunto de origem \"Ação Penal\" está errado.",
+ "id": "Q0303",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 644,
+  "cache_w": 14158,
+  "cache_r": 237485,
+  "custo_usd": 0.174999
+ }
+}

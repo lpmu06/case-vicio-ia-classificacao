@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5590",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.45,
+ "confianca_subtema": 0.4,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [
+  "4700",
+  "5555",
+  "5499"
+ ],
+ "multi_tema": true,
+ "justificativa": "As assertivas cobram os limites constitucionais à obtenção de prova: interceptação telefônica (Lei 9.296/96), quebra de sigilo bancário e fiscal, sigilo do inquérito diante do advogado (SV 14) e violação de correspondência. Como não há um único meio de prova como eixo, o ramo que melhor abrange o conjunto é Teoria Geral das Provas.",
+ "id": "Q0281",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 616,
+  "cache_w": 14070,
+  "cache_r": 237485,
+  "custo_usd": 0.173707
+ }
+}

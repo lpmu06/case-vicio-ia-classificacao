@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5178",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5160",
+ "extras_ids": [
+  "5160"
+ ],
+ "multi_tema": false,
+ "justificativa": "A assertiva cobra diretamente o arrependimento posterior do art. 16 do CP e seu requisito negativo: só há redução se o crime for cometido sem violência ou grave ameaça à pessoa. O roubo é apenas o contexto fático que impede a incidência do benefício.",
+ "id": "Q0349",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1140,
+  "out": 280,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

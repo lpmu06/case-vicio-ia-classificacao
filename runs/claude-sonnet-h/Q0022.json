@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5089",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5088",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede qual crime funcional admite modalidade culposa, e a resposta correta é o peculato culposo (art. 312, §2º, CP), já que concussão, prevaricação e corrupção passiva exigem dolo, e falso testemunho não integra os crimes contra a Administração Pública stricto sensu. Embora cada alternativa trate de um crime distinto, a pergunta tem eixo único (busca a exceção culposa entre os delitos funcionais), e a resposta correta recai especificamente sobre o peculato, cujo subtema próprio é 5089. Mantém-se o tema de nível 1 'Dos Crimes Contra a Administração Pública' (5087), e agora se define o subtema 5089 (Peculato) com alta confiança, pois é exatamente o instituto cuja característica (admitir culpa) é testada.",
+ "id": "Q0022",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige saber qual crime funcional admite modalidade culposa - resposta é o peculato culposo (art. 312, §2º, CP), já que todos os demais (concussão, prevaricação, corrupção passiva) são dolosos e falso testemunho não é crime contra a Administração Pública stricto sensu mas sim contra a Administração da Justiça, também só doloso. O eixo comum das alternativas é os crimes contra a Administração Pública (Título XI, CP), tema de nível 1 'Dos Crimes Contra a Administração Pública', cujo subtema específico é Peculato."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1077,
+  "cache_w": 33405,
+  "cache_r": 78694,
+  "custo_usd": 0.1678118
+ }
+}

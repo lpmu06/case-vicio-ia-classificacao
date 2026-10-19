@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5475",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5491",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam da ação civil ex delicto e da relação entre as instâncias penal e cível (arts. 63 a 68 do CPP): legitimidade do MP pelo art. 68, suspensão do processo cível, efeito do arquivamento e coisa julgada da absolvição no cível.",
+ "id": "Q0019",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 375,
+  "cache_w": 14195,
+  "cache_r": 237485,
+  "custo_usd": 0.169986
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4384",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5200",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra teorias absolutas e relativas da pena e a posição de Kant, Hegel, Roxin e Binding, ou seja, as teorias que justificam a pena (por que e para que punir). Isso corresponde a Teorias Legitimadoras da Pena; a alternativa seria Penal > Teoria da Pena > Sanção Penal: Conceito, Finalidade e Modalidades.",
+ "id": "Q0124",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 407,
+  "cache_w": 12304,
+  "cache_r": 237485,
+  "custo_usd": 0.15546700000000002
+ }
+}

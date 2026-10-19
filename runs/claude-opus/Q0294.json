@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5211",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5212",
+ "extras_ids": [
+  "5213",
+  "5217",
+  "5214"
+ ],
+ "multi_tema": true,
+ "justificativa": "Todas as alternativas tratam de culpabilidade, mas cada uma cobra um ponto diferente: inimputabilidade por drogas, causa supralegal (inexigibilidade de conduta diversa), teoria normativa pura, teoria limitada (erro) e teorias preventivas. Por isso a questão fica no tema geral de culpabilidade. A alternativa correta (C) trata do conceito, o que aponta o 5212 como segunda opção.",
+ "id": "Q0294",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 539,
+  "cache_w": 14283,
+  "cache_r": 237485,
+  "custo_usd": 0.17400100000000002
+ }
+}

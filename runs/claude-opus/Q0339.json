@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5572",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.45,
+ "confianca_subtema": 0.4,
+ "segunda_opcao_id": "5524",
+ "extras_ids": [
+  "5524",
+  "5565",
+  "5578"
+ ],
+ "multi_tema": true,
+ "justificativa": "As alternativas tratam de temas diferentes: embargos de declaração (art. 382), agravantes não alegadas (art. 385), nulidade por violação da correlação e alteração da pronúncia por circunstância superveniente (art. 421, §1º, alternativa correta, do júri). Como a maioria gira em torno da sentença penal, classifiquei no ramo Sentença Penal e marquei como multi-tema.",
+ "id": "Q0339",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 580,
+  "cache_w": 13994,
+  "cache_r": 237485,
+  "custo_usd": 0.17230800000000002
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "4702",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5087",
+ "extras_ids": [
+  "5092",
+  "5089"
+ ],
+ "multi_tema": false,
+ "justificativa": "A assertiva pergunta diretamente se Álvaro e Flávio respondem por lavagem de capitais e se é da justiça federal a competência para julgar essa ação penal. O núcleo da pergunta é a configuração do crime de lavagem (ocultação da origem ilícita dos valores recebidos em razão da função, transferidos ao irmão para disfarce patrimonial) e a definição de competência para o processo de lavagem — exatamente o que o tema 4702 (Lavagem de Dinheiro) cobre, inclusive quanto à autonomia do crime de lavagem em relação ao antecedente (corrupção/peculato) e à competência federal por envolver bens/serviços da União. O tema 5087 (Crimes Contra a Administração Pública) é pertinente como segunda opção por conter o crime antecedente (corrupção passiva/peculato de Álvaro), mas não é o que a assertiva está efetivamente testando. Como o tema 4702 não possui subtemas na árvore, subtema_n2_id permanece null.",
+ "id": "Q0011",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4702",
+  "segunda_opcao_n1_id": "5087",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento específico da Lei de Lavagem de Capitais (Lei 9.613/1998): se a ocultação de valores de origem ilícita (corrupção/peculato de servidor federal) configura lavagem para o terceiro (irmão) e qual a competência para processar o crime de lavagem (justiça federal, por envolver bens/serviços da União). O eixo central da pergunta é a configuração do crime de lavagem e sua competência, não os crimes funcionais em si, por isso o tema de nível 1 mais adequado é \"Lavagem de Dinheiro\" (Legislação Especial), com \"Dos Crimes Contra a Administração Pública\" como segunda opção por envolver o crime antecedente de corrupção/peculato."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1350,
+  "cache_w": 34891,
+  "cache_r": 78694,
+  "custo_usd": 0.1776218
+ }
+}

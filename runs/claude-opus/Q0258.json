@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5545",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5546",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam do regime do exame de corpo de delito (arts. 158 e seguintes do CPP). A resposta correta é a prioridade nos casos de violência doméstica contra a mulher (art. 158, parágrafo único, I). O assunto de origem, \"Procedimento do Júri\", não procede.",
+ "id": "Q0258",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 379,
+  "cache_w": 13913,
+  "cache_r": 237485,
+  "custo_usd": 0.167547
+ }
+}

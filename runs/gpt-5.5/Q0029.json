@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4684",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5587",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra diretamente a tipificação de condutas como crimes de abuso de autoridade nos termos da Lei nº 13.869/2019. O contexto envolve direitos do preso e interrogatório, mas o instituto efetivamente testado é a legislação especial de abuso de autoridade.",
+ "id": "Q0029",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1162,
+  "out": 304,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

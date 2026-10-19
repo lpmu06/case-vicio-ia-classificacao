@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.66,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [
+  "5500",
+  "5499",
+  "5502",
+  "5556",
+  "5557",
+  "5541"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão reúne proposições sobre investigação preliminar, notícia anônima, características/dispensabilidade do inquérito, ANPP, transação penal, captação ambiental e colaboração premiada. O eixo mais abrangente é Inquérito Policial/investigação preliminar, mas há incidência relevante de meios de obtenção de prova, por isso não há subtema único seguro.",
+ "id": "Q0147",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1238,
+  "out": 1142,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

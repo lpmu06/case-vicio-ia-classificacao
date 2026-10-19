@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "4684",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.5,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5133",
+ "extras_ids": [
+  "5128",
+  "4703",
+  "5183"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta se o diretor do presídio cometeu crime ao abrir a carta do preso. Ela opõe a Lei de Abuso de Autoridade (Lei 4.898/1965) à violação de correspondência do art. 151 do CP. A resposta esperada é que não há crime, porque o sigilo da correspondência do preso é relativo (LEP, art. 41, parágrafo único; STF, HC 70.814). O eixo central é a conduta abusiva de autoridade pública. A violação de correspondência (5133) é a segunda opção.",
+ "id": "Q0163",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 774,
+  "cache_w": 14101,
+  "cache_r": 237485,
+  "custo_usd": 0.177144
+ }
+}

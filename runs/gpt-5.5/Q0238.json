@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": "5523",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.94,
+ "segunda_opcao_id": "5584",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra regra do CPP sobre reforço da fiança, instituto ligado à liberdade provisória com fiança. Portanto, o enquadramento mais preciso é Prisões em Espécie > Liberdade Provisória, e não Ação Penal.",
+ "id": "Q0238",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1022,
+  "out": 304,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

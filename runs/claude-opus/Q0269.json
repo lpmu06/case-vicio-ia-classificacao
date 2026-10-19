@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4374",
+ "subtema_n2_id": "4375",
+ "confianca_ramo": 0.5,
+ "confianca_subtema": 0.45,
+ "segunda_opcao_id": "5172",
+ "extras_ids": [
+  "5170"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra as premissas do garantismo penal de Ferrajoli, uma corrente político-criminal que os metadados de 4375 citam expressamente (garantismo, Ferrajoli). Também poderia ser classificada como princípios ou introdução ao Direito Penal, porque a disciplina de origem é Direito Penal.",
+ "id": "Q0269",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 617,
+  "cache_w": 14117,
+  "cache_r": 237485,
+  "custo_usd": 0.174114
+ }
+}

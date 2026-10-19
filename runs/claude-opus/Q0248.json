@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5088",
+ "extras_ids": [
+  "5100",
+  "5092",
+  "5093",
+  "5091"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão pede para correlacionar vários tipos penais contra a Administração Pública (desobediência, resistência, corrupção passiva e ativa, concussão) com seus núcleos. Por isso fica no tema de nível 1, sem um subtema específico.",
+ "id": "Q0248",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 370,
+  "cache_w": 14240,
+  "cache_r": 237485,
+  "custo_usd": 0.17030700000000001
+ }
+}

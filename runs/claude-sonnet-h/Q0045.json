@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5091",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta especificamente sobre a forma qualificada do excesso de exação (art. 316, §1º, CP), cobrando o elemento \"meio vexatório ou gravoso, que a lei não autoriza\" (alternativa B, correta). O instituto central testado é o excesso de exação, subtema \"Concussão e Excesso de Exação\" dentro do tema de nível 1 \"Dos Crimes Contra a Administração Pública\". Confirma-se o tema de nível 1 (5087) e define-se o subtema de nível 2 (5091) com alta confiança, pois o enunciado e as alternativas giram exclusivamente em torno das figuras qualificadas do art. 316 CP (excesso de exação e desvio), sem ambiguidade quanto ao tipo penal envolvido.",
+ "id": "Q0045",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "Questão trata do crime de excesso de exação (art. 316, §1º, CP), figura do capítulo dos crimes contra a Administração Pública praticados por funcionário público, correspondendo ao subtema \"Concussão e Excesso de Exação\" dentro do tema de nível 1 \"Dos Crimes Contra a Administração Pública\"."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1155,
+  "cache_w": 33594,
+  "cache_r": 78694,
+  "custo_usd": 0.1694538
+ }
+}

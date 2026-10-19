@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4373",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "4380",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a identificação dos autores da Escola Positiva/Criminologia Positivista, tema típico de escolas criminológicas e evolução histórica da Criminologia. A menção ao conceito geral de Criminologia é apenas contextual; o núcleo é Lombroso, Ferri e Garofalo como expoentes da Escola Positiva.",
+ "id": "Q0076",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1131,
+  "out": 257,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

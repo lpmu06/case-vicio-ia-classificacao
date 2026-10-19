@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5170",
+ "subtema_n2_id": "5174",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": "5219",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão não cobra os tipos penais em si, mas a classificação doutrinária dos delitos como crime de mera atividade, de lesão, plurissubjetivo e pluriofensivo. Portanto, o enquadramento mais preciso é Introdução ao Estudo do Direito Penal > Classificações dos Crimes.",
+ "id": "Q0054",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1134,
+  "out": 263,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

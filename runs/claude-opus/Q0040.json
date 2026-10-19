@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5562",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.68,
+ "segunda_opcao_id": "5529",
+ "extras_ids": [
+  "5524",
+  "5515"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra os requisitos do art. 492, §5º, do CPP para dar efeito suspensivo à apelação contra condenação no júri: recurso sem propósito meramente protelatório e questão substancial que possa levar a absolvição, anulação, novo júri ou pena abaixo de 15 anos. Por isso, o tema central é o recurso de apelação. A alternativa correta é a E.",
+ "id": "Q0040",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 501,
+  "cache_w": 14011,
+  "cache_r": 237485,
+  "custo_usd": 0.17091800000000001
+ }
+}

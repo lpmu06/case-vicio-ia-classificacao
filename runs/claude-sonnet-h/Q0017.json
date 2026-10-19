@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5530",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.05,
+ "segunda_opcao_id": "5533",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa sobre o rito especial dos arts. 513 a 518 do CPP (crimes de responsabilidade dos funcionários públicos), que prevê notificação do acusado para resposta escrita ANTES do recebimento da denúncia — regra própria e distinta da resposta à acusação do procedimento comum ordinário (art. 396-A, que pressupõe denúncia já recebida). A própria descrição do subtema 5533 (\"Defesa Preliminar\") alerta expressamente para não confundir esse instituto com a \"Defesa Preliminar de procedimentos especiais, como... crimes funcionais, quando houver regra própria anterior ao recebimento da denúncia\" — exatamente o caso desta questão. Por isso, não atribuo o subtema 5533, mantendo subtema_n2_id = null. Quanto ao tema de nível 1, não há, entre as opções apresentadas, um tema específico para \"Procedimentos Especiais\" ou para o rito dos crimes funcionais; mantenho 5530 (Procedimento Ordinário) apenas por proximidade temática dentro de Processo Penal (procedimentos/ritos), mas com confiança reduzida, pois o instituto central da questão (notificação prévia e resposta preliminar ao recebimento, nos crimes afiançáveis/inafiançáveis, arts. 514 e 517 CPP) não é tecnicamente parte do rito ordinário, sendo um procedimento especial autônomo. Idealmente haveria um tema próprio de \"Procedimentos Especiais\" ou \"Crimes de Responsabilidade de Funcionários Públicos\" na árvore, não disponível entre as opções fornecidas nesta etapa.",
+ "id": "Q0017",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5530",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata do procedimento especial dos crimes de responsabilidade dos funcionários públicos (arts. 513-518 do CPP), especificamente sobre a notificação do acusado para resposta preliminar antes do recebimento da denúncia. Esse instituto corresponde ao subtema \"Defesa Preliminar\", integrante do tema de nível 1 \"Procedimento Ordinário\" (id 5530), já que esse rito especial é tratado como uma variante procedimental dentro do procedimento comum, com a peculiaridade da defesa preliminar antes do recebimento da peça acusatória."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2994,
+  "cache_w": 32699,
+  "cache_r": 78694,
+  "custo_usd": 0.1828498
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5201",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5576",
+ "extras_ids": [
+  "5202",
+  "5203"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão inteira gira em torno de um só ponto: como se fixa o regime inicial de cumprimento da pena privativa de liberdade (art. 33 do CP, Súmulas 269 e 440 do STJ, regime para hediondos, reclusão e detenção). Por isso classifiquei em Teoria da Pena > Penas Privativas de Liberdade.",
+ "id": "Q0250",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 401,
+  "cache_w": 14031,
+  "cache_r": 237485,
+  "custo_usd": 0.16905
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4706",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "4693",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra diretamente dispositivos e conceitos da Lei nº 13.260/2016, especialmente definição de terrorismo, atos terroristas, organização terrorista e competência/investigação. Portanto, o enquadramento central é Legislação Especial > Terrorismo.",
+ "id": "Q0035",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1205,
+  "out": 329,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

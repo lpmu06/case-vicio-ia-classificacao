@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5066",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5067",
+ "extras_ids": [
+  "5067",
+  "5068",
+  "5070"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão faz um apanhado geral do concurso de crimes. Os itens cobram o concurso material, o concurso formal impróprio (soma das penas) e a regra da multa do art. 72 do CP. Como passa por vários subtemas, fica no tema de nível 1, Concurso de Crimes.",
+ "id": "Q0356",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 382,
+  "cache_w": 14093,
+  "cache_r": 237485,
+  "custo_usd": 0.169208
+ }
+}

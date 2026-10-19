@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra especificamente o conteúdo e os conceitos próprios da teoria da anomia (Durkheim/Merton), exigindo conhecimento detalhado dessa teoria nominada (a relação entre metas culturais, meios institucionais e a resposta adaptativa do indivíduo). Por cobrar uma teoria específica com seus conceitos próprios, enquadra-se em 4388 (Teorias Criminológicas em Espécie), subtema do tema de nível 1 'Teorias Sociológicas Explicativas da Criminalidade' (4385), que é mantido. A segunda opção seria o subtema mais genérico 4387 (Teorias de Nível Sociológico), caso se entenda que a questão testa apenas a classificação da anomia como teoria sociológica, sem aprofundar seus conceitos específicos.",
+ "id": "Q0031",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4385",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata da teoria da anomia (Durkheim/Merton), uma teoria sociológica explicativa da criminalidade que relaciona o crime à discrepância entre metas culturais e meios institucionais disponíveis, o que se insere diretamente no tema 'Teorias Sociológicas Explicativas da Criminalidade'."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1290,
+  "cache_w": 29294,
+  "cache_r": 78694,
+  "custo_usd": 0.15012979999999998
+ }
+}

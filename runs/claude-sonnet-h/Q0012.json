@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5569",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5539",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta especificamente qual recurso cabe e qual o prazo contra a decisão que rejeita a denúncia no rito sumaríssimo (art. 77 da Lei 9.099/95), ou seja, apelação no prazo de 10 dias (art. 82 da Lei 9.099/95), diferente do CPP comum (RESE/5 dias). O eixo central é o recurso cabível no microssistema dos Juizados, o que se encaixa precisamente no subtema \"Recursos no Âmbito dos Juizados Especiais\" (5569), dentro do tema de nível 1 \"Recursos em Espécies\" (5560). Mantém-se a confirmação do tema de nível 1 anterior, mas agora com subtema definido, pois a pergunta não é sobre o procedimento em si (transação, competência, etc.), e sim sobre qual recurso e prazo cabem, o que é o foco exato de 5569 e não de 5539 (procedimento sumaríssimo em si).",
+ "id": "Q0012",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5539",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão pergunta qual recurso cabe da decisão que rejeita a denúncia no procedimento sumaríssimo (art. 77 da Lei 9.099/95), testando especificamente o conhecimento sobre o recurso de apelação no rito dos Juizados Especiais Criminais (art. 82 da Lei 9.099/95), prazo de 10 dias. O eixo central é \"qual recurso cabe e qual o prazo\", o que se enquadra em Recursos em Espécies (subtema Recursos no Âmbito dos Juizados Especiais), embora também se relacione com Procedimento Sumaríssimo."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1649,
+  "cache_w": 35536,
+  "cache_r": 78694,
+  "custo_usd": 0.1839498
+ }
+}

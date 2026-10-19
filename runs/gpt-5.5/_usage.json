@@ -1,0 +1,1199 @@
+{
+ "uso": {
+  "in": 211078,
+  "out": 37128,
+  "cache_w": 0,
+  "cache_r": 8040960,
+  "custo_usd": 0.0
+ },
+ "segundos": 451,
+ "erros": [
+  {
+   "id": "Q0013",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 987037, Requested 131248. Please try again in 7.097s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0011",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 984537, Requested 131127. Please try again in 6.939s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0015",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 985382, Requested 131141. Please try again in 6.991s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0014",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 973782, Requested 131018. Please try again in 6.288s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0017",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 985863, Requested 131148. Please try again in 7.02s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0021",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 987413, Requested 131067. Please try again in 7.108s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0019",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 985397, Requested 131231. Please try again in 6.997s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0020",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 985047, Requested 131531. Please try again in 6.994s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0023",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 985864, Requested 131179. Please try again in 7.022s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0024",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 984797, Requested 131195. Please try again in 6.959s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0026",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 946939, Requested 131084. Please try again in 4.681s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0027",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 945972, Requested 131048. Please try again in 4.621s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0028",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 941806, Requested 131102. Please try again in 4.374s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0030",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 986749, Requested 131036. Please try again in 7.067s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0031",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 981749, Requested 131018. Please try again in 6.766s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0034",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 984407, Requested 131056. Please try again in 6.927s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0033",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 983340, Requested 131061. Please try again in 6.864s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0036",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 984881, Requested 131429. Please try again in 6.978s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0037",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 983731, Requested 131177. Please try again in 6.894s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0041",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 983827, Requested 131164. Please try again in 6.899s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0043",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 986839, Requested 131086. Please try again in 7.075s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0042",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 968522, Requested 131100. Please try again in 5.977s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0044",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 979885, Requested 131152. Please try again in 6.662s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0050",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 982945, Requested 131056. Please try again in 6.84s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0049",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 982612, Requested 131485. Please try again in 6.845s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0047",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 978145, Requested 131250. Please try again in 6.563s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0051",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 954717, Requested 131408. Please try again in 5.167s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0053",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 983136, Requested 131062. Please try again in 6.851s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0055",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 981469, Requested 131101. Please try again in 6.754s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0052",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 978519, Requested 131218. Please try again in 6.584s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0057",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 984844, Requested 130993. Please try again in 6.95s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0061",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 984522, Requested 131103. Please try again in 6.937s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0059",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 983005, Requested 131123. Please try again in 6.847s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0058",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 979488, Requested 131160. Please try again in 6.638s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0062",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0068",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0066",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 955570, Requested 131073. Please try again in 5.198s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0065",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0064",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0069",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0071",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0072",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0073",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0074",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0075",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0070",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0077",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 959006, Requested 131314. Please try again in 5.419s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0080",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0081",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0082",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 895990, Requested 131183. Please try again in 1.63s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0083",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 876073, Requested 131090. Please try again in 429ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0084",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0079",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0078",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0086",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0087",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0088",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0090",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0091",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0093",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0094",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0089",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0092",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0096",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0097",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0099",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 922888, Requested 131281. Please try again in 3.25s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0100",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0098",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0101",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0103",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0104",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0106",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0105",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0102",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0109",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0108",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 924196, Requested 131186. Please try again in 3.322s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0111",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0110",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0112",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0116",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0114",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0117",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0118",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0119",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0120",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0122",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0113",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 959652, Requested 131240. Please try again in 5.453s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0124",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 927685, Requested 131215. Please try again in 3.534s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0123",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0127",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0125",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0128",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0129",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0131",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0126",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0132",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0133",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0134",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 912760, Requested 131152. Please try again in 2.634s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0136",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0138",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0137",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0135",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0140",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0143",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0142",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0145",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0146",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0144",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0141",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0148",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0150",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0151",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 978417, Requested 131176. Please try again in 6.575s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0152",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0149",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0155",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0156",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0157",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0154",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0159",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0162",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0161",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0163",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 890486, Requested 131165. Please try again in 1.299s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0160",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0164",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0165",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0167",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0169",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0171",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0172",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0168",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0173",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0174",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0170",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 957996, Requested 131226. Please try again in 5.353s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0176",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0177",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 896296, Requested 131108. Please try again in 1.644s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0178",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0180",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0181",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0184",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0182",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0183",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0179",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0185",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0187",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0189",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0188",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0191",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0192",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0190",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0195",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0197",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0198",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 895789, Requested 131063. Please try again in 1.611s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0194",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0200",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0201",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0199",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0203",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 918455, Requested 131029. Please try again in 2.969s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0205",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 888272, Requested 131040. Please try again in 1.158s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0204",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 887572, Requested 131016. Please try again in 1.115s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0202",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0207",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0206",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0208",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 959589, Requested 131267. Please try again in 5.451s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0210",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0211",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0212",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 911722, Requested 131069. Please try again in 2.567s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0213",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0215",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0216",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0217",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0214",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0218",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0219",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0221",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0223",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0225",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0220",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0226",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0224",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0227",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0228",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0231",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 920712, Requested 131048. Please try again in 3.105s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0229",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0232",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0233",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0236",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0234",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0235",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0237",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0240",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 930639, Requested 131179. Please try again in 3.709s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0239",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0241",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0242",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0243",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0245",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0247",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0244",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0246",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0248",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0250",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0251",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 899192, Requested 131060. Please try again in 1.815s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0252",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 889325, Requested 131174. Please try again in 1.229s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0254",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0253",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0256",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0257",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 939041, Requested 131368. Please try again in 4.224s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0259",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0260",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0261",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 890157, Requested 131120. Please try again in 1.276s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0263",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0264",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0258",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0265",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 957225, Requested 130979. Please try again in 5.292s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0266",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0268",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0270",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0271",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0269",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0273",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 966906, Requested 130997. Please try again in 5.874s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0274",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0267",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0276",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0275",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0280",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0277",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 884556, Requested 131032. Please try again in 935ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0278",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0279",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0282",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0283",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0284",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0286",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0285",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0289",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0288",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0291",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0290",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0292",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 951002, Requested 131117. Please try again in 4.927s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0294",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0295",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 945836, Requested 131129. Please try again in 4.617s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0293",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 942352, Requested 131299. Please try again in 4.419s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0296",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0297",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0299",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 961105, Requested 131115. Please try again in 5.533s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0300",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0301",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0302",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 895805, Requested 131087. Please try again in 1.613s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0304",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0303",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 889238, Requested 131180. Please try again in 1.225s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0305",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0306",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 965247, Requested 131123. Please try again in 5.782s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0308",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0307",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0312",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0313",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0309",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0311",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0315",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0316",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0320",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0318",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0319",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0317",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0321",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0324",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0325",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 925289, Requested 131305. Please try again in 3.395s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0326",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0327",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0322",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0328",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 971474, Requested 131029. Please try again in 6.15s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0330",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 967658, Requested 131229. Please try again in 5.933s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0329",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0331",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0333",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0334",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0335",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0336",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0337",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0338",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0339",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0342",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0343",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0346",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 976699, Requested 131333. Please try again in 6.481s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0341",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0344",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0347",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0348",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0351",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0352",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0353",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0350",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0354",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0355",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 891544, Requested 131283. Please try again in 1.369s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0356",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5.5 in organization org-REDACTED on tokens per min (TPM): Limit 1000000, Used 888594, Requested 131171. Please try again in 1.185s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}\")"
+  },
+  {
+   "id": "Q0358",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0359",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  },
+  {
+   "id": "Q0357",
+   "erro": "RateLimitError(\"Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}\")"
+  }
+ ],
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium"
+}

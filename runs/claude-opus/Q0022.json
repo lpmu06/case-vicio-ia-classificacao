@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5089",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5087",
+ "extras_ids": [
+  "5222"
+ ],
+ "multi_tema": true,
+ "justificativa": "A resposta é o peculato, que tem forma culposa no art. 312, §2º, do CP. As alternativas são quase todas crimes contra a Administração Pública; o falso testemunho é a exceção, por ser crime contra a Administração da Justiça. Por isso o ramo é 5087 e o subtema é Peculato.",
+ "id": "Q0022",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 383,
+  "cache_w": 14710,
+  "cache_r": 237485,
+  "custo_usd": 0.17394800000000002
+ }
+}

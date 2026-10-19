@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "5138",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.3,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5149",
+ "extras_ids": [
+  "5154",
+  "5139",
+  "5122",
+  "5077"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão mistura vários crimes contra a pessoa: participação em aborto, perigo de contágio venéreo (art. 130), rixa (art. 137, cobrada em dois itens) e calúnia. A rixa não tem tema próprio na árvore e fica mais perto dos crimes de perigo, então o ramo escolhido é Periclitação da Vida e da Saúde, com confiança baixa.",
+ "id": "Q0182",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 687,
+  "cache_w": 14175,
+  "cache_r": 237485,
+  "custo_usd": 0.176045
+ }
+}

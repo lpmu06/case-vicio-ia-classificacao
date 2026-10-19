@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5201",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.65,
+ "segunda_opcao_id": "4703",
+ "extras_ids": [
+  "4703"
+ ],
+ "multi_tema": false,
+ "justificativa": "A assertiva cobra o art. 33, §4º, do CP: a progressão de regime do condenado por crime contra a administração pública depende da reparação do dano. É uma regra das penas privativas de liberdade e de seus regimes, dentro da Teoria da Pena. Como a progressão também é matéria da Lei de Execução Penal (LEP), esse tema fica como segunda opção.",
+ "id": "Q0008",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 525,
+  "cache_w": 13812,
+  "cache_r": 237485,
+  "custo_usd": 0.16964900000000002
+ }
+}

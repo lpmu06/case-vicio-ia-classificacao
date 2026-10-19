@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5590",
+ "subtema_n2_id": "5594",
+ "confianca_ramo": 0.72,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5582",
+ "extras_ids": [
+  "5555",
+  "5499"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão reúne assertivas sobre limites constitucionais e legais de medidas de obtenção de prova que atingem sigilos — interceptação/escuta telefônica, sigilo bancário/fiscal, acesso da defesa aos autos e correspondência. Embora dialogue com princípios processuais e inquérito policial, o eixo mais comum é a licitude/ilicitude da prova e das quebras de sigilo.",
+ "id": "Q0281",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1184,
+  "out": 1197,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

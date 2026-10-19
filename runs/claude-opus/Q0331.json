@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5476",
+ "subtema_n2_id": "5477",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5476",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam do habeas corpus: cabimento preventivo, quem pode impetrar (MP, juiz), concessão de ofício, intervenção do assistente e impetração apócrifa. O assunto_origem (comunicação dos atos processuais) não corresponde ao conteúdo cobrado.",
+ "id": "Q0331",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 378,
+  "cache_w": 13968,
+  "cache_r": 237485,
+  "custo_usd": 0.168038
+ }
+}

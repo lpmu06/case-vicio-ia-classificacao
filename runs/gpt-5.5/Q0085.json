@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": "5076",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": "5091",
+ "extras_ids": [
+  "5087"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa a regra do art. 30 do CP sobre comunicabilidade de elementares no concurso de pessoas: a qualidade de funcionário público, no crime próprio de concussão, é elementar e comunica-se ao particular que dela tinha conhecimento. O crime de concussão é o contexto, mas o instituto central cobrado é concurso de pessoas.",
+ "id": "Q0085",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1101,
+  "out": 292,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

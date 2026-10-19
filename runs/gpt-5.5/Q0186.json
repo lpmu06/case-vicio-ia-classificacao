@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5202",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.99,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a valoração de circunstância judicial do art. 59 do CP na fixação da pena-base, isto é, a primeira fase da dosimetria. O ponto específico é o uso de condenações definitivas como maus antecedentes, tema próprio de Teoria da Pena > Primeira Fase da Dosimetria.",
+ "id": "Q0186",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1233,
+  "out": 243,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

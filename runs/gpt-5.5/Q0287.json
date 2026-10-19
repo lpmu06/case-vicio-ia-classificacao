@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5228",
+ "subtema_n2_id": "5229",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.78,
+ "segunda_opcao_id": "5230",
+ "extras_ids": [
+  "5211"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a identificação de uma causa excludente de ilicitude prevista no art. 23 do CP, distinguindo-a de hipóteses ligadas à culpabilidade, como erro de proibição, doença mental, embriaguez acidental e menoridade. Como não exige requisitos específicos do estado de necessidade, o melhor enquadramento é a teoria geral da ilicitude.",
+ "id": "Q0287",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1036,
+  "out": 674,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

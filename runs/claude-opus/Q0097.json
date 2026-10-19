@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.5,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "4705",
+ "extras_ids": [
+  "4705",
+  "4702"
+ ],
+ "multi_tema": true,
+ "justificativa": "As alternativas cobram três leis especiais com base na jurisprudência do STJ. A maioria trata da Lei de Drogas: a materialidade do tráfico quando não há apreensão de droga e o concurso entre associação para o tráfico e organização criminosa (alternativa E, provavelmente o gabarito). Também aparecem a lavagem de dinheiro, pela compra dos cavalos, e a Lei de Organizações Criminosas. Não é questão de concurso de crimes do Código Penal, apesar do assunto de origem.",
+ "id": "Q0097",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 784,
+  "cache_w": 15721,
+  "cache_r": 237485,
+  "custo_usd": 0.190848
+ }
+}

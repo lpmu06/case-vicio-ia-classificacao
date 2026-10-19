@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5540",
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [
+  "5488",
+  "4701"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o art. 66, parágrafo único, da Lei 9.099/1995: se o autor do fato não for encontrado para ser citado, o juiz remete as peças ao juízo comum, porque o JECRIM não admite citação por edital (alternativa D). Os metadados do subtema 5540 citam essa regra de forma expressa. As alternativas são Juizado Especial Criminal (4701) e citação (5488).",
+ "id": "Q0275",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 649,
+  "cache_w": 14049,
+  "cache_r": 237485,
+  "custo_usd": 0.17422100000000001
+ }
+}

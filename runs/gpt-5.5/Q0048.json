@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": "5193",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4703",
+ "extras_ids": [
+  "4703"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra diretamente indulto e comutação de pena, seus requisitos, efeitos e limites previstos em decreto presidencial, instituto de clemência estatal classificado como causa de extinção da punibilidade/execução da pena. Embora mencione falta grave e apenado, o eixo central não é a LEP em geral, mas anistia, graça, indulto e comutação.",
+ "id": "Q0048",
+ "modelo": "gpt-5.5",
+ "provedor": "openai",
+ "effort": "medium",
+ "uso": {
+  "in": 1341,
+  "out": 507,
+  "cache_w": 0,
+  "cache_r": 129792,
+  "custo_usd": null
+ }
+}

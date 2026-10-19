@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": "5484",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5483",
+ "extras_ids": [
+  "5481"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão combina cinco assertivas: a maioria (I, II, IV e V) trata do foro competente para processar e julgar prefeito municipal — seja por crime federal (Súmula 702/STF: compete ao TRF, não ao TJ, julgar prefeito por crime contra bens, serviços ou interesses da União), seja pela regra geral de foro no TJ estadual, seja pela manutenção do foro após a cessação do mandato (tema central: Competência por Prerrogativa de Função, subtema 5484). A assertiva III, isolada, trata de competência territorial pelo domicílio do réu quando desconhecido o lugar da infração (art. 72 CPP), tema do subtema 5483. Como o eixo predominante da questão é a prerrogativa de função do prefeito (quatro das cinco assertivas), mantenho o subtema 5484, mas marco multi_tema=true pela presença da assertiva III e indico 5483 como segunda opção e 5481 (panorama de espécies/fixação de competência) como extra, dada a mistura de critérios de competência na mesma questão.",
+ "id": "Q0004",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5480",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre foro competente para processar e julgar prefeito municipal (prerrogativa de função) e regra de competência pelo domicílio do réu quando desconhecido o local da infração - temas de competência criminal, matéria processual penal, enquadrando-se no tema de nível 1 \"Competência\" (subtema Competência por Prerrogativa de Função / Competência Territorial)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1349,
+  "cache_w": 31411,
+  "cache_r": 78694,
+  "custo_usd": 0.16101880000000002
+ }
+}
