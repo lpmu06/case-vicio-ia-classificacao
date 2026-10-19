@@ -1,0 +1,10 @@
+anthropic==1.15.0
+httpx==0.28.1
+Markdown==3.10.3
+numpy==2.2.6
+openai==3.35.1
+polars==1.42.0
+RapidFuzz==3.14.5
+scikit-learn==1.7.2
+sentence-transformers==6.1.0
+torch==2.12.1+cpu

@@ -78,7 +78,7 @@ Fechamento do bloco A: regras de execução, item 3. Commit "melhorias bloco A: 
 ### C1. Bloco de precisão do `previsao.txt` (item 6)
 - `src/61_escrever_previsao.py`: tirar "independentes entre si" (→ "três estimadores com fontes de erro diferentes" + uma frase sobre a correlação: todos Claude, GPT escreveu a taxonomia); tirar "árbitro" da lista do Dawid-Skene; dizer que os limiares foram escolhidos com a auditoria v1 e que E3 vem da v2 (ou, se B não foi feito, que E3 é otimista por isso); tabela de sensibilidade de A5; E1 descrito como teto do modelo, usado só como limite superior do intervalo; ponto = mediana de E2 e E3 ajustados (ou média, se só dois) — ajustar `60_previsao.py`.
 - Verificação: `grep -c "independentes entre si" previsao.txt` = 0; `grep -c "árbitro" previsao.txt` só nas frases sobre a regra de publicação; a tabela aparece.
-- [ ] feito
+- [x] feito
 
 ### C2. Afirmações a corrigir (item 7; tabela da seção 5 da avaliação)
 - README: "quase todas" → 359; tempo de máquina e de calendário (16/10 a 19/10); `pip install` inclui `markdown`; Chrome e poppler como requisitos do PDF; aviso de que `11_enriquecer_temas.py` não precisa rodar; `requirements.txt` com versões (`pip freeze | grep -iE "anthropic|openai|httpx|numpy|scikit|sentence|markdown|torch"`).
@@ -86,18 +86,18 @@ Fechamento do bloco A: regras de execução, item 3. Commit "melhorias bloco A: 
 - Modelo do relatório: "20 temas 67xx … tratamos todos como não utilizáveis" + frase sobre o desconto cobrir os dois grupos (A5); linha do Haiku 3 estágios com tokens e custo (marcadores `TOK_HAIKU_3N`, `USD_HAIKU_3N` em `62_preencher_relatorio.py`); "Nenhum erro claro" → "com acesso aos votos" (v1) e o resultado da v2.
 - Memo: "sem saber o que os outros disseram" → "sem saber qual era a maioria"; "cerca de 96%" → "entre 85% e 99%, mais provavelmente perto de 96%"; total da fila (140 questões ≈ 2,5 h, ordenada); pedir decisão também sobre os "(Parte N)"; item 8 (grafia) vira uma linha dentro do item 6. Manter uma página.
 - Verificação: `grep -n "quase todas" README.md` vazio; `grep -n "47 questões" docs/00_entendimento_e_plano.md` vazio; `grep -c "sem saber o que os outros" docs/memo_professor.md` = 0; PDF com 5 páginas.
-- [ ] feito
+- [x] feito
 
 ### C3. Seção c) do relatório: fila do professor (item 9)
 - Modelo do relatório, seção c): parágrafo "Fila do professor" com marcador `FILA_SEMANA` (taxa de revisão atual × 50 mil, horas a 1 min); só importações novas passam pela cascata; meta: taxa de revisão < 10% em três meses (regras de fronteira escritas pelo professor, segunda família em todas, destilação); ordem da fila (fronteira primeiro, multi-tema por último, com as contagens `REV_FRONTEIRA`, `REV_MULTI`, `REV_DISCORDAM` calculadas de `data/decisoes.jsonl`); reportes de alunos com regra concreta; versionamento da árvore; auditoria semanal de 100 com intervalo de ±4 pontos; latência da API em lote (até 24 h).
 - `62_preencher_relatorio.py`: novos marcadores.
 - Verificação: `docs/relatorio.md` contém o parágrafo com números; PDF ainda com 5 páginas (cortar prosa em a) se passar).
-- [ ] feito
+- [x] feito
 
 ### C4. Glossário e clareza (item 10)
 - Modelo do relatório: meia frase na primeira ocorrência de Dawid-Skene, Wilson, leave-one-out e cache; números em prosa com mais de três valores viram tabela; frase sobre o que foi julgamento humano (busca em concorrentes descartada, modelos menores, nível 1, não rotular sem conhecimento jurídico, limiares) na seção a).
 - Verificação: leitura do PDF; 5 páginas.
-- [ ] feito
+- [x] feito
 
 ## Bloco D — custo reconstruível (item 8)
 

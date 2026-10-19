@@ -32,7 +32,7 @@ Luis Paulo · lpmu06@gmail.com · 19/10/2026 · código, dados e saídas brutas 
 | Árbitro (Opus, esforço alto) | Escolhe entre os candidatos de todos, embaralhados, sem saber a maioria. Concorda com o consenso em 99,7% dos casos em que os dois classificadores principais concordam, e baixa a confiança de 0,89 para 0,65 quando eles divergem; só uma vez escolheu fora dos candidatos, o que indica alguma ancoragem | Sim, como filtro e como sugestão para o professor |
 | Buscar a questão em bancos de outros sites | As questões estão na web, mas usar a classificação de um concorrente não nos pareceu correto | Descartado |
 
-**Experimento de camadas.** Em 80 questões sorteadas, cruzamos modelo e método. A tabela mostra o quanto cada um acompanha a maioria dos demais classificadores, sem contar a si mesmo; não é acurácia, é consistência.
+**Experimento de camadas.** Em 80 questões sorteadas, cruzamos modelo e método. A tabela mostra o quanto cada um acompanha a maioria dos demais classificadores, sem contar a si mesmo (*leave-one-out*: cada rodada é medida contra a maioria das outras); não é acurácia, é consistência.
 
 | Método | Modelo | Acompanha a maioria | Tokens de prompt por questão | US$ por questão, com cache |
 |---|---|---|---|---|
@@ -42,23 +42,25 @@ Luis Paulo · lpmu06@gmail.com · 19/10/2026 · código, dados e saídas brutas 
 | 2 estágios | Sonnet 5 | «LOO_SONNET_H» | 20.790 | 0,031 |
 | 2 estágios | Haiku 4.5 | «LOO_HAIKU_H» | «TOK_HAIKU_H» | «USD_HAIKU_H» |
 | 3 estágios | Sonnet 5 | «LOO_S3N» | «TOK_S3N» | «USD_S3N» |
-| 3 estágios | Haiku 4.5 | «LOO_HAIKU_3N» | - | - |
+| 3 estágios | Haiku 4.5 | «LOO_HAIKU_3N» | «TOK_HAIKU_3N» | «USD_HAIKU_3N» |
 
-A segunda camada compensa: o prompt cai dez vezes e a consistência praticamente não cai. A terceira não compensa: cada etapa a mais é uma chance a mais de errar sem volta, e grupos de temas criados à mão não têm fronteiras naturais. Com cache, o prompt plano gigante custa quase o mesmo que o de 2 estágios, porque a parte fixa é lida do cache a um décimo do preço; sem cache, custaria 15 vezes mais. O Haiku sai caro aqui só porque, pelo Claude Code, gera milhares de tokens de raciocínio; pela API, sem raciocínio estendido, custaria uma fração disso. Tabelas completas no [anexo](comparacao_metodos.md).
+A segunda camada compensa: o prompt cai dez vezes e a consistência praticamente não cai. A terceira não compensa: cada etapa a mais é uma chance a mais de errar sem volta, e grupos de temas criados à mão não têm fronteiras naturais. Com cache (a parte fixa do prompt, a árvore, fica guardada no provedor e é cobrada a um décimo nas chamadas seguintes), o prompt plano gigante custa quase o mesmo que o de 2 estágios; sem cache, custaria 15 vezes mais. O Haiku sai caro aqui só porque, pelo Claude Code, gera milhares de tokens de raciocínio; pela API, sem raciocínio estendido, custaria uma fração disso. Tabelas completas no [anexo](comparacao_metodos.md).
 
-**Becos sem saída.** Começamos pelo modelo mais caro com o prompt maior e esgotamos os créditos da OpenAI em 63 questões; a lição é medir custo em cinco questões antes de escalar. A rotulagem humana de uma amostra, que seria o caminho mais sólido para a previsão, não foi possível, então a estimativa é cega. A primeira regra de unanimidade nos ramos confundíveis não tinha efeito com só dois votantes; corrigimos para exigir a concordância de todas as rodadas.
+**Becos sem saída.** Começamos pelo modelo mais caro com o prompt maior e esgotamos os créditos da OpenAI em 63 questões; a lição é medir custo em cinco questões antes de escalar. A rotulagem humana de uma amostra, que seria o caminho mais sólido para a previsão, não foi possível, então a estimativa é cega. A primeira regra de unanimidade nos ramos confundíveis não tinha efeito com só dois votantes; corrigimos para exigir a concordância de todas as rodadas completas, o mesmo critério para todas as questões. A primeira auditoria viu os votos dos modelos e serviu para escolher os limiares; por isso fizemos uma segunda, cega, só para medir.
 
-**Como estimamos a precisão sem gabarito.** Nenhum estimador sozinho é confiável, então usamos três, com hipóteses declaradas, e dois descontos para o que nenhum deles vê.
+**Como estimamos a precisão sem gabarito.** Nenhum estimador sozinho é confiável, então usamos três, com hipóteses declaradas, e dois descontos para o que nenhum deles vê. Eles não são independentes: os classificadores são todos Claude, e a taxonomia que todos leram foi escrita pelo GPT-5.5, a "outra família".
 
 | Estimador | Hipótese | Nas publicadas |
 |---|---|---|
-| Dawid-Skene sobre todos os classificadores e a origem | Erros independentes; é um limite superior | «E1» |
+| Dawid-Skene (modelo que estima a taxa de acerto de cada classificador só pelo padrão de concordâncias) sobre os classificadores e a origem, sem o árbitro | Erros independentes; nas publicadas, onde todos concordam, é um teto | «E1» |
 | Concordância com o GPT-5.5, a única família diferente | Famílias diferentes erram de forma pouco correlacionada; amostra pequena | «E2» |
-| Auditoria cética, por IA, de 60 publicadas sorteadas | Um leitor cuidadoso acha os erros visíveis; dúvida conta 1/3 de erro | «E3» («E3_N» seguem publicadas após os limiares finais) |
+| «E3_DESC» | «E3_HIP» | «E3» |
 | Desconto de convenção | O professor pode arquivar diferente de qualquer modelo | −2 pontos nos dois primeiros |
-| Desconto das cópias da Legislação Especial | 10% de chance de a equipe ter usado as cópias recentes em Penal; «EXPO» das publicadas expostas | −«M67» pontos em todos |
+| Desconto dos gêmeos 67xx | 10% de chance de a equipe usar as cópias de título idêntico («N_COPIAS» publicadas expostas) e 5% de usar os nomes de aula "(Parte N)" («N_PARTES» expostas) | −«M67» pontos em todos |
 
-A previsão é a mediana dos três estimadores ajustados: **«PREC»**. O intervalo vai do pior limite inferior de 95% («PREC_LO») ao estimador sob independência («PREC_HI»). Se a equipe tiver rotulado nas cópias, a precisão real cairia para cerca de «PREC_67». Os limiares finais vieram da [análise de sensibilidade](sensibilidade.md): exigir confiança 0,90 do árbitro em vez de 0,80 corta 11 pontos de cobertura, mas 5 das 9 dúvidas da auditoria estavam nessa faixa, e o limiar de 0,90 no subtema neutraliza uma sexta, de subtema irmão; subir para 0,95 corta mais 16 pontos sem ganho visível.
+A previsão é a média dos dois estimadores que não supõem independência, ajustados: **«PREC»**. O intervalo vai do pior limite inferior de 95% («PREC_LO», pelo intervalo de Wilson, adequado a amostras pequenas) ao teto de independência («PREC_HI»). Se a equipe tiver rotulado nas cópias, a precisão real cairia para cerca de «PREC_67»; nos dois grupos de gêmeos, para «PREC_67T». Variando a chance dos gêmeos entre 5% e 25% e o peso de uma dúvida entre 1/3 e 1, o ponto fica entre «SENS_MIN» e «SENS_MAX». Os limiares finais vieram da primeira auditoria (60 publicadas, com acesso aos votos; «E3_ANC») e da [análise de sensibilidade](sensibilidade.md): exigir confiança 0,90 do árbitro em vez de 0,80 corta 11 pontos de cobertura, mas 5 das 9 dúvidas dessa auditoria estavam nessa faixa; subir para 0,95 corta mais 16 pontos sem ganho visível. Por ter escolhido os limiares, essa auditoria não entra na estimativa.
+
+**O que foi julgamento, não medida.** Descartar a busca em bancos de concorrentes; trocar o modelo mais caro por modelos menores depois de esgotar os créditos; entregar no nível 1; não rotular à mão sem conhecimento jurídico e, por isso, estimar às cegas; e os limiares de 0,90.
 
 ## b) Diagnóstico: o que atrapalha máquina e humano
 
@@ -69,7 +71,7 @@ A previsão é a mediana dos três estimadores ajustados: **«PREC»**. O interv
 
 **Na árvore.**
 - **Assuntos com dois endereços.** Prisão aparece em "Teoria Geral das Prisões" e em "Prisões em Espécie"; sentença, em "Sentença Penal" e em "Procedimento Ordinário > Sentença"; ação penal, em Penal e em Processo Penal, cada uma com subtemas de ação pública e privada; juizados, em Legislação Especial e em "Procedimento Sumaríssimo". Foi a principal fonte de dúvida na auditoria.
-- **Cópias recentes.** 20 temas com ids 67xx: oito copiam temas da Legislação Especial dentro de Penal ou Processo Penal; os outros são nomes de aula, "(Parte 1)" e "(Parte 2)". Nenhum tem descrição nem histórico. Tratamos todos como não utilizáveis.
+- **Gêmeos recentes.** «N67» temas com ids 67xx, sem descrição nem histórico: «N67_COPIAS» copiam, com o mesmo título, temas de outra disciplina (quase todos da Legislação Especial dentro de Penal ou Processo Penal); «N67_PARTES» são nomes de aula, "Teoria da Pena (Parte 1)"; «N67_RESTO» estão inativos ou sem par. Tratamos todos como não utilizáveis e descontamos da previsão a chance de a equipe usá-los, nos dois grupos.
 - **Lixeiras.** Temas genéricos acumulavam centenas de questões, como Sistemas e Princípios Processuais Penais (538) e Introdução ao Estudo do Direito Penal (424). Na nossa classificação, só 8 das 359 questões têm um desses temas genéricos como tema central.
 - **Descrições.** 337 de 377 eram texto gerado; há erros de grafia ("Crimonológicas", "Estaturo de Idoso", "Comeptência").
 
@@ -86,7 +88,9 @@ Questões multi-tema e de certo ou errado são as mais difíceis: as primeiras n
 
 ## c) Produção: 50 mil questões por semana
 
-**Reclassificar só o que mudou.** Rodar as 50 mil toda semana desperdiça dinheiro. O fluxo classifica as importações novas, reclassifica os ramos cuja descrição ou estrutura mudou e audita uma amostra do resto.
+**Reclassificar só o que mudou.** Rodar as 50 mil toda semana desperdiça dinheiro. O fluxo classifica as importações novas, reclassifica os ramos cuja descrição ou estrutura mudou (a árvore é versionada: cada questão guarda a versão em que foi classificada) e audita uma amostra do resto.
+
+**A fila do professor é o gargalo.** Com a taxa de revisão deste case («REV_TAXA»), 50 mil questões por semana gerariam «FILA_SEMANA» revisões, cerca de «FILA_HORAS» horas a um minuto cada: inviável. Por isso só as importações novas passam pela cascata, e a meta é baixar a taxa para menos de 10% em três meses, atacando as causas da fila de hoje: «REV_DISCORDAM» revisões vêm de classificadores que discordam (segunda família em todas as questões e destilação resolvem parte), «REV_FRONTEIRA» de fronteiras entre temas (cada regra de uma linha escrita pelo professor vira instrução para a máquina) e «REV_MULTI» de questões sem tema central (decisão de produto: tema mais amplo ou marcação "miscelânea"). A fila é ordenada: fronteiras primeiro, porque cada resposta vira regra; multi-tema por último. Pela API em lote a resposta leva até 24 h, o que cabe num ciclo semanal.
 
 **Cascata, do barato ao caro.**
 1. **Importação**: limpeza de HTML, deduplicação por hash e extração dos dispositivos citados por regex. A origem entra como metadado, nunca como rótulo.
@@ -101,10 +105,9 @@ O total fica em torno de **US$ 0,03 por questão**, ou US$ 1.500 por semana se t
 **Destilação.** Os rótulos confirmados pelo professor treinam um classificador leve sobre embeddings. Com só os 227 rótulos de consenso deste case, ele já reproduz o consenso em 60% dos casos. Com alguns milhares de rótulos revisados, deve assumir os ramos fáceis e virar mais um voto nos demais.
 
 **Qualidade contínua.**
-- Auditoria semanal de 100 publicadas sorteadas, feita por professor, com intervalo de confiança: é o único estimador sem viés.
+- Auditoria semanal de 100 publicadas sorteadas, feita por professor, com intervalo de confiança de cerca de ±4 pontos: é o único estimador sem viés.
 - Painel com taxa de revisão, concordância entre modelos e distribuição por tema. Um salto num tema sinaliza mudança no banco ou na árvore.
-- Reportes de alunos entram como rótulo negativo prioritário. Um tema com reportes acima do normal sai da publicação automática até ser revisado.
-- A fila do professor é ordenada por impacto, com os temas mais estudados e as menores confianças primeiro. Cada decisão dele realimenta as descrições dos temas e o classificador destilado.
+- Reportes de alunos entram como rótulo negativo prioritário: um tema com três ou mais reportes na semana sai da publicação automática até ser revisado. Cada decisão do professor realimenta as descrições dos temas e o classificador destilado.
 
 ## d) Memo para o professor
 

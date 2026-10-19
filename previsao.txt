@@ -1,64 +1,80 @@
 precisao_prevista: 0.95
-precisao_intervalo: 0.84-0.99
+precisao_intervalo: 0.86-1.00
 cobertura_prevista: 0.61
 cobertura_intervalo: 0.61-0.61
 
 COMO CHEGAMOS NESTES NÚMEROS
 
 Cobertura
-Ela é escolha nossa: publicamos 218 das 359 questões (60.7%), sendo
-0 no subtema e 218 no tema de nível 1. O intervalo só cobre uma dúvida
-de denominador: se as questões que a equipe também considera "fora" (1 na nossa decisão) saírem da conta,
-a cobertura sobe para 60.9%.
+Ela é escolha nossa: publicamos 218 das 359 questões (60.7%), todas no tema de
+nível 1 (0 no subtema). O intervalo só cobre uma dúvida de denominador: se as questões que a equipe
+também considera "fora" (1 na nossa decisão) saírem da conta, a cobertura sobe para 60.9%.
 
 Precisão
-Não tivemos gabarito nem rotulagem humana. Usamos três estimadores independentes entre si, cada um com uma
-hipótese declarada, e dois descontos para o que nenhum deles enxerga.
+Não tivemos gabarito nem rotulagem humana. Usamos três estimadores com fontes de erro diferentes, cada um com uma
+hipótese declarada, e dois descontos para o que nenhum deles enxerga. Eles não são independentes: os
+classificadores são todos da mesma família (Claude), e a taxonomia enriquecida que todos leram foi escrita pelo
+GPT-5.5, que é também o modelo da outra família. Por isso combinamos de forma conservadora.
 
 1. Dawid-Skene: 100.0%.
    Modelo estatístico que estima a taxa de acerto de cada classificador só pelo padrão de concordâncias entre eles
-   (Opus plano, Sonnet em 2 e 3 estágios, árbitro, rodadas parciais e a classificação de origem) e dá a
-   probabilidade de o ramo de cada questão estar certo. Supõe erros independentes. Como todos são LLMs que leram a
-   mesma taxonomia, é um limite superior.
+   (Opus plano, Sonnet em 2 e 3 estágios, as rodadas parciais de Sonnet, Opus, Haiku e GPT, e a classificação de
+   origem; o árbitro fica de fora, porque escolhe entre os candidatos desses mesmos classificadores) e dá a
+   probabilidade de o ramo de cada questão estar certo. Supõe erros independentes, e as publicadas são justamente as
+   questões em que todos concordam: é um teto do modelo. Entra só como limite superior do intervalo, não no ponto.
 
 2. Outra família de modelo: 100.0% (39 de 39; intervalo de 95% de 91.0% a 100.0%).
    O GPT-5.5, de outra empresa, classificou 63 questões antes de acabarem nossos créditos. Medimos quantas das
    nossas publicadas ele colocaria no mesmo tema, pai ou filho, pela régua do case. Erros de famílias diferentes
    são menos correlacionados, mas a amostra é pequena e ele também não conhece as convenções da equipe.
 
-3. Auditoria: 97.9% (amostra aleatória de 47 publicadas).
-   Cada questão foi lida com olhar cético, perguntando onde um professor a arquivaria. Nenhum erro claro; as
-   dúvidas genuínas (um tema alternativo plausível por convenção) contam como 1/3 de erro na estimativa central e
-   como 1/2 na conservadora (96.8%; intervalo de 95% de 87.3% a 99.3%).
-   A leitura foi feita por IA, não por especialista. Vereditos em data/auditoria_ia.csv, caderno em
-   docs/auditoria_caderno.md.
+3. Auditoria cega: 99.3% (amostra aleatória de 50 publicadas; 0 erro(s) e 1 dúvida(s)).
+   Um agente de IA com contexto limpo, sem acesso aos votos, às confianças ou às justificativas do pipeline, leu
+   cada questão com a instrução de primeiro argumentar a favor de OUTRO tema e só depois dar o veredito. A amostra
+   não repete nenhuma das 60 questões da primeira auditoria. Uma dúvida genuína conta como 0.33 de erro na
+   estimativa central e como 1/2 na conservadora (99.0%; intervalo de 95% de 91.1% a 99.9%).
+   Vereditos em data/auditoria_ia_v2.csv, caderno em docs/auditoria_cega_caderno.md, instruções em
+   prompts/auditoria_cega.md.
+   A primeira auditoria (data/auditoria_ia.csv, 60 questões, com acesso aos votos) serviu para escolher os
+   limiares de publicação e por isso não entra na estimativa; nas publicadas atuais ela daria 97.9%
+   (47 questões, 3 dúvidas, 0 erros).
 
-4. Margem de convenção (2.0%, descontada de 1 e 2).
-   O professor pode seguir convenções que nenhum modelo conhece. A auditoria mostrou onde: assuntos com dois
+4. Margem de convenção (2.0%, descontada de 1 e 2; a auditoria já a embute, porque conta as dúvidas).
+   O professor pode seguir convenções que nenhum modelo conhece. As auditorias mostraram onde: assuntos com dois
    endereços na árvore (prisão em "Prisões em Espécie" ou em "Teoria Geral das Prisões"; ação penal e decadência
    em Penal ou em Processo Penal) e fronteiras de teoria do crime (erro de tipo ou de proibição).
 
-5. Cópias dos temas da Legislação Especial (3.1% de perda esperada, descontada de todos).
-   A árvore tem cópias recentes, em Penal e em Processo Penal, de 8 temas da Legislação Especial (Lei Maria da
-   Penha, Tráfico de Drogas, Lei de Execução Penal...). Publicamos sempre no tema da Legislação Especial, que tem
-   histórico de questões; as cópias não têm descrição nem histórico. Se a equipe tiver rotulado nas cópias,
-   21.1% das publicadas estariam erradas e a precisão cairia para cerca de 76.8%.
-   Atribuímos 10.0% de chance a esse cenário. A variante publicacao_sem_duplicados.csv manda essas
-   questões para revisão e elimina o risco, ao custo de cerca de 10 pontos de cobertura.
+5. Gêmeos 67xx (3.1% de perda esperada, descontada de todos).
+   A árvore tem 20 temas recentes, ids 67xx, sem descrição nem histórico, que nunca usamos. 46 publicadas
+   estão em temas que têm uma cópia 67xx de título idêntico em outra disciplina (Lei Maria da Penha, Tráfico de
+   Drogas, Lei de Execução Penal...), e 45 em temas que têm um gêmeo com nome de aula, "X (Parte N)"
+   (Teoria da Pena, Crimes contra o Patrimônio, Competência...). Se a equipe rotular nesses gêmeos, as nossas
+   publicadas nesses temas contam como erro pela régua. Atribuímos 10.0% de chance ao uso das cópias (quem
+   rotula à mão vê dois títulos iguais) e 5.0% ao dos nomes de aula (um nome de aula diz pouco a quem
+   arquiva). Se só as cópias forem usadas, a precisão cai para cerca de 77.6%; se os dois grupos,
+   para 56.9%. A variante publicacao_sem_duplicados.csv manda essas questões para revisão e
+   elimina o risco, ao custo de cerca de 25 pontos de cobertura.
 
-Ponto: a mediana dos três estimadores ajustados (94.9%, 94.7%).
-Intervalo: limite inferior = o menor limite inferior de 95% entre 2 e 3, menos o item 5; limite superior = 1,
-a estimativa sob independência. O intervalo é largo porque a auditoria e a outra família têm poucas dezenas de
-questões; preferimos um intervalo honesto a um estreito.
+Ponto: a média dos dois estimadores que não supõem independência, ajustados (94.9%, 96.2%).
+Intervalo: limite inferior = o menor limite inferior de 95% entre 2 e 3, menos o item 5; limite superior = o teto
+de independência (1), limitado pelo limite superior da auditoria. O intervalo é largo porque a auditoria e a outra
+família têm poucas dezenas de questões; preferimos um intervalo honesto a um estreito.
+
+Sensibilidade do ponto às duas hipóteses que não podemos medir (chance de a equipe usar os gêmeos 67xx e peso de
+uma dúvida da auditoria como erro):
+   p(cópias) / p(nomes de aula)   dúvida=0.33   dúvida=0.50   dúvida=1.00
+     5.0% / 2.5%                   97.1%         96.9%         96.4%
+    10.0% / 5.0%                   95.5%         95.4%         94.9%
+    25.0% / 12.5%                  90.8%         90.6%         90.1%
 
 Por que esperamos ficar acima de 95%
 Só publicamos quando o árbitro e os dois classificadores principais, de métodos e tamanhos diferentes, concordam
 no ramo, o árbitro tem confiança de pelo menos 0,90 e não vê a questão como multi-tema. Nos pares de ramos que os
-modelos confundem entre si exigimos unanimidade. Publicamos no subtema só com concordância forte e confiança de pelo
-menos 0,90; nos demais casos, no tema de nível 1, que pela régua está certo sempre que o ramo está certo.
+modelos confundem entre si exigimos que todas as rodadas completas concordem. Publicamos sempre no tema de nível 1,
+que pela régua está certo sempre que o ramo está certo. Os limiares (0,90) foram escolhidos com a primeira
+auditoria e com a análise de sensibilidade (docs/sensibilidade.md).
 
 O que poderia derrubar a previsão
-O uso das cópias da Legislação Especial pela equipe (item 5) ou uma convenção sistemática diferente da nossa num
-ramo com muitas publicadas. A entrega está toda no tema de nível 1, o que elimina o risco de subtema irmão; a
-variante publicacao_subtema.csv mostra o que a versão híbrida faria. A sensibilidade aos limiares está em
-docs/sensibilidade.md.
+O uso dos gêmeos 67xx pela equipe (item 5) ou uma convenção sistemática diferente da nossa num ramo com muitas
+publicadas. A entrega está toda no tema de nível 1, o que elimina o risco de subtema irmão; a variante
+publicacao_subtema.csv mostra o que a versão híbrida faria.

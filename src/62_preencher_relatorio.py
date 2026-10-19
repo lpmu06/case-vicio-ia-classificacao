@@ -1,5 +1,6 @@
-"""Etapa 7: gera docs/relatorio.md a partir do modelo src/modelos/relatorio.md, preenchendo os marcadores «CHAVE»
-com os números das saídas (runs/*.json, data/decisoes.jsonl). Assim o relatório nunca fica com números velhos.
+"""Etapa 7: gera docs/relatorio.md e docs/memo_professor.md a partir dos modelos em src/modelos/, preenchendo os
+marcadores «CHAVE» com os números das saídas (runs/*.json, data/decisoes.jsonl). Assim os textos nunca ficam com
+números velhos.
 
 Uso: python src/62_preencher_relatorio.py
 """
@@ -10,7 +11,9 @@ from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from comum import Arvore, RAIZ
+from comum import Arvore, RAIZ, gemeos_67xx
+
+PIPELINE = ["claude-opus", "claude-sonnet-h", "arbitro-opus"]  # o que gera publicacao.csv
 
 
 def p1(x):
@@ -23,6 +26,14 @@ def p0(x):
 
 def dec2(x):
     return f"{x:.2f}".replace(".", ",")
+
+
+def milhar(x):
+    return f"{int(round(x)):,}".replace(",", ".")
+
+
+def usd(x):
+    return f"{x:.3f}".replace(".", ",")
 
 
 def main():
@@ -40,26 +51,75 @@ def main():
     def loo_txt(r):
         return f"{p1(loo[r]['concorda_maioria_demais'])} (n={loo[r]['n']})" if r in loo else "não concluído"
 
+    def tok(r):
+        return milhar(met[r]["tokens_prompt_por_questao"]) if r in met else "-"
+
+    def custo(r):
+        return usd(met[r]["custo_usd_por_questao_com_cache"]) if r in met and met[r]["custo_usd_por_questao_com_cache"] else "-"
+
+    # fila do professor: motivos das revisões, em categorias exclusivas
+    rev = [d for d in dec if d["decisao"] == "revisar"]
+    n_multi = sum("instituto diferente" in d["motivo"] for d in rev)
+    n_disc = sum("instituto diferente" not in d["motivo"] and "não concordam" in d["motivo"] for d in rev)
+    n_front = sum("instituto diferente" not in d["motivo"] and "não concordam" not in d["motivo"]
+                  and ("fronteira" in d["motivo"] or "costumam confundir" in d["motivo"]) for d in rev)
+    taxa_rev = len(rev) / len(dec)
+    fila_semana = round(taxa_rev * 50000, -2)
+    minutos = len(rev)
+    fila_case = f"{minutos // 60} h {minutos % 60:02d}" if minutos % 60 else f"{minutos // 60} h"
+
+    # gêmeos 67xx: quantos buckets em cada grupo
+    gem = gemeos_67xx(A)
+    buckets = [t for t in A.t.values() if t["bucket"]]
+    b_copia = {g for v in gem.values() if v["grupo"] == "copia" for g in v["gemeos"]}
+    b_parte = {g for v in gem.values() if v["grupo"] == "parte" for g in v["gemeos"]}
+
+    # E3: cega (v2) ou ancorada (v1)
+    e3, anc = prev["E3_auditoria"], prev.get("E3_ancorada")
+    if e3.get("cega"):
+        e3_desc = (f"Auditoria cega, por um agente de IA com contexto limpo, de {e3['n']:g} publicadas sorteadas fora das 60 da "
+                   f"primeira auditoria ([caderno](auditoria_cega_caderno.md), [instruções](../prompts/auditoria_cega.md))")
+        e3_hip = (f"Quem primeiro argumenta a favor de outro tema acha os erros visíveis; dúvida conta 1/3 de erro. "
+                  f"Resultado: {e3['erros']} erro(s), {e3['duvidosos']} dúvida(s)")
+    else:
+        e3_desc = f"Auditoria cética, por IA, de 60 publicadas sorteadas, com acesso aos votos ({e3['n']:g} seguem publicadas)"
+        e3_hip = "Um leitor cuidadoso acha os erros visíveis; dúvida conta 1/3 de erro. Otimista: a mesma amostra escolheu os limiares"
+    e3_anc = f"{p1(anc['taxa'])} nas {anc['n']:g} que seguem publicadas, {anc['duvidosos']} dúvidas e {anc['erros']} erros" if anc else "sem dados"
+
+    sens = [g["precisao"] for g in prev["sensibilidade"]]
+    custo_pipe = (sum(met[r]["custo_usd_por_questao_com_cache"] for r in PIPELINE) * len(dec)
+                  if all(r in met and met[r]["custo_usd_por_questao_com_cache"] for r in PIPELINE) else None)
+
     g = diag["grupos"]
+    c67 = prev["copias_67xx"]
     v = {
         "PUB": str(prev["publicadas"]), "COB": p1(prev["cobertura_prevista"]), "PUB2": str(prev["publicadas_nivel2"]),
         "PUB1": str(prev["publicadas"] - prev["publicadas_nivel2"]), "REV": str(c["revisar"]), "FORA": str(c["fora"]),
         "PREC": dec2(prev["precisao_prevista"]), "PREC_LO": dec2(prev["precisao_intervalo"][0]), "PREC_HI": dec2(prev["precisao_intervalo"][1]),
+        "PREC_P": p0(prev["precisao_prevista"]), "PREC_LO_P": p0(prev["precisao_intervalo"][0]), "PREC_HI_P": p0(prev["precisao_intervalo"][1]),
         "VAR_PUB": str(prev_sd["publicadas"]), "VAR_COB": p1(prev_sd["cobertura_prevista"]), "VAR_PREC": dec2(prev_sd["precisao_prevista"]),
         "PUB2_SUB": str(prev_sub["publicadas_nivel2"]), "PREC_SUB": dec2(prev_sub["precisao_prevista"]),
         "E1": p1(prev["E1_independencia"]), "E2": f"{prev['E2_outra_familia']['acertos']} de {prev['E2_outra_familia']['n']}",
-        "E3": p1(prev["E3_auditoria"]["taxa"]), "E3_N": f"{prev['E3_auditoria']['n']:g}",
-        "M67": dec2(100 * prev["copias_67xx"]["perda_esperada"]).replace(",00", ""), "EXPO": p0(prev["copias_67xx"]["exposicao"]),
-        "EXPO_N": str(round(prev["copias_67xx"]["exposicao"] * prev["publicadas"])),
-        "PREC_67": p0(prev["copias_67xx"]["precisao_se_cenario_ocorrer"]),
+        "E3": p1(e3["taxa"]), "E3_N": f"{e3['n']:g}", "E3_DESC": e3_desc, "E3_HIP": e3_hip, "E3_ANC": e3_anc,
+        "M67": dec2(100 * c67["perda_esperada"]).replace(",00", ""),
+        "EXPO": p0(c67["exposicao_copias"]), "EXPO_N": str(c67["n_copias"]),
+        "N_COPIAS": str(c67["n_copias"]), "N_PARTES": str(c67["n_partes"]),
+        "PREC_67": p0(c67["precisao_se_copias"]), "PREC_67T": p0(c67["precisao_se_todos"]),
+        "SENS_MIN": dec2(min(sens)), "SENS_MAX": dec2(max(sens)),
+        "N67": str(len(buckets)), "N67_COPIAS": str(len(b_copia)), "N67_PARTES": str(len(b_parte)),
+        "N67_PARTES_M1": str(len(b_parte) - 2), "N67_RESTO": str(len(buckets) - len(b_copia) - len(b_parte)),
         "LOO_OPUS": loo_txt("claude-opus"), "LOO_SONNET_P": loo_txt("claude-sonnet-plano"), "LOO_OPUS_H": loo_txt("claude-opus-h"),
         "LOO_SONNET_H": loo_txt("claude-sonnet-h"), "LOO_HAIKU_H": loo_txt("claude-haiku-h"), "LOO_S3N": loo_txt("claude-sonnet-3n"),
-        "LOO_HAIKU_3N": loo_txt("claude-haiku-3n"),
-        "TOK_HAIKU_H": f"{met['claude-haiku-h']['tokens_prompt_por_questao']:,}".replace(",", ".") if "claude-haiku-h" in met else "-",
-        "TOK_S3N": f"{met['claude-sonnet-3n']['tokens_prompt_por_questao']:,}".replace(",", ".") if "claude-sonnet-3n" in met else "-",
-        "USD_HAIKU_H": f"{met['claude-haiku-h']['custo_usd_por_questao_com_cache']:.3f}".replace(".", ",") if "claude-haiku-h" in met else "-",
-        "USD_S3N": f"{met['claude-sonnet-3n']['custo_usd_por_questao_com_cache']:.3f}".replace(".", ",") if "claude-sonnet-3n" in met else "-",
+        "LOO_HAIKU_3N": loo_txt("claude-haiku-3n"), "LOO_ARB": loo_txt("arbitro-opus"), "LOO_JEV": loo_txt("jev-h"),
+        "TOK_HAIKU_H": tok("claude-haiku-h"), "TOK_S3N": tok("claude-sonnet-3n"), "TOK_HAIKU_3N": tok("claude-haiku-3n"),
+        "TOK_ARB": tok("arbitro-opus"), "TOK_JEV": tok("jev-h"),
+        "USD_HAIKU_H": custo("claude-haiku-h"), "USD_S3N": custo("claude-sonnet-3n"), "USD_HAIKU_3N": custo("claude-haiku-3n"),
+        "USD_ARB": custo("arbitro-opus"), "USD_JEV": custo("jev-h"),
         "S3N_N": str(met["claude-sonnet-3n"]["questoes"]) if "claude-sonnet-3n" in met else "-",
+        "CUSTO_PIPELINE": f"US$ {custo_pipe:.0f}" if custo_pipe else "(custo do árbitro não medido)",
+        "CUSTO_PIPELINE_LOTE": f"US$ {custo_pipe / 2:.0f}" if custo_pipe else "-",
+        "REV_TAXA": p0(taxa_rev), "FILA_SEMANA": milhar(fila_semana), "FILA_HORAS": milhar(fila_semana / 60),
+        "REV_DISCORDAM": str(n_disc), "REV_FRONTEIRA": str(n_front), "REV_MULTI": str(n_multi), "FILA_CASE_H": fila_case,
         "D_ME_U": p0(g["multipla_escolha"]["unanimes"]), "D_ME_P": p0(g["multipla_escolha"]["publicadas"]),
         "D_CE_U": p0(g["certo_errado"]["unanimes"]), "D_CE_P": p0(g["certo_errado"]["publicadas"]),
         "D_MT_U": p0(g["multi"]["unanimes"]), "D_MT_P": p0(g["multi"]["publicadas"]),
@@ -68,13 +128,14 @@ def main():
         "PARES": ", ".join(f"{p['titulo_a']} × {p['titulo_b']}" for p in
                            json.loads((RAIZ / "runs" / "pares_confundiveis.json").read_text(encoding="utf-8"))),
     }
-    modelo = (RAIZ / "src" / "modelos" / "relatorio.md").read_text(encoding="utf-8")
-    faltando = sorted(set(re.findall(r"«([A-Z0-9_]+)»", modelo)) - set(v))
-    if faltando:
-        sys.exit(f"marcadores sem valor: {faltando}")
-    out = re.sub(r"«([A-Z0-9_]+)»", lambda m: v[m.group(1)], modelo)
-    (RAIZ / "docs" / "relatorio.md").write_text(out, encoding="utf-8")
-    print("docs/relatorio.md gerado;", len(out.split()), "palavras")
+    for nome in ("relatorio", "memo_professor"):
+        modelo = (RAIZ / "src" / "modelos" / f"{nome}.md").read_text(encoding="utf-8")
+        faltando = sorted(set(re.findall(r"«([A-Z0-9_]+)»", modelo)) - set(v))
+        if faltando:
+            sys.exit(f"{nome}: marcadores sem valor: {faltando}")
+        out = re.sub(r"«([A-Z0-9_]+)»", lambda m: v[m.group(1)], modelo)
+        (RAIZ / "docs" / f"{nome}.md").write_text(out, encoding="utf-8")
+        print(f"docs/{nome}.md gerado;", len(out.split()), "palavras")
     for k in sorted(v):
         print(f"  {k} = {v[k]}")
 

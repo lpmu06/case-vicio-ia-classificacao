@@ -4,18 +4,20 @@ Entrega do processo seletivo da área de IA. Classifica 359 questões de concurs
 
 | Entregável | Onde |
 |---|---|
-| Decisão por questão | [`publicacao.csv`](publicacao.csv): 217 publicadas, 140 para revisão, 2 fora |
+| Decisão por questão | [`publicacao.csv`](publicacao.csv): 218 publicadas (todas no tema de nível 1), 140 para revisão, 1 fora |
 | Variantes | [`publicacao_subtema.csv`](publicacao_subtema.csv) (versão híbrida: desce ao subtema quando a evidência é forte; a tentativa que não compensou pela régua) e [`publicacao_sem_duplicados.csv`](publicacao_sem_duplicados.csv) (os temas que têm um gêmeo 67xx na árvore vão para revisão) |
-| Previsão de precisão e cobertura | [`previsao.txt`](previsao.txt): precisão 0,96 (0,85 a 0,99), cobertura 0,60 |
+| Previsão de precisão e cobertura | [`previsao.txt`](previsao.txt): precisão 0,95 (0,84 a 0,99), cobertura 0,61 |
 | Relatório: raciocínio, diagnóstico, produção e memo (5 páginas) | [`docs/relatorio.pdf`](docs/relatorio.pdf) e [`docs/relatorio.md`](docs/relatorio.md) |
 | Memo para o professor (1 página) | [`docs/memo_professor.md`](docs/memo_professor.md) |
-| Anexos do relatório | [`docs/comparacao_metodos.md`](docs/comparacao_metodos.md), [`docs/embeddings.md`](docs/embeddings.md), [`docs/diagnostico.md`](docs/diagnostico.md), [`docs/sensibilidade.md`](docs/sensibilidade.md), [`docs/auditoria_caderno.md`](docs/auditoria_caderno.md) |
+| Anexos do relatório | [`docs/comparacao_metodos.md`](docs/comparacao_metodos.md), [`docs/embeddings.md`](docs/embeddings.md), [`docs/diagnostico.md`](docs/diagnostico.md), [`docs/sensibilidade.md`](docs/sensibilidade.md), [`docs/auditoria_cega_caderno.md`](docs/auditoria_cega_caderno.md) (auditoria cega) e [`docs/auditoria_caderno.md`](docs/auditoria_caderno.md) (primeira auditoria, usada para os limiares) |
 | Diário de bordo: entendimento, plano e todas as decisões, com data e motivo | [`docs/00_entendimento_e_plano.md`](docs/00_entendimento_e_plano.md) |
 | Enunciado original | [`case-ia-classificacao-de-topicos.pdf`](case-ia-classificacao-de-topicos.pdf), [`docs/enunciado_README_original.md`](docs/enunciado_README_original.md) |
 
 ## Como rodar
 
-Requisitos: Python 3.10+ e `pip install anthropic openai httpx numpy scikit-learn sentence-transformers`. Os modelos Claude foram chamados pelo Claude Code em modo headless (`claude -p`, provedor `claude_cli`), logado numa assinatura; os mesmos scripts aceitam `--provedor anthropic` (chave em `ANTHROPIC_API_KEY`) ou `--provedor openai` (`OPENAI_API_KEY`). As chaves também podem ficar em `keys.txt`, que não é versionado. O experimento de embeddings usa o Ollama local para `bge-m3` e `mxbai-embed-large`.
+Requisitos: Python 3.10+ e `pip install -r requirements.txt` (anthropic, openai, httpx, numpy, scikit-learn, sentence-transformers, markdown; versões usadas em `requirements.txt`). O PDF exige o Chrome instalado (impressão headless) e o `pdfinfo` do poppler para a conferência de páginas. Os modelos Claude foram chamados pelo Claude Code em modo headless (`claude -p`, provedor `claude_cli`), logado numa assinatura; os mesmos scripts aceitam `--provedor anthropic` (chave em `ANTHROPIC_API_KEY`) ou `--provedor openai` (`OPENAI_API_KEY`). As chaves também podem ficar em `keys.txt`, que não é versionado. O experimento de embeddings usa o Ollama local para `bge-m3` e `mxbai-embed-large`.
+
+Para reproduzir os entregáveis não é preciso chamar nenhum modelo: as saídas brutas de todas as chamadas estão em `runs/`, e `bash rodar_analises.sh` refaz tudo a partir delas. O passo `11_enriquecer_temas.py` também não precisa rodar: seu resultado está em `data/temas_enriquecidos.json`.
 
 ```bash
 # 0. Dados e taxonomia
@@ -42,7 +44,9 @@ python src/45_confiabilidade.py          # Dawid-Skene -> data/confiabilidade.js
 python src/47_decisao.py                 # regras -> publicacao.csv e data/decisoes.jsonl
 python src/43_embeddings.py calcular && python src/43_embeddings.py avaliar   # -> docs/embeddings.md
 python src/44_diagnostico.py             # -> docs/diagnostico.md
-python src/48_auditoria.py --n 50        # caderno de auditoria -> docs/auditoria_caderno.md, data/auditoria_ia.csv
+python src/48_auditoria.py --n 50        # caderno da primeira auditoria -> docs/auditoria_caderno.md, data/auditoria_ia.csv
+python src/48_auditoria.py --cego --n 50 --semente 2026 --excluir data/auditoria_ia.csv   # caderno cego -> docs/auditoria_cega_caderno.md
+#   (os vereditos em data/auditoria_ia_v2.csv foram dados por um agente com contexto limpo, prompts/auditoria_cega.md)
 python src/60_previsao.py                # estimadores de precisão -> runs/previsao.json
 python src/61_escrever_previsao.py       # -> previsao.txt
 python src/49_sensibilidade.py           # limiares x cobertura x precisão -> docs/sensibilidade.md
@@ -77,10 +81,10 @@ Todas registradas com data e motivo na seção 10 do [diário de bordo](docs/00_
 | Enriquecimento da taxonomia | GPT-5.5 (API OpenAI) | 89 chamadas, 351 temas |
 | Classificador plano | Claude Opus 5.5 | 359 |
 | Classificador 2 estágios | Claude Sonnet 5 | 359 |
-| Classificador 3 estágios | Claude Sonnet 5 | quase todas |
+| Classificador 3 estágios | Claude Sonnet 5 | 359 |
 | Árbitro | Claude Opus 5.5, esforço alto | 359 |
 | Experimento 2×2 e modelo pequeno | Sonnet 5, Opus 5.5, Haiku 4.5 | 80 sorteadas |
 | Outra família | GPT-5.5 | 63, até acabar o crédito |
 | Embeddings | 8 modelos locais (Legal-BERTimbau, JurisBERT, BERTimbau, mpnet, E5, bge-m3, mxbai) | 359 |
 
-Os modelos Claude rodaram pelo Claude Code numa assinatura, sem custo marginal; o tempo total foi de algumas horas, por dividir a cota entre rodadas paralelas. A preço de lista da API, com cache, o pipeline final (Opus plano, Sonnet 2 estágios e árbitro) custaria cerca de US$ 48 para as 359 questões, ou US$ 24 pela API em lote; em produção, a cascata proposta no relatório fica perto de US$ 0,03 por questão. Detalhes por método em [`docs/comparacao_metodos.md`](docs/comparacao_metodos.md).
+O trabalho foi feito entre 16/10 e 19/10/2026. Os modelos Claude rodaram pelo Claude Code numa assinatura, sem custo marginal; o tempo de máquina das rodadas foi de algumas horas cada (o árbitro, 4,8 h), por dividir a cota entre rodadas paralelas. A preço de lista da API, com cache, o pipeline final (Opus plano, Sonnet 2 estágios e árbitro) custaria cerca de US$ 48 para as 359 questões, ou US$ 24 pela API em lote; em produção, a cascata proposta no relatório fica perto de US$ 0,03 por questão. Detalhes por método em [`docs/comparacao_metodos.md`](docs/comparacao_metodos.md).
