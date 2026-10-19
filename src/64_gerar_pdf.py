@@ -40,7 +40,7 @@ def main():
     memo = (RAIZ / "docs" / "memo_professor.md").read_text(encoding="utf-8")
     rel = rel.replace("Em [`memo_professor.md`](memo_professor.md), uma página.", "Na última página deste documento.")
     corpo = html(rel) + '<div class="quebra"></div>' + html(memo)
-    pagina = f"<!doctype html><html lang='pt-BR'><head><meta charset='utf-8'><style>{CSS}</style></head><body>{corpo}</body></html>"
+    pagina = f"<!doctype html><html lang='pt-BR'><head><meta charset='utf-8'><title>Relatório — Case Classificação de tópicos</title><style>{CSS}</style></head><body>{corpo}</body></html>"
     tmp = RAIZ / "runs" / "relatorio_tmp.html"
     tmp.write_text(pagina, encoding="utf-8")
     chrome = (shutil.which("chrome") or r"C:\Program Files\Google\Chrome\Application\chrome.exe")

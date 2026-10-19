@@ -10,6 +10,7 @@ Saída: runs/<rotulo>/<id>.json no mesmo esquema das classificações (+ campos 
 import argparse
 import importlib
 import json
+import re
 import random
 import sys
 import time
@@ -97,7 +98,7 @@ def main():
                 if i % 10 == 0 or i == len(pend):
                     print(f"[{i}/{len(pend)}] ok", flush=True)
             except Exception as e:
-                erros.append({"id": q["id"], "erro": repr(e)[:400]})
+                erros.append({"id": q["id"], "erro": re.sub(r"org-[A-Za-z0-9]+", "org-REDACTED", repr(e))[:400]})
                 print(f"ERRO {q['id']}: {e!r}"[:300], flush=True)
     resumo_path = pasta / "_usage.json"
     antigo = json.loads(resumo_path.read_text(encoding="utf-8")) if resumo_path.exists() else {"uso": {k: 0 for k in uso}, "segundos": 0}

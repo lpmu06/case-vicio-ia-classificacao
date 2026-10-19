@@ -109,7 +109,7 @@ def main():
                 if i % 10 == 0 or i == len(pendentes):
                     print(f"[{i}/{len(pendentes)}] {qid} ok", flush=True)
             except Exception as e:
-                erros.append({"id": q["id"], "erro": repr(e)[:400]})
+                erros.append({"id": q["id"], "erro": re.sub(r"org-[A-Za-z0-9]+", "org-REDACTED", repr(e))[:400]})
                 print(f"ERRO {q['id']}: {e!r}"[:300], flush=True)
 
     resumo_path = pasta / "_usage.json"
