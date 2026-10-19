@@ -1,0 +1,51 @@
+id,tema_publicado,veredito,tipo_duvida,tema_sugerido,comentario
+Q0001,5524,ok,,,"Desaforamento, impronúncia, absolvição sumária e desclassificação: decisões e incidentes próprios do rito do júri; nenhum outro tema de nível 1 disputa."
+Q0005,5199,ok,subtema,5203,Reincidência/período depurador (art. 64 CP) e regime inicial: aplicação da pena; dúvida só entre 2ª fase (5203) e PPL (5201). Prescrição/punibilidade não entram.
+Q0012,5560,ok,,,Pergunta qual recurso cabe da rejeição da denúncia no JECrim (art. 82): cabimento recursal; 5560 tem o subtema Recursos nos Juizados. 4701/5539 seriam só contexto.
+Q0028,5524,ok,,,"Arts. 406, 409 e 421 do CPP: primeira fase do júri e alteração superveniente após pronúncia; tema do rito do júri."
+Q0050,4708,ok,,,"Delação premiada do art. 41 da Lei 11.343: instituto próprio da Lei de Drogas; Colaboração Premiada (5557, em Provas) seria alternativa fraca, a questão se restringe à lei."
+Q0051,5180,ok,,,"Caso Vinícius Jr. é só pano de fundo: alternativas cobram extraterritorialidade (defesa, universal, nacionalidade); lei penal no espaço. Racismo (4690) não é cobrado."
+Q0054,5170,ok,subtema,5174,"Classificação doutrinária dos crimes (mera atividade, lesão, plurissubjetivo, pluriofensivo): subtema 5174 do tema publicado."
+Q0063,4704,ok,,,Medidas protetivas de urgência da Lei 11.340 e atuação do delegado; a comparação com cautelares do CPP é acessória. Lei Maria da Penha.
+Q0065,5157,ok,subtema,5161,Extorsão mediante sequestro (art. 159): qualificadoras e consumação; subtema Extorsão do tema patrimônio. Hediondos (4693) não é cobrado.
+Q0067,5087,ok,subtema,5091,Policial exige dinheiro para não prender: concussão x corrupção x excesso de exação; crimes funcionais do Título XI.
+Q0078,4697,ok,,,"Caso longo, mas quatro das cinco alternativas são posse/porte/comércio/omissão de cautela de arma; o crime de trânsito (4691) aparece só em parte de uma."
+Q0086,5087,ok,subtema,5092,Aceitar promessa de vantagem para não autuar: corrupção passiva consumada com a aceitação; crime contra a Administração Pública.
+Q0121,5466,ok,,,Indivisibilidade da queixa (art. 48 CPP) e renúncia tácita na ação privada: núcleo processual; Penal > Ação Penal (5063) é endereço gêmeo menos natural.
+Q0128,5466,ok,,,Ação de prevenção penal é classificação doutrinária da ação penal (visa medida de segurança ao inimputável); Medida de Segurança (5184) é só o objeto.
+Q0129,5543,ok,subtema,5550,"Parentes do acusado como testemunhas (art. 206 CPP): prova testemunhal; a violência doméstica é só cenário, não puxa para 4704."
+Q0134,5087,ok,subtema,5092,"Tipo de corrupção passiva: pena, forma privilegiada e majorante; Título XI do CP."
+Q0136,4704,ok,,,Incidência da Lei Maria da Penha após o divórcio e motivação de gênero; injúria/honra (5120) não é o que se cobra.
+Q0140,5157,ok,,,"Furto e roubo pela jurisprudência do STJ (privilégio, gazua, majorantes, perícia); questão comparativa de crimes patrimoniais, tema amplo adequado."
+Q0144,5560,ok,subtema,5562,"Recurso cabível contra sentença do juiz-presidente contrária à lei (apelação, art. 593, III): cabimento recursal; o júri (5524) é contexto."
+Q0158,4707,ok,,,"Perda do cargo e interdição pelo dobro da pena (art. 1º, §5º, Lei 9.455): efeito próprio da Lei de Tortura; 5199 (efeitos da condenação) é alternativa fraca."
+Q0160,5199,ok,subtema,5205,"Substituição da PPL por PRD ao reincidente genérico (art. 44, §3º, CP): penas restritivas de direitos."
+Q0173,4703,ok,,,Regressão de regime e faltas disciplinares na LEP com jurisprudência dos tribunais superiores: execução penal.
+Q0175,5087,ok,subtema,5092,Agente solicita e recebe vantagem para liberar condutor: corrupção passiva x concussão; o crime de trânsito é só cenário.
+Q0176,5079,ok,subtema,5081,"Falso testemunho: mão própria, compromisso, dolo e retratação; crime contra a administração da justiça."
+Q0188,5228,ok,,,Ofendículos como exercício regular de direito/legítima defesa preordenada: exclusão da ilicitude.
+Q0203,4702,ok,,,Indisponibilidade de bens em nome de interpostas pessoas (art. 4º da Lei 9.613): medida própria da Lei de Lavagem; 5490 (medidas assecuratórias do CPP) é alternativa fraca.
+Q0206,5583,ok,,,"Assistente de acusação: cabimento, admissão, recurso da decisão, arrazoar e momento: sujeitos do processo."
+Q0209,5498,ok,,,"Vedação de anotar inquérito em atestado de antecedentes (art. 20, par. único, CPP): regra do inquérito; princípios (5580) é só a justificativa do item."
+Q0210,4697,ok,,,"Jurisprudência sobre crimes da Lei 10.826 (concurso, insignificância de munição, hediondez do art. 16); retroatividade e hediondez são acessórias."
+Q0212,5487,ok,subtema,5488,Citação por hora certa no processo penal e consequência do não comparecimento: comunicação dos atos processuais.
+Q0231,5218,ok,subtema,5224,"Erro de tipo essencial e seus efeitos (art. 20 CP); o tráfico é só exemplo, não puxa para 4708."
+Q0243,5175,ok,subtema,5178,Devolução voluntária antes do recebimento da denúncia: arrependimento posterior x desistência/arrependimento eficaz; subtema 5178.
+Q0248,5087,ok,,,"Correlação entre tipos e condutas (desobediência, resistência, corrupções, concussão): crimes contra a Administração Pública."
+Q0253,4371,ok,subtema,4373,Escolas Clássica e Positiva e seus autores: escolas criminológicas. Penal > Introdução (5170) não tem subtema de escolas penais.
+Q0254,4704,ok,,,"Medidas protetivas de urgência (independência de tipificação, prazo, concessão imediata): Lei Maria da Penha."
+Q0258,5543,ok,subtema,5545,"Exame de corpo de delito: quem realiza, ausência de vestígios, prioridade na violência doméstica; provas em espécie."
+Q0272,4703,ok,,,"Falta grave na execução (prescrição, preso provisório, rol do art. 50, posse de droga, tornozeleira): LEP."
+Q0278,5539,duvidoso,ramo,4701,"Suspensão condicional do processo (art. 89, Lei 9.099), e o enunciado pede 'legislação penal extravagante': Juizado Especial Criminal (4701) é endereço igualmente natural."
+Q0287,5228,ok,subtema,5230,Pergunta qual é excludente de ilicitude; os distratores de culpabilidade servem só para eliminação.
+Q0294,5211,ok,,,"Teorias da culpabilidade, inexigibilidade de conduta diversa e embriaguez/dependência: culpabilidade."
+Q0305,5466,ok,,,"Ação penal pública: prazo da denúncia, indisponibilidade, representação por procurador, requisição do Ministro da Justiça; tudo regra do CPP."
+Q0307,4707,ok,,,"Omissão do delegado diante da tortura (art. 1º, §2º, Lei 9.455): figura própria da Lei de Tortura; concurso de pessoas (5071) é alternativa fraca."
+Q0311,5487,ok,subtema,5488,Réu não localizado: citação por edital e suspensão do processo (art. 366 CPP); comunicação dos atos.
+Q0315,5185,ok,,,"Cálculo da prescrição pela pena aplicada, com marcos e redução etária: prescrição; a dosimetria não é cobrada."
+Q0320,5543,ok,subtema,5550,Testemunha fedatária (instrumentária): espécies de testemunha; prova testemunhal.
+Q0326,4708,ok,,,"Identificar figuras típicas da Lei 11.343 (art. 33, §1º e §3º, art. 38, art. 39): Lei de Drogas."
+Q0331,5476,ok,subtema,5477,"Legitimidade, cabimento e processamento do habeas corpus: ações autônomas de impugnação."
+Q0336,5157,ok,subtema,5159,"Subtração sorrateira de celular e consumação pela inversão da posse: furto consumado; Iter Criminis (5175) é alternativa fraca, a questão é de tipificação."
+Q0346,5583,ok,,,"Assistente da acusação: recurso da admissão, prisão preventiva, desaforamento, entidades do CDC e momento de ingresso; sujeitos do processo."
+Q0351,5116,ok,subtema,5118,"Cartão de crédito equiparado a documento particular (art. 298, par. único, CP): falsidade documental."

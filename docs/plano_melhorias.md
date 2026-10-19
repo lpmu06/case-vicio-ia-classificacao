@@ -61,17 +61,17 @@ Fechamento do bloco A: regras de execução, item 3. Commit "melhorias bloco A: 
 ### B1. Caderno cego
 - Mudança: `src/48_auditoria.py`: flags `--cego` (omite votos e justificativa do árbitro), `--excluir data/auditoria_ia.csv` (não repete as 60), `--semente 2026`, `--n 50`, `--saida data/auditoria_ia_v2.csv`, caderno em `docs/auditoria_cega_caderno.md`. Cada questão no caderno: id, texto completo, tema publicado com caminho, descrição e "não confundir" do tema, lista de irmãos (se nível 2) ou subtemas (se nível 1), e os 3 ramos de nível 1 mais parecidos por título (sem dizer de onde vêm). Nada de votos, confiança ou argumento do pipeline.
 - Verificação: `grep -c "^## Q" docs/auditoria_cega_caderno.md` = 50; `grep -c "árbitro\|votos de ramo" docs/auditoria_cega_caderno.md` = 0; nenhum id em comum com `data/auditoria_ia.csv`.
-- [ ] feito
+- [x] feito
 
 ### B2. Auditoria por subagente com contexto limpo
 - Como: `Agent` (general-purpose, modelo opus) com o prompt de `prompts/auditoria_cega.md` (criar): "você é um professor cético; para cada questão, primeiro escreva o melhor argumento a favor de OUTRO tema da árvore (`data/arvore.txt`), depois dê o veredito: ok / duvidoso / erro, tema_sugerido, tipo_duvida (ramo/subtema), comentário". O subagente lê só o caderno e `data/arvore.txt`; não lê `docs/`, `runs/`, `data/decisoes.jsonl` nem este plano. Ele grava `data/auditoria_ia_v2.csv` (colunas iguais à v1: id, tema_publicado, veredito, tipo_duvida, tema_sugerido, comentario).
 - Verificação: 50 linhas preenchidas; distribuição de vereditos impressa; ler os "erro" e "duvidoso" e conferir se o argumento faz sentido (anotar no diário quantos são convenção e quantos são erro real).
-- [ ] feito
+- [x] feito
 
 ### B3. E3 com a auditoria cega
 - Mudança: `src/60_previsao.py`: se `data/auditoria_ia_v2.csv` existir, E3 usa a v2 (restrita às publicadas atuais) e a v1 é reportada à parte como "auditoria ancorada, usada para escolher os limiares". `src/61_escrever_previsao.py` e o modelo do relatório: texto correspondente. Se a v2 mostrar erros reais acima de ~5%, voltar ao bloco A e reavaliar o limiar (0,95) antes de fechar; registrar.
 - Verificação: `runs/previsao.json` tem `E3_auditoria` com n ≈ 50 e `E3_ancorada` com n = 46; `previsao.txt` cita as duas.
-- [ ] feito
+- [x] feito
 
 ## Bloco C — textos (itens 6, 7, 9, 10 e memo)
 
