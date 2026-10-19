@@ -1,0 +1,8 @@
+keys.txt
+.env
+*.env
+__pycache__/
+.venv/
+*.pyc
+runs/**/*.tmp
+.ipynb_checkpoints/
