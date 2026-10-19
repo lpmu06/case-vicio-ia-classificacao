@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema 5218 (Teoria do Crime: Fato Típico) e fecho no subtema 5224 (Erro de Tipo). Os quatro itens tratam da teoria do erro de tipo: o erro de tipo essencial (art. 20 do CP) e os erros acidentais, que são o erro sobre o objeto, a aberratio ictus (art. 73) e a aberratio criminis (art. 74). Todos esses pontos aparecem textualmente nas palavras-chave e nos dispositivos do subtema 5224. Nenhum item trata de erro de proibição, por isso Culpabilidade (5211) fica só como segunda opção remota.",
+ "id": "Q0241",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5211",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão inteira é sobre a teoria do erro de tipo: erro de tipo essencial, erro sobre o objeto, aberratio ictus e aberratio criminis (erros acidentais). Todos esses institutos estão no Fato Típico, subtema Erro de Tipo. Classifiquei no nível 1 (Fato Típico) por segurança, mas o eixo é único. A segunda opção é Culpabilidade, porque o erro de proibição costuma ser estudado junto, embora a questão não trate dele."
+ },
+ "uso": {
+  "in": 4,
+  "out": 862,
+  "cache_w": 13297,
+  "cache_r": 18208,
+  "custo_usd": 0.13651359999999998
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": "4378",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa a seletividade penal conforme Vera Regina Pereira de Andrade. O enunciado pergunta por que pobres são a \"clientela\" do sistema penal, e a resposta correta (E) afirma que \"têm maiores chances de serem criminalizados\" — não por tendência criminal natural, mas porque o sistema penal aplica-se seletivamente. Este é o núcleo da criminalização secundária: a aplicação concreta e seletiva da lei penal pelas agências de controle (polícia, MP, Judiciário), não a etiologia social do crime. Tema 4377 é confirmado (processo criminalizador e seletividade penal), e o subtema 4378 é a escolha precisa, pois cobre exatamente criminalização secundária e seletividade na aplicação da lei — especialidade de Vera Regina. A pista fraca \"Teorias Legitimidoras da Pena\" é imprecisa, pois não se trata de justificação teórica da pena, mas de processo de seleção criminal.",
+ "id": "Q0002",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": "C1",
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa o pensamento específico de Vera Regina Pereira de Andrade sobre como o sistema penal criminaliza seletivamente os pobres — não porque estes naturalmente delinquem mais, mas porque o sistema os seleciona. Este é o cerne de \"Processos de Criminalização e Cifras Criminais\", tema do grupo C2. A pista fraca (\"Teorias Legitimidoras da Pena\") é imprecisa: a questão não é sobre justificativas da pena, mas sobre mecanismos de seleção/criminalização."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4377",
+  "segunda_opcao_n1_id": "4385",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão testa o pensamento específico de Vera Regina Pereira de Andrade sobre seletividade do sistema penal: os pobres são criminalizados não por tendência natural, mas porque o sistema os seleciona. Este é o cerne de \"Processos de Criminalização e Cifras Criminais\". A pista fraca (\"Teorias Legitimidoras da Pena\") é imprecisa — trata-se de criminalização seletiva, não de justificação da pena."
+ },
+ "uso": {
+  "in": 30,
+  "out": 7162,
+  "cache_w": 16392,
+  "cache_r": 4639,
+  "custo_usd": 0.07677289999999999
+ }
+}

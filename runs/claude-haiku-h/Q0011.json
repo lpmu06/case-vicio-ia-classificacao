@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4702",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "A questão testa simultaneamente (1) tipificação penal de lavagem de capitais (Lei 9.613/1998, art. 1º — ocultação de origem ilícita de bens oriundos de crime antecedente) e (2) competência para processar e julgar (Justiça Federal). A assertiva pede resposta integrada: \"responderão pelo crime de lavagem... E será da justiça federal...\". O eixo central é a ocultação de bens de origem ilícita (corrupção de servidor federal → transferência para terceiro com intuito de ocultar), que caracteriza lavagem de dinheiro. A competência federal decorre naturalmente do crime antecedente (corrupção passiva, art. 317 CP, crime federal) e é aspecto derivado. Classifica-se em 4702 (Legislação Especial > Lavagem de Dinheiro) como tema principal, com 5480 (Competência) como segunda opção, caracterizando multi-tema com preponderância em Legislação Especial.",
+ "id": "Q0011",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4702",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.8,
+  "multi_tema": true,
+  "justificativa": "Questão sobre crime de lavagem de dinheiro (Lei 9.613/1998) com reflexo direto em competência federal. O eixo central é a lavagem (Legislação Especial), mas a resposta depende também de conhecimento sobre competência (Processo Penal). A assertiva testa simultaneamente tipificação penal e jurisdição, caracterizando multi-tema com foco em Legislação Especial."
+ },
+ "uso": {
+  "in": 20,
+  "out": 7266,
+  "cache_w": 9289,
+  "cache_r": 12522,
+  "custo_usd": 0.0629112
+ }
+}

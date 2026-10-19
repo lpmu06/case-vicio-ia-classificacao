@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "4705",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas cobram a Lei 12.850/2013: o conceito legal de organização criminosa comparado com o da Convenção de Palermo, a majorante do funcionário público (que não é qualificadora), o afastamento cautelar sem prejuízo da remuneração, o regime de segurança máxima para lideranças de organizações armadas e a cessação da permanência do crime. O eixo comum é o tema Organizações Criminosas (4705), que não tem subtemas. Descartei Processo Penal > Ação Penal (5466) porque ele vem só do assunto de origem, que é uma pista fraca: a questão não trata de titularidade, espécies ou condições da ação penal.",
+ "id": "Q0200",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5466",
+  "4705"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 936,
+  "cache_w": 8876,
+  "cache_r": 16390,
+  "custo_usd": 0.099318
+ }
+}

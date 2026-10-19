@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5527",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5213",
+ "extras_ids": [
+  "5213"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta qual decisão encerra a primeira fase do júri (pronúncia, impronúncia, absolvição sumária ou remessa ao juízo comum) quando o réu é semi-imputável. Há indícios de autoria e prova da materialidade, e a semi-imputabilidade não exclui a culpabilidade, só reduz a pena (art. 26, parágrafo único, do CP). Também não autoriza a absolvição sumária do art. 415, parágrafo único, do CPP, que vale apenas para a inimputabilidade. Por isso, a resposta é a pronúncia (art. 413 do CPP). O eixo é a decisão que encerra o sumário de culpa, ou seja, o subtema 5527. Inimputabilidade (5213) entra como tema secundário, porque é preciso conhecer o conceito de semi-imputabilidade.",
+ "id": "Q0246",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": "5211",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão testa qual decisão o juiz deve tomar ao fim da primeira fase do júri (sumário de culpa): pronúncia, impronúncia ou absolvição sumária. Como há indícios de autoria e prova da materialidade, e a semi-imputabilidade não exclui a culpabilidade (só reduz a pena, art. 26, parágrafo único, do CP), o juiz deve pronunciar o acusado. A semi-imputabilidade não autoriza a absolvição sumária do art. 415 do CPP, que se limita à inimputabilidade. O eixo é processual e corresponde ao subtema 'Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia', dentro de Procedimento do Tribunal do Júri. Segunda opção: Culpabilidade (Inimputabilidade), por causa do conceito de semi-imputabilidade."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1196,
+  "cache_w": 12578,
+  "cache_r": 20512,
+  "custo_usd": 0.1368274
+ }
+}

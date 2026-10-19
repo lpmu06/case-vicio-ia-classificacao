@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5530",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o procedimento especial da Lei de Drogas: pelo art. 55 da Lei 11.343/2006, depois de oferecida a denúncia, o juiz manda notificar o acusado para apresentar defesa prévia por escrito em 10 dias. O gabarito é a alternativa C. O tema 4708 inclui expressamente os reflexos processuais e os arts. 50 a 59 da lei. Descartei o Procedimento Ordinário (5530), porque a citação para resposta à acusação aparece só como distrator, e a Processo Penal não tem tema próprio para procedimentos especiais de leis extravagantes.",
+ "id": "Q0213",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4708"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 653,
+  "cache_w": 3733,
+  "cache_r": 16390,
+  "custo_usd": 0.0483
+ }
+}

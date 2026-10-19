@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5201",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.7,
+ "segunda_opcao_id": "5203",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão aborda regime inicial de cumprimento de pena privativa de liberdade (5201) e como a reincidência influencia essa determinação. Embora mencione reincidência e agravação na segunda fase (5203), o foco principal da pergunta é \"qual regime inicial é cabível\", não o cálculo da pena na dosimetria. Conforme a nota de não-confusão de 5203: quando reincidência aparece como requisito de outro instituto (neste caso, regime inicial), não é necessariamente tema de segunda fase. O tema central é executório (regime inicial), não dosimétrico. Arts. 33 a 42 CP e art. 59 CP cobrem essa matéria em 5201.",
+ "id": "Q0005",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão aborda reincidência como agravante (segunda fase da dosimetria) e regime inicial de cumprimento de pena privativa de liberdade. O tema central é a dosimetria da pena e determinação do regime inicial, ambos cobertos por \"Teoria da Pena\". Embora envolva período depurador de reincidência (extinção de punibilidade após 5 anos), isto é apenas instrumental para verificar se há reincidência — o foco principal é claramente a dosimetria e execução da pena. Não é multi-tema pois há eixo comum (dosimetria)."
+ },
+ "uso": {
+  "in": 20,
+  "out": 13799,
+  "cache_w": 10822,
+  "cache_r": 12522,
+  "custo_usd": 0.1001552
+ }
+}

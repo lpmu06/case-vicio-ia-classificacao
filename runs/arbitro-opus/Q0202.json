@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": "5108",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.7,
+ "segunda_opcao_id": "5218",
+ "extras_ids": [
+  "5218"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o tipo do art. 218-B, §2º, I, do CP: manter relação sexual com menor de 18 e maior de 14 anos em situação de prostituição. Ela exige saber se o agente conhecia a menoridade e a situação de prostituição; como não conhecia, há erro de tipo e a conduta é atípica (alternativa C). O subtema 5108 menciona expressamente o art. 218-B (exploração sexual de vulnerável) e por isso foi preferido. Teoria do Crime: Fato Típico (Erro de Tipo) é a segunda opção, porque o erro de tipo é aplicado aqui apenas como ferramenta para analisar a elementar específica do crime sexual.",
+ "id": "Q0202",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5102"
+ ],
+ "candidatos_subtemas": [
+  "5108"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 744,
+  "cache_w": 8520,
+  "cache_r": 16390,
+  "custo_usd": 0.092039
+ }
+}

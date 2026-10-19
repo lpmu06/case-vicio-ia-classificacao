@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5557",
+ "confianca_ramo": 0.7,
+ "confianca_subtema": 0.65,
+ "segunda_opcao_id": "4705",
+ "extras_ids": [
+  "4705"
+ ],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam do regime da colaboração premiada na Lei 12.850/2013: instrução prévia (art. 3º-B, §4º), vedação do uso das informações quando o acordo não é celebrado (art. 3º-B, §6º), perdão judicial requerido pelo MP ou pelo delegado (art. 4º, §2º), benefícios possíveis (art. 4º, caput) e suspensão do prazo da denúncia e da prescrição (art. 4º, §3º). O subtema Colaboração Premiada (5557) cobre exatamente esse meio de obtenção de prova. O tema 4705 também é defensável, porque a própria descrição dele inclui a colaboração da Lei 12.850, e por isso ficou como segunda opção. Já Inquérito Policial (assunto de origem) foi descartado, porque a questão não cobra nada da investigação policial em si.",
+ "id": "Q0193",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5498",
+  "5543",
+  "4705"
+ ],
+ "candidatos_subtemas": [
+  "5557"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 1258,
+  "cache_w": 15497,
+  "cache_r": 16390,
+  "custo_usd": 0.1638
+ }
+}

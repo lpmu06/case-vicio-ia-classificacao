@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "4695",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4687",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede ao aluno que identifique qual conduta é crime contra a ordem tributária. A resposta é o item III, negar nota fiscal, que está no art. 1º, V, da Lei 8.137/90 (gabarito B). Os itens I, II e IV são crimes contra a ordem econômica da Lei 8.176/91, usados como distratores. Descartei Concurso de Crimes (5066): é só o assunto de origem, e a questão não trata de pluralidade de crimes.",
+ "id": "Q0181",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5066",
+  "4695"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 545,
+  "cache_w": 6467,
+  "cache_r": 16390,
+  "custo_usd": 0.070072
+ }
+}

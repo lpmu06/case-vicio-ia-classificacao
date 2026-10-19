@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "4697",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5066",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam da jurisprudência do STJ e do STF sobre os crimes da Lei 10.826/2003. Os pontos cobrados são: concurso entre arma de uso permitido e de uso restrito; insignificância em caso de pouca munição sem arma, que é a alternativa correta (B); reclassificação de arma por decreto; e hediondez do porte de arma de uso permitido com numeração raspada. O eixo comum é o Estatuto do Desarmamento, por isso não marquei a questão como multi-tema. Descartei Concurso de Crimes (5066) porque ele aparece só na alternativa A, e mesmo ali dentro do contexto específico dessa lei.",
+ "id": "Q0210",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4697",
+  "5066"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 606,
+  "cache_w": 5707,
+  "cache_r": 14086,
+  "custo_usd": 0.0649672
+ }
+}

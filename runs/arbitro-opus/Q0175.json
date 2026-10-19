@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5092",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5091",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o enquadramento da conduta do agente público que solicita vantagem indevida para deixar de praticar ato de ofício. O verbo 'solicitar' caracteriza a corrupção passiva (art. 317 CP), e não a concussão, em que o verbo é 'exigir'. O próprio João não comete corrupção ativa, que é crime de quem oferece ou promete a vantagem. Por isso a resposta é a alternativa C. A distinção com a concussão aparece apenas para eliminar alternativas, por isso o subtema 5091 fica como segunda opção.",
+ "id": "Q0175",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5087"
+ ],
+ "candidatos_subtemas": [
+  "5092"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 580,
+  "cache_w": 9511,
+  "cache_r": 16390,
+  "custo_usd": 0.097527
+ }
+}

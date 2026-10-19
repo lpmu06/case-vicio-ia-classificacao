@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata especificamente da progressão de regime prevista na Lei de Execução Penal (art. 112 LEP, alterado pela Lei nº 14.764/2023), focando na condição especial imposta aos condenados por crimes contra a administração pública (reparação do dano ou devolução do produto). Trata-se de instituto de execução penal, não de dosimetria inicial. O tema [4703] Lei de Execução Penal é mais apropriado que [5199] Teoria da Pena porque a progressão pressupõe pena em curso e incide sobre direitos/benefícios do preso durante a execução, configurando matéria de legislação especial reguladora do cumprimento da pena. O tema [4703] não possui subtemas.",
+ "id": "Q0008",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata especificamente da progressão de regime prevista na Lei de Execução Penal (art. 112, com alterações da Lei nº 14.764/2023), focando na condição especial imposta aos condenados por crimes contra a administração pública. Embora seja também um aspecto da execução da pena abordável em Teoria da Pena, o tema \"Lei de Execução Penal\" é mais apropriado pela referência normativa específica e caráter de legislação penal especial reguladora do cumprimento da pena."
+ },
+ "uso": {
+  "in": 20,
+  "out": 5383,
+  "cache_w": 23200,
+  "cache_r": 0,
+  "custo_usd": 0.081413
+ }
+}

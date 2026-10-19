@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": "5518",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5585",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema 5517 (Prisões em Espécie) e escolho o subtema 5518 (Prisão em Flagrante). A questão pede para dizer se a prisão é legal e de que espécie de flagrante se trata: provocado, preparado, diferido (ação controlada) ou esperado. A resposta é o flagrante esperado (E). O gerente apenas desconfiou do documento e chamou a polícia, que esperou o crime acontecer, sem induzir João a praticá-lo. A descrição do 5518 cita expressamente o flagrante preparado, o esperado, o diferido e a ação controlada. O uso de documento falso é só o contexto da história, e a pista de origem (Direito Constitucional) está errada.",
+ "id": "Q0218",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5517",
+  "segunda_opcao_n1_id": "5584",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão quer saber se a prisão em flagrante é legal e de que espécie ela é: provocado, preparado, diferido ou esperado. A resposta é o flagrante esperado (E), porque a polícia só aguardou o crime acontecer, sem induzir João a praticá-lo. O tema central é a prisão em flagrante, subtema de Prisões em Espécie (Processo Penal). O uso de documento falso é só o contexto da história. A pista de origem (Direito Constitucional) está errada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 940,
+  "cache_w": 13847,
+  "cache_r": 20512,
+  "custo_usd": 0.1428914
+ }
+}

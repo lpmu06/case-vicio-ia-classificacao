@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5544",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": "5546",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam das etapas da cadeia de custódia previstas nos arts. 158-A a 158-F do CPP (reconhecimento, armazenamento, recebimento, coleta e transporte), incluídos pela Lei 13.964/2019. Por isso a questão pertence ao subtema Cadeia de Custódia (5544), dentro de Provas em Espécies (5543). A alternativa incorreta é a D: o art. 158-C diz que a coleta é feita preferencialmente por perito oficial, e não exclusivamente. A classificação de origem, Ação Penal, está errada.",
+ "id": "Q0226",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão testa as etapas da cadeia de custódia previstas nos arts. 158-A a 158-F do CPP, incluídos pelo Pacote Anticrime: reconhecimento, coleta, transporte, recebimento e armazenamento. Ela se encaixa exatamente no subtema Cadeia de Custódia, dentro de Provas em Espécie, e não em Ação Penal, que era a classificação de origem e está errada. A alternativa D é a incorreta: a coleta é feita preferencialmente por perito oficial, e não exclusivamente, conforme o art. 158-C."
+ },
+ "uso": {
+  "in": 4,
+  "out": 866,
+  "cache_w": 16086,
+  "cache_r": 18208,
+  "custo_usd": 0.1612346
+ }
+}

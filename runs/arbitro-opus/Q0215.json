@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5201",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5572",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a fixação do regime inicial da pena privativa de liberdade (art. 33, §2º, 'b', e §3º, CP): réu primário com pena de 6 anos começa no semiaberto, e a gravidade abstrata do delito não basta para impor regime mais gravoso (Súmulas 718 e 719 do STF e 440 do STJ). A resposta é a alternativa A, e o tema fica em Penas Privativas de Liberdade. O subtema de Processo Penal sobre fixação do regime na sentença (5572) foi descartado porque a regra cobrada é de direito material do CP, e a violência à pessoa mencionada no enunciado só serve para confundir o aluno, sem ligação com dosimetria.",
+ "id": "Q0215",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5199"
+ ],
+ "candidatos_subtemas": [
+  "5201"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 725,
+  "cache_w": 8907,
+  "cache_r": 16390,
+  "custo_usd": 0.095235
+ }
+}

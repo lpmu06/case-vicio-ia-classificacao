@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5562",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.7,
+ "segunda_opcao_id": "5572",
+ "extras_ids": [
+  "5574"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão sobre qual recurso cabe contra absolvição sumária (após resposta preliminar, fato não constitui crime) e seus efeitos vinculativos no juízo cível. O tema central é cabimento de recurso (Recursos em Espécies), não a natureza da sentença absolutória. Subtema específico: Apelação (5562), pois jurisprudência consolidada admite apelação contra absolvição sumária como decisão interlocutória com força de definitiva. Confiança moderada no subtema porque existe debate doutrinário e jurisprudencial se caberia RESE (5561) conforme art. 581, XVI, CPP. Segunda opção é Sentença Penal (5572) ou Sentença Absolutória (5574) apenas se a ênfase fosse em natureza/fundamentos da absolvição; aqui o foco é o instrumento processual de impugnação.",
+ "id": "Q0003",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5572",
+  "confianca_ramo": 0.82,
+  "multi_tema": false,
+  "justificativa": "Questão sobre qual recurso cabe contra absolvição sumária (apelação) e seus efeitos. Tema principal: Recursos em Espécies (cabimento de apelação). Tema secundário: Sentença Penal (efeitos da absolutória). O foco é o instrumento processual de impugnação, não a absolvição sumária em si, pois isso seria procedimento ordinário. Confiança moderada porque existe margem para interpretar a ênfase em efeitos da sentença como mais relevante."
+ },
+ "uso": {
+  "in": 20,
+  "out": 7490,
+  "cache_w": 16136,
+  "cache_r": 12522,
+  "custo_usd": 0.0822832
+ }
+}

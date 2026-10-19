@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5226",
+ "confianca_ramo": 0.7,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5160",
+ "extras_ids": [
+  "5157"
+ ],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema 5218. A resposta correta é a (B). O ponto que decide a questão é o nexo causal: a morte de Túlio veio da pedrada de Lívio, causa absolutamente independente dos disparos (art. 13 CP). Por isso a morte não pode ser imputada a Caio, que responde só por homicídio tentado. Esse assunto corresponde exatamente ao subtema 5226 (Nexo Causal e Imputação Objetiva). A questão também cobra um segundo ponto: a violência empregada durante a subtração, que resultou em morte, configura latrocínio (art. 157, §3º, CP). Por isso a segunda opção é Roubo (5160), dentro de Crimes contra o Patrimônio. A indicação de origem \"Concurso de Crimes\" não corresponde ao que a questão testa.",
+ "id": "Q0159",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5157",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A resposta correta é a (B): homicídio tentado para Caio e latrocínio para Lívio. O eixo da questão é o nexo causal. A morte por concussão cerebral, provocada pela pedrada de Lívio, é uma causa independente dos disparos. Por isso, Caio responde apenas pela tentativa. Esse ponto fica em Fato Típico (nexo causal). A questão também cobra a tipificação da conduta de Lívio: violência empregada durante a subtração para garantir o bem, resultando em morte, configura latrocínio. Por isso, a segunda opção é Crimes contra o Patrimônio. A indicação de origem \"Concurso de Crimes\" não corresponde ao que a questão testa."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1359,
+  "cache_w": 17898,
+  "cache_r": 20512,
+  "custo_usd": 0.18691039999999998
+ }
+}

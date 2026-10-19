@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4380",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "4382",
+ "extras_ids": [
+  "4381"
+ ],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema 4380, Teoria Geral da Criminologia. A questão cobra a natureza da Criminologia: ela é uma ciência empírica e interdisciplinar, que dialoga com a biologia, a psicologia, a estatística e a sociologia. Por isso, a ciência que se afasta dela é a hermenêutica dogmática, que é normativa. A questão não trata de nenhuma escola nem da evolução histórica, o que afasta o tema 4371. Quanto ao subtema, a interdisciplinaridade aparece tanto em 4381 (conceito da Criminologia como ciência interdisciplinar) quanto em 4382 (método interdisciplinar e não normativo). Como há ambiguidade real entre os dois, mantive a classificação no nível 1.",
+ "id": "Q0234",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4380",
+  "segunda_opcao_n1_id": "4371",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão cobra a natureza interdisciplinar da Criminologia e a diferença entre ela, que é uma ciência empírica, e a dogmática jurídica, que é normativa (hermenêutica dogmática). Isso pertence à teoria geral da Criminologia: conceito, autonomia, objeto e método. O mais provável é o subtema \"Conceito e objeto da Criminologia\" ou \"Métodos e funções\", mas a escolha fica no nível 1 por segurança."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1000,
+  "cache_w": 8712,
+  "cache_r": 20512,
+  "custo_usd": 0.0987634
+ }
+}

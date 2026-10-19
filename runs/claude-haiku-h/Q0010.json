@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4688",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 1,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão exclusivamente sobre crimes contra o meio ambiente (Lei 9.605/1998). As cinco alternativas abordam diferentes aspectos de um mesmo ramo jurídico com eixo comum nítido: tipicidade de poluição sonora, natureza permanente de delitos de vegetação, responsabilidade penal de pessoa jurídica, sistema de dupla imputação (bis in idem) em crimes ambientais e crime omissivo próprio de administração ambiental. Todas convergem para o tema Legislação Especial — Crimes Ambientais, confirmando tema_n1_id = 4688. Não é multi-tema porque há eixo comum explícito. O tema 4688 não possui subtemas, conforme metadados.",
+ "id": "Q0010",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4688",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão exclusivamente sobre crimes contra o meio ambiente (Lei 9.605/1998). Cada alternativa aborda um aspecto diferente do mesmo ramo jurídico: tipicidade de poluição sonora, natureza permanente de crime contra vegetação, responsabilização penal (pessoa jurídica vs física), bis in idem em crimes ambientais, e crime omissivo ambiental. Todas as alternativas convergem no tema de Legislação Especial — Crimes Ambientais. Não configurado multitema. A pista fraca (assunto_origem: Concurso de Crimes) está claramente incorreta."
+ },
+ "uso": {
+  "in": 20,
+  "out": 5722,
+  "cache_w": 9001,
+  "cache_r": 12522,
+  "custo_usd": 0.052032199999999994
+ }
+}

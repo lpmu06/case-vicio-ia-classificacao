@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5149",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.4,
+ "confianca_subtema": 0.1,
+ "segunda_opcao_id": "5138",
+ "extras_ids": [
+  "5154",
+  "5139"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão mistura cinco institutos sem eixo comum: (I) aborto consensual/participação (art. 126, CP – tema 5149, subtema 5154); (II) perigo de contágio venéreo (art. 130, CP – tema 5138, subtema 5139); (III e IV) rixa com resultado lesão grave/morte (art. 137, CP – capítulo autônomo \"Da Rixa\", não coberto por nenhum dos dois temas de nível 1 apresentados, nem por seus subtemas listados); (V) calúnia (art. 138, CP – \"Dos Crimes Contra a Honra\", tema não apresentado nas opções). Nenhum dos dois ramos oferecidos (5149 e 5138) domina o conjunto: cada um cobre apenas 1 dos 5 itens (I e II, respectivamente), enquanto os itens III, IV e V (3 de 5) tratam de institutos estranhos a ambos (rixa e calúnia). Mantenho 5149 como tema principal, por já ter sido a escolha anterior e por cobrir o item de maior \"peso doutrinário\" (aborto, crime contra a vida), com 5138 como segunda opção por cobrir o item II. Não atribuo subtema de nível 2, pois nenhum subtema isolado reflete fielmente o conjunto testado pela questão. Confiança baixa em razão da dispersão temática evidente (multi_tema = true), sendo este um caso limite em que talvez nenhum dos ramos apresentados seja plenamente adequado, já que a maioria dos itens (rixa e calúnia) foge tanto de \"Crimes Contra a Vida\" quanto de \"Crimes Contra a Periclitação da Vida e da Saúde\".",
+ "id": "Q0182",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "grupo_id": "P4",
+  "segundo_grupo_id": null,
+  "fora": false,
+  "confianca": 0.75,
+  "multi_tema": true,
+  "justificativa": "A questão combina itens sobre aborto consensual (participação), contágio de moléstia venérea, rixa com lesão grave/morte e calúnia - todos institutos da Parte Especial relativos a Crimes Contra a Pessoa (vida, lesões, periclitação da vida/saúde, honra), cobertos pelo grupo P4. Não há eixo único de \"concurso de crimes\" (a pista de origem está equivocada); o conjunto se encaixa melhor nos temas de nível 1 de P4."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5149",
+  "segunda_opcao_n1_id": "5138",
+  "confianca_ramo": 0.35,
+  "multi_tema": true,
+  "justificativa": "A questão combina quatro institutos distintos sem eixo único: (I) aborto consensual/participação (art. 126, CP - tema \"Dos Crimes Contra a Vida\"); (II) perigo de contágio venéreo (art. 130, CP - tema \"Dos Crimes Contra a Periclitação da Vida e da Saúde\"); (III e IV) rixa com resultado lesão grave/morte (art. 137, CP - capítulo próprio do Título I, não coberto por nenhum dos subtemas listados em P4, mas tematicamente ligado a risco à vida/integridade em contexto de pluralidade de agentes); e (V) calúnia (art. 138, CP - tema \"Dos Crimes Contra a Honra\"). Como não há instituto comum testado por todas as alternativas, é caso de multi_tema dentro do ramo P4 (Crimes Contra a Pessoa). Escolhi \"Dos Crimes Contra a Vida\" como tema principal por abranger dois dos cinco itens (aborto e o desfecho morte na rixa, que é tratado doutrinariamente em conexão com a proteção à vida), e \"Dos Crimes Contra a Periclitação da Vida e da Saúde\" como segunda opção por cobrir o item sobre contágio venéreo e dialogar com a lógica de perigo presente também na rixa. A confiança é baixa justamente pela dispersão temática da questão."
+ },
+ "uso": {
+  "in": 6,
+  "out": 4041,
+  "cache_w": 13895,
+  "cache_r": 11846,
+  "custo_usd": 0.10885120000000001
+ }
+}

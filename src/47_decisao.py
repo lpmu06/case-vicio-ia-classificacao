@@ -31,7 +31,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from comum import Arvore, RAIZ, carregar_rodada, carregar_questoes, carregar_origem
 
 CLASSIFICADORES = ["claude-opus", "claude-sonnet-h", "claude-sonnet-3n", "claude-haiku-h", "claude-haiku-3n",
-                   "claude-sonnet-plano", "claude-opus-h", "gpt-5.5"]
+                   "claude-sonnet-plano", "claude-opus-h", "gpt-5.5", "jev-h"]
 FORTES = ["claude-opus", "claude-sonnet-h"]
 ARBITRO = "arbitro-opus"
 

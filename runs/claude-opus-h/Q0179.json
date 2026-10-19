@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4368",
+ "subtema_n2_id": "4369",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "4374",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a classificação da prevenção do delito em primária, secundária e terciária, segundo García-Pablos de Molina. A prevenção secundária é dirigida a grupos ou subgrupos de risco e usa instrumentos como o controle dos meios de comunicação, a ordenação urbana e a atuação policial. Isso corresponde exatamente ao subtema 4369 (Sistemas de Prevenção), dentro do tema 4368 (Criminologia no Estado Democrático de Direito).",
+ "id": "Q0179",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4368",
+  "segunda_opcao_n1_id": "4374",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão cobra a classificação da prevenção do delito em primária, secundária e terciária, segundo García-Pablos de Molina. A prevenção secundária é dirigida a grupos ou subgrupos de risco e atua por meio de medidas como o controle dos meios de comunicação, a ordenação urbana e a atuação policial. Por isso, o assunto pertence ao subtema Sistemas de Prevenção, dentro do tema Criminologia no Estado Democrático de Direito."
+ },
+ "uso": {
+  "in": 4,
+  "out": 926,
+  "cache_w": 9011,
+  "cache_r": 20512,
+  "custo_usd": 0.1000084
+ }
+}

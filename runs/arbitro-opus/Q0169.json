@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5492",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.82,
+ "segunda_opcao_id": "5583",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas cobram as hipóteses legais de impedimento e suspeição do juiz (CPP, arts. 252 a 256). O gabarito é a C, que reproduz o art. 255. A A erra o grau de parentesco (o art. 253 vai só até o terceiro grau), a B é caso de impedimento e não de suspeição (art. 252, III), a D é caso de suspeição e não de impedimento (art. 254, V) e a E contraria o art. 256. O subtema 5492 inclui expressamente esses dispositivos e o rol de impedimentos. Sujeitos do Processo (5583) seria a alternativa por tratar do juiz, mas aqui o foco é a imparcialidade e as causas de afastamento, que é o núcleo da exceção de suspeição e impedimento.",
+ "id": "Q0169",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5490"
+ ],
+ "candidatos_subtemas": [
+  "5492"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 939,
+  "cache_w": 7480,
+  "cache_r": 16390,
+  "custo_usd": 0.086961
+ }
+}

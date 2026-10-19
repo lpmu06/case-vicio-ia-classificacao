@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5079",
+ "subtema_n2_id": "5086",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.82,
+ "segunda_opcao_id": "5087",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra se o ingresso de chip de celular em presídio se enquadra no art. 349-A do CP, que trata do ingresso de aparelho de comunicação em estabelecimento prisional. Para o STJ, o chip é componente essencial do aparelho, e por isso a conduta se enquadra nesse artigo. As demais alternativas apenas distinguem esse tipo de figuras próximas, como favorecimento pessoal e real e desobediência. O subtema residual 5086 cita expressamente esse artigo. Descartei 5218, porque a tipicidade aqui é só o enquadramento em um tipo da Parte Especial, e não a teoria do fato típico. Descartei 5087, porque o art. 319-A (prevaricação imprópria) se aplica ao agente público que se omite, e não a quem introduz o aparelho.",
+ "id": "Q0223",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5218",
+  "5079",
+  "5087"
+ ],
+ "candidatos_subtemas": [
+  "5086"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 852,
+  "cache_w": 17878,
+  "cache_r": 16390,
+  "custo_usd": 0.17644900000000002
+ }
+}

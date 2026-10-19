@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.82,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5208",
+ "extras_ids": [
+  "5208"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta como pedir livramento condicional para um condenado preso. A resposta correta é a (D): o defensor faz o pedido por simples petição ao juiz da execução, que é o competente para isso (arts. 66, III, 'e', e 131 da LEP). Isso é matéria de Execução Penal (4703), e não de Ação Penal (5466), que veio só da pista de origem. O subtema 5208, de Penal, trata dos requisitos materiais do livramento (art. 83 do CP), que a questão não cobra; por isso ficou só como segunda opção. Habeas corpus, revisão criminal e agravo em execução aparecem apenas como distratores.",
+ "id": "Q0228",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5466",
+  "5199",
+  "4703"
+ ],
+ "candidatos_subtemas": [
+  "5208"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 629,
+  "cache_w": 14696,
+  "cache_r": 16390,
+  "custo_usd": 0.144474
+ }
+}

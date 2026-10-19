@@ -1,34 +1,43 @@
-# Memo para o professor: o que encontramos nos temas e do que precisamos de você
+# Memo para o professor
 
-*Uma página, sem jargão técnico. Escrito por Luis Paulo em 18/10/2026.*
+*O que encontramos nas 359 questões, o que recomendamos mudar nos temas e do que precisamos de você. Uma página, sem jargão técnico.*
 
 ## O que fizemos
 
-Pegamos 359 questões de Penal, Processo Penal, Legislação Especial e Criminologia e pedimos a dois "leitores" de inteligência artificial, de empresas diferentes, que dissessem em qual tema da nossa árvore cada questão deveria entrar, explicando o porquê. Só publicamos quando os dois concordam e têm alta certeza; quando discordam ou hesitam, a questão vai para a sua fila com as duas sugestões. Resultado: [PREENCHER: N publicadas, N para sua revisão, N sem tema].
+Pedimos a vários "leitores" automáticos, de tamanhos e estratégias diferentes, que dissessem em qual tema cada questão deveria entrar e por quê. Um leitor mais cuidadoso fez a revisão final, sem saber o que os outros tinham dito. Só publicamos quando todos convergem com segurança. Quando hesitam ou discordam, a questão vai para a sua fila com uma sugestão e o motivo da dúvida.
 
-## O que atrapalha a classificação (sua e da máquina)
+| Resultado | Questões |
+|---|---|
+| Publicadas direto para o aluno | «PUB» |
+| Na sua fila de revisão, com sugestão | «REV» |
+| Sem tema na árvore atual | «FORA» |
 
-1. **Temas duplicados.** Existem dois "Lei Maria da Penha" (um em Penal, outro em Legislação Especial), dois "Tráfico de Drogas", dois "Lavagem de Dinheiro", duas "Ação Penal" (Penal e Processo Penal), duas "Lei de Execução Penal". Hoje a mesma questão pode cair em qualquer um, e o aluno que estuda um deles não vê as questões do outro. Adotamos o da Legislação Especial e precisamos que você confirme.
-2. **Temas que são nomes de aula, não de assunto.** "Teoria da Pena (Parte 1)", "(Parte 2)", "Competência (Parte 1)", "Recursos (Parte 03)" e mais 20 parecidos vieram de uma importação e não dizem ao aluno o que ele vai estudar. Sugerimos desativá-los e mover as questões para os temas de verdade.
-3. **Temas-lixeira.** "Sistemas e Princípios Processuais Penais" (538 questões), "Introdução ao Estudo do Direito Penal" (424, das quais 310 em "Conceito e Fontes") e "Teoria Geral das Prisões" (359) acumulam questões que não são sobre princípios nem sobre introdução. Elas estão lá porque era o lugar "menos errado". Vale uma passada sua nesses três.
-4. **Temas sem descrição.** 337 dos 377 temas não têm uma linha dizendo o que entra e o que não entra. Escrevemos uma proposta de descrição, palavras-chave, artigos de lei e "não confundir com" para cada um (arquivo `data/temas_enriquecidos.json`). Precisa da sua revisão, principalmente nas fronteiras difíceis: "Fato Típico" × "Tipicidade"; "Culpabilidade" × "Inimputabilidade"; "Princípios do Direito Penal" × "Tipicidade" (princípio da insignificância); em Criminologia, "Teorias de Nível Sociológico" × "Teorias Criminológicas em Espécie".
-5. **Questões sem tema central.** Algumas questões têm cada alternativa sobre um crime diferente (falsidade, abuso de autoridade, calúnia...). Não existe tema certo para elas. Proposta: publicar no tema mais amplo (nível 1) ou criar uma marcação "miscelânea" para o aluno saber o que esperar.
-6. **Pequenos erros de grafia** nos títulos ("Escolas Crimonológicas", "Estaturo de Idoso", "Comeptência Territorial", "Caractéristas", "Crimescontra"), e títulos com números soltos ("12 Disposições Gerais…", "2 Oferecimento…").
+Estimamos que cerca de «PREC_TXT» das publicadas estão no tema certo. Não tínhamos gabarito, então essa é uma estimativa, e a explicamos no relatório.
+
+## O que atrapalha a classificação, sua e da máquina
+
+1. **Temas duplicados.** Há dois "Lei Maria da Penha", dois "Tráfico de Drogas", dois "Lavagem de Dinheiro", duas "Ação Penal" e duas "Lei de Execução Penal". O aluno que estuda um não vê as questões do outro. Usamos sempre o da Legislação Especial e precisamos que você confirme.
+2. **Temas com nome de aula.** "Teoria da Pena (Parte 1)", "Competência (Parte 2)", "Recursos (Parte 03)" e outros 17 vieram de uma importação e não dizem o que o aluno vai estudar. Não publicamos nada neles.
+3. **Temas-lixeira.** "Sistemas e Princípios Processuais Penais", "Introdução ao Estudo do Direito Penal" e "Teoria Geral das Prisões" acumulavam centenas de questões que não são sobre princípios nem introdução. Elas estavam lá por ser o lugar menos errado.
+4. **Fronteiras que confundem.** Os leitores automáticos divergiram sempre nos mesmos pares: «PARES_MEMO». Onde o senhor guarda, por exemplo, uma questão de progressão de regime: em Execução Penal ou em Teoria da Pena? Essas convenções não estão escritas em lugar nenhum, e são a principal fonte de erro que não conseguimos medir.
+5. **Temas sem descrição.** 337 dos 377 temas não dizem o que entra e o que não entra. Escrevemos uma proposta para cada um, com descrição, palavras-chave, artigos de lei e "não confundir com", no arquivo `data/temas_enriquecidos.json`.
+6. **Questões sem tema central.** Em «MULTI» questões, cada alternativa cobra um crime diferente. Não existe tema certo para elas; hoje vão para a sua fila.
+7. **Pequenos erros de grafia** nos títulos: "Escolas Crimonológicas", "Estaturo de Idoso", "Comeptência Territorial", "Caractéristas", "Crimescontra", e números soltos como "12 Disposições Gerais".
 
 ## O que recomendamos mudar
 
-- Desativar os temas "(Parte N)" e as cópias duplicadas; manter um único nó por assunto.
-- Adotar a regra "o aluno que estuda o tema vê os subtemas" também na classificação: quando a questão é genérica do tema, ela fica no tema, não forçada em um subtema.
-- Aprovar as descrições propostas (ou corrigi-las) para os temas de fronteira difícil. Isso melhora tanto a máquina quanto a consistência entre professores.
-- Olhar primeiro as três lixeiras: são as que mais confundem o aluno.
+- Desativar os temas "(Parte N)" e as cópias duplicadas, mantendo um único tema por assunto.
+- Escrever, para cada fronteira da lista do item 4, uma regra de uma linha ("progressão de regime vai em Execução Penal"). Isso vale para a máquina e para a consistência entre professores.
+- Revisar as descrições propostas, começando pelos temas de fronteira.
+- Criar uma marcação "miscelânea" para as questões sem tema central, ou decidir que elas ficam no tema mais amplo.
 
 ## Do que precisamos de você
 
 | Pedido | Tempo estimado |
 |---|---|
-| Confirmar a escolha "Legislação Especial" para os temas duplicados | 10 min |
-| Revisar a fila de [PREENCHER N] questões marcadas "revisar", cada uma com duas sugestões e o motivo da dúvida | ~1 min por questão |
-| Validar as descrições dos [PREENCHER] temas de fronteira difícil | 1 h |
-| Decidir o destino das questões "multi-tema" | 15 min |
+| Confirmar a escolha da Legislação Especial nos temas duplicados | 10 minutos |
+| Responder as regras de fronteira do item 4 | 30 minutos |
+| Revisar a fila de «REV» questões, cada uma com sugestão e motivo | cerca de 1 minuto por questão |
+| Validar as descrições dos temas de fronteira | 1 hora |
 
-Com isso, a próxima rodada publica mais questões com a mesma segurança, e a sua fila fica menor.
+Com essas respostas, a próxima rodada publica mais questões com a mesma segurança, e a sua fila fica menor.

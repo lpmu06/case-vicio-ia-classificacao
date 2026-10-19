@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.82,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5187",
+ "extras_ids": [
+  "5187"
+ ],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema Recursos em Espécies, no subtema RESE. A narrativa sobre a suspensão do processo e da prescrição (art. 366 do CPP e Súmula 415 do STJ) é só o contexto. O item pergunta qual recurso o promotor deve usar contra a decisão que extingue a punibilidade e em que prazo. A resposta é o recurso em sentido estrito (art. 581, VIII, do CPP), no prazo de 5 dias (art. 586 do CPP). Fica como segunda opção o subtema de Contagem dos Prazos e Causas Suspensivas e Interruptivas da Prescrição, porque a suspensão do prazo prescricional (art. 366 e Súmula 415) aparece no enunciado e pode pesar no julgamento do item.",
+ "id": "Q0183",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5185",
+  "confianca_ramo": 0.8,
+  "multi_tema": false,
+  "justificativa": "O caso narrado (art. 366 do CPP e Súmula 415 do STJ) serve de contexto. O que o item pergunta é qual recurso cabe e em que prazo contra a decisão que extingue a punibilidade. A resposta é o recurso em sentido estrito (art. 581, VIII, do CPP), com prazo de 5 dias (art. 586). Por isso o tema é Recursos em Espécies, no subtema RESE. A segunda opção é Prescrição, porque o cálculo da suspensão do prazo prescricional aparece na narrativa."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1369,
+  "cache_w": 14999,
+  "cache_r": 20512,
+  "custo_usd": 0.16169840000000002
+ }
+}

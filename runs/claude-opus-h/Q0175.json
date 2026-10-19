@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5092",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.82,
+ "segunda_opcao_id": "5091",
+ "extras_ids": [
+  "5091",
+  "5093"
+ ],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema 5087 e escolho o subtema 5092 (Corrupção Passiva). João é funcionário público e solicitou vantagem indevida para liberar o condutor. Esse verbo caracteriza corrupção passiva (art. 317 do CP), e não concussão, que exige o verbo exigir. A resposta correta é a alternativa C. As alternativas com concussão e corrupção ativa só servem para confundir o aluno. A descrição do 5092 já cobre a diferença em relação à concussão. Quem responde por corrupção ativa é o condutor, não João. Deixo como segunda opção o 5091, por causa dessa comparação. O crime de trânsito aparece só no contexto da história.",
+ "id": "Q0175",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.96,
+  "multi_tema": false,
+  "justificativa": "A questão testa a diferença entre corrupção passiva (solicitar vantagem indevida, art. 317 do CP) e concussão (exigir, art. 316). Como João solicitou o valor, sem impor nada, o crime é corrupção passiva: alternativa C. Os dois crimes são subtemas de Crimes Contra a Administração Pública. Classifiquei no nível 1 porque a questão compara os dois institutos. O crime de trânsito aparece só no contexto da história."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1000,
+  "cache_w": 12519,
+  "cache_r": 20512,
+  "custo_usd": 0.1323494
+ }
+}

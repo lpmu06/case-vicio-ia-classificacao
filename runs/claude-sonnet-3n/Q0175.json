@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5092",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5091",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O enunciado emprega expressamente o verbo \"solicitou\" (João solicitou dinheiro ao condutor), elementar típica da corrupção passiva (art. 317, CP), e não \"exigiu\", que caracterizaria concussão (art. 316, CP). A proposta foi aceita e paga voluntariamente, sem intimidação ou constrangimento, reforçando o enquadramento em corrupção passiva, sendo o gabarito correto a alternativa (C). Mantém-se o tema de nível 1 \"Dos Crimes Contra a Administração Pública\" (5087), mas o subtema correto, diante da distinção verbal expressamente cobrada pela questão, é Corrupção Passiva (5092), e não Concussão e Excesso de Exação (5091).",
+ "id": "Q0175",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "fora": false,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão testa a distinção entre concussão e corrupção passiva (exigência vs. solicitação de vantagem indevida por funcionário público), institutos dos Crimes Contra a Administração Pública (art. 316 e 317 do CP), tema de nível 1 dentro do grupo P8."
+ },
+ "estagioB": {
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5079",
+  "fora": false,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão exige distinguir concussão (art. 316, CP) de corrupção passiva (art. 317, CP), ambos subtemas de \"Dos Crimes Contra a Administração Pública\" (5087). O agente público, valendo-se do poder de autuar infração de trânsito, exige (intimida) a vantagem indevida, caracterizando concussão. É tema de nível 1 do grupo P8, coerente com a classificação anterior."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1469,
+  "cache_w": 22604,
+  "cache_r": 4053,
+  "custo_usd": 0.11941959999999999
+ }
+}

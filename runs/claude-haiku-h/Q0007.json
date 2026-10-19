@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5063",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão que testa exclusivamente a classificação da ação penal (ação pública incondicionada, pública condicionada, privada) aplicável aos crimes de ameaça, injúria e perseguição. O eixo central é único e bem definido: qual espécie de ação penal se aplica a cada crime. A questão envolve ameaça e injúria como ações penais privadas, e perseguição como ação penal pública incondicionada. Pertence claramente ao tema 5063 \"Ação Penal\" (Direito Penal Material), não Processo Penal. Não se escolhe subtema específico porque a questão abrange ambos (ações privadas em 5065 e ação pública em 5064), permanecendo no tema genérico 5063.",
+ "id": "Q0007",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5063",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre classificação da ação penal (ação pública incondicionada, pública condicionada, privada) aplicável aos crimes de ameaça, injúria e perseguição. É conteúdo típico de Direito Penal Material, não Processo Penal. O eixo central é único: qual tipo de ação penal se aplica a cada crime (questão de titularidade e condições de exercício). Encaixa-se no tema 5063 \"Ação Penal\" do ramo Penal."
+ },
+ "uso": {
+  "in": 20,
+  "out": 10439,
+  "cache_w": 9543,
+  "cache_r": 12522,
+  "custo_usd": 0.07725119999999999
+ }
+}

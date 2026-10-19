@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": "5523",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5522",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o reforço da fiança. O art. 340, III, do CPP exige reforço quando a classificação do delito for inovada, então o gabarito é Certo. Fiança é instituto da liberdade provisória (arts. 322 a 350 do CPP), por isso o subtema 5523. A Ação Penal (5466) foi descartada porque só aparece no assunto de origem, que é uma pista fraca, e nada tem a ver com o que se cobra.",
+ "id": "Q0238",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5466",
+  "5517"
+ ],
+ "candidatos_subtemas": [
+  "5523"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 537,
+  "cache_w": 11816,
+  "cache_r": 16390,
+  "custo_usd": 0.11727599999999999
+ }
+}

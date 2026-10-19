@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5079",
+ "subtema_n2_id": "5081",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5087",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa exclusivamente sobre o crime de falso testemunho (art. 342 CP): natureza de crime de mão própria, sujeitos ativos (incluindo parentes do reclamante não compromissados), elemento subjetivo, exigência de potencial dano à administração da justiça e possibilidade/impossibilidade de retratação. Todas as alternativas giram em torno desse único tipo penal, que corresponde exatamente ao subtema \"Falso Testemunho ou Falsa Perícia e Corrupção Ativa de Testemunha ou Perito\" (5081), dentro do tema \"Dos Crimes Contra a Administração Judicial\" (5079). Não se trata de crime contra a Administração Pública em geral (5087), pois o bem jurídico tutelado é a regularidade da prova e da função jurisdicional, não a probidade administrativa.",
+ "id": "Q0176",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "Falso testemunho (art. 342 CP) é crime contra a administração da justiça, enquadrado em \"Dos Crimes Contra a Administração Judicial\", integrante do grupo P8. A pista de origem (Concurso de Crimes) é equivocada, pois a questão não trata de concurso de crimes."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5079",
+  "segunda_opcao_n1_id": "5087",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente do crime de falso testemunho (art. 342 CP), analisando sua natureza (crime de mão própria), sujeitos ativos, elemento subjetivo, dano potencial à administração da justiça e retratação. Todas as alternativas giram em torno do mesmo instituto, que se enquadra em \"Dos Crimes Contra a Administração Judicial\" (subtema \"Falso Testemunho ou Falsa Perícia...\"). A pista de origem (Concurso de Crimes) não corresponde ao conteúdo testado."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1360,
+  "cache_w": 21514,
+  "cache_r": 7993,
+  "custo_usd": 0.11460859999999999
+ }
+}

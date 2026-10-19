@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5484",
+ "extras_ids": [
+  "5482",
+  "5484",
+  "5483"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão monofocal em Competência Criminal (5480) testando a interação integrada de três critérios: (1) competência em razão da matéria — crime federal contra bens da União (CF, art. 109; 5482); (2) competência por prerrogativa de função — prefeito municipal perante TJ estadual (CF, art. 29, X; 5484), com análise de persistência após cessação do mandato (Súmula 704 STF); (3) competência territorial — domicílio/residência do réu como critério subsidiário (CPP, arts. 70-71; 5483). A questão apresenta uma estrutura integrada em torno de um eixo único (foro competente para autoridade municipal em diferentes cenários), sem fragmentação em múltiplos eixos temáticos independentes. Resposta correta: alternativa (A), apenas II, III e IV. Subtema deixado null por tratar-se de questão que demanda conhecimento convergente de múltiplos subtemas, apropriada para aluno que estuda Competência em nível 1.",
+ "id": "Q0004",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP3",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa exclusivamente o tema Competência (Processo Penal), abordando competência material (crimes federais vs. estaduais) e competência funcional (foro por prerrogativa de função de prefeito municipal). O grupo PP3 (Competência, questões e processos incidentes, comunicação dos atos) é o mais adequado. Confiança alta pois a questão está claramente circunscrita a regras de competência processual penal, sem múltiplos temas."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5480",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão monofocal sobre Competência Criminal (tema 5480), testando três critérios: (1) competência em razão da matéria — crimes federais vs. estaduais, com envolvimento de bens da União (TRF vs. TJ); (2) competência por prerrogativa de função — foro por mandato eletivo de prefeito municipal; (3) competência territorial — domicílio/residência do acusado como critério subsidiário (art. 70, CPP). Todos os elementos estão circunscritos à disciplina de competência processual penal, sem incursões em outras matérias ou múltiplos eixos temáticos. Confiança alta."
+ },
+ "uso": {
+  "in": 3632,
+  "out": 14358,
+  "cache_w": 11097,
+  "cache_r": 4639,
+  "custo_usd": 0.1062959
+ }
+}

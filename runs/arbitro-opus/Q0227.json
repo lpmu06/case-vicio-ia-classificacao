@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": "5103",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.72,
+ "segunda_opcao_id": "5102",
+ "extras_ids": [
+  "4709"
+ ],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas giram em torno do mesmo eixo: o estupro e o estupro de vulnerável. Elas cobram a qualificadora pela morte (A, B, C) frente ao concurso com homicídio, a distinção entre estupro de vulnerável e violação sexual mediante fraude no caso da vítima inconsciente (E) e o concurso do art. 217-A com o art. 240 do ECA, ambos majorados pela condição de tio (D, que é a correta). A pista de origem 'Lesão Corporal' é enganosa, porque nenhuma alternativa trata desse crime; o ECA aparece só de forma acessória, por isso entra como extra.",
+ "id": "Q0227",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5102"
+ ],
+ "candidatos_subtemas": [
+  "5103"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 996,
+  "cache_w": 8805,
+  "cache_r": 16390,
+  "custo_usd": 0.099566
+ }
+}

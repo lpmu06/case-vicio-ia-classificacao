@@ -23,7 +23,9 @@ c32 = importlib.import_module("32_classificar_3niveis")
 
 RODADAS = [("claude-opus", "plano", "Opus 5.5"), ("claude-sonnet-h", "2 estágios", "Sonnet 5"),
            ("claude-sonnet-3n", "3 estágios", "Sonnet 5"), ("claude-haiku-h", "2 estágios", "Haiku 4.5"),
-           ("claude-haiku-3n", "3 estágios", "Haiku 4.5"), ("gpt-5.5", "plano", "GPT-5.5 (parcial)")]
+           ("claude-haiku-3n", "3 estágios", "Haiku 4.5"), ("gpt-5.5", "plano", "GPT-5.5 (parcial)"),
+           ("claude-sonnet-plano", "plano", "Sonnet 5 (amostra 80)"), ("claude-opus-h", "2 estágios", "Opus 5.5 (amostra 80)"),
+           ("jev-h", "2 estágios", "Jev")]
 
 
 def prompts_por_questao(A, enr, metodo, q, bruto, cache):

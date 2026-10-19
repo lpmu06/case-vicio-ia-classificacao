@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5222",
+ "extras_ids": [
+  "4708"
+ ],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema 5218 (Teoria do Crime: Fato Típico) e escolho o subtema 5224 (Erro de Tipo). A questão pergunta o que acontece com quem age em erro de tipo essencial. Pelo art. 20 do CP, esse erro sempre exclui o dolo, e a punição por culpa só é possível quando a lei prevê a forma culposa. O tráfico de drogas não tem forma culposa, então a conduta é atípica: resposta (A). O tráfico é só o cenário da história. Os temas 5222 (dolo e culpa) e 4708 (Lei de Drogas) aparecem como apoio, mas não são o assunto principal.",
+ "id": "Q0231",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "4708",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão cobra as consequências do erro de tipo essencial (art. 20 do CP): ele sempre exclui o dolo e permite punir por culpa só se existir a forma culposa. Como o tráfico de drogas não tem modalidade culposa, a conduta é atípica. O tráfico é apenas o contexto da história; o instituto testado é o erro de tipo, que fica em Teoria do Crime: Fato Típico (subtema Erro de Tipo)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 937,
+  "cache_w": 24398,
+  "cache_r": 4078,
+  "custo_usd": 0.2216256
+ }
+}

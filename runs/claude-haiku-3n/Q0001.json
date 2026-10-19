@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5527",
+ "extras_ids": [
+  "5528"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão que aborda institutos interconectados do Tribunal do Júri (desaforamento, impronúncia, absolvição sumária, desclassificação), cobrindo aspectos de múltiplos subtemas dentro do procedimento especial bifásico. Três das quatro assertivas tratam especificamente das decisões que encerram a primeira fase (impronúncia, absolvição sumária, desclassificação) — escopo de 5527; porém, a assertiva I sobre desaforamento pertence a 5528. Esta distribuição entre subtemas torna apropriada a classificação no tema de nível 1 (5524), garantindo acesso para alunos que estudem qualquer aspecto do procedimento do júri. Classificação inequívoca em Processo Penal > Procedimento do Tribunal do Júri, sem subtema específico.",
+ "id": "Q0001",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP6",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão que aborda exclusivamente o Procedimento do Tribunal do Júri, testando conhecimento sobre institutos processuais específicos: desaforamento (art. 426 do CPP), impronúncia (art. 581, II), absolvição sumária (art. 415) e desclassificação. Todas as quatro assertivas tratam de aspectos do mesmo procedimento, sem divergência de ramo disciplinar. Classificação clara em PP6 (Procedimentos > Tribunal do Júri) dentro de Processo Penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão que aborda exclusivamente institutos processuais do Tribunal do Júri na fase de formação da culpa: desaforamento (art. 426 CPP), impronúncia (art. 581, II CPP), absolvição sumária (art. 415 CPP) e desclassificação. Todas as quatro assertivas tratam de decisões interconectadas no mesmo procedimento especial, testando conhecimento detalhado sobre o rito bifásico do júri. Classificação clara e inequívoca em 5524 (Procedimento do Tribunal do Júri) dentro de Processo Penal."
+ },
+ "uso": {
+  "in": 30,
+  "out": 8046,
+  "cache_w": 16197,
+  "cache_r": 4639,
+  "custo_usd": 0.08065589999999999
+ }
+}

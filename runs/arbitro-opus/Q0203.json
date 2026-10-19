@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "4702",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5490",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O item cobra as medidas assecuratórias da Lei 9.613/1998 (art. 4º), aplicadas a bens registrados em nome de interpostas pessoas. A descrição do tema 4702 inclui expressamente essas medidas. Não classifiquei em Processo Penal (5490, medidas assecuratórias do CPP) porque a questão se apoia no regime próprio da lei de lavagem. O tema não tem subtemas.",
+ "id": "Q0203",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4702"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 532,
+  "cache_w": 3572,
+  "cache_r": 16390,
+  "custo_usd": 0.044496999999999995
+ }
+}

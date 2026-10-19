@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5517",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O item cobra o art. 50 da Lei 11.343/2006, segundo o qual a autoridade policial deve comunicar a prisão em flagrante ao juiz imediatamente, e não em cinco dias; por isso o gabarito é Errado. Essa regra faz parte do procedimento especial da Lei de Drogas (arts. 50 a 59), que está coberto pelo tema 4708. Descartei Concurso de Crimes porque o assunto de origem está errado. Prisão em Flagrante (5517) ficou como segunda opção, porque a regra é específica da lei especial.",
+ "id": "Q0184",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5066",
+  "4708"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 690,
+  "cache_w": 6258,
+  "cache_r": 16390,
+  "custo_usd": 0.07123399999999999
+ }
+}

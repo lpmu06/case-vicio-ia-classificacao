@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema 4703. A questão cobra os arts. 12 a 26 da LEP, que tratam da assistência ao preso e ao egresso: assistência material (art. 13), assistência à saúde (art. 14), ensino fundamental obrigatório integrado ao sistema escolar da unidade federativa (art. 18), conceito de egresso (art. 26) e alojamento e alimentação do egresso por dois meses, prazo que pode ser prorrogado uma vez (art. 25, parágrafo único). O gabarito é a alternativa A. Esses dispositivos estão entre os listados no tema 4703, que não tem subtemas, por isso subtema_n2_id fica null. A segunda opção, Teoria da Pena, não serve, porque a questão não trata da pena imposta pelo CP, e sim da execução regulada pela LEP.",
+ "id": "Q0164",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão cobra dispositivos da LEP sobre a assistência ao preso e ao egresso: assistência material, à saúde e educacional, o conceito de egresso e o alojamento e alimentação do egresso (arts. 12 a 26). Pelo critério de que execução penal se classifica em Legislação Especial, o tema é Lei de Execução Penal. O assunto de origem (Teoria da Pena) deve ser desconsiderado. Gabarito: A (art. 25, parágrafo único)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 918,
+  "cache_w": 12785,
+  "cache_r": 20512,
+  "custo_usd": 0.1331664
+ }
+}

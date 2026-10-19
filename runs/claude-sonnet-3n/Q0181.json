@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4695",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.62,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4687",
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "A questão mistura condutas da Lei 8.176/91 (itens I, II e IV — usurpação de matéria-prima/combustíveis, tecnicamente \"crimes contra a ordem econômica\", embora a doutrina/jurisprudência frequentemente os equipare a crimes contra a ordem tributária) com o item III, que é expressamente crime contra a ordem tributária (art. 1º, V, Lei 8.137/90 — negativa de nota fiscal). O enunciado chama todas de \"crime contra a ordem tributária\", e a resposta correta (E) exige reconhecer que todos os itens se enquadram nessa categoria ampliada. Como não há tema específico de \"crimes contra ordem econômica\" oferecido e o enunciado trata tudo como ordem tributária, mantenho 4695 como melhor ajuste, mas com confiança reduzida por envolver também o núcleo de usurpação de bem da União (item IV), que é atípico em relação ao conteúdo central do tema (sonegação/fraude fiscal). Não há subtema no tema 4695.",
+ "id": "Q0181",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE3",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata de crimes contra a ordem tributária (Lei 8.137/90 e dispositivos correlatos sobre combustíveis e petróleo), exigindo conhecimento específico de Crimes Tributários, tema integrante do grupo LE3 (Crimes econômicos, tributários, financeiros...). Não se trata de concurso de crimes, apesar da pista fraca de origem."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4695",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata de condutas tipificadas como crimes contra a ordem tributária, incluindo os incisos específicos relativos a combustíveis (art. 1º da Lei 8.176/91, equiparado a crime contra a ordem tributária) e a negativa de emissão de nota fiscal (art. 1º, V, Lei 8.137/90). O eixo central é a ordem tributária, não concurso de crimes, enquadrando-se no tema Crimes Tributários (4695)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2075,
+  "cache_w": 8119,
+  "cache_r": 9542,
+  "custo_usd": 0.060897400000000004
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5128",
+ "subtema_n2_id": "5133",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5166",
+ "extras_ids": [
+  "5157"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão apresenta quatro alternativas sobre institutos distintos: invasão de dispositivo informático (B e D), pornografia infantil/ECA (A) e fraude eletrônica/estelionato (C). A alternativa correta é a B, que trata especificamente de invasão de dispositivo informático (art. 154-A CP): o agente acessa computador alheio desprotegido na ausência do colega e copia fotos íntimas, consumando o crime previsto na Seção \"Dos Crimes contra a Inviolabilidade dos Segredos\" do Capítulo VI (Crimes Contra a Liberdade Individual). Esse capítulo corresponde ao tema de nível 1 \"Dos Crimes Contra a Liberdade Pessoal\" (5128), cujo subtema 5133 lista expressamente invasão de dispositivo informático, dados informáticos e dispositivo alheio como palavras-chave, e cita o art. 154-A CP entre os dispositivos legais. Como o gabarito recai precisamente sobre esse instituto, mantenho 5128/5133 como classificação principal. A alternativa D (sobre ação penal) também seria do mesmo subtema, mas está incorreta (a ação é pública condicionada, salvo contra administração pública). A alternativa C versa sobre fraude eletrônica/estelionato (art. 171, §2º-A, CP), tema que pertence a 5157 (subtema 5166), por isso mantenho como segunda opção e extra. Não há eixo único entre as alternativas (liberdade pessoal, ECA e patrimônio), por isso marco multi_tema = true, mas o eixo do gabarito correto é claramente 5128/5133.",
+ "id": "Q0174",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P4",
+  "segundo_grupo_id": "P5",
+  "confianca": 0.45,
+  "multi_tema": true,
+  "justificativa": "A questão reúne, em alternativas distintas, institutos diversos sem eixo comum único: invasão de dispositivo informático (art. 154-A CP, duas alternativas - B e D), estelionato/fraude eletrônica (art. 171, §2º-A CP) e pornografia infantil na internet (art. 241-A ECA). O núcleo testado com mais peso (duas alternativas) é o crime de invasão de dispositivo informático, tipificado no Capítulo dos crimes contra a liberdade individual (Seção dos crimes contra a inviolabilidade dos segredos), que se enquadra em \"Dos Crimes Contra a Liberdade Pessoal\" (grupo P4). A alternativa sobre fraude eletrônica remete a crimes contra o patrimônio (P5), e a sobre art. 241-A remeteria a Legislação Especial (violência contra criança/adolescente). Por não haver um único tema de nível 1 que abranja todas as opções, marco multi_tema e escolho P4 como melhor eixo predominante, com P5 como segunda opção."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5128",
+  "segunda_opcao_n1_id": "5157",
+  "confianca_ramo": 0.6,
+  "multi_tema": true,
+  "justificativa": "A questão reúne institutos diversos sem eixo único: invasão de dispositivo informático (art. 154-A CP - alternativas B e D, correta sendo a B), fraude eletrônica/estelionato (art. 171 §2º-A CP - alternativa C) e pornografia infantil na internet (art. 241-A ECA - alternativa A). A alternativa correta (B) trata de invasão de dispositivo informático, crime inserido no Código Penal na Seção \"Dos Crimes contra a Inviolabilidade dos Segredos\", dentro do Capítulo dos Crimes Contra a Liberdade Individual, que corresponde ao tema de nível 1 \"Dos Crimes Contra a Liberdade Pessoal\" (P4/5128), cujo subtema expressamente lista \"Dos Crimes contra a Inviolabilidade do Domicílio, Contra a Inviolabilidade da Correspondência e Contra a Inviolabilidade dos Segredos\". Como o gabarito recai sobre esse instituto específico, mantenho P4 como eixo central, com P5 (Crimes Contra o Patrimônio) como segunda opção por conta da alternativa sobre estelionato/fraude eletrônica."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2943,
+  "cache_w": 21182,
+  "cache_r": 14150,
+  "custo_usd": 0.131971
+ }
+}

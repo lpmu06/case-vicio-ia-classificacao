@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4373",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.65,
+ "segunda_opcao_id": "4385",
+ "extras_ids": [
+  "4385"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão compara a forma como as correntes criminológicas veem o crime, o criminoso e a pena. O gabarito (D) cobra a Escola Clássica, que trata crime e pena como entidades jurídicas abstratas para limitar o poder de punir; as alternativas A e C também contrapõem a Escola Clássica e a Positivista, que é o núcleo do subtema Escolas Criminológicas (4373). As alternativas B e E tocam na criminologia crítica e nos modelos de consenso e de conflito (4385), mas só como distratores, por isso esse tema ficou como segunda opção.",
+ "id": "Q0195",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4371"
+ ],
+ "candidatos_subtemas": [
+  "4373"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 617,
+  "cache_w": 4794,
+  "cache_r": 16390,
+  "custo_usd": 0.056766
+ }
+}

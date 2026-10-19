@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5209",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0.7,
+ "segunda_opcao_id": "5201",
+ "extras_ids": [
+  "5201",
+  "5092"
+ ],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema Teoria da Pena (5199). A corrupção passiva aparece só como cenário: nenhuma alternativa cobra os elementos do tipo. Quatro alternativas tratam dos efeitos da condenação. A trata do poder familiar (art. 92, II, CP), mas esse efeito não é automático e exige crime contra filho; por isso é falsa. B trata do instrumento do crime (art. 91, II, CP); o carro só foi usado para buscar o dinheiro, por isso B tende a ser falsa. D trata da perda alargada de bens (art. 91-A, CP) e é falsa. E trata da perda do cargo (art. 92, I, CP): com abuso de poder, a pena exigida é de pelo menos 1 ano, por isso E é falsa. A alternativa correta tende a ser a C: o art. 33, §4º, do CP condiciona a progressão de regime à reparação do dano nos crimes contra a Administração Pública. Esse ponto pertence ao subtema Penas Privativas de Liberdade (5201), que fica como segunda opção. O eixo predominante da questão é Efeitos da Condenação (5209), por isso mantive esse subtema, com confiança moderada.",
+ "id": "Q0187",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "5087",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A corrupção aparece só como cenário. As alternativas cobram os efeitos da condenação. A trata da incapacidade para o poder familiar (art. 92, II, CP). B trata do confisco do instrumento do crime (art. 91, II, CP). D trata da perda alargada de bens (art. 91-A, CP). E trata da perda do cargo público (art. 92, I, CP). C trata da progressão de regime condicionada à reparação do dano (art. 33, §4º, CP). Todos esses assuntos estão dentro de Teoria da Pena, sobretudo no subtema Efeitos da Condenação Penais e Extrapenais. A segunda opção são os Crimes contra a Administração Pública, porque o caso é de corrupção passiva. Mesmo assim, nenhuma alternativa cobra os elementos do tipo penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1668,
+  "cache_w": 19242,
+  "cache_r": 20512,
+  "custo_usd": 0.2048544
+ }
+}

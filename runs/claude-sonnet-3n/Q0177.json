@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5547",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5583",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam sobre o interrogatório judicial do réu: direito ao silêncio e seus limites de valoração (inclusive na pena-base), entrevista reservada com advogado antes do ato, direito de negar a verdade, recusa a fornecer material grafotécnico e consequência da falta de advertência quanto ao silêncio. O eixo comum é o regime jurídico do ato de interrogatório (art. 185 a 196 CPP e correlatos), o que se encaixa precisamente no subtema \"Interrogatório Judicial\" (5547), dentro do tema de nível 1 \"Provas em Espécies\" (5543). A segunda opção \"Sujeitos do Processo\" (5583) permanece pertinente pela menção à prerrogativa de entrevista reservada com o defensor, mas o núcleo da questão é o ato processual do interrogatório e suas garantias, não a condição subjetiva dos sujeitos processuais em si.",
+ "id": "Q0177",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": "PP1",
+  "confianca": 0.65,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o interrogatório judicial do réu (direito ao silêncio, autodefesa, entrevista reservada com advogado, recusa a fornecer material grafotécnico), que no CPP é tratado como meio de prova/defesa dentro da teoria das provas (interrogatório como prova em espécie), enfeixado no grupo PP4 (Provas). Alternativamente, poderia ser enquadrada em Sujeitos do Processo (PP1), já que trata de garantias do acusado, por isso indico como segunda opção."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5583",
+  "confianca_ramo": 0.8,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas giram em torno do interrogatório judicial do réu como ato processual/meio de prova: direito ao silêncio, entrevista reservada com advogado, direito de negar a verdade, recusa a fornecer material grafotécnico e consequências da falta de advertência quanto ao silêncio. O eixo comum é o regime jurídico do interrogatório (art. 186 e correlatos do CPP), tema que no CPP é tratado como meio de prova em espécie, cabendo no subtema \"Interrogatório Judicial\" dentro do tema de nível 1 \"Provas em Espécies\" (5543). Mantenho como segunda opção \"Sujeitos do Processo\" (5583), pois o conteúdo também envolve garantias e prerrogativas do acusado e de seu defensor, que é tratado nesse tema sob a perspectiva dos sujeitos processuais."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2183,
+  "cache_w": 16019,
+  "cache_r": 14150,
+  "custo_usd": 0.10025200000000001
+ }
+}

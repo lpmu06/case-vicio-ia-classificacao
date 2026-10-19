@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [
+  "5484",
+  "5572",
+  "5185"
+ ],
+ "multi_tema": true,
+ "justificativa": "Não há eixo comum entre as alternativas. A, D e E giram em torno de autoridades com foro e do processamento perante tribunal: juízo de prelibação colegiado contra promotor do DF, imunidade formal do deputado distrital, que é a alternativa incorreta porque a EC 35/2001 aboliu a licença prévia, e exceção da verdade julgada no tribunal (art. 85 do CPP). Já B (aditamento/mutatio libelli) e C (coisa julgada na extinção pela prescrição) cobram outros institutos. Por isso classifiquei em Competência, tema de nível 1, sem subtema, e deixei Ação Penal (a pista de origem) como segunda opção, porque nenhuma alternativa trata de fato de titularidade ou espécie de ação.",
+ "id": "Q0172",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5480",
+  "5466"
+ ],
+ "candidatos_subtemas": [
+  "5484"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 1001,
+  "cache_w": 11900,
+  "cache_r": 16390,
+  "custo_usd": 0.127331
+ }
+}

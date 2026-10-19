@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [
+  "5480"
+ ],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema 5560 (Recursos em Espécies) e escolho o subtema 5561 (RESE). A questão cobra três pontos do recurso em sentido estrito. Primeiro, o cabimento: pelo art. 581, II, do CPP, o RESE cabe contra a decisão que conclui pela incompetência do juízo, não pela competência. Por isso a afirmação está errada. Segundo, o prazo de 5 dias, previsto no art. 586. Terceiro, a ausência de efeito suspensivo, regra do art. 584. Os três pontos são do RESE. Competência é só o contexto da pergunta e fica como tema extra.",
+ "id": "Q0235",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão cobra o cabimento, o prazo e os efeitos do recurso em sentido estrito. Pelo art. 581, II, do CPP, o RESE cabe contra a decisão que conclui pela incompetência do juízo, não pela competência. O prazo de 5 dias está no art. 586, e a regra sobre efeito suspensivo, no art. 584. Por isso, o tema central é Recursos em Espécie (subtema RESE), e não Competência. Competência é só o contexto da pergunta, e o assunto de origem confunde os dois."
+ },
+ "uso": {
+  "in": 4,
+  "out": 952,
+  "cache_w": 15202,
+  "cache_r": 20512,
+  "custo_usd": 0.15517039999999999
+ }
+}

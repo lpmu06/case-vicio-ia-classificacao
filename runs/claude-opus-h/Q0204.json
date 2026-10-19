@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5580",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o art. 2º do CPP: o princípio do efeito imediato (tempus regit actum), pelo qual a lei processual nova se aplica desde logo e os atos praticados sob a lei anterior continuam válidos. Esse é exatamente o conteúdo do subtema 5507 (Lei processual no Tempo). A questão não trata de sistemas processuais nem de princípios estruturantes (5580).",
+ "id": "Q0204",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5505",
+  "segunda_opcao_n1_id": "5580",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão cobra o art. 2º do CPP: princípio do efeito imediato (tempus regit actum), com validade dos atos praticados sob a lei anterior. O assunto é a lei processual no tempo, que é o subtema 'Lei processual no Tempo' do tema 5505 (Lei Processual no Tempo e no Espaço)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 718,
+  "cache_w": 9471,
+  "cache_r": 20512,
+  "custo_usd": 0.0999434
+ }
+}

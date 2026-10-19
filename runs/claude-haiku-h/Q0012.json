@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5569",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5539",
+ "extras_ids": [
+  "5561"
+ ],
+ "multi_tema": false,
+ "justificativa": "Questão sobre qual recurso cabe da rejeição de denúncia em Juizado Especial Criminal (Lei 9.099/1995, art. 77). O tema central é identificar o recurso em espécie cabível contra decisão interlocutória naquele âmbito: apelação à Turma Recursal, prazo 10 dias. Tema apropriado: Recursos em Espécies (5560), com subtema específico \"Recursos no Âmbito dos Juizados Especiais\" (5569), que menciona explicitamente apelação no Juizado e prazo de 10 dias. Segunda opção: Procedimento Sumaríssimo (5539), caso se priorizasse o contexto procedimental da rejeição de denúncia; porém o enunciado testa recurso, não procedimento. Confiança alta porque a classificação é clara; leve desconto (0.93) porque a lei especial (Lei 9.099) poderia gerar pequena ambiguidade em rigor didático, mas os metadados confirmam 5569 como subtema ideal.",
+ "id": "Q0012",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5539",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "Questão sobre qual recurso cabe da rejeição de denúncia em Juizado Especial Criminal (Lei 9.099/1995, art. 77). O tema central é o recurso em espécie (apelação vs. recurso em sentido estrito e seus prazos), não o procedimento geral dos Juizados, embora este seja o contexto. Tema apropriado: Recursos em Espécies (5560), com subtema específico \"Recursos no Âmbito dos Juizados Especiais\". Segunda opção: Procedimento Sumaríssimo (5539), pois a rejeição da denúncia integra esse procedimento. Confiança de 0.85 porque a classificação é clara, mas há possibilidade de argumentação por procedimento."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4613,
+  "cache_w": 14408,
+  "cache_r": 12522,
+  "custo_usd": 0.0627432
+ }
+}

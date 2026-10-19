@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5560",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra as consequências da falta grave na execução penal: regressão de regime sem precisar de condenação pelo novo fato (art. 118 da LEP), inclusão no RDD só por decisão judicial (art. 54 da LEP), prazo de prescrição da falta grave e o recurso cabível contra a regressão, que é o agravo em execução no prazo de 5 dias (art. 197 da LEP), e não o RESE. O gabarito é a alternativa E: regressão decidida pelo juízo da execução após procedimento disciplinar com contraditório e ampla defesa. Descartei o Estatuto do Desarmamento, porque a arma é só o cenário, e Recursos em Espécie (Processo Penal), porque o recurso aparece em apenas uma alternativa; o eixo comum é a LEP, que não tem subtemas.",
+ "id": "Q0185",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4703"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 625,
+  "cache_w": 3753,
+  "cache_r": 16390,
+  "custo_usd": 0.04794
+ }
+}

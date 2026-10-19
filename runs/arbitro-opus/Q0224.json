@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5207",
+ "extras_ids": [
+  "5203"
+ ],
+ "multi_tema": false,
+ "justificativa": "Para resolver a questão, o aluno precisa saber duas coisas: o que gera reincidência pelos arts. 63 e 64 do CP (a condenação anterior por contravenção não torna o réu reincidente quando depois comete crime, e a condenação por ameaça ainda está dentro do prazo de 5 anos) e o que diz o art. 77, §1º, do CP (condenação anterior só a multa não impede o sursis). Por isso o gabarito é a alternativa C. Como a questão cobra reincidência (segunda fase, 5203) e sursis (5207) ao mesmo tempo, classifico no tema 5199, Teoria da Pena, sem subtema. Descarto Concurso de Crimes, que veio na pista de origem, porque não há vários crimes no mesmo processo cuja pena precise ser somada ou aumentada.",
+ "id": "Q0224",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5199",
+  "5066"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 1032,
+  "cache_w": 11941,
+  "cache_r": 16390,
+  "custo_usd": 0.128115
+ }
+}

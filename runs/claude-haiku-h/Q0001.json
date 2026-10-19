@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5527",
+ "confianca_ramo": 1,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão exclusivamente sobre Procedimento do Tribunal do Júri. Cobre quatro decisões da primeira fase bifásica: impronúncia (II, III, IV) e desaforamento (I). O núcleo central é [5527] Impronúncia, Desclassificação, Absolvição Sumária e Pronúncia, pois 3 das 4 assertivas tratam exatamente das decisões de primeira fase e suas características jurídicas (natureza terminativa, coisa julgada, recursos cabíveis). A assertiva sobre desaforamento pertence marginalmente a [5528], mas não muda a classificação principal. Confiança no tema 1.0 (Processo Penal está correto); subtema 0.85 (prioridade clara em [5527], com pequena margem para [5528] na assertiva I).",
+ "id": "Q0001",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão exclusivamente sobre Procedimento do Tribunal do Júri (Processo Penal). Todas as assertivas tratam de institutos bifásicos do júri: desaforamento, impronúncia, absolvição sumária e desclassificação. Não há multi-tema, pois o eixo comum é o procedimento do júri. A disciplina_origem está correta. Não há segunda opção viável."
+ },
+ "uso": {
+  "in": 20,
+  "out": 6627,
+  "cache_w": 10303,
+  "cache_r": 12522,
+  "custo_usd": 0.060492199999999996
+ }
+}

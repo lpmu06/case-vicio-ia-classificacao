@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5158",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5159",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata centralmente da imunidade penal absoluta entre ascendentes e descendentes em crime patrimonial (art. 181 do CP), examinando quando a coisa furtada é exclusiva versus comum, e as exceções à imunidade. O eixo é a aplicabilidade das disposições gerais de escusa absolutória (arts. 181–183), não a tipicidade isolada do furto. Embora a ação seja de furto qualificado por rompimento de obstáculo, a pergunta \"qual crime responderá\" remete a um regime jurídico especial (imunidade/representação), caracterizando 5158 como subtema mais apropriado que 5159 (Furto).",
+ "id": "Q0009",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": "5211",
+  "confianca_ramo": 0.78,
+  "multi_tema": false,
+  "justificativa": "A questão trata da distinção entre furto, apropriação indébita e imunidade penal quando há parentesco entre agente e vítima, envolvendo especialmente o art. 173 do CP (isenção de pena para descendentes em crimes patrimoniais contra ascendentes). O tema central é classificar o crime contra o patrimônio praticado, não apenas a imunidade; portanto, \"Dos Crimes Contra o Patrimônio\" é mais apropriado que Culpabilidade, embora esta seja segunda opção válida pela excludente envolvida."
+ },
+ "uso": {
+  "in": 20,
+  "out": 5924,
+  "cache_w": 16362,
+  "cache_r": 12522,
+  "custo_usd": 0.0751312
+ }
+}

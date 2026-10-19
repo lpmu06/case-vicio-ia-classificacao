@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5228",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5231",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta qual elemento do crime os ofendículos afastam. A resposta é a antijuridicidade (A), porque a doutrina os trata como exercício regular de direito ou como legítima defesa preordenada; por isso a questão fica em Teoria do Crime: Ilicitude. Não indiquei subtema: a descrição de Legítima Defesa (5231) menciona os ofendículos, mas há divergência entre essa visão e a do exercício regular de direito, e a pergunta é sobre a categoria (exclusão da ilicitude), o que também se aproxima de Conceito e Elementos da Ilicitude (5229).",
+ "id": "Q0188",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5228"
+ ],
+ "candidatos_subtemas": [
+  "5231"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 762,
+  "cache_w": 5868,
+  "cache_r": 16390,
+  "custo_usd": 0.069164
+ }
+}

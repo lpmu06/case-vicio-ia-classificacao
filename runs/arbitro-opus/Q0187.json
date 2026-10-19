@@ -1,0 +1,31 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5209",
+ "extras_ids": [
+  "5209",
+  "5201"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão trata das consequências da condenação por corrupção passiva. As alternativas A, B, D e E cobram efeitos da condenação (arts. 91, 91-A e 92 do CP), mas a correta é a C: a progressão de regime fica condicionada à reparação do dano nos crimes contra a Administração Pública (art. 33, §4º, do CP), assunto de penas privativas de liberdade. Como o eixo se divide entre os subtemas 5209 e 5201, classifiquei no tema guarda-chuva Teoria da Pena (5199), que abrange os dois, e não nos crimes contra a Administração Pública, porque o tipo penal não é discutido.",
+ "id": "Q0187",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5199"
+ ],
+ "candidatos_subtemas": [
+  "5209"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 990,
+  "cache_w": 9211,
+  "cache_r": 16390,
+  "custo_usd": 0.103225
+ }
+}

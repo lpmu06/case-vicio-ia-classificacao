@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4374",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4377",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata da classificação da prevenção criminal em níveis (primária, secundária e terciária), situando ações como controle dos meios de comunicação e ordenação urbana dirigidas a grupos/subgrupos específicos dentro da prevenção secundária (que, diferentemente da primária — dirigida à sociedade em geral — foca em grupos de risco já identificados, antes da ocorrência do delito). Trata-se de conteúdo clássico de modelos preventivos em Política Criminal (tema 4374), que trata justamente de estratégias estatais/sociais de enfrentamento da criminalidade e seus modelos preventivos. Nenhum dos subtemas listados (Correntes da Política Criminal; Direito Penal do Inimigo) corresponde especificamente à tipologia dos níveis de prevenção, por isso o subtema fica em null, mantendo-se a classificação no nível 1. Como segunda opção, mantenho 4377 (Processos de Criminalização e Cifras Criminais), por também tratar de atuação seletiva do controle social sobre grupos, embora o eixo central da questão seja a tipologia preventiva.",
+ "id": "Q0179",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata dos níveis de prevenção criminal (primária, secundária e terciária), tema típico de Política Criminal, abrangido pelo grupo C2."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4374",
+  "segunda_opcao_n1_id": "4377",
+  "confianca_ramo": 0.6,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre os níveis de prevenção criminal (primária, secundária e terciária) e a classificação de medidas de controle social (controle de meios de comunicação, ordenação urbana) dentro dessa tipologia. Trata-se de conteúdo clássico de Política Criminal, que estuda estratégias estatais e sociais de enfrentamento da criminalidade, incluindo suas correntes e modelos preventivos — por isso o tema 4374 (Política Criminal) é o mais adequado. Como segunda opção, o tema 4377 (Processos de Criminalização e Cifras Criminais) também guarda relação, por tratar da atuação diferenciada do sistema penal sobre grupos sociais, mas o eixo central da questão é a tipologia preventiva, própria de Política Criminal."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2103,
+  "cache_w": 10335,
+  "cache_r": 11846,
+  "custo_usd": 0.0716492
+ }
+}

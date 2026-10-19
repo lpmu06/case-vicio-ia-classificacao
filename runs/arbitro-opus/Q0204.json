@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o art. 2º do CPP: o princípio tempus regit actum, com aplicação imediata da lei processual e preservação da validade dos atos praticados sob a lei anterior. Esse é exatamente o conteúdo do subtema Lei Processual no Tempo. Não há elemento de interpretação, de aplicação espacial nem de Penal material (art. 2º do CP) que justifique outro tema.",
+ "id": "Q0204",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5505"
+ ],
+ "candidatos_subtemas": [
+  "5507"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 411,
+  "cache_w": 4073,
+  "cache_r": 14086,
+  "custo_usd": 0.0465212
+ }
+}

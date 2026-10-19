@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5178",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5179",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a desistência voluntária e o arrependimento eficaz (art. 15 do CP). O gabarito é a alternativa B: o agente responde só pelos atos já praticados, se eles configurarem crime ou contravenção por si sós. As alternativas C, D e E usam o arrependimento posterior (art. 16) e o crime impossível (art. 17) só como pegadinhas, sem mudar o eixo da questão, por isso descartei o subtema Crime Impossível e não marquei como multi-tema.",
+ "id": "Q0233",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5175"
+ ],
+ "candidatos_subtemas": [
+  "5178"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 523,
+  "cache_w": 5828,
+  "cache_r": 16390,
+  "custo_usd": 0.064023
+ }
+}

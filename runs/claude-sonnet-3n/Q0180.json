@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5554",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5584",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A alternativa correta (E) e o enunciado giram em torno dos requisitos constitucionais e legais da busca domiciliar como meio de prova: necessidade de mandado judicial, observância do período diurno (salvo consentimento do morador) e a exceção de flagrante delito para ingresso sem ordem judicial. O núcleo da questão é a licitude da diligência de busca e apreensão de documentos/computadores (prova), não a prisão de João (não há prisão em discussão) nem outro instituto processual. Isso se encaixa exatamente no subtema \"Busca e Apreensão\" (5554), dentro do tema \"Provas em Espécies\" (5543), que trata precisamente de mandado, inviolabilidade de domicílio, flagrante delito e horário de cumprimento como critérios de validade da prova obtida. Mantenho \"Teoria Geral das Prisões\" (5584) apenas como segunda opção, por conexão com a inviolabilidade domiciliar e a menção ao flagrante, mas sem prisão cautelar em jogo, o tema correto é mesmo Provas em Espécies > Busca e Apreensão.",
+ "id": "Q0180",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": "PP5",
+  "confianca": 0.82,
+  "multi_tema": false,
+  "justificativa": "A questão testa os requisitos legais da busca e apreensão domiciliar (necessidade de mandado judicial, horário diurno, exceções de flagrante), tema que se insere em \"Provas em Espécie\" (busca e apreensão), dentro do grupo PP4 (Provas). Não se trata de prisão cautelar, mas sim de meio de obtenção de prova e sua licitude/ilicitude."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5584",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa especificamente os requisitos da busca e apreensão domiciliar (exigência de mandado judicial, horário diurno, exceção de flagrante delito), que é um meio de prova em espécie previsto no CPP (art. 240 e seguintes), subtema \"Busca e Apreensão\" dentro de \"Provas em Espécies\" (5543). O núcleo da pergunta é a licitude/ilicitude da prova obtida pela diligência, não a prisão em si (não há prisão cautelar em discussão, apenas apreensão de bens/documentos). A referência ao flagrante como exceção à inviolabilidade domiciliar é citada apenas como contraponto dentro da alternativa correta, não é o foco da questão. Por isso mantenho \"Provas em Espécies\" (grupo PP4) como tema principal, com \"Teoria Geral das Prisões\" (grupo PP5) como segunda opção por conexão temática com a inviolabilidade de domicílio e flagrante."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1968,
+  "cache_w": 19918,
+  "cache_r": 11846,
+  "custo_usd": 0.1164012
+ }
+}

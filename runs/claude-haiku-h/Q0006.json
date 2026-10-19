@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão que examina regras específicas dos crimes de furto e roubo de forma comparativa: (I) consumação do furto pela contrectatio com inversão de posse; (II) diferenciação entre furto e roubo quando há narcóticos (não violência típica); (III) impossibilidade de tentativa de roubo impróprio. Como a questão compara subtemas 5159 (Furto) e 5160 (Roubo) sem prevalência clara entre eles, permanece classificada em 5157 (Dos Crimes Contra o Patrimônio) como tema amplo. Tema central é exclusivamente direito penal material patrimonial; nenhum aspecto processual ou multi-temático.",
+ "id": "Q0006",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão que examina regras específicas dos crimes de furto e roubo: (I) consumação pela contrectatio; (II) diferenciação entre furto e roubo quando há narcóticos (não violência); (III) impossibilidade de tentativa de roubo impróprio. Tema central é exclusivamente direito penal material patrimonial, abarcado completamente por 5157 (Dos Crimes Contra o Patrimônio), que lista explicitamente Furto e Roubo como subtemas. Não há aspectos processuais, multi-temáticos ou elementos fora da árvore."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4764,
+  "cache_w": 13619,
+  "cache_r": 12522,
+  "custo_usd": 0.061092200000000006
+ }
+}

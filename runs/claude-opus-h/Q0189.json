@@ -1,0 +1,35 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5469",
+ "extras_ids": [
+  "5472",
+  "5191",
+  "5196",
+  "5195"
+ ],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema 5466 (Processo Penal > Ação Penal). O item cobra o princípio da disponibilidade da ação penal privada: o querelante pode desistir da ação por perdão ou perempção até o trânsito em julgado da sentença condenatória (art. 106, §2º, do CP; arts. 51 e 60 do CPP). O foco é um princípio da ação penal, e não a perda do poder de punir em si. Por isso fica em Ação Penal, e não em Penal > Punibilidade. Deixei o subtema em null porque há empate real entre dois subtemas: 5469 (Princípios da Ação Penal) e 5472 (Ação Penal de Iniciativa Privada). Os dois listam a disponibilidade entre seus conteúdos. O 5469 é o mais provável e ficou como segunda opção.",
+ "id": "Q0189",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5191",
+  "confianca_ramo": 0.7,
+  "multi_tema": false,
+  "justificativa": "O item cobra o princípio da disponibilidade da ação penal privada: o querelante pode desistir dela, por perdão ou perempção, até o trânsito em julgado da sentença condenatória. O assunto é próprio de Processo Penal > Ação Penal, no subtema Ação Penal de Iniciativa Privada / Princípios da Ação Penal. A segunda opção é Penal > Punibilidade, porque perdão e perempção também são causas de extinção da punibilidade."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1523,
+  "cache_w": 14179,
+  "cache_r": 20512,
+  "custo_usd": 0.15770040000000002
+ }
+}

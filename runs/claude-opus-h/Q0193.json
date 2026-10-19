@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5557",
+ "confianca_ramo": 0.82,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4705",
+ "extras_ids": [
+  "4705"
+ ],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam só do regime da colaboração premiada na Lei 12.850/2013: a instrução prévia do acordo (art. 3º-B, §4º), o que acontece quando o acordo não é celebrado (art. 3º-B, §6º), o perdão judicial pedido pelo MP ou pelo delegado (art. 4º, §2º), os benefícios previstos no art. 4º, caput, e a suspensão do prazo para a denúncia e da prescrição (art. 4º, §3º). O eixo é um único meio de obtenção de prova, e por isso o subtema exato é Provas em Espécies > Colaboração Premiada (5557). A segunda opção é Legislação Especial > Organizações Criminosas (4705), porque a descrição desse tema também cobre a colaboração premiada. A pista de origem (Inquérito Policial) não bate com o conteúdo da questão.",
+ "id": "Q0193",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "4705",
+  "confianca_ramo": 0.6,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas tratam do regime da colaboração premiada da Lei 12.850/2013: instrução prévia, o que acontece quando o acordo não é celebrado, perdão judicial, benefícios e suspensão do prazo. O tema central é o próprio meio de obtenção de prova, que tem subtema específico em Processo Penal > Provas em Espécies > Colaboração Premiada. A segunda opção é Legislação Especial > Organizações Criminosas, porque o instituto vem dessa lei. A pista de origem (Inquérito Policial) não corresponde ao conteúdo da questão."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1452,
+  "cache_w": 15102,
+  "cache_r": 17133,
+  "custo_usd": 0.16309059999999997
+ }
+}

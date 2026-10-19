@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": "5484",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.68,
+ "segunda_opcao_id": "5482",
+ "extras_ids": [
+  "5483"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão sobre competência no processo penal para julgamento de prefeito municipal. O tema central é Competência (5480), confirmado. O subtema dominante é Competência por Prerrogativa de Função (5484), porque quatro assertivas exploram o foro de prefeitos: I e II tratam de prefeito em crime federal; IV, do foro no TJ estadual; V, da cessação de mandato e persistência do foro. Porém, é questão multi-tema porque assertivas I e II integram critério de Competência Material (5482) – o conflito entre competência federal para crime contra bens da União e competência por prerrogativa no TJ estadual, com prevalência da matéria. Assertiva III menciona regra de Competência Territorial (5483) sobre domicílio do réu. A questão exige síntese: prefeito em crime federal → TRF (matéria prevalesce); prefeito em crime estadual → TJ (prerrogativa); foro persiste durante mandato, cessa após. Confiança em subtema reduzida (0.68) por causa da integração de 5482 e 5483; confiança em ramo máxima (0.98).",
+ "id": "Q0004",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5480",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão claramente sobre Competência no Processo Penal (tema 5480). Testa conhecimento sobre critérios de determinação de foro (competência territorial, por prerrogativa de função, em razão da matéria para crimes federais vs estaduais). O instituto jurídico cuja resposta exige conhecimento é exclusivamente competência processual penal."
+ },
+ "uso": {
+  "in": 20,
+  "out": 10028,
+  "cache_w": 11011,
+  "cache_r": 12522,
+  "custo_usd": 0.0795472
+ }
+}

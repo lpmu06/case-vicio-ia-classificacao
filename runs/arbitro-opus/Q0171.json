@@ -1,0 +1,36 @@
+{
+ "fora": false,
+ "tema_n1_id": "4693",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.5,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [
+  "5557",
+  "5199",
+  "5185",
+  "4699",
+  "5498"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é multi-tema: o único elo entre as alternativas é o Pacote Anticrime, e cada uma cobra um instituto diferente: limite de 40 anos (art. 75 do CP), rol de hediondos, colaboração premiada (art. 4º, §16, da Lei 12.850, que veda inclusive cautelares reais), exclusão de perfil genético (prazo de 20 anos) e ANPP como causa suspensiva, e não interruptiva, da prescrição (art. 116, IV, do CP). O gabarito é a alternativa B: o roubo com emprego de arma de fogo passou a ser hediondo (art. 1º, II, b, da Lei 8.072/90). Por isso, Crimes Hediondos é o tema que a resposta exige. Descartei Ação Penal (5466), a pista de origem, porque nenhuma alternativa trata de ação penal. Colaboração Premiada aparece só em um distrator.",
+ "id": "Q0171",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5466",
+  "4693",
+  "5543"
+ ],
+ "candidatos_subtemas": [
+  "5557"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 1150,
+  "cache_w": 16226,
+  "cache_r": 16390,
+  "custo_usd": 0.168251
+ }
+}

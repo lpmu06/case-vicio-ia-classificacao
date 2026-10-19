@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5184",
+ "extras_ids": [
+  "5184",
+  "5200",
+  "5203",
+  "5201",
+  "5205"
+ ],
+ "multi_tema": true,
+ "justificativa": "A alternativa correta é a D, que trata dos princípios constitucionais da pena. As demais alternativas cobram institutos diferentes: compensação entre confissão e reincidência, espécies de penas privativas de liberdade, espécies de penas restritivas de direitos e duração da medida de segurança (Súmula 527 do STJ). Como quase todas as alternativas pertencem a Teoria da Pena, ficou o tema de nível 1 (5199), sem subtema, e 5184 como segunda opção por causa da alternativa E.",
+ "id": "Q0221",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5199",
+  "5184"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 658,
+  "cache_w": 9652,
+  "cache_r": 16390,
+  "custo_usd": 0.100537
+ }
+}

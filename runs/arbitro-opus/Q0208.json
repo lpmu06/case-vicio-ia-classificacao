@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5228",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.4,
+ "segunda_opcao_id": "5218",
+ "extras_ids": [
+  "5231",
+  "5517",
+  "5524"
+ ],
+ "multi_tema": true,
+ "justificativa": "O enunciado parece montado para cobrar legítima defesa de terceiro: Lucas atira em quem avança contra o irmão com uma peixeira. Por isso, a ilicitude (5228) é o eixo mais provável. Os itens não vieram, e o cenário também abre espaço para nexo causal (morte após cirurgia em outro hospital), flagrante (Lucas encontrado 12 horas depois com a arma) e júri; por isso marquei multi_tema e deixei o subtema 5231 só como extra. Descartei Concurso de Crimes: há um único homicídio e nenhuma pluralidade de delitos, e o assunto de origem é só uma pista fraca.",
+ "id": "Q0208",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5228",
+  "5066"
+ ],
+ "candidatos_subtemas": [
+  "5231"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 897,
+  "cache_w": 8978,
+  "cache_r": 16390,
+  "custo_usd": 0.09919299999999999
+ }
+}

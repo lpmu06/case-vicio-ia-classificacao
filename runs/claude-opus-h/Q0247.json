@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5502",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5507",
+ "extras_ids": [
+  "5507"
+ ],
+ "multi_tema": false,
+ "justificativa": "Todas as afirmações tratam do ANPP (art. 28-A do CPP): a extinção da punibilidade quando o acordo é cumprido, as vedações (violência doméstica e racismo), a exigência e o momento da confissão e a aplicação a fatos anteriores à Lei 13.964/2019. O eixo único é o ANPP, que é o subtema 5502. A parte sobre aplicação no tempo é só um dos aspectos do instituto, por isso Lei processual no Tempo (5507) fica como segunda opção e como tema extra.",
+ "id": "Q0247",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5505",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "Todas as afirmações da questão tratam do Acordo de Não Persecução Penal (art. 28-A do CPP). Elas cobram a extinção da punibilidade quando o acordo é cumprido, as vedações legais (violência doméstica e racismo), a exigência e o momento da confissão e a aplicação do ANPP a fatos anteriores à Lei Anticrime. Por isso o eixo é um só, o ANPP, que na árvore é subtema de Inquérito Policial (5498). O assunto de origem (Lei Processual no Tempo) cobre apenas a parte sobre aplicação a fatos anteriores, por isso fica como segunda opção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 990,
+  "cache_w": 11311,
+  "cache_r": 18208,
+  "custo_usd": 0.1217166
+ }
+}

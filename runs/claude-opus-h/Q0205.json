@@ -1,0 +1,35 @@
+{
+ "fora": false,
+ "tema_n1_id": "5512",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.72,
+ "confianca_subtema": 0.7,
+ "segunda_opcao_id": "5560",
+ "extras_ids": [
+  "5567",
+  "5514",
+  "5515",
+  "5513"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema Parte Geral dos Recursos (5512). A questão trata só de recursos no processo penal, e não de ação penal, como sugere a pista de origem. Três das quatro alternativas cobram a teoria geral dos recursos. A (B) trata da proibição de o Ministério Público desistir do recurso que interpôs (art. 576 do CPP), o que se encaixa em princípios ou em admissibilidade. A (C) trata da falta de interesse recursal do réu cuja punibilidade foi declarada extinta, o que é pressuposto de admissibilidade. A (D) trata do efeito da apelação contra sentença absolutória, que não impede a soltura do réu (art. 596 do CPP). A resposta correta, porém, é a (A): cabe carta testemunhável da decisão que denegar o recurso (art. 639 do CPP). Por isso a segunda opção continua sendo Recursos em Espécie (5560), com destaque para Carta Testemunhável (5567). Deixei o subtema em branco porque as alternativas se espalham por subtemas diferentes (5513, 5514, 5515 e 5567), sem um subtema único que reúna todas.",
+ "id": "Q0205",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5512",
+  "segunda_opcao_n1_id": "5560",
+  "confianca_ramo": 0.5,
+  "multi_tema": true,
+  "justificativa": "A questão inteira trata de recursos no processo penal, e não de ação penal, como sugere a pista de origem. A resposta correta é a (A): cabe carta testemunhável da decisão que denegar o recurso (art. 639 do CPP). As demais alternativas estão erradas. A (B) erra porque o Ministério Público não pode desistir do recurso que interpôs, segundo o princípio da indisponibilidade (art. 576 do CPP). A (C) erra porque falta interesse recursal ao réu cuja punibilidade foi declarada extinta. A (D) erra porque a apelação contra sentença absolutória não impede a soltura do réu (art. 596 do CPP). Três alternativas tratam da teoria geral dos recursos: desistência, interesse recursal e efeitos. Por isso escolhi Parte Geral dos Recursos. Como a alternativa correta trata de um recurso em espécie, a carta testemunhável, a segunda opção é Recursos em Espécie."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1594,
+  "cache_w": 14436,
+  "cache_r": 20512,
+  "custo_usd": 0.1611154
+ }
+}

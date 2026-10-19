@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas cobram premissas, origem e características de uma teoria nominada, o labelling approach: o controle penal é seletivo, a abordagem rompe com o paradigma etiológico e surgiu nos EUA nos anos 60. Por isso a questão se encaixa em Teorias Criminológicas em Espécie (4388). Descartei 4387, porque a questão não pede a categoria ampla de teorias sociológicas, e também 4377, porque o foco não é criminalização primária/secundária nem cifras, e sim a teoria da reação social em si.",
+ "id": "Q0196",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4385"
+ ],
+ "candidatos_subtemas": [
+  "4388"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 531,
+  "cache_w": 5365,
+  "cache_r": 16390,
+  "custo_usd": 0.060024
+ }
+}

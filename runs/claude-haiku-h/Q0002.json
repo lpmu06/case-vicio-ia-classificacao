@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": "4378",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4385",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre seletividade penal e criminalização secundária. A resposta correta rejeita explicações biologicistas/psicologicistas (propensão, cultura inferior, educação) e afirma que pobres têm maiores chances de serem criminalizados — ou seja, não por características intrínsecas, mas pela aplicação seletiva da lei penal pelos agentes de controle social. Vera Regina Pereira de Andrade é teórica da criminologia crítica especializada em criminalização secundária. Encaixa perfeitamente em 4378 (Criminalização Primária e Secundária), pois cobra exatamente a \"aplicação concreta e seletiva da lei penal\" e \"seletividade penal\". Segunda opção seria 4385 (Teorias Sociológicas) se alguém confundisse com explicação etiológica do crime, mas o eixo é processo, não causa.",
+ "id": "Q0002",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4377",
+  "segunda_opcao_n1_id": "4385",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "Questão sobre seletividade do sistema penal e processos de criminalização (Vera Regina Pereira de Andrade). A resposta correta indica que pobres têm maiores chances de serem criminalizados (seletividade), não por propensão intrínseca ao crime. Encaixa perfeitamente em \"Processos de Criminalização e Cifras Criminais\" que estuda como determinadas pessoas passam a ser definidas como criminosas pelo sistema penal."
+ },
+ "uso": {
+  "in": 20,
+  "out": 4982,
+  "cache_w": 10498,
+  "cache_r": 12522,
+  "custo_usd": 0.05281419999999999
+ }
+}

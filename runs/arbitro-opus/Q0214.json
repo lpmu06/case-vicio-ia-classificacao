@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5494",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Patrick responde a duas ações penais pelo mesmo fato, e a primeira ainda não transitou em julgado porque há recurso pendente. Por isso, a exceção cabível é a de litispendência, e não a de coisa julgada; ela é processada em autos apartados e não suspende o andamento da ação penal (arts. 95, III, e 111 do CPP), o que leva à alternativa D. As alternativas sobre incompetência e suspeição servem apenas para confundir, e o núcleo da questão é a exceção de litispendência/coisa julgada (subtema 5494), não um subtema irmão.",
+ "id": "Q0214",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5490"
+ ],
+ "candidatos_subtemas": [
+  "5494"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 524,
+  "cache_w": 7486,
+  "cache_r": 16390,
+  "custo_usd": 0.078735
+ }
+}

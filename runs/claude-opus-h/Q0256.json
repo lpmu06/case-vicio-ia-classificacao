@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5214",
+ "extras_ids": [
+  "5214",
+  "5211"
+ ],
+ "multi_tema": false,
+ "justificativa": "A assertiva compara os efeitos do erro de tipo invencível (art. 20 do CP, que exclui dolo e culpa) com os do erro de proibição, em que o agente acredita estar autorizado (art. 21 do CP, que exclui a culpabilidade, mas não o dolo). O eixo é a distinção entre os dois erros, e a questão parte do erro de tipo e do efeito sobre o dolo. Por isso confirmo 5218 com o subtema Erro de Tipo (5224). A pista de origem aponta para Fato Típico. A segunda opção é Erro de Proibição (5214), que é tão relevante quanto, e por isso a confiança no subtema é moderada.",
+ "id": "Q0256",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5211",
+  "confianca_ramo": 0.6,
+  "multi_tema": false,
+  "justificativa": "A questão contrapõe o erro de tipo invencível, que exclui dolo e culpa (Fato Típico), ao erro de proibição, que exclui a culpabilidade e não o dolo. O eixo é a distinção entre os dois, partindo do erro de tipo. A pista de origem também indica Fato Típico. A segunda opção é Culpabilidade, por causa do erro de proibição."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1569,
+  "cache_w": 12741,
+  "cache_r": 20512,
+  "custo_usd": 0.1462424
+ }
+}

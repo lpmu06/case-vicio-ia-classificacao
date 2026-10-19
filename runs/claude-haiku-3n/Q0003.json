@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5562",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5574",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão sobre qual recurso cabe contra absolvição sumária (após resposta preliminar) e qual seu efeito vinculante sobre a esfera cível. O tema central é identificar o recurso cabível (apelação contra sentença), exigindo classificação em nível 1 'Recursos em Espécies' (5560) e subtema nível 2 'Apelação' (5562). Secundariamente, a questão toca em efeito da sentença absolutória sobre o juízo cível (tema 'Sentença Absolutória', 5574), mas esse é aspecto periférico necessário para responder. As cinco alternativas formam eixo único sobre consequência processual da absolvição (recurso cabível + efeito vinculante), sem fragmentação em múltiplos institutos jurídicos independentes. O contexto do delito de furto é meramente narrativo e irrelevante.",
+ "id": "Q0003",
+ "modelo": "haiku",
+ "provedor": "claude_cli",
+ "effort": "low",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": "PP7",
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre Processo Penal que testa especificamente qual recurso cabe contra sentença de absolvição sumária. O tema central é recurso cabível e seus efeitos processuais (vinculação no cível). Pertence claramente ao grupo PP8 (Recursos e ações autônomas de impugnação), subtema \"Recursos em Espécies\". Poderia tangencialmente abordar PP7 (Sentença Penal), mas o foco investigado é o recurso. Contexto do furto é irrelevante — a questão é procedural."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5572",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão sobre Processo Penal que testa qual recurso cabe contra absolvição sumária e qual o efeito vinculante dessa decisão no juízo cível. O tema central é recurso cabível e exige classificação em nível 1 \"Recursos em Espécies\" (5560). Complementarmente, toca em efeitos da sentença penal absolutória sobre a esfera cível (Sentença Penal, 5572), mas esse é aspecto secundário necessário para responder corretamente. As cinco alternativas mantêm eixo único (consequência processual da absolvição), logo não é multi-tema. O contexto do furto é completamente irrelevante — a questão é fundamentalmente procedural."
+ },
+ "uso": {
+  "in": 30,
+  "out": 15800,
+  "cache_w": 22277,
+  "cache_r": 4639,
+  "custo_usd": 0.13755289999999998
+ }
+}

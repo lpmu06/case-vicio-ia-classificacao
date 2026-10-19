@@ -1,0 +1,35 @@
+{
+ "fora": false,
+ "tema_n1_id": "5211",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5071",
+ "extras_ids": [
+  "5071",
+  "5199",
+  "5184",
+  "5214",
+  "5213"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é multi-tema. As alternativas A (actio libera in causa/embriaguez) e B (erro de proibição indireto, que é o gabarito) cobram culpabilidade. A alternativa C cobra concurso de pessoas, a D cobra finalidades da pena e a E cobra medida de segurança. Escolhi 5211 por abranger duas alternativas e o gabarito, e não indiquei subtema porque inimputabilidade e erro de proibição dividem o eixo; o concurso de pessoas (5071) fica como segunda opção, já que aparece em uma única alternativa, mesmo sendo o assunto de origem.",
+ "id": "Q0230",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5071",
+  "5211"
+ ],
+ "candidatos_subtemas": [
+  "5213"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 780,
+  "cache_w": 9628,
+  "cache_r": 16390,
+  "custo_usd": 0.10265099999999999
+ }
+}
