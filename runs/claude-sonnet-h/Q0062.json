@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão trata diretamente da extraterritorialidade incondicionada (art. 7º, I, CP), que é regra de aplicação da lei penal no espaço. O tema de nível 1 \"Lei Penal no Tempo e no Espaço\" (5180) é confirmado, e o subtema correto é \"Lei penal no Espaço\" (5182), pois a pergunta versa sobre a possibilidade de julgamento no Brasil de fato ocorrido no exterior, independentemente de condições, não envolvendo sucessão de leis no tempo nem conflito aparente de normas.",
+ "multi_tema": false,
+ "segunda_opcao_id": null,
+ "subtema_n2_id": "5182",
+ "tema_n1_id": "5180",
+ "id": "Q0062",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5180",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente a extraterritorialidade incondicionada (art. 7º, I, CP), que é regra de aplicação da lei penal no espaço, tema de \"Lei Penal no Tempo e no Espaço\" (subtema Lei penal no Espaço). Não envolve concurso de crimes, apesar da pista de origem."
+ },
+ "uso": {
+  "in": 4,
+  "out": 850,
+  "cache_w": 29529,
+  "cache_r": 78694,
+  "custo_usd": 0.1469278
+ }
+}

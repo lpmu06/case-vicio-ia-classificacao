@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4389",
+ "extras_ids": [
+  "4378",
+  "4390"
+ ],
+ "multi_tema": true,
+ "justificativa": "Mantida a classificação anterior após revisão dos metadados completos. A questão trata da relação sistema penal-pobreza sob a ótica da criminologia crítica: cada alternativa versa sobre um ângulo diferente da seletividade (criminalização pela vertente do conflito, vitimização seletiva, medidas de segurança seletivas, origem histórica do cárcere como controle da pobreza, garantismo penal) - não há um único instituto central, por isso multi_tema=true. Nenhum subtema da árvore cobre precisamente \"sistema penal e pobreza/seletividade geral\": 4378 (criminalização primária/secundária) e 4379 (cifras criminais) tratam de recortes mais específicos e não abarcam o conjunto; por isso subtema_n2_id=null. Dentro de Criminologia, o tema de nível 1 \"Processos de Criminalização e Cifras Criminais\" (4377) é o que mais se aproxima do núcleo comum (seletividade penal e controle social formal), tema abrangente que também cobre a alternativa correta (B) sobre vitimização seletiva pode remeter a Vitimologia (4389/4390), mantida como segunda opção dado que a resposta correta trata especificamente desse ponto. A confiança no ramo é razoável (0,75) por não existir tema específico de \"criminologia crítica/sistema penal e pobreza\" na árvore, e a confiança no subtema é nula por ausência de correspondência exata.",
+ "id": "Q0058",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4377",
+  "segunda_opcao_n1_id": "4389",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão gira em torno da criminologia crítica sobre a relação sistema penal–pobreza: seletividade da criminalização (vertentes do conflito, criminalização seletiva), seletividade da vitimização, seletividade na aplicação de medidas de segurança, surgimento histórico da prisão como controle da pobreza e garantismo penal. Cada alternativa aborda um ângulo distinto dentro do eixo comum \"seletividade do sistema penal\", sem um único instituto central testado - por isso é multi-tema dentro da Criminologia. O tema mais abrangente e que mais se aproxima do núcleo (criminalização seletiva/primária e secundária, cifras criminais) é \"Processos de Criminalização e Cifras Criminais\" (4377); a alternativa correta (B) trata especificamente de vitimização seletiva, tema seria \"Vitimologia\" (4389), daí a segunda opção. Não há tema específico de \"Criminologia Crítica/sistema penal e pobreza\" na árvore, o que reduz a confiança."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2879,
+  "cache_w": 30493,
+  "cache_r": 78694,
+  "custo_usd": 0.1718298
+ }
+}

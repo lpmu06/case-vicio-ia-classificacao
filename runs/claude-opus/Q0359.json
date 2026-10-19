@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "4696",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.72,
+ "confianca_subtema": 0.72,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [
+  "4701"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o art. 94 do Estatuto da Pessoa Idosa e a interpretação dada pelo STF na ADI 3096: aplica-se apenas o rito da Lei 9.099/1995, sem as medidas despenalizadoras. Os metadados do tema 4696 citam expressamente essa regra procedimental. O Juizado Especial Criminal (4701) fica como segunda opção.",
+ "id": "Q0359",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 527,
+  "cache_w": 13912,
+  "cache_r": 237485,
+  "custo_usd": 0.17058600000000002
+ }
+}

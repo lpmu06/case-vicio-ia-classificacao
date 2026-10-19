@@ -1,0 +1,36 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5094",
+ "extras_ids": [
+  "5097",
+  "5093",
+  "5096",
+  "5099",
+  "5091"
+ ],
+ "multi_tema": true,
+ "justificativa": "As alternativas versam sobre institutos distintos do Título XI do CP: (A) crimes próprios de funcionário público (noções gerais/concussão/peculato/tráfico de influência), (B) facilitação de contrabando ou descaminho, (C) advocacia administrativa, (D) corrupção ativa, (E) condescendência criminosa. Não há um único subtema que abranja todas as opções, de modo que a classificação correta permanece no tema de nível 1 (5087), que engloba todos esses subtemas, mantendo subtema_n2_id nulo. A segunda opção mais citada textualmente é o subtema de Contrabando ou Descaminho (5094), que corresponde à alternativa tida como correta (B), mas isso não altera a classificação de nível 1, pois a questão como um todo é multi-tema.",
+ "id": "Q0060",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam sobre crimes contra a administração pública previstos no Título XI do Código Penal (concussão, peculato, tráfico de influência, facilitação de contrabando/descaminho, advocacia administrativa, corrupção ativa, condescendência criminosa), eixo comum do tema 5087. Embora cada alternativa toque um subtema diferente (ex.: Contrabando ou Descaminho, Corrupção Ativa, Condescendência Criminosa, Advocacia Administrativa), não há um subtema único que abranja todas as opções, de modo que a classificação correta é no tema de nível 1, que engloba todos os subtemas envolvidos."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1451,
+  "cache_w": 33956,
+  "cache_r": 78694,
+  "custo_usd": 0.1741108
+ }
+}

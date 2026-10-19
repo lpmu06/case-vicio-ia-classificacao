@@ -1,0 +1,14 @@
+{
+ "uso": {
+  "in": 718,
+  "out": 182462,
+  "cache_w": 5332428,
+  "cache_r": 85019630,
+  "custo_usd": 63.79343499999998
+ },
+ "segundos": 1061,
+ "erros": [],
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium"
+}
