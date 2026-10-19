@@ -1,0 +1,31 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.68,
+ "confianca_subtema": 0.68,
+ "segunda_opcao_id": "5201",
+ "extras_ids": [
+  "5199"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a vedação da progressão por salto, ou seja, a passagem direta do regime fechado para o aberto (art. 112 da LEP e Súmula 491 do STJ). Como o tema é progressão de regime durante o cumprimento da pena, a matéria é de Execução Penal (4703). Penas Privativas de Liberdade (5201), em Teoria da Pena, fica como segunda opção, porque o art. 33, §2º, do CP também prevê a execução progressiva e a origem da questão indica Teoria da Pena.",
+ "id": "Q0091",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5199",
+  "4703"
+ ],
+ "candidatos_subtemas": [
+  "5201"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 642,
+  "cache_w": 8853,
+  "cache_r": 14086,
+  "custo_usd": 0.0934262
+ }
+}

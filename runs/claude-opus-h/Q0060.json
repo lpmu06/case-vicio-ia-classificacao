@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5093",
+ "extras_ids": [
+  "5093",
+  "5088",
+  "5091",
+  "5089",
+  "5101",
+  "5094",
+  "5097",
+  "5096",
+  "5092"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema 5087. Cada alternativa cobra um tipo diferente do Título XI do CP. São eles: concussão, peculato e tráfico de influência, com a pergunta sobre quais são crimes próprios (A); facilitação de contrabando ou descaminho (B); advocacia administrativa (C); a majorante da corrupção ativa do art. 333, parágrafo único, que é a alternativa correta (D); e condescendência criminosa em comparação com corrupção passiva (E). Nenhum subtema específico cobre todas as alternativas. O eixo que se repete é o sujeito ativo, o que aproxima a questão de 5088, mas cada alternativa cobra um tipo específico. Por isso o subtema fica nulo. A segunda opção é 5093 (corrupção ativa), por ser o assunto da alternativa correta.",
+ "id": "Q0060",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": true,
+  "justificativa": "Cada alternativa cobra um crime diferente do Título XI do CP. São eles: concussão, peculato e tráfico de influência (A); facilitação de contrabando ou descaminho (B); advocacia administrativa (C); corrupção ativa (D, a correta pelo art. 333, parágrafo único); e condescendência criminosa × corrupção passiva (E). Não há um subtema comum a todas, mas todas pertencem ao tema de nível 1 Dos Crimes Contra a Administração Pública."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1284,
+  "cache_w": 12495,
+  "cache_r": 20512,
+  "custo_usd": 0.13776139999999998
+ }
+}

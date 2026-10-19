@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "4705",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas cobram a Lei 12.850/2013: o tipo do art. 2º e o embaraço à investigação (§1º), o conceito de organização criminosa como prática de \"infrações penais\", o que inclui contravenções, as majorantes, o afastamento cautelar do funcionário sem prejuízo da remuneração e o perdão judicial na colaboração premiada. A alternativa correta é a A. Descartei Processo Penal > Ação Penal (5466) porque a pista \"Ação Penal (Parte 02)\" é só um bucket de curso, e a questão não trata de titularidade nem de espécies de ação penal; o tema 4705 não tem subtemas.",
+ "id": "Q0165",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4705",
+  "5466"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 720,
+  "cache_w": 9023,
+  "cache_r": 16390,
+  "custo_usd": 0.096308
+ }
+}

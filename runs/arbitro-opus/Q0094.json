@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.68,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [
+  "4377"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pede que o aluno identifique uma teoria criminológica específica: o labelling approach, ou etiquetamento. O uso de roupas do presídio no plenário do Júri estigmatiza o acusado e reforça o rótulo de criminoso, por isso a resposta é a alternativa E, e o subtema 4388 é o mais adequado por se tratar de uma teoria nominada. Descartei o 4371, porque as escolas históricas aparecem só como alternativas erradas, e o 4377, porque o foco é a própria teoria da reação social, e não a criminalização primária ou secundária nem as cifras criminais.",
+ "id": "Q0094",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4385"
+ ],
+ "candidatos_subtemas": [
+  "4388"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 589,
+  "cache_w": 5302,
+  "cache_r": 16390,
+  "custo_usd": 0.060659000000000005
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": "4378",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.7,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [
+  "4385"
+ ],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema 4377. A alternativa correta, a (E), segue Vera Andrade: os pobres formam a clientela do sistema penal porque têm mais chances de ser criminalizados. É a seletividade do sistema penal, que se manifesta na aplicação seletiva da lei pelas agências de controle, ou seja, na criminalização secundária. A questão não testa cifra oculta (4379) nem uma teoria causal. As alternativas erradas trazem justamente as explicações etiológicas e individuais que a criminologia crítica rejeita. Por isso escolho o subtema 4378, que tem seletividade penal e aplicação seletiva da lei como núcleo. A segunda opção é 4387 (reação social e criminologia crítica como teoria sociológica).",
+ "id": "Q0002",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4377",
+  "segunda_opcao_n1_id": "4385",
+  "confianca_ramo": 0.68,
+  "multi_tema": false,
+  "justificativa": "A questão cobra a tese da seletividade do sistema penal, defendida por Vera Andrade a partir do labeling approach e da criminologia crítica. Segundo essa tese, os pobres formam a clientela do sistema porque têm mais chances de ser criminalizados, ou seja, sofrem mais a criminalização secundária. Não é porque teriam mais tendência a delinquir. O tema central é, portanto, o processo de criminalização (4377). A segunda opção é Teorias Sociológicas Explicativas da Criminalidade (4385), que abrange o labeling approach e a criminologia crítica. A pista de origem, Teorias Legitimadoras da Pena, não tem relação com o que a questão testa."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1206,
+  "cache_w": 27171,
+  "cache_r": 3003,
+  "custo_usd": 0.24780059999999998
+ }
+}

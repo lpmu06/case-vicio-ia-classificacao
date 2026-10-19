@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5484",
+ "extras_ids": [
+  "5483",
+  "5482"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra competência criminal. A alternativa correta é a D (art. 85 do CPP: a exceção da verdade oposta contra querelante com foro por prerrogativa é julgada pelo tribunal competente para julgá-lo). As demais estão erradas: em A, a competência por matéria ou de juízo não é da Infância e Juventude para réu maior de idade; em B e C, a competência é territorial, e as Súmulas 521/STF e 244/STJ fixam o local da recusa do pagamento pelo sacado. Como as alternativas passam por vários subtemas de Competência (matéria, território e prerrogativa), fico no tema de nível 1 e deixo o subtema em branco.",
+ "id": "Q0110",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5480"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 896,
+  "cache_w": 6860,
+  "cache_r": 16390,
+  "custo_usd": 0.080703
+ }
+}

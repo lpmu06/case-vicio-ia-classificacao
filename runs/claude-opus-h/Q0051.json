@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": "5182",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": "4690",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema 5180 e marco o subtema 5182 (Lei penal no Espaço). A questão pergunta se a lei penal brasileira vale para um crime cometido na Espanha, por estrangeiros, contra um brasileiro. As cinco alternativas tratam só da extraterritorialidade do art. 7º do CP: territorialidade mitigada, princípios da nacionalidade ativa, da representação, da justiça universal e da defesa, e a diferença entre extraterritorialidade condicionada e incondicionada. Esse é exatamente o conteúdo do subtema 5182. O racismo é apenas o contexto da história, por isso o tema 4690 fica como segunda opção remota. A pista de origem (\"Concurso de Crimes\") está errada.",
+ "id": "Q0051",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5180",
+  "segunda_opcao_n1_id": "4690",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão pergunta se a lei penal brasileira pode ser aplicada a crime cometido no exterior (Espanha) contra brasileiro. Para responder, o aluno precisa conhecer a extraterritorialidade do art. 7º do CP: os princípios da nacionalidade ativa, da defesa, da representação e da justiça universal, e a diferença entre extraterritorialidade condicionada e incondicionada. Isso é Lei Penal no Espaço, subtema do tema 5180. O racismo é só o contexto da história, e a pista de origem (\"Concurso de Crimes\") está errada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 973,
+  "cache_w": 10140,
+  "cache_r": 20512,
+  "custo_usd": 0.1108044
+ }
+}

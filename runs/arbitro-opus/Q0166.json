@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [
+  "5208",
+  "5191"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra benefícios que a Defensoria pode pedir ao Juízo da Execução. A resposta é a prisão domiciliar do art. 117, I, da LEP, para condenado maior de 70 anos em regime aberto. As demais alternativas ficam vedadas ou não cabem: livramento condicional para reincidente específico em hediondo; progressão, porque ele já está no aberto; indulto e comutação, excluídos para hediondos. O eixo comum são os incidentes e benefícios da execução penal, o que leva à LEP (4703). Descartei Teoria da Pena e o subtema Livramento Condicional, porque o livramento é apenas um distrator e não é o instituto da resposta correta.",
+ "id": "Q0166",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4703",
+  "5199"
+ ],
+ "candidatos_subtemas": [
+  "5208"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 850,
+  "cache_w": 9961,
+  "cache_r": 16390,
+  "custo_usd": 0.107081
+ }
+}

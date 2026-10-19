@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5203",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5185",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa a segunda fase da dosimetria da pena, especificamente o concurso entre a agravante da reincidência e a atenuante da confissão espontânea (compensação/preponderância), tema central de Teoria da Pena - Agravantes e Atenuantes.",
+ "id": "Q0327",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 644,
+  "cache_w": 2625,
+  "cache_r": 214056,
+  "custo_usd": 0.0613132
+ }
+}

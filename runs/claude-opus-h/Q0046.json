@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5509",
+ "subtema_n2_id": "5510",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.65,
+ "segunda_opcao_id": "5509",
+ "extras_ids": [
+  "5511",
+  "5535",
+  "5534"
+ ],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema Nulidades (5509). O eixo comum da questão é a teoria das nulidades, e a pergunta não trata da sequência do rito ordinário. A alternativa correta é a (A): segundo o entendimento atual do STF e do STJ, baseado na instrumentalidade das formas e no princípio do prejuízo (art. 563 do CPP), nenhuma nulidade é declarada, nem mesmo a absoluta, se não houver prejuízo. As demais alternativas estão erradas. A (C) é falsa porque afirma que a nulidade absoluta dispensa prejuízo. A (E) é falsa porque a coisa julgada não sana tudo: a revisão criminal e o habeas corpus continuam cabíveis em favor do réu. A (B) é falsa porque o STJ considera a inversão do art. 212 do CPP uma nulidade relativa, e não ausência de nulidade. A (D) é falsa porque a inépcia pode ser reexaminada após a resposta à acusação. O núcleo cobrado é o regime jurídico das nulidades (prejuízo, absoluta × relativa, convalidação), por isso indico o subtema 5510. A confiança no subtema é moderada, porque a (B) e a (D) tocam hipóteses concretas e o rito ordinário.",
+ "id": "Q0046",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5509",
+  "segunda_opcao_n1_id": "5530",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "O enunciado trata de nulidades processuais. As alternativas cobram o princípio do prejuízo (pas de nullité sans grief), a distinção entre nulidade absoluta e relativa, a nulidade por inversão da ordem das perguntas (art. 212 do CPP), o efeito da coisa julgada sobre as nulidades e a inépcia nas fases dos arts. 396 e 397 do CPP. O eixo comum é a teoria das nulidades. A questão não se limita a um único subtema, por isso fica no tema de nível 1 Nulidades. A segunda opção é Procedimento Ordinário, pela alternativa sobre os arts. 396 e 397 do CPP."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1547,
+  "cache_w": 12444,
+  "cache_r": 20512,
+  "custo_usd": 0.1426824
+ }
+}

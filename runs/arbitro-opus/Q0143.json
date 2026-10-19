@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5505",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O item cobra a regra de aplicação da lei processual penal no tempo (art. 2º do CPP): vale o tempus regit actum, com aplicação imediata da lei e preservação dos atos já praticados, e não o tempus delicti. Por isso, o gabarito é Errado. O enunciado menciona sistemas processuais e investigação, mas o item não trata desses assuntos (5580/5498), e a questão não envolve a lei penal material no tempo (5180).",
+ "id": "Q0143",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5505"
+ ],
+ "candidatos_subtemas": [
+  "5507"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 428,
+  "cache_w": 4800,
+  "cache_r": 16390,
+  "custo_usd": 0.053132
+ }
+}

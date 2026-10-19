@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema 4385. A questão pede que o aluno escolha uma teoria específica entre várias com nome próprio (Escola de Chicago, associação diferencial, anomia, labeling approach, criminologia crítica) e a aplique a um caso concreto. A resposta é a anomia, na versão da tensão/frustração. Por isso classifiquei no subtema 4388. Pelo critério de desempate do próprio 4388, quando o enunciado cobra uma teoria específica, a questão é de 4388, e não da categoria ampla de nível sociológico (4387). A segunda opção é 4387, porque todas as alternativas são teorias de nível sociológico.",
+ "id": "Q0115",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4385",
+  "segunda_opcao_n1_id": "4371",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão pede que o aluno escolha, entre várias teorias sociológicas da criminalidade (Escola de Chicago, associação diferencial, anomia, labeling approach, criminologia crítica), a que melhor explica o caso. A resposta esperada é a anomia, na versão de tensão/frustração. Todas as alternativas são teorias explicativas da criminalidade, então o eixo é comum e não há multi-tema. A segunda opção seria Escolas Criminológicas (4371)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 917,
+  "cache_w": 10590,
+  "cache_r": 20512,
+  "custo_usd": 0.1135254
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5226",
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5160",
+ "extras_ids": [
+  "5160"
+ ],
+ "multi_tema": true,
+ "justificativa": "O eixo central da questão é a relação de causalidade: a morte decorre exclusivamente da pedrada de Lívio, causa independente que rompe o nexo com os disparos. Por isso Caio responde só por homicídio tentado (art. 13 do CP), e é isso que elimina as alternativas A e D. A escolha entre B e C exige ainda saber que a violência com resultado morte, empregada para assegurar a subtração, configura latrocínio (art. 157, §3º), o que justifica Roubo como tema extra e multi_tema; descartei Concurso de Crimes porque nenhuma alternativa trata de concurso formal, concurso material ou crime continuado, nem do cálculo da pena.",
+ "id": "Q0159",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5157",
+  "5218",
+  "5066"
+ ],
+ "candidatos_subtemas": [
+  "5226",
+  "5160"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 903,
+  "cache_w": 17512,
+  "cache_r": 16390,
+  "custo_usd": 0.174446
+ }
+}

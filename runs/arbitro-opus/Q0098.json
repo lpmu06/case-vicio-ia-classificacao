@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5548",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5590",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede o conceito doutrinário de \"confissão qualificada\": o acusado admite o fato, mas alega uma tese que o favorece, como uma excludente. Esse é um instituto da confissão como meio de prova (arts. 197 a 200 do CPP), e todas as alternativas giram em torno das espécies de confissão (delatória, ficta, retratação). Descartei Ação Penal (5466) porque o assunto de origem é só uma pista fraca e a questão não trata de titularidade, espécies de ação ou peça acusatória.",
+ "id": "Q0098",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5466",
+  "5543"
+ ],
+ "candidatos_subtemas": [
+  "5548"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 488,
+  "cache_w": 15200,
+  "cache_r": 27971,
+  "custo_usd": 0.14835320000000002
+ }
+}

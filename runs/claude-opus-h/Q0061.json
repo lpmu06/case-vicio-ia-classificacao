@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema 4703. A questão gira em torno de um único instituto, a falta grave na execução penal. Ela cobra as hipóteses de falta grave no regime aberto e na pena restritiva de direitos (arts. 50 e 51 da LEP), a perda de até 1/3 dos dias remidos (art. 127 da LEP), o exame criminológico na progressão e a Súmula 535 do STJ. Faltas graves e a Súmula 535 do STJ estão expressamente na descrição de 4703, e o próprio 'não confundir' manda para 4703 o que for falta grave. O tema não tem subtemas, por isso o subtema fica null. Teoria da Pena (5199) entra apenas como segunda opção, porque o assunto de origem aponta para ela.",
+ "id": "Q0061",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas tratam do mesmo assunto: a falta grave na execução penal. Elas cobram as hipóteses de falta grave no regime aberto e na pena restritiva de direitos (art. 50 e art. 51 da LEP), o exame criminológico, a perda de até 1/3 dos dias remidos (art. 127 da LEP) e a Súmula 535 do STJ, segundo a qual a falta grave não interrompe o prazo para comutação e indulto. Isso é disciplina prisional da LEP, e não Teoria da Pena, como sugere o assunto de origem."
+ },
+ "uso": {
+  "in": 4,
+  "out": 994,
+  "cache_w": 12720,
+  "cache_r": 20512,
+  "custo_usd": 0.1341134
+ }
+}

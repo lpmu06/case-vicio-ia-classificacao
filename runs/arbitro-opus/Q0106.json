@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5166",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.78,
+ "segunda_opcao_id": "5157",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão sobre o \"pendura\" exige comparar o estelionato com a fraude de tomar refeição sem recursos, prevista no art. 176 do CP. O art. 176 fica no Capítulo VI (\"Do estelionato e outras fraudes\"), que a descrição do subtema Estelionato cobre expressamente (arts. 172 a 178), e por isso ele é o eixo comum das alternativas. A alternativa de dano qualificado funciona só como distrator, então descartei o subtema Dano e não vi motivo para multi-tema.",
+ "id": "Q0106",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5157"
+ ],
+ "candidatos_subtemas": [
+  "5166"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 824,
+  "cache_w": 10277,
+  "cache_r": 16390,
+  "custo_usd": 0.10925099999999999
+ }
+}

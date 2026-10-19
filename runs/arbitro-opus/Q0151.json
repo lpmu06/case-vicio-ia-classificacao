@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5523",
+ "extras_ids": [
+  "5584"
+ ],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam de prisões cautelares em espécie. A alternativa correta é a C: pelo art. 325, § 1º, III, do CPP, a fiança pode ser aumentada em até 1.000 vezes. As demais alternativas são falsas: na A, a idade é de 80 anos; na B, a fiança pode ser cumulada com outras cautelares; na D, a prisão temporária está na Lei 7.960/89, e não no CPP; na E, a natureza precautelar do flagrante não é pacífica. Descartei Ação Penal (5466), porque o rótulo de origem (\"Ação Penal (Parte 02)\") é só um bucket de curso. Deixei o subtema em branco porque as alternativas passam por prisão domiciliar, fiança, cautelares diversas, prisão temporária e flagrante.",
+ "id": "Q0151",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5517",
+  "5466"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 821,
+  "cache_w": 12181,
+  "cache_r": 16390,
+  "custo_usd": 0.126135
+ }
+}

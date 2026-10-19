@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5223",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5138",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a distinção entre omissão imprópria, que exige posição de garantidor nos termos do art. 13, § 2º, do CP, e omissão própria. O salva-vidas, por ser garantidor, responde por homicídio doloso por omissão (alternativa A). Já o surfista, que não tinha dever jurídico de agir, responderia por omissão de socorro (art. 135 do CP). Descartei Concurso de Crimes porque não há pluralidade delitiva atribuída a um mesmo agente; o assunto de origem é apenas uma pista fraca e está equivocado.",
+ "id": "Q0093",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5066",
+  "5218"
+ ],
+ "candidatos_subtemas": [
+  "5223"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 611,
+  "cache_w": 9955,
+  "cache_r": 16390,
+  "custo_usd": 0.102105
+ }
+}

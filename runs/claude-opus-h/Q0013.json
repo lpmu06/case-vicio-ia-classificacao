@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5503",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5581",
+ "extras_ids": [
+  "5502"
+ ],
+ "multi_tema": false,
+ "justificativa": "Mantive o tema 5498, Inquérito Policial, e defini o subtema 5503, Juiz das Garantias. A pergunta pede a alternativa que não faz parte das competências legais do juiz das garantias, listadas no art. 3º-B do CPP. Todas as alternativas giram em torno disso: habeas corpus e trancamento do inquérito, homologação do ANPP, comunicação da instauração da investigação e produção antecipada de provas. Pelo que me lembro do art. 3º-B, a alternativa (B) parece ser a exceção, porque a lei cuida da homologação do ANPP formalizado durante a investigação e não do acordo que decorre de decisão desclassificatória. Não conferi isso no texto da lei, mas esse detalhe não altera a classificação. A imparcialidade e o sistema acusatório aparecem só como contexto do enunciado. A questão não discute o modelo processual, por isso 5581 fica apenas como segunda opção.",
+ "id": "Q0013",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5580",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão testa a competência do juiz das garantias (art. 3º-B do CPP, Lei 13.964/2019), que está no subtema \"Juiz das Garantias\" do tema Inquérito Policial. Todas as alternativas tratam das atribuições desse juiz, então há um eixo comum. A imparcialidade e o sistema acusatório aparecem só como contexto do enunciado, por isso 5580 ficou como segunda opção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1644,
+  "cache_w": 12237,
+  "cache_r": 20512,
+  "custo_usd": 0.1427684
+ }
+}

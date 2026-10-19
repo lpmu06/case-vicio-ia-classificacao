@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5572",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5577",
+ "extras_ids": [
+  "5577",
+  "5574"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a sentença penal e seus efeitos: a alternativa correta (C) trata da sentença absolutória imprópria. As demais tratam de efeitos da condenação (valor mínimo de reparação, confisco em favor da União, perda de cargo segundo o art. 92 do CP) e dos efeitos civis da absolvição por insuficiência de provas. O eixo comum é a Sentença Penal (5572), e não a Ação Penal (5466), que aparece apenas na pista de origem. Deixei o subtema em branco porque o conteúdo se divide entre Efeitos da Sentença Condenatória (5577) e Sentença Absolutória (5574).",
+ "id": "Q0102",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5466",
+  "5572"
+ ],
+ "candidatos_subtemas": [
+  "5574"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 820,
+  "cache_w": 12427,
+  "cache_r": 16390,
+  "custo_usd": 0.12831
+ }
+}

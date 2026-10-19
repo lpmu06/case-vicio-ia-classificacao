@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam da Lei 11.343/2006. A alternativa correta é a A: a Resolução 5/2012 do Senado suspendeu a vedação da conversão em pena restritiva de direitos no tráfico. As demais cobram o art. 28 (porte para consumo), o informante do art. 37 como exceção à teoria monista, a norma penal em branco e a ausência de critério quantitativo, além da confusão com o CTB. A pista de origem \"Prescrição\" (5185) foi descartada porque nenhuma alternativa trata de extinção da punibilidade pelo decurso do tempo.",
+ "id": "Q0116",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4708",
+  "5185"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 651,
+  "cache_w": 7135,
+  "cache_r": 16390,
+  "custo_usd": 0.078256
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5528",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5486",
+ "extras_ids": [
+  "5480"
+ ],
+ "multi_tema": false,
+ "justificativa": "O item cobra em que momento cabe o desaforamento no júri. Pelos arts. 427 e 428 do CPP, ele só cabe depois que a pronúncia preclui, e não a partir do recebimento da denúncia. Por isso o gabarito é Errado. O subtema 5528 (Organização do Júri e Sessão de Julgamento) cita expressamente o desaforamento e os arts. 427 e 428 do CPP, então confirmo o tema 5524 com o subtema 5528. A segunda opção é a modificação de competência dentro de Competência (5486).",
+ "id": "Q0133",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "O item cobra em que momento cabe o desaforamento no procedimento do júri. Pelos arts. 427 e 428 do CPP, ele só cabe depois que a decisão de pronúncia transita em julgado (preclui), e não a partir do recebimento da denúncia. Por isso o gabarito é Errado. O desaforamento é um instituto próprio do rito do Tribunal do Júri (fase de preparação do plenário). A segunda opção é Competência, porque o desaforamento também é tratado como forma de modificação de competência."
+ },
+ "uso": {
+  "in": 4,
+  "out": 837,
+  "cache_w": 12598,
+  "cache_r": 20512,
+  "custo_usd": 0.1299434
+ }
+}

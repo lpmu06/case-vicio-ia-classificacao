@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": "5181",
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "4703",
+ "extras_ids": [
+  "4703"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a aplicação da lei penal mais benéfica (novatio legis in mellius) que surge depois do trânsito em julgado. Pela Súmula 611 do STF, essa aplicação cabe ao juízo das execuções, e não à vara da condenação; a súmula é tradicionalmente estudada em Lei Penal no Tempo e consta dos dispositivos do subtema 5181. A segunda opção é a LEP (4703), porque a mesma regra está no art. 66, I, da LEP, que trata da competência do juízo da execução. Descartei Teoria da Pena (5199) porque a questão não envolve dosimetria nem espécie de pena.",
+ "id": "Q0074",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5180",
+  "4703",
+  "5199"
+ ],
+ "candidatos_subtemas": [
+  "5181"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 730,
+  "cache_w": 25538,
+  "cache_r": 0,
+  "custo_usd": 0.227698
+ }
+}

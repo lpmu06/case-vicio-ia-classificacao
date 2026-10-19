@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema 4704. A questão cobra só as hipóteses em que a Lei 11.340/2006 se aplica (arts. 5º e 7º): unidade doméstica, que inclui a empregada doméstica; âmbito familiar, que inclui a mãe agredida pela filha e a filha transexual; e a contravenção penal praticada em razão do gênero. A resposta é a alternativa C: a agressão no trabalho, por colega sem vínculo doméstico, familiar ou afetivo, fica fora da lei. Nada na questão trata de ação penal, então a pista de origem está errada. O tema 4704 não tem subtemas, por isso subtema_n2_id fica null.",
+ "id": "Q0026",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa até onde vai a proteção da Lei 11.340/2006 (art. 5º), ou seja, quem conta como vítima de violência doméstica: o âmbito da unidade doméstica, da família e da relação íntima de afeto, a mulher trans e a contravenção penal praticada em razão do gênero. A resposta é a alternativa C: a agressão no trabalho, por um colega sem vínculo doméstico, familiar ou afetivo com a vítima, fica fora da lei. O tema central é a Lei Maria da Penha, não a ação penal. A pista \"assunto_origem\" (Ação Penal) está errada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 942,
+  "cache_w": 11816,
+  "cache_r": 20512,
+  "custo_usd": 0.1252714
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5189",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5187",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige calcular o prazo prescricional da pretensão executória (pena de 2 anos e 9 meses) após o trânsito em julgado, considerando a jurisprudência do STF sobre o tema, caracterizando tema de Prescrição; dado o foco pós-trânsito em julgado, o subtema mais específico é Prescrição da Pretensão Executória, embora haja relação com contagem de prazos.",
+ "id": "Q0315",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 618,
+  "cache_w": 2441,
+  "cache_r": 214056,
+  "custo_usd": 0.060134200000000006
+ }
+}

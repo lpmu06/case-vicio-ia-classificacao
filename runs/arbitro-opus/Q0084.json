@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra as medidas de assistência à mulher em situação de violência doméstica previstas no art. 9º da Lei 11.340/2006: manutenção do vínculo trabalhista por até seis meses, prioridade de matrícula dos dependentes e ressarcimento ao SUS, que cabe ao agressor e não à vítima. O tema é, portanto, Lei Maria da Penha, e o gabarito é a alternativa E. Descartei o tema 5580 (Sistemas e Princípios Processuais Penais), que é apenas a pista fraca de origem, porque nenhuma assertiva trata de princípio ou sistema processual.",
+ "id": "Q0084",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5580",
+  "4704"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 597,
+  "cache_w": 5873,
+  "cache_r": 16390,
+  "custo_usd": 0.065977
+ }
+}

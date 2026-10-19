@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5092",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5088",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O funcionário público aceitou promessa de vantagem indevida e deixou de praticar ato de ofício. Isso é corrupção passiva (art. 317, §1º, CP), crime formal que se consuma com a aceitação, mesmo que a vantagem nunca seja recebida. As alternativas sobre concussão e facilitação de descaminho servem só para distinguir figuras próximas do mesmo tema. O assunto de origem \"Concurso de Crimes\" (5066) foi descartado porque a questão não trata de pluralidade de crimes.",
+ "id": "Q0086",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5066",
+  "5087"
+ ],
+ "candidatos_subtemas": [
+  "5092"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 569,
+  "cache_w": 12117,
+  "cache_r": 16390,
+  "custo_usd": 0.12022
+ }
+}

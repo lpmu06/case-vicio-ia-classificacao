@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5472",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5474",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a legitimidade e a sucessão do direito de queixa na ação penal privada: pelos arts. 31 e 36 do CPP, quando há mais de um legitimado, o cônjuge tem preferência. Isso é um instituto geral da ação privada (titularidade e sucessão processual), e o subtema 5472 cita expressamente a sucessão processual. Não escolhi Queixa Crime (5474) porque a questão não trata dos requisitos da peça inicial, e sim de quem é titular do direito de agir.",
+ "id": "Q0152",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5466"
+ ],
+ "candidatos_subtemas": [
+  "5472",
+  "5474"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 652,
+  "cache_w": 7808,
+  "cache_r": 16390,
+  "custo_usd": 0.084247
+ }
+}

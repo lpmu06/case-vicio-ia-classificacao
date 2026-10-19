@@ -1,0 +1,22 @@
+{
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5541",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "fora": false,
+ "justificativa": "A questão trata diretamente da transação penal (art. 76 da Lei 9.099/95), incluindo os efeitos da aceitação, o prazo de cinco anos para novo benefício e as hipóteses de descumprimento, caracterizando o subtema específico de Transação Penal dentro do Procedimento Sumaríssimo.",
+ "id": "Q0332",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 428,
+  "cache_w": 213583,
+  "cache_r": 0,
+  "custo_usd": 0.860065
+ }
+}

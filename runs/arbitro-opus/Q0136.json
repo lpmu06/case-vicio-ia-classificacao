@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra quando incide a Lei 11.340/2006 (art. 5º, III, e art. 7º): a violência ligada a uma relação íntima de afeto já encerrada, a motivação de gênero e a violência moral ou psicológica sem lesão física. Todas as alternativas giram em torno desse único eixo. Descartei Ação Penal (5466), que só aparece pela pista de origem: nenhuma alternativa trata de titularidade, representação ou peça acusatória. Como o tema 4704 não tem subtemas, o subtema fica null.",
+ "id": "Q0136",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4704",
+  "5466"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 582,
+  "cache_w": 9248,
+  "cache_r": 16390,
+  "custo_usd": 0.09555
+ }
+}

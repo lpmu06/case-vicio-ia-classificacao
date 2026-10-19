@@ -41,6 +41,32 @@ SAIDA_2 = ("## Saída\nResponda apenas com JSON no esquema fornecido. `tema_n1_i
 REGRAS = (RAIZ / "prompts" / "classificar_sistema.md").read_text(encoding="utf-8").split("## Árvore de temas")[0]
 
 
+def chamar_validado(provedor, modelo, sistema, pedido, esquema, effort, temas, campo="tema_n1_id", tentativas=2):
+    """Chama o modelo e valida que `campo` é um tema de nível 1 (subtema é normalizado para o pai).
+    Se vier uma disciplina ou um id inexistente, repete a chamada explicando o erro (validação com realimentação)."""
+    vazio = {"in": 0, "out": 0, "cache_w": 0, "cache_r": 0, "custo_usd": 0.0}
+    uso = dict(vazio)
+    nota = ""
+    r = None
+    for _ in range(tentativas + 1):
+        r, u = chamar_json(provedor, modelo, sistema, pedido + nota, esquema, effort)
+        for k in uso:
+            uso[k] += u.get(k) or 0
+        tid = r.get(campo)
+        if r.get("fora"):
+            return r, uso
+        if tid in temas and temas[tid]["nivel"] == 2:
+            r[campo] = temas[tid]["parent_id"]
+            return r, uso
+        if tid in temas and temas[tid]["nivel"] == 1 and temas[tid]["status"] == "active" and not temas[tid]["bucket"]:
+            return r, uso
+        motivo = ("é uma DISCIPLINA (nível 0), que nunca pode ser escolhida" if tid in temas and temas[tid]["nivel"] == 0
+                  else "é um tema inativo ou bucket de curso" if tid in temas else "não existe na árvore")
+        nota = (f"\n\nATENÇÃO: na tentativa anterior você respondeu {campo} = {tid!r}, que {motivo}. "
+                "Responda de novo escolhendo o id de um tema de nível 1 (marcado como tema na árvore) dentro da disciplina adequada.")
+    return r, uso
+
+
 def primeira_frase(s, n=220):
     s = (s or "").strip()
     p = s.find(". ")
@@ -125,7 +151,7 @@ def main():
     erros, t0 = [], time.time()
 
     def tarefa(q):
-        r1, u1 = chamar_json(a.provedor, a.modelo, sis1, c30.montar_pedido(q), ESQUEMA_1, a.effort)
+        r1, u1 = chamar_validado(a.provedor, a.modelo, sis1, c30.montar_pedido(q), ESQUEMA_1, a.effort, temas)
         if r1["fora"] or not r1.get("tema_n1_id") or r1["tema_n1_id"] not in temas:
             final = {"fora": True, "tema_n1_id": None, "subtema_n2_id": None, "confianca_ramo": r1["confianca_ramo"],
                      "confianca_subtema": 0, "segunda_opcao_id": r1.get("segunda_opcao_n1_id"), "extras_ids": [],

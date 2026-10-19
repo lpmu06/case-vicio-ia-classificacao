@@ -1,0 +1,35 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.4,
+ "segunda_opcao_id": "5182",
+ "extras_ids": [
+  "5218",
+  "5071",
+  "5211"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão mistura vários institutos da Parte Geral do Código Penal: (A) nexo causal, art. 13, §1º; (B) comunicabilidade de elementares, art. 30; (C) aplicação das regras gerais do CP às leis especiais, art. 12; (D) embriaguez fortuita, art. 28, §1º, em que a incapacidade parcial gera apenas redução da pena; e (E) extraterritorialidade incondicionada, art. 7º, I, b, que é a alternativa correta. Escolhi o tema 5180 porque ele abrange tanto o gabarito (E) quanto a alternativa C (art. 12). Descartei 5063 (Ação Penal), pois a questão não cobra nada sobre ação penal. Os temas 5211, 5218 e 5071 entram apenas como extras.",
+ "id": "Q0126",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5180",
+  "5063",
+  "5211"
+ ],
+ "candidatos_subtemas": [
+  "5182",
+  "5213"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 1106,
+  "cache_w": 10879,
+  "cache_r": 16390,
+  "custo_usd": 0.12018999999999999
+ }
+}

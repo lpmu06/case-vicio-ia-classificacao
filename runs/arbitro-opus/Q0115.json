@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão apresenta um caso concreto e pede que o aluno identifique qual teoria criminológica nominada o explica. A resposta é a teoria da anomia, em que a frustração e a tensão social levam à quebra das normas. Como as alternativas listam teorias específicas (Escola de Chicago, associação diferencial, anomia, labeling, crítica), o subtema mais preciso é Teorias Criminológicas em Espécie (4388), e não o 4387, que trata da categoria geral por nível de análise. O 4371 também foi descartado, porque a questão não pergunta sobre a evolução histórica das escolas.",
+ "id": "Q0115",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4385"
+ ],
+ "candidatos_subtemas": [
+  "4388"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 596,
+  "cache_w": 5584,
+  "cache_r": 16390,
+  "custo_usd": 0.063271
+ }
+}

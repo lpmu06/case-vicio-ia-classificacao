@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5092",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": "5091",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O enunciado reproduz o caput do art. 317 do CP, que trata da corrupção passiva. Todas as alternativas cobram esse mesmo tipo: a pena (A, correta: reclusão de 2 a 12 anos e multa), a forma privilegiada do §2º (B está errada, porque a pena é de detenção de 3 meses a 1 ano, ou multa), a majorante do §1º (C está errada, porque o aumento é de um terço) e a diferença em relação à concussão (D está errada). A concussão (5091) aparece só como distrator, já que o verbo do tipo é solicitar ou receber, e não exigir.",
+ "id": "Q0134",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5087"
+ ],
+ "candidatos_subtemas": [
+  "5092"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 610,
+  "cache_w": 9513,
+  "cache_r": 16390,
+  "custo_usd": 0.09815800000000001
+ }
+}

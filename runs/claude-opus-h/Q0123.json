@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.72,
+ "confianca_subtema": 0.45,
+ "segunda_opcao_id": "4378",
+ "extras_ids": [
+  "4368"
+ ],
+ "multi_tema": true,
+ "justificativa": "Mantenho o tema 4377 porque o eixo da questão é a seletividade penal, sobretudo a racial. A assertiva I trata do labeling approach e da definição do crime pelas agências de controle (polícia, Ministério Público e Judiciário). A III trata da sobrerrepresentação de negros entre as vítimas da letalidade policial. A IV trata do racismo estrutural no sistema de justiça criminal. Os três pontos se encaixam no processo de seleção de condutas e pessoas pelo sistema penal. A assertiva II tem viés processual (flagrante e prova obtidos por discriminação), por isso a questão é multi-tema. A seletividade e as agências de controle aproximam a questão do subtema 4378. Mesmo assim, ela não cobra a distinção entre criminalização primária e secundária, e por isso o subtema fica null. O subtema 4379 não se aplica: a estatística da assertiva III é usada para mostrar seletividade, não para discutir subnotificação. O tema 4368 (Criminologia no Estado Democrático de Direito, sugerido pela origem) fica como tema relacionado, porque a questão também toca nas garantias fundamentais diante do poder punitivo.",
+ "id": "Q0123",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4377",
+  "segunda_opcao_n1_id": "4368",
+  "confianca_ramo": 0.45,
+  "multi_tema": true,
+  "justificativa": "O eixo comum das assertivas é a seletividade racial e o racismo no sistema de justiça criminal. A assertiva I trata do labeling approach e da criminalização feita pelas agências de controle. A III trata da sobrerrepresentação de negros entre as vítimas da letalidade policial, segundo as estatísticas criminais. A IV trata do racismo estrutural ou institucional, em oposição a atos meramente individuais. Os três pontos se encaixam na criminalização secundária, que pertence ao tema Processos de Criminalização e Cifras Criminais. A assertiva II tem viés processual (prisão em flagrante e prova obtidas a partir de perfilamento racial), o que torna a questão multi-tema. A segunda opção é Criminologia no Estado Democrático de Direito (sugerido pela origem), porque esse tema relaciona controle social e garantias fundamentais."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1729,
+  "cache_w": 9744,
+  "cache_r": 20512,
+  "custo_usd": 0.12247140000000001
+ }
+}

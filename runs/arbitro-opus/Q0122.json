@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5201",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam do mesmo instituto, a remição pelo trabalho e pelo estudo, regulada nos arts. 126 a 130 da LEP. A alternativa correta é a C: o art. 126, § 5º, acrescenta 1/3 às horas de estudo remidas quando o preso conclui o ensino fundamental, médio ou superior durante o cumprimento da pena. Por isso classifiquei em Lei de Execução Penal (4703), e não em Teoria da Pena/Penas Privativas de Liberdade (5199/5201), que cuida das regras do CP e só cita a remição de passagem.",
+ "id": "Q0122",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4703",
+  "5199"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 621,
+  "cache_w": 9713,
+  "cache_r": 16390,
+  "custo_usd": 0.10028
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [
+  "5471",
+  "4704"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a eficácia temporal (ex tunc/ex nunc, retroatividade benéfica e irretroatividade prejudicial) da decisão do STF que mudou a natureza da ação penal, aplicada a fato anterior. O ponto central é tratar como norma processual mista a regra que exige representação, o que leva à Lei processual no Tempo. A Ação Penal (condicionada/incondicionada na Lei Maria da Penha) é só o cenário. Descartei o Inquérito Policial porque a instauração do inquérito é apenas a consequência prática, sem cobrar nenhum instituto da investigação.",
+ "id": "Q0114",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5466",
+  "5505",
+  "5498"
+ ],
+ "candidatos_subtemas": [
+  "5507"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 726,
+  "cache_w": 14635,
+  "cache_r": 16390,
+  "custo_usd": 0.145819
+ }
+}

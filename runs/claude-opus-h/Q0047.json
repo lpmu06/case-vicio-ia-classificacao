@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5164",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5063",
+ "extras_ids": [
+  "5065"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o crime de dano (arts. 163 e 167 do CP). O dano contra João é qualificado pelo prejuízo considerável (inciso IV) e, nesse caso, só se procede mediante queixa. O dano contra a sede do Município é qualificado pelo inciso III e a ação penal é pública incondicionada. A resposta correta é a alternativa D. A ação penal aparece como regra própria do dano (art. 167), e a descrição do subtema 5164 inclui expressamente a 'ação penal no dano'. Por isso fica em Dano. A pista de origem ('Lesão Corporal') está errada.",
+ "id": "Q0047",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": "5063",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão cobra o crime de dano (art. 163 do CP). O dano contra João é qualificado, porque o prejuízo foi considerável (inciso IV), e nesse caso só se procede mediante queixa (art. 167). O dano contra o bem do Município também é qualificado (inciso III), mas a ação penal é pública incondicionada. A resposta correta é a alternativa D. O eixo da questão é o crime de dano, que fica no subtema Dano dentro de Crimes Contra o Patrimônio. A ação penal aparece só como regra específica desse crime. A pista de origem (\"Lesão Corporal\") está errada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1021,
+  "cache_w": 15720,
+  "cache_r": 20512,
+  "custo_usd": 0.16106740000000003
+ }
+}

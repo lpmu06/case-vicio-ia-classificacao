@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5515",
+ "extras_ids": [
+  "5515"
+ ],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema Recursos em Espécies. A questão quer saber qual recurso cabe contra a decisão que indefere o reconhecimento da prescrição. A resposta é o RESE, previsto no art. 581, IX, do CPP. Ele não tem efeito suspensivo por força de lei, porque essa hipótese não está entre as do art. 584. A resposta certa é a C. Todas as alternativas giram em torno do cabimento de um recurso específico e do efeito que ele tem. Por isso, o subtema exato é Recurso em sentido estrito (5561), cuja descrição cita expressamente a prescrição, a extinção da punibilidade e o art. 584. A segunda opção é Efeito dos Recursos (5515), já que a questão também cobra o efeito suspensivo.",
+ "id": "Q0108",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5512",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão pergunta qual recurso cabe contra a decisão que indefere o reconhecimento da prescrição e com quais efeitos. O cabimento está no art. 581, IX, do CPP: recurso em sentido estrito (RESE). Como essa hipótese não aparece no art. 584, o recurso não tem efeito suspensivo por força de lei; por isso, a alternativa correta é a C. A prescrição e o procedimento ordinário são só o contexto da história, e o que se testa é o cabimento e o efeito de um recurso específico. O tema é Recursos em Espécies, e o subtema exato seria Recurso em sentido estrito (RESE). A segunda opção é Parte Geral dos Recursos, porque a questão também trata do efeito do recurso."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1153,
+  "cache_w": 14820,
+  "cache_r": 20512,
+  "custo_usd": 0.1556814
+ }
+}

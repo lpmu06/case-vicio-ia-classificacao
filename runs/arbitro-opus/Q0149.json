@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5500",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [
+  "5543"
+ ],
+ "multi_tema": false,
+ "justificativa": "O eixo comum da questão são as diligências da autoridade policial no inquérito. O gabarito é a alternativa C (art. 13-B, § 4º, do CPP: sem manifestação judicial em 12 horas, o delegado pode fazer a requisição e comunica o juiz imediatamente); B e D tratam dos arts. 13-A e 13-B, e E trata da prioridade do exame de corpo de delito (art. 158, parágrafo único), cujo rol não inclui indígena nem gestante. Essas regras estão entre os dispositivos do subtema Procedimento do Inquérito Policial; os temas de provas em espécie (busca pessoal, corpo de delito) aparecem apenas em alternativas isoladas, como apoio.",
+ "id": "Q0149",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5498"
+ ],
+ "candidatos_subtemas": [
+  "5500"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 922,
+  "cache_w": 7077,
+  "cache_r": 16390,
+  "custo_usd": 0.08304199999999999
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0.78,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O item cobra uma teoria criminológica com nome próprio, a criminologia cultural: como ela lê a pichação como contracultura e qual a sua ligação com o labeling approach (etiquetamento). Por isso o subtema Teorias Criminológicas em Espécie (4388) é mais preciso que Teorias de Nível Sociológico (4387), que trata da categoria explicativa ampla. A seletividade descrita no caso (o branco liberado e o negro mantido preso) é só o cenário. A pergunta não é sobre criminalização secundária nem sobre cifras (4377).",
+ "id": "Q0105",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4385"
+ ],
+ "candidatos_subtemas": [
+  "4388"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 538,
+  "cache_w": 5271,
+  "cache_r": 16390,
+  "custo_usd": 0.059401999999999996
+ }
+}

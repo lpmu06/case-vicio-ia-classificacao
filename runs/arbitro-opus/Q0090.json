@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5530",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5539",
+ "extras_ids": [
+  "5539",
+  "5524",
+  "5466"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão compara procedimentos penais. A alternativa A trata da reunião de processos no JECrim (art. 60, parágrafo único, da Lei 9.099/95), a B da citação por edital no JECrim (art. 66), a C, que é a correta, da réplica no júri (art. 409 do CPP) e nas ações originárias do STF e do STJ (Lei 8.038/90), a D da diferença entre as hipóteses de rejeição (art. 395) e de absolvição sumária (art. 397) no rito ordinário, e a E do rito dos crimes funcionais (art. 514). O tema Procedimento Ordinário é o que melhor abrange esse eixo comparativo dos ritos, e por isso marquei a questão como multi-tema e não escolhi subtema. Descartei Ação Penal (5466) e o subtema 5531 porque só a alternativa D toca no recebimento da peça acusatória, e mesmo ela cobra a distinção entre fases do procedimento.",
+ "id": "Q0090",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5530",
+  "5466"
+ ],
+ "candidatos_subtemas": [
+  "5531"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 1205,
+  "cache_w": 12656,
+  "cache_r": 16390,
+  "custo_usd": 0.137917
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5530",
+ "subtema_n2_id": "5533",
+ "confianca_ramo": 0.65,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [
+  "5543",
+  "5590"
+ ],
+ "multi_tema": false,
+ "justificativa": "O item cobra a resposta à acusação como momento próprio para o réu especificar provas e arrolar testemunhas (art. 396-A do CPP), com a ressalva do art. 189 do CPP: no interrogatório, o réu pode indicar provas. O gabarito é Certo. O tema de Sistemas e Princípios ficou de fora porque nenhum princípio está em discussão; o ônus da prova (5591) também, porque a questão não pergunta quem deve provar, e sim em que momento do rito a prova é indicada. O interrogatório (5543) aparece só como ressalva, por isso fica como segunda opção.",
+ "id": "Q0120",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5580",
+  "5530",
+  "5590"
+ ],
+ "candidatos_subtemas": [
+  "5533",
+  "5591"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 798,
+  "cache_w": 12062,
+  "cache_r": 16390,
+  "custo_usd": 0.124466
+ }
+}

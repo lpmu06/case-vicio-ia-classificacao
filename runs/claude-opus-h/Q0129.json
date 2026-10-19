@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5550",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5590",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta se parentes do acusado podem ser ouvidos como testemunhas (arts. 202 e 206 do CPP). A regra é que toda pessoa pode ser testemunha. O parente pode se recusar a depor, exceto quando não houver outro modo de obter a prova do fato, o que é comum em violência doméstica, e então será ouvido sem prestar compromisso (art. 208). Isso é Prova Testemunhal (5550), dentro de Provas em Espécies (5543). A pista de origem, 'Comunicação dos atos processuais', está errada. A alternativa correta é a B.",
+ "id": "Q0129",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão cobra a admissibilidade de parentes do acusado como testemunhas (arts. 202 e 206 do CPP). Pelo art. 206, o parente pode se recusar a depor, mas não pode fazê-lo quando não houver outro modo de obter a prova do fato. Isso pertence à Prova Testemunhal, subtema de Provas em Espécies. A pista de origem, Comunicação dos Atos Processuais, está errada. A alternativa correta é a B."
+ },
+ "uso": {
+  "in": 4,
+  "out": 890,
+  "cache_w": 16771,
+  "cache_r": 20512,
+  "custo_usd": 0.1676274
+ }
+}

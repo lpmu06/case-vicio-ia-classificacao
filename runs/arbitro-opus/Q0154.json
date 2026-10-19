@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5134",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.45,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "4690",
+ "extras_ids": [
+  "5135"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o tipo penal do art. 2º, I, da Lei 9.029/95. É crime exigir teste, exame, perícia, laudo, atestado ou declaração relativos a esterilização ou a estado de gravidez; por isso, a correta é a alternativa B. Nenhum tema da árvore trata dessa lei, que protege as relações de trabalho contra a discriminação. Por isso fiquei com o tema guarda-chuva da organização do trabalho, com confiança baixa, e deixei o subtema 5135 fora porque ele se limita aos arts. 197 a 207 do CP. O tema 4690 (racismo, Lei 7.716/89) fica como segunda opção, porque não abrange discriminação por gênero ou gravidez.",
+ "id": "Q0154",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5134"
+ ],
+ "candidatos_subtemas": [
+  "5135"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 902,
+  "cache_w": 5375,
+  "cache_r": 16390,
+  "custo_usd": 0.067628
+ }
+}

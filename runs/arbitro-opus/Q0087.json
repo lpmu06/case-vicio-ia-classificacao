@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5517",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a prisão domiciliar na execução penal (art. 117 da LEP) e o entendimento do STJ que flexibiliza o rol desse artigo, admitindo-a excepcionalmente nos regimes fechado e semiaberto. Por isso o tema é a Lei de Execução Penal, que não tem subtemas. Descartei Prisões em Espécie > Prisão Domiciliar (5517) porque esse subtema trata da prisão domiciliar cautelar do art. 318 do CPP, e não do cumprimento da pena já imposta.",
+ "id": "Q0087",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4703"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 621,
+  "cache_w": 3568,
+  "cache_r": 16390,
+  "custo_usd": 0.046210999999999995
+ }
+}

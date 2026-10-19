@@ -1,0 +1,22 @@
+{
+ "tema_n1_id": "5476",
+ "subtema_n2_id": "5477",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5477",
+ "extras_ids": [],
+ "multi_tema": false,
+ "fora": false,
+ "justificativa": "A questão trata exclusivamente de regras do Habeas Corpus (legitimidade, impetração apócrifa, assistente, concessão de ofício), que é ação autônoma de impugnação, não comunicação de atos processuais.",
+ "id": "Q0331",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 390,
+  "cache_w": 2302,
+  "cache_r": 225637,
+  "custo_usd": 0.059463400000000007
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra apenas os dispositivos da LEP sobre a assistência ao preso e ao egresso (arts. 10 a 27): assistência material, à saúde e educacional, o conceito de egresso e o alojamento e alimentação por dois meses, prorrogáveis uma vez. A correta é a (A), conforme o art. 25, II. A (B) está errada porque o art. 14 fala em atendimento farmacêutico, e não psicológico. Descartei Teoria da Pena (5199): a questão não trata de regras do CP sobre aplicação ou espécies de pena, e sim de direitos e assistência na execução, que estão no tema 4703, sem subtemas.",
+ "id": "Q0164",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4703",
+  "5199"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 669,
+  "cache_w": 9768,
+  "cache_r": 16390,
+  "custo_usd": 0.101732
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "4368",
+ "subtema_n2_id": "4370",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "4384",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O item pede que o aluno distinga os modelos de reação ao delito: atribui ao modelo restaurador características que pertencem ao modelo ressocializador, como o cumprimento dos deveres pelo preso, o impacto concreto do castigo e a prevenção da reincidência. Por isso o subtema exato é Modelos de Reação ao Delito (4370). Descartei 4384, porque o item não trata da justificação filosófica da pena, e 4369, porque não cobra os níveis de prevenção.",
+ "id": "Q0080",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4368",
+  "4384"
+ ],
+ "candidatos_subtemas": [
+  "4370"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 504,
+  "cache_w": 4989,
+  "cache_r": 16390,
+  "custo_usd": 0.056308000000000004
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5528",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o desaforamento (arts. 427 e 428 do CPP): hipóteses, legitimados, preferência por comarcas próximas, momento cabível e oitiva do juiz-presidente. O instituto aparece expressamente no subtema Organização do Júri e Sessão de Julgamento (5528). Descartei Comunicação dos Atos Processuais (5487), porque o assunto de origem não tem relação com o conteúdo. Também descartei Competência (5480), porque o desaforamento é um incidente próprio do rito do júri.",
+ "id": "Q0167",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5487",
+  "5524"
+ ],
+ "candidatos_subtemas": [
+  "5528"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 857,
+  "cache_w": 7954,
+  "cache_r": 16390,
+  "custo_usd": 0.089542
+ }
+}

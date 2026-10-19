@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5562",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5529",
+ "extras_ids": [
+  "5524"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pede as características da apelação contra condenação do Júri que, quando presentes ao mesmo tempo, permitem atribuir efeito suspensivo ao recurso. A base é o art. 492, §§ 5º e 6º, do CPP. Segundo esses dispositivos, a apelação pode receber efeito suspensivo se não tiver propósito meramente protelatório e se levantar questão substancial que possa resultar em absolvição, anulação, novo julgamento ou redução da pena para menos de 15 anos. A resposta é a alternativa E. O que se testa é o efeito suspensivo da apelação, assunto que a descrição do subtema Apelação (5562) cita expressamente nas palavras-chave (\"efeito suspensivo\" e \"Tribunal do Júri\"). Por isso, confirmo o tema 5560 com o subtema 5562. A segunda opção é Sentença do Júri (5529), porque a regra está no art. 492, ligada à execução provisória da pena.",
+ "id": "Q0040",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5524",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão cobra o art. 492, §§ 5º e 6º, do CPP (Pacote Anticrime). Esses dispositivos permitem atribuir excepcionalmente efeito suspensivo à apelação contra condenação do Júri quando o recurso cumpre dois requisitos cumulados: não ter propósito meramente protelatório e levantar questão substancial que possa levar a absolvição, anulação, novo julgamento ou redução da pena para menos de 15 anos. A resposta é a alternativa E. O que se testa é o efeito da apelação, um recurso em espécie (subtema Apelação). A segunda opção é Procedimento do Tribunal do Júri, porque a regra está no capítulo da sentença do Júri."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1207,
+  "cache_w": 15089,
+  "cache_r": 20512,
+  "custo_usd": 0.1592804
+ }
+}

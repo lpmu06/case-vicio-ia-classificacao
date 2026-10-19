@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5501",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5467",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata do arquivamento do inquérito policial por ausência de elementos informativos, matéria própria de Conclusão e Arquivamento do Inquérito Policial (ausência de justa causa, coisa julgada apenas formal).",
+ "id": "Q0308",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 489,
+  "cache_w": 2189,
+  "cache_r": 214056,
+  "custo_usd": 0.0576322
+ }
+}

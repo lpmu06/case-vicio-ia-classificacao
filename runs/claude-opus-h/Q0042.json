@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5222",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5227",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o conceito de dolo direto (art. 18, I, CP) e pede que ele seja diferenciado do dolo eventual (A), da culpa inconsciente (C) e da culpa consciente (D). O eixo de todas as alternativas são as espécies de dolo e culpa, que são exatamente o assunto do subtema 5222, Crime Doloso e Culposo. O assunto de origem, \"Tipicidade\", é só uma pista fraca. A questão não trata de adequação típica nem de insignificância.",
+ "id": "Q0042",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão pede o conceito de dolo direto em contraste com dolo eventual, culpa inconsciente e culpa consciente. Esse é o elemento subjetivo do fato típico, que corresponde ao subtema Crime Doloso e Culposo dentro de Teoria do Crime: Fato Típico."
+ },
+ "uso": {
+  "in": 4,
+  "out": 740,
+  "cache_w": 10154,
+  "cache_r": 20512,
+  "custo_usd": 0.10627240000000002
+ }
+}

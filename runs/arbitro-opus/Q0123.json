@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "4368",
+ "extras_ids": [
+  "4378",
+  "4385"
+ ],
+ "multi_tema": false,
+ "justificativa": "As quatro assertivas têm um eixo comum: a seletividade penal, especialmente a racial, praticada pelas agências de controle. Entram aí o papel das agências na definição do delito segundo o labeling approach, a abordagem policial discriminatória (perfilamento racial), a letalidade policial que atinge mais os negros e o racismo estrutural, que não se reduz a atos individuais. Esse é o núcleo de Processos de Criminalização (criminalização secundária seletiva), por isso a escolha recai sobre 4377. A opção 4368 (assunto de origem) fica como segunda opção por tratar de garantias e de controle social no Estado Democrático. Não indiquei o subtema 4378 porque a assertiva III cobra dados estatísticos, e não a distinção entre criminalização primária e secundária.",
+ "id": "Q0123",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4368",
+  "4377"
+ ],
+ "candidatos_subtemas": [
+  "4378"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 922,
+  "cache_w": 6351,
+  "cache_r": 16390,
+  "custo_usd": 0.076588
+ }
+}

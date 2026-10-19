@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5159",
+ "extras_ids": [
+  "5159",
+  "5160"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a jurisprudência do STJ sobre dois crimes patrimoniais. No furto, trata do furto privilegiado e qualificado-privilegiado, da chave falsa e da perícia no rompimento de obstáculo, que é o gabarito (E). No roubo, trata da Súmula 443 e das majorantes no roubo qualificado. Como alterna entre furto e roubo, o tema amplo dos crimes contra o patrimônio é o mais adequado, e o subtema fica em aberto. Descartei Concurso de Crimes (5066), que é só a pista de origem, porque nenhuma alternativa trata de pluralidade de crimes.",
+ "id": "Q0140",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5157",
+  "5066"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 826,
+  "cache_w": 13222,
+  "cache_r": 16390,
+  "custo_usd": 0.135191
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5541",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [
+  "4701"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a natureza jurídica da homologação da transação penal. Pela Súmula Vinculante 35, essa homologação não faz coisa julgada material, e o descumprimento das cláusulas permite retomar a situação anterior, com o MP podendo oferecer denúncia; por isso, o item está errado. A suspensão condicional do processo aparece só como contraponto. Os dispositivos do subtema Transação Penal (5541) incluem expressamente a SV 35 e a hipótese de descumprimento do acordo, o que confirma o subtema. Mantenho o tema 5539, porque a origem da questão indica Processo Penal e o assunto é efeito processual (coisa julgada e continuidade da persecução). O tema 4701, de Legislação Especial, também cobre a transação penal, mas tem título diferente, então a regra de preferência não se aplica; ele fica como segunda opção.",
+ "id": "Q0053",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5539",
+  "segunda_opcao_n1_id": "4701",
+  "confianca_ramo": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão cobra a natureza jurídica da homologação da transação penal (Lei 9.099/95). Pela Súmula Vinculante 35, essa homologação não faz coisa julgada material, e o descumprimento das cláusulas permite retomar a persecução penal; por isso, o item está errado. O tema central é a transação penal, que é subtema de Processo Penal > Procedimento Sumaríssimo. Daí a escolha do tema 5539. A segunda opção é Legislação Especial > Juizado Especial Criminal (4701), cujo resumo também inclui a transação penal. Os títulos dos dois temas são diferentes, então a regra de preferência pela Legislação Especial não se aplica diretamente, e há sobreposição real entre eles."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1387,
+  "cache_w": 9268,
+  "cache_r": 20512,
+  "custo_usd": 0.11161940000000001
+ }
+}

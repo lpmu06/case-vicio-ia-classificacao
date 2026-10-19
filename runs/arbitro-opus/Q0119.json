@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": "5181",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5194",
+ "extras_ids": [
+  "5194"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra até quando a lei posterior que descriminaliza o fato pode retroagir. Pelo art. 2º, caput, do CP, ela retroage a qualquer tempo, mesmo depois do trânsito em julgado (gabarito B). O foco está na retroatividade da lei penal benéfica e na sucessão de leis, conteúdo típico de Lei Penal no Tempo (5181). Abolitio Criminis (5194) é uma alternativa próxima, mas a questão não explora a extinção da punibilidade em si. Também descartei Processo Penal (pista de origem), porque a matéria é de direito penal material, e não de lei processual no tempo.",
+ "id": "Q0119",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5180",
+  "5191"
+ ],
+ "candidatos_subtemas": [
+  "5181",
+  "5194"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 764,
+  "cache_w": 8972,
+  "cache_r": 16390,
+  "custo_usd": 0.096571
+ }
+}

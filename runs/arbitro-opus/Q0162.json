@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "4380",
+ "subtema_n2_id": "4381",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.7,
+ "segunda_opcao_id": "4368",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o controle social, um dos objetos da moderna Criminologia. A resposta exige distinguir o controle social formal (polícia, Judiciário, sistema penitenciário) do informal (família, escola, opinião pública). Esses pontos estão nas palavras-chave do subtema 4381 (conceito e objeto). Deixei 4368 como segunda opção porque também trata de controle social. Os termos \"primário, secundário e terciário\" aparecem só como distratores ligados à prevenção, que não é o foco da questão.",
+ "id": "Q0162",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4380"
+ ],
+ "candidatos_subtemas": [
+  "4381"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 646,
+  "cache_w": 4353,
+  "cache_r": 16390,
+  "custo_usd": 0.053519
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5584",
+ "subtema_n2_id": "5588",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.65,
+ "segunda_opcao_id": "5589",
+ "extras_ids": [
+  "5517",
+  "5590"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pede a tese principal na audiência de custódia. A resposta (A) exige reconhecer que o ingresso em domicílio sem justa causa torna o flagrante ilegal, o que leva ao relaxamento da prisão (CF, art. 5º, LXV; CPP, art. 310, I), e não à liberdade provisória, às cautelares diversas nem à prisão domiciliar, que pressupõem prisão legal. Descartei Inquérito Policial (pista de origem), porque não se cobra natureza nem procedimento do inquérito; a audiência de custódia (5589) é só o cenário, e o eixo é distinguir relaxamento de liberdade provisória.",
+ "id": "Q0161",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5584",
+  "5498"
+ ],
+ "candidatos_subtemas": [
+  "5588"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 750,
+  "cache_w": 11183,
+  "cache_r": 16390,
+  "custo_usd": 0.11572299999999999
+ }
+}

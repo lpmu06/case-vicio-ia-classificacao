@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5176",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5175",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede o conceito de iter criminis: o conjunto das fases por que passa o delito (cogitação, preparação, execução, consumação e, para parte da doutrina, exaurimento). A resposta é a alternativa D. Isso corresponde exatamente à descrição do subtema 5176, Fases do Iter Criminis, que trata das etapas em abstrato. A questão não fala de tentativa nem de consumação em concreto (5177), de crime impossível (5179) ou de desistência voluntária e arrependimento (5178). Por isso confirmo o tema 5175 e escolho o subtema 5176.",
+ "id": "Q0057",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5175",
+  "segunda_opcao_n1_id": "5218",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão pede o conceito de iter criminis, que é o conjunto das fases por que passa o delito: cogitação, preparação, execução e consumação, às vezes com o exaurimento. A resposta é a alternativa D. O tema central é Iter Criminis (5175). O assunto se encaixa no subtema 'Fases do Iter Criminis', mas classifiquei no nível 1, que também é correto e evita o risco de cair num subtema irmão errado."
+ },
+ "uso": {
+  "in": 4,
+  "out": 821,
+  "cache_w": 12751,
+  "cache_r": 20512,
+  "custo_usd": 0.1307334
+ }
+}

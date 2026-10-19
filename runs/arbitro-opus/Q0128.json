@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5468",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5184",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a classificação doutrinária da ação penal pelo tipo de tutela jurisdicional buscada (condenatória, cautelar, de prevenção penal). A ação de prevenção penal é a que visa à aplicação de medida de segurança ao inimputável, como ensina Renato Brasileiro, por isso o subtema Classificação da Ação Penal (5468) é o mais adequado, embora a descrição dele trate sobretudo da classificação pela titularidade. Descartei Medida de Segurança (5184, Penal material), porque o eixo cobrado é a espécie de ação processual, e não o regime da sanção.",
+ "id": "Q0128",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5466"
+ ],
+ "candidatos_subtemas": [
+  "5468"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 769,
+  "cache_w": 7744,
+  "cache_r": 16390,
+  "custo_usd": 0.086015
+ }
+}

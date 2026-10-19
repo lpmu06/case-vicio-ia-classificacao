@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5180",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o entendimento sumulado sobre a Lei 11.343/2006: majorantes do art. 40, I, III e V (Súmulas 607 e 587 do STJ e a jurisprudência sobre o inciso III) e a vedação de combinar a lei nova com a Lei 6.368/76 (Súmula 501 do STJ). Por isso o tema é Tráfico de Drogas. A assertiva III toca a lei penal no tempo (5180), mas só no contexto específico da Lei de Drogas, o que não tira o foco do tema. Esse tema não tem subtemas.",
+ "id": "Q0150",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4708"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 575,
+  "cache_w": 3996,
+  "cache_r": 16390,
+  "custo_usd": 0.049041
+ }
+}

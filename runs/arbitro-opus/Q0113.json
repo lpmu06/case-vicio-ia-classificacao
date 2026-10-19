@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5186",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o entendimento do STJ (Primeira Seção, MS 20.857/DF) de que o prazo prescricional da lei penal se aplica à infração disciplinar também capitulada como crime, sem exigir denúncia, sentença ou trânsito em julgado; o gabarito é a alternativa E. O núcleo é de Direito Administrativo disciplinar, mas, como a árvore não tem esse ramo, o tema mais próximo é Prescrição (5185), porque a resposta depende de estender os prazos penais de prescrição. Descartei Ação Penal (5063), porque nada na questão trata de titularidade ou espécie de ação, e deixei o subtema em branco porque nenhum deles trata da prescrição disciplinar.",
+ "id": "Q0113",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5063",
+  "5185"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 847,
+  "cache_w": 8190,
+  "cache_r": 16390,
+  "custo_usd": 0.09142099999999999
+ }
+}

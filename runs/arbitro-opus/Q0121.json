@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5469",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5472",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o princípio da indivisibilidade da ação penal privada (CPP, arts. 48 e 49): quando o querelante deixa de fora, de propósito, um dos coautores, isso equivale a renúncia tácita, e a renúncia se estende a todos, extinguindo a punibilidade (alternativa C). Todas as alternativas giram em torno de princípios da ação penal (conveniência, indisponibilidade, obrigatoriedade, indivisibilidade), por isso escolhi o subtema 5469. O 5472 (Ação Penal de Iniciativa Privada) é uma alternativa forte, porque também abrange a indivisibilidade e a renúncia; o Penal material (Ação Penal/Punibilidade) ficou descartado porque o foco está no regime processual da queixa.",
+ "id": "Q0121",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5466"
+ ],
+ "candidatos_subtemas": [
+  "5469",
+  "5472"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 750,
+  "cache_w": 8244,
+  "cache_r": 16390,
+  "custo_usd": 0.090056
+ }
+}

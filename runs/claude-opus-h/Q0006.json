@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5160",
+ "extras_ids": [
+  "5159",
+  "5160",
+  "5177"
+ ],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema 5157 (Dos Crimes Contra o Patrimônio) e deixo o subtema em branco. A questão compara furto e roubo, como diz o próprio enunciado. A afirmativa I trata da consumação do furto pela teoria da contrectatio, e as afirmativas II e III tratam do roubo: o uso de narcóticos é violência imprópria e configura roubo, e se discute o cabimento de tentativa no roubo impróprio. Como a questão pede os elementos dos tipos de furto e de roubo, e não a teoria geral da tentativa, ela fica nos crimes em espécie, e não em Iter Criminis (5175). Duas das três afirmativas são sobre roubo, mas a afirmativa sobre furto impede classificar só no subtema Roubo (5160). Por isso fico no tema de nível 1, que atende quem estuda tanto Furto quanto Roubo. A segunda opção é Roubo (5160).",
+ "id": "Q0006",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": "5175",
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão cobra a consumação do furto pela teoria da contrectatio, a diferença entre furto e roubo quando o agente usa narcóticos (violência imprópria, que configura roubo) e o cabimento de tentativa no roubo impróprio. Todas as afirmativas tratam de crimes contra o patrimônio. Como envolve dois subtemas, Furto e Roubo, o mais seguro é classificar no tema de nível 1 (Dos Crimes Contra o Patrimônio), e não em um único subtema. A segunda opção seria Iter Criminis, porque as afirmativas I e III falam de consumação e tentativa, mas aplicadas a esses crimes específicos."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1180,
+  "cache_w": 16212,
+  "cache_r": 20512,
+  "custo_usd": 0.1685124
+ }
+}

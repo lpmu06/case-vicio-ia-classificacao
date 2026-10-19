@@ -117,13 +117,22 @@ def main():
 
     def tarefa(q):
         ra, ua = chamar_json(a.provedor, a.modelo, sis_a, c30.montar_pedido(q), ESQUEMA_A, a.effort)
+        ids_grupos = {g["id"] for g in grupos}
+        if not ra["fora"] and ra.get("grupo_id") not in ids_grupos:  # validação com realimentação
+            nota = (f"\n\nATENÇÃO: na tentativa anterior você respondeu grupo_id = {ra.get('grupo_id')!r}, que não é um dos ids "
+                    f"de grupo ({', '.join(sorted(ids_grupos))}). Responda de novo com um desses ids.")
+            ra, ua2 = chamar_json(a.provedor, a.modelo, sis_a, c30.montar_pedido(q) + nota, ESQUEMA_A, a.effort)
+            ua = {k: (ua.get(k) or 0) + (ua2.get(k) or 0) for k in vazio}
+            if not ra["fora"] and ra.get("grupo_id") not in ids_grupos:
+                raise ValueError(f"estágio A devolveu grupo inválido: {ra.get('grupo_id')!r}")
         rb, ub, final, uc = None, vazio, None, vazio
         if ra["fora"] or not ra.get("grupo_id"):
             final = {"fora": True, "tema_n1_id": None, "subtema_n2_id": None, "confianca_ramo": ra["confianca"],
                      "confianca_subtema": 0, "segunda_opcao_id": None, "extras_ids": [], "multi_tema": ra["multi_tema"],
                      "justificativa": ra["justificativa"]}
         else:
-            rb, ub = chamar_json(a.provedor, a.modelo, sis_b, pedido_estagio_b(temas, enr, grupos, q, ra), c31.ESQUEMA_1, a.effort)
+            rb, ub = c31.chamar_validado(a.provedor, a.modelo, sis_b, pedido_estagio_b(temas, enr, grupos, q, ra), c31.ESQUEMA_1,
+                                         a.effort, temas)
             if rb["fora"] or not rb.get("tema_n1_id") or rb["tema_n1_id"] not in temas:
                 final = {"fora": True, "tema_n1_id": None, "subtema_n2_id": None, "confianca_ramo": rb["confianca_ramo"],
                          "confianca_subtema": 0, "segunda_opcao_id": rb.get("segunda_opcao_n1_id"), "extras_ids": [],

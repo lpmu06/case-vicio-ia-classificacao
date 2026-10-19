@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": "5103",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5218",
+ "extras_ids": [
+  "5079",
+  "5071",
+  "5108"
+ ],
+ "multi_tema": true,
+ "justificativa": "O caso gira em torno do estupro de vulnerável (art. 217-A CP), e a alternativa correta (A) cobra a possibilidade de erro de tipo quanto à idade da vítima, que leva à atipicidade. As alternativas C, D e E também discutem o mesmo crime: participação das amigas, omissão imprópria do pai e a distinção com a corrupção de menores. A alternativa B trata de denunciação caluniosa, e o erro de tipo pertence ao tema Fato Típico. Por isso a questão é multi-tema, mas o eixo comum é o estupro de vulnerável, e não a lesão corporal indicada na origem.",
+ "id": "Q0100",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5102"
+ ],
+ "candidatos_subtemas": [
+  "5103"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 866,
+  "cache_w": 8848,
+  "cache_r": 16390,
+  "custo_usd": 0.097332
+ }
+}

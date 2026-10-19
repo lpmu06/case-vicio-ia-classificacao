@@ -1,0 +1,36 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5079",
+ "extras_ids": [
+  "5093",
+  "5089",
+  "5084",
+  "5086",
+  "5147"
+ ],
+ "multi_tema": true,
+ "justificativa": "Mantenho o tema de nível 1 Dos Crimes Contra a Administração Pública (5087) e deixo o subtema em branco, porque cada alternativa cobra um crime diferente e não há um eixo único. (A) Peculato (5089): a reparação do dano só extingue a punibilidade no peculato culposo. (B) Corrupção ativa, art. 333 (5093): é a alternativa correta. (C) Favorecimento (5084): a isenção de pena para ascendente ou descendente vale só para o favorecimento pessoal, não para o real. (D) Exploração de prestígio, art. 357 (5086), e não tráfico de influência. (E) Finanças públicas, art. 359-G (5147): o prazo é de 180 dias antes do fim do mandato, não doze meses. O enunciado e a maioria das alternativas tratam do Título XI do CP, por isso 5087 abrange melhor o conjunto. A segunda opção é Dos Crimes Contra a Administração Judicial (5079). Não escolho o subtema Corrupção Ativa (5093) porque isso restringiria indevidamente uma questão multi-tema.",
+ "id": "Q0073",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5079",
+  "confianca_ramo": 0.88,
+  "multi_tema": true,
+  "justificativa": "A questão cobre de forma ampla os crimes contra a Administração Pública do Título XI do CP, e cada alternativa trata de um crime diferente. (A) Peculato: a reparação do dano até a sentença só extingue a punibilidade no peculato culposo, não em qualquer peculato. (B) Corrupção ativa, art. 333: é a alternativa correta. (C) Favorecimento: a isenção de pena para ascendente ou descendente vale só para o favorecimento pessoal (art. 348, §2º), não para o real; esses crimes ficam no capítulo dos crimes contra a administração da justiça. (D) Pedir dinheiro a pretexto de influir em ato de membro do MP é exploração de prestígio (art. 357), não tráfico de influência. (E) Finanças públicas, art. 359-G: o prazo é de 180 dias antes do fim do mandato, não doze meses. O eixo comum de todas as alternativas é o Título XI, por isso classifico no tema de nível 1 Dos Crimes Contra a Administração Pública, e não no subtema Corrupção Ativa. A pista de origem ('Concurso de Crimes') está errada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1669,
+  "cache_w": 16889,
+  "cache_r": 20512,
+  "custo_usd": 0.1840594
+ }
+}

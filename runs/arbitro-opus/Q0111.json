@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4373",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "4384",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam das características da Escola Positiva: defesa social, método empírico, Ferri como autor positivista e a recepção racista no Brasil por Nina Rodrigues (gabarito B). Por isso a questão se encaixa exatamente no subtema Escolas Criminológicas. O tema 4384 (Teorias Legitimadoras da Pena), sugerido pelo assunto de origem, ficou descartado: a pena como defesa social aparece só como traço da escola, e não como justificação teórica da pena.",
+ "id": "Q0111",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4371",
+  "4384"
+ ],
+ "candidatos_subtemas": [
+  "4373"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 550,
+  "cache_w": 5224,
+  "cache_r": 16390,
+  "custo_usd": 0.0592
+ }
+}

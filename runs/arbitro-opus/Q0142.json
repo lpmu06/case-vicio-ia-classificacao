@@ -1,0 +1,24 @@
+{
+ "fora": true,
+ "tema_n1_id": null,
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede as hipóteses de isenção do ITCD previstas na legislação estadual do Pará, um assunto exclusivamente de Direito Tributário (impostos estaduais). Nenhum tema da árvore cobre isso: ela inclui apenas Criminologia, Direito Penal, Legislação Penal Especial e Processo Penal. O tema 'Crimes Tributários' (4695) também não serve, porque a questão não trata de nenhum tipo penal, só de isenção fiscal.",
+ "id": "Q0142",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 471,
+  "cache_w": 2994,
+  "cache_r": 16390,
+  "custo_usd": 0.03809099999999999
+ }
+}

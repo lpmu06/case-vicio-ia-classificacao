@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5184",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o Regime Disciplinar Diferenciado do art. 52 da LEP, com a redação dada pela Lei 13.964/2019. Todas as alternativas tratam desse único instituto: duração, hipóteses de cabimento independentemente de falta grave (§1º, II, gabarito B), monitoramento das entrevistas (exceto com o defensor), local de cumprimento e aplicação ao preso provisório. O tema Medida de Segurança (5184) só aparece pelo assunto de origem, que não tem relação com o que a questão cobra, e por isso foi descartado.",
+ "id": "Q0155",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5184",
+  "4703"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 699,
+  "cache_w": 4230,
+  "cache_r": 16390,
+  "custo_usd": 0.053575
+ }
+}

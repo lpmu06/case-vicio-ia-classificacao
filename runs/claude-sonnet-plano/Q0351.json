@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5116",
+ "subtema_n2_id": "5118",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa o enquadramento legal da falsificação de cartão de crédito/débito, equiparado a documento particular pelo art. 298, parágrafo único, do CP, matéria de falsidade documental.",
+ "id": "Q0351",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 454,
+  "cache_w": 2132,
+  "cache_r": 214056,
+  "custo_usd": 0.0569522
+ }
+}

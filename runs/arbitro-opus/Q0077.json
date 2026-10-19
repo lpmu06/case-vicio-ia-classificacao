@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5170",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5173",
+ "extras_ids": [
+  "5174",
+  "5180"
+ ],
+ "multi_tema": true,
+ "justificativa": "O eixo principal é a teoria da norma penal: norma penal em branco homogênea ou heterogênea, homovitelina ou heterovitelina, e a norma penal em branco ao avesso, que aparece na alternativa correta (D). As outras alternativas tratam de temas diferentes: crime de atentado ou de empreendimento (classificação dos crimes), continuidade normativo-típica em vez de abolitio criminis (lei penal no tempo) e exequatur (competência do STJ). Por isso a questão fica no tema geral de Introdução, sem subtema específico. Concurso de Pessoas foi descartado porque não há nenhuma pluralidade de agentes cobrada; a pista de origem está equivocada.",
+ "id": "Q0077",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5170",
+  "5071"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 855,
+  "cache_w": 8902,
+  "cache_r": 16390,
+  "custo_usd": 0.097702
+ }
+}

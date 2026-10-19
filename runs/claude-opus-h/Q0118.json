@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5517",
+ "extras_ids": [
+  "5523",
+  "5519"
+ ],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema do estágio anterior. A questão quer saber como uma lei processual penal nova e mais gravosa se aplica no tempo: vale o art. 2º do CPP (tempus regit actum, aplicação imediata e preservação dos atos já praticados), ou fiança e prisão preventiva são normas mistas ou heterotópicas, com retroatividade benéfica e sem retroatividade quando a lei prejudica? A assertiva trata a fiança e a preventiva de forma diferente sem motivo, e é isso que se julga. Isso se encaixa exatamente no subtema 5507 (lei processual no tempo, norma processual pura × mista). Fiança e preventiva (5517, 5523, 5519) aparecem só como contexto.",
+ "id": "Q0118",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5505",
+  "segunda_opcao_n1_id": "5517",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão quer saber como a lei processual nova mais gravosa se aplica no tempo (art. 2º do CPP, tempus regit actum) e se as regras sobre fiança e prisão preventiva devem ser tratadas como normas processuais puras ou como normas mistas. Fiança e preventiva são só o contexto do caso. O assunto central é a Lei processual no Tempo, subtema do tema 5505. A segunda opção é Prisões em Espécie (5517), porque a pergunta toca na liberdade provisória e na prisão preventiva."
+ },
+ "uso": {
+  "in": 4,
+  "out": 987,
+  "cache_w": 12342,
+  "cache_r": 20512,
+  "custo_usd": 0.1305244
+ }
+}

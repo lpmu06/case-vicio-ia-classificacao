@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5522",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema 4704. As quatro afirmativas tratam das medidas protetivas de urgência da Lei 11.340/2006: se podem ser aplicadas de forma cumulativa (art. 19, § 2º), o afastamento do agressor pelo delegado quando o município não é sede de comarca (art. 12-C, II), a concessão em cognição sumária (art. 19, § 4º) e a concessão imediata sem audiência das partes nem manifestação do Ministério Público, com comunicação posterior a ele (art. 19, § 1º). A comparação com as cautelares do CPP só aparece de passagem na primeira afirmativa e não muda o eixo da questão. Por isso a segunda opção não é a 5517 em geral, e sim seu subtema 5522 (Medidas Cautelares Diversas da Prisão). O tema 4704 não tem subtemas, então o subtema fica null.",
+ "id": "Q0063",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": "5517",
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "Todas as afirmativas tratam das medidas protetivas de urgência da Lei 11.340/2006: se podem ser cumuladas, o afastamento do agressor pelo delegado quando o município não é sede de comarca (art. 12-C), a concessão em cognição sumária e a concessão sem audiência das partes. O eixo comum é a Lei Maria da Penha. A comparação com as cautelares do CPP aparece só de passagem. A pista de origem (Inquérito Policial) não reflete o que a questão realmente testa."
+ },
+ "uso": {
+  "in": 4,
+  "out": 948,
+  "cache_w": 11418,
+  "cache_r": 20512,
+  "custo_usd": 0.1217434
+ }
+}

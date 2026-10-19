@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4696",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata do rito processual aplicável aos crimes contra idosos (art. 94 do Estatuto do Idoso, que remete à Lei 9.099/95) e da vedação pelo STF (ADI 3096) à aplicação dos institutos despenalizadores nesses casos, sendo matéria própria do tema Estatuto do Idoso - Crimes, e não apenas do Juizado Especial Criminal em geral.",
+ "id": "Q0359",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 651,
+  "cache_w": 2243,
+  "cache_r": 214056,
+  "custo_usd": 0.0595172
+ }
+}
