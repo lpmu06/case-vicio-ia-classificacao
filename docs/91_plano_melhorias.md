@@ -2,7 +2,7 @@
 
 Origem: `docs/90_avaliacao_simulada.md` (avaliação simulada, lida e aceita com os ajustes anotados abaixo). Este arquivo é a lista de trabalho; foi escrito para ser executado depois de uma compactação de contexto, então é autossuficiente. Marque o status de cada item aqui mesmo (`[ ]` → `[x]`) e registre as decisões no diário (`docs/00_entendimento_e_plano.md`, seção 10).
 
-## Status em 19/10 às 20h40
+## Status em 19/10 às 19h30
 
 Blocos A, B, C, D e E executados e commitados (um commit por bloco; o bloco A foi feito por uma sessão paralela e complementado depois). Bloco F executado: entrega final commitada e enviada ao repositório privado. Bloco G aguarda a chave do Jev. Pendentes do Luis: tornar o repositório público, enviar o e-mail (rascunho em `docs/92_email_entrega.md`), revogar as chaves de `keys.txt`, providenciar a chave do Jev.
 
