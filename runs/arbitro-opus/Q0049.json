@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5149",
+ "subtema_n2_id": "5152",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5218",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o art. 122 do CP com a redação dada pela Lei 13.968/2019. O crime passou a ser formal: consuma-se com o induzimento ou a instigação, mesmo sem resultado, e a lesão grave ou a morte apenas qualificam a pena. Por isso o gabarito é a alternativa B. Todas as alternativas giram em torno desse mesmo tipo penal, então a questão pertence ao subtema específico. Descartei Fato Típico e Iter Criminis porque a tentativa e a natureza formal são discutidas apenas dentro do art. 122.",
+ "id": "Q0049",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5149"
+ ],
+ "candidatos_subtemas": [
+  "5152"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 538,
+  "cache_w": 6622,
+  "cache_r": 16390,
+  "custo_usd": 0.071391
+ }
+}

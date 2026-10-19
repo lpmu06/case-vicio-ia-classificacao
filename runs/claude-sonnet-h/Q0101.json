@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão exige conhecimento específico do art. 14-A da Lei 11.340/2006, que confere ao Juizado de Violência Doméstica e Familiar contra a Mulher competência cível para processar e julgar, a requerimento da vítima, ação de divórcio ou dissolução de união estável, inclusive quanto à partilha de bens. Trata-se de regra do microssistema da Lei Maria da Penha, não de competência criminal geral (que seria o tema 5480, Processo Penal > Competência, voltado a critérios de competência em matéria penal - territorial, material, por prerrogativa, conexão etc., e não a essa competência cível ampliada excepcional). A pista de origem (\"Comunicação dos atos processuais\") é claramente incorreta. Mantido o tema 4704 (Lei Maria da Penha), que não possui subtemas, logo subtema_n2_id = null.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5480",
+ "subtema_n2_id": null,
+ "tema_n1_id": "4704",
+ "id": "Q0101",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a competência do Juizado de Violência Doméstica e Familiar contra a Mulher para processar e julgar ação de divórcio/dissolução de união estável de vítima de violência doméstica, nos termos do art. 14-A da Lei 11.340/2006. Trata-se de conhecimento específico da Lei Maria da Penha (competência cível ampliada do Juizado), não de comunicação de atos processuais (pista de origem incorreta). Classificado em \"Lei Maria da Penha\" (Legislação Especial), que abrange o microssistema da lei, incluindo suas regras de competência."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1173,
+  "cache_w": 33328,
+  "cache_r": 78694,
+  "custo_usd": 0.1678278
+ }
+}

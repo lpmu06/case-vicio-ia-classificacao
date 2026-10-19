@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5567",
+ "extras_ids": [
+  "5561",
+  "5512"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão exige reconhecer dois recursos concretos pelas características que a lei lhes atribui: item I é a carta testemunhável (recurso subsidiário/residual cabível contra decisão que denega outro recurso - art. 639 CPP) e item II é o recurso em sentido estrito (admite juízo de retratação do juiz antes da subida ao tribunal - art. 589 CPP). Gabarito correto é a alternativa (D). Como se trata de dois institutos específicos tratados em subtemas distintos (5567 - Carta Testemunhável e 5561 - RESE), sem um subtema único que abranja ambos, mantenho a classificação no nível 1 \"Recursos em Espécies\" (5560), que corretamente engloba as questões de cabimento concreto de cada recurso. Não é caso de \"Parte Geral dos Recursos\" (5512), pois a questão não trata de princípios, efeitos ou pressupostos abstratos, mas sim da identificação de institutos recursais específicos e nomeados pela lei.",
+ "id": "Q0191",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecer as características específicas de cada recurso do CPP (carta testemunhável - cabível contra denegação de recurso - e recurso em sentido estrito - que admite juízo de retratação), temas de Recursos em Espécie, dentro do grupo PP8 (Recursos e ações autônomas de impugnação)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5512",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão pede a identificação de recursos específicos pelas suas características próprias: item I descreve a carta testemunhável (cabível contra denegação de recurso) e item II descreve o recurso em sentido estrito (admite juízo de retratação). Esses são institutos concretos previstos em lei, tratados no subtema \"Carta Testemunhável\" e \"Recurso em sentido estrito (RESE)\" dentro do tema de nível 1 \"Recursos em Espécies\" (5560), e não a teoria geral abstrata dos recursos (que seria 5512). Como não há subtema único que englobe ambos simultaneamente, classifico no nível 1 \"Recursos em Espécies\", que abrange corretamente as questões de ambos os subtemas."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1672,
+  "cache_w": 82407,
+  "cache_r": 67165,
+  "custo_usd": 0.37126800000000004
+ }
+}

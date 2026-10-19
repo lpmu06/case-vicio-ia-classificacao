@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5503",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.86,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O item trata da implantação do juiz das garantias (arts. 3º-A a 3º-F do CPP) e do prazo fixado pelo STF nas ADIs 6298, 6299, 6300 e 6305: 12 meses, prorrogável uma vez por igual período. Esse instituto corresponde exatamente ao subtema 5503 (Juiz das Garantias). Descartei o tema Competência (5480), sugerido pelo assunto de origem, porque a questão não pede nenhum critério de fixação de competência territorial, material ou por prerrogativa de função. Ela pede o regime do juiz das garantias, e a própria árvore distingue esse regime de Competência.",
+ "id": "Q0021",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5480",
+  "5498"
+ ],
+ "candidatos_subtemas": [
+  "5503"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 588,
+  "cache_w": 10688,
+  "cache_r": 16390,
+  "custo_usd": 0.108267
+ }
+}

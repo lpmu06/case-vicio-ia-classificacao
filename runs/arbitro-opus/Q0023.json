@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5527",
+ "extras_ids": [
+  "5527",
+  "5528",
+  "5526"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão percorre o procedimento do Júri como um todo: as duas fases (A), a pronúncia e a prisão (B), a impronúncia (C), a ausência do advogado em plenário (D) e a inquirição em plenário (E). O gabarito é a alternativa B: pelo art. 413, §3º, do CPP, o juiz precisa fundamentar a manutenção ou a decretação da prisão tanto para o réu preso quanto para o solto. Como as alternativas se distribuem por vários subtemas (5526, 5527 e 5528), o correto é classificar no tema de nível 1 (5524), sem subtema.",
+ "id": "Q0023",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5524"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 758,
+  "cache_w": 6121,
+  "cache_r": 27971,
+  "custo_usd": 0.0737842
+ }
+}

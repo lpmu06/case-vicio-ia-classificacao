@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5475",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5572",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam da ação civil ex delicto e da relação entre as esferas penal e cível. Os pontos cobrados são: a legitimidade do MP pelo art. 68 do CPP, com base na inconstitucionalidade progressiva; a suspensão do processo cível (art. 64, parágrafo único); o arquivamento do inquérito, que não impede a ação civil (art. 67, I); e a coisa julgada cível nas excludentes (art. 65). A legítima defesa putativa não faz coisa julgada no cível, por isso a alternativa D é a incorreta. Descartei Sentença Penal/Efeitos da condenação (5572) porque o foco aqui é a reparação no juízo cível, e não os efeitos da condenação dentro do processo penal.",
+ "id": "Q0019",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5466"
+ ],
+ "candidatos_subtemas": [
+  "5475"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 636,
+  "cache_w": 8044,
+  "cache_r": 16390,
+  "custo_usd": 0.08597700000000001
+ }
+}

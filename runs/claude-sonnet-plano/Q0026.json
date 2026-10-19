@@ -1,0 +1,22 @@
+{
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "fora": false,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5128",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecer os requisitos de incidência da Lei Maria da Penha (art. 5º): vínculo doméstico, familiar ou de afeto, abrangendo mulher trans, relações entre mulheres no âmbito familiar, empregada doméstica e contravenções penais por gênero; a alternativa correta (fora do âmbito) é a agressão no ambiente de trabalho sem relação íntima/afeto. Tema de nível 1 \"Lei Maria da Penha\" (4704), sem subtema específico aplicável.",
+ "id": "Q0026",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 896,
+  "cache_w": 213360,
+  "cache_r": 2978,
+  "custo_usd": 0.8642446
+ }
+}

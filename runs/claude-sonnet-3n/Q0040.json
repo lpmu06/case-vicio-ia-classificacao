@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5562",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5512",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra os requisitos cumulativos do art. 492, §1º, do CPP (ausência de propósito protelatório + questão substancial capaz de gerar absolvição, anulação ou redução de pena para menos de 15 anos) para atribuição de efeito suspensivo à apelação contra sentença condenatória do júri. Trata-se de disciplina específica deste recurso em espécie (requisitos próprios e peculiares da apelação no procedimento do júri), não de teoria geral dos efeitos recursais em abstrato, por isso mantenho o tema de nível 1 em 5560 (Recursos em Espécies) e, diferentemente da etapa anterior, agora atribuo o subtema 5562 (Apelação), cuja descrição e palavras-chave expressamente abrangem \"efeito suspensivo\" em sentenças do Tribunal do Júri. A segunda opção (5512) permanece como alternativa pela proximidade temática com efeitos recursais em geral.",
+ "id": "Q0040",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa requisitos cumulativos para atribuição de efeito suspensivo à apelação contra sentença condenatória do Tribunal do Júri (art. 492, §§ do CPP) - tema de Recursos em Espécie, dentro do grupo de Recursos e Ações Autônomas de Impugnação."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5512",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata dos requisitos cumulativos para atribuição de efeito suspensivo à apelação contra sentença condenatória do júri (art. 492, §§1º e 2º do CPP), matéria específica do recurso de Apelação, subtema de \"Recursos em Espécies\" (5560). Não se trata de teoria geral dos recursos (efeitos recursais em abstrato), mas da disciplina concreta deste recurso em espécie, por isso o tema de nível 1 mais preciso é 5560, com \"Parte Geral dos Recursos\" (5512) como segunda opção por tratar de efeitos recursais de forma mais ampla."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1649,
+  "cache_w": 52903,
+  "cache_r": 101498,
+  "custo_usd": 0.26007060000000004
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4380",
+ "subtema_n2_id": "4381",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4382",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede o que NÃO é objeto de estudo da Criminologia, listando crime, vítima, controle social, personalidade do delinquente (todos objetos clássicos/modernos) versus o \"dever-ser\" (que é objeto do Direito Penal, ciência normativa, não da Criminologia, ciência do \"ser\"). Isso é exatamente a delimitação do objeto da Criminologia tratada no subtema 4381 (Conceito e objeto da Criminologia), e não métodos/funções (4382).",
+ "id": "Q0334",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4380",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente o conceito e objeto de estudo da Criminologia (crime, criminoso, vítima, controle social x \"dever-ser\" normativo do Direito Penal), tema clássico da Teoria Geral da Criminologia, subtema \"Conceito e objeto da Criminologia\"."
+ },
+ "uso": {
+  "in": 4,
+  "out": 801,
+  "cache_w": 6049,
+  "cache_r": 43624,
+  "custo_usd": 0.0445048
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5134",
+ "subtema_n2_id": "5135",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão reproduz literalmente a conduta do art. 197, I, do CP: \"constranger alguém, mediante violência ou grave ameaça... a trabalhar ou não trabalhar durante certo período\", tipificando o crime de atentado contra a liberdade de trabalho (alternativa C correta). Trata-se de crime contra a organização do trabalho (arts. 197 a 207 do CP), inserido com precisão no subtema 5135 (\"Dos Crimes Contra a Organização do Trabalho\"), filho do tema de nível 1 5134. Não se trata de constrangimento ilegal comum (alternativa B, incorreta, pois há tipo específico mais grave) nem de frustração de direito trabalhista (art. 203, alternativa D, que exige fraude e não violência/grave ameaça para constranger ao trabalho) nem de atentado à liberdade de contrato de trabalho (art. 198, alternativa E, que trata de boicotagem/greve com violência, não do próprio ato de trabalhar). Não há plausibilidade de outro subtema (5136 e 5137 tratam de matérias completamente distintas - propriedade imaterial e sentimento religioso/respeito aos mortos), por isso não há segunda opção a indicar.",
+ "id": "Q0030",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão descreve o tipo do art. 197 do CP (atentado contra a liberdade de trabalho), que integra os \"Crimes contra a Organização do Trabalho\", tema do grupo P5 (Parte especial: patrimônio, propriedade imaterial, organização do trabalho e fé pública)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5134",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão descreve exatamente a conduta do art. 197, I, do CP (atentado contra a liberdade de trabalho): constranger alguém, mediante violência ou grave ameaça, a trabalhar ou não trabalhar durante certo período. Esse crime está inserido no Capítulo I (\"Dos Crimes contra a Organização do Trabalho\") do Título IV do CP, que corresponde ao tema 5134 (\"Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso\"), especificamente ao subtema \"Dos Crimes Contra a Organização do Trabalho\". Não há relação com os temas 5157 (crimes patrimoniais) ou 5116 (fé pública/falsidade documental), de modo que não há segunda opção plausível."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1564,
+  "cache_w": 45731,
+  "cache_r": 101498,
+  "custo_usd": 0.22540359999999998
+ }
+}

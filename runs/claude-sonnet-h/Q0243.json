@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5178",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5191",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema de nível 1 \"Iter Criminis\" (5175). A questão descreve furto qualificado já consumado (subtração mediante chave falsa) seguido de devolução voluntária da coisa pelo agente, após o oferecimento da denúncia mas antes do seu recebimento — hipótese textual de arrependimento posterior (art. 16 do CP), que exige: (i) crime cometido sem violência ou grave ameaça à pessoa; (ii) reparação do dano ou restituição da coisa; (iii) por ato voluntário do agente; (iv) até o recebimento da denúncia ou queixa. Todos os elementos estão presentes no enunciado, o que torna a alternativa (A) o gabarito. O subtema de nível 2 \"Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior\" (5178) cobre expressamente esse instituto em sua descrição e dispositivos (art. 16 CP), distinguindo-o da desistência voluntária e do arrependimento eficaz (que pressupõem interrupção do iter antes da consumação) — não é caso de extinção da punibilidade (art. 16 é causa de diminuição de pena, não do rol do art. 107 do CP), por isso mantenho Punibilidade (5191) apenas como segunda opção, por proximidade temática equivocada que um candidato menos atento poderia cometer.",
+ "id": "Q0243",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5175",
+  "segunda_opcao_n1_id": "5191",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata de furto qualificado já consumado (subtração com chave falsa), em que, após o oferecimento da denúncia mas antes de seu recebimento, o agente devolve voluntariamente a coisa à vítima. Isso é exatamente a hipótese do art. 16 do CP: arrependimento posterior (reparação do dano ou restituição da coisa, por ato voluntário do agente, antes do recebimento da denúncia, em crime sem violência ou grave ameaça), que opera como causa de diminuição de pena, distinguindo-se da desistência voluntária e do arrependimento eficaz (que pressupõem interrupção do iter criminis antes da consumação). O tema de nível 1 \"Iter Criminis\" (5175) tem subtema expresso \"Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior\", cobrindo precisamente esse instituto. Não é causa de extinção da punibilidade (alternativa E), por isso marquei Punibilidade (5191) apenas como segunda opção por semelhança temática, mas o gabarito correto é arrependimento posterior dentro de Iter Criminis."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1676,
+  "cache_w": 33835,
+  "cache_r": 78694,
+  "custo_usd": 0.1759058
+ }
+}

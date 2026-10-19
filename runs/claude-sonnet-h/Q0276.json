@@ -1,0 +1,36 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5590",
+ "extras_ids": [
+  "5547",
+  "5548",
+  "5552",
+  "5545",
+  "5554"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 \"Provas em Espécies\" (5543). Cada alternativa versa sobre um meio de prova específico distinto: (A) interrogatório judicial (subtema 5547), (B) confissão extrajudicial/informal (subtema 5548), (C) acareação entre corréus/vítima (subtema 5552), (D) exame de corpo de delito e seu indeferimento quando desnecessário - art. 184 CPP (subtema 5545), (E) busca pessoal sem mandado no curso de busca domiciliar (subtema 5554). Não há um único instituto probatório comum a todas as alternativas, o que caracteriza questão multi-tema dentro do mesmo ramo de nível 1. Por isso, subtema_n2_id = null, pois nenhum subtema isolado cobre a questão como um todo - classificar em apenas um dos subtemas (ex.: Exame de Corpo de Delito, onde está a resposta correta \"D\") seria incorreto para as demais alternativas. A segunda opção seria Teoria Geral das Provas (5590) apenas se o foco fosse princípios ou valoração geral, o que não é o caso aqui, pois todas as alternativas tratam de procedimentos e requisitos de meios probatórios específicos do CPP.",
+ "id": "Q0276",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.9,
+  "multi_tema": true,
+  "justificativa": "A questão trata de diversos meios de prova em espécie no processo penal (interrogatório, confissão, acareação, exame de corpo de delito, busca pessoal), cada alternativa versando sobre um instituto probatório distinto do CPP. O eixo comum é \"Provas em Espécies\", tema de nível 1 de Processo Penal que abrange exatamente esses institutos como subtemas (Interrogatório Judicial, Confissão, Acareação, Exame de Corpo de Delito, Busca e Apreensão). Por não haver um único subtema aplicável a todas as alternativas, classifica-se como multi-tema dentro do mesmo tema de nível 1. Segunda opção seria Teoria Geral das Provas, caso o foco fosse princípios gerais, mas o conteúdo é claramente sobre meios de prova específicos."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1680,
+  "cache_w": 15530,
+  "cache_r": 43624,
+  "custo_usd": 0.09885279999999999
+ }
+}

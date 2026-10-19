@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": "5103",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5108",
+ "extras_ids": [
+  "5110"
+ ],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas giram em torno do estupro e do estupro de vulnerável (conjunção carnal/ato libidinoso mediante violência ou com vítima menor de 14 anos) e de seu concurso com o homicídio (doloso, culposo ou qualificador) e, em uma delas, com o art. 240 do ECA. O eixo decisório comum é a tipificação do estupro/estupro de vulnerável e sua forma qualificada pelo resultado morte (art. 213, §2º, e art. 217-A, §4º, c/c art. 6º da Lei 12.015/2009 e discussões sobre dolo direto, eventual e culpa em relação ao resultado morte), que é o núcleo específico do subtema 5103. A alternativa (C) e (D) também tocam vulnerabilidade de menores, reforçando o enquadramento em estupro de vulnerável, não em corrupção de menores (5108), pois há conjunção carnal/ato libidinoso diretamente com a vítima vulnerável, hipótese que a própria descrição do 5108 exclui expressamente desse subtema.",
+ "id": "Q0227",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5102",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas giram em torno de crimes sexuais (estupro, estupro de vulnerável) e seu concurso com outros delitos (homicídio, qualificadora pela morte, crime do ECA), testando o conhecimento sobre a tipificação correta e o concurso de crimes nesses casos. O eixo comum é claramente os Crimes Contra a Dignidade Sexual (Título VI do CP), especialmente estupro e estupro de vulnerável, cabendo classificar no tema de nível 1 que abrange todos os subtemas envolvidos."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1567,
+  "cache_w": 33890,
+  "cache_r": 78694,
+  "custo_usd": 0.1748828
+ }
+}

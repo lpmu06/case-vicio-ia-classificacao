@@ -1,0 +1,34 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "extras_ids": [
+  "5187",
+  "5189",
+  "5190"
+ ],
+ "fora": false,
+ "justificativa": "A questão exige análise de cinco afirmações sobre prescrição penal, cada uma testando um aspecto distinto: (A) marco inicial da prescrição em crime da Lei de Falências; (B) suspensão da prescrição pela decretação de falência após recuperação judicial; (C) prazo especial de prescrição da pena aplicada a usuário de drogas (regra específica, aproximando-se de \"Outras Prescrições\"); (D) reinício/suspensão da contagem após trânsito em julgado quando o condenado está preso por outro motivo (art. 116, §único, CP - pretensão executória); (E) recomeço da contagem da prescrição da pretensão executória em caso de fuga do condenado (art. 113 CP). Não há um eixo único entre as alternativas: elas abrangem marco inicial/causas suspensivas (5187), prescrição da pretensão executória (5189) e regra especial de prescrição em lei de drogas (5190). Por isso, mantenho o tema de nível 1 \"Prescrição\" (5185), que abrange corretamente todas essas hipóteses, mas não atribuo subtema de nível 2 específico, pois a questão é transversal a pelo menos três subtemas distintos (multi-tema interno à Prescrição).",
+ "multi_tema": true,
+ "segunda_opcao_id": "5189",
+ "subtema_n2_id": null,
+ "tema_n1_id": "5185",
+ "id": "Q0245",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5185",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "Questão testa diretamente institutos de prescrição penal (prescrição da pretensão executória, contagem de prazos, causas interruptivas/suspensivas, inclusive em leis especiais como falências e drogas), tema de nível 1 \"Prescrição\" (5185) em Direito Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2203,
+  "cache_w": 32457,
+  "cache_r": 78694,
+  "custo_usd": 0.1731378
+ }
+}

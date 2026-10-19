@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4702",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão reproduz literalmente o art. 4º, caput, da Lei 9.613/1998, tratando da medida assecuratória de indisponibilidade de bens, direitos e valores, inclusive quando registrados em nome de interpostas pessoas (testas de ferro), havendo indícios suficientes de que o acusado de lavagem é o titular real. É matéria específica e central da Lei de Lavagem de Dinheiro (4702), que não possui subtemas, confirmando a classificação anterior.",
+ "id": "Q0203",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4702",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata da medida assecuratória de indisponibilidade de bens, direitos e valores previstos no art. 4º da Lei 9.613/1998 (Lei de Lavagem de Dinheiro), inclusive quanto a bens registrados em nome de interpostas pessoas (testas de ferro) cuja titularidade real pertença ao acusado. É matéria específica da Lei de Lavagem de Dinheiro, tema de Legislação Especial."
+ },
+ "uso": {
+  "in": 4,
+  "out": 897,
+  "cache_w": 29663,
+  "cache_r": 78694,
+  "custo_usd": 0.1466538
+ }
+}

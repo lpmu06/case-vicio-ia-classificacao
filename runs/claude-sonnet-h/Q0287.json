@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5228",
+ "subtema_n2_id": "5230",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5229",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede diretamente qual alternativa é causa excludente de ilicitude, sendo a resposta correta \"estado de necessidade\" (art. 23, I, CP), distinguindo-se de erro de proibição, doença mental e menoridade (causas relacionadas à culpabilidade/imputabilidade) e embriaguez acidental (que pode excluir culpabilidade, não ilicitude). O tema central é especificamente o instituto Estado de Necessidade dentro de Ilicitude.",
+ "id": "Q0287",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5228",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão pergunta qual instituto é excludente de ilicitude, testando diretamente a distinção entre causas excludentes de ilicitude (estado de necessidade) e de culpabilidade/outros institutos (erro de proibição, doença mental, embriaguez acidental, menoridade). O tema central é Ilicitude (Teoria do Crime), subtema Estado de Necessidade."
+ },
+ "uso": {
+  "in": 4,
+  "out": 803,
+  "cache_w": 7746,
+  "cache_r": 43624,
+  "custo_usd": 0.052645800000000006
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5528",
+ "extras_ids": [
+  "5526",
+  "5527"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 \"Procedimento do Tribunal do Júri\" (5524). A questão pede a alternativa INCORRETA e cada item testa um subtema diferente: (A) estrutura bifásica — judicium accusationis/judicium causae (subtema 5526); (B) efeitos da pronúncia sobre a prisão cautelar e necessidade de motivação (subtema 5527); (C) natureza jurídica da decisão de impronúncia quanto à coisa julgada (subtema 5527); (D) ausência de defensor/adiamento do julgamento em plenário (subtema 5528); (E) sistema de colheita de depoimentos em plenário, direto e cruzado para as partes e indireto/presidencialista para os jurados (subtema 5528). Como não há um único subtema que abranja todas as alternativas, a classificação correta é no tema de nível 1 (5524), com multi_tema=true. Não escolho subtema específico (subtema_n2_id=null) por não haver um eixo único; indico 5528 como segunda opção, por ser o subtema que trata da sessão de julgamento (dois dos cinco itens), e listo 5526 e 5527 como extras por também serem centrais ao conjunto.",
+ "id": "Q0023",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP6",
+  "segundo_grupo_id": null,
+  "confianca": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão versa inteiramente sobre o procedimento do Tribunal do Júri (juízo da acusação/causa, efeitos da pronúncia, impronúncia, ausência de defensor na sessão, sistema de colheita de depoimentos em plenário), temas que se enquadram no subtema \"Procedimento do Tribunal do Júri\", pertencente ao grupo PP6."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": true,
+  "justificativa": "Todas as alternativas versam sobre aspectos distintos do procedimento do Tribunal do Júri (estrutura bifásica/juízo da acusação e da causa, efeitos da pronúncia sobre prisão cautelar, natureza da impronúncia, ausência de defensor na sessão de julgamento e sistema de colheita de depoimentos em plenário), o que caracteriza questão que percorre múltiplos subtemas dentro do mesmo tema de nível 1 \"Procedimento do Tribunal do Júri\" (5524), do grupo PP6. Como cada alternativa aborda um subtema diferente (Procedimento Bifásico, Impronúncia/Pronúncia, Organização do Júri e Sessão de Julgamento), a classificação correta é no nível 1, não em um subtema específico."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1990,
+  "cache_w": 46183,
+  "cache_r": 101498,
+  "custo_usd": 0.2326116
+ }
+}

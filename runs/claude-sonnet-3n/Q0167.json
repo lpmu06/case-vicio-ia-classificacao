@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5528",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5486",
+ "extras_ids": [
+  "5480"
+ ],
+ "multi_tema": false,
+ "justificativa": "Com os metadados completos, confirmo o ramo 5524 (Procedimento do Tribunal do Júri) e agora identifico com segurança o subtema de nível 2: [5528] Organização do Júri e Sessão de Julgamento. Esse subtema lista expressamente \"desaforamento\" entre suas palavras-chave e cita literalmente os arts. 427 e 428 do CPP nos dispositivos, exatamente os artigos testados na questão (requisitos do art. 427 - ordem pública, imparcialidade, segurança do acusado; legitimados incluindo querelante e assistente; critério de comarca mais próxima da mesma região; momento pós-pronúncia; e procedimento do art. 428 com representação do juiz e oitiva das partes). Trata-se de instituto específico da organização/preparação da sessão do júri, distinto da teoria geral de competência (5480/5486), que trata de regras amplas de modificação de competência aplicáveis a qualquer processo, não especificamente do desaforamento do júri. Mantenho 5486 (Prorrogação, Perpetuação e Modificação de Competência) como segunda opção por ser tecnicamente uma hipótese de modificação territorial de competência, mas a descrição e palavras-chave de 5528 são mais específicas e aderentes ao conteúdo cobrado, justificando confiança alta tanto no ramo quanto no subtema.",
+ "id": "Q0167",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP6",
+  "segundo_grupo_id": "PP3",
+  "confianca": 0.65,
+  "multi_tema": false,
+  "justificativa": "Desaforamento é instituto específico do procedimento do Tribunal do Júri (arts. 427-428 CPP), tratado doutrinariamente dentro desse procedimento, apesar de topograficamente estar no capítulo de competência. A questão testa requisitos, legitimados, critério de escolha da comarca e momento processual do desaforamento, todos ligados diretamente ao rito do júri (tema 'Procedimento do Tribunal do Júri', grupo PP6). Alternativa: poderia ser classificado em PP3 (Competência), já que tecnicamente é regra de modificação de competência territorial."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "Desaforamento (arts. 427-428 CPP) é instituto próprio e exclusivo do procedimento do Tribunal do Júri, regulando a transferência do julgamento para outra comarca quando há risco à imparcialidade, ordem pública ou segurança do acusado. A questão cobra especificamente os requisitos, legitimados (querelante, assistente, MP, defesa, juiz), critério de escolha da comarca mais próxima e o momento processual (após a pronúncia) - todo o conteúdo normativo é doutrinariamente estudado dentro do rito do júri, não como teoria geral de competência. Por isso mantenho a classificação em 'Procedimento do Tribunal do Júri' (PP6/5524), com 'Competência' (PP3/5480) como segunda opção razoável, já que tecnicamente é uma regra de modificação de competência territorial e pode estar classificado sob essa rubrica em algumas doutrinas/bancas. A confiança não é muito alta justamente por essa ambiguidade topográfica genuína do instituto."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2543,
+  "cache_w": 16305,
+  "cache_r": 14150,
+  "custo_usd": 0.1047
+ }
+}

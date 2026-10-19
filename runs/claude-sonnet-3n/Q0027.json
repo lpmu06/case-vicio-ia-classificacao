@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5487",
+ "subtema_n2_id": "5488",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5489",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão reproduz o art. 367 do CPP: o processo segue sem o acusado que, citado ou intimado pessoalmente para qualquer ato, deixa de comparecer sem motivo justificado (gabarito C). O eixo é especificamente a citação pessoal e seus efeitos (revelia), o que corresponde ao subtema \"Citação e Contagem dos Prazos\" (5488), dentro do tema de nível 1 \"Comunicação dos Atos Processuais\" (5487). Mantenho a confirmação do tema de nível 1 do estágio anterior, mas agora fixo o subtema 5488, já que o enunciado trata do efeito da citação pessoal sem comparecimento, e não de intimação de atos posteriores (que seria 5489) nem de incidente processual (5490).",
+ "id": "Q0027",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP3",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata da regra do art. 367 do CPP: o processo segue sem a presença do acusado citado pessoalmente para qualquer ato e que deixa de comparecer sem motivo justificado. É matéria de citação/revelia no processo penal, que se insere no tema \"Comunicação dos Atos Processuais\", pertencente ao grupo PP3."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5487",
+  "segunda_opcao_n1_id": "5490",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão reproduz literalmente a regra do art. 367 do CPP: o processo prossegue sem a presença do acusado citado pessoalmente para qualquer ato e que deixa de comparecer sem motivo justificado (revelia). O eixo testado é a forma de citação pessoal e seus efeitos, matéria que se insere no tema \"Comunicação dos Atos Processuais\", especificamente no subtema \"Citação e Contagem dos Prazos\". Não se trata de competência nem de incidentes processuais, descartando os temas 5480 e 5490 como opção principal."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1444,
+  "cache_w": 47529,
+  "cache_r": 101498,
+  "custo_usd": 0.23451160000000001
+ }
+}

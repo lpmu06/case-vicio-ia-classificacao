@@ -1,0 +1,40 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.75,
+ "extras_ids": [
+  "5511"
+ ],
+ "fora": false,
+ "justificativa": "A questão exige a complementação literal dos arts. 567 e 568 do CPP: a incompetência do juízo anula apenas os atos decisórios (não todos os atos), devendo o processo ser remetido ao juízo competente; e a nulidade por ilegitimidade de representante da parte pode ser sanada a todo tempo, mediante ratificação dos atos processuais (resposta correta: alternativa E). O eixo é o regime das nulidades — hipóteses específicas de vício (incompetência, ilegitimidade de representação) e seu respectivo regime de convalidação/sanação —, confirmando o tema de nível 1 \"Nulidades\" (5509) e não \"Sentença Penal\" (5572), que não guarda relação com o conteúdo cobrado. Quanto ao nível 2, a questão trata do regime de sanabilidade (absoluta x relativa) tanto quanto da hipótese específica do art. 564 (incompetência e ilegitimidade), havendo sobreposição real entre \"Nulidade Absoluta e Relativa\" (5510) e \"Nulidades em Espécie\" (5511); optei por 5510 por ser o enunciado centrado no efeito invalidante e na possibilidade de sanação (regime jurídico), mas sem certeza suficiente para eliminar 5511, que fica como extra.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5511",
+ "subtema_n2_id": "5510",
+ "tema_n1_id": "5509",
+ "id": "Q0092",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP7",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre os efeitos da incompetência do juízo e da ilegitimidade do representante da parte como causas de nulidade, nos termos dos arts. 567 e 568 do CPP — matéria típica de Nulidades, tema de nível 1 dentro do grupo PP7 (Sentença e nulidades)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5509",
+  "segunda_opcao_n1_id": "5572",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão pede a complementação literal dos arts. 567 e 568 do CPP, que tratam diretamente da nulidade por incompetência do juízo (extensão da invalidação aos atos decisórios) e da sanabilidade da nulidade por ilegitimidade do representante da parte mediante ratificação. O eixo central é a teoria das nulidades processuais (vícios, convalidação/sanação e seus efeitos), correspondendo exatamente ao tema de nível 1 \"Nulidades\" (5509), especificamente ao subtema \"Nulidade Absoluta e Relativa\"/\"Nulidades em Espécie\". Não se trata de tema de Sentença Penal (5572), pois não há questionamento sobre classificação de provimentos, correlação acusação-sentença ou efeitos da condenação."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1760,
+  "cache_w": 49594,
+  "cache_r": 101498,
+  "custo_usd": 0.2460946
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5501",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5580",
+ "extras_ids": [
+  "5503"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é multi-tema (cada alternativa versa sobre instituto diferente do pacote anticrime), mas a alternativa correta (A) trata do art. 28, §1º, CPP — arquivamento do inquérito policial e revisão pela instância ministerial em caso de discordância da vítima —, o que é exatamente o núcleo do subtema Conclusão e Arquivamento do Inquérito Policial (5501), dentro do tema Inquérito Policial (5498). As demais alternativas (B/E sobre estrutura acusatória/inquisitória e C sobre citação de policiais investigados) são incorretas e dispersam o eixo temático, mas como o gabarito gira em torno do arquivamento, mantenho a classificação em 5498 com subtema 5501. Segunda opção: Sistemas e Princípios Processuais Penais (5580), pelo conteúdo das alternativas B e E sobre sistema acusatório/inquisitório. Extra: Juiz das Garantias (5503), tangencialmente relacionado ao pacote anticrime.",
+ "id": "Q0330",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5580",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão trata de diversas alterações do \"pacote anticrime\" no CPP: arquivamento do inquérito policial (art. 28, com remessa à instância revisora do MP), estrutura acusatória do processo/investigação (vedação à iniciativa do juiz na instrução), e citação de policiais investigados. Não há um único instituto testado em todas as alternativas, mas o eixo mais recorrente (alternativas A, C e D) é o Inquérito Policial, especificamente seu arquivamento e a investigação de agentes policiais, por isso a classificação em Inquérito Policial (nível 1), que abrange o subtema \"Conclusão e Arquivamento do Inquérito Policial\". Como segunda opção, cabe Sistemas e Princípios Processuais Penais, pois a alternativa B/E versa sobre o sistema acusatório. Por se tratar de questão com alternativas heterogêneas (multi-tema), a confiança é moderada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1722,
+  "cache_w": 11385,
+  "cache_r": 43624,
+  "custo_usd": 0.07938780000000001
+ }
+}

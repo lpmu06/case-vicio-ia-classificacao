@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.7,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5079",
+ "extras_ids": [
+  "5091",
+  "5089",
+  "5081"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão combina quatro institutos distintos em alternativas isoladas: (A) concussão (art. 316, CP - subtema 5091), (B) progressão de regime condicionada à reparação do dano em crimes contra a Administração Pública (art. 33, §4º, CP - tema geral de execução/aplicação da pena, não coberto por subtema específico de 5087), (C) peculato culposo com reparação do dano (art. 312, §3º, CP - subtema 5089), e (D) retratação na falsa perícia (art. 342, CP - subtema 5081 de Administração Judicial). Não há eixo único: três das quatro alternativas (A, B, C) giram em torno de crimes/institutos ligados à Administração Pública, enquanto D pertence à Administração Judicial. Por isso, mantenho o tema de nível 1 em 5087 (predominância numérica e normativa), com 5079 como segunda opção por conta do item D. Como nenhum subtema de 5087 cobre isoladamente o conjunto (a alternativa B não se encaixa em nenhum subtema listado, sendo mais afeta a regras gerais de execução penal/aplicação de pena do art. 33 do CP), o subtema de nível 2 fica em branco (null), evitando o risco de direcionar o aluno a um subtema que não contempla toda a questão. Marco multi_tema = true dado o caráter heterogêneo das alternativas.",
+ "id": "Q0192",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": true,
+  "justificativa": "A questão reúne institutos ligados aos crimes contra a administração pública: concussão e peculato culposo (Dos Crimes Contra a Administração Pública), falsa perícia (Dos Crimes Contra a Administração Judicial) e a regra de progressão de regime condicionada à reparação do dano nos crimes contra a administração pública (art. 33, §4º, CP). Todos os itens giram em torno do eixo \"crimes contra a administração pública/judicial\", cobertos pelo grupo P8, que engloba ambos os temas de nível 1 envolvidos."
+ },
+ "estagioB": {
+  "confianca_ramo": 0.6,
+  "fora": false,
+  "justificativa": "A questão mescla institutos de administração pública (concussão, peculato culposo, progressão de regime condicionada à reparação do dano - art. 33, §4º, CP, que trata especificamente de crimes contra a administração pública) com falsa perícia (administração judicial). Como 3 dos 4 itens (A, B, C) giram em torno de crimes contra a Administração Pública, e apenas o item D trata de Administração Judicial, o eixo predominante é \"Dos Crimes Contra a Administração Pública\" (5087), cujos subtemas incluem exatamente Concussão e Peculato. A segunda opção é \"Dos Crimes Contra a Administração Judicial\" (5079), que cobre o item sobre falsa perícia.",
+  "multi_tema": true,
+  "segunda_opcao_n1_id": "5079",
+  "tema_n1_id": "5087"
+ },
+ "uso": {
+  "in": 6,
+  "out": 2410,
+  "cache_w": 50372,
+  "cache_r": 102908,
+  "custo_usd": 0.25969960000000003
+ }
+}

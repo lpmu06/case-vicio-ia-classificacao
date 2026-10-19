@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5116",
+ "subtema_n2_id": "5118",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5119",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata da falsificação de cartão de crédito/débito, que, por força do art. 298, parágrafo único, do CP (incluído pela Lei 12.737/2012), é equiparado a documento particular. Logo, falsificar cartão de crédito configura falsificação de documento particular (art. 298, caput, c/c parágrafo único, CP), gabarito \"E\". Trata-se de matéria típica de falsidade documental, confirmando o tema de nível 1 \"Dos Crimes Contra a Fé Pública e de Falsidade Documental\" (5116) e, com boa precisão, o subtema \"Da Falsidade Documental\" (5118), que expressamente lista \"cartão de crédito ou débito\" entre suas palavras-chave e abrange os arts. 296 a 305 do CP.",
+ "id": "Q0351",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5116",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão testa a tipificação penal da falsificação de cartão de crédito, tema regido pelo art. 298, parágrafo único, do CP (equiparação do cartão de crédito/débito a documento particular), inserido pela Lei 12.737/2012. Trata-se de crime de falsidade documental, matéria do tema \"Dos Crimes Contra a Fé Pública e de Falsidade Documental\", especificamente do subtema \"Da Falsidade Documental\". O gabarito correto é a alternativa E (falsificação de documento particular)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1186,
+  "cache_w": 7317,
+  "cache_r": 43624,
+  "custo_usd": 0.0544968
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4705",
+ "extras_ids": [
+  "4702"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo Tráfico de Drogas (4708) como tema de nível 1. A questão é multi-tema nas alternativas (B/C tráfico sem apreensão de droga; D lavagem de dinheiro; E associação para o tráfico x organização criminosa), mas o eixo fático central do enunciado (grupo dedicado ao comércio de drogas, investigação sem apreensão de entorpecente) e a alternativa correta segundo a jurisprudência do STJ (C — condenação por tráfico sem apreensão de droga quando outros elementos dos autos comprovem a conduta, nos termos da Súmula 587/605 STJ e jurisprudência correlata) giram em torno do núcleo de Tráfico de Drogas, que já abrange a associação para o tráfico (art. 35 da Lei 11.343/2006). Como nenhum dos dois temas possui subtemas de nível 2, mantenho subtema_n2_id = null. Organizações Criminosas (4705) permanece como segunda opção relevante por conta da alternativa E (bis in idem entre associação para o tráfico e organização criminosa), e incluo Lavagem de Dinheiro (4702) como extra pela alternativa D.",
+ "id": "Q0097",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": "P2",
+  "confianca": 0.72,
+  "multi_tema": true,
+  "justificativa": "A questão articula tráfico de drogas, associação para o tráfico, organização criminosa e lavagem de dinheiro, exigindo conhecimento da jurisprudência do STJ sobre esses institutos de legislação especial (tema central das alternativas B, C, D e E, que tratam de tráfico sem apreensão de droga, lavagem de dinheiro e a distinção entre organização criminosa e associação para o tráfico). Como as alternativas versam sobre temas distintos (tráfico, lavagem, organização criminosa, concurso de crimes), marco multi_tema=true, com LE1 (Drogas/Organizações Criminosas/Lavagem) como grupo predominante, já que concentra o maior número de institutos testados, e P2 (Concurso de Crimes) como segunda opção, pois a alternativa E discute especificamente bis in idem entre associação para o tráfico e organização criminosa."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": "4705",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "Dentro do grupo de Legislação Especial (LE1), a questão é claramente multi-tema: a alternativa B e C versam sobre a possibilidade de condenação por tráfico de drogas (e associação para o tráfico) sem apreensão de material entorpecente — tema central de Tráfico de Drogas (4708), que inclusive abrange a associação para o tráfico como figura correlata prevista na própria Lei 11.343/2006; a alternativa D versa sobre lavagem de dinheiro (4702); e a alternativa E versa sobre o concurso entre associação para o tráfico e organização criminosa, tema que toca tanto Tráfico de Drogas quanto Organizações Criminosas (4705). Como duas das cinco alternativas (B e C) giram em torno do núcleo fático de tráfico sem apreensão de droga — e a estrutura do caso (grupo dedicado ao comércio de drogas) converge para esse eixo —, escolho Tráfico de Drogas (4708) como tema de nível 1 predominante, por concentrar o maior peso temático e por já abarcar a associação para o tráfico. Marco Organizações Criminosas (4705) como segunda opção, pois a alternativa E discute especificamente a distinção/bis in idem entre associação para o tráfico e organização criminosa, e a lavagem de dinheiro (D) também é testada, mas com menor peso relativo no conjunto."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3722,
+  "cache_w": 50121,
+  "cache_r": 101498,
+  "custo_usd": 0.2673056
+ }
+}

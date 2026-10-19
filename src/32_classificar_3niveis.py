@@ -35,6 +35,11 @@ ESQUEMA_A = {
 }
 
 
+SAIDA_B = ("## Saída\nResponda apenas com JSON no esquema fornecido. `tema_n1_id` é o id do tema de nível 1 "
+           "escolhido (nunca a disciplina); `segunda_opcao_n1_id` outro tema de nível 1 ou null; "
+           "`confianca_ramo` é a probabilidade honesta (0 a 1) de coincidir com o professor.")
+
+
 def carregar_grupos(temas):
     g = json.loads((RAIZ / "data" / "grupos_n1.json").read_text(encoding="utf-8"))["grupos"]
     usaveis = {t["tema_id"] for t in temas.values() if t["nivel"] == 1 and t["status"] == "active" and not t["bucket"]}
@@ -94,13 +99,8 @@ def main():
     enr = json.loads((RAIZ / "data" / "temas_enriquecidos.json").read_text(encoding="utf-8"))
     grupos = carregar_grupos(temas)
     sis_a = sistema_estagio_a(temas, grupos)
-    sis_b = c31.REGRAS + ("## Saída\nResponda apenas com JSON no esquema fornecido. `tema_n1_id` é o id do tema de nível 1 "
-                          "escolhido (nunca a disciplina); `segunda_opcao_n1_id` outro tema de nível 1 ou null; "
-                          "`confianca_ramo` é a probabilidade honesta (0 a 1) de coincidir com o professor.")
-    sis_c = c31.REGRAS + ("## Saída\nResponda apenas com JSON no esquema fornecido. `tema_n1_id` é o tema de nível 1 "
-                          "(nunca a disciplina); `subtema_n2_id` é um subtema filho dele ou null; as confianças são "
-                          "probabilidades honestas (0 a 1); `segunda_opcao_id` é um id de nível 1 ou 2; `extras_ids` são "
-                          "outros temas relevantes (pode ser vazio).")
+    sis_b = c31.REGRAS + SAIDA_B
+    sis_c = c31.REGRAS + c31.SAIDA_2
     qs = [json.loads(l) for l in (RAIZ / "data" / "questoes_limpas.jsonl").open(encoding="utf-8")]
     if a.ids:
         qs = [q for q in qs if q["id"] in a.ids.split(",")]

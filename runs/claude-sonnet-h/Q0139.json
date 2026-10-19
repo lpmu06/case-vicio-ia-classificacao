@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A frase citada descreve exatamente o fundamento da coculpabilidade: o Estado compartilha a reprovação pelo delito quando o agente teve menor margem de autodeterminação por condicionamentos sociais (marginalização, desigualdade de oportunidades). A alternativa correta (E) remete à coculpabilidade, conceito doutrinário tratado como causa supralegal (ou atenuante) de exclusão/redução da culpabilidade por inexigibilidade de conduta diversa, explicitamente listado nas palavras-chave do subtema 5217 (Causas Supralegais de Exclusão da Culpabilidade). Mantém-se o tema de nível 1 Teoria do Crime: Culpabilidade (5211), mas agora é possível precisar o subtema para 5217, já que o enunciado trata especificamente desse instituto e não do conceito genérico de culpabilidade (5212).",
+ "segunda_opcao_id": "5212",
+ "subtema_n2_id": "5217",
+ "tema_n1_id": "5211",
+ "multi_tema": false,
+ "id": "Q0139",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5211",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata do conceito de coculpabilidade, segundo o qual o Estado compartilha a reprovação pelo delito quando o agente teve menor margem de autodeterminação por condicionamentos sociais (marginalização, desigualdade). Esse é um conceito próprio da teoria da culpabilidade, inserido no tema \"Teoria do Crime: Culpabilidade\" (5211), que abrange precisamente os conceitos e elementos da culpabilidade, incluindo suas variantes doutrinárias (psicológica, normativa, funcionalista e coculpabilidade)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1181,
+  "cache_w": 30557,
+  "cache_r": 78694,
+  "custo_usd": 0.15515980000000001
+ }
+}

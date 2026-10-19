@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "Confirmado: trata-se de duas ações penais pelos mesmos fatos, a primeira ainda sem trânsito em julgado (pendente de recurso) — logo cabe exceção de litispendência, não coisa julgada, processada em autos apartados (art. 111 CPP). Isso é exatamente o conteúdo do subtema \"Exceção de Litispendência e de Coisa Julgada\" (5494), dentro do tema de nível 1 \"Das Questões e Processos Incidentes\" (5490).",
+ "segunda_opcao_id": "5493",
+ "subtema_n2_id": "5494",
+ "tema_n1_id": "5490",
+ "multi_tema": false,
+ "id": "Q0214",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5490",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata de exceção de litispendência (duas ações penais pelos mesmos fatos) e seu processamento em autos apartados, que é tema processual de incidente processual (exceções), coberto pelo tema \"Das Questões e Processos Incidentes\", subtema \"Exceção de Litispendência e de Coisa Julgada\"."
+ },
+ "uso": {
+  "in": 4,
+  "out": 929,
+  "cache_w": 31881,
+  "cache_r": 78694,
+  "custo_usd": 0.1591378
+ }
+}

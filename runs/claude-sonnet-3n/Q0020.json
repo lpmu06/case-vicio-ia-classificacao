@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5116",
+ "subtema_n2_id": "5119",
+ "confianca_ramo": 0.5,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5159",
+ "extras_ids": [
+  "5157",
+  "5199"
+ ],
+ "multi_tema": true,
+ "justificativa": "Mantenho a análise do estágio anterior: a questão é nitidamente multi-tema, com cinco itens isolados (ECA, dosimetria/Teoria da Pena, falsa identidade/fé pública, furto noturno/patrimônio, JECrim). Dos dois itens de Direito Penal especial com eixo mais autônomo, escolho como tema principal 5116 (Dos Crimes Contra a Fé Pública e de Falsidade Documental), pois o item trata de tese jurisprudencial específica (Súmula 522/STJ) sobre atribuir-se falsa identidade perante autoridade policial para ocultar maus antecedentes, art. 307, caput, CP — isso se encaixa com alta precisão no subtema 5119 (\"De outras falsidades\"), que abrange exatamente falsa identidade e a Súmula 522/STJ, não se confundindo com falsidade documental (5118) nem com moeda/papéis públicos (5117). Como segunda opção, mantenho o eixo do outro item isolado e igualmente relevante — furto noturno e furto qualificado —, que se encaixa no subtema Furto (5159) dentro de Dos Crimes Contra o Patrimônio (5157), incluído também como extra. A confiança do ramo é moderada/baixa (0,5) porque nenhum dos dois temas domina a questão como um todo; a confiança do subtema é mais alta (0,8) condicionada à escolha do ramo 5116, pois o enquadramento do item em 5119 é bastante preciso. Os itens de dosimetria (compensação de atenuante da confissão com agravante da reincidência) remetem a Teoria da Pena (5199), incluído como extra; os itens sobre concurso de crimes do ECA (arts. 241-A/241-B) e sobre suspensão condicional do processo/transação penal no âmbito do JECrim não encontram tema específico na árvore apresentada, mas não tornam a questão \"fora\" como um todo, pois dois de seus cinco itens se encaixam claramente em temas de Direito Penal.",
+ "id": "Q0020",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P5",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.3,
+  "multi_tema": true,
+  "justificativa": "A questão reúne cinco afirmações sobre temas distintos e não relacionados entre si: (1) concurso de crimes entre arts. 241-A/241-B do ECA (crime contra criança e adolescente - Legislação Especial), (2) compensação de atenuante/agravante na dosimetria da pena (Teoria da Pena - Penal P3), (3) falsa identidade e crime contra a fé pública - art. 307 CP (Penal P5), (4) causa de aumento do furto noturno e furto qualificado (Crimes Contra o Patrimônio - Penal P5) e (5) suspensão condicional do processo/transação penal em crimes com pena de multa alternativa (Juizado Especial Criminal - Legislação Especial LE4). Não há eixo temático único; os itens 3 e 4 convergem para o grupo P5 (fé pública e patrimônio), sendo este o que melhor cobre a maior fração isolada da questão, mas a confiança é baixa dado o caráter nitidamente multi-tema e disperso entre Penal e Legislação Especial."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5116",
+  "segunda_opcao_n1_id": "5157",
+  "confianca_ramo": 0.3,
+  "multi_tema": true,
+  "justificativa": "Dentro do grupo P5 já selecionado, a questão contém dois itens igualmente específicos e isolados: o item sobre falsa identidade perante autoridade policial (art. 307, CP, e Súmula 522/STJ sobre a não proteção pela autodefesa) pertence a Dos Crimes Contra a Fé Pública e de Falsidade Documental (5116), e o item sobre causa de aumento do furto noturno e furto qualificado pertence a Dos Crimes Contra o Patrimônio (5157). Não há como diferenciar qual dos dois é \"mais central\", pois cada um corresponde a exatamente um dos cinco itens da questão, ao lado de um item de Teoria da Pena (P3/5199 - compensação de atenuante/agravante) e de dois itens fora de qualquer tema listado (concurso de crimes do ECA e suspensão condicional do processo/transação penal em JECrim). Escolho 5116 como tema principal por se tratar de uma tese jurisprudencial (Súmula 522/STJ) mais autônoma e didaticamente associada a um subtema exato (\"Dos Crimes contra a Fé Pública\"), mantendo 5157 como segunda opção igualmente defensável. A confiança é baixa por ser questão nitidamente multi-tema e dispersa entre Penal (parte geral e especial) e Legislação Especial, sem eixo comum dominante."
+ },
+ "uso": {
+  "in": 6,
+  "out": 5507,
+  "cache_w": 56616,
+  "cache_r": 101498,
+  "custo_usd": 0.31775660000000006
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4705",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam sobre a Lei 12.850/2013: definição legal de organização criminosa e sua correspondência com a Convenção de Palermo, regime de cumprimento de pena do líder, qualificadora do concurso de funcionário público, afastamento cautelar de funcionário público investigado e marco para cessação da permanência (bis in idem). Trata-se integralmente do tema \"Organizações Criminosas\" (4705), confirmando a classificação anterior. O tema não possui subtemas de nível 2, por isso subtema_n2_id permanece null.",
+ "id": "Q0200",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4705",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente de temas da Lei 12.850/2013 (Organizações Criminosas): definição legal, Convenção de Palermo, afastamento cautelar de funcionário público e bis in idem na permanência do delito. Todas as alternativas giram em torno do mesmo diploma legal, pertencendo ao tema de Legislação Especial \"Organizações Criminosas\" (id 4705), não a Processo Penal/Ação Penal como sugerido pela origem fraca."
+ },
+ "uso": {
+  "in": 4,
+  "out": 898,
+  "cache_w": 28329,
+  "cache_r": 78694,
+  "custo_usd": 0.1416948
+ }
+}

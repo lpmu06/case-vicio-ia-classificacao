@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão trata exclusivamente de desistência voluntária, arrependimento eficaz e arrependimento posterior (cada alternativa versa sobre esses institutos, exigindo diferenciar voluntariedade do agente, momento da reparação/restituição e distinção de crime impossível/tentativa). Isso corresponde exatamente ao subtema 5178, dentro do tema de nível 1 Iter Criminis (5175), confirmando a classificação anterior.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5179",
+ "subtema_n2_id": "5178",
+ "tema_n1_id": "5175",
+ "id": "Q0233",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5175",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "Questão trata diretamente de desistência voluntária e arrependimento eficaz, institutos do iter criminis (art. 15 do CP), correspondendo ao tema 5175 (Iter Criminis), cujo subtema específico é \"Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior\"."
+ },
+ "uso": {
+  "in": 4,
+  "out": 955,
+  "cache_w": 32073,
+  "cache_r": 78694,
+  "custo_usd": 0.15871380000000002
+ }
+}

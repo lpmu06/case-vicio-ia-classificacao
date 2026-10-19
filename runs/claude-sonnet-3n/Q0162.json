@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": "4378",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.72,
+ "segunda_opcao_id": "4374",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige identificar corretamente quais instituições integram o controle social formal (polícia, Judiciário, administração penitenciária) em contraposição ao controle social informal (família, escola, opinião pública). Com os metadados completos, percebo que o subtema 4378 (Criminalização Primária e Secundária) tem como palavras-chave exatamente \"agências de controle\", \"controle social formal\", \"polícia\", \"Poder Judiciário\", descrevendo a criminalização secundária como a aplicação concreta da lei penal por essas instituições formais - isso corresponde precisamente ao núcleo testado na questão, que é identificar essas instituições como agentes do controle formal (resposta correta: alternativa C). O tema de nível 1 permanece 4377 (Processos de Criminalização e Cifras Criminais), já que o próprio texto de \"não confundir\" desse tema indica que, quando a questão trata da atuação das agências de controle, tende a ser 4378. A cifra criminal (4379) não se aplica, pois não há menção a dados ocultos ou subnotificação. Como segunda opção, mantenho 4374 (Política Criminal), pois o tema de controle social também se relaciona a esse campo mais amplo, mas a precisão terminológica da questão (formal x informal, agências específicas) converge melhor para o subtema 4378.",
+ "id": "Q0162",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": null,
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata de controle social formal e informal, tema ligado a Política Criminal/processos de criminalização, dentro do grupo C2 (Teorias da criminalidade, política criminal e processos de criminalização)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4377",
+  "segunda_opcao_n1_id": "4374",
+  "confianca_ramo": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão testa a distinção entre instâncias de controle social formal (polícia, Judiciário, administração penitenciária) e informal (família, escola, opinião pública), tema central da moderna criminologia sobre o controle social do desvio. Esse conteúdo está mais diretamente ligado ao estudo de como o sistema penal formal atua na definição e processamento da criminalidade, encaixando-se em \"Processos de Criminalização e Cifras Criminais\" (4377), já que as instâncias formais de controle são protagonistas da criminalização secundária. Como segunda opção, \"Política Criminal\" (4374) também é defensável, pois as instâncias de controle social integram a estrutura de resposta estatal à criminalidade. Não há subtema específico que trate exatamente de \"controle social formal/informal\" nas opções listadas, por isso a classificação fica no nível 1."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2472,
+  "cache_w": 11726,
+  "cache_r": 14150,
+  "custo_usd": 0.081917
+ }
+}

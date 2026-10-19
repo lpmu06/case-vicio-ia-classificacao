@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5476",
+ "subtema_n2_id": "5477",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam exclusivamente do instituto do Habeas Corpus: cabimento por ameaça (constrangimento ilegal), legitimidade do MP para impetrar, impossibilidade do magistrado impetrar HC em favor de terceiro (mas pode conceder de ofício), (não) intervenção de assistente do MP no processo de HC, e impetração apócrifa. Não há questão de comunicação de atos processuais nem de mandado de segurança ou revisão criminal. Eixo único: HC, subtema 5477.",
+ "id": "Q0331",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5476",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa inteiramente sobre o instituto do Habeas Corpus (cabimento, legitimidade para impetração, intervenção do assistente, impetração apócrifa), que é subtema específico de \"Ações Autônomas de Impugnação\" dentro de Processo Penal, não sobre comunicação de atos processuais."
+ },
+ "uso": {
+  "in": 4,
+  "out": 884,
+  "cache_w": 7131,
+  "cache_r": 43624,
+  "custo_usd": 0.05060579999999999
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5205",
+ "extras_ids": [
+  "5207"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão mistura, em alternativas distintas, penas restritivas de direitos (substituição, vedação por reincidência, prestação de serviços, conversão por nova condenação) e suspensão condicional da pena (sursis), sem eixo único. Ambos são subtemas de Teoria da Pena (5199), que permanece o tema de nível 1 correto e já abrange todos eles. Como não há um único subtema que cubra toda a questão, mantenho subtema_n2_id nulo, marco multi_tema e indico 5205 (Penas Restritivas de Direitos) e 5207 (Suspensão Condicional da Pena) como opções relevantes.",
+ "id": "Q0138",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre substituição de pena privativa de liberdade por restritivas de direitos e sobre suspensão condicional da pena (sursis), institutos da Teoria da Pena (Penas Restritivas de Direitos e Suspensão Condicional da Pena), todos subtemas de \"Teoria da Pena\" (5199)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1062,
+  "cache_w": 33319,
+  "cache_r": 78694,
+  "custo_usd": 0.16739479999999998
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.1,
+ "segunda_opcao_id": "5159",
+ "extras_ids": [
+  "5160"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 (5157 - Dos Crimes Contra o Patrimônio), pois todas as alternativas versam sobre furto ou roubo, ambos subtemas desse ramo. Não há qualquer menção a falsidade documental ou fé pública, de modo que a segunda opção anterior (5116) não se sustenta diante dos metadados completos - as descrições de 5116 e seus subtemas (moeda falsa, falsidade documental, falsa identidade/certame) não têm relação alguma com o conteúdo da questão. Quanto ao subtema de nível 2, não há como escolher um único: as alternativas A, B e E tratam de furto (substituição de pena no furto privilegiado - art. 155, §2º; qualificadora de instrumento sem forma de chave; perícia para qualificadora de rompimento de obstáculo), enquanto C e D tratam de roubo (majorantes e sua cumulação; diferença entre roubo qualificado e latrocínio quanto à incidência de causas de aumento). Como a questão mistura institutos de dois subtemas distintos (furto e roubo) sem prevalência clara de um deles, a classificação correta é no tema de nível 1 (5157), com multi_tema=true. Como pista adicional, indico 5159 (Furto) como segunda opção por conter 3 das 5 alternativas, e 5160 (Roubo) como extra relevante.",
+ "id": "Q0140",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre furto e roubo (qualificadoras, majorantes, princípio da insignificância/privilégio), institutos típicos dos Crimes Contra o Patrimônio, tema de nível 1 do grupo P5 (Parte especial: patrimônio, propriedade imaterial, organização do trabalho e fé pública)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": "5116",
+  "confianca_ramo": 0.97,
+  "multi_tema": true,
+  "justificativa": "A questão trata exclusivamente de furto e roubo (substituição de pena no furto privilegiado, qualificadora de escalada/instrumento sem forma de chave, majorantes do roubo, diferença entre roubo qualificado e latrocínio, perícia na qualificadora de rompimento de obstáculo). Todas as alternativas versam sobre institutos dos crimes contra o patrimônio (furto e roubo), ambos subtemas de \"Dos Crimes Contra o Patrimônio\" (5157). Como as alternativas cobrem tanto furto quanto roubo (subtemas distintos), a classificação correta é no tema de nível 1 (5157), e não em um subtema específico, caracterizando também certa dispersão temática dentro do próprio ramo patrimonial (multi_tema=true, mas dentro do mesmo tema de nível 1). Segunda opção (5116 - Fé Pública) é apenas residual e de baixa probabilidade, pois nenhuma alternativa trata de falsidade documental."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2269,
+  "cache_w": 25446,
+  "cache_r": 7993,
+  "custo_usd": 0.13967960000000001
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5584",
+ "subtema_n2_id": "5588",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5589",
+ "extras_ids": [
+  "5517"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão apresenta prisão em flagrante decorrente de busca domiciliar ilegal (sem mandado e sem consentimento do morador), tornando a prisão ilegal desde a origem. A pergunta central é qual providência a defesa deve requerer na audiência de custódia diante dessa ilegalidade, e a alternativa correta (A) é exatamente o relaxamento da prisão em flagrante. Isso corresponde ao subtema 5588 (Relaxamento da Prisão), que trata especificamente da providência de soltura por ilegalidade da prisão (flagrante ilegal, ausência de fundamento legítimo), distinguindo-se do subtema 5589 (Audiência de Custódia), que é mais amplo e cobre o ato de apresentação em si e todas as providências possíveis (não apenas o relaxamento). Como o enunciado contextualiza a audiência de custódia mas o cerne jurídico é a tese do relaxamento por ilegalidade da prisão, mantenho o tema de nível 1 em 5584 e, diferentemente da classificação anterior, agora atribuo o subtema 5588 com razoável confiança, mantendo 5589 como segunda opção por serem institutos frequentemente tratados em conjunto nessa fase processual. As demais alternativas (fiança, cautelares diversas, prisão domiciliar) pertencem a 5517, usado como extra pois tangenciam institutos de prisões em espécie, mas não são o eixo da pergunta.",
+ "id": "Q0161",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP5",
+  "segundo_grupo_id": "PP4",
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata de prisão em flagrante ilegal (busca domiciliar sem mandado/consentimento e sem fundadas razões, em domicílio que é asilo inviolável) e da providência correta em audiência de custódia (relaxamento da prisão), temas centrais de Prisões em Espécie/Teoria Geral das Prisões (PP5). A ilicitude da prova obtida na busca domiciliar remete também à Teoria Geral das Provas (PP4), mas o eixo da pergunta é a tese cautelar a ser requerida na custódia."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5584",
+  "segunda_opcao_n1_id": "5517",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A pergunta central é sobre qual tese a defesa deve requerer na audiência de custódia diante de prisão em flagrante ilegal (busca domiciliar sem mandado/consentimento, viciando a prova e a própria voz de prisão). O eixo é relaxamento da prisão, instituto da Teoria Geral das Prisões (PP5), que tem como subtemas justamente Audiência de Custódia e Relaxamento da Prisão. As alternativas incorretas tangenciam liberdade provisória/fiança, cautelares diversas e prisão domiciliar (Prisões em Espécie, PP5 também), reforçando que o tema de nível 1 é PP5. A ilicitude da busca domiciliar remete à prova ilícita (PP4 - Teoria Geral das Provas), que seria a segunda opção, mas o ponto cobrado é a providência cautelar na custódia, não a teoria da prova em si."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1943,
+  "cache_w": 18087,
+  "cache_r": 37312,
+  "custo_usd": 0.11187440000000001
+ }
+}

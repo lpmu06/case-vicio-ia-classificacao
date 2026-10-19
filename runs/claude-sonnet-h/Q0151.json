@@ -1,0 +1,35 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5584",
+ "extras_ids": [
+  "5521",
+  "5523",
+  "5520",
+  "5518"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 \"Prisões em Espécie\" (5517). Cada alternativa versa sobre um instituto concreto e distinto das prisões cautelares: (A) prisão domiciliar substitutiva (art. 318, III, CPP - subtema 5521), (B) e (C) fiança e cumulação com cautelares diversas (ligadas à liberdade provisória, subtema 5523, e à medida cautelar diversa, 5522), (D) prisão temporária como prisão cautelar processual (subtema 5520), e (E) natureza jurídica pré-cautelar da prisão em flagrante (subtema 5518). Não há um eixo único de subtema, já que a questão testa o conhecimento transversal sobre várias espécies de prisão/cautelares, todas abrangidas pelo tema 5517 mas espalhadas por quase todos os seus subtemas - por isso não atribuo subtema_n2_id e marco multi_tema=true. A segunda opção 5584 (Teoria Geral das Prisões) permanece pertinente apenas residualmente, pois a alternativa (E) toca em classificação doutrinária/natureza jurídica da prisão em flagrante, tema que poderia também ser enquadrado em \"Conceitos e Espécies de Prisão\" (5585), mas o núcleo da questão como um todo é claramente de institutos específicos (5517), não de teoria geral.",
+ "id": "Q0151",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5517",
+  "segunda_opcao_n1_id": "5584",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata de institutos concretos das prisões cautelares e medidas diversas (prisão domiciliar substitutiva, fiança, prisão temporária, prisão em flagrante), todos abrangidos pelo tema \"Prisões em Espécie\" (que inclui subtemas como Prisão Domiciliar, Prisão Temporária, Prisão em Flagrante, Medidas Cautelares Diversas da Prisão). Como a resposta correta (art. 318, III, CPP sobre prisão domiciliar) e as demais alternativas versam sobre modalidades específicas de prisão/medida cautelar, e não sobre a teoria geral (conceito constitucional, audiência de custódia, etc.), o tema de nível 1 mais preciso é Prisões em Espécie, com Teoria Geral das Prisões como segunda opção por tratar também de aspectos gerais da prisão cautelar."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1738,
+  "cache_w": 37453,
+  "cache_r": 78694,
+  "custo_usd": 0.19239879999999998
+ }
+}

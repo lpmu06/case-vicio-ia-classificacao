@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5503",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5583",
+ "extras_ids": [
+  "5502"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão exige literalmente o rol de competências do juiz das garantias do art. 3º-B do CPP (habeas corpus na investigação, homologação de ANPP, instauração de inquérito, produção antecipada de provas), testando especificamente esse instituto. O tema de nível 1 correto é Inquérito Policial (5498), e, diferentemente do estágio anterior, agora há certeza suficiente para apontar o subtema exato \"Juiz das Garantias\" (5503), que trata expressamente dessas atribuições (controle da investigação, medidas cautelares, prova antecipada). Mantenho Sujeitos do Processo (5583) como segunda opção por envolver atribuições de um sujeito processual, mas o enquadramento mais preciso é o do subtema Juiz das Garantias.",
+ "id": "Q0013",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": "PP1",
+  "confianca": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão trata das competências do juiz das garantias (art. 3º-B do CPP, introduzido pelo \"pacote anticrime\"), figura cuja atuação se dá durante a fase investigatória (inquérito policial, ANPP, produção antecipada de provas, habeas corpus na investigação). O eixo central é a disciplina da investigação preliminar, por isso enquadra-se em Inquérito Policial (PP2), que trata do controle jurisdicional dessa fase. Alternativamente, por se tratar de um \"sujeito do processo\" (o juiz) e suas atribuições específicas, poderia ser classificada em Sujeitos do Processo (PP1), daí a segunda opção."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5583",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão cobra, de forma direta e literal, o rol de competências do juiz das garantias previsto no art. 3º-B do CPP (julgar habeas corpus na investigação, homologar ANPP, decidir sobre produção antecipada de provas, ser informado da instauração de inquérito). Todas essas atribuições se relacionam exclusivamente ao controle jurisdicional da fase investigatória (inquérito policial e procedimentos de investigação correlatos), e não à disciplina genérica dos sujeitos processuais nem a nenhuma espécie de ação penal. Por isso, o tema central é a investigação preliminar, enquadrando-se em Inquérito Policial (5498), que inclusive lista \"Juiz das Garantias\" como subtema específico — exatamente o que a questão testa. Mantenho Sujeitos do Processo (5583) como segunda opção, pois a questão também pode ser vista sob o prisma das atribuições de um sujeito processual (o juiz), mas o enquadramento mais preciso e literal é o do inquérito policial/investigação, dado que o subtema \"Juiz das Garantias\" está expressamente alocado ali."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2138,
+  "cache_w": 47523,
+  "cache_r": 101498,
+  "custo_usd": 0.2412126
+ }
+}

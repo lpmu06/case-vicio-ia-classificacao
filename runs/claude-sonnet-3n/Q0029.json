@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4684",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta expressamente qual conduta configura crime de abuso de autoridade nos termos da Lei nº 13.869/2019, apresentando alternativas sobre nota de culpa, interrogatório sem advogado, interrogatório de preso em flagrante durante repouso noturno, entrevista reservada com advogado e ingresso em domicílio com consentimento. Todas as alternativas giram em torno de condutas típicas da própria Lei de Abuso de Autoridade (arts. 12, 13, 15 e correlatos), confirmando o tema 4684 como correto e único aplicável. O tema não possui subtemas, logo subtema_n2_id permanece null.",
+ "id": "Q0029",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE2",
+  "segundo_grupo_id": null,
+  "confianca": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão pede diretamente qual conduta configura crime de abuso de autoridade nos termos da Lei nº 13.869/2019, tema específico \"Abuso de Autoridade\", integrante do grupo LE2 (Violência, discriminação e grupos vulneráveis), que reúne também esse tema. A pista de origem (Medida de Segurança) está equivocada."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4684",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão pergunta expressamente qual conduta configura crime de abuso de autoridade nos termos da Lei nº 13.869/2019, exigindo o conhecimento específico dos tipos penais dessa lei (prisão, interrogatório, entrevista com advogado, ingresso em domicílio). O tema central é integralmente o da Lei de Abuso de Autoridade (id 4684), não havendo outro tema do grupo que se aplique às alternativas. A pista de origem (Medida de Segurança) é equivocada e deve ser descartada."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2242,
+  "cache_w": 43438,
+  "cache_r": 101498,
+  "custo_usd": 0.2219916
+ }
+}

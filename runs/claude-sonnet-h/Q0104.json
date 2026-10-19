@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5500",
+ "confianca_ramo": 0.82,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5477",
+ "extras_ids": [
+  "5476"
+ ],
+ "multi_tema": false,
+ "justificativa": "A assertiva testa o entendimento de que o inquérito policial pode ser instaurado por requisição do Ministério Público, mas isso não retira do delegado a condução/prosseguimento das diligências — e, por conduzir o procedimento, é ele, e não o MP, quem pode ser apontado como autoridade coatora em eventual habeas corpus. O eixo central é a dinâmica de instauração e condução do inquérito pelo delegado (formas de instauração, inclusive por requisição do MP), matéria do subtema Procedimento do Inquérito Policial (5500), dentro do tema de nível 1 Inquérito Policial (5498). A menção à autoridade coatora em HC é consequência lógica da titularidade da condução do IP, não um questionamento sobre regras próprias de cabimento/legitimidade do habeas corpus em si, por isso Ações Autônomas de Impugnação/Habeas Corpus (5476/5477) fica como segunda opção e extra, mantendo coerência com a classificação do estágio anterior.",
+ "id": "Q0104",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5476",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata da condução do inquérito policial (instauração por requisição do MP e prosseguimento pelo delegado) e da legitimidade do delegado como autoridade coatora em habeas corpus, sendo o eixo central o próprio procedimento do inquérito policial, tema 5498. Secundariamente toca em Habeas Corpus (5476, subtema de Ações Autônomas de Impugnação), mas o foco é sobre a autoridade/condução do IP."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2310,
+  "cache_w": 34138,
+  "cache_r": 78694,
+  "custo_usd": 0.1830388
+ }
+}

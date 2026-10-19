@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [
+  "5215"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão gira em torno da legítima defesa putativa por erro sobre pressupostos fáticos (descriminante putativa), e a alternativa correta (D) resolve o caso como erro de tipo permissivo (eclético), que pela teoria limitada da culpabilidade exclui o dolo/tipicidade, não a culpabilidade. Embora as alternativas distratoras invoquem \"erro de proibição\" e \"culpabilidade\" (erro para testar o candidato), o gabarito correto está centrado exatamente na distinção entre erro de tipo x erro de proibição nas descriminantes putativas, com a resposta certa recaindo sobre erro de tipo (afastamento da tipicidade). Por isso reclassifico para Fato Típico > Erro de Tipo (5224), que trata expressamente de descriminantes putativas por erro sobre situação fática, mantendo Culpabilidade (5211) como segunda opção pela menção à teoria da culpabilidade nas alternativas.",
+ "id": "Q0284",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5211",
+  "segunda_opcao_n1_id": "5218",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento sobre legítima defesa putativa por erro sobre pressupostos fáticos (erro de tipo permissivo) e a divergência entre a teoria extremada e a teoria limitada da culpabilidade quanto ao tratamento desse erro (erro de proibição vs. erro de tipo), tema central da exposição de motivos do CP (item 17) sobre culpabilidade. Embora a solução correta impacte a tipicidade (pela teoria limitada), o eixo da discussão jurídica é a teoria da culpabilidade e suas correntes, por isso classifico em Teoria do Crime: Culpabilidade, com Fato Típico (Erro de Tipo) como segunda opção plausível dado que a resposta correta afasta a tipicidade."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2074,
+  "cache_w": 15797,
+  "cache_r": 43624,
+  "custo_usd": 0.1038548
+ }
+}

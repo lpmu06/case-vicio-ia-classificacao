@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5474",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.72,
+ "segunda_opcao_id": "5472",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede a ordem de preferência do art. 31 do CPP entre quem tem direito de queixa (cônjuge, ascendente, descendente, irmão), tema processual de legitimidade/sucessão para oferecer ou prosseguir na queixa-crime. Confirma-se o ramo Processo Penal > Ação Penal (5466). Quanto ao subtema, o art. 31 CPP é dispositivo expressamente listado em Queixa Crime (5474), cuja descrição menciona \"sucessores legitimados\" como parte do seu objeto, o que a torna o encaixe mais específico; ainda assim, Ação Penal de Iniciativa Privada (5472) também cobre \"sucessão processual\" na sua descrição, de modo que há alguma sobreposição entre os dois subtemas-irmãos, justificando confiança moderada no subtema escolhido.",
+ "id": "Q0152",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata da ordem de preferência entre pessoas com direito de queixa (art. 31 do CPP), tema processual relativo à titularidade e legitimidade para o exercício da ação penal privada. Trata-se de regra processual (CPP), não de direito material, e se encaixa em Processo Penal > Ação Penal (que abrange sucessão/legitimação na ação penal privada)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2083,
+  "cache_w": 32943,
+  "cache_r": 78694,
+  "custo_usd": 0.1751518
+ }
+}

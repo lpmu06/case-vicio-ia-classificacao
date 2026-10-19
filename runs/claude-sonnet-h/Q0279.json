@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5188",
+ "confianca_ramo": 0.72,
+ "confianca_subtema": 0.62,
+ "segunda_opcao_id": "5175",
+ "extras_ids": [
+  "5178",
+  "5177"
+ ],
+ "multi_tema": true,
+ "justificativa": "O furto está consumado desde que o agente subtraiu o colar e saiu da loja com posse tranquila do bem (teoria da amotio, majoritária na jurisprudência). A devolução espontânea trinta minutos depois, embora voluntária, ocorre após a consumação, o que afasta tecnicamente tanto a desistência voluntária (pressupõe interrupção da execução antes de completar os atos executórios) quanto o arrependimento eficaz (pressupõe impedir o resultado antes de sua produção) e também afasta a tentativa (não houve interrupção por circunstâncias alheias à vontade do agente) e o inexistente \"crime oco\". Restando essas alternativas descartadas por conhecimento de Iter Criminis, o enunciado conduz à alternativa (C), que exige o cálculo da prescrição da pretensão punitiva pela pena máxima em abstrato do furto simples (art. 155, caput, CP - reclusão de 1 a 4 anos), cotejando esse prazo com o lapso entre a data do fato e o recebimento da denúncia (art. 109, IV, e art. 117, I, CP) - típica questão do subtema Prescrição da Pretensão Punitiva (5188), pois o marco relevante é anterior ao trânsito em julgado e a base de cálculo é a pena máxima abstrata. Mantenho a classificação em Prescrição (5185) como tema de nível 1, pois é o eixo de resolução correto e mais técnico pretendido pela banca, com Iter Criminis (5175) como segunda opção relevante por ser o conhecimento necessário para excluir as alternativas A, B e D. Marco multi-tema porque as alternativas incorretas pertencem a um eixo temático distinto (iter criminis) sem equivalência direta com o eixo da resposta correta.",
+ "id": "Q0279",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5185",
+  "segunda_opcao_n1_id": "5175",
+  "confianca_ramo": 0.6,
+  "multi_tema": true,
+  "justificativa": "A questão narra um furto consumado (subtração + posse da coisa) seguido de devolução posterior, e pede qual instituto é \"possível reconhecer\" entre alternativas que tratam de institutos distintos: arrependimento eficaz, desistência voluntária e tentativa (todos ligados ao Iter Criminis, mas descartáveis porque o crime já se consumou) e prescrição da pretensão punitiva (que exige calcular o prazo prescricional do furto simples - pena máxima de 4 anos - frente ao lapso de 4 anos e 6 meses entre o fato e o recebimento da denúncia). Como o eixo de resolução mais sofisticado e provavelmente pretendido pela banca é o cálculo de prescrição (tema central da \"pegadinha\"), classifico em Prescrição, mas reconheço que há forte conteúdo de Iter Criminis nas demais alternativas, por isso marco como multi-tema e indico Iter Criminis como segunda opção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 4637,
+  "cache_w": 11621,
+  "cache_r": 43624,
+  "custo_usd": 0.10967079999999998
+ }
+}

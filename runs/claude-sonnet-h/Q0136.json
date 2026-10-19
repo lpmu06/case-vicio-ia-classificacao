@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige reconhecer que, mesmo após o divórcio, a violência moral/psicológica praticada pelo ex-cônjuge contra a ex-esposa (ofensas sobre sua capacidade e incentivo a que \"se virasse\"), no contexto de discussão sobre os filhos, decorre de relação íntima de afeto/familiar pretérita, configurando violência doméstica nos termos do art. 5º da Lei 11.340/2006, independentemente de coabitação atual ou de lesão física. Tema central é a incidência da Lei Maria da Penha, confirmando o tema de nível 1 nº 4704, que não possui subtemas.",
+ "id": "Q0136",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão exige analisar a configuração de crime da Lei Maria da Penha (violência psicológica/moral entre ex-cônjuges, relação familiar mesmo após o divórcio), tema central da Lei 11.340/2006, classificado em Direito Penal - Legislação Especial > Lei Maria da Penha."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1021,
+  "cache_w": 28857,
+  "cache_r": 78694,
+  "custo_usd": 0.1455068
+ }
+}

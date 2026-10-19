@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.62,
+ "confianca_subtema": 0.05,
+ "segunda_opcao_id": "5093",
+ "extras_ids": [
+  "5093"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão versa sobre corrupção ativa em transação comercial internacional (art. 337-B, CP, Título XI-A - Crimes contra Administração Pública Estrangeira), tratando de elementos típicos específicos (dar/pagar vantagem, dispensa de descrição de ato de ofício), extraterritorialidade (art. 7º, §2º, CP), majorante por cargo em órgão estrangeiro e marco da prescrição. A árvore não possui tema ou subtema específico para o Título XI-A. O tema de nível 1 mais próximo, por contiguidade temática (crimes de corrupção/funcionais contra a Administração), continua sendo 5087, mantendo a classificação anterior. Porém, o subtema 5093 (Corrupção Ativa) refere-se expressamente ao art. 333 do CP e à corrupção de funcionário público nacional, com elementares e regras distintas (ex.: a questão frisa que o 337-B diverge do art. 333 ao abranger \"dar/pagar\", não apenas oferecer/prometer) — logo, não é seguro marcar esse subtema como exatamente correspondente; opto por subtema_n2_id = null, mantendo apenas o nível 1 como classificação segura, com 5093 como extra/segunda opção por proximidade.",
+ "id": "Q0348",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.6,
+  "multi_tema": false,
+  "justificativa": "A questão trata do crime de corrupção ativa em transação comercial internacional (art. 337-B do CP, Título XI-A - Crimes contra a Administração Pública Estrangeira), incluindo elementos típicos, aplicação extraterritorial da lei penal (art. 7º, §2º, CP), causa de aumento de pena e prescrição. Embora a árvore não tenha um tema específico para \"Administração Pública Estrangeira\", o tema mais próximo e abrangente é \"Dos Crimes Contra a Administração Pública\" (5087), que trata da mesma família de delitos funcionais e de corrupção, incluindo o subtema \"Corrupção Ativa\". Não há alternativa melhor na árvore, pois o instituto é topicamente contíguo aos crimes contra a Administração Pública do Título XI do CP, apenas com extensão à esfera internacional."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2050,
+  "cache_w": 12145,
+  "cache_r": 32043,
+  "custo_usd": 0.0837956
+ }
+}

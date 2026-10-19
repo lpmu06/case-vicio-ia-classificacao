@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão trata exatamente das formas e consequências da citação quando o réu não é localizado no endereço constante dos autos (hora certa, edital, suspensão do processo, revelia), matéria nuclear do subtema Citação e Contagem dos Prazos (5488), dentro de Comunicação dos Atos Processuais (5487). Não se trata de etapa do procedimento ordinário em si (5530), mas da forma de citação, por isso mantenho o tema 5487 e rejeito a segunda opção anterior como principal, mantendo-a apenas como alternativa secundária.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5530",
+ "subtema_n2_id": "5488",
+ "tema_n1_id": "5487",
+ "id": "Q0311",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5487",
+  "segunda_opcao_n1_id": "5530",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente das formas de citação do réu não encontrado no endereço constante dos autos (citação por hora certa, edital, revelia, suspensão do processo), matéria própria de Comunicação dos Atos Processuais (citação), subtema de Processo Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 904,
+  "cache_w": 31949,
+  "cache_r": 79634,
+  "custo_usd": 0.1604178
+ }
+}

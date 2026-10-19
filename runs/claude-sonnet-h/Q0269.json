@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5170",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.35,
+ "segunda_opcao_id": "5172",
+ "extras_ids": [
+  "5173"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecimento da doutrina do garantismo penal de Ferrajoli em sua concepção clássica (função de minimização da violência, deslegitimação do poder punitivo, natureza da interpretação judicial e das garantias penais). Trata-se de teoria geral/fundamentos do Direito Penal (função do direito penal, jus puniendi, sistema penal), o que se encaixa no tema guarda-chuva 5170. Embora o garantismo tenha relação com princípios penais, o enunciado não gira em torno de um princípio nominado específico (legalidade, taxatividade, insignificância etc.) listado no subtema 5172, mas sim de uma visão teórico-filosófica ampla sobre a função e legitimação do direito penal, incluindo um item sobre interpretação da lei (que tangencia 5173). Por isso, mantenho o nível 1 em 5170 e deixo o subtema em branco, por falta de ajuste exato a um dos recortes específicos (5171-5174).",
+ "id": "Q0269",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5170",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a doutrina do garantismo penal (Luigi Ferrajoli), tema teórico-introdutório de Direito Penal relacionado aos fundamentos, função e princípios legitimadores do direito penal (minimização da violência, deslegitimação do poder punitivo, interpretação da lei penal). Isso se encaixa no tema \"Introdução ao Estudo do Direito Penal\", especificamente no subtema \"Princípios do Direito Penal\", que trata de fundamentos teóricos e garantistas do sistema penal. Não é questão de processo penal, pois não trata de ação, prova, competência ou procedimento, mas de teoria geral/filosófica do Direito Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1521,
+  "cache_w": 7995,
+  "cache_r": 43624,
+  "custo_usd": 0.0610348
+ }
+}

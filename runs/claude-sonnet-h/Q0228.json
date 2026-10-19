@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5208",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "4703",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o procedimento correto para postulação do livramento condicional: petição dirigida ao Juiz da Execução (não habeas corpus, revisão criminal ou agravo em execução). O instituto central é o livramento condicional, que tem subtema próprio e específico (5208) dentro de Teoria da Pena, com dispositivos que abrangem justamente os arts. 131 a 146 da LEP (procedimento). Mantém-se como segunda opção o tema 4703 (Lei de Execução Penal), por também tratar da execução penal e do livramento condicional, mas o subtema 5208 é mais preciso por ser dedicado exclusivamente a esse instituto.",
+ "id": "Q0228",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "4703",
+  "confianca_ramo": 0.6,
+  "multi_tema": false,
+  "justificativa": "A questão trata do procedimento correto para postular o livramento condicional (petição dirigida ao Juiz da Execução, e não habeas corpus, revisão criminal ou agravo em execução). O instituto central é o livramento condicional, que tem subtema próprio dentro de Teoria da Pena (Penal). Como se trata de regra de execução penal (LEP), também poderia ser classificada em Lei de Execução Penal (Legislação Especial), daí a segunda opção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1673,
+  "cache_w": 35745,
+  "cache_r": 78694,
+  "custo_usd": 0.1836198
+ }
+}

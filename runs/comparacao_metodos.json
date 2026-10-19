@@ -1,0 +1,140 @@
+{
+ "metodos": [
+  {
+   "rodada": "claude-opus",
+   "metodo": "plano",
+   "modelo": "Opus 5.5",
+   "questoes": 359,
+   "chamadas_por_questao": 1.0,
+   "tokens_prompt_por_questao": 211517,
+   "tokens_saida_por_questao": 508,
+   "custo_usd_por_questao_sem_cache": 0.85623,
+   "custo_usd_por_questao_com_cache": 0.05418,
+   "custo_usd_50mil_com_cache": 2709,
+   "fora": 2,
+   "multi_tema": 62,
+   "escolheu_subtema": 210,
+   "conf_ramo_media": 0.8
+  },
+  {
+   "rodada": "claude-sonnet-h",
+   "metodo": "2 estágios",
+   "modelo": "Sonnet 5",
+   "questoes": 358,
+   "chamadas_por_questao": 1.99,
+   "tokens_prompt_por_questao": 20801,
+   "tokens_saida_por_questao": 1589,
+   "custo_usd_por_questao_sem_cache": 0.05749,
+   "custo_usd_por_questao_com_cache": 0.03146,
+   "custo_usd_50mil_com_cache": 1573,
+   "fora": 4,
+   "multi_tema": 95,
+   "escolheu_subtema": 204,
+   "conf_ramo_media": 0.911
+  },
+  {
+   "rodada": "claude-sonnet-3n",
+   "metodo": "3 estágios",
+   "modelo": "Sonnet 5",
+   "questoes": 151,
+   "chamadas_por_questao": 2.99,
+   "tokens_prompt_por_questao": 13568,
+   "tokens_saida_por_questao": 2009,
+   "custo_usd_por_questao_sem_cache": 0.04722,
+   "custo_usd_por_questao_com_cache": 0.03788,
+   "custo_usd_50mil_com_cache": 1894,
+   "fora": 1,
+   "multi_tema": 33,
+   "escolheu_subtema": 80,
+   "conf_ramo_media": 0.918
+  },
+  {
+   "rodada": "gpt-5.5",
+   "metodo": "plano",
+   "modelo": "GPT-5.5 (parcial)",
+   "questoes": 63,
+   "chamadas_por_questao": 1.0,
+   "tokens_prompt_por_questao": 131352,
+   "tokens_saida_por_questao": 589,
+   "custo_usd_por_questao_sem_cache": null,
+   "custo_usd_por_questao_com_cache": null,
+   "custo_usd_50mil_com_cache": null,
+   "fora": 0,
+   "multi_tema": 11,
+   "escolheu_subtema": 39,
+   "conf_ramo_media": 0.922
+  }
+ ],
+ "concordancia": [
+  {
+   "a": "claude-opus",
+   "b": "claude-sonnet-h",
+   "n": 358,
+   "ramo": 0.885,
+   "n_ambos_subtema": 183,
+   "subtema_igual_quando_ambos_escolhem": 0.918
+  },
+  {
+   "a": "claude-opus",
+   "b": "claude-sonnet-3n",
+   "n": 151,
+   "ramo": 0.834,
+   "n_ambos_subtema": 73,
+   "subtema_igual_quando_ambos_escolhem": 0.932
+  },
+  {
+   "a": "claude-opus",
+   "b": "gpt-5.5",
+   "n": 63,
+   "ramo": 0.984,
+   "n_ambos_subtema": 37,
+   "subtema_igual_quando_ambos_escolhem": 0.973
+  },
+  {
+   "a": "claude-sonnet-h",
+   "b": "claude-sonnet-3n",
+   "n": 151,
+   "ramo": 0.861,
+   "n_ambos_subtema": 77,
+   "subtema_igual_quando_ambos_escolhem": 0.922
+  },
+  {
+   "a": "claude-sonnet-h",
+   "b": "gpt-5.5",
+   "n": 63,
+   "ramo": 0.889,
+   "n_ambos_subtema": 33,
+   "subtema_igual_quando_ambos_escolhem": 0.909
+  },
+  {
+   "a": "claude-sonnet-3n",
+   "b": "gpt-5.5",
+   "n": 38,
+   "ramo": 0.789,
+   "n_ambos_subtema": 17,
+   "subtema_igual_quando_ambos_escolhem": 0.824
+  }
+ ],
+ "com_origem": [
+  {
+   "rodada": "claude-opus",
+   "n": 225,
+   "ramo_igual_origem": 0.298
+  },
+  {
+   "rodada": "claude-sonnet-h",
+   "n": 224,
+   "ramo_igual_origem": 0.317
+  },
+  {
+   "rodada": "claude-sonnet-3n",
+   "n": 100,
+   "ramo_igual_origem": 0.38
+  },
+  {
+   "rodada": "gpt-5.5",
+   "n": 44,
+   "ramo_igual_origem": 0.227
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0,
+ "extras_ids": [
+  "5540",
+  "5541"
+ ],
+ "fora": false,
+ "justificativa": "A questão exige conhecimento transversal sobre o microssistema dos Juizados Especiais Criminais (Lei 9.099/1995): competência absoluta e deslocamento por conexão/continência (A), vedação à transação penal (B), queixa oral (C), institutos despenalizadores como garantia do acusado (D) e decadência da representação na audiência preliminar (E). Cada alternativa toca um instituto diferente do mesmo rito sumaríssimo, sem que uma única opção corresponda a um único subtema específico — por isso o enquadramento correto é o tema de nível 1 \"Procedimento Sumaríssimo\" (5539), que abrange todos esses institutos e seus subtemas (Competência do JECRIM, Transação Penal, etc.). Não é \"Competência\" em geral (5480), pois o enunciado trata especificamente da competência e dos institutos do JECRIM regidos pela Lei 9.099/1995, hipótese expressamente atribuída a 5539/5540 e não ao tema genérico de competência processual penal. Mantida a classificação anterior no nível 1; subtema deixado em branco por abranger múltiplos institutos (competência, transação penal, representação) sem eixo único em um só subtema.",
+ "multi_tema": true,
+ "segunda_opcao_id": "5480",
+ "subtema_n2_id": null,
+ "tema_n1_id": "5539",
+ "id": "Q0304",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5539",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata especificamente da competência dos Juizados Especiais Criminais (Lei 9.099/1995) e de institutos a ela ligados (transação penal, representação, queixa oral), conforme jurisprudência do STF. Isso se enquadra no tema \"Procedimento Sumaríssimo\", que possui o subtema \"Competência dos Juizados Especiais Criminais\". Não é um tema de Direito Penal material, pois a discussão é processual (competência, institutos despenalizadores, decadência da representação no rito do JECrim)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1410,
+  "cache_w": 32715,
+  "cache_r": 79634,
+  "custo_usd": 0.1692548
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5092",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5091",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O auditor-fiscal (funcionário público) deixou de autuar a empresa após aceitar promessa de vantagem indevida (estadia em hotel), não a tendo efetivamente recebido. O verbo nuclear é \"aceitar promessa\", caracterizando corrupção passiva (art. 317, CP), que se consuma independentemente do recebimento efetivo da vantagem. Não há exigência (o que afastaria para concussão, art. 316) nem mero interesse pessoal sem vantagem (prevaricação). Classificação em Penal > Dos Crimes Contra a Administração Pública > Corrupção Passiva é adequada e específica.",
+ "id": "Q0086",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata de funcionário público (Auditor-Fiscal do Trabalho) que deixa de praticar ato de ofício (autuação) após aceitar promessa de vantagem indevida (estadia em hotel), mesmo não a tendo recebido efetivamente. O núcleo testado é o crime de corrupção passiva (art. 317 do CP), que se consuma com a mera solicitação ou aceitação de promessa de vantagem, dispensando o efetivo recebimento — daí a alternativa correta ser \"cometeu o crime de corrupção passiva\". O tema de nível 1 \"Dos Crimes Contra a Administração Pública\" abrange o subtema \"Corrupção Passiva\", sendo a classificação adequada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1098,
+  "cache_w": 34846,
+  "cache_r": 78694,
+  "custo_usd": 0.1741248
+ }
+}

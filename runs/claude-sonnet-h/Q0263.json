@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5492",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão reproduz literalmente as hipóteses legais de suspeição do juiz previstas no art. 254, I a IV, do CPP, pedindo ao candidato que identifique quais incisos estão corretos. O núcleo testado é exatamente o rol de causas de suspeição (e não critério de competência em sentido estrito), o que corresponde ao subtema \"Exceção de Suspeição, de Impedimento ou de Incompatibilidade\" (5492), dentro do tema \"Das Questões e Processos Incidentes\" (5490). Competência (5480) permanece como segunda opção por conexão temática (imparcialidade do julgador), mas o enquadramento correto e específico é o incidente de suspeição.",
+ "id": "Q0263",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5490",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata das hipóteses de suspeição do juiz (art. 254 do CPP), instituto processual penal relativo à exceção de suspeição, enquadrado no tema \"Das Questões e Processos Incidentes\" (subtema Exceção de Suspeição, de Impedimento ou de Incompatibilidade). Não se trata de regra de competência em sentido estrito, mas de impedimento/suspeição do julgador, embora o tema de Competência também pudesse ser cogitado como segunda opção por conexão temática."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1123,
+  "cache_w": 13715,
+  "cache_r": 32043,
+  "custo_usd": 0.0823136
+ }
+}

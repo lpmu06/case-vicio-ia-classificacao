@@ -1,0 +1,38 @@
+{
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão cobra os requisitos legais da delação premiada do art. 41 da Lei 11.343/2006, instituto específico da Lei de Drogas (exige colaboração voluntária e espontânea, identificação de coautores/partícipes e recuperação do produto do crime, sendo requisitos cumulativos, não alternativos). Trata-se de conteúdo próprio da Lei de Drogas, corretamente enquadrado no tema de nível 1 \"Tráfico de Drogas\" (4708), que não possui subtemas, de modo que subtema_n2_id permanece null.",
+ "multi_tema": false,
+ "segunda_opcao_id": null,
+ "subtema_n2_id": null,
+ "tema_n1_id": "4708",
+ "id": "Q0050",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a delação premiada prevista no art. 41 da Lei de Drogas (Lei nº 11.343/2006), instituto específico dessa lei especial. O tema que abrange esse conteúdo é \"Tráfico de Drogas\", pertencente ao grupo LE1 (Legislação Especial)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata da delação premiada do art. 41 da Lei 11.343/2006 (Lei de Drogas), exigindo conhecimento específico dos requisitos legais do instituto (voluntariedade/espontaneidade, identificação de coautores/partícipes e recuperação do produto do crime). Esse conteúdo está diretamente ligado à dosimetria e aos benefícios previstos na própria Lei de Drogas, cobertos pelo tema \"Tráfico de Drogas\" (4708), que expressamente menciona minorantes e critérios de dosimetria dessa lei. Não há tema mais específico para institutos pontuais da Lei de Drogas fora desse, de modo que a classificação de nível 1 é a mais adequada e segura."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1436,
+  "cache_w": 44152,
+  "cache_r": 101498,
+  "custo_usd": 0.21659959999999998
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5116",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.45,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5119",
+ "extras_ids": [
+  "5118",
+  "5117"
+ ],
+ "multi_tema": false,
+ "justificativa": "O enunciado transcrito permanece vazio: há apenas o comando genérico \"julgue o próximo item\" e as alternativas C/E, sem qualquer afirmação substantiva a classificar. Mesmo com os metadados completos da árvore (descrições, palavras-chave e dispositivos dos subtemas 5117, 5118 e 5119), não há conteúdo da questão para confrontar com esses critérios distintivos. A única informação disponível continua sendo a pista de origem (\"Outras falsidades, Crimes contra a fé pública\"), que indica o tema de nível 1 \"Dos Crimes Contra a Fé Pública e de Falsidade Documental\" (5116) e sugeriria o subtema \"De outras falsidades\" (5119). Mantenho o tema de nível 1 por ser a classificação mais segura dado que a pista aponta inequivocamente para esse ramo do Código Penal, mas não atribuo subtema de nível 2, pois a regra exige certeza para tanto, e aqui não há texto algum que permita confirmar se o instituto testado é falsa identidade/adulteração de sinal/fraude em certame (5119), falsidade documental (5118) ou moeda falsa/papéis públicos (5117). A confiança no ramo é apenas moderada (não alta) exatamente por faltar o enunciado substantivo.",
+ "id": "Q0107",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5116",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.3,
+  "multi_tema": false,
+  "justificativa": "O enunciado da questão não foi transcrito (faltou o texto da assertiva, apenas o comando genérico \"julgue o próximo item\" e as alternativas C/E). Diante da ausência do conteúdo, a classificação baseou-se exclusivamente na pista de origem (\"Outras falsidades, Crimes contra a fé pública\"), que aponta para o tema de nível 1 \"Dos Crimes Contra a Fé Pública e de Falsidade Documental\" (subtema \"De outras falsidades\"), do Código Penal (Direito Penal material). Como não há texto para confirmar o instituto efetivamente testado, a confiança é baixa."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1351,
+  "cache_w": 29506,
+  "cache_r": 78694,
+  "custo_usd": 0.1518758
+ }
+}

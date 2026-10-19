@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5509",
+ "subtema_n2_id": "5510",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5511",
+ "extras_ids": [
+  "5531"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão trata do regime geral de nulidades processuais penais (instrumentalidade, prejuízo, distinção entre nulidade absoluta e relativa, coisa julgada), enquadrando-se no tema Nulidades, especificamente no subtema de Nulidade Absoluta e Relativa, que é o eixo central das alternativas.",
+ "id": "Q0046",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 534,
+  "cache_w": 2424,
+  "cache_r": 214056,
+  "custo_usd": 0.059189200000000004
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5169",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam exclusivamente sobre o crime de receptação (art. 180, CP): sujeito ativo, receptação culposa, receptação qualificada por atividade comercial e a autonomia da receptação em relação ao crime antecedente (punibilidade mesmo que o autor deste seja desconhecido ou isento de pena - art. 180, §4º). Trata-se, portanto, especificamente do subtema Receptação (5169), dentro do tema Dos Crimes Contra o Patrimônio (5157).",
+ "id": "Q0135",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o crime de receptação (art. 180, CP), tipificado no capítulo dos crimes contra o patrimônio, cujo tema está no grupo P5 (Parte especial: patrimônio, propriedade imaterial, organização do trabalho e fé pública)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata especificamente do crime de receptação (art. 180, CP), que é subtema de \"Dos Crimes Contra o Patrimônio\" (5157), tema de nível 1 que abrange furto, roubo, estelionato, receptação etc. Não há relação com organização do trabalho/propriedade imaterial (5134) nem com fé pública/falsidade documental (5116)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1258,
+  "cache_w": 49534,
+  "cache_r": 101498,
+  "custo_usd": 0.2413376
+ }
+}

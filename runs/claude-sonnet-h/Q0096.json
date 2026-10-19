@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": "5486",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5483",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta especificamente sobre as hipóteses de derrogação (alteração) da competência territorial originalmente fixada, tratando de conexão, continência, prevenção e desaforamento como possíveis causas de modificação dessa competência. Isso é exatamente o objeto do subtema 5486 (Prorrogação, Perpetuação e Modificação de Competência), que trata das regras pelas quais a competência inicialmente fixada é alterada por conexão, continência, prevenção etc. Não se trata de 5483 (que define o foro territorial originário em si), mas da alteração desse foro por fatores processuais supervenientes.",
+ "id": "Q0096",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5480",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata da derrogação (modificação) da competência territorial em razão de conexão/continência, matéria de competência processual penal — tema Competência, especificamente o subtema de Prorrogação, Perpetuação e Modificação de Competência."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1248,
+  "cache_w": 31549,
+  "cache_r": 78694,
+  "custo_usd": 0.1599998
+ }
+}

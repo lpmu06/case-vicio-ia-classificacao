@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "4378",
+ "extras_ids": [
+  "4377"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão exige identificar a teoria criminológica associada ao estigma de usar roupas de presídio perante o júri, e o próprio gabarito aponta para \"labelling approach ou etiquetamento social e Criminologia crítica\" (alternativa E), que são teorias nominadas em espécie. Isso confirma o tema 4385 (Teorias Sociológicas Explicativas da Criminalidade) como ramo correto, pois o enunciado cobra o nome da teoria e seu conceito (etiquetamento/rotulação do acusado pelo uso do uniforme prisional), e não o processo de criminalização primária/secundária em si (que seria 4378) nem cifras criminais (4379). Dentro do tema, o subtema mais preciso é 4388 (Teorias Criminológicas em Espécie), já que a pergunta pede a identificação da teoria nominada (labelling approach) com seus autores e conceitos, conforme o critério de desempate descrito na própria árvore. Mantenho 4378 como segunda opção residual, pois o etiquetamento também se relaciona à seletividade/criminalização secundária, mas o enfoque teórico-criminológico da pergunta aponta mais para 4385/4388.",
+ "id": "Q0094",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4385",
+  "segunda_opcao_n1_id": "4377",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata do labelling approach (etiquetamento social) e da Criminologia Crítica, que são teorias explicativas da criminalidade com enfoque sociológico/interacionista (reação social ao desviante). O tema 4385 \"Teorias Sociológicas Explicativas da Criminalidade\" abrange justamente essas teorias em espécie. Alternativamente, poderia se relacionar a \"Processos de Criminalização e Cifras Criminais\" (4377), já que o labelling approach está intimamente ligado à criminalização secundária/seletividade do sistema penal, mas o enunciado pede a teoria/tema criminológico associado às alternativas (escolas e teorias), o que aponta mais diretamente para 4385."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1340,
+  "cache_w": 31361,
+  "cache_r": 78694,
+  "custo_usd": 0.1604988
+ }
+}

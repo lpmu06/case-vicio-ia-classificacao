@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5211",
+ "subtema_n2_id": "5213",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5071",
+ "extras_ids": [
+  "5199",
+  "5184"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é multi-tema: cada alternativa versa sobre um instituto diferente — (A) embriaguez não acidental e actio libera in causa, afeta a imputabilidade/culpabilidade; (B) erro de proibição indireto (Culpabilidade); (C) natureza jurídica do concurso de pessoas (teoria monista); (D) finalidade da pena (Teoria da Pena); (E) medida de segurança. O gabarito é a alternativa A, que trata especificamente da embriaguez não acidental e da adoção da teoria da actio libera in causa pelo CP para aferir a culpabilidade — tema textualmente coberto pelo subtema Inimputabilidade (5213), cuja descrição cita expressamente \"embriaguez completa fortuita, embriaguez voluntária, actio libera in causa\". Por isso mantenho Culpabilidade (5211) como tema de nível 1 e escolho 5213 como subtema específico, já que a questão central do gabarito recai exatamente nesse ponto. Concurso de Pessoas (5071) permanece como segunda opção plausível, pois é a pista de origem e também testado na alternativa C (teoria monista), além de Teoria da Pena e Medida de Segurança como temas extras relevantes por também serem testados nas demais alternativas.",
+ "id": "Q0230",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5211",
+  "segunda_opcao_n1_id": "5071",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão é multi-tema: cada alternativa versa sobre um instituto diferente (embriaguez/actio libera in causa e erro de proibição - Culpabilidade; natureza jurídica do concurso de pessoas - Concurso de Pessoas; finalidade da pena - Teoria da Pena; medida de segurança - Medida de Segurança). O gabarito (alternativa A, sobre actio libera in causa na embriaguez) está centrado em Teoria do Crime: Culpabilidade, por isso esse foi escolhido como tema principal, com Concurso de Pessoas como segunda opção plausível dado que é a pista de origem e também é testado na alternativa C."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1983,
+  "cache_w": 36132,
+  "cache_r": 78694,
+  "custo_usd": 0.1884628
+ }
+}

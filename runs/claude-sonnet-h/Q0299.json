@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "4371",
+ "extras_ids": [
+  "4373"
+ ],
+ "multi_tema": true,
+ "justificativa": "A alternativa correta (D) trata especificamente do labelling approach e dos mecanismos de reação social, teoria sociológica nominada com autor e conceito próprios (Becker/Lemert), o que direciona ao subtema 4388 (Teorias Criminológicas em Espécie), dentro do tema 4385. As demais alternativas são heterogêneas: (B) Escola Positivista e (C) remetem a 4371/4373 (escolas históricas), e (E) a teoria finalista da ação é tema de Direito Penal (Teoria do Crime), confirmando a natureza multi-tema da questão. Como a resposta correta exige conhecimento específico do labelling approach, mantenho confiança moderada no subtema 4388, com 4371 como segunda opção plausível caso a banca tenha priorizado o eixo histórico-comparativo das escolas.",
+ "id": "Q0299",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4385",
+  "segunda_opcao_n1_id": "4371",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão apresenta alternativas heterogêneas (criminologia crítica, Escola Positivista, teoria retributiva da pena, labelling approach, teoria finalista da ação), sem eixo único. A alternativa correta (D) versa sobre o labelling approach e os mecanismos de reação social ao delito, que se insere nas Teorias Sociológicas Explicativas da Criminalidade (nível sociológico/reação social). Alternativa (B) trata de Escola Positivista, de Etapas Evolutivas e Escolas Criminológicas, sendo essa a segunda opção plausível. A alternativa (E), sobre teoria finalista da ação, é tema de Direito Penal (Teoria do Crime), reforçando a natureza multi-tema da questão, embora o eixo majoritário seja criminológico."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1969,
+  "cache_w": 9354,
+  "cache_r": 32043,
+  "custo_usd": 0.0695616
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "extras_ids": [
+  "5590"
+ ],
+ "fora": false,
+ "justificativa": "A questão exige conhecer o conceito doutrinário de \"confissão qualificada\" (gabarito A: admite o fato, mas alega excludente que o beneficia), que é classificação específica dentro do instituto da confissão como meio de prova (arts. 197-200 CPP). Isso é claramente um subtema de Provas em Espécies (5543), especificamente o subtema Confissão (5548), e não tema de teoria geral das provas (ônus, princípios, valoração), que trataria do assunto em abstrato sem entrar nessa classificação doutrinária específica.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5590",
+ "subtema_n2_id": "5548",
+ "tema_n1_id": "5543",
+ "id": "Q0098",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata da classificação da \"confissão qualificada\", instituto relativo ao valor probatório da confissão do acusado (art. 197, 200 do CPP), tema típico de Provas em Espécie dentro de Processo Penal, não se relacionando com Ação Penal propriamente."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão pede a definição doutrinária de \"confissão qualificada\" (gabarito A: admite o fato mas alega excludente/causa que o beneficia), instituto específico tratado dentro de Provas em Espécie, subtema Confissão (art. 197/200 CPP). Não se trata de teoria geral da prova (ônus, princípios, valoração), mas de classificação de um meio de prova em espécie. Segunda opção: Teoria Geral das Provas, por ser tema correlato de Processo Penal sobre provas."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1326,
+  "cache_w": 54621,
+  "cache_r": 101498,
+  "custo_usd": 0.2649996
+ }
+}

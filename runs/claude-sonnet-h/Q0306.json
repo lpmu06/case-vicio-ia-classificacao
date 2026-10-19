@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5144",
+ "subtema_n2_id": "5146",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam exclusivamente sobre o crime de associação criminosa (art. 288 do CP): elementos do tipo (número de agentes, estabilidade e finalidade específica), diferença em relação à organização criminosa da Lei 12.850/2013, hediondez (equiparação da associação para o tráfico) e cabimento de colaboração premiada. É matéria de direito penal material enquadrada precisamente no subtema \"Crimes Contra à Paz Pública\" (5146), que trata especificamente de associação criminosa e suas distinções com concurso de pessoas e organização criminosa, confirmando o tema de nível 1 \"Dos Crimes Contra a Saúde Pública e Dos Crimes Contra à Paz Pública\" (5144).",
+ "id": "Q0306",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5144",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o crime de associação criminosa (art. 288 do CP), tipificado no capítulo \"Dos Crimes contra a Paz Pública\", que é subtema do tema de nível 1 \"Dos Crimes Contra a Saúde Pública e Dos Crimes Contra à Paz Pública\" (5144). Trata-se de direito penal material (requisitos do tipo, hediondez, colaboração premiada aplicada ao crime), não de matéria processual."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1047,
+  "cache_w": 26909,
+  "cache_r": 79634,
+  "custo_usd": 0.1382718
+ }
+}

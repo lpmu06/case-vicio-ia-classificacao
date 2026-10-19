@@ -1,0 +1,15 @@
+{
+ "uso": {
+  "in": 1428,
+  "out": 570558,
+  "cache_w": 9975551,
+  "cache_r": 24396969,
+  "custo_usd": 52.97616880000002
+ },
+ "segundos": 3549,
+ "erros": [],
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "metodo": "hierarquico_2_estagios"
+}

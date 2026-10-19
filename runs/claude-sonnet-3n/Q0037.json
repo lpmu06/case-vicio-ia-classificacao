@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5128",
+ "subtema_n2_id": "5132",
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.4,
+ "segunda_opcao_id": "5081",
+ "extras_ids": [
+  "5079"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão pede a alternativa INCORRETA e mistura institutos diferentes: (A) e (B) tratam de redução a condição análoga à de escravo (art. 149 CP), que se encaixa precisamente no subtema 5132 \"Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas\", dentro do tema 5128 (Dos Crimes Contra a Liberdade Pessoal); (C) trata de falso testemunho/falsa perícia, que corresponde ao subtema 5081 do tema 5079 (Dos Crimes Contra a Administração Judicial); (D) trata de falsificação de documento particular (art. 298 CP, envolvendo CTPS), crime contra a fé pública sem tema correspondente nos grupos oferecidos — é provavelmente a alternativa incorreta de fato (CTPS é equiparada a documento público, não particular), mas isso é irrelevante para a classificação temática. Mantenho 5128 como tema de nível 1 porque cobre duas das quatro alternativas com um subtema exato e específico (5132), e indico 5079/5081 como segunda opção por cobrir a alternativa (C). Confiança do ramo moderada e do subtema moderada-baixa pela dispersão temática típica de questão multi-tema.",
+ "id": "Q0037",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P4",
+  "segundo_grupo_id": "P8",
+  "confianca": 0.35,
+  "multi_tema": true,
+  "justificativa": "A questão combina alternativas sobre institutos distintos da parte especial do Código Penal: (A) e (B) tratam de redução a condição análoga à de escravo, crime contra a liberdade pessoal (tema do grupo P4); (C) trata de falso testemunho, crime contra a administração da justiça (grupo P8); (D) trata de falsificação de documento particular, crime contra a fé pública (grupo P5). Não há eixo temático único — é questão multi-tema. Escolhi P4 como grupo principal por cobrir duas das quatro alternativas, e P8 como segundo mais relevante, mas a confiança é baixa dada a dispersão entre institutos de grupos diferentes dentro do próprio ramo Penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5128",
+  "segunda_opcao_n1_id": "5079",
+  "confianca_ramo": 0.45,
+  "multi_tema": true,
+  "justificativa": "A questão pede a alternativa INCORRETA e mescla institutos distintos: (A) e (B) versam sobre redução a condição análoga à de escravo (art. 149 CP), crime contra a liberdade pessoal — tema 5128 \"Dos Crimes Contra a Liberdade Pessoal\" (subtema \"Sequestro, Cárcere Privado, Redução à Condição Análoga à de Escravo e Tráfico de Pessoas\"); (C) versa sobre falso testemunho ou falsa perícia, crime contra a administração da justiça — tema 5079 \"Dos Crimes Contra a Administração Judicial\"; (D) versa sobre falsificação de documento particular (art. 298 CP), crime contra a fé pública, que não tem tema correspondente listado nestes grupos. Não há eixo temático único; é questão multi-tema dentro do próprio ramo Penal (parte especial). Mantenho 5128 (liberdade pessoal) como tema principal, por cobrir duas das quatro alternativas e por ser o subtema mais provável de conter o gabarito (a alternativa incorreta costuma estar relacionada ao instituto mais explorado tecnicamente, aqui a redução a condição análoga à de escravo), e 5079 (administração judicial) como segunda opção, cobrindo a alternativa sobre falso testemunho. Confiança baixa pela dispersão temática."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3388,
+  "cache_w": 52218,
+  "cache_r": 101498,
+  "custo_usd": 0.27547659999999996
+ }
+}

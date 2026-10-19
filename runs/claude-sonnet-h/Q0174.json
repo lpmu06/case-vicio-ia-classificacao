@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5128",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5157",
+ "extras_ids": [
+  "5133",
+  "5166"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão reúne institutos heterogêneos de direito penal material: (A) art. 241-A do ECA (pornografia infantil na internet, fora da árvore de Penal/Legislação Especial aqui mapeada); (B) e (D) invasão de dispositivo informático (art. 154-A CP), tipo que integra \"Dos Crimes Contra a Liberdade Pessoal\" (5128), subtema 5133 (inviolabilidade de domicílio/correspondência/segredos, que abrange expressamente o art. 154-A); (C) fraude eletrônica/estelionato, inserido em \"Dos Crimes Contra o Patrimônio\" (5157), subtema 5166. Como duas das quatro alternativas (B e D) giram em torno do mesmo tipo penal do art. 154-A, mantenho 5128 como tema de nível 1 mais relevante e 5157 como segunda opção pela presença do estelionato eletrônico em C. Não fixo subtema de nível 2, pois a questão não se limita a um único subtema: o eixo B/D aponta para 5133, mas a alternativa C pertence a outro ramo (patrimônio) e a A foge totalmente da árvore (ECA). Mantida a marcação de multi-tema, dada a ausência de um núcleo temático único que abranja todas as alternativas.",
+ "id": "Q0174",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5128",
+  "segunda_opcao_n1_id": "5157",
+  "confianca_ramo": 0.45,
+  "multi_tema": true,
+  "justificativa": "A questão reúne quatro institutos distintos de direito penal material ligados a \"crimes cibernéticos\": (A) art. 241-A do ECA (pornografia infantil), (B) e (D) invasão de dispositivo informático (art. 154-A CP, que integra os crimes contra a inviolabilidade dos segredos, dentro de Dos Crimes Contra a Liberdade Pessoal), e (C) fraude eletrônica/estelionato (Dos Crimes Contra o Patrimônio). Não há um subtema único comum; como duas das quatro alternativas (B e D) giram em torno do mesmo tipo penal (art. 154-A), esse é o eixo mais relevante, classificando-se em Dos Crimes Contra a Liberdade Pessoal, com Dos Crimes Contra o Patrimônio como segunda opção por conta do estelionato eletrônico. Marcada como multi-tema dada a heterogeneidade das alternativas."
+ },
+ "uso": {
+  "in": 4,
+  "out": 3423,
+  "cache_w": 39835,
+  "cache_r": 78694,
+  "custo_usd": 0.2213428
+ }
+}

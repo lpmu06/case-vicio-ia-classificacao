@@ -1,0 +1,33 @@
+{
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.4,
+ "extras_ids": [
+  "5588",
+  "5589"
+ ],
+ "fora": false,
+ "justificativa": "Mantenho o tema de nível 1 em 5584 (Teoria Geral das Prisões). A questão se passa expressamente na audiência de custódia e pede a \"principal tese\" a ser sustentada pela defesa diante de prisão em flagrante decorrente de busca domiciliar ilegal (sem mandado e sem consentimento do morador) — o gabarito correto é o relaxamento da prisão por ilegalidade, com as demais alternativas (fiança, cautelar diversa, prisão domiciliar) funcionando como distratores de \"Prisões em Espécie\" (5517, mantido como segunda opção). No nível 2, há sobreposição genuína entre \"Audiência de Custódia\" (5589) — cujo próprio escopo descreve exatamente este tipo de questão, com as providências do juiz (relaxar, converter, liberdade provisória, cautelares) — e \"Relaxamento da Prisão\" (5588), que é o instituto de mérito efetivamente cobrado na resposta correta. Como ambos os subtemas descrevem com precisão o cenário e não há um critério de desempate inequívoco nas notas \"não confundir\" para este caso específico, prefiro não arriscar um subtema errado: subtema_n2_id = null, com os dois mantidos como extras_ids para referência.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5517",
+ "subtema_n2_id": null,
+ "tema_n1_id": "5584",
+ "id": "Q0161",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5584",
+  "segunda_opcao_n1_id": "5517",
+  "confianca_ramo": 0.72,
+  "multi_tema": false,
+  "justificativa": "A questão gira em torno da audiência de custódia e da tese a ser sustentada diante de prisão em flagrante decorrente de busca domiciliar ilegal (sem mandado e sem consentimento do morador), culminando no relaxamento da prisão por ilegalidade. O eixo central - audiência de custódia e relaxamento da prisão - corresponde a subtemas de \"Teoria Geral das Prisões\" (5584), que abrange exatamente \"Audiência de Custódia\" e \"Relaxamento da Prisão\". As alternativas distratoras (liberdade provisória com fiança, conversão em cautelar diversa, prisão domiciliar) são institutos de \"Prisões em Espécie\" (5517), por isso essa é a segunda opção plausível, mas o gabarito correto (relaxamento por ilegalidade) pertence ao primeiro tema."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2617,
+  "cache_w": 36329,
+  "cache_r": 78694,
+  "custo_usd": 0.1972968
+ }
+}

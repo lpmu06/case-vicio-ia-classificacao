@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "César desconhecia a presença da vítima escondida, logo desconhecia estar atingindo \"alguém\" — erro sobre elementar do tipo (quem), que exclui o dolo nos termos do art. 20, caput, CP (erro de tipo essencial). A alternativa correta é a (A). O tema de nível 1 é Penal > Teoria do Crime: Fato Típico (5218), e dentro dele o subtema específico é Erro de Tipo (5224), que trata exatamente do erro essencial que exclui dolo e eventualmente permite punição por culpa. Não se trata de erro de proibição (5211/D), pois César não tinha consciência da potencial ilicitude por desconhecer o próprio fato (presença de pessoa), e não de erro sobre a ilicitude de uma conduta cuja factualidade conhecia.",
+ "id": "Q0302",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "César desconhecia a presença da vítima escondida atrás das peças de carne, de modo que não tinha consciência de estar atingindo uma pessoa ao arremessar a faca — trata-se de erro quanto a elementar do tipo (não sabia que atingiria \"alguém\"), que exclui o dolo (erro de tipo essencial, art. 20, CP), podendo subsistir responsabilidade culposa se o erro for evitável. O tema central é erro de tipo, subtema de Teoria do Crime: Fato Típico (id 5218), tema de nível 1 em Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1171,
+  "cache_w": 75381,
+  "cache_r": 33639,
+  "custo_usd": 0.32618579999999997
+ }
+}

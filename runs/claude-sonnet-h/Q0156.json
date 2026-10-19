@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4688",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecimento de dispositivos específicos da Lei 9.605/98: sursis especial (art. 16), penas restritivas de direitos aplicáveis à pessoa jurídica (art. 22), interdição temporária de direitos (art. 10) e a excludente de ilicitude do art. 37 (abate de animal nocivo). Todos são institutos próprios da Lei de Crimes Ambientais, confirmando o tema 4688. Como esse tema não possui subtemas na árvore, subtema_n2_id permanece null.",
+ "id": "Q0156",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4688",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão cobra dispositivos específicos da Lei 9.605/98 (sursis especial do art. 16, penas restritivas à pessoa jurídica, interdição temporária de direitos, excludente do art. 37), todos institutos próprios da Lei de Crimes Ambientais, não da parte geral comum do Código Penal. Embora algumas alternativas mencionem institutos gerais (suspensão condicional da pena, pena de interdição), o enunciado pede expressamente \"de acordo com a Lei 9.605/98\", e as respostas dependem de regras específicas dessa lei especial, que tem tema próprio na árvore (\"Crimes contra o meio ambiente\")."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1101,
+  "cache_w": 5989,
+  "cache_r": 43624,
+  "custo_usd": 0.0472878
+ }
+}

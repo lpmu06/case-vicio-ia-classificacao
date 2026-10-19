@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5164",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige o conhecimento específico do crime de Dano (art. 163 CP), incluindo a qualificadora por prejuízo considerável (art. 163, parágrafo único, IV) e por dano a bem público (art. 163, parágrafo único, III), além da diferenciação quanto à ação penal cabível (art. 167 CP: queixa para o inciso IV; ação pública incondicionada para o inciso III). Isso corresponde exatamente ao subtema \"Dano\" (5164), dentro do tema de nível 1 \"Dos Crimes Contra o Patrimônio\" (5157), que corretamente abrange a matéria. Não há concorrência com outro tema de nível 1, pois o eixo é integralmente o crime de dano e suas qualificadoras/ação penal.",
+ "id": "Q0047",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa o crime de dano (art. 163 e seguintes do CP) em sua forma qualificada, incluindo a ação penal cabível conforme o art. 167, CP. Trata-se de crime contra o patrimônio, tema coberto pelo grupo P5 (Dos Crimes Contra o Patrimônio)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão exige o conhecimento específico do crime de Dano (art. 163 e seguintes do CP), incluindo a qualificadora por dano a bem público e a ação penal cabível (art. 167, CP). Dano é subtema de \"Dos Crimes Contra o Patrimônio\" (5157), tema de nível 1 que abrange corretamente a matéria, pois quem estuda esse tema vê também as questões de Dano. Não há outro tema de nível 1 nos grupos apresentados que trate do assunto, por isso não há segunda opção plausível."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2346,
+  "cache_w": 52517,
+  "cache_r": 101498,
+  "custo_usd": 0.2651306
+ }
+}

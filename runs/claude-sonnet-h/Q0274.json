@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5160",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5149",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata diretamente da Súmula 610 do STF (\"Há crime de latrocínio quando o homicídio se consuma, embora o agente não realize a subtração de bens da vítima\"), que trata do latrocínio (art. 157, §3º, II, CP), crime patrimonial qualificado pelo resultado morte. É matéria de Direito Penal material, especificamente do tipo Roubo (que abrange expressamente o latrocínio e cita a Súmula 610 STF em seus dispositivos), e não de crimes contra a vida, pois o latrocínio é classificado como crime contra o patrimônio, ainda que a morte seja consumada e a subtração apenas tentada.",
+ "id": "Q0274",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": "5149",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata da Súmula 610 do STF sobre latrocínio (roubo qualificado pelo resultado morte, art. 157, §3º, II, CP), exigindo conhecimento sobre a classificação do crime quando a subtração é tentada mas a morte se consuma. É matéria de Direito Penal material, inserida nos crimes contra o patrimônio (subtema Roubo), e não de Processo Penal nem dos crimes contra a vida, já que o latrocínio é tipificado como crime patrimonial qualificado."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1203,
+  "cache_w": 15444,
+  "cache_r": 43624,
+  "custo_usd": 0.0936708
+ }
+}

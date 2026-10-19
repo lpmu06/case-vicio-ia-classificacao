@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5557",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "4705",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam exclusivamente sobre o instituto da colaboração premiada da Lei 12.850/2013 (arts. 3º-A a 7º): instrução prévia do acordo, vedação de aproveitamento das provas em caso de não celebração, perdão judicial a qualquer tempo, requisitos para redução de pena/perdão/substituição, e suspensão do prazo para denúncia e do prazo prescricional. Isso corresponde exatamente ao subtema \"Colaboração Premiada\" (5557), filho de \"Provas em Espécies\" (5543), tema correto por tratar a colaboração como meio de obtenção de prova regulado também no CPP. A segunda opção, \"Organizações Criminosas\" (4705), seria aceitável por ser a mesma lei de origem, mas o foco estrito no procedimento/efeitos da colaboração como instituto probatório justifica manter 5543/5557.",
+ "id": "Q0193",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "4705",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente do instituto da colaboração premiada (requisitos do acordo, efeitos quanto a provas não aproveitadas, perdão judicial, benefícios e suspensão de prazo/prescrição), disciplinado pela Lei 12.850/2013 e tratado como meio de prova no CPP. Na árvore, \"Colaboração Premiada\" aparece como subtema explícito de \"Provas em Espécies\" (5543), que é o tema de nível 1 mais específico e correto. Alternativa: poderia também ser enquadrada em \"Organizações Criminosas\" (4705), já que a lei de origem é a mesma, mas como o conteúdo testado é estritamente o procedimento/efeitos da colaboração como meio de obtenção de prova, prevalece o tema de Provas em Espécies."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1207,
+  "cache_w": 38138,
+  "cache_r": 78694,
+  "custo_usd": 0.1902478
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "fora": false,
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5185",
+ "extras_ids": [
+  "5187"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa se cabe recurso em sentido estrito (art. 581, VIII, CPP) contra a sentença que reconhece a extinção da punibilidade pela prescrição, e o prazo de 5 dias para sua interposição, o que é matéria própria de Recursos em Espécie (RESE), ainda que envolva cálculo de prescrição como pano de fundo.",
+ "id": "Q0183",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 0,
+  "out": 0,
+  "cache_w": 0,
+  "cache_r": 0,
+  "custo_usd": 0.0631032
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.78,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5590",
+ "extras_ids": [
+  "5548",
+  "5550",
+  "5545",
+  "5546"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão multi-tema: cada alternativa versa sobre instituto probatório diferente do CPP. (A) presunção/indícios e sua ausência de valor legal absoluto (art. 239 CPP) — tangencia sistemas de valoração/teoria geral (5590/5592); (B) características da confissão (retratabilidade, divisibilidade — na verdade a confissão é divisível, não indivisível, o que torna a assertiva incorreta) — subtema 5548; (C) testemunhas impedidas por sigilo profissional que podem depor se desobrigadas pela parte interessada (art. 207 CPP) — subtema 5550; (D) restrições da lei civil à prova no processo penal, não restritas ao estado das pessoas (art. 155, parágrafo único, CPP) — tangencia teoria geral (5590); (E) exame de corpo de delito por perito não oficial na falta de perito oficial (art. 159, §1º, CPP) — subtema 5545, e é o gabarito mais provável por reproduzir fielmente o texto legal. Como três das cinco alternativas (B, C, E) tratam de meios de prova em espécie específicos — confissão, prova testemunhal e exame de corpo de delito —, mantenho o tema de nível 1 \"Provas em Espécies\" (5543) como melhor enquadramento do conjunto, sem fixar subtema de nível 2 por não haver um eixo único entre as alternativas. \"Teoria Geral das Provas\" (5590) permanece como segunda opção por cobrir os aspectos de presunção/indícios (A) e restrições da lei civil (D), ligados a sistemas de valoração da prova.",
+ "id": "Q0338",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.6,
+  "multi_tema": true,
+  "justificativa": "A questão é multi-tema: cada alternativa versa sobre um instituto probatório diferente do CPP (presunção/indícios, confissão, testemunhas impedidas por sigilo profissional, restrições da lei civil à prova, exame de corpo de delito por perito não oficial). Como três das cinco alternativas (B, C, E) tratam de meios de prova em espécie (confissão, prova testemunhal, perícia/exame de corpo de delito), que são subtemas expressos de \"Provas em Espécies\", esse tema de nível 1 abrange melhor o conjunto. Alternativamente, \"Teoria Geral das Provas\" cobriria as alternativas A e D (presunção/indícios e restrições da lei civil, ligadas a sistemas de avaliação da prova), por isso é a segunda opção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2099,
+  "cache_w": 15790,
+  "cache_r": 43624,
+  "custo_usd": 0.1042728
+ }
+}

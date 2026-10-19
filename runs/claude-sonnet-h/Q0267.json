@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [
+  "5546"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão trata especificamente do procedimento previsto nos arts. 50 e 50-A da Lei 11.343/2006: laudo de constatação da natureza e quantidade da droga (inclusive a possibilidade de ser firmado por pessoa idônea na falta de perito oficial) e o rito de certificação judicial e destruição das drogas apreendidas, com guarda de amostra para laudo definitivo. Esse microssistema procedimental é tratado de forma exaustiva e exclusiva dentro da Lei de Drogas, e o próprio tema 4708 inclui expressamente em sua descrição e palavras-chave \"regras sobre laudo, apreensão e destruição de drogas\". Por isso, mantenho o tema 4708 (Tráfico de Drogas) como enquadramento correto, que não possui subtemas (subtema_n2_id = null). Como segunda opção, considero 5543 (Provas em Espécies), pois versa sobre laudo pericial, mas o enunciado é integralmente ancorado em dispositivos específicos da Lei 11.343/2006, tornando a Legislação Especial o enquadramento mais preciso.",
+ "id": "Q0267",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": "5543",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o procedimento específico da Lei de Drogas (Lei 11.343/2006) quanto ao laudo de constatação da natureza e quantidade da droga e à destruição do entorpecente apreendido (arts. 50 e 50-A), temas tratados exclusivamente dentro dessa lei especial. Embora tenha natureza processual, o tema \"Tráfico de Drogas\" na árvore de Legislação Especial expressamente abrange \"principais reflexos processuais\" da lei, sendo o enquadramento mais específico e correto. Como segunda opção, poderia se pensar em Provas em Espécies (Processo Penal), por tratar de laudo pericial, mas o contexto é todo específico da Lei de Drogas."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2874,
+  "cache_w": 14181,
+  "cache_r": 43624,
+  "custo_usd": 0.1043118
+ }
+}

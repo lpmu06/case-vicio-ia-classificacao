@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5170",
+ "extras_ids": [
+  "5228",
+  "5211"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 em 5218 (Fato Típico), pois a maioria das assertivas (A - ausência de conduta; C - elementos subjetivos do injusto em dolo e culpa; E - tipos mistos alternativos e concurso) gravita sobre institutos do fato típico. A alternativa B trata de bem jurídico como critério de interpretação/sistematização, aproximando-se de Introdução ao Estudo do Direito Penal (5170), mantido como segunda opção. A alternativa D versa sobre teoria diferenciadora do estado de necessidade exculpante, tema de ilicitude/culpabilidade (5228/5211), por isso incluído nos extras. Não há um subtema de nível 2 único que cubra a questão: ela espalha-se entre Conduta (5221), Crime Doloso e Culposo (5222) e Tipicidade (5227), sem que nenhum predomine com certeza suficiente para escolha de subtema — por isso subtema_n2_id = null. Mantida a marcação multi_tema = true, com confiança moderada no ramo e baixa em qualquer subtema específico.",
+ "id": "Q0199",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5170",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão reúne assertivas sobre institutos distintos da teoria do crime: ausência de conduta e tipos mistos alternativos (fato típico), elementos subjetivos do injusto/tendências internas transcendentes em dolo e culpa (fato típico), bem jurídico como critério de interpretação/sistematização (introdução ao direito penal) e estado de necessidade exculpante (ilicitude/culpabilidade). Não há um único instituto testado; a maioria das alternativas (A, C, E) gravita em torno do fato típico, por isso escolho esse como tema principal de nível 1, com Introdução ao Estudo do Direito Penal como segunda opção pela alternativa B (bem jurídico). Marquei multi_tema=true pela dispersão temática, mantendo confiança moderada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1812,
+  "cache_w": 36526,
+  "cache_r": 78694,
+  "custo_usd": 0.1885448
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5474",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5472",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra literalmente a ordem de preferência do art. 31 do CPP para o exercício do direito de queixa quando há sucessão processual (ofendido falecido ou impossibilitado). O dispositivo art. 31 CPP está expressamente listado entre os dispositivos do subtema \"Queixa Crime\" (5474), que trata exatamente de quem pode oferecer/prosseguir a queixa (ofendido, representante legal, sucessores legitimados). Mantenho o tema de nível 1 \"Ação Penal\" (5466), confirmado no estágio anterior, e refino para o subtema 5474, pois a pergunta não é sobre a espécie de ação privada em geral (5472), mas especificamente sobre a titularidade/ordem de legitimados para a queixa-crime, matéria central do art. 31 CPP, mencionado nominalmente na descrição de 5474.",
+ "id": "Q0152",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente do art. 31 do CPP, sobre a ordem de preferência e sucessão no direito de queixa na ação penal privada, tema classificado em Ação Penal (grupo PP2 - Investigação e ação penal), matéria processual penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5498",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o art. 31 do CPP, que trata da ordem de preferência para o exercício do direito de queixa na ação penal privada (sucessão processual entre cônjuge, ascendente, descendente ou irmão, na falta do ofendido ou após seu falecimento). Trata-se de tema diretamente relacionado às características e condições da Ação Penal de Iniciativa Privada, classificado no tema de nível 1 \"Ação Penal\" (5466), cujo subtema específico seria \"Queixa Crime\" ou \"Características e Condições da Ação Penal\". Não se trata de Inquérito Policial (5498), que é fase investigativa anterior e distinta do direito de queixa, embora ambos pertençam ao mesmo grupo processual penal de investigação e ação penal, por isso mantenho esse tema como segunda opção."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1532,
+  "cache_w": 16849,
+  "cache_r": 37312,
+  "custo_usd": 0.10204540000000001
+ }
+}

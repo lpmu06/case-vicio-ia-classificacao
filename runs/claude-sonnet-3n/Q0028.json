@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5526",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5530",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Os três dispositivos citados (art. 406, art. 409 e art. 421, §1º, do CPP) pertencem exclusivamente à disciplina da primeira fase do procedimento do Tribunal do Júri (judicium accusationis): citação para resposta escrita, oitiva do MP/querelante sobre preliminares e documentos após a defesa, e a regra de desclassificação superveniente mesmo após preclusa a pronúncia. Não se trata de regra geral de comunicação dos atos processuais (a pista de origem está equivocada), mas de disciplina própria e específica do rito bifásico do júri. Mantém-se o tema de nível 1 \"Procedimento do Tribunal do Júri\" (5524). Como os três dispositivos (arts. 406 a 412 e 413 a 421) estão expressamente listados no subtema \"Procedimento Bifásico do Tribunal do Júri\" (5526), que trata precisamente da primeira fase, sequência de atos, resposta à acusação e desclassificação, atribuo o subtema 5526 com confiança razoável. A segunda opção (5530 - Procedimento Ordinário) é mantida apenas como alternativa residual, dada a eventual confusão de origem do item, embora os dispositivos sejam exclusivos do júri.",
+ "id": "Q0028",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP6",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata dos arts. 406, 409 e 421, §1º, do CPP — citação para defesa, oitiva do MP/querelante sobre preliminares e documentos, e desclassificação superveniente após preclusão da pronúncia — todos dispositivos específicos do procedimento do Tribunal do Júri (fase de formação da culpa), não de comunicação de atos em geral. Portanto o tema correto é Procedimento do Tribunal do Júri (PP6), e não Comunicação dos Atos Processuais (PP3), que foi a pista de origem."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": "5530",
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "Os arts. 406, 409 e 421, §1º, do CPP integram especificamente o procedimento bifásico do Tribunal do Júri (fase de formação da culpa): citação para defesa, oitiva do MP/querelante sobre preliminares e documentos, e desclassificação superveniente após preclusão da pronúncia. Não se trata de regra geral de comunicação dos atos processuais, mas de disciplina própria do rito do júri, enquadrando-se no tema de nível 1 \"Procedimento do Tribunal do Júri\" (5524). Mantida a conclusão do estágio anterior. Como segunda opção, indico \"Procedimento Ordinário\" (5530) apenas pela eventual confusão de origem do item, embora os dispositivos citados sejam exclusivos do júri."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2086,
+  "cache_w": 51192,
+  "cache_r": 101498,
+  "custo_usd": 0.25689460000000003
+ }
+}

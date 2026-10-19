@@ -1,0 +1,35 @@
+{
+ "fora": false,
+ "tema_n1_id": "5184",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [
+  "5203",
+  "5201",
+  "5205",
+  "5200"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão \"casca\" cujas alternativas abordam institutos distintos de sanção penal: (A) preponderância de atenuante/agravante na 2ª fase da dosimetria (5203), (B) espécies de pena privativa de liberdade (5201), (C) espécies de pena restritiva de direitos (5205), (D) princípios constitucionais da pena (5200) e (E) medida de segurança (5184). Como o gabarito é a alternativa (E), que versa especificamente sobre duração por tempo indeterminado e cessação de periculosidade na medida de segurança, mantenho a classificação em 5184 (Medida de Segurança), tema que não possui subtemas, daí subtema_n2_id = null. As demais alternativas pertencem a subtemas variados de Teoria da Pena (5199), que mantenho como segunda opção no nível 1, já que não há um único subtema de 5199 que absorva todo o conteúdo incorreto - por isso não indico subtema para a segunda opção e listo os subtemas tocados como extras. Marco multi_tema = true porque cada alternativa testa um instituto diferente, sem eixo comum além de \"sanção penal\" em sentido amplo.",
+ "id": "Q0221",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5184",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão apresenta alternativas sobre institutos distintos (dosimetria/confissão espontânea, espécies de pena privativa de liberdade, espécies de pena restritiva de direitos, princípios constitucionais da pena e medida de segurança), sem um eixo temático único — é \"casca\" de múltipla escolha que testa vários pontos de sanção penal. A alternativa correta (E) versa sobre medida de segurança (duração por tempo indeterminado e cessação de periculosidade), que é exatamente o tema testado pelo gabarito, por isso classifico em Medida de Segurança (5184). As demais alternativas (dosimetria, espécies de pena, princípios da pena) pertencem a Teoria da Pena (5199), que coloco como segunda opção, já que esse tema também abrange boa parte do conteúdo cobrado nas alternativas incorretas."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2094,
+  "cache_w": 35168,
+  "cache_r": 78694,
+  "custo_usd": 0.1858138
+ }
+}

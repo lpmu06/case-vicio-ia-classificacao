@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5201",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5208",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata da vedação ao \"salto de regime\" (progressão direta do fechado para o aberto, devendo passar primeiro pelo semiaberto) - Súmula 491 STJ e regra do art. 112 da LEP. Isso está diretamente ligado ao subtema Penas Privativas de Liberdade (5201), que expressamente cobre \"regime fechado, semiaberto, aberto\" e \"progressão de regime, regressão de regime\". Não é livramento condicional (5208), que trata de outro instituto, nem dosimetria ou efeitos da condenação. Mantenho o tema de nível 1 (5199) e especifico o subtema 5201 com alta confiança, pois o enunciado é claramente sobre regime de cumprimento de pena e progressão.",
+ "id": "Q0091",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata de progressão de regime prisional (fechado para semiaberto/aberto), tema de Teoria da Pena (regime de cumprimento de pena), que está no grupo P3 (Parte geral: pena, medida de segurança, punibilidade, prescrição e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre progressão de regime de cumprimento de pena privativa de liberdade (regime fechado para o regime imediatamente menos severo, vedando salto de regime), tema diretamente ligado às Penas Privativas de Liberdade, subtema do tema guarda-chuva Teoria da Pena (5199). Não se trata de medida de segurança, punibilidade, prescrição ou ação penal, logo os demais temas do grupo P3 não se aplicam."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1423,
+  "cache_w": 49766,
+  "cache_r": 101498,
+  "custo_usd": 0.2435526
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5103",
+ "extras_ids": [
+  "5108"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão gira em torno do estupro de vulnerável (art. 217-A, CP), mas cada alternativa testa um instituto diferente dentro do Título VI: erro de tipo quanto à idade (A), participação de terceiros (C), omissão imprópria do garantidor (D) e corrupção de menores (E), além de uma alternativa isolada sobre denunciação caluniosa (B), que não desloca o eixo. Como não há um único subtema de nível 2 que abranja todas as alternativas corretas simultaneamente (o núcleo central, estupro de vulnerável, está em 5103, mas a alternativa E trata de corrupção de menores, 5108), mantenho a classificação no tema de nível 1 \"Dos Crimes Contra a Dignidade Sexual\" (5102), que engloba todos esses subtemas. Marco multi_tema = true e deixo subtema_n2_id = null por falta de certeza quanto a um subtema único. Como segunda opção, indico 5103 (Estupro e Estupro de Vulnerável), por ser o tipo penal central da narrativa, e incluo 5108 (Corrupção de Menores) como extra relevante por ser o foco da alternativa E.",
+ "id": "Q0100",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P6",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "O caso gira em torno do estupro de vulnerável (art. 217-A, CP) praticado contra Ana, menor de 14 anos, e das alternativas exploram institutos diretamente ligados a esse crime: erro de tipo quanto à idade da vítima, participação de terceiros no delito sexual, omissão imprópria do garantidor e eventual corrupção sexual de menores. Embora a alternativa B mencione denunciação caluniosa (crime contra a administração da justiça), trata-se de apenas uma das opções incorretas, e o eixo central testado pela questão é o crime contra a dignidade sexual (estupro de vulnerável), que se encaixa no grupo P6 (Dos Crimes Contra a Dignidade Sexual). Não há tema de nível 2 específico para \"erro de tipo\" ou \"omissão imprópria\" isoladamente, de modo que a classificação correta é no tema de nível 1 que abrange o crime central discutido."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5102",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "O eixo central da questão é o crime de estupro de vulnerável (art. 217-A, CP) e institutos a ele diretamente relacionados: erro de tipo quanto à idade da vítima (alternativa A), participação de terceiros no delito sexual (alternativa C), omissão imprópria do garantidor no mesmo crime (alternativa D) e eventual corrupção sexual de menores (alternativa E). Todas essas alternativas giram em torno da tipificação e autoria/participação no crime sexual contra vulnerável, de modo que a questão se encaixa integralmente no tema \"Dos Crimes Contra a Dignidade Sexual\" (5102), que abrange os subtemas Estupro e Estupro de Vulnerável e Corrupção de Menores. A alternativa B, sobre denunciação caluniosa, é apenas uma opção incorreta isolada e não desloca o eixo temático. Não há tema de nível 2 único que cubra todas as alternativas corretamente (pois elas tocam institutos diferentes dentro do mesmo título), por isso a classificação no nível 1 é a mais adequada. Não identifico um segundo tema de nível 1 concorrente plausível, já que \"Dos Crimes contra a Família\" (5111) não tem relação com o conteúdo testado."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2527,
+  "cache_w": 51917,
+  "cache_r": 101498,
+  "custo_usd": 0.2637446
+ }
+}

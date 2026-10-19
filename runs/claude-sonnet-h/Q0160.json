@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5205",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata diretamente dos requisitos do art. 44, §3º, do CP para substituição da pena privativa de liberdade por restritiva de direitos em caso de réu reincidente, exigindo saber que, sendo reincidência genérica e a medida socialmente recomendável, a substituição é admissível (logo, a afirmativa de que seria \"inadmissível\" está errada). Isso corresponde exatamente ao subtema Penas Restritivas de Direitos (5205), dentro do tema de nível 1 Teoria da Pena (5199).",
+ "id": "Q0160",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre requisitos para substituição da pena privativa de liberdade por restritiva de direitos em caso de reincidência (art. 44, §3º, CP), tema diretamente ligado às Penas Restritivas de Direitos, subtema de Teoria da Pena (nível 1 = 5199, Penal)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1013,
+  "cache_w": 33775,
+  "cache_r": 78694,
+  "custo_usd": 0.1683558
+ }
+}

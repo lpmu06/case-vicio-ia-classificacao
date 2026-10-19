@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5580",
+ "subtema_n2_id": "5581",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5582",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam sobre o desenho estrutural dos sistemas processuais (acusatório vs. inquisitivo): quem exerce a repressão penal, comprometimento da imparcialidade judicial no modelo acusatório, existência de modelo ideal normativo internacional, crítica ao sistema inquisitivo quanto à certeza de repressão, e critérios de política criminal na escolha do sistema pelo legislador. O núcleo da questão é a comparação/caracterização dos modelos em si (acusatório/inquisitivo), e não um princípio processual isolado (contraditório, ampla defesa etc.), o que a direciona para o subtema 5581 \"Sistemas Processuais Penais\", dentro do tema guarda-chuva 5580. Mantida a confirmação do nível 1 já escolhido na etapa anterior, com refinamento para o subtema específico.",
+ "id": "Q0079",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP1",
+  "segundo_grupo_id": null,
+  "confianca": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa diretamente sobre os sistemas processuais penais (acusatório e inquisitivo) e seus princípios reitores, tema expressamente previsto no grupo PP1 (\"Sistemas e Princípios Processuais Penais\")."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5580",
+  "segunda_opcao_n1_id": "5583",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento direto sobre os sistemas processuais penais (acusatório e inquisitivo), suas características estruturais e os princípios que os condicionam, incluindo imparcialidade do julgador e critérios de política criminal na escolha do sistema. Esse é precisamente o objeto do tema 5580 \"Sistemas e Princípios Processuais Penais\". Não há foco em atribuições específicas de sujeitos processuais (juiz, MP, defesa) que justificasse o tema 5583, nem questão de lei processual no tempo/espaço (5505)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1503,
+  "cache_w": 45011,
+  "cache_r": 101498,
+  "custo_usd": 0.2220976
+ }
+}

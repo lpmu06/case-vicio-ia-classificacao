@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4705",
+ "extras_ids": [
+  "4702"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é multi-tema dentro de Legislação Especial: narra tráfico de drogas, associação para o tráfico, extorsão, organização criminosa e lavagem de dinheiro, e cada alternativa versa sobre um instituto diferente — (B)/(C) tráfico sem apreensão de droga (prova do crime por outros elementos, tema clássico de Tráfico de Drogas/Lei 11.343, inclusive ligado à Súmula 587 STJ); (D) lavagem de dinheiro (Lei 9.613/1998); (E) concurso entre associação para o tráfico (art. 35, Lei 11.343) e organização criminosa (Lei 12.850), questão de bis in idem. Como a alternativa correta (C) tem como núcleo a possibilidade de condenação por tráfico de drogas sem apreensão de entorpecente — tema central e recorrente de Tráfico de Drogas — mantenho 4708 como tema principal, com 4705 (Organizações Criminosas) como segunda opção relevante por conta da alternativa (E), e incluo 4702 (Lavagem de Dinheiro) como extra pela alternativa (D). Não há subtema de nível 2 em nenhum dos dois temas.",
+ "id": "Q0097",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": "4705",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão narra um caso complexo envolvendo tráfico de drogas, associação para o tráfico, extorsão, organização criminosa e lavagem de dinheiro, e cada alternativa testa um instituto diferente de Legislação Especial: (B) e (C) tratam de tráfico de drogas sem apreensão de entorpecente; (D) trata do crime de lavagem de dinheiro; (E) trata do concurso entre associação para o tráfico e organização criminosa (bis in idem). Não há um eixo único claro, mas o núcleo fático gira em torno do tráfico de drogas, por isso escolho Tráfico de Drogas como tema principal, com Organizações Criminosas como segunda opção, marcando como multi-tema dentro do ramo de Legislação Especial."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1661,
+  "cache_w": 30719,
+  "cache_r": 78694,
+  "custo_usd": 0.1607958
+ }
+}

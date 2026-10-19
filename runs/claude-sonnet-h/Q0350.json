@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4702",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam sobre institutos específicos da Lei 9.613/1998 (autolavagem/consunção, tentativa em crime unissubsistente, colaboração premiada do art. 1º, §5º, e classificação da lei quanto a gerações de infrações antecedentes). O tema de nível 1 \"Lavagem de Dinheiro\" (4702) abrange integralmente a questão, que não possui subtemas cadastrados.",
+ "id": "Q0350",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4702",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente dos crimes de lavagem de dinheiro (Lei 9.613/1998): autolavagem, tentativa, colaboração premiada/delação e classificação da legislação quanto às infrações antecedentes. Todas as alternativas versam sobre institutos específicos da Lei de Lavagem de Dinheiro, enquadrando-se perfeitamente no tema de nível 1 \"Lavagem de Dinheiro\" em Legislação Especial."
+ },
+ "uso": {
+  "in": 4,
+  "out": 843,
+  "cache_w": 6077,
+  "cache_r": 43624,
+  "custo_usd": 0.045112799999999995
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão trata exclusivamente do Regime Disciplinar Diferenciado (art. 52 da LEP), abordando duração, cabimento para integrantes de organização/associação criminosa independentemente de falta grave, monitoramento de entrevistas e local de cumprimento. É matéria típica da Lei de Execução Penal (4703), tema que não possui subtemas de nível 2, confirmando a classificação do estágio anterior.",
+ "id": "Q0155",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata do Regime Disciplinar Diferenciado (RDD), instituto regulado pela Lei de Execução Penal (art. 52 da LEP), abrangendo duração, cabimento (associação criminosa/organização criminosa), monitoramento de entrevistas e local de cumprimento. É matéria própria do tema Lei de Execução Penal, pertencente ao grupo LE4 (Execução penal, juizados, interceptação, identificação criminal, contravenções e trânsito)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa exclusivamente sobre o Regime Disciplinar Diferenciado (RDD), instituto previsto no art. 52 da Lei de Execução Penal (Lei 7.210/1984), tratando de sua duração, cabimento, monitoramento de entrevistas e local de cumprimento. Trata-se de matéria específica da LEP, correspondendo ao tema de nível 1 \"Lei de Execução Penal\" (4703), dentro do grupo LE4. Não há outro tema do grupo que trate do RDD com a mesma pertinência."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1207,
+  "cache_w": 5620,
+  "cache_r": 10210,
+  "custo_usd": 0.059237
+ }
+}

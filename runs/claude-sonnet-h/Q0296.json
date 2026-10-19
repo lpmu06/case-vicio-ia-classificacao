@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5472",
+ "confianca_ramo": 0.62,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5063",
+ "extras_ids": [
+  "5474",
+  "5065"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão versa sobre a sucessão processual no direito de queixa (art. 31 do CPP e art. 24, §1º, do CP), que autoriza CADI (cônjuge, ascendente, descendente ou irmão) a oferecer queixa ou prosseguir na ação em caso de morte ou ausência da vítima. É instituto clássico da ação penal privada, estudado tanto em Processo Penal (CPP) quanto em Penal material (CP), pois a regra está simultaneamente positivada nos dois diplomas e costuma aparecer com idêntico enunciado em ambas as disciplinas. Mantenho Processo Penal > Ação Penal (5466) como primeira opção porque a assertiva compara expressamente o regime processual penal com o processo civil, destacando o ato de \"apresentação de queixa\" — ato tipicamente processual —, e porque, entre os dois temas de nível 1 equivalentes (5466 e 5063), a pista de origem (\"Processo Penal\") reforça essa escolha. Quanto ao subtema, optei por 5472 (Ação Penal de Iniciativa Privada), cujas palavras-chave mencionam expressamente \"sucessão processual\", tema central da questão; não obstante, há razoável chance de a banca ter classificado em Queixa Crime (5474), que trata da peça inicial em si e também cobre a legitimidade de sucessores para oferecê-la, por isso incluí 5474 como extra e mantive confiança moderada no subtema. Também incluí 5065 (Penal > Ação Penal Privada) como extra, pois é o subtema espelho na disciplina de Direito Penal material, igualmente aplicável caso a segunda opção de ramo (5063) seja a correta.",
+ "id": "Q0296",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5063",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata da sucessão processual no direito de queixa em caso de morte da vítima (art. 31 do CPP / art. 24, §1º do CP, que admite que CADI - cônjuge, ascendente, descendente, irmão - ofereçam queixa ou prossigam na ação). Trata-se de regra sobre legitimidade/condições para o exercício da ação penal privada, tema classicamente tratado em Ação Penal, tanto na vertente processual (CPP) quanto material (CP). Como a assertiva compara com o processo civil e foca no aspecto da titularidade para apresentar a queixa (ato processual), optei pelo tema de Processo Penal > Ação Penal como primeira escolha, mantendo Penal > Ação Penal como segunda opção por tratar-se de tema que transita entre as duas disciplinas."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2315,
+  "cache_w": 11712,
+  "cache_r": 32043,
+  "custo_usd": 0.0848086
+ }
+}

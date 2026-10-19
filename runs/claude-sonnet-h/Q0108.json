@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5530",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige identificar o recurso cabível contra decisão interlocutória que indefere o reconhecimento de prescrição da pretensão punitiva no curso do processo. Trata-se de hipótese do art. 581, VIII, do CPP (decisão que, não sendo caso de arquivamento, decide sobre extinção da punibilidade - aqui, indeferindo), sujeita a recurso em sentido estrito, sem efeito suspensivo (art. 584, caput, CPP). O eixo é o cabimento e os efeitos do recurso, não a prescrição em si nem o rito ordinário (que é apenas o contexto fático da audiência). Confirma-se o tema 5560 (Recursos em Espécies), com subtema 5561 (RESE), rejeitando-se as alternativas de \"recurso inominado\" (que não existe no CPP comum) e de apelação/efeito suspensivo, incorretas tecnicamente.",
+ "id": "Q0108",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5530",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa o recurso cabível contra decisão que indefere o reconhecimento de prescrição no curso do processo (decisão interlocutória), matéria regulada no art. 581, VIII, do CPP, que prevê recurso em sentido estrito sem efeito suspensivo. O eixo da questão é a identificação do recurso correto (RESE) e seus efeitos, pertencendo ao tema \"Recursos em Espécies\" (subtema Recurso em sentido estrito - RESE), e não à prescrição penal em si (que seria apenas o contexto fático) nem ao procedimento ordinário em geral."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1191,
+  "cache_w": 39626,
+  "cache_r": 78694,
+  "custo_usd": 0.1973848
+ }
+}

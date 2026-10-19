@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5189",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5187",
+ "extras_ids": [
+  "5190"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão exige calcular a prescrição da pretensão executória para dois condenados já com título condenatório definitivo (trânsito em julgado), um deles tendo iniciado o cumprimento da pena (causa interruptiva do art. 117, V, CP, com saldo residual de pena a converter) e outro não. O núcleo da pergunta é exatamente a prescrição da pretensão executória (prazo pela pena aplicada/restante, marco inicial após o trânsito para a acusação, interrupção pelo início do cumprimento), tema central de Direito Penal material — Prescrição (5185), com enquadramento específico em Prescrição da Pretensão Executória (5189). A alternativa sobre multa (prescrição da pena de multa) tangencia o subtema 5190, mas não é o eixo central das demais alternativas, que tratam todas da PPE. Não há dúvida quanto ao ramo (Penal material, não processual), e a especificidade do subtema (PPE) é alta, já que todas as opções plausíveis (B e C) versam sobre PPE.",
+ "id": "Q0293",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5185",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige o cálculo da prescrição da pretensão executória (prazo prescricional conforme a pena aplicada, marco inicial a partir do trânsito em julgado, interrupção pelo início do cumprimento da pena) para Lucas e Serafim, tema central de Direito Penal material (Prescrição), não de Processo Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2104,
+  "cache_w": 8804,
+  "cache_r": 43624,
+  "custo_usd": 0.0708628
+ }
+}

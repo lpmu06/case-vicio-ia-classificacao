@@ -1,0 +1,33 @@
+{
+ "tema_n1_id": "5480",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5483",
+ "extras_ids": [
+  "5482",
+  "5484"
+ ],
+ "multi_tema": true,
+ "fora": false,
+ "justificativa": "Confirmo o tema de nível 1 \"Competência\" (5480). A questão é multi-tema dentro do próprio ramo de competência: (A) discute competência de juízo especializado da infância/juventude para julgar maior de idade por estupro de vulnerável (questão de competência em razão da matéria/juízo, aproximando-se de 5482/5485); (B) trata do foro territorial competente no peculato-desvio (local do desvio x local de destino dos recursos) — típico de 5483; (C) versa sobre o foro territorial do estelionato por cheque sem fundos (Súmula 48 STJ) — também 5483; (D) aborda qual juízo julga a exceção da verdade quando o querelante tem foro por prerrogativa de função — tema de 5484. Como as alternativas testam subtemas distintos (matéria/juízo, territorial e prerrogativa de função) sem um eixo único de nível 2, não há subtema que cubra todas; mantenho subtema_n2_id = null, com maior peso para territorial (5483) como segunda opção, já que duas das quatro alternativas (B e C) tratam exatamente disso.",
+ "id": "Q0110",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5480",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": true,
+  "justificativa": "A questão apresenta quatro situações distintas (vara da infância e juventude x estupro de vulnerável cometido por maior, peculato-desvio, estelionato por cheque sem fundos, exceção da verdade em crime contra honra com prerrogativa de foro), mas o eixo comum e o que efetivamente se testa em todas as alternativas é a fixação de competência criminal. Trata-se, portanto, de questão multi-tema cujo ramo de nível 1 mais abrangente é \"Competência\" (5480), dentro de Processo Penal, não havendo subtema único que cubra todas as alternativas."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1617,
+  "cache_w": 32363,
+  "cache_r": 78694,
+  "custo_usd": 0.1675608
+ }
+}

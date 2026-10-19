@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4384",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4371",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o núcleo de \"Vigiar e Punir\" sobre a Reforma Humanista do século XVIII como constituição de uma nova economia/tecnologia do poder de punir (resposta D), tema que se encaixa em Teorias Legitimadoras da Pena por tratar da fundamentação/natureza do poder punitivo estatal. Como o tema 4384 não possui subtemas, subtema_n2_id permanece null. Há alguma proximidade com Etapas Evolutivas e Escolas Criminológicas (4371), por se referir a um marco histórico do pensamento criminológico, mas a pergunta central é sobre a finalidade/natureza do poder de punir, o que justifica manter 4384 como principal.",
+ "id": "Q0217",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4384",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.78,
+  "multi_tema": false,
+  "justificativa": "A questão trata do pensamento de Foucault sobre a Reforma Humanista do Direito Penal (séc. XVIII) em \"Vigiar e Punir\", cujo núcleo é a legitimação/fundamentação do poder de punir — tema diretamente relacionado às Teorias Legitimadoras da Pena, que abrange discussões sobre a finalidade e justificação do poder punitivo estatal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 905,
+  "cache_w": 29330,
+  "cache_r": 78694,
+  "custo_usd": 0.1450838
+ }
+}

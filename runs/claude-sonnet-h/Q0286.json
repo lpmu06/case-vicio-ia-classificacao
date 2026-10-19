@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5066",
+ "extras_ids": [
+  "5204",
+  "5203",
+  "5202"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão exige saber a ORDEM de incidência entre institutos de fases distintas da dosimetria trifásica (maus antecedentes/1ª fase, reincidência e confissão espontânea/2ª fase, tentativa e participação de menor importância/3ª fase) e institutos do concurso de crimes (concurso formal, crime continuado), que só incidem depois de concluída a dosimetria individual de cada crime (art. 68 CP + arts. 70/71 CP). Como cada alternativa combina um elemento de \"Teoria da Pena\" (fases da dosimetria) com um elemento de \"Concurso de Crimes\", não há um único subtema de nível 2 que abranja todas as alternativas — cada uma toca um par diferente de institutos (1ª fase x tentativa; 2ª fase x concurso formal/continuado/participação de menor importância). Por isso trato como multi-tema, mantendo \"Teoria da Pena\" (5199) como tema de nível 1 principal, pois o eixo comum e mais evidente é a sequência das fases de cálculo da pena (arts. 59, 61-67, 68 CP), com \"Concurso de Crimes\" (5066) como segunda opção relevante, já que o próprio enunciado depende de saber quando o aumento do concurso formal/continuado incide em relação à dosimetria trifásica. Não atribuo subtema de nível 2 único porque a questão atravessa 1ª, 2ª e 3ª fases simultaneamente, sem foco exclusivo em uma delas.",
+ "id": "Q0286",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "5066",
+  "confianca_ramo": 0.75,
+  "multi_tema": true,
+  "justificativa": "A questão testa a ordem de incidência das diversas circunstâncias no cálculo da pena (dosimetria), misturando elementos de diferentes fases (circunstâncias judiciais, agravantes/atenuantes, causas de aumento/diminuição) e institutos como concurso formal/continuado. O eixo comum é a sistemática de aplicação da pena (dosimetria), tema central de \"Teoria da Pena\", que abrange o subtema \"Terceira fase da Dosimetria: Causas de Aumento e de Diminuição\", embora algumas alternativas toquem concurso de crimes."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2401,
+  "cache_w": 13481,
+  "cache_r": 43624,
+  "custo_usd": 0.09627379999999999
+ }
+}

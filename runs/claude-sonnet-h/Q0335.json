@@ -1,0 +1,36 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.15,
+ "segunda_opcao_id": "5170",
+ "extras_ids": [
+  "5173",
+  "5174",
+  "5221",
+  "5222",
+  "5223"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão claramente multi-tema dentro do ramo Penal: (A) trata de concepção finalista da conduta e desvalor da ação/resultado (Conduta/Fato Típico, 5221/5218); (B) trata de causalidade jurídica em crimes omissivos próprios (5223); (C) trata de teorias do dolo — vontade vs. representação (5222); (D) trata de lei penal em branco, instituto que a árvore classifica em Interpretação da Norma Penal (5173, subtema de 5170); (E) trata de classificação dos crimes como pluriofensivos (5174, subtema de 5170). Como três das cinco alternativas (A, B, C) exigem conhecimento específico de elementos do fato típico (conduta, nexo causal/omissão, dolo), e a teoria geral do delito é mencionada explicitamente no enunciado como eixo central junto com leis penais em branco, reavaliei e entendo que o tema de nível 1 mais representativo é 5218 (Teoria do Crime: Fato Típico), com 5170 como segunda opção forte por abranger D e E via seus subtemas 5173 e 5174. Não há um subtema único de 5218 que cubra simultaneamente conduta, omissão e dolo, por isso subtema_n2_id = null. Todas as alternativas permanecem dentro da disciplina Penal (matéria), não há conteúdo de Processo Penal ou fora da árvore.",
+ "id": "Q0335",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5170",
+  "segunda_opcao_n1_id": "5218",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "Questão de alternativas heterogêneas: (A) e (B) tratam de fato típico/ação finalista e crimes omissivos; (C) trata de teorias do dolo (fato típico); (D) trata de lei penal em branco (tema de introdução ao direito penal, fontes/classificação das normas penais); (E) trata de classificação dos crimes (pluriofensivos). O enunciado explicitamente ancora o tema em \"leis penais em branco\", e a alternativa correta (D) versa exatamente sobre isso, por isso classifiquei em Introdução ao Estudo do Direito Penal, com Teoria do Crime: Fato Típico como segunda opção forte, já que três das cinco alternativas (A, B, C) versam sobre esse eixo. Trata-se de questão multi-tema sem eixo único claro, todas dentro do ramo Penal (matéria, não processo)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 5066,
+  "cache_w": 12777,
+  "cache_r": 43624,
+  "custo_usd": 0.11936480000000001
+ }
+}

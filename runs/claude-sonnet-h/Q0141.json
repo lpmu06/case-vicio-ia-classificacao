@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige identificar, entre teorias nominadas (Criminoso Nato, Associação Diferencial, Anomia, Labelling Approach, Teoria Ecológica), qual explica o efeito criminógeno da grande cidade por desorganização e contágio — é a Teoria Ecológica (Escola de Chicago). Como o enunciado cobra o reconhecimento de uma teoria específica frente a outras teorias também nominadas (critério de desempate do próprio tema), a classificação correta de nível 2 é \"Teorias Criminológicas em Espécie\" (4388), e não apenas a categoria ampla \"Teorias de Nível Sociológico\" (4387), que fica como segunda opção por também ser tecnicamente aplicável (a Teoria Ecológica é de nível sociológico).",
+ "id": "Q0141",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4385",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão pede a teoria que explica o efeito criminógeno da grande cidade a partir de conceitos de desorganização social e contágio — trata-se da Teoria Ecológica (Escola de Chicago), uma das teorias sociológicas explicativas da criminalidade. As demais alternativas (criminoso nato, associação diferencial, anomia, labelling approach) são distratores de outras correntes, mas o eixo da questão é identificar a teoria correta dentro do grupo de teorias sociológicas da criminalidade, cabendo no tema de nível 1 \"Teorias Sociológicas Explicativas da Criminalidade\"."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1122,
+  "cache_w": 31286,
+  "cache_r": 78694,
+  "custo_usd": 0.1565008
+ }
+}

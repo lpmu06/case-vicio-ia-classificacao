@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5540",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [
+  "5482"
+ ],
+ "multi_tema": false,
+ "justificativa": "A assertiva trata das hipóteses em que o processo sai do JECRIM e vai para o juízo comum. São elas: o réu não localizado, porque não cabe citação por edital (art. 66, parágrafo único); a causa complexa (art. 77, §2º); e a conexão com crime comum (art. 60, parágrafo único). Esse conteúdo coincide com a descrição do subtema 5540, Competência dos Juizados Especiais Criminais. O 4701 (Legislação Especial) também cobre a Lei 9.099/95, mas a questão trata de competência processual, e por isso o 5540 é mais adequado. Já o 5482 (competência em razão da matéria) é mais genérico e não trata especificamente do deslocamento da competência do JECRIM.",
+ "id": "Q0018",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4701",
+  "5539",
+  "5480"
+ ],
+ "candidatos_subtemas": [
+  "5540"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 725,
+  "cache_w": 10126,
+  "cache_r": 16390,
+  "custo_usd": 0.106095
+ }
+}

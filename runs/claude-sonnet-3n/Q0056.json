@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5066",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5067",
+ "extras_ids": [
+  "5068",
+  "5070"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão pede qual sistema (cúmulo material, exasperação, cúmulo jurídico) deve ser adotado em cada modalidade de concurso de crimes, abordando em suas alternativas o concurso formal imperfeito, o concurso material heterogêneo, a pena pecuniária e o crime continuado simultaneamente. Não há um eixo único em um só subtema (cada alternativa versa sobre uma combinação diferente de sistema de pena x espécie de concurso), de modo que o enquadramento correto é no tema de nível 1 \"Concurso de Crimes\" (5066), que abrange todos os subtemas envolvidos, sem subtema de nível 2 específico. Mantida a confirmação do tema de nível 1 do estágio anterior.",
+ "id": "Q0056",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente os sistemas de aplicação da pena no concurso de crimes (cúmulo material, exasperação, concurso formal/material), tema central de \"Concurso de Crimes\", incluído no grupo P2 (parte geral: teoria do crime, concursos)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5066",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento direto sobre os sistemas de aplicação de pena no concurso de crimes (cúmulo material, exasperação, concurso formal/material/heterogêneo, crime continuado), que é exatamente o escopo do tema de nível 1 \"Concurso de Crimes\" (id 5066), abrangendo seus subtemas Concurso Formal, Concurso Material e Crime Continuado. Não há elementos de teoria do crime, iter criminis ou concurso de pessoas que justifiquem outro tema."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1354,
+  "cache_w": 46293,
+  "cache_r": 101498,
+  "custo_usd": 0.2260166
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5091",
+ "extras_ids": [],
+ "multi_tema": false,
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5092",
+ "justificativa": "O enunciado reproduz literalmente o caput do art. 317 do CP (corrupção passiva: solicitar ou receber vantagem indevida, ou aceitar promessa, em razão da função, ainda que fora dela ou antes de assumi-la). As alternativas versam sobre a pena do caput, a forma majorada do §1º (quando o funcionário efetivamente pratica/retarda/deixa de praticar ato infringindo dever funcional) e a forma privilegiada do §2º, todas variações do mesmo tipo penal. Confirma-se o tema de nível 1 \"Dos Crimes Contra a Administração Pública\" e define-se o subtema específico \"Corrupção Passiva\" (5092), já que não há dúvida quanto ao enquadramento no art. 317 CP.",
+ "id": "Q0134",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A conduta descrita (\"solicitar ou receber vantagem indevida, ou aceitar promessa de tal vantagem, em razão da função\") é exatamente o tipo de Corrupção Passiva (art. 317, CP), e as alternativas tratam de suas variações (pena básica, forma privilegiada do §2º, majorante do §1º e a própria nomenclatura do crime). O tema de nível 1 \"Dos Crimes Contra a Administração Pública\" possui subtema específico \"Corrupção Passiva\", que é exatamente o assunto testado."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1155,
+  "cache_w": 33969,
+  "cache_r": 78694,
+  "custo_usd": 0.1712658
+ }
+}

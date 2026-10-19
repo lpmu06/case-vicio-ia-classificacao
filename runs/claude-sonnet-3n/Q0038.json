@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5498",
+ "extras_ids": [
+  "5500"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo a classificação anterior. A questão é sobre \"prerrogativas do ofendido no processo penal\", mas cada alternativa testa instituto distinto, sem eixo comum único: (A) e (C) tratam de assistência de acusação (recurso supletivo e habilitação na fase investigatória) — Ação Penal; (B), que é a alternativa correta, trata do segredo de justiça para proteção do ofendido (art. 201, §6º, CPP), dispositivo do capítulo \"Do Ofendido\" do CPP, que não corresponde a nenhum subtema listado em nenhum dos dois ramos; (D) trata de prisão temporária requerida pelo ofendido (medida cautelar, fora do grupo); (E) trata de requisição de inquérito e diligências pelo ofendido, tema de Inquérito Policial (há inclusive menção a \"requerimento do ofendido\" nas palavras-chave do subtema 5500 - Procedimento do Inquérito Policial). Como a resposta correta (B) não se encaixa com precisão em nenhum subtema, e há dispersão temática relevante entre as alternativas, mantenho a classificação multi-tema. Dentro do grupo Processo Penal, mantenho \"Ação Penal\" (5466) como tema de nível 1 principal por concentrar duas das cinco alternativas (A e C) no instituto da assistência de acusação, e por ser o eixo da classificação original, com \"Inquérito Policial\" (5498) como segunda opção em razão da alternativa E. Não atribuo subtema específico (null) porque nenhum subtema cobre com exatidão o conteúdo da alternativa correta (segredo de justiça em favor do ofendido), que é o ponto central testado pela questão.",
+ "id": "Q0038",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata das prerrogativas do ofendido no processo penal (habilitação como assistente de acusação, requisição de diligências, recurso supletivo), temas diretamente ligados ao instituto da assistência de acusação, inserido em Ação Penal (CPP, arts. 268 e seguintes). Classifica-se em PP2 (Investigação e ação penal), que contém o tema \"Ação Penal\"."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5498",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão versa genericamente sobre \"prerrogativas do ofendido no processo penal\", mas cada alternativa testa um instituto distinto e sem eixo comum: (A) recurso supletivo do assistente de acusação não habilitado (Ação Penal/assistência), (B) segredo de justiça para proteção do ofendido (art. 201, §6º, CPP — tema específico de \"do ofendido\", não listado separadamente), (C) habilitação como assistente de acusação ainda na fase de investigação (Ação Penal), (D) prisão temporária requerida pelo ofendido (medidas cautelares, fora do grupo), (E) requisição de inquérito policial e diligências pelo ofendido (Inquérito Policial, art. 5º, §2º, CPP). Como a alternativa correta (B, pela previsão do art. 201 §6º do CPP) não corresponde exatamente a nenhum subtema listado, e há forte dispersão temática entre as opções, trata-se de questão multi-tema. Dentro do grupo PP2, mantenho \"Ação Penal\" como tema principal por abranger o instituto da assistência de acusação (presente em duas alternativas, A e C) e por ser o eixo já adotado na classificação anterior, com \"Inquérito Policial\" como segunda opção pela alternativa E. A confiança é moderada dada a dispersão temática da questão."
+ },
+ "uso": {
+  "in": 6,
+  "out": 5383,
+  "cache_w": 51810,
+  "cache_r": 101498,
+  "custo_usd": 0.2937996
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5503",
+ "extras_ids": [],
+ "multi_tema": false,
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5501",
+ "justificativa": "A questão exige conhecimento do precedente do STF (ADIs 6298, 6299, 6300 e 6305) sobre a interpretação do art. 28 do CPP (redação da Lei 13.964/2019), especificamente sobre quem pode submeter o arquivamento do inquérito policial à revisão da instância ministerial competente (vítima/representante legal e, em casos de ilegalidade patente ou teratologia, também a autoridade judicial). O eixo central é exatamente o procedimento de arquivamento e seu controle/revisão, que corresponde ao subtema \"Conclusão e Arquivamento do Inquérito Policial\" (5501), cuja descrição menciona expressamente \"instância de revisão ministerial\" e a Lei 13.964/2019. Não se trata do Juiz das Garantias (5503) propriamente, pois o foco não é a repartição funcional de competências do juiz das garantias, mas sim o regime de arquivamento e revisão do art. 28 do CPP; por isso mantenho 5503 apenas como segunda opção, já que o tema também é frequentemente tratado em conjunto com as ADIs do Pacote Anticrime.",
+ "id": "Q0220",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata do procedimento de arquivamento do inquérito policial (art. 28 do CPP, com a redação dada pela Lei 13.964/2019) e do julgamento pelo STF em controle concentrado (ADI 6305 e correlatas) sobre quem pode submeter o arquivamento à revisão ministerial. O instituto central é a conclusão/arquivamento do inquérito policial, subtema de \"Inquérito Policial\" (nível 1, id 5498), que é um tema de Processo Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1333,
+  "cache_w": 31834,
+  "cache_r": 78694,
+  "custo_usd": 0.1629148
+ }
+}

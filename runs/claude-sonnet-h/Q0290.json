@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5540",
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "A questão pede a alternativa incorreta sobre a Lei 9.099/1995, abordando ação penal em lesões corporais, termo circunstanciado, citação pessoal, publicidade dos atos e produção de provas na audiência de instrução e julgamento. Cada alternativa trata de um aspecto distinto do rito sumaríssimo (ação penal, fase policial, citação, atos processuais, instrução), sem eixo único que corresponda a um único subtema (não é especificamente sobre competência, transação penal ou suspensão condicional do processo). Por isso, cabe classificar no tema de nível 1 (Procedimento Sumaríssimo), que abrange todo o fluxo da Lei 9.099/1995, sem subtema específico, pois nenhum dos subtemas cadastrados (Competência, Transação Penal, Suspensão Condicional do Processo) cobre isoladamente o conjunto de institutos testados.",
+ "id": "Q0290",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5539",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o rito dos Juizados Especiais Criminais (Lei 9.099/95): ação penal em lesões corporais, termo circunstanciado, citação, publicidade dos atos e produção de provas na audiência - todos institutos típicos do Procedimento Sumaríssimo, tema de nível 1 em Processo Penal que abrange o rito da Lei 9.099/95."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1099,
+  "cache_w": 7872,
+  "cache_r": 43624,
+  "custo_usd": 0.05639780000000001
+ }
+}

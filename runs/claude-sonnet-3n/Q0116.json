@@ -1,0 +1,38 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "Todas as alternativas versam sobre institutos da Lei 11.343/06: vedação de conversão de pena no tráfico, natureza da posse para consumo próprio, informante e teoria monista, critério de distinção usuário/traficante (norma penal em branco) e tipo penal de dirigir sob efeito de drogas. O eixo comum é a Lei de Drogas, mantendo a classificação em \"Tráfico de Drogas\" (4708). O tema não possui subtemas, logo subtema_n2_id = null.",
+ "multi_tema": false,
+ "segunda_opcao_id": null,
+ "subtema_n2_id": null,
+ "tema_n1_id": "4708",
+ "id": "Q0116",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente de institutos da Lei de Drogas (Lei 11.343/06): natureza jurídica da posse para consumo próprio, financiador/informante do tráfico e teoria monista, critério de distinção usuário/traficante e condução de veículo sob efeito de drogas - todas matérias do tema \"Tráfico de Drogas\", enquadrado no grupo LE1 (Legislação Especial)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam sobre institutos específicos da Lei 11.343/06 (Lei de Drogas): vedação de substituição de pena no tráfico, natureza jurídica da posse para consumo próprio, informante e teoria monista no tráfico, critério de distinção usuário/traficante e tipo penal de dirigir sob efeito de drogas. Não há desvio para outro ramo (não é LEP, não é organização criminosa, não é hediondos); o eixo comum e central é a Lei de Drogas, que corresponde ao tema \"Tráfico de Drogas\" (id 4708) dentro do grupo LE1, mantendo a classificação do estágio anterior."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1465,
+  "cache_w": 44911,
+  "cache_r": 101498,
+  "custo_usd": 0.2205926
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5176",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5177",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede diretamente a definição conceitual de \"iter criminis\" como o conjunto de fases pelas quais passa o delito (gabarito D), o que corresponde exatamente ao tema de nível 1 \"Iter Criminis\" (5175) e, especificamente, ao subtema \"Fases do Iter Criminis\" (5176), que trata das etapas (cogitação, preparação, execução, consumação, exaurimento) em abstrato. Não há menção a tentativa consumada, desistência voluntária ou crime impossível em específico, apenas ao conceito geral das fases, confirmando o subtema 5176 em detrimento de 5177 (que trata da distinção consumado/tentado) ou 5178/5179.",
+ "id": "Q0057",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente o conceito de iter criminis (conjunto de fases pelo qual passa o delito: cogitação, preparação, execução e consumação), tema que integra o grupo P2 (Parte geral: teoria do crime), onde consta especificamente \"Iter Criminis\"."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5175",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão pergunta diretamente pela definição de \"iter criminis\", que é o conjunto de fases pelas quais passa o delito (cogitação, preparação, execução e consumação) - gabarito letra D. Isso corresponde exatamente ao tema de nível 1 \"Iter Criminis\" (id 5175), mais especificamente ao subtema \"Fases do Iter Criminis\". Não há outro tema concorrente plausível, pois a pergunta não trata de tentativa, desistência voluntária ou crime impossível especificamente, mas do conceito geral."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1299,
+  "cache_w": 46927,
+  "cache_r": 101498,
+  "custo_usd": 0.22770259999999998
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5584",
+ "extras_ids": [],
+ "multi_tema": false,
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5554",
+ "justificativa": "A questão gira em torno da busca e apreensão domiciliar realizada sem mandado judicial e durante a noite, exigindo o conhecimento dos requisitos constitucionais e legais desse meio de prova (necessidade de ordem judicial, período diurno, exceções de flagrante delito ou consentimento do morador - art. 5º, XI, CF e arts. 240 a 250 CPP). O gabarito (E) trata exatamente dessa regularidade da diligência probatória invasiva de domicílio, e não de prisão cautelar (não há prisão de pessoa envolvida, apenas apreensão de bens/documentos). Por isso, mantém-se o tema de nível 1 \"Provas em Espécies\" (5543), com o subtema específico \"Busca e Apreensão\" (5554), que trata exatamente de mandado judicial, horário de cumprimento e hipóteses de dispensa de ordem judicial. A segunda opção (5584 - Teoria Geral das Prisões) é mantida apenas como alternativa remota, pois a questão menciona tangencialmente \"flagrante delito\", mas o núcleo da pergunta é a regularidade da busca domiciliar, não da prisão.",
+ "id": "Q0180",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5584",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecer os requisitos da busca e apreensão domiciliar (necessidade de ordem judicial, período diurno salvo flagrante ou consentimento do morador), tema central é o meio de prova \"Busca e Apreensão\", subtema de \"Provas em Espécies\" (5543) no ramo Processo Penal. Não se trata de prisão (não há prisão cautelar envolvida), mas de regularidade de diligência probatória invasiva de domicílio."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1224,
+  "cache_w": 39938,
+  "cache_r": 78694,
+  "custo_usd": 0.1999098
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4374",
+ "subtema_n2_id": "4376",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": "4375",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede diretamente uma característica do Direito Penal do Inimigo (Jakobs): legislação diferenciada para o \"inimigo\" (gabarito A), contrapondo-se às demais alternativas que descrevem o contrário (garantismo, não antecipação, uso de medidas de segurança, observância de garantias). É o núcleo exato do subtema 4376, não apenas uma das várias correntes de política criminal (4375).",
+ "id": "Q0285",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4374",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre as características do Direito Penal do Inimigo (teoria de Günther Jakobs), tema classificado em Criminologia dentro de Política Criminal, que possui o subtema específico \"Direito Penal do Inimigo\". Trata-se de conceito criminológico/político-criminal sobre legislação diferenciada para inimigos do Estado, antecipação da punibilidade, flexibilização de garantias processuais, etc."
+ },
+ "uso": {
+  "in": 4,
+  "out": 804,
+  "cache_w": 6571,
+  "cache_r": 43624,
+  "custo_usd": 0.0471008
+ }
+}

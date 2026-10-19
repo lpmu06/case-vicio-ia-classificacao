@@ -1,0 +1,40 @@
+{
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.92,
+ "extras_ids": [
+  "5091"
+ ],
+ "fora": false,
+ "justificativa": "O enunciado reproduz literalmente o caput do art. 317 do CP (corrupção passiva: solicitar ou receber vantagem indevida em razão da função). Todas as alternativas giram em torno desse mesmo tipo penal: a pena-base (que a alternativa A erra ao copiar a pena do art. 316/concussão), a forma privilegiada do §2º (cedendo a pedido ou influência de outrem - alternativa B), a majorante do §1º quando o funcionário pratica/retarda/deixa de praticar ato infringindo dever funcional (alternativa C), e a distinção com a Concussão (alternativa D, incorreta). Não há dispersão de eixo temático: é um estudo verticalizado do art. 317 em suas variações. Por isso, mantenho o tema de nível 1 \"Dos Crimes Contra a Administração Pública\" (5087) e, diferentemente da classificação anterior, agora atribuo o subtema de nível 2 \"Corrupção Passiva\" (5092), pois a questão não é introdutória/geral, mas sim focada especificamente nesse tipo penal e suas variações (privilégio, majorante, distinção com concussão), que são expressamente cobertas pela descrição desse subtema. O subtema \"Concussão e Excesso de Exação\" (5091) é citado como extra por aparecer como contraponto na alternativa D, mas não é o núcleo da questão.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5091",
+ "subtema_n2_id": "5092",
+ "tema_n1_id": "5087",
+ "id": "Q0134",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A conduta descrita (\"solicitar ou receber, para si ou para outrem... vantagem indevida, ou aceitar promessa de tal vantagem\") é a definição legal de Corrupção Passiva (art. 317 do CP), e as alternativas versam sobre esse mesmo tipo penal (pena-base, forma privilegiada por \"cedendo a pedido ou influência de outrem\" - art. 317, §2º, majorante do §1º e a classificação típica correta frente à Concussão, art. 316). Trata-se, portanto, de crime contra a Administração Pública, tema de nível 1 \"Dos Crimes Contra a Administração Pública\", incluído no grupo P8."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A conduta descrita é a definição legal de Corrupção Passiva (art. 317, caput, do CP). As alternativas tratam da pena-base do art. 317, da forma privilegiada do §2º (corrupção passiva privilegiada - \"cedendo a pedido ou influência de outrem\"), da majorante do §1º e da distinção com a Concussão (art. 316). Todos os institutos pertencem ao Título XI do CP, crimes praticados por funcionário público contra a Administração em geral, cujo tema de nível 1 correspondente é \"Dos Crimes Contra a Administração Pública\" (5087), que possui o subtema específico \"Corrupção Passiva\". Como a questão explora diversos aspectos do mesmo tipo penal (pena, qualificadoras/privilégio e distinção típica), classificar no tema de nível 1 é a opção mais segura e abrangente, já que o aluno que escolhe esse tema também acessa o subtema de Corrupção Passiva. Não há elementos de processo penal, administração judicial, finanças públicas ou crimes contra o Estado Democrático de Direito, de modo que os demais grupos/temas sugeridos não se aplicam."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2105,
+  "cache_w": 49033,
+  "cache_r": 101498,
+  "custo_usd": 0.2480846
+ }
+}

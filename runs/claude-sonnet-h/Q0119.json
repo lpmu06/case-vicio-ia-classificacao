@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": "5194",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5181",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta especificamente sobre os requisitos temporais para que a lei que deixa de considerar o fato crime (abolitio criminis) beneficie o acusado, inclusive após o trânsito em julgado (resposta correta B). Esse é exatamente o fenômeno descrito no subtema 5194 (Abolitio Criminis), cujas palavras-chave e descrição tratam precisamente da retroatividade dessa lei e de sua aplicação mesmo após a coisa julgada, fazendo cessar a execução da pena. Mantenho o tema de nível 1 5191 (Punibilidade), pois o foco é a extinção da punibilidade, não a sucessão genérica de leis penais no tempo (que seria 5181/5180). Como segunda opção, indico 5181 (Lei Penal no Tempo), já que o instituto também guarda relação direta com a retroatividade da lei penal benéfica.",
+ "id": "Q0119",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5191",
+  "segunda_opcao_n1_id": "5180",
+  "confianca_ramo": 0.72,
+  "multi_tema": false,
+  "justificativa": "A questão trata de lei posterior que deixa de considerar o fato criminoso (abolitio criminis) e seus efeitos sobre o processo em curso, inclusive após o trânsito em julgado - matéria de direito penal material (extinção da punibilidade), não processual, apesar da origem indicada. O tema 5191 (Punibilidade) tem subtema específico \"Abolitio Criminis\", que é exatamente o instituto testado: a lei descriminalizadora retroage e beneficia o acusado em qualquer fase, até mesmo após condenação definitiva (resposta B), fazendo cessar a execução da pena. Como alternativa, o tema 5180 (Lei Penal no Tempo e no Espaço) também guarda relação direta, já que a retroatividade da lei mais benéfica é tratada ali, mas o fenômeno específico de \"lei que deixa de considerar crime\" é tecnicamente abolitio criminis, classificada em Punibilidade."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1424,
+  "cache_w": 34408,
+  "cache_r": 78694,
+  "custo_usd": 0.1753778
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecimento específico da audiência do art. 16 da Lei 11.340/2006 e do entendimento do STJ sobre lesão corporal leve em violência doméstica (ação penal pública incondicionada, dispensando a designação da audiência quando não há manifestação prévia de retratação - Súmula 542/STJ e precedentes correlatos). É matéria nuclear do tema Lei Maria da Penha (4704), que não possui subtemas na árvore.",
+ "id": "Q0036",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE2",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão versa especificamente sobre a audiência do art. 16 da Lei Maria da Penha (retratação da representação em violência doméstica), matéria própria do tema \"Lei Maria da Penha\", situado no grupo LE2 (Legislação Especial - Violência, discriminação e grupos vulneráveis)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata especificamente da audiência do art. 16 da Lei 11.340/2006 (necessidade/momento de designação para retratação da representação em lesão corporal leve no contexto de violência doméstica), matéria nuclear do tema Lei Maria da Penha (4704)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1259,
+  "cache_w": 44206,
+  "cache_r": 101498,
+  "custo_usd": 0.2165516
+ }
+}

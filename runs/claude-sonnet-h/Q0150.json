@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata exclusivamente das majorantes do art. 40 da Lei 11.343/2006 (transnacionalidade - Súmula 607 STJ, interestadualidade, proximidade de estabelecimento de ensino - Súmula 587 STJ) e da aplicação retroativa da Lei 11.343/2006 em face da Lei 6.368/76 (vedação à combinação de leis - Tema 506 STF). Todo o conteúdo é interno à Lei de Drogas, confirmando o tema 4708. O tema não possui subtemas, por isso subtema_n2_id = null.",
+ "id": "Q0150",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente das causas de aumento de pena do art. 40 da Lei 11.343/2006 (transnacionalidade, interestadualidade, proximidade de estabelecimento de ensino) e da aplicação retroativa dessa lei em relação à anterior (Lei 6.368/76), temas sumulados/jurisprudenciais inteiramente internos à Lei de Drogas. Encaixa-se no tema de nível 1 \"Tráfico de Drogas\" dentro de Direito Penal - Legislação Especial."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1031,
+  "cache_w": 28619,
+  "cache_r": 78694,
+  "custo_usd": 0.1444798
+ }
+}

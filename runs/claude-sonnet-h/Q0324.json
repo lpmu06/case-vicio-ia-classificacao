@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4703",
+ "extras_ids": [
+  "5201",
+  "5209",
+  "5200"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão nitidamente multi-tema, com quatro itens heterogêneos: I (cumprimento da prisão simples, regime semiaberto/aberto - art. 6º LEP, mas também matéria de Penas Privativas de Liberdade/5201), II (antigas \"penas acessórias\", hoje efeitos da condenação - 5209, Direito Penal material), III (periculosidade e medida de segurança no semi-imputável - Sanção Penal/5200, Direito Penal material) e IV (trabalho do preso remunerado, regime CLT - art. 29 LEP, mas \"trabalho do preso\" também consta expressamente nas palavras-chave de Penas Privativas de Liberdade/5201). Reconsiderando com os metadados completos: dois dos quatro itens (II e III) são inequivocamente Direito Penal material (efeitos da condenação e medida de segurança no semi-imputável), e os itens I e IV, embora tenham dispositivo específico na LEP, também são plenamente abrangidos pelo subtema Penas Privativas de Liberdade (5201) de Teoria da Pena, que lista expressamente \"regime semiaberto, regime aberto\" e \"trabalho do preso\" em suas palavras-chave. Assim, Teoria da Pena (5199), como tema guarda-chuva de Direito Penal, consegue abranger de forma mais completa os quatro itens do que Lei de Execução Penal, que não cobre adequadamente os itens II e III (efeitos da condenação e medida de segurança são tipicamente classificados em Penal, não em LEP). Por isso, troco a classificação principal para 5199, mantendo 4703 como segunda opção relevante, dado o viés prático de cumprimento de pena em dois dos itens. Não atribuo subtema de nível 2 porque os itens pertencem a subtemas distintos (5201, 5209, 5200), sem um eixo único de nível 2 que os abranja todos.",
+ "id": "Q0324",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos distintos: o item I trata do modo de cumprimento da pena de prisão simples (regra de execução penal, art. 6º da LEP); o item IV trata do trabalho do preso e sua remuneração (art. 29 da LEP), ambos típicos de Lei de Execução Penal. Já o item II versa sobre as antigas \"penas acessórias\" do Código Penal (hoje tratadas como efeitos da condenação, dentro de Teoria da Pena) e o item III versa sobre periculosidade e medida de segurança no semi-imputável (também tema de Direito Penal material - Medida de Segurança/Teoria da Pena). Como dois dos quatro itens (I e IV) são centralmente de execução penal e a questão tem forte viés prático de cumprimento de pena, classifiquei como Lei de Execução Penal (Legislação Especial), mas reconheço que é uma questão nitidamente multi-tema, podendo um examinador razoável preferir Teoria da Pena (Penal) como eixo, dado que II e III são de direito penal material. Por isso a confiança é moderada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 3377,
+  "cache_w": 12452,
+  "cache_r": 43624,
+  "custo_usd": 0.10121980000000001
+ }
+}

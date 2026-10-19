@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "fora": false,
+ "tema_n1_id": "5476",
+ "subtema_n2_id": "5478",
+ "justificativa": "A questão testa especificamente a regra de competência da revisão criminal: cabe ao tribunal que proferiu a decisão rescindenda (aqui, o TJ, que julgou a apelação e manteve a condenação, já que o STJ apenas não conheceu do recurso especial por fundamento sumular, sem apreciar o mérito), e não ao STJ, salvo quando a revisão recai sobre julgado próprio do STJ. A assertiva afirma erroneamente que a competência seria do STJ, o que caracteriza erro quanto à regra de competência da revisão criminal (CPP, arts. 621 a 624; CF, art. 105, I, \"e\" interpretado restritivamente). O núcleo testado é exatamente o subtema Revisão Criminal (5478), dentro do tema Ações Autônomas de Impugnação (5476), confirmando a classificação anterior.",
+ "id": "Q0225",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5476",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão, embora narre fatos sobre denúncia, apelação e recurso especial, tem como núcleo testado a competência para processar e julgar a ação de revisão criminal após trânsito em julgado. O instituto central é a revisão criminal (regra de competência: cabe ao tribunal que proferiu a decisão rescindenda, não ao STJ, salvo revisão de julgados do próprio STJ), que se insere em \"Ações Autônomas de Impugnação\" (subtema Revisão Criminal), tema de nível 1 do Processo Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1254,
+  "cache_w": 30690,
+  "cache_r": 78694,
+  "custo_usd": 0.15588380000000002
+ }
+}

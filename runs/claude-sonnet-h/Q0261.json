@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5134",
+ "subtema_n2_id": "5136",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5063",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata da violação de direitos sobre programa de computador (art. 12 da Lei 9.609/98 - Lei do Software), questionando se a cópia de segurança sem autorização configura crime e qual a natureza da ação penal correspondente. O bem jurídico tutelado é a propriedade intelectual/imaterial sobre o software, o que se encaixa diretamente na descrição do subtema 5136 (Crimes contra a Propriedade Imaterial), cuja descrição expressamente cita \"software\" e \"Lei 9.609/1998, art. 12\" entre os dispositivos, além de tratar da ação penal nos crimes de direito autoral como detalhe pertencente ao próprio subtema (conforme a regra de \"não confundir\": \"se a ação penal for apenas detalhe do crime autoral, permanece em 5136\"). Mantida a confirmação do tema de nível 1 (5134) e especificado o subtema 5136, com confiança alta.",
+ "id": "Q0261",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5134",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão trata do crime de violação de direitos sobre programa de computador (art. 12 da Lei 9.609/98 - Lei do Software) e da natureza da ação penal correspondente. Não há tema específico de \"Lei de Software\" na árvore (nem em Legislação Especial). O tema mais próximo, por tutelar a propriedade intelectual/imaterial, é \"Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso\" (5134), cujo subtema \"Dos Crimes contra a Propriedade Imaterial\" abrange crimes contra direitos de autor, incluindo software, ainda que a lei específica seja extravagante."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1746,
+  "cache_w": 11770,
+  "cache_r": 27990,
+  "custo_usd": 0.075057
+ }
+}

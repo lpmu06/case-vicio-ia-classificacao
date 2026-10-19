@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5572",
+ "subtema_n2_id": "5574",
+ "confianca_ramo": 0.78,
+ "confianca_subtema": 0.62,
+ "segunda_opcao_id": "5577",
+ "extras_ids": [
+  "5199",
+  "5209"
+ ],
+ "multi_tema": true,
+ "justificativa": "Com os metadados completos, mantenho o tema de nível 1 em Sentença Penal (5572). A questão reúne, em cada alternativa, um aspecto diferente da sentença e seus efeitos: (A) fixação do valor da reparação do dano (art. 387, IV, CPP), (B) coisa julgada cível da absolvição por insuficiência de provas, (C) classificação da sentença absolutória em \"própria\" e \"imprópria\" quando aplica medida de segurança, (D) e (E) efeitos específicos da condenação (perda do produto do crime em favor da União, perda de função pública). A alternativa correta é a (C), que trata exatamente da distinção entre absolvição própria e imprópria — tema explicitamente descrito no subtema Sentença Absolutória (5574), cuja descrição menciona \"a diferença entre absolvição própria e imprópria\". Por isso, diferentemente da classificação anterior (quando eu não tinha os subtemas detalhados), agora atribuo o subtema 5574 com confiança moderada, já que o gabarito da questão se resolve ali. Mantenho como segunda opção o subtema 5577 (Efeitos da Sentença Condenatória), pois as alternativas D e E versam sobre os efeitos do art. 91/92 do CP na perspectiva processual (art. 387 CPP), e incluo como extras os temas de Teoria da Pena (5199) e Efeitos da Condenação Penais e Extrapenais (5209) do Direito Penal material, dado o forte entrelaçamento normativo com os arts. 91 e 92 do CP. Marco multi_tema = true porque a questão combina classificação da sentença, efeitos civis e efeitos extrapenais da condenação, sem um eixo estritamente único, ainda que o gabarito aponte para a Sentença Absolutória.",
+ "id": "Q0102",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5572",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão gira em torno da sentença penal e seus efeitos: classificação da sentença (absolutória própria x imprópria), efeitos civis (ação civil ex delicto, coisa julgada no cível) e efeitos da condenação (perda de bens, perda de função pública). As alternativas A, B e C tratam de temas tipicamente processuais (classificação de sentenças e seus reflexos civis), enquanto D e E versam sobre efeitos específicos da condenação previstos nos arts. 91-92 do CP, que é matéria de Direito Penal (Teoria da Pena). Por isso é um caso limítrofe entre \"Sentença Penal\" (Processo Penal) e \"Teoria da Pena\" (Penal, subtema Efeitos da Condenação). Optei pelo primeiro por o enunciado enfatizar a sentença e sua classificação/efeitos processuais, mas marco como multi-tema e com confiança moderada dado o entrelaçamento normativo entre os dois ramos."
+ },
+ "uso": {
+  "in": 4,
+  "out": 3254,
+  "cache_w": 38949,
+  "cache_r": 78694,
+  "custo_usd": 0.21558080000000002
+ }
+}

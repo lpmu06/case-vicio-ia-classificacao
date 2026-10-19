@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5203",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5191",
+ "extras_ids": [
+  "5193",
+  "5185"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão testa o domínio do instituto da reincidência (arts. 63 e 64 do CP), exigindo que o candidato saiba quando condenações anteriores geram ou não esse status: condenação por crime militar não gera reincidência para crime comum conforme regra específica, mas o enunciado trabalha justamente as exceções e prazos do art. 64 (depurador quinquenal, efeitos do indulto/graça vs. reabilitação, da prescrição retroativa, e de condenação estrangeira não cumprida). A reincidência é formalmente uma agravante genérica de segunda fase da dosimetria (art. 61, I, CP), e a própria descrição do subtema 5203 (\"Segunda Fase da Dosimetria: Agravantes e Atenuantes\") lista expressamente \"reincidência\" como palavra-chave central, o que o torna o subtema mais aderente dentro do tema guarda-chuva 5199 (Teoria da Pena). Entretanto, cada alternativa também depende de institutos de extinção da punibilidade (indulto - 5193, prescrição retroativa - 5185) para determinar se o depurador quinquenal já correu ou se o efeito de reincidência persiste, o que justifica Punibilidade (5191) como segunda opção relevante e torna a questão multi-tema (cada alternativa combina um instituto diferente). Não há subtema específico e autônomo de \"reincidência\" na árvore, de modo que a classificação em 5203 é a mais precisa disponível, ainda que com confiança moderada, pois a questão não pede cálculo de pena nem fases da dosimetria, mas sim o enquadramento conceitual da reincidência em si.",
+ "id": "Q0170",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": null,
+  "confianca": 0.78,
+  "multi_tema": false,
+  "justificativa": "A questão testa o instituto da reincidência (art. 63 e 64 do CP), exigindo análise de efeitos de condenações anteriores, prescrição, indulto, reabilitação e condenação no exterior sobre a caracterização da primariedade. Trata-se de instituto da Teoria da Pena (agravantes genéricas), tema do grupo P3 (Parte geral: pena, medida de segurança, punibilidade, prescrição e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "5191",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão exige o domínio do instituto da reincidência (arts. 63 e 64 do CP), analisando se condenações anteriores (por crime militar, por crime no exercício de função pública, com extinção por indulto seguida de reabilitação, extinta por prescrição retroativa, ou proferida no exterior e não cumprida) geram ou não reincidência. A reincidência é tratada como agravante genérica na segunda fase da dosimetria da pena, subtema do tema guarda-chuva \"Teoria da Pena\" (5199), que compreende também os efeitos da condenação. Como cada alternativa também envolve causas extintivas da punibilidade (indulto, prescrição), há forte conexão com o tema \"Punibilidade\" (5191), que indico como segunda opção. Não há outro ramo da árvore (Processo Penal, Legislação Especial, Criminologia) que trate desse instituto de direito penal material."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2971,
+  "cache_w": 19108,
+  "cache_r": 14150,
+  "custo_usd": 0.12242099999999999
+ }
+}

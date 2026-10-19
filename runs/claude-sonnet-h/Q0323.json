@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5590",
+ "subtema_n2_id": "5591",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [
+  "5593",
+  "5557",
+  "5547"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é multi-tema: cada alternativa versa sobre um instituto probatório diferente (prova emprestada - 5593; interrogatório como meio de defesa - 5547/5543; direito à não autoincriminação - 5595; produção antecipada de provas - 5591; colaboração premiada - 5557/5543). A alternativa correta é a (D), que trata especificamente de produção antecipada de provas, tema que a árvore classifica expressamente em 5591 (Finalidade, Sujeitos e Ônus da Prova), subtema de 5590 (Teoria Geral das Provas), cujas palavras-chave citam literalmente \"produção antecipada de provas\". Mantenho 5590 como tema de nível 1, pois cobre a questão como um todo (teoria geral + admissibilidade), com 5543 (Provas em Espécie) como segunda opção relevante, já que outras alternativas (B, E) versam sobre meios de prova específicos (interrogatório, colaboração premiada). Dada a predominância do gabarito em 5591, elevo a confiança do subtema, mas mantenho moderada incerteza por ser questão de múltiplos institutos.",
+ "id": "Q0323",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5590",
+  "segunda_opcao_n1_id": "5543",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "Cada alternativa versa sobre instituto probatório distinto (prova emprestada, interrogatório como meio de defesa, direito à não autoincriminação, produção antecipada de provas e colaboração premiada), sem eixo temático único além do gênero \"Provas\" no processo penal. A alternativa correta (D) trata de produção antecipada de provas, tema ligado a princípios e admissibilidade geral da prova (Teoria Geral das Provas), mas também há forte conexão com Provas em Espécies (interrogatório, colaboração premiada), por isso marco como multi-tema com confiança moderada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1847,
+  "cache_w": 16641,
+  "cache_r": 32043,
+  "custo_usd": 0.10346559999999999
+ }
+}

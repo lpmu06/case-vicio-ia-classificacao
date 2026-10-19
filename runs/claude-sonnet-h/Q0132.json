@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5487",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5583",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Mantida a classificação em Comunicação dos Atos Processuais (5487): a Resolução CNJ 427/2021 trata do registro em apartado e do sigilo dos dados qualificativos e endereços de vítimas/testemunhas nos autos físicos e eletrônicos, ou seja, da forma como essas informações são constituídas/publicizadas no processo (autos, acesso controlado), tema mais próximo de \"comunicação/formação dos autos\" do que da disciplina dos sujeitos processuais em si (que trata de funções, prerrogativas, impedimentos). Nenhum subtema de 5487 (Citação ou Intimação) cobre especificamente proteção de dados de vítimas/testemunhas, por isso subtema_n2_id = null, com confiança baixa quanto ao subtema. A segunda opção 5583 (Sujeitos do Processo) permanece como alternativa plausível, pois vítimas e testemunhas são intervenientes processuais, mas o núcleo da questão (sigilo/registro de dados nos autos) está mais alinhado a 5487.",
+ "id": "Q0132",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5487",
+  "segunda_opcao_n1_id": "5583",
+  "confianca_ramo": 0.45,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a Resolução CNJ 427/2021, que trata da proteção de dados qualificativos e endereços de vítimas e testemunhas ameaçadas nos autos processuais (registro em apartado, sigilo, acesso controlado). Não há subtema específico na árvore para \"proteção de vítimas e testemunhas\" em Processo Penal. O tema mais próximo é \"Comunicação dos Atos Processuais\", por tratar da forma de constituição/publicidade dos dados nos autos físicos e eletrônicos, embora não trate estritamente de citação/intimação. Alternativamente, poderia ser enquadrada em \"Sujeitos do Processo\", por envolver o tratamento dado a vítimas e testemunhas como intervenientes processuais. Confiança moderada-baixa pela ausência de tema exato na árvore."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2250,
+  "cache_w": 31219,
+  "cache_r": 78694,
+  "custo_usd": 0.1684388
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5530",
+ "subtema_n2_id": "5531",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.68,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [
+  "5473",
+  "5474"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é multi-tema: cada alternativa versa sobre um instituto diferente (conexão/continência e Lei 9.099, suspensão do processo por citação editalícia, réplica à resposta à acusação, rejeição da denúncia/queixa, notificação do art. 514 CPP para funcionário público). A alternativa correta (D) reproduz literalmente o art. 395 do CPP, que trata das hipóteses de rejeição da denúncia ou queixa no rito comum ordinário — tema nuclear do subtema \"Oferecimento, Rejeição e Recebimento da Peça Acusatória\" (5531), dentro de Procedimento Ordinário (5530). Mantenho o tema de nível 1 em 5530, pois a resposta correta se ancora expressamente no procedimento ordinário (art. 395 CPP), e agora atribuo o subtema 5531 com confiança moderada, já que o enunciado da alternativa D menciona explicitamente \"nos processos submetidos ao rito comum ordinário\" e reproduz os requisitos do art. 395. Mantenho Ação Penal (5466) como segunda opção, pois a rejeição da denúncia/queixa também dialoga com as condições da ação (art. 395, I-III) e com a peça acusatória em si (Denúncia 5473, Queixa 5474), que incluo como extras por também serem tangenciados pelas demais alternativas (B trata de suspensão processual em procedimento da Lei 9.099; C trata de réplica em júri e procedimento de competência originária do STF/STJ; E trata de notificação de funcionário público em crime de racismo, art. 514 CPP), reforçando o caráter multi-tema sem eixo único além do âmbito processual penal.",
+ "id": "Q0090",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": "PP6",
+  "confianca": 0.85,
+  "multi_tema": true,
+  "justificativa": "As alternativas tratam de temas variados do processo penal (rejeição de denúncia, suspensão por citação editalícia, réplica à resposta à acusação, notificação prevista no art. 514 CPP para funcionário público), mas o eixo comum predominante é o procedimento de recebimento/rejeição da denúncia e ação penal (art. 395, 396-A, 514 CPP), enquadrando-se melhor em Ação Penal (PP2). A alternativa C remete a procedimentos específicos (júri, STF/STJ), aproximando-se também de PP6, por isso marco como multi-tema com PP6 como segunda opção."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5530",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão reúne alternativas sobre temas distintos (conexão/continência com Lei 9.099, suspensão por citação editalícia, réplica à resposta à acusação, rejeição da denúncia/queixa, notificação do art. 514 CPP), sem eixo único. A alternativa correta (D) trata exatamente da rejeição da denúncia/queixa por inépcia, falta de pressuposto processual/condição da ação ou justa causa (art. 395 CPP), que é tema nuclear do Procedimento Ordinário, subtema \"Oferecimento, Rejeição e Recebimento da Peça Acusatória\" (5530/PP6). Por isso, mantenho o tema principal em Procedimento Ordinário (PP6), diferindo do estágio anterior (que priorizou Ação Penal), já que a resposta correta se ancora na disciplina processual do rito comum ordinário quanto à rejeição da peça acusatória, não nas condições/espécies de ação penal em si. Marco Ação Penal (5466/PP2) como segunda opção, pois a denúncia/queixa também é objeto central daquele tema e as demais alternativas (B, C, E) tangenciam procedimentos diversos (sumaríssimo, júri, STF/STJ, procedimento especial do funcionário público), reforçando o caráter multi-tema da questão."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3092,
+  "cache_w": 52817,
+  "cache_r": 101498,
+  "custo_usd": 0.2763256
+ }
+}

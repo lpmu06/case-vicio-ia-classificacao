@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": "5519",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5584",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam especificamente sobre a prisão preventiva: cabimento por garantia da ordem pública/econômica (art. 312), hipótese do art. 366 do CPP, revogação por excesso de prazo da instrução, apresentação espontânea do acusado e possibilidade de incidir sobre réu primário e de bons antecedentes. O eixo é inteiramente o instituto da prisão preventiva, correspondendo ao subtema específico 5519, dentro do tema de nível 1 \"Prisões em Espécie\" (5517). \"Teoria Geral das Prisões\" (5584) permanece como segunda opção por tratar de fundamentos gerais, mas a questão não aborda tema geral, e sim requisitos concretos da preventiva.",
+ "id": "Q0033",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP5",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão testa requisitos, cabimento e hipóteses de decretação/revogação da prisão preventiva (garantia da ordem pública, art. 366 CPP, excesso de prazo, apresentação espontânea, réu primário), matéria de Processo Penal - Prisões em Espécie (PP5)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5517",
+  "segunda_opcao_n1_id": "5584",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam especificamente sobre prisão preventiva: cabimento por garantia da ordem pública/econômica, prisão preventiva obrigatória no art. 366 do CPP, revogação por excesso de prazo da instrução, apresentação espontânea do acusado e possibilidade de recair sobre réu primário e de bons antecedentes. O eixo comum é o instituto da Prisão Preventiva, subtema de \"Prisões em Espécie\" (5517), tema de nível 1 adequado. \"Teoria Geral das Prisões\" (5584) é a segunda opção por tratar de fundamentos gerais da prisão cautelar, mas a questão é mais específica da prisão preventiva."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1480,
+  "cache_w": 49911,
+  "cache_r": 101498,
+  "custo_usd": 0.2454176
+ }
+}

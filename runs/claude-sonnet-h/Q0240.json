@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5473",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5467",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige o cálculo do prazo para oferecimento da denúncia (art. 46 CPP, réu preso), somado ao prazo do inquérito policial (art. 10 CPP, réu preso) e à contagem desde a prisão. O eixo central é especificamente o prazo e requisitos para o oferecimento da denúncia, peça acusatória da ação penal pública, o que se encaixa no subtema Denúncia (5473), dentro do tema de nível 1 Ação Penal (5466), confirmando a classificação anterior.",
+ "id": "Q0240",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão exige o cálculo do prazo para oferecimento da denúncia, somando prazo de conclusão do inquérito, prazo do réu preso (art. 10 CPP) e prazo do MP para denunciar (art. 46 CPP), tema típico de Ação Penal em Processo Penal (contagem de prazos da peça acusatória)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1021,
+  "cache_w": 33351,
+  "cache_r": 78694,
+  "custo_usd": 0.16645379999999999
+ }
+}

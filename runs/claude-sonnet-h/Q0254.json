@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa integralmente sobre medidas protetivas de urgência da Lei Maria da Penha (concessão independente de tipificação penal/inquérito/ação, ausência de prazo máximo legal fixo de 180 dias e possibilidade de concessão imediata sem audiência das partes ou manifestação prévia do MP, nos termos do art. 19, §§1º e 3º, da Lei 11.340/2006). Confirma-se o tema 4704 (Lei Maria da Penha), que não possui subtemas na árvore, por isso subtema_n2_id = null.",
+ "id": "Q0254",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata especificamente das medidas protetivas de urgência previstas na Lei nº 11.340/2006 (Lei Maria da Penha): requisitos para concessão, prazo de vigência e possibilidade de concessão imediata sem audiência das partes ou manifestação prévia do MP (art. 19 e §§). Apesar de a pista de origem apontar \"Comunicação dos atos processuais\" (Processo Penal), o conteúdo testado é exclusivamente de direito material/processual especial da Lei Maria da Penha, que tem tema próprio na árvore (4704), devendo prevalecer sobre o tema genérico de Processo Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1240,
+  "cache_w": 6426,
+  "cache_r": 43624,
+  "custo_usd": 0.0508028
+ }
+}

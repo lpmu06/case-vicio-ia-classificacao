@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5185",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata da regra do art. 108 do CP sobre a comunicabilidade da extinção da punibilidade entre crimes conexos, quando um deles é pressuposto, elemento constitutivo ou agravante de outro. O núcleo testado é um efeito geral das causas de extinção da punibilidade (art. 108 CP), tema que se encaixa no nível 1 \"Punibilidade\" (5191), pois não é específico de prescrição (5185), que trata do decurso do tempo. Nenhum dos subtemas de nível 2 listados (abolitio criminis, anistia/graça/indulto, decadência, morte do agente, perdão judicial, perempção, renúncia/perdão do ofendido) corresponde à regra de comunicabilidade do art. 108, que é uma disposição geral sobre os efeitos da extinção da punibilidade entre crimes conexos — por isso não há subtema específico aplicável, devendo subtema_n2_id ficar nulo.",
+ "id": "Q0075",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a comunicabilidade da extinção da punibilidade (art. 108 do CP), tema diretamente ligado a \"Punibilidade\", integrante do grupo P3 (Parte geral: pena, medida de segurança, punibilidade, prescrição e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5191",
+  "segunda_opcao_n1_id": "5185",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a comunicabilidade da extinção da punibilidade (art. 108 do CP) em casos de crimes conexos, pressuposto, elemento constitutivo ou agravante de outro crime. O instituto testado é diretamente a extinção da punibilidade e seus efeitos, correspondendo ao tema de nível 1 \"Punibilidade\" (5191). A segunda opção \"Prescrição\" (5185) é mencionada apenas por integrar o mesmo grupo das causas de extinção da punibilidade, mas o enunciado não trata especificamente de prazos ou prescrição."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1579,
+  "cache_w": 49550,
+  "cache_r": 101498,
+  "custo_usd": 0.24478060000000001
+ }
+}

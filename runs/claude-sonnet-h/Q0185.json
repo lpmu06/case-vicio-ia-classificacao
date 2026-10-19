@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata exclusivamente de falta grave na execução penal (posse de arma em presídio) e de seus efeitos: regressão de regime (art. 118 LEP), impossibilidade de RDD imediata pelo diretor sem decisão do juízo (art. 60 c/c 54 LEP), inexistência de prazo preclusivo de dois anos para apuração de falta grave (Súmula 526/STJ trata de prescrição, mas a alternativa C é falsa por outro motivo técnico da execução), recurso cabível contra decisão de regressão (agravo em execução, não RSE) e necessidade de procedimento administrativo disciplinar com contraditório e ampla defesa antes da decisão judicial de regressão (art. 118, §2º, LEP, e Súmula Vinculante 26/STF por analogia ao devido processo disciplinar). Todos os institutos testados são exclusivos da Lei de Execução Penal (Lei 7.210/1984), confirmando o tema 4703 (Lei de Execução Penal), que não possui subtemas de nível 2, por isso subtema_n2_id permanece null.",
+ "id": "Q0185",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.96,
+  "multi_tema": false,
+  "justificativa": "A questão trata de falta grave (posse de arma em presídio) e suas consequências na execução penal: regressão de regime, prazo para apuração, procedimento disciplinar com contraditório/ampla defesa e recurso cabível. Todos os institutos testados (regressão de regime, RDD, prazo prescricional/preclusivo da falta grave, recurso contra decisão de regressão, procedimento com garantias) são regulados pela Lei de Execução Penal (Lei 7.210/1984), tema de Legislação Especial que abrange especificamente esse conteúdo."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1164,
+  "cache_w": 28310,
+  "cache_r": 78694,
+  "custo_usd": 0.14435779999999998
+ }
+}

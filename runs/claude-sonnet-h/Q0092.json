@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5511",
+ "extras_ids": [],
+ "multi_tema": false,
+ "fora": false,
+ "tema_n1_id": "5509",
+ "subtema_n2_id": "5510",
+ "justificativa": "A questão cobra literalmente os arts. 567 e 568 do CPP: o efeito da incompetência sobre os atos decisórios (não todos os atos) e a possibilidade de sanar a nulidade por ilegitimidade do representante mediante ratificação, \"a todo tempo\". Esse é exatamente o regime jurídico de convalidação/sanatória e consequência da invalidação tratado em Nulidade Absoluta e Relativa (5510), que lista expressamente os arts. 567 e 568 CPP entre seus dispositivos, tratando de \"ratificação dos atos\" e \"incompetência absoluta/relativa\". Mantenho o tema de nível 1 Nulidades (5509), já confirmado. Poderia também ser enquadrada em Nulidades em Espécie (5511), já que trata de uma hipótese do art. 564, mas o foco da questão é o regime de convalidação/sanatória (568) e o alcance da invalidação (567), que é o núcleo de 5510, por isso mantenho esse como subtema principal com confiança moderada-alta.",
+ "id": "Q0092",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5509",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão cobra diretamente a aplicação dos arts. 567 e 568 do CPP, que tratam dos efeitos da incompetência sobre os atos processuais e da possibilidade de sanatória da nulidade por ilegitimidade do representante da parte — tema central é Nulidades (nível 1, id 5509), que abrange exatamente essa matéria."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1163,
+  "cache_w": 29107,
+  "cache_r": 78694,
+  "custo_usd": 0.1481578
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [
+  "5224",
+  "5214"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão compara dois institutos de ramos distintos dentro da Teoria do Crime: (i) erro de tipo invencível, que exclui dolo e culpa, afetando o Fato Típico (subtema Erro de Tipo, 5224); e (ii) o agente que \"acredita estar autorizado a agir\", isto é, erro de proibição (direto ou indireto), que recai sobre a potencial consciência da ilicitude e afeta a Culpabilidade (subtema Erro de Proibição, 5214), não o dolo. A pegadinha central da assertiva é justamente afirmar, erroneamente, que ambas as situações excluem o dolo - sendo esse o ponto que o examinador quer testar quanto ao erro de proibição, cujo efeito correto é isentar de pena (erro inevitável) ou reduzi-la (erro evitável), sem jamais excluir o dolo. Como os dois institutos pertencem a temas de nível 1 diferentes (5218 e 5211) e não há um subtema comum que abranja ambos, trata-se de questão multi-tema sem subtema de nível 2 seguro. Optei por manter 5218 como tema principal, pois a primeira proposição (erro de tipo invencível excluindo dolo) está correta e serve de parâmetro comparativo, mas reconheço que o efeito testado com maior ênfase (a falsa equiparação ao erro de proibição) é típico do tema 5211, mantido como segunda opção forte.",
+ "id": "Q0256",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5211",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão compara dois institutos distintos: o erro de tipo invencível (que exclui dolo e culpa, afetando o fato típico) e o erro de proibição (acreditar estar autorizado a agir, que exclui a potencial consciência da ilicitude, afetando a culpabilidade, não o dolo). Por tratar simultaneamente de Erro de Tipo (subtema de Teoria do Crime: Fato Típico) e Erro de Proibição (subtema de Teoria do Crime: Culpabilidade), é questão multi-tema dentro do Direito Penal. Optei por Fato Típico como tema principal por ser o ponto de partida da comparação, mantendo Culpabilidade como segunda opção, já que a pegadinha da questão reside justamente em tratar o erro de proibição como se excluísse o dolo."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2909,
+  "cache_w": 12809,
+  "cache_r": 43624,
+  "custo_usd": 0.0979458
+ }
+}

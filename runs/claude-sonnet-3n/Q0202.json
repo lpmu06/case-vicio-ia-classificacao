@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": "5108",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5109",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata do crime de favorecimento/exploração sexual de vulnerável (art. 218-B, §2º, I, CP), cuja tipicidade da conduta de Mévio depende do conhecimento (dolo) quanto à menoridade e à condição de prostituição da vítima — tema central é o erro de tipo sobre elementar desse crime específico. O subtema 5108 (Corrupção de Menores) expressamente abrange \"exploração sexual de vulnerável\" e cita o art. 218-B CP entre seus dispositivos, sendo mais específico que o genérico 5109. Mantém-se o tema de nível 1 \"Dos Crimes Contra a Dignidade Sexual\" (5102), pois é o crime do Título VI do CP mais diretamente relacionado à prostituição/exploração sexual de menor, e não há elo com crimes contra a família (5111).",
+ "id": "Q0202",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P6",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão testa a tipicidade do crime de favorecimento da prostituição de vulnerável (art. 218-B, §2º, I, CP), incluindo o erro de tipo quanto à menoridade/condição de prostituição, matéria de Direito Penal que se insere em \"Dos Crimes Contra a Dignidade Sexual\", tema do grupo P6."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5102",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão exige o conhecimento sobre o crime de favorecimento da prostituição de vulnerável (art. 218-B, §2º, I, CP) e a repercussão do erro de tipo quanto à menoridade/condição de prostituição da vítima na tipicidade da conduta de quem se relaciona com ela. Trata-se de crime do Título VI do CP (Dos Crimes Contra a Dignidade Sexual), tema de nível 1 \"Dos Crimes Contra a Dignidade Sexual\" (5102), enquadrando-se no subtema \"Outros Crimes Contra a Dignidade Sexual\". Não há relação com crimes contra a família (5111), de modo que este não serve como segunda opção plausível."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1799,
+  "cache_w": 45395,
+  "cache_r": 102908,
+  "custo_usd": 0.22974360000000002
+ }
+}

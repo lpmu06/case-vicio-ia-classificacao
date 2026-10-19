@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5184",
+ "extras_ids": [
+  "5468"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecer a classificação doutrinária da ação penal quanto ao seu objeto/finalidade: \"ação de conhecimento condenatória\" (busca a condenação a pena) versus \"ação de prevenção penal\" (busca a aplicação de medida de segurança ao inimputável, art. 26, caput, CP). O que está sendo testado é a nomenclatura processual dessa espécie especial de ação penal, não os requisitos materiais da medida de segurança em si (duração, perícia, desinternação etc., que são o núcleo de 5184). Por isso mantenho o tema de nível 1 em Ação Penal (5466), com Medida de Segurança (5184) como segunda opção relevante por conter o conceito substantivo referido no enunciado. Não escolho um subtema específico porque o subtema \"Classificação da Ação Penal\" (5468), descrito na árvore, foca na classificação quanto à titularidade (pública incondicionada/condicionada/privada), não na classificação quanto ao objeto (conhecimento condenatória vs. prevenção penal) mencionada na questão; não há subtema que trate exatamente dessa classificação doutrinária específica, então subtema_n2_id = null, com confiança baixa caso se decida incluí-lo.",
+ "id": "Q0128",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5184",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata da \"ação de prevenção penal\", classificação doutrinária da ação penal cujo objeto não é a condenação, mas a aplicação de medida de segurança ao inimputável por doença mental (art. 26 do CP). O instituto testado é a classificação/espécie de ação penal (ação de conhecimento condenatória vs. ação de prevenção penal), tema de Processo Penal > Ação Penal, especificamente o subtema \"Classificação da Ação Penal\". Secundariamente toca o conceito material de medida de segurança (Penal), mas o que a questão exige conhecer é a natureza processual dessa ação especial."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1762,
+  "cache_w": 34580,
+  "cache_r": 78694,
+  "custo_usd": 0.17904979999999998
+ }
+}

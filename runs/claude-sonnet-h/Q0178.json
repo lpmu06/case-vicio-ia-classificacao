@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão versa diretamente sobre o art. 6º, XI, da Lei 10.826/2003 (Estatuto do Desarmamento) e sua regulamentação pela Resolução CNJ 467/2022, tratando do porte de arma de fogo por agentes e inspetores de Polícia Judicial do Poder Judiciário. O núcleo é a disciplina do porte de arma prevista no Estatuto do Desarmamento, confirmando o tema 4697. Como esse tema não possui subtemas de nível 2, subtema_n2_id permanece null.",
+ "multi_tema": false,
+ "segunda_opcao_id": null,
+ "subtema_n2_id": null,
+ "tema_n1_id": "4697",
+ "id": "Q0178",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4697",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata da regulamentação do porte de arma de fogo de servidores do Poder Judiciário (agentes/inspetores de Polícia Judicial), com base no art. 6º, XI, da Lei nº 10.826/2003 (Estatuto do Desarmamento) e na Resolução CNJ 467/2022. O tema central é o porte de arma previsto no Estatuto do Desarmamento, tema específico de Legislação Especial, e não um instituto de parte geral do Direito Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 984,
+  "cache_w": 28599,
+  "cache_r": 78694,
+  "custo_usd": 0.1439238
+ }
+}

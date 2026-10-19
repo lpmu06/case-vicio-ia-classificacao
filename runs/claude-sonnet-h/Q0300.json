@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5079",
+ "subtema_n2_id": "5084",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5169",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa diretamente a distinção entre favorecimento pessoal (art. 348 CP) e favorecimento real (art. 349 CP): quem oculta instrumento (arma) usado por terceiro, sem vínculo de parentesco, para tornar seguro o proveito/instrumento do crime antecedente de roubo, pratica favorecimento real. Confirma-se o tema de nível 1 \"Dos Crimes Contra a Administração Judicial\" (5079), com subtema específico 5084 (Favorecimento Pessoal e Real), que trata exatamente dessa distinção nos arts. 348 e 349 do CP. A segunda opção ajustada é receptação (5169), pois a ocultação de objeto poderia, em tese, suscitar confusão com esse crime patrimonial, mas o gabarito correto é favorecimento real por se tratar de instrumento (não produto) do crime e não haver finalidade de proveito patrimonial próprio.",
+ "id": "Q0300",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5079",
+  "segunda_opcao_n1_id": "5157",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão testa a distinção entre favorecimento pessoal e favorecimento real (arts. 348 e 349 do CP), ao tratar da ocultação de instrumento de crime por terceiro sem vínculo de parentesco com o autor do roubo. O eixo central é o crime contra a Administração da Justiça (favorecimento real), tema de nível 1 \"Dos Crimes Contra a Administração Judicial\", cujo subtema específico é \"Favorecimento Pessoal e Real\". A alternativa \"roubo\" aparece apenas como contexto fático, não como objeto de aferição."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1312,
+  "cache_w": 113549,
+  "cache_r": 0,
+  "custo_usd": 0.479155
+ }
+}

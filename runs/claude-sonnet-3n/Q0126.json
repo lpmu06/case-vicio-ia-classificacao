@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5211",
+ "subtema_n2_id": "5213",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.7,
+ "segunda_opcao_id": "5218",
+ "extras_ids": [
+  "5071",
+  "5180"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão multi-tema, cada alternativa versando sobre um instituto diferente da parte geral: (A) nexo causal/causa superveniente relativamente independente (Fato Típico, 5218); (B) comunicabilidade de elementares no concurso de pessoas (tema 5071, fora da árvore de Culpabilidade/Fato Típico); (C) aplicação subsidiária das regras gerais do CP à lei especial, art. 12 CP (grupo Lei Penal no Tempo/Espaço, 5180); (D) embriaguez fortuita e (in)imputabilidade, art. 28, §1º/§2º, CP; (E) extraterritorialidade da lei penal (5180). A alternativa tecnicamente correta é a (D) (reprodução quase literal do art. 28, §1º, CP sobre embriaguez proveniente de caso fortuito ou força maior excluindo a imputabilidade), que trata especificamente de causa de exclusão/redução da culpabilidade por incapacidade de entendimento — instituto da Inimputabilidade. Por isso mantenho o tema de nível 1 em 5211 (Culpabilidade) e, diferente do estágio anterior, agora atribuo o subtema 5213 (Inimputabilidade), já que a descrição desse subtema cita expressamente \"embriaguez completa fortuita\" como palavra-chave e dispositivo central (art. 26/28 CP), tornando a classificação específica segura. Como segunda opção mantenho 5218 (Fato Típico), por força da relevância da alternativa (A) sobre nexo causal. Confiança moderada no ramo e no subtema, dado o caráter multi-tema da questão, mas a alternativa correta (D) aponta de forma inequívoca para Inimputabilidade.",
+ "id": "Q0126",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": "P1",
+  "confianca": 0.45,
+  "multi_tema": true,
+  "justificativa": "Cada alternativa versa sobre um instituto diferente da parte geral: (A) nexo causal/causa superveniente (fato típico), (B) comunicabilidade de circunstâncias no concurso de pessoas, (C) aplicação da lei penal especial/art. 12 CP (lei penal), (D) embriaguez fortuita e culpabilidade, (E) extraterritorialidade (lei penal no espaço). Não há eixo temático único; a maioria das alternativas (A, B, D) remete a teoria do crime/concurso de pessoas (grupo P2), enquanto (C) e (E) remetem a lei penal no espaço/aplicação da lei (grupo P1). Marco P2 como principal por conter o maior número de assertivas centrais, e P1 como segundo grupo."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5211",
+  "segunda_opcao_n1_id": "5218",
+  "confianca_ramo": 0.35,
+  "multi_tema": true,
+  "justificativa": "Questão de múltiplas alternativas independentes, cada uma testando um instituto diferente da parte geral: (A) nexo causal/causa superveniente relativamente independente (Fato Típico, tema 5218); (B) comunicabilidade de elementares no concurso de pessoas (tema 5071); (C) aplicação subsidiária das regras gerais do CP à lei especial, art. 12 CP (Lei Penal no Tempo/Espaço, grupo P1, tema 5180); (D) embriaguez fortuita e (in)imputabilidade, art. 26/28 CP (Culpabilidade, tema 5211); (E) extraterritorialidade da lei penal (grupo P1, tema 5180). A alternativa tecnicamente correta é a (D), que versa sobre embriaguez fortuita e exclusão/redução da culpabilidade por incapacidade de entendimento — instituto da Culpabilidade (inimputabilidade), por isso meu tema principal é o 5211. Como segunda opção, marco o 5218 (Fato Típico), pois a alternativa (A) sobre nexo causal também é central e bem representativa do bloco. Mantenho confiança baixa dado o caráter nitidamente multi-tema da questão, em que nenhum eixo único domina claramente todas as assertivas."
+ },
+ "uso": {
+  "in": 6,
+  "out": 5185,
+  "cache_w": 51898,
+  "cache_r": 101498,
+  "custo_usd": 0.2918346
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.82,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O item cobra o conteúdo de uma teoria nominada, a da anomia (Durkheim/Merton). Para julgá-lo, é preciso saber que, em Merton, há descompasso entre as metas culturais e os meios institucionalizados, e que a ideia de \"criar regras próprias\" está mais perto da teoria da subcultura delinquente. Por isso o subtema certo é 4388, e não 4387: a questão não pede a categoria ampla de teorias de nível sociológico, e sim uma teoria específica.",
+ "id": "Q0031",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4385"
+ ],
+ "candidatos_subtemas": [
+  "4388"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 535,
+  "cache_w": 5146,
+  "cache_r": 16390,
+  "custo_usd": 0.05818
+ }
+}

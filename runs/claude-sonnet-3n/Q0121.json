@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5469",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5472",
+ "extras_ids": [
+  "5474"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão apresenta um caso de ação penal privada com queixa oferecida contra apenas um dos coautores, e as alternativas testam diretamente o conhecimento dos princípios que regem a ação penal (conveniência, obrigatoriedade, indisponibilidade e, principalmente, indivisibilidade - art. 48 CPP), exigindo identificar qual princípio rege a situação e qual sua consequência (renúncia tácita extensível a todos, art. 49 CP/CPP). Isso é o núcleo de \"Princípios da Ação Penal\" (5469), que lista expressamente indivisibilidade, renúncia e consequências da violação desse princípio. Mantenho o tema de nível 1 \"Ação Penal\" (5466), já confirmado no estágio anterior. Como segunda opção, \"Ação Penal de Iniciativa Privada\" (5472) também cobre indivisibilidade como instituto geral, mas o foco específico em comparar os diferentes princípios (conveniência x indisponibilidade x indivisibilidade x obrigatoriedade) é mais afinado com 5469.",
+ "id": "Q0121",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão testa o princípio da indivisibilidade da ação penal privada (CPP, art. 48), exigindo conhecimento sobre as consequências de o querelante não incluir todos os coautores na queixa-crime, tema central de Ação Penal, dentro do grupo PP2 (Investigação e ação penal) em Processo Penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige o conhecimento do princípio da indivisibilidade da ação penal privada (art. 48 CPP) e suas consequências (renúncia tácita extensível a todos os autores), tema central de Ação Penal, dentro do grupo PP2 (Investigação e ação penal) em Processo Penal."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1785,
+  "cache_w": 49101,
+  "cache_r": 101498,
+  "custo_usd": 0.2441136
+ }
+}

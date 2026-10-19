@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5509",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5510",
+ "extras_ids": [
+  "5511"
+ ],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema de nível 1 \"Nulidades\" (5509): todas as alternativas versam sobre a teoria das nulidades processuais penais. Quanto ao subtema de nível 2, as alternativas se dividem entre dois subtemas irmãos: (A), (C) e (E) tratam do regime jurídico nulidade absoluta x relativa, prejuízo, convalidação — típico de \"Nulidade Absoluta e Relativa\" (5510); já (B) trata da inversão da ordem de perguntas do art. 212 CPP e (D) trata do momento de arguição de inépcia da denúncia (art. 396/397 CPP) — hipóteses concretas de vício, típicas de \"Nulidades em Espécie\" (5511). Como não há um único subtema que abranja todas as alternativas, mantenho subtema_n2_id = null, evitando classificar em um subtema irmão que cobriria apenas parte da questão. A segunda opção mais provável, caso se exija um subtema, é 5510 (presente em três das cinco alternativas), com 5511 listado como extra relevante.",
+ "id": "Q0046",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP7",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa diretamente sobre nulidades processuais penais (instrumentalidade das formas, nulidade relativa vs absoluta, art. 212 CPP, inépcia da denúncia, coisa julgada), tema coberto pelo grupo PP7 (Sentença e Nulidades), que contém o tema \"Nulidades\"."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5509",
+  "segunda_opcao_n1_id": "5572",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam exclusivamente sobre a teoria das nulidades processuais penais: instrumentalidade das formas/exigência de prejuízo (A), inversão de ordem de perguntas do art. 212 CPP (B), distinção entre nulidade relativa e absoluta (C), momento de arguição de inépcia da denúncia (D) e efeito da coisa julgada sobre vícios (E). O eixo comum e central é exatamente o instituto das nulidades, correspondendo ao subtema específico \"Nulidades\" (5509), dentro do grupo PP7. A sentença penal (5572) é apenas contexto indireto, não o objeto de nenhuma alternativa."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1574,
+  "cache_w": 49944,
+  "cache_r": 101498,
+  "custo_usd": 0.2458396
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5590",
+ "extras_ids": [
+  "5555",
+  "5554",
+  "5556"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão apresenta cinco cenários, cada um testando um meio de prova em espécie distinto: (A) captação clandestina por particular, (B) busca e apreensão domiciliar sem mandado em flagrante, (C) sigilo advogado-cliente em interceptação telefônica, (D) extensão informal de mandado de busca a terceiro, e (E) prazo e prorrogação de interceptação telefônica (Lei 9.296/96). O gabarito correto é a alternativa (E), pois o STJ admite pedido de prorrogação da interceptação mesmo após o término formal do prazo inicial, desde que a solicitação tenha sido protocolada em prazo razoável e a escuta tenha continuado ininterruptamente — isso coloca o núcleo da resposta no subtema de Interceptação Telefônica (5555). Contudo, para eliminar as demais alternativas o candidato precisa dominar também busca e apreensão (5554) e captação por particular/teoria da ilicitude (5556/5590), configurando questão multi-tema dentro do eixo \"Provas em Espécies\" (5543), que abrange todos esses institutos como subtemas-filhos. Por isso, mantenho o nível 1 (5543) como classificação principal, sem fixar um subtema único, já que nenhum subtema isolado cobre integralmente o raciocínio exigido pela questão — embora o subtema que mais pesa no gabarito final seja 5555. A segunda opção permanece 5590 (Teoria Geral das Provas), pois o enunciado invoca o princípio constitucional de inadmissibilidade da prova ilícita (art. 5º, LVI, CF) como fio condutor de todas as alternativas.",
+ "id": "Q0146",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": null,
+  "confianca": 0.88,
+  "multi_tema": false,
+  "justificativa": "Apesar da pista de origem indicar \"Ação Penal\", a questão testa efetivamente a teoria das provas ilícitas/lícitas (prova produzida por particular, busca e apreensão sem mandado, sigilo advogado-cliente, extensão informal de mandado, interceptação telefônica e prazo de prorrogação da Lei 9.296/96). Todas as alternativas giram em torno de licitude/admissibilidade de provas, tema central de PP4 (Provas), especificamente Provas em Espécie (interceptação telefônica, busca e apreensão)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.75,
+  "multi_tema": true,
+  "justificativa": "A questão apresenta cinco situações, cada uma envolvendo um meio de prova em espécie distinto (gravação por particular, busca e apreensão sem mandado, sigilo advogado-cliente em interceptação, extensão informal de mandado de busca, e prazo de prorrogação de interceptação telefônica — Lei 9.296/96), pedindo para identificar qual delas NÃO configura prova ilícita. O gabarito correto depende do conhecimento específico sobre prazo de interceptação telefônica (subtema \"Interceptação Telefônica e Quebra do Sigilo de Dados Telefônicos\"), mas as demais alternativas abordam outros meios de prova em espécie (busca e apreensão, etc.), configurando questão multi-tema dentro do eixo \"Provas em Espécies\" (5543), que abrange todos esses institutos como subtemas. Como segunda opção, \"Teoria Geral das Provas\" (5590) é pertinente pois o enunciado trata do princípio geral de inadmissibilidade de provas ilícitas (art. 5º, LVI, CF) e das teorias de ilicitude probatória que fundamentam a análise de cada alternativa."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3249,
+  "cache_w": 20913,
+  "cache_r": 48893,
+  "custo_usd": 0.1406916
+ }
+}

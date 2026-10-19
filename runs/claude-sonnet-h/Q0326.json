@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa a literalidade dos tipos penais dos arts. 33 a 39 da Lei 11.343/2006: a alternativa correta (C) reproduz o art. 38 (prescrever/ministrar culposamente drogas sem necessidade do paciente ou em doses excessivas), enquanto as demais distorcem elementos típicos - (A) e (E) inserem indevidamente a onerosidade como requisito do art. 34 e do art. 33 §1º, II (que admitem conduta gratuita); (B) troca \"eventualmente\" por \"habitualmente\" no uso compartilhado do art. 33 §3º; (D) retira a exigência de exposição a dano potencial do art. 39. Tudo isso é matéria exclusiva da Lei de Drogas, tema 4708 (que não possui subtemas), confirmando a classificação anterior.",
+ "id": "Q0326",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento literal dos tipos penais da Lei 11.343/2006 (arts. 33 a 39), testando elementos específicos como habitualidade/eventualidade no uso compartilhado, onerosidade no fornecimento de maquinário, culpa na prescrição médica e exposição a dano na condução de veículo sob efeito de drogas. Trata-se integralmente de Tráfico de Drogas (Lei de Drogas), tema de Legislação Especial."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2738,
+  "cache_w": 6067,
+  "cache_r": 43624,
+  "custo_usd": 0.0639958
+ }
+}

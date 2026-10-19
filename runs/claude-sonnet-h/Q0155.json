@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão trata especificamente do Regime Disciplinar Diferenciado (RDD), instituto do art. 52 da Lei de Execução Penal (Lei 7.210/1984), abordando duração, requisitos (associação criminosa), monitoramento de entrevistas, local de cumprimento e aplicabilidade à prisão cautelar. É matéria central de execução penal, confirmando o tema de nível 1 Direito Penal - Legislação Especial > Lei de Execução Penal (4703). Esse tema não possui subtemas de nível 2, logo subtema_n2_id permanece null.",
+ "multi_tema": false,
+ "segunda_opcao_id": null,
+ "subtema_n2_id": null,
+ "tema_n1_id": "4703",
+ "id": "Q0155",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o Regime Disciplinar Diferenciado (RDD), instituto previsto no art. 52 da Lei de Execução Penal (Lei 7.210/1984), tratando de seus requisitos, prazo, monitoramento de entrevistas e local de cumprimento. Trata-se de matéria típica de execução penal, classificada em Direito Penal - Legislação Especial > Lei de Execução Penal, e não de Medida de Segurança (pista de origem incorreta)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1155,
+  "cache_w": 28745,
+  "cache_r": 78694,
+  "custo_usd": 0.1455538
+ }
+}

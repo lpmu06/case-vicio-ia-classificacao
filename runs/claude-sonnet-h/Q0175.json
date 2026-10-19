@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5092",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5091",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa exatamente a distinção entre concussão (exigir) e corrupção passiva (solicitar, receber ou aceitar promessa de vantagem), ambos do Título XI do CP. O enunciado emprega deliberadamente o verbo \"solicitou\" (e não \"exigiu\" ou qualquer forma de constrangimento/ameaça explícita), elemento que a doutrina e a jurisprudência usam como critério de desempate entre os dois tipos. Como o agente público solicitou a vantagem e o particular aceitou de imediato, configura-se corrupção passiva (art. 317, CP) apenas por parte de João - a questão pergunta somente pelo crime de João, não exigindo concurso com corrupção ativa do particular. Tema de nível 1 confirmado (5087) e subtema de nível 2 específico é Corrupção Passiva (5092), com segunda opção em Concussão (5091) dado que a linha divisória entre os institutos é justamente o ponto central testado.",
+ "id": "Q0175",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa a distinção entre concussão (exigir vantagem) e corrupção passiva (solicitar, receber ou aceitar vantagem), ambos crimes contra a Administração Pública (Título XI do CP). Como o agente público \"solicitou\" vantagem (não exigiu/constrangeu), o crime correto é corrupção passiva, subtema específico de \"Dos Crimes Contra a Administração Pública\" (id 5087)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1432,
+  "cache_w": 34821,
+  "cache_r": 78694,
+  "custo_usd": 0.1773618
+ }
+}

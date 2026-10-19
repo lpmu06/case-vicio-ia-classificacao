@@ -1,0 +1,27 @@
+{
+ "fora": false,
+ "tema_n1_id": "4684",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra os tipos penais da Lei 13.869/2019. O gabarito é a alternativa B, que corresponde ao art. 15, parágrafo único, II. As demais alternativas distorcem os arts. 12, 18, 20 e 22: o prazo da nota de culpa é de 24 horas, não \"imediatamente\"; o interrogatório noturno é permitido em caso de flagrante; o crime do art. 20 exige impedir a entrevista \"sem justa causa\"; e no art. 22 a entrada tem de ocorrer de forma clandestina, astuciosa ou à revelia do ocupante. Descartei o tema 5184 (Medida de Segurança): a pista de origem está claramente errada e não há nenhuma relação com inimputáveis.",
+ "id": "Q0029",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5184",
+  "4684"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 883,
+  "cache_w": 4293,
+  "cache_r": 27971,
+  "custo_usd": 0.0602222
+ }
+}

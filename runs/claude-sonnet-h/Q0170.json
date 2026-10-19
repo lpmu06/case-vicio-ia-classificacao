@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5209",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.62,
+ "segunda_opcao_id": "5191",
+ "extras_ids": [
+  "5193",
+  "5185"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão exige identificar quem é tecnicamente primário, ou seja, testa diretamente o conceito de reincidência (art. 63 CP) e suas condições de configuração: condenação por crime militar não gera reincidência para fins de crime comum (depende de análise), indulto seguido de reabilitação (a reabilitação não afasta reincidência, mas o item trata de extinção da pena por indulto), prescrição da pretensão punitiva retroativa afasta o título condenatório para reincidência, e condenação no exterior não homologada e não cumprida (art. 63, parágrafo único, CP) não gera reincidência. O eixo comum de todas as alternativas é a reincidência como efeito da condenação, por isso mantenho 5199 (Teoria da Pena) com o subtema 5209 (Efeitos da Condenação Penais e Extrapenais), que é onde a reincidência (efeito específico da condenação anterior sobre condenação posterior) é tratada. Contudo, a questão também mobiliza fortemente institutos de extinção da punibilidade (indulto, prescrição retroativa) para aferir se a condenação subsiste como título para reincidência, daí a segunda opção em 5191 (Punibilidade), com menção auxiliar a 5193 (Anistia, Graça e Indulto) e 5185 (Prescrição) como extras. Marco multi_tema=true porque cada alternativa aborda um instituto diferente (direito militar, peculato/cargo político, indulto/reabilitação, prescrição retroativa, condenação estrangeira), unidos pelo tema comum da reincidência dentro da Teoria da Pena.",
+ "id": "Q0170",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "5191",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão exige saber quando se configura a reincidência (art. 63 CP), analisando situações de condenação militar, extinção da pena por indulto seguida de reabilitação, prescrição da pretensão punitiva retroativa (que afasta a condenação como título para reincidência) e condenação no exterior não homologada/cumprida. O instituto central testado é a reincidência, que é um efeito da condenação, tratado dentro de Teoria da Pena (subtema Efeitos da Condenação Penais e Extrapenais). Há também forte conexão com causas extintivas da punibilidade (prescrição, indulto), por isso indico Punibilidade como segunda opção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1674,
+  "cache_w": 37480,
+  "cache_r": 78694,
+  "custo_usd": 0.19347579999999998
+ }
+}

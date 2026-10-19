@@ -1,0 +1,38 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5091",
+ "extras_ids": [],
+ "fora": false,
+ "multi_tema": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5092",
+ "justificativa": "O Auditor-Fiscal aceitou promessa de vantagem indevida (estadia em hotel de luxo) para deixar de autuar a empresa, caracterizando corrupção passiva (art. 317, CP) na modalidade \"aceitar promessa de vantagem indevida\" para omitir ato de ofício. Não há exigência da vantagem (o que afastaria concussão, art. 316) — o funcionário apenas aceitou a oferta feita pelo dirigente da empresa. É crime formal, que se consuma com a simples aceitação da promessa, independentemente do recebimento efetivo, o que afasta a alternativa (E) e confirma (B) como resposta correta. Trata-se de crime funcional contra a Administração Pública, tema 5087, subtema Corrupção Passiva (5092). A segunda opção (5091 - Concussão e Excesso de Exação) é mantida como alternativa de confusão, já que a questão testa exatamente a distinção entre \"exigir\" (concussão) e \"aceitar promessa\" (corrupção passiva), mas não é o enquadramento correto do caso narrado.",
+ "id": "Q0086",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão testa a distinção entre corrupção passiva, concussão e enriquecimento ilícito, institutos típicos dos crimes contra a Administração Pública (funcionário público que solicita/aceita vantagem para deixar de praticar ato de ofício), tema previsto no grupo P8."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5079",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "O caso trata de funcionário público (Auditor-Fiscal do Trabalho) que aceita promessa de vantagem indevida (estadia em hotel de luxo) para deixar de praticar ato de ofício (autuação), caracterizando corrupção passiva (art. 317, CP) — o funcionário apenas aceitou a promessa, sem exigir, o que afasta a concussão. É crime formal, consumado independentemente do recebimento efetivo da vantagem, o que também afasta a alternativa (E). Trata-se de crime funcional contra a Administração Pública, enquadrado no tema 5087, subtema Corrupção Passiva."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1817,
+  "cache_w": 54526,
+  "cache_r": 101498,
+  "custo_usd": 0.2700246
+ }
+}

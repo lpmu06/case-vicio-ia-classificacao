@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "4389",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4381",
+ "extras_ids": [
+  "4380"
+ ],
+ "multi_tema": false,
+ "justificativa": "A assertiva contrapõe o conceito de Criminologia (crime, criminoso, fatores da criminalidade) ao conceito de Vitimologia (estudo da vítima e suas peculiaridades), afirmando ainda a possível autonomia científica desta última. O núcleo avaliado — definição, objeto e autonomia da Vitimologia como campo de estudo — se encaixa no tema de nível 1 \"Vitimologia\" (4389), que abrange exatamente essa discussão introdutória sobre o campo. Não há subtema específico aplicável: 4390 trata do processo de vitimização (primária/secundária/terciária), não do conceito/autonomia da disciplina, então não há subtema de nível 2 que corresponda com precisão — mantenho subtema_n2_id = null. Como segunda opção, indico 4381 (Conceito e objeto da Criminologia), pois a questão também define a Criminologia propriamente, podendo um examinador ancorar a classificação nesse viés comparativo introdutório; mantenho 4380 como extra pelo mesmo motivo em nível 1.",
+ "id": "Q0088",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C3",
+  "segundo_grupo_id": "C1",
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão conceitua criminologia e, principalmente, vitimologia como ciência autônoma de estudo da vítima, o que corresponde ao tema \"Vitimologia\" dentro do grupo C3 (Vítimas e criminosos)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4389",
+  "segunda_opcao_n1_id": "4380",
+  "confianca_ramo": 0.7,
+  "multi_tema": false,
+  "justificativa": "A questão define a Vitimologia como ciência que estuda a vítima e suas peculiaridades, podendo ser considerada ciência autônoma, em contraste com a Criminologia (que estuda crime, criminoso e fatores da criminalidade). O núcleo testado é o conceito e a autonomia científica da Vitimologia, o que se encaixa no tema \"Vitimologia\" (4389), dentro do grupo C3. Como segunda opção, cabe \"Teoria Geral da Criminologia\" (4380, grupo C1), pois a questão também contrapõe o conceito/objeto da Criminologia geral, podendo um examinador classificar pelo viés do conceito introdutório da disciplina."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1859,
+  "cache_w": 46786,
+  "cache_r": 101498,
+  "custo_usd": 0.2326166
+ }
+}

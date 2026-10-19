@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5530",
+ "extras_ids": [
+  "5533"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta exatamente o que o art. 55 da Lei 11.343/2006 determina: oferecida a denúncia, o juiz ordena a notificação do acusado para defesa prévia, por escrito, em 10 dias (gabarito C) — rito especial que diverge propositalmente da regra geral do CPP (citação para resposta à acusação, art. 396/396-A). Como o próprio enunciado busca testar justamente essa particularidade procedimental própria da Lei de Drogas (e as alternativas erradas são variações de prazo/nomenclatura desse mesmo dispositivo especial), o núcleo da questão é o rito da Lei de Drogas, e não o procedimento ordinário do CPP. O tema 4708 expressamente abrange os \"principais reflexos processuais\" da lei, o que inclui esse rito próprio do art. 55. Mantenho 4708 como tema de nível 1, com 5530 como segunda opção (pois o instituto análogo no rito comum é a resposta à acusação) e 5533 (Defesa Preliminar) como extra, já que é o subtema mais próximo em conteúdo caso a questão fosse enquadrada no procedimento comum. Não marquei subtema de nível 2 em 4708 porque esse tema não possui subtemas na árvore.",
+ "id": "Q0213",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": "5530",
+  "confianca_ramo": 0.78,
+  "multi_tema": false,
+  "justificativa": "A questão trata do procedimento especial previsto no art. 55 da Lei 11.343/2006 (Lei de Drogas): oferecida a denúncia, o juiz ordena a notificação do acusado para oferecer defesa prévia, por escrito, no prazo de 10 dias (gabarito C), rito distinto do procedimento comum. Como o tema \"Tráfico de Drogas\" (Legislação Especial) expressamente abrange também os \"principais reflexos processuais\" da Lei de Drogas, inclusive seu rito próprio, essa é a classificação mais precisa, preferível ao tema genérico de Procedimento Ordinário do Processo Penal, que não contempla essa particularidade procedimental da lei especial."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1706,
+  "cache_w": 32560,
+  "cache_r": 78694,
+  "custo_usd": 0.1701168
+ }
+}

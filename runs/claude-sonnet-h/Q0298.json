@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4695",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4694",
+ "extras_ids": [
+  "4687"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão versa sobre os arts. 7º e 8º da Lei 8.137/90 (crimes contra as relações de consumo), que preveem modalidade culposa no art. 7º, parágrafo único, tornando a assertiva errada. A árvore não possui subtema específico para esse capítulo da Lei 8.137/90. Mantenho 4695 (Crimes Tributários) como tema de nível 1 por tratar-se do mesmo diploma legal, ainda que o capítulo específico (relações de consumo) não seja sobre ordem tributária propriamente dita — por isso a confiança no ramo é apenas moderada. 4694 (Crimes previstos no CDC) é segunda opção por tutelar também relações de consumo, embora seja diploma distinto (Lei 8.078/90). 4687 (economia popular) é citado como extra por ser o tema mais afim à proteção da ordem econômica/relações de consumo fora do âmbito estritamente tributário, mas nenhum dos três é um encaixe perfeito, por isso subtema_n2_id é null e a confiança de subtema é 0.",
+ "id": "Q0298",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4695",
+  "segunda_opcao_n1_id": "4694",
+  "confianca_ramo": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão trata dos crimes contra as relações de consumo previstos na Lei n. 8.137/90 (arts. 7º e 8º), que também preveem modalidade culposa (art. 7º, parágrafo único), tornando a assertiva errada. Embora o tema específico seja \"crimes contra relações de consumo\", a árvore não possui subtema próprio para essa parte da Lei 8.137/90; o tema mais próximo, por se tratar do mesmo diploma legal (Lei 8.137/90), é \"Crimes Tributários\", havendo também aderência parcial a \"Crimes previstos no CDC\" como segunda opção, já que ambos tratam de proteção penal das relações de consumo."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2349,
+  "cache_w": 6229,
+  "cache_r": 43624,
+  "custo_usd": 0.0608368
+ }
+}

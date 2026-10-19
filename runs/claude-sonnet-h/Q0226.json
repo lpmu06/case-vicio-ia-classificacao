@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5544",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5546",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra literalmente as definições das etapas da cadeia de custódia (reconhecimento, armazenamento, recebimento, coleta e transporte de vestígios), nos termos dos arts. 158-A a 158-F do CPP, introduzidos pela Lei 13.964/2019. Isso corresponde exatamente ao subtema \"Cadeia de Custódia\" (5544), dentro do tema de nível 1 \"Provas em Espécies\" (5543) em Processo Penal. Não há foco na conclusão técnica do perito (o que afastaria para Perícia, 5546), mas sim na preservação, documentação e rastreamento do vestígio, critério distintivo do subtema 5544.",
+ "id": "Q0226",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente da cadeia de custódia da prova (reconhecimento, armazenamento, recebimento, coleta, transporte), disciplina introduzida pelo Pacote Anticrime no CPP, que se insere no subtema \"Cadeia de Custódia\" dentro de \"Provas em Espécies\" (nível 1, Processo Penal)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 954,
+  "cache_w": 36117,
+  "cache_r": 78694,
+  "custo_usd": 0.1788688
+ }
+}

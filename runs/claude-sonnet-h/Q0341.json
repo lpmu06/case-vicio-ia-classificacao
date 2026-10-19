@@ -1,0 +1,35 @@
+{
+ "tema_n1_id": "5157",
+ "subtema_n2_id": null,
+ "fora": false,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5169",
+ "extras_ids": [
+  "5160",
+  "5159",
+  "5164",
+  "5169"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 'Dos Crimes Contra o Patrimônio' (5157), pois a questão é tipicamente panorâmica: cada alternativa versa sobre um instituto distinto do título — dano e sua ação penal (A, art. 167 CP → subtema 5164), majorante do roubo por transporte de valores (B, art. 157, §2º-A → subtema 5160), aplicação analógica de majorante ao furto em concurso de pessoas (C, relacionado a furto/roubo, subtemas 5159/5160), natureza formal da duplicata simulada (D, art. 172 CP, fraude correlata ao estelionato, subtema 5166) e perdão judicial na receptação simples (E, art. 180, §5º CP, subtema 5169 — que é de fato a alternativa correta da questão). Como não há um eixo único testado por todas as assertivas, não é seguro classificar em um único subtema de nível 2; a classificação mais segura e correta é no tema de nível 1, que abrange todos esses subtemas, mantendo multi_tema=true. Indico como segunda opção o subtema 5169 (Receptação), por ser o tema da alternativa correta, e listo os demais subtemas tangenciados como extras.",
+ "id": "Q0341",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": true,
+  "justificativa": "Todas as alternativas versam sobre institutos distintos dentro dos crimes contra o patrimônio do CP: dano (ação penal), roubo majorado (transporte de valores), furto qualificado por concurso, duplicata simulada (estelionato/fraudes) e perdão judicial na receptação. Não há um subtema único comum a todas as assertivas, mas todas se enquadram no tema de nível 1 'Dos Crimes Contra o Patrimônio' (5157), que abrange justamente Dano, Roubo, Furto, Estelionato e Receptação como subtemas. Por isso a classificação correta é no nível 1, marcando multi_tema=true já que cada alternativa testa um subtema diferente dentro do mesmo ramo."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2023,
+  "cache_w": 13642,
+  "cache_r": 27990,
+  "custo_usd": 0.089286
+ }
+}

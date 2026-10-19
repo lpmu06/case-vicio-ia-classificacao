@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5528",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa inteiramente sobre o instituto do desaforamento (requisitos para decretação, legitimados para requerer - incluindo querelante e assistente -, critério de preferência entre comarcas, momento processual cabível e procedimento de oitiva do juiz-presidente), com base nos arts. 427 e 428 do CPP. Embora o desaforamento desloque a competência territorial (por isso 5480 é boa segunda opção), ele é um instituto específico e exaustivamente regulado dentro do procedimento do júri, estando expressamente listado nas palavras-chave e dispositivos do subtema 5528 (Organização do Júri e Sessão de Julgamento), que trata da preparação e organização da sessão plenária, incluindo desaforamento e estouro de urna. Mantenho a classificação no tema de nível 1 5524 e agora atribuo com confiança o subtema 5528, por ser precisamente o subtema que cobre esse instituto.",
+ "id": "Q0167",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata do desaforamento, instituto específico do procedimento do Tribunal do Júri (deslocamento da competência territorial do julgamento em plenário por interesse de ordem pública, dúvida sobre imparcialidade do júri ou segurança do acusado), regulado nos arts. 427-428 do CPP. Embora envolva competência, o instituto é tratado dentro do tema de Procedimento do Tribunal do Júri, sendo essa a classificação mais precisa."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1434,
+  "cache_w": 35373,
+  "cache_r": 78694,
+  "custo_usd": 0.1802108
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão reproduz a regra do art. 149, §1º, do CPP: havendo dúvida sobre a sanidade mental do investigado no curso da investigação, a autoridade policial deve representar à autoridade judiciária para a realização do exame médico-legal (resposta correta: letra C). Trata-se de um ato típico da dinâmica procedimental do inquérito policial (o que a autoridade policial deve fazer durante a investigação), confirmando o tema de nível 1 \"Inquérito Policial\" (5498). Dentro dele, o subtema mais específico é \"Procedimento do Inquérito Policial\" (5500), cuja descrição abrange exatamente os atos e diligências praticados pela autoridade policial no curso da investigação, inclusive pedidos dirigidos ao juiz. Não se trata de \"Ação Penal\" (5466), pois nada na questão envolve denúncia, queixa ou condições da ação; o núcleo é unicamente o procedimento investigatório conduzido pela polícia.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5466",
+ "subtema_n2_id": "5500",
+ "tema_n1_id": "5498",
+ "id": "Q0032",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o procedimento a ser adotado pela autoridade policial quando há dúvida sobre a integridade mental do investigado durante a investigação (art. 149, §1º, CPP - incidente de insanidade mental na fase do inquérito), matéria de Inquérito Policial, tema do grupo PP2 (Investigação e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata do procedimento do art. 149, §1º, do CPP, que disciplina o incidente de insanidade mental durante o curso do inquérito policial - ou seja, como a autoridade policial deve agir ao suspeitar da sanidade mental do investigado (representar à autoridade judiciária). Trata-se de matéria típica do procedimento do inquérito policial, cabendo no tema de nível 1 \"Inquérito Policial\" (5498), mais especificamente no subtema \"Procedimento do Inquérito Policial\". Como segunda opção, \"Ação Penal\" (5466) é possível por estar no mesmo grupo de investigação/ação penal, mas é menos pertinente ao núcleo da questão, que é especificamente sobre ato praticado na fase investigatória presidida pela polícia."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1603,
+  "cache_w": 51298,
+  "cache_r": 101498,
+  "custo_usd": 0.2535716
+ }
+}

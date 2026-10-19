@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5583",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5549",
+ "extras_ids": [
+  "5543"
+ ],
+ "multi_tema": true,
+ "justificativa": "O eixo comum da questão é o ofendido como participante do processo penal e os seus poderes. As alternativas tratam da apelação supletiva (art. 598 do CPP), da habilitação como assistente (que só cabe depois de iniciada a ação), da prisão temporária (que não pode ser requerida pelo ofendido), do requerimento de inquérito (o ofendido requer, não requisita) e do segredo de justiça (art. 201, §6º, do CPP), que é o gabarito B. Escolhi Sujeitos do Processo porque cobre o ofendido e o assistente de acusação. A segunda opção é Declaração do Ofendido (5549), pois o gabarito está no art. 201. Descartei Ação Penal (5466) porque nenhuma alternativa cobra a titularidade ou as espécies de ação.",
+ "id": "Q0038",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5583",
+  "5543",
+  "5466"
+ ],
+ "candidatos_subtemas": [
+  "5549"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 1003,
+  "cache_w": 16093,
+  "cache_r": 16390,
+  "custo_usd": 0.164127
+ }
+}

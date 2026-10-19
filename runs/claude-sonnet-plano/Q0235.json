@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [
+  "5480"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa o cabimento do recurso em sentido estrito (RESE) contra decisão que reconhece a competência do juízo, prazo de 5 dias e ausência de efeito suspensivo (art. 581, III, e art. 584, CPP), núcleo típico do subtema Recurso em Sentido Estrito dentro de Recursos em Espécies.",
+ "id": "Q0235",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 727,
+  "cache_w": 2146,
+  "cache_r": 214056,
+  "custo_usd": 0.059780200000000006
+ }
+}

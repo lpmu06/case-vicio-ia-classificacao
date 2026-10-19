@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": "5182",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5170",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa especificamente a extraterritorialidade incondicionada (art. 7º, I, CP), que permite o julgamento no Brasil mesmo havendo sentença no estrangeiro, ressalvada apenas a aplicação do art. 8º para fins de pena cumprida. Trata-se de hipótese de aplicação espacial da lei penal brasileira, enquadrando-se precisamente no subtema Lei Penal no Espaço (5182), dentro do tema de nível 1 Lei Penal no Tempo e no Espaço (5180). Não se trata de tema introdutório genérico (5170), pois o enunciado exige conhecimento técnico das regras específicas de extraterritorialidade, não meros conceitos gerais do Direito Penal.",
+ "id": "Q0062",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P1",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão testa a extraterritorialidade incondicionada do art. 7º, I, do CP, tema de Lei Penal no Espaço, que integra o grupo P1 (Parte geral: fundamentos e lei penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5180",
+  "segunda_opcao_n1_id": "5170",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente a extraterritorialidade incondicionada (art. 7º, I, CP), aplicável mesmo havendo julgamento no estrangeiro, tema específico de Lei Penal no Espaço, subtema de Lei Penal no Tempo e no Espaço (5180). A segunda opção, Introdução ao Estudo do Direito Penal (5170), é menos aderente, pois não trata especificamente das regras de aplicação espacial da lei penal."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1229,
+  "cache_w": 48102,
+  "cache_r": 101498,
+  "custo_usd": 0.2334376
+ }
+}

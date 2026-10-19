@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4684",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.78,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5133",
+ "extras_ids": [
+  "5128"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão exige identificar o conflito aparente de normas entre a violação de correspondência (art. 151, CP) e os crimes da antiga Lei de Abuso de Autoridade (Lei 4.898/1965), já que o agente é diretor de presídio (agente público) agindo no exercício da função ao interceptar e abrir carta de preso. O núcleo da pergunta é precisamente resolver esse conflito aparente pela especialidade da legislação de abuso de autoridade, o que é o objeto central do tema 4684 (Abuso de Autoridade), mantendo a classificação anterior. Como segunda opção, dentro de Penal, o subtema mais específico seria 5133 (Crimes contra a Inviolabilidade de Correspondência), pois é o tipo do CP em jogo, mais preciso que o tema genérico 5128; ainda assim, sem certeza suficiente para fixá-lo como subtema principal, pois o eixo da questão é o abuso de autoridade, não o art. 151 CP isoladamente.",
+ "id": "Q0163",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4684",
+  "segunda_opcao_n1_id": "5128",
+  "confianca_ramo": 0.7,
+  "multi_tema": false,
+  "justificativa": "A questão testa o conflito aparente de normas entre o crime de violação de correspondência (art. 151, CP) e os crimes da Lei de Abuso de Autoridade (Lei 4.898/1965), praticados por diretor de presídio (agente público) ao interceptar e abrir carta de preso. O eixo central da pergunta é justamente identificar se a conduta se amolda à Lei de Abuso de Autoridade (e eventual especialidade frente ao CP), o que aponta para o tema \"Abuso de Autoridade\" na Legislação Especial. Como segunda opção, o tema \"Dos Crimes Contra a Liberdade Pessoal\" (Penal) cobre a inviolabilidade de correspondência do Código Penal, caso o examinador privilegiasse esse ângulo."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1720,
+  "cache_w": 26259,
+  "cache_r": 15634,
+  "custo_usd": 0.13196680000000002
+ }
+}

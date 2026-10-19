@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5222",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5227",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede o conceito de dolo direto e o distingue de dolo eventual, culpa inconsciente e culpa consciente (art. 18 do CP), ou seja, cobra exatamente os elementos subjetivos do tipo. Por isso a classificação correta é o subtema Crime Doloso e Culposo. Tipicidade (5227) foi descartada porque, embora o assunto de origem a mencione, a questão não trata de adequação típica nem de insignificância.",
+ "id": "Q0042",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5218"
+ ],
+ "candidatos_subtemas": [
+  "5222"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 430,
+  "cache_w": 7271,
+  "cache_r": 16390,
+  "custo_usd": 0.074858
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5193",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas testam hipóteses legais específicas de perdão judicial (lesão culposa no trânsito, lesão culposa simples/CTB, crimes ambientais contra fauna, retorsão imediata na injúria/difamação), exigindo saber em quais casos a lei admite ou não essa causa de extinção da punibilidade pelo juiz. É o núcleo exato do subtema Perdão Judicial (5197), e não do crime de lesão corporal em si.",
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": "5197",
+ "id": "Q0301",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5191",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento sobre as hipóteses legais de perdão judicial (lesão corporal culposa, crimes ambientais, retorsão na injúria, etc.), instituto de extinção/dispensa de pena tratado no tema \"Punibilidade\" (subtema Perdão Judicial), e não sobre o crime de lesão corporal em si, apesar da pista de origem."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1939,
+  "cache_w": 70344,
+  "cache_r": 33639,
+  "custo_usd": 0.3129998
+ }
+}

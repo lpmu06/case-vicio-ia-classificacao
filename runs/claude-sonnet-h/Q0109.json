@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão descreve literalmente a figura do art. 33, §3º, da Lei 11.343/06 (oferecer droga eventualmente, sem objetivo de lucro, a pessoa de seu relacionamento, para juntos consumirem), que é a modalidade privilegiada conhecida como \"uso compartilhado\". A resposta correta é a alternativa (D), que corresponde à pena prevista nesse dispositivo (detenção de 6 meses a 1 ano e pagamento de 700 a 1.500 dias-multa, sem prejuízo das sanções do art. 28). O tema de nível 1 \"Tráfico de Drogas\" (4708) é o correto, pois abrange expressamente o art. 33 da Lei de Drogas em seus parágrafos. O tema não possui subtemas, então subtema_n2_id permanece null. Confirma-se a classificação do estágio anterior.",
+ "id": "Q0109",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata da figura do \"traficante eventual\" ou oferecimento gratuito de droga para consumo conjunto (art. 33, §3º, da Lei 11.343/06), matéria típica da Lei de Drogas, apesar de a pista de origem indicar erroneamente \"Prescrição\". Tema correto: Tráfico de Drogas."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1008,
+  "cache_w": 28130,
+  "cache_r": 78694,
+  "custo_usd": 0.1419258
+ }
+}

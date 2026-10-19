@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": "5193",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "4703",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecer a tese repetitiva do STJ sobre a (im)possibilidade de computar o período de prisão preventiva no requisito objetivo temporal exigido por decreto presidencial de indulto/comutação de pena, distinguindo esse instituto da detração do art. 42 do CP. O eixo central é a natureza jurídica e os requisitos da comutação/indulto (clemência presidencial), que se enquadra exatamente no subtema \"Anistia, Graça e Indulto\" (5193) dentro do tema de nível 1 \"Punibilidade\" (5191), confirmando a classificação do estágio anterior. Embora o indulto seja operacionalizado na execução penal (o que justifica manter \"Lei de Execução Penal\" - 4703 - como segunda opção, já que a Súmula 631/STJ e o procedimento de concessão estão ligados ao juízo da execução), a pergunta não versa sobre progressão, regressão, remição ou incidentes executórios genéricos, mas especificamente sobre o alcance do benefício de clemência presidencial e sua diferenciação da detração penal, o que é tratado com precisão no subtema 5193 (que inclui expressamente \"comutação de pena\" e \"art. 42 do CP\" entre seus dispositivos e palavras-chave). Não é caso multi-tema, pois há um único eixo jurídico testado.",
+ "id": "Q0070",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5191",
+  "segunda_opcao_n1_id": "4703",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão discute se o período de prisão preventiva pode ser computado no requisito objetivo temporal exigido por decreto presidencial de indulto/comutação de pena, à luz de tese repetitiva do STJ, distinguindo esse cômputo da detração do art. 42 do CP. O instituto central testado é o indulto/comutação (espécie de causa extintiva da punibilidade, art. 107, II, CP), que na árvore corresponde ao subtema \"Anistia, Graça e Indulto\" dentro do tema de nível 1 \"Punibilidade\" (Penal - matéria). Por tratar-se de questão híbrida entre direito penal material (extinção/efeitos da punibilidade) e execução penal (procedimento de indulto previsto na LEP), também caberia como segunda opção o tema \"Lei de Execução Penal\" (Legislação Especial). Optei pelo eixo material, já que a pergunta foca na natureza jurídica e no requisito objetivo do benefício, não em procedimento executório."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2101,
+  "cache_w": 33667,
+  "cache_r": 78694,
+  "custo_usd": 0.1793898
+ }
+}

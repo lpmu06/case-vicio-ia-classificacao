@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": "5103",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5108",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata de estupro de vulnerável (art. 217-A, CP), cobrando a jurisprudência consolidada (Súmula 593 do STJ) sobre a irrelevância do consentimento da vítima menor de 14 anos, de eventual relacionamento amoroso prévio ou de experiência sexual anterior para a configuração do crime, dada a presunção absoluta de vulnerabilidade. O tema central é exatamente o núcleo do subtema \"Estupro e Estupro de Vulnerável\" (5103), dentro do tema de nível 1 \"Dos Crimes Contra a Dignidade Sexual\" (5102). Não há qualquer relação com crimes contra a família (5111), que trata de bigamia, filiação ou poder familiar/tutela/curatela, tema da segunda opção anterior, que deve ser descartado.",
+ "id": "Q0201",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P6",
+  "segundo_grupo_id": null,
+  "confianca": 0.96,
+  "multi_tema": false,
+  "justificativa": "A questão testa o entendimento jurisprudencial do STF/STJ sobre o caráter absoluto da vulnerabilidade do menor de 14 anos para fins de estupro de vulnerável (art. 217-A do CP), sendo irrelevante o consentimento ou a experiência sexual pregressa da vítima (Súmula 593 STJ). O tema central é o crime de estupro de vulnerável, enquadrado em \"Dos Crimes Contra a Dignidade Sexual\", grupo P6."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5102",
+  "segunda_opcao_n1_id": "5111",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata do crime de estupro de vulnerável (art. 217-A do CP), tema central sendo a irrelevância do consentimento da vítima menor de 14 anos à época dos fatos (jurisprudência consolidada na Súmula 593 do STJ). Isso se enquadra no tema \"Dos Crimes Contra a Dignidade Sexual\" (5102), especificamente no subtema \"Estupro e Estupro de Vulnerável\". Não há relação com crimes contra a família (5111), que trata de matrimônio, filiação ou poder familiar."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1382,
+  "cache_w": 47686,
+  "cache_r": 102908,
+  "custo_usd": 0.23638659999999997
+ }
+}

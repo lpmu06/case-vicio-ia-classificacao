@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5170",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "4698",
+ "extras_ids": [
+  "5171",
+  "5174"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 Introdução ao Estudo do Direito Penal (5170), pois as alternativas (A)-(D) exigem conhecimento teórico sobre classificação de normas penais (em branco homogênea/heterogênea, ao avesso), sobre abolitio criminis e sobre classificação de crimes (crime de atentado), usando os dispositivos de genocídio e eleitoral apenas como texto-base ilustrativo, sem exigir conhecimento do conteúdo material do crime de genocídio (que ficaria em 4698, mantido como segunda opção). Não escolho subtema de nível 2 porque a questão mistura temas de subtemas distintos: normas penais em branco remete a fontes do Direito Penal (5171), enquanto crime de atentado remete a classificação dos crimes (5174), e abolitio criminis não se encaixa perfeitamente em nenhum dos subtemas listados (está mais ligado à vigência da lei penal no tempo, fora do leque de subtemas deste tema). Por isso, mantenho subtema_n2_id = null e marco multi_tema = true, já que a alternativa (E), sobre exequatur, é de Processo Penal e é estranha ao eixo comum.",
+ "id": "Q0077",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P1",
+  "segundo_grupo_id": "LE2",
+  "confianca": 0.72,
+  "multi_tema": true,
+  "justificativa": "A questão usa exemplos de genocídio e crime eleitoral apenas como pretexto para testar a classificação teórica das normas penais em branco (homogênea/heterogênea, ao avesso), abolitio criminis e crime de atentado — matéria de Introdução ao Estudo do Direito Penal (fontes e estrutura da norma penal), tema do grupo P1. Não há aprofundamento sobre o crime de genocídio em si, que ficaria em LE2 (Genocídio), indicado como segunda opção por conter um dos exemplos centrais. A alternativa (E), isolada, trata de processo penal (exequatur), reforçando o caráter multi-tema da questão."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5170",
+  "segunda_opcao_n1_id": "4698",
+  "confianca_ramo": 0.85,
+  "multi_tema": true,
+  "justificativa": "A questão apresenta os artigos sobre genocídio e crime eleitoral apenas como base textual para que o candidato classifique teoricamente as normas penais (em branco homogênea/heterogênea, ao avesso, crime de atentado) e institutos como abolitio criminis — conteúdo de Introdução ao Estudo do Direito Penal (fontes e estrutura da norma penal), tema de nível 1 do grupo P1 (id 5170). Não há exame do conteúdo material do crime de genocídio, que seria o foco do tema Genocídio (id 4698, LE2), indicado como segunda opção por ser um dos exemplos centrais usados nas alternativas. A alternativa (E) é estranha ao eixo comum (trata de exequatur, matéria de processo penal), confirmando o caráter multi-tema, mas o eixo dominante das alternativas (A)-(D) é teoria da norma penal."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2325,
+  "cache_w": 47600,
+  "cache_r": 101498,
+  "custo_usd": 0.2427176
+ }
+}

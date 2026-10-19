@@ -1,0 +1,32 @@
+{
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.72,
+ "extras_ids": [
+  "4378"
+ ],
+ "fora": false,
+ "justificativa": "A questão cobra especificamente a criminologia cultural (análise da pichação como contracultura e representação social de populações periféricas) em articulação com o paradigma do etiquetamento (labeling approach), ambas teorias nominadas com autores e conceitos próprios. Isso se encaixa no tema de nível 1 \"Teorias Sociológicas Explicativas da Criminalidade\" (4385) e, mais precisamente, no subtema \"Teorias Criminológicas em Espécie\" (4388), que é destinado a questões que cobram identificação/aplicação de teoria específica como labeling approach e criminologia cultural, com critério de desempate claro frente a 4386/4387 (categorias amplas) quando o enunciado nomeia a teoria. A segunda opção é \"Processos de Criminalização e Cifras Criminais\" (4377), pois o caso narrado evidencia seletividade penal (criminalização secundária) no tratamento diferenciado entre o jovem branco e o negro, tema relacionado mas que não é o foco direto da assertiva, que está centrada na teoria da criminologia cultural/etiquetamento, não na classificação do processo de criminalização em si.",
+ "multi_tema": false,
+ "segunda_opcao_id": "4377",
+ "subtema_n2_id": "4388",
+ "tema_n1_id": "4385",
+ "id": "Q0105",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4385",
+  "segunda_opcao_n1_id": "4377",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata da criminologia cultural e sua relação com o paradigma do etiquetamento (labeling approach), explicando a criminalidade a partir de fatores sociológicos (contracultura, representação de populações periféricas, seletividade penal evidenciada pelo tratamento diferenciado entre o jovem branco e o negro). Isso se encaixa no tema \"Teorias Sociológicas Explicativas da Criminalidade\", que abrange as teorias criminológicas em espécie, incluindo o labeling approach e a criminologia cultural. Também guarda relação com \"Processos de Criminalização e Cifras Criminais\" (criminalização secundária/seletividade), por isso indicado como segunda opção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1377,
+  "cache_w": 32235,
+  "cache_r": 78694,
+  "custo_usd": 0.16433979999999998
+ }
+}

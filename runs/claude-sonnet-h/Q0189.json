@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5469",
+ "confianca_ramo": 0.82,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5191",
+ "extras_ids": [
+  "5472",
+  "5196"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa o princípio da disponibilidade (oportunidade) da ação penal privada: o querelante pode desistir a qualquer tempo, ressalvado apenas o trânsito em julgado de sentença condenatória. Trata-se de um traço característico/princípio geral da ação penal privada, e não de um instituto nominado específico (não é propriamente renúncia, perdão ou perempção, cada um com requisitos próprios), por isso encaixa-se melhor em \"Ação Penal\" (5466), nível que já abrange a disciplina da ação privada e seus princípios. Dentro dele, o subtema mais afim é \"Princípios da Ação Penal\" (5469), que trata expressamente de disponibilidade/oportunidade da ação privada — mas marco confiança moderada no subtema, pois a questão também poderia ser alocada em \"Ação Penal de Iniciativa Privada\" (5472), que trata do mesmo tema de forma mais ampla (sem diferenciar claramente o eixo \"princípio\" do eixo \"espécie de ação\"). Mantenho como segunda opção \"Punibilidade\" (5191), pois a banca pode ter pretendido testar a lógica da renúncia/perdão como causas extintivas (art. 106 CP), embora o enunciado não mencione explicitamente aceitação do querelado nem distinga renúncia de perdão, falando apenas em \"desistência\" genérica — o que pesa a favor do enquadramento processual (Ação Penal) em vez do enquadramento material (Punibilidade).",
+ "id": "Q0189",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5191",
+  "confianca_ramo": 0.72,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o princípio da disponibilidade da ação penal privada, segundo o qual o querelante pode desistir da ação a qualquer tempo, encontrando óbice apenas no trânsito em julgado da sentença condenatória (correlato à perempção/renúncia, mas aqui tratado como característica processual da ação penal privada). O eixo central é a disciplina da ação penal de iniciativa privada no processo penal, cabendo no tema \"Ação Penal\" (nível 1, Processo Penal), especificamente no subtema \"Ação Penal de Iniciativa Privada\". Como segunda opção, o tema \"Punibilidade\" (Penal), que trata de renúncia, perdão e perempção como causas extintivas, é plausível caso a banca tenha pretendido testar a extinção da punibilidade em si."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2506,
+  "cache_w": 35689,
+  "cache_r": 78694,
+  "custo_usd": 0.1933578
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5063",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5064",
+ "extras_ids": [
+  "5065"
+ ],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema de nível 1 \"Ação Penal\" (5063): a questão exige identificar a espécie de ação penal cabível para ameaça (art. 147, CP – pública condicionada à representação, art. 147, parágrafo único), injúria (art. 140, CP – privada, regra geral) e perseguição/stalking (art. 147-A, CP – pública condicionada à representação, art. 147-A, §3º). Não se trata de extinção da punibilidade, prescrição, decadência ou perdão — não há qualquer causa extintiva em discussão —, o que descarta \"Punibilidade\" (5191) como tema correto, apesar de ter sido a segunda opção no estágio anterior. Como a questão abrange simultaneamente crimes de ação pública condicionada (ameaça e perseguição) e de ação privada (injúria), nenhum subtema isolado (5064 \"Ação Penal Pública\" ou 5065 \"Ação Penal Privada\") cobre toda a questão isoladamente; por isso subtema_n2_id = null, com ambos listados como relevantes (segunda opção 5064, extra 5065).",
+ "id": "Q0007",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão narra fatos envolvendo ameaça, injúria e perseguição, mas a pergunta central exige saber qual a natureza da ação penal (pública incondicionada, condicionada à representação ou privada) de cada um desses crimes. O conhecimento testado é especificamente sobre Ação Penal, tema do grupo P3 (Parte geral: pena, medida de segurança, punibilidade, prescrição e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5063",
+  "segunda_opcao_n1_id": "5191",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A pergunta exige identificar a natureza da ação penal (pública incondicionada, condicionada ou privada) para os crimes de ameaça, injúria e perseguição narrados. O conhecimento central testado é exatamente a classificação da ação penal de cada delito, que é o objeto do tema de nível 1 \"Ação Penal\" (5063), com subtemas \"Ação Penal Privada\" e \"Ação Penal Pública\" cobrindo justamente essa distinção. Não é questão sobre extinção da punibilidade, prescrição ou pena, descartando os demais temas do grupo P3."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2563,
+  "cache_w": 48003,
+  "cache_r": 101498,
+  "custo_usd": 0.2480946
+ }
+}

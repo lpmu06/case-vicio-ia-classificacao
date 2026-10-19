@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": "5482",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5484",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige definir qual Justiça (Militar da União, Tribunal do Júri, Justiça Federal) é competente para julgar crime doloso contra a vida praticado por militar federal e por policial militar estadual em operação de GLO, o que é típico problema de competência em razão da matéria (distinção entre Justiça Militar da União e Justiça comum/Júri conforme a natureza do agente e do crime).",
+ "id": "Q0266",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 776,
+  "cache_w": 2419,
+  "cache_r": 214056,
+  "custo_usd": 0.06157820000000001
+ }
+}

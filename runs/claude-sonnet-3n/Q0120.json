@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5590",
+ "subtema_n2_id": "5591",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.72,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [
+  "5547"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão trata do momento processual para a especificação de provas pelo réu (resposta à acusação) e da possibilidade de indicação de outros meios de prova no interrogatório. O eixo testado é a regra geral sobre o momento/ônus de requerimento de provas pela defesa, matéria de Teoria Geral das Provas (5590), especificamente do subtema Finalidade, Sujeitos e Ônus da Prova (5591), que trata de quem deve provar e quando. O interrogatório aparece apenas como contexto de uma exceção à regra geral, não havendo pergunta sobre a disciplina específica do interrogatório (natureza, forma, garantias), o que afastaria 5543/5547. Mantida confiança moderada no subtema por não ser questão classicamente \"didática\" sobre ônus, mas sobre regra procedimental de especificação de provas, que se encaixa melhor em 5591 do que em qualquer outro subtema de 5590.",
+ "id": "Q0120",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": null,
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata do momento processual adequado para a especificação/requerimento de provas pelo réu (resposta à acusação) e da possibilidade de indicar provas no interrogatório, matéria de Teoria Geral das Provas, tema do grupo PP4 (Provas)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5590",
+  "segunda_opcao_n1_id": "5543",
+  "confianca_ramo": 0.82,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre regra geral de momento/ônus de especificação de provas pelo réu (resposta à acusação) e a possibilidade de indicação de provas no interrogatório — é matéria de Teoria Geral das Provas (sujeitos e ônus da prova, momento de requerimento), e não sobre a disciplina específica do interrogatório como meio de prova em si (não se pergunta sobre natureza, conteúdo ou validade do interrogatório). Por isso o tema central é 5590 (Teoria Geral das Provas), com 5543 (Provas em Espécie/Interrogatório) como segunda opção plausível, já que o interrogatório é mencionado como contexto."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1522,
+  "cache_w": 52349,
+  "cache_r": 101498,
+  "custo_usd": 0.25766659999999997
+ }
+}

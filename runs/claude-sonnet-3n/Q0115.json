@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 \"Teorias Sociológicas Explicativas da Criminalidade\" (4385), pois a questão compara expressamente cinco teorias sociológicas nominadas (Escola de Chicago, associação diferencial, anomia, labeling approach, teoria crítica) para identificar qual melhor explica o caso narrado. Quanto ao subtema, o critério de desempate descrito em 4388 é claro: \"se o enunciado cobra uma teoria específica, seus autores ou seus conceitos próprios, classifique em 4388; se cobra a categoria explicativa ampla, use 4386 ou 4387\". Aqui a questão não pede apenas a categoria ampla (sociológica x individual), mas exige que o aluno reconheça e aplique o conceito próprio de cada teoria nominada (em especial a Teoria da Anomia, de Durkheim/Merton, sobre desregulação normativa em momento de crise pessoal) para eleger a correta entre alternativas que são todas teorias em espécie. Por isso, classifico em 4388 (Teorias Criminológicas em Espécie), com confiança um pouco mais moderada por ser questão comparativa entre várias teorias nominadas, e não sobre uma única teoria isolada. Marco multi_tema = true porque as alternativas trazem teorias distintas, unidas pelo eixo comum \"teorias sociológicas explicativas da criminalidade\". Como segunda opção, indico 4387 (Teorias de Nível Sociológico), caso se entenda que a questão testa apenas a categoria ampla em vez do conceito específico de cada teoria nominada.",
+ "id": "Q0115",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão apresenta um caso de colapso emocional/pessoal (demissão, dívidas, desespero) que desencadeia uma explosão de atos violentos e desviantes por parte de um cidadão até então \"pacato\" — cenário clássico utilizado para ilustrar a Teoria da Anomia (ruptura/desregulação das normas reguladoras de conduta diante de frustração e perda de referências, conforme Durkheim/Merton), que é uma das alternativas e a que melhor se encaixa na narrativa. O tema pertence ao grupo C2 (Teorias Sociológicas Explicativas da Criminalidade), que reúne justamente as teorias sociológicas de criminalidade (anomia, associação diferencial, labeling approach, Escola de Chicago, teoria crítica) listadas nas alternativas."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4385",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão pede que se identifique, entre diversas teorias sociológicas da criminalidade (Escola de Chicago, associação diferencial, anomia, labeling approach, teoria crítica), qual melhor explica o caso narrado (colapso emocional após demissão, desespero financeiro, desregulação de condutas levando a atos violentos repentinos por um \"pacato cidadão\"). O gabarito correto é a Teoria da Anomia (Durkheim/Merton), que trata exatamente da ruptura das normas reguladoras de conduta em momentos de crise/frustração pessoal. Como todas as alternativas são teorias sociológicas explicativas da criminalidade e a pergunta exige comparação entre elas para eleger a mais adequada, o tema de nível 1 \"Teorias Sociológicas Explicativas da Criminalidade\" (4385) é o que corretamente abrange o conjunto, não havendo subtema específico listado que corresponda exclusivamente à Teoria da Anomia. Não há outro tema de nível 1 concorrente plausível, pois as demais opções do grupo (Teorias Legitimidoras da Pena, Política Criminal, Processos de Criminalização) não tratam do conteúdo testado."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2781,
+  "cache_w": 46027,
+  "cache_r": 101498,
+  "custo_usd": 0.2395736
+ }
+}

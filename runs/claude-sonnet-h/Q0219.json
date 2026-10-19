@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.72,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5074",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O enunciado fornecido é apenas o item final (\"está presente a hipótese de participação necessária imprópria\"), sem o texto da situação hipotética. \"Participação necessária imprópria\" é terminologia ligada à classificação dos crimes quanto ao número de agentes (crimes plurissubjetivos/concurso necessário), tema correlato mas não idêntico ao concurso eventual de pessoas (art. 29 CP) nem à \"Participação\" em sentido estrito (induzimento/instigação/auxílio) do subtema 5074. Mantenho o tema de nível 1 Concurso de Pessoas (5071) por ser o ramo mais próximo disponível na árvore, mas, como nenhum subtema listado corresponde exatamente ao conceito de concurso necessário (próprio/impróprio) de crimes plurissubjetivos, deixo subtema_n2_id como null para evitar classificação incorreta em subtema irmão. A ausência do enunciado completo também reduz a confiança no tema de nível 1.",
+ "id": "Q0219",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.82,
+  "multi_tema": false,
+  "justificativa": "A questão trata de \"participação necessária imprópria\", conceito ligado aos crimes plurissubjetivos e à teoria do concurso de pessoas (distinção entre crimes de concurso necessário próprio e impróprio), matéria central do tema Concurso de Pessoas (nível 1, id 5071), especificamente relacionada ao subtema de Participação."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1489,
+  "cache_w": 30641,
+  "cache_r": 78694,
+  "custo_usd": 0.1579218
+ }
+}

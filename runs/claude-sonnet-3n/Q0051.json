@@ -1,0 +1,38 @@
+{
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5170",
+ "extras_ids": [],
+ "multi_tema": false,
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": "5182",
+ "justificativa": "A questão exige exatamente o domínio das hipóteses de extraterritorialidade da lei penal brasileira (art. 7º do CP): princípio da nacionalidade ativa, princípio da representação, justiça penal universal e princípio da defesa, bem como a distinção entre extraterritorialidade condicionada e incondicionada. O caso do racismo no jogo de futebol é mero pretexto narrativo; o que se testa é a aplicação espacial da lei penal brasileira a fatos ocorridos no exterior. Isso corresponde precisamente ao subtema \"Lei Penal no Espaço\" (5182), dentro do tema de nível 1 \"Lei Penal no Tempo e no Espaço\" (5180), cujos próprios descritores citam territorialidade, extraterritorialidade condicionada/incondicionada e CP art. 7º. Mantenho como segunda opção o tema guarda-chuva \"Introdução ao Estudo do Direito Penal\" (5170), por ser menos específico, mas adequado caso se prefira tratar como noção geral.",
+ "id": "Q0051",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P1",
+  "segundo_grupo_id": null,
+  "confianca": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente a extraterritorialidade da lei penal brasileira (princípios da territorialidade mitigada, nacionalidade ativa, representação, justiça universal e defesa, extraterritorialidade condicionada/incondicionada), matéria do tema \"Lei Penal no Tempo e no Espaço\", dentro do grupo P1 (Parte geral: fundamentos e lei penal). O contexto do caso (racismo em jogo de futebol) é apenas narrativo, não afeta a classificação."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5180",
+  "segunda_opcao_n1_id": "5170",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão exige o domínio das regras de extraterritorialidade da lei penal brasileira (territorialidade mitigada, nacionalidade ativa, representação, justiça universal, defesa, extraterritorialidade condicionada/incondicionada), conteúdo do tema \"Lei Penal no Tempo e no Espaço\" (subtema Lei Penal no Espaço), id 5180. O caso do racismo em jogo de futebol é apenas pretexto narrativo. Como segunda opção, o tema guarda-chuva \"Introdução ao Estudo do Direito Penal\" (5170), por tratar de noções gerais aplicáveis, embora menos específico."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1586,
+  "cache_w": 51011,
+  "cache_r": 101498,
+  "custo_usd": 0.2501376
+ }
+}

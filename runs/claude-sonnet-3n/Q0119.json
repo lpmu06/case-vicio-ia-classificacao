@@ -1,0 +1,38 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão pergunta até quando a lei posterior que descriminaliza a conduta (abolitio criminis) pode beneficiar o acusado — inclusive após o trânsito em julgado, conforme art. 2º, caput, do CP e art. 5º, XL, da CF. O eixo é a retroatividade da lei penal benéfica e seu marco temporal, matéria central de direito penal material sobre sucessão de leis no tempo (5180/5181), e não de processo penal, apesar de o enunciado usar denúncia/sentença/trânsito em julgado apenas como marcos processuais para testar o alcance temporal da retroatividade. Não há dúvida sobre lugar do crime ou conflito aparente de normas (5182/5183), nem se trata de tema introdutório genérico (5170), de modo que o subtema específico \"Lei penal no Tempo\" (5181) é o mais preciso.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5170",
+ "subtema_n2_id": "5181",
+ "tema_n1_id": "5180",
+ "id": "Q0119",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P1",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata de abolitio criminis (lei posterior que deixa de considerar o fato crime), instituto de direito penal material relativo à retroatividade da lei penal benéfica, cuja aplicação não se sujeita a limites temporais processuais (opera mesmo após o trânsito em julgado). O tema central é \"Lei Penal no Tempo e no Espaço\", integrante do grupo P1 (Parte geral: fundamentos e lei penal), e não um tema de Processo Penal, apesar da origem da classificação original."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5180",
+  "segunda_opcao_n1_id": "5170",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre abolitio criminis — lei posterior que deixa de considerar o fato crime — e exige saber até quando essa lei penal benéfica retroage (inclusive após o trânsito em julgado, nos termos do art. 2º, caput, do CP e art. 5º, XL, da CF). Trata-se de instituto de direito penal material relativo à vigência e retroatividade da lei penal no tempo, tema central e específico de \"Lei Penal no Tempo e no Espaço\" (subtema \"Lei penal no Tempo\"), não de Processo Penal, apesar da origem da classificação apontar para lá (menção a denúncia, sentença, trânsito em julgado é apenas o cenário processual usado para testar o marco temporal da retroatividade penal). Segunda opção (Introdução ao Estudo do Direito Penal) é apenas subsidiária, pois o tema central aqui é específico e bem mapeado em 5180."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1779,
+  "cache_w": 46531,
+  "cache_r": 101498,
+  "custo_usd": 0.23284360000000004
+ }
+}

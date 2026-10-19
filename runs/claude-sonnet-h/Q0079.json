@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5580",
+ "subtema_n2_id": "5581",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5582",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão discute diretamente os critérios de política criminal que orientam a escolha entre sistemas acusatório e inquisitivo (ex.: gabarito na alternativa E), além de características comparativas desses modelos (eficiência da repressão, imparcialidade). O núcleo é a estrutura do sistema processual em si, e não um princípio isolado, o que direciona para o subtema específico \"Sistemas Processuais Penais\" (5581), mantendo-se dentro do tema guarda-chuva 5580.",
+ "id": "Q0079",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5580",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente dos sistemas processuais penais (acusatório e inquisitivo) e dos critérios de política criminal que orientam sua adoção, tema central de \"Sistemas e Princípios Processuais Penais\" (subtema Sistemas Processuais Penais)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 858,
+  "cache_w": 29175,
+  "cache_r": 78694,
+  "custo_usd": 0.1453718
+ }
+}

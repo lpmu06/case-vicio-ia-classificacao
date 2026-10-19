@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": "5076",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5089",
+ "extras_ids": [
+  "5087"
+ ],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema de nível 1 Concurso de Pessoas (5071): a pergunta não exige dominar os elementos do tipo de peculato em si, mas sim resolver se a elementar \"funcionário público\" (condição pessoal de Tício) se comunica a Mévio, particular que concorreu ciente dessa qualidade — é a aplicação clássica e didática do art. 30 do CP em crime próprio (peculato), hipótese textualmente prevista na descrição do subtema 5076 (\"especialmente em crimes próprios, como peculato e infanticídio\"). Como a correspondência com esse subtema é praticamente literal (comunicabilidade de elementar + peculato + conhecimento da condição funcional pelo concorrente), agora atribuo subtema_n2_id = 5076 com confiança alta. A segunda opção fica com o tema Crimes Contra a Administração Pública (5087), já que uma leitura mais superficial poderia classificar a questão pelo tipo penal de fundo (peculato, subtema 5089), mas o eixo da pergunta é a regra geral de extensão da elementar entre concorrentes, não a tipicidade do peculato isoladamente.",
+ "id": "Q0194",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": "P8",
+  "confianca": 0.8,
+  "multi_tema": false,
+  "justificativa": "A questão exige saber se a condição de funcionário público de Tício (elementar do peculato) se comunica a Mévio, particular que atua em concurso ciente dessa qualidade. Trata-se da aplicação do art. 30 do CP (comunicabilidade de elementares no concurso de pessoas), tema central testado, não apenas o crime de peculato em si. Por isso o tema mais adequado é Concurso de Pessoas (P2), ainda que o contexto fático envolva peculato (P8, Crimes Contra a Administração Pública)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": "5087",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão testa especificamente a comunicabilidade da elementar \"funcionário público\" ao particular que concorre para o peculato ciente dessa condição (art. 30 do CP), núcleo da teoria do concurso de pessoas (subtema \"Comunicabilidade de Circunstâncias, Condições e Elementares\" dentro de Concurso de Pessoas, P2/5071). O crime de peculato é apenas o pano de fundo fático para testar essa regra geral, não o foco da pergunta, que é saber se Mévio também responde por peculato. Por isso mantenho Concurso de Pessoas como tema principal, com Crimes Contra a Administração Pública (5087) como segunda opção plausível, já que uma parte do corpo docente pode entender que o enquadramento típico do peculato é o eixo central."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2451,
+  "cache_w": 49357,
+  "cache_r": 102908,
+  "custo_usd": 0.2559916
+ }
+}

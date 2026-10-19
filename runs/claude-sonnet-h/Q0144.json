@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5562",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5524",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta literalmente qual recurso cabe contra sentença do juiz-presidente do júri contrária à lei expressa ou à decisão dos jurados — hipótese do art. 593, III, \"d\", CPP, cuja resposta é apelação. O núcleo testado é a identificação do recurso cabível (técnica recursal), não o estudo do procedimento do júri em si, por isso o subtema correto é Apelação (5562), dentro do tema Recursos em Espécies (5560). Mantida a Procedimento do Tribunal do Júri (5524) como segunda opção, pois o contexto fático é a sentença do júri.",
+ "id": "Q0144",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5524",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata da hipótese de cabimento de apelação contra sentença do juiz-presidente do Tribunal do Júri contrária à lei expressa ou à decisão dos jurados (art. 593, III, \"d\", CPP). O instituto testado é o recurso de apelação, especificamente sua hipótese de cabimento no procedimento do júri, o que se enquadra em \"Recursos em Espécies\" (subtema Apelação). Como segunda opção, cabe \"Procedimento do Tribunal do Júri\" (subtema Sentença do Júri), já que o contexto fático é o rito do júri, mas o núcleo da pergunta é recursal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1391,
+  "cache_w": 37048,
+  "cache_r": 78694,
+  "custo_usd": 0.1877998
+ }
+}

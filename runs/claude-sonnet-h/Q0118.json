@@ -1,0 +1,33 @@
+{
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5517",
+ "extras_ids": [
+  "5519",
+  "5523"
+ ],
+ "multi_tema": false,
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "justificativa": "A questão exige identificar a lógica de sucessão de leis processuais penais no tempo (art. 2º, CPP, tempus regit actum), distinguindo norma processual pura (fiança, que se aplica desde logo, sem retroagir sobre atos já praticados) de norma processual mista/híbrida com conteúdo restritivo da liberdade (prisão preventiva, que admite aplicação da regra mais favorável, por analogia ao art. 5º, XL, CF e art. 2º, CP). Embora o enredo utilize fiança e prisão preventiva como pano de fundo narrativo, a pergunta não indaga sobre requisitos de cabimento de fiança ou de preventiva (o que remeteria a 5517/5523/5519), mas sim sobre qual regra temporal rege a lei nova mais gravosa recém-editada. Esse é exatamente o núcleo do subtema 5507 (Lei processual no Tempo), que trata da distinção entre norma processual pura e híbrida para fins de aplicação imediata ou retroatividade benéfica. Mantenho 5505 como tema de nível 1 e refino para o subtema 5507, com 5517 como segunda opção pela presença forte dos institutos de prisão em espécie no enunciado.",
+ "id": "Q0118",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5505",
+  "segunda_opcao_n1_id": "5517",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa a aplicação da lei processual penal no tempo (art. 2º, CPP, e a distinção quanto a normas de natureza mista, como as que tratam de prisão preventiva, que admitem aplicação da regra mais favorável por conterem conteúdo material restritivo da liberdade). O eixo central é a disciplina da sucessão de leis processuais penais no tempo, correspondendo ao tema \"Lei Processual no Tempo e no Espaço\", e não à teoria geral das prisões especificamente (embora o exemplo utilize prisão preventiva e fiança como pano de fundo)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1343,
+  "cache_w": 34675,
+  "cache_r": 78694,
+  "custo_usd": 0.17585280000000003
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.82,
+ "extras_ids": [
+  "5583"
+ ],
+ "fora": false,
+ "justificativa": "Confirmo o tema de nível 1 em 5580 (Sistemas e Princípios Processuais Penais). O eixo decisivo da questão é a alternativa correta (E), que afirma que o juiz violou o sistema acusatório ao condenar mesmo com pedido de absolvição do titular da ação penal — isso é exatamente a separação entre acusar e julgar e a compatibilidade dos poderes do juiz com o modelo acusatório, núcleo do subtema 5581 (Sistemas Processuais Penais), e não um princípio isolado (5582) nem uma questão sobre os poderes/deveres dos sujeitos processuais em si (5583, que fica como extra por tangenciar o papel do MP e do juiz). As demais alternativas (prova no interrogatório da Lei de Drogas, regime inicial em concurso material, tráfico privilegiado) são institutos de penal material e processual distintos, confirmando o caráter multi-tema, mas o enunciado pede a alternativa correta, cujo fundamento central é o sistema acusatório. Por isso defino subtema_n2_id = 5581 com confiança moderada-alta.",
+ "multi_tema": true,
+ "segunda_opcao_id": "5583",
+ "subtema_n2_id": "5581",
+ "tema_n1_id": "5580",
+ "id": "Q0127",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5580",
+  "segunda_opcao_n1_id": "5583",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão é de múltipla escolha com alternativas versando sobre institutos distintos: (A) ordem do interrogatório como prova na Lei de Drogas; (B)/(E) sistema acusatório, independência funcional e papel do juiz frente ao pedido de absolvição do MP (gabarito tende à alternativa E); (C) regime inicial de pena em caso de concurso material com tráfico; (D) tráfico privilegiado mesmo diante de condenação por associação (art. 35). O eixo central testado pela alternativa correta (E) é a vedação ao juiz de condenar quando o titular da ação penal pede a absolvição, tema de sistemas e princípios processuais penais (sistema acusatório), por isso enquadrei em \"Sistemas e Princípios Processuais Penais\" (5580), com segunda opção em \"Sujeitos do Processo\" (5583), já que trata do papel do juiz e do MP. Marquei multi_tema=true pela diversidade de institutos nas alternativas (penal material, prova, princípios processuais)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2139,
+  "cache_w": 31293,
+  "cache_r": 78694,
+  "custo_usd": 0.1683598
+ }
+}

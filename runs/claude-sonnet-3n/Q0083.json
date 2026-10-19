@@ -1,0 +1,43 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.62,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5150",
+ "extras_ids": [
+  "5149",
+  "5222",
+  "5226",
+  "5224"
+ ],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema de nível 1 em 5218 (Teoria do Crime: Fato Típico), pois o núcleo dogmático que resolve a questão é a figura do \"dolo geral\" (aberratio causae): o agente, crendo consumado o resultado, pratica nova conduta (enterrar) que efetivamente produz a morte, e a doutrina majoritária resolve atribuindo o resultado ao dolo inicial, considerando um único crime de homicídio consumado (gabarito B) em concurso material com ocultação de cadáver. Essa discussão transita entre dolo (5222), erro/aberratio (5224) e nexo causal/imputação (5226) sem se encaixar perfeitamente em nenhum subtema específico listado — por isso deixo subtema_n2_id em null, evitando erro de classificação em subtema irmão. Como segunda opção, indico 5150 (Homicídio), pois a resposta final também exige conhecer a qualificadora de meio cruel/asfixia (art. 121, §2º) e a regra de concurso com ocultação de cadáver (art. 211 CP), ou seja, há relevância relevante de parte especial. Incluo como extras os subtemas candidatos de fato típico (5222, 5224, 5226) e o tema-mãe 5149, para dar visibilidade à incerteza entre eles.",
+ "id": "Q0083",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": "P4",
+  "confianca": 0.65,
+  "multi_tema": false,
+  "justificativa": "A questão trata do instituto do \"dolo geral\" (aberratio causae), em que o agente, pensando já ter consumado o resultado, pratica nova conduta que efetivamente o causa. Esse tema é classicamente estudado dentro da Teoria do Crime, no estudo do dolo (fato típico), pois a solução doutrinária é considerar um único crime doloso consumado (homicídio qualificado pela asfixia), e não dois crimes. Por isso o eixo central é dogmática do dolo/fato típico (P2), ainda que o resultado prático também seja relevante para a parte especial dos crimes contra a vida (P4)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5149",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão é o clássico caso de \"dolo geral\" (aberratio causae): o agente, crendo já ter consumado o homicídio, pratica nova conduta (enterrar) que efetivamente causa a morte. A doutrina resolve o caso dentro da teoria do dolo, considerando-se um único crime (homicídio consumado), afastando-se a autonomia da segunda conduta. O núcleo da questão é justamente esse debate dogmático sobre dolo/nexo causal/imputação do resultado ao dolo inicial, típico de Teoria do Crime: Fato Típico (5218). Mantenho como segunda opção Dos Crimes Contra a Vida (5149), pois a resposta correta também exige saber a qualificadora do homicídio (asfixia) e o concurso com ocultação de cadáver, ou seja, há relevância de parte especial, mas o cerne teórico que distingue as alternativas é a solução do dolo geral."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2703,
+  "cache_w": 52363,
+  "cache_r": 101498,
+  "custo_usd": 0.2686366
+ }
+}

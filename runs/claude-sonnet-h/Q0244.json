@@ -1,0 +1,30 @@
+{
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5091",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.98,
+ "segunda_opcao_id": "5092",
+ "extras_ids": [],
+ "multi_tema": false,
+ "fora": false,
+ "justificativa": "A questão reproduz literalmente o núcleo do art. 316, caput, do CP (concussão): \"exigir vantagem indevida... ainda que fora da função ou antes de assumi-la, mas em razão dela\". O verbo \"exigir\" é o elemento distintivo que caracteriza concussão (gabarito B), diferenciando-a da corrupção passiva (verbos solicitar/receber/aceitar promessa). Mantém-se o tema 5087 e subtema 5091 (Concussão e Excesso de Exação), com alta confiança.",
+ "id": "Q0244",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão testa o crime de concussão (art. 316, CP), cuja redação prevê expressamente a exigência de vantagem indevida \"ainda que fora da função ou antes de assumi-la, mas em razão dela\". Trata-se de crime contra a Administração Pública praticado por funcionário público, enquadrando-se no tema de nível 1 \"Dos Crimes Contra a Administração Pública\" (subtema Concussão e Excesso de Exação)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 983,
+  "cache_w": 34410,
+  "cache_r": 78694,
+  "custo_usd": 0.1709328
+ }
+}

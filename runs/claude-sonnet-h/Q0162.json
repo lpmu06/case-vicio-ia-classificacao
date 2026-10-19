@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4380",
+ "subtema_n2_id": "4381",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "4368",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa a distinção conceitual entre controle social formal (polícia, Judiciário, administração penitenciária) e informal (família, escola, opinião pública), apresentada como um dos objetos modernos de estudo da criminologia (\"giro metodológico\"). Isso corresponde exatamente às palavras-chave do subtema 4381 (Conceito e objeto da Criminologia), que lista expressamente \"controle social formal, controle social informal\" como objeto da disciplina, dentro do tema 4380 (Teoria Geral da Criminologia) — cuja descrição trata precisamente de \"objeto de estudo: crime, criminoso, vítima e controle social\". O tema 4368 (Criminologia no Estado Democrático de Direito) é mais voltado à resposta estatal ao delito, modelos de reação e prevenção, não à definição conceitual de controle social formal/informal em si, que é mais basilar e introdutória. Por isso, troco a classificação de nível 1 para 4380, com subtema 4381, mantendo 4368 como segunda opção por também mencionar controle social nas palavras-chave.",
+ "id": "Q0162",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4368",
+  "segunda_opcao_n1_id": "4380",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata do controle social do delito, distinguindo controle social formal (polícia, Judiciário, administração penitenciária) de informal (família, escola, opinião pública) — tema diretamente ligado a \"Criminologia no Estado Democrático de Direito\", que aborda controle social e modelos de reação ao delito. Como não há subtema específico sobre \"controle social formal/informal\", a classificação correta é no nível 1 (4368). Alternativamente, poderia ser enquadrado em \"Teoria Geral da Criminologia\" (4380), por tratar de conceitos introdutórios, mas o foco específico em controle social aponta mais para 4368."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1540,
+  "cache_w": 32303,
+  "cache_r": 78694,
+  "custo_usd": 0.1656148
+ }
+}

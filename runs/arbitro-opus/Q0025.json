@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5101",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5093",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Um particular pede vantagem \"a pretexto de influir em ato praticado por funcionário público\". Isso é exatamente o tipo do tráfico de influência (art. 332 do CP), e não corrupção ativa (art. 333), que exige oferecer ou prometer vantagem ao próprio funcionário. Por isso o gabarito é \"Errado\". A questão compara dois tipos penais próximos e o centro dela é o art. 332, o que leva ao subtema 5101. Descartei o tema 5063 (Ação Penal), sugerido apenas pelo assunto de origem: a questão não trata de titularidade nem de espécie de ação penal.",
+ "id": "Q0025",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5087",
+  "5063"
+ ],
+ "candidatos_subtemas": [
+  "5101"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 565,
+  "cache_w": 11175,
+  "cache_r": 16390,
+  "custo_usd": 0.111966
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5500",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A assertiva versa sobre a atribuição (competência) para instauração do inquérito policial — se cabe à Polícia Federal, por envolver bens/serviços da União, ou à Polícia Civil, por a instituição financeira ter ressarcido os clientes e assumido o prejuízo (critério da vítima final do crime). Trata-se de questão sobre quem pode/deve instaurar o inquérito, matéria de Inquérito Policial (5498), e não de Ação Penal (5466), pois nada se discute sobre denúncia, queixa ou legitimidade para a ação penal propriamente dita. Dentro do tema 5498, o assunto mais próximo seria \"Procedimento do Inquérito Policial\" (5500), que trata de formas de instauração, mas como a questão foca especificamente em critério de atribuição/competência investigativa (tema não claramente coberto por nenhum subtema específico listado, que trata mais de notitia criminis, requisição, flagrante etc.), prefiro manter o subtema como null, com confiança baixa-moderada, mantendo o tema de nível 1 já indicado.",
+ "id": "Q0197",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a atribuição da Polícia Federal para instaurar inquérito policial em razão de fraudes bancárias que lesaram clientes (não a União/Banco do Brasil enquanto patrimônio próprio), exigindo conhecimento sobre competência investigativa e instauração de inquérito — tema de Inquérito Policial, dentro do grupo PP2 (Investigação e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "A assertiva testa a atribuição para instauração/condução do inquérito policial (competência da Polícia Federal vs. Polícia Civil, conforme a vítima da fraude seja o particular cliente ressarcido ou a própria instituição federal), matéria típica de Inquérito Policial (instauração e procedimento investigatório), não de Ação Penal. Mantém-se o tema 5498, já indicado no estágio anterior."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1693,
+  "cache_w": 48007,
+  "cache_r": 102908,
+  "custo_usd": 0.2415556
+ }
+}

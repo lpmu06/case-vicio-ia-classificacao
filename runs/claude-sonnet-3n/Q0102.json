@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5572",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5577",
+ "extras_ids": [
+  "5574"
+ ],
+ "multi_tema": true,
+ "justificativa": "Mantenho o tema de nível 1 \"Sentença Penal\" (5572), pois toda a questão gira em torno da sentença e seus efeitos. Porém, dentro dele a questão mistura dois subtemas distintos sem eixo único: as alternativas (A), (D) e (E) tratam de efeitos da sentença condenatória (reparação do dano - art. 63/387 CPP, confisco do produto do crime e perda de função pública - arts. 91-92 CP), que são exatamente o conteúdo de \"Efeitos Decorrentes da Sentença Penal Condenatória\" (5577); já as alternativas (B) e (C) tratam da sentença absolutória (efeitos civis da absolvição por insuficiência de provas - art. 66 CPP - e conceito de absolvição imprópria com medida de segurança - art. 386, parágrafo único, CPP), que é o núcleo de \"Sentença Absolutória\" (5574). Como não há predominância clara de um único subtema sobre o outro (3 alternativas vs 2, mas ambos institutos centrais e testados em profundidade), não tenho certeza suficiente para escolher apenas um subtema de nível 2, optando por deixá-lo em branco (null) e indicar 5577 como segunda opção e 5574 como tema extra relevante. Marquei multi_tema = true porque, embora o tema de nível 1 seja uniforme, o eixo de nível 2 varia entre as alternativas.",
+ "id": "Q0102",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP7",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata da sentença penal e seus efeitos (efeitos civis da condenação, coisa julgada cível, sentença absolutória imprópria, efeitos específicos da condenação como perda de bens e perda de função pública - arts. 63-68 e 91-92 do CPP/CP), matéria tipicamente estudada dentro de \"Sentença Penal\" em Processo Penal (grupo PP7)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5572",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa inteiramente sobre a sentença penal e seus efeitos: natureza da sentença condenatória quanto à reparação do dano (art. 63/387 CPP), efeitos da absolvição por insuficiência de provas na esfera cível (art. 66 CPP), conceito de sentença absolutória imprópria (que aplica medida de segurança), e efeitos específicos da condenação como confisco de produto do crime e perda de função pública (arts. 91-92 CP). Todo o eixo temático é \"Sentença Penal\", tema de nível 1 do grupo PP7 (id 5572), cujos subtemas incluem exatamente \"Sentença Absolutória\" e \"Efeitos Decorrentes da Sentença Penal Condenatória\". Não há conteúdo relativo a nulidades processuais, o que afasta o tema 5509. Não é multi-tema, pois todas as alternativas giram em torno do mesmo instituto (sentença e seus efeitos)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2395,
+  "cache_w": 45907,
+  "cache_r": 101498,
+  "custo_usd": 0.23616760000000003
+ }
+}

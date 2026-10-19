@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": "5072",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5073",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra diretamente a teoria do domínio do fato (Welzel/Roxin) como critério de distinção entre autor e partícipe, assunto central do subtema Autores e Partícipes dentro de Concurso de Pessoas. O enunciado está errado porque essa teoria é de base finalista (domínio final do fato - controle da decisão e do curso causal), e não objetivo-formal (prática de atos executórios), que é o critério da teoria restritiva clássica. Não se trata de autoria mediata/colateral/coautoria (5073), pois não há discussão sobre instrumento humano ou atuação independente de agentes, mas sim sobre o conceito geral distintivo entre autor e partícipe.",
+ "id": "Q0131",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão testa a teoria do domínio do fato como critério distintivo entre autoria e participação, tema central de Concurso de Pessoas (subtema Autores e Partícipes). O enunciado está errado, pois essa teoria não se baseia na prática de atos executórios (critério objetivo-formal), mas no controle final do fato (domínio da decisão e do curso causal do delito)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1132,
+  "cache_w": 31667,
+  "cache_r": 78694,
+  "custo_usd": 0.1585788
+ }
+}

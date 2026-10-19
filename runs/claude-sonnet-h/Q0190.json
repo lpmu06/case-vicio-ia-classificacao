@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5540",
+ "extras_ids": [
+  "5541",
+  "5542"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 \"Procedimento Sumaríssimo\" (5539): a questão é integralmente sobre institutos da Lei 9.099/95. Cada alternativa, porém, versa sobre um subtema distinto e específico dentro desse mesmo ramo - (A) e (B) tratam de competência/conceito de infração de menor potencial ofensivo (subtema 5540), (C) trata de suspensão condicional do processo (subtema 5542), (D) trata de composição civil dos danos (que não tem subtema próprio listado, ficando no nível 1), e (E) trata de transação penal (subtema 5541). Como não há um único subtema que abranja exatamente o conjunto de alternativas cobradas, mantenho subtema_n2_id = null e marco multi_tema = true, pois a questão exige conhecimento de múltiplos subtemas irmãos dentro do mesmo tema de nível 1, sem que nenhum deles isoladamente capture a questão inteira. Isso evita o erro de publicar a questão em um subtema específico (ex.: só Transação Penal) quando ela também cobra competência e suspensão condicional do processo.",
+ "id": "Q0190",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5539",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa inteiramente sobre institutos da Lei 9.099/95 (Juizados Especiais Criminais): competência, conceito de infração de menor potencial ofensivo, suspensão condicional do processo, composição civil e transação penal. Embora cada alternativa trate de um instituto diferente, todos pertencem ao mesmo tema de nível 1 \"Procedimento Sumaríssimo\", que abrange exatamente esses subtemas (Competência dos JECrim, Suspensão Condicional do Processo, Transação Penal), não havendo necessidade de marcar como multi-tema entre ramos distintos."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1517,
+  "cache_w": 32027,
+  "cache_r": 78694,
+  "custo_usd": 0.1641998
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão pede diretamente a definição/natureza jurídica do habeas corpus, comparando-o com recurso, mandado de segurança e revisão criminal nas alternativas erradas. O eixo é exclusivamente o conceito do instituto HC, encaixando-se no subtema \"Habeas Corpus\" dentro de \"Ações Autônomas de Impugnação\" (Processo Penal).",
+ "multi_tema": false,
+ "segunda_opcao_id": "5478",
+ "subtema_n2_id": "5477",
+ "tema_n1_id": "5476",
+ "id": "Q0314",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5476",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão pede a definição correta de habeas corpus, instituto processual penal autônomo de impugnação destinado a tutelar a liberdade de locomoção contra ilegalidade ou abuso de poder. O tema central é o próprio conceito e natureza jurídica do habeas corpus, que se enquadra no subtema \"Habeas Corpus\" dentro do tema de nível 1 \"Ações Autônomas de Impugnação\" (Processo Penal)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 900,
+  "cache_w": 28074,
+  "cache_r": 79634,
+  "custo_usd": 0.1417288
+ }
+}

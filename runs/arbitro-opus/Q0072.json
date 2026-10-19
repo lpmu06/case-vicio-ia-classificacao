@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5590",
+ "subtema_n2_id": "5592",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.72,
+ "segunda_opcao_id": "5499",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o art. 155 do CPP: no sistema do livre convencimento motivado, o juiz forma sua convicção pela prova produzida em contraditório e não pode se basear exclusivamente nos elementos informativos da investigação. Isso cai em Sistemas de Avaliação da Prova (alternativa B correta). O Inquérito Policial (5498/5499) é só o cenário, porque o eixo da questão é como o juiz valora a prova, e não a natureza ou o procedimento do inquérito.",
+ "id": "Q0072",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5590",
+  "5498"
+ ],
+ "candidatos_subtemas": [
+  "5592"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 569,
+  "cache_w": 9885,
+  "cache_r": 16390,
+  "custo_usd": 0.100759
+ }
+}

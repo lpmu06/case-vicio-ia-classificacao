@@ -1,0 +1,35 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5084",
+ "extras_ids": [
+  "5093",
+  "5101",
+  "5089",
+  "5147"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 como 5087 (Crimes Contra a Administração Pública), que serve de guarda-chuva comum ao enunciado (\"crimes praticados contra a Administração Pública\") e abrange diretamente as alternativas A (peculato, art. 312/313 CP), B (corrupção ativa, art. 333 CP), D (tráfico de influência, art. 332 CP) — todos subtemas de 5087. Contudo, a alternativa C versa sobre favorecimento pessoal e real (art. 348/349 CP), que pertence ao tema 5079 (Administração Judicial), subtema 5084; e a alternativa E versa sobre crime contra as finanças públicas (art. 359-G CP), fora de 5087 e 5079. Como as alternativas testam institutos de títulos diferentes sem eixo único de instituto, mantenho a classificação como multi-tema, com 5087 como tema de nível 1 (predominância de itens e guarda-chuva mais amplo) e não atribuo subtema específico (null), pois nenhum subtema isolado de 5087 cobre a questão como um todo. A segunda opção mais relevante é o subtema 5084 (favorecimento pessoal e real), dada a especificidade da alternativa C, que é tipicamente o ponto mais technicamente destacado (isenção de pena apenas no favorecimento pessoal, não no real). Mantenho confiança moderada no ramo (0.8) e nula no subtema, pois a questão não se encaixa com certeza em nenhum subtema único de 5087.",
+ "id": "Q0073",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5079",
+  "confianca_ramo": 0.7,
+  "multi_tema": true,
+  "justificativa": "O enunciado é genericamente sobre \"crimes praticados contra a Administração Pública\", eixo do tema 5087 (peculato, corrupção ativa, tráfico de influência são tratados ali). Porém as alternativas mesclam institutos de outros títulos: favorecimento pessoal/real é crime contra a Administração Judicial (tema 5079) e a alternativa E trata de crimes contra as finanças públicas (tema 5147). Por não haver eixo único de instituto, mas sim um guarda-chuva comum (Administração Pública em sentido amplo), classifico como multi-tema, escolhendo 5087 como tema de nível 1 que melhor abrange o conjunto, com 5079 como segunda opção pela relevância da alternativa C."
+ },
+ "uso": {
+  "in": 4,
+  "out": 3135,
+  "cache_w": 38141,
+  "cache_r": 78694,
+  "custo_usd": 0.21100580000000002
+ }
+}

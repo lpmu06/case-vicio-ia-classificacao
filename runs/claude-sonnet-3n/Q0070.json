@@ -1,0 +1,40 @@
+{
+ "confianca_ramo": 0.78,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [
+  "5201"
+ ],
+ "multi_tema": false,
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "justificativa": "A questão versa sobre a tese do Tema 1012/STJ: se o período de prisão preventiva pode ser computado no requisito objetivo temporal de indulto/comutação previsto em decreto presidencial. Indulto e comutação são benefícios concedidos e geridos no curso da execução penal, de competência do juízo da execução, e a discussão sobre a extensão da detração (art. 42 CP) a esses benefícios é tema recorrente de prova de execução penal, por isso mantenho 4703 (Lei de Execução Penal) como tema principal; esse tema não possui subtemas, logo subtema_n2_id é null. Como segunda opção, mantenho 5199 (Teoria da Pena), pois o fundamento normativo central invocado é o art. 42 do CP (detração), tema de direito penal material; porém, revendo a lista de subtemas de 5199 agora apresentada, não há subtema específico de \"indulto/graça/anistia\" nem um que trate exatamente da extensão da detração a benefícios de indulto (o subtema 5201 cuida de regime/detração na execução da própria pena, não da aplicação por analogia a indulto/comutação), de modo que, mesmo na segunda opção, não haveria subtema exato — por isso também não indico subtema para 5199, apenas o cito como extra.",
+ "id": "Q0070",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.65,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o cômputo do período de prisão preventiva para fins de preenchimento do requisito objetivo temporal exigido em decretos de indulto e comutação de pena - institutos próprios da execução penal, disciplinados pela LEP (art. 189 e correlatos) e objeto de entendimento consolidado do STJ em recurso repetitivo (Tema 1012). Embora a discussão invoque o art. 42 do CP (detração), o eixo central da pergunta é a aplicabilidade desse cômputo aos benefícios de indulto/comutação na execução da pena, o que a aproxima mais de \"Lei de Execução Penal\" (LE4) do que da \"Teoria da Pena\" em sentido geral (P3), que fica como segunda opção por tratar da detração penal como instituto da parte geral."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.72,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento sobre o Tema 1012 do STJ (recurso repetitivo), que define se o período de prisão preventiva pode ser computado para fins de preenchimento do requisito objetivo temporal de indulto e comutação de pena previstos em decretos presidenciais. Trata-se de benefício típico da execução penal (indulto/comutação são formas de extinção/abrandamento da pena geridas no curso da execução, com procedimento e requisitos tratados pela LEP e por decretos executórios), de modo que o eixo da pergunta — aplicabilidade do cômputo aos benefícios executórios — está mais próximo de \"Lei de Execução Penal\" (4703) do que da \"Teoria da Pena\" (5199). O art. 42 do CP (detração) é invocado apenas como fundamento normativo da discussão, não sendo o objeto central da indagação, que é a extensão desse instituto aos benefícios de indulto/comutação na fase de execução. Por isso mantenho LE4 como tema principal e P3 (Teoria da Pena, que contém \"Anistia, Graça e Indulto\" como subtema de Punibilidade, tema irmão) como segunda opção, diante da interseção entre direito penal material (extinção da punibilidade/indulto) e execução penal."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2843,
+  "cache_w": 53433,
+  "cache_r": 101498,
+  "custo_usd": 0.2759566
+ }
+}

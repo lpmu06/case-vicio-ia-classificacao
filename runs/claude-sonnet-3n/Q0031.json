@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "4377",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra especificamente o conteúdo da teoria da anomia (Durkheim/Merton), teoria nominada com autores e conceitos próprios, descrevendo-a (de forma incorreta, ao misturar elementos de inovação/rebelião da tipologia mertoniana) como gerando negação da norma e criação de regras próprias. Por exigir conhecimento da teoria específica e não apenas da categoria ampla \"nível sociológico\", o enquadramento correto é 4388 (Teorias Criminológicas em Espécie), subtema de 4385. Mantida 4377 como segunda opção por tangenciar desvio/norma social, mas sem tratar de criminalização primária/secundária ou cifras.",
+ "id": "Q0031",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata da teoria da anomia (Durkheim/Merton), uma teoria sociológica explicativa da criminalidade, tema do grupo C2 (Teorias Sociológicas Explicativas da Criminalidade)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4385",
+  "segunda_opcao_n1_id": "4377",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente o conteúdo da teoria da anomia (Durkheim/Merton), afirmando que o crime surge da impossibilidade de atingir metas sociais, levando o indivíduo a negar a norma e criar regras próprias — isso é a descrição (incorreta, pois mistura elementos de inovação/rebelião da tipologia mertoniana) de uma teoria sociológica explicativa da criminalidade. Pertence ao tema guarda-chuva 4385 (Teorias Sociológicas Explicativas da Criminalidade), especificamente ao subtema \"Teorias Criminológicas em Espécie\". Como segunda opção, considerei 4377 (Processos de Criminalização e Cifras Criminais), por tangenciar o tema de desvio e norma social, mas a questão não trata de criminalização primária/secundária nem cifras, então a confiança no tema principal é alta."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1609,
+  "cache_w": 46022,
+  "cache_r": 101498,
+  "custo_usd": 0.22782260000000004
+ }
+}

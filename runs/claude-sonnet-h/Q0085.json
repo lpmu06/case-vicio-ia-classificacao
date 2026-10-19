@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": "5076",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5087",
+ "extras_ids": [
+  "5091"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta diretamente se a qualidade de funcionário público é elementar do crime de concussão e, em caso positivo, se e quando se comunica ao concorrente particular. O instituto testado é exatamente a regra do art. 30 do CP sobre comunicabilidade de elementares no concurso de pessoas (a resposta correta é a alternativa D: é elementar e se comunica ao particular se este conhecia a condição funcional do outro agente). O contexto do crime de concussão (art. 316 CP) é apenas o cenário narrativo usado para ilustrar a regra geral de comunicabilidade, não sendo testados os elementos típicos da concussão em si (exigir vantagem indevida em razão da função). Por isso, confirmo o subtema 5076 (Comunicabilidade de Circunstâncias, Condições e Elementares), dentro do tema de nível 1 Concurso de Pessoas (5071), mantendo como segunda opção o tema 5087 (Dos Crimes Contra a Administração Pública), caso se entenda que o exame pretendia testar o crime de concussão propriamente dito.",
+ "id": "Q0085",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": "5087",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "Embora o contexto narrativo seja o crime de concussão (crime funcional), a pergunta não testa os elementos do tipo de concussão, mas sim a regra de comunicabilidade de elementares entre coautores/partícipes (art. 30 do CP), quando a condição de funcionário público é elementar do crime e se comunica ao particular que tinha conhecimento dela. Esse é o instituto efetivamente exigido para responder a questão, correspondente ao subtema \"Comunicabilidade de Circunstâncias, Condições e Elementares\", dentro do tema de nível 1 Concurso de Pessoas (5071). Como segunda opção, indico Dos Crimes Contra a Administração Pública (5087), por ser o tema que trata do crime de concussão em si, caso o examinador tivesse pretendido testar o tipo penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1532,
+  "cache_w": 37729,
+  "cache_r": 78694,
+  "custo_usd": 0.1922678
+ }
+}

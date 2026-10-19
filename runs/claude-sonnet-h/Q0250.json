@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5201",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5204",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam diretamente sobre a fixação do regime inicial de cumprimento de pena (fechado, semiaberto, aberto), critérios de reincidência e crimes cometidos com violência/grave ameaça (roubo, extorsão mediante sequestro) para fins de regime. Isso é exatamente o núcleo do subtema \"Penas Privativas de Liberdade\" (5201), que trata de espécies de pena privativa de liberdade e critérios para fixação do regime inicial, dentro do tema guarda-chuva \"Teoria da Pena\" (5199). Não se trata de dosimetria em fases (circunstâncias judiciais, agravantes/atenuantes ou causas de aumento/diminuição), mas sim da etapa posterior de definição do regime de cumprimento, que é o objeto específico de 5201.",
+ "id": "Q0250",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata da determinação do regime inicial de cumprimento de pena (regime fechado, semiaberto, aberto), incluindo critérios como reincidência e natureza do crime (violência/grave ameaça), tema central da dosimetria/execução das penas privativas de liberdade, pertencente a \"Teoria da Pena\" (subtema Penas Privativas de Liberdade)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1117,
+  "cache_w": 33278,
+  "cache_r": 78694,
+  "custo_usd": 0.1676908
+ }
+}

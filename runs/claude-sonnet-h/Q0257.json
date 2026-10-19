@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.35,
+ "segunda_opcao_id": "5227",
+ "extras_ids": [
+  "5219"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão parte da teoria de Beling sobre tipicidade (nullum crimen sine typo), mas as três afirmativas testam institutos distintos dentro da teoria do fato típico: a I trata do conceito de tipo penal (tangente a 5219/5227), a II trata de sujeito ativo e responsabilidade penal da pessoa jurídica (tema 5219 - Conceito, Sujeito e Objeto do Crime), e a III trata da relação entre tipicidade e ilicitude, especificamente a possibilidade de um fato ilícito atípico (tema 5227 - Tipicidade, por envolver subsunção e abrangência do tipo). Como não há um único subtema que cubra integralmente as três afirmativas, mantenho o tema de nível 1 em 5218 (Teoria do Crime: Fato Típico), que abrange todos os institutos testados, e deixo o subtema em branco por tratar-se de questão multi-subtema dentro do mesmo ramo. Descarto 5170 (Introdução) como tema principal porque a questão não é sobre fontes/conceito geral de Direito Penal, mas sim sobre elementos técnicos da teoria do crime (tipicidade, sujeito ativo, ilicitude), ainda que cite o princípio da legalidade apenas como mote introdutório da citação doutrinária.",
+ "id": "Q0257",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5170",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão gira em torno do conceito de tipo penal e tipicidade (Beling, nullum crimen sine typo), sujeito ativo do crime, responsabilidade penal da pessoa jurídica e a relação entre tipicidade e ilicitude (fato ilícito atípico). O eixo comum das três afirmativas é a tipicidade como elemento do fato típico, tema central de \"Teoria do Crime: Fato Típico\" (subtema Tipicidade), e não introdução genérica ao Direito Penal nem ilicitude propriamente."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1894,
+  "cache_w": 13127,
+  "cache_r": 43624,
+  "custo_usd": 0.0892818
+ }
+}

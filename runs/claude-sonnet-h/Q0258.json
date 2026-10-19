@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5545",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5546",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas giram em torno do exame de corpo de delito (quem o realiza, quando é indireto, se pode ser substituído por outro meio de prova, prioridade em violência doméstica). O núcleo testado é exclusivamente esse instituto específico (arts. 158 a 184, especialmente 158-159 e regras correlatas de violência doméstica), e não a perícia em geral nem o procedimento do júri (mera origem/distrator irrelevante, já que nenhuma alternativa trata de rito do júri). Mantém-se o tema de nível 1 Provas em Espécies e confirma-se o subtema Exame de Corpo de Delito.",
+ "id": "Q0258",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa especificamente sobre o exame de corpo de delito (art. 158 e seguintes do CPP), meio de prova pericial regulado no CPP. Embora a origem indique \"Procedimento do Júri\", o núcleo testado é a disciplina processual do exame de corpo de delito, que se enquadra em \"Provas em Espécies\" (subtema Exame de Corpo de Delito), e não em competência/procedimento do júri."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2058,
+  "cache_w": 12194,
+  "cache_r": 43624,
+  "custo_usd": 0.08652679999999999
+ }
+}

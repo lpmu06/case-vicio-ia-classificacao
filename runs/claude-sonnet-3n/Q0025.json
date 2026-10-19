@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5101",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5093",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A conduta narrada — particular que solicita vantagem de contribuinte autuado, a pretexto de influir em ato de auditor fiscal (funcionário público) — corresponde exatamente ao tipo do art. 332 do CP (tráfico de influência): solicitar/exigir/cobrar/obter vantagem a pretexto de influir em ato praticado por funcionário no exercício da função. Não se trata de corrupção ativa (art. 333), pois o agente não oferece/promete vantagem ao próprio funcionário para que este pratique, omita ou retarde ato de ofício; aqui a vantagem é obtida do particular interessado, mediante alegação de influência sobre o auditor. Logo, a assertiva da questão (que afirma ser corrupção ativa) está errada, mas o instituto efetivamente testado é o tráfico de influência, subtema expresso dentro do tema 5087 (Crimes Contra a Administração Pública). Mantenho o tema de nível 1 já confirmado e agora atribuo o subtema 5101 com alta confiança, pois a descrição do tipo bate integralmente com os elementos do art. 332 CP e com a distinção \"não confundir\" do próprio subtema 5101, que expressamente diferencia essa hipótese da corrupção ativa (5093), indicada como segunda opção por ser o instituto erroneamente mencionado no enunciado.",
+ "id": "Q0025",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão testa a correta tipificação da conduta de solicitar vantagem a pretexto de influir em ato de funcionário público, matéria dos crimes contra a Administração Pública (corrupção ativa, art. 333, CP, e sua diferenciação de outros tipos como exploração de prestígio). Tema de nível 1 \"Dos Crimes Contra a Administração Pública\", dentro do grupo P8."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A conduta descrita — solicitar vantagem a pretexto de influir em ato de funcionário público (auditor fiscal) — tipifica tráfico de influência (art. 332, CP), e não corrupção ativa (art. 333, CP, que exige oferecer/prometer vantagem ao próprio funcionário para que ele pratique, omita ou retarde ato de ofício). A questão está, portanto, errada, mas o instituto testado é um crime do Título XI do CP contra a Administração Pública, cujo tema de nível 1 correspondente é \"Dos Crimes Contra a Administração Pública\" (5087), que contém o subtema Tráfico de Influência. Não há outro tema de nível 1 entre os listados que se aproxime, por isso não indico segunda opção."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2261,
+  "cache_w": 47979,
+  "cache_r": 101498,
+  "custo_usd": 0.24461159999999998
+ }
+}

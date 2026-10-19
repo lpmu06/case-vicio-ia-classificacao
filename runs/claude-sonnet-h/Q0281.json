@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4700",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [
+  "5555"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão multi-tema: reúne quatro assertivas autônomas sobre (I) interceptação telefônica (Lei 9.296/96), (II) sigilo bancário/fiscal, (III) sigilo de autos de investigação frente ao investigado/advogado, e (IV) devassa de correspondência pelo MP. Não há eixo probatório único específico que unifique os quatro itens sob \"Provas em Espécies\" de forma mais precisa do que o item I justifica para interceptação telefônica. Como a regra da plataforma determina preferir o tema homônimo em Legislação Especial quando duplicado com Processo Penal, mantenho 4700 (Interceptação Telefônica, Lei 9.296/96) como tema de nível 1, que não possui subtemas (subtema_n2_id = null). A segunda opção é 5543 (Provas em Espécies, Processo Penal), que também abrangeria os itens II, III e IV sobre sigilo e investigação, com extra relevante em 5555 (subtema específico de interceptação telefônica em Processo Penal). A confiança é moderada por se tratar de questão multi-tema sem eixo perfeitamente comum, dependendo de qual item é considerado nuclear.",
+ "id": "Q0281",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4700",
+  "segunda_opcao_n1_id": "5543",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão combina quatro assertivas sobre temas distintos ligados a sigilo e investigação: (I) interceptação telefônica (Lei 9.296/96), (II) sigilo bancário/fiscal, (III) sigilo de autos de investigação frente ao investigado/advogado, e (IV) devassa de correspondência pelo MP. Não há um eixo único, mas o item I trata diretamente da disciplina legal da interceptação telefônica (admissibilidade de escutas em crimes punidos com reclusão/detenção conforme previsão legal taxativa), que é o tema mais nuclear e possui tema próprio e específico na árvore (Interceptação Telefônica, Lei 9.296/96, em Legislação Especial - preferida sobre o subtema homônimo em Processo Penal). Os demais itens (sigilo bancário, sigilo de autos, correspondência) são afins a Provas em Espécies/Inquérito Policial em Processo Penal, daí a segunda opção. Por ser questão multi-tema sem eixo comum perfeito, a confiança é moderada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2087,
+  "cache_w": 13593,
+  "cache_r": 43624,
+  "custo_usd": 0.0935278
+ }
+}

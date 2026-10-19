@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4684",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão versa sobre disposições gerais da Lei 13.869/2019: elemento subjetivo específico, exclusão por mera divergência interpretativa e natureza da ação penal - tudo típico do tema \"Abuso de Autoridade\", sem subtemas na árvore.",
+ "id": "Q0337",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4684",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente de disposições gerais da Lei de Abuso de Autoridade (finalidade específica do agente, divergência de interpretação não configurar abuso, natureza da ação penal), todas pertencentes ao tema \"Abuso de Autoridade\", não se relacionando com Concurso de Crimes."
+ },
+ "uso": {
+  "in": 4,
+  "out": 658,
+  "cache_w": 5921,
+  "cache_r": 20462,
+  "custo_usd": 0.0378824
+ }
+}

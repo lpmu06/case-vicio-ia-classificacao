@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5580",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A assertiva testa diretamente qual princípio rege a aplicação da lei processual penal no tempo, afirmando (erroneamente) que seria o \"tempus delicti\", quando a regra é o \"tempus regit actum\" (art. 2º do CPP: aplicação imediata, preservados os atos já praticados). Esse é precisamente o núcleo do subtema 5507 \"Lei processual no Tempo\", dentro do tema 5505. Não se trata de princípio geral do processo penal (5580/5582), mas da regra específica de sucessão de leis processuais no tempo, confirmando a classificação anterior.",
+ "id": "Q0143",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP1",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente a aplicação da lei processual penal no tempo, cujo princípio regente é o tempus regit actum (e não o tempus delicti, próprio do direito material), tema específico de \"Lei Processual no Tempo e no Espaço\", dentro do grupo PP1 (Fundamentos: sistemas e princípios, lei processual, sujeitos do processo)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5505",
+  "segunda_opcao_n1_id": "5580",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige saber qual princípio rege a aplicação da lei processual penal no tempo (tempus regit actum, e não tempus delicti, este próprio do direito penal material quanto à retroatividade). É o núcleo específico do subtema \"Lei processual no Tempo\", dentro do tema de nível 1 \"Lei Processual no Tempo e no Espaço\" (5505). Como segunda opção, \"Sistemas e Princípios Processuais Penais\" (5580), por também tratar de princípios gerais do processo penal, embora menos específico."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1410,
+  "cache_w": 11437,
+  "cache_r": 25731,
+  "custo_usd": 0.0722812
+ }
+}

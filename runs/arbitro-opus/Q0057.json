@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5176",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o conceito de iter criminis como o conjunto das fases pelas quais passa o delito (cogitação, preparação, execução, consumação e, para parte da doutrina, exaurimento), o que corresponde exatamente ao subtema Fases do Iter Criminis. Os outros subtemas foram descartados porque a questão não trata de tentativa, de crime impossível nem de desistência ou arrependimento. Também não se trata de Fato Típico, já que o foco é o caminho percorrido pelo crime.",
+ "id": "Q0057",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5175"
+ ],
+ "candidatos_subtemas": [
+  "5176"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 446,
+  "cache_w": 5509,
+  "cache_r": 16390,
+  "custo_usd": 0.059672
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.92,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão exige identificar, entre teorias nominadas (Escola de Chicago, associação diferencial, anomia, labeling approach, teoria crítica), qual explica o caso narrado — colapso comportamental súbito de indivíduo integrado socialmente diante de frustração/pressão estrutural aguda, caso clássico de aplicação da Teoria da Anomia (Durkheim/Merton). Como o enunciado cobra a identificação de uma teoria específica com autores e conceitos próprios (critério de desempate expresso na descrição do subtema), a classificação correta é o subtema \"Teorias Criminológicas em Espécie\" (4388), dentro do tema de nível 1 \"Teorias Sociológicas Explicativas da Criminalidade\" (4385), que se mantém confirmado.",
+ "multi_tema": false,
+ "segunda_opcao_id": "4387",
+ "subtema_n2_id": "4388",
+ "tema_n1_id": "4385",
+ "id": "Q0115",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4385",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão narra o colapso comportamental súbito de um indivíduo \"normal\" (bom pai de família, pagador de impostos) que, diante de uma crise aguda (demissão, dívidas, frustração), rompe abruptamente com as normas sociais e comete uma sequência de crimes violentos sem motivação criminosa prévia. Esse é o exemplo didático clássico da Teoria da Anomia (Durkheim/Merton), que explica o desvio como resultado da quebra dos vínculos normativos/sociais em momentos de ruptura ou pressão estrutural, distinguindo-se das demais alternativas (Escola de Chicago - ecologia urbana; associação diferencial - aprendizagem do crime em grupo; labeling approach - rotulação social; teoria crítica - estrutura de poder e seletividade penal). O tema de nível 1 adequado é \"Teorias Sociológicas Explicativas da Criminalidade\", que abrange a Teoria da Anomia entre seus subtemas (Teorias Criminológicas em Espécie), confirmando inclusive a pista de origem."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1567,
+  "cache_w": 32286,
+  "cache_r": 78694,
+  "custo_usd": 0.16572679999999998
+ }
+}

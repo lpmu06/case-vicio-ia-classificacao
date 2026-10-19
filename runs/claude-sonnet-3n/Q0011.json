@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4702",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4705",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A assertiva julga especificamente se Álvaro e Flávio respondem por lavagem de capitais (ocultação de valores de origem ilícita obtida por corrupção em licitação, transferidos ao irmão para dissimular o ingresso e a origem) e se é competente a Justiça Federal por se tratar de servidor público federal e interesse da União. O núcleo testado é a Lei 9.613/1998 (tema 4702), incluindo a questão da competência federal, tema sem subtemas cadastrados. Os demais assuntos do enunciado-guarda-chuva (interceptação telefônica, drogas, crimes cibernéticos) não são objeto desta assertiva específica.",
+ "id": "Q0011",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão testa conhecimento sobre o crime de lavagem de capitais (ocultação de origem ilícita de valores obtidos por corrupção em licitação) e a competência da Justiça Federal para processá-lo, já que praticado por servidor público federal em detrimento de interesse da União. O eixo central é a Lei de Lavagem de Dinheiro (Lei 9.613/98), tema que se encontra no grupo LE1 (Legislação Especial - Lavagem de Dinheiro). Embora a menção a tráfico de drogas e interceptação telefônica apareça no enunciado introdutório, a assertiva específica cobrada versa apenas sobre lavagem de capitais e competência."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4702",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A assertiva cobrada trata exclusivamente do crime de lavagem de capitais (ocultação de valores de origem ilícita obtidos por corrupção em licitação) e da competência da Justiça Federal para seu processamento, por ser praticado por servidor público federal em detrimento de interesse da União. O eixo central testado é a Lei 9.613/1998 (Lavagem de Dinheiro), tema 4702, que está presente no próprio grupo LE1. Os demais tópicos do enunciado introdutório (interceptação telefônica, tráfico de drogas, crimes cibernéticos) não são objeto da assertiva específica julgada."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1428,
+  "cache_w": 42738,
+  "cache_r": 101498,
+  "custo_usd": 0.21120560000000002
+ }
+}

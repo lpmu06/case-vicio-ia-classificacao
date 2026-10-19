@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão exige distinguir flagrante preparado (crime impossível/provocado, ilegal) de flagrante esperado (vigilância sem induzimento, legal), para avaliar a legalidade da prisão de João. Esse é o núcleo da prisão em flagrante, inclusive suas espécies, o que corresponde precisamente ao subtema \"Prisão em Flagrante\" (5518), dentro do tema de nível 1 \"Prisões em Espécie\" (5517). Confirma-se o tema de nível 1 já escolhido na etapa anterior, agora com subtema definido, pois a questão não trata de fundamentos gerais da prisão (5584), mas da espécie e modalidade específica de flagrante.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5584",
+ "subtema_n2_id": "5518",
+ "tema_n1_id": "5517",
+ "id": "Q0218",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5517",
+  "segunda_opcao_n1_id": "5584",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão exige distinguir as modalidades de flagrante (preparado, esperado, provocado, diferido, ação controlada) para avaliar a legalidade da prisão em flagrante de João. O instituto central testado é a prisão em flagrante, tema de Processo Penal, cujo subtema específico \"Prisão em Flagrante\" está sob o tema de nível 1 \"Prisões em Espécie\" (id 5517). Alternativamente, poderia ser enquadrada em \"Teoria Geral das Prisões\" (5584), que trata de fundamentos gerais da prisão, mas o foco específico em flagrante preparado/esperado pertence mais precisamente a Prisões em Espécie."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1088,
+  "cache_w": 36227,
+  "cache_r": 78694,
+  "custo_usd": 0.1807748
+ }
+}

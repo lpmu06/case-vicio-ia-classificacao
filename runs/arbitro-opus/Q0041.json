@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5184",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas cobram o regime da medida de segurança: a lógica manicomial, o sistema vicariante em oposição ao duplo binário, o fato de não se aplicar ao imputável, a relação com o Estatuto da Pessoa com Deficiência e a Lei 10.216/2001, além da desinternação condicional prevista no art. 97, §3º, do CP. O foco está na consequência jurídica aplicada ao inimputável, e não na inimputabilidade como elemento da culpabilidade, por isso descartei o tema 5211. Também descartei o tema 5199, porque medida de segurança não é pena em sentido estrito.",
+ "id": "Q0041",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5184"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 577,
+  "cache_w": 3588,
+  "cache_r": 16390,
+  "custo_usd": 0.045475
+ }
+}

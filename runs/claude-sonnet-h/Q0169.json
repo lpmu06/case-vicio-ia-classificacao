@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5492",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5583",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata exclusivamente das hipóteses de impedimento (art. 112), suspeição (arts. 254, 258, 280) e das pessoas que não podem servir como juiz por parentesco (art. 112, parágrafo único), conforme o CPP. Todas as alternativas versam sobre as causas legais de afastamento do juiz por parcialidade, impedimento ou incompatibilidade, núcleo exato do subtema \"Exceção de Suspeição, de Impedimento ou de Incompatibilidade\" (5492), dentro do tema de nível 1 \"Das Questões e Processos Incidentes\" (5490). Confirmo a classificação anterior.",
+ "id": "Q0169",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5490",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre as hipóteses de impedimento e suspeição do juiz previstas nos arts. 112, 252 e 254 do CPP, matéria processual penal classificada como incidente processual relativo à exceção de suspeição/impedimento, cujo tema de nível 1 correspondente é \"Das Questões e Processos Incidentes\" (subtema \"Exceção de Suspeição, de Impedimento ou de Incompatibilidade\")."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1039,
+  "cache_w": 32818,
+  "cache_r": 78694,
+  "custo_usd": 0.1639728
+ }
+}

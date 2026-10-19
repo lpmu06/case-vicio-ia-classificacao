@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5542",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5541",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa exclusivamente sobre a suspensão condicional do processo (art. 89 da Lei 9.099/95): menciona que o MP, ao oferecer a denúncia, pode propor a suspensão por determinado prazo, condicionada à não condenação por outro crime e aos demais requisitos. O erro está nos parâmetros legais citados - pena mínima deveria ser \"igual ou inferior a um ano\" (não dois) e o prazo deveria ser \"de dois a quatro anos\" (não \"até quatro anos\"), além de mencionar incorretamente \"requisitos da suspensão condicional da pena\" em vez dos requisitos próprios do art. 89. Ainda assim, o instituto central e inequívoco é a suspensão condicional do processo, cabendo o subtema 5542 com alta confiança. Mantenho o tema de nível 1 5539 confirmado.",
+ "id": "Q0278",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5539",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata da suspensão condicional do processo (art. 89 da Lei 9.099/95), instituto específico que é subtema de Procedimento Sumaríssimo (Lei dos Juizados Especiais Criminais), ainda que aplicável a crimes fora da competência do JECrim. O erro da questão está em mencionar pena mínima \"igual ou inferior a dois anos\" (correto é não superior a um ano) e prazo \"até quatro anos\" (correto é de dois a quatro anos), mas o tema central é claramente a suspensão condicional do processo."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1264,
+  "cache_w": 7421,
+  "cache_r": 43624,
+  "custo_usd": 0.0558388
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5512",
+ "subtema_n2_id": "5515",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5525",
+ "extras_ids": [
+  "5527"
+ ],
+ "multi_tema": false,
+ "justificativa": "O enunciado é inteiramente sobre a teoria do efeito devolutivo e a vedação à reformatio in pejus/possibilidade de reformatio in mellius em recurso exclusivo da acusação (art. 617 CPP), com a exceção jurisprudencial do STF quanto às apelações contra decisões do Júri em razão da soberania dos veredictos. O eixo testado é o instituto processual do efeito dos recursos (tantum devolutum quantum appellatum, reformatio in pejus/mellius), que é exatamente o núcleo do subtema 5515 (Efeito dos Recursos), dentro do tema de nível 1 Parte Geral dos Recursos (5512). O júri aparece apenas como exceção fundamentada na soberania dos veredictos (princípio constitucional do júri, 5525), mas a pergunta não exige conhecimento do procedimento do júri em si, e sim da regra geral recursal e sua exceção. Por isso mantenho 5512/5515, com 5525 como segunda opção plausível, já que a questão também evoca diretamente a soberania dos veredictos como fundamento da exceção.",
+ "id": "Q0271",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "tema_n1_id": "5512",
+  "segunda_opcao_n1_id": "5524",
+  "fora": false,
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a regra do tantum devolutum quantum appellatum e a possibilidade de reformatio in mellius em recurso exclusivo da acusação, com a exceção consolidada pelo STF quanto às apelações contra decisões do Júri (soberania dos veredictos). O eixo central é a teoria dos efeitos/limites dos recursos no processo penal, matéria de Parte Geral dos Recursos (efeito devolutivo e vedação da reformatio in pejus/mellius), ainda que o caso concreto envolva o procedimento do Júri como exceção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1521,
+  "cache_w": 11380,
+  "cache_r": 43624,
+  "custo_usd": 0.0772898
+ }
+}

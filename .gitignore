@@ -6,3 +6,5 @@ __pycache__/
 *.pyc
 runs/**/*.tmp
 .ipynb_checkpoints/
+data/embeddings/*.npy
+runs/log_*.txt

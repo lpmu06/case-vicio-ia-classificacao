@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5128",
+ "subtema_n2_id": "5133",
+ "confianca_ramo": 0.62,
+ "confianca_subtema": 0.78,
+ "segunda_opcao_id": "4684",
+ "extras_ids": [
+  "4684"
+ ],
+ "multi_tema": true,
+ "justificativa": "A conduta descrita — abrir e ler carta fechada destinada a detento — é exatamente a hipótese nuclear do crime de violação de correspondência (art. 151/152 CP), tipo que está alocado no subtema \"Dos Crimes contra a Inviolabilidade do Domicílio, Correspondência e Segredos\" (5133), filho do tema de nível 1 \"Dos Crimes Contra a Liberdade Pessoal\" (5128). As alternativas discutem se incide o CP, a Lei de Abuso de Autoridade (hoje art. 36 da Lei 13.869/2019, à época Lei 4.898/65), ambas em concurso, ou se há atipicidade pelo poder-dever de fiscalização do diretor (art. 41, parágrafo único, LEP) — mas o eixo de identificação do instituto central continua sendo o tipo de violação de correspondência do Código Penal, cuja subsunção/exclusão é o que decide a questão. Por isso, diferentemente da etapa anterior, agora atribuo o subtema 5133 com confiança razoável, mantendo \"Abuso de Autoridade\" (4684) como segunda opção relevante, já que é a lei especial cuja aplicabilidade concorrente está sendo testada em três das cinco alternativas. Mantenho multi_tema=true pela necessidade de comparar os dois diplomas, mas a resposta correta da questão depende primariamente da tipicidade (ou não) da violação de correspondência do CP frente ao poder funcional do diretor, o que reforça 5128/5133 como eixo principal.",
+ "id": "Q0163",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P4",
+  "segundo_grupo_id": "LE2",
+  "confianca": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão exige analisar se a conduta do diretor do presídio (abrir e ler carta de detento) configura crime de violação de correspondência (art. 151, CP - crimes contra a liberdade pessoal) ou crime de abuso de autoridade (Lei 4.898/65), concluindo pela atipicidade em razão do poder-dever de fiscalização do diretor sobre a correspondência de presos por motivo de segurança/disciplina. O eixo central é a tipicidade penal do crime contra a liberdade pessoal (violação de correspondência), com disputa de conflito aparente de normas frente à Lei de Abuso de Autoridade, por isso marco multi-tema com segundo grupo em LE2."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5128",
+  "segunda_opcao_n1_id": "4684",
+  "confianca_ramo": 0.6,
+  "multi_tema": true,
+  "justificativa": "O núcleo da questão é a tipicidade da conduta do diretor de presídio que abre e lê correspondência de detento, exigindo o exame do crime de violação de correspondência (art. 151/152, CP — inserido em \"Dos Crimes Contra a Liberdade Pessoal\", especificamente no subtema de inviolabilidade de correspondência) em conflito aparente com a Lei de Abuso de Autoridade (4.898/65, hoje substituída, mas tema correspondente ao grupo LE2 \"Abuso de Autoridade\"). Como as alternativas discutem exatamente qual norma incide (CP, Lei de Abuso de Autoridade, ambas em concurso, ou nenhuma por atipicidade decorrente do poder-dever de fiscalização do diretor), a questão tangencia igualmente os dois institutos. Opto pelo tema de nível 1 \"Dos Crimes Contra a Liberdade Pessoal\" como principal, por ser o ponto de partida da tipificação penal discutida (violação de correspondência), e marco \"Abuso de Autoridade\" como segunda opção, pois é a lei especial cuja aplicação está em debate central nas alternativas. Marco multi_tema=true porque a resposta depende de comparar os dois diplomas normativos, sem que um prevaleça claramente como eixo exclusivo."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3898,
+  "cache_w": 14345,
+  "cache_r": 14150,
+  "custo_usd": 0.10873000000000001
+ }
+}

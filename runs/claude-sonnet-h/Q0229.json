@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5584",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5517",
+ "extras_ids": [
+  "5519",
+  "5520",
+  "5586"
+ ],
+ "multi_tema": true,
+ "justificativa": "Reexaminando com os metadados completos, prefiro trocar o tema de nível 1 principal para \"Teoria Geral das Prisões\" (5584), em vez de \"Prisões em Espécie\" (5517). A questão reúne cinco assertivas heterogêneas: (A) recaptura do evadido e (B) cumprimento de mandado de prisão no período noturno são regras gerais sobre a prisão (próximas de \"Conceitos e Espécies de Prisão\", 5585); (D) prisão especial e seu termo final é exatamente o subtema \"Imunidades Prisionais e Prisões Especiais\" (5586), filho de 5584; já (C) hipóteses de prisão preventiva e (E) prisão temporária são institutos específicos de 5517 (subtemas 5519 e 5520). Como três das cinco alternativas (A, B, D) gravitam em torno do regime geral/garantias/prisão especial — matéria típica do \"guarda-chuva\" 5584 — e apenas duas (C, E) são espécies específicas tratadas em 5517, o ramo que melhor abrange o conjunto é 5584, mantendo 5517 como segunda opção plausível. Não há um único subtema que cubra todas as alternativas, por isso marco multi-tema e deixo subtema_n2_id em branco, listando como extras os subtemas mais diretamente tocados (5519, 5520 e 5586).",
+ "id": "Q0229",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5517",
+  "segunda_opcao_n1_id": "5584",
+  "confianca_ramo": 0.6,
+  "multi_tema": true,
+  "justificativa": "A questão aborda diversas modalidades e institutos relacionados à prisão no processo penal: recaptura de evadido, cumprimento de mandado em domicílio durante a noite, hipóteses de prisão preventiva, prisão especial e prisão temporária. Cada alternativa trata de um aspecto distinto, mas todas giram em torno das espécies de prisão cautelar/processual (preventiva, temporária, especial, flagrante/recaptura), o que se encaixa melhor em \"Prisões em Espécie\" (5517), que reúne justamente esses subtemas (Prisão Preventiva, Prisão Temporária, Prisão Domiciliar, Prisão em Flagrante). Como segunda opção, \"Teoria Geral das Prisões\" (5584) também seria defensável, pois trata de conceitos gerais e garantias sobre a prisão (ex.: cumprimento de mandado, prisão especial). Marquei como multi-tema pois não há um único instituto central, mas sim um panorama de regras sobre prisão."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2868,
+  "cache_w": 35393,
+  "cache_r": 78694,
+  "custo_usd": 0.1952818
+ }
+}

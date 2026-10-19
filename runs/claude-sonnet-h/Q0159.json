@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5160",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5150",
+ "extras_ids": [
+  "5149"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão exige diferenciar, de um lado, a conduta de Caio (homicídio tentado, pois Túlio ainda estava vivo quando ele se retirou - crime contra a vida) e, de outro, a de Lívio, que usa violência (pedra na cabeça) para assegurar a subtração do relógio e causa a morte da vítima - caracterizando latrocínio consumado (art. 157, §3º, CP), e não roubo impróprio, já que a violência foi empregada durante o ato de subtração (retirar o relógio) e não após para garantir a posse já obtida. O eixo central de discriminação entre as alternativas está na distinção latrocínio x roubo impróprio, tema específico do subtema Roubo (5160), que expressamente orienta classificar morte para subtração ou manutenção da coisa como latrocínio dentro do tema Crimes Contra o Patrimônio. Por envolver também a correta tipificação do homicídio tentado de Caio, marco como multi-tema, com \"Dos Crimes Contra a Vida\" (5149, especificamente Homicídio - 5150) como segunda opção.",
+ "id": "Q0159",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": "5149",
+  "confianca_ramo": 0.62,
+  "multi_tema": true,
+  "justificativa": "A questão exige identificar que Caio praticou homicídio tentado (crime contra a vida, pois Túlio ainda estava vivo quando ele se retirou) e que Lívio, ao usar violência para subtrair o relógio causando a morte da vítima, praticou latrocínio consumado (crime contra o patrimônio - roubo qualificado pelo resultado morte, art. 157, §3º, CP), e não roubo impróprio. O eixo central de discriminação entre as alternativas é a distinção entre latrocínio e roubo impróprio, que está classificada em \"Dos Crimes Contra o Patrimônio\" (subtema Roubo). Por envolver também a classificação do homicídio tentado, marco como multi-tema, com \"Dos Crimes Contra a Vida\" como segunda opção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1878,
+  "cache_w": 38961,
+  "cache_r": 78694,
+  "custo_usd": 0.2018528
+ }
+}

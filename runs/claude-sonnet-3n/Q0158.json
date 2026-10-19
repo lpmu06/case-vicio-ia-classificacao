@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4707",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4693",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige o conhecimento literal do art. 1º, §5º, da Lei 9.455/97, que prevê como efeito automático da condenação por tortura a perda do cargo/função/emprego público e a interdição para seu exercício pelo dobro do prazo da pena aplicada. Trata-se de instituto próprio e exclusivo da Lei de Tortura, não da teoria geral da pena do CP nem do regime geral dos crimes hediondos (4693), que trata de anistia, graça, indulto, fiança e progressão. Mantém-se 4707, sem subtema (tema não possui subdivisões).",
+ "id": "Q0158",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o efeito da condenação pelo crime de tortura (Lei 9.455/97, art. 1º, §5º) consistente na perda do cargo público e interdição para seu exercício pelo dobro do prazo da pena, de forma automática. É matéria específica da Lei de Tortura, enquadrada no grupo LE1 (Legislação Especial - Tortura), não se tratando de teoria geral da pena do Código Penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4707",
+  "segunda_opcao_n1_id": "4693",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão exige o conhecimento específico do art. 1º, §5º, da Lei 9.455/97 (Lei de Tortura), que prevê a perda automática do cargo, função ou emprego público e a interdição pelo dobro do prazo da pena, como efeito necessário e automático da condenação por tortura (inclusive com resultado morte). O instituto testado é próprio e exclusivo da Lei de Tortura, não da teoria geral da pena do Código Penal. Enquadra-se no tema 4707 (Tortura), dentro do grupo LE1."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1322,
+  "cache_w": 10106,
+  "cache_r": 25731,
+  "custo_usd": 0.06503819999999999
+ }
+}

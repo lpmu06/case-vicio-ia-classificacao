@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5547",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5548",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas giram em torno do interrogatório judicial do acusado: direito ao silêncio e seus efeitos, entrevista reservada com o advogado antes do ato, direito de negar a verdade/mentir, recusa a fornecer material grafotécnico (desdobramento do nemo tenetur se detegere) e consequência da falta de advertência sobre o direito ao silêncio. O eixo comum é a disciplina das garantias e forma do interrogatório judicial (arts. 185-196 CPP, art. 5º, LXIII, CF), o que corresponde exatamente ao subtema 5547 (Interrogatório Judicial), dentro do tema 5543 (Provas em Espécies). Não se trata de Comunicação dos Atos Processuais (citação/intimação), nem o foco é especificamente o valor probatório da confissão (5548), que seria a segunda opção caso se entendesse que a ênfase recai sobre o conteúdo confessório.",
+ "id": "Q0177",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o interrogatório judicial do réu (direito ao silêncio, entrevista reservada com advogado, recusa a exame grafotécnico, consequências da falta de advertência), tema que se encaixa no subtema \"Interrogatório Judicial\" dentro de \"Provas em Espécies\" (Processo Penal), e não em Comunicação dos Atos Processuais, que trata de citação/intimação."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1150,
+  "cache_w": 34612,
+  "cache_r": 78694,
+  "custo_usd": 0.1743628
+ }
+}

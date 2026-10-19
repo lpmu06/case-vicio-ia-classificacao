@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4380",
+ "subtema_n2_id": "4381",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "4382",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata da interdisciplinaridade da criminologia e de quais ciências auxiliares fazem parte de seu objeto/método, tema central de Conceito e Objeto da Criminologia (4381), subtema de Teoria Geral da Criminologia (4380).",
+ "id": "Q0234",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 417,
+  "cache_w": 2161,
+  "cache_r": 225637,
+  "custo_usd": 0.0590634
+ }
+}

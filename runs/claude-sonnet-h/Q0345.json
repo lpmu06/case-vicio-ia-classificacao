@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": "5103",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5110",
+ "extras_ids": [
+  "5110"
+ ],
+ "multi_tema": false,
+ "justificativa": "O eixo central é o estupro de vulnerável (art. 217-A CP): consumação com ato libidinoso diverso da conjunção carnal, tentativa interrompida por terceiro, e a possibilidade de cumulação entre a agravante do art. 61, II, \"f\" e a causa de aumento do art. 226, II do CP (entendimento do STJ, que considera bens jurídicos distintos tutelados por cada norma). Embora toque também em disposições gerais (causa de aumento do art. 226), a questão gira fundamentalmente em torno da tipificação do próprio estupro de vulnerável (consumação x tentativa), o que direciona ao subtema 5103. O subtema 5110 (Disposições Gerais) é a segunda opção plausível, pois a discussão sobre cumulação de agravante e majorante também se encaixaria ali, mas o núcleo decisório da questão é a classificação do crime em si (estupro de vulnerável consumado), não apenas a regra geral.",
+ "id": "Q0345",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5102",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecer a tipificação do estupro de vulnerável (consumação x tentativa com atos libidinosos diversos da conjunção carnal), bem como a possibilidade de cumulação entre a agravante do art. 61, II, \"f\" e a causa de aumento do art. 226, II do CP, segundo entendimento do STJ. O eixo central é o crime contra a dignidade sexual (estupro de vulnerável), tema de Direito Penal material, enquadrando-se no tema de nível 1 \"Dos Crimes Contra a Dignidade Sexual\"."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1241,
+  "cache_w": 11294,
+  "cache_r": 20462,
+  "custo_usd": 0.0693564
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5490",
+ "extras_ids": [
+  "5482",
+  "5483",
+  "5484",
+  "5493"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão reúne quatro assertivas, cada uma testando um critério diferente de fixação de competência criminal: (A) competência em razão da matéria (vara da infância x comum para estupro de vulnerável praticado por maior - tema 5482), (B) competência territorial no peculato-desvio (tema 5483), (C) súmula sobre foro territorial no estelionato por cheque sem fundos (tema 5483), e (D) quem julga a exceção da verdade quando o querelante tem foro por prerrogativa de função, tema que tangencia tanto a competência por prerrogativa de função (5484) quanto o incidente de exceção de suspeição/competência dentro de \"Questões e Processos Incidentes\" (5490/5493). Não há um único subtema que abranja todas as alternativas: o eixo comum é o tema geral de Competência Criminal (5480), que inclui exatamente essas espécies e critérios de fixação. Por isso, mantenho o nível 1 em 5480 e deixo o subtema em branco (null), pois nenhum subtema isolado cobre corretamente o conjunto das quatro alternativas - classificar em um subtema específico (como 5481, 5482, 5483 ou 5484) excluiria indevidamente as demais assertivas. A segunda opção permanece 5490 por conta da alternativa (D), que se aproxima do incidente de exceção de suspeição/competência regulado nesse tema, embora o eixo dominante da questão seja a fixação de competência em si (5480).",
+ "id": "Q0110",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP3",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam sobre regras de fixação de competência (local do foro em peculato-desvio, estelionato por cheque sem fundos, estupro de vulnerável, e competência para julgar exceção da verdade em crime contra honra com prerrogativa de foro), tema central do grupo PP3 (Competência)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5480",
+  "segunda_opcao_n1_id": "5490",
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas tratam de regras de fixação/determinação de competência criminal: competência para estupro de vulnerável (vara comum x infância), local do foro no peculato-desvio, súmula sobre foro no estelionato por cheque sem fundos, e competência para julgar exceção da verdade quando há prerrogativa de foro do querelante. O eixo comum é \"Espécies e Fixação de Competência Criminal\", subtema do tema 5480 (Competência). A alternativa (D), sobre quem julga a exceção da verdade, tangencia o tema 5490 (Questões e Processos Incidentes, que abrange \"Exceção de Suspeição...\" e incidentes), por isso ele é a segunda opção, mas o eixo dominante da questão é claramente a fixação de competência."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2001,
+  "cache_w": 51363,
+  "cache_r": 101498,
+  "custo_usd": 0.2577066
+ }
+}

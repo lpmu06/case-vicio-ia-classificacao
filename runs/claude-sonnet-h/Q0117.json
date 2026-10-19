@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4384",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede a identificação da teoria que atribui à pena apenas a função real de neutralização do condenado (resposta: teoria agnóstica, de Zaffaroni), tema central das teorias legitimadoras/deslegitimadoras da pena. Isso se encaixa perfeitamente no tema 4384 (Teorias Legitimidoras da Pena), que não possui subtemas, por isso subtema_n2_id = null.",
+ "id": "Q0117",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4384",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecer as teorias que buscam legitimar (ou negar legitimidade a) a pena, especificamente a teoria agnóstica (Zaffaroni), que nega função legitimadora à pena e reconhece apenas sua função real de neutralização/segregação do condenado. Isso se encaixa diretamente no tema \"Teorias Legitimidoras da Pena\" (id 4384), dentro da disciplina Criminologia, confirmando a pista de origem."
+ },
+ "uso": {
+  "in": 4,
+  "out": 889,
+  "cache_w": 29389,
+  "cache_r": 78694,
+  "custo_usd": 0.1451928
+ }
+}

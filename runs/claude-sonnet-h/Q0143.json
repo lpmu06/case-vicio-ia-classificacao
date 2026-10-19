@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5508",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão afirma (incorretamente) que a lei processual penal brasileira vigora pelo princípio do tempus delicti, quando na verdade a regra é o tempus regit actum (aplicação imediata, art. 2º do CPP, sem afetar atos já praticados). Isso testa exatamente a sucessão de normas processuais no tempo, tema central do subtema 5507 \"Lei processual no Tempo\". Não se trata de interpretação/analogia (5508) nem de incidência espacial (5506).",
+ "id": "Q0143",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5505",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a aplicação da lei processual penal no tempo, testando se vigora o princípio do tempus delicti (o que é errado, pois a regra é o tempus regit actum/aplicação imediata, art. 2º do CPP). Isso se enquadra diretamente no tema \"Lei Processual no Tempo e no Espaço\" (subtema Lei processual no Tempo), e não em Direito Penal material."
+ },
+ "uso": {
+  "in": 4,
+  "out": 949,
+  "cache_w": 30811,
+  "cache_r": 78694,
+  "custo_usd": 0.15267979999999998
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5066",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.45,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4688",
+ "extras_ids": [
+  "5068"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão nitidamente multi-tema, sem eixo comum entre os itens: I trata de estupro de vulnerável (Dignidade Sexual - Penal), II de ação penal em crimes tributários (Legislação Especial), III de atenuante em crimes ambientais (Crimes contra o Meio Ambiente - 4688), IV de concurso formal impróprio/sistema de exasperação (Concurso de Crimes - 5066), e V de crime de responsabilidade de prefeito (Decreto-lei 201/67, fora da árvore). Mantenho 5066 como tema de nível 1 por ser a pista de origem e por conter a questão técnica mais clássica e central da banca (confusão entre exasperação e cúmulo material no concurso formal impróprio - na verdade o item IV está errado, pois no concurso formal impróprio aplica-se cúmulo material, não exasperação, o que é justamente a pegadinha), mas não atribuo subtema (5068) porque a questão não é unicamente sobre concurso formal - é um conjunto de proposições heterogêneas. A confiança no ramo é moderada/baixa dada a natureza mista, com 4688 (Meio Ambiente) como segunda opção plausível pelo peso do item III.",
+ "id": "Q0288",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5066",
+  "segunda_opcao_n1_id": "4688",
+  "confianca_ramo": 0.35,
+  "multi_tema": true,
+  "justificativa": "A questão é nitidamente multi-tema: item I trata de estupro de vulnerável (Dignidade Sexual), item II de ação penal em crime tributário (Crimes Tributários), item III de atenuante em crimes ambientais (Crimes contra o Meio Ambiente), item IV de concurso formal impróprio e sistema de aplicação da pena (Concurso de Crimes), e item V de crime de responsabilidade de prefeitos (Decreto-lei 201/67, fora da árvore). Não há eixo temático único. Optei por \"Concurso de Crimes\" como tema de nível 1 por ser o assunto de origem indicado e por conter a pegadinha técnica central mais clássica da questão (exasperação x cúmulo material no concurso formal impróprio), mas a confiança é baixa dada a natureza mista da questão, que poderia também ser classificada em Legislação Especial pelo peso de itens II e III."
+ },
+ "uso": {
+  "in": 4,
+  "out": 3093,
+  "cache_w": 8825,
+  "cache_r": 43624,
+  "custo_usd": 0.0808038
+ }
+}

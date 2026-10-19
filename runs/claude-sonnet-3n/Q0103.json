@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5476",
+ "subtema_n2_id": "5478",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5512",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão define a revisão criminal como meio de reexame de decisão transitada em julgado, visando absolvição, melhora da situação jurídica do condenado ou anulação do processo — conceito e finalidade central do instituto, que é exatamente o subtema Revisão Criminal (5478), dentro do tema Ações Autônomas de Impugnação (5476). Não há elemento de teoria geral dos recursos nem de recurso em espécie, afastando 5512 e 5560.",
+ "id": "Q0103",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre revisão criminal, que é uma ação autônoma de impugnação, tema integrante do grupo PP8 (Ações Autônomas de Impugnação), dentro de Processo Penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5476",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente do conceito e finalidade da revisão criminal (reexame de decisão transitada em julgado para absolvição, melhora da situação jurídica ou anulação do processo), instituto que é subtema de \"Ações Autônomas de Impugnação\" (5476), tema de nível 1 correto. Não há elemento recursal (não é recurso em espécie nem teoria geral dos recursos), por isso não se aplica aos grupos 5512 ou 5560."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1246,
+  "cache_w": 44186,
+  "cache_r": 101498,
+  "custo_usd": 0.21559860000000003
+ }
+}

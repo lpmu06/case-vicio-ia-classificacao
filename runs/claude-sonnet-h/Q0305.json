@@ -1,0 +1,33 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.55,
+ "extras_ids": [
+  "5473",
+  "5467"
+ ],
+ "fora": false,
+ "justificativa": "A questão trata de ação penal pública: prazo para denúncia, (in)disponibilidade do MP, requisitos da denúncia, forma de exercício da representação e requisição do Ministro da Justiça. Confirma-se o tema de nível 1 Ação Penal (5466). As alternativas versam sobre institutos de diferentes subtemas (denúncia - 5473; princípio da obrigatoriedade/indisponibilidade - 5469; representação e requisição do Ministro da Justiça - 5471), sem eixo único, mas o núcleo da alternativa mais tecnicamente específica (E) trata de requisição do Ministro da Justiça, condição de procedibilidade típica da Ação Penal Pública Condicionada (5471). Como a questão mistura institutos de vários subtemas de Ação Penal, mantenho confiança moderada no subtema específico.",
+ "multi_tema": true,
+ "segunda_opcao_id": "5473",
+ "subtema_n2_id": "5471",
+ "tema_n1_id": "5466",
+ "id": "Q0305",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata de aspectos processuais da ação penal pública (prazo para denúncia, forma de exercício da representação, requisição do Ministro da Justiça), temas típicos de Processo Penal > Ação Penal, e não de direito penal material."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1398,
+  "cache_w": 31139,
+  "cache_r": 79634,
+  "custo_usd": 0.1615628
+ }
+}

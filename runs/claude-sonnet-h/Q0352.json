@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5512",
+ "subtema_n2_id": "5515",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5513",
+ "extras_ids": [
+  "5514"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é tipicamente multi-tema dentro da Parte Geral dos Recursos: cada alternativa versa sobre um instituto diferente da teoria geral recursal - (A) efeito extensivo do art. 580 CPP (Efeito dos Recursos), (B) indisponibilidade do recurso do MP (Princípios Recursais), (C) legitimidade/interesse recursal (Pressupostos de Admissibilidade), (D) forma do recurso por termo nos autos - regularidade formal (Pressupostos de Admissibilidade), (E) fungibilidade recursal (Princípios Recursais). Mantenho o tema de nível 1 \"Parte Geral dos Recursos\" (5512), pois nenhuma alternativa exige conhecimento de procedimento de recurso específico em espécie, confirmando a descartada hipótese de \"Recursos em Espécies\" (5560). Como a alternativa correta (A) versa exclusivamente sobre efeito extensivo - matéria central do subtema \"Efeito dos Recursos\" (5515) - e a resposta da questão depende do domínio desse instituto específico, atribuo o subtema 5515, embora com confiança moderada dado o caráter plural das demais alternativas, que tocam em Princípios Recursais (5513) e Pressupostos de Admissibilidade (5514).",
+ "id": "Q0352",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5512",
+  "segunda_opcao_n1_id": "5560",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata de institutos gerais aplicáveis a todos os recursos no processo penal: efeito extensivo (art. 580 CPP), desistência de recurso pelo MP, legitimidade recursal, forma do recurso (petição/termo) e princípio da fungibilidade recursal. Todos esses institutos pertencem à teoria geral dos recursos, e não a um recurso específico em espécie, o que aponta para o tema \"Parte Geral dos Recursos\" (subtema \"Efeito dos Recursos\" cobre a alternativa correta A). Como segunda opção, cogitei \"Recursos em Espécies\", mas a questão não exige conhecimento de um recurso específico, e sim de regras gerais comuns a todos eles."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1687,
+  "cache_w": 13820,
+  "cache_r": 43624,
+  "custo_usd": 0.0906818
+ }
+}

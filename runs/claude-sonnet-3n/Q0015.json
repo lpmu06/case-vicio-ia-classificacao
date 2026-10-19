@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5501",
+ "extras_ids": [
+  "5500",
+  "5499"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 Inquérito Policial (5498): todas as alternativas versam sobre institutos do inquérito — competência da polícia judiciária (art. 4º), regras de interpretação da lei processual (art. 3º), prazo do inquérito com indiciado preso (art. 10), devolução do inquérito pelo MP para diligências (art. 16) e diligências requeridas pelo ofendido (art. 14). Não é Ação Penal (5466), pois nenhuma alternativa trata de denúncia, queixa ou titularidade da ação. Quanto ao subtema de nível 2, as alternativas se espalham entre \"Procedimento do Inquérito Policial\" (5500 — itens A, E), \"Conclusão e Arquivamento\" (5501 — itens C, D) e \"Conceito/Características\" (5499 — item B), sem eixo único; por isso deixo subtema_n2_id = null e marco multi_tema = true, listando os subtemas relevantes como extras.",
+ "id": "Q0015",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "Questão trata diretamente de inquérito policial (polícia judiciária, prazos, diligências do ofendido, devolução pelo MP), tema de Processo Penal > Inquérito Policial (grupo PP2 - Investigação e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam sobre o inquérito policial propriamente dito: competência da polícia judiciária (art. 4º), interpretação da lei processual (art. 3º), prazo do inquérito com indiciado preso (art. 10), devolução do inquérito pelo MP para diligências (art. 16) e diligências requeridas pelo ofendido (art. 14). O eixo comum é claramente o instituto do Inquérito Policial, não a Ação Penal, que trata de titularidade e peças acusatórias (denúncia/queixa) — tema diferente e não abordado na questão."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1587,
+  "cache_w": 50558,
+  "cache_r": 101498,
+  "custo_usd": 0.2505266
+ }
+}

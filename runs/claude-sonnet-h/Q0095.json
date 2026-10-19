@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5471",
+ "confianca_ramo": 0.72,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5063",
+ "extras_ids": [
+  "5470"
+ ],
+ "multi_tema": false,
+ "justificativa": "O enunciado narra dois cenários de crime culposo para testar se a exigência de representação (condição de procedibilidade) \"aplica-se\" a eles. No primeiro caso, Jano sofre lesão corporal leve por imprudência de Júpiter — lesão leve culposa é ação penal pública condicionada à representação (art. 88 da Lei 9.099/95), já que a própria lesão grave que Júpiter sofreu em si mesmo não é objeto de ação penal (autolesão não é crime). No segundo caso, Saturno causa, por imprudência, a morte do próprio filho — homicídio culposo é ação penal pública incondicionada, não dependendo de representação dos pais (que, aliás, seria o próprio autor). Logo, a resposta correta é a alternativa que diz que a exigência de representação aplica-se ao primeiro caso, mas não ao segundo (E). O cerne é exatamente a distinção entre ação pública condicionada e incondicionada, o que é um instituto processual (condição de procedibilidade, retratação, prazo), cabendo em Processo Penal > Ação Penal > Ação Penal Pública Condicionada (5471), com Processo Penal > Ação Penal (5466) como o ramo seguro. Mantenho como segunda opção o correspondente em Direito Penal material (5063), pois a questão também pode ser vista como testando a classificação penal das espécies de ação (arts. 100-103 CP), mas a ênfase em representação como condição de procedibilidade favorece o enquadramento processual.",
+ "id": "Q0095",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5063",
+  "confianca_ramo": 0.72,
+  "multi_tema": false,
+  "justificativa": "A questão (incompleta no enunciado, mas reconhecível pelo padrão) trata da exigência de representação da vítima como condição de procedibilidade: no primeiro caso há lesão corporal leve culposa (crime de ação penal pública condicionada à representação, art. 88 da Lei 9.099/95), enquanto no segundo caso há homicídio culposo (ação penal pública incondicionada, não dependendo de representação dos pais). O cerne é a classificação da ação penal quanto à necessidade de representação, tema processual por excelência (instituto que rege o exercício da pretensão acusatória), cabendo em \"Ação Penal\" de Processo Penal, subtema \"Ação Penal Pública Condicionada\". Também seria defensável classificar em Ação Penal de Direito Penal material (5063), por isso indico como segunda opção, com confiança moderada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2681,
+  "cache_w": 34477,
+  "cache_r": 78694,
+  "custo_usd": 0.1892258
+ }
+}

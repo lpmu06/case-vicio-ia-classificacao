@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5487",
+ "subtema_n2_id": "5488",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5548",
+ "extras_ids": [
+  "5548"
+ ],
+ "multi_tema": false,
+ "justificativa": "A assertiva testa diretamente o efeito da citação pessoal válida seguida de não comparecimento do acusado: decretação da revelia, nomeação de defensor dativo e prosseguimento do feito (art. 367 CPP), que é exatamente o objeto do subtema Citação e Contagem dos Prazos (5488), cujo rol de dispositivos inclui o próprio art. 366/367 CPP e a disciplina dos efeitos da ausência do réu citado. Mantenho o tema de nível 1 Comunicação dos Atos Processuais (5487). A ressalva final de que a revelia não gera confissão ficta é um complemento de teoria da prova, por isso aponto Confissão (5548) como segunda opção/extra, mas o eixo central e testável da questão é a disciplina da citação e seus efeitos, não o valor probatório da confissão.",
+ "id": "Q0044",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP3",
+  "segundo_grupo_id": "PP4",
+  "confianca": 0.65,
+  "multi_tema": false,
+  "justificativa": "A questão testa os efeitos da citação pessoal válida seguida de não comparecimento (revelia) - nomeação de defensor dativo e a regra de que a revelia no processo penal não gera confissão ficta (ao contrário do processo civil). Esse é um efeito da citação/comunicação dos atos processuais, matéria tratada no capítulo de citações e intimações do CPP (art. 367), por isso melhor se encaixa em PP3 (Comunicação dos Atos Processuais). Há conexão secundária com teoria da prova (confissão), por isso indico PP4 como segunda opção."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5487",
+  "segunda_opcao_n1_id": "5543",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A assertiva trata do efeito da citação pessoal válida seguida de não comparecimento do acusado: decretação da revelia, nomeação de defensor dativo e continuidade do processo (art. 367 CPP), com a ressalva de que a revelia penal não gera confissão ficta. O núcleo testado é a disciplina da citação/revelia (capítulo de comunicação dos atos processuais), por isso mantenho PP3 (Comunicação dos Atos Processuais) como tema principal. Há conexão relevante com teoria da prova, pois a questão também exige saber que a confissão não pode ser presumida (ausência de confissão ficta), o que justifica indicar PP4 (Teoria Geral das Provas/Provas em Espécie - Confissão) como segunda opção."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2183,
+  "cache_w": 53353,
+  "cache_r": 101498,
+  "custo_usd": 0.26827259999999997
+ }
+}

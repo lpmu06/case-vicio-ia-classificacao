@@ -1,0 +1,32 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.75,
+ "extras_ids": [
+  "5499"
+ ],
+ "fora": false,
+ "justificativa": "A questão trata da Lei 12.830/2013, versando sobre indiciamento (ato privativo do delegado, fundamentado, com indicação de autoria e materialidade), condução do inquérito policial pelo delegado e garantias funcionais (remoção por ato fundamentado, impossibilidade de avocação do inquérito por superior hierárquico sem justificativa). São temas de direito processual penal relativos à dinâmica/atos do inquérito policial conduzidos pela autoridade policial, o que se encaixa no subtema \"Procedimento do Inquérito Policial\" (5500), que expressamente lista a Lei 12.830/2013, o indiciamento e os atos da autoridade policial entre seus dispositivos e palavras-chave. Mantenho o tema de nível 1 Inquérito Policial (5498), confirmado pela classificação anterior.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5499",
+ "subtema_n2_id": "5500",
+ "tema_n1_id": "5498",
+ "id": "Q0137",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.82,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a Lei 12.830/2013 (investigação criminal conduzida pelo delegado de polícia), tratando de indiciamento, condução do inquérito policial, garantias funcionais do delegado (remoção, avocação). Trata-se de matéria de Processo Penal, especificamente do regime do Inquérito Policial (autoridade policial, condução da investigação, indiciamento, garantias), não de direito material penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1534,
+  "cache_w": 31297,
+  "cache_r": 78694,
+  "custo_usd": 0.1623268
+ }
+}

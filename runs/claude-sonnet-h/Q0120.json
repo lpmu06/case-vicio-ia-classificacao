@@ -1,0 +1,32 @@
+{
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.75,
+ "extras_ids": [
+  "5535"
+ ],
+ "fora": false,
+ "justificativa": "A questão trata do momento processual adequado para a especificação de provas pelo réu — a resposta à acusação (art. 396-A, CPP) — e da possibilidade de indicação de novas provas por ocasião do interrogatório, matéria típica do rito ordinário. Mantenho o tema de nível 1 Procedimento Ordinário (5530), pois o foco é a dinâmica procedimental específica desse rito (resposta à acusação e instrução), e não uma regra geral abstrata de teoria da prova (5590). Dentro de 5530, o núcleo da assertiva é exatamente a função e o momento da resposta à acusação como etapa de especificação de provas, o que corresponde ao subtema Defesa Preliminar (5533); a referência ao interrogatório dialoga também com a Audiência de Instrução (5535), mas não desloca o eixo central da questão, que permanece na resposta à acusação. Mantenho 5590 como segunda opção por tratar-se, em parte, de regra geral sobre ônus/momento de produção probatória aplicável a todos os ritos.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5590",
+ "subtema_n2_id": "5533",
+ "tema_n1_id": "5530",
+ "id": "Q0120",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5530",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o momento processual adequado para a especificação de provas pelo réu (resposta à acusação) e a possibilidade de indicação de novas provas por ocasião do interrogatório — matéria ligada ao rito do procedimento ordinário (art. 396-A e correlatos do CPP), tema 5530 (Procedimento Ordinário). Alternativamente, poderia ser enquadrada em Teoria Geral das Provas (5590), já que trata de regra geral sobre produção/especificação de provas aplicável à generalidade dos procedimentos, não sendo exclusiva do rito ordinário."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2325,
+  "cache_w": 34414,
+  "cache_r": 78694,
+  "custo_usd": 0.1852518
+ }
+}

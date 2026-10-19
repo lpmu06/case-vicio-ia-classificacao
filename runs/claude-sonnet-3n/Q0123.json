@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": "4378",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.62,
+ "segunda_opcao_id": "4368",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema de nível 1 \"Processos de Criminalização e Cifras Criminais\" (4377): os itens I (labeling approach/etiquetamento determinando o conteúdo da norma penal pelas agências de aplicação), III (seletividade racial nas estatísticas de letalidade policial) e IV (racismo institucional no sistema de justiça) giram todos em torno de como o sistema penal seleciona condutas e pessoas a criminalizar — o eixo central da questão é a seletividade/criminalização, e não o controle social em sentido amplo ou os modelos de reação ao delito (que seriam mais próprios de 4368). Quanto ao subtema, dentro de 4377 a questão se encaixa melhor em \"Criminalização Primária e Secundária\" (4378): o item I trata expressamente da aplicação concreta e seletiva da norma pelas agências formais de controle (polícia, MP, Judiciário), que é a definição central desse subtema; os itens III e IV são aplicações concretas dessa seletividade (seletividade racial na criminalização secundária e racismo institucional nas agências), e não tratam da diferença entre criminalidade real/registrada/oculta que caracteriza \"Cifras Criminais\" (4379) — não há menção a subnotificação, cifra negra ou vitimização oculta. Mantenho, porém, confiança moderada no subtema porque a questão combina múltiplos aspectos (labeling, dados estatísticos de letalidade, racismo institucional) sem se restringir estritamente à dicotomia primária/secundária, e o item III toca estatísticas criminais, o que poderia sugerir tangência com 4379 caso o examinador tivesse outro foco. A segunda opção de nível 1, \"Criminologia no Estado Democrático de Direito\" (4368), permanece plausível por conta do pano de fundo constitucional (legalidade, deveres do Estado) trazido no item IV, mas é menos específica que 4377 para o núcleo da questão.",
+ "id": "Q0123",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": "C1",
+  "confianca": 0.65,
+  "multi_tema": false,
+  "justificativa": "A questão testa o labeling approach, seletividade penal e racismo institucional no sistema de justiça criminal - temas centrais de \"Processos de Criminalização e Cifras Criminais\" (grupo C2). A assertiva IV também dialoga com o tema \"Criminologia no Estado Democrático de Direito\" (C1), que aborda racismo institucional e crítica ao mito da neutralidade estatal, por isso é o segundo grupo mais provável."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4377",
+  "segunda_opcao_n1_id": "4368",
+  "confianca_ramo": 0.72,
+  "multi_tema": false,
+  "justificativa": "A questão gira integralmente em torno da seletividade do sistema penal: o item I trata do labeling approach (etiquetamento) e da criminalização secundária operada pelas instâncias formais de controle; o item III trata de seletividade racial nas estatísticas de letalidade policial; o item IV trata de racismo institucional no sistema de justiça criminal. Todos esses eixos são manifestações do processo de criminalização (primária/secundária) e da seletividade penal, que é o núcleo do tema \"Processos de Criminalização e Cifras Criminais\" (4377), inclusive com subtema específico \"Criminalização Primária e Secundária\". O tema \"Criminologia no Estado Democrático de Direito\" (4368) é a segunda opção plausível, pois também aborda controle social, garantias fundamentais e crítica ao mito da neutralidade/legalidade estatal, dialogando com o item IV. Mantive a troca em relação ao estágio anterior porque o eixo central da questão (labeling approach + seletividade penal/racial) é mais específico e mais bem enquadrado em \"Processos de Criminalização\" do que no tema mais genérico de Estado Democrático de Direito."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2919,
+  "cache_w": 47041,
+  "cache_r": 101498,
+  "custo_usd": 0.24586560000000002
+ }
+}

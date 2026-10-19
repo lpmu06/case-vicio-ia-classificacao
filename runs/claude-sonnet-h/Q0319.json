@@ -1,0 +1,32 @@
+{
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.6,
+ "extras_ids": [
+  "5072"
+ ],
+ "fora": false,
+ "justificativa": "A questão exige saber em quais espécies de crime a coautoria é impossível (culposos, unissubsistentes, de mão própria), tema central de Concurso de Pessoas (5071). Dentro dele, o ponto discutido é especificamente a modalidade de coautoria e suas restrições, o que se encaixa em 5073 (Autoria Mediata, Colateral e Coautoria), que trata justamente de quando a coautoria é ou não possível. Mantenho confiança moderada no subtema porque o tema também tangencia a distinção autor/partícipe (5072).",
+ "multi_tema": false,
+ "segunda_opcao_id": "5072",
+ "subtema_n2_id": "5073",
+ "tema_n1_id": "5071",
+ "id": "Q0319",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata da possibilidade/impossibilidade de coautoria em determinadas espécies de crimes (culposos, unissubsistentes, de mão própria), tema central de Concurso de Pessoas no Direito Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1193,
+  "cache_w": 27531,
+  "cache_r": 79634,
+  "custo_usd": 0.14281280000000002
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5149",
+ "subtema_n2_id": "5150",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5066",
+ "extras_ids": [
+  "5066"
+ ],
+ "multi_tema": false,
+ "justificativa": "O caso é o exemplo clássico de \"dolo geral\" (aberratio causae/erro sobre o nexo causal): Osvaldo quer matar com o tiro, a vítima apenas desmaia, e vem a morrer por asfixia ao ser enterrada na crença errônea de que já estava morta. Pela teoria dominante (dolo geral), como o resultado morte efetivamente ocorreu e decorreu da conduta dolosa global do agente dirigida a matar, imputa-se homicídio consumado (simples, pois a asfixia foi circunstância do ocultamento, não qualificadora programada do plano homicida), em concurso material com o crime de ocultação de cadáver (art. 211 CP) - resposta correta é a alternativa C. O instituto central e decisivo para resolver a questão é a teoria da consumação do homicídio sob dolo geral, matéria de 'Dos Crimes Contra a Vida > Homicídio' (5150). O concurso material entre os dois crimes (5066) é apenas o desfecho de somar as penas, não o nó a ser resolvido pelo candidato - por isso mantenho 5149/5150 como escolha principal e 5066 como segunda opção, já que a questão também exige saber que são crimes autônomos em concurso material.",
+ "id": "Q0083",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5149",
+  "segunda_opcao_n1_id": "5066",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata de caso de dolo geral (erro sobre o nexo causal): Osvaldo quis matar com tiro, a vítima sobrevive ao disparo, e morre por asfixia ao ser enterrada acreditando estar morta. O instituto central testado é a consumação do homicídio (simples, já que o dolo inicial e a execução not se enquadram em qualificadora de asfixia) em concurso material com ocultação de cadáver. O eixo da questão é o crime de homicídio (consumação, dolo geral), pertencente ao tema 'Dos Crimes Contra a Vida' (subtema Homicídio), e não a concurso de crimes propriamente (que seria apenas um aspecto secundário da resposta)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1641,
+  "cache_w": 33021,
+  "cache_r": 78694,
+  "custo_usd": 0.17171779999999998
+ }
+}

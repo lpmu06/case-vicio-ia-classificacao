@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5557",
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "4693",
+ "extras_ids": [
+  "4693",
+  "5509"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão fragmentada do Pacote Anticrime, cada alternativa versando sobre instituto diverso. O gabarito correto é a alternativa (C), que trata da vedação ao recebimento de denúncia com base apenas nas declarações do colaborador e da possibilidade de medidas cautelares reais decorrentes da colaboração premiada (arts. 3º-B, §2º-A e correlatos da Lei 12.850/2013) — matéria central de 'Colaboração Premiada' (5557), subtema de 'Provas em Espécies' (5543). Mantenho 5543 como tema de nível 1 e, diferentemente da etapa anterior, agora atribuo o subtema 5557 com confiança moderada, por ser exatamente o objeto da alternativa correta. Como segunda opção, mantenho 'Crimes Hediondos' (4693), relevante pela alternativa (B) sobre o roubo majorado pelo emprego de arma de fogo. Confiança seguue moderada/baixa dada a natureza multi-tema da questão.",
+ "id": "Q0171",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "4693",
+  "confianca_ramo": 0.45,
+  "multi_tema": true,
+  "justificativa": "A questão trata de várias alterações do Pacote Anticrime (Lei 13.964/2019), cada alternativa versando sobre um instituto distinto: (A) limite de pena (Teoria da Pena/Penal), (B) crime hediondo do roubo com arma (Crimes Hediondos/Legislação Especial), (C) colaboração premiada e medidas cautelares reais (Provas em Espécie/Processo Penal - gabarito correto), (D) exclusão de perfis genéticos de bancos de dados (Identificação Criminal/Legislação Especial) e (E) acordo de não persecução penal e prescrição (Processo Penal/Penal). Não há um eixo temático único; é questão multi-tema. Escolhi como tema principal 'Provas em Espécies' (Processo Penal), por abrigar o subtema 'Colaboração Premiada', que é o objeto da alternativa correta (C), e como segunda opção 'Crimes Hediondos', por ser outro tema fortemente testado (alternativa B). Confiança baixa dada a natureza fragmentada da questão."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2467,
+  "cache_w": 36840,
+  "cache_r": 78694,
+  "custo_usd": 0.1975348
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5487",
+ "subtema_n2_id": "5488",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5489",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa especificamente sobre citação por hora certa do réu que se oculta, aplicação subsidiária do CPC, suspensão do processo e do prazo prescricional e produção antecipada de provas urgentes - todos institutos ligados diretamente ao ato de citação (chamamento do acusado à relação processual), previstos no art. 362 c/c art. 366 do CPP. Isso se encaixa exatamente no subtema \"Citação e Contagem dos Prazos\" (5488), que trata expressamente de citação por hora certa, suspensão do processo e efeitos da não localização/não comparecimento do réu. Não é \"Intimação\" (5489), pois não há processo já formado comunicando ato posterior, mas sim o chamamento inicial do réu. A menção a interceptação telefônica e prova no enunciado é apenas contexto da bateria de itens, não o objeto da pergunta.",
+ "id": "Q0212",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5487",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa especificamente a citação por hora certa (regras do CPC aplicadas subsidiariamente ao processo penal, suspensão do processo e do prazo prescricional, produção antecipada de provas), tema que se encaixa em \"Comunicação dos Atos Processuais\", cujo subtema \"Citação e Contagem dos Prazos\" trata exatamente desse instituto. Não é questão sobre interceptação telefônica ou prova em geral, apesar do enunciado mencionar esses temas como contexto da bateria de itens."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1086,
+  "cache_w": 29733,
+  "cache_r": 78694,
+  "custo_usd": 0.14966379999999999
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5528",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5525",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata do desaforamento (arts. 427-428 CPP), instituto que a própria lista de subtemas enquadra explicitamente em \"Organização do Júri e Sessão de Julgamento\" (5528), cujas palavras-chave e dispositivos citam expressamente desaforamento, art. 427 e 428 CPP. O item afirma, falsamente, que o desaforamento cabe \"a qualquer momento, a partir do recebimento da denúncia\", quando na verdade só é cabível após a preclusão da decisão de pronúncia (art. 427, caput, CPP), tornando a assertiva Errada. Mantém-se o tema de nível 1 Procedimento do Tribunal do Júri (5524), mas agora, com os metadados completos, é possível precisar o subtema para 5528, pois o próprio mapa de \"não confundir\" e dispositivos do tema 5524 aponta o desaforamento como pertencente a esse subtema específico.",
+ "id": "Q0133",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP6",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre desaforamento, instituto do procedimento do júri (art. 427/428 CPP), cabível somente após o trânsito em julgado da decisão de pronúncia, e não \"a qualquer momento desde o recebimento da denúncia\" como afirma o item (que é falso). Tema central pertence a Procedimento do Tribunal do Júri, dentro do grupo PP6 (Procedimentos)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "O desaforamento (arts. 427-428 CPP) é instituto típico do procedimento do Tribunal do Júri, cabível somente após o trânsito em julgado da pronúncia (ou, em casos excepcionais, após a preclusão recursal), e não \"a qualquer momento desde o recebimento da denúncia\" como afirma o item, que é falso (Errado). O tema central pertence integralmente a Procedimento do Tribunal do Júri (5524), não havendo outro tema de nível 1 que o abranja melhor."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1557,
+  "cache_w": 45116,
+  "cache_r": 101498,
+  "custo_usd": 0.22317559999999997
+ }
+}

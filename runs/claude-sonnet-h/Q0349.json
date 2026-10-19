@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5178",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige saber que o arrependimento posterior (art. 16 CP) somente se aplica a crimes cometidos sem violência ou grave ameaça à pessoa. Como o roubo foi praticado com grave ameaça (arma de fogo), a restituição voluntária da coisa não gera a redução de 1/3 a 2/3 prevista no art. 16, tornando a assertiva \"Certo\" correta sob essa fundamentação. O núcleo testado é exatamente o instituto do arrependimento posterior, pertencente ao subtema 5178, dentro do tema 5175 (Iter Criminis). Não é questão sobre concurso de crimes, apesar da pista de origem.",
+ "id": "Q0349",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5175",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão testa o instituto do arrependimento posterior (art. 16 do CP) - se a restituição voluntária da coisa roubada mediante grave ameaça afasta o benefício. Esse instituto está classificado no tema Iter Criminis, cujo subtema expressamente trata de \"Desistência Voluntária, Arrependimento Eficaz e Arrependimento posterior\". Não é questão de Concurso de Crimes, apesar da pista de origem."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1217,
+  "cache_w": 7825,
+  "cache_r": 32043,
+  "custo_usd": 0.054895599999999996
+ }
+}

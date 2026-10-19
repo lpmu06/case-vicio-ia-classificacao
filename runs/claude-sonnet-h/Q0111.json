@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4373",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4372",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa inteiramente sobre a Escola Positivista da criminologia: seus autores (Ferri, Lombroso), o viés antropológico/médico, o método empírico e a recepção racista no Brasil por Nina Rodrigues. Isso se encaixa precisamente no subtema \"Escolas Criminológicas\" (4373), que trata especificamente da Escola Positiva, da Escola Clássica e correntes intermediárias, incluindo debates sobre método e autores. Não se trata das etapas pré-científicas (4372), nem de teorias sociológicas (4385) ou tipologia de criminosos em si (4367), já que o foco é a caracterização da escola positivista como corrente criminológica e seus desdobramentos históricos no Brasil.",
+ "id": "Q0111",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4371",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente o conhecimento sobre a escola positivista da criminologia (seus autores, método, viés antropológico/médico e recepção no Brasil, incluindo Nina Rodrigues), o que se encaixa no tema \"Etapas Evolutivas e Escolas Criminológicas\", especificamente no subtema \"Escolas Criminológicas\". Não trata de teorias legitimadoras da pena (origem fraca indicada), nem de vitimologia ou política criminal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1051,
+  "cache_w": 30865,
+  "cache_r": 78694,
+  "custo_usd": 0.1538088
+ }
+}

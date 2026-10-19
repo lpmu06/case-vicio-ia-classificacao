@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5500",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5499",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa sobre atribuições do delegado de polícia na condução da investigação criminal (indiciamento fundamentado com análise técnico-jurídica, remoção por ato fundamentado, impossibilidade de avocação arbitrária, condução exclusiva do inquérito), temas regidos pela Lei 12.830/2013 - Estatuto do Delegado de Polícia. Esses dispositivos e institutos (indiciamento, atos procedimentais da autoridade policial) estão expressamente previstos no subtema \"Procedimento do Inquérito Policial\" (5500), que cita a Lei 12.830/2013 e o indiciamento entre seus dispositivos e palavras-chave. Não se trata de ação penal (denúncia/queixa), permanecendo esse tema apenas como segunda opção por integrar o mesmo ramo processual penal. Como alternativa, o subtema \"Conceito, Finalidade e Características\" (5499) também seria plausível por tratar de características gerais (oficialidade, indisponibilidade), mas o enunciado foca em atos concretos e normas específicas de condução (indiciamento, remoção, avocação), o que é mais próprio de 5500.",
+ "id": "Q0137",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre as atribuições do delegado de polícia na condução da investigação criminal (indiciamento, condução do inquérito, avocação por superior hierárquico, remoção do delegado) — temas típicos de Inquérito Policial, que integra o grupo PP2 (Investigação e ação penal) em Processo Penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata das atribuições e características da autoridade policial (delegado) na condução do inquérito policial - indiciamento, avocação, remoção, condução da investigação -, matéria típica do tema Inquérito Policial (nível 1, grupo PP2). Não se refere a espécies ou condições da ação penal, por isso Ação Penal fica apenas como segunda opção por proximidade temática no mesmo grupo."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2428,
+  "cache_w": 35953,
+  "cache_r": 30103,
+  "custo_usd": 0.18615760000000003
+ }
+}

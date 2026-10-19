@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige saber se a Lei Maria da Penha incide mesmo após o fim do vínculo conjugal, quando as agressões (verbais/morais) decorrem das relações familiares anteriormente havidas entre o casal (art. 5º, parágrafo único, da Lei 11.340/06, e art. 7º, II, sobre violência psicológica/moral). O gabarito correto é a alternativa (B), que trata exatamente da aplicabilidade da lei por força do nexo com a relação pretérita, independentemente da coabitação atual ou da existência de lesão física. Isso confirma o tema 4704 (Lei Maria da Penha) como núcleo central, mantendo a classificação do estágio anterior. O tema não possui subtemas, logo subtema_n2_id é null.",
+ "id": "Q0136",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE2",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento sobre a aplicabilidade da Lei Maria da Penha mesmo após o fim do vínculo conjugal, quando as agressões decorrem das relações familiares havidas (art. 5º, parágrafo único, da Lei 11.340/06), o que corresponde ao tema \"Lei Maria da Penha\" dentro do grupo LE2."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão testa a aplicabilidade da Lei Maria da Penha após o fim do vínculo conjugal, quando as agressões decorrem das relações familiares havidas (art. 5º, parágrafo único, da Lei 11.340/06), tema central e específico de \"Lei Maria da Penha\" (4704), dentro do grupo LE2. Não há outro tema de nível 1 do grupo que trate dessa matéria."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1368,
+  "cache_w": 44535,
+  "cache_r": 101498,
+  "custo_usd": 0.21845060000000002
+ }
+}

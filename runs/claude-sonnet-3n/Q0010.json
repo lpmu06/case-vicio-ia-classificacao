@@ -1,0 +1,38 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "Todas as alternativas versam exclusivamente sobre institutos da Lei 9.605/1998 (poluição sonora, crime permanente contra a flora, responsabilidade penal da pessoa jurídica e dupla imputação, e crime omissivo próprio contra a administração ambiental), confirmando o tema \"Crimes contra o meio ambiente\" (4688). Esse tema não possui subtemas de nível 2, de modo que subtema_n2_id permanece null.",
+ "segunda_opcao_id": null,
+ "subtema_n2_id": null,
+ "tema_n1_id": "4688",
+ "multi_tema": false,
+ "id": "Q0010",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE3",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente de crimes ambientais (poluição sonora, crime de dano a vegetação, responsabilidade penal da pessoa jurídica, dupla imputação e crime omissivo próprio contra a administração pública ambiental), conforme entendimento do STJ/STF. Todas as alternativas giram em torno do mesmo diploma (Lei 9.605/98), correspondendo ao tema \"Crimes contra o meio ambiente\" do grupo LE3 (Legislação Especial)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4688",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam sobre institutos da Lei 9.605/98 (poluição sonora, crime permanente contra a flora, responsabilidade penal da pessoa jurídica, dupla imputação e crime omissivo próprio contra a administração ambiental), enquadrando-se integralmente no tema \"Crimes contra o meio ambiente\" (id 4688) do grupo LE3."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1396,
+  "cache_w": 43861,
+  "cache_r": 101498,
+  "custo_usd": 0.2160726
+ }
+}

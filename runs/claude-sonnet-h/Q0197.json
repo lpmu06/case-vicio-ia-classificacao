@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": "5482",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5498",
+ "extras_ids": [
+  "5498"
+ ],
+ "multi_tema": false,
+ "justificativa": "A assertiva testa diretamente o critério que atrai a atribuição da Polícia Federal (e, por consequência, a competência da Justiça Federal) para apurar fraudes bancárias: a existência de crime contra bens, serviços ou interesse da União (art. 109, IV, CF). A palavra-chave central da questão — \"compete, com exclusividade, à PF apurar crimes contra bens e serviços da União\" — é exatamente o objeto do subtema \"Competência em razão da matéria\" (5482), que lista expressamente \"bem da União, serviço federal, interesse federal\" como palavras-chave e tem como dispositivo o art. 109 CF. O ponto a ser julgado é jurídico-material (há ou não interesse da União que justifique a atribuição federal, considerando que o banco ressarciu os clientes), e não um aspecto procedimental do inquérito (instauração, diligências, indiciamento etc.), o que afasta o enquadramento central em Inquérito Policial (5498), embora este permaneça como segunda opção razoável, já que a pergunta menciona expressamente \"instauração do inquérito policial\" pela PF. Mantenho alguma reserva quanto ao subtema por ser uma linha tênue entre \"quem investiga\" (IP) e \"por que a Justiça/Polícia Federal tem atribuição\" (Competência), mas o núcleo da assertiva é o critério de fixação da competência federal.",
+ "id": "Q0197",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.7,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a atribuição da Polícia Federal para instaurar inquérito policial em razão de fraudes bancárias contra clientes de banco estatal, exigindo conhecimento sobre os limites da competência investigativa federal (bens, serviços ou interesse da União) — tema central é Inquérito Policial, já que se discute quem tem atribuição para presidir a investigação preliminar. Alternativamente, poderia se enquadrar em Competência, pois o raciocínio sobre \"crimes contra bens e serviços da União\" also é usado para fixar competência da Justiça Federal, mas a pergunta foca na instauração do IP pela autoridade policial federal, não na competência jurisdicional em si."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2331,
+  "cache_w": 36150,
+  "cache_r": 78694,
+  "custo_usd": 0.1929318
+ }
+}

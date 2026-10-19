@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": "5482",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5524",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige definir qual Justiça/órgão é competente para julgar crime doloso contra a vida de civil praticado, em operação de GLO, por militar do Exército (Justiça Militar da União, art. 125, §4º, CF c/c art. 9º, III, CPM) e por policial militar estadual (Tribunal do Júri, pois vítima civil afasta a competência da Justiça Militar estadual, conforme art. 125, §4º, CF). O núcleo é a competência em razão da matéria/natureza do agente e da infração, critério que define o ramo de Justiça aplicável a cada agente - exatamente o objeto do subtema 5482 (Competência em Razão da Matéria), que trata expressamente da distinção entre Justiça Militar, Tribunal do Júri e demais ramos. Não é caso de 5524 (procedimento do júri), pois a pergunta não versa sobre atos do rito bifásico, mas sobre qual órgão jurisdicional julgará cada agente - mantenho 5524 apenas como segunda opção por envolver tangencialmente a competência constitucional do júri.",
+ "id": "Q0266",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5480",
+  "segunda_opcao_n1_id": "5524",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecer as regras de fixação de competência para julgamento de crime doloso contra a vida de civil praticado por militares federais e estaduais em operação de GLO: Justiça Militar da União para o militar do Exército (art. 9º, III, CPM, com a EC 118/2022) e Tribunal do Júri para o policial militar estadual, já que a vítima é civil (art. 125, §4º, CF). O núcleo da pergunta é a definição da competência jurisdicional em razão da matéria/condição do agente, tema central de Processo Penal > Competência (5480), e não propriamente o procedimento do júri em si (o que levaria a 5524, cogitado como segunda opção por envolver crime doloso contra a vida)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1405,
+  "cache_w": 12429,
+  "cache_r": 43624,
+  "custo_usd": 0.0813378
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata exclusivamente da remição de pena (pelo trabalho e pelo estudo), disciplinada nos arts. 126 a 130 da Lei de Execução Penal (Lei 7.210/1984): proporção de dias remidos por trabalho (1 dia a cada 12h) e por estudo (1 dia a cada 12h de frequência escolar, dividida em 3 dias), cumulação trabalho/estudo, acréscimo de 1/3 por conclusão de ensino fundamental/médio/superior durante o cumprimento da pena, e perda em caso de falta grave. Todas as alternativas giram em torno do mesmo instituto, típico do tema \"Lei de Execução Penal\" (4703), que não possui subtemas cadastrados, de modo que subtema_n2_id permanece null. Não há relação com os demais temas do grupo (JECRIM, interceptação, identificação criminal, contravenções, trânsito), confirmando a classificação do estágio anterior.",
+ "id": "Q0122",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A remição (pelo trabalho e pelo estudo) é instituto da execução penal, regulado pela LEP (art. 126 e seguintes), não sendo matéria de Teoria da Pena na parte geral do Código Penal. O tema correto é Lei de Execução Penal, dentro do grupo LE4 (Legislação Especial)."
+ },
+ "estagioB": {
+  "confianca_ramo": 0.95,
+  "fora": false,
+  "justificativa": "A questão trata exclusivamente do instituto da remição (pelo trabalho e pelo estudo), regulado pelos arts. 126 a 130 da Lei de Execução Penal (Lei 7.210/1984): proporção de dias remidos, cumulação trabalho/estudo, acréscimo por conclusão de ensino, e perda por falta grave. É matéria típica do tema \"Lei de Execução Penal\" (4703), dentro do grupo LE4. Não há relação com os demais temas do grupo (JECRIM, interceptação, identificação criminal, contravenções, trânsito).",
+  "multi_tema": false,
+  "segunda_opcao_n1_id": null,
+  "tema_n1_id": "4703"
+ },
+ "uso": {
+  "in": 6,
+  "out": 1367,
+  "cache_w": 45138,
+  "cache_r": 101498,
+  "custo_usd": 0.2198586
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5201",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5576",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão apresenta um caso hipotético (réu primário, pena-base fixada no mínimo legal de 6 anos de reclusão por crime com violência à pessoa) e pede a definição do regime inicial de cumprimento de pena, exigindo conhecimento das regras do art. 33, §2º, do CP (pena superior a 4 anos e não superior a 8 anos permite regime semiaberto para réu não reincidente) combinado com a Súmula 440 do STJ, que veda a fixação de regime mais gravoso com base apenas na gravidade abstrata do delito. Trata-se de matéria de Direito Penal material relativa às Penas Privativas de Liberdade (regime inicial), subtema 5201, dentro do tema guarda-chuva Teoria da Pena (5199). Embora o enunciado fale em \"sentença\" e \"o regime inicial será fixado pelo juiz\", o cerne da pergunta é a regra material de definição do regime (art. 33 CP e Súmula 440 STJ), não um aspecto processual da sentença (requisitos formais, estrutura, correlação etc.). Por isso, mantenho a classificação no ramo penal material, com segunda opção em Processo Penal > Sentença Penal > Fixação da Pena e do Regime Penitenciário (5576), que também cobriria adequadamente a questão sob a perspectiva do art. 387 do CPP.",
+ "id": "Q0215",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "5572",
+  "confianca_ramo": 0.82,
+  "multi_tema": false,
+  "justificativa": "A questão trata da fixação do regime inicial de cumprimento de pena (fechado/semiaberto/aberto) com base na pena aplicada e na vedação de agravamento do regime com base apenas na gravidade abstrata do delito (Súmula 440 do STJ), tema de Direito Penal material relativo às Penas Privativas de Liberdade, dentro de Teoria da Pena (id 5199). Não se trata de questão processual sobre sentença, mas sim sobre as regras materiais de regime previstas no art. 33 do CP. A segunda opção seria Processo Penal > Sentença Penal (5572), que também abrange \"Fixação da Pena e do Regime Penitenciário\" como subtema, mas o foco é mais afeto à dosimetria material."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1675,
+  "cache_w": 39746,
+  "cache_r": 78694,
+  "custo_usd": 0.20285180000000003
+ }
+}

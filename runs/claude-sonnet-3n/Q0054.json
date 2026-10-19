@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5225",
+ "extras_ids": [
+  "5225",
+  "5219"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão exige reconhecer quatro classificações doutrinárias distintas de crime: quanto ao resultado naturalístico (mera atividade/mera conduta × lesão), quanto ao número de agentes (plurissubjetivo) e quanto à pluralidade de bens jurídicos/vítimas (pluriofensivo). Nenhum subtema listado em 5218 cobre, isoladamente, todas essas classificações: 5225 (Resultado) abrange apenas a distinção material/formal/mera conduta (mera atividade e delito de lesão), enquanto plurissubjetivo e pluriofensivo são classificações quanto ao sujeito e ao bem jurídico, mais próximas de 5219 (que trata de sujeitos e objeto do crime) ou de um tema específico de \"classificação dos crimes\" (como o 5174 mencionado nas notas de distinção, não listado entre os filhos de 5218 aqui disponíveis). Por tratar-se de uma questão de taxonomia geral que mistura critérios classificatórios diversos — sem eixo único — marco como multi-tema dentro do ramo de Teoria do Crime, mantendo o nível 1 em 5218 (teoria geral do fato típico/classificação de crimes), mas sem segurança para apontar um subtema único, já que a resposta correta depende de reconhecer simultaneamente classificações que a árvore distribui entre diferentes subtemas (ou que residem em um tema de classificação de crimes não listado como filho de 5218). Por isso, subtema_n2_id = null e confiança no subtema é zero, com confiança moderada no ramo de nível 1.",
+ "id": "Q0054",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre classificação doutrinária dos delitos (mera atividade, lesão, plurissubjetivo, pluriofensivo), matéria de teoria geral do crime relacionada ao fato típico, inserida no grupo P2 (Teoria do Crime: Fato Típico)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento da classificação doutrinária dos crimes quanto ao resultado/consumação (mera atividade, de lesão) e quanto ao número de agentes/bens jurídicos (plurissubjetivo, pluriofensivo). Essas classificações integram a teoria geral do fato típico (conceito e elementos do crime), tema coberto por \"Teoria do Crime: Fato Típico\" (5218), que trata da tipicidade e dos elementos estruturantes do delito. Não há correspondência direta com um subtema específico listado, por isso a classificação é no nível 1. Não é propriamente \"Concurso de Pessoas\" (5071), pois o conceito de delito plurissubjetivo é uma classificação estrutural do tipo penal, não a disciplina do concurso de agentes em si (embora tangencie o tema)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3047,
+  "cache_w": 47187,
+  "cache_r": 101498,
+  "custo_usd": 0.2478976
+ }
+}

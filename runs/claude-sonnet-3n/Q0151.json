@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5523",
+ "extras_ids": [
+  "5521",
+  "5520",
+  "5518"
+ ],
+ "multi_tema": true,
+ "justificativa": "As alternativas cobrem institutos distintos das Prisões em Espécie: (A) prisão domiciliar substitutiva (art. 318, I - subtema 5521); (B) e (C) fiança e sua cumulação com cautelares (afeta liberdade provisória - subtema 5523); (D) prisão temporária como prisão cautelar processual (subtema 5520); (E) natureza jurídica pré-cautelar do flagrante (subtema 5518). Não há eixo único, mas todas pertencem ao ramo 5517 (Prisões em Espécie), não à teoria geral abstrata (5584), já que cada alternativa exige conhecimento de requisitos concretos de institutos específicos, não conceitos genéricos de prisão. Por isso mantenho nível 1 = 5517, sem subtema único definido (multi-tema), com 5523 como segunda opção por a fiança (itens B e C) estar diretamente ligada à liberdade provisória.",
+ "id": "Q0151",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP5",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente de prisões cautelares e medidas diversas da prisão (prisão domiciliar, fiança, prisão temporária, natureza da prisão em flagrante), todos institutos do grupo PP5 - Prisões e medidas cautelares (Teoria Geral das Prisões / Prisões em Espécie). Não há relação com ação penal, apesar da pista de origem."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5517",
+  "segunda_opcao_n1_id": "5584",
+  "confianca_ramo": 0.75,
+  "multi_tema": true,
+  "justificativa": "As alternativas versam sobre institutos específicos das \"Prisões em Espécie\": prisão domiciliar (art. 318, I), fiança cumulada com outras cautelares, valor da fiança, prisão temporária e natureza jurídica da prisão em flagrante. Todos são subtemas de 5517 (Prisões em Espécie), não de teoria geral (5584), que trataria de conceito constitucional, legalidade e garantias mínimas de forma abstrata. Como as alternativas abordam múltiplos subtemas distintos de 5517 (sem eixo único), mantenho nível 1 = 5517, com 5584 como segunda opção por serem ambos do mesmo grupo PP5."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2241,
+  "cache_w": 16385,
+  "cache_r": 37312,
+  "custo_usd": 0.1066264
+ }
+}

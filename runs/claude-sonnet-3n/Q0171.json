@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "4705",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.65,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [
+  "5473"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o reposicionamento para Organizações Criminosas (4705). A questão é estruturalmente multi-tema (cada alternativa versa sobre instituto diverso do Pacote Anticrime: limite de pena, hediondez do roubo armado, colaboração premiada, banco de perfis genéticos, ANPP/prescrição), mas o gabarito correto é a alternativa (C), que reproduz o art. 4º, §16, da Lei 12.850/2013 — regra específica sobre impossibilidade de recebimento de denúncia baseada só nas declarações do colaborador, podendo haver medidas cautelares reais decorrentes do acordo. Esse é um instituto próprio e nominado da Lei de Organizações Criminosas (colaboração premiada), expressamente previsto na descrição e nas palavras-chave do tema 4705, que não possui subtemas (daí subtema_n2_id = null). Mantenho Ação Penal (5466) como segunda opção, pois a alternativa correta também toca o recebimento da denúncia (ato processual), e incluo Denúncia (5473) como extra pelo mesmo motivo. A confiança do ramo é moderada-alta (0,65) dada a natureza multi-tema do enunciado, mas o eixo decisório da resposta correta aponta claramente para a disciplina de colaboração premiada da Lei 12.850/2013.",
+ "id": "Q0171",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": "LE1",
+  "confianca": 0.4,
+  "multi_tema": true,
+  "justificativa": "A questão é claramente multi-tema: cada alternativa aborda um instituto diferente trazido pelo Pacote Anticrime (limite de pena, hediondez do roubo armado, colaboração premiada e recebimento de denúncia, banco de perfis genéticos, prescrição e ANPP). O gabarito provável é a alternativa (C), que versa sobre a impossibilidade de receber denúncia com base apenas nas declarações do colaborador (art. 4º, §16, da Lei 12.850/2013) e sobre medidas cautelares reais — tema que toca tanto Ação Penal (recebimento de denúncia, Processo Penal) quanto Organizações Criminosas/colaboração premiada (Legislação Especial). Por não haver um eixo temático único e a questão tocar Direito Penal, Processo Penal e Legislação Especial simultaneamente, a confiança é baixa."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4705",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.42,
+  "multi_tema": true,
+  "justificativa": "Questão nitidamente multi-tema sobre o Pacote Anticrime: (A) limite de pena, (B) hediondez do roubo armado, (C) colaboração premiada/recebimento de denúncia, (D) banco de perfis genéticos, (E) prescrição/ANPP. O gabarito provável é (C), que versa sobre o art. 4º, §16, da Lei 12.850/2013 (impossibilidade de receber denúncia só com base nas declarações do colaborador) e medidas cautelares reais decorrentes do acordo de colaboração premiada — instituto específico de Organizações Criminosas (Legislação Especial), e não um tema genérico de Ação Penal. Por isso, reposiciono o tema principal para Organizações Criminosas (4705), mantendo Ação Penal (5466) como segunda opção, já que o enunciado também toca recebimento de denúncia (Processo Penal). Como não há eixo temático único e a questão atravessa Penal, Processo Penal e Legislação Especial, a confiança permanece baixa."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3714,
+  "cache_w": 15415,
+  "cache_r": 14150,
+  "custo_usd": 0.11230300000000001
+ }
+}

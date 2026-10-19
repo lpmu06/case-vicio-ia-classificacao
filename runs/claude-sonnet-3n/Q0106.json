@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5166",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5116",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema de nível 1 em 5157 (Dos Crimes Contra o Patrimônio). A questão trata do clássico caso do \"pendura\" acadêmico: o estudante toma refeição em restaurante sem ter como pagar, consumindo dolosamente o serviço mediante ocultação da real condição financeira perante o estabelecimento (meio fraudulento que induz o fornecedor a erro, levando-o a entregar a prestação - a refeição - voluntariamente, mas enganado). Trata-se de hipótese doutrinária e jurisprudencialmente consolidada como estelionato (art. 171, CP), sendo a alternativa correta a (C), que descreve exatamente essa fraude patrimonial. As demais alternativas (atipicidade, dano qualificado, estelionato privilegiado) são distratores que testam a diferenciação entre esses institutos, mas todas giram em torno do eixo \"qual crime patrimonial, se algum, é cometido\" - ou seja, o cerne é a tipificação da fraude no pagamento, o que aponta precisamente para o subtema Estelionato (5166), e não para dano (5164) nem para atipicidade genérica. Como segunda opção, mantenho 5116 (Fé Pública) por cautela residual, mas com baixa pertinência, pois não há qualquer falsidade documental ou material envolvida - o núcleo é puramente patrimonial/fraude contra a vítima (restaurante), não contra a fé pública.",
+ "id": "Q0106",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "confianca": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão trata do clássico caso do \"pendura\" acadêmico, situação amplamente discutida na doutrina penal sob a ótica do estelionato (fraude para obter vantagem indevida, como refeição em restaurante sem pagamento), sendo tema central de Crimes Contra o Patrimônio (estelionato), que integra o grupo P5."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": "5116",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata do clássico \"pendura\" acadêmico — o aluno que toma refeição em restaurante sem dispor de recursos para pagar, caracterizando fraude patrimonial (estelionato), tema central dos Crimes Contra o Patrimônio. As alternativas giram em torno da tipificação correta dessa conduta (atipicidade, dano, estelionato privilegiado ou a fraude propriamente dita), todas no eixo do patrimônio, não da fé pública. Portanto, o tema de nível 1 é 5157 (Dos Crimes Contra o Patrimônio), cujo subtema correto seria Estelionato. Como segunda opção, 5116 (Fé Pública) é bem menos pertinente, mas é incluída por cautela residual, já que a confiança no ramo patrimonial é muito alta."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1883,
+  "cache_w": 52537,
+  "cache_r": 101498,
+  "custo_usd": 0.26205059999999997
+ }
+}

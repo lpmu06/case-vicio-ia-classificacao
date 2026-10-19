@@ -1,0 +1,25 @@
+{
+ "fora": false,
+ "tema_n1_id": "5584",
+ "subtema_n2_id": "5588",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5589",
+ "extras_ids": [
+  "5518",
+  "5554"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão exige identificar que, na audiência de custódia, a tese central é o relaxamento da prisão por ilegalidade (busca domiciliar sem mandado/consentimento e consequente ilicitude da prova e da prisão em flagrante), núcleo típico do tema Relaxamento da Prisão dentro de Teoria Geral das Prisões.",
+ "id": "Q0161",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 678,
+  "cache_w": 2847,
+  "cache_r": 225637,
+  "custo_usd": 0.0649644
+ }
+}

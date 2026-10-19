@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5527",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5526",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta qual decisão o juiz deve proferir ao término do sumário de culpa quando há indícios de autoria, prova da materialidade e reconhecida semi-imputabilidade técnica do acusado. O tema central é exatamente o das decisões de encerramento da primeira fase do júri (pronúncia, impronúncia, absolvição sumária, desclassificação), tratado no subtema 5527. A semi-imputabilidade, por si só, não exclui a culpabilidade (apenas reduz a pena), de modo que não autoriza absolvição sumária nem impronúncia: estando presentes indícios de autoria e prova da materialidade, o juiz deve pronunciar o acusado (gabarito A), remetendo a análise da semi-imputabilidade para a dosimetria na sentença. Mantenho o tema de nível 1 confirmado (5524) e atribuo o subtema 5527 com alta confiança, pois o enunciado trata diretamente do conteúdo e requisitos dessas decisões, não da estrutura bifásica em geral (5526).",
+ "id": "Q0246",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata da decisão a ser proferida pelo juiz ao fim da instrução preliminar (sumário de culpa) do Tribunal do Júri quando reconhecida a semi-imputabilidade do acusado — matéria do procedimento bifásico do júri (juízo de pronúncia/impronúncia/absolvição sumária), tema 5524, especificamente o subtema de pronúncia/impronúncia/absolvição sumária."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1302,
+  "cache_w": 31172,
+  "cache_r": 78694,
+  "custo_usd": 0.1587258
+ }
+}

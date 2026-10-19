@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5071",
+ "extras_ids": [
+  "5103",
+  "5108"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 5102 (Crimes Contra a Dignidade Sexual), pois o núcleo fático gira em torno da relação sexual entre Otávio e a vítima vulnerável (art. 217-A), com discussão sobre erro de tipo quanto à idade, presunção de vulnerabilidade e corrupção de menores (art. 218) — todos institutos do Título VI do CP. Contudo, não atribuo subtema de nível 2 porque as alternativas testam facetas distintas dentro do ramo: (A) erro de tipo/vulnerabilidade absoluta (aproxima-se de 5103 - Estupro de Vulnerável), (E) corrupção sexual de menores com participação do segurança (aproxima-se de 5108), além de (C) tratar de concurso de pessoas (participação das amigas) e (D) de omissão imprópria do pai, institutos que não são propriamente sexuais. Essa dispersão entre subtemas-irmãos (5103 e 5108) e temas de outro ramo (5071 - Concurso de Pessoas, pela alternativa C) torna arriscado cravar um subtema específico; por isso subtema_n2_id = null e multi_tema = true. Mantenho 5071 como segunda opção pelo peso da discussão sobre participação das amigas e do segurança, e incluo 5103 e 5108 como extras por também serem diretamente testados em alternativas específicas.",
+ "id": "Q0100",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5102",
+  "segunda_opcao_n1_id": "5071",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão gira em torno do estupro de vulnerável (art. 217-A), erro de tipo quanto à idade da vítima, corrupção de menores e eventual concurso de pessoas, todos institutos centrais dos crimes contra a dignidade sexual. As alternativas exigem conhecimento específico sobre a absolutiza­ção (ou não) da presunção de vulnerabilidade, concurso de agentes no crime sexual e corrupção de menores (art. 218), o que se enquadra integralmente no tema \"Dos Crimes Contra a Dignidade Sexual\" (5102), que abrange estupro de vulnerável e corrupção de menores como subtemas. A segunda opção seria Concurso de Pessoas (5071), pois uma alternativa trata de participação das amigas e do segurança no delito."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2128,
+  "cache_w": 37038,
+  "cache_r": 78694,
+  "custo_usd": 0.1955248
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4695",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4689",
+ "extras_ids": [
+  "4689"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão mescla crimes contra a ordem tributária (Lei 8.137/90 - alternativas A, B, C e E, inclusive a provável correta E, sobre extinção da punibilidade pelo pagamento do tributo) com um item isolado sobre crime contra o sistema financeiro nacional (alternativa D, que replica o art. 3º da Lei 7.492/86). Como 4 das 5 alternativas versam sobre matéria tributária, inclusive o gabarito mais provável, mantenho 4695 como tema de nível 1, com 4689 como segunda opção devido à alternativa D. Trata-se de questão multi-tema dentro do ramo de Legislação Penal Especial. O tema 4695 não possui subtemas, por isso subtema_n2_id permanece null.",
+ "id": "Q0297",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4695",
+  "segunda_opcao_n1_id": "4689",
+  "confianca_ramo": 0.65,
+  "multi_tema": true,
+  "justificativa": "A questão trata de Direito Penal Econômico, mesclando crimes contra a ordem tributária (Lei 8.137/90 - alternativas A, B, C e E) e crimes contra o sistema financeiro nacional (alternativa D). A maioria das alternativas (4 de 5) versa sobre crimes tributários, o que torna este o eixo predominante, mas há item claramente de outro tema (sistema financeiro), configurando questão multi-tema dentro do ramo de Legislação Penal Especial. Optou-se por \"Crimes Tributários\" como tema principal por ser majoritário no enunciado, com \"Crimes contra o Sistema Financeiro\" como segunda opção pela presença da alternativa D."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1428,
+  "cache_w": 7377,
+  "cache_r": 43624,
+  "custo_usd": 0.0570628
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "extras_ids": [
+  "4691"
+ ],
+ "fora": false,
+ "justificativa": "Confirma-se o tema 4697 (Estatuto do Desarmamento) como eixo central: a questão exige diferenciar, para cada alternativa, a tipicidade de posse irregular, porte ilegal, comércio ilegal, omissão de cautela e porte de munição de arma de fogo, todos previstos na Lei 10.826/2003, aplicados a personagens distintos (Marcelo, Hugo, Daniel, Elaine). A referência ao crime de dirigir sem habilitação (CTB) aparece apenas como elemento acessório de uma das alternativas (C), não sendo o cerne da questão, mas justifica indicar Crimes de Trânsito (4691) como segunda opção/extra. Como o tema 4697 não possui subtemas cadastrados, subtema_n2_id permanece null.",
+ "multi_tema": true,
+ "segunda_opcao_id": "4691",
+ "subtema_n2_id": null,
+ "tema_n1_id": "4697",
+ "id": "Q0078",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4697",
+  "segunda_opcao_n1_id": "4691",
+  "confianca_ramo": 0.85,
+  "multi_tema": true,
+  "justificativa": "A questão gira essencialmente em torno de condutas tipificadas na Lei 10.826/2003 (Estatuto do Desarmamento): posse/porte de arma de fogo, numeração raspada, comércio ilegal, omissão de cautela e porte de munição, cada alternativa testando um crime diferente dentro desse microssistema (multi-tema dentro do mesmo ramo). A alternativa C ainda menciona o crime de dirigir sem habilitação do CTB, o que justifica indicar Crimes de Trânsito como segunda opção, mas o eixo predominante e mais abrangente é o Estatuto do Desarmamento."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1554,
+  "cache_w": 30161,
+  "cache_r": 78694,
+  "custo_usd": 0.15704980000000002
+ }
+}

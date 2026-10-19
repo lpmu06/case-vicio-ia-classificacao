@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5507",
+ "extras_ids": [
+  "5508",
+  "5506"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão mescla três subtemas distintos dentro do mesmo tema de nível 1: a alternativa (A) e (D) tratam de lei processual no tempo (art. 2º CPP, normas híbridas - subtema 5507), a (B) e (E) tratam de interpretação da lei processual penal (analogia, interpretação extensiva - subtema 5508), e a (C) trata de lei processual no espaço (art. 1º CPP - subtema 5506). Não há um eixo único de subtema, pois cada alternativa versa sobre um aspecto diferente da aplicação da lei processual penal. Por isso, mantém-se o tema de nível 1 (5505), que abrange integralmente todos esses subtemas, mas não se escolhe subtema de nível 2, já que a questão é transversal aos três. Marca-se multi_tema = true porque as alternativas testam institutos distintos (tempo, espaço e interpretação), ainda que dentro do mesmo tema de nível 1.",
+ "id": "Q0310",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5505",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente da aplicação da lei processual penal no tempo (irretroatividade, normas híbridas, art. 2º do CPP), tema central de \"Lei Processual no Tempo e no Espaço\" (nível 1, id 5505). Embora as alternativas também toquem em interpretação extensiva e analogia (que remetem a \"Lei Processual no Tempo e no Espaço\" > subtema Interpretação), o eixo comum e dominante é a aplicação da lei processual penal no tempo, cabendo integralmente neste mesmo tema de nível 1, inclusive seus subtemas."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1004,
+  "cache_w": 28255,
+  "cache_r": 79634,
+  "custo_usd": 0.1436408
+ }
+}

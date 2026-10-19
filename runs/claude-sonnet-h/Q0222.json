@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4374",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "4376",
+ "extras_ids": [
+  "4376"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão versa sobre as \"velocidades do direito penal\" (1ª a 4ª velocidade, incluindo neopunitivismo e direito penal do inimigo), tema inserido em Política Criminal (4374), eixo comum a todas as alternativas, ainda que cada uma trate de uma velocidade/autor diferente (Jakobs, Silva Sánchez, Cancio Meliá), configurando questão multi-tema dentro do mesmo ramo. Não se trata exclusivamente de Direito Penal do Inimigo (subtema 4376), já que a maioria das alternativas versa sobre outras velocidades (penas alternativas, neopunitivismo, mínima intervenção) e sobre a autoria da teoria, por isso o subtema de nível 2 não deve ser fixado (null), mantendo-se 4376 apenas como segunda opção/extra por ser o subtema mais próximo do conteúdo da alternativa A. Pista de origem (\"Ação Penal\") é equivocada, pois não há questão processual aqui.",
+ "id": "Q0222",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4374",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata das \"velocidades do direito penal\" (Jakobs, Silva Sánchez) e do direito penal do inimigo, tema classicamente estudado dentro de Política Criminal na Criminologia, que inclusive possui o subtema específico \"Direito Penal do Inimigo\". Não se trata de ação penal (pista de origem equivocada), nem de instituto de direito penal material específico."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1619,
+  "cache_w": 30253,
+  "cache_r": 78694,
+  "custo_usd": 0.1574268
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5467",
+ "extras_ids": [
+  "5467",
+  "5471",
+  "5473"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 \"Ação Penal\" (5466), pois todas as alternativas versam sobre institutos processuais ligados à ação penal: (A) extinção de punibilidade/suspensão condicional em crimes ambientais, (B) inépcia da denúncia superveniente à sentença, (C) litispendência como pressuposto processual, (D) justa causa (tipicidade + punibilidade + viabilidade de autoria) e (E) renúncia à representação na Lei Maria da Penha. A alternativa correta (D) trata especificamente de justa causa, tema central do subtema \"Características e Condições da Ação Penal\" (5467), que também abrange rejeição da denúncia por falta de condição. Entretanto, como as demais alternativas abordam outros subtemas distintos (condicionada/representação - 5471; denúncia/inépcia - 5473), e não há um único subtema que cubra toda a questão, trata-se de questão multi-tema dentro do mesmo ramo (Ação Penal). Por isso deixo subtema_n2_id = null, mas indico 5467 como segunda opção por ser o subtema da alternativa correta, e listo 5471 e 5473 como extras relevantes.",
+ "id": "Q0325",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": true,
+  "justificativa": "Todas as alternativas giram em torno de institutos processuais da ação penal (requisitos da denúncia, inépcia, justa causa, litispendência, representação na Lei Maria da Penha, suspensão condicional do processo). Embora cada alternativa aborde um subtema diferente dentro de Ação Penal, o eixo comum é claramente processual (condições, requisitos e peças da ação penal), enquadrando-se no tema de nível 1 \"Ação Penal\" de Processo Penal (id 5466), e não em Direito Penal material."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2144,
+  "cache_w": 10557,
+  "cache_r": 43624,
+  "custo_usd": 0.0798628
+ }
+}

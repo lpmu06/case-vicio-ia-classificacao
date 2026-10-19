@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5530",
+ "extras_ids": [
+  "5531"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão exige identificar o recurso cabível contra a decisão que rejeita a denúncia (art. 581, I, CPP) e seu prazo (5 dias, art. 586, CPP), sendo o gabarito \"Recurso em Sentido Estrito, no prazo de 5 dias\" (alternativa E). O instituto central testado é exatamente o RESE, recurso em espécie nominado, e não o procedimento ordinário em si (que seria apenas o contexto em que a rejeição ocorreu). Por isso, confirmo o tema de nível 1 \"Recursos em Espécies\" (5560) e, diferentemente da classificação anterior, agora atribuo o subtema específico \"Recurso em sentido estrito (RESE)\" (5561), pois a questão trata precisamente da hipótese clássica de cabimento do RESE (rejeição da denúncia) e de seu prazo, sem desbordar para outros recursos ou institutos do procedimento ordinário.",
+ "id": "Q0322",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5530",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa o recurso cabível contra a decisão que rejeita a denúncia (RESE, art. 581, I, CPP) e seu prazo (5 dias, art. 586, CPP). O instituto central é o recurso em espécie (RESE), não o procedimento ordinário em si, embora a rejeição da peça acusatória ocorra dentro dele. Classifico em \"Recursos em Espécies\" (nível 1), que abrange o subtema RESE."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1088,
+  "cache_w": 15255,
+  "cache_r": 43624,
+  "custo_usd": 0.0915768
+ }
+}

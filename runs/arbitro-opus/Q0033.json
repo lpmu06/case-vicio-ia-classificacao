@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": "5519",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5584",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam da prisão preventiva: os fundamentos do art. 312 (ordem pública e econômica), o fato de não ser obrigatória no art. 366, a revogação por excesso de prazo, a apresentação espontânea e o cabimento contra réu primário e de bons antecedentes, que é o gabarito (E). O núcleo é, portanto, o subtema Prisão Preventiva. O assunto de origem, \"Procedimento Ordinário\", e a Teoria Geral das Prisões (5584) foram descartados porque a questão não cobra rito nem conceitos gerais de prisão.",
+ "id": "Q0033",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5517"
+ ],
+ "candidatos_subtemas": [
+  "5519"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 519,
+  "cache_w": 6888,
+  "cache_r": 16390,
+  "custo_usd": 0.07338499999999999
+ }
+}

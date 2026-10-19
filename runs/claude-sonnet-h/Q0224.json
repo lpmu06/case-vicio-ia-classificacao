@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5207",
+ "extras_ids": [
+  "5203"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 \"Teoria da Pena\" (5199): a questão exige saber se condenação por contravenção penal e por crime com pena de multa geram reincidência (instituto da segunda fase da dosimetria, art. 61 e 63 CP — subtema 5203) e, a partir disso, se é possível a concessão de suspensão condicional da pena (sursis, art. 77 CP — subtema 5207). Como a questão articula os dois institutos de forma indissociável (a reincidência é usada como premissa para decidir sobre o sursis), não há um único subtema de nível 2 que cubra integralmente a pergunta, de modo que mantenho subtema_n2_id = null e marco multi_tema = true, indicando 5203 como tema correlato e 5207 como segunda opção de subtema. O tema de nível 1 \"Teoria da Pena\" abrange ambos os subtemas, por isso a classificação nele é segura e suficiente para o aluno encontrar a questão.",
+ "id": "Q0224",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.82,
+  "multi_tema": false,
+  "justificativa": "A questão testa o instituto da reincidência (se condenação por contravenção penal e por crime com pena de multa geram reincidência) e seu reflexo na possibilidade de concessão de sursis (suspensão condicional da pena). Ambos são institutos de Direito Penal material tratados dentro da Teoria da Pena (reincidência como agravante na dosimetria e suspensão condicional da pena como benefício penal), cujo tema de nível 1 correspondente é \"Teoria da Pena\" (5199), que abrange os subtemas de agravantes/atenuantes e de suspensão condicional da pena."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1469,
+  "cache_w": 35103,
+  "cache_r": 78694,
+  "custo_usd": 0.1792918
+ }
+}

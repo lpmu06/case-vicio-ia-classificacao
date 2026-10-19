@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.78,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5512",
+ "extras_ids": [
+  "5570",
+  "5571",
+  "5513"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão genuinamente multi-tema: (A) trata do processamento de RE/REsp (recursos em espécie), (B) fala de prazo para defensor (tema geral/sujeitos processuais), (C) versa sobre o princípio da unirrecorribilidade/preclusão lógica (parte geral dos recursos), (D) aborda o recurso ordinário constitucional (recurso em espécie) e (E) trata de reexame necessário em hipóteses específicas - reabilitação, HC, crimes contra economia popular (classificação de recursos/recurso de ofício, também ligado a recursos em espécie e à parte geral). Não há eixo temático único. Mantenho \"Recursos em Espécies\" (5560) como tema de nível 1, pois a maioria das alternativas (A, D, E) versa sobre cabimento/processamento de recursos concretos (RE, REsp, RO constitucional, reexame necessário por recurso de ofício), com \"Parte Geral dos Recursos\" (5512) como segunda opção por conter o princípio da unirrecorribilidade (C) e noção de prazo recursal (B). Não atribuo subtema de nível 2 porque nenhum subtema único cobre o conjunto das alternativas - cada subtema específico (RE, REsp, Classificação dos Recursos) corresponderia a apenas uma fração da questão, e classificar em um deles seria arriscar erro quanto às demais alternativas.",
+ "id": "Q0242",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5512",
+  "confianca_ramo": 0.6,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos recursais distintos: recurso extraordinário/especial (alternativa A), prazo para defensor (B - mais ligado a princípios/sujeitos), unirrecorribilidade/preclusão lógica (C - princípio geral dos recursos), recurso ordinário constitucional (D) e reexame necessário em hipóteses específicas (E - reabilitação, HC, sentenças). Não há um eixo único; cada alternativa versa sobre um recurso ou princípio recursal diferente. Optei por \"Recursos em Espécies\" por a maioria das alternativas (A, D, E) tratar de recursos/institutos concretos em espécie (RE, REsp, RO constitucional, reexame necessário), com \"Parte Geral dos Recursos\" como segunda opção por conter o princípio da unirrecorribilidade (C) e noções gerais de admissibilidade."
+ },
+ "uso": {
+  "in": 4,
+  "out": 3382,
+  "cache_w": 30581,
+  "cache_r": 15634,
+  "custo_usd": 0.1692418
+ }
+}

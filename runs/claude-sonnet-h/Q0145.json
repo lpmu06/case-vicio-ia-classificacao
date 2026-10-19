@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4702",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4695",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema de nível 1 como Lavagem de Dinheiro (4702). As cinco assertivas giram em torno do núcleo da Lei 9.613/1998: (I) autonomia da lavagem frente a infrações de posse ilícita (drogas/armas); (II) definição do objeto material (bens, direitos ou valores produto de infração penal); (III) objeto material quando a infração antecedente é tributária (valor correspondente ao tributo suprimido); (IV) distinção entre lavagem e favorecimento real; (V) amplitude das infrações antecedentes após a Lei 12.683/2012 (ausência de rol taxativo, mas limitada a infrações penais, excluindo crimes de responsabilidade e improbidade administrativa, que não são infração penal). Todos os itens tratam da estrutura típica da lavagem de capitais; o crime tributário aparece apenas como um exemplo de infração antecedente em um dos itens, não como eixo autônomo de cobrança. O tema \"Crimes Tributários\" (4695) permanece como segunda opção por essa menção lateral. Nenhum dos dois temas possui subtemas de nível 2, por isso subtema_n2_id = null.",
+ "id": "Q0145",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4702",
+  "segunda_opcao_n1_id": "4695",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento sobre o crime de lavagem de capitais (Lei 9.613/98, com alterações da Lei 12.683/2012): definição do crime, objeto material, infração antecedente, distinção com favorecimento real e amplitude das infrações antecedentes (incluindo crimes contra a ordem tributária). O eixo central é a lavagem de dinheiro, não os crimes tributários em si (que aparecem apenas como uma das infrações antecedentes possíveis). Por isso o tema principal é \"Lavagem de Dinheiro\" (4702), com \"Crimes Tributários\" (4695) como segunda opção por estar mencionado em uma das assertivas."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1356,
+  "cache_w": 30666,
+  "cache_r": 78694,
+  "custo_usd": 0.1566608
+ }
+}

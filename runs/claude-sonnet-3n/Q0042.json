@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5222",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede exatamente a definição de dolo direto, contrapondo-o a dolo eventual (alternativa A), culpa (C) e uma formulação equivocada de dolo eventual/representação (D). Trata-se do elemento subjetivo da conduta (dolo e culpa), tema que pertence ao Fato Típico (5218) e, especificamente, ao subtema \"Crime Doloso e Culposo\" (5222), que trata expressamente de dolo direto, dolo eventual, culpa consciente/inconsciente. Não há qualquer discussão sobre culpabilidade (imputabilidade, erro de proibição, exigibilidade de conduta diversa), de modo que 5211 permanece apenas como segunda opção de baixa probabilidade.",
+ "id": "Q0042",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão testa o conceito de dolo (direto), elemento subjetivo do tipo, integrante do fato típico. Isso se enquadra em \"Teoria do Crime: Fato Típico\", tema do grupo P2 (parte geral - teoria do crime)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5211",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão pede a definição de dolo direto, confrontando-o com dolo eventual (A), culpa (C) e dolo eventual com representação de probabilidade (D). Dolo é elemento subjetivo da conduta, componente do fato típico. O tema de nível 1 \"Teoria do Crime: Fato Típico\" (5218) tem subtema específico \"Crime Doloso e Culposo\", que abrange exatamente essa distinção. Não há relação direta com culpabilidade (erro de proibição, inimputabilidade etc.), por isso essa seria apenas uma segunda opção de confiança baixa, mantida como alternativa menos provável."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1348,
+  "cache_w": 51704,
+  "cache_r": 101498,
+  "custo_usd": 0.2518066
+ }
+}

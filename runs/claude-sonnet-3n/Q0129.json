@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5550",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5590",
+ "extras_ids": [
+  "5549"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta se o juiz deve admitir a oitiva de familiares (pais, irmãos, filhos, primos) como testemunhas em caso de violência doméstica, à luz do art. 206 do CPP, que admite o depoimento de parentes quando não houver outro meio de prova. O eixo central é a capacidade/admissibilidade de determinadas pessoas (parentes) para depor como testemunha, matéria tratada especificamente no subtema Prova Testemunhal (5550), cuja descrição abrange \"capacidade para testemunhar, compromisso, contradita, impedimentos, suspeição\". Não se trata de teoria geral abstrata de admissibilidade de provas (5590), mas do regime concreto de quem pode ser testemunha nos termos do art. 206 CPP, o que justifica a confirmação do tema 5543 com o subtema 5550. Mantenho 5590 como segunda opção por também tangenciar o tema de admissibilidade de prova em sentido mais amplo.",
+ "id": "Q0129",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": null,
+  "confianca": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão testa a admissibilidade de depoimento testemunhal de parentes/familiares da vítima em contexto de violência doméstica - matéria de prova testemunhal, regida pelo CPP (art. 206 e correlatos), que trata especificamente de \"Provas em Espécie\", subtema do grupo PP4 (Provas - teoria geral e provas em espécie). Não se trata de comunicação de atos processuais, apesar da pista de origem."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a admissibilidade do depoimento testemunhal de parentes/familiares da vítima em caso de violência doméstica (art. 206 do CPP, que admite o depoimento de parentes quando não houver outro meio de prova). O eixo central é o meio de prova em espécie \"prova testemunhal\", que está listado como subtema de 5543 (Provas em Espécies). O tema 5590 (Teoria Geral das Provas) trata de admissibilidade, princípios e sistemas de valoração em abstrato, não da disciplina específica de quem pode ser testemunha. Como a resposta exige conhecimento específico do regime da prova testemunhal (art. 202 e 206, CPP) e não apenas princípios gerais de admissibilidade, o tema mais preciso é 5543, com 5590 como segunda opção por tratar também de admissibilidade de prova."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1794,
+  "cache_w": 54627,
+  "cache_r": 101498,
+  "custo_usd": 0.27049860000000003
+ }
+}

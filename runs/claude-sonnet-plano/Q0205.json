@@ -1,0 +1,24 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5567",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5469",
+ "extras_ids": [
+  "5561"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão testa, em cada alternativa, institutos distintos de recursos e ação penal (carta testemunhável, indisponibilidade do recurso do MP, interesse recursal após extinção da punibilidade, efeitos da apelação), mas o eixo correto da resposta (letra A, art. 639, I, CPP) é a carta testemunhável, que pertence a Recursos em Espécies.",
+ "id": "Q0205",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 702,
+  "cache_w": 2234,
+  "cache_r": 214056,
+  "custo_usd": 0.0599432
+ }
+}

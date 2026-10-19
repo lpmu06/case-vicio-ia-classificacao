@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5557",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.7,
+ "segunda_opcao_id": "4705",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A pergunta testa diretamente os efeitos jurídicos da colaboração de Kiko Jr. com a investigação: possibilidade de não oferecimento de denúncia (acordo de colaboração), natureza de meio de prova das declarações do colaborador e redução de pena em até 2/3 — todos institutos centrais da colaboração premiada (arts. 3º-A a 7º da Lei 12.850/2013). O subtema 5557 \"Colaboração Premiada\", dentro de Provas em Espécies, descreve exatamente esses pontos (voluntariedade, benefícios legais, valor probatório das declarações, redução de pena), tornando-o o enquadramento mais preciso. Mantenho como segunda opção o tema \"Organizações Criminosas\" (4705), pois a colaboração premiada também é regulada substancialmente por essa lei e poderia ser defendida como tema de nível 1 alternativo, especialmente porque a questão se insere no contexto de organização criminosa voltada à manipulação de resultados esportivos.",
+ "id": "Q0329",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "4705",
+  "confianca_ramo": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão narra um esquema de manipulação de resultados esportivos por organização criminosa, mas a pergunta efetivamente testada está centrada nos efeitos jurídicos da colaboração de Kiko Jr. com a investigação — isto é, no instituto da colaboração premiada (possibilidade de não oferecimento de denúncia, natureza de meio de prova, redução de pena em até 2/3), regulado pela Lei 12.850/2013. Como existe subtema específico \"Colaboração Premiada\" dentro de \"Provas em Espécies\" (Processo Penal), que trata exatamente desses efeitos processuais e probatórios da colaboração, esse é o tema de nível 1 mais preciso. Alternativamente, como a colaboração premiada é instituto típico da Lei de Organizações Criminosas, o tema \"Organizações Criminosas\" (Legislação Especial) também seria defensável como enquadramento, daí a confiança moderada e a indicação dessa segunda opção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2455,
+  "cache_w": 14669,
+  "cache_r": 32043,
+  "custo_usd": 0.1000386
+ }
+}

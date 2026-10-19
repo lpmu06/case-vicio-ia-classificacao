@@ -1,0 +1,40 @@
+{
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.6,
+ "extras_ids": [
+  "4384"
+ ],
+ "fora": false,
+ "justificativa": "A questão compara os conceitos de crime, criminoso e pena na Escola Clássica, na Escola Positivista e na Criminologia Crítica/modelos de integração, eixo central é a caracterização e comparação dessas escolas/correntes criminológicas — tema de \"Etapas Evolutivas e Escolas Criminológicas\" (4371). Dentro dele, o subtema mais específico é \"Escolas Criminológicas\" (4373), pois nenhuma alternativa versa sobre as fases pré-científicas (Antiguidade/Idade Média/Idade Moderna, 4372); todas tratam de escolas/correntes já estruturadas (Clássica, Positivista, Crítica). A alternativa correta (D) é sobre a Escola Clássica. Como há também menção a teorias da pena e modelos de integração/conflito, que tangenciam 4384 (Teorias Legitimadoras da Pena), mantenho multi_tema=true e 4384 como extra/segunda opção, mas o tema e subtema predominantes continuam sendo 4371/4373.",
+ "multi_tema": true,
+ "segunda_opcao_id": "4384",
+ "subtema_n2_id": "4373",
+ "tema_n1_id": "4371",
+ "id": "Q0195",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C1",
+  "segundo_grupo_id": "C2",
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão testa conhecimento sobre as escolas criminológicas (Clássica, Positivista, Criminologia Crítica) e seus conceitos de crime, criminoso e pena — tema central é \"Etapas Evolutivas e Escolas Criminológicas\", pertencente ao grupo C1. A alternativa correta (D) trata exatamente da Escola Clássica. O grupo C2 (teorias da pena/criminalidade) é relacionado mas secundário, pois o eixo da questão é a evolução histórica das escolas."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4371",
+  "segunda_opcao_n1_id": "4384",
+  "confianca_ramo": 0.9,
+  "multi_tema": true,
+  "justificativa": "A questão compara diretamente os conceitos de crime, criminoso e pena nas Escolas Clássica, Positivista e na Criminologia Crítica/modelos de integração — eixo central é a caracterização de cada escola/corrente criminológica, tema de \"Etapas Evolutivas e Escolas Criminológicas\" (4371, subtema Escolas Criminológicas), confirmando a classificação anterior do grupo C1. A alternativa correta (D) versa sobre a Escola Clássica. Como as alternativas também tangenciam teorias da pena e modelos de integração/conflito (tema 4384, Teorias Legitimadoras da Pena, do grupo C2), marco multi_tema=true e indico 4384 como segunda opção, mas o tema predominante e mais específico continua sendo 4371."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1882,
+  "cache_w": 42749,
+  "cache_r": 102908,
+  "custo_usd": 0.2177966
+ }
+}

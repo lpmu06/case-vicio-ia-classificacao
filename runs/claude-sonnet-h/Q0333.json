@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4373",
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5175",
+ "extras_ids": [
+  "5178",
+  "5199"
+ ],
+ "multi_tema": true,
+ "justificativa": "Mantenho o tema de nível 1 em Criminologia > Etapas Evolutivas e Escolas Criminológicas (4371), pois a alternativa correta (D) versa especificamente sobre a contraposição metodológica entre o positivismo criminológico (método empírico-intuitivo experimental) e a escola clássica (análise filosófico-metafísica) — é esse o conteúdo que efetivamente valida a resposta certa, e não o contexto das demais alternativas incorretas. Agora, com os metadados completos, consigo precisar o subtema: 4373 (Escolas Criminológicas) é exatamente o subtema que trata da comparação Escola Clássica x Escola Positiva, método dedutivo x empírico, o que corresponde com alta precisão ao núcleo da alternativa D. Não se trata de 4372 (etapas pré-científicas como Antiguidade/Idade Média), pois a questão não aborda explicações demonológicas ou pré-positivistas, mas sim a formação científica/metodológica contraposta entre as duas escolas. Mantenho multi_tema=true porque as demais alternativas abordam institutos de outros ramos (sujeito ativo/passivo - fato típico; desistência voluntária/arrependimento eficaz - iter criminis, 5178; regime inicial semiaberto - teoria da pena, 5199; contagem de prazos - processo penal), sem eixo comum com a alternativa correta. A segunda opção permanece 5175 (Iter Criminis), por ser o ramo mais recorrente entre as alternativas incorretas e o que um professor menos atento ao enunciado \"correto\" poderia escolher como tema predominante.",
+ "id": "Q0333",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4371",
+  "segunda_opcao_n1_id": "5175",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos de ramos distintos: sujeito ativo/passivo (Fato Típico), desistência voluntária/tentativa (Iter Criminis), regime inicial semiaberto (Teoria da Pena), contagem de prazos (Processo Penal) e positivismo criminológico (Escolas Criminológicas). Não há eixo comum entre as alternativas. A alternativa correta (D) versa sobre o método do positivismo criminológico em contraposição à escola clássica, tema típico de Criminologia - Etapas Evolutivas e Escolas Criminológicas, por isso esse foi o tema de nível 1 escolhido, já que é o conteúdo que efetivamente valida a resposta certa. Marquei multi_tema=true e confiança moderada, pois um professor poderia optar por classificar pelo tema mais recorrente nas alternativas incorretas (Penal) em vez do tema da alternativa correta."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2314,
+  "cache_w": 9719,
+  "cache_r": 43624,
+  "custo_usd": 0.0771888
+ }
+}

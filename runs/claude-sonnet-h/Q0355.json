@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4693",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa diretamente sobre a decisão do STF (RE 635.659, Tema 506) a respeito do art. 28 da Lei 11.343/2006, tratando de descriminalização/despenalização do porte de drogas para consumo pessoal, quantidade-referência (40g de maconha/6 plantas), aplicação de sanções (prestação de serviços à comunidade) e eventual relação com transação penal/ANPP. Todo o núcleo da questão gira em torno do regime do usuário na Lei de Drogas, que é exatamente o objeto do tema 4708 (Tráfico de Drogas), que expressamente cobre os arts. 28 a 30 da Lei 11.343/2006. Não há subtemas cadastrados nesse tema, por isso subtema_n2_id é null.",
+ "id": "Q0355",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente da decisão do STF sobre o art. 28 da Lei de Drogas (porte de maconha para consumo pessoal), abordando descriminalização/despenalização, quantidade de referência, sanções aplicáveis e possível relação com ANPP - todos temas centrais da Lei de Drogas (Lei 11.343/2006), que corresponde ao tema \"Tráfico de Drogas\" em Legislação Especial."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1144,
+  "cache_w": 6394,
+  "cache_r": 43624,
+  "custo_usd": 0.049730800000000006
+ }
+}

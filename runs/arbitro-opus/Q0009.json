@@ -1,0 +1,31 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5158",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.78,
+ "segunda_opcao_id": "5159",
+ "extras_ids": [
+  "5159"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a imunidade penal absoluta do art. 181, II, do CP, que isenta de pena quem pratica crime patrimonial contra ascendente, e a exceção do art. 183, III: a imunidade não se aplica quando a vítima tem 60 anos ou mais. Por isso Ariel responde por furto qualificado pelo rompimento de obstáculo, e o gabarito é a alternativa B. A qualificadora do furto (5159) aparece só como pano de fundo; o eixo da questão são as disposições gerais (5158). Descartei Concurso de Crimes (5066), que era a pista de origem, porque a questão não traz pluralidade de crimes.",
+ "id": "Q0009",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5066",
+  "5157"
+ ],
+ "candidatos_subtemas": [
+  "5158"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 708,
+  "cache_w": 12946,
+  "cache_r": 16390,
+  "custo_usd": 0.130433
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4702",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as cinco assertivas versam exclusivamente sobre o crime de lavagem de capitais da Lei 9.613/1998 (com alterações da Lei 12.683/2012): relação com infração antecedente (bens de posse ilícita, produtos diretos/indiretos), objeto material em crimes tributários, distinção com favorecimento real, e abrangência (ou não) de infrações antecedentes como crimes de responsabilidade e improbidade. Não há qualquer referência a organização criminosa, estrutura associativa, colaboração premiada da Lei 12.850/2013 ou meios de investigação especiais - o que afastaria a pertinência do tema 4705. Trata-se de questão monotemática centrada integralmente em 4702, sem subtemas nesse tema (deve permanecer null). Mantida a classificação anterior, agora com confiança ainda maior após verificação detalhada do conteúdo de cada tema.",
+ "id": "Q0145",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa integralmente sobre o crime de lavagem de capitais (Lei 9.613/98, alterada pela Lei 12.683/2012), tratando de infração antecedente, objeto material, bem jurídico e distinção do favorecimento real. É tema específico de Lavagem de Dinheiro, dentro do grupo LE1 (Legislação Especial)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4702",
+  "segunda_opcao_n1_id": "4705",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Todas as assertivas tratam especificamente do crime de lavagem de capitais (Lei 9.613/98 com alterações da Lei 12.683/2012): infração antecedente, objeto material em crimes tributários, distinção com favorecimento real e abrangência de infrações antecedentes. É o eixo central e único da questão, enquadrando-se no tema de nível 1 \"Lavagem de Dinheiro\" dentro do grupo LE1."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1616,
+  "cache_w": 11179,
+  "cache_r": 14150,
+  "custo_usd": 0.070736
+ }
+}

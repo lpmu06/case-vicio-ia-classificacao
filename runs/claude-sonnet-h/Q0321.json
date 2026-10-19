@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": "5073",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5072",
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "A questão exige identificar a alternativa correta entre quatro temas distintos (autoria colateral, requisitos do concurso de pessoas, aborto consentido e hediondez do tráfico). O eixo comum é Concurso de Pessoas (nível 1, confirmado). A alternativa correta (A) versa especificamente sobre autoria colateral - ausência de vínculo subjetivo entre autores -, instituto tratado no subtema 5073 (Autoria Mediata, Colateral e Coautoria). As demais alternativas (requisitos gerais - 5072/geral; aborto - tema distinto; hediondez do tráfico - lei de drogas) são incorretas e servem de distratores, mas não definem o tema central, já que a pergunta busca a assertiva verdadeira, centrada em autoria colateral.",
+ "id": "Q0321",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "Embora as alternativas toquem institutos diversos (autoria colateral, requisitos do concurso, exceção monista no aborto consentido, hediondez do tráfico), o eixo central da questão é o Concurso de Pessoas (teoria monista, autoria colateral, requisitos), tema de Direito Penal. A alternativa correta (A) trata diretamente de autoria colateral, instituto do concurso de pessoas. Classificação no tema de nível 1 \"Concurso de Pessoas\" (5071)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 971,
+  "cache_w": 7810,
+  "cache_r": 32043,
+  "custo_usd": 0.052323600000000005
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5134",
+ "subtema_n2_id": "5135",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5128",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão reproduz o art. 197, I, do CP. Constranger alguém, mediante violência ou grave ameaça, a trabalhar ou não trabalhar durante certo período é atentado contra a liberdade de trabalho (alternativa C), e todas as alternativas comparam crimes contra a organização do trabalho (arts. 197, 198 e 203). O constrangimento ilegal (5128) aparece só como distrator, porque o tipo especial prevalece, e a pista de origem 'Lesão Corporal' não tem relação com o que a questão cobra.",
+ "id": "Q0030",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5134"
+ ],
+ "candidatos_subtemas": [
+  "5135"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 575,
+  "cache_w": 5368,
+  "cache_r": 16390,
+  "custo_usd": 0.06101
+ }
+}

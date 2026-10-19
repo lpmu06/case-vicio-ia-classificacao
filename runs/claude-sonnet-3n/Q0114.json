@@ -1,0 +1,40 @@
+{
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [
+  "5471"
+ ],
+ "multi_tema": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "fora": false,
+ "justificativa": "A questão narra um caso de lesão corporal leve em violência doméstica, mas a pergunta não cobra a disciplina da ação penal em si (quem é o titular, se cabe representação etc.) — isso é apenas o contexto fático que gerou a controvérsia. O que cada alternativa efetivamente discute é a técnica de controle de constitucionalidade (efeito ex tunc/ex nunc, declaração de inconstitucionalidade sem pronúncia de nulidade) aplicada a uma \"norma processual mista\" e se esse efeito retroage para alcançar fato anterior ao julgamento da ADI 4424, isto é, a sucessão de leis (ou de interpretação vinculante) processuais no tempo. Esse é exatamente o núcleo do subtema 5507 (Lei processual no Tempo), que trata expressamente de \"norma processual pura\" x \"norma processual mista\" e da retroatividade/irretroatividade dessas normas. Mantenho Ação Penal (5466), e especificamente seu subtema de Ação Penal Pública Condicionada (5471), como segunda opção e extra, pois o cenário fático é o da discussão sobre a natureza da ação penal em lesão leve doméstica — mas a pergunta em si é de direito intertemporal processual.",
+ "id": "Q0114",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": "PP1",
+  "confianca": 0.6,
+  "multi_tema": false,
+  "justificativa": "A questão gira em torno da natureza da ação penal em lesão corporal leve no contexto de violência doméstica (pública incondicionada x condicionada à representação, após a ADI 4424) e da consequente (im)possibilidade de instauração de inquérito sem representação da vítima — tema de Ação Penal (PP2). Há também forte componente de aplicação da lei processual (mista) no tempo, por isso PP1 (Lei Processual no Tempo e no Espaço) é o segundo grupo mais aderente."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5505",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas giram em torno do mesmo problema técnico: qual o efeito temporal (ex tunc, ex nunc, ou declaração de inconstitucionalidade sem pronúncia de nulidade) da decisão do STF na ADI 4424 sobre uma norma processual mista (natureza da ação penal em lesão leve doméstica), e se esse efeito retroage para alcançar fato ocorrido antes do julgamento. O eixo que a questão efetivamente testa é a aplicação da lei processual penal (mista) no tempo e os efeitos do controle de constitucionalidade sobre ela — matéria de Lei Processual no Tempo e no Espaço (subtema \"Lei processual no Tempo\"). A ação penal pública incondicionada x condicionada é o contexto/pano de fundo que origina a lei mista discutida, mas a pergunta não cobra a disciplina da ação penal em si, e sim a técnica de aplicação temporal da norma processual após mudança jurisprudencial/controle de constitucionalidade. Por isso, mantenho Ação Penal como segunda opção plausível, mas inverto a ordem em relação ao estágio anterior, pois o cerne da controvérsia (retroatividade/irretroatividade, efeito ex tunc/ex nunc, DI sem pronúncia de nulidade) é tipicamente estudado em Lei Processual no Tempo."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2619,
+  "cache_w": 53647,
+  "cache_r": 101498,
+  "custo_usd": 0.2734436
+ }
+}

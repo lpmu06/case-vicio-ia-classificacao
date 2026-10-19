@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4688",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede diretamente a aplicação de dispositivos específicos da Lei 9.605/1998 (destinação de animais apreendidos - art. 25, produtos perecíveis/madeiras - hasta pública, instrumentos do crime, produtos da fauna, ação penal nos crimes ambientais). Todas as alternativas são institutos previstos na própria lei ambiental, e o enunciado expressamente delimita o tema a essa lei. Trata-se, portanto, do tema \"Crimes contra o meio ambiente\" (4688), que não possui subtemas de nível 2, por isso subtema_n2_id = null. Não se confunde com Ação Penal (tema geral de Processo Penal), pois a alternativa E é apenas uma das opções dentro do conjunto de regras específicas da Lei 9.605/98 testadas na questão, e não o eixo central isolado.",
+ "id": "Q0344",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4688",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata especificamente de disposições da Lei 9.605/1998 (Lei de Crimes Ambientais): destinação de animais apreendidos, produtos perecíveis/madeiras, instrumentos do crime e ação penal nas infrações ambientais. Embora a alternativa E mencione ação penal, todas as alternativas versam sobre institutos próprios da lei ambiental, e o eixo comum da questão é a disciplina da Lei 9.605/98, pertencendo ao tema \"Crimes contra o meio ambiente\" em Legislação Especial, não a \"Ação Penal\" (pista de origem enganosa)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1024,
+  "cache_w": 6012,
+  "cache_r": 32043,
+  "custo_usd": 0.0442856
+ }
+}

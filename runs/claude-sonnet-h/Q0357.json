@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5134",
+ "subtema_n2_id": "5135",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige identificar a conduta típica da \"boicotagem violenta\", prevista no art. 198, II, do CP (constranger alguém, mediante violência ou grave ameaça, a abrir ou fechar estabelecimento de trabalho, ou a participar de parede ou paralisação de atividade econômica - alternativa C). Trata-se de crime contra a organização do trabalho, dentro do bloco dos arts. 197 a 207 do CP. Como o enunciado é específico sobre esse delito (e não compara vários crimes do tema guarda-chuva 5134), o subtema correto é 5135 (Dos Crimes Contra a Organização do Trabalho), mantendo-se o tema de nível 1 5134 já confirmado como ramo correto.",
+ "id": "Q0357",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5134",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata do crime de \"boicotagem violenta\" (art. 198 do CP), que integra os Crimes Contra a Organização do Trabalho, subtema do tema de nível 1 \"Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso\". A pista de origem (Iter Criminis) está equivocada, pois a questão não versa sobre fases do crime, mas sobre tipificação de delito específico contra a organização do trabalho."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1499,
+  "cache_w": 7646,
+  "cache_r": 43624,
+  "custo_usd": 0.0591118
+ }
+}

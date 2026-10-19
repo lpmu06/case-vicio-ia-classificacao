@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5086",
+ "extras_ids": [],
+ "multi_tema": false,
+ "fora": false,
+ "tema_n1_id": "5079",
+ "subtema_n2_id": "5081",
+ "justificativa": "A questão trata exclusivamente do crime de falso testemunho (art. 342 do CP), abordando sua natureza de delito de mão própria, a dispensa de compromisso para configuração do crime, o potencial dano à administração da Justiça, o dolo e a retratação. Todas as alternativas versam sobre o mesmo instituto, que se encaixa precisamente no subtema \"Falso Testemunha ou Falsa Perícia e Corrupção Ativa de Testemunha ou Perito\" (5081), dentro do tema de nível 1 \"Dos Crimes Contra a Administração Judicial\" (5079). Não há concurso de crimes nem multiplicidade temática, apesar da pista de origem.",
+ "id": "Q0176",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5079",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o crime de falso testemunho (art. 342 do CP), que integra os Crimes Contra a Administração Judicial, especificamente o subtema de Falso Testemunho/Falsa Perícia. Não se trata de concurso de crimes, apesar da pista fraca de origem. É matéria de Direito Penal material."
+ },
+ "uso": {
+  "in": 4,
+  "out": 994,
+  "cache_w": 32074,
+  "cache_r": 78694,
+  "custo_usd": 0.15987679999999999
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "4697",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4693",
+ "extras_ids": [
+  "4693"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão versa inteiramente sobre os crimes do capítulo IV do Estatuto do Desarmamento (Lei 10.826/2003): concurso de crimes entre armas de uso permitido e restrito (alternativa A), atipicidade/insignificância na posse de munição (alternativas B e C), retroatividade de norma penal benéfica quanto à classificação de arma (alternativa D) e natureza hedionda do porte de arma com numeração raspada (alternativa E). Todas as alternativas giram em torno do regime penal da própria Lei 10.826/2003, aplicado por entendimento jurisprudencial das Cortes Superiores, o que confirma o tema 4697 (Estatuto do Desarmamento) como núcleo central, mesmo havendo menção à Lei de Crimes Hediondos na alternativa E apenas como consequência acessória do crime de arma. Como o tema 4697 não possui subtemas, subtema_n2_id é null.",
+ "id": "Q0210",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "confianca_ramo": 0.9,
+  "fora": false,
+  "justificativa": "A questão trata dos crimes do Estatuto do Desarmamento (Lei 10.826/2003) - posse/porte de arma de fogo e munição, concurso de crimes entre tipos de arma, insignificância, retroatividade de norma penal e natureza hedionda desses delitos. O eixo central é o regime penal da Lei 10.826/2003, tema específico de Legislação Especial. Existe também o tema Crimes Hediondos, mencionado na alternativa E, mas apenas como um aspecto secundário aplicado ao crime de arma de fogo, não o foco da questão.",
+  "multi_tema": false,
+  "segunda_opcao_n1_id": "4693",
+  "tema_n1_id": "4697"
+ },
+ "uso": {
+  "in": 4,
+  "out": 1194,
+  "cache_w": 30602,
+  "cache_r": 78694,
+  "custo_usd": 0.15489979999999998
+ }
+}

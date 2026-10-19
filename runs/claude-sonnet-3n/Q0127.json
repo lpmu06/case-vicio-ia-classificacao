@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5580",
+ "subtema_n2_id": "5581",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "4708",
+ "extras_ids": [
+  "5582"
+ ],
+ "multi_tema": true,
+ "justificativa": "Mantida a classificação em Processo Penal > Sistemas e Princípios Processuais Penais (5580), pois o núcleo decisório do gabarito (alternativa E) é a vedação de o juiz condenar quando o próprio titular da ação penal pública, o Ministério Público, pede a absolvição — discussão clássica sobre a separação das funções de acusar e julgar e a compatibilidade da atuação jurisdicional com o modelo acusatório consagrado no Art. 3º-A do CPP. Isso corresponde exatamente ao subtema 5581 (Sistemas Processuais Penais), cuja descrição cita expressamente o Art. 3º-A do CPP e a discussão sobre separação entre acusação e julgamento como seu objeto central; por isso, diferentemente da rodada anterior, agora atribuo subtema_n2_id = 5581 com confiança razoável. As demais alternativas (regime inicial, tráfico privilegiado em concurso com associação, ordem do interrogatório na Lei de Drogas) pertencem à Lei de Drogas (Tráfico de Drogas, 4708), o que justifica manter a marcação multi-tema e indicar 4708 como segunda opção e incluir 5582 (Princípios do Processo Penal) como extra, já que a questão também tangencia princípios como imparcialidade e inércia da jurisdição. A confiança no ramo processual penal é alta porque o comando da questão (\"é correto afirmar\") e o gabarito giram sobre o desenho do sistema acusatório.",
+ "id": "Q0127",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP1",
+  "segundo_grupo_id": "LE1",
+  "confianca": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão narra um caso de tráfico de drogas (Art. 33 e 35 da Lei 11.343/2006) em que o MP pede absolvição em alegações finais, mas cada alternativa testa um instituto diferente: (A) ordem do interrogatório na Lei de Drogas, (B)/(E) sistema acusatório e vinculação do juiz aos pedidos do MP (Art. 3º-A do CPP), (C) regime inicial no tráfico, (D) tráfico privilegiado. O eixo mais relevante e que define o gabarito (alternativa E) é o sistema acusatório e os limites da atuação do juiz frente ao pedido absolutório do titular da ação penal — tema de Processo Penal (Sistemas e Princípios Processuais Penais, PP1). Contudo, há forte carga de Lei de Drogas (regime, privilégio, procedimento), tornando a questão multi-tema entre Processo Penal e Legislação Especial (tráfico de drogas, LE1)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5580",
+  "segunda_opcao_n1_id": "4708",
+  "confianca_ramo": 0.62,
+  "multi_tema": true,
+  "justificativa": "A questão narra caso de tráfico de drogas (Arts. 33 e 35 da Lei 11.343/2006), mas cada alternativa testa um instituto diferente, sem eixo temático único: (A) ordem do interrogatório na Lei de Drogas; (B) e (E) sistema acusatório e vinculação do juiz ao pedido absolutório do MP (Art. 3º-A do CPP); (C) regime inicial no tráfico; (D) tráfico privilegiado em concurso com associação. O gabarito (E) gira em torno do sistema acusatório e dos limites da atuação jurisdicional frente à manifestação do titular da ação penal — tema nuclear de Processo Penal, enquadrado em \"Sistemas e Princípios Processuais Penais\" (5580), que tem subtema \"Sistemas Processuais Penais\" cobrindo exatamente essa discussão. Por isso, mantenho a classificação em PP1 (5580) como tema principal. Contudo, há forte carga de Lei de Drogas (regime, privilégio, concurso com associação para o tráfico) nas demais alternativas, o que justifica marcar como multi-tema e indicar \"Tráfico de Drogas\" (4708, LE1) como segunda opção, já que esse tema aborda justamente dosimetria, regime e privilégio no tráfico. A confiança é moderada (0,62) porque a questão exige conhecimento simultâneo de dois ramos para eliminar todas as alternativas, mas o critério decisório do gabarito pertence a Processo Penal."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2682,
+  "cache_w": 48257,
+  "cache_r": 101498,
+  "custo_usd": 0.2495016
+ }
+}

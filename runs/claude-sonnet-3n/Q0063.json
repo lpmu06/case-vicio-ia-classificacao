@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todos os itens versam exclusivamente sobre medidas protetivas de urgência da Lei 11.340/2006 (cumulação, atuação do delegado em município sem comarca, cognição sumária com base no depoimento da ofendida e dispensa de audiência prévia das partes/MP). Eixo temático único e central da Lei Maria da Penha, confirmando o tema 4704. O tema não possui subtemas de nível 2, logo subtema_n2_id permanece null.",
+ "id": "Q0063",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE2",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa integralmente sobre medidas protetivas de urgência da Lei nº 11.340/2006 (Lei Maria da Penha): cumulação de medidas, atuação do delegado de polícia, concessão em cognição sumária e dispensa de audiência das partes/MP. Todo o eixo temático é a Lei Maria da Penha, tema do grupo LE2."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam exclusivamente sobre medidas protetivas de urgência da Lei Maria da Penha (cumulação, atuação do delegado, cognição sumária e dispensa de audiência das partes/MP), eixo temático único e central da Lei 11.340/2006, tema 4704."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1125,
+  "cache_w": 44073,
+  "cache_r": 101498,
+  "custo_usd": 0.2138946
+ }
+}

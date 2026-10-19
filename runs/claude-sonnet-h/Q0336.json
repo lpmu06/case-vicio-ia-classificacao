@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5159",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5160",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecimento sobre o momento consumativo do furto, aplicando a jurisprudência do STJ (teoria da amotio/posse mansa e pacífica): como Diogo foi flagrado ainda no estabelecimento, antes de obter posse tranquila do bem, o crime é furto tentado (art. 155 c/c art. 14, II, CP). Não há violência ou grave ameaça, afastando roubo, e não há inversão posterior de posse lícita, afastando apropriação indébita. Trata-se exatamente do subtema Furto, dentro de Dos Crimes Contra o Patrimônio.",
+ "id": "Q0336",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa o momento consumativo do furto (subtração de celular de dentro de bolsa), exigindo conhecimento da jurisprudência consolidada do STJ sobre a necessidade de posse mansa e pacífica para consumação, havendo perseguição imediata que caracteriza tentativa. É matéria de Direito Penal material, especificamente do crime de furto, inserido em \"Dos Crimes Contra o Patrimônio\" (subtema Furto)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1146,
+  "cache_w": 13080,
+  "cache_r": 32043,
+  "custo_usd": 0.0794306
+ }
+}

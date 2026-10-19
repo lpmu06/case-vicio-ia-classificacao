@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": "5486",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5481",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta especificamente em quais hipóteses ocorre a \"derrogação da competência territorial\", ou seja, a modificação/prorrogação do critério territorial de competência em razão de fenômenos processuais como conexão e continência (art. 78 CPP), e contrapõe essas hipóteses a outras (desaforamento, prevenção, extraterritorialidade). Isso se encaixa exatamente no subtema 5486 (\"Prorrogação, Perpetuação e Modificação de Competência\"), cuja descrição trata expressamente de conexão, continência e modificação da competência territorial, com fundamento nos arts. 76 a 82 do CPP — os mesmos dispositivos envolvidos na questão. Mantém-se o tema de nível 1 \"Competência\" (5480), já que o subtema mais específico agora identificado está dentro dele. A segunda opção é 5481 (Espécies e Fixação de Competência Criminal), por ser o subtema panorâmico que também trata de conexão/continência como critérios de fixação, mas de forma mais genérica.",
+ "id": "Q0096",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP3",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata de derrogação da competência territorial em razão de conexão/continência, tema central de Competência (processo penal), incluído no grupo PP3."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5480",
+  "segunda_opcao_n1_id": "5490",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente o instituto da derrogação da competência territorial, que ocorre nos casos de conexão e continência (art. 78 CPP), tema central de Competência, especificamente relacionado à modificação/prorrogação da competência territorial em razão desses institutos. Trata-se de tema de nível 1 \"Competência\" (5480), que abrange a fixação, prorrogação e modificação da competência criminal, cobrindo adequadamente a questão. A segunda opção seria \"Das Questões e Processos Incidentes\" (5490), pois a exceção de incompetência está relacionada ao tema, mas a questão não trata de exceção processual em si, e sim do fenômeno da derrogação propriamente dito, que é mais afeito ao tema geral de Competência."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1964,
+  "cache_w": 51198,
+  "cache_r": 101498,
+  "custo_usd": 0.2557986
+ }
+}

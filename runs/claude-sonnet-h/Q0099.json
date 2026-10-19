@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5100",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5232",
+ "extras_ids": [
+  "5228"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão exige, cumulativamente, (i) a correta tipificação da conduta de Filomena — resistência (art. 329, CP), consumada (não tentada, pois o uso de violência contra o ato já configura o tipo, independentemente de a mercadoria ter sido apreendida) em concurso com lesões corporais leves, já que há resultado lesivo autônomo aos fiscais — e (ii) o reconhecimento de que a reação dos fiscais, com uso moderado de força para conter a agressão, está amparada pelo estrito cumprimento do dever legal (art. 23, III, CP), excludente de ilicitude que afasta o crime de lesão corporal por parte deles. Como todas as alternativas combinam esses dois eixos (tipificação de Filomena + excludente dos fiscais) para serem corretamente eliminadas ou confirmadas, há verdadeira interseção entre \"Dos Crimes Contra a Administração Pública\" (resistência, subtema 5100) e \"Teoria do Crime: Ilicitude\" (estrito cumprimento do dever legal, subtema 5232). Mantenho como tema principal 5087/5100, por ser o crime efetivamente praticado e o ponto de partida da análise, mas marco multi_tema = true e indico 5232 (mais específico que 5228) como segunda opção, pois a excludente aplicada aos fiscais é tão essencial quanto a tipificação de Filomena para resolver corretamente a questão.",
+ "id": "Q0099",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5228",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa o crime de resistência (art. 329, CP) praticado por Filomena contra fiscais no exercício de função pública, e a excludente de ilicitude (estrito cumprimento do dever legal/legítima defesa) que ampara a conduta dos fiscais. O eixo central da questão é a tipificação da conduta de resistência contra agentes públicos, tema que se encontra em \"Dos Crimes Contra a Administração Pública\" (subtema \"Resistência, Desobediência e Desacato\"). A excludente de ilicitude aplicada aos fiscais é referida apenas como consequência, não como foco principal, mas por tangenciar o tema de Ilicitude (Teoria do Crime), indico como segunda opção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2871,
+  "cache_w": 37759,
+  "cache_r": 78694,
+  "custo_usd": 0.2065158
+ }
+}

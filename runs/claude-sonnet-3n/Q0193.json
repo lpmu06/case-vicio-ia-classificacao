@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4705",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Questão trata exclusivamente do regime de colaboração premiada (arts. 4º a 7º da Lei 12.850/2013): instrução do acordo, uso das informações em caso de não celebração, perdão judicial, redução de pena e suspensão de prazo/processo. Todas as alternativas versam sobre o mesmo instituto, previsto na Lei de Organizações Criminosas, confirmando o tema 4705, que não possui subtemas na árvore.",
+ "id": "Q0193",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre colaboração premiada, instituto disciplinado na Lei nº 12.850/2013 (Organizações Criminosas), tema do grupo LE1 (Legislação Especial - Drogas, armas, crime organizado, lavagem, terrorismo, hediondos e tortura)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4705",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata integralmente do instituto da colaboração premiada, disciplinado nos arts. 4º e 5º da Lei 12.850/2013 (Lei de Organizações Criminosas), cobrindo requisitos do acordo, perdão judicial, redução de pena e suspensão de prazo. Embora o assunto tenha reflexos processuais (daí a pista de origem \"Processo Penal/Inquérito Policial\"), na árvore da plataforma o tema específico de Organizações Criminosas (4705) é o que contempla esse instituto."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1132,
+  "cache_w": 41023,
+  "cache_r": 102908,
+  "custo_usd": 0.2020766
+ }
+}

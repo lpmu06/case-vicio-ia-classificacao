@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "4688",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a causa de aumento de pena (de um sexto a um terço) prevista no art. 53 da Lei 9.605/98, que se aplica aos crimes contra a flora. Esse assunto pertence ao tema Crimes contra o meio ambiente, que não tem subtemas. O assunto de origem, Ilicitude, é só uma pista fraca e está errado: a questão não trata de excludentes nem de antijuridicidade.",
+ "id": "Q0071",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4688"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 683,
+  "cache_w": 3654,
+  "cache_r": 16390,
+  "custo_usd": 0.048181999999999996
+ }
+}

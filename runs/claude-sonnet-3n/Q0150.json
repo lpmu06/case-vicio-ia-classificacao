@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa exclusivamente sobre as majorantes do art. 40, I, III e V, da Lei 11.343/2006 e sobre a retroatividade da Lei de Drogas em face da Lei 6.368/1976 (vedação à combinação de leis), todos pontos sumulados (Súmulas 587, 607 e 630 do STJ) que pertencem ao núcleo do tema \"Tráfico de Drogas\" (4708). Como esse tema não possui subtemas na árvore, o subtema de nível 2 deve ser null.",
+ "id": "Q0150",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa inteiramente sobre a Lei de Drogas (11.343/2006): causas de aumento de pena (transnacionalidade, interestadualidade, proximidade de estabelecimento de ensino) e retroatividade da lei, temas sumulados pelos Tribunais Superiores especificamente sobre tráfico de drogas. Enquadra-se no grupo LE1 (Tráfico de Drogas)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente de majorantes do tráfico de drogas (art. 40, I, III e V da Lei 11.343/2006) e da retroatividade da Lei de Drogas, temas sumulados pelos Tribunais Superiores especificamente sobre tráfico. Enquadra-se no tema de nível 1 \"Tráfico de Drogas\" (4708)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1258,
+  "cache_w": 9902,
+  "cache_r": 37312,
+  "custo_usd": 0.0657334
+ }
+}

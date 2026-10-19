@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5502",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5557",
+ "extras_ids": [
+  "5556",
+  "5499"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é de múltipla escolha \"assinale a correta\", e cada alternativa versa sobre um instituto diferente (denúncia anônima/inquérito, captação ambiental, ANPP vs transação penal, indispensabilidade do inquérito, delação premiada). Não há eixo narrativo único, mas a alternativa tida como correta pela jurisprudência (STJ/STF) é a (C), que trata da possibilidade de o Ministério Público optar pelo acordo de não persecução penal mesmo quando cabível a transação penal, tema nuclear do ANPP (art. 28-A CPP). Por isso, mantenho o tema de nível 1 \"Inquérito Policial\" (5498), que abriga diretamente o ANPP, e indico como subtema o próprio \"Acordo de Não Persecução Penal\" (5502), já que é esse o instituto cuja resposta correta exige conhecer. Como é questão multi-tema por natureza (abrange também captação ambiental e delação premiada, do tema Provas em Espécies), marco multi_tema = true e incluo extras e segunda opção cobrindo os demais institutos citados nas alternativas, para o caso de a banca considerar outra alternativa como gabarito.",
+ "id": "Q0147",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5543",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "O enunciado trata da investigação preliminar e dos meios de obtenção de prova, mas cada alternativa versa sobre um instituto distinto: denúncia anônima e inquérito policial (Inquérito Policial), captação ambiental e delação premiada (Provas em Espécies) e acordo de não persecução penal vs. transação penal (também ligado a Inquérito Policial/JECrim). Não há um eixo único; optei pelo tema \"Inquérito Policial\" por ser o fio condutor do enunciado (investigação preliminar) e por abrigar diretamente o ANPP, com \"Provas em Espécies\" como segunda opção por cobrir captação ambiental e colaboração premiada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2017,
+  "cache_w": 39948,
+  "cache_r": 78694,
+  "custo_usd": 0.20791980000000004
+ }
+}

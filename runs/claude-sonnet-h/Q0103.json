@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5476",
+ "subtema_n2_id": "5478",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata exclusivamente de revisão criminal: finalidade (reexame de processo já alcançado pela coisa julgada) e efeitos possíveis (absolvição, melhora da situação jurídica, anulação do processo), elementos típicos descritos no subtema Revisão Criminal (art. 621 e ss. do CPP). Confirma-se o tema de nível 1 \"Ações Autônomas de Impugnação\" e, com alta certeza, o subtema \"Revisão Criminal\".",
+ "id": "Q0103",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5476",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente da revisão criminal, instituto classificado no tema \"Ações Autônomas de Impugnação\" (subtema Revisão Criminal), que abrange os instrumentos processuais autônomos usados para atacar decisões já alcançadas pela coisa julgada. O enunciado versa sobre finalidade, momento de cabimento (após coisa julgada) e efeitos possíveis (absolvição, melhora da situação jurídica, anulação), tema clássico de Processo Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 847,
+  "cache_w": 30173,
+  "cache_r": 78694,
+  "custo_usd": 0.1493138
+ }
+}

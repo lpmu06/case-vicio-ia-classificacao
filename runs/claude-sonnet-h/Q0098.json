@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5548",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede o conceito doutrinário de \"confissão qualificada\" (admissão do fato associada à alegação de excludente), instituto típico do meio de prova \"Confissão\", disciplinado nos arts. 197-200 CPP. As demais alternativas versam sobre outros institutos probatórios (delação/colaboração, direito ao silêncio, arrependimento eficaz, retratação da negativa), mas a pergunta central e o gabarito (letra A) giram exclusivamente em torno da confissão qualificada, confirmando o subtema 5548 dentro do tema 5543 (Provas em Espécie). Não há relação direta com Ação Penal (5466), apesar da pista de origem; mantenho-o apenas como segunda opção por cautela residual, com baixa probabilidade real.",
+ "id": "Q0098",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o conceito de \"confissão qualificada\", instituto relativo ao meio de prova \"confissão\" no processo penal (o acusado admite o fato mas alega excludente). Isso se encaixa no tema de nível 1 \"Provas em Espécies\" (5543), que possui o subtema \"Confissão\". As demais alternativas tratam de outros institutos (delação, silêncio, arrependimento, retratação), mas o eixo comum é a disciplina das espécies de confissão/prova, não ação penal (apesar da pista de origem indicar \"Ação Penal\")."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1059,
+  "cache_w": 39751,
+  "cache_r": 78694,
+  "custo_usd": 0.1982448
+ }
+}

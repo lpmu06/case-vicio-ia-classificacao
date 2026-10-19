@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5472",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.7,
+ "segunda_opcao_id": "5063",
+ "extras_ids": [
+  "5469"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão versa sobre a \"desistência\" da ação penal privada (que corresponde ao instituto do perdão do ofendido, já que a renúncia é anterior ao oferecimento da queixa), afirmando que ela só encontra óbice intransponível após o trânsito em julgado da condenação. Isso é exatamente o conteúdo do art. 106, §2º, do CP e art. 51 do CPP: o perdão pode ser aceito a qualquer tempo, até o trânsito em julgado da sentença condenatória. Trata-se de instituto típico da disciplina processual da ação penal privada (disponibilidade, perdão, perempção), cabendo no subtema 5472 (Ação Penal de Iniciativa Privada), que expressamente lista \"perdão do ofendido\" entre suas palavras-chave e abrange o princípio da disponibilidade. Mantenho o tema de nível 1 Processo Penal > Ação Penal (5466), pois o enfoque é o exercício processual do direito de queixa/perdão, e não a classificação penal material da espécie de ação (que ficaria em Penal > Ação Penal, 5063, mantido como segunda opção). Também caberia em Princípios da Ação Penal (5469, disponibilidade), por isso incluído como extra, mas o subtema mais específico e direto é 5472.",
+ "id": "Q0189",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre desistência da ação penal privada e seus limites temporais (até o trânsito em julgado), tema típico de Ação Penal. Embora \"Ação Penal\" apareça tanto em Processo Penal (PP2) quanto na parte geral do Penal (P3), a origem da questão e o enfoque processual (condições de prosseguimento da ação, renúncia/perdão vs. decisão transitada em julgado) encaixam melhor em Processo Penal > Ação Penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5063",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão trata da disponibilidade da ação penal privada (princípio da disponibilidade) e do limite temporal para a desistência — o trânsito em julgado da condenação —, tema ligado às características e condições da ação penal privada. Embora o instituto também possa ser tratado na parte geral do Direito Penal (ação penal sob o viés material, em Penal > Ação Penal, id 5063), o enfoque processual sobre o exercício e a disponibilidade da ação (renúncia, perdão, prosseguimento até decisão definitiva) é mais afeito a Processo Penal > Ação Penal (id 5466), mantendo a classificação do estágio anterior."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2335,
+  "cache_w": 79377,
+  "cache_r": 67165,
+  "custo_usd": 0.365078
+ }
+}

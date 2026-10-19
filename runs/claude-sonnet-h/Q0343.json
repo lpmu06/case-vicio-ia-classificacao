@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.72,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5472",
+ "extras_ids": [
+  "5195",
+  "5196",
+  "5469"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão exige conhecer simultaneamente dois institutos: o perdão do ofendido (ato bilateral, que depende de aceitação do querelado) e a perempção (extinção por inércia do querelante por mais de 30 dias, que independe de concordância da parte contrária). A alternativa correta (B) explora justamente a ideia de que, mesmo rejeitado o perdão, o querelante pode obter efeito equivalente deixando de impulsionar o processo, incidindo a perempção (art. 60, III, CPP) — tema distinto do perdão, ainda que relacionado. Como a questão combina dois institutos que, na árvore, correspondem a subtemas irmãos diferentes de Punibilidade (5195 - Perempção e 5196 - Renúncia, Perdão do Ofendido e Retratação), não há um único subtema de nível 2 que cubra com exatidão o eixo testado; por isso subtema_n2_id = null, mantendo o nível 1 Punibilidade (5191), que abrange corretamente ambos os institutos como causas de extinção da punibilidade (art. 107, V, CP). Alternativamente, por se tratar de institutos tipicamente estudados dentro da disciplina de Ação Penal Privada no processo penal (5472, que também lista expressamente decadência, renúncia, perdão e perempção em suas palavras-chave), mantenho essa como segunda opção plausível, dada a origem da questão. A confiança no subtema é baixa justamente pela natureza combinada da questão (multi_tema = true).",
+ "id": "Q0343",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5191",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão testa o instituto do perdão do ofendido e da perempção na ação penal privada, institutos regulados como causas de extinção da punibilidade (CP, art. 107, V e CPP, art. 60). A árvore de Penal > Punibilidade (5191) possui subtemas específicos \"Perempção\" e \"Renúncia, Perdão do Ofendido e Retratação\", que cobrem exatamente o eixo central da questão (natureza bilateral do perdão, necessidade de aceitação, possibilidade de superveniente perempção por inércia). Embora a pista de origem aponte para \"Ação Penal de Iniciativa Privada\" (Processo Penal, 5466), que também trata do tema de forma mais processual, entendo que o foco é mais afeto às causas extintivas de punibilidade do Direito Penal material, daí a segunda opção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2608,
+  "cache_w": 27426,
+  "cache_r": 4053,
+  "custo_usd": 0.1468976
+ }
+}

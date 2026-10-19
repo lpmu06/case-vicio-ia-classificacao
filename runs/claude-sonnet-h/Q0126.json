@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": "5182",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [
+  "5213"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão multi-tema: cada alternativa versa sobre instituto distinto da Parte Geral - (A) concausas/nexo causal, (B) comunicabilidade de elementares no concurso de pessoas, (C) aplicação do CP a leis especiais (conflito aparente de normas), (D) inimputabilidade por embriaguez fortuita, (E) extraterritorialidade (art. 7º, II, 'c', e III, CP), que é a alternativa correta. Como o gabarito trata especificamente de hipótese de extraterritorialidade (crimes contra a fé pública de ente público cometidos no estrangeiro), mantenho a classificação em Lei Penal no Tempo e no Espaço, agora já com certeza suficiente para apontar o subtema 'Lei penal no Espaço' (5182), que cobre justamente as hipóteses de extraterritorialidade do art. 7º do CP. Segunda opção permanece em Culpabilidade (5211), por conta da alternativa D sobre inimputabilidade por embriaguez fortuita.",
+ "id": "Q0126",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5180",
+  "segunda_opcao_n1_id": "5211",
+  "confianca_ramo": 0.4,
+  "multi_tema": true,
+  "justificativa": "A questão reúne alternativas sobre institutos distintos da Parte Geral do Código Penal: nexo causal/concausas (A), comunicabilidade de elementares no concurso de pessoas (B), aplicação das regras gerais do CP a leis especiais - conflito aparente de normas (C), inimputabilidade por embriaguez fortuita (D) e extraterritorialidade da lei penal - lei penal no espaço (E, alternativa correta, que reproduz o art. 7º, II, 'c' / III do CP sobre crimes contra a fé pública de ente público). Não há eixo temático único; é questão multi-tema dentro do ramo de Direito Penal. Como a alternativa correta versa sobre extraterritorialidade, classifiquei em 'Lei Penal no Tempo e no Espaço', com segunda opção em 'Teoria do Crime: Culpabilidade' (por conta da alternativa D sobre inimputabilidade)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1989,
+  "cache_w": 34492,
+  "cache_r": 78694,
+  "custo_usd": 0.1813378
+ }
+}

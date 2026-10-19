@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5222",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5175",
+ "extras_ids": [
+  "5224"
+ ],
+ "multi_tema": false,
+ "justificativa": "As alternativas da questão são todas espécies/classificações de dolo (dolo geral, de segundo grau, eventual, alternativo, cumulativo), o que indica que o eixo cobrado é a classificação doutrinária do dolo, tema central de \"Crime Doloso e Culposo\" (5222), subtema de Teoria do Crime: Fato Típico (5218). O \"dolo geral\" (error in persequendo/aberratio causae) é tradicionalmente apresentado nos manuais como espécie de dolo dentro do estudo do elemento subjetivo do tipo, ao lado das demais classificações listadas nas alternativas, e não como instituto do Iter Criminis (que trata de tentativa, consumação, desistência voluntária, arrependimento e crime impossível - nenhuma alternativa remete a isso). Por isso, troco o tema de nível 1 para Fato Típico (5218) e indico o subtema 5222, mantendo Iter Criminis (5175) como segunda opção pela proximidade com o momento consumativo, e acrescento Erro de Tipo (5224) como extra pela conexão com aberratio causae.",
+ "id": "Q0153",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata de dolo geral (erro sucessivo/aberratio causae), conceito ligado à teoria do crime/dolo no iter criminis, enquadrado no tema \"Iter Criminis\", pertencente ao grupo P2."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5175",
+  "segunda_opcao_n1_id": "5218",
+  "confianca_ramo": 0.6,
+  "multi_tema": false,
+  "justificativa": "A questão trata do \"dolo geral\" (error in persequendo / aberratio causae), situação em que o agente acredita ter consumado o resultado e pratica nova conduta que efetivamente o consuma. Trata-se de instituto classicamente estudado dentro da consumação do crime, tema do Iter Criminis (momento consumativo), embora também possa ser enquadrado em Fato Típico, no estudo do nexo causal, já que o dolo geral é uma hipótese de irrelevância do erro sobre o nexo causal para fins de imputação. Mantida a linha do estágio anterior (Iter Criminis) como opção principal, com Fato Típico como segunda opção pela proximidade conceitual com nexo causal/imputação objetiva."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2198,
+  "cache_w": 15458,
+  "cache_r": 37312,
+  "custo_usd": 0.1015924
+ }
+}

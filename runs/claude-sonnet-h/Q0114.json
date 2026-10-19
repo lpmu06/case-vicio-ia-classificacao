@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.72,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4704",
+ "extras_ids": [
+  "5471"
+ ],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema de nível 1 como Ação Penal (5466). A questão não pede simplesmente a identificação da espécie de ação penal em violência doméstica, mas sim uma discussão doutrinária aprofundada sobre os efeitos temporais (ex tunc/ex nunc) do controle de constitucionalidade abstrato exercido pelo STF (ADI 4424) sobre uma norma processual mista (a exigência de representação como condição de procedibilidade da ação penal por lesão leve em violência doméstica) e suas repercussões sobre a obrigação do Delegado de instaurar inquérito. O eixo é a natureza da condição de procedibilidade/classificação da ação penal e os efeitos do controle de constitucionalidade sobre essa condição processual, o que é matéria central de Ação Penal. Não escolho subtema de nível 2 porque nenhum deles cobre com precisão o tema \"efeitos do controle de constitucionalidade sobre lei processual mista\" — os mais próximos (5471 - Ação Penal Pública Condicionada; 5467 - Características e Condições da Ação Penal) tratam da representação em si, não da discussão doutrinária sobre modulação temporal de decisões do STF, que é o cerne fático-jurídico explorado nas alternativas. Mantenho 4704 (Lei Maria da Penha) como segunda opção, pois o contexto fático e os dispositivos aplicáveis (art. 16 da Lei 11.340/2006, ADI 4424) estão diretamente vinculados a esse microssistema, e um aluno que buscasse jurisprudência/legislação sobre o tema também encontraria a questão relevante ali. Incluo 5471 como extra pela proximidade com a condição de procedibilidade em violência doméstica.",
+ "id": "Q0114",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "4704",
+  "confianca_ramo": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão gira em torno da necessidade (ou não) de representação da vítima para instauração de inquérito por lesão corporal leve em violência doméstica, à luz da ADI 4424 (que tornou a ação pública incondicionada) e dos efeitos temporais do controle de constitucionalidade sobre lei processual mista. O cerne é a condição de procedibilidade/classificação da ação penal (pública incondicionada x condicionada à representação) e os efeitos ex tunc/ex nunc da decisão do STF sobre essa condição processual — matéria tipicamente tratada em Processo Penal > Ação Penal (inclusive subtema \"Ação Penal Pública Condicionada\"/\"Características e Condições da Ação Penal\"). Como o contexto fático é a Lei Maria da Penha, esse tema específico (4704) é uma segunda opção razoável, mas o foco doutrinário da questão é sobre a natureza/efeitos da ação penal e do controle de constitucionalidade, não sobre o microssistema da Lei 11.340 em si."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2491,
+  "cache_w": 35503,
+  "cache_r": 78694,
+  "custo_usd": 0.1915658
+ }
+}

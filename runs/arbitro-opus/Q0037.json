@@ -1,0 +1,31 @@
+{
+ "fora": false,
+ "tema_n1_id": "5116",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.45,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5128",
+ "extras_ids": [
+  "5128",
+  "5079"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão mistura três institutos sem eixo comum. As alternativas A e B tratam do art. 149 do CP (liberdade pessoal, ambas corretas, sendo que B corresponde ao §2º, I). A alternativa C trata do falso testemunho (art. 342, crime contra a administração da justiça, também correta). A alternativa D é a incorreta e, por isso, a que decide o gabarito: inserir dado falso na CTPS ou em documento destinado à Previdência é crime equiparado à falsificação de documento público (art. 297, §3º), e não de documento particular (art. 298). Escolhi o tema da fé pública porque é ele que resolve a questão. O candidato 5128 (liberdade pessoal) fica como segunda opção, já que cobre duas alternativas, mas nenhuma delas define a resposta.",
+ "id": "Q0037",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5128"
+ ],
+ "candidatos_subtemas": [
+  "5132"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 1009,
+  "cache_w": 6629,
+  "cache_r": 16390,
+  "custo_usd": 0.080847
+ }
+}

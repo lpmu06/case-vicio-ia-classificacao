@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.72,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5191",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Mantenho o tema de nível 1 \"Prescrição\" (5185), pois o núcleo da questão é a regra jurisprudencial do STJ segundo a qual os prazos de prescrição penal só se aplicam à esfera disciplinar quando já houver sentença penal condenatória transitada em julgado (gabarito: alternativa D) — ou seja, exige-se conhecimento sobre o marco/requisito de incidência da prescrição penal. Contudo, nenhum dos subtemas de nível 2 cobre especificamente essa hipótese de \"importação\" dos prazos penais para o processo administrativo disciplinar: não é about conceito/fundamentos gerais (5186), não é sobre contagem/causas suspensivas-interruptivas em si (5187), e não trata da prescrição da pretensão punitiva (5188) nem executória (5189) do próprio crime, mas sim de uma aplicação reflexa desses prazos a outra esfera. Por isso, subtema_n2_id = null, para evitar posicionar a questão em um subtema irmão incorreto. Mantenho \"Punibilidade\" (5191) como segunda opção, já que a prescrição é espécie de causa extintiva da punibilidade e o tema guarda-chuva também cobriria o assunto, ainda que de forma menos específica.",
+ "id": "Q0113",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": null,
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão testa a aplicação dos prazos de prescrição penal à esfera disciplinar, conforme jurisprudência do STJ, exigindo o conhecimento de institutos de prescrição penal e da necessidade de sentença penal condenatória transitada em julgado para que o prazo penal seja aplicado ao processo administrativo (Súmula/entendimento STJ sobre prescrição e PAD). O núcleo da questão é o instituto da Prescrição (Parte Geral do Código Penal), por isso encaixa-se no grupo P3, que reúne os temas de Punibilidade/Prescrição. Não é questão de Processo Penal, pois não trata de ação penal, competência ou procedimento, mas sim do efeito da prescrição penal sobre outra esfera (administrativa)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5185",
+  "segunda_opcao_n1_id": "5191",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecer a jurisprudência do STJ sobre a aplicação dos prazos de prescrição penal à esfera disciplinar, condicionada à existência de sentença penal condenatória transitada em julgado. O núcleo do raciocínio é o instituto da Prescrição (seus marcos e requisitos de incidência), por isso o tema de nível 1 mais específico e correto é \"Prescrição\" (5185), dentro do grupo P3. Como segunda opção, \"Punibilidade\" (5191) é razoável, pois a prescrição é uma causa de extinção da punibilidade e esse tema guarda-chuva também cobriria a questão, embora de forma menos específica."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2441,
+  "cache_w": 51600,
+  "cache_r": 101498,
+  "custo_usd": 0.2623416
+ }
+}

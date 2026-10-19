@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5487",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o teor da decisão do STF (ADIs 6298/6299/6300/6305) sobre o prazo para implantação do juiz das garantias em todo o país, instituto de organização judiciária e distribuição de competência funcional previsto nos arts. 3º-A a 3º-F do CPP. O núcleo da pergunta é a competência funcional do juiz das garantias e as diretrizes/prazo fixados para sua efetivação, o que se enquadra melhor em \"Competência\" (5480), tema de nível 1 que abrange a disciplina da fixação e organização da competência criminal. Nenhum dos subtemas de nível 2 trata especificamente do prazo de implantação do juiz das garantias: não é questão de competência territorial (5483), em razão da matéria (5482), por prerrogativa de função (5484), de juízo (5485), de espécies/critérios gerais de fixação (5481) nem de prorrogação/modificação (5486) — o tema central é a regra de transição fixada pelo STF, que não se identifica com nenhum desses recortes específicos. Por isso, mantenho a classificação apenas no nível 1, com subtema_n2_id nulo. \"Comunicação dos Atos Processuais\" (5487) permanece como segunda opção fraca apenas por pertencer ao mesmo bloco de organização processual, mas não trata de citação/intimação, tema central da questão.",
+ "id": "Q0021",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP3",
+  "segundo_grupo_id": null,
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata do juiz das garantias, instituto relacionado à competência e organização judiciária no processo penal (arts. 3º-A a 3º-F do CPP, julgado pelo STF nas ADIs 6298/6299/6300/6305), tema que se enquadra em Competência, dentro do grupo PP3 (Competência, Questões e Processos Incidentes, Comunicação dos Atos)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5480",
+  "segunda_opcao_n1_id": "5487",
+  "confianca_ramo": 0.72,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o juiz das garantias, instituto de organização judiciária e distribuição de competência no processo penal (arts. 3º-A a 3º-F do CPP), cujo prazo de implementação foi fixado pelo STF nas ADIs 6298/6299/6300/6305. O cerne é a competência funcional do juiz das garantias e as diretrizes para sua implantação nos tribunais, o que se enquadra em \"Competência\" (5480), tema de nível 1 que abrange as espécies e fixação de competência criminal. Não há subtema específico que trate do prazo de implantação do juiz das garantias, então a classificação deve ficar no nível 1. Como segunda opção, \"Comunicação dos Atos Processuais\" (5487) não se aplica bem; mantenho-a apenas como alternativa fraca dentro do mesmo grupo, já que o tema central não trata de citação/intimação, mas é o segundo tema mais próximo do grupo PP3 em termos de organização processual."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2010,
+  "cache_w": 47076,
+  "cache_r": 101498,
+  "custo_usd": 0.2380206
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4696",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata diretamente do art. 94 do Estatuto do Idoso e da interpretação do STF (ADI 3096) sobre a aplicação do rito da Lei 9.099/95 aos crimes contra idosos com pena até 4 anos, e sobre os limites às medidas despenalizadoras. Embora mencione institutos da Lei 9.099/95, o núcleo da questão é a regra procedimental específica do Estatuto da Pessoa Idosa (art. 94), que está expressamente listada nos dispositivos e na seção \"não confundir\" do tema 4696 como prevalecente sobre 4701 nesses casos. Como o tema 4696 não possui subtemas, subtema_n2_id é null.",
+ "id": "Q0359",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4696",
+  "segunda_opcao_n1_id": "4701",
+  "confianca_ramo": 0.72,
+  "multi_tema": false,
+  "justificativa": "A questão versa especificamente sobre o art. 94 do Estatuto do Idoso (aplicação do procedimento da Lei 9.099/95 aos crimes contra idosos com pena máxima não superior a 4 anos) e sobre a interpretação dada pelo STF (ADI 3096), que admitiu o rito sumaríssimo mas afastou as medidas despenalizadoras quando a pena for superior a 2 anos. Trata-se de tema específico do microssistema de proteção penal ao idoso, cabendo melhor em \"Estatuto do Idoso - Crimes\" do que no tema genérico de \"Juizado Especial Criminal\", embora este seja pertinente como segunda opção por envolver institutos despenalizadores da Lei 9.099/95."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1822,
+  "cache_w": 6696,
+  "cache_r": 43624,
+  "custo_usd": 0.057861800000000005
+ }
+}

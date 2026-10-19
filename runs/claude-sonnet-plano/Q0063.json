@@ -1,0 +1,22 @@
+{
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "fora": false,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5517",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa especificamente sobre medidas protetivas de urgência da Lei 11.340/2006 (afastamento do agressor pelo delegado, concessão sem oitiva prévia, cognição sumária), tema central e específico da Lei Maria da Penha, não havendo subtema de nível 2 correspondente nessa árvore.",
+ "id": "Q0063",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 443,
+  "cache_w": 2559,
+  "cache_r": 214056,
+  "custo_usd": 0.0589452
+ }
+}

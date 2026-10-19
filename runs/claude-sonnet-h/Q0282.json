@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4697",
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "Questão \"assinale a correta\" com alternativas sobre institutos distintos: Lei Maria da Penha (A e E), Lei do Racismo (B) e Estatuto do Desarmamento (C e D), sem eixo temático único. A alternativa correta é a (E), que trata da possibilidade de o juiz aplicar, de imediato, medida protetiva de restrição/suspensão de visitas aos dependentes menores, exigindo oitiva da equipe multidisciplinar (art. 22, §1º, da Lei 11.340/06) — tema central de Lei Maria da Penha (4704), que não possui subtemas, por isso subtema_n2_id permanece null. A alternativa A também versa sobre medidas protetivas da mesma lei, reforçando esse eixo. Como segunda opção, mantém-se o Estatuto do Desarmamento (4697), presente em duas alternativas (C e D). Confiança moderada/alta pela natureza multi-tema da questão dentro do ramo de Legislação Especial.",
+ "id": "Q0282",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": "4697",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão é do tipo \"assinale a correta\", com alternativas tratando de institutos distintos: Lei Maria da Penha (A e E), Lei do Racismo (B) e Estatuto do Desarmamento (C e D), sem eixo temático único. Duas das cinco alternativas (A e E) versam sobre medidas protetivas de urgência da Lei 11.340/06, sendo a alternativa (E) a correta (art. 22, §1º da LMP exige oitiva da equipe multidisciplinar para restrição de visitas), o que torna \"Lei Maria da Penha\" o tema predominante e mais provável de ser o eixo da questão. Como segunda opção, o Estatuto do Desarmamento também aparece em duas alternativas (C e D). Por se tratar de questão multi-tema dentro do ramo de Legislação Especial, a confiança é moderada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1903,
+  "cache_w": 7358,
+  "cache_r": 43624,
+  "custo_usd": 0.0618518
+ }
+}

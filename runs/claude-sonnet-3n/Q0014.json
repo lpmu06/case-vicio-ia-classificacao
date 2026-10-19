@@ -1,0 +1,31 @@
+{
+ "fora": true,
+ "tema_n1_id": null,
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa sobre medida socioeducativa de internação de adolescente e o cabimento de habeas corpus contra decisão da Vara da Infância e Juventude — matéria própria do ECA (Direito da Infância e Juventude), que não é coberta pela árvore. O tema \"Violência contra Criança e Adolescente\" (LE2) trata de crimes cometidos CONTRA crianças/adolescentes, não do sistema de responsabilização/medidas socioeducativas do próprio adolescente infrator, de modo que não há tema na árvore que corresponda ao assunto efetivamente testado.",
+ "id": "Q0014",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": true,
+  "grupo_id": null,
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre medida socioeducativa de internação de adolescente e o cabimento de habeas corpus contra decisão da Vara da Infância e Juventude — matéria própria do ECA (Direito da Infância e Juventude), que não é coberta pela árvore. O tema \"Violência contra Criança e Adolescente\" (LE2) trata de crimes cometidos CONTRA crianças/adolescentes, não do sistema de responsabilização/medidas socioeducativas do próprio adolescente infrator, de modo que não há tema na árvore que corresponda ao assunto efetivamente testado."
+ },
+ "estagioB": null,
+ "uso": {
+  "in": 2,
+  "out": 591,
+  "cache_w": 13285,
+  "cache_r": 35273,
+  "custo_usd": 0.0672276
+ }
+}

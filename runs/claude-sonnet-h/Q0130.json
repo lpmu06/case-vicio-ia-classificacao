@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5160",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5205",
+ "extras_ids": [
+  "5199"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão narra roubo mediante grave ameaça com simulacro de arma de fogo e exige do candidato conhecimento específico sobre o tipo de roubo: (i) consumação, pela teoria da amotio/inversão da posse, já que o agente conseguiu a posse da coisa e fugiu, mesmo sem posse mansa e pacífica (Súmula 582 STJ); (ii) não incidência da causa de aumento de pena por emprego de arma quando se trata de simulacro, pois este não representa potencialidade lesiva real (entendimento consolidado do STJ, inclusive após a revogação da antiga Súmula 174); e (iii) a vedação à substituição da pena privativa de liberdade por restritivas de direitos no roubo, decorrente do próprio emprego de violência/grave ameaça à pessoa (art. 44, I, CP), que é uma característica inerente ao tipo de roubo, não um tema autônomo de dosimetria. Como as alternativas comparam exatamente essas três características típicas do roubo entre si, o eixo central da questão é o crime de roubo (subtema 5160) dentro de Dos Crimes Contra o Patrimônio (5157), mantendo a classificação do estágio anterior. A vedação de substituição de pena, embora prevista na Parte Geral (Penas Restritivas de Direitos, 5205, dentro de Teoria da Pena, 5199), aqui funciona como consequência direta e específica do tipo de roubo, e não como pergunta genérica sobre o instituto da substituição, por isso mantenho 5199/5205 apenas como extra/segunda opção, não como tema principal.",
+ "id": "Q0130",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão narra um roubo (grave ameaça com simulacro de arma para subtrair celular) e pergunta sobre a classificação do crime (consumado/tentado), a incidência de causa de aumento pelo uso de arma (simulacro) e o cabimento de substituição da pena privativa de liberdade por restritivas de direitos em caso de condenação. O eixo central é o delito de roubo e suas particularidades (consumação pela teoria da amotio, não incidência da majorante de arma quando se trata de simulacro), tema que se insere em \"Dos Crimes Contra o Patrimônio\" (subtema Roubo), dentro da disciplina Penal. A menção à substituição de pena é consequência acessória da análise do crime, não desloca o tema central."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2023,
+  "cache_w": 43445,
+  "cache_r": 78694,
+  "custo_usd": 0.2240718
+ }
+}

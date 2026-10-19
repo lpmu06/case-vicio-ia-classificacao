@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5222",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "5175",
+ "extras_ids": [
+  "5226"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pede a classificação doutrinária do dolo em um caso de \"dolo geral\" (dolus generalis): o agente acredita ter consumado o resultado e, por erro sobre o nexo causal/momento consumativo, pratica nova conduta que de fato o alcança. A pergunta explicitamente pede para nomear a espécie de dolo entre alternativas classificatórias (geral, de segundo grau, eventual, alternativo, cumulativo), o que é o núcleo de Teoria do Crime: Fato Típico (5218), tema que abrange espécies e classificações do elemento subjetivo dolo, mais especificamente o subtema Crime Doloso e Culposo (5222), onde se tratam as modalidades de dolo. Embora o fenômeno do dolo geral seja tradicionalmente estudado em conjunto com nexo causal (aberratio causae, art. 13 CP) — por isso mantenho 5226 como extra e Iter Criminis (5175) como segunda opção, já que a hipótese também é citada em discussões sobre consumação —, o enunciado não pergunta sobre tentativa, consumação ou fases do crime, mas sim pede diretamente a classificação do dolo envolvido, o que pesa mais para 5218/5222. Dada a ausência de \"dolo geral\" nas palavras-chave explícitas de 5222, mantenho confiança moderada no subtema.",
+ "id": "Q0153",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5175",
+  "segunda_opcao_n1_id": "5218",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão descreve o fenômeno do \"dolo geral\" (error in persona/aberratio causae em sentido amplo): o agente acredita ter consumado o resultado e pratica nova conduta que efetivamente o alcança — tema clássico tratado no estudo do Iter Criminis (consumação/tentativa e erro sobre o nexo causal), tema 5175. Alternativamente poderia ser enquadrado em Teoria do Crime: Fato Típico (dolo), tema 5218, já que trata de classificação de dolo."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1863,
+  "cache_w": 34229,
+  "cache_r": 78694,
+  "custo_usd": 0.17951279999999997
+ }
+}

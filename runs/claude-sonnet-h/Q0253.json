@@ -1,0 +1,32 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "extras_ids": [
+  "4367"
+ ],
+ "fora": false,
+ "justificativa": "A questão cobra diretamente a comparação entre Escola Clássica e Escola Positiva, seus fundamentos (livre-arbítrio x determinismo) e expoentes (Carrara, Lombroso, Ferri, Garofalo, Feuerbach, Carmignani), que é exatamente o conteúdo do subtema 4373 (Escolas Criminológicas), dentro do tema 4371. Não se trata de classificação de tipos de criminoso (4367), mas das escolas em si.",
+ "multi_tema": false,
+ "segunda_opcao_id": "4367",
+ "subtema_n2_id": "4373",
+ "tema_n1_id": "4371",
+ "id": "Q0253",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4371",
+  "segunda_opcao_n1_id": "4367",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa diretamente sobre as Escolas Penais (Clássica, Positiva/Lombrosiana) e seus expoentes (Carrara, Lombroso, Ferri, Garofalo, Feuerbach), tema central de \"Etapas Evolutivas e Escolas Criminológicas\", cujo subtema \"Escolas Criminológicas\" trata exatamente desse conteúdo."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1139,
+  "cache_w": 31491,
+  "cache_r": 78694,
+  "custo_usd": 0.1577318
+ }
+}

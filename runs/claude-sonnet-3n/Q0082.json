@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5100",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5079",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Tício se opõe à execução de ato legal (contenção/condução à delegacia) mediante ameaça de morte contra o policial João, configurando resistência (art. 329 CP). As demais alternativas (desobediência, tergiversação, concussão, excesso de exação) são outros tipos do mesmo Título XI do CP, usados como distratores para testar a distinção entre eles — todos cobertos por 5087, cujo subtema específico é \"Resistência, Desobediência e Desacato\" (5100), já que o núcleo fático é exatamente oposição mediante violência/ameaça à execução de ato legal. A menção à violência doméstica contra a companheira é apenas contexto narrativo repetido identicamente em todas as alternativas, sem exigir conhecimento da Lei Maria da Penha para resolver a questão. Mantida a classificação do estágio anterior, agora com subtema definido por maior certeza quanto ao enquadramento exato no art. 329 CP.",
+ "id": "Q0082",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A pergunta exige identificar o crime praticado por Tício ao se opor à execução de ato legal mediante ameaça aos policiais (resistência, art. 329 CP), opção comparada com outros tipos do mesmo título (desobediência, tergiversação, concussão, excesso de exação) - todos crimes contra a administração pública, tema coberto por P8. O contexto de violência doméstica é apenas narrativo/secundário (\"responsabilização pela infração penal perpetrada contra a sua companheira\" é tratado de forma genérica, sem exigir conhecimento específico da Lei Maria da Penha)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5079",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige identificar o crime praticado por Tício ao se opor à execução de ato legal mediante ameaça de morte contra o policial João (resistência, art. 329 CP), opção comparada com outros tipos do mesmo título (desobediência, tergiversação, concussão, excesso de exação), todos crimes contra a Administração Pública (Título XI do CP), tema coberto por P8/5087, cujo subtema específico é \"Resistência, Desobediência e Desacato\". O contexto da violência doméstica contra a companheira é apenas narrativo, mencionado genericamente (\"responsabilização pela infração penal perpetrada contra a sua companheira\") em todas as alternativas, sem exigir conhecimento específico da Lei Maria da Penha para resolver a questão. Mantida a classificação do estágio anterior. Segunda opção: 5079 (Crimes Contra a Administração Judicial), por ser tema próximo dentro do mesmo eixo de crimes contra a Administração, embora menos preciso que 5087."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2001,
+  "cache_w": 55983,
+  "cache_r": 101498,
+  "custo_usd": 0.2780586
+ }
+}

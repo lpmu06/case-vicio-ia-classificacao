@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.62,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5066",
+ "extras_ids": [
+  "5203",
+  "5207",
+  "5067"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 como 5199 (Teoria da Pena), mantendo a segunda opção 5066 (Concurso de Crimes). A questão é claramente multi-tema: a alternativa (A) trata de atenuantes genéricas ligadas à idade (art. 65, CP – segunda fase da dosimetria, subtema 5203), a (B) trata da atenuante inominada (art. 66, CP – também 5203), a (C) trata de aberratio ictus com resultado duplo e remete ao concurso material (art. 73 c/c art. 69, CP – tema 5066, subtema 5067), e a (D) trata das modalidades de sursis simples e especial (art. 77/78, CP – subtema 5207). Como três das quatro alternativas (A, B, D) giram em torno de institutos da Teoria da Pena (ainda que em subtemas distintos entre si – atenuantes e sursis), e apenas a (C) foge para concurso de crimes, mantenho 5199 como tema predominante, mas não atribuo subtema de nível 2 porque não há um único subtema que abranja a questão: ela mistura 5203 (atenuantes) e 5207 (sursis) dentro do próprio tema principal, além de tocar em 5067 (concurso material) via a alternativa C. Marcar qualquer subtema específico seria arriscar classificar errado, já que nenhum deles cobre isoladamente o conjunto da questão.",
+ "id": "Q0239",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "5066",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão reúne institutos distintos da Parte Geral do Código Penal em cada alternativa: atenuantes genéricas e atenuante inominada (art. 65 e 66, CP), aberratio ictus com pessoa diversa e também a pretendida (art. 73, CP, remetendo ao concurso formal/material) e suspensão condicional da pena (art. 77/78, CP). Não há eixo temático único. A maioria das alternativas (A, B e D) gravita em torno da Teoria da Pena (atenuantes e sursis são subtemas de 5199), por isso escolhi esse tema de nível 1 como principal, com confiança moderada por se tratar de questão multi-tema. A alternativa C, sobre aberratio ictus com duplo resultado e aplicação de concurso material, aproxima-se mais de Concurso de Crimes (5066), por isso indico como segunda opção. Não há tema de \"erro na execução/aberratio ictus\" específico na árvore, o que reforça a natureza híbrida da questão."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2187,
+  "cache_w": 36556,
+  "cache_r": 78694,
+  "custo_usd": 0.1941638
+ }
+}

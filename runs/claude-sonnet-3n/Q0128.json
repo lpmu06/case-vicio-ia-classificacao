@@ -1,0 +1,40 @@
+{
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0,
+ "extras_ids": [
+  "5468"
+ ],
+ "segunda_opcao_id": "5184",
+ "subtema_n2_id": null,
+ "tema_n1_id": "5466",
+ "multi_tema": false,
+ "fora": false,
+ "justificativa": "Mantenho o tema de nível 1 em Ação Penal (5466). A \"ação de prevenção penal\" (ou processo de segurança) é uma categoria doutrinária que classifica a ação penal segundo seu objeto (busca de medida de segurança, e não de pena, contra inimputável) — é, portanto, um recorte dentro da teoria da ação penal, não da disciplina material da medida de segurança em si (que trataria de requisitos, espécies, prazos, desinternação etc.). A pergunta avalia exclusivamente se a definição dessa espécie/conceito de ação está correta, reproduzindo a par disso a fórmula do art. 26 do CP apenas como descrição do sujeito passivo dessa ação (o inimputável), não como objeto de exame sobre o regime da medida de segurança. Por isso, nível 1 = Ação Penal.\n\nQuanto ao subtema, nenhum dos listados corresponde com exatidão: \"Classificação da Ação Penal\" (5468) trata da classificação quanto à titularidade (pública incondicionada/condicionada, privada etc.), e não da classificação quanto ao objeto/finalidade (condenatória vs. de prevenção/segurança), que é o que a questão aborda. Como não há subtema que cubra com precisão esse recorte conceitual específico, deixo subtema_n2_id como null, mas incluo 5468 em extras por ser o mais próximo tematicamente. Mantenho 5184 (Medida de Segurança) como segunda opção, pois um examinador que enxergasse o núcleo da questão no instituto da medida de segurança (e não na espécie de ação) poderia discordar dessa classificação.",
+ "id": "Q0128",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata da \"ação de prevenção penal\" (também chamada processo de segurança), modalidade de ação penal ajuizada para aplicação de medida de segurança a inimputável, tema processual classificado em Ação Penal (PP2). Alternativamente poderia ser enquadrada em Medida de Segurança (P3), mas o foco é sobre a espécie de ação penal cabível, não sobre o regime material da medida de segurança."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5184",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão pede o julgamento do conceito da \"ação de prevenção penal\" (processo de segurança), espécie de ação penal cabível para aplicação de medida de segurança a inimputável. O que se testa é a classificação/definição dessa modalidade de ação penal — tema processual de Ação Penal (PP2, subtema \"Classificação da Ação Penal\"). A medida de segurança aparece apenas como objeto dessa ação, não como o regime material (requisitos, espécies, prazo) a ser discutido, por isso não é o eixo central. Mantenho como segunda opção Medida de Segurança (P3), já que o enunciado também reproduz literalmente a definição de inimputabilidade do art. 26 do CP, o que poderia levar outro examinador a classificar pelo conteúdo material."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2574,
+  "cache_w": 50466,
+  "cache_r": 101498,
+  "custo_usd": 0.2577756
+ }
+}

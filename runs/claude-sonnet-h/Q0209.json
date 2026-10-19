@@ -1,0 +1,32 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.75,
+ "extras_ids": [
+  "5500"
+ ],
+ "fora": false,
+ "justificativa": "A questão versa sobre a vedação (art. 20, parágrafo único, CPP) de a autoridade policial mencionar anotações de instauração de inquérito em atestados de antecedentes, em razão da presunção de inocência. Trata-se de regra sobre o sigilo do inquérito policial, característica central do tema Inquérito Policial (5498), confirmado. Dentro dele, o assunto está mais ligado ao sigilo/características gerais do inquérito (subtema 5499 - Conceito, Finalidade e Características, que expressamente lista \"sigilo do inquérito\" como palavra-chave e art. 20 CPP como dispositivo), e não propriamente ao rito/diligências do procedimento (5500), embora este também cite o mesmo artigo, daí a confiança moderada no subtema.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5500",
+ "subtema_n2_id": "5499",
+ "tema_n1_id": "5498",
+ "id": "Q0209",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata da possibilidade de a autoridade policial mencionar anotações sobre instauração de inquérito em atestados de antecedentes, à luz da presunção de inocência — tema diretamente ligado ao Inquérito Policial (sigilo/efeitos da instauração do IP sobre a vida do investigado), classificado em Processo Penal > Inquérito Policial."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1716,
+  "cache_w": 31768,
+  "cache_r": 78694,
+  "custo_usd": 0.1657498
+ }
+}

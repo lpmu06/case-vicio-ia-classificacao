@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4373",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "4372",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige comparar diretamente as premissas da Escola Clássica (crime como ente jurídico), da Escola Positivista (seus adeptos reais: Ferri e Garofalo, não Beccaria, que é clássico) e da Escola Crítica (influência do Labelling Approach). Esse é exatamente o conteúdo descrito no subtema 4373 \"Escolas Criminológicas\", que trata da comparação entre Escola Clássica, Positiva e correntes críticas/de transição, incluindo autores e premissas. Não há menção a fases históricas pré-científicas (Antiguidade/Idade Média), o que afastaria 4372. Mantenho o tema de nível 1 4371 e confirmo o subtema 4373.",
+ "id": "Q0081",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4371",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa diretamente sobre as Escolas Criminológicas (Clássica, Positivista e Crítica/Labelling Approach), tema central do tópico \"Etapas Evolutivas e Escolas Criminológicas\" (id 4371), cujo subtema \"Escolas Criminológicas\" cobre exatamente esse conteúdo."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1153,
+  "cache_w": 28807,
+  "cache_r": 78694,
+  "custo_usd": 0.1464848
+ }
+}

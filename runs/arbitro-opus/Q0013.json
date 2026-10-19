@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5503",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5580",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra exclusivamente as competências do juiz das garantias previstas no art. 3º-B do CPP. Cobra o habeas corpus durante a investigação, o trancamento do inquérito, a comunicação da instauração da investigação, a produção antecipada de provas e a homologação do ANPP. A alternativa B é a exceção, pois o ANPP decorrente de decisão desclassificatória não está entre essas competências. A menção ao ANPP é apenas um item do rol do juiz das garantias, e o pano de fundo sobre sistema acusatório não basta para deslocar a questão para Sistemas e Princípios (5580).",
+ "id": "Q0013",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5498"
+ ],
+ "candidatos_subtemas": [
+  "5503"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 794,
+  "cache_w": 7119,
+  "cache_r": 16390,
+  "custo_usd": 0.080831
+ }
+}

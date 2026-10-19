@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5487",
+ "subtema_n2_id": "5489",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5488",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam sobre intimação (MP, Defensoria Pública, assistente de acusação) e seu termo inicial/forma de contagem - matéria própria de Intimação e Contagem dos Prazos (5489). Não há discussão sobre citação do acusado para integrar a relação processual, o que afastaria 5488.",
+ "id": "Q0295",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5487",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata da fluência e contagem de prazos processuais (intimação do MP, Defensoria Pública, assistente de acusação, juntada de mandado), matéria própria de Comunicação dos Atos Processuais (citação e intimação), que abrange exatamente a contagem de prazos no processo penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 866,
+  "cache_w": 6699,
+  "cache_r": 32043,
+  "custo_usd": 0.0461006
+ }
+}

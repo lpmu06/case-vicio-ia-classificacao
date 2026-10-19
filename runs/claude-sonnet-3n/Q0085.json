@@ -1,0 +1,40 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": "5076",
+ "segunda_opcao_id": "5087",
+ "extras_ids": [
+  "5091"
+ ],
+ "multi_tema": false,
+ "fora": false,
+ "justificativa": "A pergunta não exige o conhecimento dos elementos típicos da concussão (exigir vantagem indevida), mas sim a regra de comunicabilidade de elementares no concurso de pessoas (art. 30 do CP), perguntando especificamente se a condição de funcionário público se comunica ao concorrente particular e sob qual condição (conhecimento da elementar). Isso é exatamente o subtema \"Comunicabilidade de Circunstâncias, Condições e Elementares\" (5076), dentro do tema de nível 1 \"Concurso de Pessoas\" (5071). O crime de concussão é só o cenário fático usado para ilustrar a regra geral de teoria do concurso de pessoas, por isso mantenho 5071/5076 como escolha principal, com \"Dos Crimes Contra a Administração Pública\" (5087) como segunda opção pelo contexto típico envolvido.",
+ "id": "Q0085",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": "P8",
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "Embora o contexto narrativo seja o crime de concussão (crime contra a administração pública), a pergunta testa exatamente a regra de comunicabilidade das elementares ao concorrente que não possui a qualidade especial (art. 30 do CP), tema típico de Concurso de Pessoas, que integra o grupo P2 (parte geral: teoria do crime/concursos)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": "5087",
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão usa a concussão apenas como pano de fundo narrativo; o que efetivamente se exige do aluno é o domínio da regra de comunicabilidade de elementares ao concorrente que não possui a qualidade especial (art. 30 do CP), aplicada à condição de funcionário público. Esse é exatamente o subtema \"Comunicabilidade de Circunstâncias, Condições e Elementares\", dentro do tema de nível 1 \"Concurso de Pessoas\" (5071), do grupo P2 (parte geral). Não se cobra nenhum elemento específico do tipo de concussão (verbo, consumação, sujeito passivo etc.), apenas a teoria geral do concurso de pessoas, por isso P2 prevalece sobre P8 (Crimes Contra a Administração Pública), que fica como segunda opção por ser o contexto fático da questão."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1861,
+  "cache_w": 55219,
+  "cache_r": 101498,
+  "custo_usd": 0.2730116
+ }
+}

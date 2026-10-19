@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecimento da jurisprudência do STJ sobre prisão domiciliar na execução penal (art. 117 da LEP), incluindo a hipótese excepcional de concessão em regime fechado para mãe cujo cuidado do filho seja imprescindível (tema correlato ao HC 143.641/SP e entendimentos do STJ sobre rol não exaustivo do art. 117). É matéria típica de execução penal, coberta integralmente pelo tema 4703 (Lei de Execução Penal), que não possui subtemas, confirmando a classificação anterior.",
+ "id": "Q0087",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata de prisão domiciliar no contexto da execução penal (art. 117 da LEP e jurisprudência do STJ sobre hipóteses excepcionais, como a da mãe com filho sob cuidado imprescindível), tema diretamente coberto por Lei de Execução Penal, dentro do grupo LE4."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre prisão domiciliar no âmbito da execução penal, exigindo conhecimento do art. 117 da LEP e da jurisprudência do STJ sobre hipóteses excepcionais de concessão (inclusive em regime fechado, caso da mãe com filho sob cuidado imprescindível). Trata-se de tema diretamente coberto por \"Lei de Execução Penal\" (4703), dentro do grupo LE4. Os demais temas do grupo (Juizado Especial Criminal, Interceptação Telefônica, Identificação Criminal, Contravenções Penais, Crimes de Trânsito) não guardam relação com a matéria testada."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1276,
+  "cache_w": 43142,
+  "cache_r": 101498,
+  "custo_usd": 0.2109416
+ }
+}

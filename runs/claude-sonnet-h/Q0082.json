@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5100",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5091",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige identificar o crime de resistência (art. 329 CP): Tício opôs-se, mediante ameaça (de matar o policial João), à execução de ato legal (contenção/condução à delegacia) por funcionários competentes. As demais alternativas (excesso de exação, desobediência, tergiversação, concussão) são distratores de outros tipos do mesmo título. O tema de nível 1 é \"Dos Crimes Contra a Administração Pública\" (5087) e o subtema específico, por tratar exatamente de resistência, é \"Resistência, Desobediência e Desacato\" (5100).",
+ "id": "Q0082",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão testa a identificação do crime de resistência (art. 329 CP) — oposição à execução de ato legal mediante ameaça a funcionário competente ou a quem o auxilia, no caso durante a contenção pelos policiais. Embora as alternativas citem outros nomes de crimes (excesso de exação, desobediência, concussão), todos são crimes contra a Administração Pública tratados no mesmo tema de nível 1, cujo subtema específico é \"Resistência, Desobediência e Desacato\". Não é caso de multi-tema, pois há um eixo comum claro (crimes funcionais/contra a Administração) e resposta certa definida."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1681,
+  "cache_w": 34085,
+  "cache_r": 78694,
+  "custo_usd": 0.17704779999999998
+ }
+}

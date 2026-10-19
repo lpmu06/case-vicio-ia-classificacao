@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5096",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5116",
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "A questão é de alternativa única correta, cada opção versando sobre instituto diferente: (A) estupro qualificado pela gravidez (crimes sexuais, fora dos ramos listados), (B) condescendência criminosa (art. 320 CP - Administração Pública), (C) incêndio qualificado (incolumidade pública, fora dos ramos listados), (D) supressão de documento (fé pública) e (E) falsa identidade (fé pública). A alternativa correta e efetivamente testada é a (B), que descreve com precisão o tipo do art. 320 CP: superior que, por indulgência, deixa de responsabilizar subordinado por infração no exercício do cargo - exatamente a definição do subtema \"Condescendência Criminosa\" (5096), dentro do tema \"Dos Crimes Contra a Administração Pública\" (5087). Como a resposta correta gira em torno desse instituto específico, mantenho o tema de nível 1 confirmado e agora atribuo o subtema com confiança razoável, dado o encaixe perfeito entre o enunciado da alternativa (B) e a descrição do subtema 5096. Mantenho 5116 (Fé Pública) como segunda opção por conta das alternativas D e E, e sinalizo multi_tema=true pela heterogeneidade das opções, embora o eixo decisório da questão seja único (a alternativa correta).",
+ "id": "Q0068",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": "P5",
+  "confianca": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos distintos em cada alternativa: estupro/gravidez (crimes sexuais), condescendência criminosa (administração pública - art. 320 CP), incêndio qualificado (incolumidade pública), supressão de documento e falsa identidade (fé pública). Não há eixo temático único. A alternativa correta é a (B), que trata de condescendência criminosa, crime contra a Administração Pública, tema que não existe sequer isoladamente mas está contido em \"Dos Crimes Contra a Administração Pública\" (grupo P8). Como a origem indicava \"fé pública\" e duas alternativas (D e E) versam sobre esse tema, marco P5 como segunda opção. Confiança moderada dada a natureza multi-tema da questão."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5116",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos distintos em cada alternativa: estupro qualificado pela gravidez (crimes sexuais - fora dos grupos listados), condescendência criminosa (art. 320 CP - Administração Pública), incêndio qualificado (incolumidade pública - fora dos grupos listados), supressão de documento e falsa identidade (fé pública). Não há eixo temático único, sendo questão multi-tema. A alternativa correta é a (B), sobre condescendência criminosa, crime contra a Administração Pública, que se encaixa no tema \"Dos Crimes Contra a Administração Pública\" (grupo P8, id 5087), ainda que o subtema específico \"Condescendência Criminosa\" já exista listado ali. Como as alternativas D e E versam sobre fé pública (documento/identidade), mantenho \"Dos Crimes Contra a Fé Pública e de Falsidade Documental\" (id 5116, grupo P5) como segunda opção. Confiança moderada dada a natureza multi-tema da questão e a pluralidade de institutos testados."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3408,
+  "cache_w": 52395,
+  "cache_r": 101498,
+  "custo_usd": 0.27722159999999996
+ }
+}

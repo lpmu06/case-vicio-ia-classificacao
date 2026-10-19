@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todos os itens (I a IV) versam exclusivamente sobre a teoria do erro de tipo: erro essencial sobre elementar, erro sobre objeto, aberratio ictus (erro na execução) e aberratio criminis (resultado diverso do pretendido) — exatamente o escopo descritivo e as palavras-chave do subtema 5224 (Erro de Tipo), dentro do tema-mãe 5218 (Fato Típico). Não há menção a erro de proibição (que seria 5211) nem a ilicitude/culpabilidade, confirmando que o eixo é o erro que afeta o dolo/tipicidade, não a reprovabilidade da conduta.",
+ "id": "Q0241",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente da teoria do erro de tipo (erro essencial, erro sobre objeto, aberratio ictus e aberratio criminis), temas ligados à tipicidade/dolo, que se enquadram no eixo \"Erro de Tipo\", subtema de Teoria do Crime: Fato Típico (nível 1 = 5218)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 984,
+  "cache_w": 33656,
+  "cache_r": 78694,
+  "custo_usd": 0.1665728
+ }
+}

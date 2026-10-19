@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5185",
+ "extras_ids": [
+  "5193",
+  "5186"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão combina três assertivas sobre institutos distintos dentro das causas de extinção da punibilidade: (I) a taxatividade do rol do art. 107 do CP, tema geral de Punibilidade; (II) a distinção entre anistia (fatos determinados) e indulto (pessoas determinadas), que corresponderia ao subtema Anistia, Graça e Indulto (5193); e (III) o conceito de prescrição como perda do direito de punir pelo decurso do tempo, que tangencia o subtema Conceito, Regras Gerais e Fundamentos da Prescrição (5186), dentro do tema Prescrição (5185). Como as alternativas de resposta combinam julgamentos sobre I, II e III em conjunto (ex.: \"apenas II e III\"), não há um único subtema que abranja toda a questão — o eixo comum é o tratamento geral das causas de extinção da punibilidade do art. 107 do CP, por isso o tema de nível 1 mais adequado é Punibilidade (5191), sem subtema específico, com Prescrição (5185) como segunda opção relevante por conter o item III.",
+ "id": "Q0251",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5191",
+  "segunda_opcao_n1_id": "5185",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata do rol de causas de extinção da punibilidade (art. 107, CP), da distinção entre anistia e indulto, e do conceito de prescrição como perda do direito de punir pelo decurso do tempo — todos institutos nucleares do tema Punibilidade, que abrange justamente essas causas de extinção (incluindo seus subtemas Anistia, Graça e Indulto). A prescrição aparece apenas como um exemplo dentro desse rol geral, não como foco específico de cálculo de prazos, por isso o tema central é Punibilidade, com Prescrição como segunda opção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1508,
+  "cache_w": 33961,
+  "cache_r": 78694,
+  "custo_usd": 0.1749438
+ }
+}

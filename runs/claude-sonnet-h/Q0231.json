@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5227",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata diretamente do erro de tipo essencial e seus efeitos (exclusão do dolo e, por consequência, da tipicidade, já que não há modalidade culposa de tráfico), gabarito na alternativa que fala em atipicidade da conduta. O instituto central testado é o erro de tipo, subtema específico dentro de Teoria do Crime: Fato Típico. O contexto do tráfico de drogas é apenas narrativo. Confirmo o tema de nível 1 (5218) e indico o subtema 5224 (Erro de Tipo) com alta confiança.",
+ "id": "Q0231",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente o instituto do erro de tipo essencial (exclusão do dolo e, consequentemente, da tipicidade, já que o tráfico de drogas não admite modalidade culposa), tema que se insere em Teoria do Crime: Fato Típico, cujo subtema específico é Erro de Tipo. O contexto do tráfico de drogas é apenas narrativo, não é o foco da pergunta."
+ },
+ "uso": {
+  "in": 4,
+  "out": 980,
+  "cache_w": 33272,
+  "cache_r": 78694,
+  "custo_usd": 0.16471780000000003
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4705",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "Todas as alternativas versam especificamente sobre institutos da Lei 12.850/2013 (organização criminosa): regime de cumprimento de pena do líder (art. 2º, §4º), definição legal e Convenção de Palermo (art. 1º, §1º), qualificadora de funcionário público (art. 2º, §4º, II), afastamento cautelar do cargo (art. 2º, §5º) e bis in idem na conduta permanente (consumação/cessação da permanência). Como cada alternativa aborda um aspecto distinto da mesma lei especial, marco multi_tema=true, mas o ramo é único e claro: 4705 (Organizações Criminosas). O tema não possui subtemas, logo subtema_n2_id permanece null.",
+ "id": "Q0200",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa inteiramente sobre a Lei 12.850/2013 (organizações criminosas): definição legal, afastamento cautelar de funcionário público, qualificadoras e bis in idem na conduta permanente. Trata-se de legislação especial penal, enquadrando-se no tema \"Organizações Criminosas\" do grupo LE1."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4705",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam especificamente sobre a Lei 12.850/2013 (organizações criminosas): regime de cumprimento de pena do líder, definição legal e Convenção de Palermo, qualificadora de funcionário público, afastamento cautelar e bis in idem na conduta permanente. Tema central único e claramente enquadrado em Organizações Criminosas (LE1)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1181,
+  "cache_w": 40426,
+  "cache_r": 102908,
+  "custo_usd": 0.1998066
+ }
+}

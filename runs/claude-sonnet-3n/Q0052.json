@@ -1,0 +1,38 @@
+{
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão trata exclusivamente da remição de pena por trabalho e por estudo, incluindo a proporção dias de trabalho/estudo convertidos em dias de pena, o acréscimo por conclusão de etapa de ensino e a perda de dias remidos em caso de falta grave — tudo disciplinado pelos arts. 126 a 129 da Lei 7.210/1984 (LEP). Trata-se de instituto típico e exclusivo da execução penal, não se confundindo com tipificação de crimes, benefícios despenalizadores de Juizado ou outros ramos. Mantém-se o tema de nível 1 [4703] Lei de Execução Penal, que não possui subtemas cadastrados, de modo que subtema_n2_id permanece null.",
+ "multi_tema": false,
+ "segunda_opcao_id": null,
+ "subtema_n2_id": null,
+ "tema_n1_id": "4703",
+ "id": "Q0052",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": null,
+  "confianca": 0.96,
+  "multi_tema": false,
+  "justificativa": "A questão trata de remição de pena por trabalho e estudo e perda de dias remidos por falta grave, institutos disciplinados pela Lei de Execução Penal (arts. 126 a 130 da LEP), tema que está no grupo LE4 (Legislação Especial - Execução Penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa exclusivamente sobre remição de pena por trabalho e estudo (arts. 126-129 da LEP), incluindo a conversão de horas de estudo em dias, o acréscimo por conclusão de ensino e a perda de dias remidos em razão de falta grave (art. 127 da LEP). Todos esses institutos são disciplinados especificamente pela Lei de Execução Penal, cujo tema de nível 1 correspondente é 4703 (Lei de Execução Penal), dentro do grupo LE4. Não há dúvida razoável quanto ao ramo, pois não se trata de Juizados, interceptação, identificação criminal, contravenções ou trânsito."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1437,
+  "cache_w": 43786,
+  "cache_r": 101498,
+  "custo_usd": 0.2156706
+ }
+}

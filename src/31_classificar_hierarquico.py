@@ -33,6 +33,11 @@ ESQUEMA_1 = {
     "additionalProperties": False,
 }
 
+SAIDA_2 = ("## Saída\nResponda apenas com JSON no esquema fornecido. `tema_n1_id` é o tema de nível 1 "
+           "(nunca a disciplina); `subtema_n2_id` é um subtema filho dele ou null; as confianças são "
+           "probabilidades honestas (0 a 1); `segunda_opcao_id` é um id de nível 1 ou 2; `extras_ids` são "
+           "outros temas relevantes (pode ser vazio).")
+
 REGRAS = (RAIZ / "prompts" / "classificar_sistema.md").read_text(encoding="utf-8").split("## Árvore de temas")[0]
 
 
@@ -105,10 +110,7 @@ def main():
     temas = arv.carregar_temas()
     enr = json.loads((RAIZ / "data" / "temas_enriquecidos.json").read_text(encoding="utf-8"))
     sis1 = sistema_estagio1(temas, enr)
-    sis2 = REGRAS + ("## Saída\nResponda apenas com JSON no esquema fornecido. `tema_n1_id` é o tema de nível 1 "
-                     "(nunca a disciplina); `subtema_n2_id` é um subtema filho dele ou null; as confianças são "
-                     "probabilidades honestas (0 a 1); `segunda_opcao_id` é um id de nível 1 ou 2; `extras_ids` são "
-                     "outros temas relevantes (pode ser vazio).")
+    sis2 = REGRAS + SAIDA_2
     qs = [json.loads(l) for l in (RAIZ / "data" / "questoes_limpas.jsonl").open(encoding="utf-8")]
     if a.ids:
         qs = [q for q in qs if q["id"] in a.ids.split(",")]

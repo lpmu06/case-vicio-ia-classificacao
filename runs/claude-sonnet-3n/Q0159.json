@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5160",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.82,
+ "segunda_opcao_id": "5150",
+ "extras_ids": [
+  "5149"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão exige diferenciar duas condutas: (i) Caio, que dispara para matar mas Túlio permanece vivo (esboça reação depois) — homicídio tentado, tema Crimes Contra a Vida (5149), subtema Homicídio (5150); e (ii) Lívio, que durante a subtração patrimonial emprega violência (pedrada) contra a vítima ainda viva, causando-lhe a morte por concussão cerebral — latrocínio consumado (art. 157, §3º, CP), pois a violência letal ocorre no contexto da execução do crime patrimonial violento, e não após a consumação da subtração visando apenas impunidade/posse (o que descartaria roubo impróprio simples e reforça a figura qualificada pela morte). O subtema 'Roubo' (5160) expressamente menciona o latrocínio em sua descrição e palavras-chave, sendo o eixo central testado pela questão (a distinção latrocínio x roubo impróprio é o ponto mais sofisticado e decisivo para acertar a alternativa correta, 'B'). Mantenho P5/5157 (subtema Roubo/5160) como tema principal, por ser o ponto de maior complexidade técnica exigido, e P4/5149 (subtema Homicídio/5150) como segunda opção, caracterizando questão multi-tema.",
+ "id": "Q0159",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P5",
+  "segundo_grupo_id": "P4",
+  "confianca": 0.65,
+  "multi_tema": true,
+  "justificativa": "A questão exige diferenciar corretamente os crimes praticados por Caio (homicídio tentado, pois Túlio ainda vivia) e por Lívio (latrocínio consumado, já que a violência empregada após a subtração causou a morte, caracterizando crime complexo do art. 157, §3º). O eixo decisório central está na correta tipificação do crime patrimonial qualificado pelo resultado morte (latrocínio x roubo impróprio), tema de Crimes Contra o Patrimônio (P5), embora também exija conhecimento sobre consumação do homicídio (P4), por isso marco como multi-tema."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": "5149",
+  "confianca_ramo": 0.6,
+  "multi_tema": true,
+  "justificativa": "A questão exige diferenciar a conduta de Caio (homicídio tentado, pois Túlio ainda vivia quando ele se retirou) da conduta de Lívio (latrocínio consumado, já que a violência empregada contra a vítima ainda com vida, no contexto da subtração, causou a morte, configurando o crime complexo do art. 157, §3º, CP, e não roubo impróprio, pois a violência não visa garantir a posse da coisa já subtraída, mas ocorre durante a execução do crime patrimonial violento). O eixo decisório principal está na correta tipificação do crime contra o patrimônio qualificado pelo resultado morte (latrocínio x roubo impróprio), tema de Crimes Contra o Patrimônio (P5/5157, subtema Roubo), ainda que também exija o correto enquadramento do homicídio tentado em relação a Caio (P4/5149, subtema Homicídio). Por isso, mantenho a classificação como multi-tema, com P5 como tema principal e P4 como segunda opção, repetindo a análise do estágio anterior."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3128,
+  "cache_w": 20031,
+  "cache_r": 14150,
+  "custo_usd": 0.12850899999999998
+ }
+}

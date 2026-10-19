@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5528",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O desaforamento é instituto específico da organização do procedimento do júri (arts. 427/428 CPP), cabível somente após a preclusão da decisão de pronúncia (ou, em certos casos, no curso do processo por excesso de serviço, mas nunca \"a qualquer momento a partir do recebimento da denúncia\"). O tema central não é competência em abstrato, mas a regra procedimental do júri sobre desaforamento, que se encaixa no subtema \"Organização do Júri e Sessão de Julgamento\" (5528), dentro do tema de nível 1 \"Procedimento do Tribunal do Júri\" (5524). Mantida a escolha do estágio anterior quanto ao tema de nível 1, com acréscimo de subtema específico.",
+ "id": "Q0133",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5524",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre desaforamento, instituto típico do procedimento do Tribunal do Júri (art. 427/428 CPP), cabível a partir da preclusão da decisão de pronúncia, e não desde o recebimento da denúncia — logo o item está errado. Tema central: Procedimento do Tribunal do Júri."
+ },
+ "uso": {
+  "in": 4,
+  "out": 998,
+  "cache_w": 35775,
+  "cache_r": 78694,
+  "custo_usd": 0.1770468
+ }
+}

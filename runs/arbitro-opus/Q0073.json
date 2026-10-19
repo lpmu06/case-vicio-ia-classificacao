@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.5,
+ "segunda_opcao_id": "5079",
+ "extras_ids": [
+  "5079",
+  "5147"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão percorre vários crimes do Título XI do CP. Os itens mais cobrados são os crimes contra a Administração Pública em geral: peculato culposo, corrupção ativa (a resposta correta é a B, pelo art. 333) e tráfico de influência. Os itens C (favorecimento) e E (art. 359-G) entram, respectivamente, em crimes contra a Administração da Justiça e contra as finanças públicas. Não há um subtema único, por isso o enquadramento fica no tema 5087. O tema 5066 (concurso de crimes), sugerido pelo assunto de origem, não tem relação com o conteúdo.",
+ "id": "Q0073",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5087",
+  "5066"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 790,
+  "cache_w": 25495,
+  "cache_r": 0,
+  "custo_usd": 0.22840500000000002
+ }
+}

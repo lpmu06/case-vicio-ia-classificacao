@@ -1,0 +1,31 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5541",
+ "confianca_ramo": 0.65,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [
+  "4701"
+ ],
+ "multi_tema": false,
+ "justificativa": "O item cobra os efeitos da homologação da transação penal: pela Súmula Vinculante 35, ela não faz coisa julgada material e, se as cláusulas forem descumpridas, a persecução penal pode continuar. Por isso o item está ERRADO. O eixo é exatamente o subtema Transação Penal (5541), dentro do Procedimento Sumaríssimo do Processo Penal, que é também a disciplina de origem. O tema 4701 (JECRIM na Legislação Especial) também cobre o instituto e fica como segunda opção, mas não tem subtema específico e é menos preciso para uma questão de enfoque processual.",
+ "id": "Q0053",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5539",
+  "4701"
+ ],
+ "candidatos_subtemas": [
+  "5541"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 698,
+  "cache_w": 6281,
+  "cache_r": 16390,
+  "custo_usd": 0.071617
+ }
+}

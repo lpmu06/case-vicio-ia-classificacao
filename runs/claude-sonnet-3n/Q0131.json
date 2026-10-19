@@ -1,0 +1,38 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.92,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão exige conhecimento específico sobre a teoria do domínio do fato (Welzel/Roxin) como critério de distinção entre autor e partícipe, testando se o examinando sabe que tal teoria se baseia no controle final do fato (domínio da vontade/da ação) e não na mera execução material do delito (este último é o critério da teoria objetivo-formal/restritiva). Isso se encaixa precisamente no subtema \"Autores e Partícipes\" (5072), cuja descrição menciona expressamente \"teoria do domínio do fato\" e \"teoria restritiva de autor\" como eixos centrais de cobrança. Não há menção a autoria mediata, coautoria, autoria colateral, comunicabilidade de elementares ou cooperação dolosamente distinta, o que afasta os demais subtemas de 5071.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5074",
+ "subtema_n2_id": "5072",
+ "tema_n1_id": "5071",
+ "id": "Q0131",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a teoria do domínio do fato (Welzel/Roxin) e seu critério de distinção entre autor e partícipe, matéria central do tema Concurso de Pessoas, integrante do grupo P2 (parte geral - teoria do crime/concursos)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata do critério distintivo entre autor e partícipe sob a teoria do domínio do fato (Welzel/Roxin), matéria diretamente ligada ao subtema \"Autores e Partícipes\" dentro do tema de nível 1 \"Concurso de Pessoas\" (5071). Não há elemento de autoria mediata, coautoria, comunicabilidade ou cooperação dolosamente distinta a justificar outro subtema; o eixo é exclusivamente o critério de distinção autor/partícipe."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1576,
+  "cache_w": 47117,
+  "cache_r": 101498,
+  "custo_usd": 0.23143359999999996
+ }
+}

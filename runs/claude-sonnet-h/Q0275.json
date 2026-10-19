@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5540",
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5488",
+ "extras_ids": [
+  "5487"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa a regra específica do art. 66, parágrafo único, da Lei 9.099/95: no JECrim, não encontrado o acusado para citação, não se admite citação por edital, remetendo-se os autos ao juízo comum (gabarito D). Esse dispositivo está expressamente listado no subtema 5540 (Competência dos Juizados Especiais Criminais), que trata justamente da impossibilidade de citação por edital no JECRIM e da remessa ao juízo comum como consequência procedimental/competencial. Embora o ato em discussão seja a citação, a regra testada não é a disciplina geral de citação (CPP, arts. 351-369), mas sim a regra peculiar e derrogatória do microssistema dos Juizados quanto ao destino do processo quando a citação pessoal falha - tema específico de competência dos Juizados (remessa ao juízo comum). Por isso, mantenho o ramo em Procedimento Sumaríssimo, agora com maior confiança no subtema 5540, que expressamente cita o art. 66, parágrafo único, como dispositivo de referência. Comunicação dos Atos Processuais (5487) e seu subtema de Citação (5488) permanecem como segunda opção, pois o ato de citação está no centro da narrativa, mas a pergunta não é sobre a forma de citar e sim sobre a consequência processual específica do JECRIM.",
+ "id": "Q0275",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5539",
+  "segunda_opcao_n1_id": "5487",
+  "confianca_ramo": 0.65,
+  "multi_tema": false,
+  "justificativa": "A questão testa regra específica do art. 66, parágrafo único, da Lei 9.099/95: quando o acusado não é encontrado para citação no Juizado Especial Criminal, não se admite citação por edital (incompatível com os princípios da oralidade e celeridade do rito sumaríssimo), devendo os autos serem remetidos ao juízo comum para adoção do procedimento previsto em lei (gabarito D). Trata-se de regra peculiar do procedimento sumaríssimo, e não da disciplina geral de citação/comunicação de atos processuais do procedimento comum. Por isso, classifico prioritariamente em Procedimento Sumaríssimo (JECrim), com Comunicação dos Atos Processuais como segunda opção, já que o instituto imediatamente em jogo é a citação."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1512,
+  "cache_w": 9620,
+  "cache_r": 43624,
+  "custo_usd": 0.06887380000000001
+ }
+}

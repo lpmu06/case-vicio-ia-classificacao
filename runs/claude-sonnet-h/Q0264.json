@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": "5108",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5103",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata do art. 218-B do CP (favorecimento da prostituição ou outra forma de exploração sexual de vulnerável), diferenciando a responsabilidade do cliente (que pode responder por estupro de vulnerável, se a vítima for menor de 14 anos, ou por favorecimento à prostituição, se a vítima tiver entre 14 e 18 anos) e do proprietário/gerente/responsável pelo local (que responde pela conduta equiparada do art. 218-B, §2º). Esse dispositivo está expressamente listado no subtema 5108 (Corrupção de Menores), cuja descrição abrange \"exploração sexual de vulnerável\" e cita o art. 218-B CP, inclusive alertando para a distinção com o estupro de vulnerável quando há conjunção carnal direta com menor de 14 anos — exatamente o raciocínio exigido na questão. Mantenho o tema de nível 1 5102, mas refino para o subtema 5108, descartando a pista enganosa de \"Lesão Corporal\" da origem.",
+ "id": "Q0264",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5102",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento sobre estupro de vulnerável e favorecimento à prostituição/exploração sexual de vulnerável, institutos do Título VI do CP (Crimes Contra a Dignidade Sexual), pertencendo ao tema 5102, mesmo com a pista enganosa de \"Lesão Corporal\" da origem."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1308,
+  "cache_w": 10203,
+  "cache_r": 32043,
+  "custo_usd": 0.0670486
+ }
+}

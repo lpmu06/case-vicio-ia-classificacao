@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5091",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5092",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O policial militar \"exige\" dinheiro da vítima sob intimidação decorrente da função, para não efetuar a prisão — verbo \"exigir\" caracteriza concussão (art. 316, CP), e não corrupção passiva (que seria \"solicitar/receber/aceitar promessa\"). A questão testa a distinção entre concussão e os demais crimes funcionais próximos (corrupção ativa, prevaricação, excesso de exação, patrocínio infiel), todos do Título XI do CP. Mantém-se o tema de nível 1 5087 e confirma-se o subtema 5091 (Concussão e Excesso de Exação), pois o gabarito correto é \"concussão\".",
+ "id": "Q0067",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão testa a diferenciação entre crimes contra a administração pública (concussão, corrupção, prevaricação, excesso de exação, patrocínio infiel), todos do título XI do CP, abrangidos pelo grupo P8 - Dos Crimes Contra a Administração Pública."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5079",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão narra conduta de funcionário público (policial militar) que exige dinheiro da vítima para não efetuar prisão, sob intimidação decorrente do cargo — típico caso de concussão (art. 316, CP), exigindo que o aluno diferencie esse crime de corrupção ativa, prevaricação, excesso de exação e patrocínio infiel, todos do Título XI do CP. O tema central é \"Concussão e Excesso de Exação\", subtema do tema de nível 1 5087 - Dos Crimes Contra a Administração Pública, confirmando a classificação do estágio anterior."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1230,
+  "cache_w": 55795,
+  "cache_r": 101498,
+  "custo_usd": 0.2694876
+ }
+}

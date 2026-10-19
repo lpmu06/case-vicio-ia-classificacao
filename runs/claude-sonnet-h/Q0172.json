@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": "5484",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.55,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [
+  "5473",
+  "5472"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão pede a alternativa INCORRETA, o que faz o gabarito concentrar o \"eixo de teste\" na afirmativa errada, não apenas no tema mais frequente entre as alternativas. A alternativa (D) — exigência de autorização da Câmara Legislativa para recebimento de denúncia contra deputado distrital — está desatualizada desde a EC 35/2001, que extinguiu a licença prévia do Legislativo para processar parlamentares por crime comum; esse é o ponto central que a questão efetivamente avalia, e pertence ao núcleo de foro por prerrogativa de função/imunidade processual, tratado em Processo Penal > Competência (5480), subtema Competência por Prerrogativa de Função (5484), que também abrange a alternativa (A) sobre o juízo de prelibação em ação penal contra Promotor de Justiça (órgão colegiado do TJDFT). As demais alternativas tratam de institutos distintos de Ação Penal — aditamento da denúncia (B) e exceção da verdade na ação privada por calúnia (E) — e de prescrição/coisa julgada (C), sem eixo comum com A/D. Por isso, ajusto o tema de nível 1 de 5466 para 5480 (antes indicado como segunda opção), mantendo 5466 como segunda opção e indicando subtema 5484 com confiança moderada, já que a questão não tem eixo único e mistura claramente institutos de ramos adjacentes.",
+ "id": "Q0172",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.62,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos distintos em cada alternativa: competência por prerrogativa de função (A e D), aditamento da denúncia (B), efeitos da prescrição sobre coisa julgada (C) e exceção da verdade na ação penal privada por calúnia (E). Não há um eixo único, mas o fio condutor dominante é a disciplina processual da ação penal (legitimidade, denúncia, aditamento, ação penal privada e seus incidentes), que é o tema de nível 1 \"Ação Penal\" em Processo Penal (5466), cobrindo também a exceção da verdade (ligada à queixa-crime) e o aditamento à denúncia. A alternativa sobre competência por prerrogativa de função (A/D) aproxima-se do tema \"Competência\" (5480), por isso indicado como segunda opção. Por ser questão de múltiplos institutos sem eixo único, a confiança no tema específico é moderada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 3605,
+  "cache_w": 37461,
+  "cache_r": 78694,
+  "custo_usd": 0.2121128
+ }
+}

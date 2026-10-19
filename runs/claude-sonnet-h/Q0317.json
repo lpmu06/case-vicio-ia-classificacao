@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": "5198",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5063",
+ "extras_ids": [
+  "5065"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão testa especificamente o termo inicial do prazo decadencial de seis meses para o direito de representação, afirmando (erradamente) que conta da data do fato, quando na verdade conta do dia em que o ofendido vem a saber quem é o autor do crime (art. 103 do CP; Súmula 594 do STF). O núcleo é precisamente o instituto da decadência, que tem subtema próprio e específico dentro de Punibilidade (5198), descrevendo exatamente esse ponto: \"termo inicial, natureza do prazo, consequências\". Mantenho 5191 como tema de nível 1, mas agora atribuo o subtema 5198, pois há certeza de que a questão versa exclusivamente sobre decadência, não sobre outras causas extintivas da punibilidade. A segunda opção permanece 5063 (Ação Penal), pois a representação também é tratada ali como condição de procedibilidade, mas o foco é o prazo decadencial em si, não a classificação da ação penal.",
+ "id": "Q0317",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5191",
+  "segunda_opcao_n1_id": "5063",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o prazo decadencial de seis meses para o exercício do direito de representação, contado da ciência da autoria (não da data do fato, o que torna a assertiva errada). O núcleo testado é o instituto da decadência como causa extintiva da punibilidade (art. 103 do CP), que é subtema específico de Punibilidade (5191) em Direito Penal. Alternativamente, poderia ser enquadrada em Ação Penal (5063), já que a representação é condição de procedibilidade, mas o foco da pergunta está no prazo decadencial em si."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1612,
+  "cache_w": 32063,
+  "cache_r": 79634,
+  "custo_usd": 0.1673788
+ }
+}

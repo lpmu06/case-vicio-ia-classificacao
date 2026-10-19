@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5096",
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.65,
+ "segunda_opcao_id": "5116",
+ "extras_ids": [
+  "5119",
+  "5118"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão do tipo \"marque a correta\", em que cada alternativa versa sobre um crime/instituto diferente (estupro, condescendência criminosa, incêndio, supressão de documento, falsa identidade), sem eixo temático único — portanto multi-tema. Reavaliando o critério de classificação: o que a questão efetivamente testa é qual afirmação é juridicamente correta dentre as cinco, e a alternativa (B) é a única objetivamente correta (o delegado que deixa, por indulgência, de responsabilizar o subordinado pratica condescendência criminosa, art. 320 CP — crime contra a Administração Pública). As demais estão erradas: (A) a majorante do art. 234-A é de metade apenas em determinadas hipóteses e não se refere genericamente a toda gravidez; (C) o incêndio em galeria de mineração não está entre as majorantes do art. 258/250, send incorreta; (D) reter documento de identidade de terceiro dolosamente configura o art. 308 (uso de documento de identidade alheia) e não supressão de documento (art. 305, que exige ocultar/destruir documento próprio ou alheio de que não pode dispor, mas o enunciado fala em \"reter\", hipótese mais afeita ao art. 308); (E) está incorreta pois na falsa identidade o agente pode ou não apresentar documento, bastando atribuir-se identidade falsa oralmente. Como a resposta correta recai sobre instituto de Direito Penal - Crimes contra a Administração Pública (condescendência criminosa), troco o tema de nível 1 para 5087, com subtema 5096 (Condescendência Criminosa), mantendo Dos Crimes Contra a Fé Pública como segunda opção pelo peso das alternativas D e E. Confiança moderada dada a natureza multi-tema do enunciado.",
+ "id": "Q0068",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5116",
+  "segunda_opcao_n1_id": "5087",
+  "confianca_ramo": 0.4,
+  "multi_tema": true,
+  "justificativa": "Questão de \"marque a correta\" em que cada alternativa versa sobre crime/instituto diferente do Código Penal: estupro (dignidade sexual), condescendência criminosa (administração pública), incêndio (incolumidade pública), supressão de documento e falsa identidade (fé pública). Não há eixo temático único. Como a origem indica \"Crimes contra a fé pública\" e duas das cinco alternativas (D e E) tratam exatamente desse tema, mantive Dos Crimes Contra a Fé Pública como tema principal, com Dos Crimes Contra a Administração Pública como segunda opção, já que a alternativa correta (B) trata de condescendência criminosa. Confiança baixa dada a natureza multi-tema da questão."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2223,
+  "cache_w": 36766,
+  "cache_r": 78694,
+  "custo_usd": 0.19537380000000001
+ }
+}

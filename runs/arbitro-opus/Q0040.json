@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5562",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5524",
+ "extras_ids": [
+  "5512"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a atribuição excepcional de efeito suspensivo à apelação contra condenação do Júri a pena igual ou superior a 15 anos (art. 492, §§ 5º e 6º, CPP, incluídos pelo Pacote Anticrime). Esse efeito exige que o recurso não tenha propósito meramente protelatório e que levante questão substancial capaz de levar a absolvição, anulação, novo julgamento ou redução da pena para menos de 15 anos, por isso o gabarito é a alternativa E. O núcleo é o recurso específico (apelação) e seus efeitos. Descartei o tema do Procedimento do Júri (5524), mesmo o dispositivo estando no capítulo da sentença do Júri, e também a Parte Geral dos Recursos (5512), porque o efeito é próprio da apelação.",
+ "id": "Q0040",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5560"
+ ],
+ "candidatos_subtemas": [
+  "5562"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 851,
+  "cache_w": 8699,
+  "cache_r": 16390,
+  "custo_usd": 0.09597800000000001
+ }
+}

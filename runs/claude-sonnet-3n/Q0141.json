@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige identificar uma teoria criminológica nominada específica (Teoria Ecológica/Escola de Chicago), apresentando como distratores outras teorias nominadas (Criminoso Nato, Associação Diferencial, Anomia, Labelling Approach). Isso caracteriza exatamente o subtema \"Teorias Criminológicas em Espécie\" (4388), que trata do estudo de teorias nominadas com seus autores e conceitos específicos, dentro do tema de nível 1 \"Teorias Sociológicas Explicativas da Criminalidade\" (4385). Não se trata apenas da classificação por nível de análise (individual vs. sociológico, que seriam 4386/4387), mas da identificação de uma teoria específica entre várias nominadas, o que é o critério de desempate para 4388.",
+ "id": "Q0141",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata da Teoria Ecológica (Escola de Chicago), que explica o efeito criminógeno das grandes cidades por desorganização social e contágio - é uma teoria sociológica explicativa da criminalidade, pertencente ao tema \"Teorias Sociológicas Explicativas da Criminalidade\" do grupo C2."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4385",
+  "segunda_opcao_n1_id": "4377",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão pede a identificação da Teoria Ecológica (Escola de Chicago), que explica a criminalidade urbana pela desorganização social e contágio. Trata-se de uma teoria sociológica explicativa do crime, pertencente ao tema \"Teorias Sociológicas Explicativas da Criminalidade\" (subtema \"Teorias Criminológicas em Espécie\"). As demais alternativas (Criminoso Nato, Associação Diferencial, Anomia, Labelling Approach) são distratores do mesmo campo temático, reforçando que o eixo da questão é o rol de teorias sociológicas do crime."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1486,
+  "cache_w": 11779,
+  "cache_r": 37312,
+  "custo_usd": 0.0767794
+ }
+}

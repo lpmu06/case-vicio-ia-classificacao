@@ -1,0 +1,35 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5100",
+ "extras_ids": [
+  "5100",
+  "5093",
+  "5092",
+  "5091"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pede a correlação entre cinco tipos penais (desobediência, resistência, corrupção passiva, corrupção ativa e concussão) e suas condutas típicas. Todos são crimes do Título XI do CP, correspondendo a quatro subtemas distintos dentro do mesmo tema de nível 1 \"Dos Crimes Contra a Administração Pública\" (5087): Resistência/Desobediência/Desacato (5100) — itens 1 e 2; Corrupção Passiva (5092) — item 3; Corrupção Ativa (5093) — item 4; e Concussão e Excesso de Exação (5091) — item 5. Como a correlação exige dominar simultaneamente esses quatro subtemas, não há um único subtema que abranja toda a questão, por isso subtema_n2_id = null, mantendo-se apenas a classificação no tema de nível 1, onde o aluno terá acesso a todos os subtemas envolvidos. Não se trata de multi-tema no sentido da regra 2 (que exige temas de nível 1 distintos sem eixo comum), pois todas as alternativas pertencem ao mesmo ramo do Direito Penal. Gabarito correto seria a alternativa C (1-d, 2-c, 3-a, 4-e, 5-b), mas isso não altera a classificação temática.",
+ "id": "Q0248",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão exige correlacionar cinco tipos penais (desobediência, resistência, corrupção passiva, corrupção ativa e concussão) com suas respectivas condutas descritas. Todos esses crimes estão previstos no Título XI do Código Penal (Crimes contra a Administração Pública), correspondendo a subtemas distintos do mesmo tema de nível 1 \"Dos Crimes Contra a Administração Pública\" (id 5087): Resistência/Desobediência/Desacato, Corrupção Ativa, Corrupção Passiva e Concussão e Excesso de Exação. Como todas as alternativas giram em torno do mesmo ramo/tema de nível 1 (apenas subtemas diferentes dentro dele), não se trata de multi-tema no sentido exigido (que seria entre temas de nível 1 distintos). Não há elemento que caracterize matéria de outra disciplina ou fora da árvore."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1925,
+  "cache_w": 36303,
+  "cache_r": 78694,
+  "custo_usd": 0.18873879999999998
+ }
+}

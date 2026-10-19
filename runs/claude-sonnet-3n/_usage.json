@@ -1,0 +1,848 @@
+{
+ "uso": {
+  "in": 902,
+  "out": 303322,
+  "cache_w": 7376736,
+  "cache_r": 15161377,
+  "custo_usd": 37.00077839999998
+ },
+ "segundos": 2249,
+ "erros": [
+  {
+   "id": "Q0139",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":2262,\"stop_reason\":\"stop_sequence\",\"session_id\":\"a5f95247-6d54-4d81-8721-2fdc5465ab9a\",\"total_cost_usd\":0.001195,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\""
+  },
+  {
+   "id": "Q0138",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"d6c55d3b-112f-465a-9a40-07e85c12ca85\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0140",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"81e59355-5bc5-49c2-a0dd-aa63e0eeb524\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0137",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"0c8b9778-d363-40c1-8373-5cfea547d68b\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0141",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"1a147520-1f9d-45ff-9108-c45980cfbd9c\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0142",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"72a7fe6d-36d9-48b4-aa7c-e22dadba7f50\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0143",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"5bea316e-2a9f-428a-96af-e8d3b5bdccd5\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0144",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"23b04db0-6e06-4875-b91b-df7d9a3a7cb5\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0145",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"e0614e8f-68ef-4900-8adf-bb8a78c13e49\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0146",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"3f324ed5-8321-4fa8-9914-a6194dac1c07\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0147",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"a8c4fedb-79b2-4825-8ce3-ee99576c22df\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0148",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"62ea50a5-637c-40c1-b932-bc4f92144786\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0149",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"e0025565-9669-494d-b1a5-fa5aec8c7ffd\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0150",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"78016590-7cdc-411d-926b-a56fe70b37fb\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0151",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"06e5a35e-ba9f-4574-9a8c-35cc0a42c216\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0152",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"2dc0ed5a-d568-4120-a9e8-200cb919a519\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0153",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"9ab5c797-b261-49a0-ad70-978e36d78324\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0154",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"a6e60bda-1f34-433d-98b7-29ffa439fba1\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0155",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"4ef677b4-3bcf-4330-b6a2-112960f79366\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0156",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"d37c1272-0a58-4292-a961-17f7d6c31131\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0157",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"dcc8d8e7-b858-4c91-b474-baaf463a08f2\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0159",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"81d76a9b-2a31-4a45-bcbd-39490a806efc\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0158",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"bbbd08e7-9a8b-46bc-a801-32ab523cd988\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0160",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"c0c748b9-094e-4a89-b946-cc8d566583bd\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0162",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"4b40d247-d18e-4a35-a232-20c8f76ab632\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0161",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"41c7bceb-a051-4a56-abfc-5640b44abe7d\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0163",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"b9a7eb79-8949-4ac8-ae03-a809de3e0a50\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0164",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"5a70dbe7-5ddc-4b0e-9444-8b351fa265c6\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0165",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"336709b2-b3fd-4b59-968e-88df793401d5\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0166",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"03e3cb62-9b1b-45d0-afea-5ae5356679b9\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0167",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"aad1cbf5-4293-4ef7-b98b-d18fa6d9dc3d\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0168",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"b62ada4f-8bbf-4e1f-a440-6dab40963e50\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0169",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"04303eab-75f7-4280-b54c-ad680b347d15\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0171",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"e58bc3d0-faec-4b42-805d-993f37caf719\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0170",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"643e1305-aa80-4fbc-bd7a-f9bd067cae72\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0172",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"2a9dc719-5448-4967-a8d1-34ebea3c3871\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0173",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"2612f683-2300-46e6-9370-6c386de76f42\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0174",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"f8a3f210-0c23-413f-816d-e19477c403b5\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0175",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"6015e722-75df-4168-bbd3-62c95a13b88c\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0176",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"00945ba7-c5f3-41f4-b990-ee2c8a6d50c6\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0177",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"2f4af04b-7e1a-4043-80b6-6bbce8ca665e\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0178",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"fa155e42-fde1-4ee3-b242-5e385ebebfdf\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0179",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"a529f13a-2bcd-457e-ab5a-6529cb19d17b\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0180",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"a42d4a88-b26d-4f8e-90c5-ca5c3ec16b80\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0181",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"a3820eee-b6aa-4927-90fc-6363140fb1c1\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0182",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"77e33d94-7276-4e95-aae0-5a903801283f\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0183",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"8b30f5d0-6d22-4773-8348-dceebf539436\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0184",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"ce308f18-591d-45d4-b2a9-a32f61690e72\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0185",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"eecdb0b4-97e5-4840-b587-9203d4e4ebaf\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0186",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"0a9d2175-7b26-4743-b6b0-b2247ca324c9\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0187",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"3c1c40f1-636d-4a5b-b31f-aa9c8266a23b\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0203",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":814,\"stop_reason\":\"stop_sequence\",\"session_id\":\"0c4760de-0405-49f3-afa0-1da273eece12\",\"total_cost_usd\":0.002071,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":"
+  },
+  {
+   "id": "Q0205",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"3da9a820-ad4c-4cdc-a866-e1eade20326e\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0204",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"d8bea5f0-98e5-4945-b752-038e775f5163\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0206",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"17f185c3-1868-476d-b540-afd43090d9ac\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0208",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"77c041c5-53c3-4d54-ac4f-7a0d103b92ec\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0207",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"df36ec05-316d-40fb-a927-2201fc9b960e\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0209",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"8d77f9df-d851-4cdb-9418-1a209eb5cbc1\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0210",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"0e4ec2a0-5425-4b36-953a-d4c84d18f23b\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0211",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"d6eb46d3-a9b0-4188-b788-662c8f9e88bf\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0212",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"b9d3fde9-0fd3-4adf-a8ff-b1c983f3af7a\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0213",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"845fb6f7-7e71-4141-b591-155000ec26ae\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0214",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"a7b4e5a7-0fee-4baa-99b8-9b8061fbe6ec\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0215",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"13adf617-723e-4902-a375-5fcadebb176c\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0216",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"f9266a9f-5ae2-45df-a1a7-421b1b8a59a8\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0217",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"edf7a42e-f7db-465e-b879-37552958a32a\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0218",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"9ab9aa71-03c7-43ad-b4fa-129800e86610\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0219",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"02ca74cf-4ae5-492f-83b2-afeb2a90ae72\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0220",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"2c58adda-ad4b-4878-8480-8f1cedfd93bc\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0221",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"2aad0309-78f7-46d4-915b-08715caf8434\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0222",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"9392312b-f3d7-4043-8359-06de9d48427d\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0223",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"b97b194d-af73-4e92-8f57-f9f2f24345fd\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0224",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"0fe45f8b-4367-4799-87c6-2ae12074cfbd\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0225",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"95a06f5a-ab64-4dfb-aaa6-d5192314629a\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0226",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"a91e619e-7cb4-47d1-a206-7f5bc5a7fad4\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0227",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"7d5025a0-b492-4f57-bf0e-0d258c7a3a13\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0228",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"954ce989-9898-46c9-9c1e-7cf33f615a26\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0229",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"1941eb81-4561-4cde-a7db-897e4ffdc7a9\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0230",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"8c533fcd-2313-4ebb-9664-bd85177b0ca0\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0231",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"7cca4f3c-a731-4ab6-bd7e-4d3bfb312221\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0232",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"ef4d9070-4e3b-4a82-a217-dac2d21beda7\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0233",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"1a8d7d08-8d26-4449-8476-c87b5101996d\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0234",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"623b74fc-f871-4cad-bcd5-7b7226a1a837\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0236",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"810f07fe-16eb-4578-b885-d67348a6f53b\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0235",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"4d4a15c1-04e5-48a6-a3d8-aa4e419178bf\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0237",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"50b2ad1d-ae49-43da-82d6-95312b5488ca\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0238",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"d80d826e-d259-44d4-b003-ff39b272fcfb\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0239",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"ddf24148-7776-4ad4-a240-23618f745e48\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0240",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"434e63a5-095e-4968-b0d4-22701bcea7ca\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0242",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"449adb77-2d1f-4ee7-9212-d92db56306ec\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0241",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"01512932-7fb4-4bd1-82fe-4b44f6804ae5\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0243",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"dab725a4-8035-41cd-a5a5-c7a91a5ba971\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0245",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"cc8caed9-c30c-4668-a8e9-1b2242507bb5\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0244",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"f8df14b6-edf8-4ab1-9989-5955da7b9afb\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0246",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"302fbd4e-806f-4362-b6f3-2968363f037b\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0247",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"373079b2-2475-4d54-8760-01ad2b7248e1\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0248",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"87a34d8a-9294-4628-9657-1e45e1815790\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0249",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"3134364a-c8ba-4668-b17e-9634a31eee93\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0251",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"b0e34db8-1bb0-4f04-bebc-ac6e3eca7249\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0250",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"8ee46144-d4d7-41f2-abc8-94cc728b6b64\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0252",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"0117cef9-42a5-4ab4-975c-34dc422f0327\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0253",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"b9d610d9-e565-45a2-8a89-b24eb48c4447\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0254",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"7989934d-03c1-40f0-90b1-d4a83ea82b60\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0255",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"21774716-2875-4665-9d5c-81a451bb302b\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0256",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"62811b49-afa5-4690-a3ae-efcefee05ef3\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0257",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"14e5aa8a-6dd9-4571-a67d-c5fae8e99de4\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0258",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"1b7b5528-1bdf-4e01-babb-bcd133cea8ee\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0259",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"25e310c2-a904-4c97-9cb8-784870bb2cc0\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0260",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"e2306cea-7988-4848-a960-0e16f0f50d7f\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0261",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"548dca3d-eccc-4ecc-9cc9-3c95efc2d735\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0262",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"cd4c9a19-2d30-499b-9ffa-bcda79d5db3f\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0263",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"8d901a6f-f139-47d6-9984-60ac933181f8\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0264",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"415b8afe-df43-48d9-a540-b5c987c6580a\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0265",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"6b39a786-9fa2-440a-a345-68aa38d093c9\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0266",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"034507bd-becc-48db-8549-1ee16bfe0d18\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0267",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"3c065289-92dd-4fb3-aae6-7bcc7c485832\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0268",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"39e8456c-f153-4fd1-9739-19e59131cc05\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0269",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"13a802ce-f113-4c17-9bff-cfd1291b4215\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0270",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"a15f4c9e-6c09-4298-be4b-5c103f9e7476\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0271",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"5476ff3a-527c-47ce-b2f0-128bb585baf7\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0272",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"17f16c57-f2db-4d12-8bed-88dff38b5754\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0273",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"1a296cf2-bb65-4274-bb13-dd6143e15345\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0274",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"73529f2a-ffe3-4a30-8409-4fe356ccd982\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0275",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"e3fe9b7c-e6cc-4480-8de4-f97d6f78c43f\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0276",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"41daf612-0851-4b94-856a-781dd838be92\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0277",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"8b874d8b-defa-49aa-8bac-2d3e09620248\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0278",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"6e6be050-bd05-4cf7-937c-80a3ea511989\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0279",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"6447b720-dfc4-4e52-afae-42bc8ea7dd9d\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0280",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"3a72663d-4196-4f49-8d82-08efe27ece3d\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0281",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"20585b9e-a15f-4744-9331-412ec8923c75\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0282",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"7cd83442-0599-4bd2-808a-891875bfdc08\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0283",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"319debb9-6a52-4ed1-a8c3-4b73e1eceb9e\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0284",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"f6e479ae-06ef-4b74-9bac-00632d7e4aca\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0285",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"d38fed7d-ebe0-46c0-abc0-f4709843dae8\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0286",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"f9b78d84-722d-4aa8-b3e4-453128fb49f2\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0287",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"c625c6ea-4a7e-4c6f-906f-22783ffe489a\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0288",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"57b426f0-c0de-446f-8814-ac087fc01ee9\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0289",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"6aa08e0c-1fd4-49dd-ac70-cde8c97ef1ec\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0290",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"00203625-46db-4ae1-a688-71c2b664afc7\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0291",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"f078b94a-12af-4e60-a156-41acd7336cb9\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0292",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"69e2f0f4-e19b-4a64-8931-7f5631f5a763\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0293",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"986379a9-7484-41db-8e74-9262ea033dfa\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0294",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"6b6dedee-c74d-48b2-a8a9-6d930c5e9bc9\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0295",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"3dcac197-9961-4997-a941-c8c78fd9d04c\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0296",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"ac9a982d-11ce-4b78-9f39-023a86c1e94e\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0297",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"8f554967-f768-4bea-bf31-cf84b9d9bad6\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0298",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"0cfd2841-6781-4867-9b60-d7f1e7c6e477\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0299",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"134cb02d-f81f-442a-bd02-3136e7889089\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0300",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"5dae50e3-04e1-4fe8-8682-1bc7db36387c\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0301",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"9bdc856a-b4c3-47f2-9884-f6a2c8832cb1\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0302",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"6019c426-dff7-4730-846e-5dea2b33b2c0\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0303",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"0f45b8e4-ddd3-4765-ba2f-7ae0934bdb29\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0304",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"cb2ad247-3432-4ea8-b9ed-b9e64fd741cd\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0305",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"1641fa39-ba72-4caa-ad75-8f4e3d200b99\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0306",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"5d44a011-9247-423e-a4d3-3dff3ab95d3b\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0307",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"e3a4bd32-ea7a-46e8-9c80-7b2d94b0a454\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0308",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"b174a655-caa6-4d69-bcbc-de192d51ab5a\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0309",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"783774df-7dc9-4c94-a4cf-62118a49020a\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0310",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"1277b7f1-e93f-44c8-9890-8d1b237aee06\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0311",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"b12ffa1b-ee93-49af-82d7-bc09ff9166e3\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0312",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"8d2785f5-14a1-491b-8970-b53e17bc9059\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0313",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"ac07408c-cc36-4f29-b79d-7cd379d88943\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0314",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"9b936860-92b1-4b21-bdfd-49ce095f6786\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0315",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"e5f26de0-2833-44a6-816d-652857acd64c\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0316",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"52054dce-3c6e-43b6-b038-c7e7300752f4\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0317",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"b52e2d78-dd2f-4a96-b6dc-6fd6646f9377\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0318",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"e00b8b02-5583-4db6-afa7-91ae729e2e51\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0319",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"5565fcfc-8fa0-4798-8b1c-da38e2dbd481\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0320",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"546d321b-8dec-416a-8810-d94c208803bb\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0321",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"694e0160-687e-4f8a-969d-46a4bdefd30c\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0322",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"09fade9a-e0d4-476c-a504-9d1dcd4ec22c\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0323",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"aec81bcd-d210-4608-aec5-74128b5f8d30\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0324",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"ead39bef-923d-421a-92c2-3542cd381789\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0325",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"784fa5a1-c08f-4b81-8cf1-a874fd356ac8\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0326",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"4ea43cda-fe4e-46ef-8a0a-c9caa207ea48\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0327",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"2971d5de-b31b-4389-8f7d-67ee6e85b0cc\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0328",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"1d97c585-2668-4651-b381-2c69c2709a98\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0329",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"5b5b6a33-d874-4509-9b73-5d93575deb65\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0330",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"fa027419-1699-440c-b751-14789440c6d9\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0331",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"ab1a557e-5930-44aa-b130-f85efebb048b\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0332",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"1893b461-9d9f-43e0-8fd7-ac66e43c3a86\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0333",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"48188bf9-acbe-41cc-af45-4abdbcc2bea4\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0334",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"726a7e39-78b2-40c0-bdc7-1819f1c1ec7a\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0335",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"980025aa-8693-43d9-a49d-fcffe5b15007\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0336",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"056ee8a4-7a24-4f0c-8622-62db435620d6\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0337",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"1705d498-25ce-4efb-9abc-0f3245276843\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0338",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"9f135086-a00e-477a-bf7a-8cd31436584a\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0339",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"f77addcf-ec80-4a5f-975a-ce40bb9d0cbc\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0340",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"16778705-a1b6-4f6b-ac89-f8fdc87d344f\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0341",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"64abb0b1-49d4-4732-9cb9-00466b5e5af1\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0342",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"92ef4232-a53b-47bd-9979-08d02bda8b76\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0343",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"57e60209-7056-4369-887c-db6bd58d3cf8\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0344",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"e8abd40d-e178-48db-a9fa-97dbd8d7a793\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0345",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"0975a991-33d9-439c-acad-7591d7da316f\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0346",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"9b0969f8-1853-44d2-9a4c-ce9f1dab6050\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0347",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"86955686-3dc1-4cfb-a06f-19965b9e0b45\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0348",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"707d70bc-2172-429c-b1c7-3b9393f54a94\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0349",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"a4832d0e-1839-445a-97e5-e94d9d280891\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0350",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"17035175-050f-4e6f-987d-2372c6af363e\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0351",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"3a570e28-7b60-486c-9e3b-e5ac9f6db7b8\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0352",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"da4ff7d4-23b3-42f4-b3e7-106049450103\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0353",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"acd40ac1-cf5c-4b05-b06a-a8566390741e\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0354",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"e2944d9f-5dad-452d-a9da-283aeb565a81\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0355",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"6a4c9c9f-49ad-4a34-909c-fdba1098ee09\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0356",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"95c02389-ccf7-4a7b-bfb4-56dedc7c4d30\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0357",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"c9d003f0-187a-45a5-b8a2-52075d950f74\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0358",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"fbc83814-347b-497e-8cbd-cb405f20a436\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  },
+  {
+   "id": "Q0359",
+   "erro": "RuntimeError('claude -p falhou (1):  {\"duration_api_ms\":0,\"stop_reason\":\"stop_sequence\",\"session_id\":\"8efe0f63-ae6c-4277-bd0d-53b0b25a6b3e\",\"total_cost_usd\":0,\"usage\":{\"output_tokens_details\":{\"thinking_tokens\":0},\"input_tokens\":0,\"cache_creation_input_tokens\":0,\"cache_read_input_tokens\":0,\"output_tokens\":0,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard"
+  }
+ ],
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "metodo": "hierarquico_3_estagios"
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4705",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4693",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede literalmente as hipóteses de aumento de pena do art. 2º, §4º, da Lei 12.850/13 (embaraço à investigação, emprego de arma de fogo, participação de funcionário público, comando da organização, resultado morte). Todas as alternativas versam sobre as majorantes específicas do crime de organização criminosa, tema central e exclusivo da Lei 12.850/2013, correspondendo integralmente ao tema de nível 1 \"Organizações Criminosas\" (4705), que não possui subtemas. Não há relação direta com o rol de crimes hediondos (4693), que figura apenas como segunda opção por eventual sobreposição topológica (resultado morte), mas a questão não exige nenhum conhecimento da Lei 8.072/1990.",
+ "id": "Q0112",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão testa especificamente a causa de aumento de pena do art. 2º, §4º, da Lei 12.850/13 (Lei de Organizações Criminosas), exigindo conhecimento literal do dispositivo. Trata-se de Direito Penal material especial, enquadrando-se no tema \"Organizações Criminosas\" do grupo LE1."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4705",
+  "segunda_opcao_n1_id": "4693",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento literal das majorantes do art. 2º, §4º, da Lei 12.850/13 (embaraçar investigação, emprego de arma, participação de funcionário público, comando da organização, resultado morte), todas específicas do crime de organização criminosa. É Direito Penal material especial, enquadrando-se integralmente no tema \"Organizações Criminosas\" (4705) do grupo LE1. Não há conexão relevante com Crimes Hediondos, que figura apenas como segunda opção por eventual sobreposição com resultado morte em outros contextos, mas aqui a questão é pura e exclusivamente sobre o art. 2º da Lei 12.850/13."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1451,
+  "cache_w": 45204,
+  "cache_r": 101498,
+  "custo_usd": 0.22190859999999996
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4707",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4684",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa diretamente a possibilidade de tortura por omissão (art. 1º, §2º, da Lei 9.455/1997), hipótese em que o delegado, ciente da tortura praticada por subordinado e podendo evitá-la, responde por tê-la se omitido, o que torna falsa a assertiva de que o crime só admite forma comissiva. É o instituto central e específico de Tortura, tema de nível 1 que não possui subtematização, confirmando a classificação anterior.",
+ "id": "Q0307",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4707",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata da Lei de Tortura (Lei 9.455/1997), especificamente sobre a possibilidade de o crime ser praticado na forma omissiva (art. 1º, §2º - omissão de quem tinha o dever de evitar/apurar a conduta), tema central e específico de \"Tortura\", dentro de Legislação Especial. A pista de origem (\"Concurso de Crimes\") está incorreta."
+ },
+ "uso": {
+  "in": 4,
+  "out": 980,
+  "cache_w": 26218,
+  "cache_r": 79634,
+  "custo_usd": 0.1343878
+ }
+}

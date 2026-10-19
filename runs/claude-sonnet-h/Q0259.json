@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": "5183",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta diretamente qual princípio do conflito aparente de normas explica a absorção do crime de dano pelo furto qualificado (crime-meio absorvido pelo crime-fim), caso clássico de consunção. Isso é exatamente o conteúdo do subtema 5183 (Conflito Aparente de Normas), dentro do tema 5180.",
+ "id": "Q0259",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5180",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata do conflito aparente de normas penais, especificamente do princípio da consunção (crime de dano absorvido pelo furto qualificado por rompimento de obstáculo). Esse assunto é subtema explícito de \"Lei Penal no Tempo e no Espaço\" (5180), que contém \"Conflito Aparente de Normas\" como subtema, não se relacionando com ilicitude (excludentes de antijuridicidade), apesar da pista de origem."
+ },
+ "uso": {
+  "in": 4,
+  "out": 909,
+  "cache_w": 7215,
+  "cache_r": 43624,
+  "custo_usd": 0.0511938
+ }
+}

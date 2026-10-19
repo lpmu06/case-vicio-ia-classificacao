@@ -1,0 +1,46 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5088",
+ "extras_ids": [
+  "5094",
+  "5097",
+  "5093",
+  "5096",
+  "5091",
+  "5089",
+  "5101"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 \"5087 - Dos Crimes Contra a Administração Pública\": todas as alternativas versam sobre institutos do Título XI do CP (concussão, peculato e tráfico de influência como crimes próprios; facilitação de contrabando/descaminho; advocacia administrativa; majorante na corrupção ativa; condescendência criminosa), não havendo alternativa estranha ao ramo (nenhuma trata de administração da justiça, finanças públicas ou crimes democráticos). Por se tratar de questão em que cada alternativa aborda um instituto/subtema diferente, sem eixo comum específico, classifico como multi_tema=true e subtema_n2_id=null, pois nenhum subtema isolado cobre a questão inteira. Como segunda opção plausível, indico 5088 (Noções gerais), já que a questão tem caráter transversal, cobrando conceitos gerais e distinções entre vários tipos do título. Listo como extras os subtemas efetivamente tocados por cada alternativa, para referência.",
+ "id": "Q0060",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": true,
+  "justificativa": "A questão trata de diversos crimes contra a administração pública (concussão, peculato, tráfico de influência, contrabando/descaminho, advocacia administrativa, corrupção ativa, condescendência criminosa), todos inseridos no tema \"Dos Crimes Contra a Administração Pública\", pertencente ao grupo P8 da disciplina Penal. Cada alternativa aborda um instituto distinto desse mesmo capítulo, sem eixo único, mas o ramo é comum."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": true,
+  "justificativa": "Todas as alternativas versam sobre institutos do Título XI do CP (concussão, peculato, tráfico de influência, contrabando/descaminho, advocacia administrativa, corrupção ativa, condescendência criminosa), todos subtemas de \"Dos Crimes Contra a Administração Pública\" (5087). Não há alternativa relativa a crimes contra a administração judicial, finanças públicas, instituições democráticas ou Estado Democrático de Direito, de modo que nenhum dos demais temas do grupo se aplica como segunda opção plausível."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2380,
+  "cache_w": 50536,
+  "cache_r": 101498,
+  "custo_usd": 0.2565246
+ }
+}

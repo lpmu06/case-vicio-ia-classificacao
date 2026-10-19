@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4701",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A assertiva reproduz literalmente as hipóteses do art. 77, §2º, da Lei 9.099/95 (conexão, não localização do acusado e complexidade/circunstância que impeça o imediato oferecimento da denúncia) que excluem o procedimento sumaríssimo do JECrim, remetendo o caso ao juízo comum. É conteúdo específico do microssistema da Lei 9.099/95, não uma discussão genérica de critérios de competência processual penal (que seria 5480/5482). Mantenho 4701 como tema principal e 5480 (Competência) como segunda opção por tangência, já que o efeito prático é a remessa ao juízo comum competente. O tema 4701 não possui subtemas de nível 2, por isso subtema_n2_id permanece null.",
+ "id": "Q0018",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": "PP3",
+  "confianca": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão versa especificamente sobre as hipóteses de exclusão da competência do Juizado Especial Criminal (conexão, não localização do acusado, complexidade da causa que impeça o imediato oferecimento da denúncia), matéria própria da Lei 9.099/95 (arts. 66 e 77), que na árvore está no tema \"Juizado Especial Criminal\" dentro do grupo LE4 (Legislação Especial). Embora se relacione ao tema geral de Competência no Processo Penal (PP3), o instituto testado é específico do rito sumaríssimo/JECrim, cabendo melhor em LE4."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4701",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A assertiva testa diretamente as hipóteses legais de exclusão da competência do Juizado Especial Criminal — conexão, não localização do acusado e complexidade da causa que impeça o imediato oferecimento da denúncia — previstas no art. 77, §2º, da Lei 9.099/95. É matéria de conteúdo específico do microssistema do JECrim (tema 4701, LE4), e não um debate genérico sobre critérios de fixação de competência processual penal comum. Por isso mantenho LE4 como tema principal, com PP3 (Competência) como segunda opção por tangência temática."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1684,
+  "cache_w": 48443,
+  "cache_r": 101498,
+  "custo_usd": 0.23983960000000001
+ }
+}

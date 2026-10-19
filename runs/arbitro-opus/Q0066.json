@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4373",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "4380",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta pelas características da Escola Positiva: o método empírico-indutivo, baseado na observação e na experiência (gabarito E), o determinismo em oposição ao livre-arbítrio, o viés etiológico e a ruptura de paradigma em relação à Escola Clássica. Por isso, o subtema 'Escolas Criminológicas' (4373) é o mais adequado. Descartei o 4372, que trata das fases pré-científicas; o 4380, sobre conceito e método da Criminologia em geral, sem foco numa escola; e o 4367, porque nenhuma alternativa cobra tipologia de criminosos.",
+ "id": "Q0066",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4371"
+ ],
+ "candidatos_subtemas": [
+  "4373"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 488,
+  "cache_w": 4513,
+  "cache_r": 16390,
+  "custo_usd": 0.051736
+ }
+}

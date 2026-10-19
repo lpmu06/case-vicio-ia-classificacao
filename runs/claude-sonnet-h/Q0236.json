@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5590",
+ "extras_ids": [
+  "5491",
+  "5495",
+  "5592"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão combina quatro institutos de Processo Penal sem eixo único: (I) questão prejudicial heterogênea e suspensão do processo — exatamente o subtema \"Questões Prejudiciais e Preliminares\" (5491); (II) restituição de bens apreendidos como ato privativo do juiz — exatamente o subtema \"Restituição de Coisas Apreendidas\" (5495), ambos dentro do tema \"Das Questões e Processos Incidentes\" (5490); (III) valor probatório exclusivo do inquérito policial para condenação — tema ligado a \"Sistemas de Avaliação da Prova\" (5592), cujas palavras-chave mencionam expressamente \"elementos informativos do inquérito\", dentro de \"Teoria Geral das Provas\" (5590); (IV) direito de presença do acusado preso nos atos de instrução — tangencia tanto princípios da prova (contraditório/ampla defesa, 5595) quanto garantias da prisão, não se enquadrando perfeitamente em nenhum subtema listado nos dois temas de nível 1 analisados. Como dois itens (I e II) cobrem com exatidão dois subtemas distintos de 5490, mas nenhum subtema único cobre a totalidade da questão, mantenho tema_n1=5490 (por abranger metade dos itens com correspondência exata de subtema) e subtema_n2=null, com 5590 como segunda opção pela relevância do item III. Confiança moderada no ramo e baixa em qualquer subtema específico, dada a dispersão temática.",
+ "id": "Q0236",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5490",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.35,
+  "multi_tema": true,
+  "justificativa": "A questão combina quatro assertivas sobre institutos distintos de Processo Penal: (I) questão prejudicial heterogênea e suspensão do processo, e (II) restituição de coisas apreendidas - ambos pertencem a \"Das Questões e Processos Incidentes\" (subtemas \"Questões Prejudiciais e Preliminares\" e \"Restituição de Coisas Apreendidas\"); (III) valor probatório do inquérito policial, ligado a \"Teoria Geral das Provas\"; e (IV) direito de presença do acusado preso nos atos processuais, ligado a \"Teoria Geral das Prisões\" (Direitos e Garantias sobre a Prisão). Não há eixo temático único cobrindo todas as assertivas, por isso marco multi_tema=true. Escolhi \"Das Questões e Processos Incidentes\" como tema principal por abranger dois dos quatro itens (I e II) com subtemas exatos, e \"Teoria Geral das Provas\" como segunda opção pela relevância do item III (tema central da controvérsia jurisprudencial). Confiança baixa dada a dispersão entre institutos."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2631,
+  "cache_w": 35364,
+  "cache_r": 78694,
+  "custo_usd": 0.19290980000000002
+ }
+}

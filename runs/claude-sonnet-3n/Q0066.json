@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4373",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "4368",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede a correta caracterização do positivismo criminológico, contrapondo-o à Escola Clássica (livre-arbítrio x determinismo/método empírico). O gabarito correto é a alternativa (E), que afirma a primazia do método científico, da observação direta e da experiência — justamente a marca distintiva da Escola Positiva frente à Escola Clássica (método dedutivo/abstrato). As demais alternativas são distratores que invertem características (continuidade com a Clássica, rejeição do viés etiológico, abandono sem reflexos atuais, primazia do livre-arbítrio). O tema central é a comparação entre as escolas criminológicas (Clássica x Positiva), o que corresponde exatamente ao subtema 4373 \"Escolas Criminológicas\", dentro do tema de nível 1 4371. Não é Teoria Geral da Criminologia (4380), pois não trata de conceito/objeto/método da disciplina em si, nem de reação ao delito/controle social (4368), mantido como segunda opção apenas por proximidade temática genérica dentro da Criminologia.",
+ "id": "Q0066",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C1",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata das características do positivismo criminológico (método científico, observação, experiência) em contraposição à Escola Clássica, assunto diretamente ligado às Etapas Evolutivas e Escolas Criminológicas, tema do grupo C1."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4371",
+  "segunda_opcao_n1_id": "4368",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão exige identificar as características do positivismo criminológico (método científico, observação e experiência, ruptura com o livre-arbítrio da Escola Clássica), tema central de \"Etapas Evolutivas e Escolas Criminológicas\" (4371), especificamente do subtema Escolas Criminológicas. Não se trata de Teoria Geral (conceito/objeto/métodos da disciplina em si) nem de reação ao delito/controle social (4368), que ficam como segunda opção por proximidade temática genérica."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1407,
+  "cache_w": 46292,
+  "cache_r": 101498,
+  "custo_usd": 0.2264236
+ }
+}

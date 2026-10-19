@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5545",
+ "extras_ids": [
+  "5546"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão mistura institutos de dois subtemas irmãos do CPP: itens I, III e IV versam sobre exame de corpo de delito (perito não oficial, autópsia e exumação - arts. 159, 162 e 163 CPP, típicos de 5545), enquanto itens II e V versam sobre perícia em geral (quesitos, assistente técnico e oitiva de peritos - art. 159 §§3º a 7º CPP, típicos de 5546). Como não há um eixo único entre exatamente um dos subtemas, mantenho o tema de nível 1 \"Provas em Espécies\" (5543), que abrange ambos, e deixo o subtema nulo por não ser possível atribuir a um único subtema com segurança.",
+ "id": "Q0342",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre exame de corpo de delito, perícia, autópsia, exumação e quesitos/assistente técnico, todos institutos do CPP (arts. 158 a 184) relativos aos meios de prova em espécie. Trata-se de matéria de Processo Penal, especificamente de prova pericial (subtemas \"Exame de Corpo de Delito\" e \"Perícia\"), enquadrando-se no tema de nível 1 \"Provas em Espécies\" (5543), que abrange ambos os subtemas testados conjuntamente nas assertivas."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1408,
+  "cache_w": 12739,
+  "cache_r": 20462,
+  "custo_usd": 0.07810639999999999
+ }
+}

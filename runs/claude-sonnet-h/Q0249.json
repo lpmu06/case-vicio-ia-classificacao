@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5492",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão reproduz literalmente as hipóteses de impedimento do juiz do art. 252 do CPP (parentesco com defensor/MP/perito, atuação pessoal anterior em outra função, julgamento anterior na causa, interesse no feito) e a regra de impedimento entre juízes parentes em órgão colegiado (art. 253 do CPP). O núcleo testado é o instituto do impedimento do magistrado, que corresponde exatamente ao subtema \"Exceção de Suspeição, de Impedimento ou de Incompatibilidade\" (5492), dentro do tema de nível 1 \"Das Questões e Processos Incidentes\" (5490). Não se trata de critério de fixação de competência (5480), ainda que o impedimento guarde relação instrumental com a atuação jurisdicional, conforme já apontado na própria descrição do tema 5490 ao distingui-lo de 5480.",
+ "id": "Q0249",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5490",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.78,
+  "multi_tema": false,
+  "justificativa": "A questão trata das hipóteses de impedimento do juiz previstas no art. 252 do CPP (atuação de parente como defensor/MP/perito, atuação pessoal do juiz em outra função, julgamento anterior, interesse no feito) e da regra do art. 253 sobre parentesco entre juízes em órgão colegiado. Trata-se de instituto específico de impedimento/suspeição do magistrado, tema que corresponde ao subtema \"Exceção de Suspeição, de Impedimento ou de Incompatibilidade\", dentro do tema de nível 1 \"Das Questões e Processos Incidentes\" (5490), e não propriamente de competência (5480), ainda que o impedimento guarde relação instrumental com a atuação jurisdicional. A assertiva é verdadeira (Certo), em conformidade com os arts. 252 e 253 do CPP."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1367,
+  "cache_w": 37800,
+  "cache_r": 78694,
+  "custo_usd": 0.1904648
+ }
+}

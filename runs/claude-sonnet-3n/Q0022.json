@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5089",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5079",
+ "extras_ids": [
+  "5081"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão pede qual instituto admite modalidade culposa; a resposta correta é o peculato culposo (art. 312, §2º, CP), subtema 5089 (Peculato e Peculato Mediante Erro de Outrem), dentro do tema 5087 (Dos Crimes Contra a Administração Pública). As demais alternativas (concussão, prevaricação, corrupção passiva) são subtemas irmãos do mesmo tema 5087, todos crimes dolosos. A alternativa \"falso testemunho\" pertence a outro ramo (crimes contra a Administração da Justiça, tema 5079, subtema 5081), sendo claramente incorreta (também não admite culpa), por isso mantenho 5079 como segunda opção e marco multi_tema=true. Como a resposta correta e o eixo central da questão estão especificamente no peculato, agora atribuo o subtema 5089 com alta confiança.",
+ "id": "Q0022",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige saber qual desses crimes contra a administração pública admite modalidade culposa (peculato culposo, art. 312, §2º, CP). Todos os institutos listados (concussão, prevaricação, corrupção passiva, peculato) são crimes funcionais contra a administração pública; o falso testemunho é crime contra a administração da justiça. O eixo comum da questão é \"Dos Crimes Contra a Administração Pública/Judicial\", coberto pelo tema de nível 1 do grupo P8."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5079",
+  "confianca_ramo": 0.92,
+  "multi_tema": true,
+  "justificativa": "A questão pergunta qual instituto admite modalidade culposa, sendo a resposta correta o peculato culposo (art. 312, §2º, CP). Concussão, prevaricação, corrupção passiva e peculato são crimes funcionais contra a Administração Pública (Título XI), subtemas do grupo 5087, inclusive com \"Peculato e Peculato Mediante Erro de Outrem\" expressamente listado. O falso testemunho, alternativa claramente incorreta (não admite culpa), pertence aos crimes contra a Administração da Justiça (grupo 5079), por isso essa opção figura como segunda opção. Como o eixo preponderante e a resposta correta estão no âmbito dos crimes funcionais contra a Administração Pública, mantenho a classificação no tema 5087 (Dos Crimes Contra a Administração Pública), com multi_tema=true pois uma alternativa pertence a outro ramo."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1552,
+  "cache_w": 53081,
+  "cache_r": 101498,
+  "custo_usd": 0.2611696
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4373",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "4385",
+ "extras_ids": [],
+ "multi_tema": true,
+ "justificativa": "A questão pede ao candidato que confronte, alternativa a alternativa, as premissas sobre crime, criminoso e pena nas escolas criminológicas (Clássica x Positivista) e em modelos teóricos de consenso/conflito. O gabarito (D) trata exatamente da Escola Clássica, com sua concepção de crime/pena como entidades jurídicas abstratas e a limitação do poder de punir via razão — eixo central do subtema 4373 (Escolas Criminológicas), que compreende precisamente a comparação entre livre-arbítrio/método dedutivo da Clássica e determinismo/método empírico da Positivista, tal como cobrado nas alternativas A, C e D. As alternativas B e E versam sobre modelos de consenso e conflito ligados à criminologia crítica, o que tangencia teorias sociológicas explicativas da criminalidade (4385), justificando marcá-lo como segunda opção e classificar a questão como multi-tema, mas sem deslocar o eixo predominante, que permanece nas escolas clássica/positivista (4371/4373). Como o próprio enunciado anuncia \"criminoso, crime e pena nas diversas correntes do pensamento criminológico\" com foco evolutivo-comparativo entre escolas, mantenho a classificação do estágio anterior, agora com o subtema 4373 por conter certeza suficiente de que o eixo é a comparação entre escolas, e não uma teoria sociológica nominada em espécie.",
+ "id": "Q0195",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4371",
+  "segunda_opcao_n1_id": "4385",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecimento sobre as características da Escola Clássica, da Escola Positivista e de modelos teóricos de consenso/conflito (criminologia crítica), ou seja, testa diretamente o conteúdo de \"Escolas Criminológicas\" (subtema de 4371 - Etapas Evolutivas e Escolas Criminológicas). Como o tema de nível 1 abrange esse subtema, a classificação em 4371 é adequada. A alternativa (E), sobre teorias de integração/conflito social, tangencia também teorias sociológicas explicativas da criminalidade (4385), por isso coloco como segunda opção, mas o eixo central e predominante da questão é a comparação entre escolas clássica e positivista."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1780,
+  "cache_w": 32978,
+  "cache_r": 78694,
+  "custo_usd": 0.1718528
+ }
+}

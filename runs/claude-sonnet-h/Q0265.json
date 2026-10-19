@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5186",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5066",
+ "extras_ids": [
+  "5067",
+  "5068",
+  "5069"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão reproduz a regra do art. 119 do CP: no concurso de crimes, a extinção da punibilidade pela prescrição é calculada isoladamente sobre a pena de cada crime. O instituto testado é a prescrição em si (regra geral de aplicação dos prazos), e não a disciplina do concurso de crimes (que trataria de cúmulo material, exasperação etc.). Por isso o tema de nível 1 correto é Prescrição (5185), confirmando a classificação anterior. Dentro dele, o subtema 5186 (Conceito, Regras Gerais e Fundamentos da Prescrição) é o mais específico, pois sua descrição e dispositivos citam expressamente \"aplicação isolada no concurso de crimes\" e o art. 119 do CP como regra geral da prescrição, distinguindo-se dos subtemas 5187 (contagem/causas suspensivas e interruptivas) e 5188/5189 (espécies de prescrição), que não tratam dessa regra específica. Concurso de Crimes (5066) permanece como segunda opção por ser o contexto fático, mas não é o foco da pergunta.",
+ "id": "Q0265",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5185",
+  "segunda_opcao_n1_id": "5066",
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão testa a regra do art. 119 do CP, segundo a qual, no concurso de crimes, a extinção da punibilidade por prescrição incide isoladamente sobre a pena de cada crime. O instituto central avaliado é a prescrição (seus marcos e aplicação), não a disciplina do concurso de crimes em si, por isso o tema correto é Prescrição, com Concurso de Crimes como contexto relacionado."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1254,
+  "cache_w": 10374,
+  "cache_r": 32043,
+  "custo_usd": 0.06754259999999998
+ }
+}

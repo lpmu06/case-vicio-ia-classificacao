@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": "5108",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5109",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa diretamente sobre o art. 218-B, §2º, I, do CP (favorecimento da prostituição ou outra forma de exploração sexual de vulnerável), exigindo análise de tipicidade da conduta de Mévio (que manteve relação sexual com menor em situação de prostituição, desconhecendo sua condição e idade) e da conduta de Tício (que contratou a \"profissional\" e armou a situação, incorrendo no caput do art. 218-B). O subtema 5108 (Corrupção de Menores) expressamente lista o art. 218-B CP entre seus dispositivos e trata de exploração sexual de vulnerável, sendo o enquadramento mais preciso. O subtema 5109 (Outros Crimes) também menciona o art. 218-B e lenocínio/exploração sexual como alternativa, mas a descrição de 5108 é mais específica ao art. 218-B. Mantém-se o tema de nível 1 5102, já confirmado na etapa anterior.",
+ "id": "Q0202",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5102",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata do crime previsto no art. 218-B, §2º, I, do CP (favorecimento da prostituição ou outra forma de exploração sexual de vulnerável), exigindo análise de tipicidade, erro de tipo quanto à idade/condição de prostituição da vítima e eventual responsabilidade de quem contratou. Trata-se de instituto do Título VI do CP, enquadrando-se no tema \"Dos Crimes Contra a Dignidade Sexual\" (nível 1), especificamente no subtema de outros crimes contra a dignidade sexual."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1339,
+  "cache_w": 34202,
+  "cache_r": 78694,
+  "custo_usd": 0.1735018
+ }
+}

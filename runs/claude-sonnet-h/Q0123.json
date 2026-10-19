@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.82,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4385",
+ "extras_ids": [
+  "4378",
+  "4379"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 \"Processos de Criminalização e Cifras Criminais\" (4377). A questão combina diretamente: (I) labeling approach como fundamento da criminalização secundária pelas agências de controle (polícia, MP, Judiciário) — núcleo de 4378; (III) dados estatísticos (Anuário do FBSP) sobre seletividade racial na letalidade policial — típico de cifras/estatísticas criminais (4379), mas também ligado à seletividade do controle social formal (4378); e (IV) racismo institucional vs. individual no sistema de justiça criminal, que dialoga com criminalização secundária. Como os itens corretos (I e III, ou combinações) atravessam tanto 4378 quanto 4379, não há um único subtema exato que cubra toda a questão — por isso deixo subtema_n2_id como null, mantendo o tema de nível 1 que abrange ambos. Marco multi_tema=true porque os itens exigem conhecimento de criminalização primária/secundária, cifras/estatísticas e também, de forma periférica, da teoria do etiquetamento como teoria sociológica (daí a segunda opção 4385). O item II é de natureza processual (prisão em flagrante/prova ilícita), um elemento isolado que não desloca o eixo central da questão, que é a seletividade penal racial estudada pela Criminologia.",
+ "id": "Q0123",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4377",
+  "segunda_opcao_n1_id": "4385",
+  "confianca_ramo": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão trata do labeling approach (etiquetamento) e da seletividade penal/racial (sobrerrepresentação de negros na letalidade policial, racismo institucional na atuação de polícia, MP e Judiciário), temas centrais de criminalização primária e secundária, o que se encaixa em \"Processos de Criminalização e Cifras Criminais\". Alternativamente, poderia se enquadrar em \"Teorias Sociológicas Explicativas da Criminalidade\" (já que o labeling approach é uma teoria de reação social) ou em \"Criminologia no Estado Democrático de Direito\" (dada a menção a legalidade e deveres constitucionais do Estado). Por isso a confiança é moderada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2197,
+  "cache_w": 32843,
+  "cache_r": 78694,
+  "custo_usd": 0.17540679999999997
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": "5541",
+ "confianca_ramo": 0.7,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa especificamente os efeitos e requisitos da transação penal (art. 76 da Lei 9.099/95): o registro apenas impede novo benefício no prazo de 5 anos, sem gerar reincidência, além de hipóteses de descumprimento do acordo e cabimento repetido do instituto. Como existe subtema exato \"Transação Penal\" (5541) dentro de \"Procedimento Sumaríssimo\" (5539) em Processo Penal, que trata detalhadamente desses efeitos, requisitos negativos (benefício nos últimos cinco anos) e descumprimento, a classificação mais precisa é nesse subtema. Mantenho \"Juizado Especial Criminal\" (4701) como segunda opção, pois esse tema de nível 1 em Legislação Especial também cobre expressamente a transação penal, mas sem subdivisão que permita a mesma granularidade.",
+ "id": "Q0332",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4701",
+  "segunda_opcao_n1_id": "5539",
+  "confianca_ramo": 0.65,
+  "multi_tema": false,
+  "justificativa": "A questão versa especificamente sobre o instituto da transação penal (Lei 9.099/95), incluindo os efeitos do registro, o prazo quinquenal para novo benefício e as hipóteses de descumprimento. Esse tema está diretamente coberto por \"Juizado Especial Criminal\" (4701), em Direito Penal - Legislação Especial, que menciona expressamente a transação penal em seu escopo. Alternativamente, o mesmo conteúdo aparece como subtema \"Transação Penal\" dentro de \"Procedimento Sumaríssimo\" (5539) em Processo Penal, daí a segunda opção com confiança moderada, já que a linha entre os dois ramos para esse instituto híbrido (penal/processual) não é absolutamente nítida."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2725,
+  "cache_w": 9130,
+  "cache_r": 32043,
+  "custo_usd": 0.0762796
+ }
+}

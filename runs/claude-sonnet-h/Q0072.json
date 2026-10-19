@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5590",
+ "subtema_n2_id": "5592",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5591",
+ "extras_ids": [
+  "5498"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão trata exatamente da regra do art. 155 do CPP, segundo a qual o juiz não pode fundamentar sua decisão exclusivamente nos elementos informativos colhidos na investigação, exigindo que estejam em consonância com provas produzidas sob o contraditório judicial (ressalvadas as cautelares, não repetíveis e antecipadas). Esse é o núcleo do subtema \"Sistemas de Avaliação da Prova\" (5592), dentro de Teoria Geral das Provas (5590), pois o foco é o valor/peso que o juiz pode atribuir a elementos do inquérito na formação do seu convencimento — e não o procedimento do inquérito policial em si (5498), que fica apenas como tema tangencial/contextual.",
+ "id": "Q0072",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5590",
+  "segunda_opcao_n1_id": "5498",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata do valor probatório dos elementos colhidos no inquérito policial para formação do convencimento judicial (art. 155 do CPP: o juiz não pode fundamentar sua decisão exclusivamente nos elementos informativos colhidos na investigação, ressalvadas as provas cautelares, não repetíveis e antecipadas). O eixo central é a valoração/sistema de avaliação da prova penal, tema de Teoria Geral das Provas (5590), não especificamente sobre o procedimento do inquérito policial em si."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1202,
+  "cache_w": 34218,
+  "cache_r": 78694,
+  "custo_usd": 0.1730788
+ }
+}

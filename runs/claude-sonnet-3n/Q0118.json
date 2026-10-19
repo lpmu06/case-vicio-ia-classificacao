@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5517",
+ "extras_ids": [
+  "5523",
+  "5519"
+ ],
+ "multi_tema": false,
+ "justificativa": "A assertiva testa diretamente a sucessão de lei processual penal no tempo (art. 2º do CPP, tempus regit actum) e suas exceções: a fiança, por ter natureza híbrida/mista, aplica-se desde logo, sem prejuízo dos atos praticados sob a lei anterior; já a prisão preventiva, por restringir diretamente a liberdade, exige a aplicação da norma mais favorável (extensão do art. 5º, XL, CF, por analogia). O eixo cognitivo cobrado é exatamente a regra e as exceções da aplicação da lei processual no tempo, correspondendo ao subtema 5507 (\"Lei processual no Tempo\"), dentro do tema 5505. O contexto fático de fiança e prisão preventiva remete a institutos do tema 5517 (Prisões em Espécie), mas a pergunta não exige conhecer requisitos de fiança ou de preventiva, e sim a regra de direito intertemporal processual — por isso mantenho 5517 apenas como segunda opção, com subtemas correlatos (5523 - Liberdade Provisória, 5519 - Prisão Preventiva) como extras de contexto.",
+ "id": "Q0118",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP1",
+  "segundo_grupo_id": "PP5",
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente a aplicação da lei processual penal no tempo (tempus regit actum, art. 2º do CPP, com as exceções de normas híbridas como fiança e normas que tutelam a liberdade como a prisão preventiva), tema central de \"Lei Processual no Tempo e no Espaço\" (PP1). O contexto fático envolve fiança e prisão preventiva (PP5), mas a pergunta não exige conhecer os requisitos desses institutos, e sim a regra de retroatividade/irretroatividade da lei processual."
+ },
+ "estagioB": {
+  "confianca_ramo": 0.85,
+  "fora": false,
+  "justificativa": "A pergunta central exige saber a regra de aplicação da lei processual penal no tempo (tempus regit actum, art. 2º do CPP) e suas exceções — normas híbridas (fiança, que se aplica desde logo) e normas que restringem a liberdade (prisão preventiva, que exige a aplicação da mais favorável, por analogia ao art. 5º, XL, CF). O eixo de conhecimento testado é a retroatividade/irretroatividade da lei processual, não os requisitos de fiança ou de prisão preventiva em si. Isso corresponde ao tema \"Lei Processual no Tempo e no Espaço\" (PP1, id 5505, subtema \"Lei processual no Tempo\"). O contexto fático (fiança e prisão preventiva) remete a PP5, por isso mantenho como segunda opção.",
+  "tema_n1_id": "5505",
+  "segunda_opcao_n1_id": "5517",
+  "multi_tema": false
+ },
+ "uso": {
+  "in": 6,
+  "out": 1939,
+  "cache_w": 49311,
+  "cache_r": 101498,
+  "custo_usd": 0.2470696
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4697",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmado o tema de nível 1 \"Estatuto do Desarmamento\" (4697). A questão testa exatamente as figuras típicas da Lei 10.826/2003: posse irregular de arma de uso permitido (Hugo levando a pistola para casa, embora a alternativa B seja incorreta pois ele estava em trânsito, caracterizando porte), porte ilegal de arma com numeração raspada, comércio ilegal de arma de fogo (Marcelo vendendo a Hugo), porte de munição desacompanhada de arma (Elaine com o colar) e omissão de cautela (Marcelo deixando revólver municiado acessível ao filho menor, Daniel). O elemento de direção sem habilitação (CTB), presente na alternativa C, é apenas acessório, não alterando o eixo central. O tema não possui subtemas de nível 2, portanto subtema_n2_id permanece null.",
+ "id": "Q0078",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão exige o conhecimento da Lei n. 10.826/2003 (Estatuto do Desarmamento) para qualificar as condutas de posse, porte, comércio ilegal de arma de fogo, munição e omissão de cautela, tema que se encontra no grupo LE1 (Estatuto do Desarmamento), dentro de Direito Penal - Legislação Especial. O aspecto de direção sem habilitação (CTB) é apenas elemento acessório de uma das alternativas, não alterando o eixo central da questão."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4697",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão exige o conhecimento da Lei n. 10.826/2003 (Estatuto do Desarmamento) para qualificar as condutas de posse e porte irregular de arma de fogo (Hugo e Daniel), comércio ilegal (Marcelo vendendo a Hugo), porte de munição (Elaine com o colar) e omissão de cautela (Marcelo deixando a arma acessível ao filho menor), tema que se encontra no tema de nível 1 \"Estatuto do Desarmamento\" (4697), dentro de Direito Penal - Legislação Especial. O elemento de direção sem habilitação (CTB) é apenas acessório de uma das alternativas (letra C), não alterando o eixo central da questão, que é integralmente sobre as figuras típicas da Lei de Armas. Dentre as opções listadas, nenhuma outra se aplica como segunda opção plausível."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1759,
+  "cache_w": 44505,
+  "cache_r": 101498,
+  "custo_usd": 0.2229606
+ }
+}

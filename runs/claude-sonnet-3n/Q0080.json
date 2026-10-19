@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4384",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4374",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A assertiva testa a distinção entre os modelos de reação ao delito (retributivo, dissuasório, reabilitador e restaurador): atribui ao modelo restaurador características que na verdade pertencem ao modelo reabilitador (diagnóstico do impacto do castigo para prevenir reincidência) e ao cumprimento de deveres legais pelo apenado, enquanto o modelo restaurador foca na reparação do dano e composição entre vítima/ofensor. Esse é exatamente o núcleo de \"Teorias Legitimadoras da Pena\" (4384), que trata das finalidades e modelos de justificação da pena/reação ao delito, distinto de \"Política Criminal\" (4374), que versa sobre estratégias macro de controle da criminalidade (correntes, expansão/contenção do poder punitivo). Mantenho 4384 como tema principal e 4374 como segunda opção por também tratar, em sentido mais amplo, de modelos de reação ao delito. Como 4384 não possui subtemas, subtema_n2_id permanece null.",
+ "id": "Q0080",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": null,
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre modelos de reação ao delito (retributivo, dissuasório, reabilitador, restaurador), tema de política criminal/teorias legitimadoras da pena em Criminologia, coberto pelo grupo C2 (Teorias Legitimadoras da Pena; Política Criminal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4384",
+  "segunda_opcao_n1_id": "4374",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata dos modelos de reação ao delito (retributivo, dissuasório, reabilitador, restaurador), cobrando do aluno a distinção entre o modelo reabilitador (diagnóstico do impacto do castigo e prevenção da reincidência) e o modelo restaurador (foco em reparação do dano e composição entre as partes, não no cumprimento de deveres legais pelo apenado). Esse é o núcleo das teorias que legitimam/justificam a pena e seus modelos de atuação, enquadrando-se melhor em \"Teorias Legitimidoras da Pena\" (4384) do que em \"Política Criminal\" (4374), que trata de estratégias macro de enfrentamento da criminalidade. Mantenho a Política Criminal como segunda opção por também lidar com modelos de reação ao delito em sentido amplo."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1949,
+  "cache_w": 44720,
+  "cache_r": 101498,
+  "custo_usd": 0.22516360000000002
+ }
+}

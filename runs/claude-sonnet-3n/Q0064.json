@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.62,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5185",
+ "extras_ids": [
+  "5187"
+ ],
+ "multi_tema": true,
+ "justificativa": "Mantenho o tema de nível 1 em 5191 (Punibilidade), pois a alternativa central e tecnicamente mais relevante da questão (B) trata de causa de extinção da punibilidade pelo pagamento integral do débito previdenciário mesmo após sentença condenatória definitiva (art. 168-A, §3º, CP c/c jurisprudência sobre pagamento em crimes tributários/previdenciários), que é precisamente uma causa extintiva da punibilidade não prevista taxativamente no art. 107 do CP, mas tratada doutrinária e jurisprudencialmente como tal — e não há, na lista de subtemas de 5191, um subtema específico para \"pagamento do débito tributário/previdenciário\" (os subtemas cobrem morte do agente, anistia/graça/indulto, abolitio criminis, decadência, perdão judicial, perempção e renúncia/perdão/retratação, nenhum dos quais corresponde a essa hipótese). Por isso, subtema_n2_id = null, já que nenhum subtema exato corresponde. A alternativa C, que exige conhecimento sobre termo inicial da prescrição em crime permanente, pertence exatamente ao subtema 5187 (Contagem dos Prazos e Causas Suspensivas/Interruptivas) dentro do tema 5185 (Prescrição), o que torna a questão genuinamente multi-tema entre Punibilidade (extinção pelo pagamento) e Prescrição (termo inicial em crime permanente). Mantenho 5185 como segunda opção e acrescento 5187 como extra por ser o subtema exato tocado pela alternativa C. A confiança no ramo é moderada (0,62) dada a divisão de peso entre B e C, e a confiança no subtema é nula por ausência de correspondência exata dentro de 5191.",
+ "id": "Q0064",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": "P8",
+  "confianca": 0.72,
+  "multi_tema": true,
+  "justificativa": "A questão versa sobre apropriação indébita previdenciária (art. 168-A CP) e as alternativas testam institutos da parte geral relacionados à punibilidade: extinção da punibilidade pelo pagamento integral do débito (art. 168-A, §3º c/c art. 337-A, §1º), termo inicial da prescrição em crime permanente, e aplicabilidade do princípio da insignificância. O eixo comum das alternativas (B, C, D) é claramente Punibilidade/Prescrição (P3), ainda que a alternativa A mencione a tipificação do crime (que está entre os Crimes Contra a Administração Pública, P8). Como o núcleo decisório da questão gira em torno de extinção de punibilidade e prescrição, P3 é o grupo mais adequado, com P8 como segunda opção pela tipicidade do crime mencionado."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5191",
+  "segunda_opcao_n1_id": "5185",
+  "confianca_ramo": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão trata de apropriação indébita previdenciária (art. 168-A, CP). Três das quatro alternativas (B, C e D) giram em torno de causas/institutos de extinção ou afastamento da punibilidade: (B) extinção da punibilidade pelo pagamento integral do débito, mesmo após sentença condenatória definitiva (art. 168-A, §3º c/c art. 337-A, §1º, CP); (C) termo inicial da prescrição em crime permanente; (D) aplicabilidade do princípio da insignificância, que no STF/STJ também é tratado como questão ligada à ausência de justa causa/punibilidade material. O eixo decisório predominante é \"Punibilidade\" (tema 5191 - Punibilidade), já que o enunciado central e a alternativa mais específica (B) tratam diretamente de uma causa de extinção da punibilidade (pagamento integral do débito), tema cujo subtema mais próximo seria abrangido dentro de \"Punibilidade\" (embora não haja subtema exato \"pagamento do débito tributário\", o tema de nível 1 cobre genericamente extinção da punibilidade). Como segunda opção, \"Prescrição\" (5185) é extremamente próxima e disputa a centralidade, pois a alternativa C exige conhecimento específico de termo inicial da prescrição em crime permanente - tema igualmente testado e talvez até mais determinante para a resposta correta da questão (that specific alternative é frequentemente a assertiva correta em provas sobre o tema). Dada a divisão quase equilibrada entre B (Punibilidade - pagamento) e C (Prescrição - termo inicial), a confiança no ramo escolhido é moderada. A alternativa A (tipificação como estelionato) remete a Crimes Contra a Administração Pública (P8), mas apenas uma alternativa trata disso, não sendo o eixo central."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3227,
+  "cache_w": 51756,
+  "cache_r": 101498,
+  "custo_usd": 0.2718386
+ }
+}

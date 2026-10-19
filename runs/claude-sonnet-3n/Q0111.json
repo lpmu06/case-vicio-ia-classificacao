@@ -1,0 +1,38 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.92,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão versa inteiramente sobre a Escola Positivista da Criminologia: suas premissas (defesa social, método empírico/antropológico), seus autores (Enrico Ferri, apesar do viés sociológico, continua sendo autor positivista) e sua recepção histórica racista no Brasil via Nina Rodrigues (alternativa correta B). Isso se encaixa exatamente no subtema \"Escolas Criminológicas\" (4373), que trata especificamente da Escola Clássica, Escola Positiva e correntes de transição, com foco em autores e premissas - diferente de 4372, que trata apenas das fases pré-científicas anteriores à consolidação das escolas. O tema de nível 1 \"Etapas Evolutivas e Escolas Criminológicas\" (4371) é confirmado como correto, superando \"Criminologia no Estado Democrático de Direito\" (4368), que não tem relação direta com o conteúdo cobrado (não trata de modelos de reação ao delito ou prevenção, mas de caracterização doutrinária-histórica da escola positivista).",
+ "multi_tema": false,
+ "segunda_opcao_id": "4372",
+ "subtema_n2_id": "4373",
+ "tema_n1_id": "4371",
+ "id": "Q0111",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C1",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a Escola Positivista da Criminologia (características, autores como Enrico Ferri, recepção no Brasil com Nina Rodrigues), tema central de \"Etapas Evolutivas e Escolas Criminológicas\", pertencente ao grupo C1 (Fundamentos, história, escolas e criminologia no Estado Democrático)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4371",
+  "segunda_opcao_n1_id": "4368",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão cobra diretamente características, autores (Enrico Ferri) e recepção histórica no Brasil (Nina Rodrigues) da Escola Positivista, assunto que se encaixa exatamente no subtema \"Escolas Criminológicas\" dentro do tema de nível 1 \"Etapas Evolutivas e Escolas Criminológicas\" (4371). A alternativa correta (B) trata da recepção racista no Brasil, reforçando o eixo histórico-doutrinário das escolas. Como segunda opção, \"Criminologia no Estado Democrático de Direito\" (4368) poderia tangenciar o tema pela menção à defesa social (alternativa A), mas de forma secundária."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1797,
+  "cache_w": 45733,
+  "cache_r": 101498,
+  "custo_usd": 0.2283716
+ }
+}

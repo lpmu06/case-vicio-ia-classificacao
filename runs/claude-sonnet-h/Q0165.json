@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão trata integralmente da Lei 12.850/2013: pena do art. 2º (alternativa A), majorante por participação de menor (C), afastamento cautelar de funcionário público integrante de organização criminosa (D) e colaboração premiada/perdão judicial (E). Todo o conteúdo pertence ao tema de Legislação Especial \"Organizações Criminosas\" (id 4705), que não possui subtemas, confirmando a classificação anterior.",
+ "multi_tema": false,
+ "segunda_opcao_id": null,
+ "subtema_n2_id": null,
+ "tema_n1_id": "4705",
+ "id": "Q0165",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4705",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão trata integralmente da Lei nº 12.850/2013 (organizações criminosas), abordando pena do art. 2º, agravante por participação de menor, afastamento cautelar de funcionário público e colaboração premiada — tudo matéria do tema de Legislação Especial \"Organizações Criminosas\" (id 4705), que abrange exatamente esse diploma."
+ },
+ "uso": {
+  "in": 4,
+  "out": 917,
+  "cache_w": 30415,
+  "cache_r": 78694,
+  "custo_usd": 0.1504298
+ }
+}

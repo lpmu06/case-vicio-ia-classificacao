@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5550",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5590",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão discute se parentes da vítima podem ser admitidos como testemunhas em crime de violência doméstica, à luz dos arts. 206/207 do CPP. O eixo central é a prova testemunhal — capacidade para testemunhar, impedimentos/suspeição de parentes —, matéria tratada especificamente em Processo Penal > Provas em Espécies > Prova Testemunhal (5550), subtema do tema 5543. Não se trata de teoria geral das provas (5590, ônus, sistemas de valoração, ilicitude em abstrato), nem de comunicação dos atos processuais (pista de origem equivocada), já que não há discussão sobre citação/intimação, mas sobre quem pode depor como testemunha.",
+ "id": "Q0129",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5590",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa a admissibilidade do depoimento testemunhal de parentes do acusado/vítima (art. 206/207 CPP), em contexto de violência doméstica. O eixo central é a prova testemunhal — quem pode ser testemunha e as regras sobre parentes —, matéria de Processo Penal classificada em \"Provas em Espécies\" (subtema Prova Testemunhal), e não de comunicação dos atos processuais (citação/intimação), que foi a pista de origem errada."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1126,
+  "cache_w": 38215,
+  "cache_r": 78694,
+  "custo_usd": 0.19148779999999999
+ }
+}

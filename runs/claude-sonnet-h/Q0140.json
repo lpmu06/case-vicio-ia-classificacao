@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5160",
+ "extras_ids": [
+  "5159"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão pede para assinalar a alternativa correta sobre furto e roubo, mas cada alternativa versa sobre um ponto distinto: (A) furto privilegiado/substituição de pena, (B) qualificadora de instrumento sem forma de chave no furto, (C) critério de exasperação de pena nas majorantes do roubo, (D) diferença entre roubo qualificado e latrocínio quanto às causas de aumento, (E) necessidade de perícia para a qualificadora de rompimento de obstáculo no furto. Não há um eixo único: mistura furto (5159) e roubo (5160) sem prevalência de um deles, de modo que a classificação correta é no tema de nível 1 \"Dos Crimes Contra o Patrimônio\" (5157), que abrange ambos os subtemas, mantendo a classificação do estágio anterior. Marco como multi_tema e deixo subtema_n2_id nulo, pois não há certeza de um subtema único; indico roubo (5160) como segunda opção e furto (5159) como extra relevante, já que são os dois institutos centrais disputados pelas alternativas.",
+ "id": "Q0140",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": true,
+  "justificativa": "A questão exige conhecimento de jurisprudência do STJ sobre furto (privilégio, qualificadora de rompimento de obstáculo, instrumento sem forma de chave) e roubo (majorantes, roubo qualificado x latrocínio), todos institutos do Título II do CP. Como as alternativas abrangem tanto furto quanto roubo (subtemas distintos dentro do mesmo tema de nível 1 \"Dos Crimes Contra o Patrimônio\"), a classificação correta é no tema de nível 1, que engloba ambos os subtemas."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1446,
+  "cache_w": 36114,
+  "cache_r": 78694,
+  "custo_usd": 0.18380980000000002
+ }
+}

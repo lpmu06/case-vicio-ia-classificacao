@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5211",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5212",
+ "extras_ids": [
+  "5214",
+  "5217"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 \"Teoria do Crime: Culpabilidade\" (5211), pois todas as alternativas versam sobre institutos da culpabilidade como terceiro substrato do crime. Porém, cada alternativa aborda um subtema distinto: (A) trata de embriaguez/dependência química, ligado a Inimputabilidade (5213); (B) trata de causa supralegal de exclusão da culpabilidade por crise financeira em crime previdenciário, ligado a 5217; (C) - a alternativa correta - trata do conceito de culpabilidade segundo a teoria normativa pura, ligado a Conceito e Elementos da Culpabilidade (5212); (D) trata da distinção entre erro de tipo e erro de proibição na teoria limitada da culpabilidade, ligado a Erro de Proibição (5214); (E) trata das teorias preventivas da culpabilidade (motivação normativa), tema mais doutrinário que se encaixa melhor em Conceito e Elementos (5212). Como a questão exige conhecimento transversal de múltiplos subtemas de culpabilidade, sem eixo único de subtema, classifico como multi_tema=true, mantendo apenas o nível 1 com subtema_n2_id=null. Ainda assim, dado que a alternativa correta (C) gravita em torno do conceito/elementos da culpabilidade na teoria normativa pura, indico 5212 como segunda opção mais provável, com 5214 e 5217 como extras relevantes.",
+ "id": "Q0294",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5211",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente da culpabilidade como substrato do crime: teoria normativa pura, teoria limitada da culpabilidade (erro de tipo x erro de proibição), inexigibilidade de conduta diversa e teorias preventivas da culpabilidade. Todas as alternativas giram em torno do mesmo instituto de Direito Penal material - culpabilidade -, cabendo perfeitamente no tema de nível 1 \"Teoria do Crime: Culpabilidade\" (5211), que inclui subtemas como Erro de Proibição e Conceito e Elementos da Culpabilidade. Não é questão de Processo Penal nem de Legislação Especial."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1928,
+  "cache_w": 9141,
+  "cache_r": 43624,
+  "custo_usd": 0.0705498
+ }
+}

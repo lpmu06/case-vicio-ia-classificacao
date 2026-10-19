@@ -71,7 +71,7 @@ def _claude_cli(modelo, sistema, pedido, esquema, effort, max_tokens):
         caminho = f.name
     try:
         cmd = [exe, "-p", "--model", modelo, "--system-prompt-file", caminho, "--json-schema", json.dumps(esquema),
-               "--output-format", "json", "--no-session-persistence", "--max-turns", "1"]
+               "--output-format", "json", "--no-session-persistence", "--max-turns", "1", "--tools", ""]
         if effort:
             cmd += ["--effort", effort]
         env = {k: v for k, v in os.environ.items() if k != "ANTHROPIC_API_KEY"}  # força a assinatura, não a chave
@@ -90,6 +90,15 @@ def _claude_cli(modelo, sistema, pedido, esquema, effort, max_tokens):
            "custo_usd": j.get("total_cost_usd")}
     return dados, uso
 
-def chamar_json(provedor, modelo, sistema, pedido, esquema, effort="medium", max_tokens=4000):
+def chamar_json(provedor, modelo, sistema, pedido, esquema, effort="medium", max_tokens=4000, tentativas=3):
+    """Chama o provedor com até `tentativas` repetições em caso de erro transitório (backoff simples)."""
+    import time
     fn = {"anthropic": _anthropic, "openai": _openai, "claude_cli": _claude_cli}[provedor]
-    return fn(modelo, sistema, pedido, esquema, effort, max_tokens)
+    ultimo = None
+    for i in range(tentativas):
+        try:
+            return fn(modelo, sistema, pedido, esquema, effort, max_tokens)
+        except Exception as e:  # noqa: BLE001 - registramos e tentamos de novo
+            ultimo = e
+            time.sleep(5 * (i + 1))
+    raise ultimo

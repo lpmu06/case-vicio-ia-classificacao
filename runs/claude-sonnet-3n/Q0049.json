@@ -1,0 +1,38 @@
+{
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão trata diretamente do art. 122 do CP (induzimento, instigação ou auxílio a suicídio/automutilação), exigindo o conhecimento de que a figura penal, conforme a redação da Lei 13.968/2019, só se consuma se o suicídio se concretizar ou se da tentativa resultar lesão corporal de natureza grave/gravíssima. Como Tício tentou o suicídio mas não sofreu qualquer lesão, não há crime consumado nem tentado (o resultado exigido pelo tipo é elementar objetiva, não mero exaurimento). Isso corresponde exatamente ao subtema \"Induzimento, Instigação ou Auxílio ao Suicídio\" (5152), dentro do tema de nível 1 \"Dos Crimes Contra a Vida\" (5149), confirmando a classificação anterior e refinando-a com o subtema específico.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5150",
+ "subtema_n2_id": "5152",
+ "tema_n1_id": "5149",
+ "id": "Q0049",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P4",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o crime de induzimento, instigação ou auxílio a suicídio e automutilação (art. 122 do CP), classificado entre os crimes contra a vida, cujo tema consta no grupo P4 (Dos Crimes Contra a Vida)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5149",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão exige o conhecimento específico do art. 122 do CP (induzimento, instigação ou auxílio a suicídio e automutilação), inclusive sobre a consumação do crime independentemente do resultado morte/lesão. Esse instituto está classificado dentro de \"Dos Crimes Contra a Vida\" (tema 5149), que possui inclusive o subtema exato \"Induzimento, Instigação ou Auxílio ao Suicídio\". Classificar no tema de nível 1 é correto, pois abrange o subtema. Não há outro tema de nível 1 que se aplique com razoável probabilidade."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3185,
+  "cache_w": 48506,
+  "cache_r": 101498,
+  "custo_usd": 0.2550656
+ }
+}

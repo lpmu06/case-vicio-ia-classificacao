@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5184",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas tratam exclusivamente de medida de segurança (lógica manicomial, sistema duplo binário vs. vicariante, inaplicabilidade a imputáveis, Estatuto da Pessoa com Deficiência e desinternação condicional pela Lei 10.216/2001), confirmando o tema 5184, que não possui subtemas. Mantida como segunda opção a Teoria da Pena (5199), tema guarda-chuva da parte geral de sanções penais.",
+ "id": "Q0041",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa inteiramente sobre Medida de Segurança (sistema vicariante/duplo binário, aplicabilidade a imputáveis, desinternação condicional pela Lei 10.216/2001, lógica manicomial), tema do grupo P3, que trata de pena, medida de segurança e punibilidade na parte geral do Direito Penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5184",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "Todas as alternativas versam especificamente sobre Medida de Segurança: lógica manicomial, sistema duplo binário vs. vicariante do CP, inaplicabilidade a imputáveis, Estatuto da Pessoa com Deficiência frente à inimputabilidade e desinternação condicional pela Lei 10.216/2001. O eixo central é inteiramente o instituto da medida de segurança, que tem tema próprio de nível 1 (5184), mais específico que o guarda-chuva de Teoria da Pena (5199), usado como segunda opção por tratar também da parte geral de sanções penais."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1167,
+  "cache_w": 49820,
+  "cache_r": 101498,
+  "custo_usd": 0.2419246
+ }
+}

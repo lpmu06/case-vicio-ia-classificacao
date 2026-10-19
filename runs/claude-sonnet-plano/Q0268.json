@@ -1,0 +1,25 @@
+{
+ "tema_n1_id": "5120",
+ "subtema_n2_id": null,
+ "fora": false,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5116",
+ "extras_ids": [
+  "5118",
+  "4684"
+ ],
+ "multi_tema": true,
+ "justificativa": "Cada alternativa trata de instituto distinto (falsidade ideológica, uso de documento falso, abuso de autoridade/ação penal, calúnia contra mortos, exceção da verdade), sem eixo comum único; escolhido Crimes Contra a Honra por ser tema de duas alternativas (D e E) e provável foco do gabarito, mas Fé Pública/Falsidade Documental também é fortemente cobrado (A e B).",
+ "id": "Q0268",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 2845,
+  "cache_w": 2317,
+  "cache_r": 214056,
+  "custo_usd": 0.0818072
+ }
+}

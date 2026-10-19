@@ -1,0 +1,28 @@
+{
+ "fora": false,
+ "tema_n1_id": "5476",
+ "subtema_n2_id": "5477",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "4709",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o cabimento do habeas corpus contra decisão da Vara da Infância e Juventude que determina a internação de adolescente. O gabarito é Errado: o HC protege a liberdade de locomoção de qualquer pessoa, inclusive de adolescente submetido a medida socioeducativa. Descartei o tema 4709 porque ele trata de crimes contra crianças e adolescentes, e não do regime das medidas socioeducativas; o eixo da resposta é o instrumento de impugnação, que é o HC.",
+ "id": "Q0014",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5476"
+ ],
+ "candidatos_subtemas": [
+  "5477"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 591,
+  "cache_w": 4960,
+  "cache_r": 16390,
+  "custo_usd": 0.057841000000000004
+ }
+}

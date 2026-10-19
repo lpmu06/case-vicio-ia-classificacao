@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5487",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5490",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A Resolução CNJ nº 427/2021 disciplina o sigilo e a forma de registro/acesso aos dados qualificativos e endereços de vítimas e testemunhas ameaçadas nos autos (registro em apartado, controle de vista, legitimados a requerer a preservação). É regramento sobre forma de comunicação/publicidade e acesso a informações processuais, aproximando-se do núcleo de \"Comunicação dos Atos Processuais\" (5487), ainda que não se encaixe exatamente em nenhum dos subtemas listados (Citação - 5488; Intimação - 5489), pois não trata do chamamento do acusado nem da ciência de atos processuais a partes já no processo, mas de proteção de dados de vítimas/testemunhas. Por isso, mantenho o nível 1 em 5487, mas deixo subtema_n2_id como null, por falta de aderência exata a qualquer um dos dois subtemas. Como segunda opção, mantenho 5490 (Questões e Processos Incidentes), pois poderia se discutir se é uma \"medida de proteção\" incidental, mas a resolução não corresponde a nenhum dos incidentes típicos ali listados (exceções, insanidade, medidas assecuratórias, restituição), tornando essa opção mais frágil ainda. Não há tema mais específico e explícito sobre proteção de dados de vítimas/testemunhas na árvore apresentada, por isso a confiança no ramo é moderada (0.6) e no subtema é zero.",
+ "id": "Q0132",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP3",
+  "segundo_grupo_id": null,
+  "confianca": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão trata da Resolução CNJ nº 427/2021, que regula a proteção de dados qualificativos e endereços de vítimas e testemunhas ameaçadas nos autos processuais, envolvendo sigilo/restrição de acesso aos autos — matéria afeta à publicidade e comunicação dos atos processuais (acesso aos autos, sigilo), tema de nível 1 \"Comunicação dos Atos Processuais\" dentro do grupo PP3. Não há instituto de prova, prisão ou competência envolvido, apenas regramento sobre sigilo de dados nos autos físicos/eletrônicos."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5487",
+  "segunda_opcao_n1_id": "5490",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a Resolução CNJ nº 427/2021, que trata do sigilo dos dados qualificativos e endereços de vítimas e testemunhas ameaçadas, regulando como e a quem tais informações são comunicadas/dadas a conhecer nos autos (registro em apartado, controle de vista, legitimados a requerer a preservação). Trata-se de regramento sobre a forma de comunicação e acesso às informações processuais a partes e terceiros, o que se enquadra em \"Comunicação dos Atos Processuais\" (5487), tema de nível 1 que, embora tenha subtemas específicos (citação/intimação), não exclui o tema geral de regras de publicidade/sigilo de dados nos autos. Como segunda opção, \"Das Questões e Processos Incidentes\" (5490) poderia ser cogitado por envolver medidas de proteção processual, mas é menos aderente, pois não se trata de exceção, incidente de insanidade, medida assecuratória ou restituição de coisas. Mantenho a classificação anterior por falta de tema mais específico sobre proteção de vítimas/testemunhas na árvore apresentada."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2161,
+  "cache_w": 51551,
+  "cache_r": 101498,
+  "custo_usd": 0.2588546
+ }
+}

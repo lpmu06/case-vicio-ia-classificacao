@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5497",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5500",
+ "extras_ids": [
+  "5498"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra o art. 149, §1º, do CPP. Quando houver dúvida sobre a sanidade mental do investigado, o exame pode ser ordenado ainda no inquérito, mediante representação da autoridade policial ao juiz (alternativa C). Essa regra pertence ao incidente de insanidade mental (5497). Fica como segunda opção o Procedimento do Inquérito Policial (5500): ele aparece apenas como o momento em que a questão se passa, já que o delegado não pode requisitar o exame de ofício.",
+ "id": "Q0032",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5498",
+  "5490"
+ ],
+ "candidatos_subtemas": [
+  "5497",
+  "5500"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 603,
+  "cache_w": 11418,
+  "cache_r": 16390,
+  "custo_usd": 0.114925
+ }
+}

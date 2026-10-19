@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede a identificação de uma teoria criminológica nominada (entre anomia, associação diferencial, Chicago, labeling, crítica) que explique o surto criminoso decorrente de tensão/frustração súbita, caracterizando-se como aplicação de teoria em espécie dentro das Teorias Sociológicas Explicativas da Criminalidade.",
+ "id": "Q0115",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 742,
+  "cache_w": 2631,
+  "cache_r": 214056,
+  "custo_usd": 0.0622152
+ }
+}

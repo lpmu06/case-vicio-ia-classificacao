@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5158",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5159",
+ "extras_ids": [
+  "5159"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão narra furto qualificado (rompimento de obstáculo) praticado pelo filho contra o pai. Embora a subtração com rompimento de obstáculo configure, em tese, furto qualificado (art. 155, §4º, I), o ponto central exigido pela pergunta é a aplicação da escusa absolutória do art. 181, I, do CP — isenção de pena por ser a vítima ascendente do agente, crime patrimonial sem violência ou grave ameaça. A alternativa correta (D) só se explica pelo conhecimento das disposições gerais dos crimes contra o patrimônio (imunidades/escusas absolutórias), e não pela tipificação do furto em si. Por isso, mantém-se o tema de nível 1 \"Dos Crimes Contra o Patrimônio\" (5157) e classifica-se no subtema 5158 (Disposições Gerais), que trata especificamente de escusas absolutórias envolvendo ascendentes/descendentes. O subtema de furto (5159) é mantido como segunda opção/extra, pois descreve o contexto fático, mas não é o que a pergunta efetivamente testa.",
+ "id": "Q0009",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata de furto praticado por filho contra o pai, testando o conhecimento sobre a escusa absolutória (imunidade penal) prevista nas disposições gerais dos crimes contra o patrimônio (art. 181 e seguintes do CP), que isenta de pena o agente que comete crime patrimonial, sem violência ou grave ameaça, contra ascendente ou descendente. O instituto central (escusa absolutória/imunidade) pertence ao capítulo de Crimes Contra o Patrimônio, cobrindo-se pelo tema \"Dos Crimes Contra o Patrimônio\", dentro do grupo P5."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão exige o reconhecimento de que, apesar da subtração mediante rompimento de obstáculo (que configuraria furto qualificado), o fato de a vítima ser ascendente (pai) do agente atrai a escusa absolutória prevista no art. 181, I, do CP (isenção de pena para crimes patrimoniais sem violência/grave ameaça contra ascendente/descendente), tornando correta a alternativa \"D\". O instituto central é a escusa absolutória, que se insere nas Disposições Gerais dos Crimes Contra o Patrimônio, coberto pelo tema de nível 1 \"Dos Crimes Contra o Patrimônio\" (5157), mantendo a classificação do estágio anterior. Não há elementos de organização do trabalho, propriedade imaterial ou fé pública que justifiquem os outros temas do grupo."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2122,
+  "cache_w": 48974,
+  "cache_r": 101498,
+  "custo_usd": 0.24809559999999997
+ }
+}

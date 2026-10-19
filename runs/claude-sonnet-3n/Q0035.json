@@ -1,0 +1,38 @@
+{
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "Todas as alternativas versam exclusivamente sobre a Lei 13.260/2016 (Lei Antiterrorismo): competência para investigação (Polícia Federal), atos preparatórios de organização terrorista (arts. 5º-6º), conceito legal de terrorismo (art. 2º) e atos de terrorismo em espécie, incluindo sabotagem de sistemas informáticos (art. 2º, §1º). A menção a \"organização terrorista\" na alternativa B é tratada dentro da própria Lei Antiterrorismo (atos preparatórios), não como organização criminosa da Lei 12.850/2013, de modo que não há tangenciamento real com o tema 4705. Confirma-se o tema de nível 1 \"Terrorismo\" (4706), que não possui subtemas.",
+ "multi_tema": false,
+ "segunda_opcao_id": "4705",
+ "subtema_n2_id": null,
+ "tema_n1_id": "4706",
+ "id": "Q0035",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa integralmente sobre a Lei nº 13.260/2016 (Lei Antiterrorismo), testando conceitos, atos de terrorismo e competência investigativa previstos nessa lei específica. O tema \"Terrorismo\" está no grupo LE1 (Legislação Especial), que é o enquadramento correto e específico para a matéria."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4706",
+  "segunda_opcao_n1_id": "4705",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente da Lei nº 13.260/2016 (Lei Antiterrorismo): competência investigativa, atos preparatórios de organização terrorista, conceito legal de terrorismo e atos de terrorismo em espécie (incêndio, depredação, sabotagem de sistemas informáticos). Todas as alternativas giram em torno do mesmo diploma legal, de modo que o tema de nível 1 \"Terrorismo\" (4706), dentro do grupo de Legislação Especial, é o enquadramento correto e específico. A segunda opção (4705 - Organizações Criminosas) é citada apenas por tangenciar o conceito de \"organização terrorista\" mencionado na alternativa B, mas não é o eixo central da questão."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1561,
+  "cache_w": 43792,
+  "cache_r": 101498,
+  "custo_usd": 0.2174726
+ }
+}

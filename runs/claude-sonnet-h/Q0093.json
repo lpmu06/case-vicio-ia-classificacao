@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5223",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5150",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão gira inteiramente em torno da distinção entre omissão própria e omissão imprópria (comissiva por omissão), a partir da existência ou não de posição de garante: o salva-vidas tem dever jurídico de agir (art. 13, §2º, \"a\", CP - função especial de proteção), logo sua omissão equivale causalmente à produção do resultado morte, respondendo por homicídio doloso por omissão; já o surfista é um terceiro comum, sem dever jurídico de agir, respondendo apenas por omissão de socorro (art. 135 CP) ou, no limite, por omissão própria. Esse é exatamente o objeto do subtema 5223 (Crimes Omissivos e Comissivos), que trata especificamente de \"quando o agente tinha dever jurídico de agir, especialmente nas posições de garantidor previstas no Código Penal\" - descrição que casa com precisão ao caso. Mantenho o ramo 5218 (Fato Típico) por ser a classificação material do crime quanto à conduta (comissiva/omissiva), e não um problema de concurso de crimes (pista de origem equivocada) nem de classificação específica do homicídio/omissão de socorro em si (que seriam apenas a conclusão, não o fundamento jurídico central). A segunda opção 5150 (Homicídio) permanece como alternativa razoável, pois a resposta correta da questão nomeia o tipo \"homicídio doloso por omissão\", mas o conhecimento testado é a teoria da omissão, não as qualificadoras ou peculiaridades do homicídio em si.",
+ "id": "Q0093",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5149",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão testa a distinção entre omissão própria e omissão imprópria (comissão por omissão), a partir da existência ou não de dever jurídico de agir (posição de garante do salva-vidas vs. ausência de dever do surfista/terceiro comum). Esse é o cerne doutrinário dos \"crimes omissivos e comissivos\", subtema de Teoria do Crime: Fato Típico (id 5218), e não propriamente da classificação dos crimes contra a vida (que seria apenas o resultado da análise). Não é questão de concurso de crimes, apesar da pista de origem."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1613,
+  "cache_w": 56326,
+  "cache_r": 0,
+  "custo_usd": 0.25033799999999995
+ }
+}

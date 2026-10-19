@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5170",
+ "subtema_n2_id": "5173",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5171",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede exatamente a identificação da figura da interpretação analógica (expressões \"qualquer outro meio\", \"qualquer outra vantagem\" etc.), que é tema específico e nominado do subtema 5173 (Interpretação da Norma Penal), dentro do tema guarda-chuva 5170. Não há conflito de normas no tempo/espaço, afastando 5180, e não se trata de mera questão de fontes do Direito Penal (5171).",
+ "id": "Q0069",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P1",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata de interpretação da lei penal (distinção entre interpretação analógica, extensiva, declarativa e analogia), tema clássico de \"Introdução ao Estudo do Direito Penal\", coberto pelo grupo P1."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5170",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão exige distinguir interpretação analógica de analogia, interpretação extensiva, autêntica e declarativa — matéria de hermenêutica/interpretação da norma penal, subtema \"Interpretação da Norma Penal\" dentro do tema guarda-chuva 5170 (Introdução ao Estudo do Direito Penal). Não há conflito de normas no tempo/espaço, afastando o tema 5180."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1065,
+  "cache_w": 46252,
+  "cache_r": 101498,
+  "custo_usd": 0.2221566
+ }
+}

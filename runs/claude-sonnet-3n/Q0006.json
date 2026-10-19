@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5159",
+ "extras_ids": [
+  "5160"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão mescla três afirmativas: duas sobre furto (teoria da contrectatio e a distinção furto/roubo pelo uso de narcóticos para reduzir a resistência da vítima, que configura furto e não roubo) e uma sobre roubo impróprio (cabimento de tentativa). Não há um único subtema de nível 2 que abranja as três assertivas - a I e II gravitam em torno do tipo de furto (5159), enquanto a III é específica de roubo (5160). Como a prova exige conhecimento comparativo dos dois tipos dentro do Título dos Crimes Contra o Patrimônio, a classificação mais segura é no tema de nível 1 (5157), mantendo subtema nulo. Marco como multi-tema e indico furto (5159) como segunda opção por concentrar duas das três afirmativas, com roubo (5160) como extra relevante.",
+ "id": "Q0006",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente dos crimes de furto e roubo (consumação pela teoria da contrectatio, distinção entre furto e roubo pelo uso de narcóticos, e tentativa de roubo impróprio), institutos da parte especial do Código Penal relativos aos crimes contra o patrimônio, cobertos pelo tema 'Dos Crimes Contra o Patrimônio' do grupo P5."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": true,
+  "justificativa": "A questão combina institutos de furto (teoria da contrectatio, distinção furto/roubo pelo uso de narcóticos) e roubo (tentativa de roubo impróprio), ambos subtemas de \"Dos Crimes Contra o Patrimônio\" (5157). Como não há um único subtema que abranja as três afirmativas (duas tratam de furto, uma de roubo), a classificação correta é no tema de nível 1, que engloba ambos os subtemas. Não há outro tema de nível 1 nos grupos apresentados que se aplique a crimes contra o patrimônio."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1569,
+  "cache_w": 48929,
+  "cache_r": 101498,
+  "custo_usd": 0.24240659999999997
+ }
+}

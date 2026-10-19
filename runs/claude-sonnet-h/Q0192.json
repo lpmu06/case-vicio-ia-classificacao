@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.65,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5079",
+ "extras_ids": [
+  "5091",
+  "5089",
+  "5081"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão nitidamente multi-tema: a alternativa A trata de concussão (subtema 5091), a C de peculato culposo (subtema 5089) — ambas dentro de \"Dos Crimes Contra a Administração Pública\" (5087) —, a D trata de retratação na falsa perícia, que pertence a \"Dos Crimes Contra a Administração Judicial\" (5079, subtema 5081), e a B versa sobre progressão de regime condicionada à reparação do dano, tema típico de Lei de Execução Penal (Legislação Especial), fora da árvore de Penal/Processo Penal aqui disponível. Mantenho 5087 como tema de nível 1 por concentrar duas das quatro alternativas (A e C) e por ser a origem indicada, com 5079 como segunda opção por cobrir a alternativa D. Como as alternativas relevantes para 5087 (A e C) correspondem a subtemas distintos (Concussão/Excesso de Exação e Peculato), não há um único subtema de nível 2 que abranja corretamente a questão, por isso subtema_n2_id = null.",
+ "id": "Q0192",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5079",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão combina institutos de ramos diferentes: concussão e peculato culposo (Crimes Contra a Administração Pública, alternativas A e C), progressão de regime condicionada à reparação do dano (Lei de Execução Penal, alternativa B) e retratação na falsa perícia (Crimes Contra a Administração Judicial, alternativa D). Não há um eixo temático único, caracterizando questão multi-tema. Optei pelo tema \"Dos Crimes Contra a Administração Pública\" (5087) como melhor síntese, já que concentra duas das quatro alternativas (concussão e peculato) e é o tema de origem indicado; como segunda opção, indico \"Dos Crimes Contra a Administração Judicial\" (5079), que cobre a alternativa sobre falsa perícia."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2021,
+  "cache_w": 38044,
+  "cache_r": 78694,
+  "custo_usd": 0.19945980000000002
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5208",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "4703",
+ "extras_ids": [
+  "5201"
+ ],
+ "multi_tema": false,
+ "justificativa": "O núcleo da questão é verificar se, para um condenado por latrocínio (crime hediondo) reincidente específico, estão presentes os requisitos legais do livramento condicional (cumprimento de mais de 2/3 da pena, vedação do art. 83, V, do CP para reincidente em crime hediondo, bom comportamento). As demais alternativas (progressão de regime, comutação de pena, indulto, prisão domiciliar) são institutos de execução penal usados apenas como distratores para testar se o candidato distingue livramento condicional dos demais benefícios executórios — por isso mantenho 5199/5208 (Livramento Condicional) como classificação principal, com 4703 (LEP) como segunda opção, já que a questão tramita no juízo da execução e dialoga com institutos típicos da Lei 7.210/1984.",
+ "id": "Q0166",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "4703",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão testa os requisitos do livramento condicional para reincidente em crime hediondo/equiparado (latrocínio), exigindo o conhecimento sobre o cumprimento de 2/3 da pena e vedações legais específicas (art. 83, V, CP). O eixo central é a Teoria da Pena, subtema Livramento Condicional (5199), ainda que as alternativas distratoras mencionem institutos de execução penal (indulto, comutação, progressão), que ficariam em Lei de Execução Penal (4703), por isso colocado como segunda opção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1694,
+  "cache_w": 35505,
+  "cache_r": 78694,
+  "custo_usd": 0.1835078
+ }
+}

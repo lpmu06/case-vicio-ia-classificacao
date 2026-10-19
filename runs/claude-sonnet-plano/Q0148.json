@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5203",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5202",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige o conhecimento sobre a segunda fase da dosimetria da pena, especificamente a compensação/preponderância entre a agravante da reincidência e a atenuante da confissão espontânea, matéria própria do subtema 5203.",
+ "id": "Q0148",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 740,
+  "cache_w": 2588,
+  "cache_r": 214056,
+  "custo_usd": 0.0620712
+ }
+}

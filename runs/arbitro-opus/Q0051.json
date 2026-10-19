@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": "5182",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5180",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra a aplicação da lei penal brasileira a crime praticado no exterior contra brasileiro: extraterritorialidade, princípios da justiça universal, da defesa, da nacionalidade ativa e da representação, e a distinção entre extraterritorialidade condicionada e incondicionada (art. 7º do CP). Por isso o enquadramento é Lei penal no Espaço (5182). Descartei Concurso de Crimes (5066), que só aparece no assunto de origem: nenhuma alternativa trata de pluralidade de crimes ou de cálculo de pena.",
+ "id": "Q0051",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5180",
+  "5066"
+ ],
+ "candidatos_subtemas": [
+  "5182"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 585,
+  "cache_w": 8454,
+  "cache_r": 16390,
+  "custo_usd": 0.088334
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "tema_n1_id": "4371",
+ "subtema_n2_id": "4373",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "4380",
+ "extras_ids": [],
+ "multi_tema": false,
+ "fora": false,
+ "justificativa": "A questão trata exclusivamente das Escolas Criminológicas: Escola Clássica (objeto = crime como ente jurídico), Escola Positivista (adeptos - erro proposital incluindo Beccaria, que é da Clássica) e Escola da Criminologia Crítica (influência do Labelling Approach). O eixo é inteiramente a caracterização e comparação de escolas, o que corresponde precisamente ao subtema 4373 (Escolas Criminológicas), dentro do tema de nível 1 4371. Não há foco em conceito/objeto/método geral da Criminologia (4380), que fica como segunda opção mais distante.",
+ "id": "Q0081",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C1",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre as escolas criminológicas (Clássica, Positivista e Criminologia Crítica/Labelling Approach), tema central do grupo C1 (Etapas Evolutivas e Escolas Criminológicas)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4371",
+  "segunda_opcao_n1_id": "4380",
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão pede para classificar como V/F afirmativas sobre a Escola Clássica (objeto: crime como ente jurídico), a Escola Positivista (adeptos: Beccaria, Ferri, Garofalo - na verdade Beccaria é da Escola Clássica, erro proposital) e a Escola da Criminologia Crítica (influência do Labelling Approach). O eixo central é exatamente o conteúdo e as características das escolas criminológicas, que corresponde ao subtema \"Escolas Criminológicas\" dentro do tema 4371 (Etapas Evolutivas e Escolas Criminológicas). Não há conteúdo relativo a conceito/objeto/métodos da Criminologia (4380) nem a modelos de reação ao delito/sistemas de prevenção (4368), por isso esses temas são apenas alternativas mais distantes."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1493,
+  "cache_w": 45418,
+  "cache_r": 101498,
+  "custo_usd": 0.22386360000000002
+ }
+}

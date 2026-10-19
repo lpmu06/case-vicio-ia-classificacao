@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": "5073",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.88,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede os requisitos da autoria mediata por domínio da organização (teoria de Roxin) — poder de mando, fungibilidade do executor, desvinculação do aparato do ordenamento jurídico e disponibilidade elevada do executor — pedindo a alternativa que NÃO é requisito (o \"prévio acerto\" é alheio à construção, já que o domínio da organização prescinde de ajuste prévio com o executor fungível). Isso é uma modalidade específica de autoria (autoria mediata no aparato organizado de poder), tema que se enquadra no subtema \"Autoria Mediata, Colateral e Coautoria\" (5073), dentro do ramo nível 1 \"Concurso de Pessoas\" (5071). Mantenho \"Teoria do Crime: Culpabilidade\" (5211) apenas como segunda opção residual, pois a doutrina de Roxin tangencia debates sobre responsabilidade do executor, mas o enunciado não pergunta sobre culpabilidade, e sim sobre os requisitos estruturais da autoria mediata organizacional, de modo que o eixo central e específico é o subtema 5073.",
+ "id": "Q0198",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata da teoria do domínio do fato de Roxin e, especificamente, da autoria mediata por domínio da organização (requisitos como poder de mando, fungibilidade do executor, desvinculação do aparato do ordenamento jurídico), que é tema de autoria/coautoria, classificado em Concurso de Pessoas, dentro do grupo P2 (teoria do crime/autoria e concursos)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": "5211",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão exige o conhecimento dos requisitos da autoria mediata por domínio da organização (teoria de Roxin): poder de mando, fungibilidade do executor, desvinculação do aparato do ordenamento jurídico e disponibilidade elevada do executor para o fato. Esse instituto está classificado no subtema \"Autoria Mediata, Colateral e Coautoria\", dentro do tema de nível 1 \"Concurso de Pessoas\" (5071), que trata justamente da autoria mediata, coautoria e participação. Como segunda opção, \"Teoria do Crime: Culpabilidade\" (5211) é plausível pois a questão tangencia o debate doutrinário sobre responsabilidade do executor fungível, mas o eixo central da pergunta são os requisitos da autoria mediata organizacional, não a culpabilidade em si."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1726,
+  "cache_w": 47000,
+  "cache_r": 102908,
+  "custo_usd": 0.2359186
+ }
+}

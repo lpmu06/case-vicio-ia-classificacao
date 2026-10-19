@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5185",
+ "extras_ids": [
+  "5498"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão fragmentada: cada alternativa versa sobre instituto distinto. A (foro por prerrogativa/juízo de prelibação em ação penal contra Promotor), B (aditamento da denúncia e necessidade de renovação de citação/interrogatório), D (autorização de casa legislativa para recebimento de denúncia contra parlamente distrital) e E (exceção da verdade na ação penal privada por calúnia) giram em torno da disciplina processual da ação penal (titularidade, peças acusatórias, prerrogativas e seus incidentes), de modo que o tema de nível 1 mais abrangente e coerente com a maioria das alternativas é Ação Penal (5466). Nenhum subtema específico de 5466 cobre com precisão o conjunto (não há subtema dedicado a foro por prerrogativa, autorização de casa legislativa ou exceção da verdade), por isso subtema_n2_id fica null para evitar erro de classificação em subtema irmão incorreto. A alternativa C, isolada, trata de prescrição da pretensão punitiva e seu efeito de coisa julgada material mesmo com descoberta posterior de qualificadora - typicamente enquadrável em Prescrição (5185), o que justifica mantê-lo como segunda opção relevante, embora seja apenas 1 de 5 itens. Mantida confiança moderada-alta no ramo processual (4/5 itens) e confiança zero no subtema por ausência de match exato.",
+ "id": "Q0172",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.6,
+  "multi_tema": true,
+  "justificativa": "A questão reúne alternativas sobre diferentes aspectos da ação penal (foro por prerrogativa/juízo de prelibação, aditamento da denúncia, exceção da verdade na ação penal privada) com eixo processual central — todos são temas de Ação Penal em Processo Penal (PP2). A alternativa C trata de prescrição/coisa julgada material, tema de direito penal (P3), mas não é o eixo predominante da questão, que é essencialmente processual (ação penal, procedimentos, competência para julgamento de agentes com prerrogativa). Por isso marco multi_tema, com PP2 como grupo principal e P3 como segunda opção."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5185",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão é claramente multi-tema, reunindo em suas alternativas institutos de natureza processual (foro por prerrogativa de função/juízo de prelibação, aditamento da denúncia com necessidade de renovação de citação e interrogatório, autorização de casa legislativa para recebimento de denúncia, exceção da verdade na ação penal privada) com um único item (C) de direito penal material (extinção da punibilidade pela prescrição da pretensão punitiva e seus efeitos de coisa julgada material mesmo ante descoberta de qualificadora). Dentro do grupo PP2, o tema correto de nível 1 é Ação Penal (5466), pois é exatamente esse o eixo das alternativas A, B, D e E (titularidade, condições e peças da ação penal, incluindo prerrogativas processuais e exceção da verdade), e não Inquérito Policial (5498), que trata de investigação preliminar, irrelevante ao enunciado. Como segunda opção, dentro do grupo P3, o tema que capturaria especificamente a alternativa C é Prescrição (5185), por tratar diretamente de extinção da punibilidade pela prescrição da pretensão punitiva e seus marcos/efeitos - mais preciso que o guarda-chuva de Teoria da Pena (5199) ou o tema penal-material de Ação Penal (5063), que não é o foco da alternativa isolada. Mantenho confiança moderada dado o caráter fragmentado da questão, mas o eixo processual prevalece como contexto majoritário (4 de 5 alternativas)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3235,
+  "cache_w": 18006,
+  "cache_r": 14150,
+  "custo_usd": 0.11999000000000001
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5500",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5499",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata de diligências investigatórias concretas do inquérito policial — busca domiciliar e busca pessoal, requisição de dados cadastrais pelo delegado, prazo para requisição de localização de vítima/suspeitos em tráfico de pessoas e prioridade do exame de corpo de delito para pessoas vulneráveis. Todas as alternativas versam sobre atos e dinâmica procedimental da investigação (o que a autoridade policial pode/deve fazer e com quais prazos/autorizações), o que corresponde exatamente ao subtema \"Procedimento do Inquérito Policial\" (5500), que abrange diligências policiais, busca e apreensão, requisições e exame de corpo de delito. Não se trata de conceito/características gerais (5499), nem de conclusão/arquivamento (5501), ANPP (5502) ou juiz das garantias (5503).",
+ "id": "Q0149",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre diligências realizadas no curso do inquérito policial (busca domiciliar, requisições do delegado, prazo para requisições em tráfico de pessoas, exame de corpo de delito), temas típicos de Inquérito Policial em Processo Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1065,
+  "cache_w": 33532,
+  "cache_r": 78694,
+  "custo_usd": 0.1668288
+ }
+}

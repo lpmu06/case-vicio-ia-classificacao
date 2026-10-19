@@ -1,0 +1,32 @@
+{
+ "confianca_ramo": 0.82,
+ "confianca_subtema": 0,
+ "extras_ids": [
+  "4687"
+ ],
+ "fora": false,
+ "justificativa": "A questão mistura, propositadamente, condutas da Lei 8.176/91 (crimes contra a ordem econômica relativos a combustíveis - itens I, II e IV) com uma conduta da Lei 8.137/90 (negar/deixar de fornecer nota fiscal - item III, verdadeiro crime contra a ordem tributária). O enunciado pede para identificar o que é \"crime contra a ordem tributária\", exigindo que o candidato distinga as figuras da Lei 8.176/91 (ordem econômica) da única efetivamente tributária (item III), que é exatamente o tipo de \"pegadinha\" descrito na própria definição do tema 4695. Por isso mantenho o tema de nível 1 Crimes Tributários (4695), que não possui subtemas, então subtema_n2_id permanece null. Incluí 4687 (crimes contra a economia popular/ordem econômica) como tema correlato, pois é o que de fato tipifica as condutas I, II e IV, mas o eixo de cobrança da questão é a distinção tributária.",
+ "multi_tema": true,
+ "segunda_opcao_id": "4687",
+ "subtema_n2_id": null,
+ "tema_n1_id": "4695",
+ "id": "Q0181",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4695",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão pede para identificar quais condutas constituem crime contra a ordem tributária, exigindo conhecimento específico sobre a Lei 8.137/90 (e distinção de figuras correlatas da Lei 8.176/91 sobre ordem econômica, usadas como \"pegadinha\"). O eixo central é claramente Crimes Tributários, tema de nível 1 em Legislação Especial."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1760,
+  "cache_w": 29266,
+  "cache_r": 78694,
+  "custo_usd": 0.1540048
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5223",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema 5218 (Fato Típico), pois a questão gira sobre a distinção entre posição de garante (salva-vidas, dever jurídico de agir previsto no art. 13, §2º, CP) e ausência de dever jurídico (surfista, mero dever moral), que é exatamente o objeto do subtema 5223 \"Crimes Omissivos e Comissivos\" (omissão própria vs. imprópria/comissiva por omissão). O eixo da questão não é reprovabilidade pessoal (culpabilidade), mas sim se a conduta omissiva se amolda ao tipo de homicídio por omissão imprópria (exigindo dever de agir/garantidor) ou apenas configura omissão de socorro/atipicidade. Mantenho 5211 como segunda opção por tangenciar o tema de reprovação, mas o núcleo é tipicidade omissiva.",
+ "id": "Q0093",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa a omissão penalmente relevante (crime omissivo impróprio/comissivo por omissão), diferenciando o garante (salva-vidas, que tem dever de agir e responde por homicídio doloso por omissão, art. 13, §2º, CP) do não garante (surfista, que só responde por omissão de socorro, art. 135, CP, ou é atípica sua conduta de omitir-se quanto a quem não tinha dever específico). Esse é o núcleo da Teoria do Crime: Fato Típico, especificamente a classificação dos crimes quanto à conduta (comissivos por omissão) e a figura do garante, tema do grupo P2 (Parte geral: teoria do crime). Não é questão de concurso de crimes, apesar da pista de origem."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5211",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão exige diferenciar a posição de garante (salva-vidas, com dever jurídico de agir, art. 13, §2º, CP) de quem não é garante (surfista, mero dever moral), definindo se cada um responde por homicídio doloso por omissão ou apenas por omissão de socorro/atipicidade. Isso é o núcleo da teoria do fato típico quanto à classificação dos crimes omissivos impróprios (comissivos por omissão), tema 5218 (subtema \"Crimes Omissivos e Comissivos\"), dentro do grupo P2. Não envolve concurso de pessoas (não há vínculo subjetivo entre salva-vidas e surfista) nem concurso de crimes, apesar da pista de origem. Como segunda opção, cito Culpabilidade (5211), pois a questão tangencia a diferença de reprovabilidade, mas o eixo central é a tipicidade omissiva."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1947,
+  "cache_w": 52100,
+  "cache_r": 101498,
+  "custo_usd": 0.2597456
+ }
+}

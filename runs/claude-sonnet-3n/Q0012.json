@@ -1,0 +1,40 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "extras_ids": [
+  "5561"
+ ],
+ "fora": false,
+ "justificativa": "A questão trata do recurso cabível contra a decisão que rejeita a denúncia no procedimento do Juizado Especial Criminal (art. 77 da Lei 9.099/95). No regime da Lei 9.099/95, diferentemente do CPP comum (que preveria RESE, art. 581, I), a decisão que rejeita a denúncia no JECrim tem natureza de sentença terminativa e é impugnável por apelação à Turma Recursal, no prazo de 10 dias (art. 82, caput, da Lei 9.099/95), já que o rito sumaríssimo não reproduz o cabimento de RESE do CPP. O cerne da questão é exatamente essa peculiaridade recursal do microssistema dos Juizados, o que aponta para o subtema específico \"Recursos no Âmbito dos Juizados Especiais\" (5569), dentro do tema de nível 1 \"Recursos em Espécies\" (5560), confirmando a classificação anterior no nível 1. Mantenho como extra o RESE (5561), pois é a alternativa de raciocínio com que o candidato pode confundir a resposta (achando que se aplica a regra geral do CPP), mas o subtema correto para estudo é o 5569, que trata justamente da disciplina recursal própria da Lei 9.099/95.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5561",
+ "subtema_n2_id": "5569",
+ "tema_n1_id": "5560",
+ "id": "Q0012",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa qual recurso cabe contra a decisão que rejeita a denúncia no procedimento do JECrim (art. 77 da Lei 9.099/95) e o respectivo prazo. O cerne é a identificação do recurso cabível (recurso em sentido estrito) e seu prazo, matéria própria de Recursos em Espécies (Processo Penal), não de Juizado Especial Criminal em si, já que a pergunta foca na teoria recursal (espécie e prazo) e não no procedimento sumaríssimo em geral."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5512",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão pergunta qual recurso cabe contra a decisão que rejeita a denúncia no procedimento do JECrim (art. 77, Lei 9.099/95) e qual o prazo aplicável (recurso em sentido estrito, 5 dias — peculiaridade do rito sumaríssimo, que reduz os prazos recursais em geral para 5 dias, diferentemente do prazo comum de 20 dias do CPP). O cerne é a identificação da espécie recursal cabível e de seu prazo específico no regime dos Juizados Especiais Criminais, matéria que se encaixa no tema de nível 1 \"Recursos em Espécies\", especificamente no subtema \"Recursos no Âmbito dos Juizados Especiais\" (ou, alternativamente, no subtema \"Recurso em sentido estrito (RESE)\"), ambos contidos no mesmo tema de nível 1 (5560). Como o aluno que estuda o tema de nível 1 \"Recursos em Espécies\" tem acesso a ambos os subtemas, a classificação em 5560 é segura independentemente de qual dos dois subtemas seja o mais específico. A segunda opção é \"Parte Geral dos Recursos\" (5512), por tratar de princípios e classificação recursal, mas é menos aderente, pois a questão exige conhecimento de regra específica (cabimento e prazo) e não de teoria geral."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2410,
+  "cache_w": 50039,
+  "cache_r": 101498,
+  "custo_usd": 0.2561486
+ }
+}

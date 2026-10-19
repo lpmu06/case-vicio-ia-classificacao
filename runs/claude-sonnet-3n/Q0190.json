@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4701",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam sobre institutos da Lei 9.099/1995 (competência do JECrim, conceito de infração de menor potencial ofensivo, suspensão condicional do processo, composição civil e transação penal), confirmando o tema 4701. Como esse tema não possui subtemas de nível 2, subtema_n2_id permanece null.",
+ "id": "Q0190",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa exclusivamente sobre institutos da Lei 9.099/95 (Juizados Especiais Criminais): competência, infração de menor potencial ofensivo, suspensão condicional do processo, composição civil e transação penal, todos cobertos pelo tema \"Juizado Especial Criminal\" dentro do grupo LE4 (Legislação Especial)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4701",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente de institutos da Lei 9.099/95: competência do Juizado, conceito de infração de menor potencial ofensivo, suspensão condicional do processo, composição civil e transação penal. Todas as alternativas giram em torno do mesmo diploma, enquadrando-se integralmente no tema \"Juizado Especial Criminal\" (4701)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1089,
+  "cache_w": 38961,
+  "cache_r": 91443,
+  "custo_usd": 0.1907536
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5562",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5561",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O art. 593, III, \"a\", do CPP prevê expressamente que cabe apelação contra decisão do Tribunal do Júri quando a sentença do juiz-presidente for contrária à lei expressa ou à decisão dos jurados. Trata-se de hipótese específica de apelação (não de RESE, que ataca decisões interlocutórias do art. 581 CPP; nem de HC ou revisão criminal, inaplicáveis ao caso). Confirma-se o tema 5560 e define-se o subtema 5562 (Apelação) com alta confiança, dado que a questão cobra literalmente dispositivo do próprio subtema.",
+ "id": "Q0144",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa o cabimento de recurso contra sentença do juiz-presidente do júri contrária à lei expressa ou à decisão dos jurados, hipótese prevista no art. 581, III, do CPP (recurso em sentido estrito), tema de Recursos em Espécie, dentro do grupo PP8 (Recursos e ações autônomas de impugnação)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5476",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A hipótese de sentença do juiz-presidente contrária à lei expressa ou à decisão dos jurados está prevista no art. 593, III, \"a\", do CPP, como fundamento de Apelação (e não de recurso em sentido estrito, que trata de decisões interlocutórias do art. 581). Logo, o tema correto é Recursos em Espécies (subtema Apelação), dentro do grupo PP8."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1576,
+  "cache_w": 15756,
+  "cache_r": 37312,
+  "custo_usd": 0.0970904
+ }
+}

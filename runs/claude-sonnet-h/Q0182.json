@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5149",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.4,
+ "confianca_subtema": 0.1,
+ "segunda_opcao_id": "5144",
+ "extras_ids": [
+  "5146",
+  "5145"
+ ],
+ "multi_tema": true,
+ "justificativa": "Reexaminando a estrutura do Código Penal, a rixa (art. 137 CP) está no Capítulo IV do Título I (\"Crimes Contra a Pessoa\" - Da Rixa), e NÃO no capítulo de Crimes Contra a Paz Pública (arts. 286-288-A), que é o que o tema 5144/subtema 5146 efetivamente cobre. Da mesma forma, o perigo de contágio venéreo (art. 130 CP, item II) está no capítulo de Periclitação da Vida e da Saúde, também em \"Crimes Contra a Pessoa\", e não em \"Crimes Contra a Saúde Pública\" (que exige lesão à coletividade, não a um indivíduo). Logo, a escolha anterior do tema 5144 foi equivocada: nenhum dos itens II, III ou IV pertence de fato a esse tema. Já o item I (instigação/participação em aborto consensual, art. 126 c/c art. 29 CP) encaixa-se com precisão no tema 5149 > subtema Aborto (5154). O item V (calúnia) é de Crimes Contra a Honra, tema distinto de ambas as opções oferecidas. Diante disso, entre as duas opções fornecidas, 5149 é a mais defensável, por conter o único item (I) que corresponde exatamente a um subtema seu, enquanto 5144 não cobre satisfatoriamente nenhum item. Ainda assim, mantenho subtema_n2_id = null e confiança baixa, pois a questão é claramente multi-tema (aborto, periclitação, rixa, calúnia), sem eixo comum que justifique classificação segura em um único subtema.",
+ "id": "Q0182",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5144",
+  "segunda_opcao_n1_id": "5149",
+  "confianca_ramo": 0.35,
+  "multi_tema": true,
+  "justificativa": "A questão combina cinco itens sobre institutos distintos de Direito Penal material: aborto consensual/participação (Crimes Contra a Vida), perigo de contágio venéreo (Periclitação da Vida e da Saúde), rixa com lesão grave e rixa com morte (dois itens - Crimes Contra a Paz Pública, art. 137/137 CP) e calúnia (Crimes Contra a Honra). Não há eixo temático único; é questão de revisão geral da Parte Especial do Código Penal. Escolhi o tema \"Dos Crimes Contra a Saúde Pública e Dos Crimes Contra à Paz Pública\" por conter o maior número de itens correlatos (rixa, itens III e IV), mas a classificação é necessariamente multi-tema e de baixa confiança, já que nenhum tema de nível 1 cobre efetivamente o conjunto."
+ },
+ "uso": {
+  "in": 4,
+  "out": 3831,
+  "cache_w": 33669,
+  "cache_r": 78694,
+  "custo_usd": 0.1959108
+ }
+}

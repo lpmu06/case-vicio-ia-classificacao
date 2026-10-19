@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5185",
+ "extras_ids": [
+  "5188"
+ ],
+ "multi_tema": false,
+ "justificativa": "A pergunta central é sobre o instrumento processual cabível e o prazo para impugnar a sentença que reconhece a extinção da punibilidade por prescrição (após suspensão do processo e do prazo prescricional do art. 366 CPP): recurso em sentido estrito, art. 581, IX, CPP, prazo de 5 dias. Trata-se, portanto, de cabimento/prazo do RESE (subtema 5561, dentro do tema guarda-chuva 5560 - Recursos em Espécies), e não do instituto material da prescrição, que figura apenas como pano de fundo narrativo. A prescrição (tema 5185) permanece como segunda opção/contexto relevante, já que a narrativa envolve a suspensão do prazo prescricional do art. 366 CPP (subtema 5187) e seu recálculo pela pena máxima em abstrato, típico da prescrição da pretensão punitiva (5188).",
+ "id": "Q0183",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5185",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "Embora a narrativa envolva suspensão do processo e do prazo prescricional (art. 366 CPP), a pergunta central da questão é sobre o instrumento processual adequado para impugnar a sentença que reconhece a extinção da punibilidade por prescrição e seu prazo (recurso em sentido estrito, art. 581, IX, CPP, prazo de 5 dias). O que se testa é o cabimento/prazo do RESE, tema de Processo Penal (Recursos em Espécies - RESE), e não o instituto material da prescrição em si, que fica como contexto/segunda opção."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1357,
+  "cache_w": 38251,
+  "cache_r": 78694,
+  "custo_usd": 0.1925338
+ }
+}

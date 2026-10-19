@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5160",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5158",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão narra roubo consumado (subtração de celular mediante grave ameaça com simulacro de arma), exigindo conhecimento sobre: (i) consumação do roubo pela teoria da amotio, bastando a posse breve da coisa mediante grave ameaça, não sendo tentativa; (ii) inaplicabilidade da majorante do art. 157, §2º-A, I, CP, por não se tratar de arma de fogo real apta a disparar (simulacro); e (iii) vedação à substituição da pena privativa de liberdade por restritiva de direitos, por força do art. 44, I, CP, em razão do emprego de grave ameaça à pessoa, independentemente do quantum da pena. Todo o eixo da questão gira em torno do crime de roubo e suas consequências (consumação, majorantes e substituição de pena), confirmando o subtema \"Roubo\" (5160) dentro do tema \"Dos Crimes Contra o Patrimônio\" (5157). A pista de origem (\"Concurso de Crimes\") não se sustenta, pois há um único crime narrado.",
+ "id": "Q0130",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão narra roubo com simulacro de arma (grave ameaça para subtração de celular) e pergunta sobre consumação/tentativa, causa de aumento e cabimento de substituição de pena — tudo girando em torno da tipificação e consequências do crime de roubo (art. 157, CP), que pertence a \"Dos Crimes Contra o Patrimônio\". A pista de origem (\"Concurso de Crimes\") não se confirma, pois há um único crime, sem concurso."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata de roubo (art. 157, CP) praticado com simulacro de arma de fogo, exigindo conhecimento sobre consumação do roubo (teoria da amotio – consuma-se com a posse, ainda que breve, da coisa subtraída mediante grave ameaça), sobre a não incidência de causa de aumento quando o objeto usado é simulacro (não é arma de fogo real e apta a disparar), e sobre a vedação à substituição da pena privativa de liberdade por restritiva de direitos em crime cometido com grave ameaça à pessoa (art. 44, I, CP), independentemente da pena aplicada. Todo o eixo da questão é o crime de roubo e suas consequências jurídicas, pertencendo ao subtema \"Roubo\", dentro do tema \"Dos Crimes Contra o Patrimônio\" (id 5157). A pista de origem (\"Concurso de Crimes\") não se confirma, pois há um único crime narrado."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2324,
+  "cache_w": 52073,
+  "cache_r": 101498,
+  "custo_usd": 0.2635086
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "extras_ids": [
+  "5505",
+  "5507"
+ ],
+ "fora": false,
+ "justificativa": "A questão é integralmente sobre o Acordo de Não Persecução Penal (ANPP): (i) natureza jurídica — cumprimento integral extingue a punibilidade; (ii) vedações legais — violência doméstica e racismo; (iii) requisito da confissão formal e circunstanciada no momento da proposta; (iv) aplicação temporal do próprio instituto, vedando-o a fatos anteriores à vigência da Lei 13.964/2019. Todas as quatro assertivas giram em torno do mesmo instituto (ANPP, art. 28-A CPP), e não há mistura de eixos temáticos distintos — mesmo a última parte, embora toque \"lei no tempo\", está perguntando especificamente sobre a irretroatividade do ANPP (regra de direito intertemporal aplicada a esse instituto específico), e não um tema genérico de aplicação da lei processual no tempo desvinculado do ANPP. Por isso, mantenho o tema de nível 1 em Inquérito Policial (5498) e, diferente da classificação anterior, agora atribuo o subtema de nível 2 ANPP (5502), pois todo o enunciado trata exclusivamente desse instituto, inclusive sua vedação, requisito e extinção da punibilidade — que são exatamente as palavras-chave do subtema 5502. A segunda opção fica com \"Lei Processual no Tempo\" (5507), pelo viés temporal da última assertiva, e incluo também 5505 como extra pela mesma razão.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5507",
+ "subtema_n2_id": "5502",
+ "tema_n1_id": "5498",
+ "id": "Q0247",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5505",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata integralmente do Acordo de Não Persecução Penal (ANPP): sua natureza como causa de extinção da punibilidade quando cumprido, as vedações legais (violência doméstica e racismo), o requisito da confissão circunstanciada e a aplicação temporal do instituto. Embora a última assertiva toque em lei processual no tempo, o eixo central e dominante é o próprio instituto do ANPP, que é subtema específico dentro de \"Inquérito Policial\" (id 5498), tema de nível 1 em Processo Penal. A segunda opção seria \"Lei Processual no Tempo e no Espaço\" (5505), por conta do trecho final sobre irretroatividade, mas o conjunto da questão gira em torno do ANPP como instituto."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2038,
+  "cache_w": 34414,
+  "cache_r": 78694,
+  "custo_usd": 0.1815618
+ }
+}

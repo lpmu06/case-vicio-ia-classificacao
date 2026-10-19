@@ -1,0 +1,34 @@
+{
+ "fora": false,
+ "tema_n1_id": "5170",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.7,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5180",
+ "extras_ids": [
+  "5173",
+  "5174",
+  "5181"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão mistura, em cada alternativa, institutos diferentes: classificação da norma penal em branco (homovitelina/heterovitelina e \"ao avesso\"), que se encaixa nas palavras-chave de 5173 (Interpretação da Norma Penal); classificação do crime como \"de atentado ou empreendimento\", que se encaixa em 5174 (Classificações dos Crimes); abolitio criminis, tema central de 5181 (Lei Penal no Tempo, dentro de 5180); e exequatur de carta rogatória, que é matéria processual/constitucional e não pertence a este ramo. Não há um subtema único que domine o conjunto — as alternativas A, B e D gravitam em torno da teoria/classificação da norma penal e dos crimes (conteúdo introdutório, 5170), enquanto a alternativa C puxa para sucessão de leis penais (5180/5181). Por isso mantenho o tema de nível 1 em 5170 (Introdução ao Estudo do Direito Penal), que é o eixo predominante e mais abrangente, com 5180 como segunda opção por causa da abolitio criminis, marco multi_tema = true e deixo o subtema de nível 2 em branco por falta de um subtema único e certo que cubra toda a questão. Não é \"fora\", pois há temas aplicáveis na árvore de Direito Penal.",
+ "id": "Q0077",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5170",
+  "segunda_opcao_n1_id": "5180",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão combina temas variados em cada alternativa: classificação de norma penal em branco (heterogênea homovitelina/heterovitelina), abolitio criminis, norma penal em branco ao avesso, crime de atentado e exequatur de carta rogatória (processual/constitucional). O eixo comum predominante é a teoria/classificação da norma penal e dos crimes, típica de conteúdo introdutório de Direito Penal (conceito, fontes e classificação de normas e crimes), por isso enquadra-se em \"Introdução ao Estudo do Direito Penal\" (5170). Como há forte conexão com temas de vigência/revogação da lei penal (abolitio criminis é tratado também em Lei Penal no Tempo), indico como segunda opção o tema 5180. Não é \"fora\" pois há temas aplicáveis na árvore."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2966,
+  "cache_w": 33173,
+  "cache_r": 78694,
+  "custo_usd": 0.1855688
+ }
+}

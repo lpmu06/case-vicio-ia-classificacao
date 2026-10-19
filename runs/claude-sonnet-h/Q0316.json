@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5222",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa expressamente sobre o erro quanto à pessoa (error in persona), disciplinado no art. 20, §3º, do CP, perguntando qual teoria resolve o caso no ordenamento pátrio (teoria da equivalência - o agente responde como se tivesse atingido a vítima virtual). Trata-se de hipótese de erro de tipo acidental, expressamente listado no subtema 5224 (Erro de Tipo), cujas palavras-chave e dispositivos citam \"erro sobre pessoa\" e \"art. 20, §3º, CP\". Mantém-se o tema de nível 1 5218 (Fato Típico), pois o erro de tipo é instituto integrante da teoria do fato típico, e não se trata de concurso de crimes (pista de origem equivocada).",
+ "id": "Q0316",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.8,
+  "multi_tema": false,
+  "justificativa": "A questão trata do erro sobre a pessoa (error in persona), previsto no art. 20, §3º, do CP, que é tratado dentro da teoria do erro de tipo, subtema do Fato Típico. Não se trata de concurso de crimes (pista de origem equivocada), mas de erro quanto ao objeto/pessoa visada, tema central da Teoria do Crime: Fato Típico (Erro de Tipo)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1198,
+  "cache_w": 30304,
+  "cache_r": 79634,
+  "custo_usd": 0.1553638
+ }
+}

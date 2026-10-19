@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão trata do reforço de fiança (art. 340, CPP), hipótese em que a fiança se torna insuficiente por inovação na classificação do delito, exigindo reforço sob pena de revogação. É matéria diretamente ligada ao instituto da fiança como contracautela da liberdade provisória, pertencendo ao tema 5517 (Prisões em Espécie) e, especificamente, ao subtema 5523 (Liberdade Provisória), cujas palavras-chave incluem expressamente \"reforço da fiança\" e dispositivo correlato (art. 341 CPP, próximo ao art. 340).",
+ "multi_tema": false,
+ "segunda_opcao_id": "5517",
+ "subtema_n2_id": "5523",
+ "tema_n1_id": "5517",
+ "id": "Q0238",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5517",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre reforço de fiança (art. 340 do CPP), instituto processual penal relacionado à fiança como medida cautelar/condição de liberdade provisória, inserido no tema \"Prisões em Espécie\" (subtema Liberdade Provisória), e não em \"Ação Penal\" como sugerido pela origem."
+ },
+ "uso": {
+  "in": 4,
+  "out": 932,
+  "cache_w": 31742,
+  "cache_r": 78694,
+  "custo_usd": 0.1577778
+ }
+}

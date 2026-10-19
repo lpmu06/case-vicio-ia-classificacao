@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "4384",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4368",
+ "extras_ids": [
+  "4370"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pede o que é CORRETO \"segundo Baratta\" sobre a relação preso-sociedade, e a alternativa correta (D) reproduz a célebre crítica de Baratta à ideologia do tratamento/ressocialização: o cárcere não educa, mas reproduz, de forma ainda mais intensa, as relações de poder, violência e exploração da sociedade externa, submetendo os mais débeis a papéis de subordinação. As alternativas A, B e C são \"erradas\" porque reproduzem o discurso oficial da pena como reeducadora/readaptadora, que é exatamente o mito que Baratta desconstrói. O eixo da questão é a (des)legitimação da função ressocializadora da pena privativa de liberdade, o que se encaixa perfeitamente em 4384 (Teorias Legitimadoras da Pena), tema sem subtemas, mantendo a classificação do estágio anterior. A segunda opção 4368 (Criminologia no Estado Democrático de Direito) permanece pertinente, pois a crítica de Baratta também dialoga com os limites do poder punitivo e os modelos de reação ao delito (subtema 4370), mas o núcleo é a crítica à finalidade ressocializadora da pena, não a discussão sobre modelos de controle social em si.",
+ "id": "Q0059",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": "C1",
+  "confianca": 0.65,
+  "multi_tema": false,
+  "justificativa": "A questão trata da crítica de Alessandro Baratta à ideologia da ressocialização/reeducação (teorias legitimadoras da pena), expondo que o cárcere reproduz as relações de poder e exploração da sociedade, não as corrigindo. Esse debate pertence à criminologia crítica sobre a (des)legitimação da pena, coberto pelo tema \"Teorias Legitimadoras da Pena\" dentro do grupo C2. Alternativamente, poderia se relacionar a C1 (Criminologia no Estado Democrático de Direito/Escolas Criminológicas), daí o segundo grupo."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4384",
+  "segunda_opcao_n1_id": "4368",
+  "confianca_ramo": 0.72,
+  "multi_tema": false,
+  "justificativa": "A questão cobra diretamente a crítica de Baratta à ideologia da \"re\" (reeducação/ressocialização/reinserção social), uma das funções declaradas (legitimadoras) atribuídas à pena privativa de liberdade. As alternativas A, B e C reproduzem o discurso oficial/ideológico de que o cárcere resocializa, enquanto a D expressa a tese crítica de Baratta de que o cárcere reproduz as relações de poder, violência e exploração da sociedade externa, desmascarando a função ressocializadora como mito legitimador. Isso se encaixa no tema \"Teorias Legitimidoras da Pena\" (4384), que abrange exatamente a discussão sobre a legitimação/deslegitimação das funções da pena, incluindo a crítica criminológica a essas teorias. Como alternativa, o conteúdo também dialoga com a reflexão sobre controle social e garantismo em um Estado Democrático de Direito, tema 4368, justificando a segunda opção."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2322,
+  "cache_w": 47129,
+  "cache_r": 101498,
+  "custo_usd": 0.23891859999999998
+ }
+}

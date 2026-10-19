@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5475",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5498",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as quatro alternativas versam especificamente sobre a ação civil ex delicto (art. 68 CPP e correlatos): legitimidade extraordinária do MP na ausência de Defensoria Pública, suspensão do processo civil até pronunciamento da justiça criminal, efeitos do arquivamento do IP sobre a ação civil, e efeitos da sentença penal que reconhece descriminante putativa sobre a coisa julgada cível. Isso corresponde exatamente ao subtema de nível 2 \"Ação Civil Ex Delicto\" (5475), dentro do tema \"Ação Penal\" (5466). O arquivamento do inquérito aparece apenas como pressuposto de uma alternativa (letra C), não como objeto de exame do procedimento investigatório em si, por isso \"Inquérito Policial\" (5498) permanece apenas como segunda opção por proximidade temática.",
+ "id": "Q0019",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a ação civil ex delicto (art. 68 do CPP) e suas relações com a ação penal: legitimidade do MP na ausência de Defensoria Pública, suspensão do processo civil enquanto não decidida a questão penal, efeitos do arquivamento do inquérito e da sentença penal (descriminante putativa por erro inevitável) sobre a esfera cível. Todo o eixo temático gira em torno do instituto da Ação Penal e seus reflexos extrapenais, tema de nível 1 dentro do grupo PP2 (Investigação e ação penal), em Processo Penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5498",
+  "confianca_ramo": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente da ação civil ex delicto (art. 68 do CPP) e seus reflexos: legitimidade extraordinária do MP na falta de Defensoria Pública, suspensão do processo civil até a decisão da esfera criminal, efeitos do arquivamento do inquérito sobre a ação civil e efeitos da sentença penal que reconhece descriminante putativa por erro inevitável na coisa julgada cível. Todas as alternativas giram em torno do mesmo instituto (ação civil ex delicto), que é subtema expresso dentro do tema de nível 1 \"Ação Penal\" (id 5466), dentro do grupo PP2 (Investigação e ação penal) em Processo Penal. Não há traço de inquérito policial em si (arquivamento é tratado apenas como pressuposto/efeito sobre a ação civil, não como objeto de exame sobre o próprio procedimento investigatório), por isso o tema central não é Inquérito Policial (5498), que fica como segunda opção por proximidade temática (arquivamento do IP é mencionado na alternativa C)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1710,
+  "cache_w": 51244,
+  "cache_r": 101498,
+  "custo_usd": 0.2551146
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A conduta descrita (oferecer droga eventualmente, sem fins lucrativos, a pessoa de seu relacionamento, para juntos consumirem) é a figura do uso compartilhado do art. 33, §3º da Lei 11.343/2006, hipótese especial do crime de tráfico de drogas, com pena própria (detenção, 6 meses a 1 ano, e 700 a 1.500 dias-multa, sem prejuízo das sanções do art. 28). O tema testado é a tipificação e sanção dessa figura equiparada ao tráfico, enquadrando-se integralmente no tema de nível 1 \"Tráfico de Drogas\" (4708), que expressamente cobre as figuras equiparadas da Lei de Drogas. Esse tema não possui subtemas de nível 2, por isso subtema_n2_id é null.",
+ "id": "Q0109",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE1",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata da figura do art. 33, §3º da Lei 11.343/06 (oferecer droga eventualmente, sem objetivo de lucro, a pessoa de seu relacionamento, para juntos consumirem), que é uma hipótese especial dentro do crime de tráfico de drogas. O tema central é a Lei de Drogas, especificamente a tipificação e pena dessa conduta, cabendo no tema \"Tráfico de Drogas\" dentro do grupo LE1 (Legislação Especial)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão pergunta qual a pena cabível para quem oferece droga eventualmente, sem fins lucrativos, a pessoa de seu relacionamento, para juntos consumirem - é exatamente a figura do art. 33, §3º da Lei 11.343/06 (uso compartilhado), uma hipótese especial dentro do crime de tráfico de drogas. O tema central testado é a tipificação e a sanção dessa conduta prevista na Lei de Drogas, enquadrando-se no tema de nível 1 \"Tráfico de Drogas\" (id 4708), que expressamente cobre \"figuras equiparadas\" dentro da Lei 11.343/2006. Não há nenhuma outra opção na lista que trate dessa matéria."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1594,
+  "cache_w": 43651,
+  "cache_r": 101498,
+  "custo_usd": 0.2165436
+ }
+}

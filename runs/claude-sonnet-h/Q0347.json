@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5207",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5066",
+ "extras_ids": [
+  "5069"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão multi-tema: cada alternativa versa sobre instituto diferente da Parte Geral (excludente de ilicitude, estado de necessidade, sursis, crime continuado, livramento condicional). A alternativa tecnicamente correta é a (B), que trata de causa de revogação obrigatória da suspensão condicional da pena - frustração, embora solvente, da execução de pena de multa, e não reparação do dano sem motivo justificado (art. 81, II, CP). Isso corresponde exatamente ao subtema 5207 (Suspensão Condicional da Pena), dentro do tema de nível 1 5199 (Teoria da Pena). Mantenho a segunda opção 5066 (Concurso de Crimes) como alternativa plausível pela presença da alternativa (D) sobre crime continuado e pela pista de origem, e incluo 5069 como extra por ser o subtema específico de crime continuado caso a banca considere outro gabarito. Como a alternativa correta (B) é inequívoca quanto ao instituto do sursis, a classificação em 5207 tem confiança razoavelmente alta.",
+ "id": "Q0347",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "5066",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão reúne, em alternativas distintas, institutos diversos da Parte Geral do CP: excludentes de ilicitude (estrito cumprimento de dever legal e estado de necessidade), suspensão condicional da pena (sursis), crime continuado e livramento condicional — sem um eixo temático único, caracterizando questão multi-tema. A alternativa tecnicamente correta (B) versa sobre causas de revogação obrigatória do sursis (art. 81, II, CP), o que aponta para \"Teoria da Pena\" (subtema Suspensão Condicional da Pena) como melhor classificação, mas a pista de origem (crime continuado) e a presença de alternativa sobre continuidade delitiva (D) tornam \"Concurso de Crimes\" uma opção plausível alternativa. Ambos os temas pertencem ao ramo de Direito Penal (parte geral)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2738,
+  "cache_w": 14487,
+  "cache_r": 32043,
+  "custo_usd": 0.1021156
+ }
+}

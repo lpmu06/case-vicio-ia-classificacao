@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5066",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5067",
+ "extras_ids": [
+  "5068",
+  "5070"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão combina quatro afirmações (V/F) que abordam, cada uma, um subtema diferente dentro do mesmo tema de nível 1: a primeira e segunda tratam da definição de concurso material (5067), a terceira trata do concurso formal impróprio (5068, pois a regra de soma de penas no formal impróprio é regida pelo art. 70, caput, 2ª parte, remetendo ao art. 69), e a quarta trata da regra de aplicação distinta e integral da pena de multa no concurso de crimes (5070, art. 72 CP). Como não há um único subtema que abranja todas as assertivas, a classificação correta é no tema de nível 1 \"Concurso de Crimes\" (5066), que engloba todos esses subtemas, sem apontar um subtema específico (null), tratando-se de questão multi-subtema dentro do mesmo ramo.",
+ "id": "Q0356",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5066",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.98,
+  "multi_tema": false,
+  "justificativa": "A questão trata exclusivamente das regras de concurso material, concurso formal impróprio e pena de multa no concurso de crimes, todos abrangidos pelo tema de nível 1 \"Concurso de Crimes\" (que inclui o subtema \"Pena de Multa no Concurso de Crimes\"). Não há outro ramo jurídico envolvido."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1054,
+  "cache_w": 7728,
+  "cache_r": 43624,
+  "custo_usd": 0.0551098
+ }
+}

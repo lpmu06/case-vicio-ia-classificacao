@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5530",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5538",
+ "extras_ids": [
+  "5533"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão versa sobre o procedimento especial dos crimes de responsabilidade dos funcionários públicos (arts. 513 a 518 do CPP) — notificação do acusado para resposta preliminar antes do recebimento da denúncia nos crimes afiançáveis, e consequências da falta dessa notificação (Súmula 330 STJ). Trata-se de rito especial autônomo, distinto dos quatro procedimentos comuns (ordinário, sumário, sumaríssimo, júri) previstos na árvore, e a própria descrição do subtema \"Defesa Preliminar\" (5533) do tema Procedimento Ordinário adverte expressamente para \"não confundir com Defesa Preliminar de procedimentos especiais, como... crimes funcionais, quando houver regra própria anterior ao recebimento da denúncia\" — exatamente o caso desta questão. Por isso, não atribuo o subtema 5533, mantendo subtema_n2_id = null. Como não há tema de nível 1 específico para esse procedimento especial, mantenho 5530 (Procedimento Ordinário) como opção mais próxima dentro do grupo de procedimentos, com confiança moderada, e 5538 (Procedimento Sumário) como segunda opção, já que a depender da pena o rito especial pode seguir o sumário. Incluo 5533 nos extras apenas como referência ao instituto homônimo, não como classificação correta.",
+ "id": "Q0017",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP6",
+  "segundo_grupo_id": null,
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o rito especial de processo e julgamento dos crimes de responsabilidade dos funcionários públicos (arts. 513 a 518 do CPP), especificamente sobre a notificação do acusado para resposta preliminar antes do recebimento da denúncia nos crimes afiançáveis. Trata-se de matéria de procedimento (rito processual especial), encaixando-se no grupo de Procedimentos (PP6), que é o que melhor abrange os temas relativos a ritos processuais penais, não havendo subtema específico exato para esse rito especial na árvore fornecida."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5530",
+  "segunda_opcao_n1_id": "5538",
+  "confianca_ramo": 0.7,
+  "multi_tema": false,
+  "justificativa": "A questão trata da \"defesa preliminar\" do art. 514 do CPP, instituto típico do rito especial dos crimes de responsabilidade dos funcionários públicos (notificação do acusado para responder por escrito antes do recebimento da denúncia, nos crimes afiançáveis). Dentro da árvore fornecida, o tema de nível 1 \"Procedimento Ordinário\" (5530) é o único que contém um subtema nominalmente correspondente a esse instituto (\"Defesa Preliminar\"), termo tecnicamente associado a esse rito específico dos funcionários públicos e distinto da \"resposta à acusação\" do rito comum (art. 396 CPP). Por isso, escolho 5530 com o subtema Defesa Preliminar como classificação mais provável, já que estudar esse tema de nível 1 dá acesso ao subtema correspondente. Como segunda opção, mantenho \"Procedimento Sumário\" (5538), pois o rito especial dos funcionários públicos, a depender da pena máxima do crime, pode seguir o procedimento sumário em vez do ordinário, e não há subtema de \"defesa preliminar\" sob ele. A confiança não é maior porque o rito dos arts. 513-518 do CPP é um procedimento especial autônomo, não exatamente um dos quatro procedimentos listados no grupo (ordinário, sumário, sumaríssimo, júri), e a árvore não oferece um tema específico para \"Crimes de Responsabilidade dos Funcionários Públicos\"."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3713,
+  "cache_w": 48231,
+  "cache_r": 101498,
+  "custo_usd": 0.2595996
+ }
+}

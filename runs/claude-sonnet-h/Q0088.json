@@ -1,0 +1,30 @@
+{
+ "tema_n1_id": "4389",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4381",
+ "extras_ids": [],
+ "multi_tema": false,
+ "fora": false,
+ "justificativa": "A assertiva contrapõe o conceito de criminologia (estudo do crime, criminoso e fatores da criminalidade) ao conceito de vitimologia (estudo da vítima e suas peculiaridades, com discussão sobre sua autonomia científica). O núcleo testado é o conceito/objeto e a autonomia da vitimologia, o que mantém o tema de nível 1 em \"Vitimologia\" (4389), conforme a classificação anterior. Nenhum subtema de nível 2 listado sob 4389 corresponde exatamente a \"conceito e autonomia da vitimologia\" (o único subtema, 4390, trata do processo de vitimização, matéria distinta), por isso não há subtema certo a indicar — subtema_n2_id = null. Como segunda opção, mantenho um tema próximo de Teoria Geral da Criminologia, mais especificamente seu subtema \"Conceito e objeto da Criminologia\" (4381), já que a questão também define o conceito/objeto da criminologia propriamente dita.",
+ "id": "Q0088",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4389",
+  "segunda_opcao_n1_id": "4380",
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão define criminologia e contrapõe à vitimologia, tratando especificamente do objeto de estudo da vitimologia e de sua autonomia científica. O conteúdo central testado é o conceito e a natureza da vitimologia, tema de nível 1 \"Vitimologia\" (4389). Poderia também se encaixar em Teoria Geral da Criminologia (4380), já que menciona o conceito da própria criminologia, mas o foco maior da assertiva está na vitimologia."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1111,
+  "cache_w": 29660,
+  "cache_r": 78694,
+  "custo_usd": 0.1501788
+ }
+}

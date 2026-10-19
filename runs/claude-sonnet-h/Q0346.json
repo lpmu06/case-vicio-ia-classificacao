@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5583",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as cinco proposições giram em torno do instituto do assistente da acusação como sujeito processual: momento/forma de habilitação (I), legitimidade para requerer prisão preventiva (II), legitimidade para desaforamento no júri (III), legitimidade de entidades do CDC para atuar como assistentes (IV) e momento de intervenção na persecução penal (V). O eixo comum é \"quem é o assistente, quais seus poderes e limites de atuação\", o que se encaixa precisamente no tema Sujeitos do Processo (5583), cujo resumo cita expressamente o assistente de acusação, abrangendo habilitação, prerrogativas e atuação no processo (incluindo no júri). Não é uma questão sobre condições, espécies ou titularidade da ação penal em si (5466), ainda que o assistente atue dentro da ação pública - por isso mantenho 5466 apenas como segunda opção razoável. Como 5583 não possui subtemas de nível 2, subtema_n2_id permanece null.",
+ "id": "Q0346",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5583",
+  "segunda_opcao_n1_id": "5466",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata integralmente do instituto do assistente da acusação (legitimidade, momento de intervenção, recursos, atuação no júri, assistentes do CDC), que é um sujeito processual. O tema \"Sujeitos do Processo\" (5583) menciona expressamente \"assistente de acusação\" em seu resumo, sendo o encaixe mais preciso. \"Ação Penal\" (5466) seria uma segunda opção razoável, pois o assistente atua dentro da ação penal pública, mas o foco é no sujeito processual em si, não nas condições/espécies da ação penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1477,
+  "cache_w": 11604,
+  "cache_r": 43624,
+  "custo_usd": 0.0780998
+ }
+}

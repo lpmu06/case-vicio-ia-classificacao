@@ -1,0 +1,36 @@
+{
+ "concentracao": 0.8,
+ "anotadores": {
+  "claude-opus": {
+   "p_acerto_ramo": 0.956,
+   "n": 359
+  },
+  "claude-sonnet-h": {
+   "p_acerto_ramo": 0.9254,
+   "n": 359
+  },
+  "claude-sonnet-3n": {
+   "p_acerto_ramo": 0.8845,
+   "n": 158
+  },
+  "claude-sonnet-plano": {
+   "p_acerto_ramo": 0.995,
+   "n": 11
+  },
+  "gpt-5.5": {
+   "p_acerto_ramo": 0.983,
+   "n": 63
+  },
+  "origem": {
+   "p_acerto_ramo": 0.3056,
+   "n": 225
+  }
+ },
+ "faixas_posterior": {
+  "≥0.99": 314,
+  "0.95–0.99": 12,
+  "0.80–0.95": 8,
+  "<0.80": 25
+ },
+ "acerto_esperado_ramo_map_todas": 0.9706
+}

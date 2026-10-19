@@ -1,0 +1,44 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.7,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5079",
+ "extras_ids": [
+  "5089",
+  "5093",
+  "5101",
+  "5084",
+  "5147"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão multi-tema: cada alternativa versa sobre um instituto distinto. (A) peculato e reparação do dano (art. 312, §3º c/c §2º CP - trata-se de redução de pena, não extinção da punibilidade, mas o instituto testado é peculato) - subtema 5089, tema 5087; (B) corrupção ativa (art. 333 CP) - correta - subtema 5093, tema 5087; (C) favorecimento pessoal/real com isenção de pena para ascendente/descendente - subtema 5084, tema 5079 (Administração Judicial); (D) tráfico de influência envolvendo pretexto de influir em ato de membro do MP (art. 332 CP) - subtema 5101, tema 5087; (E) crimes contra finanças públicas (Lei de Responsabilidade Fiscal/CP) - tema 5147. Das cinco alternativas, três (A, B, D) pertencem ao tema 5087 (Crimes Contra a Administração Pública), confirmando a escolha de nível 1 do estágio anterior. Como há três subtemas distintos envolvidos dentro do próprio tema 5087 (peculato, corrupção ativa e tráfico de influência), não há um subtema único que represente a questão como um todo, por isso subtema_n2_id = null. Mantida 5079 como segunda opção plausível, já que cobre uma das alternativas (C) com instituto relevante (favorecimento pessoal/real).",
+ "id": "Q0073",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": true,
+  "justificativa": "A questão trata de diversos institutos dos crimes contra a Administração Pública: peculato, corrupção ativa, favorecimento pessoal/real, tráfico de influência e crimes contra as finanças públicas - todos abrangidos pelo grupo P8 (Parte especial: administração pública, administração da justiça, finanças e Estado), que reúne exatamente esses temas. Não há eixo único entre as alternativas (cada uma testa um crime distinto), mas todas se encaixam dentro do mesmo grupo de nível 1."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5079",
+  "confianca_ramo": 0.6,
+  "multi_tema": true,
+  "justificativa": "Questão multi-tema: cada alternativa versa sobre um crime distinto contra a Administração Pública. (A) peculato, (B) corrupção ativa e (D) tráfico de influência pertencem ao tema \"Dos Crimes Contra a Administração Pública\" (5087), que abrange 3 das 5 alternativas; (C) favorecimento pessoal/real pertence a \"Dos Crimes Contra a Administração Judicial\" (5079); (E) crimes contra as finanças públicas pertence a 5147. Como 5087 cobre a maior parte das alternativas, é o tema de nível 1 mais adequado, com 5079 como segunda opção plausível. Confiança reduzida por não haver eixo único entre as alternativas."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3546,
+  "cache_w": 54773,
+  "cache_r": 101498,
+  "custo_usd": 0.28849060000000004
+ }
+}

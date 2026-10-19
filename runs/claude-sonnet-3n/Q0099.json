@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5100",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5077",
+ "extras_ids": [
+  "5098"
+ ],
+ "multi_tema": false,
+ "justificativa": "Mantida e refinada a classificação anterior. O eixo decisório de todas as alternativas é a correta tipificação da conduta de Filomena como resistência (art. 329, CP) — distinguindo-se consumação de tentativa e a eventual qualificadora do §1º (emprego de arma ou concurso de mais de uma pessoa, inexistente no caso, pois apenas Filomena agiu sozinha e sem arma, contra dois fiscais) — e o reconhecimento de que a reação dos fiscais, com força nos limites necessários, está amparada pelo estrito cumprimento do dever legal/legítima defesa, excludente de ilicitude que afasta qualquer crime da parte deles. A resistência é crime formal e se consuma com o emprego de violência para se opor ao ato legal, independentemente de a mercadoria ter sido apreendida ao final, de modo que a alternativa correta trata de resistência consumada (não tentada, não qualificada) em concurso com lesões corporais leves praticadas por Filomena contra os agentes, sem crime para os fiscais. Esse é exatamente o núcleo do subtema 5100 (Resistência, Desobediência e Desacato), que trata da oposição mediante violência a ato legal de funcionário público e sua relação com excludentes de ilicitude na reação estatal proporcional. A lesão corporal leve sofrida pelos fiscais aparece como crime acessório em concurso, não como o cerne do raciocínio, pelo que mantenho Lesões Corporais (5077) apenas como segunda opção, e acrescento Violência Arbitrária (5098) como extra pela proximidade temática de \"não confundir\" entre os dois institutos (oposição do particular vs. violência do agente público).",
+ "id": "Q0099",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P8",
+  "segundo_grupo_id": "P4",
+  "confianca": 0.75,
+  "multi_tema": true,
+  "justificativa": "O eixo central da questão é o crime de resistência (art. 329 CP), suas modalidades (simples/qualificada/tentada) e a excludente de ilicitude (estrito cumprimento do dever legal) na conduta dos fiscais, que é tema de Crimes Contra a Administração Pública (grupo P8). Há também elemento de lesão corporal leve cumulada, o que torna a questão parcialmente multi-tema, mas o núcleo da resposta correta gira em torno da classificação da resistência e da ausência de crime pelos agentes públicos, não da lesão em si."
+ },
+ "estagioB": {
+  "confianca_ramo": 0.9,
+  "fora": false,
+  "justificativa": "A questão exige identificar a modalidade do crime de resistência (art. 329, CP) praticado por Filomena contra os fiscais no exercício de ato legal, e reconhecer que a conduta dos agentes públicos (uso de força nos limites necessários) está amparada pelo estrito cumprimento do dever legal, excludente de ilicitude. O eixo da resposta correta está na classificação da resistência (simples, qualificada ou tentada) e na ausência de crime pelos fiscais — tema específico de \"Resistência, Desobediência e Desacato\", subtema de Dos Crimes Contra a Administração Pública (id 5087, grupo P8). A lesão corporal leve aparece de forma acessória, como resultado da contenção, e não é o cerne do raciocínio jurídico exigido pela maioria das alternativas, que gira em torno da correta tipificação/consumação da resistência e da excludente. Mantenho a escolha anterior do grupo P8, com Lesões Corporais (grupo P4) como segunda opção por conta do elemento acessório de lesão leve presente na narrativa.",
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "5077",
+  "multi_tema": true
+ },
+ "uso": {
+  "in": 6,
+  "out": 3277,
+  "cache_w": 52268,
+  "cache_r": 101498,
+  "custo_usd": 0.27454259999999997
+ }
+}

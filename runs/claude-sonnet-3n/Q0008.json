@@ -1,0 +1,38 @@
+{
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão trata do art. 33, §4º, do CP, que condiciona a progressão de regime do condenado por crime contra a administração pública à reparação do dano ou devolução do produto do ilícito. Progressão de regime é matéria típica do subtema \"Penas Privativas de Liberdade\" (5201), cuja descrição e palavras-chave citam expressamente \"progressão de regime\" e \"regime de cumprimento\". Mantém-se o tema de nível 1 \"Teoria da Pena\" (5199), pois se trata de regra sobre execução/cumprimento da pena privativa de liberdade prevista no próprio CP, e não de causa extintiva da punibilidade (5191) nem de matéria processual. Como segunda opção, mantém-se 5191 (Punibilidade), por também versar sobre efeitos relacionados à reparação do dano, embora o foco central seja o regime de cumprimento da pena.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5191",
+ "subtema_n2_id": "5201",
+ "tema_n1_id": "5199",
+ "id": "Q0008",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata do art. 33, §4º do Código Penal, que condiciona a progressão de regime do condenado por crime contra a administração pública à reparação do dano ou devolução do produto do ilícito. Trata-se de regra sobre execução/cumprimento da pena prevista na Parte Geral do CP (Teoria da Pena), não da Lei de Execução Penal especificamente, e também não é questão processual de competência ou procedimento."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "5191",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o art. 33, §4º, do CP, que condiciona a progressão de regime do condenado por crime contra a administração pública à reparação do dano/devolução do produto do ilícito. Trata-se de regra sobre cumprimento da pena privativa de liberdade (execução/progressão de regime), matéria da Parte Geral do CP, enquadrando-se no tema guarda-chuva \"Teoria da Pena\" (subtema Penas Privativas de Liberdade). Não é questão de Processo Penal (não trata de competência, procedimento ou prisão cautelar) nem de LEP especificamente, pois a regra está prevista no próprio Código Penal. Como segunda opção, \"Punibilidade\" é plausível por também tratar de efeitos relacionados ao cumprimento da sanção, mas o foco central é a execução da pena privativa de liberdade."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1691,
+  "cache_w": 51157,
+  "cache_r": 101498,
+  "custo_usd": 0.2544246
+ }
+}

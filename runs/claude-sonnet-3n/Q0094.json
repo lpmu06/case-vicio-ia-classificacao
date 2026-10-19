@@ -1,0 +1,41 @@
+{
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.62,
+ "extras_ids": [
+  "4377",
+  "4378"
+ ],
+ "fora": false,
+ "justificativa": "A resposta correta da questão (alternativa E) nomeia expressamente as teorias: \"Labelling approach ou etiquetamento social e Criminologia crítica\". Isso é a identificação de teorias criminológicas nominadas, com autores e conceitos próprios (Becker, Lemert para o labelling approach; Quinney, Chambliss, Taylor/Walton/Young para a criminologia crítica), o que se encaixa no critério central de 4385 (Teorias Sociológicas Explicativas da Criminalidade) e, dentro dele, no subtema 4388 (Teorias Criminológicas em Espécie), cuja descrição expressamente inclui \"labeling approach\" e \"criminologia crítica\" como exemplos de teorias nominadas cobradas. Embora o enunciado fale em estigmatização pela vestimenta de presidiário — o que tangencia o processo de criminalização secundária (4377/4378) —, a própria alternativa correta aponta para as teorias (etiquetamento e criminologia crítica) como o tema cobrado, não para a classificação do processo de criminalização em si. Por isso, troco a escolha anterior: o tema de nível 1 correto é 4385, com subtema 4388. A confiança no subtema é moderada, pois a questão combina duas teorias (labelling e crítica) e o enunciado, centrado na reação social/estigma, também poderia levar a banca a classificá-la em 4387 (nível sociológico) ou mesmo em 4377/4378, daí mantenho esses como extras.",
+ "multi_tema": false,
+ "segunda_opcao_id": "4377",
+ "subtema_n2_id": "4388",
+ "tema_n1_id": "4385",
+ "id": "Q0094",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": null,
+  "confianca": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata do labelling approach (etiquetamento social) e da Criminologia crítica, associando a estigmatização do réu ao uso de roupas de presídio. Esse tema está ligado às teorias sociológicas da criminalidade e, especialmente, aos processos de criminalização (rotulação social como mecanismo de seletividade penal), que integram o grupo C2 (Teorias da criminalidade, teorias da pena, política criminal e processos de criminalização)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4377",
+  "segunda_opcao_n1_id": "4385",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão pede o tema criminológico associado ao uso de roupas de presídio pelo acusado no Tribunal do Júri, cuja resposta correta é \"Labelling approach ou etiquetamento social e Criminologia crítica\" (alternativa E). O labelling approach trata precisamente de como o sistema penal e a sociedade atribuem o rótulo de \"criminoso\" a determinados indivíduos (estigmatização pela vestimenta de presidiário reforça esse etiquetamento), o que é o núcleo do estudo da criminalização secundária — processo pelo qual o sistema de justiça (polícia, MP, Judiciário) seleciona e rotula concretamente um indivíduo como criminoso, em contraste com a criminalização primária (mera definição legal abstrata da conduta como crime). Por isso, o tema 4377 (Processos de Criminalização e Cifras Criminais), com o subtema \"Criminalização Primária e Secundária\", é o que mais precisamente abrange o instituto testado. Como segunda opção, o tema 4385 (Teorias Sociológicas Explicativas da Criminalidade) também é defensável, pois o labelling approach / interacionismo simbólico é tradicionalmente enquadrado como uma das \"teorias criminológicas em espécie\" de nível sociológico, e bancas frequentemente classificam essa questão ali. A confiança é moderada porque a questão pode ser enquadrada em qualquer um dos dois temas, dependendo do critério de organização da banca/plataforma."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2781,
+  "cache_w": 47694,
+  "cache_r": 101498,
+  "custo_usd": 0.2468516
+ }
+}

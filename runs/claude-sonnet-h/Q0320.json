@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5550",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5559",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede a classificação doutrinária das espécies de testemunhas (testemunha fedatária, de ouvir dizer, numerária/referida), tema clássico de Prova Testemunhal (5550), subtema de Provas em Espécies (5543) em Processo Penal. Embora a alternativa D mencione infiltração de agentes (5559), ela é apenas um distrator incorreto sobre o conceito de testemunha fedatária, não o eixo da questão.",
+ "id": "Q0320",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.82,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre classificação doutrinária das testemunhas no processo penal (testemunha fedatária, de ouvir dizer, numerária etc.), matéria de prova testemunhal, subtema de Provas em Espécies, dentro de Processo Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 780,
+  "cache_w": 33145,
+  "cache_r": 79634,
+  "custo_usd": 0.16482180000000002
+ }
+}

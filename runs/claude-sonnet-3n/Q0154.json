@@ -1,0 +1,38 @@
+{
+ "fora": true,
+ "tema_n1_id": null,
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.15,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata da Lei 9.029/95 (discriminação relativa à gravidez/esterilização no trabalho), que tipifica crime específico (exigência de teste de gravidez/esterilização - art. 2º). Nenhum dos temas de LE2 cobre essa lei: não é Maria da Penha, não é violência contra criança/adolescente, não é Estatuto do Idoso, não é racismo (Lei 7.716), não é genocídio, não é abuso de autoridade. Apesar de tangencialmente relacionado a \"discriminação\", o tema LE2 descreve expressamente seu escopo (Maria da Penha, ECA, idoso, racismo, genocídio, abuso de autoridade) sem mencionar discriminação trabalhista por gravidez. Como nenhum tema da árvore cobre especificamente essa lei, marco como fora, mantendo baixa confiança de que o professor concorde em enquadrá-la em algum ramo.",
+ "id": "Q0154",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE2",
+  "segundo_grupo_id": null,
+  "confianca": 0.45,
+  "multi_tema": false,
+  "justificativa": "A questão trata de crime previsto na Lei 9.029/95, que trata de discriminação (inclusive de gravidez) no trabalho. Não há tema específico sobre essa lei na árvore; o mais próximo, por tratar de discriminação de grupo vulnerável, é LE2 (Violência, discriminação e grupos vulneráveis), embora nenhum tema listado mencione explicitamente essa lei - confiança moderada."
+ },
+ "estagioB": {
+  "fora": true,
+  "tema_n1_id": null,
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.15,
+  "multi_tema": false,
+  "justificativa": "A questão trata da Lei 9.029/95 (discriminação relativa à gravidez/esterilização no trabalho), que tipifica crime específico (exigência de teste de gravidez/esterilização - art. 2º). Nenhum dos temas de LE2 cobre essa lei: não é Maria da Penha, não é violência contra criança/adolescente, não é Estatuto do Idoso, não é racismo (Lei 7.716), não é genocídio, não é abuso de autoridade. Apesar de tangencialmente relacionado a \"discriminação\", o tema LE2 descreve expressamente seu escopo (Maria da Penha, ECA, idoso, racismo, genocídio, abuso de autoridade) sem mencionar discriminação trabalhista por gravidez. Como nenhum tema da árvore cobre especificamente essa lei, marco como fora, mantendo baixa confiança de que o professor concorde em enquadrá-la em algum ramo."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1399,
+  "cache_w": 5404,
+  "cache_r": 10097,
+  "custo_usd": 0.04069540000000001
+ }
+}

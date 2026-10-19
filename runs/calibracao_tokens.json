@@ -1,0 +1,18 @@
+{
+ "sonnet": {
+  "overhead": 16188,
+  "estagio1_tokens": 1938,
+  "estagio1_chars": 31629,
+  "flat_tokens": 211075,
+  "flat_chars": 498119,
+  "chars_por_token": 2.487
+ },
+ "haiku": {
+  "overhead": 12341,
+  "estagio1_tokens": 10393,
+  "estagio1_chars": 31629,
+  "flat_tokens": 168111,
+  "flat_chars": 498119,
+  "chars_por_token": 2.968
+ }
+}

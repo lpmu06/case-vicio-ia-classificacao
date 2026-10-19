@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": "5520",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "5584",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige exatamente o conhecimento do prazo da prisão temporária (Lei 7.960/89) para um crime específico (epidemia com resultado morte, art. 267, §1º, CP), que não consta do rol taxativo do art. 1º, III, da lei nem é equiparado a hediondo, de modo que se aplica o prazo geral de 5 dias prorrogáveis por mais 5. Trata-se do instituto \"Prisão Temporária\" em sua faceta de requisitos/prazos concretos (subtema 5520), e não de fundamentos gerais de prisão (5584), nem de prisão preventiva ou outras espécies.",
+ "id": "Q0157",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP5",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão testa o prazo da prisão temporária (Lei 7.960/89), já que o crime de epidemia com resultado morte não está no rol de crimes hediondos/equiparados que justificaria o prazo de 30+30 dias, aplicando-se a regra geral de 5+5 dias. Trata-se de instituto de Processo Penal, especificamente prisões cautelares, correspondente ao grupo PP5 (Prisões e medidas cautelares - Teoria Geral das Prisões / Prisões em Espécie)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5517",
+  "segunda_opcao_n1_id": "5584",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa especificamente sobre o prazo da prisão temporária (Lei 7.960/89) aplicável ao crime de epidemia com resultado morte, que não consta do rol taxativo do art. 1º, III, da referida lei nem é equiparado a hediondo, aplicando-se o prazo geral de 5+5 dias. O instituto testado é exatamente \"Prisão Temporária\", subtema do grupo PP5 (5517 - Prisões em Espécie), que trata das modalidades concretas de prisão cautelar, incluindo expressamente esse subtema. A Teoria Geral das Prisões (5584) trataria de fundamentos gerais (legalidade, audiência de custódia, direitos do preso), não do prazo específico de uma modalidade, por isso fica como segunda opção."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1888,
+  "cache_w": 15700,
+  "cache_r": 14150,
+  "custo_usd": 0.095171
+ }
+}

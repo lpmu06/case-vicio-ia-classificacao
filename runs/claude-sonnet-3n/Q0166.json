@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5208",
+ "confianca_ramo": 0.65,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "4703",
+ "extras_ids": [
+  "5201"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão apresenta um caso concreto (reeducando reincidente em latrocínio, já cumprido mais de 2/3 da pena, com mais de 70 anos e senilidade leve) e pede qual medida cabe ao Juízo da Execução, comparando cinco institutos distintos: livramento condicional, progressão de regime, comutação/indulto por decreto presidencial e prisão domiciliar. O dado decisivo do enunciado (fração de 2/3 cumprida por reincidente em crime hediondo, somada à idade avançada) é exatamente o requisito legal do livramento condicional (art. 83, V, c/c parágrafo único, do CP), que é a resposta mais provável (alternativa A) e tem subtema próprio e específico dentro de Teoria da Pena (5208), cujos próprios dispositivos remetem aos arts. 131-146 da LEP. Por isso, reconsiderando frente ao estágio anterior, entendo que o eixo central é o instituto de direito material \"livramento condicional\" (5208), e não a disciplina de execução penal em geral (4703), mantida como segunda opção pois dois distratores (indulto/comutação por decreto) são tipicamente de LEP/Legislação Especial. Como a questão é claramente multi-tema (cada alternativa remete a um instituto diferente), a confiança no subtema não é máxima, mas a resposta-alvo aponta para livramento condicional.",
+ "id": "Q0166",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.65,
+  "multi_tema": true,
+  "justificativa": "A questão exige analisar, em conjunto, os requisitos de diversos benefícios executórios (livramento condicional, progressão de regime, indulto/comutação por decreto, prisão domiciliar) para um condenado por latrocínio reincidente em regime aberto, tudo decidido pelo Juízo da Execução Criminal. O eixo central é a execução penal (LEP e decretos de indulto/comutação), não a teoria da pena do Código Penal isoladamente, por isso prevalece Legislação Especial > Lei de Execução Penal, com Teoria da Pena (Penal) como segunda opção por conter livramento condicional."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": "5199",
+  "confianca_ramo": 0.6,
+  "multi_tema": true,
+  "justificativa": "A questão exige comparar, simultaneamente, requisitos de livramento condicional, progressão de regime, indulto/comutação por decreto (arts. 187-193 da LEP) e prisão domiciliar para um caso concreto de execução penal, tudo decidido pelo Juízo da Execução. O eixo que amarra as alternativas é a disciplina da execução da pena (LEP), inclusive porque dois dos cinco distratores (indulto e comutação por decreto) são típicos de Legislação Especial > LEP, não de Teoria da Pena do CP. Por isso mantenho Lei de Execução Penal (4703) como tema principal, com Teoria da Pena (5199) como segunda opção, já que o livramento condicional - alternativa correta mais provável dada a idade/saúde do condenado - é subtema dela."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3570,
+  "cache_w": 16989,
+  "cache_r": 14150,
+  "custo_usd": 0.118365
+ }
+}

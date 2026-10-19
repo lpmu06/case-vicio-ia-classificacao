@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": "5076",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5157",
+ "extras_ids": [
+  "5159"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão narra Tício (funcionário público) e Mévio (particular, mas ciente da condição funcional de Tício) subtraindo computador da repartição sob a guarda de Tício. O núcleo da pergunta é exatamente a regra do art. 30 do CP: a condição de funcionário público é elementar do peculato (crime próprio) e se comunica ao coautor/partícipe que não a possui, desde que tenha conhecimento dela — por isso ambos respondem por peculato (gabarito A). Isso é precisamente o conteúdo do subtema 5076 (Comunicabilidade de Circunstâncias, Condições e Elementares), dentro do tema de nível 1 Concurso de Pessoas (5071), confirmando a classificação do estágio anterior. O cenário de subtração de bem público é apenas pano de fundo; não há questionamento sobre tipicidade específica do peculato em si (que remeteria a Crimes Contra a Administração Pública) nem comparação entre crimes patrimoniais (5157), que fica como segunda opção por conexão temática com furto/peculato, mas não é o que a questão efetivamente testa.",
+ "id": "Q0194",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5071",
+  "segunda_opcao_n1_id": "5157",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão exige saber se a condição de funcionário público (elementar do peculato) se comunica ao coautor/partícipe que não a possui, desde que tenha ciência dela — tema de Comunicabilidade de Circunstâncias, Condições e Elementares, subtema de Concurso de Pessoas (nível 1, id 5071). O contexto de subtração de bem público (peculato/furto) é apenas o cenário narrativo; o que efetivamente se testa é a regra do art. 30 do CP sobre comunicabilidade de elementares entre coautores. Segunda opção plausível seria Crimes Contra o Patrimônio/Administração Pública, mas o cerne da pergunta é a extensão da elementar funcional ao partícipe."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1400,
+  "cache_w": 39670,
+  "cache_r": 78694,
+  "custo_usd": 0.19964679999999999
+ }
+}

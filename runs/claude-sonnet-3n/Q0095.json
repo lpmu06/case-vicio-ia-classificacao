@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5066",
+ "subtema_n2_id": "5068",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5218",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema de nível 1 \"Concurso de Crimes\" (5066). A questão compara dois cenários de conduta culposa única: no primeiro, a ligação elétrica malfeita por Júpiter (uma só conduta omissiva/comissiva culposa) produz dois resultados lesivos distintos — a própria lesão grave e a lesão corporal leve em Jano —, configurando exatamente a hipótese do art. 70, caput, 1ª parte, do CP (concurso formal, aqui próprio, já que não há desígnios autônomos em crime culposo). No segundo, a conduta culposa de Saturno produz um único resultado (morte do filho), de modo que não há pluralidade de crimes nem concurso formal, apenas um homicídio culposo simples. Assim, a resposta correta é a alternativa (E): \"aplica-se ao primeiro caso, mas não ao segundo\", pois é justamente a distinção entre pluralidade de resultados (dois crimes) e resultado único (um crime) decorrentes de uma só ação que define a incidência do instituto do concurso formal. Por tratar precisamente da configuração do concurso formal (uma conduta, dois ou mais crimes), o subtema de nível 2 \"Concurso Formal\" (5068) se aplica com boa confiança. Mantenho \"Teoria do Crime: Fato Típico\" (5218) como segunda opção, pois a questão também exige dominar os conceitos de conduta culposa, nexo causal e resultado para identificar a pluralidade (ou não) de eventos, mas o ponto central e decisivo é a regra de dosimetria do concurso formal, não a tipicidade isolada.",
+ "id": "Q0095",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.82,
+  "multi_tema": false,
+  "justificativa": "A questão apresenta dois cenários de conduta culposa única que produz mais de um resultado lesivo (lesões em Júpiter e Jano; morte de Nemestrino), testando a aplicabilidade do concurso formal (art. 70, CP) a crimes culposos com resultados plúrimos. O instituto central é concurso de crimes, tema de nível 1 do grupo P2 (Parte geral: teoria do crime e concursos)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5066",
+  "segunda_opcao_n1_id": "5218",
+  "confianca_ramo": 0.8,
+  "multi_tema": false,
+  "justificativa": "A questão testa a aplicabilidade do concurso formal (art. 70, CP) a condutas culposas que produzem resultados plúrimos: no primeiro cenário, a conduta única e culposa de Júpiter atinge dois bens jurídicos (sua própria integridade e a de Jano), configurando concurso formal; no segundo, a conduta de Saturno produz um único resultado (morte do filho), não havendo pluralidade de eventos que justifique o concurso. O eixo da questão é, portanto, a teoria do concurso de crimes (concurso formal em crimes culposos com resultados múltiplos), tema de nível 1 \"Concurso de Crimes\" (5066), que contém exatamente o subtema Concurso Formal. Como segunda opção, considero \"Teoria do Crime: Fato Típico\" (5218), já que a questão também mobiliza noções de conduta culposa e nexo causal/resultado, mas o ponto central testado é mesmo a regra de dosimetria do concurso, não a tipicidade em si."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3954,
+  "cache_w": 51295,
+  "cache_r": 101498,
+  "custo_usd": 0.2758826
+ }
+}

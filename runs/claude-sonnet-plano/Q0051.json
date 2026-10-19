@@ -1,0 +1,22 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": "5182",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5180",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa diretamente os princípios de extraterritorialidade da lei penal (territorialidade mitigada, nacionalidade ativa, representação, justiça universal, defesa/proteção) e a distinção entre extraterritorialidade condicionada e incondicionada, matéria central do subtema Lei Penal no Espaço.",
+ "id": "Q0051",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 441,
+  "cache_w": 2861,
+  "cache_r": 225637,
+  "custo_usd": 0.06263740000000001
+ }
+}

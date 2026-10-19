@@ -1,0 +1,29 @@
+{
+ "fora": false,
+ "tema_n1_id": "4702",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0.8,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [
+  "5480"
+ ],
+ "multi_tema": false,
+ "justificativa": "O núcleo do item é saber se a ocultação e a dissimulação da origem de valores obtidos com corrupção passiva configuram lavagem de capitais (Lei 9.613/98, art. 1º) e se o irmão que recebe e usa os bens também responde. Há um reflexo secundário de competência: o crime antecedente foi praticado contra órgão federal, o que leva à Justiça Federal (art. 2º, III, 'b'). O candidato Concurso de Crimes foi descartado porque o item não cobra a relação entre corrupção e lavagem nem o cálculo da pena.",
+ "id": "Q0011",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "5066",
+  "4702"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 680,
+  "cache_w": 6380,
+  "cache_r": 16390,
+  "custo_usd": 0.072065
+ }
+}

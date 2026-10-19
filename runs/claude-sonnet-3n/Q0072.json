@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5590",
+ "subtema_n2_id": "5592",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5498",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra exatamente a regra do art. 155, caput, do CPP: o juiz forma sua convicção com base na prova produzida em contraditório judicial, não podendo fundamentar a decisão exclusivamente em elementos informativos do inquérito policial (ressalvadas as provas cautelares, não repetíveis e antecipadas). Isso é tema central de como o juiz aprecia/valora o material probatório para decidir, o que se encaixa no subtema \"Sistemas de Avaliação da Prova\" (5592), cujas palavras-chave expressamente mencionam \"elementos informativos do inquérito\" em contraposição à prova judicializada. Não se trata do procedimento do inquérito em si (5498), pois a pergunta não verifica diligências, instauração ou arquivamento, mas sim o valor que o juiz pode atribuir a esses elementos no momento de decidir. Mantenho a segunda opção 5498 apenas por cautela, já que o contexto narrativo menciona investigação policial, mas o núcleo da pergunta é de valoração da prova em juízo.",
+ "id": "Q0072",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": "PP2",
+  "confianca": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão testa o valor probatório dos elementos colhidos na investigação policial (art. 155 do CPP) e a exigência de contraditório judicial para fundamentar a condenação — tema de Teoria Geral das Provas (PP4), e não propriamente de Inquérito Policial (PP2), embora tangencie o assunto."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5590",
+  "segunda_opcao_n1_id": "5498",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão exige conhecer a regra do art. 155 do CPP: o juiz não pode fundamentar a condenação exclusivamente em elementos do inquérito, exigindo-se prova produzida sob contraditório judicial. Isso é tema central de valoração/admissibilidade da prova, pertencente à Teoria Geral das Provas (PP4), não ao procedimento do inquérito policial em si (PP2), que trataria de sua condução, prazos e arquivamento."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1632,
+  "cache_w": 51490,
+  "cache_r": 101498,
+  "custo_usd": 0.2531306
+ }
+}

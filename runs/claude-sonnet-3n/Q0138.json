@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5205",
+ "extras_ids": [
+  "5207"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão mistura, nas alternativas, penas restritivas de direitos (substituição a reincidente - art. 44, §3º; conversão por nova condenação - art. 44, §5º; prestação de serviços - art. 46) com suspensão condicional da pena (art. 77 e seguintes). São dois institutos distintos (subtemas 5205 e 5207), ambos contidos no tema guarda-chuva 5199 \"Teoria da Pena\". Como não há um eixo único que corresponda a um único subtema, mantenho a classificação no nível 1 (5199), sem subtema específico, caracterizando multi-tema interno ao ramo. Não se trata de Prescrição (5185), pois nenhuma alternativa versa sobre extinção da punibilidade pelo decurso do tempo.",
+ "id": "Q0138",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P3",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata de substituição de pena privativa de liberdade por restritivas de direitos e suspensão condicional da pena (sursis), institutos da Teoria da Pena, dentro do grupo P3 (Parte geral: pena, medida de segurança, punibilidade, prescrição e ação penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": "5185",
+  "confianca_ramo": 0.9,
+  "multi_tema": true,
+  "justificativa": "A questão aborda simultaneamente penas restritivas de direitos (substituição, reincidência, conversão, prestação de serviços) e suspensão condicional da pena (sursis), ambos subtemas do tema guarda-chuva \"Teoria da Pena\" (5199), que expressamente lista \"Penas Restritivas de Direitos\" e \"Suspensão Condicional da Pena\" entre seus subtemas. Como as alternativas tratam de institutos diferentes dentro do mesmo eixo (consequências jurídicas do crime/execução da pena), é caso de multi-tema contido inteiramente no tema 5199, não havendo necessidade de buscar outro tema de nível 1 fora desse grupo."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1482,
+  "cache_w": 25204,
+  "cache_r": 6941,
+  "custo_usd": 0.1297202
+ }
+}

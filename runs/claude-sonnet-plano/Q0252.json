@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.62,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5191",
+ "extras_ids": [
+  "5208",
+  "5206",
+  "5193"
+ ],
+ "multi_tema": true,
+ "justificativa": "Cada alternativa testa um instituto diferente da execução/teoria da pena: graça (Punibilidade), parcelamento da multa (Pena de Multa), legitimidade e redução etária do livramento condicional (Livramento Condicional) — todos subtemas de Penal, com Teoria da Pena como tema abrangente mais comum entre eles.",
+ "id": "Q0252",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 1171,
+  "cache_w": 2436,
+  "cache_r": 214056,
+  "custo_usd": 0.0656142
+ }
+}

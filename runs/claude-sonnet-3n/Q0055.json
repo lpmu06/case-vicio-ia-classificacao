@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5550",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5509",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa integralmente sobre a técnica de inquirição de testemunhas prevista no art. 212 do CPP: ordem de perguntas, possibilidade de intervenção do juiz para coibir ilegalidades, alteração da ordem por ausência de parte e limites de atuação judicial. Esse é o núcleo da disciplina da Prova Testemunhal (subtema 5550, dentro de Provas em Espécies - 5543). A alternativa (A), sobre exigência de demonstração de prejuízo para reconhecer nulidade pela inversão da ordem, tangencia a teoria das Nulidades (5509), mas é apenas uma das cinco assertivas; o eixo central e predominante do enunciado é a disciplina da oitiva de testemunhas, não a teoria geral das nulidades. Mantém-se o subtema 5550, já que não há alternativa que desloque o foco para outro meio de prova (ofendido, acareação, reconhecimento etc.).",
+ "id": "Q0055",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP4",
+  "segundo_grupo_id": "PP7",
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a inquirição de testemunhas na forma do art. 212 do CPP (ordem de perguntas, possibilidade de o juiz intervir, alteração da ordem), matéria de prova testemunhal (prova em espécie), e não de comunicação de atos processuais (citação, intimação, notificação), que é o assunto de origem indicado (pista fraca e equivocada). O tema central pertence a PP4 (Provas em Espécie). Secundariamente, a alternativa (A) toca nulidades decorrentes da inobservância da ordem, o que aproxima também de PP7 (Nulidades), mas o eixo central da questão é a disciplina da oitiva de testemunhas em si."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5543",
+  "segunda_opcao_n1_id": "5509",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente da disciplina do art. 212 do CPP — ordem de inquirição de testemunhas, limites de atuação do juiz, intervenção para coibir ilegalidades e possibilidade de alteração da ordem. Todas as alternativas versam sobre a técnica de oitiva de testemunhas em audiência, matéria afeta a Provas em Espécie (subtema Prova Testemunhal), tema de nível 1 PP4. A alternativa (A) toca de forma lateral o regime de nulidades (exigência de demonstração de prejuízo), o que justifica indicar Nulidades (PP7) como segunda opção, mas o eixo central e predominante da questão é a prova testemunhal em si, não a teoria das nulidades."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1913,
+  "cache_w": 53104,
+  "cache_r": 101498,
+  "custo_usd": 0.2644296
+ }
+}

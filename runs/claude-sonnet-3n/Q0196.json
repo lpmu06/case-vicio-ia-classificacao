@@ -1,0 +1,40 @@
+{
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.88,
+ "extras_ids": [
+  "4378"
+ ],
+ "fora": false,
+ "justificativa": "A questão exige conhecimento detalhado do Labelling Approach (Teoria do Etiquetamento Social) como teoria nominada: suas premissas (seletividade e caráter discriminatório do controle social penal, alternativa A correta), sua natureza interacionista, seu contraste com o paradigma etiológico e com propostas de recrudescimento do controle (alternativas B, C, D, E incorretas por descreverem exatamente o oposto da teoria). Por cobrar o conceito, os autores e as proposições específicas dessa teoria em espécie, o enquadramento mais preciso é o subtema \"Teorias Criminológicas em Espécie\" (4388), dentro do tema de nível 1 \"Teorias Sociológicas Explicativas da Criminalidade\" (4385), confirmando a classificação do estágio anterior. Como o enunciado também toca na seletividade do controle social formal (aproximando-se de criminalização secundária), mantenho 4378 como extra/segunda opção plausível, mas o eixo central e mais específico da questão é a teoria em si, não o processo de criminalização.",
+ "multi_tema": false,
+ "segunda_opcao_id": "4378",
+ "subtema_n2_id": "4388",
+ "tema_n1_id": "4385",
+ "id": "Q0196",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o Labelling Approach (Teoria do Etiquetamento Social), uma teoria sociológica explicativa da criminalidade que analisa o papel do controle social seletivo na criação da criminalidade, tema enquadrado em \"Teorias Sociológicas Explicativas da Criminalidade\", dentro do grupo C2."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4385",
+  "segunda_opcao_n1_id": "4377",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão cobra diretamente o conteúdo do Labelling Approach (Teoria do Etiquetamento Social), teoria sociológica interacionista que explica a criminalidade a partir da seletividade do controle social penal — matéria central de \"Teorias Sociológicas Explicativas da Criminalidade\" (subtema \"Teorias Criminológicas em Espécie\"). Como a teoria também se relaciona à criminalização secundária e à seletividade do sistema penal, \"Processos de Criminalização e Cifras Criminais\" é uma segunda opção plausível, mas o enquadramento primário e mais específico é o das teorias explicativas da criminalidade."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1871,
+  "cache_w": 44285,
+  "cache_r": 102908,
+  "custo_usd": 0.2243006
+ }
+}

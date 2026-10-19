@@ -1,0 +1,26 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.3,
+ "segunda_opcao_id": "5093",
+ "extras_ids": [
+  "5097",
+  "5096",
+  "5094"
+ ],
+ "multi_tema": true,
+ "justificativa": "Cada alternativa aborda um crime distinto contra a Administração Pública (concussão/peculato/tráfico de influência, facilitação de contrabando, advocacia administrativa, corrupção ativa, condescendência criminosa), sem eixo comum específico, de modo que o enquadramento mais preciso é o tema-pai 5087, que abrange essas figuras.",
+ "id": "Q0060",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "uso": {
+  "in": 2,
+  "out": 678,
+  "cache_w": 2371,
+  "cache_r": 214056,
+  "custo_usd": 0.0603402
+ }
+}

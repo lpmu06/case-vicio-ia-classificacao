@@ -1,0 +1,40 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "extras_ids": [
+  "5487"
+ ],
+ "fora": false,
+ "justificativa": "A questão testa exatamente a regra do art. 14-A da Lei 11.340/2006 (incluído pela Lei 13.894/2019), que atribui ao Juizado de Violência Doméstica e Familiar contra a Mulher competência para processar e julgar ação de divórcio ou dissolução de união estável de mulher vítima de violência doméstica, inclusive quanto à partilha de bens, sendo essa competência uma opção da ofendida e não exclusiva. O núcleo testado é regra específica do microssistema da Lei Maria da Penha (tema 4704), não uma regra geral de comunicação de atos processuais do CPP (citação/intimação/prazos), que é o foco do tema 5487. Por isso mantenho 4704 como tema de nível 1 e não escolho subtema (o tema não possui subtemas). 5487 fica apenas como extra/segunda opção por ser o tema sugerido pela origem, mas não é o correto.",
+ "multi_tema": false,
+ "segunda_opcao_id": "5487",
+ "subtema_n2_id": null,
+ "tema_n1_id": "4704",
+ "id": "Q0101",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE2",
+  "segundo_grupo_id": "PP3",
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a competência do Juizado de Violência Doméstica e Familiar contra a Mulher para processar ação de divórcio/dissolução de união estável, matéria tratada especificamente pela Lei Maria da Penha (Lei 11.340/2006), tema que consta em LE2 (Legislação Especial). Embora o assunto de origem indicado seja \"Comunicação dos atos processuais\", o núcleo testado é a disciplina das competências previstas na Lei Maria da Penha, não um tema geral de processo penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": "5487",
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão cobra conhecimento específico do art. 14-A da Lei Maria da Penha (incluído pela Lei 13.894/2019), que atribui ao Juizado de Violência Doméstica e Familiar contra a Mulher competência para processar e julgar ação de divórcio ou dissolução de união estável de vítima de violência doméstica, inclusive quanto à partilha de bens. O núcleo testado é essa regra específica de competência do microssistema da Lei Maria da Penha (tema 4704), e não um tema geral de competência ou de comunicação de atos processuais do CPP. Mantenho como segunda opção o tema de Competência em Processo Penal (5480/família de PP3), caso a plataforma trate a questão sob a ótica processual geral, mas a resposta exige o conhecimento específico da Lei 11.340/2006."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1598,
+  "cache_w": 48279,
+  "cache_r": 101498,
+  "custo_usd": 0.23736059999999998
+ }
+}

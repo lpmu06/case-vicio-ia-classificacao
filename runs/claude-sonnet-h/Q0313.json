@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5209",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa diretamente sobre o art. 91, I, do CP: o efeito genérico e automático da condenação de tornar certa a obrigação de reparar o dano, que independe de pronúncia expressa na sentença e forma título executivo para a ação civil ex delicto (art. 91-A/387, IV, CPP). Esse é exatamente o conteúdo descrito no subtema 5209 (Efeitos da Condenação Penais e Extrapenais), dentro do tema 5199 (Teoria da Pena). Não há menção a dosimetria, regime, substituição, sursis, livramento ou reabilitação, o que afasta os demais subtemas.",
+ "id": "Q0313",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5199",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata do efeito genérico e automático da condenação (art. 91, I, CP) de tornar certa a obrigação de reparar o dano, que forma título executivo para a ação civil ex delicto. Isso é diretamente matéria de Teoria da Pena, subtema Efeitos da Condenação Penais e Extrapenais (nível 1: Teoria da Pena, id 5199)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 964,
+  "cache_w": 31608,
+  "cache_r": 79634,
+  "custo_usd": 0.15942879999999998
+ }
+}

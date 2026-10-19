@@ -1,0 +1,33 @@
+{
+ "confianca_ramo": 0.78,
+ "confianca_subtema": 0.72,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [
+  "5467",
+  "5474"
+ ],
+ "multi_tema": true,
+ "subtema_n2_id": "5531",
+ "tema_n1_id": "5530",
+ "fora": false,
+ "justificativa": "A questão é multi-tema (cada alternativa versa sobre instituto distinto: composição civil/transação penal em conexão, suspensão do processo por citação editalícia nos Juizados, réplica em procedimentos especiais, rejeição da denúncia/queixa no rito ordinário, e notificação em crime funcional). A alternativa apontada como correta (D) reproduz literalmente o art. 395 do CPP e expressamente contextualiza \"nos processos submetidos ao rito comum ordinário\", o que corresponde com precisão ao subtema 5531 (Oferecimento, Rejeição e Recebimento da Peça Acusatória), dentro do tema de nível 1 \"Procedimento Ordinário\" (5530) — e não apenas à disciplina genérica da ação penal. Por isso, troco a classificação de nível 1 de 5466 para 5530, mantendo \"Ação Penal\" (5466) como segunda opção, já que a rejeição por falta de condição/pressuposto também é tratada ali (subtema 5467). Como extras, incluo 5467 (condições/rejeição em perspectiva geral) e 5474 (queixa-crime, pertinente à alternativa C sobre réplica). A confiança no subtema é moderada-alta porque a questão, apesar de multi-tema, tem seu gabarito ancorado precisamente no dispositivo e contexto do procedimento ordinário.",
+ "id": "Q0090",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5466",
+  "segunda_opcao_n1_id": "5530",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão reúne, em alternativas distintas, temas variados: composição civil/transação penal em conexão (A), suspensão do processo e da prescrição por citação editalícia nos Juizados (B), réplica à resposta à acusação em procedimentos especiais (C), hipóteses de rejeição da denúncia no rito ordinário - art. 395 CPP (D), e notificação do acusado em crime funcional (E). Não há um único instituto testado; o eixo comum mais amplo é a disciplina processual da ação penal (peça acusatória, seu recebimento/rejeição e trâmites), por isso classifico em \"Ação Penal\" (nível 1 de Processo Penal), com \"Procedimento Ordinário\" como segunda opção, já que a alternativa tida como correta (D) trata especificamente das causas de rejeição da denúncia do art. 395 do CPP, tema do procedimento comum ordinário."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2858,
+  "cache_w": 37498,
+  "cache_r": 78694,
+  "custo_usd": 0.2054278
+ }
+}

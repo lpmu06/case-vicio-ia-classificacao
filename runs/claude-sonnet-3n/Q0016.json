@@ -1,0 +1,43 @@
+{
+ "fora": false,
+ "tema_n1_id": "5584",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5517",
+ "extras_ids": [
+  "5586",
+  "5589",
+  "5587",
+  "5519"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão com três assertivas sem eixo único: (I) vedação de decretação/conversão de ofício do flagrante em preventiva pelo STJ, que é matéria de Prisão Preventiva (5519, dentro de Prisões em Espécie/5517); (II) inconstitucionalidade do art. 295, VII, CPP (prisão especial a diplomados), que se encaixa no subtema Imunidades Prisionais e Prisões Especiais (5586) de Teoria Geral das Prisões; e (III) interpretação conforme do art. 3º-B, §1º, CPP sobre apresentação ao juiz das garantias, relacionada a Audiência de Custódia (5589) e Direitos e Garantias sobre a Prisão (5587), também subtemas de 5584. Como duas das três assertivas (II e III) pertencem a subtemas distintos dentro de Teoria Geral das Prisões (5586 e 5589/5587), não há um único subtema que cubra a questão com certeza — por isso subtema_n2_id = null. Mantenho 5584 como tema de nível 1 principal, por ser o guarda-chuva que melhor abrange o conjunto (duas de três assertivas), com 5517 como segunda opção por cobrir a assertiva I sobre preventiva. multi_tema=true pela ausência de eixo comum entre as assertivas.",
+ "id": "Q0016",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP5",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "As três assertivas tratam de temas diretamente ligados à prisão no processo penal: decretação/conversão de prisão em flagrante em preventiva de ofício pelo juiz, prisão especial (Art. 295, VII, CPP) e apresentação do preso ao juiz das garantias (Art. 3º-B, §1º, CPP). Todos esses institutos são tratados no tema de Prisões em Espécie/Teoria Geral das Prisões, dentro do grupo PP5, de Processo Penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5584",
+  "segunda_opcao_n1_id": "5517",
+  "confianca_ramo": 0.62,
+  "multi_tema": true,
+  "justificativa": "A questão combina três institutos distintos dentro do grupo PP5 (Processo Penal - Prisões): (I) decretação/conversão de ofício de prisão em flagrante para preventiva, tema específico de Prisão Preventiva (5517); (II) prisão especial do Art. 295, VII, CPP, que se encaixa no subtema \"Imunidades Prisionais e Prisões Especiais\" de Teoria Geral das Prisões (5584); e (III) apresentação do preso ao juiz das garantias (Art. 3º-B, §1º, CPP), relacionado a direitos/garantias sobre a prisão e à audiência de custódia, também subtemas de 5584. Como duas das três assertivas (II e III) pertencem claramente a Teoria Geral das Prisões e essa questão tem caráter de múltiplos institutos sobre prisão, optei por 5584 como tema principal (mais abrangente para os direitos e garantias prisionais) e 5517 como segunda opção, pois cobre a assertiva I sobre prisão preventiva de ofício. Marquei multi_tema=true por não haver um eixo único entre as três assertivas."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2935,
+  "cache_w": 50058,
+  "cache_r": 101498,
+  "custo_usd": 0.26143760000000005
+ }
+}

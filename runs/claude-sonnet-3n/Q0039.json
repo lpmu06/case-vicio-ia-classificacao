@@ -1,0 +1,40 @@
+{
+ "confianca_ramo": 0.62,
+ "confianca_subtema": 0,
+ "extras_ids": [
+  "4695"
+ ],
+ "fora": false,
+ "justificativa": "Mantida a classificação em 4687. O núcleo da questão é o ajuste artificial de preço final por todos os revendedores de GLP em determinada praça — isto é, combinação/cartel entre concorrentes para elevação artificial de preços, conduta que consta expressamente nas palavras-chave de 4687 (\"combinação para alta de preços\", \"especulação\", \"aumento arbitrário de preços\"). Embora o gabarito tecnicamente enquadre o fato no art. 4º, II, \"a\", da Lei 8.137/90 (crime contra a ordem econômica), e não na Lei 1.521/1951, a árvore de temas não possui nó específico para \"crimes contra a ordem econômica\" da Lei 8.137/90 — 4695 cobre apenas os arts. 1º a 3º (ordem tributária), tema distinto do testado. Diante da ausência de correspondência exata, 4687 é a melhor aproximação por descrever justamente a conduta de combinação entre concorrentes para fixação artificial de preços, inclusive sendo usado como distrator na alternativa D da própria questão (contravenção contra a economia popular). Confiança moderada por se tratar de aproximação temática e não de identidade perfeita de diploma legal. Subtema não se aplica, pois 4687 não possui subtemas (subtema_n2_id = null). Mantenho 4695 apenas como extra, pela proximidade de diploma legal (Lei 8.137/90), ainda que de dispositivo diverso.",
+ "multi_tema": false,
+ "segunda_opcao_id": "4695",
+ "subtema_n2_id": null,
+ "tema_n1_id": "4687",
+ "id": "Q0039",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE3",
+  "segundo_grupo_id": null,
+  "confianca": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão trata de cartel/fixação artificial de preços por revendedores de GLP, conduta tipificada como crime contra a ordem econômica (Lei 8.137/90, arts. 4º e 5º). Na árvore disponível, o tema mais próximo é \"Crimes contra a Economia Popular\", dentro do grupo LE3 (crimes econômicos/financeiros/consumeristas), já que não há tema específico de \"crimes contra a ordem econômica\". Confiança moderada pela imperfeição do encaixe."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4687",
+  "segunda_opcao_n1_id": "4695",
+  "confianca_ramo": 0.45,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre cartel de revendedores de GLP que ajustam artificialmente o preço final, conduta que o próprio gabarito classifica como crime contra a ordem econômica (art. 4º, II, \"a\", da Lei 8.137/90 — fixação artificial de preços em acordo entre concorrentes), distinguindo-a expressamente de crime contra o consumidor (alternativa B, incorreta) e de contravenção contra a economia popular (alternativa D, incorreta). Nenhum tema de nível 1 da árvore corresponde exatamente a \"crimes contra a ordem econômica\" da Lei 8.137/90. Entre as opções disponíveis, \"Crimes contra a Economia Popular\" (Lei 1.521/1951) é a aproximação temática mais direta, por tratar de bem jurídico próximo (livre formação de preços, abastecimento, confiança nas relações econômicas essenciais), ainda que seja outra lei — e a própria questão usa \"economia popular\" como distrator, o que reforça a proximidade temática mesmo sendo tecnicamente incorreto no gabarito. Como segunda opção, \"Crimes Tributários\" (4695) é mantido por ser a mesma Lei 8.137/90, embora cubra apenas os arts. 1º a 3º (ordem tributária), não os arts. 4º/5º (ordem econômica) efetivamente testados. O encaixe é imperfeito em ambos os casos, daí a confiança moderada-baixa."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3623,
+  "cache_w": 45418,
+  "cache_r": 101498,
+  "custo_usd": 0.24446859999999998
+ }
+}

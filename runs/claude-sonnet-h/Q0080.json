@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4368",
+ "subtema_n2_id": "4370",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "4369",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa expressamente sobre os \"modelos de reação ao delito\" (cita o modelo restaurador, mas descreve na verdade características do modelo ressocializador/tratamento: diagnóstico do impacto da pena para prevenir reincidência), o que corresponde exatamente ao subtema 4370 (Modelos de Reação ao Delito) dentro do tema de nível 1 4368 (Criminologia no Estado Democrático de Direito). Mantenho o tema 4368 e, agora com certeza, atribuo o subtema 4370, pois o enunciado pede diretamente a identificação das características de um modelo de reação ao delito, não de sistemas de prevenção (4369).",
+ "id": "Q0080",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4368",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente dos \"modelos de reação ao delito\" (dissuasão/retribuição, ressocialização, restaurador etc.), tema explicitamente mencionado no enunciado e que corresponde ao subtema \"Modelos de Reação ao Delito\" dentro do tema de nível 1 \"Criminologia no Estado Democrático de Direito\" (id 4368). Como classificar no nível 1 já abrange o subtema, mantenho 4368."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1236,
+  "cache_w": 28609,
+  "cache_r": 78694,
+  "custo_usd": 0.14641579999999998
+ }
+}

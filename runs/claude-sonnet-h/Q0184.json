@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão cobra literalmente o art. 50, §§1º e 1º-A, da Lei 11.343/2006 (comunicação da prisão em flagrante ao juiz em 24 horas - não 5 dias - com remessa do auto, e vista ao MP em 24 horas), procedimento específico do inquérito policial no tráfico de drogas. Está integralmente coberta pelo tema \"Tráfico de Drogas\" (4708), que abrange a Lei 11.343/2006 em sua parte penal e principais reflexos processuais, incluindo os dispositivos dos arts. 50 a 59. O tema não possui subtemas, então subtema_n2_id é null.",
+ "id": "Q0184",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4708",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão trata de dispositivo específico da Lei de Drogas (art. 50, §1º, Lei 11.343/2006) sobre a comunicação da prisão em flagrante ao juiz e remessa do auto de prisão, com vista ao MP - procedimento próprio do inquérito policial em caso de tráfico de drogas, matéria integralmente coberta pelo tema \"Tráfico de Drogas\" da Legislação Especial, que abrange a lei em sua parte penal e principais reflexos processuais."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1109,
+  "cache_w": 28775,
+  "cache_r": 78694,
+  "custo_usd": 0.1453178
+ }
+}

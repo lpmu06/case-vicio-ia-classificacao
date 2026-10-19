@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5496",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5495",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata integralmente da hipoteca legal como medida assecuratória patrimonial (CPP arts. 134-144), abordando cabimento em relação a terceiro não investigado, recurso cabível (embargos), possibilidade de caução em dinheiro para evitar a inscrição (art. 135, §5º), avaliação e venda do bem após condenação transitada em julgado. Todas as alternativas giram em torno do mesmo instituto - hipoteca legal -, que é exatamente o núcleo do subtema \"Medidas Assecuratórias: Sequestro, Hipoteca Legal e Arresto\" (5496), dentro do tema de nível 1 \"Das Questões e Processos Incidentes\" (5490). Não há qualquer menção a restituição de bem apreendido que desvie para 5495; o foco é a garantia patrimonial via hipoteca, não a devolução de coisa apreendida.",
+ "id": "Q0283",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5490",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre hipoteca legal, medida assecuratória prevista no CPP (arts. 134-144), tratando de caução, embargos, e cabimento em relação a terceiros. O instituto central testado é a hipoteca legal como medida assecuratória, que corresponde ao subtema \"Medidas Assecuratórias: Sequestro, Hipoteca Legal e Arresto\", dentro do tema de nível 1 \"Das Questões e Processos Incidentes\" (5490), em Processo Penal. Não se trata de ação penal (tema de origem indicado era pista fraca e incorreta)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1237,
+  "cache_w": 9504,
+  "cache_r": 43624,
+  "custo_usd": 0.0654938
+ }
+}

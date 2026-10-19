@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.93,
+ "segunda_opcao_id": "4387",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecimento específico e detalhado do labelling approach (teoria do etiquetamento social) — seus fundamentos, premissas (caráter seletivo e discriminatório do controle social penal), caráter interacionista, e distinção frente a outras teorias nominadas (como a crítica ao paradigma etiológico convencional). Isso configura cobrança de uma teoria em espécie com seus conceitos próprios, o que se encaixa precisamente no subtema 4388 (Teorias Criminológicas em Espécie), confirmando o tema de nível 1 já definido (4385). O subtema irmão 4387 (nível sociológico, categoria ampla) é a segunda opção, mas menos precisa, pois a questão não pede a classificação da teoria dentro da categoria ampla, e sim seu conteúdo específico.",
+ "id": "Q0196",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4385",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o Labelling Approach (Teoria do Etiquetamento Social), uma das teorias sociológicas explicativas da criminalidade (de matriz interacionista), exigindo conhecimento sobre seu caráter seletivo/discriminatório do controle social penal, o que se encaixa no tema 4385 (Teorias Sociológicas Explicativas da Criminalidade), especificamente no subtema de teorias em espécie."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1027,
+  "cache_w": 31660,
+  "cache_r": 78694,
+  "custo_usd": 0.1573518
+ }
+}

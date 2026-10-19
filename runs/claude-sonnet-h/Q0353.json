@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5190",
+ "confianca_ramo": 0.88,
+ "confianca_subtema": 0.65,
+ "segunda_opcao_id": "5188",
+ "extras_ids": [
+  "5530"
+ ],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema de nível 1 como Prescrição (5185). Apesar de a narrativa mencionar atos processuais (memoriais, oitiva de testemunhas, declarações escritas), essas opções são distratores sobre a conduta do magistrado; o eixo decisivo da questão é a alternativa (D), que versa sobre a \"prescrição em perspectiva\" (prescrição virtual/antecipada), instituto não admitido pela jurisprudência (Súmula 438 STJ), exigindo do candidato o conhecimento específico sobre essa modalidade controvertida de prescrição, e não sobre o procedimento ordinário em si. Quanto ao subtema, há sobreposição entre 5188 (Prescrição da Pretensão Punitiva, que também cita \"inadmissibilidade da prescrição virtual\") e 5190 (Outras Prescrições, cujas palavras-chave citam expressamente \"prescrição virtual, prescrição antecipada, prescrição em perspectiva\" e cuja orientação de \"não confundir\" indica que questões cujo núcleo é a prescrição virtual tendem a esse subtema). Opto por 5190 como subtema mais específico, mantendo 5188 como segunda opção por sua proximidade temática, e mantenho Procedimento Ordinário (5530) como extra pelo contexto processual da narrativa.",
+ "id": "Q0353",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5185",
+  "segunda_opcao_n1_id": "5530",
+  "confianca_ramo": 0.6,
+  "multi_tema": false,
+  "justificativa": "A questão gira em torno do instituto da \"prescrição em perspectiva\" (ou prescrição virtual/antecipada), tema diretamente ligado à extinção da punibilidade pela prescrição, não admitido pela jurisprudência dos tribunais superiores. Embora as alternativas mencionem atos processuais (memoriais, oitiva de testemunhas, declarações escritas), o eixo da pergunta é identificar a conduta correta do magistrado frente à iminência da prescrição, o que remete ao conhecimento sobre prescrição penal. Por isso, classifico em Prescrição (nível 1, Penal), com Procedimento Ordinário como segunda opção por conta do contexto processual da narrativa."
+ },
+ "uso": {
+  "in": 4,
+  "out": 3078,
+  "cache_w": 12484,
+  "cache_r": 43624,
+  "custo_usd": 0.0982208
+ }
+}

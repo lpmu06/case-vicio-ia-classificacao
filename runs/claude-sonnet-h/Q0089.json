@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5227",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5228",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A própria questão, com base no Glossário do STF, afirma que o princípio da insignificância exclui a tipicidade penal (e não a ilicitude), configurando causa de atipicidade material. A discussão central - requisitos do princípio (mínima ofensividade, nenhuma periculosidade social, reduzidíssimo grau de reprovabilidade, inexpressividade da lesão), origem doutrinária e jurisprudência do STF - é exatamente o conteúdo do subtema \"Tipicidade\" (5227), que expressamente trata de princípio da insignificância, bagatela e tipicidade material, dentro do tema-mãe \"Teoria do Crime: Fato Típico\" (5218). Mantenho \"Teoria do Crime: Ilicitude\" (5228) apenas como segunda opção, por ser a classificação de origem (pista fraca) e o erro de categorização mais comum nesse assunto, mas a própria questão já afasta essa hipótese ao definir insignificância como excludente de tipicidade, não de ilicitude.",
+ "id": "Q0089",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5228",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A própria questão, citando o Glossário do STF, afirma que o princípio da insignificância exclui a tipicidade penal (e não a ilicitude), tratando-se de causa de atipicidade material. Logo, o tema central testado é a Tipicidade, subtema de \"Teoria do Crime: Fato Típico\" (id 5218), e não \"Teoria do Crime: Ilicitude\" (id 5228), que foi apenas a classificação de origem (pista fraca e, no caso, equivocada). Mantive a Ilicitude como segunda opção por ser o erro mais comum de classificação para esse tema."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1309,
+  "cache_w": 36305,
+  "cache_r": 78694,
+  "custo_usd": 0.1839018
+ }
+}

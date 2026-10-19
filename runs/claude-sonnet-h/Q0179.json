@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4368",
+ "subtema_n2_id": "4369",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "4370",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão exige conhecimento específico sobre a classificação dos níveis de prevenção criminal (primária, secundária e terciária), perguntando se controle de meios de comunicação e ordenação urbana dirigidos a grupos/subgrupos sociais caracterizam prevenção secundária - exatamente o conteúdo do subtema \"Sistemas de Prevenção\" (4369), dentro do tema \"Criminologia no Estado Democrático de Direito\" (4368). Confirmo a classificação anterior: na doutrina (García-Pablos/Molina), a prevenção primária atua sobre as causas gerais da criminalidade de forma difusa (educação, bem-estar), enquanto a prevenção secundária é focalizada em grupos ou subgrupos de risco específicos, usando instrumentos como controle de meios de comunicação, ordenação/urbanismo e policiamento dirigido - o que torna a assertiva correta e perfeitamente enquadrada no subtema 4369. Não se confunde com \"Modelos de Reação ao Delito\" (4370), que trata da resposta ao crime já praticado, não da prevenção antes do fato.",
+ "id": "Q0179",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4368",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "A questão trata da classificação dos modelos/sistemas de prevenção do delito (primária, secundária e terciária), especificamente se controle de meios de comunicação e ordenação urbana dirigidos a grupos/subgrupos específicos caracterizam prevenção secundária. Isso se insere no tema \"Criminologia no Estado Democrático de Direito\" (4368), que tem como subtema exatamente \"Sistemas de Prevenção\". Não há outro tema de nível 1 que trate dessa classificação de prevenção do delito."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2266,
+  "cache_w": 29352,
+  "cache_r": 78694,
+  "custo_usd": 0.1595198
+ }
+}

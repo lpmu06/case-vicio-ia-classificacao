@@ -1,0 +1,42 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5228",
+ "extras_ids": [
+  "5219",
+  "5221",
+  "5227"
+ ],
+ "multi_tema": true,
+ "justificativa": "Confirmo o tema de nível 1 como Fato Típico (5218), pois 4 das 5 alternativas gravitam em torno desse substrato: (A) ausência de conduta (coação física irresistível, atos reflexos) é tema de Conduta (5221); (B) bem jurídico como critério de interpretação dos tipos remete a Conceito e Objeto do Crime (5219); (C) elementos subjetivos do injusto (tendências internas transcendentes) em tipos dolosos e culposos relaciona-se a Dolo/Culpa e Tipicidade (5222/5227); (E) tipos mistos alternativos e fungibilidade de condutas é tema de Tipicidade (5227). Apenas a alternativa (D), sobre a teoria diferenciadora do estado de necessidade exculpante, pertence à Ilicitude (5228), mantida como segunda opção. Como as alternativas corretas (fato típico) se distribuem por subtemas distintos (conduta, conceito/bem jurídico, tipicidade) sem eixo único, não há subtema de nível 2 específico que cubra a questão como um todo — por isso subtema_n2_id = null. Mantido multi_tema = true pela heterogeneidade das assertivas, todas dentro da teoria geral do crime.",
+ "id": "Q0199",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": true,
+  "justificativa": "A questão mistura institutos da teoria do crime: ausência de conduta e elementos subjetivos do injusto (fato típico), bem jurídico (fato típico/interpretação do tipo), estado de necessidade (ilicitude) e tipo misto alternativo (fato típico). Todas as alternativas pertencem à teoria geral do crime, coberta pelo grupo P2 (Fato Típico, Ilicitude, Culpabilidade etc.), sem eixo único que aponte para subtema específico — por isso marcado como multi-tema dentro do mesmo grupo."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5218",
+  "segunda_opcao_n1_id": "5228",
+  "confianca_ramo": 0.55,
+  "multi_tema": true,
+  "justificativa": "A questão combina institutos de diferentes substratos da teoria do crime: ausência de conduta, bem jurídico, elementos subjetivos do injusto e tipo misto alternativo são todos temas de Fato Típico (alternativas A, B, C e E), enquanto a alternativa D trata de estado de necessidade (Ilicitude). Como a maioria das assertivas gravita em torno do fato típico, esse é o tema de nível 1 mais adequado, mantendo Ilicitude como segunda opção pela presença da alternativa D. Marcado como multi-tema por não haver eixo único entre as alternativas, ainda que todas pertençam ao grupo P2 (teoria geral do crime)."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2190,
+  "cache_w": 49418,
+  "cache_r": 102908,
+  "custo_usd": 0.2513676
+ }
+}

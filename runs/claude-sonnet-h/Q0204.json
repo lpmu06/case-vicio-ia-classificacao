@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5508",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão afirma o princípio tempus regit actum na lei processual penal, dizendo que a lei nova tem aplicação imediata, preservando a validade dos atos praticados sob a lei anterior - exatamente o conteúdo do art. 2º do CPP, descrito no subtema \"Lei processual no Tempo\" (5507). Não há discussão sobre interpretação/analogia (5508) nem sobre espaço (5506), de modo que o subtema específico é 5507.",
+ "id": "Q0204",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5505",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata diretamente da aplicação da lei processual penal no tempo, especificamente do princípio do efeito imediato (tempus regit actum), segundo o qual a nova lei processual se aplica de imediato aos processos em curso, preservando a validade dos atos já praticados sob a lei anterior. Isso se insere no tema \"Lei Processual no Tempo e no Espaço\" (nível 1, id 5505), mais precisamente no subtema \"Lei processual no Tempo\", mas a classificação no nível 1 já é correta e suficiente."
+ },
+ "uso": {
+  "in": 4,
+  "out": 945,
+  "cache_w": 29950,
+  "cache_r": 78694,
+  "custo_usd": 0.14924779999999999
+ }
+}

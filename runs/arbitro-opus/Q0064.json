@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4695",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5191",
+ "extras_ids": [
+  "5191"
+ ],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas giram em torno do crime de apropriação indébita previdenciária (art. 168-A do CP). Cobram a tipificação, a extinção da punibilidade pelo pagamento integral mesmo após o trânsito em julgado (alternativa B, a correta), a natureza omissiva própria, que afasta a tese de crime permanente, e a inaplicabilidade da insignificância. O tema 4695 traz expressamente o art. 168-A e o pagamento do débito, o que o torna o eixo comum da questão. Punibilidade (5191) fica como segunda opção, porque o pagamento é uma causa extintiva específica da legislação tributária, e não do art. 107 do CP. Crimes contra o Patrimônio (5157) foi descartado porque o bem jurídico é a arrecadação previdenciária, e não o patrimônio individual.",
+ "id": "Q0064",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4695",
+  "5191",
+  "5157"
+ ],
+ "candidatos_subtemas": [],
+ "uso": {
+  "in": 2,
+  "out": 1074,
+  "cache_w": 15049,
+  "cache_r": 16390,
+  "custo_usd": 0.156282
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5521",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta expressamente pela jurisprudência do STJ sobre a prisão domiciliar prevista no art. 117 da LEP (execução penal), incluindo discussão sobre rol taxativo/exemplificativo e hipóteses excepcionais (mãe cuidadora em regime fechado). Trata-se de instituto da execução penal, não de prisão cautelar processual, por isso o tema correto é Lei de Execução Penal (4703), que não possui subtemas de nível 2. A Prisão Domiciliar de Processo Penal (5521) trata de substituição da prisão preventiva (arts. 317/318 CPP), situação distinta, por isso figura apenas como segunda opção.",
+ "id": "Q0087",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": "5517",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão trata de prisão domiciliar no âmbito da execução penal, conforme jurisprudência do STJ sobre o art. 117 da LEP, incluindo discussão sobre rol taxativo/exemplificativo e hipóteses excepcionais de prisão domiciliar humanitária. O tema central é a execução penal (LEP), por isso Lei de Execução Penal é o tema mais adequado, com Prisões em Espécie (Processo Penal) como segunda opção por tratar também de prisão domiciliar."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1069,
+  "cache_w": 32051,
+  "cache_r": 78694,
+  "custo_usd": 0.1613758
+ }
+}

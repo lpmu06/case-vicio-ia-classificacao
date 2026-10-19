@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "4688",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata diretamente das causas de aumento de pena do art. 53 da Lei 9.605/98 (crimes contra a flora), matéria específica de Crimes contra o meio ambiente, confirmando o tema de nível 1 (4688), que não possui subtemas.",
+ "id": "Q0071",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4688",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata das causas de aumento de pena previstas na Lei 9.605/98 (art. 53) para os crimes contra a flora, matéria tipicamente classificada em Crimes contra o meio ambiente (Legislação Especial), e não em Teoria do Crime/Ilicitude, que foi apenas a pista fraca de origem."
+ },
+ "uso": {
+  "in": 4,
+  "out": 733,
+  "cache_w": 27883,
+  "cache_r": 78694,
+  "custo_usd": 0.1379938
+ }
+}

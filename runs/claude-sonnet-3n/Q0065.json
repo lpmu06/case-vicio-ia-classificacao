@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5161",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata exclusivamente da extorsão mediante sequestro (art. 159, CP), testando consumação (correta a alternativa E: consuma-se com a efetiva obtenção da vantagem, pois é crime formal que se consuma independentemente, mas a doutrina majoritária/bancas de concurso tratam a obtenção como marco consumativo nesse tipo em comparação à mera exigência), admissibilidade de tentativa e qualificadoras (lesão grave/morte do §2º/§3º, não havendo qualificadora por idade da vítima no art. 159). Como o subtema \"Extorsão\" (5161) expressamente abrange \"quando cobrada no mesmo contexto, a extorsão mediante sequestro\", a classificação específica é adequada, confirmando o tema de nível 1 \"Dos Crimes Contra o Patrimônio\" (5157) e refinando para o subtema 5161.",
+ "id": "Q0065",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P5",
+  "segundo_grupo_id": null,
+  "confianca": 0.9,
+  "multi_tema": false,
+  "justificativa": "A questão trata do crime de extorsão mediante sequestro (art. 159, CP), que embora tenha \"sequestro\" no nome, está classificado no Código Penal como crime contra o patrimônio (Capítulo VI - \"Da Extorsão\"), testando consumação, qualificadoras e tentativa do delito. Portanto, pertence ao grupo P5 (Dos Crimes Contra o Patrimônio), e não ao grupo de crimes contra a liberdade pessoal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre extorsão mediante sequestro (art. 159, CP), testando consumação (momento da obtenção vs. mera exigência da vantagem), tentativa e qualificadoras (lesão grave/morte, idade da vítima). Trata-se de crime contra o patrimônio, inserido no Título II da Parte Especial do CP, dentro do capítulo da Extorsão. Pertence, portanto, ao tema \"Dos Crimes Contra o Patrimônio\" (5157), mais especificamente ao subtema \"Extorsão\", que abrange o art. 159. Não há pertinência com os temas de organização do trabalho/propriedade imaterial (5134) ou fé pública/falsidade documental (5116), por isso não indico segunda opção."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2065,
+  "cache_w": 49891,
+  "cache_r": 101498,
+  "custo_usd": 0.25120659999999995
+ }
+}

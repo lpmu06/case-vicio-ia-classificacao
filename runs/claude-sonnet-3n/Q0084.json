@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4704",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa exclusivamente sobre as medidas de assistência à mulher em situação de violência doméstica previstas nos arts. 9º e 23 da Lei 11.340/2006 (manutenção do vínculo trabalhista por até seis meses, prioridade de matrícula escolar dos dependentes e ressarcimento ao SUS), todas inseridas no capítulo de medidas de assistência da Lei Maria da Penha. Confirma-se o tema 4704, que não possui subtemas de nível 2, de modo que subtema_n2_id permanece null.",
+ "id": "Q0084",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE2",
+  "segundo_grupo_id": null,
+  "confianca": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a assistência à mulher em situação de violência doméstica (manutenção do vínculo trabalhista, prioridade de matrícula escolar, ressarcimento ao SUS), temas tratados especificamente na Lei Maria da Penha (Lei 11.340/2006), que corresponde ao tema \"Lei Maria da Penha\" dentro do grupo LE2 (Legislação Especial)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4704",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata exatamente das medidas de assistência à mulher em situação de violência doméstica previstas nos arts. 9º e 23 da Lei 11.340/2006 (manutenção do vínculo trabalhista por até seis meses, prioridade de matrícula escolar dos dependentes e ressarcimento ao SUS), todas contidas no capítulo de medidas de assistência da Lei Maria da Penha. É matéria exclusiva desse diploma, sem dispersão entre institutos diversos, de modo que não há caracterização de multitema."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1207,
+  "cache_w": 44890,
+  "cache_r": 101498,
+  "custo_usd": 0.21783959999999997
+ }
+}

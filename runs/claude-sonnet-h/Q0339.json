@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "5572",
+ "subtema_n2_id": "5578",
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.45,
+ "segunda_opcao_id": "5579",
+ "extras_ids": [
+  "5565",
+  "5560"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão mosaico: (A) embargos de declaração da sentença (art. 382 CPP, com prazo incorreto de 5 dias em vez de 2) pertence a Recursos em Espécies (5560/5565), fora do tema 5572; (B) mutatio libelli após pronúncia preclusa envolve reclassificação do crime no procedimento do júri, tema de Emendatio/Mutatio Libelli (5579); (C) e (D) tratam diretamente do princípio da correlação entre acusação e sentença — (C) sobre reconhecimento de agravantes não alegadas pelo MP e (D) sobre a natureza da nulidade decorrente da violação da correlação —, ambas centradas no subtema 5578. Como três das quatro alternativas (B, C, D) giram em torno de institutos da sentença penal (mutatio libelli e correlação acusação-sentença), mantenho o tema de nível 1 em Sentença Penal (5572), e, como a maioria temática recai sobre o princípio da correlação (C e D), escolho 5578 como subtema principal, com 5579 como segunda opção por conta da alternativa B. Confiança moderada em razão do caráter claramente multi-tema da questão, com uma alternativa (A) fora do escopo do tema escolhido.",
+ "id": "Q0339",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5572",
+  "segunda_opcao_n1_id": "5560",
+  "confianca_ramo": 0.45,
+  "multi_tema": true,
+  "justificativa": "Cada alternativa versa sobre instituto distinto: (A) embargos de declaração da sentença (recurso em espécie, art. 382 CPP); (B) mutatio libelli/reclassificação após pronúncia preclusa (procedimento do júri); (C) reconhecimento de agravantes não alegadas pelo MP (correlação acusação-sentença); (D) natureza da nulidade por violação da correlação acusação-sentença. Não há um eixo temático único — é questão \"mosaico\" dentro de Processo Penal. Optei por \"Sentença Penal\" como tema de nível 1 por abranger diretamente as alternativas C e D (princípio da correlação entre acusação e sentença, efeitos da sentença) e por ser o fio mais próximo de um núcleo comum (sentença penal, seus vícios e consequências), com \"Recursos em Espécies\" (onde está Embargos de Declaração) como segunda opção, já que a alternativa A trata de recurso. Confiança moderada dado o caráter claramente multi-tema da questão."
+ },
+ "uso": {
+  "in": 4,
+  "out": 5045,
+  "cache_w": 15545,
+  "cache_r": 43624,
+  "custo_usd": 0.13262580000000002
+ }
+}

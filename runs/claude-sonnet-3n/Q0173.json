@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão versa sobre regressão de regime prisional, faltas disciplinares (classificação, poder disciplinar, efeitos sobre remição e saídas temporárias), temas disciplinados integralmente pela LEP (arts. 50-53, 112-118, 126-127). Todas as alternativas tratam de institutos da própria LEP, confirmando o tema de nível 1 \"Lei de Execução Penal\" (4703), que não possui subtemas, conforme indicado nos metadados.",
+ "id": "Q0173",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": null,
+  "confianca": 0.93,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre regressão de regime prisional e faltas disciplinares no âmbito da execução penal, matéria disciplinada pela LEP (Lei de Execução Penal), correspondendo ao tema \"Lei de Execução Penal\" dentro do grupo LE4 de Legislação Especial, conforme critério que determina que execução penal (LEP) fica em Legislação Especial > Lei de Execução Penal, não em Teoria da Pena (Penal)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata de regressão de regime prisional e faltas disciplinares, matéria disciplinada diretamente pela Lei de Execução Penal (Lei 7.210/1984), correspondendo exatamente ao tema de nível 1 \"Lei de Execução Penal\" (id 4703) dentro do grupo LE4. Todas as alternativas versam sobre institutos da LEP (falta grave, remição, regressão de regime, poder disciplinar), não havendo dispersão temática que justifique multi-tema."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1187,
+  "cache_w": 9904,
+  "cache_r": 14150,
+  "custo_usd": 0.06041200000000001
+ }
+}

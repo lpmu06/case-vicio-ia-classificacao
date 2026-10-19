@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5169",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão trata exclusivamente do crime de receptação (art. 180 CP): alternativa correta (D) reproduz o art. 180, §4º, CP (autonomia da receptação em relação ao crime antecedente, punível mesmo se o autor deste for desconhecido ou isento de pena). As demais alternativas também versam sobre receptação (coautor do crime antecedente, receptação culposa, formalidade na qualificadora comercial), confirmando o foco único no tipo específico. Deve ir ao subtema Receptação (5169), filho do tema Dos Crimes Contra o Patrimônio (5157).",
+ "id": "Q0135",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5157",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o crime de receptação (art. 180 do CP), tema inserido em \"Dos Crimes Contra o Patrimônio\" (subtema Receptação). A alternativa correta (D) reflete a regra do art. 180, §4º, CP, segundo a qual a receptação é punível independentemente de ser conhecido ou isento de pena o autor do crime antecedente."
+ },
+ "uso": {
+  "in": 4,
+  "out": 905,
+  "cache_w": 35388,
+  "cache_r": 78694,
+  "custo_usd": 0.1749108
+ }
+}

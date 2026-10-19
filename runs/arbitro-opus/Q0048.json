@@ -1,0 +1,32 @@
+{
+ "fora": false,
+ "tema_n1_id": "5191",
+ "subtema_n2_id": "5193",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "4703",
+ "extras_ids": [
+  "4703"
+ ],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas giram em torno do indulto e da comutação de pena. Cobram a natureza da decisão que os concede, as vedações dos decretos para crimes hediondos, a Súmula 631 do STJ (o indulto alcança só os efeitos primários) e a Súmula 535 do STJ (a falta grave não interrompe o prazo). Esse eixo é o subtema Anistia, Graça e Indulto. A Lei de Execução Penal (4703) fica como segunda opção, porque o procedimento do indulto e a falta grave aparecem na fase de execução. Descartei Teoria da Pena (5199) porque a questão não trata de aplicação nem de espécie de pena.",
+ "id": "Q0048",
+ "modelo": "opus",
+ "provedor": "claude_cli",
+ "effort": "high",
+ "candidatos_ramos": [
+  "4703",
+  "5199",
+  "5191"
+ ],
+ "candidatos_subtemas": [
+  "5193"
+ ],
+ "uso": {
+  "in": 2,
+  "out": 873,
+  "cache_w": 13730,
+  "cache_r": 16390,
+  "custo_usd": 0.14073999999999998
+ }
+}

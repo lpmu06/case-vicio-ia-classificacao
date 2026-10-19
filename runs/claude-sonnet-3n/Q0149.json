@@ -1,0 +1,41 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5500",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.75,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [
+  "5554",
+  "5545"
+ ],
+ "multi_tema": true,
+ "justificativa": "Todas as alternativas versam sobre diligências investigatórias praticadas no curso do inquérito policial (busca domiciliar/pessoal mediante mandado, requisição de dados cadastrais em extorsão mediante sequestro - art. 13-A, requisição de localização de vítima/suspeitos em tráfico de pessoas com ou sem prévia autorização judicial - art. 13-B, e prioridade do exame de corpo de delito em crimes envolvendo vulneráveis). O subtema 5500 (Procedimento do Inquérito Policial) descreve exatamente esse conjunto de atos - \"diligências policiais... exame de corpo de delito, busca e apreensão\" - com os dispositivos arts. 13-A, 13-B e 14 do CPP citados expressamente em sua ficha, o que torna esse subtema mais preciso que o tema geral 5499 (conceito/características) ou 5501 (conclusão/arquivamento). Mantenho Provas em Espécies (5543) como segunda opção pela tangência com busca e apreensão (5554) e exame de corpo de delito (5545), institutos que também são tratados como meios de prova quando produzidos com contraditório; porém, como o enunciado situa expressamente os atos \"na fase do inquérito policial\" e o foco é o poder/procedimento do delegado para a diligência (requisição, mandado, prioridade), prevalece o enquadramento em Inquérito Policial > Procedimento.",
+ "id": "Q0149",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP2",
+  "segundo_grupo_id": "PP4",
+  "confianca": 0.75,
+  "multi_tema": true,
+  "justificativa": "A questão trata de diligências e poderes do delegado de polícia no curso do inquérito policial (busca domiciliar/pessoal, requisição de dados cadastrais, localização de vítimas no tráfico de pessoas, exame de corpo de delito prioritário), temas típicos de Inquérito Policial (PP2). Há aspectos tangenciais de provas (exame de corpo de delito, PP4), mas o eixo comum das alternativas é a atuação e os poderes investigativos no inquérito, não um instituto único de direito penal material. Não há tema específico de \"Tráfico de Pessoas\" na árvore, reforçando a classificação pelo contexto processual do inquérito."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5498",
+  "segunda_opcao_n1_id": "5543",
+  "confianca_ramo": 0.75,
+  "multi_tema": true,
+  "justificativa": "A questão reúne, em cada alternativa, diligências e poderes exercidos pelo delegado de polícia no curso do inquérito (busca domiciliar/pessoal mediante mandado, requisição de dados cadastrais em extorsão mediante sequestro, requisição de localização de vítima/suspeitos em tráfico de pessoas com ou sem autorização judicial, prioridade do exame de corpo de delito). O eixo comum é o procedimento e os poderes investigatórios do inquérito policial (PP2 > Procedimento do Inquérito Policial), não um instituto único de direito material. Há forte conexão tangencial com Provas em Espécie (PP4), especialmente quanto ao exame de corpo de delito e à busca e apreensão, por isso mantenho como segunda opção. Não há subtema específico de \"tráfico de pessoas\" ou \"requisição de dados\" na árvore, o que reforça a classificação pelo tema geral do inquérito."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2595,
+  "cache_w": 20832,
+  "cache_r": 25731,
+  "custo_usd": 0.12923020000000002
+ }
+}

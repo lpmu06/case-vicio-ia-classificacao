@@ -1,0 +1,33 @@
+{
+ "fora": false,
+ "tema_n1_id": "4368",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4374",
+ "extras_ids": [
+  "4376",
+  "4370"
+ ],
+ "multi_tema": true,
+ "justificativa": "A questão é claramente multi-tema, sem eixo único: o item I trata especificamente de Direito Penal do Inimigo (Jakobs), subtema 4376 de Política Criminal (4374); o item II trata de Justiça Restaurativa, que é subtema de Modelos de Reação ao Delito (4370), dentro de 4368; os itens III e IV versam sobre o confronto entre movimentos sociais/minorias e a ordem jurídica estabelecida, discussão mais ampla sobre controle social formal/informal e garantias no Estado Democrático de Direito, que é o núcleo descritivo de 4368 e não possui subtema específico correspondente (não há subtema sobre \"movimentos sociais e cidadania\" em nenhum dos ramos mapeados). Como III e IV (maioria dos itens, inclusive no gabarito mais provável que os aponta como corretos) gravitam em torno do tema geral de 4368, mantenho esse tema de nível 1 como principal, com 4374 como segunda opção pela relevância do item I. Não atribuo subtema de nível 2 porque nenhum dos subtemas listados (4369, 4370, 4375, 4376) cobre isoladamente o eixo central da questão — cada um cobre apenas um item isolado, não a questão como um todo —, de modo que marcar um subtema específico seria arriscar classificar no \"irmão errado\". Por isso subtema_n2_id = null, com confiança baixa quanto a subtema.",
+ "id": "Q0260",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "4368",
+  "segunda_opcao_n1_id": "4374",
+  "confianca_ramo": 0.6,
+  "multi_tema": true,
+  "justificativa": "A questão combina itens heterogêneos dentro da Criminologia: o item I trata de Direito Penal do Inimigo (Jakobs), que é subtema específico de \"Política Criminal\" (4374); o item II trata de Justiça Restaurativa, ligada a modelos de reação ao delito; os itens III e IV versam sobre o confronto entre movimentos sociais, minorias e a ordem jurídica estabelecida, tema central de \"Criminologia no Estado Democrático de Direito\" (4368), que trata exatamente da relação entre controle social, garantias fundamentais e Estado Democrático de Direito. Como a maioria dos itens (II, III, IV) gravita em torno desse eixo e a própria origem da questão aponta para esse tema, optei por 4368 como principal, mantendo 4374 como segunda opção pela relevância do item I sobre Direito Penal do Inimigo."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2262,
+  "cache_w": 9444,
+  "cache_r": 43624,
+  "custo_usd": 0.0753538
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5562",
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5534",
+ "extras_ids": [
+  "5530"
+ ],
+ "multi_tema": false,
+ "justificativa": "Confirmo o tema de nível 1 como Recursos em Espécies (5560), pois o enunciado pergunta objetivamente \"caberá [qual recurso]\" contra a absolvição sumária por atipicidade, exigindo que o aluno saiba distinguir entre as alternativas de recurso em sentido estrito, apelação e correição parcial — e ainda o efeito extraprocessual (vinculação ao juízo cível) dessa escolha recursal. Esse é precisamente o eixo descrito em 5560: \"identificar qual recurso é cabível contra determinada decisão penal\". Dentro desse tema, agora tenho certeza suficiente para apontar o subtema específico: Apelação (5562), já que a resposta correta técnica é que cabe apelação (art. 416 CPP aplicado por analogia ao art. 397, distinguindo da rejeição da denúncia do art. 395, que seria RESE) e, por versar sobre inexistência do fato (atipicidade), a decisão transitada em julgado vincula o juízo cível (art. 935 CC). As alternativas também testam o descarte de RESE e correição parcial, reforçando que o cerne é \"qual espécie recursal\" — tema central de 5562. Mantenho como segunda opção o subtema de origem factual, Absolvição Sumária (5534, dentro de Procedimento Ordinário/5530), e incluo 5530 como extra, pois a hipótese fática (art. 397 CPP, atipicidade) é indispensável para resolver a questão, ainda que o que se pergunta e testa seja o regime recursal.",
+ "id": "Q0003",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": "PP6",
+  "confianca": 0.72,
+  "multi_tema": false,
+  "justificativa": "A questão testa qual recurso é cabível contra a sentença de absolvição sumária (apelação, art. 416/CPP por analogia ao procedimento comum) e se essa decisão, uma vez transitada em julgado, vincula o juízo cível (art. 386, parágrafo único, ou art. 935 CC quanto à inexistência do fato). O eixo central é o regime recursal da decisão, matéria de Recursos em Espécie (dentro do grupo PP8 - Recursos e Ações Autônomas de Impugnação). Também guarda relação com Procedimento (resposta à acusação/absolvição sumária), por isso indico PP6 como segunda opção."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5530",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A pergunta é objetivamente sobre qual recurso é cabível contra a absolvição sumária (por atipicidade) no procedimento comum ordinário — apelação, por força do art. 416 do CPP (aplicado por analogia ao rito comum, já que o art. 397 não tem regra recursal própria, diferindo do art. 581, IV, que trata de rejeição da denúncia) — e sobre o efeito dessa decisão transitada em julgado no juízo cível (vinculação quanto à inexistência do fato, art. 935 CC/art. 386, parágrafo único, I, CPP por analogia). O eixo testado é o regime recursal da decisão (cabimento do recurso e seus efeitos extraprocessuais), que se encaixa em \"Recursos em Espécies\" (Apelação), dentro do grupo PP8. Ainda assim, a hipótese fática gira em torno do instituto \"Absolvição Sumária\" do procedimento ordinário (PP6/5530), que também é testado indiretamente (o aluno precisa saber que essa decisão admite apelação, e não RESE, diferentemente da rejeição da denúncia). Por isso marco PP8 como escolha principal (o cerne da pergunta é \"qual recurso cabe e qual seu efeito\"), mas mantenho PP6 (Procedimento Ordinário/Absolvição Sumária) como segunda opção plausível, com confiança moderada por ser questão de fronteira entre o instituto de origem (absolvição sumária) e o recurso cabível contra ele."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2693,
+  "cache_w": 53070,
+  "cache_r": 101498,
+  "custo_usd": 0.2734276
+ }
+}

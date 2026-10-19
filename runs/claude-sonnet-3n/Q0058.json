@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.78,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4389",
+ "extras_ids": [
+  "4390"
+ ],
+ "multi_tema": true,
+ "justificativa": "Questão sobre a relação sistema penal/pobreza, cujo eixo é a seletividade: a alternativa correta (B) afirma que a vitimização, assim como a criminalização, é processo seletivo que recai sobre os mais pobres; as demais tratam de seletividade na aplicação de medidas de segurança (C), origem histórica da prisão e controle social da pobreza (D) e garantismo versus gestão autoritária da miséria (E). Não há um instituto único e específico testado (não é estritamente cifras criminais nem criminalização primária/secundária), mas sim o fenômeno amplo da seletividade do sistema penal, que se enquadra melhor no guarda-chuva \"Processos de Criminalização e Cifras Criminais\" (4377), já que a questão trata da seletividade penal como categoria central, incluindo sua extensão à vitimização e à aplicação das medidas de segurança. Por isso, nenhum subtema de nível 2 corresponde com exatidão (4378 e 4379 tratam de recortes mais específicos que não esgotam a questão), mantendo subtema_n2_id = null. Como a alternativa correta menciona expressamente \"vitimização\" como processo seletivo, mantenho 4389 (Vitimologia) como segunda opção relevante, com 4390 (Processo de Vitimização) como extra, pois a vitimização seletiva dos pobres se relaciona ao processo de vitimização primária. Marco multi_tema = true porque as alternativas abordam institutos distintos (seletividade da criminalização/vitimização, medidas de segurança, história da pena, garantismo) sem eixo estritamente único, ainda que o fio condutor comum seja a seletividade do sistema penal sobre a pobreza, pertencente à Criminologia.",
+ "id": "Q0058",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": "C3",
+  "confianca": 0.72,
+  "multi_tema": false,
+  "justificativa": "A questão trata da criminologia crítica sobre seletividade do sistema penal e sua relação com a pobreza (vitimização como processo seletivo, gestão da miséria, caráter seletivo da criminalização). O eixo central é o funcionamento seletivo do sistema penal/processos de criminalização, correspondente ao tema \"Processos de Criminalização e Cifras Criminais\" dentro do grupo C2. Há também conexão com vitimologia (alternativa B menciona vitimização), por isso C3 como segunda opção."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4377",
+  "segunda_opcao_n1_id": "4389",
+  "confianca_ramo": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a relação entre sistema penal e pobreza, eixo típico da criminologia crítica sobre seletividade: a alternativa correta (B) afirma que a vitimização, assim como a criminalização, é processo seletivo que recai sobre os mais pobres; as demais alternativas tratam de criminalização seletiva (D, E) e gestão da miséria/garantismo. O tema central é o funcionamento seletivo do sistema penal e dos processos de criminalização, que se enquadra em \"Processos de Criminalização e Cifras Criminais\" (C2/4377), guarda-chuva mais amplo que cobre também a seletividade na aplicação de medidas de segurança (alternativa C) e a crítica ao controle social da pobreza (D, E). Como a alternativa correta menciona expressamente \"vitimização\" como processo seletivo, há forte conexão com Vitimologia/Processo de Vitimização (C3/4389), mantida como segunda opção. Mantenho a classificação do estágio anterior por não haver elemento novo que altere a análise."
+ },
+ "uso": {
+  "in": 6,
+  "out": 2290,
+  "cache_w": 47142,
+  "cache_r": 101498,
+  "custo_usd": 0.2393596
+ }
+}

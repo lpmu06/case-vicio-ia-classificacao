@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": "5520",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": null,
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pergunta especificamente o prazo da prisão temporária decretada em inquérito policial para crime de epidemia com resultado morte (art. 267, §1º, CP), que é hediondo por equiparação (art. 1º, Lei 8.072/90). Pela regra especial do art. 2º, §4º, da Lei 8.072/90, o prazo é de 30 dias prorrogável por igual período (resposta E), em vez do prazo geral de 5+5 dias da Lei 7.960/89. O instituto central e exclusivo testado é a prisão temporária e seu prazo, correspondendo exatamente ao subtema 5520 (Prisão Temporária) dentro do tema 5517 (Prisões em Espécie).",
+ "id": "Q0157",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5517",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão trata do prazo da prisão temporária em crimes hediondos/equiparados (epidemia com resultado morte é crime hediondo, art. 1º da Lei 8.072/90, sujeito ao prazo de 30+30 dias conforme Lei 7.960/89, art. 2º, §4º). O instituto testado é a prisão temporária, modalidade de prisão cautelar disciplinada processualmente, correspondendo ao tema \"Prisões em Espécie\" (subtema Prisão Temporária) em Processo Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1016,
+  "cache_w": 32056,
+  "cache_r": 78694,
+  "custo_usd": 0.1600838
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão testa diretamente o cabimento, prazo (5 dias) e efeito (não suspensivo) do recurso em sentido estrito contra decisão sobre competência do juízo (art. 581 c/c art. 586 do CPP). O objeto da pergunta é o regime jurídico do RESE em si (cabimento, prazo, efeito), não a disciplina da competência (não se pergunta qual é o juízo competente, critério de fixação, conexão etc.). Por isso mantém-se o tema de nível 1 \"Recursos em Espécies\" (5560), e agora, com certeza quanto ao instituto específico testado, classifico no subtema \"Recurso em sentido estrito (RESE)\" (5561), já que a descrição desse subtema expressamente cobre hipóteses do art. 581 CPP, prazo de 5 dias e ausência de taxatividade mitigada aplicável a decisões sobre competência/fiança/prescrição etc. \"Competência\" (5480) permanece como segunda opção por ser o contexto fático da decisão impugnada, mas não é o que a questão efetivamente avalia.",
+ "id": "Q0235",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.75,
+  "multi_tema": false,
+  "justificativa": "A questão testa o cabimento, prazo e efeito do recurso em sentido estrito (RESE) contra decisão sobre competência, nos termos do art. 581, III, c/c art. 586 do CPP. O instituto central avaliado é o recurso em sentido estrito (prazo de 5 dias, ausência de efeito suspensivo), que é subtema de \"Recursos em Espécies\" (nível 1, id 5560). A competência aparece apenas como contexto da decisão recorrida, não como o objeto do questionamento."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1573,
+  "cache_w": 37512,
+  "cache_r": 78694,
+  "custo_usd": 0.1918978
+ }
+}

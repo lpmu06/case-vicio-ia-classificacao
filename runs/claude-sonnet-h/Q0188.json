@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5228",
+ "subtema_n2_id": "5231",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.92,
+ "segunda_opcao_id": "5229",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "O ofendículo (arame eletrificado, cães de guarda, cacos de vidro em muro etc.) é classificado pela doutrina dominante como forma de legítima defesa preordenada, isto é, uma defesa predisposta contra agressão futura e eventual, cuja licitude se afere no momento em que entra em ação (quando repele a agressão injusta atual). Por isso o instituto exclui a ilicitude/antijuridicidade (alternativa A), confirmando o tema de nível 1 \"Teoria do Crime: Ilicitude\" (5228). Dentro dele, o subtema correto é especificamente \"Legítima Defesa\" (5231), já que a classificação doutrinária do ofendículo é expressamente como modalidade (preordenada) de legítima defesa, e não um tópico de teoria geral da ilicitude (5229) nem de estado de necessidade ou estrito cumprimento de dever legal.",
+ "id": "Q0188",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5228",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata do ofendículo, instituto classificado pela doutrina dominante como hipótese de legítima defesa preordenada, portanto causa de exclusão da ilicitude (antijuridicidade). O tema central é a Ilicitude (teoria do crime), correspondente ao tema de nível 1 \"Teoria do Crime: Ilicitude\" (subtema Legítima Defesa)."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1077,
+  "cache_w": 30945,
+  "cache_r": 78694,
+  "custo_usd": 0.1552518
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5492",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Todas as alternativas versam sobre hipóteses e regras de impedimento e suspeição do juiz (arts. 112, 252, 253, 254 e 256 do CPP), núcleo exato do subtema \"Exceção de Suspeição, de Impedimento ou de Incompatibilidade\" (5492), dentro do tema 5490. Não há menção a competência em si (5480), apenas ao instituto da imparcialidade do julgador, confirmando a classificação anterior com subtema definido.",
+ "id": "Q0169",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP3",
+  "segundo_grupo_id": null,
+  "confianca": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre impedimento e suspeição do juiz (arts. 252-254, CPP), tema classificado em \"Das Questões e Processos Incidentes\", pertencente ao grupo PP3 (Competência, questões e processos incidentes, comunicação dos atos) de Processo Penal."
+ },
+ "estagioB": {
+  "tema_n1_id": "5490",
+  "segunda_opcao_n1_id": "5480",
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "fora": false,
+  "justificativa": "A questão trata diretamente das causas de impedimento e suspeição do juiz (arts. 252-254 do CPP), matéria que se insere no tema \"Das Questões e Processos Incidentes\" (5490), especificamente no subtema \"Exceção de Suspeição, de Impedimento ou de Incompatibilidade\". Como a classificação em nível 1 abrange todos os subtemas, 5490 é a escolha correta e precisa. A segunda opção, Competência (5480), foi incluída por proximidade temática no grupo, mas não trata do instituto testado."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1432,
+  "cache_w": 16803,
+  "cache_r": 14150,
+  "custo_usd": 0.096057
+ }
+}

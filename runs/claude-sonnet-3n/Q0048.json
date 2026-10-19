@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "5193",
+ "extras_ids": [
+  "5193"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão cobra, em cada alternativa, aspectos de operacionalização do indulto e da comutação de pena no curso do cumprimento da pena: natureza da decisão concessiva, vedações de decretos presidenciais recentes quanto a crime comum em concurso com hediondo, efeitos da condenação extinta sobre reincidência futura, e sobretudo o efeito da falta disciplinar grave (dentro ou fora do período de referência do decreto) sobre o prazo aquisitivo do benefício — exatamente o tipo de discussão travada no juízo da execução à luz dos arts. 187 a 193 da LEP e da jurisprudência sobre falta grave e benefícios executórios (interrupção ou não de prazos, por analogia/distinção da Súmula 535 do STJ sobre livramento condicional). Embora indulto e comutação sejam dogmaticamente causas de extinção/modificação da punibilidade do art. 107, II, do CP (haveria aí o subtema específico Anistia, Graça e Indulto, 5193, dentro de Punibilidade, 5191), o enfoque fático-processual da questão — requisitos do decreto presidencial e efeitos da falta grave sobre o cômputo do prazo — é tipicamente tratado como matéria de execução penal nos cursos e bancos de questões, justificando a manutenção do tema 4703 como principal, com 5193 como segunda opção relevante. Não assinalo subtema de nível 2 em 4703 porque esse tema não possui subtemas; mantenho confiança moderada diante da divisão real entre as duas classificações possíveis.",
+ "id": "Q0048",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "LE4",
+  "segundo_grupo_id": "P3",
+  "confianca": 0.62,
+  "multi_tema": false,
+  "justificativa": "A questão trata de indulto e comutação de pena, institutos regulados pela LEP (arts. 188-193) e pelos decretos presidenciais de indulto, exigindo conhecimento de requisitos objetivos/subjetivos, efeitos da falta disciplinar grave sobre o prazo e abrangência da concessão — tema tipicamente estudado em Lei de Execução Penal (LE4). Alternativamente, poderia ser enquadrada em Punibilidade/Teoria da Pena (P3), já que indulto é causa extintiva/modificativa de pena tratada no CP, mas o enfoque prático (requisitos, falta grave, decreto presidencial) é mais afeto à execução penal."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4703",
+  "segunda_opcao_n1_id": "5191",
+  "confianca_ramo": 0.55,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre indulto e comutação de pena, exigindo conhecimento dos requisitos objetivos e subjetivos fixados em decreto presidencial, dos efeitos da falta disciplinar grave sobre o prazo aquisitivo e do alcance da concessão sobre os efeitos da condenação — matéria tradicionalmente estudada em sede de execução penal, à luz dos arts. 188 a 193 da LEP e da jurisprudência do STF/STJ sobre requisitos e falta grave no curso do cumprimento da pena (tema LE4 - Lei de Execução Penal). Ainda assim, indulto e comutação são, na sua essência dogmática, causas extintivas/modificativas da punibilidade previstas no Código Penal (art. 107, II), havendo no ramo Penal o subtema específico \"Anistia, Graça e Indulto\" dentro de Punibilidade (P3/5191), que é a segunda opção mais defensável. Mantenho a classificação anterior por entender que o enfoque das alternativas (requisitos do decreto, falta grave, interrupção/não interrupção de prazo) é eminentemente de execução penal, mas reconheço divisão real entre as duas classificações, o que justifica confiança moderada."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3107,
+  "cache_w": 51157,
+  "cache_r": 101498,
+  "custo_usd": 0.2662666
+ }
+}

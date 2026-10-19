@@ -1,0 +1,32 @@
+{
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.4,
+ "extras_ids": [
+  "5181"
+ ],
+ "fora": false,
+ "justificativa": "Confirmo o tema de nível 1 [5180] Lei Penal no Tempo e no Espaço, pois a questão versa sobre institutos centrais desse tema: frações de dia na pena, tempo do crime, homologação de sentença estrangeira, extraterritorialidade (art. 7º, CP) e aplicação a aeronaves/embarcações estrangeiras. Quanto ao subtema, a questão é internamente multi-tema dentro do próprio ramo: a alternativa B trata de tempo do crime (subtema 5181 - Lei Penal no Tempo), enquanto C, D e E tratam de sentença estrangeira, extraterritorialidade e embarcações/aeronaves (subtema 5182 - Lei Penal no Espaço), que é também o eixo do gabarito (alternativa D, sobre extraterritorialidade incondicionada do art. 7º, I). Como as alternativas se distribuem entre os dois subtemas sem um eixo único, não há certeza suficiente para cravar um subtema específico; opto por subtema_n2_id = null, indicando 5182 como segunda opção (mais próxima do gabarito) e 5181 como extra.",
+ "multi_tema": true,
+ "segunda_opcao_id": "5182",
+ "subtema_n2_id": null,
+ "tema_n1_id": "5180",
+ "id": "Q0303",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5180",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.97,
+  "multi_tema": false,
+  "justificativa": "A questão trata de institutos da Parte Geral do CP relativos à aplicação da lei penal: tempo do crime, extraterritorialidade (art. 7º), homologação de sentença estrangeira, frações de dia na pena e aplicação a embarcações/aeronaves estrangeiras — todos temas de Lei Penal no Tempo e no Espaço."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1537,
+  "cache_w": 27693,
+  "cache_r": 79634,
+  "custo_usd": 0.1469138
+ }
+}

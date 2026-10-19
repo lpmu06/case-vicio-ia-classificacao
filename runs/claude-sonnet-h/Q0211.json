@@ -1,0 +1,30 @@
+{
+ "confianca_ramo": 0.85,
+ "confianca_subtema": 0,
+ "extras_ids": [],
+ "fora": false,
+ "justificativa": "A questão trata da \"polícia das audiências\" (arts. 792 a 798 do CPP), tema relativo aos poderes de direção e disciplina do juiz sobre os atos processuais (publicidade, manutenção da ordem, retirada de pessoas da sala), bem como da garantia da publicidade dos atos. Isso se relaciona diretamente com as atribuições e poderes do juiz como sujeito do processo, não havendo subtema específico sobre \"polícia das audiências\" na árvore (o tema 5583 não possui subtemas). Por isso, mantém-se a classificação em nível 1 (5583 - Sujeitos do Processo), sem subtema.",
+ "multi_tema": false,
+ "segunda_opcao_id": null,
+ "subtema_n2_id": null,
+ "tema_n1_id": "5583",
+ "id": "Q0211",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5583",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.82,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre a polícia das audiências e a publicidade dos atos processuais, matéria tratada no CPP no capítulo relativo ao juiz e seus poderes de direção do processo (arts. 792, 794, 797 do CPP), correspondendo ao tema \"Sujeitos do Processo\", que abrange as atribuições do juiz, MP, acusado, defensor e auxiliares da Justiça. Não há subtema específico sobre polícia das audiências na árvore, por isso a classificação fica no nível 1."
+ },
+ "uso": {
+  "in": 4,
+  "out": 1146,
+  "cache_w": 28192,
+  "cache_r": 78694,
+  "custo_usd": 0.1435378
+ }
+}

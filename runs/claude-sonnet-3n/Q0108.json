@@ -1,0 +1,40 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5515",
+ "extras_ids": [
+  "5512"
+ ],
+ "multi_tema": false,
+ "justificativa": "A questão pede a identificação do recurso cabível (recurso em sentido estrito) contra decisão interlocutória que indefere o reconhecimento de prescrição antes da sentença, e seu efeito (devolutivo, sem suspensivo). Isso é exatamente o núcleo de 5561 (RESE), subtema de 5560, que trata do cabimento concreto de cada recurso em espécie contra decisões específicas do art. 581 do CPP. Não é teoria geral (5512/5515), pois a pergunta não exige apenas o conceito abstrato de efeito suspensivo, mas sim identificar corretamente a espécie recursal cabível no caso narrado e, a partir disso, seu efeito típico. Mantenho 5515 e 5512 como alternativas por conterem a disciplina geral de efeitos recursais, que pode confundir o classificador, mas o eixo central da questão é cabimento de RESE.",
+ "id": "Q0108",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "PP8",
+  "segundo_grupo_id": null,
+  "confianca": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão testa qual recurso cabe contra decisão interlocutória que indefere pedido de reconhecimento de prescrição em audiência (recurso em sentido estrito ou apelação, e seu efeito suspensivo), matéria de recursos no processo penal, cobrindo-se pelo tema de Recursos em Espécie/Parte Geral dos Recursos (PP8). Embora o contexto narrativo mencione prescrição (matéria penal), a pergunta não exige conhecer os prazos ou requisitos da prescrição, mas sim a disciplina recursal do CPP."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5560",
+  "segunda_opcao_n1_id": "5512",
+  "confianca_ramo": 0.72,
+  "multi_tema": false,
+  "justificativa": "A questão pergunta especificamente qual recurso é cabível (RESE x apelação x \"recurso inominado\") contra a decisão interlocutória que indefere o reconhecimento de prescrição em audiência, antes da sentença, e qual seu efeito. Isso é teste direto de hipótese de cabimento de recurso em espécie (RESE, art. 581, CPP, decisões anteriores à sentença), e não da teoria geral dos recursos (classificação, pressupostos abstratos, princípios). Por isso, o tema mais aderente é \"Recursos em Espécies\" (5560), que contém o subtema RESE e trata de cabimento/efeitos de cada recurso específico. Ainda assim, como a questão também envolve o conceito de efeito suspensivo (tema de Parte Geral dos Recursos, 5512), marco esse como segunda opção, pois a linha entre \"cabimento de RESE\" e \"efeitos dos recursos\" pode levar um colega classificador a escolher a Parte Geral. Mantenho confiança moderada-alta por essa sobreposição."
+ },
+ "uso": {
+  "in": 6,
+  "out": 3143,
+  "cache_w": 50720,
+  "cache_r": 101498,
+  "custo_usd": 0.2666536
+ }
+}

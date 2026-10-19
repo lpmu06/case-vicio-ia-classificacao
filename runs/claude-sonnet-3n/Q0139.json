@@ -1,0 +1,38 @@
+{
+ "fora": false,
+ "tema_n1_id": "5211",
+ "subtema_n2_id": "5217",
+ "confianca_ramo": 0.97,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5212",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A frase do enunciado descreve precisamente o conceito de coculpabilidade (menor exigibilidade de conduta diversa decorrente de condicionamentos sociais do agente), teoria expressamente listada nas palavras-chave do subtema \"Causas Supralegais de Exclusão da Culpabilidade\" (5217), que é filho do tema de nível 1 \"Teoria do Crime: Culpabilidade\" (5211), confirmado do estágio anterior. Embora a coculpabilidade seja um conceito doutrinário por vezes tratado separadamente de \"causa supralegal exculpante\" (alternativa A, que trata de outra figura), a árvore agrupa coculpabilidade dentro desse mesmo subtema, tornando a classificação adequada. As demais alternativas (normativo puro, psicológico-normativo, funcionalismo) são conceitos gerais de culpabilidade que se encaixariam no subtema 5212, reforçando que o eixo da questão permanece dentro do tema 5211, mas o gabarito específico (coculpabilidade) aponta para 5217 como subtema mais preciso. Mantida segunda opção em 5212 por caber discussão doutrinária sobre a classificação exata da coculpabilidade.",
+ "id": "Q0139",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "P2",
+  "segundo_grupo_id": null,
+  "confianca": 0.92,
+  "multi_tema": false,
+  "justificativa": "A questão trata do conceito de coculpabilidade, teoria que reconhece menor exigibilidade/autodeterminação de indivíduos marginalizados por condicionamentos sociais, inserindo-se no estudo da Culpabilidade (Teoria do Crime: Culpabilidade), coberto pelo grupo P2."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "5211",
+  "segunda_opcao_n1_id": null,
+  "confianca_ramo": 0.95,
+  "multi_tema": false,
+  "justificativa": "A questão testa diretamente o conceito de coculpabilidade (menor exigibilidade de conduta diversa decorrente de condicionamentos sociais), instituto doutrinário situado no estudo da Culpabilidade como terceiro substrato do crime, abrangido pelo tema de nível 1 \"Teoria do Crime: Culpabilidade\" (5211), especificamente no subtema de Conceito e Elementos da Culpabilidade/Causas Supralegais de Exclusão da Culpabilidade. As demais alternativas também versam sobre teorias/conceitos de culpabilidade (normativo puro, psicológico-normativo, funcionalismo), reforçando que o eixo da questão é integralmente a culpabilidade, sem necessidade de segunda opção."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1988,
+  "cache_w": 18014,
+  "cache_r": 19574,
+  "custo_usd": 0.10337779999999999
+ }
+}

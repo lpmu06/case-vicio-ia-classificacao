@@ -1,0 +1,30 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0,
+ "segunda_opcao_id": "4703",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "A questão pede a tipificação penal da conduta de introduzir aparelho de comunicação (chip de celular) em estabelecimento prisional sem autorização legal, que corresponde ao art. 349-A do CP, inserido pela Lei 12.012/2009 no Título XI do Código Penal (crimes praticados por particular contra a administração em geral). Trata-se, portanto, de tema de Direito Penal material - Crimes Contra a Administração Pública (5087), e não de execução penal (4703), pois o que se exige é o reconhecimento do nomen iuris do crime do CP, e não a disciplina de cumprimento de pena. Nenhum dos subtemas listados em 5087 corresponde especificamente ao art. 349-A (não se confunde com a prevaricação do diretor de penitenciária do art. 319-A, nem com desobediência/resistência/desacato do art. 329 a 331), de modo que não há subtema exato cadastrado para esse tipo penal específico - mantém-se subtema_n2_id = null. Como segunda opção, mantém-se a Lei de Execução Penal (4703) pela proximidade temática do cenário fático (ambiente prisional), ainda que o crime esteja tipificado no Código Penal.",
+ "id": "Q0223",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagio1": {
+  "fora": false,
+  "tema_n1_id": "5087",
+  "segunda_opcao_n1_id": "4703",
+  "confianca_ramo": 0.85,
+  "multi_tema": false,
+  "justificativa": "A questão versa sobre o art. 349-A do Código Penal (introduzir aparelho de comunicação em estabelecimento prisional sem autorização legal), tipo penal incluído pela Lei 12.012/2009 no Título XI do CP - crimes praticados por particular contra a administração em geral. Trata-se, portanto, de tema de Direito Penal material, especificamente dos Crimes Contra a Administração Pública, e não de processo penal ou de execução penal (ainda que o contexto fático envolva estabelecimento prisional, o que está sendo testado é a tipicidade/nomen iuris do crime do CP). Como segunda opção, cita-se Lei de Execução Penal pela proximidade temática do cenário (ambiente prisional), embora o crime em si esteja no Código Penal."
+ },
+ "uso": {
+  "in": 4,
+  "out": 2103,
+  "cache_w": 34423,
+  "cache_r": 78694,
+  "custo_usd": 0.18296479999999998
+ }
+}

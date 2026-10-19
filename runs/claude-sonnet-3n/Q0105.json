@@ -1,0 +1,40 @@
+{
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.72,
+ "extras_ids": [
+  "4378"
+ ],
+ "fora": false,
+ "justificativa": "Confirmo o tema de nível 1 [4385] Teorias Sociológicas Explicativas da Criminalidade: a assertiva testa o conteúdo doutrinário da criminologia cultural e sua relação com o labeling approach (etiquetamento social), ambas teorias sociológicas explicativas da criminalidade/reação social. Diferentemente da avaliação anterior, agora atribuo subtema de nível 2: trata-se de teoria(s) nominada(s) em espécie — criminologia cultural e paradigma do etiquetamento (Becker/Lemert) — com conceitos próprios cobrados (contracultura, representação periférica, atualização do labeling approach), o que se encaixa no critério de desempate de 4388 (\"se o enunciado cobra uma teoria específica... seus conceitos próprios, classifique em 4388\"). Não é 4386 (individual) nem apenas a categoria ampla de 4387, pois o enunciado nomeia explicitamente as teorias. Mantenho 4377 (Processos de Criminalização e Cifras Criminais, especificamente 4378) como segunda opção/extra, pois o enredo fático envolve seletividade penal (criminalização secundária), mas a pergunta em si é teórica sobre criminologia cultural e etiquetamento, não sobre o processo de seleção penal propriamente dito.",
+ "multi_tema": false,
+ "segunda_opcao_id": "4378",
+ "subtema_n2_id": "4388",
+ "tema_n1_id": "4385",
+ "id": "Q0105",
+ "modelo": "sonnet",
+ "provedor": "claude_cli",
+ "effort": "medium",
+ "estagioA": {
+  "fora": false,
+  "grupo_id": "C2",
+  "segundo_grupo_id": null,
+  "confianca": 0.72,
+  "multi_tema": false,
+  "justificativa": "A questão trata de criminologia cultural e sua relação com o paradigma do labeling approach (etiquetamento social) como teorias explicativas da criminalidade/reação social, tema que se enquadra em \"Teorias Sociológicas Explicativas da Criminalidade\" (grupo C2)."
+ },
+ "estagioB": {
+  "fora": false,
+  "tema_n1_id": "4385",
+  "segunda_opcao_n1_id": "4377",
+  "confianca_ramo": 0.88,
+  "multi_tema": false,
+  "justificativa": "A assertiva pede para julgar se a criminologia cultural analisa a pichação como ato de contracultura/representação periférica e se isso dialoga com o paradigma do etiquetamento social (labeling approach). Ambos são conteúdos centrais de \"Teorias Sociológicas Explicativas da Criminalidade\" (4385), tema guarda-chuva que abrange teorias criminológicas em espécie como a criminologia cultural e o labeling approach. O enredo da questão (seletividade racial na abordagem policial) remete também a \"Processos de Criminalização e Cifras Criminais\" (4377, criminalização secundária seletiva), por isso incluído como segunda opção; porém o enunciado específico cobrado é teórico (criminologia cultural + etiquetamento), não sobre seletividade penal em si, confirmando 4385 como tema principal."
+ },
+ "uso": {
+  "in": 6,
+  "out": 1818,
+  "cache_w": 47350,
+  "cache_r": 101498,
+  "custo_usd": 0.23559760000000002
+ }
+}
