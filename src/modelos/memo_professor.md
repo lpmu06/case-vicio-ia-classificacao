@@ -17,7 +17,7 @@ Estimamos que entre «PREC_LO_P» e «PREC_HI_P» das publicadas estão no tema 
 4. **Temas com nome de aula.** "Teoria da Pena (Parte 1)", "Competência (Parte 2)" e outros «N67_PARTES_M1» não dizem o que o aluno vai estudar. Não publicamos nada neles; se a equipe os usa, outras «N_PARTES» publicadas ficam em dúvida.
 5. **Temas-lixeira.** "Sistemas e Princípios Processuais Penais" e "Introdução ao Estudo do Direito Penal" acumulavam centenas de questões que não são sobre princípios nem introdução. Na nossa classificação, só 8 questões ficaram em temas desse tipo.
 6. **Temas sem descrição.** 337 dos 377 não dizem o que entra e o que não entra, e há erros de grafia nos títulos ("Crimonológicas", "Estaturo de Idoso", "Comeptência"). Escrevemos uma proposta de descrição para cada um, com artigos de lei e "não confundir com", em `data/temas_enriquecidos.json`.
-7. **Questões sem tema central.** Em «N_MT» questões, cada alternativa cobra um crime diferente. Hoje vão para a sua fila.
+7. **Questões sem tema central.** Em «N_MT_ARB» questões, cada alternativa cobra um crime diferente. Hoje vão para a sua fila.
 
 **O que recomendamos mudar.**
 - Manter um único tema por assunto e desativar os temas "(Parte N)" e as cópias.

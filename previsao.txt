@@ -1,5 +1,5 @@
 precisao_prevista: 0.95
-precisao_intervalo: 0.86-1.00
+precisao_intervalo: 0.86-0.99
 cobertura_prevista: 0.61
 cobertura_intervalo: 0.61-0.61
 
@@ -29,7 +29,8 @@ GPT-5.5, que é também o modelo da outra família. Por isso combinamos de forma
    são menos correlacionados, mas a amostra é pequena e ele também não conhece as convenções da equipe.
 
 3. Auditoria cega: 99.3% (amostra aleatória de 50 publicadas; 0 erro(s) e 1 dúvida(s)).
-   Um agente de IA com contexto limpo, sem acesso aos votos, às confianças ou às justificativas do pipeline, leu
+   Um agente Claude Opus, da mesma família dos classificadores, com contexto limpo e sem acesso aos votos, às
+   confianças ou às justificativas do pipeline, leu
    cada questão com a instrução de primeiro argumentar a favor de OUTRO tema e só depois dar o veredito. A amostra
    não repete nenhuma das 60 questões da primeira auditoria. Uma dúvida genuína conta como 0.33 de erro na
    estimativa central e como 1/2 na conservadora (99.0%; intervalo de 95% de 91.1% a 99.9%).

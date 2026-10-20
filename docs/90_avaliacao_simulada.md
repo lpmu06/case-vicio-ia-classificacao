@@ -189,7 +189,7 @@ O código faz o que o README diz e reproduz tudo. O que precisa mudar é o que v
 
 **Tirar antes de tornar público**
 
-- `estudo_movai.md`: caminhos `caminhos locais do empregador`, nomes de projeto do trabalho e resultados internos. Opções: `git rm --cached` mais `.gitignore`, mantendo no relatório a frase sobre "estudo anterior com andamentos processuais, 38%"; ou reescrever como `docs/licoes_estudo_anterior.md` com as três lições e nenhum caminho ou nome.
+- `estudo_movai.md`: caminhos locais e nomes de projeto do empregador, além de resultados internos. Opções: `git rm --cached` mais `.gitignore`, mantendo no relatório a frase sobre "estudo anterior com andamentos processuais, 38%"; ou reescrever como `docs/licoes_estudo_anterior.md` com as três lições e nenhum caminho ou nome.
 - `runs/gpt-5.5/_usage.json`: 11 mensagens de erro com o id da organização OpenAI. Apagar a lista `erros` ou trocar o id por `org-...`.
 - `runs/faltam.py`: script de bancada dentro de `runs/`. Apagar ou mover para `src/legado`.
 - Conferido e limpo: `keys.txt` nunca entrou no histórico; `.mypy_cache` e `__pycache__` ignorados; nenhum `sk-` nos arquivos rastreados.

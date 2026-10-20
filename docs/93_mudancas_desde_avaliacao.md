@@ -8,7 +8,7 @@
 |---|---|---|
 | Entrega principal | híbrido (69 no subtema) | nível 1 (0 no subtema); híbrido vira `publicacao_subtema.csv` |
 | Publicadas / revisar / fora | 217 / 140 / 2 | 218 / 140 / 1 |
-| Precisão prevista | 0,96 (0,85–0,99) | 0,95 (0,86–1,00) |
+| Precisão prevista | 0,96 (0,85–0,99) | 0,95 (0,86–0,99) |
 | Ponto da previsão | mediana de E1, E2 e E3 | média de E2 e E3 ajustados; E1 só como teto do intervalo |
 | E3 | 97,8% em 46 sobreviventes da auditoria que escolheu os limiares | 99,3% em 50 publicadas de uma auditoria cega nova (49 ok, 1 duvidoso, 0 erro); a antiga fica como "ancorada" |
 | E2 (GPT-5.5) | 39 de 39, com o GPT na regra de unanimidade | 39 de 39, com o GPT fora da regra (só rodadas completas votam) |
@@ -62,6 +62,6 @@ A avaliação punha o Jev em "não fazer hoje". Ele foi testado depois do fecham
 
 ## O que pedimos nesta revisão
 
-1. **A previsão de 0,95 (0,86–1,00) agora é honesta sobre as próprias hipóteses?** O limite superior continua sendo o teto do Dawid-Skene.
+1. **A previsão de 0,95 (0,86–0,99) agora é honesta sobre as próprias hipóteses?** O limite superior continua sendo o teto do Dawid-Skene.
 2. **Os acréscimos do Jev no relatório ajudam ou tiram o foco?** A seção a) e a cascata da seção c) mudaram, sempre dentro das 5 páginas.
 3. **Algum item de "o que não foi feito" vale antes da entrega?** O prazo combinado é meia-noite de 19/10.

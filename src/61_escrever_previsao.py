@@ -3,6 +3,7 @@
 Uso: python src/61_escrever_previsao.py
 """
 import json
+import math
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[1]
@@ -10,6 +11,11 @@ RAIZ = Path(__file__).resolve().parents[1]
 
 def pct(x):
     return f"{100 * x:.1f}%" if x is not None else "n/d"
+
+
+def piso2(x):
+    """Arredonda para baixo com dois decimais: o limite superior 0,999 vira 0,99, não 1,00."""
+    return math.floor(x * 100) / 100
 
 
 def main():
@@ -33,7 +39,8 @@ def main():
 
     if cega:
         bloco_e3 = f"""3. Auditoria cega: {pct(e3['taxa'])} (amostra aleatória de {e3['n']:g} publicadas; {e3['erros']} erro(s) e {e3['duvidosos']} dúvida(s)).
-   Um agente de IA com contexto limpo, sem acesso aos votos, às confianças ou às justificativas do pipeline, leu
+   Um agente Claude Opus, da mesma família dos classificadores, com contexto limpo e sem acesso aos votos, às
+   confianças ou às justificativas do pipeline, leu
    cada questão com a instrução de primeiro argumentar a favor de OUTRO tema e só depois dar o veredito. A amostra
    não repete nenhuma das 60 questões da primeira auditoria. Uma dúvida genuína conta como {r['peso_duvida']:.2f} de erro na
    estimativa central e como 1/2 na conservadora ({pct(e3['taxa_conservadora'])}; {ic(e3, 'wilson95_conservador')}).
@@ -50,7 +57,7 @@ def main():
    ({pct(e3['taxa_conservadora'])}; {ic(e3, 'wilson95_conservador')}). Vereditos em data/auditoria_ia.csv."""
 
     txt = f"""precisao_prevista: {r['precisao_prevista']:.2f}
-precisao_intervalo: {lo:.2f}-{hi:.2f}
+precisao_intervalo: {lo:.2f}-{piso2(hi):.2f}
 cobertura_prevista: {r['cobertura_prevista']:.2f}
 cobertura_intervalo: {clo:.2f}-{chi:.2f}
 

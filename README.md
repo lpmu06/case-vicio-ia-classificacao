@@ -6,7 +6,7 @@ Entrega do processo seletivo da área de IA. Classifica 359 questões de concurs
 |---|---|
 | Decisão por questão | [`publicacao.csv`](publicacao.csv): 218 publicadas (todas no tema de nível 1), 140 para revisão, 1 fora |
 | Variantes | [`publicacao_subtema.csv`](publicacao_subtema.csv) (versão híbrida: desce ao subtema quando a evidência é forte; a tentativa que não compensou pela régua) e [`publicacao_sem_duplicados.csv`](publicacao_sem_duplicados.csv) (os temas que têm um gêmeo 67xx na árvore vão para revisão) |
-| Previsão de precisão e cobertura | [`previsao.txt`](previsao.txt): precisão 0,95 (0,86 a 1,00), cobertura 0,61 |
+| Previsão de precisão e cobertura | [`previsao.txt`](previsao.txt): precisão 0,95 (0,86 a 0,99), cobertura 0,61 |
 | Relatório: raciocínio, diagnóstico, produção e memo (5 páginas) | [`docs/relatorio.pdf`](docs/relatorio.pdf) e [`docs/relatorio.md`](docs/relatorio.md) |
 | Memo para o professor (1 página) | [`docs/memo_professor.md`](docs/memo_professor.md) |
 | Anexos do relatório | [`docs/comparacao_metodos.md`](docs/comparacao_metodos.md), [`docs/embeddings.md`](docs/embeddings.md), [`docs/diagnostico.md`](docs/diagnostico.md), [`docs/sensibilidade.md`](docs/sensibilidade.md), [`docs/auditoria_cega_caderno.md`](docs/auditoria_cega_caderno.md) (auditoria cega) e [`docs/auditoria_caderno.md`](docs/auditoria_caderno.md) (primeira auditoria, usada para os limiares) |
@@ -73,7 +73,7 @@ Os passos de análise, sem nenhuma chamada a LLM, estão juntos em `rodar_analis
 3. **Vários classificadores independentes**: plano (árvore inteira em uma chamada), 2 estágios (tema, depois subtema) e 3 estágios (grupo, tema, subtema), com modelos de tamanhos diferentes.
 4. **Árbitro**: um modelo forte escolhe entre os candidatos de todos, embaralhados, sem saber qual é a maioria.
 5. **Decisão**: publica só quando o árbitro e os dois classificadores principais concordam no ramo, com confiança e maioria suficientes; exige unanimidade das rodadas completas nos ramos que os modelos costumam confundir entre si; publica sempre no tema de nível 1, o que é correto pela régua sempre que o ramo está certo (a variante `publicacao_subtema.csv` desce ao subtema quando a evidência é forte). O resto vai para revisar, com a sugestão do árbitro e o motivo; `fora` só quando o árbitro e os dois classificadores dizem fora com confiança alta.
-6. **Previsão sem gabarito**: quatro estimadores, com as hipóteses declaradas, combinados de forma conservadora. Detalhes no relatório.
+6. **Previsão sem gabarito**: três estimadores e dois descontos, com as hipóteses declaradas, combinados de forma conservadora. Detalhes no relatório.
 
 ## Decisões tomadas à mão
 
@@ -92,4 +92,4 @@ Todas registradas com data e motivo na seção 10 do [diário de bordo](docs/00_
 | Outra família | GPT-5.5 | 63, até acabar o crédito |
 | Embeddings | 8 modelos locais (Legal-BERTimbau, JurisBERT, BERTimbau, mpnet, E5, bge-m3, mxbai) | 359 |
 
-O trabalho foi feito entre 16/10 e 19/10/2026. Os modelos Claude rodaram pelo Claude Code numa assinatura, sem custo marginal; o tempo de máquina das rodadas foi de algumas horas cada (o árbitro, 4,8 h), por dividir a cota entre rodadas paralelas. A preço de lista da API, com cache, o pipeline final (Opus plano, Sonnet 2 estágios e árbitro) custaria cerca de US$ 45 para as 359 questões, ou US$ 23 pela API em lote (soma das três linhas da tabela de métodos, reconstruída pelo `42_comparar_metodos.py`); em produção, a cascata proposta no relatório fica perto de US$ 0,03 por questão. Detalhes por método em [`docs/comparacao_metodos.md`](docs/comparacao_metodos.md).
+O trabalho foi feito entre 16/10 e 19/10/2026. Os modelos Claude rodaram pelo Claude Code numa assinatura, sem custo marginal; o tempo de máquina das rodadas foi de algumas horas cada (o árbitro, 4,8 h), por dividir a cota entre rodadas paralelas. A preço de lista da API, com cache, o pipeline final (Opus plano, Sonnet 2 estágios e árbitro) custaria cerca de US$ 45 para as 359 questões, ou US$ 23 pela API em lote (soma das três linhas da tabela de métodos, reconstruída pelo `42_comparar_metodos.py`); em produção, a cascata proposta no relatório fica perto de US$ 0,025 por questão. Detalhes por método em [`docs/comparacao_metodos.md`](docs/comparacao_metodos.md).

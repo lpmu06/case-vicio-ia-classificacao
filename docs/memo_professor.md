@@ -8,7 +8,7 @@
 |---|---|---|
 | 218 | 140 | 1 |
 
-Estimamos que entre 86% e 100% das publicadas estão no tema certo, mais provavelmente perto de 96%. Sem gabarito, é uma estimativa; o relatório explica como chegamos a ela.
+Estimamos que entre 86% e 99% das publicadas estão no tema certo, mais provavelmente perto de 96%. Sem gabarito, é uma estimativa; o relatório explica como chegamos a ela.
 
 **O que atrapalha a classificação, sua e da máquina.**
 1. **Temas duplicados.** Lei Maria da Penha, Tráfico de Drogas, Lavagem de Dinheiro, Lei de Execução Penal e outros existem em dois lugares. Quem estuda um não vê as questões do outro. Usamos sempre o tema com histórico; se a equipe usa as cópias recentes, essa é a informação que mais muda o resultado: são 46 das 218 publicadas.
@@ -17,7 +17,7 @@ Estimamos que entre 86% e 100% das publicadas estão no tema certo, mais provave
 4. **Temas com nome de aula.** "Teoria da Pena (Parte 1)", "Competência (Parte 2)" e outros 9 não dizem o que o aluno vai estudar. Não publicamos nada neles; se a equipe os usa, outras 45 publicadas ficam em dúvida.
 5. **Temas-lixeira.** "Sistemas e Princípios Processuais Penais" e "Introdução ao Estudo do Direito Penal" acumulavam centenas de questões que não são sobre princípios nem introdução. Na nossa classificação, só 8 questões ficaram em temas desse tipo.
 6. **Temas sem descrição.** 337 dos 377 não dizem o que entra e o que não entra, e há erros de grafia nos títulos ("Crimonológicas", "Estaturo de Idoso", "Comeptência"). Escrevemos uma proposta de descrição para cada um, com artigos de lei e "não confundir com", em `data/temas_enriquecidos.json`.
-7. **Questões sem tema central.** Em 122 questões, cada alternativa cobra um crime diferente. Hoje vão para a sua fila.
+7. **Questões sem tema central.** Em 44 questões, cada alternativa cobra um crime diferente. Hoje vão para a sua fila.
 
 **O que recomendamos mudar.**
 - Manter um único tema por assunto e desativar os temas "(Parte N)" e as cópias.

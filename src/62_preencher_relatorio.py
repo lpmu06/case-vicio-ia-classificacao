@@ -5,6 +5,7 @@ números velhos.
 Uso: python src/62_preencher_relatorio.py
 """
 import json
+import math
 import re
 import sys
 from collections import Counter
@@ -26,6 +27,11 @@ def p0(x):
 
 def dec2(x):
     return f"{x:.2f}".replace(".", ",")
+
+
+def piso2(x):
+    """Arredonda para baixo com dois decimais (o limite superior 0,999 vira 0,99, não 1,00)."""
+    return math.floor(x * 100) / 100
 
 
 def milhar(x):
@@ -63,6 +69,8 @@ def main():
     n_disc = sum("instituto diferente" not in d["motivo"] and "não concordam" in d["motivo"] for d in rev)
     n_front = sum("instituto diferente" not in d["motivo"] and "não concordam" not in d["motivo"]
                   and ("fronteira" in d["motivo"] or "costumam confundir" in d["motivo"]) for d in rev)
+    n_fora_duv = sum(d["motivo"].startswith("dúvida entre 'fora'") for d in rev)
+    n_mt_arb = sum(1 for d in dec if d["arbitro"] and d["arbitro"]["multi"])  # multi-tema segundo o árbitro
     taxa_rev = len(rev) / len(dec)
     fila_semana = round(taxa_rev * 50000, -2)
     minutos = len(rev)
@@ -77,7 +85,7 @@ def main():
     # E3: cega (v2) ou ancorada (v1)
     e3, anc = prev["E3_auditoria"], prev.get("E3_ancorada")
     if e3.get("cega"):
-        e3_desc = (f"Auditoria cega, por um agente de IA com contexto limpo, de {e3['n']:g} publicadas sorteadas fora das 60 da "
+        e3_desc = (f"Auditoria cega, por um agente Claude Opus (mesma família dos classificadores) com contexto limpo, de {e3['n']:g} publicadas sorteadas fora das 60 da "
                    f"primeira auditoria ([caderno](auditoria_cega_caderno.md), [instruções](../prompts/auditoria_cega.md))")
         e3_hip = (f"Quem primeiro argumenta a favor de outro tema acha os erros visíveis; dúvida conta 1/3 de erro. "
                   f"Resultado: {e3['erros']} erro(s), {e3['duvidosos']} dúvida(s)")
@@ -104,8 +112,12 @@ def main():
     v = {
         "PUB": str(prev["publicadas"]), "COB": p1(prev["cobertura_prevista"]), "PUB2": str(prev["publicadas_nivel2"]),
         "PUB1": str(prev["publicadas"] - prev["publicadas_nivel2"]), "REV": str(c["revisar"]), "FORA": str(c["fora"]),
-        "PREC": dec2(prev["precisao_prevista"]), "PREC_LO": dec2(prev["precisao_intervalo"][0]), "PREC_HI": dec2(prev["precisao_intervalo"][1]),
-        "PREC_P": p0(prev["precisao_prevista"]), "PREC_LO_P": p0(prev["precisao_intervalo"][0]), "PREC_HI_P": p0(prev["precisao_intervalo"][1]),
+        "PREC": dec2(prev["precisao_prevista"]), "PREC_LO": dec2(prev["precisao_intervalo"][0]), "PREC_HI": dec2(piso2(prev["precisao_intervalo"][1])),
+        "PREC_P": p0(prev["precisao_prevista"]), "PREC_LO_P": p0(prev["precisao_intervalo"][0]), "PREC_HI_P": p0(piso2(prev["precisao_intervalo"][1])),
+        "PREC_CMP_SUB": (f"igual, {prev['precisao_prevista']:.3f} nas duas".replace(".", ",")
+                         if round(prev_sub["precisao_prevista"], 3) == round(prev["precisao_prevista"], 3)
+                         else f"{dec2(prev_sub['precisao_prevista'])} contra {dec2(prev['precisao_prevista'])}"),
+        "N_MT_ARB": str(n_mt_arb), "REV_FORA": str(n_fora_duv),
         "VAR_PUB": str(prev_sd["publicadas"]), "VAR_COB": p1(prev_sd["cobertura_prevista"]), "VAR_PREC": dec2(prev_sd["precisao_prevista"]),
         "PUB2_SUB": str(prev_sub["publicadas_nivel2"]), "PREC_SUB": dec2(prev_sub["precisao_prevista"]),
         "E1": p1(prev["E1_independencia"]), "E2": f"{prev['E2_outra_familia']['acertos']} de {prev['E2_outra_familia']['n']}",
@@ -117,6 +129,8 @@ def main():
         "SENS_MIN": dec2(min(sens)), "SENS_MAX": dec2(max(sens)),
         "N67": str(len(buckets)), "N67_COPIAS": str(len(b_copia)), "N67_PARTES": str(len(b_parte)),
         "N67_PARTES_M1": str(len(b_parte) - 2), "N67_RESTO": str(len(buckets) - len(b_copia) - len(b_parte)),
+        "N67_RESTO_TXT": (f"; {len(buckets) - len(b_copia) - len(b_parte)} estão inativos ou sem par"
+                          if len(buckets) - len(b_copia) - len(b_parte) else ""),
         "LOO_OPUS": loo_txt("claude-opus"), "LOO_SONNET_P": loo_txt("claude-sonnet-plano"), "LOO_OPUS_H": loo_txt("claude-opus-h"),
         "LOO_SONNET_H": loo_txt("claude-sonnet-h"), "LOO_HAIKU_H": loo_txt("claude-haiku-h"), "LOO_S3N": loo_txt("claude-sonnet-3n"),
         "LOO_HAIKU_3N": loo_txt("claude-haiku-3n"), "LOO_ARB": loo_txt("arbitro-opus"), "LOO_JEV": loo_txt("jev-h-ricos"),
