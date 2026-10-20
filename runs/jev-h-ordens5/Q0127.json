@@ -1,0 +1,51 @@
+{
+ "fora": false,
+ "tema_n1_id": "5580",
+ "subtema_n2_id": "5581",
+ "confianca_ramo": 0.68,
+ "confianca_subtema": 0.596,
+ "segunda_opcao_id": "4708",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Sistemas e Princípios Processuais Penais', 0.68), ('Tráfico de Drogas', 0.134), ('Sentença Penal', 0.102)]; confiança 0.68",
+ "confianca_estagio1": 0.6764044943820225,
+ "probabilidades_estagio1": {
+  "5580": 0.68,
+  "4708": 0.134,
+  "5572": 0.10199999999999998,
+  "5583": 0.038,
+  "5466": 0.03200000000000001,
+  "5063": 0.008,
+  "4693": 0.006,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.134,
+  "5582": 0.26999999999999996,
+  "5581": 0.596
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5580",
+  "5580",
+  "5580",
+  "5580",
+  "5580"
+ ],
+ "id": "Q0127",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 57250,
+  "output_tokens": 5290,
+  "modelo": "jev-1.13.0"
+ }
+}

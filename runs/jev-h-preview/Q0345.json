@@ -1,0 +1,50 @@
+{
+ "fora": false,
+ "tema_n1_id": "5102",
+ "subtema_n2_id": "5103",
+ "confianca_ramo": 0.9400000000000001,
+ "confianca_subtema": 0.54,
+ "segunda_opcao_id": "5175",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra a Dignidade Sexual', 0.94), ('Iter Criminis', 0.02), ('Teoria da Pena', 0.02)]; confiança 0.94",
+ "confianca_estagio1": 0.9393258426966292,
+ "probabilidades_estagio1": {
+  "5102": 0.9400000000000001,
+  "5175": 0.02,
+  "5199": 0.02,
+  "5218": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.03,
+  "5106": 0.01,
+  "5108": 0.01,
+  "5110": 0.23,
+  "5103": 0.54,
+  "5105": 0.17,
+  "5109": 0.0,
+  "5107": 0.0,
+  "5104": 0.0
+ },
+ "id": "Q0345",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11985,
+  "output_tokens": 1124,
+  "modelo": "jev-1.14.0"
+ }
+}

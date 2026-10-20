@@ -1,0 +1,72 @@
+{
+ "fora": false,
+ "tema_n1_id": "5063",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.35000000000000003,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5157",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Ação Penal (Penal)', 0.35), ('Dos Crimes Contra o Patrimônio', 0.18), ('Teoria do Crime: Fato Típico', 0.16)]; confiança 0.34",
+ "confianca_estagio1": 0.34269662921348315,
+ "probabilidades_estagio1": {
+  "5063": 0.35000000000000003,
+  "5157": 0.18000000000000002,
+  "5218": 0.16,
+  "4709": 0.14,
+  "5128": 0.06999999999999999,
+  "5466": 0.04,
+  "FORA": 0.02,
+  "4700": 0.01,
+  "5102": 0.01,
+  "5134": 0.01
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.64,
+  "5065": 0.01,
+  "5064": 0.35
+ },
+ "folhas_beam": [
+  {
+   "tema": "5063",
+   "subtema": null,
+   "pontuacao": 0.4733
+  },
+  {
+   "tema": "5157",
+   "subtema": null,
+   "pontuacao": 0.3771
+  },
+  {
+   "tema": "5063",
+   "subtema": "5064",
+   "pontuacao": 0.35
+  },
+  {
+   "tema": "5218",
+   "subtema": null,
+   "pontuacao": 0.337
+  },
+  {
+   "tema": "5157",
+   "subtema": "5166",
+   "pontuacao": 0.1944
+  }
+ ],
+ "ramo_guloso": "5063",
+ "id": "Q0174",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 14101,
+  "output_tokens": 1338,
+  "modelo": "jev-1.13.0"
+ }
+}

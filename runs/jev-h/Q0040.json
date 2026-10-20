@@ -1,0 +1,53 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5562",
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 1.0,
+ "segunda_opcao_id": "5524",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Recursos em Espécies', 0.6), ('Procedimento do Tribunal do Júri', 0.28), ('Parte Geral dos Recursos', 0.09)]; confiança 0.60",
+ "confianca_estagio1": 0.5955056179775281,
+ "probabilidades_estagio1": {
+  "5560": 0.6,
+  "5524": 0.28,
+  "5512": 0.09,
+  "5517": 0.02,
+  "5476": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5566": 0.0,
+  "5562": 1.0,
+  "5567": 0.0,
+  "5568": 0.0,
+  "5564": 0.0,
+  "5565": 0.0,
+  "5563": 0.0,
+  "5571": 0.0,
+  "5570": 0.0,
+  "5561": 0.0,
+  "5569": 0.0
+ },
+ "id": "Q0040",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11553,
+  "output_tokens": 1157,
+  "modelo": "jev-1.13.0"
+ }
+}

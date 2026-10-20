@@ -1,0 +1,52 @@
+{
+ "fora": false,
+ "tema_n1_id": "5476",
+ "subtema_n2_id": "5477",
+ "confianca_ramo": 0.8799999999999999,
+ "confianca_subtema": 0.978,
+ "segunda_opcao_id": "4709",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Ações Autônomas de Impugnação', 0.88), ('Violência contra Criança e Adolescente', 0.066), ('fora', 0.04)]; confiança 0.88",
+ "confianca_estagio1": 0.8786516853932583,
+ "probabilidades_estagio1": {
+  "5476": 0.8799999999999999,
+  "4709": 0.06599999999999999,
+  "FORA": 0.04,
+  "5560": 0.008,
+  "5184": 0.004,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.022,
+  "5477": 0.978,
+  "5479": 0.0,
+  "5478": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5476",
+  "5476",
+  "5476",
+  "5476",
+  "5476"
+ ],
+ "id": "Q0014",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 52485,
+  "output_tokens": 5345,
+  "modelo": "jev-1.13.0"
+ }
+}

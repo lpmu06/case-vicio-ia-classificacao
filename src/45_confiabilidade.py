@@ -22,7 +22,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from comum import Arvore, RAIZ, carregar_rodada, carregar_questoes, carregar_origem
 
-PADRAO = "claude-opus,claude-sonnet-h,claude-sonnet-3n,claude-haiku-h,claude-haiku-3n,claude-sonnet-plano,claude-opus-h,gpt-5.5,jev-h"
+# o Jev fica fora: entra só como estudo (decisão do Luis, 19/10/2026; docs/jev.md)
+PADRAO = "claude-opus,claude-sonnet-h,claude-sonnet-3n,claude-haiku-h,claude-haiku-3n,claude-sonnet-plano,claude-opus-h,gpt-5.5"
 
 
 def main():

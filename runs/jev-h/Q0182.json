@@ -1,0 +1,47 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.66,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5120",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Concurso de Pessoas', 0.66), ('Dos Crimes Contra a Honra', 0.09), ('Das Lesões Corporais', 0.08)]; confiança 0.66",
+ "confianca_estagio1": 0.6561797752808989,
+ "probabilidades_estagio1": {
+  "5071": 0.66,
+  "5120": 0.09,
+  "5077": 0.08,
+  "5138": 0.060000000000000005,
+  "5144": 0.03,
+  "5149": 0.03,
+  "5218": 0.02,
+  "5170": 0.01,
+  "FORA": 0.01,
+  "4366": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.49,
+  "5072": 0.07,
+  "5073": 0.0,
+  "5076": 0.19,
+  "5075": 0.02,
+  "5074": 0.23
+ },
+ "id": "Q0182",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11133,
+  "output_tokens": 1088,
+  "modelo": "jev-1.13.0"
+ }
+}

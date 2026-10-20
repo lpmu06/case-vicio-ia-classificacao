@@ -1,0 +1,51 @@
+{
+ "fora": false,
+ "tema_n1_id": "5487",
+ "subtema_n2_id": "5488",
+ "confianca_ramo": 0.9960000000000001,
+ "confianca_subtema": 1.0,
+ "segunda_opcao_id": "5185",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Comunicação dos Atos Processuais', 0.996), ('Prescrição', 0.002), ('Teoria Geral das Provas', 0.002)]; confiança 1.00",
+ "confianca_estagio1": 0.9959550561797754,
+ "probabilidades_estagio1": {
+  "5487": 0.9960000000000001,
+  "5185": 0.002,
+  "5590": 0.002,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5488": 1.0,
+  "5489": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5487",
+  "5487",
+  "5487",
+  "5487",
+  "5487"
+ ],
+ "id": "Q0311",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 52895,
+  "output_tokens": 5290,
+  "modelo": "jev-1.13.0"
+ }
+}

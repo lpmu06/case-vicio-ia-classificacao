@@ -1,0 +1,81 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.64,
+ "confianca_subtema": 0.78,
+ "segunda_opcao_id": "5572",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Recursos em Espécies', 0.64), ('Sentença Penal', 0.15), ('Parte Geral dos Recursos', 0.09)]; confiança 0.64",
+ "confianca_estagio1": 0.6359550561797753,
+ "probabilidades_estagio1": {
+  "5560": 0.64,
+  "5572": 0.15000000000000002,
+  "5512": 0.09,
+  "5466": 0.060000000000000005,
+  "5476": 0.02,
+  "5583": 0.01,
+  "5584": 0.01,
+  "5590": 0.01,
+  "4366": 0.0,
+  "4367": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.02,
+  "5566": 0.0,
+  "5562": 0.19,
+  "5567": 0.0,
+  "5568": 0.01,
+  "5564": 0.0,
+  "5565": 0.0,
+  "5563": 0.0,
+  "5571": 0.0,
+  "5570": 0.0,
+  "5561": 0.78,
+  "5569": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5560",
+   "subtema": "5561",
+   "pontuacao": 0.7065
+  },
+  {
+   "tema": "5560",
+   "subtema": "5562",
+   "pontuacao": 0.3487
+  },
+  {
+   "tema": "5572",
+   "subtema": "5574",
+   "pontuacao": 0.2872
+  },
+  {
+   "tema": "5572",
+   "subtema": "5573",
+   "pontuacao": 0.248
+  },
+  {
+   "tema": "5512",
+   "subtema": "5516",
+   "pontuacao": 0.18
+  }
+ ],
+ "ramo_guloso": "5560",
+ "id": "Q0003",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 14039,
+  "output_tokens": 1336,
+  "modelo": "jev-1.13.0"
+ }
+}

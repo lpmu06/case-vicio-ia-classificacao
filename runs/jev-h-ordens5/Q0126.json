@@ -1,0 +1,52 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.4640000000000001,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5218",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Lei Penal no Tempo e no Espaço', 0.464), ('Teoria do Crime: Fato Típico', 0.254), ('Introdução ao Estudo do Direito Penal', 0.128)]; confiança 0.46",
+ "confianca_estagio1": 0.4579775280898877,
+ "probabilidades_estagio1": {
+  "5180": 0.4640000000000001,
+  "5218": 0.254,
+  "5170": 0.128,
+  "5211": 0.10200000000000001,
+  "5071": 0.02,
+  "FORA": 0.018,
+  "5116": 0.004,
+  "5228": 0.004,
+  "4377": 0.002,
+  "5087": 0.002
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.79,
+  "5183": 0.01,
+  "5182": 0.196,
+  "5181": 0.004
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5180",
+  "5180",
+  "5218",
+  "5180",
+  "5180"
+ ],
+ "id": "Q0126",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 54000,
+  "output_tokens": 5330,
+  "modelo": "jev-1.13.0"
+ }
+}

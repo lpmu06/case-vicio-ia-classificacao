@@ -1,0 +1,21 @@
+{
+ "id": "Q0119",
+ "candidatos": [
+  "5180",
+  "5191"
+ ],
+ "ramo_arbitro": "5180",
+ "probabilidades": {
+  "5180": 0.94,
+  "5191": 0.06
+ },
+ "escolha": "5180",
+ "p_escolha": 0.94,
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 2606,
+  "output_tokens": 0,
+  "modelo": "jev-1.13.0"
+ },
+ "promovida": true
+}

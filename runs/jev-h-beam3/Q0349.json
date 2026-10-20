@@ -1,0 +1,82 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5160",
+ "confianca_ramo": 0.42,
+ "confianca_subtema": 0.91,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra o Patrimônio', 0.42), ('Teoria da Pena', 0.35), ('Iter Criminis', 0.23)]; confiança 0.41",
+ "confianca_estagio1": 0.4134831460674157,
+ "probabilidades_estagio1": {
+  "5157": 0.42,
+  "5199": 0.35000000000000003,
+  "5175": 0.23,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5158": 0.09,
+  "5167": 0.0,
+  "5165": 0.0,
+  "5164": 0.0,
+  "5162": 0.0,
+  "5166": 0.0,
+  "5161": 0.0,
+  "5168": 0.0,
+  "5159": 0.0,
+  "5169": 0.0,
+  "5160": 0.91,
+  "5163": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5157",
+   "subtema": "5160",
+   "pontuacao": 0.6182
+  },
+  {
+   "tema": "5199",
+   "subtema": "5204",
+   "pontuacao": 0.5766
+  },
+  {
+   "tema": "5175",
+   "subtema": "5178",
+   "pontuacao": 0.4772
+  },
+  {
+   "tema": "5157",
+   "subtema": "5158",
+   "pontuacao": 0.1944
+  },
+  {
+   "tema": "5199",
+   "subtema": "5203",
+   "pontuacao": 0.1323
+  }
+ ],
+ "ramo_guloso": "5157",
+ "id": "Q0349",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 14198,
+  "output_tokens": 1391,
+  "modelo": "jev-1.13.0"
+ }
+}

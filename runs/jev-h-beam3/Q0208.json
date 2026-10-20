@@ -1,0 +1,75 @@
+{
+ "fora": false,
+ "tema_n1_id": "5149",
+ "subtema_n2_id": "5150",
+ "confianca_ramo": 0.41000000000000003,
+ "confianca_subtema": 0.98,
+ "segunda_opcao_id": "5228",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra a Vida', 0.41), ('Teoria do Crime: Ilicitude', 0.33), ('Teoria do Crime: Fato Típico', 0.1)]; confiança 0.40",
+ "confianca_estagio1": 0.40337078651685393,
+ "probabilidades_estagio1": {
+  "5149": 0.41000000000000003,
+  "5228": 0.33,
+  "5218": 0.09999999999999999,
+  "5524": 0.06999999999999999,
+  "5071": 0.04,
+  "4366": 0.02,
+  "5175": 0.02,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.02,
+  "5154": 0.0,
+  "5151": 0.0,
+  "5150": 0.98,
+  "5152": 0.0,
+  "5153": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5149",
+   "subtema": "5150",
+   "pontuacao": 0.6339
+  },
+  {
+   "tema": "5228",
+   "subtema": "5231",
+   "pontuacao": 0.5073
+  },
+  {
+   "tema": "5228",
+   "subtema": null,
+   "pontuacao": 0.2569
+  },
+  {
+   "tema": "5218",
+   "subtema": null,
+   "pontuacao": 0.2145
+  },
+  {
+   "tema": "5218",
+   "subtema": "5226",
+   "pontuacao": 0.1304
+  }
+ ],
+ "ramo_guloso": "5149",
+ "id": "Q0208",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 13987,
+  "output_tokens": 1300,
+  "modelo": "jev-1.13.0"
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "segundos": 27,
+ "erros": [],
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "modelo_resolvido": [
+  "jev-1.14.0"
+ ],
+ "questoes": 359,
+ "chamadas": 630,
+ "tokens_entrada": 3907548,
+ "custo_usd": 0.1641
+}

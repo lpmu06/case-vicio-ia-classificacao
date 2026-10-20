@@ -4,7 +4,7 @@ Origem: `docs/90_avaliacao_simulada.md` (avaliação simulada, lida e aceita com
 
 ## Status em 19/10 às 19h30
 
-Blocos A, B, C, D e E executados e commitados (um commit por bloco; o bloco A foi feito por uma sessão paralela e complementado depois). Bloco F executado: entrega final commitada e enviada ao repositório privado. Bloco G aguarda a chave do Jev. Pendentes do Luis: tornar o repositório público, enviar o e-mail (rascunho em `docs/92_email_entrega.md`), revogar as chaves de `keys.txt`, providenciar a chave do Jev.
+Blocos A, B, C, D e E executados e commitados (um commit por bloco; o bloco A foi feito por uma sessão paralela e complementado depois). Bloco F executado: entrega final commitada e enviada ao repositório privado. Bloco G executado em 19/10 à noite, com a chave do Jev: o Jev entra só como estudo (relatório, comparação de métodos e `docs/jev.md`), fora da regra de publicação e da previsão. Pendentes do Luis: tornar o repositório público, enviar o e-mail (rascunho em `docs/92_email_entrega.md`), revogar as chaves de `keys.txt`.
 
 ## Regras de execução (valem para todos os itens)
 
@@ -135,14 +135,14 @@ Motivo: o Jev é uma tecnologia nova feita para classificação estruturada, com
 - Pré-requisito: linha `typesafe = ...` em `keys.txt` (não versionado).
 - Como: `python src/33_classificar_jev.py` (integração pronta: 2 estágios, tema de nível 1 entre até 255 opções com descrição, depois subtema; saída em `runs/jev-h/`). Testar primeiro com `--limite 3`, conferir o JSON de uma questão (escolha, probabilidades, confiança), depois rodar as 359. Registrar tokens e custo (preço de lista: entrada quase zero, saída grátis).
 - Verificação: `ls runs/jev-h | grep -c '^Q'` = 359; `_usage.json` com erros = 0.
-- [ ] feito
+- [x] feito (19/10 22h). Além da base, quatro variantes de um fator cada, todas nas 359 (decisão do Luis): `jev-preview`, critérios ricos, beam K=3 e 5 ordens embaralhadas, em `runs/jev-h*`. 0 erros; US$ 1,82 no total. Só os critérios ricos ajudam (85,8% contra 79,7% de concordância com a maioria dos não-Jev).
 
 ### G2. Jev na comparação e nas estimativas
 - `42_comparar_metodos.py`, `45_confiabilidade.py` e `47_decisao.py` já listam `jev-h`; ele entra automaticamente na tabela de métodos, no Dawid-Skene e nos pares confundíveis. Não entra como votante da regra de publicação (a regra fecha com Opus plano, Sonnet 2 estágios e árbitro); fica como anotador de outra família.
 - Medir e escrever no relatório: concordância do Jev com o consenso (leave-one-out na amostra 2×2 e nas 359), calibração das probabilidades dele (acurácia contra o consenso por faixa de confiança, em `docs/jev.md`), custo por questão. Se a calibração for boa, propor na seção c) o Jev como "segunda opinião de outra família" na cascata, no lugar do modelo pequeno.
 - `src/modelos/relatorio.md`: parágrafo na seção a) (o que é, por que testamos, o que deu) e marcadores `LOO_JEV`, `JEV_CALIB` em `62_preencher_relatorio.py`.
 - Verificação: `docs/comparacao_metodos.md` tem a linha `jev-h`; `docs/jev.md` existe; PDF segue com 5 páginas.
-- [ ] feito
+- [x] feito, com desvio (19/10 22h50). Medido o efeito do previsto acima: com o `jev-h` no Dawid-Skene e nos pares confundíveis, 7 publicadas iriam para revisão e a precisão prevista passaria de 0,95 a 0,96. Decisão do Luis: o Jev entra só como estudo; sai das listas do 45 e do 47 e da média de subtema do 60, e na comparação de métodos entra a variante de critérios ricos (`jev-h-ricos`), com tokens reais da API e fora da maioria dos outros. Avaliação em `src/50_avaliar_jev.py` → `docs/jev.md` (variantes, calibração, ruído, viés de ordem, cascata). Teste extra, ideia do Luis: o Jev como desempate entre os candidatos das questões em revisão (`src/51_jev_desempate.py`), com regra fixada antes e auditoria cega com 40 controles: 26 de 39 promovidas passaram contra 39 de 40 controles; descartado. Relatório: linha na tabela da seção a), frase em becos sem saída, Jev como segunda opinião na cascata da seção c) (total de US$ 0,03 para 0,025 por questão). Entregáveis idênticos aos do bloco F; PDF com 5 páginas.
 
 ### G3. Se a chave não chegar antes do fechamento
 - O relatório mantém o parágrafo "o que faríamos com mais tempo" citando o Jev com a integração pronta, e a seção 8 da avaliação registra a frente. Nada mais.

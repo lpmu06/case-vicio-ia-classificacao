@@ -1,0 +1,84 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5100",
+ "confianca_ramo": 0.44,
+ "confianca_subtema": 0.99,
+ "segunda_opcao_id": "5128",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra a Administração Pública', 0.44), ('Dos Crimes Contra a Liberdade Pessoal', 0.27), ('Lei Maria da Penha', 0.1)]; confiança 0.43",
+ "confianca_estagio1": 0.4337078651685393,
+ "probabilidades_estagio1": {
+  "5087": 0.44,
+  "5128": 0.27,
+  "4704": 0.09999999999999999,
+  "5218": 0.060000000000000005,
+  "5079": 0.03,
+  "5228": 0.03,
+  "5066": 0.02,
+  "4684": 0.01,
+  "4686": 0.01,
+  "5144": 0.01
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5097": 0.0,
+  "5091": 0.0,
+  "5096": 0.0,
+  "5094": 0.0,
+  "5093": 0.0,
+  "5092": 0.0,
+  "5090": 0.0,
+  "5088": 0.0,
+  "5089": 0.0,
+  "5095": 0.0,
+  "5100": 0.99,
+  "5101": 0.0,
+  "5099": 0.0,
+  "5098": 0.01
+ },
+ "folhas_beam": [
+  {
+   "tema": "5087",
+   "subtema": "5100",
+   "pontuacao": 0.66
+  },
+  {
+   "tema": "5128",
+   "subtema": null,
+   "pontuacao": 0.4285
+  },
+  {
+   "tema": "5128",
+   "subtema": "5130",
+   "pontuacao": 0.275
+  },
+  {
+   "tema": "4704",
+   "subtema": null,
+   "pontuacao": 0.1
+  },
+  {
+   "tema": "5128",
+   "subtema": "5131",
+   "pontuacao": 0.0735
+  }
+ ],
+ "ramo_guloso": "5087",
+ "id": "Q0082",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 3,
+  "input_tokens": 13242,
+  "output_tokens": 1271,
+  "modelo": "jev-1.13.0"
+ }
+}

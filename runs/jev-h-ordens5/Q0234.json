@@ -1,0 +1,51 @@
+{
+ "fora": false,
+ "tema_n1_id": "4380",
+ "subtema_n2_id": "4381",
+ "confianca_ramo": 0.9480000000000001,
+ "confianca_subtema": 0.556,
+ "segunda_opcao_id": "5170",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria Geral da Criminologia', 0.948), ('Introdução ao Estudo do Direito Penal', 0.02), ('fora', 0.014)]; confiança 0.95",
+ "confianca_estagio1": 0.9474157303370787,
+ "probabilidades_estagio1": {
+  "4380": 0.9480000000000001,
+  "5170": 0.02,
+  "FORA": 0.014000000000000002,
+  "4371": 0.008,
+  "4368": 0.006,
+  "4385": 0.002,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.014000000000000002,
+  "4381": 0.556,
+  "4382": 0.43
+ },
+ "escolhas_por_ordem_estagio1": [
+  "4380",
+  "4380",
+  "4380",
+  "4380",
+  "4380"
+ ],
+ "id": "Q0234",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 51930,
+  "output_tokens": 5290,
+  "modelo": "jev-1.13.0"
+ }
+}

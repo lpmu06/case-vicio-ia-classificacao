@@ -1,0 +1,72 @@
+{
+ "fora": false,
+ "tema_n1_id": "5063",
+ "subtema_n2_id": "5065",
+ "confianca_ramo": 0.7,
+ "confianca_subtema": 0.45,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Ação Penal (Penal)', 0.7), ('Ação Penal (Processo Penal)', 0.14), ('Dos Crimes Contra a Honra', 0.07)]; confiança 0.70",
+ "confianca_estagio1": 0.696629213483146,
+ "probabilidades_estagio1": {
+  "5063": 0.7,
+  "5466": 0.14,
+  "5120": 0.06999999999999999,
+  "5191": 0.03,
+  "5128": 0.02,
+  "4686": 0.01,
+  "4691": 0.01,
+  "4701": 0.01,
+  "FORA": 0.01,
+  "4366": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.24,
+  "5065": 0.45,
+  "5064": 0.31
+ },
+ "folhas_beam": [
+  {
+   "tema": "5063",
+   "subtema": "5065",
+   "pontuacao": 0.5612
+  },
+  {
+   "tema": "5063",
+   "subtema": "5064",
+   "pontuacao": 0.4658
+  },
+  {
+   "tema": "5063",
+   "subtema": null,
+   "pontuacao": 0.4099
+  },
+  {
+   "tema": "5466",
+   "subtema": "5472",
+   "pontuacao": 0.3219
+  },
+  {
+   "tema": "5120",
+   "subtema": "5121",
+   "pontuacao": 0.1908
+  }
+ ],
+ "ramo_guloso": "5063",
+ "id": "Q0301",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 12615,
+  "output_tokens": 1259,
+  "modelo": "jev-1.13.0"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "fora": false,
+ "tema_n1_id": "5116",
+ "subtema_n2_id": "5118",
+ "confianca_ramo": 0.9880000000000001,
+ "confianca_subtema": 0.7380000000000001,
+ "segunda_opcao_id": "4689",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra a Fé Pública e de Falsidade Documental', 0.988), ('Crimes contra o Sistema Financeiro', 0.012), ('Classificação das Vítimas', 0.0)]; confiança 0.99",
+ "confianca_estagio1": 0.9878651685393259,
+ "probabilidades_estagio1": {
+  "5116": 0.9880000000000001,
+  "4689": 0.012,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0,
+  "4384": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.027999999999999997,
+  "5118": 0.7380000000000001,
+  "5119": 0.054000000000000006,
+  "5117": 0.18
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5116",
+  "5116",
+  "5116",
+  "5116",
+  "5116"
+ ],
+ "id": "Q0351",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 52125,
+  "output_tokens": 5345,
+  "modelo": "jev-1.13.0"
+ }
+}

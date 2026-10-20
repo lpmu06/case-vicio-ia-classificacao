@@ -1,0 +1,56 @@
+{
+ "fora": false,
+ "tema_n1_id": "5530",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.34199999999999997,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5487",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Procedimento Ordinário', 0.342), ('Comunicação dos Atos Processuais', 0.336), ('Sujeitos do Processo', 0.18)]; confiança 0.33",
+ "confianca_estagio1": 0.33460674157303366,
+ "probabilidades_estagio1": {
+  "5530": 0.34199999999999997,
+  "5487": 0.33599999999999997,
+  "5583": 0.18,
+  "5543": 0.054000000000000006,
+  "5509": 0.033999999999999996,
+  "5580": 0.016,
+  "5490": 0.01,
+  "5538": 0.006,
+  "5572": 0.006,
+  "5466": 0.004
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.54,
+  "5531": 0.004,
+  "5534": 0.0,
+  "5536": 0.006,
+  "5535": 0.034,
+  "5532": 0.0,
+  "5533": 0.41,
+  "5537": 0.004
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5487",
+  "5530",
+  "5487",
+  "5487",
+  "5530"
+ ],
+ "id": "Q0044",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 56205,
+  "output_tokens": 5553,
+  "modelo": "jev-1.13.0"
+ }
+}

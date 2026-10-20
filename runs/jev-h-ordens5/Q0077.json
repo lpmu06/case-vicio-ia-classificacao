@@ -1,0 +1,46 @@
+{
+ "fora": false,
+ "tema_n1_id": "4698",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.388,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5170",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Genocídio', 0.388), ('Introdução ao Estudo do Direito Penal', 0.348), ('Teoria do Crime: Fato Típico', 0.124)]; confiança 0.38",
+ "confianca_estagio1": 0.381123595505618,
+ "probabilidades_estagio1": {
+  "4698": 0.388,
+  "5170": 0.348,
+  "5218": 0.124,
+  "5180": 0.084,
+  "5175": 0.018,
+  "4692": 0.016,
+  "FORA": 0.01,
+  "5480": 0.006,
+  "5590": 0.002,
+  "4366": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "4698",
+  "5170",
+  "4698",
+  "4698",
+  "4698"
+ ],
+ "id": "Q0077",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 5,
+  "input_tokens": 50500,
+  "output_tokens": 5035,
+  "modelo": "jev-1.13.0"
+ }
+}

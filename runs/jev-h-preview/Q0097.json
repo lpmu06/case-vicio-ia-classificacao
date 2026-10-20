@@ -1,0 +1,39 @@
+{
+ "fora": false,
+ "tema_n1_id": "4708",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.34,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "4705",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Tráfico de Drogas', 0.34), ('Organizações Criminosas', 0.24), ('Lavagem de Dinheiro', 0.22)]; confiança 0.33",
+ "confianca_estagio1": 0.3325842696629213,
+ "probabilidades_estagio1": {
+  "4708": 0.34,
+  "4705": 0.24000000000000002,
+  "4702": 0.22,
+  "5066": 0.08,
+  "5590": 0.04,
+  "5218": 0.02,
+  "5543": 0.02,
+  "5144": 0.01,
+  "5175": 0.01,
+  "5572": 0.01
+ },
+ "id": "Q0097",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 1,
+  "input_tokens": 10371,
+  "output_tokens": 1007,
+  "modelo": "jev-1.14.0"
+ }
+}

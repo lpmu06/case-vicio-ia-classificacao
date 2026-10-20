@@ -1,0 +1,51 @@
+{
+ "fora": false,
+ "tema_n1_id": "5466",
+ "subtema_n2_id": "5475",
+ "confianca_ramo": 0.44,
+ "confianca_subtema": 1.0,
+ "segunda_opcao_id": "5490",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Ação Penal (Processo Penal)', 0.44), ('Das Questões e Processos Incidentes', 0.21), ('Sentença Penal', 0.19)]; confiança 0.43",
+ "confianca_estagio1": 0.4337078651685393,
+ "probabilidades_estagio1": {
+  "5466": 0.44,
+  "5490": 0.21000000000000002,
+  "5572": 0.19,
+  "FORA": 0.060000000000000005,
+  "5583": 0.03,
+  "5505": 0.02,
+  "4700": 0.01,
+  "5063": 0.01,
+  "5211": 0.01,
+  "5228": 0.01
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5475": 1.0,
+  "5471": 0.0,
+  "5470": 0.0,
+  "5472": 0.0,
+  "5467": 0.0,
+  "5468": 0.0,
+  "5473": 0.0,
+  "5469": 0.0,
+  "5474": 0.0
+ },
+ "id": "Q0019",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11499,
+  "output_tokens": 1135,
+  "modelo": "jev-1.14.0"
+ }
+}

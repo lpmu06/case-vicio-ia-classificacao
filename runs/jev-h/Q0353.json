@@ -1,0 +1,47 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5188",
+ "confianca_ramo": 0.6900000000000001,
+ "confianca_subtema": 0.48,
+ "segunda_opcao_id": "5530",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Prescrição', 0.69), ('Procedimento Ordinário', 0.14), ('Procedimento Sumário', 0.08)]; confiança 0.69",
+ "confianca_estagio1": 0.6865168539325843,
+ "probabilidades_estagio1": {
+  "5185": 0.6900000000000001,
+  "5530": 0.14,
+  "5538": 0.08,
+  "5490": 0.04,
+  "5191": 0.01,
+  "5466": 0.01,
+  "5543": 0.01,
+  "5572": 0.01,
+  "4366": 0.0,
+  "4367": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.1,
+  "5186": 0.01,
+  "5187": 0.02,
+  "5190": 0.39,
+  "5189": 0.0,
+  "5188": 0.48
+ },
+ "id": "Q0353",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 10847,
+  "output_tokens": 1091,
+  "modelo": "jev-1.13.0"
+ }
+}

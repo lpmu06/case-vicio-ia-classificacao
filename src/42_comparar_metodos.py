@@ -1,7 +1,7 @@
-"""Etapa 4c: compara os métodos/modelos (plano, 2 estágios, 3 estágios; Opus, Sonnet, Haiku; GPT parcial).
+"""Etapa 4c: compara os métodos/modelos (plano, 2 estágios, 3 estágios; Opus, Sonnet, Haiku; GPT parcial; Jev).
 
 Para cada rodada: questões classificadas, tokens de prompt do próprio método por questão (reconstruídos a partir
-dos prompts e das saídas intermediárias gravadas, sem o contexto fixo do Claude Code), tokens de saída, custo
+dos prompts e das saídas intermediárias gravadas, sem o contexto fixo do Claude Code; no Jev, os devolvidos pela API), tokens de saída, custo
 estimado a preço de lista com e sem cache do system prompt, distribuição de saídas, e concordância de ramo e de
 nó entre rodadas e com a origem.
 
@@ -25,7 +25,7 @@ RODADAS = [("claude-opus", "plano", "Opus 5.5"), ("claude-sonnet-h", "2 estágio
            ("claude-sonnet-3n", "3 estágios", "Sonnet 5"), ("claude-haiku-h", "2 estágios", "Haiku 4.5"),
            ("claude-haiku-3n", "3 estágios", "Haiku 4.5"), ("gpt-5.5", "plano", "GPT-5.5 (parcial)"),
            ("claude-sonnet-plano", "plano", "Sonnet 5 (amostra 80)"), ("claude-opus-h", "2 estágios", "Opus 5.5 (amostra 80)"),
-           ("jev-h", "2 estágios", "Jev"), ("arbitro-opus", "árbitro", "Opus 5.5, esforço alto")]
+           ("jev-h-ricos", "Jev", "Jev 1.13, critérios ricos"), ("arbitro-opus", "árbitro", "Opus 5.5, esforço alto")]
 
 
 def prompts_por_questao(A, enr, metodo, q, bruto, cache):
@@ -83,6 +83,10 @@ def main():
         chamadas = 0
         out_tok = 0
         for qid, (v, b) in r.items():
+            if metodo == "Jev":  # tokens de entrada devolvidos pela API da TypeSafe (saída grátis)
+                pedido_tok += b["uso"]["input_tokens"]
+                chamadas += b["uso"]["chamadas"]
+                continue
             for s, p in prompts_por_questao(A, enr, metodo, qs[qid], b, cache):
                 sis_tok += len(s) / cpt
                 pedido_tok += len(p) / cpt
@@ -132,7 +136,8 @@ def main():
     if amostra_p.exists():
         from collections import Counter as _C
         amostra = amostra_p.read_text().strip().split(",")
-        refs = dict(rod)  # inclui o árbitro, que agora é uma das rodadas comparadas
+        # inclui o árbitro, que agora é uma das rodadas comparadas; o Jev não entra na maioria dos outros (só como estudo)
+        refs = {k: v for k, v in rod.items() if not k.startswith("jev")}
         for r in rod:
             cobertas = [q for q in amostra if q in rod[r]]
             if len(cobertas) < 30:

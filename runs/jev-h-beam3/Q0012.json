@@ -1,0 +1,81 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5569",
+ "confianca_ramo": 0.42,
+ "confianca_subtema": 0.81,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Recursos em Espécies', 0.42), ('Juizado Especial Criminal', 0.31), ('Procedimento Sumaríssimo', 0.25)]; confiança 0.41",
+ "confianca_estagio1": 0.4134831460674157,
+ "probabilidades_estagio1": {
+  "5560": 0.42,
+  "4701": 0.31,
+  "5539": 0.25,
+  "4696": 0.01,
+  "5476": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5566": 0.0,
+  "5562": 0.01,
+  "5567": 0.0,
+  "5568": 0.0,
+  "5564": 0.0,
+  "5565": 0.0,
+  "5563": 0.0,
+  "5571": 0.0,
+  "5570": 0.0,
+  "5561": 0.17,
+  "5569": 0.81
+ },
+ "folhas_beam": [
+  {
+   "tema": "5560",
+   "subtema": "5569",
+   "pontuacao": 0.5833
+  },
+  {
+   "tema": "5539",
+   "subtema": null,
+   "pontuacao": 0.4822
+  },
+  {
+   "tema": "4701",
+   "subtema": null,
+   "pontuacao": 0.31
+  },
+  {
+   "tema": "5560",
+   "subtema": "5561",
+   "pontuacao": 0.2672
+  },
+  {
+   "tema": "5539",
+   "subtema": "5541",
+   "pontuacao": 0.1
+  }
+ ],
+ "ramo_guloso": "5560",
+ "id": "Q0012",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 3,
+  "input_tokens": 12129,
+  "output_tokens": 1216,
+  "modelo": "jev-1.13.0"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.6020000000000001,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5228",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria do Crime: Fato Típico', 0.602), ('Teoria do Crime: Ilicitude', 0.308), ('Introdução ao Estudo do Direito Penal', 0.046)]; confiança 0.60",
+ "confianca_estagio1": 0.5975280898876406,
+ "probabilidades_estagio1": {
+  "5218": 0.6020000000000001,
+  "5228": 0.308,
+  "5170": 0.046,
+  "5211": 0.03,
+  "FORA": 0.006,
+  "5066": 0.004,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.914,
+  "5219": 0.01,
+  "5221": 0.030000000000000006,
+  "5222": 0.0,
+  "5223": 0.0,
+  "5224": 0.0,
+  "5220": 0.02,
+  "5226": 0.0,
+  "5225": 0.0,
+  "5227": 0.026000000000000002
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5218",
+  "5218",
+  "5218",
+  "5218",
+  "5218"
+ ],
+ "id": "Q0199",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 56570,
+  "output_tokens": 5660,
+  "modelo": "jev-1.13.0"
+ }
+}

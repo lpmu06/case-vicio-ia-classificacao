@@ -1,0 +1,47 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5187",
+ "confianca_ramo": 0.5700000000000001,
+ "confianca_subtema": 0.76,
+ "segunda_opcao_id": "5560",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Prescrição', 0.57), ('Recursos em Espécies', 0.36), ('Ações Autônomas de Impugnação', 0.03)]; confiança 0.57",
+ "confianca_estagio1": 0.5651685393258428,
+ "probabilidades_estagio1": {
+  "5185": 0.5700000000000001,
+  "5560": 0.36,
+  "5476": 0.03,
+  "5512": 0.03,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.01,
+  "5186": 0.0,
+  "5187": 0.76,
+  "5190": 0.01,
+  "5189": 0.0,
+  "5188": 0.22
+ },
+ "id": "Q0183",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11037,
+  "output_tokens": 1091,
+  "modelo": "jev-1.13.0"
+ }
+}

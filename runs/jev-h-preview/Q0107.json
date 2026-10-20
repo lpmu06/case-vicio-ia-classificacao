@@ -1,0 +1,39 @@
+{
+ "fora": true,
+ "tema_n1_id": null,
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.81,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5170",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('fora', 0.81), ('Introdução ao Estudo do Direito Penal', 0.09), ('Ação Penal (Penal)', 0.02)]; confiança 0.81",
+ "confianca_estagio1": 0.8078651685393259,
+ "probabilidades_estagio1": {
+  "FORA": 0.81,
+  "5170": 0.09,
+  "5063": 0.02,
+  "5211": 0.02,
+  "5218": 0.02,
+  "5583": 0.01,
+  "5584": 0.01,
+  "5590": 0.01,
+  "4366": 0.0,
+  "4367": 0.0
+ },
+ "id": "Q0107",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 1,
+  "input_tokens": 9723,
+  "output_tokens": 1003,
+  "modelo": "jev-1.14.0"
+ }
+}

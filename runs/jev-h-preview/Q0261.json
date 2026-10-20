@@ -1,0 +1,47 @@
+{
+ "fora": false,
+ "tema_n1_id": "5228",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.32,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5134",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria do Crime: Ilicitude', 0.32), ('Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso', 0.3), ('Ação Penal (Penal)', 0.26)]; confiança 0.31",
+ "confianca_estagio1": 0.3123595505617977,
+ "probabilidades_estagio1": {
+  "5228": 0.32,
+  "5134": 0.3,
+  "5063": 0.26,
+  "5218": 0.04,
+  "FORA": 0.04,
+  "5466": 0.02,
+  "5128": 0.01,
+  "5211": 0.01,
+  "4366": 0.0,
+  "4367": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.78,
+  "5233": 0.09,
+  "5229": 0.06,
+  "5230": 0.02,
+  "5232": 0.05,
+  "5231": 0.0
+ },
+ "id": "Q0261",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 10925,
+  "output_tokens": 1088,
+  "modelo": "jev-1.14.0"
+ }
+}

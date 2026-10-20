@@ -1,0 +1,54 @@
+{
+ "fora": false,
+ "tema_n1_id": "5149",
+ "subtema_n2_id": "5152",
+ "confianca_ramo": 0.758,
+ "confianca_subtema": 1.0,
+ "segunda_opcao_id": "5218",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra a Vida', 0.758), ('Teoria do Crime: Fato Típico', 0.094), ('Iter Criminis', 0.084)]; confiança 0.76",
+ "confianca_estagio1": 0.7552808988764045,
+ "probabilidades_estagio1": {
+  "5149": 0.758,
+  "5218": 0.094,
+  "5175": 0.084,
+  "5138": 0.06,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5154": 0.0,
+  "5151": 0.0,
+  "5150": 0.0,
+  "5152": 1.0,
+  "5153": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5149",
+  "5149",
+  "5149",
+  "5149",
+  "5149"
+ ],
+ "id": "Q0049",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 58850,
+  "output_tokens": 5455,
+  "modelo": "jev-1.13.0"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5203",
+ "confianca_ramo": 0.954,
+ "confianca_subtema": 0.71,
+ "segunda_opcao_id": "4686",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria da Pena', 0.954), ('Contravenções Penais', 0.042), ('Prescrição', 0.002)]; confiança 0.95",
+ "confianca_estagio1": 0.9534831460674157,
+ "probabilidades_estagio1": {
+  "5199": 0.954,
+  "4686": 0.041999999999999996,
+  "5185": 0.002,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.027999999999999997,
+  "5209": 0.008,
+  "5208": 0.0,
+  "5206": 0.0,
+  "5201": 0.0,
+  "5205": 0.0,
+  "5202": 0.022,
+  "5210": 0.006,
+  "5200": 0.0,
+  "5203": 0.71,
+  "5207": 0.22400000000000003,
+  "5204": 0.002
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5199",
+  "5199",
+  "5199",
+  "5199",
+  "5199"
+ ],
+ "id": "Q0224",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 60600,
+  "output_tokens": 5785,
+  "modelo": "jev-1.13.0"
+ }
+}

@@ -30,6 +30,7 @@ Luis Paulo · lpmu06@gmail.com · 19/10/2026 · código, dados e saídas brutas 
 | LLM em camadas: 2 estágios (tema, depois subtema) e 3 estágios (grupo, tema, subtema) | Ver o experimento abaixo. 2 estágios fica no mesmo patamar do plano com um prompt 10 vezes menor; 3 estágios perde alguns pontos | 2 estágios sim; 3 estágios não |
 | Modelos menores (Sonnet, Haiku) | Em 2 estágios, o Sonnet empata com o Opus; o Haiku fica alguns pontos atrás | Sonnet em 2 estágios é um dos dois votantes |
 | Árbitro (Opus, esforço alto) | Escolhe entre os candidatos de todos, embaralhados, sem saber a maioria. Concorda com o consenso em 99,7% dos casos em que os dois classificadores principais concordam, e baixa a confiança de 0,89 para 0,65 quando eles divergem; só uma vez escolheu fora dos candidatos, o que indica alguma ancoragem | Sim, como filtro e como sugestão para o professor |
+| Jev (TypeSafe): probabilidades em vez de texto | Com descrições enriquecidas, sobe de «JEV_BASE» para «JEV_RICOS» de concordância; versão nova, busca em feixe e ordens embaralhadas não ajudam. Calibrado; US$ «JEV_USD_TOTAL» por 5 variantes | Como segunda opinião ([anexo](jev.md)) |
 | Buscar a questão em bancos de outros sites | As questões estão na web, mas usar a classificação de um concorrente não nos pareceu correto | Descartado |
 
 **Experimento de camadas.** Em 80 questões sorteadas, cruzamos modelo e método. A tabela mostra o quanto cada um acompanha a maioria dos demais classificadores, sem contar a si mesmo (*leave-one-out*: cada rodada é medida contra a maioria das outras); não é acurácia, é consistência.
@@ -46,7 +47,7 @@ Luis Paulo · lpmu06@gmail.com · 19/10/2026 · código, dados e saídas brutas 
 
 A segunda camada compensa: o prompt cai dez vezes e a consistência praticamente não cai. A terceira não compensa: cada etapa a mais é uma chance a mais de errar sem volta, e grupos de temas criados à mão não têm fronteiras naturais. Com cache (a parte fixa do prompt, a árvore, fica guardada no provedor e é cobrada a um décimo nas chamadas seguintes), o prompt plano gigante custa quase o mesmo que o de 2 estágios; sem cache, custaria 15 vezes mais. O Haiku sai caro aqui só porque, pelo Claude Code, gera milhares de tokens de raciocínio; pela API, sem raciocínio estendido, custaria uma fração disso. Tabelas completas no [anexo](comparacao_metodos.md).
 
-**Becos sem saída.** Começamos pelo modelo mais caro com o prompt maior e esgotamos os créditos da OpenAI em 63 questões; a lição é medir custo em cinco questões antes de escalar. A rotulagem humana de uma amostra, que seria o caminho mais sólido para a previsão, não foi possível, então a estimativa é cega. A primeira regra de unanimidade nos ramos confundíveis não tinha efeito com só dois votantes; corrigimos para exigir a concordância de todas as rodadas completas, o mesmo critério para todas as questões. A primeira auditoria viu os votos dos modelos e serviu para escolher os limiares; por isso fizemos uma segunda, cega, só para medir.
+**Becos sem saída.** Começamos pelo modelo mais caro com o prompt maior e esgotamos os créditos da OpenAI em 63 questões; a lição é medir custo em cinco questões antes de escalar. A rotulagem humana de uma amostra, que seria o caminho mais sólido para a previsão, não foi possível, então a estimativa é cega. A primeira regra de unanimidade nos ramos confundíveis não tinha efeito com só dois votantes; corrigimos para exigir a concordância de todas as rodadas completas, o mesmo critério para todas as questões. A primeira auditoria viu os votos dos modelos e serviu para escolher os limiares; por isso fizemos uma segunda, cega, só para medir. O Jev como desempate nas questões em revisão reprovou na auditoria cega com controles («JEV_DES_OK» de «JEV_DES_PROM» promovidas passaram; «JEV_CTRL_OK» de «JEV_CTRL_N» publicadas).
 
 **Como estimamos a precisão sem gabarito.** Nenhum estimador sozinho é confiável, então usamos três, com hipóteses declaradas, e dois descontos para o que nenhum deles vê. Eles não são independentes: os classificadores são todos Claude, e a taxonomia que todos leram foi escrita pelo GPT-5.5, a "outra família".
 
@@ -96,11 +97,11 @@ Questões multi-tema e de certo ou errado são as mais difíceis: as primeiras n
 1. **Importação**: limpeza de HTML, deduplicação por hash e extração dos dispositivos citados por regex. A origem entra como metadado, nunca como rótulo.
 2. **Pré-filtro por embeddings** (bge-m3 local, custo desprezível): os 20 temas mais parecidos contêm o ramo certo em 93% dos casos e encurtam o prompt.
 3. **Classificador principal em 2 estágios** com modelo de porte médio, pela API em lote (metade do preço) e com cache: cerca de US$ 0,016 por questão.
-4. **Segunda opinião de outra família** em todas, com modelo pequeno, para ter concordância entre famílias: cerca de US$ 0,005.
+4. **Segunda opinião de outra família** em todas: o Jev, a US$ «JEV_USD_Q»; com probabilidade acima de 0,99 («JEV_CASC_FRAC» das questões), concordou com a maioria em todas.
 5. **Árbitro forte só onde há dúvida**: divergência, confiança baixa ou ramo confundível, cerca de um terço das questões, a US$ 0,025 por chamada em lote: cerca de US$ 0,008.
 6. **Publicação** pelas regras deste case; o resto vai para a fila do professor com a sugestão e o motivo.
 
-O total fica em torno de **US$ 0,03 por questão**, ou US$ 1.500 por semana se todas as 50 mil passassem pela cascata; classificando só as novas, é uma fração disso. Os números vêm dos tokens medidos neste case ([anexo](comparacao_metodos.md)).
+O total fica em torno de **US$ 0,025 por questão**, ou US$ 1.250 por semana se todas as 50 mil passassem pela cascata; classificando só as novas, é uma fração disso. Os números vêm dos tokens medidos neste case ([anexo](comparacao_metodos.md)).
 
 **Destilação.** Os rótulos confirmados pelo professor treinam um classificador leve sobre embeddings. Com só os 227 rótulos de consenso deste case, ele já reproduz o consenso em 60% dos casos. Com alguns milhares de rótulos revisados, deve assumir os ramos fáceis e virar mais um voto nos demais.
 
@@ -125,6 +126,6 @@ Em [`memo_professor.md`](memo_professor.md), uma página.
 | Experimento 2×2 e Haiku | Sonnet 5, Opus 5.5, Haiku 4.5 | 80 | várias horas |
 | GPT-5.5 plano | GPT-5.5 | 63, até acabar o crédito | 8 min |
 
-Os modelos Claude foram chamados pelo Claude Code em modo headless, numa assinatura, sem custo marginal; a lentidão veio de dividir a cota da assinatura entre rodadas paralelas. A preço de lista da API, com cache e sem o contexto do Claude Code, o pipeline final (Opus plano, Sonnet 2 estágios e árbitro, este com «TOK_ARB» tokens de prompt e «USD_ARB» por questão) custaria «CUSTO_PIPELINE» para as 359 questões, ou «CUSTO_PIPELINE_LOTE» pela API em lote; a soma vem da tabela de métodos do [anexo](comparacao_metodos.md). Os créditos da OpenAI foram de teste e se esgotaram.
+Os modelos Claude foram chamados pelo Claude Code em modo headless, numa assinatura, sem custo marginal; a lentidão veio de dividir a cota da assinatura entre rodadas paralelas. A preço de lista da API, com cache e sem o contexto do Claude Code, o pipeline final (Opus plano, Sonnet 2 estágios e árbitro, este com «TOK_ARB» tokens de prompt e «USD_ARB» por questão) custaria «CUSTO_PIPELINE» para as 359 questões, ou «CUSTO_PIPELINE_LOTE» pela API em lote; a soma vem da tabela de métodos do [anexo](comparacao_metodos.md).
 
-**O que faríamos com mais tempo.** Rotular 100 questões com um professor para calibrar de verdade; rodar uma segunda família de modelos em todas as questões; testar o Jev, um modelo de decisão estruturada com probabilidades calibradas, cuja integração está pronta em `src/33_classificar_jev.py` e só depende de uma chave; e perguntar à equipe qual dos temas duplicados ela usa.
+**Com mais tempo**, rotularíamos 100 questões com um professor, rodaríamos um LLM de outra família em todas e perguntaríamos qual tema duplicado a equipe usa.

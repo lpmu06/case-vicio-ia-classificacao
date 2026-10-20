@@ -1,0 +1,21 @@
+{
+ "id": "Q0240",
+ "candidatos": [
+  "5466",
+  "5498"
+ ],
+ "ramo_arbitro": "5498",
+ "probabilidades": {
+  "5466": 0.09,
+  "5498": 0.91
+ },
+ "escolha": "5498",
+ "p_escolha": 0.91,
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 3084,
+  "output_tokens": 0,
+  "modelo": "jev-1.13.0"
+ },
+ "promovida": true
+}

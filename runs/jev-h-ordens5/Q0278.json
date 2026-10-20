@@ -1,0 +1,46 @@
+{
+ "fora": false,
+ "tema_n1_id": "4701",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.8800000000000001,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5490",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Juizado Especial Criminal', 0.88), ('Das Questões e Processos Incidentes', 0.05), ('Teoria da Pena', 0.032)]; confiança 0.88",
+ "confianca_estagio1": 0.8786516853932586,
+ "probabilidades_estagio1": {
+  "4701": 0.8800000000000001,
+  "5490": 0.05,
+  "5199": 0.032,
+  "5539": 0.014000000000000002,
+  "5466": 0.012,
+  "5530": 0.004,
+  "5590": 0.002,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "4701",
+  "4701",
+  "4701",
+  "4701",
+  "4701"
+ ],
+ "id": "Q0278",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 5,
+  "input_tokens": 48850,
+  "output_tokens": 5035,
+  "modelo": "jev-1.13.0"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.278,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "4371",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Iter Criminis', 0.278), ('Etapas Evolutivas e Escolas Criminológicas', 0.172), ('Teoria da Pena', 0.168)]; confiança 0.27",
+ "confianca_estagio1": 0.2698876404494382,
+ "probabilidades_estagio1": {
+  "5175": 0.278,
+  "4371": 0.17200000000000001,
+  "5199": 0.168,
+  "5170": 0.16400000000000003,
+  "4703": 0.066,
+  "5218": 0.04,
+  "FORA": 0.03,
+  "5071": 0.026000000000000002,
+  "5185": 0.016,
+  "4380": 0.014000000000000002
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.784,
+  "5177": 0.038,
+  "5179": 0.0,
+  "5178": 0.176,
+  "5176": 0.002
+ },
+ "escolhas_por_ordem_estagio1": [
+  "4371",
+  "5199",
+  "5175",
+  "5175",
+  "5175"
+ ],
+ "id": "Q0333",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 53940,
+  "output_tokens": 5385,
+  "modelo": "jev-1.13.0"
+ }
+}

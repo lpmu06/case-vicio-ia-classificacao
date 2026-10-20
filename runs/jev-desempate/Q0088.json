@@ -1,0 +1,21 @@
+{
+ "id": "Q0088",
+ "candidatos": [
+  "4380",
+  "4389"
+ ],
+ "ramo_arbitro": "4389",
+ "probabilidades": {
+  "4380": 0.115,
+  "4389": 0.885
+ },
+ "escolha": "4389",
+ "p_escolha": 0.885,
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 2478,
+  "output_tokens": 0,
+  "modelo": "jev-1.13.0"
+ },
+ "promovida": false
+}

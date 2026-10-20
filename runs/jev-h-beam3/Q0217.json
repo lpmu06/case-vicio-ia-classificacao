@@ -1,0 +1,72 @@
+{
+ "fora": false,
+ "tema_n1_id": "4368",
+ "subtema_n2_id": "4370",
+ "confianca_ramo": 0.2,
+ "confianca_subtema": 0.82,
+ "segunda_opcao_id": "4384",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teorias Legitimidoras da Pena', 0.22), ('Criminologia no Estado Democrático de Direito', 0.2), ('Política Criminal', 0.17)]; confiança 0.21",
+ "confianca_estagio1": 0.21123595505617979,
+ "probabilidades_estagio1": {
+  "4384": 0.22,
+  "4368": 0.2,
+  "4374": 0.17,
+  "4371": 0.12,
+  "FORA": 0.12,
+  "5199": 0.06999999999999999,
+  "5170": 0.04,
+  "4703": 0.03,
+  "5071": 0.01,
+  "5572": 0.01
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.18,
+  "4370": 0.82,
+  "4369": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "4368",
+   "subtema": "4370",
+   "pontuacao": 0.405
+  },
+  {
+   "tema": "4374",
+   "subtema": null,
+   "pontuacao": 0.314
+  },
+  {
+   "tema": "4374",
+   "subtema": "4375",
+   "pontuacao": 0.2672
+  },
+  {
+   "tema": "4384",
+   "subtema": null,
+   "pontuacao": 0.22
+  },
+  {
+   "tema": "4368",
+   "subtema": null,
+   "pontuacao": 0.1897
+  }
+ ],
+ "ramo_guloso": "4384",
+ "id": "Q0217",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 3,
+  "input_tokens": 11012,
+  "output_tokens": 1106,
+  "modelo": "jev-1.13.0"
+ }
+}

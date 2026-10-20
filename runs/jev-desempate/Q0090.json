@@ -1,0 +1,21 @@
+{
+ "id": "Q0090",
+ "candidatos": [
+  "5530",
+  "5539"
+ ],
+ "ramo_arbitro": "5530",
+ "probabilidades": {
+  "5530": 0.855,
+  "5539": 0.14500000000000002
+ },
+ "escolha": "5530",
+ "p_escolha": 0.855,
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 3468,
+  "output_tokens": 0,
+  "modelo": "jev-1.13.0"
+ },
+ "promovida": false
+}

@@ -1,0 +1,52 @@
+{
+ "fora": false,
+ "tema_n1_id": "5134",
+ "subtema_n2_id": "5135",
+ "confianca_ramo": 0.908,
+ "confianca_subtema": 0.998,
+ "segunda_opcao_id": "5128",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso', 0.908), ('Dos Crimes Contra a Liberdade Pessoal', 0.092), ('Classificação das Vítimas', 0.0)]; confiança 0.91",
+ "confianca_estagio1": 0.9069662921348315,
+ "probabilidades_estagio1": {
+  "5134": 0.908,
+  "5128": 0.092,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0,
+  "4384": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.002,
+  "5135": 0.998,
+  "5137": 0.0,
+  "5136": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5134",
+  "5134",
+  "5134",
+  "5134",
+  "5134"
+ ],
+ "id": "Q0030",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 52915,
+  "output_tokens": 5345,
+  "modelo": "jev-1.13.0"
+ }
+}

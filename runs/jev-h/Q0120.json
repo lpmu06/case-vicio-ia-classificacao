@@ -1,0 +1,47 @@
+{
+ "fora": false,
+ "tema_n1_id": "5590",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.43,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5530",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria Geral das Provas', 0.43), ('Procedimento Ordinário', 0.38), ('Provas em Espécies', 0.15)]; confiança 0.42",
+ "confianca_estagio1": 0.4235955056179775,
+ "probabilidades_estagio1": {
+  "5590": 0.43,
+  "5530": 0.38,
+  "5543": 0.15000000000000002,
+  "5466": 0.02,
+  "5580": 0.02,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.63,
+  "5591": 0.3,
+  "5595": 0.07,
+  "5593": 0.0,
+  "5594": 0.0,
+  "5592": 0.0
+ },
+ "id": "Q0120",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 10730,
+  "output_tokens": 1088,
+  "modelo": "jev-1.13.0"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.41000000000000003,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5191",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria da Pena', 0.41), ('Punibilidade', 0.27), ('Lei de Execução Penal', 0.24)]; confiança 0.40",
+ "confianca_estagio1": 0.40337078651685393,
+ "probabilidades_estagio1": {
+  "5199": 0.41000000000000003,
+  "5191": 0.27,
+  "4703": 0.24000000000000002,
+  "4693": 0.07,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.55,
+  "5209": 0.15,
+  "5208": 0.12,
+  "5206": 0.0,
+  "5201": 0.1,
+  "5205": 0.0,
+  "5202": 0.0,
+  "5210": 0.06,
+  "5200": 0.01,
+  "5203": 0.0,
+  "5207": 0.01,
+  "5204": 0.0
+ },
+ "id": "Q0048",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11924,
+  "output_tokens": 1154,
+  "modelo": "jev-1.13.0"
+ }
+}

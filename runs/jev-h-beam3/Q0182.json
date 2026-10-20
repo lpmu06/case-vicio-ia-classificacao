@@ -1,0 +1,75 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.56,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5120",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Concurso de Pessoas', 0.56), ('Dos Crimes Contra a Honra', 0.12), ('Das Lesões Corporais', 0.09)]; confiança 0.56",
+ "confianca_estagio1": 0.555056179775281,
+ "probabilidades_estagio1": {
+  "5071": 0.56,
+  "5120": 0.12,
+  "5077": 0.09,
+  "5138": 0.06999999999999999,
+  "5149": 0.05,
+  "5144": 0.03,
+  "5218": 0.03,
+  "5170": 0.02,
+  "5211": 0.01,
+  "FORA": 0.01
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.54,
+  "5072": 0.06,
+  "5073": 0.0,
+  "5076": 0.17,
+  "5075": 0.01,
+  "5074": 0.22
+ },
+ "folhas_beam": [
+  {
+   "tema": "5071",
+   "subtema": null,
+   "pontuacao": 0.5499
+  },
+  {
+   "tema": "5071",
+   "subtema": "5074",
+   "pontuacao": 0.351
+  },
+  {
+   "tema": "5071",
+   "subtema": "5076",
+   "pontuacao": 0.3085
+  },
+  {
+   "tema": "5120",
+   "subtema": null,
+   "pontuacao": 0.2877
+  },
+  {
+   "tema": "5120",
+   "subtema": "5122",
+   "pontuacao": 0.1897
+  }
+ ],
+ "ramo_guloso": "5071",
+ "id": "Q0182",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 3,
+  "input_tokens": 12208,
+  "output_tokens": 1158,
+  "modelo": "jev-1.13.0"
+ }
+}

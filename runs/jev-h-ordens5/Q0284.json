@@ -1,0 +1,55 @@
+{
+ "fora": false,
+ "tema_n1_id": "5211",
+ "subtema_n2_id": "5214",
+ "confianca_ramo": 0.49800000000000005,
+ "confianca_subtema": 0.8720000000000001,
+ "segunda_opcao_id": "5228",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria do Crime: Culpabilidade', 0.498), ('Teoria do Crime: Ilicitude', 0.38), ('Teoria do Crime: Fato Típico', 0.098)]; confiança 0.49",
+ "confianca_estagio1": 0.49235955056179775,
+ "probabilidades_estagio1": {
+  "5211": 0.49800000000000005,
+  "5228": 0.38,
+  "5218": 0.098,
+  "5524": 0.019999999999999997,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.10800000000000001,
+  "5217": 0.004,
+  "5215": 0.0,
+  "5212": 0.016,
+  "5214": 0.8720000000000001,
+  "5213": 0.0,
+  "5216": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5211",
+  "5211",
+  "5211",
+  "5211",
+  "5228"
+ ],
+ "id": "Q0284",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 64025,
+  "output_tokens": 5510,
+  "modelo": "jev-1.13.0"
+ }
+}

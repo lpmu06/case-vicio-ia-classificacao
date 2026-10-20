@@ -1,0 +1,49 @@
+{
+ "fora": false,
+ "tema_n1_id": "5572",
+ "subtema_n2_id": "5577",
+ "confianca_ramo": 0.96,
+ "confianca_subtema": 0.68,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Sentença Penal', 0.96), ('Teoria da Pena', 0.04), ('Classificação das Vítimas', 0.0)]; confiança 0.96",
+ "confianca_estagio1": 0.9595505617977528,
+ "probabilidades_estagio1": {
+  "5572": 0.96,
+  "5199": 0.04,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0,
+  "4384": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.32,
+  "5573": 0.0,
+  "5577": 0.68,
+  "5579": 0.0,
+  "5576": 0.0,
+  "5578": 0.0,
+  "5574": 0.0,
+  "5575": 0.0
+ },
+ "id": "Q0102",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "ricos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 32661,
+  "output_tokens": 1911,
+  "modelo": "jev-1.13.0"
+ }
+}

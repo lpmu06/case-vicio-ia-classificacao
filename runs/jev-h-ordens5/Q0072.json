@@ -1,0 +1,54 @@
+{
+ "fora": false,
+ "tema_n1_id": "5590",
+ "subtema_n2_id": "5595",
+ "confianca_ramo": 0.684,
+ "confianca_subtema": 0.5860000000000001,
+ "segunda_opcao_id": "5498",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria Geral das Provas', 0.684), ('Inquérito Policial', 0.196), ('Sistemas e Princípios Processuais Penais', 0.07)]; confiança 0.68",
+ "confianca_estagio1": 0.6804494382022472,
+ "probabilidades_estagio1": {
+  "5590": 0.684,
+  "5498": 0.196,
+  "5580": 0.07,
+  "5572": 0.024,
+  "5543": 0.02,
+  "5584": 0.002,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.004,
+  "5591": 0.012,
+  "5595": 0.5860000000000001,
+  "5593": 0.048,
+  "5594": 0.006,
+  "5592": 0.344
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5590",
+  "5590",
+  "5590",
+  "5590",
+  "5590"
+ ],
+ "id": "Q0072",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 54210,
+  "output_tokens": 5455,
+  "modelo": "jev-1.13.0"
+ }
+}

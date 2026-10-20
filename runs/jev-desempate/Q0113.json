@@ -1,0 +1,21 @@
+{
+ "id": "Q0113",
+ "candidatos": [
+  "5185",
+  "FORA"
+ ],
+ "ramo_arbitro": "5185",
+ "probabilidades": {
+  "5185": 0.905,
+  "FORA": 0.095
+ },
+ "escolha": "5185",
+ "p_escolha": 0.905,
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 2380,
+  "output_tokens": 0,
+  "modelo": "jev-1.13.0"
+ },
+ "promovida": true
+}

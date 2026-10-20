@@ -1,0 +1,49 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.73,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5580",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Das Questões e Processos Incidentes', 0.73), ('Sistemas e Princípios Processuais Penais', 0.08), ('Teoria Geral das Provas', 0.07)]; confiança 0.73",
+ "confianca_estagio1": 0.7269662921348314,
+ "probabilidades_estagio1": {
+  "5490": 0.73,
+  "5580": 0.08,
+  "5590": 0.06999999999999999,
+  "5509": 0.05,
+  "5572": 0.03,
+  "5498": 0.01,
+  "5530": 0.01,
+  "5543": 0.01,
+  "5583": 0.01,
+  "4366": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.77,
+  "5493": 0.0,
+  "5494": 0.0,
+  "5492": 0.0,
+  "5497": 0.0,
+  "5496": 0.0,
+  "5491": 0.2,
+  "5495": 0.03
+ },
+ "id": "Q0236",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11416,
+  "output_tokens": 1110,
+  "modelo": "jev-1.14.0"
+ }
+}

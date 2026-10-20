@@ -1,0 +1,72 @@
+{
+ "fora": false,
+ "tema_n1_id": "4368",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.35000000000000003,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "4380",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Criminologia no Estado Democrático de Direito', 0.35), ('Teoria Geral da Criminologia', 0.23), ('Processos de Criminalização e Cifras Criminais', 0.18)]; confiança 0.34",
+ "confianca_estagio1": 0.34269662921348315,
+ "probabilidades_estagio1": {
+  "4368": 0.35000000000000003,
+  "4380": 0.23,
+  "4377": 0.18000000000000002,
+  "4385": 0.15000000000000002,
+  "4374": 0.03,
+  "FORA": 0.03,
+  "4371": 0.02,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4384": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.65,
+  "4370": 0.02,
+  "4369": 0.33
+ },
+ "folhas_beam": [
+  {
+   "tema": "4368",
+   "subtema": null,
+   "pontuacao": 0.477
+  },
+  {
+   "tema": "4380",
+   "subtema": "4381",
+   "pontuacao": 0.4395
+  },
+  {
+   "tema": "4377",
+   "subtema": null,
+   "pontuacao": 0.3723
+  },
+  {
+   "tema": "4368",
+   "subtema": "4369",
+   "pontuacao": 0.3399
+  },
+  {
+   "tema": "4377",
+   "subtema": "4378",
+   "pontuacao": 0.2035
+  }
+ ],
+ "ramo_guloso": "4368",
+ "id": "Q0162",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 12155,
+  "output_tokens": 1154,
+  "modelo": "jev-1.13.0"
+ }
+}

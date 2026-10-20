@@ -1,0 +1,39 @@
+{
+ "fora": false,
+ "tema_n1_id": "4695",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5185",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Crimes Tributários', 0.9), ('Prescrição', 0.06), ('Punibilidade', 0.04)]; confiança 0.90",
+ "confianca_estagio1": 0.898876404494382,
+ "probabilidades_estagio1": {
+  "4695": 0.9,
+  "5185": 0.060000000000000005,
+  "5191": 0.04,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0
+ },
+ "id": "Q0064",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 1,
+  "input_tokens": 9954,
+  "output_tokens": 1007,
+  "modelo": "jev-1.13.0"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5500",
+ "confianca_ramo": 0.63,
+ "confianca_subtema": 0.91,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Inquérito Policial', 0.63), ('Provas em Espécies', 0.35), ('Interceptação Telefônica', 0.01)]; confiança 0.63",
+ "confianca_estagio1": 0.6258426966292135,
+ "probabilidades_estagio1": {
+  "5498": 0.63,
+  "5543": 0.35000000000000003,
+  "4700": 0.01,
+  "4705": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.08,
+  "5502": 0.0,
+  "5499": 0.0,
+  "5501": 0.0,
+  "5504": 0.0,
+  "5503": 0.01,
+  "5500": 0.91
+ },
+ "id": "Q0149",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11245,
+  "output_tokens": 1102,
+  "modelo": "jev-1.14.0"
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "fora": false,
+ "tema_n1_id": "4380",
+ "subtema_n2_id": "4381",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.99,
+ "segunda_opcao_id": "4374",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria Geral da Criminologia', 0.98), ('Política Criminal', 0.02), ('Classificação das Vítimas', 0.0)]; confiança 0.98",
+ "confianca_estagio1": 0.9797752808988763,
+ "probabilidades_estagio1": {
+  "4380": 0.98,
+  "4374": 0.02,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4377": 0.0,
+  "4384": 0.0,
+  "4385": 0.0,
+  "4383": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "4381": 0.99,
+  "4382": 0.01
+ },
+ "id": "Q0334",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 10350,
+  "output_tokens": 1058,
+  "modelo": "jev-1.14.0"
+ }
+}

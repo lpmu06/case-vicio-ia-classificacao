@@ -1,0 +1,53 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.65,
+ "segunda_opcao_id": "5572",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Recursos em Espécies', 0.6), ('Sentença Penal', 0.15), ('Parte Geral dos Recursos', 0.09)]; confiança 0.60",
+ "confianca_estagio1": 0.5955056179775281,
+ "probabilidades_estagio1": {
+  "5560": 0.6,
+  "5572": 0.15000000000000002,
+  "5512": 0.09,
+  "5466": 0.060000000000000005,
+  "5538": 0.04,
+  "5476": 0.02,
+  "5530": 0.02,
+  "5191": 0.01,
+  "5218": 0.01,
+  "4366": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.05,
+  "5566": 0.0,
+  "5562": 0.26,
+  "5567": 0.0,
+  "5568": 0.02,
+  "5564": 0.0,
+  "5565": 0.01,
+  "5563": 0.0,
+  "5571": 0.0,
+  "5570": 0.0,
+  "5561": 0.65,
+  "5569": 0.01
+ },
+ "id": "Q0003",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11649,
+  "output_tokens": 1157,
+  "modelo": "jev-1.14.0"
+ }
+}

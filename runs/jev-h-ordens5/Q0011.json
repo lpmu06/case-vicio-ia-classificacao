@@ -1,0 +1,46 @@
+{
+ "fora": false,
+ "tema_n1_id": "4702",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.786,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5480",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Lavagem de Dinheiro', 0.786), ('Competência', 0.214), ('Classificação das Vítimas', 0.0)]; confiança 0.78",
+ "confianca_estagio1": 0.7835955056179775,
+ "probabilidades_estagio1": {
+  "4702": 0.786,
+  "5480": 0.21400000000000002,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0,
+  "4384": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "4702",
+  "4702",
+  "4702",
+  "4702",
+  "4702"
+ ],
+ "id": "Q0011",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 5,
+  "input_tokens": 49475,
+  "output_tokens": 5035,
+  "modelo": "jev-1.13.0"
+ }
+}

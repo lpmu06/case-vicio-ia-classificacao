@@ -1,0 +1,50 @@
+{
+ "fora": false,
+ "tema_n1_id": "4389",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.9099999999999999,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "4380",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Vitimologia', 0.91), ('Teoria Geral da Criminologia', 0.082), ('Teorias e Síndromes com Enfoque nas Vítimas', 0.006)]; confiança 0.91",
+ "confianca_estagio1": 0.9089887640449438,
+ "probabilidades_estagio1": {
+  "4389": 0.9099999999999999,
+  "4380": 0.082,
+  "4383": 0.006,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4384": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 1.0,
+  "4390": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "4389",
+  "4389",
+  "4389",
+  "4389",
+  "4389"
+ ],
+ "id": "Q0088",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 51420,
+  "output_tokens": 5220,
+  "modelo": "jev-1.13.0"
+ }
+}

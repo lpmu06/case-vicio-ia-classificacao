@@ -1,0 +1,77 @@
+{
+ "fora": false,
+ "tema_n1_id": "5530",
+ "subtema_n2_id": "5533",
+ "confianca_ramo": 0.48,
+ "confianca_subtema": 0.81,
+ "segunda_opcao_id": "4708",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Procedimento Ordinário', 0.48), ('Tráfico de Drogas', 0.3), ('Comunicação dos Atos Processuais', 0.2)]; confiança 0.47",
+ "confianca_estagio1": 0.4741573033707865,
+ "probabilidades_estagio1": {
+  "5530": 0.48,
+  "4708": 0.3,
+  "5487": 0.2,
+  "5538": 0.02,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.02,
+  "5531": 0.16,
+  "5534": 0.0,
+  "5536": 0.0,
+  "5535": 0.0,
+  "5532": 0.0,
+  "5533": 0.81,
+  "5537": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5530",
+   "subtema": "5533",
+   "pontuacao": 0.6235
+  },
+  {
+   "tema": "5487",
+   "subtema": "5488",
+   "pontuacao": 0.3606
+  },
+  {
+   "tema": "4708",
+   "subtema": null,
+   "pontuacao": 0.3
+  },
+  {
+   "tema": "5530",
+   "subtema": "5531",
+   "pontuacao": 0.2771
+  },
+  {
+   "tema": "5487",
+   "subtema": "5489",
+   "pontuacao": 0.2
+  }
+ ],
+ "ramo_guloso": "5530",
+ "id": "Q0213",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 3,
+  "input_tokens": 11842,
+  "output_tokens": 1164,
+  "modelo": "jev-1.13.0"
+ }
+}

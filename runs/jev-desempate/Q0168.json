@@ -1,0 +1,21 @@
+{
+ "id": "Q0168",
+ "candidatos": [
+  "5071",
+  "FORA"
+ ],
+ "ramo_arbitro": "FORA",
+ "probabilidades": {
+  "5071": 0.5549999999999999,
+  "FORA": 0.445
+ },
+ "escolha": "5071",
+ "p_escolha": 0.5549999999999999,
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 2470,
+  "output_tokens": 0,
+  "modelo": "jev-1.13.0"
+ },
+ "promovida": false
+}

@@ -1,0 +1,53 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5177",
+ "confianca_ramo": 0.48200000000000004,
+ "confianca_subtema": 0.932,
+ "segunda_opcao_id": "5218",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Iter Criminis', 0.482), ('Teoria do Crime: Fato Típico', 0.446), ('fora', 0.026)]; confiança 0.48",
+ "confianca_estagio1": 0.4761797752808989,
+ "probabilidades_estagio1": {
+  "5175": 0.48200000000000004,
+  "5218": 0.446,
+  "FORA": 0.026000000000000002,
+  "5071": 0.02,
+  "5087": 0.008,
+  "4684": 0.006,
+  "5584": 0.004,
+  "5590": 0.004,
+  "4366": 0.0,
+  "4367": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.052000000000000005,
+  "5177": 0.932,
+  "5179": 0.0,
+  "5178": 0.0,
+  "5176": 0.014000000000000002
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5218",
+  "5175",
+  "5175",
+  "5175",
+  "5218"
+ ],
+ "id": "Q0168",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 56540,
+  "output_tokens": 5400,
+  "modelo": "jev-1.13.0"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5100",
+ "confianca_ramo": 0.39,
+ "confianca_subtema": 1.0,
+ "segunda_opcao_id": "5128",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra a Administração Pública', 0.39), ('Dos Crimes Contra a Liberdade Pessoal', 0.28), ('Lei Maria da Penha', 0.13)]; confiança 0.38",
+ "confianca_estagio1": 0.3831460674157303,
+ "probabilidades_estagio1": {
+  "5087": 0.39,
+  "5128": 0.28,
+  "4704": 0.13,
+  "5218": 0.08,
+  "5228": 0.03,
+  "5066": 0.02,
+  "4684": 0.01,
+  "4686": 0.01,
+  "4698": 0.01,
+  "5079": 0.01
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5097": 0.0,
+  "5091": 0.0,
+  "5096": 0.0,
+  "5094": 0.0,
+  "5093": 0.0,
+  "5092": 0.0,
+  "5090": 0.0,
+  "5088": 0.0,
+  "5089": 0.0,
+  "5095": 0.0,
+  "5100": 1.0,
+  "5101": 0.0,
+  "5099": 0.0,
+  "5098": 0.0
+ },
+ "id": "Q0082",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11996,
+  "output_tokens": 1190,
+  "modelo": "jev-1.13.0"
+ }
+}

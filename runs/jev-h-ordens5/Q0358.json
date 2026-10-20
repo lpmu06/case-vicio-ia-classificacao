@@ -1,0 +1,46 @@
+{
+ "fora": false,
+ "tema_n1_id": "4700",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.292,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5128",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Interceptação Telefônica', 0.292), ('fora', 0.268), ('Dos Crimes Contra a Liberdade Pessoal', 0.128)]; confiança 0.28",
+ "confianca_estagio1": 0.28404494382022466,
+ "probabilidades_estagio1": {
+  "4700": 0.292,
+  "FORA": 0.26799999999999996,
+  "5128": 0.128,
+  "4694": 0.052000000000000005,
+  "5218": 0.044,
+  "5156": 0.036,
+  "5134": 0.032,
+  "4684": 0.024,
+  "5125": 0.016,
+  "5157": 0.012
+ },
+ "escolhas_por_ordem_estagio1": [
+  "FORA",
+  "4700",
+  "4700",
+  "4700",
+  "FORA"
+ ],
+ "id": "Q0358",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 5,
+  "input_tokens": 49010,
+  "output_tokens": 5027,
+  "modelo": "jev-1.13.0"
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5526",
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.68,
+ "segunda_opcao_id": "5530",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Procedimento do Tribunal do Júri', 0.55), ('Procedimento Ordinário', 0.42), ('Comunicação dos Atos Processuais', 0.02)]; confiança 0.54",
+ "confianca_estagio1": 0.5449438202247192,
+ "probabilidades_estagio1": {
+  "5524": 0.55,
+  "5530": 0.42,
+  "5487": 0.02,
+  "FORA": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.04,
+  "5527": 0.28,
+  "5528": 0.0,
+  "5525": 0.0,
+  "5526": 0.68,
+  "5529": 0.0
+ },
+ "id": "Q0028",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "ricos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 31624,
+  "output_tokens": 1887,
+  "modelo": "jev-1.13.0"
+ }
+}

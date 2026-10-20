@@ -1,0 +1,44 @@
+{
+ "fora": false,
+ "tema_n1_id": "5063",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.31,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5102",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Ação Penal (Penal)', 0.31), ('Dos Crimes Contra a Dignidade Sexual', 0.17), ('Concurso de Crimes', 0.15)]; confiança 0.30",
+ "confianca_estagio1": 0.3022471910112359,
+ "probabilidades_estagio1": {
+  "5063": 0.31,
+  "5102": 0.17,
+  "5066": 0.15000000000000002,
+  "FORA": 0.09,
+  "5199": 0.06999999999999999,
+  "5087": 0.06,
+  "5170": 0.05,
+  "5466": 0.04,
+  "4695": 0.02,
+  "4688": 0.01
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.76,
+  "5065": 0.0,
+  "5064": 0.24
+ },
+ "id": "Q0288",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "ricos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 30799,
+  "output_tokens": 1790,
+  "modelo": "jev-1.13.0"
+ }
+}

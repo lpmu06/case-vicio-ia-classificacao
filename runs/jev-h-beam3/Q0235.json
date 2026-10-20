@@ -1,0 +1,81 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.48,
+ "confianca_subtema": 0.9,
+ "segunda_opcao_id": "5512",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Recursos em Espécies', 0.48), ('Parte Geral dos Recursos', 0.24), ('Competência', 0.13)]; confiança 0.47",
+ "confianca_estagio1": 0.4741573033707865,
+ "probabilidades_estagio1": {
+  "5560": 0.48,
+  "5512": 0.24000000000000002,
+  "5480": 0.13,
+  "5476": 0.09,
+  "4701": 0.02,
+  "5490": 0.02,
+  "5584": 0.01,
+  "5590": 0.01,
+  "4366": 0.0,
+  "4367": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.06999999999999999,
+  "5566": 0.0,
+  "5562": 0.0,
+  "5567": 0.0,
+  "5568": 0.01,
+  "5564": 0.0,
+  "5565": 0.0,
+  "5563": 0.0,
+  "5571": 0.0,
+  "5570": 0.0,
+  "5561": 0.9,
+  "5569": 0.02
+ },
+ "folhas_beam": [
+  {
+   "tema": "5560",
+   "subtema": "5561",
+   "pontuacao": 0.6573
+  },
+  {
+   "tema": "5512",
+   "subtema": "5515",
+   "pontuacao": 0.3359
+  },
+  {
+   "tema": "5512",
+   "subtema": "5514",
+   "pontuacao": 0.3323
+  },
+  {
+   "tema": "5480",
+   "subtema": null,
+   "pontuacao": 0.2524
+  },
+  {
+   "tema": "5480",
+   "subtema": "5485",
+   "pontuacao": 0.2498
+  }
+ ],
+ "ramo_guloso": "5560",
+ "id": "Q0235",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 13112,
+  "output_tokens": 1322,
+  "modelo": "jev-1.13.0"
+ }
+}

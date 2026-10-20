@@ -1,0 +1,54 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": "5073",
+ "confianca_ramo": 0.9719999999999999,
+ "confianca_subtema": 0.768,
+ "segunda_opcao_id": "5218",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Concurso de Pessoas', 0.972), ('Teoria do Crime: Fato Típico', 0.026), ('Organizações Criminosas', 0.002)]; confiança 0.97",
+ "confianca_estagio1": 0.9716853932584268,
+ "probabilidades_estagio1": {
+  "5071": 0.9719999999999999,
+  "5218": 0.025999999999999995,
+  "4705": 0.002,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.004,
+  "5072": 0.22799999999999998,
+  "5073": 0.768,
+  "5076": 0.0,
+  "5075": 0.0,
+  "5074": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5071",
+  "5071",
+  "5071",
+  "5071",
+  "5071"
+ ],
+ "id": "Q0198",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 54065,
+  "output_tokens": 5455,
+  "modelo": "jev-1.13.0"
+ }
+}

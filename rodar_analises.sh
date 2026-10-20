@@ -14,6 +14,7 @@ python src/47_decisao.py                                   # entrega principal: 
 python src/60_previsao.py > /dev/null
 python src/61_escrever_previsao.py > /dev/null
 python src/44_diagnostico.py > /dev/null
+python src/50_avaliar_jev.py > /dev/null             # Jev só como estudo: docs/jev.md
 python src/43_embeddings.py avaliar > /dev/null 2>&1 || echo "aviso: avaliação de embeddings não rodou (faltam os vetores em data/embeddings)"
 python src/62_preencher_relatorio.py | head -1
 python src/64_gerar_pdf.py

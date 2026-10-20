@@ -1,0 +1,46 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5178",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": "5191",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Iter Criminis', 0.93), ('Punibilidade', 0.05), ('Dos Crimes Contra o Patrimônio', 0.01)]; confiança 0.93",
+ "confianca_estagio1": 0.9292134831460674,
+ "probabilidades_estagio1": {
+  "5175": 0.93,
+  "5191": 0.05,
+  "5157": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.01,
+  "5177": 0.03,
+  "5179": 0.0,
+  "5178": 0.96,
+  "5176": 0.0
+ },
+ "id": "Q0243",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 10704,
+  "output_tokens": 1080,
+  "modelo": "jev-1.14.0"
+ }
+}

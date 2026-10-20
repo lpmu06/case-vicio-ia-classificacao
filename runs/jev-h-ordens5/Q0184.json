@@ -1,0 +1,55 @@
+{
+ "fora": false,
+ "tema_n1_id": "5517",
+ "subtema_n2_id": "5518",
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 0.998,
+ "segunda_opcao_id": "4708",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Prisões em Espécie', 0.55), ('Tráfico de Drogas', 0.382), ('Teoria Geral das Prisões', 0.044)]; confiança 0.54",
+ "confianca_estagio1": 0.5449438202247192,
+ "probabilidades_estagio1": {
+  "5517": 0.55,
+  "4708": 0.382,
+  "5584": 0.044,
+  "5498": 0.014000000000000002,
+  "5487": 0.004,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.002,
+  "5523": 0.0,
+  "5522": 0.0,
+  "5521": 0.0,
+  "5519": 0.0,
+  "5520": 0.0,
+  "5518": 0.998
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5517",
+  "5517",
+  "4708",
+  "5517",
+  "4708"
+ ],
+ "id": "Q0184",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 54210,
+  "output_tokens": 5510,
+  "modelo": "jev-1.13.0"
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "fora": false,
+ "tema_n1_id": "5580",
+ "subtema_n2_id": "5582",
+ "confianca_ramo": 0.47000000000000003,
+ "confianca_subtema": 0.99,
+ "segunda_opcao_id": "5498",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Inquérito Policial', 0.48), ('Sistemas e Princípios Processuais Penais', 0.47), ('Identificação Criminal', 0.02)]; confiança 0.47",
+ "confianca_estagio1": 0.4741573033707865,
+ "probabilidades_estagio1": {
+  "5498": 0.48,
+  "5580": 0.47000000000000003,
+  "4699": 0.02,
+  "5583": 0.01,
+  "5584": 0.01,
+  "5590": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.01,
+  "5582": 0.99,
+  "5581": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5580",
+   "subtema": "5582",
+   "pontuacao": 0.6821
+  },
+  {
+   "tema": "5498",
+   "subtema": "5500",
+   "pontuacao": 0.5628
+  },
+  {
+   "tema": "5498",
+   "subtema": null,
+   "pontuacao": 0.3666
+  },
+  {
+   "tema": "5498",
+   "subtema": "5499",
+   "pontuacao": 0.1697
+  },
+  {
+   "tema": "5580",
+   "subtema": null,
+   "pontuacao": 0.0686
+  }
+ ],
+ "ramo_guloso": "5498",
+ "id": "Q0209",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 3,
+  "input_tokens": 11440,
+  "output_tokens": 1153,
+  "modelo": "jev-1.13.0"
+ }
+}

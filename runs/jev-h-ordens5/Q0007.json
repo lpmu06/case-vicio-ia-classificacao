@@ -1,0 +1,51 @@
+{
+ "fora": false,
+ "tema_n1_id": "5063",
+ "subtema_n2_id": "5064",
+ "confianca_ramo": 0.8700000000000001,
+ "confianca_subtema": 0.8240000000000001,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Ação Penal (Penal)', 0.87), ('Ação Penal (Processo Penal)', 0.122), ('Dos Crimes Contra a Liberdade Pessoal', 0.006)]; confiança 0.87",
+ "confianca_estagio1": 0.8685393258426968,
+ "probabilidades_estagio1": {
+  "5063": 0.8700000000000001,
+  "5466": 0.122,
+  "5128": 0.006,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.16399999999999998,
+  "5065": 0.012,
+  "5064": 0.8240000000000001
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5063",
+  "5063",
+  "5063",
+  "5063",
+  "5063"
+ ],
+ "id": "Q0007",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 54145,
+  "output_tokens": 5290,
+  "modelo": "jev-1.13.0"
+ }
+}

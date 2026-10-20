@@ -1,0 +1,67 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5087",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Lei de Execução Penal', 0.93), ('Dos Crimes Contra a Administração Pública', 0.03), ('Teoria da Pena', 0.03)]; confiança 0.93",
+ "confianca_estagio1": 0.9292134831460674,
+ "probabilidades_estagio1": {
+  "4703": 0.93,
+  "5087": 0.03,
+  "5199": 0.03,
+  "4693": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "4703",
+   "subtema": null,
+   "pontuacao": 0.93
+  },
+  {
+   "tema": "5199",
+   "subtema": "5201",
+   "pontuacao": 0.1643
+  },
+  {
+   "tema": "5087",
+   "subtema": null,
+   "pontuacao": 0.1428
+  },
+  {
+   "tema": "5087",
+   "subtema": "5089",
+   "pontuacao": 0.0794
+  },
+  {
+   "tema": "5087",
+   "subtema": "5088",
+   "pontuacao": 0.049
+  }
+ ],
+ "ramo_guloso": "4703",
+ "id": "Q0008",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 3,
+  "input_tokens": 13098,
+  "output_tokens": 1337,
+  "modelo": "jev-1.13.0"
+ }
+}

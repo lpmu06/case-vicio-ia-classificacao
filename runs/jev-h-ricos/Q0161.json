@@ -1,0 +1,47 @@
+{
+ "fora": false,
+ "tema_n1_id": "5584",
+ "subtema_n2_id": "5589",
+ "confianca_ramo": 0.71,
+ "confianca_subtema": 0.51,
+ "segunda_opcao_id": "5517",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria Geral das Prisões', 0.71), ('Prisões em Espécie', 0.24), ('Nulidades', 0.03)]; confiança 0.71",
+ "confianca_estagio1": 0.7067415730337079,
+ "probabilidades_estagio1": {
+  "5584": 0.71,
+  "5517": 0.24000000000000002,
+  "5509": 0.03,
+  "4708": 0.01,
+  "5543": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5589": 0.51,
+  "5585": 0.0,
+  "5587": 0.0,
+  "5586": 0.0,
+  "5588": 0.49
+ },
+ "id": "Q0161",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "ricos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 32295,
+  "output_tokens": 1854,
+  "modelo": "jev-1.13.0"
+ }
+}

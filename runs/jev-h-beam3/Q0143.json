@@ -1,0 +1,73 @@
+{
+ "fora": false,
+ "tema_n1_id": "5505",
+ "subtema_n2_id": "5507",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.99,
+ "segunda_opcao_id": "5180",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Lei Processual no Tempo e no Espaço', 0.99), ('Lei Penal no Tempo e no Espaço', 0.01), ('Classificação das Vítimas', 0.0)]; confiança 0.99",
+ "confianca_estagio1": 0.9898876404494382,
+ "probabilidades_estagio1": {
+  "5505": 0.99,
+  "5180": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0,
+  "4384": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.01,
+  "5508": 0.0,
+  "5506": 0.0,
+  "5507": 0.99
+ },
+ "folhas_beam": [
+  {
+   "tema": "5505",
+   "subtema": "5507",
+   "pontuacao": 0.99
+  },
+  {
+   "tema": "5505",
+   "subtema": null,
+   "pontuacao": 0.0995
+  },
+  {
+   "tema": "5180",
+   "subtema": "5181",
+   "pontuacao": 0.0735
+  },
+  {
+   "tema": "5180",
+   "subtema": null,
+   "pontuacao": 0.0678
+  },
+  {
+   "tema": "5505",
+   "subtema": "5508",
+   "pontuacao": 0.0
+  }
+ ],
+ "ramo_guloso": "5505",
+ "id": "Q0143",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 3,
+  "input_tokens": 11206,
+  "output_tokens": 1131,
+  "modelo": "jev-1.13.0"
+ }
+}

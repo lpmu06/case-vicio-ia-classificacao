@@ -1,0 +1,67 @@
+{
+ "fora": false,
+ "tema_n1_id": "4703",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.73,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Lei de Execução Penal', 0.73), ('Teoria da Pena', 0.15), ('Crimes Hediondos', 0.12)]; confiança 0.73",
+ "confianca_estagio1": 0.7269662921348314,
+ "probabilidades_estagio1": {
+  "4703": 0.73,
+  "5199": 0.15000000000000002,
+  "4693": 0.12,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "4703",
+   "subtema": null,
+   "pontuacao": 0.73
+  },
+  {
+   "tema": "5199",
+   "subtema": "5208",
+   "pontuacao": 0.3795
+  },
+  {
+   "tema": "4693",
+   "subtema": null,
+   "pontuacao": 0.12
+  },
+  {
+   "tema": "5199",
+   "subtema": "5201",
+   "pontuacao": 0.0671
+  },
+  {
+   "tema": "5199",
+   "subtema": "5203",
+   "pontuacao": 0.0387
+  }
+ ],
+ "ramo_guloso": "4703",
+ "id": "Q0166",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11896,
+  "output_tokens": 1157,
+  "modelo": "jev-1.13.0"
+ }
+}

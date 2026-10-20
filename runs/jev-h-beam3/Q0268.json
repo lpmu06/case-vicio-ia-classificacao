@@ -1,0 +1,73 @@
+{
+ "fora": false,
+ "tema_n1_id": "5116",
+ "subtema_n2_id": "5118",
+ "confianca_ramo": 0.61,
+ "confianca_subtema": 0.57,
+ "segunda_opcao_id": "5120",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra a Fé Pública e de Falsidade Documental', 0.61), ('Dos Crimes Contra a Honra', 0.24), ('Teoria do Crime: Fato Típico', 0.07)]; confiança 0.61",
+ "confianca_estagio1": 0.6056179775280899,
+ "probabilidades_estagio1": {
+  "5116": 0.61,
+  "5120": 0.24000000000000002,
+  "5218": 0.06999999999999999,
+  "5063": 0.04,
+  "FORA": 0.02,
+  "5087": 0.01,
+  "5170": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.43,
+  "5118": 0.57,
+  "5119": 0.0,
+  "5117": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5116",
+   "subtema": "5118",
+   "pontuacao": 0.5897
+  },
+  {
+   "tema": "5116",
+   "subtema": null,
+   "pontuacao": 0.5122
+  },
+  {
+   "tema": "5120",
+   "subtema": null,
+   "pontuacao": 0.4409
+  },
+  {
+   "tema": "5218",
+   "subtema": null,
+   "pontuacao": 0.198
+  },
+  {
+   "tema": "5120",
+   "subtema": "5121",
+   "pontuacao": 0.1549
+  }
+ ],
+ "ramo_guloso": "5116",
+ "id": "Q0268",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 13008,
+  "output_tokens": 1264,
+  "modelo": "jev-1.13.0"
+ }
+}

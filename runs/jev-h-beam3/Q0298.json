@@ -1,0 +1,67 @@
+{
+ "fora": false,
+ "tema_n1_id": "4694",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.65,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5218",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Crimes previstos no CDC', 0.65), ('Teoria do Crime: Fato Típico', 0.33), ('Teoria do Crime: Culpabilidade', 0.02)]; confiança 0.65",
+ "confianca_estagio1": 0.6460674157303371,
+ "probabilidades_estagio1": {
+  "4694": 0.65,
+  "5218": 0.33,
+  "5211": 0.02,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "4694",
+   "subtema": null,
+   "pontuacao": 0.65
+  },
+  {
+   "tema": "5218",
+   "subtema": "5222",
+   "pontuacao": 0.5716
+  },
+  {
+   "tema": "5211",
+   "subtema": null,
+   "pontuacao": 0.14
+  },
+  {
+   "tema": "5218",
+   "subtema": null,
+   "pontuacao": 0.0574
+  },
+  {
+   "tema": "5211",
+   "subtema": "5212",
+   "pontuacao": 0.02
+  }
+ ],
+ "ramo_guloso": "4694",
+ "id": "Q0298",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 3,
+  "input_tokens": 11963,
+  "output_tokens": 1227,
+  "modelo": "jev-1.13.0"
+ }
+}

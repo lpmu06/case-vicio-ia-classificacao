@@ -1,0 +1,41 @@
+id,tema_publicado,veredito,tipo_duvida,tema_sugerido,comentario
+Q0124,4384,duvidoso,ramo,5199,"Teorias da pena com Kant, Hegel, Roxin e Binding têm dois endereços: 4384 é o nó exato, mas 5200 (Sanção penal: finalidade) é onde um curso de Penal as arquivaria."
+Q0247,5498,ok,subtema,5502,"Questão inteira sobre ANPP (extinção da punibilidade, vedações, confissão, retroatividade); a árvore põe o ANPP no subtema 5502 do Inquérito Policial."
+Q0289,4704,ok,,,"Todas as alternativas tratam da Lei 11.340 (temas repetitivos, MPU, sigilo, dano moral mínimo); o valor indenizatório da B não desloca o tema."
+Q0117,4384,duvidoso,ramo,5199,"Finalidades da pena (teoria agnóstica, neutralização) também cabem em 5200 (Sanção penal: finalidade); 4384 é o nó exato e os distratores criminológicos o favorecem."
+Q0216,4701,duvidoso,ramo,5539,"Lei 9.099 tem dois endereços: 4701 e Procedimento Sumaríssimo (5539), que tem subtemas de transação penal e competência do JECrim, foco de B, C e E."
+Q0236,5490,duvidoso,ramo,5580,"Questão mista: I e II são incidentes (prejudicial, restituição), mas III e IV tratam de contraditório e ampla defesa (condenação só com IP, direito de presença)."
+Q0240,5498,duvidoso,ramo,5466,Soma o prazo do IP com réu preso (art. 10) e o prazo do MP para denúncia (art. 46); o segundo é Ação Penal > Denúncia (5473). Mistura dois temas.
+Q0207,4703,ok,,,"Falta grave por celular, RDD, isolamento cautelar, prescrição da falta, perda de remição e regressão: tudo disciplina na execução, núcleo da LEP."
+Q0286,5199,ok,subtema,,"Ordem de incidência no cálculo da pena (fases, tentativa, participação, concurso formal e continuado); o concurso de crimes aparece só como etapa da dosimetria."
+Q0185,4703,ok,,,"Falta grave, regressão, RDD e procedimento disciplinar no semiaberto; o recurso da D (agravo em execução) é detalhe. Tema central é a LEP."
+Q0328,4380,ok,subtema,4382,"Inter-relação entre criminologia, política criminal e direito penal é conteúdo clássico das funções da criminologia (4382); 4374 só se o foco fosse a política criminal."
+Q0195,4371,ok,subtema,4373,"Gabarito e maioria das alternativas sobre escolas clássica e positivista; B e E (consenso e conflito) puxariam para 4385, mas são minoria."
+Q0285,4374,ok,subtema,4376,Direito penal do inimigo é o subtema 4376 de Política Criminal.
+Q0118,5505,ok,subtema,5507,"Aplicação intertemporal de lei processual nova sobre fiança e preventiva (tempus regit actum, normas mistas); fiança e prisão são só o objeto da sucessão de leis."
+Q0064,4695,duvidoso,ramo,5157,"Apropriação indébita previdenciária (art. 168-A) está no CP, Título II, apropriação indébita (5165); o regime fiscal (pagamento, insignificância) aproxima de 4695."
+Q0006,5157,ok,subtema,,"Compara furto e roubo (consumação, violência imprópria, roubo impróprio); o tema-pai é adequado para comparação entre subtemas."
+Q0119,5180,duvidoso,ramo,5191,"Abolitio criminis e retroatividade (art. 2º CP) é lei penal no tempo, mas a árvore tem o subtema 5194 Abolitio Criminis em Punibilidade: assunto com dois endereços."
+Q0020,5199,erro,ramo,,"Jurisprudência variada sem tema central: concurso no ECA, compensação na dosimetria, falsa identidade, furto noturno e transação/sursis processual; 5199 cobre só o item 2."
+Q0098,5543,ok,subtema,5548,Confissão qualificada é conceito do meio de prova confissão (5548).
+Q0115,4385,ok,subtema,4388,Caso para identificar a teoria (anomia) entre teorias sociológicas em espécie; todas as alternativas são teorias explicativas da criminalidade.
+Q0211,5583,ok,,,Polícia das audiências e conduta na sala são poderes do juiz (arts. 251 e 794 CPP); a publicidade (5580) aparece só na C.
+Q0146,5590,ok,subtema,5594,"Admissibilidade e ilicitude da prova (art. 5º, LVI, CF); os meios específicos (captação, busca, interceptação) são só cenário."
+Q0301,5191,ok,subtema,5197,"Hipóteses de perdão judicial no CP, no CTB e na Lei 9.605; o tipo específico de cada alternativa é só cenário."
+Q0010,4688,ok,,,"Todas as alternativas são da Lei 9.605 e da jurisprudência ambiental (poluição sonora, crime permanente, pessoa jurídica, dupla imputação)."
+Q0093,5218,ok,subtema,5223,Distinção entre omissão imprópria do garante e omissão própria (omissão de socorro); 5138 só se o foco fosse o tipo do art. 135.
+Q0234,4380,ok,subtema,4381,Interdisciplinaridade e ciências afins à criminologia: conceito e objeto (4381).
+Q0196,4385,ok,subtema,4388,"Labelling approach é teoria criminológica em espécie; a seletividade (4377) é consequência, não o foco."
+Q0091,4703,duvidoso,ramo,5199,"Vedação da progressão per saltum é LEP, mas também art. 33, § 2º, CP (5201), e o item integra série sobre aplicação e regime de penas."
+Q0087,4703,ok,,,Prisão domiciliar na execução (art. 117 LEP) e jurisprudência do STJ; 5521 trata da domiciliar cautelar do CPP.
+Q0055,5543,ok,subtema,5550,Inquirição de testemunhas pelo art. 212 CPP; a nulidade da A (5509) é consequência do procedimento do meio de prova.
+Q0255,5211,ok,subtema,5213,"Imputabilidade, embriaguez, emoção e menoridade: inimputabilidade (5213)."
+Q0079,5580,ok,subtema,5581,Sistemas processuais acusatório e inquisitivo (5581).
+Q0100,5102,ok,subtema,5103,"Caso de estupro de vulnerável; erro de tipo, participação e omissão imprópria são examinados em função do crime sexual, eixo comum das alternativas."
+Q0337,4684,ok,,,"Elemento subjetivo especial, divergência interpretativa e ação penal na Lei 13.869."
+Q0310,5505,ok,subtema,,"Lei processual no tempo, no espaço e interpretação (arts. 1º a 3º CPP); o tema-pai cobre as três frentes."
+Q0282,4704,duvidoso,ramo,4697,"Questão mista sem tema central: Maria da Penha (A, E, gabarito), Estatuto do Desarmamento (C, D) e racismo (B)."
+Q0233,5175,ok,subtema,5178,Desistência voluntária e arrependimento eficaz (5178).
+Q0145,4702,ok,,,Lavagem após a Lei 12.683; crime tributário e favorecimento real aparecem só como antecedente e distinção.
+Q0002,4377,ok,subtema,4378,"Seletividade do sistema penal (maiores chances de criminalização) é criminalização secundária (4378); a autora é crítica, mas o foco é o processo."
+Q0357,5134,ok,subtema,5135,Boicotagem violenta (art. 198 CP) e crimes vizinhos contra a organização do trabalho (5135).

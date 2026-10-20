@@ -1,0 +1,75 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5188",
+ "confianca_ramo": 0.74,
+ "confianca_subtema": 0.47000000000000003,
+ "segunda_opcao_id": "5530",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Prescrição', 0.74), ('Procedimento Ordinário', 0.11), ('Procedimento Sumário', 0.06)]; confiança 0.74",
+ "confianca_estagio1": 0.7370786516853932,
+ "probabilidades_estagio1": {
+  "5185": 0.74,
+  "5530": 0.11,
+  "5538": 0.060000000000000005,
+  "5490": 0.04,
+  "5543": 0.02,
+  "5572": 0.02,
+  "5466": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.11,
+  "5186": 0.01,
+  "5187": 0.01,
+  "5190": 0.4,
+  "5189": 0.0,
+  "5188": 0.47000000000000003
+ },
+ "folhas_beam": [
+  {
+   "tema": "5185",
+   "subtema": "5188",
+   "pontuacao": 0.5897
+  },
+  {
+   "tema": "5185",
+   "subtema": "5190",
+   "pontuacao": 0.5441
+  },
+  {
+   "tema": "5185",
+   "subtema": null,
+   "pontuacao": 0.2853
+  },
+  {
+   "tema": "5530",
+   "subtema": "5535",
+   "pontuacao": 0.2814
+  },
+  {
+   "tema": "5530",
+   "subtema": null,
+   "pontuacao": 0.1446
+  }
+ ],
+ "ramo_guloso": "5185",
+ "id": "Q0353",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 3,
+  "input_tokens": 12085,
+  "output_tokens": 1197,
+  "modelo": "jev-1.13.0"
+ }
+}

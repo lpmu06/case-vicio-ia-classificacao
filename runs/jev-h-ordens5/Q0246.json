@@ -1,0 +1,54 @@
+{
+ "fora": false,
+ "tema_n1_id": "5524",
+ "subtema_n2_id": "5527",
+ "confianca_ramo": 0.852,
+ "confianca_subtema": 0.982,
+ "segunda_opcao_id": "5184",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Procedimento do Tribunal do Júri', 0.852), ('Medida de Segurança', 0.082), ('Das Questões e Processos Incidentes', 0.034)]; confiança 0.85",
+ "confianca_estagio1": 0.8503370786516854,
+ "probabilidades_estagio1": {
+  "5524": 0.852,
+  "5184": 0.08199999999999999,
+  "5490": 0.034,
+  "5211": 0.018,
+  "5480": 0.012,
+  "5156": 0.002,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5527": 0.982,
+  "5528": 0.0,
+  "5525": 0.0,
+  "5526": 0.014000000000000002,
+  "5529": 0.004
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5524",
+  "5524",
+  "5524",
+  "5524",
+  "5524"
+ ],
+ "id": "Q0246",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 54125,
+  "output_tokens": 5455,
+  "modelo": "jev-1.13.0"
+ }
+}

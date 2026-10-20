@@ -1,0 +1,53 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5209",
+ "confianca_ramo": 0.59,
+ "confianca_subtema": 0.97,
+ "segunda_opcao_id": "5087",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria da Pena', 0.59), ('Dos Crimes Contra a Administração Pública', 0.19), ('Lavagem de Dinheiro', 0.14)]; confiança 0.59",
+ "confianca_estagio1": 0.5853932584269663,
+ "probabilidades_estagio1": {
+  "5199": 0.59,
+  "5087": 0.19,
+  "4702": 0.14,
+  "4703": 0.03,
+  "4693": 0.02,
+  "5191": 0.01,
+  "5572": 0.01,
+  "FORA": 0.01,
+  "4366": 0.0,
+  "4367": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.03,
+  "5209": 0.97,
+  "5208": 0.0,
+  "5206": 0.0,
+  "5201": 0.0,
+  "5205": 0.0,
+  "5202": 0.0,
+  "5210": 0.0,
+  "5200": 0.0,
+  "5203": 0.0,
+  "5207": 0.0,
+  "5204": 0.0
+ },
+ "id": "Q0187",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11912,
+  "output_tokens": 1157,
+  "modelo": "jev-1.14.0"
+ }
+}

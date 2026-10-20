@@ -1,0 +1,54 @@
+{
+ "fora": false,
+ "tema_n1_id": "5157",
+ "subtema_n2_id": "5164",
+ "confianca_ramo": 0.55,
+ "confianca_subtema": 1.0,
+ "segunda_opcao_id": "5063",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra o Patrimônio', 0.55), ('Ação Penal (Penal)', 0.28), ('Concurso de Crimes', 0.15)]; confiança 0.54",
+ "confianca_estagio1": 0.5449438202247192,
+ "probabilidades_estagio1": {
+  "5157": 0.55,
+  "5063": 0.28,
+  "5066": 0.15000000000000002,
+  "5466": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5158": 0.0,
+  "5167": 0.0,
+  "5165": 0.0,
+  "5164": 1.0,
+  "5162": 0.0,
+  "5166": 0.0,
+  "5161": 0.0,
+  "5168": 0.0,
+  "5159": 0.0,
+  "5169": 0.0,
+  "5160": 0.0,
+  "5163": 0.0
+ },
+ "id": "Q0047",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11914,
+  "output_tokens": 1168,
+  "modelo": "jev-1.14.0"
+ }
+}

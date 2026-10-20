@@ -1,0 +1,54 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": "5074",
+ "confianca_ramo": 0.768,
+ "confianca_subtema": 0.558,
+ "segunda_opcao_id": "5157",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Concurso de Pessoas', 0.768), ('Dos Crimes Contra o Patrimônio', 0.084), ('Estatuto do Desarmamento', 0.08)]; confiança 0.77",
+ "confianca_estagio1": 0.7653932584269664,
+ "probabilidades_estagio1": {
+  "5071": 0.768,
+  "5157": 0.08399999999999999,
+  "4697": 0.08,
+  "4702": 0.03,
+  "5087": 0.014000000000000002,
+  "5144": 0.008,
+  "5079": 0.006,
+  "5560": 0.004,
+  "5218": 0.002,
+  "4366": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.22800000000000004,
+  "5072": 0.092,
+  "5073": 0.086,
+  "5076": 0.027999999999999997,
+  "5075": 0.008,
+  "5074": 0.558
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5071",
+  "5071",
+  "5071",
+  "5071",
+  "5071"
+ ],
+ "id": "Q0300",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 53615,
+  "output_tokens": 5455,
+  "modelo": "jev-1.13.0"
+ }
+}

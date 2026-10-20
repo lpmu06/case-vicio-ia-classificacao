@@ -1,0 +1,51 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5222",
+ "confianca_ramo": 0.66,
+ "confianca_subtema": 1.0,
+ "segunda_opcao_id": "5087",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria do Crime: Fato Típico', 0.66), ('Dos Crimes Contra a Administração Pública', 0.28), ('Crimes Tributários', 0.04)]; confiança 0.66",
+ "confianca_estagio1": 0.6561797752808989,
+ "probabilidades_estagio1": {
+  "5218": 0.66,
+  "5087": 0.28,
+  "4695": 0.04,
+  "5211": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5219": 0.0,
+  "5221": 0.0,
+  "5222": 1.0,
+  "5223": 0.0,
+  "5224": 0.0,
+  "5220": 0.0,
+  "5226": 0.0,
+  "5225": 0.0,
+  "5227": 0.0
+ },
+ "id": "Q0273",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 10988,
+  "output_tokens": 1135,
+  "modelo": "jev-1.13.0"
+ }
+}

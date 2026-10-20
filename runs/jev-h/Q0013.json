@@ -1,0 +1,48 @@
+{
+ "fora": false,
+ "tema_n1_id": "5480",
+ "subtema_n2_id": "5485",
+ "confianca_ramo": 0.6,
+ "confianca_subtema": 0.78,
+ "segunda_opcao_id": "5580",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Competência', 0.6), ('Sistemas e Princípios Processuais Penais', 0.12), ('Inquérito Policial', 0.09)]; confiança 0.60",
+ "confianca_estagio1": 0.5955056179775281,
+ "probabilidades_estagio1": {
+  "5480": 0.6,
+  "5580": 0.12,
+  "5498": 0.09,
+  "5583": 0.08,
+  "5476": 0.05,
+  "5490": 0.03,
+  "4701": 0.01,
+  "5517": 0.01,
+  "5584": 0.01,
+  "4366": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.22,
+  "5483": 0.0,
+  "5485": 0.78,
+  "5482": 0.0,
+  "5484": 0.0,
+  "5481": 0.0,
+  "5486": 0.0
+ },
+ "id": "Q0013",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11305,
+  "output_tokens": 1102,
+  "modelo": "jev-1.13.0"
+ }
+}

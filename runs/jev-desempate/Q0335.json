@@ -1,0 +1,21 @@
+{
+ "id": "Q0335",
+ "candidatos": [
+  "5170",
+  "5218"
+ ],
+ "ramo_arbitro": "5218",
+ "probabilidades": {
+  "5170": 0.01,
+  "5218": 0.99
+ },
+ "escolha": "5218",
+ "p_escolha": 0.99,
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 3018,
+  "output_tokens": 0,
+  "modelo": "jev-1.13.0"
+ },
+ "promovida": true
+}

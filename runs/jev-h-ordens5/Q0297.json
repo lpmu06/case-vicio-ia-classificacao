@@ -1,0 +1,46 @@
+{
+ "fora": false,
+ "tema_n1_id": "4695",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.8779999999999999,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "4689",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Crimes Tributários', 0.878), ('Crimes contra o Sistema Financeiro', 0.106), ('fora', 0.008)]; confiança 0.88",
+ "confianca_estagio1": 0.8766292134831459,
+ "probabilidades_estagio1": {
+  "4695": 0.8779999999999999,
+  "4689": 0.10600000000000001,
+  "FORA": 0.008,
+  "5191": 0.006,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "4695",
+  "4695",
+  "4695",
+  "4695",
+  "4695"
+ ],
+ "id": "Q0297",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 5,
+  "input_tokens": 50255,
+  "output_tokens": 5035,
+  "modelo": "jev-1.13.0"
+ }
+}

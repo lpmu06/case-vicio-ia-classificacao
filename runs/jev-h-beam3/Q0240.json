@@ -1,0 +1,76 @@
+{
+ "fora": false,
+ "tema_n1_id": "5498",
+ "subtema_n2_id": "5501",
+ "confianca_ramo": 0.89,
+ "confianca_subtema": 0.87,
+ "segunda_opcao_id": "5530",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Inquérito Policial', 0.89), ('Procedimento Ordinário', 0.06), ('Prisões em Espécie', 0.02)]; confiança 0.89",
+ "confianca_estagio1": 0.8887640449438202,
+ "probabilidades_estagio1": {
+  "5498": 0.89,
+  "5530": 0.060000000000000005,
+  "5517": 0.02,
+  "5466": 0.01,
+  "5487": 0.01,
+  "5505": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.07,
+  "5502": 0.0,
+  "5499": 0.0,
+  "5501": 0.87,
+  "5504": 0.0,
+  "5503": 0.0,
+  "5500": 0.06
+ },
+ "folhas_beam": [
+  {
+   "tema": "5498",
+   "subtema": "5501",
+   "pontuacao": 0.8799
+  },
+  {
+   "tema": "5498",
+   "subtema": null,
+   "pontuacao": 0.2496
+  },
+  {
+   "tema": "5498",
+   "subtema": "5500",
+   "pontuacao": 0.2311
+  },
+  {
+   "tema": "5530",
+   "subtema": "5531",
+   "pontuacao": 0.2232
+  },
+  {
+   "tema": "5517",
+   "subtema": "5519",
+   "pontuacao": 0.1105
+  }
+ ],
+ "ramo_guloso": "5498",
+ "id": "Q0240",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 13738,
+  "output_tokens": 1303,
+  "modelo": "jev-1.13.0"
+ }
+}

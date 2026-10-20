@@ -1,0 +1,53 @@
+{
+ "fora": false,
+ "tema_n1_id": "5066",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.324,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5199",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Concurso de Crimes', 0.324), ('Teoria da Pena', 0.292), ('Violência contra Criança e Adolescente', 0.14)]; confiança 0.32",
+ "confianca_estagio1": 0.31640449438202245,
+ "probabilidades_estagio1": {
+  "5066": 0.324,
+  "5199": 0.292,
+  "4709": 0.14,
+  "4701": 0.134,
+  "FORA": 0.055999999999999994,
+  "5170": 0.02,
+  "5102": 0.014000000000000002,
+  "5184": 0.004,
+  "5228": 0.004,
+  "4374": 0.002
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.6179999999999999,
+  "5068": 0.002,
+  "5067": 0.38,
+  "5069": 0.0,
+  "5070": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5199",
+  "5066",
+  "5066",
+  "5199",
+  "4701"
+ ],
+ "id": "Q0020",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 58750,
+  "output_tokens": 5388,
+  "modelo": "jev-1.13.0"
+ }
+}

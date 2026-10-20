@@ -1,0 +1,56 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5089",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 1.0,
+ "segunda_opcao_id": "5071",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra a Administração Pública', 0.92), ('Concurso de Pessoas', 0.07), ('Dos Crimes Contra o Patrimônio', 0.01)]; confiança 0.92",
+ "confianca_estagio1": 0.9191011235955057,
+ "probabilidades_estagio1": {
+  "5087": 0.92,
+  "5071": 0.07,
+  "5157": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5097": 0.0,
+  "5091": 0.0,
+  "5096": 0.0,
+  "5094": 0.0,
+  "5093": 0.0,
+  "5092": 0.0,
+  "5090": 0.0,
+  "5088": 0.0,
+  "5089": 1.0,
+  "5095": 0.0,
+  "5100": 0.0,
+  "5101": 0.0,
+  "5099": 0.0,
+  "5098": 0.0
+ },
+ "id": "Q0194",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "ricos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 34269,
+  "output_tokens": 1997,
+  "modelo": "jev-1.13.0"
+ }
+}

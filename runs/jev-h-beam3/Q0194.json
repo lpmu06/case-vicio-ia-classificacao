@@ -1,0 +1,84 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5089",
+ "confianca_ramo": 0.93,
+ "confianca_subtema": 0.98,
+ "segunda_opcao_id": "5157",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra a Administração Pública', 0.93), ('Dos Crimes Contra o Patrimônio', 0.04), ('Concurso de Pessoas', 0.03)]; confiança 0.93",
+ "confianca_estagio1": 0.9292134831460674,
+ "probabilidades_estagio1": {
+  "5087": 0.93,
+  "5157": 0.04,
+  "5071": 0.03,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5097": 0.0,
+  "5091": 0.0,
+  "5096": 0.0,
+  "5094": 0.0,
+  "5093": 0.0,
+  "5092": 0.0,
+  "5090": 0.0,
+  "5088": 0.02,
+  "5089": 0.98,
+  "5095": 0.0,
+  "5100": 0.0,
+  "5101": 0.0,
+  "5099": 0.0,
+  "5098": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5087",
+   "subtema": "5089",
+   "pontuacao": 0.9547
+  },
+  {
+   "tema": "5071",
+   "subtema": "5076",
+   "pontuacao": 0.1697
+  },
+  {
+   "tema": "5087",
+   "subtema": "5088",
+   "pontuacao": 0.1364
+  },
+  {
+   "tema": "5157",
+   "subtema": null,
+   "pontuacao": 0.1311
+  },
+  {
+   "tema": "5157",
+   "subtema": "5159",
+   "pontuacao": 0.1166
+  }
+ ],
+ "ramo_guloso": "5087",
+ "id": "Q0194",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 14595,
+  "output_tokens": 1432,
+  "modelo": "jev-1.13.0"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "fora": false,
+ "tema_n1_id": "4705",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.75,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5543",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Organizações Criminosas', 0.75), ('Provas em Espécies', 0.1), ('Teoria da Pena', 0.05)]; confiança 0.75",
+ "confianca_estagio1": 0.7471910112359551,
+ "probabilidades_estagio1": {
+  "4705": 0.75,
+  "5543": 0.09999999999999999,
+  "5199": 0.05,
+  "5466": 0.03,
+  "5583": 0.02,
+  "5590": 0.02,
+  "5170": 0.01,
+  "5218": 0.01,
+  "5498": 0.01,
+  "4366": 0.0
+ },
+ "id": "Q0329",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 1,
+  "input_tokens": 10218,
+  "output_tokens": 1007,
+  "modelo": "jev-1.14.0"
+ }
+}

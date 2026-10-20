@@ -1,0 +1,45 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "4371",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teorias Sociológicas Explicativas da Criminalidade', 0.99), ('Etapas Evolutivas e Escolas Criminológicas', 0.01), ('Classificação das Vítimas', 0.0)]; confiança 0.99",
+ "confianca_estagio1": 0.9898876404494382,
+ "probabilidades_estagio1": {
+  "4385": 0.99,
+  "4371": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0,
+  "4384": 0.0,
+  "4383": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.01,
+  "4388": 0.95,
+  "4386": 0.0,
+  "4387": 0.04
+ },
+ "id": "Q0031",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 10502,
+  "output_tokens": 1069,
+  "modelo": "jev-1.14.0"
+ }
+}

@@ -92,6 +92,15 @@ def main():
 
     g = diag["grupos"]
     c67 = prev["copias_67xx"]
+
+    # Jev (bloco G): variantes, cascata e desempate auditado (src/50_avaliar_jev.py e src/51_jev_desempate.py)
+    jev = json.loads((RAIZ / "runs" / "jev_avaliacao.json").read_text(encoding="utf-8"))
+    jdes = json.loads((RAIZ / "runs" / "jev_desempate.json").read_text(encoding="utf-8"))
+    jv = {l["rodada"]: l for l in jev["variantes"]}
+    casc = next(l for l in jev["cascata"]["limiares"] if l["limiar"] == 0.99)
+    jaud = jdes["auditoria"]
+    jev_usd = sum(l["usd_total"] for l in jev["variantes"]) + jdes["custo_usd"]
+    jev_min = sum(l["segundos"] for l in jev["variantes"]) / 60
     v = {
         "PUB": str(prev["publicadas"]), "COB": p1(prev["cobertura_prevista"]), "PUB2": str(prev["publicadas_nivel2"]),
         "PUB1": str(prev["publicadas"] - prev["publicadas_nivel2"]), "REV": str(c["revisar"]), "FORA": str(c["fora"]),
@@ -110,11 +119,20 @@ def main():
         "N67_PARTES_M1": str(len(b_parte) - 2), "N67_RESTO": str(len(buckets) - len(b_copia) - len(b_parte)),
         "LOO_OPUS": loo_txt("claude-opus"), "LOO_SONNET_P": loo_txt("claude-sonnet-plano"), "LOO_OPUS_H": loo_txt("claude-opus-h"),
         "LOO_SONNET_H": loo_txt("claude-sonnet-h"), "LOO_HAIKU_H": loo_txt("claude-haiku-h"), "LOO_S3N": loo_txt("claude-sonnet-3n"),
-        "LOO_HAIKU_3N": loo_txt("claude-haiku-3n"), "LOO_ARB": loo_txt("arbitro-opus"), "LOO_JEV": loo_txt("jev-h"),
+        "LOO_HAIKU_3N": loo_txt("claude-haiku-3n"), "LOO_ARB": loo_txt("arbitro-opus"), "LOO_JEV": loo_txt("jev-h-ricos"),
         "TOK_HAIKU_H": tok("claude-haiku-h"), "TOK_S3N": tok("claude-sonnet-3n"), "TOK_HAIKU_3N": tok("claude-haiku-3n"),
-        "TOK_ARB": tok("arbitro-opus"), "TOK_JEV": tok("jev-h"),
+        "TOK_ARB": tok("arbitro-opus"), "TOK_JEV": tok("jev-h-ricos"),
         "USD_HAIKU_H": custo("claude-haiku-h"), "USD_S3N": custo("claude-sonnet-3n"), "USD_HAIKU_3N": custo("claude-haiku-3n"),
-        "USD_ARB": custo("arbitro-opus"), "USD_JEV": custo("jev-h"),
+        "USD_ARB": custo("arbitro-opus"), "USD_JEV": f"{met['jev-h-ricos']['custo_usd_por_questao_com_cache']:.4f}".replace(".", ","),
+        "JEV_BASE": p1(jv["jev-h"]["concorda_maioria"]), "JEV_RICOS": p1(jv["jev-h-ricos"]["concorda_maioria"]),
+        "JEV_USD_Q": f"{jv['jev-h-ricos']['usd_por_questao']:.4f}".replace(".", ","),
+        "JEV_ECE": f"{jev['calibracao']['jev-h-ricos']['ece']:.3f}".replace(".", ","),
+        "OPUS_ECE": f"{jev['calibracao']['claude-opus']['ece']:.3f}".replace(".", ","),
+        "JEV_CASC_FRAC": p0(casc["fracao"]), "JEV_CASC_N": str(casc["questoes"]),
+        "JEV_DES_OK": str(jaud["promovidas"]["ok"]), "JEV_DES_PROM": str(jaud["promovidas"]["n"]),
+        "JEV_CTRL_OK": str(jaud["controles"]["ok"]), "JEV_CTRL_N": str(jaud["controles"]["n"]),
+        "JEV_CTRL_ERR": str(jaud["controles"]["erro"]),
+        "JEV_USD_TOTAL": f"{jev_usd:.2f}".replace(".", ","), "JEV_MIN": f"{jev_min:.0f}",
         "S3N_N": str(met["claude-sonnet-3n"]["questoes"]) if "claude-sonnet-3n" in met else "-",
         "CUSTO_PIPELINE": f"US$ {custo_pipe:.0f}" if custo_pipe else "(custo do árbitro não medido)",
         "CUSTO_PIPELINE_LOTE": f"US$ {custo_pipe / 2:.0f}" if custo_pipe else "-",

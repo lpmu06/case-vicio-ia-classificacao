@@ -1,0 +1,51 @@
+{
+ "fora": false,
+ "tema_n1_id": "4374",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.604,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "4368",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Política Criminal', 0.604), ('Criminologia no Estado Democrático de Direito', 0.294), ('Teoria Geral da Criminologia', 0.048)]; confiança 0.60",
+ "confianca_estagio1": 0.5995505617977528,
+ "probabilidades_estagio1": {
+  "4374": 0.604,
+  "4368": 0.294,
+  "4380": 0.048,
+  "4384": 0.018000000000000002,
+  "4385": 0.016,
+  "4377": 0.012,
+  "4371": 0.002,
+  "FORA": 0.002,
+  "4366": 0.0,
+  "4367": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.836,
+  "4375": 0.154,
+  "4376": 0.01
+ },
+ "escolhas_por_ordem_estagio1": [
+  "4374",
+  "4374",
+  "4374",
+  "4374",
+  "4374"
+ ],
+ "id": "Q0179",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 51645,
+  "output_tokens": 5275,
+  "modelo": "jev-1.13.0"
+ }
+}

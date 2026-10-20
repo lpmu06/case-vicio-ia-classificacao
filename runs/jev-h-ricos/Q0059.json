@@ -1,0 +1,45 @@
+{
+ "fora": false,
+ "tema_n1_id": "4385",
+ "subtema_n2_id": "4388",
+ "confianca_ramo": 0.71,
+ "confianca_subtema": 0.6,
+ "segunda_opcao_id": "4368",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teorias Sociológicas Explicativas da Criminalidade', 0.71), ('Criminologia no Estado Democrático de Direito', 0.11), ('Política Criminal', 0.06)]; confiança 0.71",
+ "confianca_estagio1": 0.7067415730337079,
+ "probabilidades_estagio1": {
+  "4385": 0.71,
+  "4368": 0.11,
+  "4374": 0.060000000000000005,
+  "4380": 0.05,
+  "4703": 0.03,
+  "4384": 0.02,
+  "5199": 0.01,
+  "FORA": 0.01,
+  "4366": 0.0,
+  "4367": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.06,
+  "4388": 0.6,
+  "4386": 0.0,
+  "4387": 0.34
+ },
+ "id": "Q0059",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "ricos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 31089,
+  "output_tokens": 1835,
+  "modelo": "jev-1.13.0"
+ }
+}

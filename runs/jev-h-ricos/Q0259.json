@@ -1,0 +1,45 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": "5183",
+ "confianca_ramo": 0.51,
+ "confianca_subtema": 1.0,
+ "segunda_opcao_id": "5066",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Lei Penal no Tempo e no Espaço', 0.51), ('Concurso de Crimes', 0.28), ('Dos Crimes Contra o Patrimônio', 0.16)]; confiança 0.50",
+ "confianca_estagio1": 0.5044943820224719,
+ "probabilidades_estagio1": {
+  "5180": 0.51,
+  "5066": 0.28,
+  "5157": 0.16,
+  "5170": 0.03,
+  "FORA": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5183": 1.0,
+  "5182": 0.0,
+  "5181": 0.0
+ },
+ "id": "Q0259",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "ricos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 30862,
+  "output_tokens": 1812,
+  "modelo": "jev-1.13.0"
+ }
+}

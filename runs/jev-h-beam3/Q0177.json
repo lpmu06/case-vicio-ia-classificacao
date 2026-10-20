@@ -1,0 +1,86 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5547",
+ "confianca_ramo": 0.92,
+ "confianca_subtema": 1.0,
+ "segunda_opcao_id": "5590",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Provas em Espécies', 0.92), ('Teoria Geral das Provas', 0.04), ('Nulidades', 0.02)]; confiança 0.92",
+ "confianca_estagio1": 0.9191011235955057,
+ "probabilidades_estagio1": {
+  "5543": 0.92,
+  "5590": 0.04,
+  "5509": 0.02,
+  "5580": 0.02,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5552": 0.0,
+  "5558": 0.0,
+  "5554": 0.0,
+  "5544": 0.0,
+  "5556": 0.0,
+  "5557": 0.0,
+  "5548": 0.0,
+  "5549": 0.0,
+  "5545": 0.0,
+  "5559": 0.0,
+  "5555": 0.0,
+  "5547": 1.0,
+  "5546": 0.0,
+  "5553": 0.0,
+  "5550": 0.0,
+  "5551": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5543",
+   "subtema": "5547",
+   "pontuacao": 0.9592
+  },
+  {
+   "tema": "5590",
+   "subtema": "5595",
+   "pontuacao": 0.196
+  },
+  {
+   "tema": "5509",
+   "subtema": null,
+   "pontuacao": 0.1039
+  },
+  {
+   "tema": "5509",
+   "subtema": "5511",
+   "pontuacao": 0.0906
+  },
+  {
+   "tema": "5509",
+   "subtema": "5510",
+   "pontuacao": 0.0316
+  }
+ ],
+ "ramo_guloso": "5543",
+ "id": "Q0177",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 13783,
+  "output_tokens": 1344,
+  "modelo": "jev-1.13.0"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "fora": false,
+ "tema_n1_id": "5560",
+ "subtema_n2_id": "5561",
+ "confianca_ramo": 0.9560000000000001,
+ "confianca_subtema": 0.9899999999999999,
+ "segunda_opcao_id": "5490",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Recursos em Espécies', 0.956), ('Das Questões e Processos Incidentes', 0.018), ('Parte Geral dos Recursos', 0.012)]; confiança 0.96",
+ "confianca_estagio1": 0.9555056179775282,
+ "probabilidades_estagio1": {
+  "5560": 0.9560000000000001,
+  "5490": 0.018,
+  "5512": 0.012,
+  "5185": 0.006,
+  "5530": 0.004,
+  "5476": 0.002,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.004,
+  "5566": 0.0,
+  "5562": 0.006,
+  "5567": 0.0,
+  "5568": 0.0,
+  "5564": 0.0,
+  "5565": 0.0,
+  "5563": 0.0,
+  "5571": 0.0,
+  "5570": 0.0,
+  "5561": 0.9899999999999999,
+  "5569": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5560",
+  "5560",
+  "5560",
+  "5560",
+  "5560"
+ ],
+ "id": "Q0108",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 58325,
+  "output_tokens": 5785,
+  "modelo": "jev-1.13.0"
+ }
+}

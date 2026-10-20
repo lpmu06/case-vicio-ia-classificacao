@@ -1,0 +1,72 @@
+{
+ "fora": false,
+ "tema_n1_id": "5063",
+ "subtema_n2_id": "5064",
+ "confianca_ramo": 0.62,
+ "confianca_subtema": 0.52,
+ "segunda_opcao_id": "5218",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Ação Penal (Penal)', 0.62), ('Teoria do Crime: Fato Típico', 0.14), ('Dos Crimes Contra a Vida', 0.08)]; confiança 0.62",
+ "confianca_estagio1": 0.6157303370786517,
+ "probabilidades_estagio1": {
+  "5063": 0.62,
+  "5218": 0.14,
+  "5149": 0.08,
+  "5077": 0.03,
+  "5228": 0.03,
+  "5466": 0.03,
+  "5071": 0.01,
+  "5128": 0.01,
+  "5138": 0.01,
+  "5111": 0.01
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.14,
+  "5065": 0.34,
+  "5064": 0.52
+ },
+ "folhas_beam": [
+  {
+   "tema": "5063",
+   "subtema": "5064",
+   "pontuacao": 0.5678
+  },
+  {
+   "tema": "5063",
+   "subtema": "5065",
+   "pontuacao": 0.4591
+  },
+  {
+   "tema": "5063",
+   "subtema": null,
+   "pontuacao": 0.2946
+  },
+  {
+   "tema": "5218",
+   "subtema": "5222",
+   "pontuacao": 0.2825
+  },
+  {
+   "tema": "5149",
+   "subtema": "5150",
+   "pontuacao": 0.204
+  }
+ ],
+ "ramo_guloso": "5063",
+ "id": "Q0095",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 13101,
+  "output_tokens": 1270,
+  "modelo": "jev-1.13.0"
+ }
+}

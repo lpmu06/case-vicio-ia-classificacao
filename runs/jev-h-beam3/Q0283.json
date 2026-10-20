@@ -1,0 +1,77 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5496",
+ "confianca_ramo": 0.38,
+ "confianca_subtema": 1.0,
+ "segunda_opcao_id": "5476",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Das Questões e Processos Incidentes', 0.38), ('Ações Autônomas de Impugnação', 0.12), ('Lavagem de Dinheiro', 0.1)]; confiança 0.37",
+ "confianca_estagio1": 0.37303370786516854,
+ "probabilidades_estagio1": {
+  "5490": 0.38,
+  "5476": 0.12,
+  "4702": 0.09999999999999999,
+  "5572": 0.09,
+  "5560": 0.06999999999999999,
+  "5199": 0.05,
+  "FORA": 0.05,
+  "5517": 0.03,
+  "5180": 0.02,
+  "5184": 0.02
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5493": 0.0,
+  "5494": 0.0,
+  "5492": 0.0,
+  "5497": 0.0,
+  "5496": 1.0,
+  "5491": 0.0,
+  "5495": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5490",
+   "subtema": "5496",
+   "pontuacao": 0.6164
+  },
+  {
+   "tema": "5476",
+   "subtema": null,
+   "pontuacao": 0.3412
+  },
+  {
+   "tema": "4702",
+   "subtema": null,
+   "pontuacao": 0.1
+  },
+  {
+   "tema": "5476",
+   "subtema": "5479",
+   "pontuacao": 0.049
+  },
+  {
+   "tema": "5476",
+   "subtema": "5478",
+   "pontuacao": 0.0346
+  }
+ ],
+ "ramo_guloso": "5490",
+ "id": "Q0283",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 3,
+  "input_tokens": 11913,
+  "output_tokens": 1172,
+  "modelo": "jev-1.13.0"
+ }
+}

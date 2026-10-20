@@ -1,0 +1,72 @@
+{
+ "fora": false,
+ "tema_n1_id": "4380",
+ "subtema_n2_id": "4381",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.58,
+ "segunda_opcao_id": "5170",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria Geral da Criminologia', 0.98), ('Introdução ao Estudo do Direito Penal', 0.01), ('fora', 0.01)]; confiança 0.98",
+ "confianca_estagio1": 0.9797752808988763,
+ "probabilidades_estagio1": {
+  "4380": 0.98,
+  "5170": 0.01,
+  "FORA": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4384": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.03,
+  "4381": 0.58,
+  "4382": 0.39
+ },
+ "folhas_beam": [
+  {
+   "tema": "4380",
+   "subtema": "4381",
+   "pontuacao": 0.7539
+  },
+  {
+   "tema": "4380",
+   "subtema": "4382",
+   "pontuacao": 0.6182
+  },
+  {
+   "tema": "4380",
+   "subtema": null,
+   "pontuacao": 0.1715
+  },
+  {
+   "tema": "5170",
+   "subtema": null,
+   "pontuacao": 0.099
+  },
+  {
+   "tema": "5170",
+   "subtema": "5171",
+   "pontuacao": 0.01
+  }
+ ],
+ "ramo_guloso": "4380",
+ "id": "Q0234",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 3,
+  "input_tokens": 11220,
+  "output_tokens": 1128,
+  "modelo": "jev-1.13.0"
+ }
+}

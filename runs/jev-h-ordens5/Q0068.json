@@ -1,0 +1,63 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5096",
+ "confianca_ramo": 0.418,
+ "confianca_subtema": 0.504,
+ "segunda_opcao_id": "5116",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra a Administração Pública', 0.418), ('Dos Crimes Contra a Fé Pública e de Falsidade Documental', 0.342), ('Dos Crimes Contra a Dignidade Sexual', 0.134)]; confiança 0.41",
+ "confianca_estagio1": 0.4114606741573033,
+ "probabilidades_estagio1": {
+  "5087": 0.418,
+  "5116": 0.342,
+  "5102": 0.134,
+  "FORA": 0.034,
+  "5170": 0.019999999999999997,
+  "5128": 0.016,
+  "5218": 0.012,
+  "5125": 0.008,
+  "4684": 0.006,
+  "5138": 0.002
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.48600000000000004,
+  "5097": 0.0,
+  "5091": 0.0,
+  "5096": 0.504,
+  "5094": 0.0,
+  "5093": 0.0,
+  "5092": 0.0,
+  "5090": 0.0,
+  "5088": 0.01,
+  "5089": 0.0,
+  "5095": 0.0,
+  "5100": 0.0,
+  "5101": 0.0,
+  "5099": 0.0,
+  "5098": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5116",
+  "5116",
+  "5087",
+  "5087",
+  "5087"
+ ],
+ "id": "Q0068",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 59100,
+  "output_tokens": 5941,
+  "modelo": "jev-1.13.0"
+ }
+}

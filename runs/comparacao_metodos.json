@@ -129,6 +129,22 @@
    "conf_ramo_media": 0.871
   },
   {
+   "rodada": "jev-h-ricos",
+   "metodo": "Jev",
+   "modelo": "Jev 1.13, critérios ricos",
+   "questoes": 359,
+   "chamadas_por_questao": 1.76,
+   "tokens_prompt_por_questao": 31564,
+   "tokens_saida_por_questao": 0,
+   "custo_usd_por_questao_sem_cache": 0.00133,
+   "custo_usd_por_questao_com_cache": 0.00133,
+   "custo_usd_50mil_com_cache": 66,
+   "fora": 2,
+   "multi_tema": 0,
+   "escolheu_subtema": 218,
+   "conf_ramo_media": 0.852
+  },
+  {
    "rodada": "arbitro-opus",
    "metodo": "árbitro",
    "modelo": "Opus 5.5, esforço alto",
@@ -204,6 +220,14 @@
   },
   {
    "a": "claude-opus",
+   "b": "jev-h-ricos",
+   "n": 359,
+   "ramo": 0.852,
+   "n_ambos_subtema": 188,
+   "subtema_igual_quando_ambos_escolhem": 0.846
+  },
+  {
+   "a": "claude-opus",
    "b": "arbitro-opus",
    "n": 359,
    "ramo": 0.978,
@@ -260,6 +284,14 @@
   },
   {
    "a": "claude-sonnet-h",
+   "b": "jev-h-ricos",
+   "n": 359,
+   "ramo": 0.794,
+   "n_ambos_subtema": 177,
+   "subtema_igual_quando_ambos_escolhem": 0.808
+  },
+  {
+   "a": "claude-sonnet-h",
    "b": "arbitro-opus",
    "n": 359,
    "ramo": 0.903,
@@ -308,6 +340,14 @@
   },
   {
    "a": "claude-sonnet-3n",
+   "b": "jev-h-ricos",
+   "n": 359,
+   "ramo": 0.797,
+   "n_ambos_subtema": 167,
+   "subtema_igual_quando_ambos_escolhem": 0.814
+  },
+  {
+   "a": "claude-sonnet-3n",
    "b": "arbitro-opus",
    "n": 359,
    "ramo": 0.85,
@@ -348,6 +388,14 @@
   },
   {
    "a": "claude-haiku-h",
+   "b": "jev-h-ricos",
+   "n": 91,
+   "ramo": 0.868,
+   "n_ambos_subtema": 59,
+   "subtema_igual_quando_ambos_escolhem": 0.881
+  },
+  {
+   "a": "claude-haiku-h",
    "b": "arbitro-opus",
    "n": 91,
    "ramo": 0.901,
@@ -380,6 +428,14 @@
   },
   {
    "a": "claude-haiku-3n",
+   "b": "jev-h-ricos",
+   "n": 44,
+   "ramo": 0.886,
+   "n_ambos_subtema": 25,
+   "subtema_igual_quando_ambos_escolhem": 0.88
+  },
+  {
+   "a": "claude-haiku-3n",
    "b": "arbitro-opus",
    "n": 44,
    "ramo": 0.886,
@@ -404,6 +460,14 @@
   },
   {
    "a": "gpt-5.5",
+   "b": "jev-h-ricos",
+   "n": 63,
+   "ramo": 0.825,
+   "n_ambos_subtema": 33,
+   "subtema_igual_quando_ambos_escolhem": 0.697
+  },
+  {
+   "a": "gpt-5.5",
    "b": "arbitro-opus",
    "n": 63,
    "ramo": 0.968,
@@ -420,6 +484,14 @@
   },
   {
    "a": "claude-sonnet-plano",
+   "b": "jev-h-ricos",
+   "n": 80,
+   "ramo": 0.875,
+   "n_ambos_subtema": 53,
+   "subtema_igual_quando_ambos_escolhem": 0.887
+  },
+  {
+   "a": "claude-sonnet-plano",
    "b": "arbitro-opus",
    "n": 80,
    "ramo": 0.887,
@@ -428,11 +500,27 @@
   },
   {
    "a": "claude-opus-h",
+   "b": "jev-h-ricos",
+   "n": 80,
+   "ramo": 0.9,
+   "n_ambos_subtema": 48,
+   "subtema_igual_quando_ambos_escolhem": 0.917
+  },
+  {
+   "a": "claude-opus-h",
    "b": "arbitro-opus",
    "n": 80,
    "ramo": 0.95,
    "n_ambos_subtema": 48,
    "subtema_igual_quando_ambos_escolhem": 0.979
+  },
+  {
+   "a": "jev-h-ricos",
+   "b": "arbitro-opus",
+   "n": 359,
+   "ramo": 0.852,
+   "n_ambos_subtema": 177,
+   "subtema_igual_quando_ambos_escolhem": 0.859
   }
  ],
  "com_origem": [
@@ -475,6 +563,11 @@
    "rodada": "claude-opus-h",
    "n": 47,
    "ramo_igual_origem": 0.298
+  },
+  {
+   "rodada": "jev-h-ricos",
+   "n": 225,
+   "ramo_igual_origem": 0.271
   },
   {
    "rodada": "arbitro-opus",
@@ -552,6 +645,16 @@
    "tokens_prompt_por_questao": 22460,
    "tokens_saida_por_questao": 1176,
    "custo_usd_por_questao_com_cache": 0.05837
+  },
+  {
+   "rodada": "jev-h-ricos",
+   "metodo": "Jev",
+   "modelo": "Jev 1.13, critérios ricos",
+   "n": 80,
+   "concorda_maioria_demais": 0.887,
+   "tokens_prompt_por_questao": 31564,
+   "tokens_saida_por_questao": 0,
+   "custo_usd_por_questao_com_cache": 0.00133
   },
   {
    "rodada": "arbitro-opus",

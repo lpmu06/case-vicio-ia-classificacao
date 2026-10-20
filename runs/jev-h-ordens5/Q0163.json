@@ -1,0 +1,46 @@
+{
+ "fora": false,
+ "tema_n1_id": "4684",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.5619999999999999,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5128",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Abuso de Autoridade', 0.562), ('Dos Crimes Contra a Liberdade Pessoal', 0.264), ('Teoria do Crime: Ilicitude', 0.068)]; confiança 0.56",
+ "confianca_estagio1": 0.5570786516853932,
+ "probabilidades_estagio1": {
+  "4684": 0.5619999999999999,
+  "5128": 0.264,
+  "5228": 0.06799999999999999,
+  "4703": 0.05399999999999999,
+  "5087": 0.022,
+  "5066": 0.012,
+  "4700": 0.004,
+  "5211": 0.004,
+  "5079": 0.002,
+  "5218": 0.002
+ },
+ "escolhas_por_ordem_estagio1": [
+  "4684",
+  "4684",
+  "4684",
+  "4684",
+  "4684"
+ ],
+ "id": "Q0163",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 5,
+  "input_tokens": 49680,
+  "output_tokens": 5035,
+  "modelo": "jev-1.13.0"
+ }
+}

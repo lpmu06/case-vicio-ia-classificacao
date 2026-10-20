@@ -1,0 +1,67 @@
+{
+ "fora": false,
+ "tema_n1_id": "5184",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.91,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Medida de Segurança', 0.91), ('Ação Penal (Processo Penal)', 0.07), ('Ação Penal (Penal)', 0.01)]; confiança 0.91",
+ "confianca_estagio1": 0.9089887640449439,
+ "probabilidades_estagio1": {
+  "5184": 0.91,
+  "5466": 0.06999999999999999,
+  "5063": 0.01,
+  "5476": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5184",
+   "subtema": null,
+   "pontuacao": 0.91
+  },
+  {
+   "tema": "5466",
+   "subtema": null,
+   "pontuacao": 0.2425
+  },
+  {
+   "tema": "5063",
+   "subtema": null,
+   "pontuacao": 0.097
+  },
+  {
+   "tema": "5466",
+   "subtema": "5467",
+   "pontuacao": 0.0794
+  },
+  {
+   "tema": "5466",
+   "subtema": "5468",
+   "pontuacao": 0.0648
+  }
+ ],
+ "ramo_guloso": "5184",
+ "id": "Q0128",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 3,
+  "input_tokens": 11721,
+  "output_tokens": 1180,
+  "modelo": "jev-1.13.0"
+ }
+}

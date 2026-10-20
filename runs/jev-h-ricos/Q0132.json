@@ -1,0 +1,49 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.36,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "4389",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Das Questões e Processos Incidentes', 0.36), ('Vitimologia', 0.2), ('Sujeitos do Processo', 0.2)]; confiança 0.35",
+ "confianca_estagio1": 0.3528089887640449,
+ "probabilidades_estagio1": {
+  "5490": 0.36,
+  "4389": 0.2,
+  "5583": 0.2,
+  "FORA": 0.08,
+  "5543": 0.05,
+  "5580": 0.05,
+  "5487": 0.04,
+  "4704": 0.01,
+  "5590": 0.01,
+  "4366": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 1.0,
+  "5493": 0.0,
+  "5494": 0.0,
+  "5492": 0.0,
+  "5497": 0.0,
+  "5496": 0.0,
+  "5491": 0.0,
+  "5495": 0.0
+ },
+ "id": "Q0132",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "ricos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 32839,
+  "output_tokens": 1928,
+  "modelo": "jev-1.13.0"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "id": "Q0174",
+ "candidatos": [
+  "5128",
+  "5157"
+ ],
+ "ramo_arbitro": "5128",
+ "probabilidades": {
+  "5128": 0.89,
+  "5157": 0.11
+ },
+ "escolha": "5128",
+ "p_escolha": 0.89,
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 3634,
+  "output_tokens": 0,
+  "modelo": "jev-1.13.0"
+ },
+ "promovida": false
+}

@@ -1,0 +1,51 @@
+{
+ "fora": false,
+ "tema_n1_id": "5580",
+ "subtema_n2_id": "5581",
+ "confianca_ramo": 0.266,
+ "confianca_subtema": 0.664,
+ "segunda_opcao_id": "5583",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Sistemas e Princípios Processuais Penais', 0.266), ('fora', 0.256), ('Sujeitos do Processo', 0.166)]; confiança 0.26",
+ "confianca_estagio1": 0.257752808988764,
+ "probabilidades_estagio1": {
+  "5580": 0.266,
+  "FORA": 0.25600000000000006,
+  "5583": 0.166,
+  "5480": 0.16199999999999998,
+  "5505": 0.062,
+  "5498": 0.02,
+  "5509": 0.02,
+  "5087": 0.004,
+  "5476": 0.004,
+  "5490": 0.004
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.21800000000000003,
+  "5582": 0.11800000000000002,
+  "5581": 0.664
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5580",
+  "FORA",
+  "5580",
+  "5480",
+  "FORA"
+ ],
+ "id": "Q0021",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 52610,
+  "output_tokens": 5279,
+  "modelo": "jev-1.13.0"
+ }
+}

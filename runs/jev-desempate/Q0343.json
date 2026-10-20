@@ -1,0 +1,21 @@
+{
+ "id": "Q0343",
+ "candidatos": [
+  "5191",
+  "5466"
+ ],
+ "ramo_arbitro": "5191",
+ "probabilidades": {
+  "5191": 0.54,
+  "5466": 0.45999999999999996
+ },
+ "escolha": "5191",
+ "p_escolha": 0.54,
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 2888,
+  "output_tokens": 0,
+  "modelo": "jev-1.13.0"
+ },
+ "promovida": false
+}

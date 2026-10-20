@@ -1,0 +1,44 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": "4378",
+ "confianca_ramo": 0.54,
+ "confianca_subtema": 0.59,
+ "segunda_opcao_id": "4374",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Processos de Criminalização e Cifras Criminais', 0.54), ('Política Criminal', 0.18), ('Teorias Sociológicas Explicativas da Criminalidade', 0.14)]; confiança 0.53",
+ "confianca_estagio1": 0.5348314606741573,
+ "probabilidades_estagio1": {
+  "4377": 0.54,
+  "4374": 0.18000000000000002,
+  "4385": 0.14,
+  "4368": 0.11,
+  "4389": 0.01,
+  "5170": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4371": 0.0,
+  "4380": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.41,
+  "4379": 0.0,
+  "4378": 0.59
+ },
+ "id": "Q0058",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "ricos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 30642,
+  "output_tokens": 1823,
+  "modelo": "jev-1.13.0"
+ }
+}

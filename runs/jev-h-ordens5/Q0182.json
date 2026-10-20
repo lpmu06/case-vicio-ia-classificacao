@@ -1,0 +1,54 @@
+{
+ "fora": false,
+ "tema_n1_id": "5071",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.504,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5077",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Concurso de Pessoas', 0.504), ('Das Lesões Corporais', 0.136), ('Dos Crimes Contra a Periclitação da Vida e da Saúde', 0.116)]; confiança 0.50",
+ "confianca_estagio1": 0.4984269662921348,
+ "probabilidades_estagio1": {
+  "5071": 0.504,
+  "5077": 0.136,
+  "5138": 0.11600000000000002,
+  "5144": 0.08800000000000001,
+  "5149": 0.055999999999999994,
+  "5120": 0.044,
+  "5218": 0.016,
+  "FORA": 0.012,
+  "5170": 0.006,
+  "5066": 0.004
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.5519999999999999,
+  "5072": 0.06,
+  "5073": 0.008,
+  "5076": 0.17200000000000001,
+  "5075": 0.013999999999999999,
+  "5074": 0.194
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5071",
+  "5071",
+  "5071",
+  "5071",
+  "5071"
+ ],
+ "id": "Q0182",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 55665,
+  "output_tokens": 5440,
+  "modelo": "jev-1.13.0"
+ }
+}

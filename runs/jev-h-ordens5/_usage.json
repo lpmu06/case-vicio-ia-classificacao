@@ -1,0 +1,17 @@
+{
+ "segundos": 118,
+ "erros": [],
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "modelo_resolvido": [
+  "jev-1.13.0"
+ ],
+ "questoes": 359,
+ "chamadas": 3130,
+ "tokens_entrada": 19509980,
+ "custo_usd": 0.8194
+}

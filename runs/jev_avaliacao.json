@@ -1,0 +1,468 @@
+{
+ "n_questoes": 359,
+ "n_trio_unanime": 317,
+ "variantes": [
+  {
+   "rodada": "jev-h",
+   "variante": "base (jev-latest 1.13, critérios curtos, guloso)",
+   "modelo": [
+    "jev-1.13.0"
+   ],
+   "questoes": 359,
+   "concorda_maioria": 0.797,
+   "n_maioria": 359,
+   "concorda_trio_unanime": 0.836,
+   "concorda_maioria_amostra80": 0.762,
+   "fora": 3,
+   "escolheu_subtema": 206,
+   "subtema_igual_opus_quando_ambos": 0.757,
+   "chamadas_por_questao": 1.76,
+   "tokens_por_questao": 10888,
+   "usd_por_questao": 0.000457,
+   "usd_total": 0.1642,
+   "usd_50mil": 22.86,
+   "segundos": 23,
+   "ece": 0.043
+  },
+  {
+   "rodada": "jev-h-preview",
+   "variante": "jev-preview (1.14)",
+   "modelo": [
+    "jev-1.14.0"
+   ],
+   "questoes": 359,
+   "concorda_maioria": 0.791,
+   "n_maioria": 359,
+   "concorda_trio_unanime": 0.82,
+   "concorda_maioria_amostra80": 0.762,
+   "fora": 4,
+   "escolheu_subtema": 204,
+   "subtema_igual_opus_quando_ambos": 0.743,
+   "chamadas_por_questao": 1.75,
+   "tokens_por_questao": 10885,
+   "usd_por_questao": 0.000457,
+   "usd_total": 0.1641,
+   "usd_50mil": 22.86,
+   "segundos": 27,
+   "ece": 0.062
+  },
+  {
+   "rodada": "jev-h-ricos",
+   "variante": "critérios ricos",
+   "modelo": [
+    "jev-1.13.0"
+   ],
+   "questoes": 359,
+   "concorda_maioria": 0.858,
+   "n_maioria": 359,
+   "concorda_trio_unanime": 0.877,
+   "concorda_maioria_amostra80": 0.887,
+   "fora": 2,
+   "escolheu_subtema": 218,
+   "subtema_igual_opus_quando_ambos": 0.846,
+   "chamadas_por_questao": 1.76,
+   "tokens_por_questao": 31564,
+   "usd_por_questao": 0.001326,
+   "usd_total": 0.4759,
+   "usd_50mil": 66.29,
+   "segundos": 30,
+   "ece": 0.014
+  },
+  {
+   "rodada": "jev-h-beam3",
+   "variante": "beam search K=3",
+   "modelo": [
+    "jev-1.13.0"
+   ],
+   "questoes": 359,
+   "concorda_maioria": 0.786,
+   "n_maioria": 359,
+   "concorda_trio_unanime": 0.83,
+   "concorda_maioria_amostra80": 0.738,
+   "fora": 3,
+   "escolheu_subtema": 209,
+   "subtema_igual_opus_quando_ambos": 0.757,
+   "chamadas_por_questao": 2.74,
+   "tokens_por_questao": 12032,
+   "usd_por_questao": 0.000505,
+   "usd_total": 0.1814,
+   "usd_50mil": 25.27,
+   "segundos": 34,
+   "ece": 0.051
+  },
+  {
+   "rodada": "jev-h-ordens5",
+   "variante": "5 ordens embaralhadas",
+   "modelo": [
+    "jev-1.13.0"
+   ],
+   "questoes": 359,
+   "concorda_maioria": 0.783,
+   "n_maioria": 359,
+   "concorda_trio_unanime": 0.814,
+   "concorda_maioria_amostra80": 0.75,
+   "fora": 2,
+   "escolheu_subtema": 207,
+   "subtema_igual_opus_quando_ambos": 0.732,
+   "chamadas_por_questao": 8.72,
+   "tokens_por_questao": 54345,
+   "usd_por_questao": 0.002283,
+   "usd_total": 0.8194,
+   "usd_50mil": 114.13,
+   "segundos": 118,
+   "ece": 0.036
+  }
+ ],
+ "calibracao": {
+  "jev-h": {
+   "faixas": [
+    {
+     "faixa": "0.00–0.50",
+     "n": 42,
+     "prob_media": 0.404,
+     "concordancia": 0.381
+    },
+    {
+     "faixa": "0.50–0.70",
+     "n": 57,
+     "prob_media": 0.605,
+     "concordancia": 0.649
+    },
+    {
+     "faixa": "0.70–0.90",
+     "n": 55,
+     "prob_media": 0.792,
+     "concordancia": 0.764
+    },
+    {
+     "faixa": "0.90–0.99",
+     "n": 71,
+     "prob_media": 0.95,
+     "concordancia": 0.887
+    },
+    {
+     "faixa": "0.99–1.00",
+     "n": 134,
+     "prob_media": 0.998,
+     "concordancia": 0.955
+    }
+   ],
+   "ece": 0.043
+  },
+  "jev-h-preview": {
+   "faixas": [
+    {
+     "faixa": "0.00–0.50",
+     "n": 41,
+     "prob_media": 0.385,
+     "concordancia": 0.488
+    },
+    {
+     "faixa": "0.50–0.70",
+     "n": 64,
+     "prob_media": 0.585,
+     "concordancia": 0.656
+    },
+    {
+     "faixa": "0.70–0.90",
+     "n": 69,
+     "prob_media": 0.797,
+     "concordancia": 0.71
+    },
+    {
+     "faixa": "0.90–0.99",
+     "n": 85,
+     "prob_media": 0.953,
+     "concordancia": 0.918
+    },
+    {
+     "faixa": "0.99–1.00",
+     "n": 100,
+     "prob_media": 0.997,
+     "concordancia": 0.95
+    }
+   ],
+   "ece": 0.062
+  },
+  "jev-h-ricos": {
+   "faixas": [
+    {
+     "faixa": "0.00–0.50",
+     "n": 22,
+     "prob_media": 0.389,
+     "concordancia": 0.5
+    },
+    {
+     "faixa": "0.50–0.70",
+     "n": 58,
+     "prob_media": 0.595,
+     "concordancia": 0.603
+    },
+    {
+     "faixa": "0.70–0.90",
+     "n": 66,
+     "prob_media": 0.814,
+     "concordancia": 0.818
+    },
+    {
+     "faixa": "0.90–0.99",
+     "n": 73,
+     "prob_media": 0.952,
+     "concordancia": 0.932
+    },
+    {
+     "faixa": "0.99–1.00",
+     "n": 140,
+     "prob_media": 0.998,
+     "concordancia": 1.0
+    }
+   ],
+   "ece": 0.014
+  },
+  "jev-h-beam3": {
+   "faixas": [
+    {
+     "faixa": "0.00–0.50",
+     "n": 43,
+     "prob_media": 0.393,
+     "concordancia": 0.349
+    },
+    {
+     "faixa": "0.50–0.70",
+     "n": 59,
+     "prob_media": 0.605,
+     "concordancia": 0.644
+    },
+    {
+     "faixa": "0.70–0.90",
+     "n": 50,
+     "prob_media": 0.801,
+     "concordancia": 0.72
+    },
+    {
+     "faixa": "0.90–0.99",
+     "n": 74,
+     "prob_media": 0.948,
+     "concordancia": 0.892
+    },
+    {
+     "faixa": "0.99–1.00",
+     "n": 133,
+     "prob_media": 0.998,
+     "concordancia": 0.955
+    }
+   ],
+   "ece": 0.051
+  },
+  "jev-h-ordens5": {
+   "faixas": [
+    {
+     "faixa": "0.00–0.50",
+     "n": 46,
+     "prob_media": 0.397,
+     "concordancia": 0.391
+    },
+    {
+     "faixa": "0.50–0.70",
+     "n": 55,
+     "prob_media": 0.604,
+     "concordancia": 0.545
+    },
+    {
+     "faixa": "0.70–0.90",
+     "n": 60,
+     "prob_media": 0.802,
+     "concordancia": 0.767
+    },
+    {
+     "faixa": "0.90–0.99",
+     "n": 75,
+     "prob_media": 0.955,
+     "concordancia": 0.933
+    },
+    {
+     "faixa": "0.99–1.00",
+     "n": 123,
+     "prob_media": 0.998,
+     "concordancia": 0.951
+    }
+   ],
+   "ece": 0.036
+  },
+  "claude-opus": {
+   "faixas": [
+    {
+     "faixa": "0.00–0.50",
+     "n": 20,
+     "prob_media": 0.398,
+     "concordancia": 0.7
+    },
+    {
+     "faixa": "0.50–0.70",
+     "n": 67,
+     "prob_media": 0.562,
+     "concordancia": 0.821
+    },
+    {
+     "faixa": "0.70–0.90",
+     "n": 110,
+     "prob_media": 0.816,
+     "concordancia": 0.982
+    },
+    {
+     "faixa": "0.90–0.99",
+     "n": 162,
+     "prob_media": 0.938,
+     "concordancia": 1.0
+    }
+   ],
+   "ece": 0.144,
+   "concordancia": 0.944
+  },
+  "claude-sonnet-h": {
+   "faixas": [
+    {
+     "faixa": "0.00–0.50",
+     "n": 6,
+     "prob_media": 0.442,
+     "concordancia": 0.833
+    },
+    {
+     "faixa": "0.50–0.70",
+     "n": 16,
+     "prob_media": 0.585,
+     "concordancia": 0.688
+    },
+    {
+     "faixa": "0.70–0.90",
+     "n": 48,
+     "prob_media": 0.786,
+     "concordancia": 0.792
+    },
+    {
+     "faixa": "0.90–0.99",
+     "n": 282,
+     "prob_media": 0.958,
+     "concordancia": 0.926
+    },
+    {
+     "faixa": "0.99–1.00",
+     "n": 7,
+     "prob_media": 0.99,
+     "concordancia": 1.0
+    }
+   ],
+   "ece": 0.038,
+   "concordancia": 0.897
+  },
+  "arbitro-opus": {
+   "faixas": [
+    {
+     "faixa": "0.00–0.50",
+     "n": 8,
+     "prob_media": 0.431,
+     "concordancia": 0.625
+    },
+    {
+     "faixa": "0.50–0.70",
+     "n": 46,
+     "prob_media": 0.582,
+     "concordancia": 0.717
+    },
+    {
+     "faixa": "0.70–0.90",
+     "n": 79,
+     "prob_media": 0.813,
+     "concordancia": 0.975
+    },
+    {
+     "faixa": "0.90–0.99",
+     "n": 226,
+     "prob_media": 0.95,
+     "concordancia": 1.0
+    }
+   ],
+   "ece": 0.089,
+   "concordancia": 0.95
+  }
+ },
+ "beam": {
+  "mudou_ramo": 9,
+  "mudou_para_maioria": 3,
+  "saiu_da_maioria": 4
+ },
+ "ordem": {
+  "questoes_com_escolha_instavel": 57,
+  "media_diferente_da_ordem_original": 26,
+  "ordem_original_concorda_maioria": 0.802
+ },
+ "ruido": {
+  "base_vs_reexecucao_mesmo_ramo": 0.967,
+  "dif_media_prob_topo": 0.017,
+  "dif_max_prob_topo": 0.13,
+  "base_vs_primeira_ordem_mesmo_ramo": 0.981
+ },
+ "pareado_vs_base": {
+  "jev-h-preview": {
+   "so_variante_concorda": 11,
+   "so_base_concorda": 13
+  },
+  "jev-h-ricos": {
+   "so_variante_concorda": 33,
+   "so_base_concorda": 11
+  },
+  "jev-h-beam3": {
+   "so_variante_concorda": 3,
+   "so_base_concorda": 7
+  },
+  "jev-h-ordens5": {
+   "so_variante_concorda": 8,
+   "so_base_concorda": 13
+  }
+ },
+ "cascata": {
+  "rodada": "jev-h-ricos",
+  "limiares": [
+   {
+    "limiar": 0.999,
+    "questoes": 119,
+    "fracao": 0.331,
+    "concorda_maioria": 1.0,
+    "n_trio": 118,
+    "concorda_trio": 1.0
+   },
+   {
+    "limiar": 0.99,
+    "questoes": 140,
+    "fracao": 0.39,
+    "concorda_maioria": 1.0,
+    "n_trio": 137,
+    "concorda_trio": 1.0
+   },
+   {
+    "limiar": 0.95,
+    "questoes": 187,
+    "fracao": 0.521,
+    "concorda_maioria": 0.989,
+    "n_trio": 182,
+    "concorda_trio": 0.989
+   },
+   {
+    "limiar": 0.9,
+    "questoes": 213,
+    "fracao": 0.593,
+    "concorda_maioria": 0.977,
+    "n_trio": 204,
+    "concorda_trio": 0.98
+   },
+   {
+    "limiar": 0.8,
+    "questoes": 257,
+    "fracao": 0.716,
+    "concorda_maioria": 0.946,
+    "n_trio": 240,
+    "concorda_trio": 0.954
+   }
+  ]
+ }
+}

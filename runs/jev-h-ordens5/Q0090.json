@@ -1,0 +1,56 @@
+{
+ "fora": false,
+ "tema_n1_id": "5530",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.51,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Procedimento Ordinário', 0.51), ('Juizado Especial Criminal', 0.168), ('Competência', 0.13)]; confiança 0.50",
+ "confianca_estagio1": 0.5044943820224719,
+ "probabilidades_estagio1": {
+  "5530": 0.51,
+  "4701": 0.16799999999999998,
+  "5480": 0.13,
+  "5539": 0.082,
+  "5466": 0.034,
+  "FORA": 0.022000000000000002,
+  "5524": 0.022,
+  "4690": 0.008,
+  "5538": 0.006,
+  "5490": 0.004
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.75,
+  "5531": 0.22400000000000003,
+  "5534": 0.002,
+  "5536": 0.0,
+  "5535": 0.0,
+  "5532": 0.012,
+  "5533": 0.012,
+  "5537": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5530",
+  "5530",
+  "5530",
+  "5530",
+  "5530"
+ ],
+ "id": "Q0090",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 58035,
+  "output_tokens": 5550,
+  "modelo": "jev-1.13.0"
+ }
+}

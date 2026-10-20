@@ -1,0 +1,65 @@
+{
+ "fora": false,
+ "tema_n1_id": "5543",
+ "subtema_n2_id": "5548",
+ "confianca_ramo": 0.978,
+ "confianca_subtema": 0.9960000000000001,
+ "segunda_opcao_id": "5590",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Provas em Espécies', 0.978), ('Teoria Geral das Provas', 0.014), ('Teoria do Crime: Ilicitude', 0.008)]; confiança 0.98",
+ "confianca_estagio1": 0.977752808988764,
+ "probabilidades_estagio1": {
+  "5543": 0.978,
+  "5590": 0.014000000000000002,
+  "5228": 0.008,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5552": 0.0,
+  "5558": 0.0,
+  "5554": 0.0,
+  "5544": 0.0,
+  "5556": 0.0,
+  "5557": 0.0,
+  "5548": 0.9960000000000001,
+  "5549": 0.0,
+  "5545": 0.0,
+  "5559": 0.0,
+  "5555": 0.0,
+  "5547": 0.004,
+  "5546": 0.0,
+  "5553": 0.0,
+  "5550": 0.0,
+  "5551": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5543",
+  "5543",
+  "5543",
+  "5543",
+  "5543"
+ ],
+ "id": "Q0098",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 59735,
+  "output_tokens": 6060,
+  "modelo": "jev-1.13.0"
+ }
+}

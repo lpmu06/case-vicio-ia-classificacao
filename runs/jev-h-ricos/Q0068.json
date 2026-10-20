@@ -1,0 +1,56 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5096",
+ "confianca_ramo": 0.63,
+ "confianca_subtema": 0.76,
+ "segunda_opcao_id": "5116",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra a Administração Pública', 0.63), ('Dos Crimes Contra a Fé Pública e de Falsidade Documental', 0.18), ('Dos Crimes Contra a Dignidade Sexual', 0.08)]; confiança 0.63",
+ "confianca_estagio1": 0.6258426966292135,
+ "probabilidades_estagio1": {
+  "5087": 0.63,
+  "5116": 0.18000000000000002,
+  "5102": 0.08,
+  "FORA": 0.04,
+  "5170": 0.02,
+  "5218": 0.02,
+  "5125": 0.01,
+  "5199": 0.01,
+  "4366": 0.0,
+  "4367": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.24,
+  "5097": 0.0,
+  "5091": 0.0,
+  "5096": 0.76,
+  "5094": 0.0,
+  "5093": 0.0,
+  "5092": 0.0,
+  "5090": 0.0,
+  "5088": 0.0,
+  "5089": 0.0,
+  "5095": 0.0,
+  "5100": 0.0,
+  "5101": 0.0,
+  "5099": 0.0,
+  "5098": 0.0
+ },
+ "id": "Q0068",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "ricos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 34293,
+  "output_tokens": 1990,
+  "modelo": "jev-1.13.0"
+ }
+}

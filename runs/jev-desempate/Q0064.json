@@ -1,0 +1,23 @@
+{
+ "id": "Q0064",
+ "candidatos": [
+  "4695",
+  "5157",
+  "5191"
+ ],
+ "ramo_arbitro": "4695",
+ "probabilidades": {
+  "4695": 0.99,
+  "5157": 0.0,
+  "5191": 0.01
+ },
+ "escolha": "4695",
+ "p_escolha": 0.99,
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 4234,
+  "output_tokens": 0,
+  "modelo": "jev-1.13.0"
+ },
+ "promovida": true
+}

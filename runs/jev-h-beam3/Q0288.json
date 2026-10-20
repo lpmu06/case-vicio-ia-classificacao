@@ -1,0 +1,74 @@
+{
+ "fora": false,
+ "tema_n1_id": "5066",
+ "subtema_n2_id": "5068",
+ "confianca_ramo": 0.29000000000000004,
+ "confianca_subtema": 0.61,
+ "segunda_opcao_id": "5063",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Concurso de Crimes', 0.29), ('Ação Penal (Penal)', 0.2), ('Dos Crimes Contra a Dignidade Sexual', 0.18)]; confiança 0.28",
+ "confianca_estagio1": 0.28202247191011237,
+ "probabilidades_estagio1": {
+  "5066": 0.29000000000000004,
+  "5063": 0.2,
+  "5102": 0.18000000000000002,
+  "FORA": 0.1,
+  "5170": 0.06,
+  "5087": 0.04,
+  "5466": 0.04,
+  "5199": 0.03,
+  "4368": 0.01,
+  "4688": 0.01
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.39,
+  "5068": 0.61,
+  "5067": 0.0,
+  "5069": 0.0,
+  "5070": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5066",
+   "subtema": "5068",
+   "pontuacao": 0.4206
+  },
+  {
+   "tema": "5066",
+   "subtema": null,
+   "pontuacao": 0.3363
+  },
+  {
+   "tema": "5063",
+   "subtema": null,
+   "pontuacao": 0.3347
+  },
+  {
+   "tema": "5102",
+   "subtema": null,
+   "pontuacao": 0.3203
+  },
+  {
+   "tema": "5063",
+   "subtema": "5064",
+   "pontuacao": 0.2933
+  }
+ ],
+ "ramo_guloso": "5066",
+ "id": "Q0288",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 13160,
+  "output_tokens": 1242,
+  "modelo": "jev-1.13.0"
+ }
+}

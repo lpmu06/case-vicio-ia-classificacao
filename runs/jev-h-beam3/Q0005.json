@@ -1,0 +1,81 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5208",
+ "confianca_ramo": 0.99,
+ "confianca_subtema": 0.44,
+ "segunda_opcao_id": "5191",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria da Pena', 0.99), ('Punibilidade', 0.01), ('Classificação das Vítimas', 0.0)]; confiança 0.99",
+ "confianca_estagio1": 0.9898876404494382,
+ "probabilidades_estagio1": {
+  "5199": 0.99,
+  "5191": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0,
+  "4384": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.03,
+  "5209": 0.01,
+  "5208": 0.44,
+  "5206": 0.0,
+  "5201": 0.25,
+  "5205": 0.0,
+  "5202": 0.01,
+  "5210": 0.04,
+  "5200": 0.0,
+  "5203": 0.22,
+  "5207": 0.0,
+  "5204": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5199",
+   "subtema": "5208",
+   "pontuacao": 0.66
+  },
+  {
+   "tema": "5199",
+   "subtema": "5201",
+   "pontuacao": 0.4975
+  },
+  {
+   "tema": "5199",
+   "subtema": "5203",
+   "pontuacao": 0.4667
+  },
+  {
+   "tema": "5199",
+   "subtema": "5210",
+   "pontuacao": 0.199
+  },
+  {
+   "tema": "5199",
+   "subtema": null,
+   "pontuacao": 0.1723
+  }
+ ],
+ "ramo_guloso": "5199",
+ "id": "Q0005",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 3,
+  "input_tokens": 13631,
+  "output_tokens": 1260,
+  "modelo": "jev-1.13.0"
+ }
+}

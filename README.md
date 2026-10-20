@@ -36,7 +36,10 @@ python src/32_classificar_3niveis.py --provedor claude_cli --modelo haiku --effo
 # experimento 2x2 em 80 questões sorteadas (data/amostra_2x2.txt)
 python src/30_classificar.py --provedor claude_cli --modelo sonnet --rotulo claude-sonnet-plano --ids $(cat data/amostra_2x2.txt)
 python src/31_classificar_hierarquico.py --provedor claude_cli --modelo opus --rotulo claude-opus-h --ids $(cat data/amostra_2x2.txt)
-python src/33_classificar_jev.py         # opcional: Jev (TypeSafe), exige TYPESAFE_API_KEY
+# Jev (TypeSafe), só como estudo, fora da regra de publicação; exige a chave (jev = ... em keys.txt). US$ 1,82 nas 5 variantes
+python src/33_classificar_jev.py                      # base -> runs/jev-h
+python src/33_classificar_jev.py --criterios ricos    # a melhor; também --modelo jev-preview, --beam 3, --ordens 5
+python src/51_jev_desempate.py                        # desempate nas questões em revisão (+ --caderno, --avaliar)
 
 # 2. Árbitro, análises e decisão
 python src/46_arbitragem.py --modelo opus --effort high --rotulo arbitro-opus
@@ -45,6 +48,7 @@ python src/45_confiabilidade.py          # Dawid-Skene -> data/confiabilidade.js
 python src/47_decisao.py                 # regras -> publicacao.csv e data/decisoes.jsonl
 python src/43_embeddings.py calcular && python src/43_embeddings.py avaliar   # -> docs/embeddings.md
 python src/44_diagnostico.py             # -> docs/diagnostico.md
+python src/50_avaliar_jev.py             # variantes, calibração, cascata e desempate do Jev -> docs/jev.md
 python src/48_auditoria.py --n 50        # caderno da primeira auditoria -> docs/auditoria_caderno.md, data/auditoria_ia.csv
 python src/48_auditoria.py --cego --n 50 --semente 2026 --excluir data/auditoria_ia.csv   # caderno cego -> docs/auditoria_cega_caderno.md
 #   (os vereditos em data/auditoria_ia_v2.csv foram dados por um agente com contexto limpo, prompts/auditoria_cega.md)

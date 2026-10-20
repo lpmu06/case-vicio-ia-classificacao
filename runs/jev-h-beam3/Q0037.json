@@ -1,0 +1,73 @@
+{
+ "fora": false,
+ "tema_n1_id": "5116",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.47000000000000003,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5134",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra a Fé Pública e de Falsidade Documental', 0.47), ('Dos Crimes contra a Organização do Trabalho, a Propriedade Imaterial e ao Sentimento Religioso', 0.24), ('Dos Crimes Contra a Liberdade Pessoal', 0.23)]; confiança 0.46",
+ "confianca_estagio1": 0.4640449438202247,
+ "probabilidades_estagio1": {
+  "5116": 0.47000000000000003,
+  "5134": 0.24000000000000002,
+  "5128": 0.23,
+  "5079": 0.06,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.69,
+  "5118": 0.31,
+  "5119": 0.0,
+  "5117": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5116",
+   "subtema": null,
+   "pontuacao": 0.5695
+  },
+  {
+   "tema": "5134",
+   "subtema": null,
+   "pontuacao": 0.4409
+  },
+  {
+   "tema": "5116",
+   "subtema": "5118",
+   "pontuacao": 0.3817
+  },
+  {
+   "tema": "5128",
+   "subtema": "5132",
+   "pontuacao": 0.3425
+  },
+  {
+   "tema": "5128",
+   "subtema": null,
+   "pontuacao": 0.3357
+  }
+ ],
+ "ramo_guloso": "5116",
+ "id": "Q0037",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 12972,
+  "output_tokens": 1209,
+  "modelo": "jev-1.13.0"
+ }
+}

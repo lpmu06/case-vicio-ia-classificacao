@@ -1,0 +1,75 @@
+{
+ "fora": false,
+ "tema_n1_id": "5228",
+ "subtema_n2_id": "5233",
+ "confianca_ramo": 0.21000000000000002,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria do Crime: Culpabilidade', 0.35), ('Teoria do Crime: Ilicitude', 0.21), ('Teoria do Crime: Fato Típico', 0.1)]; confiança 0.34",
+ "confianca_estagio1": 0.34269662921348315,
+ "probabilidades_estagio1": {
+  "5211": 0.35000000000000003,
+  "5228": 0.21000000000000002,
+  "5218": 0.09999999999999999,
+  "4389": 0.08,
+  "4366": 0.06999999999999999,
+  "5191": 0.03,
+  "4377": 0.02,
+  "4383": 0.02,
+  "5120": 0.02,
+  "5128": 0.02
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.03,
+  "5233": 0.96,
+  "5229": 0.01,
+  "5230": 0.0,
+  "5232": 0.0,
+  "5231": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5228",
+   "subtema": "5233",
+   "pontuacao": 0.449
+  },
+  {
+   "tema": "5211",
+   "subtema": "5217",
+   "pontuacao": 0.4467
+  },
+  {
+   "tema": "5211",
+   "subtema": null,
+   "pontuacao": 0.3186
+  },
+  {
+   "tema": "5218",
+   "subtema": "5227",
+   "pontuacao": 0.2214
+  },
+  {
+   "tema": "5211",
+   "subtema": "5212",
+   "pontuacao": 0.1449
+  }
+ ],
+ "ramo_guloso": "5211",
+ "id": "Q0188",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 12928,
+  "output_tokens": 1314,
+  "modelo": "jev-1.13.0"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "fora": false,
+ "tema_n1_id": "5218",
+ "subtema_n2_id": "5224",
+ "confianca_ramo": 1.0,
+ "confianca_subtema": 1.0,
+ "segunda_opcao_id": "4366",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria do Crime: Fato Típico', 1.0), ('Classificação das Vítimas', 0.0), ('Classificação dos Criminosos', 0.0)]; confiança 1.00",
+ "confianca_estagio1": 1.0,
+ "probabilidades_estagio1": {
+  "5218": 1.0,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0,
+  "4384": 0.0,
+  "4385": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5219": 0.0,
+  "5221": 0.0,
+  "5222": 0.0,
+  "5223": 0.0,
+  "5224": 1.0,
+  "5220": 0.0,
+  "5226": 0.0,
+  "5225": 0.0,
+  "5227": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5218",
+   "subtema": "5224",
+   "pontuacao": 1.0
+  },
+  {
+   "tema": "5218",
+   "subtema": null,
+   "pontuacao": 0.0
+  },
+  {
+   "tema": "5218",
+   "subtema": "5219",
+   "pontuacao": 0.0
+  },
+  {
+   "tema": "5218",
+   "subtema": "5221",
+   "pontuacao": 0.0
+  },
+  {
+   "tema": "5218",
+   "subtema": "5222",
+   "pontuacao": 0.0
+  }
+ ],
+ "ramo_guloso": "5218",
+ "id": "Q0241",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11352,
+  "output_tokens": 1135,
+  "modelo": "jev-1.13.0"
+ }
+}

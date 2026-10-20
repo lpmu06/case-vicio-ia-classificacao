@@ -1,0 +1,44 @@
+{
+ "fora": false,
+ "tema_n1_id": "4371",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.31,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5175",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Etapas Evolutivas e Escolas Criminológicas', 0.31), ('Iter Criminis', 0.18), ('Introdução ao Estudo do Direito Penal', 0.15)]; confiança 0.30",
+ "confianca_estagio1": 0.3022471910112359,
+ "probabilidades_estagio1": {
+  "4371": 0.31,
+  "5175": 0.18000000000000002,
+  "5170": 0.15000000000000002,
+  "5199": 0.13,
+  "5185": 0.05,
+  "5180": 0.04,
+  "4703": 0.03,
+  "4380": 0.02,
+  "5211": 0.02,
+  "5218": 0.02
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.5700000000000001,
+  "4373": 0.43,
+  "4372": 0.0
+ },
+ "id": "Q0333",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 10622,
+  "output_tokens": 1055,
+  "modelo": "jev-1.14.0"
+ }
+}

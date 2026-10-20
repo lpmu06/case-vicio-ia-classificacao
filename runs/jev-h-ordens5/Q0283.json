@@ -1,0 +1,56 @@
+{
+ "fora": false,
+ "tema_n1_id": "5490",
+ "subtema_n2_id": "5496",
+ "confianca_ramo": 0.33399999999999996,
+ "confianca_subtema": 1.0,
+ "segunda_opcao_id": "4702",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Das Questões e Processos Incidentes', 0.334), ('Lavagem de Dinheiro', 0.22), ('Recursos em Espécies', 0.108)]; confiança 0.33",
+ "confianca_estagio1": 0.32651685393258423,
+ "probabilidades_estagio1": {
+  "5490": 0.33399999999999996,
+  "4702": 0.22000000000000003,
+  "5560": 0.10800000000000001,
+  "5572": 0.08199999999999999,
+  "5199": 0.076,
+  "5476": 0.06000000000000001,
+  "FORA": 0.044,
+  "5517": 0.026000000000000002,
+  "5466": 0.01,
+  "4703": 0.006
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5493": 0.0,
+  "5494": 0.0,
+  "5492": 0.0,
+  "5497": 0.0,
+  "5496": 1.0,
+  "5491": 0.0,
+  "5495": 0.0
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5490",
+  "5490",
+  "5490",
+  "5490",
+  "4702"
+ ],
+ "id": "Q0283",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 55550,
+  "output_tokens": 5565,
+  "modelo": "jev-1.13.0"
+ }
+}

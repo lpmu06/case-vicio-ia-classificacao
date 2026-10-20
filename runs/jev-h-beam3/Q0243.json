@@ -1,0 +1,74 @@
+{
+ "fora": false,
+ "tema_n1_id": "5175",
+ "subtema_n2_id": "5178",
+ "confianca_ramo": 0.95,
+ "confianca_subtema": 0.99,
+ "segunda_opcao_id": "5191",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Iter Criminis', 0.95), ('Punibilidade', 0.05), ('Classificação das Vítimas', 0.0)]; confiança 0.95",
+ "confianca_estagio1": 0.949438202247191,
+ "probabilidades_estagio1": {
+  "5175": 0.95,
+  "5191": 0.05,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0,
+  "4384": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5177": 0.01,
+  "5179": 0.0,
+  "5178": 0.99,
+  "5176": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5175",
+   "subtema": "5178",
+   "pontuacao": 0.9698
+  },
+  {
+   "tema": "5191",
+   "subtema": null,
+   "pontuacao": 0.2086
+  },
+  {
+   "tema": "5175",
+   "subtema": "5177",
+   "pontuacao": 0.0975
+  },
+  {
+   "tema": "5191",
+   "subtema": "5196",
+   "pontuacao": 0.0707
+  },
+  {
+   "tema": "5191",
+   "subtema": "5197",
+   "pontuacao": 0.0316
+  }
+ ],
+ "ramo_guloso": "5175",
+ "id": "Q0243",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 3,
+  "input_tokens": 11856,
+  "output_tokens": 1183,
+  "modelo": "jev-1.13.0"
+ }
+}

@@ -98,9 +98,11 @@ def main():
     conf = {json.loads(l)["id"]: json.loads(l) for l in (RAIZ / "data" / "confiabilidade.jsonl").open(encoding="utf-8")}
 
     # taxa de concordância de subtema quando dois classificadores escolhem subtema no mesmo ramo
+    # (sem os pares com o Jev, que entra só como estudo)
     comp = json.loads((RAIZ / "runs" / "comparacao_metodos.json").read_text(encoding="utf-8"))
     taxas_sub = [p["subtema_igual_quando_ambos_escolhem"] for p in comp["concordancia"]
-                 if p["subtema_igual_quando_ambos_escolhem"] is not None and p["n_ambos_subtema"] >= 30]
+                 if p["subtema_igual_quando_ambos_escolhem"] is not None and p["n_ambos_subtema"] >= 30
+                 and not (p["a"].startswith("jev") or p["b"].startswith("jev"))]
     taxa_sub = sum(taxas_sub) / len(taxas_sub) if taxas_sub else 0.9
 
     # E1

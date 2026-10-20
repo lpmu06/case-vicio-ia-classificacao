@@ -1,0 +1,44 @@
+{
+ "fora": false,
+ "tema_n1_id": "5144",
+ "subtema_n2_id": "5146",
+ "confianca_ramo": 0.67,
+ "confianca_subtema": 1.0,
+ "segunda_opcao_id": "4705",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra a Saúde Pública e Dos Crimes Contra à Paz Pública', 0.67), ('Organizações Criminosas', 0.33), ('Classificação das Vítimas', 0.0)]; confiança 0.67",
+ "confianca_estagio1": 0.6662921348314608,
+ "probabilidades_estagio1": {
+  "5144": 0.67,
+  "4705": 0.33,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0,
+  "4384": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5146": 1.0,
+  "5145": 0.0
+ },
+ "id": "Q0306",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 10622,
+  "output_tokens": 1058,
+  "modelo": "jev-1.13.0"
+ }
+}

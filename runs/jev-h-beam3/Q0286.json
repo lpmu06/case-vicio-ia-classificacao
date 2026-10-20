@@ -1,0 +1,81 @@
+{
+ "fora": false,
+ "tema_n1_id": "5199",
+ "subtema_n2_id": "5204",
+ "confianca_ramo": 0.98,
+ "confianca_subtema": 0.95,
+ "segunda_opcao_id": "5066",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria da Pena', 0.98), ('Concurso de Crimes', 0.02), ('Classificação das Vítimas', 0.0)]; confiança 0.98",
+ "confianca_estagio1": 0.9797752808988763,
+ "probabilidades_estagio1": {
+  "5199": 0.98,
+  "5066": 0.02,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0,
+  "4384": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.01,
+  "5209": 0.0,
+  "5208": 0.0,
+  "5206": 0.0,
+  "5201": 0.0,
+  "5205": 0.0,
+  "5202": 0.0,
+  "5210": 0.0,
+  "5200": 0.0,
+  "5203": 0.04,
+  "5207": 0.0,
+  "5204": 0.95
+ },
+ "folhas_beam": [
+  {
+   "tema": "5199",
+   "subtema": "5204",
+   "pontuacao": 0.9649
+  },
+  {
+   "tema": "5199",
+   "subtema": "5203",
+   "pontuacao": 0.198
+  },
+  {
+   "tema": "5066",
+   "subtema": null,
+   "pontuacao": 0.1386
+  },
+  {
+   "tema": "5199",
+   "subtema": null,
+   "pontuacao": 0.099
+  },
+  {
+   "tema": "5066",
+   "subtema": "5069",
+   "pontuacao": 0.02
+  }
+ ],
+ "ramo_guloso": "5199",
+ "id": "Q0286",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 3,
+  "input_tokens": 12160,
+  "output_tokens": 1227,
+  "modelo": "jev-1.13.0"
+ }
+}

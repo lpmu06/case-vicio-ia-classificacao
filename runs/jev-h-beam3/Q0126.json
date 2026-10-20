@@ -1,0 +1,73 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.42,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "5211",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Lei Penal no Tempo e no Espaço', 0.42), ('Teoria do Crime: Culpabilidade', 0.21), ('Teoria do Crime: Fato Típico', 0.19)]; confiança 0.41",
+ "confianca_estagio1": 0.4134831460674157,
+ "probabilidades_estagio1": {
+  "5180": 0.42,
+  "5211": 0.21000000000000002,
+  "5218": 0.19,
+  "5170": 0.12,
+  "5071": 0.02,
+  "4377": 0.01,
+  "5087": 0.01,
+  "5116": 0.01,
+  "FORA": 0.01,
+  "4366": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.85,
+  "5183": 0.0,
+  "5182": 0.15,
+  "5181": 0.0
+ },
+ "folhas_beam": [
+  {
+   "tema": "5180",
+   "subtema": null,
+   "pontuacao": 0.5975
+  },
+  {
+   "tema": "5211",
+   "subtema": null,
+   "pontuacao": 0.415
+  },
+  {
+   "tema": "5218",
+   "subtema": null,
+   "pontuacao": 0.3376
+  },
+  {
+   "tema": "5218",
+   "subtema": "5226",
+   "pontuacao": 0.2651
+  },
+  {
+   "tema": "5180",
+   "subtema": "5182",
+   "pontuacao": 0.251
+  }
+ ],
+ "ramo_guloso": "5180",
+ "id": "Q0126",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 13421,
+  "output_tokens": 1283,
+  "modelo": "jev-1.13.0"
+ }
+}

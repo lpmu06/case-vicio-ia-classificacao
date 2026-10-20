@@ -1,0 +1,72 @@
+{
+ "fora": false,
+ "tema_n1_id": "5063",
+ "subtema_n2_id": "5064",
+ "confianca_ramo": 0.8,
+ "confianca_subtema": 0.85,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Ação Penal (Penal)', 0.8), ('Ação Penal (Processo Penal)', 0.19), ('Dos Crimes Contra a Liberdade Pessoal', 0.01)]; confiança 0.80",
+ "confianca_estagio1": 0.7977528089887641,
+ "probabilidades_estagio1": {
+  "5063": 0.8,
+  "5466": 0.19,
+  "5128": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.14,
+  "5065": 0.01,
+  "5064": 0.85
+ },
+ "folhas_beam": [
+  {
+   "tema": "5063",
+   "subtema": "5064",
+   "pontuacao": 0.8246
+  },
+  {
+   "tema": "5466",
+   "subtema": "5468",
+   "pontuacao": 0.4337
+  },
+  {
+   "tema": "5063",
+   "subtema": null,
+   "pontuacao": 0.3347
+  },
+  {
+   "tema": "5063",
+   "subtema": "5065",
+   "pontuacao": 0.0894
+  },
+  {
+   "tema": "5128",
+   "subtema": "5130",
+   "pontuacao": 0.086
+  }
+ ],
+ "ramo_guloso": "5063",
+ "id": "Q0007",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 4,
+  "input_tokens": 13622,
+  "output_tokens": 1270,
+  "modelo": "jev-1.13.0"
+ }
+}

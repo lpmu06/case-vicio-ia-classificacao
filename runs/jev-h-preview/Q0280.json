@@ -1,0 +1,46 @@
+{
+ "fora": false,
+ "tema_n1_id": "5120",
+ "subtema_n2_id": "5121",
+ "confianca_ramo": 0.45,
+ "confianca_subtema": 0.57,
+ "segunda_opcao_id": "5466",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra a Honra', 0.45), ('Ação Penal (Processo Penal)', 0.31), ('Ação Penal (Penal)', 0.17)]; confiança 0.44",
+ "confianca_estagio1": 0.4438202247191011,
+ "probabilidades_estagio1": {
+  "5120": 0.45,
+  "5466": 0.31,
+  "5063": 0.17,
+  "5490": 0.05,
+  "5185": 0.01,
+  "5498": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.04,
+  "5122": 0.38,
+  "5123": 0.01,
+  "5121": 0.57,
+  "5124": 0.0
+ },
+ "id": "Q0280",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11047,
+  "output_tokens": 1080,
+  "modelo": "jev-1.14.0"
+ }
+}

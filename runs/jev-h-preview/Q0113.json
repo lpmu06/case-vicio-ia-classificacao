@@ -1,0 +1,47 @@
+{
+ "fora": false,
+ "tema_n1_id": "5185",
+ "subtema_n2_id": "5190",
+ "confianca_ramo": 0.87,
+ "confianca_subtema": 0.41,
+ "segunda_opcao_id": "5180",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Prescrição', 0.87), ('fora', 0.09), ('Lei Penal no Tempo e no Espaço', 0.02)]; confiança 0.87",
+ "confianca_estagio1": 0.8685393258426967,
+ "probabilidades_estagio1": {
+  "5185": 0.87,
+  "FORA": 0.09,
+  "5180": 0.02,
+  "5191": 0.02,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.2,
+  "5186": 0.02,
+  "5187": 0.26,
+  "5190": 0.41,
+  "5189": 0.0,
+  "5188": 0.11
+ },
+ "id": "Q0113",
+ "modelo": "jev-1.14.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-preview",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 11267,
+  "output_tokens": 1091,
+  "modelo": "jev-1.14.0"
+ }
+}

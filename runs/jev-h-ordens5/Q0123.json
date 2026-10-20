@@ -1,0 +1,51 @@
+{
+ "fora": false,
+ "tema_n1_id": "4377",
+ "subtema_n2_id": "4378",
+ "confianca_ramo": 0.728,
+ "confianca_subtema": 0.5740000000000001,
+ "segunda_opcao_id": "4385",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Processos de Criminalização e Cifras Criminais', 0.728), ('Teorias Sociológicas Explicativas da Criminalidade', 0.138), ('Criminologia no Estado Democrático de Direito', 0.054)]; confiança 0.72",
+ "confianca_estagio1": 0.724943820224719,
+ "probabilidades_estagio1": {
+  "4377": 0.728,
+  "4385": 0.13799999999999998,
+  "4368": 0.05399999999999999,
+  "4374": 0.034,
+  "4690": 0.016,
+  "5509": 0.01,
+  "5517": 0.01,
+  "5584": 0.004,
+  "5218": 0.002,
+  "4366": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.422,
+  "4379": 0.004,
+  "4378": 0.5740000000000001
+ },
+ "escolhas_por_ordem_estagio1": [
+  "4377",
+  "4377",
+  "4377",
+  "4377",
+  "4377"
+ ],
+ "id": "Q0123",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 54685,
+  "output_tokens": 5290,
+  "modelo": "jev-1.13.0"
+ }
+}

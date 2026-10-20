@@ -1,0 +1,63 @@
+{
+ "fora": false,
+ "tema_n1_id": "5087",
+ "subtema_n2_id": "5089",
+ "confianca_ramo": 0.768,
+ "confianca_subtema": 0.7020000000000002,
+ "segunda_opcao_id": "5218",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Dos Crimes Contra a Administração Pública', 0.768), ('Teoria do Crime: Fato Típico', 0.214), ('Teoria do Crime: Culpabilidade', 0.018)]; confiança 0.77",
+ "confianca_estagio1": 0.7653932584269664,
+ "probabilidades_estagio1": {
+  "5087": 0.768,
+  "5218": 0.21400000000000002,
+  "5211": 0.018,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.238,
+  "5097": 0.0,
+  "5091": 0.008,
+  "5096": 0.0,
+  "5094": 0.0,
+  "5093": 0.0,
+  "5092": 0.008,
+  "5090": 0.0,
+  "5088": 0.036000000000000004,
+  "5089": 0.7020000000000002,
+  "5095": 0.004,
+  "5100": 0.0,
+  "5101": 0.0,
+  "5099": 0.0,
+  "5098": 0.002
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5087",
+  "5087",
+  "5087",
+  "5087",
+  "5087"
+ ],
+ "id": "Q0022",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 57530,
+  "output_tokens": 5950,
+  "modelo": "jev-1.13.0"
+ }
+}

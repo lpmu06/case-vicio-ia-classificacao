@@ -1,0 +1,21 @@
+{
+ "id": "Q0347",
+ "candidatos": [
+  "5066",
+  "5199"
+ ],
+ "ramo_arbitro": "5066",
+ "probabilidades": {
+  "5066": 0.255,
+  "5199": 0.745
+ },
+ "escolha": "5199",
+ "p_escolha": 0.745,
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 3334,
+  "output_tokens": 0,
+  "modelo": "jev-1.13.0"
+ },
+ "promovida": false
+}

@@ -1,0 +1,73 @@
+{
+ "fora": false,
+ "tema_n1_id": "5539",
+ "subtema_n2_id": null,
+ "confianca_ramo": 0.27,
+ "confianca_subtema": 0.0,
+ "segunda_opcao_id": "4701",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Juizado Especial Criminal', 0.44), ('Estaturo de Idoso - Crimes', 0.29), ('Procedimento Sumaríssimo', 0.27)]; confiança 0.43",
+ "confianca_estagio1": 0.4337078651685393,
+ "probabilidades_estagio1": {
+  "4701": 0.44,
+  "4696": 0.29000000000000004,
+  "5539": 0.27,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.79,
+  "5540": 0.13,
+  "5542": 0.07,
+  "5541": 0.01
+ },
+ "folhas_beam": [
+  {
+   "tema": "5539",
+   "subtema": null,
+   "pontuacao": 0.4618
+  },
+  {
+   "tema": "4701",
+   "subtema": null,
+   "pontuacao": 0.44
+  },
+  {
+   "tema": "4696",
+   "subtema": null,
+   "pontuacao": 0.29
+  },
+  {
+   "tema": "5539",
+   "subtema": "5540",
+   "pontuacao": 0.1873
+  },
+  {
+   "tema": "5539",
+   "subtema": "5542",
+   "pontuacao": 0.1375
+  }
+ ],
+ "ramo_guloso": "4701",
+ "id": "Q0359",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 3,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 10603,
+  "output_tokens": 1066,
+  "modelo": "jev-1.13.0"
+ }
+}

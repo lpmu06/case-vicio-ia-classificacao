@@ -1,0 +1,47 @@
+{
+ "fora": false,
+ "tema_n1_id": "5228",
+ "subtema_n2_id": "5232",
+ "confianca_ramo": 0.53,
+ "confianca_subtema": 0.96,
+ "segunda_opcao_id": "5087",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Teoria do Crime: Ilicitude', 0.53), ('Dos Crimes Contra a Administração Pública', 0.46), ('fora', 0.01)]; confiança 0.52",
+ "confianca_estagio1": 0.5247191011235955,
+ "probabilidades_estagio1": {
+  "5228": 0.53,
+  "5087": 0.46,
+  "FORA": 0.01,
+  "4366": 0.0,
+  "4367": 0.0,
+  "4368": 0.0,
+  "4371": 0.0,
+  "4374": 0.0,
+  "4377": 0.0,
+  "4380": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.0,
+  "5233": 0.0,
+  "5229": 0.0,
+  "5230": 0.0,
+  "5232": 0.96,
+  "5231": 0.04
+ },
+ "id": "Q0099",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "ricos",
+  "beam": 1,
+  "ordens": 1
+ },
+ "uso": {
+  "chamadas": 2,
+  "input_tokens": 31974,
+  "output_tokens": 1853,
+  "modelo": "jev-1.13.0"
+ }
+}

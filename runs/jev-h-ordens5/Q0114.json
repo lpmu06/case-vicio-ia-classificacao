@@ -1,0 +1,52 @@
+{
+ "fora": false,
+ "tema_n1_id": "5180",
+ "subtema_n2_id": "5181",
+ "confianca_ramo": 0.42000000000000004,
+ "confianca_subtema": 0.844,
+ "segunda_opcao_id": "5505",
+ "extras_ids": [],
+ "multi_tema": false,
+ "justificativa": "Jev: top-3 do estágio 1 [('Lei Penal no Tempo e no Espaço', 0.42), ('Lei Processual no Tempo e no Espaço', 0.212), ('Ação Penal (Penal)', 0.116)]; confiança 0.41",
+ "confianca_estagio1": 0.41348314606741576,
+ "probabilidades_estagio1": {
+  "5180": 0.42000000000000004,
+  "5505": 0.21200000000000002,
+  "5063": 0.11600000000000002,
+  "5466": 0.10800000000000001,
+  "4704": 0.06999999999999999,
+  "FORA": 0.057999999999999996,
+  "5509": 0.006,
+  "5170": 0.002,
+  "5580": 0.002,
+  "4366": 0.0
+ },
+ "probabilidades_estagio2": {
+  "generico": 0.156,
+  "5183": 0.0,
+  "5182": 0.0,
+  "5181": 0.844
+ },
+ "escolhas_por_ordem_estagio1": [
+  "5180",
+  "5180",
+  "5180",
+  "5180",
+  "5180"
+ ],
+ "id": "Q0114",
+ "modelo": "jev-1.13.0",
+ "provedor": "typesafe",
+ "variante": {
+  "modelo": "jev-latest",
+  "criterios": "curtos",
+  "beam": 1,
+  "ordens": 5
+ },
+ "uso": {
+  "chamadas": 10,
+  "input_tokens": 57520,
+  "output_tokens": 5345,
+  "modelo": "jev-1.13.0"
+ }
+}
