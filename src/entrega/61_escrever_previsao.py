@@ -1,12 +1,12 @@
 """Etapa 6b: escreve previsao.txt a partir de runs/previsao.json (números) e do texto explicativo.
 
-Uso: python src/61_escrever_previsao.py
+Uso: python src/entrega/61_escrever_previsao.py
 """
 import json
 import math
 from pathlib import Path
 
-RAIZ = Path(__file__).resolve().parents[1]
+RAIZ = Path(__file__).resolve().parents[2]
 
 
 def pct(x):

@@ -5,7 +5,7 @@ dos prompts e das saídas intermediárias gravadas, sem o contexto fixo do Claud
 estimado a preço de lista com e sem cache do system prompt, distribuição de saídas, e concordância de ramo e de
 nó entre rodadas e com a origem.
 
-Uso: python src/42_comparar_metodos.py
+Uso: python src/analise/42_comparar_metodos.py
 Saída: runs/comparacao_metodos.json e docs/comparacao_metodos.md
 """
 import importlib
@@ -14,7 +14,8 @@ import sys
 from itertools import combinations
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from comum import Arvore, RAIZ, carregar_rodada, carregar_questoes, carregar_origem, MODELO_REAL, PRECO, CHARS_POR_TOKEN
 
 c30 = importlib.import_module("30_classificar")
@@ -159,7 +160,7 @@ def main():
     (RAIZ / "runs" / "comparacao_metodos.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
 
     md = ["# Comparação de métodos e modelos\n",
-          "Gerado por `src/42_comparar_metodos.py`. Tokens de prompt reconstruídos a partir dos prompts reais e das saídas "
+          "Gerado por `src/analise/42_comparar_metodos.py`. Tokens de prompt reconstruídos a partir dos prompts reais e das saídas "
           "intermediárias gravadas, sem o contexto fixo do Claude Code; razão caracteres/token medida neste corpus "
           "(`runs/calibracao_tokens.json`). Custos a preço de lista da API; \"com cache\" supõe o system prompt lido do cache "
           "(as rodadas reais foram feitas pela assinatura, sem custo marginal).\n",

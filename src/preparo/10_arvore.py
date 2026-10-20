@@ -7,7 +7,7 @@ Regras registradas aqui (ver docs/00_entendimento_e_plano.md):
 import csv, json, re
 from pathlib import Path
 
-RAIZ = Path(__file__).resolve().parents[1]
+RAIZ = Path(__file__).resolve().parents[2]
 
 def carregar_temas():
     rows = list(csv.DictReader((RAIZ / "anexos" / "temas.csv").open(encoding="utf-8")))

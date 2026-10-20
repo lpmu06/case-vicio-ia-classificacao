@@ -9,7 +9,7 @@ o viés de ordem das opções, o efeito do beam search e o custo real (tokens de
 As cinco variantes rodaram nas 359 questões (decisão do Luis, 19/10/2026); como a melhor é escolhida e medida nos
 mesmos dados, a diferença entre variantes vale como indicação, não como estimativa sem viés.
 
-Uso: python src/50_avaliar_jev.py
+Uso: python src/analise/50_avaliar_jev.py
 Saída: runs/jev_avaliacao.json e docs/jev.md
 """
 import json
@@ -17,7 +17,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from comum import Arvore, RAIZ, carregar_rodada
 
 PRECO_POR_MILHAO = 0.042
@@ -158,7 +159,7 @@ def main():
     (RAIZ / "runs" / "jev_avaliacao.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
 
     md = ["# Jev (TypeSafe) como classificador adicional\n",
-          "Gerado por `src/50_avaliar_jev.py` a partir de `runs/jev-h*/`. Sem gabarito: \"concorda\" é concordância de ramo "
+          "Gerado por `src/analise/50_avaliar_jev.py` a partir de `runs/jev-h*/`. Sem gabarito: \"concorda\" é concordância de ramo "
           "(tema de nível 1) com a maioria das rodadas de Claude/GPT e do árbitro, que não usam o Jev. O \"trio unânime\" são as "
           f"{len(trio)} questões em que Opus plano, Sonnet 2 estágios e o árbitro escolheram o mesmo ramo, o subconjunto com rótulo "
           "mais confiável. As cinco variantes rodaram nas 359 questões e mudam um fator por vez em relação à base; como a melhor é "
@@ -216,7 +217,7 @@ def main():
     desemp = RAIZ / "runs" / "jev_desempate.json"
     if desemp.exists() and "auditoria" in (d := json.loads(desemp.read_text(encoding="utf-8"))):
         p, c = d["auditoria"]["promovidas"], d["auditoria"]["controles"]
-        md += ["\n## Camada final de desempate (src/51_jev_desempate.py)\n",
+        md += ["\n## Camada final de desempate (src/analise/51_jev_desempate.py)\n",
                f"Nas {d['revisar']} questões que a regra mandou para revisão, o Jev escolheu só entre os ramos candidatos (2 a 4 em "
                f"{d['com_2_ou_mais_candidatos']} delas), com descrições inteiras e duas ordens. Regra fixada antes da auditoria: promover "
                f"quando a escolha é o ramo do árbitro com probabilidade ≥ {d['limiar']:.2f}. Escolha igual à do árbitro em "

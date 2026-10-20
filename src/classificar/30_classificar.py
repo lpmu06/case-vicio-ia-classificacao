@@ -1,18 +1,19 @@
 """Etapa 3: classificação por LLM, uma chamada por questão, com árvore + metadados no system prompt (cacheado).
 
-Uso: python src/30_classificar.py --provedor openai --modelo gpt-5.5 [--effort medium] [--limite 3] [--ids Q0001,Q0002]
-     python src/30_classificar.py --provedor claude_cli --modelo opus
+Uso: python src/classificar/30_classificar.py --provedor openai --modelo gpt-5.5 [--effort medium] [--limite 3] [--ids Q0001,Q0002]
+     python src/classificar/30_classificar.py --provedor claude_cli --modelo opus
 Saída: runs/<rotulo>/<id>.json (uma por questão; reexecução pula as já feitas) e runs/<rotulo>/_usage.json
 """
 import argparse, importlib, json, sys, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from llm import chamar_json
 arv = importlib.import_module("10_arvore")
 
-RAIZ = Path(__file__).resolve().parents[1]
+RAIZ = Path(__file__).resolve().parents[2]
 
 ESQUEMA = {
     "type": "object",

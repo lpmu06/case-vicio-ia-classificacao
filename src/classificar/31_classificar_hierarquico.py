@@ -6,18 +6,19 @@ Estágio 2: só os metadados completos do ramo escolhido (e do ramo da segunda o
            o subtema (ou null), com confianças, extras e flag multi-tema.
 A saída final tem o mesmo esquema da etapa 3, então o ensemble (40) funciona sem mudanças.
 
-Uso: python src/31_classificar_hierarquico.py --provedor claude_cli --modelo sonnet --rotulo claude-sonnet-h
+Uso: python src/classificar/31_classificar_hierarquico.py --provedor claude_cli --modelo sonnet --rotulo claude-sonnet-h
 """
 import argparse, importlib, json, sys, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from llm import chamar_json
 arv = importlib.import_module("10_arvore")
 c30 = importlib.import_module("30_classificar")
 
-RAIZ = Path(__file__).resolve().parents[1]
+RAIZ = Path(__file__).resolve().parents[2]
 
 ESQUEMA_1 = {
     "type": "object",

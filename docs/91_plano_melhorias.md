@@ -10,8 +10,8 @@ Blocos A, B, C, D e E executados e commitados (um commit por bloco). Bloco F exe
 
 1. Antes de começar: ler este arquivo inteiro e a seção 2 de `docs/90_avaliacao_simulada.md`.
 2. Não alterar `anexos/`. Não rodar classificação em lote com LLM (as rodadas em `runs/` estão completas). A única chamada a modelo é a auditoria cega (bloco B), feita por um agente com contexto limpo.
-3. Depois de cada bloco: `bash rodar_analises.sh`, depois `python src/63_validar_entrega.py` (três CSVs OK), depois `pdfinfo docs/relatorio.pdf | grep Pages` (= 5). Um commit por bloco, mensagem "melhorias bloco X: ...".
-4. Os números do relatório vêm de `src/modelos/relatorio.md` + `src/62_preencher_relatorio.py`; os do `previsao.txt`, de `src/61_escrever_previsao.py`. Nunca editar `docs/relatorio.md` ou `previsao.txt` à mão.
+3. Depois de cada bloco: `bash rodar_analises.sh`, depois `python src/entrega/63_validar_entrega.py` (três CSVs OK), depois `pdfinfo docs/relatorio.pdf | grep Pages` (= 5). Um commit por bloco, mensagem "melhorias bloco X: ...".
+4. Os números do relatório vêm de `src/modelos/relatorio.md` + `src/entrega/62_preencher_relatorio.py`; os do `previsao.txt`, de `src/entrega/61_escrever_previsao.py`. Nunca editar `docs/relatorio.md` ou `previsao.txt` à mão.
 5. Cada decisão tomada entra no diário com data e motivo.
 6. Se o tempo apertar, a ordem de corte é: G → F → E → D → C → B → A (A é o que mais muda a nota; F fecha a entrega e não pode faltar; G depende de chave externa e roda quando ela existir, mesmo depois do fechamento).
 
@@ -29,32 +29,32 @@ Blocos A, B, C, D e E executados e commitados (um commit por bloco). Bloco F exe
 ## Bloco A — código que muda o resultado (fazer primeiro)
 
 ### A1. Nível 1 como entrega principal (item 1 da avaliação) — depende de D1
-- Mudança: `src/47_decisao.py`, padrão de `--modo` passa a `n1`. No modelo do relatório (seção a), apresentar as duas versões lado a lado como comparação: nível 1 = ótima pela régua; híbrido/subtema = tentativa que não compensou (mesmas publicadas, risco de irmão a mais, previsão igual ou menor); manter o argumento de produto como trabalho futuro. `rodar_analises.sh`: `publicacao.csv` = nível 1; `publicacao_subtema.csv` = `--modo hibrido`; manter `publicacao_sem_duplicados.csv` (nível 1 + `--evitar_duplicados`). `src/60_previsao.py`: `runs/previsao_subtema.json` para a variante. README, modelo do relatório e `61_escrever_previsao.py`: trocar as referências (`publicacao_nivel1.csv` deixa de existir).
+- Mudança: `src/analise/47_decisao.py`, padrão de `--modo` passa a `n1`. No modelo do relatório (seção a), apresentar as duas versões lado a lado como comparação: nível 1 = ótima pela régua; híbrido/subtema = tentativa que não compensou (mesmas publicadas, risco de irmão a mais, previsão igual ou menor); manter o argumento de produto como trabalho futuro. `rodar_analises.sh`: `publicacao.csv` = nível 1; `publicacao_subtema.csv` = `--modo hibrido`; manter `publicacao_sem_duplicados.csv` (nível 1 + `--evitar_duplicados`). `src/entrega/60_previsao.py`: `runs/previsao_subtema.json` para a variante. README, modelo do relatório e `61_escrever_previsao.py`: trocar as referências (`publicacao_nivel1.csv` deixa de existir).
 - Verificação: `python -c "import csv,json;A={json.loads(l)['tema_id']:json.loads(l) for l in open('data/temas.json')}"` não serve (temas.json é dict); usar: `python - <<EOF` que lê `publicacao.csv` e confere que todo `tema_central_id` de `publicar` tem `nivel == 1` em `data/temas.json`. Resultado esperado: 0 publicadas no nível 2; total de publicadas igual ao da variante subtema.
 - [x] feito
 
 ### A2. `fora` só com evidência forte (item 4)
-- Mudança: `src/47_decisao.py`, ramo `if ramo_a == "FORA" and frac_fora >= 0.5` → exigir `va["c_ramo"] >= 0.80` e `cont.get("FORA", 0) == n_mod` (os dois votantes). Senão `revisar` com motivo "dúvida entre 'fora' (nenhum tema serve) e X".
+- Mudança: `src/analise/47_decisao.py`, ramo `if ramo_a == "FORA" and frac_fora >= 0.5` → exigir `va["c_ramo"] >= 0.80` e `cont.get("FORA", 0) == n_mod` (os dois votantes). Senão `revisar` com motivo "dúvida entre 'fora' (nenhum tema serve) e X".
 - Verificação: `grep -c ",fora," publicacao.csv` = 1 (só Q0142); Q0168 em `revisar` com motivo começando por "dúvida entre 'fora'".
 - [x] feito
 
 ### A3. Unanimidade com critério igual para todas as questões (item 5)
-- Mudança: `src/47_decisao.py`, linha `unanime = all(rod[q][0]["ramo"] == ramo_a for rod in todas.values() ...)`: trocar `todas` por `completas` = rodadas com 359 questões (hoje: claude-opus, claude-sonnet-h, claude-sonnet-3n) mais o árbitro. Imprimir quantas questões mudam de decisão em relação ao `data/decisoes.jsonl` anterior (salvar cópia antes em `runs/decisoes_antes_A3.jsonl`).
+- Mudança: `src/analise/47_decisao.py`, linha `unanime = all(rod[q][0]["ramo"] == ramo_a for rod in todas.values() ...)`: trocar `todas` por `completas` = rodadas com 359 questões (hoje: claude-opus, claude-sonnet-h, claude-sonnet-3n) mais o árbitro. Imprimir quantas questões mudam de decisão em relação ao `data/decisoes.jsonl` anterior (salvar cópia antes em `runs/decisoes_antes_A3.jsonl`).
 - Verificação: a impressão mostra a contagem; registrar no diário. Os pares confundíveis continuam calculados com todas as rodadas (isso é só diagnóstico).
 - [x] feito
 
 ### A4. Coluna `confianca` que separa as decisões (seção 4, item 5)
-- Mudança: `src/47_decisao.py`, bloco "confiança = média...": em `publicar`, subtrair o risco por questão (p das cópias, de `--p_copias`, quando o ramo tem gêmeo 67xx; usar o mesmo mapa de gêmeos de A5); em `revisar`, usar só a confiança do árbitro no nó sugerido (sem a média com Dawid-Skene); em `fora`, manter.
+- Mudança: `src/analise/47_decisao.py`, bloco "confiança = média...": em `publicar`, subtrair o risco por questão (p das cópias, de `--p_copias`, quando o ramo tem gêmeo 67xx; usar o mesmo mapa de gêmeos de A5); em `revisar`, usar só a confiança do árbitro no nó sugerido (sem a média com Dawid-Skene); em `fora`, manter.
 - Verificação: `python -c` que imprime min/max da confiança por decisão: publicadas abaixo de qualquer revisar com o mesmo ramo? Não precisa ser perfeito; esperado: nenhuma `revisar` com confiança ≥ 0,93, e publicadas expostas às cópias com confiança ~0,10 menor que as demais.
 - [x] feito
 
 ### A5. Gêmeos "(Parte N)" no risco 67xx (item 2) — depende de D2
-- Mudança: `src/60_previsao.py`: substituir o conjunto fixo `dup` por um mapa construído da árvore: para cada tema bucket ativo (ids 67xx), achar o tema usável correspondente: título idêntico (normalizado) ou título com "(Parte N)" removido, na mesma disciplina ou em Legislação Especial; incluir à mão `4696` (Estaturo/Estatuto do Idoso). Dois grupos: `copias` (título idêntico, p = `--p_copias`, padrão 0,10) e `partes` (nome de aula, p = `--p_partes`, padrão conforme D2). Perda esperada = soma de p × exposição por grupo. Gravar em `runs/previsao.json` a tabela por tema (gêmeo, publicadas) e uma grade de sensibilidade: p_copias ∈ {5, 10, 25%} × peso da dúvida ∈ {1/3, 1/2, 1}. `src/47_decisao.py --evitar_duplicados` passa a usar o mesmo mapa (os dois grupos).
+- Mudança: `src/entrega/60_previsao.py`: substituir o conjunto fixo `dup` por um mapa construído da árvore: para cada tema bucket ativo (ids 67xx), achar o tema usável correspondente: título idêntico (normalizado) ou título com "(Parte N)" removido, na mesma disciplina ou em Legislação Especial; incluir à mão `4696` (Estaturo/Estatuto do Idoso). Dois grupos: `copias` (título idêntico, p = `--p_copias`, padrão 0,10) e `partes` (nome de aula, p = `--p_partes`, padrão conforme D2). Perda esperada = soma de p × exposição por grupo. Gravar em `runs/previsao.json` a tabela por tema (gêmeo, publicadas) e uma grade de sensibilidade: p_copias ∈ {5, 10, 25%} × peso da dúvida ∈ {1/3, 1/2, 1}. `src/analise/47_decisao.py --evitar_duplicados` passa a usar o mesmo mapa (os dois grupos).
 - Verificação: `runs/previsao.json` mostra exposição das cópias = 38 publicadas e dos "(Parte N)" ≈ 47 (números podem mudar com A2/A3); a grade tem 9 células; `publicacao_sem_duplicados.csv` tem menos publicadas que antes (≈ 130).
 - [x] feito
 
 ### A6. Motivos sem corte no meio da palavra (item 11)
-- Mudança: `src/47_decisao.py`: função `cortar(texto, n=240)` que corta no fim da última frase completa (ponto, ponto e vírgula ou parêntese fechado) antes de n; aplicar ao motivo e à justificativa do `fora` (hoje `[:150]`).
+- Mudança: `src/analise/47_decisao.py`: função `cortar(texto, n=240)` que corta no fim da última frase completa (ponto, ponto e vírgula ou parêntese fechado) antes de n; aplicar ao motivo e à justificativa do `fora` (hoje `[:150]`).
 - Verificação: `python -c` que confere que nenhum motivo tem 240 caracteres exatos nem termina sem pontuação/parêntese; os dois `fora` terminam em frase completa.
 - [x] feito
 
@@ -63,7 +63,7 @@ Fechamento do bloco A: regras de execução, item 3. Commit "melhorias bloco A: 
 ## Bloco B — auditoria cega (item 3) — depende de D3
 
 ### B1. Caderno cego
-- Mudança: `src/48_auditoria.py`: flags `--cego` (omite votos e justificativa do árbitro), `--excluir data/auditoria_ia.csv` (não repete as 60), `--semente 2026`, `--n 50`, `--saida data/auditoria_ia_v2.csv`, caderno em `docs/auditoria_cega_caderno.md`. Cada questão no caderno: id, texto completo, tema publicado com caminho, descrição e "não confundir" do tema, lista de irmãos (se nível 2) ou subtemas (se nível 1), e os 3 ramos de nível 1 mais parecidos por título (sem dizer de onde vêm). Nada de votos, confiança ou argumento do pipeline.
+- Mudança: `src/analise/48_auditoria.py`: flags `--cego` (omite votos e justificativa do árbitro), `--excluir data/auditoria_ia.csv` (não repete as 60), `--semente 2026`, `--n 50`, `--saida data/auditoria_ia_v2.csv`, caderno em `docs/auditoria_cega_caderno.md`. Cada questão no caderno: id, texto completo, tema publicado com caminho, descrição e "não confundir" do tema, lista de irmãos (se nível 2) ou subtemas (se nível 1), e os 3 ramos de nível 1 mais parecidos por título (sem dizer de onde vêm). Nada de votos, confiança ou argumento do pipeline.
 - Verificação: `grep -c "^## Q" docs/auditoria_cega_caderno.md` = 50; `grep -c "árbitro\|votos de ramo" docs/auditoria_cega_caderno.md` = 0; nenhum id em comum com `data/auditoria_ia.csv`.
 - [x] feito
 
@@ -73,14 +73,14 @@ Fechamento do bloco A: regras de execução, item 3. Commit "melhorias bloco A: 
 - [x] feito
 
 ### B3. E3 com a auditoria cega
-- Mudança: `src/60_previsao.py`: se `data/auditoria_ia_v2.csv` existir, E3 usa a v2 (restrita às publicadas atuais) e a v1 é reportada à parte como "auditoria ancorada, usada para escolher os limiares". `src/61_escrever_previsao.py` e o modelo do relatório: texto correspondente. Se a v2 mostrar erros reais acima de ~5%, voltar ao bloco A e reavaliar o limiar (0,95) antes de fechar; registrar.
+- Mudança: `src/entrega/60_previsao.py`: se `data/auditoria_ia_v2.csv` existir, E3 usa a v2 (restrita às publicadas atuais) e a v1 é reportada à parte como "auditoria ancorada, usada para escolher os limiares". `src/entrega/61_escrever_previsao.py` e o modelo do relatório: texto correspondente. Se a v2 mostrar erros reais acima de ~5%, voltar ao bloco A e reavaliar o limiar (0,95) antes de fechar; registrar.
 - Verificação: `runs/previsao.json` tem `E3_auditoria` com n ≈ 50 e `E3_ancorada` com n = 46; `previsao.txt` cita as duas.
 - [x] feito
 
 ## Bloco C — textos (itens 6, 7, 9, 10 e memo)
 
 ### C1. Bloco de precisão do `previsao.txt` (item 6)
-- `src/61_escrever_previsao.py`: tirar "independentes entre si" (→ "três estimadores com fontes de erro diferentes" + uma frase sobre a correlação: todos Claude, GPT escreveu a taxonomia); tirar "árbitro" da lista do Dawid-Skene; dizer que os limiares foram escolhidos com a auditoria v1 e que E3 vem da v2 (ou, se B não foi feito, que E3 é otimista por isso); tabela de sensibilidade de A5; E1 descrito como teto do modelo, usado só como limite superior do intervalo; ponto = mediana de E2 e E3 ajustados (ou média, se só dois) — ajustar `60_previsao.py`.
+- `src/entrega/61_escrever_previsao.py`: tirar "independentes entre si" (→ "três estimadores com fontes de erro diferentes" + uma frase sobre a correlação: todos Claude, GPT escreveu a taxonomia); tirar "árbitro" da lista do Dawid-Skene; dizer que os limiares foram escolhidos com a auditoria v1 e que E3 vem da v2 (ou, se B não foi feito, que E3 é otimista por isso); tabela de sensibilidade de A5; E1 descrito como teto do modelo, usado só como limite superior do intervalo; ponto = mediana de E2 e E3 ajustados (ou média, se só dois) — ajustar `60_previsao.py`.
 - Verificação: `grep -c "independentes entre si" previsao.txt` = 0; `grep -c "árbitro" previsao.txt` só nas frases sobre a regra de publicação; a tabela aparece.
 - [x] feito
 
@@ -106,7 +106,7 @@ Fechamento do bloco A: regras de execução, item 3. Commit "melhorias bloco A: 
 ## Bloco D — custo reconstruível (item 8)
 
 ### D1. Árbitro na comparação de métodos
-- `src/42_comparar_metodos.py`: rodada `arbitro-opus` como método "árbitro": prompt = sistema do árbitro (`prompts/arbitro_sistema.md` com a árvore resumida, como em `46_arbitragem.py`) + blocos dos ramos candidatos (`candidatos_ramos` gravados em cada JSON, via `c31.bloco_ramo`) + pedido da questão; tokens de saída do `uso`. Adicionar a `RODADAS` e a `MODELO_REAL` (`claude-opus-5-5`).
+- `src/analise/42_comparar_metodos.py`: rodada `arbitro-opus` como método "árbitro": prompt = sistema do árbitro (`prompts/arbitro_sistema.md` com a árvore resumida, como em `46_arbitragem.py`) + blocos dos ramos candidatos (`candidatos_ramos` gravados em cada JSON, via `c31.bloco_ramo`) + pedido da questão; tokens de saída do `uso`. Adicionar a `RODADAS` e a `MODELO_REAL` (`claude-opus-5-5`).
 - `62_preencher_relatorio.py`: marcador `CUSTO_PIPELINE` = soma (Opus plano + Sonnet 2 estágios + árbitro) × 359 com cache, e `CUSTO_PIPELINE_LOTE` = metade; substituir o "US$ 48" / "US$ 24" fixos no modelo do relatório e no README.
 - Verificação: `docs/comparacao_metodos.md` tem a linha do árbitro; o valor de `CUSTO_PIPELINE` aparece no relatório e no README (README é editado à mão com o mesmo número).
 - [x] feito
@@ -115,7 +115,7 @@ Fechamento do bloco A: regras de execução, item 3. Commit "melhorias bloco A: 
 
 ### E1. Tirar o que não pode ser público
 - `estudo_movai.md`: `git rm --cached estudo_movai.md`, adicionar ao `.gitignore` (o arquivo fica no disco). O relatório mantém só a frase "estudo anterior com andamentos processuais, 38%".
-- `runs/gpt-5.5/_usage.json`: esvaziar a lista `erros` (ou trocar `org-...` por `org-REDACTED`), e no `src/30_classificar.py` truncar mensagens de erro sem ids.
+- `runs/gpt-5.5/_usage.json`: esvaziar a lista `erros` (ou trocar `org-...` por `org-REDACTED`), e no `src/classificar/30_classificar.py` truncar mensagens de erro sem ids.
 - `runs/faltam.py`: apagar.
 - `docs/90_avaliacao_simulada.md` e `docs/91_plano_melhorias.md`: decidir se ficam públicos. Recomendação: ficam, renomeados para `docs/90_avaliacao_simulada.md` e `docs/91_plano_melhorias.md`, porque mostram o caminho; o diário cita os dois.
 - Título do PDF: `<title>Relatório — Case Classificação de tópicos</title>` em `64_gerar_pdf.py`.
@@ -133,7 +133,7 @@ Motivo: o Jev é uma tecnologia nova feita para classificação estruturada, com
 
 ### G1. Rodada do Jev
 - Pré-requisito: linha `typesafe = ...` em `keys.txt` (não versionado).
-- Como: `python src/33_classificar_jev.py` (integração pronta: 2 estágios, tema de nível 1 entre até 255 opções com descrição, depois subtema; saída em `runs/jev-h/`). Testar primeiro com `--limite 3`, conferir o JSON de uma questão (escolha, probabilidades, confiança), depois rodar as 359. Registrar tokens e custo (preço de lista: entrada quase zero, saída grátis).
+- Como: `python src/classificar/33_classificar_jev.py` (integração pronta: 2 estágios, tema de nível 1 entre até 255 opções com descrição, depois subtema; saída em `runs/jev-h/`). Testar primeiro com `--limite 3`, conferir o JSON de uma questão (escolha, probabilidades, confiança), depois rodar as 359. Registrar tokens e custo (preço de lista: entrada quase zero, saída grátis).
 - Verificação: `ls runs/jev-h | grep -c '^Q'` = 359; `_usage.json` com erros = 0.
 - [x] feito (19/10 22h). Além da base, quatro variantes de um fator cada, todas nas 359 (decisão do Luis): `jev-preview`, critérios ricos, beam K=3 e 5 ordens embaralhadas, em `runs/jev-h*`. 0 erros; US$ 1,82 no total. Só os critérios ricos ajudam (85,8% contra 79,7% de concordância com a maioria dos não-Jev).
 
@@ -142,14 +142,14 @@ Motivo: o Jev é uma tecnologia nova feita para classificação estruturada, com
 - Medir e escrever no relatório: concordância do Jev com o consenso (leave-one-out na amostra 2×2 e nas 359), calibração das probabilidades dele (acurácia contra o consenso por faixa de confiança, em `docs/jev.md`), custo por questão. Se a calibração for boa, propor na seção c) o Jev como "segunda opinião de outra família" na cascata, no lugar do modelo pequeno.
 - `src/modelos/relatorio.md`: parágrafo na seção a) (o que é, por que testamos, o que deu) e marcadores `LOO_JEV`, `JEV_CALIB` em `62_preencher_relatorio.py`.
 - Verificação: `docs/comparacao_metodos.md` tem a linha `jev-h`; `docs/jev.md` existe; PDF segue com 5 páginas.
-- [x] feito, com desvio (19/10 22h50). Medido o efeito do previsto acima: com o `jev-h` no Dawid-Skene e nos pares confundíveis, 7 publicadas iriam para revisão e a precisão prevista passaria de 0,95 a 0,96. Decisão do Luis: o Jev entra só como estudo; sai das listas do 45 e do 47 e da média de subtema do 60, e na comparação de métodos entra a variante de critérios ricos (`jev-h-ricos`), com tokens reais da API e fora da maioria dos outros. Avaliação em `src/50_avaliar_jev.py` → `docs/jev.md` (variantes, calibração, ruído, viés de ordem, cascata). Teste extra, ideia do Luis: o Jev como desempate entre os candidatos das questões em revisão (`src/51_jev_desempate.py`), com regra fixada antes e auditoria cega com 40 controles: 26 de 39 promovidas passaram contra 39 de 40 controles; descartado. Relatório: linha na tabela da seção a), frase em becos sem saída, Jev como segunda opinião na cascata da seção c) (total de US$ 0,03 para 0,025 por questão). Entregáveis idênticos aos do bloco F; PDF com 5 páginas.
+- [x] feito, com desvio (19/10 22h50). Medido o efeito do previsto acima: com o `jev-h` no Dawid-Skene e nos pares confundíveis, 7 publicadas iriam para revisão e a precisão prevista passaria de 0,95 a 0,96. Decisão do Luis: o Jev entra só como estudo; sai das listas do 45 e do 47 e da média de subtema do 60, e na comparação de métodos entra a variante de critérios ricos (`jev-h-ricos`), com tokens reais da API e fora da maioria dos outros. Avaliação em `src/analise/50_avaliar_jev.py` → `docs/jev.md` (variantes, calibração, ruído, viés de ordem, cascata). Teste extra, ideia do Luis: o Jev como desempate entre os candidatos das questões em revisão (`src/analise/51_jev_desempate.py`), com regra fixada antes e auditoria cega com 40 controles: 26 de 39 promovidas passaram contra 39 de 40 controles; descartado. Relatório: linha na tabela da seção a), frase em becos sem saída, Jev como segunda opinião na cascata da seção c) (total de US$ 0,03 para 0,025 por questão). Entregáveis idênticos aos do bloco F; PDF com 5 páginas.
 
 ### G3. Se a chave não chegar antes do fechamento
 - O relatório mantém o parágrafo "o que faríamos com mais tempo" citando o Jev com a integração pronta, e a seção 8 da avaliação registra a frente. Nada mais.
 
 ## Bloco F — fechamento (item 13)
 
-1. `bash rodar_analises.sh`; `python src/63_validar_entrega.py`; `pdfinfo docs/relatorio.pdf | grep Pages` = 5; abrir o PDF renderizado (pdftoppm) e conferir a tabela de custo e o memo na última página.
+1. `bash rodar_analises.sh`; `python src/entrega/63_validar_entrega.py`; `pdfinfo docs/relatorio.pdf | grep Pages` = 5; abrir o PDF renderizado (pdftoppm) e conferir a tabela de custo e o memo na última página.
 2. `python - <<EOF` conferindo `anexos/` contra os hashes oficiais: README 07096ab7…, PDF 4f384b9a…, LEIA-ME d28b4b53…, entrega_modelo 7f1ad400…, questoes 808f07c3…, temas b8ff7bee… (`git hash-object`).
 3. Atualizar o diário (seção 10) e este plano (status). Commit "entrega final 19/10".
 4. E-mail de entrega para carla@viciodeumaestudante.com.br com o link do repositório.

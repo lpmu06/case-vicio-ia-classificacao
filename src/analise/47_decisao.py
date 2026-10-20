@@ -17,7 +17,7 @@ Regras (parâmetros na linha de comando; valores padrão escolhidos e justificad
 - o resto vai para revisar, com a sugestão do árbitro e o motivo.
 --modo n1 publica tudo no nível 1 (variante conservadora).
 
-Uso: python src/47_decisao.py [--modo hibrido|n1] [--saida publicacao.csv]
+Uso: python src/analise/47_decisao.py [--modo hibrido|n1] [--saida publicacao.csv]
 """
 import argparse
 import csv
@@ -27,7 +27,8 @@ from collections import Counter
 from itertools import combinations
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from comum import Arvore, RAIZ, carregar_rodada, carregar_questoes, carregar_origem, gemeos_67xx
 
 # o Jev fica fora, inclusive dos pares confundíveis: entra só como estudo (decisão do Luis, 19/10/2026; docs/jev.md)

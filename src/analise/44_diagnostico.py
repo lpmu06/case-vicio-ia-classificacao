@@ -4,7 +4,7 @@ Mede onde os classificadores divergem (proxy de dificuldade), por tipo de quest�
 multi-tema e origem; quanto a origem erra a disciplina; como as questões se distribuem pela árvore (temas vazios,
 concentração, temas genéricos que viram "lixeira").
 
-Uso: python src/44_diagnostico.py
+Uso: python src/analise/44_diagnostico.py
 Saída: docs/diagnostico.md e runs/diagnostico.json
 """
 import json
@@ -12,7 +12,8 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from comum import Arvore, RAIZ, carregar_rodada, carregar_questoes
 
 RODADAS = ["claude-opus", "claude-sonnet-h", "claude-sonnet-3n", "claude-haiku-h", "claude-haiku-3n", "arbitro-opus"]
@@ -47,7 +48,7 @@ def main():
             res["grupos"][chave] = {"unanimes": round(u, 3), "publicadas": round(pb, 3), "n": len(grupo)}
         return f"{u:.0%} unânimes; {pb:.0%} publicadas (n={len(grupo)})"
 
-    md = ["# Diagnóstico quantitativo\n", "Gerado por `src/44_diagnostico.py`. \"Unânime\": todas as rodadas de classificação e o árbitro "
+    md = ["# Diagnóstico quantitativo\n", "Gerado por `src/analise/44_diagnostico.py`. \"Unânime\": todas as rodadas de classificação e o árbitro "
           f"escolheram o mesmo ramo ({len(rods)} rodadas). É uma medida de dificuldade sem gabarito.\n"]
 
     md.append("## Por tipo de questão")

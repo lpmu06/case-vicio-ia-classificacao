@@ -1,6 +1,6 @@
 # Diagnóstico quantitativo
 
-Gerado por `src/44_diagnostico.py`. "Unânime": todas as rodadas de classificação e o árbitro escolheram o mesmo ramo (6 rodadas). É uma medida de dificuldade sem gabarito.
+Gerado por `src/analise/44_diagnostico.py`. "Unânime": todas as rodadas de classificação e o árbitro escolheram o mesmo ramo (6 rodadas). É uma medida de dificuldade sem gabarito.
 
 ## Por tipo de questão
 - multipla escolha: 80% unânimes; 62% publicadas (n=301)

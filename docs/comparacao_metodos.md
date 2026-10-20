@@ -1,6 +1,6 @@
 # Comparação de métodos e modelos
 
-Gerado por `src/42_comparar_metodos.py`. Tokens de prompt reconstruídos a partir dos prompts reais e das saídas intermediárias gravadas, sem o contexto fixo do Claude Code; razão caracteres/token medida neste corpus (`runs/calibracao_tokens.json`). Custos a preço de lista da API; "com cache" supõe o system prompt lido do cache (as rodadas reais foram feitas pela assinatura, sem custo marginal).
+Gerado por `src/analise/42_comparar_metodos.py`. Tokens de prompt reconstruídos a partir dos prompts reais e das saídas intermediárias gravadas, sem o contexto fixo do Claude Code; razão caracteres/token medida neste corpus (`runs/calibracao_tokens.json`). Custos a preço de lista da API; "com cache" supõe o system prompt lido do cache (as rodadas reais foram feitas pela assinatura, sem custo marginal).
 
 | Rodada | Método | Modelo | Questões | Chamadas/q | Tokens prompt/q | Tokens saída/q | US$/q sem cache | US$/q com cache | US$ 50 mil q (cache) | Fora | Multi | Escolheu subtema | Conf. ramo média |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|

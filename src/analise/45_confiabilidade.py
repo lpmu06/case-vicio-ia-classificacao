@@ -9,7 +9,7 @@ EM alterna entre a posterior do ramo verdadeiro por questão e as taxas p_j.
 Anotadores: as rodadas dos classificadores (cobertura total ou parcial) e a classificação de origem, que é fraca,
 mas erra de forma independente dos modelos. Faltas são ignoradas naturalmente.
 
-Uso: python src/45_confiabilidade.py [--rodadas claude-opus,claude-sonnet-h,...] [--concentracao 0.5]
+Uso: python src/analise/45_confiabilidade.py [--rodadas claude-opus,claude-sonnet-h,...] [--concentracao 0.5]
 Saída: data/confiabilidade.jsonl (posterior por questão) e runs/confiabilidade.json (p_j e resumo).
 """
 import argparse
@@ -19,7 +19,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from comum import Arvore, RAIZ, carregar_rodada, carregar_questoes, carregar_origem
 
 # o Jev fica fora: entra só como estudo (decisão do Luis, 19/10/2026; docs/jev.md)

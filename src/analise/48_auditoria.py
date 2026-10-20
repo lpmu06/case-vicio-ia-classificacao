@@ -1,7 +1,7 @@
 """Etapa 5b: caderno de auditoria de uma amostra aleatória das questões publicadas.
 
 A auditoria é feita por IA, não por um especialista: serve para achar erros sistemáticos e dar um terceiro estimador
-de precisão (E3 em src/60_previsao.py), declarado como tal no relatório. Dois modos:
+de precisão (E3 em src/entrega/60_previsao.py), declarado como tal no relatório. Dois modos:
 
 - padrão (v1, manhã de 19/10): caderno com os votos de ramo e a justificativa do árbitro. Serviu para escolher os
   limiares; o auditor estava ancorado. Saída: docs/auditoria_caderno.md e data/auditoria_ia.csv.
@@ -11,8 +11,8 @@ de precisão (E3 em src/60_previsao.py), declarado como tal no relatório. Dois 
   agente Claude Opus separado, com contexto limpo (prompts/auditoria_cega.md). Saída: docs/auditoria_cega_caderno.md e
   data/auditoria_ia_v2.csv.
 
-Uso: python src/48_auditoria.py --n 50 --semente 7
-     python src/48_auditoria.py --cego --n 50 --semente 2026 --excluir data/auditoria_ia.csv
+Uso: python src/analise/48_auditoria.py --n 50 --semente 7
+     python src/analise/48_auditoria.py --cego --n 50 --semente 2026 --excluir data/auditoria_ia.csv
 Colunas do CSV: id, tema_publicado, veredito (ok | duvidoso | erro), tipo_duvida (ramo | subtema), tema_sugerido, comentario
 """
 import argparse
@@ -23,7 +23,8 @@ import random
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from comum import Arvore, RAIZ, carregar_questoes, norm, usavel
 
 

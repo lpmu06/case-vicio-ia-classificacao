@@ -1,6 +1,6 @@
 # Jev (TypeSafe) como classificador adicional
 
-Gerado por `src/50_avaliar_jev.py` a partir de `runs/jev-h*/`. Sem gabarito: "concorda" é concordância de ramo (tema de nível 1) com a maioria das rodadas de Claude/GPT e do árbitro, que não usam o Jev. O "trio unânime" são as 317 questões em que Opus plano, Sonnet 2 estágios e o árbitro escolheram o mesmo ramo, o subconjunto com rótulo mais confiável. As cinco variantes rodaram nas 359 questões e mudam um fator por vez em relação à base; como a melhor é escolhida e medida nos mesmos dados, diferenças de um ou dois pontos são indicação, não prova.
+Gerado por `src/analise/50_avaliar_jev.py` a partir de `runs/jev-h*/`. Sem gabarito: "concorda" é concordância de ramo (tema de nível 1) com a maioria das rodadas de Claude/GPT e do árbitro, que não usam o Jev. O "trio unânime" são as 317 questões em que Opus plano, Sonnet 2 estágios e o árbitro escolheram o mesmo ramo, o subconjunto com rótulo mais confiável. As cinco variantes rodaram nas 359 questões e mudam um fator por vez em relação à base; como a melhor é escolhida e medida nos mesmos dados, diferenças de um ou dois pontos são indicação, não prova.
 
 ## Variantes
 
@@ -110,7 +110,7 @@ Questões em que a probabilidade do ramo escolhido pelo Jev passa do limiar e a 
 | 0.9 | 213 | 59.3% | 97.7% | 204 | 98.0% |
 | 0.8 | 257 | 71.6% | 94.6% | 240 | 95.4% |
 
-## Camada final de desempate (src/51_jev_desempate.py)
+## Camada final de desempate (src/analise/51_jev_desempate.py)
 
 Nas 140 questões que a regra mandou para revisão, o Jev escolheu só entre os ramos candidatos (2 a 4 em 119 delas), com descrições inteiras e duas ordens. Regra fixada antes da auditoria: promover quando a escolha é o ramo do árbitro com probabilidade ≥ 0.90. Escolha igual à do árbitro em 80; 39 promovidas; custo US$ 0.016.
 

@@ -2,7 +2,7 @@
 marcadores «CHAVE» com os números das saídas (runs/*.json, data/decisoes.jsonl). Assim os textos nunca ficam com
 números velhos.
 
-Uso: python src/62_preencher_relatorio.py
+Uso: python src/entrega/62_preencher_relatorio.py
 """
 import json
 import math
@@ -11,7 +11,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from comum import Arvore, RAIZ, gemeos_67xx
 
 PIPELINE = ["claude-opus", "claude-sonnet-h", "arbitro-opus"]  # o que gera publicacao.csv
@@ -101,7 +102,7 @@ def main():
     g = diag["grupos"]
     c67 = prev["copias_67xx"]
 
-    # Jev (bloco G): variantes, cascata e desempate auditado (src/50_avaliar_jev.py e src/51_jev_desempate.py)
+    # Jev (bloco G): variantes, cascata e desempate auditado (src/analise/50_avaliar_jev.py e src/analise/51_jev_desempate.py)
     jev = json.loads((RAIZ / "runs" / "jev_avaliacao.json").read_text(encoding="utf-8"))
     jdes = json.loads((RAIZ / "runs" / "jev_desempate.json").read_text(encoding="utf-8"))
     jv = {l["rodada"]: l for l in jev["variantes"]}

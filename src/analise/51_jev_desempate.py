@@ -12,12 +12,12 @@ Regra de promoção, fixada antes de qualquer auditoria: a questão passa de 're
 quando a escolha do Jev é o ramo do árbitro, não é 'fora', e a probabilidade média é >= 0,90.
 
 Validação (--caderno): auditoria cega com controles. As promovidas entram misturadas, em ordem aleatória, com questões
-publicadas que nenhuma auditoria anterior viu, no mesmo formato do caderno cego v2 (src/48_auditoria.py --cego). O
+publicadas que nenhuma auditoria anterior viu, no mesmo formato do caderno cego v2 (src/analise/48_auditoria.py --cego). O
 auditor não sabe quais são quais; a chave fica em runs/jev_desempate.json.
 
-Uso: python src/51_jev_desempate.py                  (chama o Jev; ~US$ 0,03)
-     python src/51_jev_desempate.py --caderno --controles 40
-     python src/51_jev_desempate.py --avaliar        (depois que o auditor preencher o CSV)
+Uso: python src/analise/51_jev_desempate.py                  (chama o Jev; ~US$ 0,03)
+     python src/analise/51_jev_desempate.py --caderno --controles 40
+     python src/analise/51_jev_desempate.py --avaliar        (depois que o auditor preencher o CSV)
 Saída: runs/jev-desempate/Q*.json, runs/jev_desempate.json, docs/auditoria_jev_caderno_{1,2}.md, data/auditoria_ia_v3_{1,2}.csv
 """
 import argparse
@@ -30,7 +30,8 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from config import carregar_chaves
 from comum import Arvore, RAIZ, carregar_rodada, carregar_questoes, usavel
 

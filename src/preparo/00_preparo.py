@@ -7,7 +7,7 @@ tags, entidades e espaços repetidos.
 import html, json, re
 from pathlib import Path
 
-RAIZ = Path(__file__).resolve().parents[1]
+RAIZ = Path(__file__).resolve().parents[2]
 ENTRADA = RAIZ / "anexos" / "questoes.jsonl"
 SAIDA = RAIZ / "data" / "questoes_limpas.jsonl"
 

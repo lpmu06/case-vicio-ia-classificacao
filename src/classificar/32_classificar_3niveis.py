@@ -6,19 +6,20 @@ Estágio B: temas dos dois grupos, com resumo e títulos dos subtemas -> escolhe
 Estágio C: igual ao estágio 2 do classificador de dois níveis (metadados completos do ramo) -> subtema ou null.
 Saída no mesmo esquema das etapas 3 e 3b.
 
-Uso: python src/32_classificar_3niveis.py --provedor claude_cli --modelo sonnet --rotulo claude-sonnet-3n
+Uso: python src/classificar/32_classificar_3niveis.py --provedor claude_cli --modelo sonnet --rotulo claude-sonnet-3n
 """
 import argparse, importlib, json, sys, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from llm import chamar_json
 arv = importlib.import_module("10_arvore")
 c30 = importlib.import_module("30_classificar")
 c31 = importlib.import_module("31_classificar_hierarquico")
 
-RAIZ = Path(__file__).resolve().parents[1]
+RAIZ = Path(__file__).resolve().parents[2]
 
 ESQUEMA_A = {
     "type": "object",

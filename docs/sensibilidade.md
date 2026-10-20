@@ -1,6 +1,6 @@
 # Sensibilidade da regra de decisão
 
-Gerado por `src/49_sensibilidade.py`. E1: precisão estimada supondo erros independentes (limite superior). E2: concordância do GPT-5.5 com o tema publicado nas questões que ele classificou.
+Gerado por `src/analise/49_sensibilidade.py`. E1: precisão estimada supondo erros independentes (limite superior). E2: concordância do GPT-5.5 com o tema publicado nas questões que ele classificou.
 
 | Confiança mínima do árbitro no ramo | Confiança mínima no subtema | Modo | Publicadas | Cobertura | No subtema | E1 | E2 (n) | E3 auditoria (n) | Precisão prevista (intervalo) |
 |---|---|---|---|---|---|---|---|---|---|

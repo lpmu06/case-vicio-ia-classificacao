@@ -1,14 +1,15 @@
 """Valida publicacao.csv (e variantes) contra o formato do LEIA-ME e contra a árvore.
 
-Uso: python src/63_validar_entrega.py [arquivo.csv ...]
+Uso: python src/entrega/63_validar_entrega.py [arquivo.csv ...]
 """
 import csv
 import json
 import sys
 from pathlib import Path
 
-RAIZ = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(RAIZ / "src"))
+RAIZ = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from comum import Arvore, usavel
 
 

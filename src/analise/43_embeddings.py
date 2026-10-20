@@ -9,8 +9,8 @@ Duas versões do texto dos temas: só o caminho na árvore (como no MoVAI) e o c
 Referência: questões em que o Opus plano, o Sonnet 2 estágios e o árbitro concordam no ramo (não é gabarito;
 é o consenso dos LLMs).
 
-Uso: python src/43_embeddings.py calcular [--modelos ...]   # grava data/embeddings/*.npy
-     python src/43_embeddings.py avaliar                    # docs/embeddings.md e runs/embeddings.json
+Uso: python src/analise/43_embeddings.py calcular [--modelos ...]   # grava data/embeddings/*.npy
+     python src/analise/43_embeddings.py avaliar                    # docs/embeddings.md e runs/embeddings.json
 """
 import argparse
 import json
@@ -21,7 +21,8 @@ from pathlib import Path
 
 import numpy as np
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from comum import Arvore, RAIZ, carregar_rodada, carregar_questoes
 
 PASTA = RAIZ / "data" / "embeddings"

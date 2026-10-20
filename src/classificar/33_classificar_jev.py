@@ -16,7 +16,7 @@ Variantes (um fator por vez em relação à base; decisão do Luis em 19/10/2026
   --ordens 5             cada pergunta 5 vezes com as opções embaralhadas; média das probabilidades (mede o viés de ordem)
 
 Requer TYPESAFE_API_KEY (ou a linha `jev = ...` / `typesafe = ...` em keys.txt). API: POST https://api.typesafe.ai/v1/systemone
-Uso: python src/33_classificar_jev.py [--limite 5] [--modelo jev-preview] [--criterios ricos] [--beam 3] [--ordens 5]
+Uso: python src/classificar/33_classificar_jev.py [--limite 5] [--modelo jev-preview] [--criterios ricos] [--beam 3] [--ordens 5]
 Saída: runs/<rótulo>/, rótulo padrão jev-h (base) ou jev-h-<variante>.
 Preço de lista (docs.typesafe.ai/models, 19/10/2026): US$ 0,042 por milhão de tokens de entrada; saída grátis.
 """
@@ -32,7 +32,8 @@ from pathlib import Path
 
 import httpx
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from config import carregar_chaves
 from comum import Arvore, RAIZ, carregar_questoes
 

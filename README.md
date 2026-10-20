@@ -14,6 +14,20 @@ Entrega do processo seletivo da área de IA. Classifica 359 questões de concurs
 | Avaliação simulada (como um avaliador leria a entrega) e plano de melhorias executado na noite de 19/10 | [`docs/90_avaliacao_simulada.md`](docs/90_avaliacao_simulada.md), [`docs/91_plano_melhorias.md`](docs/91_plano_melhorias.md) |
 | Enunciado original | [`case-ia-classificacao-de-topicos.pdf`](case-ia-classificacao-de-topicos.pdf), [`docs/enunciado_README_original.md`](docs/enunciado_README_original.md) |
 
+## Estrutura do código
+
+Pipeline em etapas: cada script faz uma coisa, lê os arquivos da etapa anterior e grava os da seguinte, e o número no nome é a ordem de execução. Os nomes seguem o vocabulário do case (publicar, revisar, fora, tema, ramo) de propósito, para o código e os CSVs falarem a mesma língua.
+
+| Pasta | Etapa | Lê | Grava |
+|---|---|---|---|
+| `src/preparo/` | limpeza das questões, árvore de temas, taxonomia enriquecida, linha de base pela origem | `anexos/` | `data/questoes_limpas.jsonl`, `data/temas.json`, `data/temas_enriquecidos.json`, `data/baseline_origem.jsonl` |
+| `src/classificar/` | os classificadores (plano, 2 estágios, 3 estágios, Jev) e o árbitro; cada chamada a modelo vira um JSON | `data/` | `runs/<rodada>/<id>.json` |
+| `src/analise/` | comparação de métodos, embeddings, diagnóstico, Dawid-Skene, regra de decisão, auditorias, sensibilidade, estudo do Jev | `runs/`, `data/` | `publicacao*.csv`, `data/decisoes*.jsonl`, `runs/*.json`, anexos em `docs/` |
+| `src/entrega/` | previsão, `previsao.txt`, relatório e memo a partir dos modelos, validação dos CSVs, PDF | `runs/*.json`, `data/decisoes.jsonl`, `src/modelos/` | `previsao.txt`, `docs/relatorio.md`, `docs/memo_professor.md`, `docs/relatorio.pdf` |
+| `src/lib/` | código compartilhado: árvore e votos normalizados (`comum.py`), chamadas a modelos (`llm.py`), chaves (`config.py`), caminhos | | |
+| `src/modelos/` | modelos do relatório e do memo, com marcadores «CHAVE» preenchidos pelos números das saídas | | |
+| `prompts/` | prompts de sistema do classificador, do árbitro e da auditoria cega | | |
+
 ## Como rodar
 
 Requisitos: Python 3.10+ e `pip install -r requirements.txt` (anthropic, openai, httpx, numpy, scikit-learn, sentence-transformers, markdown; versões usadas em `requirements.txt`). O PDF exige o Chrome instalado (impressão headless) e o `pdfinfo` do poppler para a conferência de páginas. Os modelos Claude foram chamados pelo Claude Code em modo headless (`claude -p`, provedor `claude_cli`), logado numa assinatura; os mesmos scripts aceitam `--provedor anthropic` (chave em `ANTHROPIC_API_KEY`) ou `--provedor openai` (`OPENAI_API_KEY`). As chaves também podem ficar em `keys.txt`, que não é versionado. O experimento de embeddings usa o Ollama local para `bge-m3` e `mxbai-embed-large`.
@@ -22,44 +36,44 @@ Para reproduzir os entregáveis não é preciso chamar nenhum modelo: as saídas
 
 ```bash
 # 0. Dados e taxonomia
-python src/00_preparo.py                 # limpa o HTML -> data/questoes_limpas.jsonl
-python src/10_arvore.py                  # árvore -> data/temas.json, data/arvore.txt
-python src/11_enriquecer_temas.py --provedor openai --modelo gpt-5.5   # metadados dos 351 temas usáveis (uma vez)
-python src/20_baseline_origem.py         # "copiar a origem" -> data/baseline_origem.jsonl
+python src/preparo/00_preparo.py                 # limpa o HTML -> data/questoes_limpas.jsonl
+python src/preparo/10_arvore.py                  # árvore -> data/temas.json, data/arvore.txt
+python src/preparo/11_enriquecer_temas.py --provedor openai --modelo gpt-5.5   # metadados dos 351 temas usáveis (uma vez)
+python src/preparo/20_baseline_origem.py         # "copiar a origem" -> data/baseline_origem.jsonl
 
 # 1. Classificadores (cada um grava runs/<rótulo>/<id>.json e retoma de onde parou)
-python src/30_classificar.py --provedor claude_cli --modelo opus --rotulo claude-opus                        # plano
-python src/31_classificar_hierarquico.py --provedor claude_cli --modelo sonnet --rotulo claude-sonnet-h       # 2 estágios
-python src/32_classificar_3niveis.py --provedor claude_cli --modelo sonnet --rotulo claude-sonnet-3n          # 3 estágios
-python src/31_classificar_hierarquico.py --provedor claude_cli --modelo haiku --effort low --rotulo claude-haiku-h
-python src/32_classificar_3niveis.py --provedor claude_cli --modelo haiku --effort low --rotulo claude-haiku-3n
+python src/classificar/30_classificar.py --provedor claude_cli --modelo opus --rotulo claude-opus                        # plano
+python src/classificar/31_classificar_hierarquico.py --provedor claude_cli --modelo sonnet --rotulo claude-sonnet-h       # 2 estágios
+python src/classificar/32_classificar_3niveis.py --provedor claude_cli --modelo sonnet --rotulo claude-sonnet-3n          # 3 estágios
+python src/classificar/31_classificar_hierarquico.py --provedor claude_cli --modelo haiku --effort low --rotulo claude-haiku-h
+python src/classificar/32_classificar_3niveis.py --provedor claude_cli --modelo haiku --effort low --rotulo claude-haiku-3n
 # experimento 2x2 em 80 questões sorteadas (data/amostra_2x2.txt)
-python src/30_classificar.py --provedor claude_cli --modelo sonnet --rotulo claude-sonnet-plano --ids $(cat data/amostra_2x2.txt)
-python src/31_classificar_hierarquico.py --provedor claude_cli --modelo opus --rotulo claude-opus-h --ids $(cat data/amostra_2x2.txt)
+python src/classificar/30_classificar.py --provedor claude_cli --modelo sonnet --rotulo claude-sonnet-plano --ids $(cat data/amostra_2x2.txt)
+python src/classificar/31_classificar_hierarquico.py --provedor claude_cli --modelo opus --rotulo claude-opus-h --ids $(cat data/amostra_2x2.txt)
 # Jev (TypeSafe), só como estudo, fora da regra de publicação; exige a chave (jev = ... em keys.txt). US$ 1,82 nas 5 variantes
-python src/33_classificar_jev.py                      # base -> runs/jev-h
-python src/33_classificar_jev.py --criterios ricos    # a melhor; também --modelo jev-preview, --beam 3, --ordens 5
-python src/51_jev_desempate.py                        # desempate nas questões em revisão (+ --caderno, --avaliar)
+python src/classificar/33_classificar_jev.py                      # base -> runs/jev-h
+python src/classificar/33_classificar_jev.py --criterios ricos    # a melhor; também --modelo jev-preview, --beam 3, --ordens 5
+python src/analise/51_jev_desempate.py                        # desempate nas questões em revisão (+ --caderno, --avaliar)
 
 # 2. Árbitro, análises e decisão
-python src/46_arbitragem.py --modelo opus --effort high --rotulo arbitro-opus
-python src/42_comparar_metodos.py        # tokens, custo, concordância -> docs/comparacao_metodos.md
-python src/45_confiabilidade.py          # Dawid-Skene -> data/confiabilidade.jsonl
-python src/47_decisao.py                 # regras -> publicacao.csv e data/decisoes.jsonl
-python src/43_embeddings.py calcular && python src/43_embeddings.py avaliar   # -> docs/embeddings.md
-python src/44_diagnostico.py             # -> docs/diagnostico.md
-python src/50_avaliar_jev.py             # variantes, calibração, cascata e desempate do Jev -> docs/jev.md
-python src/48_auditoria.py --n 50        # caderno da primeira auditoria -> docs/auditoria_caderno.md, data/auditoria_ia.csv
-python src/48_auditoria.py --cego --n 50 --semente 2026 --excluir data/auditoria_ia.csv   # caderno cego -> docs/auditoria_cega_caderno.md
+python src/classificar/46_arbitragem.py --modelo opus --effort high --rotulo arbitro-opus
+python src/analise/42_comparar_metodos.py        # tokens, custo, concordância -> docs/comparacao_metodos.md
+python src/analise/45_confiabilidade.py          # Dawid-Skene -> data/confiabilidade.jsonl
+python src/analise/47_decisao.py                 # regras -> publicacao.csv e data/decisoes.jsonl
+python src/analise/43_embeddings.py calcular && python src/analise/43_embeddings.py avaliar   # -> docs/embeddings.md
+python src/analise/44_diagnostico.py             # -> docs/diagnostico.md
+python src/analise/50_avaliar_jev.py             # variantes, calibração, cascata e desempate do Jev -> docs/jev.md
+python src/analise/48_auditoria.py --n 50        # caderno da primeira auditoria -> docs/auditoria_caderno.md, data/auditoria_ia.csv
+python src/analise/48_auditoria.py --cego --n 50 --semente 2026 --excluir data/auditoria_ia.csv   # caderno cego -> docs/auditoria_cega_caderno.md
 #   (os vereditos em data/auditoria_ia_v2.csv foram dados por um agente Claude Opus com contexto limpo, prompts/auditoria_cega.md)
-python src/60_previsao.py                # estimadores de precisão -> runs/previsao.json
-python src/61_escrever_previsao.py       # -> previsao.txt
-python src/49_sensibilidade.py           # limiares x cobertura x precisão -> docs/sensibilidade.md
-python src/47_decisao.py --modo hibrido --saida publicacao_subtema.csv --saida_jsonl data/decisoes_subtema.jsonl
-python src/47_decisao.py --evitar_duplicados --saida publicacao_sem_duplicados.csv --saida_jsonl data/decisoes_sem_duplicados.jsonl
-python src/62_preencher_relatorio.py     # docs/relatorio.md a partir de src/modelos/relatorio.md e das saídas
-python src/64_gerar_pdf.py               # docs/relatorio.pdf (relatório + memo)
-python src/63_validar_entrega.py         # confere o formato dos CSVs de entrega
+python src/entrega/60_previsao.py                # estimadores de precisão -> runs/previsao.json
+python src/entrega/61_escrever_previsao.py       # -> previsao.txt
+python src/analise/49_sensibilidade.py           # limiares x cobertura x precisão -> docs/sensibilidade.md
+python src/analise/47_decisao.py --modo hibrido --saida publicacao_subtema.csv --saida_jsonl data/decisoes_subtema.jsonl
+python src/analise/47_decisao.py --evitar_duplicados --saida publicacao_sem_duplicados.csv --saida_jsonl data/decisoes_sem_duplicados.jsonl
+python src/entrega/62_preencher_relatorio.py     # docs/relatorio.md a partir de src/modelos/relatorio.md e das saídas
+python src/entrega/64_gerar_pdf.py               # docs/relatorio.pdf (relatório + memo)
+python src/entrega/63_validar_entrega.py         # confere o formato dos CSVs de entrega
 ```
 
 Os passos de análise, sem nenhuma chamada a LLM, estão juntos em `rodar_analises.sh`.

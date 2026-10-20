@@ -15,7 +15,7 @@ Estimadores da precisão do conjunto publicado (todos gravados; a previsão fina
   E2 (com margem) e E3 conservador, menos o risco 67xx; superior = E1.
   Sensibilidade: grade p_copias ∈ {5, 10, 25}% (p_partes = metade) × peso da dúvida ∈ {1/3, 1/2, 1}.
 
-Uso: python src/60_previsao.py [--margem_convencao 0.02 --p_copias 0.10 --p_partes 0.05 --peso_duvida 0.3333]
+Uso: python src/entrega/60_previsao.py [--margem_convencao 0.02 --p_copias 0.10 --p_partes 0.05 --peso_duvida 0.3333]
 """
 import argparse
 import csv
@@ -24,7 +24,8 @@ import math
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from comum import Arvore, RAIZ, carregar_rodada, gemeos_67xx
 
 

@@ -11,9 +11,9 @@ import sys
 import unicodedata
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 arv = importlib.import_module("10_arvore")
-RAIZ = Path(__file__).resolve().parents[1]
+RAIZ = Path(__file__).resolve().parents[2]
 
 # Modelos efetivamente usados por cada rodada (apelido do claude -p resolvido em 19/10/2026) e preço de lista.
 # US$ por milhão de tokens: (entrada, saída, leitura de cache).

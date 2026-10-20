@@ -1,6 +1,6 @@
 """Etapa 7b: gera docs/relatorio.pdf (relatório + memo) a partir do Markdown, via HTML e Chrome headless.
 
-Uso: python src/64_gerar_pdf.py
+Uso: python src/entrega/64_gerar_pdf.py
 """
 import re
 import shutil
@@ -10,7 +10,7 @@ from pathlib import Path
 
 import markdown
 
-RAIZ = Path(__file__).resolve().parents[1]
+RAIZ = Path(__file__).resolve().parents[2]
 CSS = """
 @page { size: A4; margin: 14mm 15mm 14mm 15mm; }
 body { font-family: "Segoe UI", Arial, sans-serif; font-size: 9.6pt; line-height: 1.38; color: #1b1b1b; }

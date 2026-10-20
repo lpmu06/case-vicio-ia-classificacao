@@ -4,7 +4,7 @@ Para cada questão, junta os ramos e subtemas votados pelas rodadas (e o da orig
 completos desses ramos e pede ao árbitro que escolha de forma independente, sem saber qual é a maioria.
 O árbitro pode escolher fora da lista (recebe o resumo da árvore inteira no system prompt).
 
-Uso: python src/46_arbitragem.py --modelo opus --rotulo arbitro-opus [--effort high] [--ids ...]
+Uso: python src/classificar/46_arbitragem.py --modelo opus --rotulo arbitro-opus [--effort high] [--ids ...]
 Saída: runs/<rotulo>/<id>.json no mesmo esquema das classificações (+ campos do árbitro)
 """
 import argparse
@@ -17,7 +17,8 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from llm import chamar_json
 from comum import Arvore, RAIZ, carregar_rodada, carregar_questoes, carregar_origem
 

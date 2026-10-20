@@ -22,7 +22,7 @@ PRECOS = {
     "claude-opus-5": (5.0, 25.0, 0.5), "claude-opus-5-5": (4.0, 20.0, 0.2), "claude-sonnet-5": (2.0, 10.0, 0.2),
     "claude-haiku-4-5": (1.0, 5.0, 0.1),
 }
-_precos_extra = Path(__file__).resolve().parents[1] / "runs" / "precos.json"
+_precos_extra = Path(__file__).resolve().parents[2] / "runs" / "precos.json"
 if _precos_extra.exists():
     PRECOS.update({k: tuple(v) for k, v in json.loads(_precos_extra.read_text(encoding="utf-8")).items()})
 

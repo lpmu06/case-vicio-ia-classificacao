@@ -4,18 +4,19 @@ Para cada tema de nível 1 ativo (com seus subtemas), pede ao modelo: descriçã
 palavras-chave, dispositivos legais cobertos e "não confundir com" (fronteiras com irmãos).
 Temas inativos e buckets de curso não são enriquecidos (nunca recebem publicação).
 
-Uso: python src/11_enriquecer_temas.py --provedor openai --modelo gpt-5.5 [--effort medium]
+Uso: python src/preparo/11_enriquecer_temas.py --provedor openai --modelo gpt-5.5 [--effort medium]
 Saída: data/temas_enriquecidos.json ; uso e custo em runs/11_enriquecer_usage.json
 """
 import argparse, importlib, json, sys, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from llm import chamar_json
 arv = importlib.import_module("10_arvore")
 
-RAIZ = Path(__file__).resolve().parents[1]
+RAIZ = Path(__file__).resolve().parents[2]
 
 SISTEMA = """Você é um professor de Direito Penal, Processo Penal, Legislação Penal Especial e Criminologia, com experiência em concursos públicos e exame da OAB no Brasil, ajudando a organizar a taxonomia de uma plataforma de questões.
 

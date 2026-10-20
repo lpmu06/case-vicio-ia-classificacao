@@ -7,9 +7,10 @@ Saída: data/baseline_origem.jsonl
 import importlib, json, re, sys, unicodedata
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 arv = importlib.import_module("10_arvore")
-RAIZ = Path(__file__).resolve().parents[1]
+RAIZ = Path(__file__).resolve().parents[2]
 
 DISC = {"Direito Penal": "Penal", "Penal": "Penal", "Processo Penal": "Processo Penal",
         "Direito Processual Penal": "Processo Penal", "Criminologia": "Criminologia",

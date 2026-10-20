@@ -213,7 +213,7 @@ O código faz o que o README diz e reproduz tudo. O que precisa mudar é o que v
 
 **Fechamento**
 
-1. Rodar `bash rodar_analises.sh` e `python src/63_validar_entrega.py`.
+1. Rodar `bash rodar_analises.sh` e `python src/entrega/63_validar_entrega.py`.
 2. Conferir o PDF: 5 páginas, memo inteiro na última, tabela do anexo sem células vazias.
 3. Conferir que `anexos/` segue idêntico ao oficial.
 4. Commit, tornar o repositório público, abrir o link numa janela anônima.
@@ -270,7 +270,7 @@ Catorze perguntas que um avaliador exigente faria, com o que preparar para cada 
 
 Tudo foi conferido em 19/10 numa cópia do repositório, sem alterar o original. Ferramentas: Python 3.10, poppler (pdftotext, pdftoppm), git.
 
-**Formato.** `python src/63_validar_entrega.py`: os três CSVs com 359 linhas, colunas, ids, decisões, temas usáveis, extras ativos, confiança em [0, 1] e motivos obrigatórios. Sem erros.
+**Formato.** `python src/entrega/63_validar_entrega.py`: os três CSVs com 359 linhas, colunas, ids, decisões, temas usáveis, extras ativos, confiança em [0, 1] e motivos obrigatórios. Sem erros.
 
 **Reconstrução.** `bash rodar_analises.sh` na cópia, 30 segundos, sem LLM. Vinte e um arquivos byte a byte iguais aos do repositório: os três CSVs, previsao.txt, relatorio.md, comparacao_metodos.md, sensibilidade.md, diagnostico.md, embeddings.md, os três previsao*.json, comparacao_metodos.json, confiabilidade.json, diagnostico.json, pares_confundiveis.json, embeddings.json, os três decisoes*.jsonl e confiabilidade.jsonl. Texto do PDF idêntico, 5 páginas.
 
