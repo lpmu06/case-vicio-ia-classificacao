@@ -189,7 +189,7 @@ O código faz o que o README diz e reproduz tudo. O que precisa mudar é o que v
 
 **Tirar antes de tornar público**
 
-- Um arquivo de anotações pessoais: caminhos locais e resultados de outro contexto. Opções: `git rm --cached` mais `.gitignore`, mantendo no relatório a frase sobre "estudo anterior com andamentos processuais, 38%"; ou reescrever como `docs/licoes_estudo_anterior.md` com as três lições e nenhum caminho ou nome.
+- Um arquivo de anotações pessoais: caminhos locais e resultados de outro contexto. Opções: `git rm --cached` mais `.gitignore`, ou reescrever o histórico. Recomendação: reescrever, porque o repositório vai ficar público.
 - `runs/gpt-5.5/_usage.json`: 11 mensagens de erro com o id da organização OpenAI. Apagar a lista `erros` ou trocar o id por `org-...`.
 - `runs/faltam.py`: script de bancada dentro de `runs/`. Apagar ou mover para `src/legado`.
 - Conferido e limpo: `keys.txt` nunca entrou no histórico; `.mypy_cache` e `__pycache__` ignorados; nenhum `sk-` nos arquivos rastreados.
