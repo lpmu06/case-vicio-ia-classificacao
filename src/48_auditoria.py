@@ -8,7 +8,7 @@ de precisão (E3 em src/60_previsao.py), declarado como tal no relatório. Dois 
 - --cego (v2, noite de 19/10): amostra nova (--excluir tira as questões da v1), caderno sem votos, sem confiança e
   sem justificativa do pipeline; para cada questão, só o texto, o tema publicado com descrição e "não confundir",
   os subtemas (ou irmãos) e os três temas de nível 1 de título mais parecido, sem dizer de onde vêm. O auditor é um
-  subagente com contexto limpo (prompts/auditoria_cega.md). Saída: docs/auditoria_cega_caderno.md e
+  agente Claude Opus separado, com contexto limpo (prompts/auditoria_cega.md). Saída: docs/auditoria_cega_caderno.md e
   data/auditoria_ia_v2.csv.
 
 Uso: python src/48_auditoria.py --n 50 --semente 7

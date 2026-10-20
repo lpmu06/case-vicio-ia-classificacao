@@ -3,7 +3,7 @@
 Provedores:
 - "anthropic": API da Anthropic (SDK oficial), com cache do system prompt.
 - "openai":    API Responses da OpenAI, com saída estruturada estrita.
-- "claude_cli": Claude Code em modo headless (`claude -p`), usando a assinatura Max do Luis.
+- "claude_cli": Claude Code em modo headless (`claude -p`), usando uma assinatura Max.
                Cada chamada carrega o contexto do próprio Claude Code; o custo informado vem
                do campo total_cost_usd (preço de lista), mas não é cobrado na assinatura.
 

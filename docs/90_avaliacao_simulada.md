@@ -153,7 +153,7 @@ O relatório cumpre as quatro seções do enunciado em 5 páginas. A maior lacun
 
 **a) Como pensamos.** Forte. Quatro acréscimos:
 
-- Uma frase sobre o que foi julgamento humano e o que foi do assistente. O enunciado diz que avalia o julgamento. Cite as decisões tomadas contra a sugestão inicial: descartar a busca em sites concorrentes, usar modelos menores, publicar no nível 1, não rotular sem conhecimento jurídico.
+- Uma frase sobre o que foi julgamento humano e o que foi da IA. O enunciado diz que avalia o julgamento. Cite as decisões tomadas contra a sugestão inicial: descartar a busca em sites concorrentes, usar modelos menores, publicar no nível 1, não rotular sem conhecimento jurídico.
 - Glossário de meia frase na primeira ocorrência: Dawid-Skene é "um modelo que estima a taxa de acerto de cada anotador só pelas concordâncias"; Wilson é "intervalo de confiança para proporções com amostra pequena"; leave-one-out é "cada rodada comparada com a maioria das outras"; cache é "a parte fixa do prompt cobrada a um décimo".
 - Completar a linha do Haiku 3 estágios na tabela do experimento.
 - Se a auditoria cega for feita, registrar a ancoragem da primeira como beco sem saída.
@@ -254,7 +254,7 @@ Catorze perguntas que um avaliador exigente faria, com o que preparar para cada 
 | 3 | Por que a entrega principal é o híbrido se o nível 1 tem a mesma cobertura e a mesma previsão? | Se mudou para nível 1: explicar a régua. Se manteve: dizer o que o aluno ganha e quanto de precisão esperada custa. |
 | 4 | Pela sua tabela, nível 1 com 0,85 publica 249 com previsão 96,2%. Por que deixou 32 na fila? | E3 cai de 97,8% para 96,3% e a estimativa já é otimista. A régua é eliminatória. Dizer com que evidência subiria para 0,85. |
 | 5 | O árbitro vê os candidatos e concorda em 99,7%. O que ele acrescenta? | Confiança calibrada (0,89 contra 0,65 na divergência), justificativa para o professor, uma escolha fora dos candidatos. Admitir a ancoragem e propor o experimento sem candidatos. |
-| 6 | O que foi julgamento seu e o que foi do assistente? Um exemplo em que contrariou a IA. | Lista de decisões do diário: busca em concorrentes, modelos menores, nível 1, não rotular sem conhecimento jurídico, limiares. |
+| 6 | O que foi julgamento seu e o que foi da IA? Um exemplo em que contrariou a IA. | Lista de decisões do diário: busca em concorrentes, modelos menores, nível 1, não rotular sem conhecimento jurídico, limiares. |
 | 7 | Em 98 das 140 revisões os três modelos concordam no ramo. Que regra barata libera parte delas? | As 56 "fronteira": uma regra escrita pelo professor por par confundível. Estimar quantas publicaria e a que precisão. |
 | 8 | Como o pipeline trata um tema novo sem histórico, e os 22 temas de nível 1 que não receberam questão? | Enriquecimento cobre temas vazios; embeddings do tema entram no pré-filtro; monitorar temas que nunca recebem questão. |
 | 9 | Quanto custou de verdade, e precisa de Opus com 211 mil tokens de prompt? | Mais de US$ 200 em tokens a preço de lista pela assinatura. Não precisa: Sonnet 2 estágios empata no experimento; a cascata de produção não usa o plano. |

@@ -222,7 +222,7 @@ def main():
                f"quando a escolha é o ramo do árbitro com probabilidade ≥ {d['limiar']:.2f}. Escolha igual à do árbitro em "
                f"{d['escolha_igual_arbitro']}; {len(d['promovidas'])} promovidas; custo US$ {d['custo_usd']:.3f}.\n",
                "Validação por auditoria cega com controles: as promovidas misturadas com publicadas que nenhuma auditoria viu, em dois "
-               "cadernos embaralhados, dois auditores (subagentes Opus com contexto limpo) que não sabiam quais eram quais.\n",
+               "cadernos embaralhados, dois auditores (agentes Claude Opus com contexto limpo) que não sabiam quais eram quais.\n",
                "| Grupo | n | ok | duvidoso | erro | ok (IC 95%) |", "|---|---|---|---|---|---|",
                f"| Promovidas pelo Jev | {p['n']} | {p['ok']} | {p['duvidoso']} | {p['erro']} | {p['taxa_ok']:.1%} "
                f"({p['ic95_ok'][0]:.0%}–{p['ic95_ok'][1]:.0%}) |",

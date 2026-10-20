@@ -51,7 +51,7 @@ python src/44_diagnostico.py             # -> docs/diagnostico.md
 python src/50_avaliar_jev.py             # variantes, calibração, cascata e desempate do Jev -> docs/jev.md
 python src/48_auditoria.py --n 50        # caderno da primeira auditoria -> docs/auditoria_caderno.md, data/auditoria_ia.csv
 python src/48_auditoria.py --cego --n 50 --semente 2026 --excluir data/auditoria_ia.csv   # caderno cego -> docs/auditoria_cega_caderno.md
-#   (os vereditos em data/auditoria_ia_v2.csv foram dados por um agente com contexto limpo, prompts/auditoria_cega.md)
+#   (os vereditos em data/auditoria_ia_v2.csv foram dados por um agente Claude Opus com contexto limpo, prompts/auditoria_cega.md)
 python src/60_previsao.py                # estimadores de precisão -> runs/previsao.json
 python src/61_escrever_previsao.py       # -> previsao.txt
 python src/49_sensibilidade.py           # limiares x cobertura x precisão -> docs/sensibilidade.md

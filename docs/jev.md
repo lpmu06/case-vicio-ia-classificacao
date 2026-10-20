@@ -114,7 +114,7 @@ Questões em que a probabilidade do ramo escolhido pelo Jev passa do limiar e a 
 
 Nas 140 questões que a regra mandou para revisão, o Jev escolheu só entre os ramos candidatos (2 a 4 em 119 delas), com descrições inteiras e duas ordens. Regra fixada antes da auditoria: promover quando a escolha é o ramo do árbitro com probabilidade ≥ 0.90. Escolha igual à do árbitro em 80; 39 promovidas; custo US$ 0.016.
 
-Validação por auditoria cega com controles: as promovidas misturadas com publicadas que nenhuma auditoria viu, em dois cadernos embaralhados, dois auditores (subagentes Opus com contexto limpo) que não sabiam quais eram quais.
+Validação por auditoria cega com controles: as promovidas misturadas com publicadas que nenhuma auditoria viu, em dois cadernos embaralhados, dois auditores (agentes Claude Opus com contexto limpo) que não sabiam quais eram quais.
 
 | Grupo | n | ok | duvidoso | erro | ok (IC 95%) |
 |---|---|---|---|---|---|

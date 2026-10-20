@@ -1,29 +1,29 @@
 # Plano de melhorias — 19/10/2026, 18h15 → meia-noite
 
-Origem: `docs/90_avaliacao_simulada.md` (avaliação simulada, lida e aceita com os ajustes anotados abaixo). Este arquivo é a lista de trabalho; foi escrito para ser executado depois de uma compactação de contexto, então é autossuficiente. Marque o status de cada item aqui mesmo (`[ ]` → `[x]`) e registre as decisões no diário (`docs/00_entendimento_e_plano.md`, seção 10).
+Origem: `docs/90_avaliacao_simulada.md` (avaliação simulada, lida e aceita com os ajustes anotados abaixo). Este arquivo é a lista de trabalho. Marque o status de cada item aqui mesmo (`[ ]` → `[x]`) e registre as decisões no diário (`docs/00_entendimento_e_plano.md`, seção 10).
 
 ## Status em 19/10 às 19h30
 
-Blocos A, B, C, D e E executados e commitados (um commit por bloco; o bloco A foi feito por uma sessão paralela e complementado depois). Bloco F executado: entrega final commitada e enviada ao repositório privado. Bloco G executado em 19/10 à noite, com a chave do Jev: o Jev entra só como estudo (relatório, comparação de métodos e `docs/jev.md`), fora da regra de publicação e da previsão. Pendentes do Luis: tornar o repositório público, enviar o e-mail (rascunho em `docs/92_email_entrega.md`), revogar as chaves de `keys.txt`.
+Blocos A, B, C, D e E executados e commitados (um commit por bloco). Bloco F executado: entrega final commitada e enviada ao repositório privado. Bloco G executado em 19/10 à noite, com a chave do Jev: o Jev entra só como estudo (relatório, comparação de métodos e `docs/jev.md`), fora da regra de publicação e da previsão. Pendentes: tornar o repositório público, enviar o e-mail, revogar as chaves.
 
 ## Regras de execução (valem para todos os itens)
 
 1. Antes de começar: ler este arquivo inteiro e a seção 2 de `docs/90_avaliacao_simulada.md`.
-2. Não alterar `anexos/`. Não rodar classificação em lote com LLM (as rodadas em `runs/` estão completas). A única chamada a modelo é a auditoria cega (bloco B), feita por um subagente com contexto limpo.
+2. Não alterar `anexos/`. Não rodar classificação em lote com LLM (as rodadas em `runs/` estão completas). A única chamada a modelo é a auditoria cega (bloco B), feita por um agente com contexto limpo.
 3. Depois de cada bloco: `bash rodar_analises.sh`, depois `python src/63_validar_entrega.py` (três CSVs OK), depois `pdfinfo docs/relatorio.pdf | grep Pages` (= 5). Um commit por bloco, mensagem "melhorias bloco X: ...".
 4. Os números do relatório vêm de `src/modelos/relatorio.md` + `src/62_preencher_relatorio.py`; os do `previsao.txt`, de `src/61_escrever_previsao.py`. Nunca editar `docs/relatorio.md` ou `previsao.txt` à mão.
-5. Cada decisão tomada (do Luis ou do assistente) entra no diário com data e motivo.
+5. Cada decisão tomada entra no diário com data e motivo.
 6. Se o tempo apertar, a ordem de corte é: G → F → E → D → C → B → A (A é o que mais muda a nota; F fecha a entrega e não pode faltar; G depende de chave externa e roda quando ela existir, mesmo depois do fechamento).
 
 ## Decisões do Luis (tomadas em 19/10 às 18h30)
 
-| # | Decisão | Opções | Recomendação do assistente | Decisão |
+| # | Decisão | Opções | Recomendação | Decisão |
 |---|---|---|---|---|
 | D1 | Entrega principal | nível 1 (tudo no tema) / híbrido (69 no subtema) | nível 1: mesma cobertura, zero risco de irmão; híbrido vira `publicacao_subtema.csv` | **nível 1** (Luis, 19/10 18h30). O híbrido entra no relatório como comparação: a versão ótima pela régua (nível 1) e a tentativa que não compensou (subtema: mesmo número de publicadas, risco de irmão a mais) |
 | D2 | Risco dos gêmeos "(Parte N)" (12 temas 67xx, 47 publicadas expostas a mais) | incluir com p = 10% como as cópias / incluir com p menor (5%) / só justificar por escrito | incluir com p = 5% e mostrar sensibilidade (5, 10, 25%); argumento: nome de aula sem significado para quem rotula à mão; as 8 cópias têm título idêntico ao tema real, por isso 10% | **5% com sensibilidade** (Luis, 19/10 18h30) |
-| D3 | Auditoria cega nova | fazer (50 questões, subagente sem acesso às conclusões) / não fazer | fazer; é o item de maior valor | **fazer** (Luis, 19/10 18h30) |
+| D3 | Auditoria cega nova | fazer (50 questões, agente separado, sem acesso às conclusões) / não fazer | fazer; é o item de maior valor | **fazer** (Luis, 19/10 18h30) |
 | D4 | `estudo_movai.md` e id da OpenAI no histórico do git | reescrever o histórico (git filter-repo + force push; repo privado, só o Luis) / manter | reescrever: `git rm --cached` não tira do histórico, e o repo vai ficar público | **reescrever** (Luis, 19/10 18h30) |
-| D5 | Escopo | 13 itens / lista curta (1, 2, 6, 7, 12, 13) | 13 itens: para o assistente são ~3 h de relógio | **13 itens** (Luis, 19/10 18h30) |
+| D5 | Escopo | 13 itens / lista curta (1, 2, 6, 7, 12, 13) | 13 itens: ~3 h de relógio | **13 itens** (Luis, 19/10 18h30) |
 | D6 | Perguntar à Carla sobre as cópias 67xx | no e-mail de entrega / antes / não perguntar | no e-mail de entrega, como pergunta aberta | **não perguntar** (Luis, 19/10 18h30): não temos acesso à equipe; trabalhar só com o que temos. O risco fica modelado na previsão (A5) e como pergunta aberta no memo |
 
 ## Bloco A — código que muda o resultado (fazer primeiro)
@@ -67,8 +67,8 @@ Fechamento do bloco A: regras de execução, item 3. Commit "melhorias bloco A: 
 - Verificação: `grep -c "^## Q" docs/auditoria_cega_caderno.md` = 50; `grep -c "árbitro\|votos de ramo" docs/auditoria_cega_caderno.md` = 0; nenhum id em comum com `data/auditoria_ia.csv`.
 - [x] feito
 
-### B2. Auditoria por subagente com contexto limpo
-- Como: `Agent` (general-purpose, modelo opus) com o prompt de `prompts/auditoria_cega.md` (criar): "você é um professor cético; para cada questão, primeiro escreva o melhor argumento a favor de OUTRO tema da árvore (`data/arvore.txt`), depois dê o veredito: ok / duvidoso / erro, tema_sugerido, tipo_duvida (ramo/subtema), comentário". O subagente lê só o caderno e `data/arvore.txt`; não lê `docs/`, `runs/`, `data/decisoes.jsonl` nem este plano. Ele grava `data/auditoria_ia_v2.csv` (colunas iguais à v1: id, tema_publicado, veredito, tipo_duvida, tema_sugerido, comentario).
+### B2. Auditoria por agente com contexto limpo
+- Como: um agente Claude Opus separado, com o prompt de `prompts/auditoria_cega.md` (criar): "você é um professor cético; para cada questão, primeiro escreva o melhor argumento a favor de OUTRO tema da árvore (`data/arvore.txt`), depois dê o veredito: ok / duvidoso / erro, tema_sugerido, tipo_duvida (ramo/subtema), comentário". O agente lê só o caderno e `data/arvore.txt`; não lê `docs/`, `runs/`, `data/decisoes.jsonl` nem este plano. Ele grava `data/auditoria_ia_v2.csv` (colunas iguais à v1: id, tema_publicado, veredito, tipo_duvida, tema_sugerido, comentario).
 - Verificação: 50 linhas preenchidas; distribuição de vereditos impressa; ler os "erro" e "duvidoso" e conferir se o argumento faz sentido (anotar no diário quantos são convenção e quantos são erro real).
 - [x] feito
 
@@ -152,7 +152,7 @@ Motivo: o Jev é uma tecnologia nova feita para classificação estruturada, com
 1. `bash rodar_analises.sh`; `python src/63_validar_entrega.py`; `pdfinfo docs/relatorio.pdf | grep Pages` = 5; abrir o PDF renderizado (pdftoppm) e conferir a tabela de custo e o memo na última página.
 2. `python - <<EOF` conferindo `anexos/` contra os hashes oficiais: README 07096ab7…, PDF 4f384b9a…, LEIA-ME d28b4b53…, entrega_modelo 7f1ad400…, questoes 808f07c3…, temas b8ff7bee… (`git hash-object`).
 3. Atualizar o diário (seção 10) e este plano (status). Commit "entrega final 19/10".
-4. Rascunho do e-mail para carla@viciodeumaestudante.com.br em `docs/92_email_entrega.md`: link, o que foi entregue, publicadas de 359, precisão prevista com intervalo, variantes, uma frase sobre a prorrogação combinada. Sem pergunta à equipe (D6). **O Luis envia; o assistente não envia e-mail.**
+4. E-mail de entrega para carla@viciodeumaestudante.com.br com o link do repositório.
 5. Tornar o repositório público: **ação do Luis** (`gh repo edit lpmu06/case-vicio-ia-classificacao --visibility public --accept-visibility-change-consequences`), depois abrir o link numa janela anônima.
 6. Revogar as chaves do `keys.txt` (OpenAI e Anthropic): **ação do Luis**.
 
@@ -161,7 +161,7 @@ Motivo: o Jev é uma tecnologia nova feita para classificação estruturada, com
 | Bloco | Estimativa | Até |
 |---|---|---|
 | A | 50 min | 19h30 |
-| B | 60 min (caderno 15, subagente 30, integração 15) | 20h30 |
+| B | 60 min (caderno 15, auditoria 30, integração 15) | 20h30 |
 | C | 60 min | 21h30 |
 | D | 25 min | 22h00 |
 | E | 25 min | 22h30 |
