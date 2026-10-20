@@ -3,7 +3,7 @@
   "modelo": "legal-bertimbau-base",
   "hf_id": "rufimelo/Legal-BERTimbau-base",
   "grupo": "jurídico PT",
-  "obs": "BERT cru (MLM), sem treino de similaridade; o elo fraco do MoVAI",
+  "obs": "BERT cru (MLM), sem treino de similaridade; a hipótese mais fraca",
   "segundos": 245.0,
   "n_ref": 315,
   "titulo": {

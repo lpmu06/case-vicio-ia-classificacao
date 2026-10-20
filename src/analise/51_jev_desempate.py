@@ -1,6 +1,6 @@
 """Etapa 5c: o Jev como camada final de desempate nas questões que a regra mandou para revisão.
 
-Ideia do Luis (19/10/2026, noite): no fim do pipeline sobram poucos temas candidatos por questão, então o Jev escolhe
+Ideia (19/10/2026, noite): no fim do pipeline sobram poucos temas candidatos por questão, então o Jev escolhe
 entre 2 a 4 opções em vez de 89. Com poucas opções cabem as descrições inteiras (sem o corte do "não confundir")
 e o viés de ordem é neutralizado perguntando em duas ordens (original e invertida) e tirando a média.
 

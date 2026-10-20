@@ -23,7 +23,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
 import caminhos  # noqa: F401,E402  (pastas de etapas no sys.path)
 from comum import Arvore, RAIZ, carregar_rodada, carregar_questoes, carregar_origem
 
-# o Jev fica fora: entra só como estudo (decisão do Luis, 19/10/2026; docs/jev.md)
+# o Jev fica fora: entra só como estudo (decisão de 19/10/2026; docs/jev.md)
 PADRAO = "claude-opus,claude-sonnet-h,claude-sonnet-3n,claude-haiku-h,claude-haiku-3n,claude-sonnet-plano,claude-opus-h,gpt-5.5"
 
 

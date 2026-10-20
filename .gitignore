@@ -10,5 +10,5 @@ data/embeddings/*.npy
 runs/log_*.txt
 runs/decisoes_antes_*
 runs/publicacao_antes_*
-estudo_movai.md
+estudo_*.md
 docs/92_email_entrega.md

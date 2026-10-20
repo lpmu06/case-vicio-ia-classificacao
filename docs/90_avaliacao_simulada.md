@@ -19,7 +19,7 @@ A entrega está completa, reproduzível e bem argumentada. O que mais pode derru
 1. Estimativa de precisão otimista em 1 a 2 pontos, por sete causas (seção 3).
 2. Variante principal escolhida contra a régua do case (seção 4).
 3. Afirmações incorretas em previsao.txt, README, relatório, memo e diário (seção 5).
-4. Repositório com arquivo do empregador e dados de bancada (seção 7).
+4. Repositório com um arquivo de anotações pessoais e dados de bancada (seção 7).
 
 **Notas provisórias por critério do PDF**
 
@@ -49,7 +49,7 @@ Treze itens, cerca de 7 horas de trabalho, na ordem em que mais mudam a nota. Os
 | 9 | Dimensionar a fila do professor na seção c): 39% de revisão em 50 mil por semana são 19,5 mil questões, cerca de 325 h a 1 min cada; dizer como baixar a taxa | 30 min | modelo do relatório, seção c) | fecha a maior lacuna do desenho de produção |
 | 10 | Glossário de meia frase para Dawid-Skene, Wilson, leave-one-out, cache; tirar números de prosa onde há tabela | 30 min | modelo do relatório | clareza |
 | 11 | Motivos: cortar em fim de frase em vez de 240 caracteres; `fora` sem corte no meio da palavra | 10 min | `47_decisao.py` | 3 motivos truncados hoje |
-| 12 | Repositório: tirar `estudo_movai.md` do git ou reescrever sem caminhos; apagar `erros` com o id da organização OpenAI em `runs/gpt-5.5/_usage.json`; apagar `runs/faltam.py`; título do PDF; registrar a prorrogação no diário | 25 min | `.gitignore`, `git rm --cached`, `64_gerar_pdf.py`, diário | nada do empregador nem de bancada no repositório público |
+| 12 | Repositório: tirar o arquivo de anotações pessoais do git; apagar `erros` com o id da organização OpenAI em `runs/gpt-5.5/_usage.json`; apagar `runs/faltam.py`; título do PDF; registrar a prorrogação no diário | 25 min | `.gitignore`, `git rm --cached`, `64_gerar_pdf.py`, diário | nada pessoal nem de bancada no repositório público |
 | 13 | Regenerar tudo com `rodar_analises.sh`, validar, conferir 5 páginas, commit, tornar público, e-mail | 30 min | raiz | entrega |
 
 **Se o tempo apertar.** Faça 1, 2, 6, 7, 12 e 13. São 3 horas e removem as afirmações falsas e o risco de irmão. O item 3 é o de maior valor, mas só vale se terminar antes do commit final.
@@ -142,7 +142,7 @@ Dezesseis pontos, conferidos contra `runs/`, `data/` e o código. Os seis primei
 | 12 | relatório c) | "US$ 0,03 por questão" | as parcelas 0,016 + 0,005 + 0,008 somam 0,029; ok, mas a latência e o volume da fila não aparecem | acrescentar a fila do professor (seção 6) |
 | 13 | memo, "Estimamos que cerca de 96%" | só o ponto | o intervalo é 0,85 a 0,99 e o professor é quem vai sentir a diferença | "entre 85% e 99%, mais provavelmente perto de 96%" |
 | 14 | memo, tabela de pedidos | "cerca de 1 minuto por questão" | 140 questões são 2,5 h; em produção a fila seria de milhares por semana | dar o total e dizer que a ordem da fila importa |
-| 15 | diário, seção 10 | "Rodadas votantes … critério igual para todas as questões" | a unanimidade nos ramos confundíveis usa as rodadas parciais, então 80 questões têm teste mais duro | corrigir o código (plano, item 5) ou a frase |
+| 15 | diário, seção 9 | "Rodadas votantes … critério igual para todas as questões" | a unanimidade nos ramos confundíveis usa as rodadas parciais, então 80 questões têm teste mais duro | corrigir o código (plano, item 5) ou a frase |
 | 16 | PDF | título do documento é "relatorio_tmp.html" | metadado do Chrome | `<title>` no HTML em `64_gerar_pdf.py` |
 
 **Conferido e correto.** 217/140/2; 69 no subtema e 148 no nível 1; 99,7% de concordância do árbitro (315 de 316); confiança 0,89 contra 0,65; uma escolha fora dos candidatos; 38 publicadas em temas com cópia; 44 multi-tema, todas em revisar; 8 questões em temas genéricos; 48 divergências de disciplina; 225 títulos iguais com 30% no mesmo ramo; 337 descrições geradas; 11 enunciados vazios; bge-m3 com 64% e 93%; destilação 60% em 227; sensibilidade 71,6% para 60,4%; 5 das 9 dúvidas na faixa 0,80 a 0,90; variante sem duplicados com 179 e 0,98; 5 páginas no PDF com o memo em uma.
@@ -185,11 +185,11 @@ O relatório cumpre as quatro seções do enunciado em 5 páginas. A maior lacun
 
 ## 7. Código, repositório e publicação
 
-O código faz o que o README diz e reproduz tudo. O que precisa mudar é o que vai para o público: um arquivo do empregador, um id da OpenAI e um script de bancada.
+O código faz o que o README diz e reproduz tudo. O que precisa mudar é o que vai para o público: um arquivo de anotações pessoais, um id da OpenAI e um script de bancada.
 
 **Tirar antes de tornar público**
 
-- `estudo_movai.md`: caminhos locais e nomes de projeto do empregador, além de resultados internos. Opções: `git rm --cached` mais `.gitignore`, mantendo no relatório a frase sobre "estudo anterior com andamentos processuais, 38%"; ou reescrever como `docs/licoes_estudo_anterior.md` com as três lições e nenhum caminho ou nome.
+- Um arquivo de anotações pessoais: caminhos locais e resultados de outro contexto. Opções: `git rm --cached` mais `.gitignore`, mantendo no relatório a frase sobre "estudo anterior com andamentos processuais, 38%"; ou reescrever como `docs/licoes_estudo_anterior.md` com as três lições e nenhum caminho ou nome.
 - `runs/gpt-5.5/_usage.json`: 11 mensagens de erro com o id da organização OpenAI. Apagar a lista `erros` ou trocar o id por `org-...`.
 - `runs/faltam.py`: script de bancada dentro de `runs/`. Apagar ou mover para `src/legado`.
 - Conferido e limpo: `keys.txt` nunca entrou no histórico; `.mypy_cache` e `__pycache__` ignorados; nenhum `sk-` nos arquivos rastreados.
@@ -301,6 +301,6 @@ Tudo foi conferido em 19/10 numa cópia do repositório, sem alterar o original.
 - Auditoria: 60 questões, 9 duvidosas; 46 seguem publicadas com 3 duvidosas; o caderno mostra votos e justificativa do árbitro em todas as 60.
 - Custo registrado pelo `claude -p` a preço de lista: Opus plano 63,8; Sonnet 2 estágios 53,0; Sonnet 3 estágios 53,5; árbitro 32,2; total acima de US$ 200 nas quatro rodadas principais.
 - Commits: de 18/10 23h34 a 19/10 15h36, 19 commits, autor lpmu06.
-- Vazamentos em arquivos rastreados: `estudo_movai.md` com caminhos e nomes do empregador; `runs/gpt-5.5/_usage.json` com id de organização OpenAI; nenhuma chave.
+- Vazamentos em arquivos rastreados: um arquivo de anotações pessoais com caminhos locais; `runs/gpt-5.5/_usage.json` com id de organização OpenAI; nenhuma chave.
 
 **O que não foi possível verificar.** A precisão real contra o gabarito da equipe; a cobertura que a equipe vai contar; se o repositório público e o e-mail foram enviados.

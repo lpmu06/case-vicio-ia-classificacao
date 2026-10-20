@@ -6,7 +6,7 @@ Sem gabarito, a régua é a concordância de ramo (tema de nível 1) com duas re
 Mede também a calibração (concordância por faixa de probabilidade), o ruído entre requisições idênticas,
 o viés de ordem das opções, o efeito do beam search e o custo real (tokens devolvidos pela API).
 
-As cinco variantes rodaram nas 359 questões (decisão do Luis, 19/10/2026); como a melhor é escolhida e medida nos
+As cinco variantes rodaram nas 359 questões (decisão de 19/10/2026); como a melhor é escolhida e medida nos
 mesmos dados, a diferença entre variantes vale como indicação, não como estimativa sem viés.
 
 Uso: python src/analise/50_avaliar_jev.py

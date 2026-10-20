@@ -5,7 +5,7 @@ Estágio 1: escolhe o tema de nível 1 entre os temas ativos de nível 1 (+ opç
 Estágio 2: escolhe entre "o próprio tema (genérico)" e os subtemas do tema escolhido.
 A saída segue o esquema das outras rodadas; as confianças são as probabilidades do Jev.
 
-Variantes (um fator por vez em relação à base; decisão do Luis em 19/10/2026, 22h):
+Variantes (um fator por vez em relação à base; decisão de 19/10/2026, 22h):
   base               jev-latest; critérios curtos (caminho + descrição cortada em 300 caracteres, chaves t<id>);
                      guloso (só o tema mais provável vai ao estágio 2); opções na ordem da árvore
   --modelo jev-preview   versão seguinte do modelo (1.14)

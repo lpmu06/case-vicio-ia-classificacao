@@ -91,7 +91,7 @@ Os passos de análise, sem nenhuma chamada a LLM, estão juntos em `rodar_analis
 
 ## Decisões tomadas à mão
 
-Todas registradas com data e motivo na seção 10 do [diário de bordo](docs/00_entendimento_e_plano.md). As principais: os temas 67xx e os inativos nunca são usados; nos títulos duplicados, o nó da Legislação Especial é o alvo; os 23 grupos do classificador de 3 estágios foram definidos à mão (`data/grupos_n1.json`); a busca da questão em bancos de outros sites foi descartada por ser conteúdo de concorrente; a estimativa de precisão é cega, porque não houve rotulagem humana.
+Todas registradas com data e motivo na seção 9 do [diário de bordo](docs/00_entendimento_e_plano.md). As principais: os temas 67xx e os inativos nunca são usados; nos títulos duplicados, o nó da Legislação Especial é o alvo; os 23 grupos do classificador de 3 estágios foram definidos à mão (`data/grupos_n1.json`); a busca da questão em bancos de outros sites foi descartada por ser conteúdo de concorrente; a estimativa de precisão é cega, porque não houve rotulagem humana.
 
 ## Modelos, custo e tempo
 

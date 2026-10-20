@@ -1,11 +1,11 @@
 """Etapa 4f: experimento com embeddings (modelos jurídicos brasileiros/portugueses e multilíngues), sem LLM.
 
-Pergunta 1 (lição do MoVAI): similaridade entre questão e tema decide bem o tema? Ou cria "lixeiras"?
+Pergunta 1: similaridade entre questão e tema decide bem o tema? Ou cria "lixeiras"?
 Pergunta 2 (produção): os embeddings servem como pré-filtro (o ramo certo está entre os k mais parecidos)?
 Pergunta 3 (produção): um classificador leve treinado sobre embeddings, com rótulos do consenso dos LLMs
             ("destilação"), reproduz o consenso?
 
-Duas versões do texto dos temas: só o caminho na árvore (como no MoVAI) e o caminho + metadados enriquecidos.
+Duas versões do texto dos temas: só o caminho na árvore e o caminho + metadados enriquecidos.
 Referência: questões em que o Opus plano, o Sonnet 2 estágios e o árbitro concordam no ramo (não é gabarito;
 é o consenso dos LLMs).
 
@@ -28,7 +28,7 @@ from comum import Arvore, RAIZ, carregar_rodada, carregar_questoes
 PASTA = RAIZ / "data" / "embeddings"
 # (apelido, origem, id, grupo, observação)
 MODELOS = [
-    ("legal-bertimbau-base", "st", "rufimelo/Legal-BERTimbau-base", "jurídico PT", "BERT cru (MLM), sem treino de similaridade; o elo fraco do MoVAI"),
+    ("legal-bertimbau-base", "st", "rufimelo/Legal-BERTimbau-base", "jurídico PT", "BERT cru (MLM), sem treino de similaridade; a hipótese mais fraca"),
     ("legal-bertimbau-sts-large", "st", "rufimelo/Legal-BERTimbau-sts-large-ma-v3", "jurídico PT", "Legal-BERTimbau ajustado para similaridade (STS)"),
     ("jurisbert-sts", "st", "alfaneo/jurisbert-base-portuguese-sts", "jurídico BR", "JurisBERT: pré-treino em decisões do STJ, ajustado para STS"),
     ("stjiris-legal-sts-large", "st", "stjiris/bert-large-portuguese-cased-legal-mlm-sts-v1.0", "jurídico PT", "BERTimbau large com MLM em acórdãos do STJ português + STS"),
